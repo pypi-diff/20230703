@@ -145,3 +145,36 @@
 [2023-07-03 00:13:48] INFO root fetch - processPackages [headless]: Remove: archive file [/home/abi/fetcher/tmp/headless-2.0.0a9.tar.gz]
 [2023-07-03 00:13:48] INFO root fetch - main [MainThread]: End processing [headless]: success
 [2023-07-03 00:13:48] INFO root fetch - main [MainThread]: Store serial: [18731787]
+[2023-07-03 00:18:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18731787]
+[2023-07-03 00:18:56] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-03 00:18:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: torchshow
+[2023-07-03 00:18:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cici-tools
+[2023-07-03 00:18:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hello-world-sdk
+[2023-07-03 00:18:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aggregate
+[2023-07-03 00:18:56] INFO root fetch - processPackages [cici-tools]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-07-03 00:18:56] INFO root fetch - processPackages [aggregate]: New version: [0.9.6.8] Old Version: [0.9.6.5]
+[2023-07-03 00:18:56] WARNING root fetch - processPackages [hello-world-sdk]: Skipping, unable to determine old version
+[2023-07-03 00:18:56] INFO root fetch - main [MainThread]: End processing [hello-world-sdk] error
+[2023-07-03 00:18:56] INFO root fetch - processPackages [torchshow]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-07-03 00:18:57] INFO root fetch - processPackages [aggregate]: Downloading https://files.pythonhosted.org/packages/a1/2e/4e242c1aea148c7a00311a62a4ce27f9f31388bd67bd1b41b501879fbd6d/aggregate-0.9.6.5.tar.gz
+[2023-07-03 00:18:57] INFO root fetch - processPackages [torchshow]: Downloading https://files.pythonhosted.org/packages/f5/4b/5eb10906e10f237004be8eef5ba2f684bd98c460d1440958be29f813b15a/torchshow-0.5.0.tar.gz
+[2023-07-03 00:18:57] INFO root fetch - processPackages [cici-tools]: Downloading https://files.pythonhosted.org/packages/39/1b/ee91aac818e876548b9922ebd6c9e61e2b4bed48dc954c21b8e800455445/cici-tools-0.2.4.tar.gz
+[2023-07-03 00:18:57] INFO root fetch - processPackages [cici-tools]: Downloading https://files.pythonhosted.org/packages/14/f4/43ab131385f4830868a7c55125da9d811577cb53706d348923f4b2d5fb06/cici-tools-0.2.5.tar.gz
+[2023-07-03 00:18:57] INFO root fetch - processPackages [aggregate]: Downloading https://files.pythonhosted.org/packages/1c/1c/8b870217624ab1debcc4bfab850525095bd82c0d23359788efb2af71306b/aggregate-0.9.6.8.tar.gz
+[2023-07-03 00:18:57] INFO root fetch - processPackages [torchshow]: Downloading https://files.pythonhosted.org/packages/87/ef/4c3d5705aa9f884cc75d72e704eeea4f68ccefa7cdcbcb7d43766a2ece5b/torchshow-0.5.1.tar.gz
+[2023-07-03 00:18:57] INFO root fetch - processPackages [aggregate]: executing diffoscope
+[2023-07-03 00:18:57] INFO root fetch - processPackages [aggregate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aggregate-0.9.6.5.tar.gz tmp/aggregate-0.9.6.8.tar.gz --markdown 20230703/a/aggregate/0.9.6.5-0.9.6.8/diff.md --exclude *.pyd
+[2023-07-03 00:18:57] INFO root fetch - processPackages [torchshow]: executing diffoscope
+[2023-07-03 00:18:57] INFO root fetch - processPackages [torchshow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchshow-0.5.0.tar.gz tmp/torchshow-0.5.1.tar.gz --markdown 20230703/t/torchshow/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-07-03 00:18:57] INFO root fetch - processPackages [cici-tools]: executing diffoscope
+[2023-07-03 00:18:57] INFO root fetch - processPackages [cici-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cici-tools-0.2.4.tar.gz tmp/cici-tools-0.2.5.tar.gz --markdown 20230703/c/cici-tools/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-07-03 00:18:58] INFO root fetch - processPackages [torchshow]: Remove: archive file [/home/abi/fetcher/tmp/torchshow-0.5.0.tar.gz]
+[2023-07-03 00:18:58] INFO root fetch - processPackages [torchshow]: Remove: archive file [/home/abi/fetcher/tmp/torchshow-0.5.1.tar.gz]
+[2023-07-03 00:18:58] INFO root fetch - main [MainThread]: End processing [torchshow]: success
+[2023-07-03 00:18:58] INFO root fetch - processPackages [cici-tools]: Remove: archive file [/home/abi/fetcher/tmp/cici-tools-0.2.4.tar.gz]
+[2023-07-03 00:18:58] INFO root fetch - processPackages [cici-tools]: Remove: archive file [/home/abi/fetcher/tmp/cici-tools-0.2.5.tar.gz]
+[2023-07-03 00:18:58] INFO root fetch - main [MainThread]: End processing [cici-tools]: success
+[2023-07-03 00:18:59] INFO root fetch - processPackages [aggregate]: Remove: archive file [/home/abi/fetcher/tmp/aggregate-0.9.6.5.tar.gz]
+[2023-07-03 00:18:59] INFO root fetch - processPackages [aggregate]: Remove: archive file [/home/abi/fetcher/tmp/aggregate-0.9.6.8.tar.gz]
+[2023-07-03 00:18:59] INFO root fetch - main [MainThread]: End processing [aggregate]: success
+[2023-07-03 00:18:59] INFO root fetch - main [MainThread]: Store serial: [18731801]
