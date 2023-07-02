@@ -751,3 +751,45 @@
 [2023-07-03 01:17:23] INFO root fetch - processPackages [watchgha]: Remove: archive file [/home/abi/fetcher/tmp/watchgha-2.0.0.tar.gz]
 [2023-07-03 01:17:23] INFO root fetch - main [MainThread]: End processing [watchgha]: success
 [2023-07-03 01:17:23] INFO root fetch - main [MainThread]: Store serial: [18732066]
+[2023-07-03 01:22:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18732066]
+[2023-07-03 01:22:32] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-03 01:22:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pytorch-perf
+[2023-07-03 01:22:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: superagent-py
+[2023-07-03 01:22:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: q2db
+[2023-07-03 01:22:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: msglib
+[2023-07-03 01:22:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: spice-agent
+[2023-07-03 01:22:32] INFO root fetch - processPackages [superagent-py]: New version: [0.0.28] Old Version: [0.0.27]
+[2023-07-03 01:22:32] WARNING root fetch - processPackages [pytorch-perf]: Skipping, unable to determine old version
+[2023-07-03 01:22:32] INFO root fetch - main [MainThread]: End processing [pytorch-perf] error
+[2023-07-03 01:22:32] INFO root fetch - processPackages [spice-agent]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-03 01:22:32] INFO root fetch - processPackages [msglib]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-07-03 01:22:32] INFO root fetch - processPackages [q2db]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-03 01:22:32] INFO root fetch - processPackages [spice-agent]: Downloading https://files.pythonhosted.org/packages/af/01/6d96f18c958b47875f4fc671c4b33a6a56f09283b302ec8f7cd776bb06db/spice_agent-0.1.0.tar.gz
+[2023-07-03 01:22:32] INFO root fetch - processPackages [superagent-py]: Downloading https://files.pythonhosted.org/packages/99/2c/f602bea5ed044eca8c79323876fde82334d231bc693396d108734fd3b59f/superagent_py-0.0.27.tar.gz
+[2023-07-03 01:22:32] INFO root fetch - processPackages [spice-agent]: Downloading https://files.pythonhosted.org/packages/1d/cd/a7c542411519c2f42162c3bcb1aab580bcfb3424f9156d35e0234f5d7ba8/spice_agent-0.1.1.tar.gz
+[2023-07-03 01:22:32] INFO root fetch - processPackages [q2db]: Downloading https://files.pythonhosted.org/packages/17/38/79b233e045a339bde6d7f5231ab1078cdf7c948755cd92294ac52862b3f8/q2db-0.1.8.tar.gz
+[2023-07-03 01:22:32] INFO root fetch - processPackages [msglib]: Downloading https://files.pythonhosted.org/packages/1d/b7/9314e9fc4a9dfb7f81052dd0a8a1d9cd1669fc5367b8f1494db55c4a1ff8/msglib-0.1.0.tar.gz
+[2023-07-03 01:22:32] INFO root fetch - processPackages [spice-agent]: executing diffoscope
+[2023-07-03 01:22:32] INFO root fetch - processPackages [spice-agent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spice_agent-0.1.0.tar.gz tmp/spice_agent-0.1.1.tar.gz --markdown 20230703/s/spice-agent/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-03 01:22:32] INFO root fetch - processPackages [superagent-py]: Downloading https://files.pythonhosted.org/packages/f7/f0/c6ff6d1c6c1dbf33a3c568ff4cfa8a047de136d5dd0247bd2b69ba862ece/superagent_py-0.0.28.tar.gz
+[2023-07-03 01:22:33] INFO root fetch - processPackages [superagent-py]: executing diffoscope
+[2023-07-03 01:22:33] INFO root fetch - processPackages [superagent-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/superagent_py-0.0.27.tar.gz tmp/superagent_py-0.0.28.tar.gz --markdown 20230703/s/superagent-py/0.0.27-0.0.28/diff.md --exclude *.pyd
+[2023-07-03 01:22:33] INFO root fetch - processPackages [q2db]: Downloading https://files.pythonhosted.org/packages/5f/ad/9e4d5db2bcb37b0ac45071edbac7a5449963193849b9df003b9586649cf9/q2db-0.1.9.tar.gz
+[2023-07-03 01:22:33] INFO root fetch - processPackages [msglib]: Downloading https://files.pythonhosted.org/packages/25/86/28dc46baccd6b4d7693a4c5d4905a770377a2cecf86fd657cff02ff61e4e/msglib-0.2.0.tar.gz
+[2023-07-03 01:22:33] INFO root fetch - processPackages [msglib]: executing diffoscope
+[2023-07-03 01:22:33] INFO root fetch - processPackages [msglib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/msglib-0.1.0.tar.gz tmp/msglib-0.2.0.tar.gz --markdown 20230703/m/msglib/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-07-03 01:22:33] INFO root fetch - processPackages [q2db]: executing diffoscope
+[2023-07-03 01:22:33] INFO root fetch - processPackages [q2db]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/q2db-0.1.8.tar.gz tmp/q2db-0.1.9.tar.gz --markdown 20230703/q/q2db/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-03 01:22:34] INFO root fetch - processPackages [spice-agent]: Remove: archive file [/home/abi/fetcher/tmp/spice_agent-0.1.0.tar.gz]
+[2023-07-03 01:22:34] INFO root fetch - processPackages [spice-agent]: Remove: archive file [/home/abi/fetcher/tmp/spice_agent-0.1.1.tar.gz]
+[2023-07-03 01:22:34] INFO root fetch - main [MainThread]: End processing [spice-agent]: success
+[2023-07-03 01:22:34] INFO root fetch - processPackages [msglib]: Remove: archive file [/home/abi/fetcher/tmp/msglib-0.1.0.tar.gz]
+[2023-07-03 01:22:34] INFO root fetch - processPackages [msglib]: Remove: archive file [/home/abi/fetcher/tmp/msglib-0.2.0.tar.gz]
+[2023-07-03 01:22:34] INFO root fetch - main [MainThread]: End processing [msglib]: success
+[2023-07-03 01:22:34] INFO root fetch - processPackages [superagent-py]: Remove: archive file [/home/abi/fetcher/tmp/superagent_py-0.0.27.tar.gz]
+[2023-07-03 01:22:34] INFO root fetch - processPackages [superagent-py]: Remove: archive file [/home/abi/fetcher/tmp/superagent_py-0.0.28.tar.gz]
+[2023-07-03 01:22:34] INFO root fetch - main [MainThread]: End processing [superagent-py]: success
+[2023-07-03 01:22:34] INFO root fetch - processPackages [q2db]: Remove: archive file [/home/abi/fetcher/tmp/q2db-0.1.8.tar.gz]
+[2023-07-03 01:22:34] INFO root fetch - processPackages [q2db]: Remove: archive file [/home/abi/fetcher/tmp/q2db-0.1.9.tar.gz]
+[2023-07-03 01:22:34] INFO root fetch - main [MainThread]: End processing [q2db]: success
+[2023-07-03 01:22:34] INFO root fetch - main [MainThread]: Store serial: [18732083]
