@@ -880,3 +880,18 @@
 [2023-07-03 01:32:56] INFO root fetch - processPackages [pciSeq]: Remove: archive file [/home/abi/fetcher/tmp/pciSeq-0.0.53-py3-none-any.whl.zip]
 [2023-07-03 01:32:56] INFO root fetch - main [MainThread]: End processing [pciSeq]: success
 [2023-07-03 01:32:56] INFO root fetch - main [MainThread]: Store serial: [18732108]
+[2023-07-03 01:38:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18732108]
+[2023-07-03 01:38:05] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-07-03 01:38:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jsonjavascriptnotation
+[2023-07-03 01:38:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ez-a-sync
+[2023-07-03 01:38:05] INFO root fetch - processPackages [ez-a-sync]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-07-03 01:38:05] WARNING root fetch - processPackages [jsonjavascriptnotation]: Skipping, unable to determine old version
+[2023-07-03 01:38:05] INFO root fetch - main [MainThread]: End processing [jsonjavascriptnotation] error
+[2023-07-03 01:38:05] INFO root fetch - processPackages [ez-a-sync]: Downloading https://files.pythonhosted.org/packages/b1/99/06935dc00e7e7f0bdaa351e0d20800f62e1eb3a574ea3f34c23fef9575e0/ez-a-sync-0.5.0.tar.gz
+[2023-07-03 01:38:05] INFO root fetch - processPackages [ez-a-sync]: Downloading https://files.pythonhosted.org/packages/43/08/c1007420046d1180c940241f2e0e1b5bae9031d7678cd5c29cb50fe7e667/ez-a-sync-0.5.1.tar.gz
+[2023-07-03 01:38:05] INFO root fetch - processPackages [ez-a-sync]: executing diffoscope
+[2023-07-03 01:38:05] INFO root fetch - processPackages [ez-a-sync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ez-a-sync-0.5.0.tar.gz tmp/ez-a-sync-0.5.1.tar.gz --markdown 20230703/e/ez-a-sync/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-07-03 01:38:06] INFO root fetch - processPackages [ez-a-sync]: Remove: archive file [/home/abi/fetcher/tmp/ez-a-sync-0.5.0.tar.gz]
+[2023-07-03 01:38:06] INFO root fetch - processPackages [ez-a-sync]: Remove: archive file [/home/abi/fetcher/tmp/ez-a-sync-0.5.1.tar.gz]
+[2023-07-03 01:38:06] INFO root fetch - main [MainThread]: End processing [ez-a-sync]: success
+[2023-07-03 01:38:06] INFO root fetch - main [MainThread]: Store serial: [18732114]
