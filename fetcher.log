@@ -850,3 +850,33 @@
 [2023-07-03 01:27:45] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-0.7.1.dev15.tar.gz]
 [2023-07-03 01:27:45] INFO root fetch - main [MainThread]: End processing [khoj-assistant]: success
 [2023-07-03 01:27:45] INFO root fetch - main [MainThread]: Store serial: [18732100]
+[2023-07-03 01:32:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18732100]
+[2023-07-03 01:32:54] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-07-03 01:32:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: render-engine-youtube-embed
+[2023-07-03 01:32:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pciSeq
+[2023-07-03 01:32:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: typed-envs
+[2023-07-03 01:32:54] INFO root fetch - processPackages [pciSeq]: New version: [0.0.53] Old Version: [0.0.52rc1.dev0]
+[2023-07-03 01:32:54] INFO root fetch - processPackages [render-engine-youtube-embed]: New version: [2023.7.2a1] Old Version: [2023.7.1]
+[2023-07-03 01:32:54] INFO root fetch - processPackages [typed-envs]: New version: [0.0.2] Old Version: [0.0.1.dev2]
+[2023-07-03 01:32:54] INFO root fetch - processPackages [render-engine-youtube-embed]: Downloading https://files.pythonhosted.org/packages/32/3c/c8827e39a37518512b26d555a3eb34ab83b10599e0ed54d8f96f6f5348fb/render_engine_youtube_embed-2023.7.1.tar.gz
+[2023-07-03 01:32:54] INFO root fetch - processPackages [pciSeq]: Downloading https://files.pythonhosted.org/packages/48/fd/03eaaf38e42bd79add484d7a4c047ab231515a7352b0a1c9f8066ab60141/pciSeq-0.0.52rc1.dev0-py3-none-any.whl
+[2023-07-03 01:32:54] INFO root fetch - processPackages [typed-envs]: Downloading https://files.pythonhosted.org/packages/7e/8f/8ae29d64f5d3a46a60b01318b9862af833d53f153bc1d7a8afdaf4bf887d/typed_envs-0.0.1.dev2-py3-none-any.whl
+[2023-07-03 01:32:54] INFO root fetch - processPackages [render-engine-youtube-embed]: Downloading https://files.pythonhosted.org/packages/2e/b3/47367b1bd154879f52668004258b75e15ce9ea6284c15cfb5fa6023adc07/render_engine_youtube_embed-2023.7.2a1.tar.gz
+[2023-07-03 01:32:54] INFO root fetch - processPackages [typed-envs]: Downloading https://files.pythonhosted.org/packages/6b/93/1f62547d170ac925631c42289a1fd7d682e0c134bee9fb04882fe61cbda1/typed-envs-0.0.2.tar.gz
+[2023-07-03 01:32:54] INFO root fetch - processPackages [render-engine-youtube-embed]: executing diffoscope
+[2023-07-03 01:32:54] INFO root fetch - processPackages [render-engine-youtube-embed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/render_engine_youtube_embed-2023.7.1.tar.gz tmp/render_engine_youtube_embed-2023.7.2a1.tar.gz --markdown 20230703/r/render-engine-youtube-embed/2023.7.1-2023.7.2a1/diff.md --exclude *.pyd
+[2023-07-03 01:32:54] INFO root fetch - processPackages [typed-envs]: executing diffoscope
+[2023-07-03 01:32:54] INFO root fetch - processPackages [typed-envs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/typed_envs-0.0.1.dev2-py3-none-any.whl.zip tmp/typed-envs-0.0.2.tar.gz --markdown 20230703/t/typed-envs/0.0.1.dev2-0.0.2/diff.md --exclude *.pyd
+[2023-07-03 01:32:54] INFO root fetch - processPackages [pciSeq]: Downloading https://files.pythonhosted.org/packages/dd/17/50679dfdd3a3671c035ea2e3ac845a4875cc35e04c70164bed5419411a0d/pciSeq-0.0.53-py3-none-any.whl
+[2023-07-03 01:32:55] INFO root fetch - processPackages [pciSeq]: executing diffoscope
+[2023-07-03 01:32:55] INFO root fetch - processPackages [pciSeq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pciSeq-0.0.52rc1.dev0-py3-none-any.whl.zip tmp/pciSeq-0.0.53-py3-none-any.whl.zip --markdown 20230703/p/pciSeq/0.0.52rc1.dev0-0.0.53/diff.md --exclude *.pyd
+[2023-07-03 01:32:55] INFO root fetch - processPackages [typed-envs]: Remove: archive file [/home/abi/fetcher/tmp/typed_envs-0.0.1.dev2-py3-none-any.whl.zip]
+[2023-07-03 01:32:55] INFO root fetch - processPackages [typed-envs]: Remove: archive file [/home/abi/fetcher/tmp/typed-envs-0.0.2.tar.gz]
+[2023-07-03 01:32:55] INFO root fetch - main [MainThread]: End processing [typed-envs]: success
+[2023-07-03 01:32:55] INFO root fetch - processPackages [render-engine-youtube-embed]: Remove: archive file [/home/abi/fetcher/tmp/render_engine_youtube_embed-2023.7.1.tar.gz]
+[2023-07-03 01:32:55] INFO root fetch - processPackages [render-engine-youtube-embed]: Remove: archive file [/home/abi/fetcher/tmp/render_engine_youtube_embed-2023.7.2a1.tar.gz]
+[2023-07-03 01:32:55] INFO root fetch - main [MainThread]: End processing [render-engine-youtube-embed]: success
+[2023-07-03 01:32:56] INFO root fetch - processPackages [pciSeq]: Remove: archive file [/home/abi/fetcher/tmp/pciSeq-0.0.52rc1.dev0-py3-none-any.whl.zip]
+[2023-07-03 01:32:56] INFO root fetch - processPackages [pciSeq]: Remove: archive file [/home/abi/fetcher/tmp/pciSeq-0.0.53-py3-none-any.whl.zip]
+[2023-07-03 01:32:56] INFO root fetch - main [MainThread]: End processing [pciSeq]: success
+[2023-07-03 01:32:56] INFO root fetch - main [MainThread]: Store serial: [18732108]
