@@ -208,3 +208,27 @@
 [2023-07-03 00:25:05] INFO root fetch - processPackages [hyperelastic]: Remove: archive file [/home/abi/fetcher/tmp/hyperelastic-0.1.0.tar.gz]
 [2023-07-03 00:25:05] INFO root fetch - main [MainThread]: End processing [hyperelastic]: success
 [2023-07-03 00:25:05] INFO root fetch - main [MainThread]: Store serial: [18731810]
+[2023-07-03 00:30:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18731810]
+[2023-07-03 00:30:14] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-07-03 00:30:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: QualysPy
+[2023-07-03 00:30:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: epyk
+[2023-07-03 00:30:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pWebServer
+[2023-07-03 00:30:14] WARNING root fetch - processPackages [pWebServer]: Skipping, unable to determine old version
+[2023-07-03 00:30:14] INFO root fetch - main [MainThread]: End processing [pWebServer] error
+[2023-07-03 00:30:14] INFO root fetch - processPackages [QualysPy]: New version: [0.3.9.6] Old Version: [0.3.9.5]
+[2023-07-03 00:30:14] INFO root fetch - processPackages [epyk]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-07-03 00:30:14] INFO root fetch - processPackages [epyk]: Downloading https://files.pythonhosted.org/packages/2b/b7/d8534d999b9d58a4412b4db34fefcdfbe6c581e844864d76492fdcb43548/epyk-1.9.8-py3-none-any.whl
+[2023-07-03 00:30:14] INFO root fetch - processPackages [QualysPy]: Downloading https://files.pythonhosted.org/packages/ee/b0/291064ecd4befaf4e4c203ab95edf3afe3bcc87cbc40975bcb8bdf9e83ee/qualyspy-0.3.9.5.tar.gz
+[2023-07-03 00:30:14] INFO root fetch - processPackages [QualysPy]: Downloading https://files.pythonhosted.org/packages/de/e2/e21670564f5f8d32740de29c9a4e3bb1858cc4cc6fa0b8ecf16fc3bc11ab/qualyspy-0.3.9.6.tar.gz
+[2023-07-03 00:30:15] INFO root fetch - processPackages [QualysPy]: executing diffoscope
+[2023-07-03 00:30:15] INFO root fetch - processPackages [QualysPy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qualyspy-0.3.9.5.tar.gz tmp/qualyspy-0.3.9.6.tar.gz --markdown 20230703/Q/QualysPy/0.3.9.5-0.3.9.6/diff.md --exclude *.pyd
+[2023-07-03 00:30:15] INFO root fetch - processPackages [epyk]: Downloading https://files.pythonhosted.org/packages/16/be/cd2f93881ffe92a847a9cfff5f05b11b2f5cd93f2b1c552a7982a06aab4e/epyk-1.9.9-py3-none-any.whl
+[2023-07-03 00:30:15] INFO root fetch - processPackages [epyk]: executing diffoscope
+[2023-07-03 00:30:15] INFO root fetch - processPackages [epyk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/epyk-1.9.8-py3-none-any.whl.zip tmp/epyk-1.9.9-py3-none-any.whl.zip --markdown 20230703/e/epyk/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-07-03 00:30:16] INFO root fetch - processPackages [QualysPy]: Remove: archive file [/home/abi/fetcher/tmp/qualyspy-0.3.9.5.tar.gz]
+[2023-07-03 00:30:16] INFO root fetch - processPackages [QualysPy]: Remove: archive file [/home/abi/fetcher/tmp/qualyspy-0.3.9.6.tar.gz]
+[2023-07-03 00:30:16] INFO root fetch - main [MainThread]: End processing [QualysPy]: success
+[2023-07-03 00:30:25] INFO root fetch - processPackages [epyk]: Remove: archive file [/home/abi/fetcher/tmp/epyk-1.9.8-py3-none-any.whl.zip]
+[2023-07-03 00:30:25] INFO root fetch - processPackages [epyk]: Remove: archive file [/home/abi/fetcher/tmp/epyk-1.9.9-py3-none-any.whl.zip]
+[2023-07-03 00:30:25] INFO root fetch - main [MainThread]: End processing [epyk]: success
+[2023-07-03 00:30:25] INFO root fetch - main [MainThread]: Store serial: [18731820]
