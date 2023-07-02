@@ -232,3 +232,24 @@
 [2023-07-03 00:30:25] INFO root fetch - processPackages [epyk]: Remove: archive file [/home/abi/fetcher/tmp/epyk-1.9.9-py3-none-any.whl.zip]
 [2023-07-03 00:30:25] INFO root fetch - main [MainThread]: End processing [epyk]: success
 [2023-07-03 00:30:25] INFO root fetch - main [MainThread]: Store serial: [18731820]
+[2023-07-03 00:35:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18731820]
+[2023-07-03 00:35:34] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-07-03 00:35:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hyperelastic
+[2023-07-03 00:35:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ovos-config
+[2023-07-03 00:35:34] INFO root fetch - processPackages [hyperelastic]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-03 00:35:34] INFO root fetch - processPackages [ovos-config]: New version: [0.0.9a6] Old Version: [0.0.9a5]
+[2023-07-03 00:35:34] INFO root fetch - processPackages [hyperelastic]: Downloading https://files.pythonhosted.org/packages/70/87/a2551f95ea77297ac21f74dabc268ce3fb8c67da236821e273165447924e/hyperelastic-0.1.0.tar.gz
+[2023-07-03 00:35:34] INFO root fetch - processPackages [ovos-config]: Downloading https://files.pythonhosted.org/packages/00/40/2f28776213f8846271bcb0c5acad044cbf7340e248c1efa2b99332b69afd/ovos-config-0.0.9a5.tar.gz
+[2023-07-03 00:35:34] INFO root fetch - processPackages [hyperelastic]: Downloading https://files.pythonhosted.org/packages/06/63/e75d2bea2b8d81044db03394faf7d71748beb4caf213a9cb07a008649807/hyperelastic-0.1.1.tar.gz
+[2023-07-03 00:35:34] INFO root fetch - processPackages [hyperelastic]: executing diffoscope
+[2023-07-03 00:35:34] INFO root fetch - processPackages [hyperelastic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyperelastic-0.1.0.tar.gz tmp/hyperelastic-0.1.1.tar.gz --markdown 20230703/h/hyperelastic/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-03 00:35:35] INFO root fetch - processPackages [ovos-config]: Downloading https://files.pythonhosted.org/packages/0e/27/fd24bba7718bf24f47e35b7dc41763dba65d64a2e20b8107759d62108d7b/ovos-config-0.0.9a6.tar.gz
+[2023-07-03 00:35:35] INFO root fetch - processPackages [ovos-config]: executing diffoscope
+[2023-07-03 00:35:35] INFO root fetch - processPackages [ovos-config]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ovos-config-0.0.9a5.tar.gz tmp/ovos-config-0.0.9a6.tar.gz --markdown 20230703/o/ovos-config/0.0.9a5-0.0.9a6/diff.md --exclude *.pyd
+[2023-07-03 00:35:35] INFO root fetch - processPackages [hyperelastic]: Remove: archive file [/home/abi/fetcher/tmp/hyperelastic-0.1.0.tar.gz]
+[2023-07-03 00:35:35] INFO root fetch - processPackages [hyperelastic]: Remove: archive file [/home/abi/fetcher/tmp/hyperelastic-0.1.1.tar.gz]
+[2023-07-03 00:35:35] INFO root fetch - main [MainThread]: End processing [hyperelastic]: success
+[2023-07-03 00:35:36] INFO root fetch - processPackages [ovos-config]: Remove: archive file [/home/abi/fetcher/tmp/ovos-config-0.0.9a5.tar.gz]
+[2023-07-03 00:35:36] INFO root fetch - processPackages [ovos-config]: Remove: archive file [/home/abi/fetcher/tmp/ovos-config-0.0.9a6.tar.gz]
+[2023-07-03 00:35:36] INFO root fetch - main [MainThread]: End processing [ovos-config]: success
+[2023-07-03 00:35:36] INFO root fetch - main [MainThread]: Store serial: [18731826]
