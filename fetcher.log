@@ -499,3 +499,48 @@
 [2023-07-03 01:01:41] INFO root fetch - processPackages [opticalglass]: Remove: archive file [/home/abi/fetcher/tmp/opticalglass-1.0.7.tar.gz]
 [2023-07-03 01:01:41] INFO root fetch - main [MainThread]: End processing [opticalglass]: success
 [2023-07-03 01:01:41] INFO root fetch - main [MainThread]: Store serial: [18731948]
+[2023-07-03 01:06:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18731948]
+[2023-07-03 01:06:49] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-03 01:06:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tmnt-cu101
+[2023-07-03 01:06:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: supercov
+[2023-07-03 01:06:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tmnt
+[2023-07-03 01:06:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: havenpy
+[2023-07-03 01:06:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pytest-supercov
+[2023-07-03 01:06:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: robino
+[2023-07-03 01:06:50] WARNING root fetch - processPackages [pytest-supercov]: Skipping, unable to determine old version
+[2023-07-03 01:06:50] INFO root fetch - main [MainThread]: End processing [pytest-supercov] error
+[2023-07-03 01:06:50] INFO root fetch - processPackages [havenpy]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-03 01:06:50] INFO root fetch - processPackages [robino]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-03 01:06:50] ERROR root fetch - processPackages [supercov]: Unable to get metadata: No such project 'supercov'
+[2023-07-03 01:06:50] INFO root fetch - main [MainThread]: End processing [supercov] error
+[2023-07-03 01:06:50] INFO root fetch - processPackages [tmnt-cu101]: New version: [0.7.0b20230702] Old Version: [0.7.0b20230701]
+[2023-07-03 01:06:50] INFO root fetch - processPackages [tmnt]: New version: [0.7.0b20230702] Old Version: [0.7.0b20230701]
+[2023-07-03 01:06:50] INFO root fetch - processPackages [tmnt-cu101]: Downloading https://files.pythonhosted.org/packages/af/f9/80f5c9814b67e4ae0dfb8a2f9aa9e982d80d4f6d1b02c9705245d2122285/tmnt-cu101-0.7.0b20230701.tar.gz
+[2023-07-03 01:06:50] INFO root fetch - processPackages [robino]: Downloading https://files.pythonhosted.org/packages/84/6d/6db1cc365bab4c5dd551bf49bfdb03901b61ca1d50a8e59f5131494e8821/robino-1.0.0.tar.gz
+[2023-07-03 01:06:50] INFO root fetch - processPackages [havenpy]: Downloading https://files.pythonhosted.org/packages/cf/57/d04aa75820937f23e9fdf738bfae61f1df51aad42f04c7eaa9027f4a1515/havenpy-0.0.4.tar.gz
+[2023-07-03 01:06:50] INFO root fetch - processPackages [tmnt]: Downloading https://files.pythonhosted.org/packages/ee/9b/fdcc79459c4932a037e11368089f631ba73987db77493f2729226fb2e7e6/tmnt-0.7.0b20230701.tar.gz
+[2023-07-03 01:06:50] INFO root fetch - processPackages [tmnt-cu101]: Downloading https://files.pythonhosted.org/packages/9a/1f/ad4e5694b3d3ea81b7fc152233dcb59ac8aaeca17407de4f42a9fb1ae7f7/tmnt-cu101-0.7.0b20230702.tar.gz
+[2023-07-03 01:06:50] INFO root fetch - processPackages [robino]: Downloading https://files.pythonhosted.org/packages/6e/b6/573f594e06715b7fb00ab6c17bd86d9e21e1e2332aaa2df47ba742c9a84d/robino-1.0.1.tar.gz
+[2023-07-03 01:06:50] INFO root fetch - processPackages [havenpy]: Downloading https://files.pythonhosted.org/packages/29/b9/4f6f479cded0061e0fa156f7eadb7b88b9611d9fd5fbe9c881de53c381b9/havenpy-0.0.5.tar.gz
+[2023-07-03 01:06:50] INFO root fetch - processPackages [robino]: executing diffoscope
+[2023-07-03 01:06:50] INFO root fetch - processPackages [robino]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robino-1.0.0.tar.gz tmp/robino-1.0.1.tar.gz --markdown 20230703/r/robino/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-03 01:06:50] INFO root fetch - processPackages [havenpy]: executing diffoscope
+[2023-07-03 01:06:50] INFO root fetch - processPackages [havenpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/havenpy-0.0.4.tar.gz tmp/havenpy-0.0.5.tar.gz --markdown 20230703/h/havenpy/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-03 01:06:50] INFO root fetch - processPackages [tmnt-cu101]: executing diffoscope
+[2023-07-03 01:06:50] INFO root fetch - processPackages [tmnt-cu101]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmnt-cu101-0.7.0b20230701.tar.gz tmp/tmnt-cu101-0.7.0b20230702.tar.gz --markdown 20230703/t/tmnt-cu101/0.7.0b20230701-0.7.0b20230702/diff.md --exclude *.pyd
+[2023-07-03 01:06:50] INFO root fetch - processPackages [tmnt]: Downloading https://files.pythonhosted.org/packages/d9/35/db43106c789e86353ba0cbf6ceed9219d68982cabc05c60913a048c4d9c7/tmnt-0.7.0b20230702.tar.gz
+[2023-07-03 01:06:50] INFO root fetch - processPackages [tmnt]: executing diffoscope
+[2023-07-03 01:06:50] INFO root fetch - processPackages [tmnt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmnt-0.7.0b20230701.tar.gz tmp/tmnt-0.7.0b20230702.tar.gz --markdown 20230703/t/tmnt/0.7.0b20230701-0.7.0b20230702/diff.md --exclude *.pyd
+[2023-07-03 01:06:51] INFO root fetch - processPackages [havenpy]: Remove: archive file [/home/abi/fetcher/tmp/havenpy-0.0.4.tar.gz]
+[2023-07-03 01:06:51] INFO root fetch - processPackages [robino]: Remove: archive file [/home/abi/fetcher/tmp/robino-1.0.0.tar.gz]
+[2023-07-03 01:06:51] INFO root fetch - processPackages [havenpy]: Remove: archive file [/home/abi/fetcher/tmp/havenpy-0.0.5.tar.gz]
+[2023-07-03 01:06:51] INFO root fetch - processPackages [robino]: Remove: archive file [/home/abi/fetcher/tmp/robino-1.0.1.tar.gz]
+[2023-07-03 01:06:51] INFO root fetch - main [MainThread]: End processing [havenpy]: success
+[2023-07-03 01:06:51] INFO root fetch - main [MainThread]: End processing [robino]: success
+[2023-07-03 01:06:51] INFO root fetch - processPackages [tmnt-cu101]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-cu101-0.7.0b20230701.tar.gz]
+[2023-07-03 01:06:51] INFO root fetch - processPackages [tmnt-cu101]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-cu101-0.7.0b20230702.tar.gz]
+[2023-07-03 01:06:51] INFO root fetch - main [MainThread]: End processing [tmnt-cu101]: success
+[2023-07-03 01:06:51] INFO root fetch - processPackages [tmnt]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-0.7.0b20230701.tar.gz]
+[2023-07-03 01:06:51] INFO root fetch - processPackages [tmnt]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-0.7.0b20230702.tar.gz]
+[2023-07-03 01:06:51] INFO root fetch - main [MainThread]: End processing [tmnt]: success
+[2023-07-03 01:06:51] INFO root fetch - main [MainThread]: Store serial: [18731977]
