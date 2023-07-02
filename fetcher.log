@@ -76,3 +76,48 @@
 [2023-07-03 00:03:25] INFO root fetch - processPackages [drtools]: Remove: archive file [/home/abi/fetcher/tmp/drtools-1.0.9.tar.gz]
 [2023-07-03 00:03:25] INFO root fetch - main [MainThread]: End processing [drtools]: success
 [2023-07-03 00:03:25] INFO root fetch - main [MainThread]: Store serial: [18731755]
+[2023-07-03 00:08:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18731755]
+[2023-07-03 00:08:35] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-03 00:08:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: web3mc
+[2023-07-03 00:08:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rest-api-supporter
+[2023-07-03 00:08:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fast-webflow
+[2023-07-03 00:08:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: scoobi
+[2023-07-03 00:08:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: skin-tone-classifier
+[2023-07-03 00:08:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hyperelastic
+[2023-07-03 00:08:35] INFO root fetch - processPackages [rest-api-supporter]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-03 00:08:35] WARNING root fetch - processPackages [web3mc]: Skipping, unable to determine old version
+[2023-07-03 00:08:35] INFO root fetch - main [MainThread]: End processing [web3mc] error
+[2023-07-03 00:08:35] INFO root fetch - processPackages [scoobi]: New version: [0.0.1.6] Old Version: [0.0.1.5]
+[2023-07-03 00:08:35] INFO root fetch - processPackages [skin-tone-classifier]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-07-03 00:08:35] WARNING root fetch - processPackages [hyperelastic]: Skipping, unable to determine old version
+[2023-07-03 00:08:35] INFO root fetch - main [MainThread]: End processing [hyperelastic] error
+[2023-07-03 00:08:35] INFO root fetch - processPackages [fast-webflow]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-07-03 00:08:35] INFO root fetch - processPackages [rest-api-supporter]: Downloading https://files.pythonhosted.org/packages/f4/16/0c2fc27776d8257953b960eea527e7f83b54019b51fbb132e634d73c5c0e/rest-api-supporter-0.0.8.tar.gz
+[2023-07-03 00:08:35] INFO root fetch - processPackages [scoobi]: Downloading https://files.pythonhosted.org/packages/ee/5a/b5416fda04082e89e92cfe83d62f0742efe39a7701636c2af0e075b6446e/scoobi-0.0.1.5.tar.gz
+[2023-07-03 00:08:35] INFO root fetch - processPackages [skin-tone-classifier]: Downloading https://files.pythonhosted.org/packages/3a/76/6751104423c2f8e63f86611b968e8abae6ce314461dc08ae2b3241ed2917/skin-tone-classifier-0.2.1.tar.gz
+[2023-07-03 00:08:35] INFO root fetch - processPackages [fast-webflow]: Downloading https://files.pythonhosted.org/packages/09/26/383a98c169f13e73e7f728ecf906fa316f65f64cfd5809fec85a37db48bf/fast-webflow-0.3.2.tar.gz
+[2023-07-03 00:08:35] INFO root fetch - processPackages [rest-api-supporter]: Downloading https://files.pythonhosted.org/packages/35/47/76da32bcf0507aa9dbf370e1c9e91408c29a80232299067f97883d4ef255/rest-api-supporter-0.0.9.tar.gz
+[2023-07-03 00:08:36] INFO root fetch - processPackages [rest-api-supporter]: executing diffoscope
+[2023-07-03 00:08:36] INFO root fetch - processPackages [rest-api-supporter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rest-api-supporter-0.0.8.tar.gz tmp/rest-api-supporter-0.0.9.tar.gz --markdown 20230703/r/rest-api-supporter/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-03 00:08:36] INFO root fetch - processPackages [scoobi]: Downloading https://files.pythonhosted.org/packages/a6/97/81bdfe6ba1cfd308d63ac67fb0db0d6603fd8959d0d1e6886a892447b403/scoobi-0.0.1.6.tar.gz
+[2023-07-03 00:08:36] INFO root fetch - processPackages [fast-webflow]: Downloading https://files.pythonhosted.org/packages/06/a5/4eb5486b258be64fcce63099be76a8148b376f21577e234b6bbe4d7b5b1d/fast-webflow-0.3.3.tar.gz
+[2023-07-03 00:08:36] INFO root fetch - processPackages [skin-tone-classifier]: Downloading https://files.pythonhosted.org/packages/45/18/f7d1f3a1f9a377eb4da3237846bc29fda5e64a3fcac90ab907165704daad/skin-tone-classifier-0.2.2.tar.gz
+[2023-07-03 00:08:36] INFO root fetch - processPackages [scoobi]: executing diffoscope
+[2023-07-03 00:08:36] INFO root fetch - processPackages [scoobi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scoobi-0.0.1.5.tar.gz tmp/scoobi-0.0.1.6.tar.gz --markdown 20230703/s/scoobi/0.0.1.5-0.0.1.6/diff.md --exclude *.pyd
+[2023-07-03 00:08:36] INFO root fetch - processPackages [fast-webflow]: executing diffoscope
+[2023-07-03 00:08:36] INFO root fetch - processPackages [fast-webflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fast-webflow-0.3.2.tar.gz tmp/fast-webflow-0.3.3.tar.gz --markdown 20230703/f/fast-webflow/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-07-03 00:08:36] INFO root fetch - processPackages [skin-tone-classifier]: executing diffoscope
+[2023-07-03 00:08:36] INFO root fetch - processPackages [skin-tone-classifier]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skin-tone-classifier-0.2.1.tar.gz tmp/skin-tone-classifier-0.2.2.tar.gz --markdown 20230703/s/skin-tone-classifier/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-07-03 00:08:37] INFO root fetch - processPackages [rest-api-supporter]: Remove: archive file [/home/abi/fetcher/tmp/rest-api-supporter-0.0.8.tar.gz]
+[2023-07-03 00:08:37] INFO root fetch - processPackages [rest-api-supporter]: Remove: archive file [/home/abi/fetcher/tmp/rest-api-supporter-0.0.9.tar.gz]
+[2023-07-03 00:08:37] INFO root fetch - main [MainThread]: End processing [rest-api-supporter]: success
+[2023-07-03 00:08:37] INFO root fetch - processPackages [fast-webflow]: Remove: archive file [/home/abi/fetcher/tmp/fast-webflow-0.3.2.tar.gz]
+[2023-07-03 00:08:37] INFO root fetch - processPackages [fast-webflow]: Remove: archive file [/home/abi/fetcher/tmp/fast-webflow-0.3.3.tar.gz]
+[2023-07-03 00:08:37] INFO root fetch - main [MainThread]: End processing [fast-webflow]: success
+[2023-07-03 00:08:37] INFO root fetch - processPackages [skin-tone-classifier]: Remove: archive file [/home/abi/fetcher/tmp/skin-tone-classifier-0.2.1.tar.gz]
+[2023-07-03 00:08:37] INFO root fetch - processPackages [skin-tone-classifier]: Remove: archive file [/home/abi/fetcher/tmp/skin-tone-classifier-0.2.2.tar.gz]
+[2023-07-03 00:08:37] INFO root fetch - main [MainThread]: End processing [skin-tone-classifier]: success
+[2023-07-03 00:08:37] INFO root fetch - processPackages [scoobi]: Remove: archive file [/home/abi/fetcher/tmp/scoobi-0.0.1.5.tar.gz]
+[2023-07-03 00:08:37] INFO root fetch - processPackages [scoobi]: Remove: archive file [/home/abi/fetcher/tmp/scoobi-0.0.1.6.tar.gz]
+[2023-07-03 00:08:37] INFO root fetch - main [MainThread]: End processing [scoobi]: success
+[2023-07-03 00:08:37] INFO root fetch - main [MainThread]: Store serial: [18731778]
