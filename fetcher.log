@@ -253,3 +253,45 @@
 [2023-07-03 00:35:36] INFO root fetch - processPackages [ovos-config]: Remove: archive file [/home/abi/fetcher/tmp/ovos-config-0.0.9a6.tar.gz]
 [2023-07-03 00:35:36] INFO root fetch - main [MainThread]: End processing [ovos-config]: success
 [2023-07-03 00:35:36] INFO root fetch - main [MainThread]: Store serial: [18731826]
+[2023-07-03 00:40:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18731826]
+[2023-07-03 00:40:46] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-03 00:40:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: robocat
+[2023-07-03 00:40:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: astrotrails
+[2023-07-03 00:40:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bantam
+[2023-07-03 00:40:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sootty
+[2023-07-03 00:40:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bugbug
+[2023-07-03 00:40:46] INFO root fetch - processPackages [sootty]: New version: [1.0] Old Version: [0.3]
+[2023-07-03 00:40:46] WARNING root fetch - processPackages [robocat]: Skipping, unable to determine old version
+[2023-07-03 00:40:46] INFO root fetch - processPackages [astrotrails]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-03 00:40:46] INFO root fetch - main [MainThread]: End processing [robocat] error
+[2023-07-03 00:40:46] INFO root fetch - processPackages [bantam]: New version: [2.4.6] Old Version: [2.4.5]
+[2023-07-03 00:40:46] INFO root fetch - processPackages [bugbug]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-03 00:40:46] INFO root fetch - processPackages [astrotrails]: Downloading https://files.pythonhosted.org/packages/4f/06/dde4a314f06218a317d49af2dc71469f1009d121d8fcd803a26d11bb948e/astrotrails-0.1.0-py3.10.egg
+[2023-07-03 00:40:46] INFO root fetch - processPackages [sootty]: Downloading https://files.pythonhosted.org/packages/3e/e9/9a31710406700a624e0e3b03a2532a06a00e9aac040a7ecc3fa04320f88b/sootty-0.3.tar.gz
+[2023-07-03 00:40:46] INFO root fetch - processPackages [bantam]: Downloading https://files.pythonhosted.org/packages/be/f4/581ee23211a4053ced7fbfb98c5bb2800865f831f89cdd13b33ff7a657b2/bantam-2.4.5.tar.gz
+[2023-07-03 00:40:46] INFO root fetch - processPackages [bugbug]: Downloading https://files.pythonhosted.org/packages/5b/6a/fc99f3a6e09827c698ee6eab2d88fea1cf94e1c6d0f0d04236a834ba423b/bugbug-0.0.98.tar.gz
+[2023-07-03 00:40:46] INFO root fetch - processPackages [astrotrails]: Downloading https://files.pythonhosted.org/packages/b8/19/15003f0b701bd1d7b7be390162df4cd429944a77743111818a15da201cd8/astrotrails-0.1.1-py3.10.egg
+[2023-07-03 00:40:46] INFO root fetch - processPackages [astrotrails]: executing diffoscope
+[2023-07-03 00:40:46] INFO root fetch - processPackages [astrotrails]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/astrotrails-0.1.0-py3.10.egg tmp/astrotrails-0.1.1-py3.10.egg --markdown 20230703/a/astrotrails/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-03 00:40:46] INFO root fetch - processPackages [bantam]: Downloading https://files.pythonhosted.org/packages/f1/8d/ac8edecfe0d365b32b4acdd8338997eab86588a5881d7ac0c3357dd0ed8d/bantam-2.4.6.tar.gz
+[2023-07-03 00:40:46] INFO root fetch - processPackages [sootty]: Downloading https://files.pythonhosted.org/packages/a6/f3/d3ca5883f22923458b1cbe98bee6fb6c0b75235504c1d9d0f193fb217908/sootty-1.0.tar.gz
+[2023-07-03 00:40:46] INFO root fetch - processPackages [bantam]: executing diffoscope
+[2023-07-03 00:40:46] INFO root fetch - processPackages [bantam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bantam-2.4.5.tar.gz tmp/bantam-2.4.6.tar.gz --markdown 20230703/b/bantam/2.4.5-2.4.6/diff.md --exclude *.pyd
+[2023-07-03 00:40:46] INFO root fetch - processPackages [bugbug]: Downloading https://files.pythonhosted.org/packages/1b/68/2d9f5d88a3b137b0acc5c563e30de6711280c6bea1292fb42f4652b41c4b/bugbug-0.0.99.tar.gz
+[2023-07-03 00:40:46] INFO root fetch - processPackages [sootty]: executing diffoscope
+[2023-07-03 00:40:46] INFO root fetch - processPackages [sootty]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sootty-0.3.tar.gz tmp/sootty-1.0.tar.gz --markdown 20230703/s/sootty/0.3-1.0/diff.md --exclude *.pyd
+[2023-07-03 00:40:47] INFO root fetch - processPackages [bugbug]: executing diffoscope
+[2023-07-03 00:40:47] INFO root fetch - processPackages [bugbug]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bugbug-0.0.98.tar.gz tmp/bugbug-0.0.99.tar.gz --markdown 20230703/b/bugbug/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-03 00:40:47] INFO root fetch - processPackages [astrotrails]: Remove: archive file [/home/abi/fetcher/tmp/astrotrails-0.1.0-py3.10.egg]
+[2023-07-03 00:40:47] INFO root fetch - processPackages [astrotrails]: Remove: archive file [/home/abi/fetcher/tmp/astrotrails-0.1.1-py3.10.egg]
+[2023-07-03 00:40:47] INFO root fetch - main [MainThread]: End processing [astrotrails]: success
+[2023-07-03 00:40:48] INFO root fetch - processPackages [bantam]: Remove: archive file [/home/abi/fetcher/tmp/bantam-2.4.5.tar.gz]
+[2023-07-03 00:40:48] INFO root fetch - processPackages [bantam]: Remove: archive file [/home/abi/fetcher/tmp/bantam-2.4.6.tar.gz]
+[2023-07-03 00:40:48] INFO root fetch - main [MainThread]: End processing [bantam]: success
+[2023-07-03 00:40:48] INFO root fetch - processPackages [sootty]: Remove: archive file [/home/abi/fetcher/tmp/sootty-0.3.tar.gz]
+[2023-07-03 00:40:48] INFO root fetch - processPackages [sootty]: Remove: archive file [/home/abi/fetcher/tmp/sootty-1.0.tar.gz]
+[2023-07-03 00:40:48] INFO root fetch - main [MainThread]: End processing [sootty]: success
+[2023-07-03 00:40:48] INFO root fetch - processPackages [bugbug]: Remove: archive file [/home/abi/fetcher/tmp/bugbug-0.0.98.tar.gz]
+[2023-07-03 00:40:48] INFO root fetch - processPackages [bugbug]: Remove: archive file [/home/abi/fetcher/tmp/bugbug-0.0.99.tar.gz]
+[2023-07-03 00:40:48] INFO root fetch - main [MainThread]: End processing [bugbug]: success
+[2023-07-03 00:40:48] INFO root fetch - main [MainThread]: Store serial: [18731843]
