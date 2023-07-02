@@ -121,3 +121,27 @@
 [2023-07-03 00:08:37] INFO root fetch - processPackages [scoobi]: Remove: archive file [/home/abi/fetcher/tmp/scoobi-0.0.1.6.tar.gz]
 [2023-07-03 00:08:37] INFO root fetch - main [MainThread]: End processing [scoobi]: success
 [2023-07-03 00:08:37] INFO root fetch - main [MainThread]: Store serial: [18731778]
+[2023-07-03 00:13:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18731778]
+[2023-07-03 00:13:46] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-07-03 00:13:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: astrotrails
+[2023-07-03 00:13:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: headless
+[2023-07-03 00:13:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: render-engine-youtube-embed
+[2023-07-03 00:13:46] WARNING root fetch - processPackages [astrotrails]: Skipping, unable to determine old version
+[2023-07-03 00:13:46] INFO root fetch - main [MainThread]: End processing [astrotrails] error
+[2023-07-03 00:13:46] INFO root fetch - processPackages [render-engine-youtube-embed]: New version: [2023.7.1] Old Version: [2023.6.2b1]
+[2023-07-03 00:13:46] INFO root fetch - processPackages [headless]: New version: [2.0.0a9] Old Version: [2.0.0a8]
+[2023-07-03 00:13:46] INFO root fetch - processPackages [headless]: Downloading https://files.pythonhosted.org/packages/01/29/f491c1a0644d9df25cc0746859c9830d9b3f44d290ebd1e5de7b756b2490/headless-2.0.0a8.tar.gz
+[2023-07-03 00:13:46] INFO root fetch - processPackages [render-engine-youtube-embed]: Downloading https://files.pythonhosted.org/packages/7f/75/b97b731a0add1e4408fb5422972bdb7a012b4cfafb9727a2e170553daf82/render_engine_youtube_embed-2023.6.2b1.tar.gz
+[2023-07-03 00:13:46] INFO root fetch - processPackages [headless]: Downloading https://files.pythonhosted.org/packages/db/4e/49b62296a404c0b751546e8c9091d5f19f25932fffbf24e6927b8888f3d2/headless-2.0.0a9.tar.gz
+[2023-07-03 00:13:46] INFO root fetch - processPackages [render-engine-youtube-embed]: Downloading https://files.pythonhosted.org/packages/32/3c/c8827e39a37518512b26d555a3eb34ab83b10599e0ed54d8f96f6f5348fb/render_engine_youtube_embed-2023.7.1.tar.gz
+[2023-07-03 00:13:46] INFO root fetch - processPackages [headless]: executing diffoscope
+[2023-07-03 00:13:46] INFO root fetch - processPackages [headless]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/headless-2.0.0a8.tar.gz tmp/headless-2.0.0a9.tar.gz --markdown 20230703/h/headless/2.0.0a8-2.0.0a9/diff.md --exclude *.pyd
+[2023-07-03 00:13:46] INFO root fetch - processPackages [render-engine-youtube-embed]: executing diffoscope
+[2023-07-03 00:13:46] INFO root fetch - processPackages [render-engine-youtube-embed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/render_engine_youtube_embed-2023.6.2b1.tar.gz tmp/render_engine_youtube_embed-2023.7.1.tar.gz --markdown 20230703/r/render-engine-youtube-embed/2023.6.2b1-2023.7.1/diff.md --exclude *.pyd
+[2023-07-03 00:13:47] INFO root fetch - processPackages [render-engine-youtube-embed]: Remove: archive file [/home/abi/fetcher/tmp/render_engine_youtube_embed-2023.6.2b1.tar.gz]
+[2023-07-03 00:13:47] INFO root fetch - processPackages [render-engine-youtube-embed]: Remove: archive file [/home/abi/fetcher/tmp/render_engine_youtube_embed-2023.7.1.tar.gz]
+[2023-07-03 00:13:47] INFO root fetch - main [MainThread]: End processing [render-engine-youtube-embed]: success
+[2023-07-03 00:13:48] INFO root fetch - processPackages [headless]: Remove: archive file [/home/abi/fetcher/tmp/headless-2.0.0a8.tar.gz]
+[2023-07-03 00:13:48] INFO root fetch - processPackages [headless]: Remove: archive file [/home/abi/fetcher/tmp/headless-2.0.0a9.tar.gz]
+[2023-07-03 00:13:48] INFO root fetch - main [MainThread]: End processing [headless]: success
+[2023-07-03 00:13:48] INFO root fetch - main [MainThread]: Store serial: [18731787]
