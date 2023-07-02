@@ -895,3 +895,15 @@
 [2023-07-03 01:38:06] INFO root fetch - processPackages [ez-a-sync]: Remove: archive file [/home/abi/fetcher/tmp/ez-a-sync-0.5.1.tar.gz]
 [2023-07-03 01:38:06] INFO root fetch - main [MainThread]: End processing [ez-a-sync]: success
 [2023-07-03 01:38:06] INFO root fetch - main [MainThread]: Store serial: [18732114]
+[2023-07-03 01:43:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18732114]
+[2023-07-03 01:43:15] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2023-07-03 01:43:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: PySquashfsImage
+[2023-07-03 01:43:15] INFO root fetch - processPackages [PySquashfsImage]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-07-03 01:43:15] INFO root fetch - processPackages [PySquashfsImage]: Downloading https://files.pythonhosted.org/packages/e0/1a/3a41172a536b2de9adf4193a083e929e2d75df9c9a5a35254e7ed8807611/PySquashfsImage-0.8.0-py3-none-any.whl
+[2023-07-03 01:43:15] INFO root fetch - processPackages [PySquashfsImage]: Downloading https://files.pythonhosted.org/packages/62/b6/8a453795e78c743bb6d765b8288f86ecbba4e3522bcc1db534142062ec0e/PySquashfsImage-0.9.0.tar.gz
+[2023-07-03 01:43:16] INFO root fetch - processPackages [PySquashfsImage]: executing diffoscope
+[2023-07-03 01:43:16] INFO root fetch - processPackages [PySquashfsImage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PySquashfsImage-0.8.0-py3-none-any.whl.zip tmp/PySquashfsImage-0.9.0.tar.gz --markdown 20230703/P/PySquashfsImage/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-07-03 01:43:17] INFO root fetch - processPackages [PySquashfsImage]: Remove: archive file [/home/abi/fetcher/tmp/PySquashfsImage-0.8.0-py3-none-any.whl.zip]
+[2023-07-03 01:43:17] INFO root fetch - processPackages [PySquashfsImage]: Remove: archive file [/home/abi/fetcher/tmp/PySquashfsImage-0.9.0.tar.gz]
+[2023-07-03 01:43:17] INFO root fetch - main [MainThread]: End processing [PySquashfsImage]: success
+[2023-07-03 01:43:17] INFO root fetch - main [MainThread]: Store serial: [18732117]
