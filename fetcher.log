@@ -1,0 +1,78 @@
+[2023-07-03 00:03:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18731729]
+[2023-07-03 00:03:22] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-03 00:03:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jsonjavascriptnotation
+[2023-07-03 00:03:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: non-local-detector
+[2023-07-03 00:03:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: numba-mpi
+[2023-07-03 00:03:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aioworkers
+[2023-07-03 00:03:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aggregate
+[2023-07-03 00:03:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: drtools
+[2023-07-03 00:03:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: render-engine
+[2023-07-03 00:03:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: NewFunctionsPYC
+[2023-07-03 00:03:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: simplenetlink
+[2023-07-03 00:03:22] INFO root fetch - processPackages [drtools]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-03 00:03:22] INFO root fetch - processPackages [NewFunctionsPYC]: New version: [1.4.0b2] Old Version: [1.4.0b1]
+[2023-07-03 00:03:22] WARNING root fetch - processPackages [jsonjavascriptnotation]: Skipping, unable to determine old version
+[2023-07-03 00:03:22] INFO root fetch - main [MainThread]: End processing [jsonjavascriptnotation] error
+[2023-07-03 00:03:22] INFO root fetch - processPackages [non-local-detector]: New version: [0.2.6.dev0] Old Version: [0.2.5.dev0]
+[2023-07-03 00:03:22] INFO root fetch - processPackages [aggregate]: New version: [0.9.6.8] Old Version: [0.9.6.5]
+[2023-07-03 00:03:22] INFO root fetch - processPackages [numba-mpi]: New version: [0.9] Old Version: [0.8]
+[2023-07-03 00:03:22] INFO root fetch - processPackages [render-engine]: New version: [2023.7.1] Old Version: [2023.6.2b1]
+[2023-07-03 00:03:22] INFO root fetch - processPackages [simplenetlink]: New version: [0.6.2] Old Version: [0.6.1]
+[2023-07-03 00:03:22] INFO root fetch - processPackages [aioworkers]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-07-03 00:03:22] INFO root fetch - processPackages [NewFunctionsPYC]: Downloading https://files.pythonhosted.org/packages/4d/e2/a9ff79b1eed79c79181726ffdef2e6463710a9764d0967915b25467958c9/NewFunctionsPYC-1.4.0b1.tar.gz
+[2023-07-03 00:03:22] INFO root fetch - processPackages [simplenetlink]: Downloading https://files.pythonhosted.org/packages/66/05/8a1816b94ad72cdab1235e51f37d76a091ae68f92dbb97e8e2a9b2843d2b/simplenetlink-0.6.1-py3-none-any.whl
+[2023-07-03 00:03:22] INFO root fetch - processPackages [non-local-detector]: Downloading https://files.pythonhosted.org/packages/7a/7a/34db4e6593a13c32050dc088193635b2ae2b38326c291f3ac9c2184d4963/non_local_detector-0.2.5.dev0.tar.gz
+[2023-07-03 00:03:22] INFO root fetch - processPackages [drtools]: Downloading https://files.pythonhosted.org/packages/0c/cc/1006336009666d3d2bf4426678d613d8684734d7eecfb485bc297e0a222c/drtools-1.0.8.tar.gz
+[2023-07-03 00:03:22] INFO root fetch - processPackages [aggregate]: Downloading https://files.pythonhosted.org/packages/a1/2e/4e242c1aea148c7a00311a62a4ce27f9f31388bd67bd1b41b501879fbd6d/aggregate-0.9.6.5.tar.gz
+[2023-07-03 00:03:22] INFO root fetch - processPackages [render-engine]: Downloading https://files.pythonhosted.org/packages/fa/b9/bc1d098953a08a9466e70c9c115260d3969bececa7a46d44b6d06e28c37d/render_engine-2023.6.2b1.tar.gz
+[2023-07-03 00:03:22] INFO root fetch - processPackages [numba-mpi]: Downloading https://files.pythonhosted.org/packages/43/69/4493b57b08e27ae1afd21f4bc077827266fbe0fd8dbdda6549000a102e4b/numba-mpi-0.8.tar.gz
+[2023-07-03 00:03:22] INFO root fetch - processPackages [aioworkers]: Downloading https://files.pythonhosted.org/packages/51/13/4f8acd78cd8ef30fb17e090e59a02c8737d16c94c010611c4d5347e24c76/aioworkers-0.9.2.tar.gz
+[2023-07-03 00:03:22] INFO root fetch - processPackages [simplenetlink]: Downloading https://files.pythonhosted.org/packages/b1/30/470db0652d5db4419993f1472d1be0ab751135c680e97466ef828b19e7c8/simplenetlink-0.6.2-py3-none-any.whl
+[2023-07-03 00:03:22] INFO root fetch - processPackages [NewFunctionsPYC]: Downloading https://files.pythonhosted.org/packages/1a/36/18f19393a0f257ce28c93c7fcb430073f53171d9a77802cf780b41aa73f4/NewFunctionsPYC-1.4.0b2.tar.gz
+[2023-07-03 00:03:22] INFO root fetch - processPackages [simplenetlink]: executing diffoscope
+[2023-07-03 00:03:22] INFO root fetch - processPackages [simplenetlink]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simplenetlink-0.6.1-py3-none-any.whl.zip tmp/simplenetlink-0.6.2-py3-none-any.whl.zip --markdown 20230703/s/simplenetlink/0.6.1-0.6.2/diff.md --exclude *.pyd
+[2023-07-03 00:03:23] INFO root fetch - processPackages [NewFunctionsPYC]: executing diffoscope
+[2023-07-03 00:03:23] INFO root fetch - processPackages [NewFunctionsPYC]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NewFunctionsPYC-1.4.0b1.tar.gz tmp/NewFunctionsPYC-1.4.0b2.tar.gz --markdown 20230703/N/NewFunctionsPYC/1.4.0b1-1.4.0b2/diff.md --exclude *.pyd
+[2023-07-03 00:03:23] INFO root fetch - processPackages [render-engine]: Downloading https://files.pythonhosted.org/packages/56/5f/f433a5fe2b6113fdb93674dc0c9783010b9d7160042eabbf09dac80ed11a/render_engine-2023.7.1.tar.gz
+[2023-07-03 00:03:23] INFO root fetch - processPackages [drtools]: Downloading https://files.pythonhosted.org/packages/18/2f/6897155230204fdbfc06e7d32cce6ef57db351b8fc2135337121afae8beb/drtools-1.0.9.tar.gz
+[2023-07-03 00:03:23] INFO root fetch - processPackages [aggregate]: Downloading https://files.pythonhosted.org/packages/1c/1c/8b870217624ab1debcc4bfab850525095bd82c0d23359788efb2af71306b/aggregate-0.9.6.8.tar.gz
+[2023-07-03 00:03:23] INFO root fetch - processPackages [aioworkers]: Downloading https://files.pythonhosted.org/packages/3b/d7/3d647a5afd65c18e4efed2b8ffef65dc170d7749491f9fd3c93bd259e6b7/aioworkers-0.9.3.tar.gz
+[2023-07-03 00:03:23] INFO root fetch - processPackages [numba-mpi]: Downloading https://files.pythonhosted.org/packages/4a/59/a101d48fb8a639efdef0e206d08a6fb7a891bc095d64bcd69caf7daca87e/numba-mpi-0.9.tar.gz
+[2023-07-03 00:03:23] INFO root fetch - processPackages [drtools]: executing diffoscope
+[2023-07-03 00:03:23] INFO root fetch - processPackages [drtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drtools-1.0.8.tar.gz tmp/drtools-1.0.9.tar.gz --markdown 20230703/d/drtools/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-03 00:03:23] INFO root fetch - processPackages [render-engine]: executing diffoscope
+[2023-07-03 00:03:23] INFO root fetch - processPackages [render-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/render_engine-2023.6.2b1.tar.gz tmp/render_engine-2023.7.1.tar.gz --markdown 20230703/r/render-engine/2023.6.2b1-2023.7.1/diff.md --exclude *.pyd
+[2023-07-03 00:03:23] INFO root fetch - processPackages [aggregate]: executing diffoscope
+[2023-07-03 00:03:23] INFO root fetch - processPackages [aggregate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aggregate-0.9.6.5.tar.gz tmp/aggregate-0.9.6.8.tar.gz --markdown 20230703/a/aggregate/0.9.6.5-0.9.6.8/diff.md --exclude *.pyd
+[2023-07-03 00:03:23] INFO root fetch - processPackages [aioworkers]: executing diffoscope
+[2023-07-03 00:03:23] INFO root fetch - processPackages [aioworkers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aioworkers-0.9.2.tar.gz tmp/aioworkers-0.9.3.tar.gz --markdown 20230703/a/aioworkers/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-07-03 00:03:23] INFO root fetch - processPackages [numba-mpi]: executing diffoscope
+[2023-07-03 00:03:23] INFO root fetch - processPackages [numba-mpi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/numba-mpi-0.8.tar.gz tmp/numba-mpi-0.9.tar.gz --markdown 20230703/n/numba-mpi/0.8-0.9/diff.md --exclude *.pyd
+[2023-07-03 00:03:23] INFO root fetch - processPackages [non-local-detector]: Downloading https://files.pythonhosted.org/packages/f0/44/ad426f068bca7e274c2d45f0feb935cae751cfc8d942abade2a9793f4511/non_local_detector-0.2.6.dev0.tar.gz
+[2023-07-03 00:03:23] INFO root fetch - processPackages [non-local-detector]: executing diffoscope
+[2023-07-03 00:03:23] INFO root fetch - processPackages [non-local-detector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/non_local_detector-0.2.5.dev0.tar.gz tmp/non_local_detector-0.2.6.dev0.tar.gz --markdown 20230703/n/non-local-detector/0.2.5.dev0-0.2.6.dev0/diff.md --exclude *.pyd
+[2023-07-03 00:03:24] INFO root fetch - processPackages [simplenetlink]: Remove: archive file [/home/abi/fetcher/tmp/simplenetlink-0.6.1-py3-none-any.whl.zip]
+[2023-07-03 00:03:24] INFO root fetch - processPackages [simplenetlink]: Remove: archive file [/home/abi/fetcher/tmp/simplenetlink-0.6.2-py3-none-any.whl.zip]
+[2023-07-03 00:03:24] INFO root fetch - main [MainThread]: End processing [simplenetlink]: success
+[2023-07-03 00:03:24] INFO root fetch - processPackages [aioworkers]: Remove: archive file [/home/abi/fetcher/tmp/aioworkers-0.9.2.tar.gz]
+[2023-07-03 00:03:24] INFO root fetch - processPackages [aioworkers]: Remove: archive file [/home/abi/fetcher/tmp/aioworkers-0.9.3.tar.gz]
+[2023-07-03 00:03:24] INFO root fetch - main [MainThread]: End processing [aioworkers]: success
+[2023-07-03 00:03:24] INFO root fetch - processPackages [NewFunctionsPYC]: Remove: archive file [/home/abi/fetcher/tmp/NewFunctionsPYC-1.4.0b1.tar.gz]
+[2023-07-03 00:03:24] INFO root fetch - processPackages [NewFunctionsPYC]: Remove: archive file [/home/abi/fetcher/tmp/NewFunctionsPYC-1.4.0b2.tar.gz]
+[2023-07-03 00:03:24] INFO root fetch - main [MainThread]: End processing [NewFunctionsPYC]: success
+[2023-07-03 00:03:24] INFO root fetch - processPackages [numba-mpi]: Remove: archive file [/home/abi/fetcher/tmp/numba-mpi-0.8.tar.gz]
+[2023-07-03 00:03:24] INFO root fetch - processPackages [numba-mpi]: Remove: archive file [/home/abi/fetcher/tmp/numba-mpi-0.9.tar.gz]
+[2023-07-03 00:03:24] INFO root fetch - main [MainThread]: End processing [numba-mpi]: success
+[2023-07-03 00:03:24] INFO root fetch - processPackages [aggregate]: Remove: archive file [/home/abi/fetcher/tmp/aggregate-0.9.6.5.tar.gz]
+[2023-07-03 00:03:24] INFO root fetch - processPackages [aggregate]: Remove: archive file [/home/abi/fetcher/tmp/aggregate-0.9.6.8.tar.gz]
+[2023-07-03 00:03:24] INFO root fetch - main [MainThread]: End processing [aggregate]: success
+[2023-07-03 00:03:25] INFO root fetch - processPackages [render-engine]: Remove: archive file [/home/abi/fetcher/tmp/render_engine-2023.6.2b1.tar.gz]
+[2023-07-03 00:03:25] INFO root fetch - processPackages [render-engine]: Remove: archive file [/home/abi/fetcher/tmp/render_engine-2023.7.1.tar.gz]
+[2023-07-03 00:03:25] INFO root fetch - main [MainThread]: End processing [render-engine]: success
+[2023-07-03 00:03:25] INFO root fetch - processPackages [non-local-detector]: Remove: archive file [/home/abi/fetcher/tmp/non_local_detector-0.2.5.dev0.tar.gz]
+[2023-07-03 00:03:25] INFO root fetch - processPackages [non-local-detector]: Remove: archive file [/home/abi/fetcher/tmp/non_local_detector-0.2.6.dev0.tar.gz]
+[2023-07-03 00:03:25] INFO root fetch - main [MainThread]: End processing [non-local-detector]: success
+[2023-07-03 00:03:25] INFO root fetch - processPackages [drtools]: Remove: archive file [/home/abi/fetcher/tmp/drtools-1.0.8.tar.gz]
+[2023-07-03 00:03:25] INFO root fetch - processPackages [drtools]: Remove: archive file [/home/abi/fetcher/tmp/drtools-1.0.9.tar.gz]
+[2023-07-03 00:03:25] INFO root fetch - main [MainThread]: End processing [drtools]: success
+[2023-07-03 00:03:25] INFO root fetch - main [MainThread]: Store serial: [18731755]
