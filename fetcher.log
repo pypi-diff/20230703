@@ -295,3 +295,54 @@
 [2023-07-03 00:40:48] INFO root fetch - processPackages [bugbug]: Remove: archive file [/home/abi/fetcher/tmp/bugbug-0.0.99.tar.gz]
 [2023-07-03 00:40:48] INFO root fetch - main [MainThread]: End processing [bugbug]: success
 [2023-07-03 00:40:48] INFO root fetch - main [MainThread]: Store serial: [18731843]
+[2023-07-03 00:45:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18731843]
+[2023-07-03 00:45:58] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-03 00:45:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: braintrust
+[2023-07-03 00:45:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lolpop
+[2023-07-03 00:45:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyhrms
+[2023-07-03 00:45:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyzview
+[2023-07-03 00:45:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sweepai
+[2023-07-03 00:45:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: screwhashcounter
+[2023-07-03 00:45:58] INFO root fetch - processPackages [sweepai]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-07-03 00:45:58] INFO root fetch - processPackages [pyhrms]: New version: [0.6.0] Old Version: [0.5.9]
+[2023-07-03 00:45:58] INFO root fetch - processPackages [pyzview]: New version: [1.5.0] Old Version: [1.49]
+[2023-07-03 00:45:58] INFO root fetch - processPackages [lolpop]: New version: [0.1.0a9] Old Version: [0.1.0a8]
+[2023-07-03 00:45:58] INFO root fetch - processPackages [braintrust]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-03 00:45:58] WARNING root fetch - processPackages [screwhashcounter]: Skipping, unable to determine old version
+[2023-07-03 00:45:58] INFO root fetch - main [MainThread]: End processing [screwhashcounter] error
+[2023-07-03 00:45:58] INFO root fetch - processPackages [sweepai]: Downloading https://files.pythonhosted.org/packages/ec/e2/56df1871421a28ad652bcd30a41ecf9ea1a1b0e6edbaf0bfae312a68bec4/sweepai-0.2.1.tar.gz
+[2023-07-03 00:45:58] INFO root fetch - processPackages [pyhrms]: Downloading https://files.pythonhosted.org/packages/4a/38/4c2653756894e534fd6089efc0802f4ac851c79c6767968ef00ef0184b3a/pyhrms-0.5.9.zip
+[2023-07-03 00:45:58] INFO root fetch - processPackages [lolpop]: Downloading https://files.pythonhosted.org/packages/b2/9e/94dbbcebef06a8ae802383cf170bedaf904d084b2592c571b03c8702d75c/lolpop-0.1.0a8.tar.gz
+[2023-07-03 00:45:58] INFO root fetch - processPackages [braintrust]: Downloading https://files.pythonhosted.org/packages/ea/49/6dafb427c97ea65cb6b2e479c00756df3abbea160d67859f033ac7667a61/braintrust-0.0.8.tar.gz
+[2023-07-03 00:45:58] INFO root fetch - processPackages [pyzview]: Downloading https://files.pythonhosted.org/packages/03/63/86401b9d1ef204c4d92c04e35af1f656dd2484eab88d946b0fcee19b0035/pyzview-1.49.tar.gz
+[2023-07-03 00:45:58] INFO root fetch - processPackages [sweepai]: Downloading https://files.pythonhosted.org/packages/39/30/1e1404b5f77602a0490b72d5a0c5e3eaa9a59d62c4f1d55d9a3a41f48b6a/sweepai-0.2.2.tar.gz
+[2023-07-03 00:45:58] INFO root fetch - processPackages [sweepai]: executing diffoscope
+[2023-07-03 00:45:58] INFO root fetch - processPackages [sweepai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sweepai-0.2.1.tar.gz tmp/sweepai-0.2.2.tar.gz --markdown 20230703/s/sweepai/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-07-03 00:45:58] INFO root fetch - processPackages [pyhrms]: Downloading https://files.pythonhosted.org/packages/e9/e6/bc2f8987e719bddb1e850d575beab86daa0eb138fe12ea48d61da6077ce1/pyhrms-0.6.0.zip
+[2023-07-03 00:45:58] INFO root fetch - processPackages [pyhrms]: executing diffoscope
+[2023-07-03 00:45:58] INFO root fetch - processPackages [pyhrms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyhrms-0.5.9.zip tmp/pyhrms-0.6.0.zip --markdown 20230703/p/pyhrms/0.5.9-0.6.0/diff.md --exclude *.pyd
+[2023-07-03 00:45:58] INFO root fetch - processPackages [pyzview]: Downloading https://files.pythonhosted.org/packages/cc/17/47e758b12fb0cbfa6aef65892da1e93dd3f7ad598dd400f3251c3e1cecd5/pyzview-1.5.0.tar.gz
+[2023-07-03 00:45:58] INFO root fetch - processPackages [braintrust]: Downloading https://files.pythonhosted.org/packages/4e/3a/faf597cceac630ee3924d2d8dcf603fc90baec28bb6313aefcb9ee399668/braintrust-0.0.9.tar.gz
+[2023-07-03 00:45:58] INFO root fetch - processPackages [lolpop]: Downloading https://files.pythonhosted.org/packages/9d/fe/e1365e82ff9088af596f8a0dfaeb882001107847e0c0fdefd35aae13205e/lolpop-0.1.0a9.tar.gz
+[2023-07-03 00:45:58] INFO root fetch - processPackages [braintrust]: executing diffoscope
+[2023-07-03 00:45:58] INFO root fetch - processPackages [braintrust]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/braintrust-0.0.8.tar.gz tmp/braintrust-0.0.9.tar.gz --markdown 20230703/b/braintrust/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-03 00:45:58] INFO root fetch - processPackages [pyzview]: executing diffoscope
+[2023-07-03 00:45:58] INFO root fetch - processPackages [pyzview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyzview-1.49.tar.gz tmp/pyzview-1.5.0.tar.gz --markdown 20230703/p/pyzview/1.49-1.5.0/diff.md --exclude *.pyd
+[2023-07-03 00:45:58] INFO root fetch - processPackages [lolpop]: executing diffoscope
+[2023-07-03 00:45:58] INFO root fetch - processPackages [lolpop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lolpop-0.1.0a8.tar.gz tmp/lolpop-0.1.0a9.tar.gz --markdown 20230703/l/lolpop/0.1.0a8-0.1.0a9/diff.md --exclude *.pyd
+[2023-07-03 00:45:59] INFO root fetch - processPackages [braintrust]: Remove: archive file [/home/abi/fetcher/tmp/braintrust-0.0.8.tar.gz]
+[2023-07-03 00:45:59] INFO root fetch - processPackages [braintrust]: Remove: archive file [/home/abi/fetcher/tmp/braintrust-0.0.9.tar.gz]
+[2023-07-03 00:45:59] INFO root fetch - main [MainThread]: End processing [braintrust]: success
+[2023-07-03 00:46:00] INFO root fetch - processPackages [sweepai]: Remove: archive file [/home/abi/fetcher/tmp/sweepai-0.2.1.tar.gz]
+[2023-07-03 00:46:00] INFO root fetch - processPackages [sweepai]: Remove: archive file [/home/abi/fetcher/tmp/sweepai-0.2.2.tar.gz]
+[2023-07-03 00:46:00] INFO root fetch - main [MainThread]: End processing [sweepai]: success
+[2023-07-03 00:46:00] INFO root fetch - processPackages [pyzview]: Remove: archive file [/home/abi/fetcher/tmp/pyzview-1.49.tar.gz]
+[2023-07-03 00:46:00] INFO root fetch - processPackages [pyhrms]: Remove: archive file [/home/abi/fetcher/tmp/pyhrms-0.5.9.zip]
+[2023-07-03 00:46:00] INFO root fetch - processPackages [pyzview]: Remove: archive file [/home/abi/fetcher/tmp/pyzview-1.5.0.tar.gz]
+[2023-07-03 00:46:00] INFO root fetch - processPackages [pyhrms]: Remove: archive file [/home/abi/fetcher/tmp/pyhrms-0.6.0.zip]
+[2023-07-03 00:46:00] INFO root fetch - main [MainThread]: End processing [pyzview]: success
+[2023-07-03 00:46:00] INFO root fetch - main [MainThread]: End processing [pyhrms]: success
+[2023-07-03 00:46:00] INFO root fetch - processPackages [lolpop]: Remove: archive file [/home/abi/fetcher/tmp/lolpop-0.1.0a8.tar.gz]
+[2023-07-03 00:46:00] INFO root fetch - processPackages [lolpop]: Remove: archive file [/home/abi/fetcher/tmp/lolpop-0.1.0a9.tar.gz]
+[2023-07-03 00:46:00] INFO root fetch - main [MainThread]: End processing [lolpop]: success
+[2023-07-03 00:46:00] INFO root fetch - main [MainThread]: Store serial: [18731864]
