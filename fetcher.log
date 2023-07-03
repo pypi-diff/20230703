@@ -4292,3 +4292,64 @@
 [2023-07-03 02:49:15] INFO root fetch - processPackages [tfds-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfds-nightly-4.9.2.dev202307020046.tar.gz]
 [2023-07-03 02:49:15] INFO root fetch - main [MainThread]: End processing [tfds-nightly]: success
 [2023-07-03 02:49:15] INFO root fetch - main [MainThread]: Store serial: [18733352]
+[2023-07-03 02:54:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18733352]
+[2023-07-03 02:54:24] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-03 02:54:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: web3mc
+[2023-07-03 02:54:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: holamundoplayer24456
+[2023-07-03 02:54:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo14-addon-l10n-br-account-payment-order
+[2023-07-03 02:54:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: wordflow
+[2023-07-03 02:54:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: khoj-assistant
+[2023-07-03 02:54:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cdk-comprehend-s3olap
+[2023-07-03 02:54:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pycde
+[2023-07-03 02:54:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: DBRetina
+[2023-07-03 02:54:24] INFO root fetch - processPackages [khoj-assistant]: New version: [0.7.1.dev23] Old Version: [0.7.1.dev15]
+[2023-07-03 02:54:24] INFO root fetch - processPackages [odoo14-addon-l10n-br-account-payment-order]: New version: [14.0.3.0.2] Old Version: [14.0.3.0.1.dev4]
+[2023-07-03 02:54:24] INFO root fetch - processPackages [pycde]: New version: [0.2.1.dev9] Old Version: [0.2.1.dev876]
+[2023-07-03 02:54:24] INFO root fetch - processPackages [DBRetina]: New version: [2.2.8] Old Version: [2.2.7]
+[2023-07-03 02:54:24] INFO root fetch - processPackages [wordflow]: New version: [0.2.4] Old Version: [0.2.2]
+[2023-07-03 02:54:24] ERROR root fetch - processPackages [holamundoplayer24456]: Unable to get metadata: No such project 'holamundoplayer24456'
+[2023-07-03 02:54:24] INFO root fetch - processPackages [cdk-comprehend-s3olap]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-07-03 02:54:24] INFO root fetch - main [MainThread]: End processing [holamundoplayer24456] error
+[2023-07-03 02:54:24] INFO root fetch - processPackages [web3mc]: New version: [0.1.3] Old Version: [0.1.0]
+[2023-07-03 02:54:24] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/60/f1/4a39954a0df1a2d0ad7a6a0d32dbe859d8cb782f495a926326fd1b3e791d/khoj_assistant-0.7.1.dev15.tar.gz
+[2023-07-03 02:54:24] INFO root fetch - processPackages [cdk-comprehend-s3olap]: Downloading https://files.pythonhosted.org/packages/d2/64/ec00fce58a2563fe9a768f5ee5a77ecba74bfccf89b1ec489306be4a20a8/cdk_comprehend_s3olap-2.0.98.tar.gz
+[2023-07-03 02:54:24] INFO root fetch - processPackages [pycde]: Downloading https://files.pythonhosted.org/packages/c5/78/010aba45291c08bdf313e90405ce874f2c35cd94db2ff673caf80e028278/pycde-0.2.1.dev876-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-03 02:54:24] INFO root fetch - processPackages [web3mc]: Downloading https://files.pythonhosted.org/packages/e3/ae/46d4c79d3bf7f6436bdf8afac518aa901c1b1c4a88d04cab642b5c1f5809/web3mc-0.1.0.tar.gz
+[2023-07-03 02:54:24] INFO root fetch - processPackages [DBRetina]: Downloading https://files.pythonhosted.org/packages/db/a4/1273f25771543721b9fc91939c06df8cf53b97eef43eb3715fa6b896b162/DBRetina-2.2.7-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-03 02:54:24] INFO root fetch - processPackages [wordflow]: Downloading https://files.pythonhosted.org/packages/3f/7f/57f1b43061435375ea413939d53228ecc4ec357bc4ce93892b2cd02766d3/wordflow-0.2.2.tar.gz
+[2023-07-03 02:54:24] INFO root fetch - processPackages [odoo14-addon-l10n-br-account-payment-order]: Downloading https://files.pythonhosted.org/packages/db/b9/91cfed5464e5d7b4b1f5ced3d18171809b0d9d15141729f3ede9c9caa916/odoo14_addon_l10n_br_account_payment_order-14.0.3.0.1.dev4-py3-none-any.whl
+[2023-07-03 02:54:25] WARNING root fetch - processPackages [pycde]: Skipping package: exceeds size limit 13470738>=10485760
+[2023-07-03 02:54:25] INFO root fetch - main [MainThread]: End processing [pycde] error
+[2023-07-03 02:54:25] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/2e/d0/154d8bcabf4ff47d21ee0857008e7287d571b870908f4a9b35efbf6afc03/khoj_assistant-0.7.1.dev23.tar.gz
+[2023-07-03 02:54:25] INFO root fetch - processPackages [khoj-assistant]: executing diffoscope
+[2023-07-03 02:54:25] INFO root fetch - processPackages [khoj-assistant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/khoj_assistant-0.7.1.dev15.tar.gz tmp/khoj_assistant-0.7.1.dev23.tar.gz --markdown 20230703/k/khoj-assistant/0.7.1.dev15-0.7.1.dev23/diff.md --exclude *.pyd
+[2023-07-03 02:54:25] INFO root fetch - processPackages [wordflow]: Downloading https://files.pythonhosted.org/packages/17/1d/50912a7ef03c735fb7a0178d1d8f1919992628e2df2897ab47b146850df1/wordflow-0.2.4.tar.gz
+[2023-07-03 02:54:25] INFO root fetch - processPackages [web3mc]: Downloading https://files.pythonhosted.org/packages/c5/89/742f69c1500d9696637a8be2cb8c9cf9836a3aed0a6246d8658eca89f807/web3mc-0.1.3.tar.gz
+[2023-07-03 02:54:25] INFO root fetch - processPackages [odoo14-addon-l10n-br-account-payment-order]: Downloading https://files.pythonhosted.org/packages/1a/35/0abe76e4d4700ea3a353f6672fad4051eca0d9be4edd745a833bb2becb18/odoo14_addon_l10n_br_account_payment_order-14.0.3.0.2-py3-none-any.whl
+[2023-07-03 02:54:25] INFO root fetch - processPackages [wordflow]: executing diffoscope
+[2023-07-03 02:54:25] INFO root fetch - processPackages [wordflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wordflow-0.2.2.tar.gz tmp/wordflow-0.2.4.tar.gz --markdown 20230703/w/wordflow/0.2.2-0.2.4/diff.md --exclude *.pyd
+[2023-07-03 02:54:25] INFO root fetch - processPackages [web3mc]: executing diffoscope
+[2023-07-03 02:54:25] INFO root fetch - processPackages [web3mc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/web3mc-0.1.0.tar.gz tmp/web3mc-0.1.3.tar.gz --markdown 20230703/w/web3mc/0.1.0-0.1.3/diff.md --exclude *.pyd
+[2023-07-03 02:54:25] INFO root fetch - processPackages [DBRetina]: Downloading https://files.pythonhosted.org/packages/2d/27/4639789d91afeb031994b2e4b18127a4d05a446158df3426ad749254d322/DBRetina-2.2.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-03 02:54:25] INFO root fetch - processPackages [odoo14-addon-l10n-br-account-payment-order]: executing diffoscope
+[2023-07-03 02:54:25] INFO root fetch - processPackages [odoo14-addon-l10n-br-account-payment-order]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_l10n_br_account_payment_order-14.0.3.0.1.dev4-py3-none-any.whl.zip tmp/odoo14_addon_l10n_br_account_payment_order-14.0.3.0.2-py3-none-any.whl.zip --markdown 20230703/o/odoo14-addon-l10n-br-account-payment-order/14.0.3.0.1.dev4-14.0.3.0.2/diff.md --exclude *.pyd
+[2023-07-03 02:54:25] WARNING root fetch - processPackages [cdk-comprehend-s3olap]: Skipping package: exceeds size limit 14179128>=10485760
+[2023-07-03 02:54:25] INFO root fetch - main [MainThread]: End processing [cdk-comprehend-s3olap] error
+[2023-07-03 02:54:26] INFO root fetch - processPackages [wordflow]: Remove: archive file [/home/abi/fetcher/tmp/wordflow-0.2.2.tar.gz]
+[2023-07-03 02:54:26] INFO root fetch - processPackages [wordflow]: Remove: archive file [/home/abi/fetcher/tmp/wordflow-0.2.4.tar.gz]
+[2023-07-03 02:54:26] INFO root fetch - main [MainThread]: End processing [wordflow]: success
+[2023-07-03 02:54:26] INFO root fetch - processPackages [DBRetina]: executing diffoscope
+[2023-07-03 02:54:26] INFO root fetch - processPackages [DBRetina]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DBRetina-2.2.7-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/DBRetina-2.2.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230703/D/DBRetina/2.2.7-2.2.8/diff.md --exclude *.pyd
+[2023-07-03 02:54:26] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-0.7.1.dev15.tar.gz]
+[2023-07-03 02:54:26] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-0.7.1.dev23.tar.gz]
+[2023-07-03 02:54:26] INFO root fetch - main [MainThread]: End processing [khoj-assistant]: success
+[2023-07-03 02:54:26] INFO root fetch - processPackages [web3mc]: Remove: archive file [/home/abi/fetcher/tmp/web3mc-0.1.0.tar.gz]
+[2023-07-03 02:54:26] INFO root fetch - processPackages [web3mc]: Remove: archive file [/home/abi/fetcher/tmp/web3mc-0.1.3.tar.gz]
+[2023-07-03 02:54:26] INFO root fetch - main [MainThread]: End processing [web3mc]: success
+[2023-07-03 02:54:27] INFO root fetch - processPackages [odoo14-addon-l10n-br-account-payment-order]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_br_account_payment_order-14.0.3.0.1.dev4-py3-none-any.whl.zip]
+[2023-07-03 02:54:27] INFO root fetch - processPackages [odoo14-addon-l10n-br-account-payment-order]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_br_account_payment_order-14.0.3.0.2-py3-none-any.whl.zip]
+[2023-07-03 02:54:27] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-br-account-payment-order]: success
+[2023-07-03 02:54:57] INFO root fetch - processPackages [DBRetina]: Remove: archive file [/home/abi/fetcher/tmp/DBRetina-2.2.7-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-03 02:54:57] INFO root fetch - processPackages [DBRetina]: Remove: archive file [/home/abi/fetcher/tmp/DBRetina-2.2.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-03 02:54:57] INFO root fetch - main [MainThread]: End processing [DBRetina]: success
+[2023-07-03 02:54:57] INFO root fetch - main [MainThread]: Store serial: [18733383]
