@@ -14964,3 +14964,81 @@ AssertionError: tmp/discord-ansi-0.3.tar.gz does not exist
 [2023-07-03 12:52:43] INFO root fetch - processPackages [edgeimpulse-api]: Remove: archive file [/home/abi/fetcher/tmp/edgeimpulse_api-1.25.16.tar.gz]
 [2023-07-03 12:52:43] INFO root fetch - main [MainThread]: End processing [edgeimpulse-api]: success
 [2023-07-03 12:52:43] INFO root fetch - main [MainThread]: Store serial: [18737921]
+[2023-07-03 12:57:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18737921]
+[2023-07-03 12:57:52] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-03 12:57:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fusion-engine
+[2023-07-03 12:57:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jnt-django-admin-tools
+[2023-07-03 12:57:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: helios-rl
+[2023-07-03 12:57:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: BlitzChain
+[2023-07-03 12:57:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: melon-scheduler
+[2023-07-03 12:57:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nb-log
+[2023-07-03 12:57:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: st4sd-runtime-core
+[2023-07-03 12:57:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: openioe
+[2023-07-03 12:57:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: aspose-zip
+[2023-07-03 12:57:52] INFO root fetch - processPackages [BlitzChain]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-03 12:57:52] INFO root fetch - processPackages [melon-scheduler]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-07-03 12:57:52] INFO root fetch - processPackages [nb-log]: New version: [9.2] Old Version: [9.1]
+[2023-07-03 12:57:52] INFO root fetch - processPackages [jnt-django-admin-tools]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-03 12:57:52] INFO root fetch - processPackages [fusion-engine]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-03 12:57:52] INFO root fetch - processPackages [helios-rl]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-03 12:57:52] INFO root fetch - processPackages [openioe]: New version: [1.0.0] Old Version: [0.1.3]
+[2023-07-03 12:57:52] INFO root fetch - processPackages [st4sd-runtime-core]: New version: [2.0.0a9.dev8] Old Version: [2.0.0a9.dev7]
+[2023-07-03 12:57:52] WARNING root fetch - processPackages [aspose-zip]: Skipping, unable to determine old version
+[2023-07-03 12:57:52] INFO root fetch - main [MainThread]: End processing [aspose-zip] error
+[2023-07-03 12:57:52] INFO root fetch - processPackages [BlitzChain]: Downloading https://files.pythonhosted.org/packages/b9/8f/253ddd2a190e0dc4f6b12d10c18ebf529b19fc10e07a9d8afb72bcfdc910/BlitzChain-0.2.8.tar.gz
+[2023-07-03 12:57:52] INFO root fetch - processPackages [melon-scheduler]: Downloading https://files.pythonhosted.org/packages/74/83/ca2dee7e0eeca78929d5d9a44d1a94b1434df9008e5b5b6122be30548828/melon_scheduler-0.1.7.tar.gz
+[2023-07-03 12:57:52] INFO root fetch - processPackages [nb-log]: Downloading https://files.pythonhosted.org/packages/bd/c8/12ddba8b157b20aeca7287be7ca937414ff125af9e620147b9e819e1e939/nb_log-9.1.tar.gz
+[2023-07-03 12:57:53] INFO root fetch - processPackages [fusion-engine]: Downloading https://files.pythonhosted.org/packages/e2/23/7dc44b01d76eee803329795793faebe3fe395fa48a68f3c3f087c47cd704/fusion-engine-0.1.0.tar.gz
+[2023-07-03 12:57:53] INFO root fetch - processPackages [jnt-django-admin-tools]: Downloading https://files.pythonhosted.org/packages/fe/6b/b3063a4bb824d4ebe91cc69ca6a29126b8ee3e65e124b4a3226ec325534a/jnt-django-admin-tools-0.9.8.tar.gz
+[2023-07-03 12:57:53] INFO root fetch - processPackages [helios-rl]: Downloading https://files.pythonhosted.org/packages/76/5d/e37c3286333f273a4d2eaac78cdac093b08d77222ec47b1dd6e79bbfd36b/helios-rl-1.0.1.tar.gz
+[2023-07-03 12:57:53] INFO root fetch - processPackages [openioe]: Downloading https://files.pythonhosted.org/packages/23/49/2d82e3da42cc5860ad0a215266c85379cb11e87d53f928c5df3d8c870f42/openioe-0.1.3.tar.gz
+[2023-07-03 12:57:53] INFO root fetch - processPackages [BlitzChain]: Downloading https://files.pythonhosted.org/packages/69/06/06b9f8388223a3a1fe5d48e1887490c9ec85b256b70627803918368de513/BlitzChain-0.2.9.tar.gz
+[2023-07-03 12:57:53] INFO root fetch - processPackages [st4sd-runtime-core]: Downloading https://files.pythonhosted.org/packages/f8/80/d329b6d6b491885e93d67347d73a6f1bf511452406c30914f4fa69817029/st4sd-runtime-core-2.0.0a9.dev7.tar.gz
+[2023-07-03 12:57:53] INFO root fetch - processPackages [BlitzChain]: executing diffoscope
+[2023-07-03 12:57:53] INFO root fetch - processPackages [BlitzChain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BlitzChain-0.2.8.tar.gz tmp/BlitzChain-0.2.9.tar.gz --markdown 20230703/B/BlitzChain/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-03 12:57:53] INFO root fetch - processPackages [melon-scheduler]: Downloading https://files.pythonhosted.org/packages/52/1c/0449852ed1edf91176917b860a194ad16919504d9b4b52bc637874a38354/melon_scheduler-0.1.8.tar.gz
+[2023-07-03 12:57:53] INFO root fetch - processPackages [nb-log]: Downloading https://files.pythonhosted.org/packages/8d/06/06239b1153a62611031eab3fbda94362269ee1ff87117dd00f0f938c63b3/nb_log-9.2.tar.gz
+[2023-07-03 12:57:53] INFO root fetch - processPackages [nb-log]: executing diffoscope
+[2023-07-03 12:57:53] INFO root fetch - processPackages [nb-log]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nb_log-9.1.tar.gz tmp/nb_log-9.2.tar.gz --markdown 20230703/n/nb-log/9.1-9.2/diff.md --exclude *.pyd
+[2023-07-03 12:57:53] INFO root fetch - processPackages [helios-rl]: Downloading https://files.pythonhosted.org/packages/1e/bf/8ad179427cb49e9917609e90517ae41c8622e74d8770b10e9e1d9fd231df/helios-rl-1.0.2.tar.gz
+[2023-07-03 12:57:53] INFO root fetch - processPackages [fusion-engine]: Downloading https://files.pythonhosted.org/packages/25/ce/4d6ce1cee510c59cfee42140850379e01531479ee863c9b9b1b31cb39411/fusion-engine-0.1.1.tar.gz
+[2023-07-03 12:57:53] INFO root fetch - processPackages [melon-scheduler]: executing diffoscope
+[2023-07-03 12:57:53] INFO root fetch - processPackages [melon-scheduler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/melon_scheduler-0.1.7.tar.gz tmp/melon_scheduler-0.1.8.tar.gz --markdown 20230703/m/melon-scheduler/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-07-03 12:57:53] INFO root fetch - processPackages [openioe]: Downloading https://files.pythonhosted.org/packages/b4/fa/3d2bff8b5a3221d9e40041d74a698cb062369e52d177247eaf45b019a7ee/openioe-1.0.0.tar.gz
+[2023-07-03 12:57:53] INFO root fetch - processPackages [helios-rl]: executing diffoscope
+[2023-07-03 12:57:53] INFO root fetch - processPackages [helios-rl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/helios-rl-1.0.1.tar.gz tmp/helios-rl-1.0.2.tar.gz --markdown 20230703/h/helios-rl/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-03 12:57:53] INFO root fetch - processPackages [st4sd-runtime-core]: Downloading https://files.pythonhosted.org/packages/d8/e8/7cfc981a124bd5a134ff8cc0f9597e07673ad694af3ac5209efd3ecdf64a/st4sd-runtime-core-2.0.0a9.dev8.tar.gz
+[2023-07-03 12:57:53] INFO root fetch - processPackages [fusion-engine]: executing diffoscope
+[2023-07-03 12:57:53] INFO root fetch - processPackages [fusion-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fusion-engine-0.1.0.tar.gz tmp/fusion-engine-0.1.1.tar.gz --markdown 20230703/f/fusion-engine/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-03 12:57:53] INFO root fetch - processPackages [openioe]: executing diffoscope
+[2023-07-03 12:57:53] INFO root fetch - processPackages [openioe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openioe-0.1.3.tar.gz tmp/openioe-1.0.0.tar.gz --markdown 20230703/o/openioe/0.1.3-1.0.0/diff.md --exclude *.pyd
+[2023-07-03 12:57:54] INFO root fetch - processPackages [st4sd-runtime-core]: executing diffoscope
+[2023-07-03 12:57:54] INFO root fetch - processPackages [st4sd-runtime-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/st4sd-runtime-core-2.0.0a9.dev7.tar.gz tmp/st4sd-runtime-core-2.0.0a9.dev8.tar.gz --markdown 20230703/s/st4sd-runtime-core/2.0.0a9.dev7-2.0.0a9.dev8/diff.md --exclude *.pyd
+[2023-07-03 12:57:54] INFO root fetch - processPackages [jnt-django-admin-tools]: Downloading https://files.pythonhosted.org/packages/4a/8d/8e85ee009bdc218cfc4fd6b6e009852d5ac3c4e5ec6b7a1b22fc185c7451/jnt-django-admin-tools-0.9.9.tar.gz
+[2023-07-03 12:57:54] INFO root fetch - processPackages [BlitzChain]: Remove: archive file [/home/abi/fetcher/tmp/BlitzChain-0.2.8.tar.gz]
+[2023-07-03 12:57:54] INFO root fetch - processPackages [BlitzChain]: Remove: archive file [/home/abi/fetcher/tmp/BlitzChain-0.2.9.tar.gz]
+[2023-07-03 12:57:54] INFO root fetch - main [MainThread]: End processing [BlitzChain]: success
+[2023-07-03 12:57:54] INFO root fetch - processPackages [nb-log]: Remove: archive file [/home/abi/fetcher/tmp/nb_log-9.1.tar.gz]
+[2023-07-03 12:57:54] INFO root fetch - processPackages [nb-log]: Remove: archive file [/home/abi/fetcher/tmp/nb_log-9.2.tar.gz]
+[2023-07-03 12:57:54] INFO root fetch - main [MainThread]: End processing [nb-log]: success
+[2023-07-03 12:57:54] INFO root fetch - processPackages [jnt-django-admin-tools]: executing diffoscope
+[2023-07-03 12:57:54] INFO root fetch - processPackages [jnt-django-admin-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jnt-django-admin-tools-0.9.8.tar.gz tmp/jnt-django-admin-tools-0.9.9.tar.gz --markdown 20230703/j/jnt-django-admin-tools/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-03 12:57:54] INFO root fetch - processPackages [helios-rl]: Remove: archive file [/home/abi/fetcher/tmp/helios-rl-1.0.1.tar.gz]
+[2023-07-03 12:57:54] INFO root fetch - processPackages [helios-rl]: Remove: archive file [/home/abi/fetcher/tmp/helios-rl-1.0.2.tar.gz]
+[2023-07-03 12:57:54] INFO root fetch - main [MainThread]: End processing [helios-rl]: success
+[2023-07-03 12:57:54] INFO root fetch - processPackages [openioe]: Remove: archive file [/home/abi/fetcher/tmp/openioe-0.1.3.tar.gz]
+[2023-07-03 12:57:54] INFO root fetch - processPackages [openioe]: Remove: archive file [/home/abi/fetcher/tmp/openioe-1.0.0.tar.gz]
+[2023-07-03 12:57:54] INFO root fetch - main [MainThread]: End processing [openioe]: success
+[2023-07-03 12:57:54] INFO root fetch - processPackages [fusion-engine]: Remove: archive file [/home/abi/fetcher/tmp/fusion-engine-0.1.0.tar.gz]
+[2023-07-03 12:57:54] INFO root fetch - processPackages [fusion-engine]: Remove: archive file [/home/abi/fetcher/tmp/fusion-engine-0.1.1.tar.gz]
+[2023-07-03 12:57:54] INFO root fetch - main [MainThread]: End processing [fusion-engine]: success
+[2023-07-03 12:57:54] INFO root fetch - processPackages [melon-scheduler]: Remove: archive file [/home/abi/fetcher/tmp/melon_scheduler-0.1.7.tar.gz]
+[2023-07-03 12:57:54] INFO root fetch - processPackages [melon-scheduler]: Remove: archive file [/home/abi/fetcher/tmp/melon_scheduler-0.1.8.tar.gz]
+[2023-07-03 12:57:54] INFO root fetch - main [MainThread]: End processing [melon-scheduler]: success
+[2023-07-03 12:57:55] INFO root fetch - processPackages [st4sd-runtime-core]: Remove: archive file [/home/abi/fetcher/tmp/st4sd-runtime-core-2.0.0a9.dev7.tar.gz]
+[2023-07-03 12:57:55] INFO root fetch - processPackages [st4sd-runtime-core]: Remove: archive file [/home/abi/fetcher/tmp/st4sd-runtime-core-2.0.0a9.dev8.tar.gz]
+[2023-07-03 12:57:55] INFO root fetch - main [MainThread]: End processing [st4sd-runtime-core]: success
+[2023-07-03 12:57:56] INFO root fetch - processPackages [jnt-django-admin-tools]: Remove: archive file [/home/abi/fetcher/tmp/jnt-django-admin-tools-0.9.8.tar.gz]
+[2023-07-03 12:57:56] INFO root fetch - processPackages [jnt-django-admin-tools]: Remove: archive file [/home/abi/fetcher/tmp/jnt-django-admin-tools-0.9.9.tar.gz]
+[2023-07-03 12:57:56] INFO root fetch - main [MainThread]: End processing [jnt-django-admin-tools]: success
+[2023-07-03 12:57:56] INFO root fetch - main [MainThread]: Store serial: [18737948]
