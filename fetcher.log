@@ -22360,3 +22360,173 @@ EOFError: EOF read where object expected
 [2023-07-03 17:00:44] INFO root fetch - processPackages [c2cciutils]: Remove: archive file [/home/abi/fetcher/tmp/c2cciutils-1.6.0.dev99.tar.gz]
 [2023-07-03 17:00:44] INFO root fetch - main [MainThread]: End processing [c2cciutils]: success
 [2023-07-03 17:00:44] INFO root fetch - main [MainThread]: Store serial: [18741019]
+[2023-07-03 17:05:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18741019]
+[2023-07-03 17:05:54] INFO root fetch - main [MainThread]: Found 21 changed packages
+[2023-07-03 17:05:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rjpdf
+[2023-07-03 17:05:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: irc-api
+[2023-07-03 17:05:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pollination-streamlit-io
+[2023-07-03 17:05:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rfst
+[2023-07-03 17:05:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nomic
+[2023-07-03 17:05:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: image-smoothing
+[2023-07-03 17:05:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cascade-config
+[2023-07-03 17:05:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pybib2web
+[2023-07-03 17:05:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mend-ignore-alerts
+[2023-07-03 17:05:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: swh.indexer
+[2023-07-03 17:05:54] INFO root fetch - processPackages [cascade-config]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-07-03 17:05:54] INFO root fetch - processPackages [mend-ignore-alerts]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-07-03 17:05:54] WARNING root fetch - processPackages [rfst]: Skipping, unable to determine old version
+[2023-07-03 17:05:54] INFO root fetch - processPackages [rfst]: Start processing: cofybox-dce
+[2023-07-03 17:05:54] INFO root fetch - main [MainThread]: End processing [rfst] error
+[2023-07-03 17:05:54] INFO root fetch - processPackages [irc-api]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-03 17:05:54] WARNING root fetch - processPackages [image-smoothing]: Skipping, unable to determine old version
+[2023-07-03 17:05:54] INFO root fetch - processPackages [image-smoothing]: Start processing: crispy-bulma
+[2023-07-03 17:05:54] INFO root fetch - main [MainThread]: End processing [image-smoothing] error
+[2023-07-03 17:05:54] WARNING root fetch - processPackages [rjpdf]: Skipping, unable to determine old version
+[2023-07-03 17:05:54] INFO root fetch - processPackages [rjpdf]: Start processing: irff
+[2023-07-03 17:05:54] INFO root fetch - main [MainThread]: End processing [rjpdf] error
+[2023-07-03 17:05:54] INFO root fetch - processPackages [cofybox-dce]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-03 17:05:54] INFO root fetch - processPackages [pybib2web]: New version: [0.5.1] Old Version: [0.5]
+[2023-07-03 17:05:54] INFO root fetch - processPackages [pollination-streamlit-io]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-07-03 17:05:54] INFO root fetch - processPackages [mend-ignore-alerts]: Downloading https://files.pythonhosted.org/packages/e6/57/98b403044500c5fdeae13008b65a80f1203e8d4b5aebeb7f30f17c2895a7/mend_ignore_alerts-0.2.4-py3-none-any.whl
+[2023-07-03 17:05:54] INFO root fetch - processPackages [nomic]: New version: [2.0.3] Old Version: [2.0.2]
+[2023-07-03 17:05:54] INFO root fetch - processPackages [swh.indexer]: New version: [2.9.4] Old Version: [2.9.3]
+[2023-07-03 17:05:54] INFO root fetch - processPackages [irff]: New version: [1.5.3] Old Version: [1.5.2]
+[2023-07-03 17:05:54] INFO root fetch - processPackages [cascade-config]: Downloading https://files.pythonhosted.org/packages/99/4f/24ee77d086f5f83af4951f1361eaf9a47d0b1b10792ff9902116a5b0aef7/cascade-config-0.3.0.tar.gz
+[2023-07-03 17:05:54] INFO root fetch - processPackages [cofybox-dce]: Downloading https://files.pythonhosted.org/packages/a9/73/e9d67a00ff9d409796d5e197176363615ecd005640759c99d4f48abcb13e/cofybox-dce-0.0.8.tar.gz
+[2023-07-03 17:05:54] INFO root fetch - processPackages [crispy-bulma]: New version: [0.9.0] Old Version: [0.8.3]
+[2023-07-03 17:05:54] INFO root fetch - processPackages [irc-api]: Downloading https://files.pythonhosted.org/packages/ed/73/42720c8f235cbb26d7e9942341e9b6ab8b70ce6639694bb38dbcf1836ba0/irc_api-1.0.0.tar.gz
+[2023-07-03 17:05:55] INFO root fetch - processPackages [pybib2web]: Downloading https://files.pythonhosted.org/packages/3e/5a/c8e42175c5d5ab73ac49051e0526b9a62ad919643fd3226a8de7a07bd0b0/pybib2web-0.5.tar.gz
+[2023-07-03 17:05:55] INFO root fetch - processPackages [pollination-streamlit-io]: Downloading https://files.pythonhosted.org/packages/17/15/4c33d16aa9b1c63a7b6d57fc304bcba87a36e17745b5767550a4159d02e4/pollination-streamlit-io-0.9.2.tar.gz
+[2023-07-03 17:05:55] INFO root fetch - processPackages [nomic]: Downloading https://files.pythonhosted.org/packages/ce/5f/6176dbf66b2f69ca0f9ea4b255afef2b3ea84992122ac290244490544226/nomic-2.0.2.tar.gz
+[2023-07-03 17:05:55] INFO root fetch - processPackages [swh.indexer]: Downloading https://files.pythonhosted.org/packages/ed/d8/5e77e7686e857a1100eafdf4192cf5c3d2de280015f42c3ae25bffdf3e7c/swh.indexer-2.9.3.tar.gz
+[2023-07-03 17:05:55] INFO root fetch - processPackages [mend-ignore-alerts]: Downloading https://files.pythonhosted.org/packages/2b/41/d107e7f5144429adb154e6bf41aaae922280a2a4dce91512b5b8f6997f44/mend_ignore_alerts-0.2.5-py3-none-any.whl
+[2023-07-03 17:05:55] INFO root fetch - processPackages [irff]: Downloading https://files.pythonhosted.org/packages/6e/08/2dd7727212e3f5dcdc36ceb4a44c9f6454dc77d4a02598c8a41ce5adbf52/irff-1.5.2.tar.gz
+[2023-07-03 17:05:55] INFO root fetch - processPackages [crispy-bulma]: Downloading https://files.pythonhosted.org/packages/56/b5/d675b23ab6a896e919fff0000ab94f1225122666a151751c4d9b4b0033f9/crispy-bulma-0.8.3.tar.gz
+[2023-07-03 17:05:55] INFO root fetch - processPackages [cascade-config]: Downloading https://files.pythonhosted.org/packages/02/e6/c1105f103fc074ddf80813f9ed9ed00e7208db8c454697e1ad7fb556300c/cascade_config-0.3.1.tar.gz
+[2023-07-03 17:05:55] INFO root fetch - processPackages [cofybox-dce]: Downloading https://files.pythonhosted.org/packages/e9/6c/7dfb61203e2aaf9f23172bd87c3f8e1c6c3c8a5cf7082da4044630d09acc/cofybox-dce-0.0.9.tar.gz
+[2023-07-03 17:05:55] INFO root fetch - processPackages [mend-ignore-alerts]: executing diffoscope
+[2023-07-03 17:05:55] INFO root fetch - processPackages [mend-ignore-alerts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mend_ignore_alerts-0.2.4-py3-none-any.whl.zip tmp/mend_ignore_alerts-0.2.5-py3-none-any.whl.zip --markdown 20230703/m/mend-ignore-alerts/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-07-03 17:05:55] INFO root fetch - processPackages [irc-api]: Downloading https://files.pythonhosted.org/packages/33/ef/f70699b423b3f8305482885ded877f35abf25016953a6c6c8fead8ce75f1/irc_api-1.0.1.tar.gz
+[2023-07-03 17:05:55] INFO root fetch - processPackages [cascade-config]: executing diffoscope
+[2023-07-03 17:05:55] INFO root fetch - processPackages [cascade-config]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cascade-config-0.3.0.tar.gz tmp/cascade_config-0.3.1.tar.gz --markdown 20230703/c/cascade-config/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-07-03 17:05:55] INFO root fetch - processPackages [cofybox-dce]: executing diffoscope
+[2023-07-03 17:05:55] INFO root fetch - processPackages [cofybox-dce]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cofybox-dce-0.0.8.tar.gz tmp/cofybox-dce-0.0.9.tar.gz --markdown 20230703/c/cofybox-dce/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-03 17:05:55] INFO root fetch - processPackages [pybib2web]: Downloading https://files.pythonhosted.org/packages/2d/bb/74b317e516c8281c9c0eefdfbb4cfc1dbd08359cefce0ddaf181de85ee68/pybib2web-0.5.1.tar.gz
+[2023-07-03 17:05:55] INFO root fetch - processPackages [nomic]: Downloading https://files.pythonhosted.org/packages/1a/bf/f550507b718a82f7ee11976a9ce0501742d64b117cbfcfa8711db599dc7d/nomic-2.0.3.tar.gz
+[2023-07-03 17:05:55] INFO root fetch - processPackages [irc-api]: executing diffoscope
+[2023-07-03 17:05:55] INFO root fetch - processPackages [irc-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/irc_api-1.0.0.tar.gz tmp/irc_api-1.0.1.tar.gz --markdown 20230703/i/irc-api/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-03 17:05:55] INFO root fetch - processPackages [pybib2web]: executing diffoscope
+[2023-07-03 17:05:55] INFO root fetch - processPackages [pybib2web]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybib2web-0.5.tar.gz tmp/pybib2web-0.5.1.tar.gz --markdown 20230703/p/pybib2web/0.5-0.5.1/diff.md --exclude *.pyd
+[2023-07-03 17:05:55] INFO root fetch - processPackages [swh.indexer]: Downloading https://files.pythonhosted.org/packages/f4/b6/7ec1b3336c3834bd108079e71ef776f6dcfc067f9af42f5679714bcc49a4/swh.indexer-2.9.4.tar.gz
+[2023-07-03 17:05:55] INFO root fetch - processPackages [nomic]: executing diffoscope
+[2023-07-03 17:05:55] INFO root fetch - processPackages [nomic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nomic-2.0.2.tar.gz tmp/nomic-2.0.3.tar.gz --markdown 20230703/n/nomic/2.0.2-2.0.3/diff.md --exclude *.pyd
+[2023-07-03 17:05:55] INFO root fetch - processPackages [crispy-bulma]: Downloading https://files.pythonhosted.org/packages/65/80/43d10f6f07b9a5e5d87697cf46f6206b3683b67758948ce997b4836927dc/crispy-bulma-0.9.0.tar.gz
+[2023-07-03 17:05:55] INFO root fetch - processPackages [irff]: Downloading https://files.pythonhosted.org/packages/10/e1/3021b7dcf0182955989d2d09d2a57773255133fbcafd18ee7d60cbc8fefd/irff-1.5.3.tar.gz
+[2023-07-03 17:05:55] INFO root fetch - processPackages [pollination-streamlit-io]: Downloading https://files.pythonhosted.org/packages/8f/88/39612cd1265361dd994ecd8d02ba175364afe8e50600f0d896b70d07b54c/pollination-streamlit-io-0.9.3.tar.gz
+[2023-07-03 17:05:55] INFO root fetch - processPackages [swh.indexer]: executing diffoscope
+[2023-07-03 17:05:55] INFO root fetch - processPackages [swh.indexer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swh.indexer-2.9.3.tar.gz tmp/swh.indexer-2.9.4.tar.gz --markdown 20230703/s/swh.indexer/2.9.3-2.9.4/diff.md --exclude *.pyd
+[2023-07-03 17:05:55] INFO root fetch - processPackages [crispy-bulma]: executing diffoscope
+[2023-07-03 17:05:55] INFO root fetch - processPackages [crispy-bulma]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crispy-bulma-0.8.3.tar.gz tmp/crispy-bulma-0.9.0.tar.gz --markdown 20230703/c/crispy-bulma/0.8.3-0.9.0/diff.md --exclude *.pyd
+[2023-07-03 17:05:56] INFO root fetch - processPackages [irff]: executing diffoscope
+[2023-07-03 17:05:56] INFO root fetch - processPackages [irff]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/irff-1.5.2.tar.gz tmp/irff-1.5.3.tar.gz --markdown 20230703/i/irff/1.5.2-1.5.3/diff.md --exclude *.pyd
+[2023-07-03 17:05:56] INFO root fetch - processPackages [pollination-streamlit-io]: executing diffoscope
+[2023-07-03 17:05:56] INFO root fetch - processPackages [pollination-streamlit-io]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pollination-streamlit-io-0.9.2.tar.gz tmp/pollination-streamlit-io-0.9.3.tar.gz --markdown 20230703/p/pollination-streamlit-io/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-07-03 17:05:57] INFO root fetch - processPackages [mend-ignore-alerts]: Remove: archive file [/home/abi/fetcher/tmp/mend_ignore_alerts-0.2.4-py3-none-any.whl.zip]
+[2023-07-03 17:05:57] INFO root fetch - processPackages [mend-ignore-alerts]: Remove: archive file [/home/abi/fetcher/tmp/mend_ignore_alerts-0.2.5-py3-none-any.whl.zip]
+[2023-07-03 17:05:57] INFO root fetch - processPackages [mend-ignore-alerts]: Start processing: crtoolbox
+[2023-07-03 17:05:57] INFO root fetch - main [MainThread]: End processing [mend-ignore-alerts]: success
+[2023-07-03 17:05:57] INFO root fetch - processPackages [crtoolbox]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-03 17:05:57] INFO root fetch - processPackages [crtoolbox]: Downloading https://files.pythonhosted.org/packages/88/6f/e70a268e7928d7aef12d5e4d842e28c28468a377dc47dfc06523088deb62/crtoolbox-0.1.1-py3-none-any.whl
+[2023-07-03 17:05:57] INFO root fetch - processPackages [cofybox-dce]: Remove: archive file [/home/abi/fetcher/tmp/cofybox-dce-0.0.8.tar.gz]
+[2023-07-03 17:05:57] INFO root fetch - processPackages [cofybox-dce]: Remove: archive file [/home/abi/fetcher/tmp/cofybox-dce-0.0.9.tar.gz]
+[2023-07-03 17:05:57] INFO root fetch - processPackages [cofybox-dce]: Start processing: aliyun-python-sdk-rds
+[2023-07-03 17:05:57] INFO root fetch - main [MainThread]: End processing [cofybox-dce]: success
+[2023-07-03 17:05:57] INFO root fetch - processPackages [aliyun-python-sdk-rds]: New version: [2.7.9] Old Version: [2.7.8]
+[2023-07-03 17:05:57] INFO root fetch - processPackages [crtoolbox]: Downloading https://files.pythonhosted.org/packages/46/54/4731972f00325d0fce60b93053b6d9488a0f43b3e549933b4d882bdb9d3d/crtoolbox-0.1.2.tar.gz
+[2023-07-03 17:05:57] INFO root fetch - processPackages [cascade-config]: Remove: archive file [/home/abi/fetcher/tmp/cascade-config-0.3.0.tar.gz]
+[2023-07-03 17:05:57] INFO root fetch - processPackages [cascade-config]: Remove: archive file [/home/abi/fetcher/tmp/cascade_config-0.3.1.tar.gz]
+[2023-07-03 17:05:57] INFO root fetch - processPackages [cascade-config]: Start processing: tensorflow-text-nightly
+[2023-07-03 17:05:57] INFO root fetch - main [MainThread]: End processing [cascade-config]: success
+[2023-07-03 17:05:58] INFO root fetch - processPackages [irc-api]: Remove: archive file [/home/abi/fetcher/tmp/irc_api-1.0.0.tar.gz]
+[2023-07-03 17:05:58] INFO root fetch - processPackages [irc-api]: Remove: archive file [/home/abi/fetcher/tmp/irc_api-1.0.1.tar.gz]
+[2023-07-03 17:05:58] INFO root fetch - processPackages [irc-api]: Start processing: fajrGPT
+[2023-07-03 17:05:58] INFO root fetch - main [MainThread]: End processing [irc-api]: success
+[2023-07-03 17:05:58] INFO root fetch - processPackages [aliyun-python-sdk-rds]: Downloading https://files.pythonhosted.org/packages/86/16/e429481b48c8e39fd99916cf0d5537d596ff8a08c15cde79f3fa9f8b822b/aliyun-python-sdk-rds-2.7.8.tar.gz
+[2023-07-03 17:05:58] INFO root fetch - processPackages [tensorflow-text-nightly]: New version: [2.14.0.dev20230702] Old Version: [2.14.0.dev20230701]
+[2023-07-03 17:05:58] INFO root fetch - processPackages [crtoolbox]: executing diffoscope
+[2023-07-03 17:05:58] INFO root fetch - processPackages [crtoolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crtoolbox-0.1.1-py3-none-any.whl.zip tmp/crtoolbox-0.1.2.tar.gz --markdown 20230703/c/crtoolbox/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-03 17:05:58] INFO root fetch - processPackages [pybib2web]: Remove: archive file [/home/abi/fetcher/tmp/pybib2web-0.5.tar.gz]
+[2023-07-03 17:05:58] INFO root fetch - processPackages [pybib2web]: Remove: archive file [/home/abi/fetcher/tmp/pybib2web-0.5.1.tar.gz]
+[2023-07-03 17:05:58] INFO root fetch - processPackages [pybib2web]: Start processing: hydrogibs
+[2023-07-03 17:05:58] INFO root fetch - main [MainThread]: End processing [pybib2web]: success
+[2023-07-03 17:05:58] INFO root fetch - processPackages [nomic]: Remove: archive file [/home/abi/fetcher/tmp/nomic-2.0.2.tar.gz]
+[2023-07-03 17:05:58] INFO root fetch - processPackages [nomic]: Remove: archive file [/home/abi/fetcher/tmp/nomic-2.0.3.tar.gz]
+[2023-07-03 17:05:58] INFO root fetch - processPackages [nomic]: Start processing: drive-ibd
+[2023-07-03 17:05:58] INFO root fetch - main [MainThread]: End processing [nomic]: success
+[2023-07-03 17:05:58] INFO root fetch - processPackages [fajrGPT]: New version: [1.3] Old Version: [1.2.1]
+[2023-07-03 17:05:58] INFO root fetch - processPackages [drive-ibd]: New version: [2.0.7] Old Version: [2.0.6]
+[2023-07-03 17:05:58] INFO root fetch - processPackages [hydrogibs]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-07-03 17:05:58] INFO root fetch - processPackages [tensorflow-text-nightly]: Downloading https://files.pythonhosted.org/packages/3e/84/20995c1c484202026e3f32befdf0cb6cdb898e25d8b03788d3788bb008e0/tensorflow_text_nightly-2.14.0.dev20230701-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-03 17:05:58] INFO root fetch - processPackages [drive-ibd]: Downloading https://files.pythonhosted.org/packages/d3/46/89cbbf0afc8804b4ab013e29d6cf6162badc9f7949964ebfa56d56d8c99a/drive_ibd-2.0.6.tar.gz
+[2023-07-03 17:05:58] INFO root fetch - processPackages [aliyun-python-sdk-rds]: Downloading https://files.pythonhosted.org/packages/49/c8/97bd9925e2aab8e2fb90f2bd5952e96c8793dbb73634161c2b81b93690bb/aliyun-python-sdk-rds-2.7.9.tar.gz
+[2023-07-03 17:05:58] INFO root fetch - processPackages [fajrGPT]: Downloading https://files.pythonhosted.org/packages/bc/e2/dcd52e998487c0ad77f74fe40b183f126f429141fa8c0bbfa750df4eed2e/fajrGPT-1.2.1.tar.gz
+[2023-07-03 17:05:58] INFO root fetch - processPackages [aliyun-python-sdk-rds]: executing diffoscope
+[2023-07-03 17:05:58] INFO root fetch - processPackages [aliyun-python-sdk-rds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aliyun-python-sdk-rds-2.7.8.tar.gz tmp/aliyun-python-sdk-rds-2.7.9.tar.gz --markdown 20230703/a/aliyun-python-sdk-rds/2.7.8-2.7.9/diff.md --exclude *.pyd
+[2023-07-03 17:05:58] INFO root fetch - processPackages [hydrogibs]: Downloading https://files.pythonhosted.org/packages/42/2b/7a399661b73c55fb26bca5c84d6dee809c05c91ed58d84efe3a7630b662c/hydrogibs-0.4.0.tar.gz
+[2023-07-03 17:05:58] INFO root fetch - processPackages [drive-ibd]: Downloading https://files.pythonhosted.org/packages/57/bd/e4f75e5489ef0159a9e4ae3b63f45d137d38dacc0e129b6225367855b62f/drive_ibd-2.0.7.tar.gz
+[2023-07-03 17:05:58] INFO root fetch - processPackages [crispy-bulma]: Remove: archive file [/home/abi/fetcher/tmp/crispy-bulma-0.8.3.tar.gz]
+[2023-07-03 17:05:58] INFO root fetch - processPackages [crispy-bulma]: Remove: archive file [/home/abi/fetcher/tmp/crispy-bulma-0.9.0.tar.gz]
+[2023-07-03 17:05:58] INFO root fetch - processPackages [crispy-bulma]: Start processing: fibertrace
+[2023-07-03 17:05:58] INFO root fetch - main [MainThread]: End processing [crispy-bulma]: success
+[2023-07-03 17:05:58] INFO root fetch - processPackages [fajrGPT]: Downloading https://files.pythonhosted.org/packages/d8/e0/a42b712ed6010863b65496b2d003c67193497b4e171db184c3eab354cb73/fajrGPT-1.3.tar.gz
+[2023-07-03 17:05:59] INFO root fetch - processPackages [fibertrace]: New version: [0.1.4] Old Version: [0.1.2]
+[2023-07-03 17:05:59] INFO root fetch - processPackages [hydrogibs]: Downloading https://files.pythonhosted.org/packages/cc/13/6a94de209fe7fe26b250a9ae62e8b8abd6ab1cf640ab53897dff250f2c12/hydrogibs-0.5.0.tar.gz
+[2023-07-03 17:05:59] INFO root fetch - processPackages [fajrGPT]: executing diffoscope
+[2023-07-03 17:05:59] INFO root fetch - processPackages [fajrGPT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fajrGPT-1.2.1.tar.gz tmp/fajrGPT-1.3.tar.gz --markdown 20230703/f/fajrGPT/1.2.1-1.3/diff.md --exclude *.pyd
+[2023-07-03 17:05:59] INFO root fetch - processPackages [drive-ibd]: executing diffoscope
+[2023-07-03 17:05:59] INFO root fetch - processPackages [drive-ibd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drive_ibd-2.0.6.tar.gz tmp/drive_ibd-2.0.7.tar.gz --markdown 20230703/d/drive-ibd/2.0.6-2.0.7/diff.md --exclude *.pyd
+[2023-07-03 17:05:59] INFO root fetch - processPackages [tensorflow-text-nightly]: Downloading https://files.pythonhosted.org/packages/18/2f/7573fdba571079fa5abad0f1aaf8a984a3547218d5d22a0f3466d51f5bef/tensorflow_text_nightly-2.14.0.dev20230702-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-03 17:05:59] INFO root fetch - processPackages [hydrogibs]: executing diffoscope
+[2023-07-03 17:05:59] INFO root fetch - processPackages [hydrogibs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hydrogibs-0.4.0.tar.gz tmp/hydrogibs-0.5.0.tar.gz --markdown 20230703/h/hydrogibs/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-07-03 17:05:59] INFO root fetch - processPackages [fibertrace]: Downloading https://files.pythonhosted.org/packages/45/99/9b817b04c5af70dac1edafe215ce01876d5dc289217a305b61fef51bfc9c/fibertrace-0.1.2.tar.gz
+[2023-07-03 17:05:59] INFO root fetch - processPackages [swh.indexer]: Remove: archive file [/home/abi/fetcher/tmp/swh.indexer-2.9.3.tar.gz]
+[2023-07-03 17:05:59] INFO root fetch - processPackages [swh.indexer]: Remove: archive file [/home/abi/fetcher/tmp/swh.indexer-2.9.4.tar.gz]
+[2023-07-03 17:05:59] INFO root fetch - processPackages [swh.indexer]: Start processing: pretix-fontpack-free
+[2023-07-03 17:05:59] INFO root fetch - main [MainThread]: End processing [swh.indexer]: success
+[2023-07-03 17:05:59] INFO root fetch - processPackages [crtoolbox]: Remove: archive file [/home/abi/fetcher/tmp/crtoolbox-0.1.1-py3-none-any.whl.zip]
+[2023-07-03 17:05:59] INFO root fetch - processPackages [crtoolbox]: Remove: archive file [/home/abi/fetcher/tmp/crtoolbox-0.1.2.tar.gz]
+[2023-07-03 17:05:59] INFO root fetch - main [MainThread]: End processing [crtoolbox]: success
+[2023-07-03 17:05:59] INFO root fetch - processPackages [pollination-streamlit-io]: Remove: archive file [/home/abi/fetcher/tmp/pollination-streamlit-io-0.9.2.tar.gz]
+[2023-07-03 17:05:59] INFO root fetch - processPackages [pretix-fontpack-free]: New version: [1.9.2] Old Version: [1.9.1]
+[2023-07-03 17:05:59] INFO root fetch - processPackages [pollination-streamlit-io]: Remove: archive file [/home/abi/fetcher/tmp/pollination-streamlit-io-0.9.3.tar.gz]
+[2023-07-03 17:05:59] INFO root fetch - main [MainThread]: End processing [pollination-streamlit-io]: success
+[2023-07-03 17:05:59] INFO root fetch - processPackages [fibertrace]: Downloading https://files.pythonhosted.org/packages/a1/81/5cfbf9e0b428b71d7d59a9d9c67a678b505ecc04604343a83e8d2915d472/fibertrace-0.1.4.tar.gz
+[2023-07-03 17:06:00] INFO root fetch - processPackages [pretix-fontpack-free]: Downloading https://files.pythonhosted.org/packages/d3/8e/ea4282e2a3c30236c10d2887293bfa112d8c41130d8058526e6bc2a852ba/pretix-fontpack-free-1.9.1.tar.gz
+[2023-07-03 17:06:00] INFO root fetch - processPackages [fibertrace]: executing diffoscope
+[2023-07-03 17:06:00] INFO root fetch - processPackages [fibertrace]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fibertrace-0.1.2.tar.gz tmp/fibertrace-0.1.4.tar.gz --markdown 20230703/f/fibertrace/0.1.2-0.1.4/diff.md --exclude *.pyd
+[2023-07-03 17:06:00] WARNING root fetch - processPackages [pretix-fontpack-free]: Skipping package: exceeds size limit 13080180>=10485760
+[2023-07-03 17:06:00] INFO root fetch - main [MainThread]: End processing [pretix-fontpack-free] error
+[2023-07-03 17:06:00] INFO root fetch - processPackages [irff]: Remove: archive file [/home/abi/fetcher/tmp/irff-1.5.2.tar.gz]
+[2023-07-03 17:06:00] INFO root fetch - processPackages [irff]: Remove: archive file [/home/abi/fetcher/tmp/irff-1.5.3.tar.gz]
+[2023-07-03 17:06:00] INFO root fetch - main [MainThread]: End processing [irff]: success
+[2023-07-03 17:06:00] INFO root fetch - processPackages [fajrGPT]: Remove: archive file [/home/abi/fetcher/tmp/fajrGPT-1.2.1.tar.gz]
+[2023-07-03 17:06:00] INFO root fetch - processPackages [fajrGPT]: Remove: archive file [/home/abi/fetcher/tmp/fajrGPT-1.3.tar.gz]
+[2023-07-03 17:06:00] INFO root fetch - main [MainThread]: End processing [fajrGPT]: success
+[2023-07-03 17:06:00] INFO root fetch - processPackages [hydrogibs]: Remove: archive file [/home/abi/fetcher/tmp/hydrogibs-0.4.0.tar.gz]
+[2023-07-03 17:06:00] INFO root fetch - processPackages [hydrogibs]: Remove: archive file [/home/abi/fetcher/tmp/hydrogibs-0.5.0.tar.gz]
+[2023-07-03 17:06:00] INFO root fetch - main [MainThread]: End processing [hydrogibs]: success
+[2023-07-03 17:06:00] INFO root fetch - processPackages [tensorflow-text-nightly]: executing diffoscope
+[2023-07-03 17:06:00] INFO root fetch - processPackages [tensorflow-text-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensorflow_text_nightly-2.14.0.dev20230701-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/tensorflow_text_nightly-2.14.0.dev20230702-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230703/t/tensorflow-text-nightly/2.14.0.dev20230701-2.14.0.dev20230702/diff.md --exclude *.pyd
+[2023-07-03 17:06:00] INFO root fetch - processPackages [drive-ibd]: Remove: archive file [/home/abi/fetcher/tmp/drive_ibd-2.0.6.tar.gz]
+[2023-07-03 17:06:00] INFO root fetch - processPackages [drive-ibd]: Remove: archive file [/home/abi/fetcher/tmp/drive_ibd-2.0.7.tar.gz]
+[2023-07-03 17:06:00] INFO root fetch - main [MainThread]: End processing [drive-ibd]: success
+[2023-07-03 17:06:01] INFO root fetch - processPackages [fibertrace]: Remove: archive file [/home/abi/fetcher/tmp/fibertrace-0.1.2.tar.gz]
+[2023-07-03 17:06:01] INFO root fetch - processPackages [fibertrace]: Remove: archive file [/home/abi/fetcher/tmp/fibertrace-0.1.4.tar.gz]
+[2023-07-03 17:06:01] INFO root fetch - main [MainThread]: End processing [fibertrace]: success
+[2023-07-03 17:06:01] INFO root fetch - processPackages [aliyun-python-sdk-rds]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-rds-2.7.8.tar.gz]
+[2023-07-03 17:06:01] INFO root fetch - processPackages [aliyun-python-sdk-rds]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-rds-2.7.9.tar.gz]
+[2023-07-03 17:06:01] INFO root fetch - main [MainThread]: End processing [aliyun-python-sdk-rds]: success
+[2023-07-03 17:06:22] INFO root fetch - processPackages [tensorflow-text-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensorflow_text_nightly-2.14.0.dev20230701-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-03 17:06:22] INFO root fetch - processPackages [tensorflow-text-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensorflow_text_nightly-2.14.0.dev20230702-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-03 17:06:22] INFO root fetch - main [MainThread]: End processing [tensorflow-text-nightly]: success
+[2023-07-03 17:06:22] INFO root fetch - main [MainThread]: Store serial: [18741145]
