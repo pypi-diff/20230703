@@ -17121,3 +17121,101 @@ AssertionError: tmp/docarray-0.9.9.dev4.tar.gz does not exist
 [2023-07-03 14:24:43] INFO root fetch - processPackages [ert]: Remove: archive file [/home/abi/fetcher/tmp/ert-5.1.0b1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2023-07-03 14:24:43] INFO root fetch - main [MainThread]: End processing [ert]: success
 [2023-07-03 14:24:43] INFO root fetch - main [MainThread]: Store serial: [18738894]
+[2023-07-03 14:29:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18738894]
+[2023-07-03 14:29:54] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-07-03 14:29:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: astro-reduce
+[2023-07-03 14:29:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: astro-reduce
+[2023-07-03 14:29:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: astro-reduce
+[2023-07-03 14:29:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mapentity
+[2023-07-03 14:29:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: feathub-nightly
+[2023-07-03 14:29:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: apache-bookkeeper-client
+[2023-07-03 14:29:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: testpoetry2
+[2023-07-03 14:29:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: langflow
+[2023-07-03 14:29:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: testpoetry2
+[2023-07-03 14:29:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: xsarsea
+[2023-07-03 14:29:54] INFO root fetch - processPackages [mapentity]: New version: [8.5.4] Old Version: [8.5.3]
+[2023-07-03 14:29:54] WARNING root fetch - processPackages [xsarsea]: Skipping, unable to determine old version
+[2023-07-03 14:29:54] INFO root fetch - processPackages [xsarsea]: Start processing: django-request-filters
+[2023-07-03 14:29:54] INFO root fetch - main [MainThread]: End processing [xsarsea] error
+[2023-07-03 14:29:54] INFO root fetch - processPackages [apache-bookkeeper-client]: New version: [4.9.2] Old Version: [4.9.1]
+[2023-07-03 14:29:54] WARNING root fetch - processPackages [django-request-filters]: Skipping, unable to determine old version
+[2023-07-03 14:29:54] INFO root fetch - processPackages [django-request-filters]: Start processing: cg
+[2023-07-03 14:29:54] INFO root fetch - main [MainThread]: End processing [django-request-filters] error
+[2023-07-03 14:29:54] INFO root fetch - processPackages [cg]: New version: [37.0.9] Old Version: [37.0.8]
+[2023-07-03 14:29:54] INFO root fetch - processPackages [astro-reduce]: New version: [5.0.0] Old Version: [4.1.2]
+[2023-07-03 14:29:54] INFO root fetch - processPackages [astro-reduce]: New version: [5.0.0] Old Version: [4.1.2]
+[2023-07-03 14:29:54] INFO root fetch - processPackages [testpoetry2]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-03 14:29:54] INFO root fetch - processPackages [testpoetry2]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-03 14:29:54] INFO root fetch - processPackages [astro-reduce]: New version: [5.0.0] Old Version: [4.1.2]
+[2023-07-03 14:29:54] INFO root fetch - processPackages [mapentity]: Downloading https://files.pythonhosted.org/packages/cb/df/80d36f8a3075022ad65f2995787f98a5ce515169f6b5d0226d259689d318/mapentity-8.5.3.tar.gz
+[2023-07-03 14:29:54] INFO root fetch - processPackages [langflow]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-03 14:29:54] INFO root fetch - processPackages [feathub-nightly]: New version: [0.1.dev20230702] Old Version: [0.1.dev20230701]
+[2023-07-03 14:29:54] INFO root fetch - processPackages [apache-bookkeeper-client]: Downloading https://files.pythonhosted.org/packages/1f/f8/25880080e8e62b0cfc188d67e7dc2781b1155c9f4e12263aadd18d7677f7/apache-bookkeeper-client-4.9.1.tar.gz
+[2023-07-03 14:29:54] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/ec/1d/c584ab5bd145f7bc64a980cb9243f2ce4190d6259515da4ad36aa6cd5b8d/cg-37.0.8.tar.gz
+[2023-07-03 14:29:54] INFO root fetch - processPackages [testpoetry2]: Downloading https://files.pythonhosted.org/packages/fc/62/689f1f4d2e82b281a8233ea4df984b5ad612236bca857a7089866bec9969/testpoetry2-0.1.8.tar.gz
+[2023-07-03 14:29:54] INFO root fetch - processPackages [testpoetry2]: Downloading https://files.pythonhosted.org/packages/fc/62/689f1f4d2e82b281a8233ea4df984b5ad612236bca857a7089866bec9969/testpoetry2-0.1.8.tar.gz
+[2023-07-03 14:29:54] INFO root fetch - processPackages [astro-reduce]: Downloading https://files.pythonhosted.org/packages/91/ba/8c8adddfc3605097c829b867aa1dcc70d989065601d0da7437bbd3eb0fef/astro_reduce-4.1.2-py3.8.egg
+[2023-07-03 14:29:54] INFO root fetch - processPackages [astro-reduce]: Downloading https://files.pythonhosted.org/packages/91/ba/8c8adddfc3605097c829b867aa1dcc70d989065601d0da7437bbd3eb0fef/astro_reduce-4.1.2-py3.8.egg
+[2023-07-03 14:29:54] INFO root fetch - processPackages [astro-reduce]: Downloading https://files.pythonhosted.org/packages/91/ba/8c8adddfc3605097c829b867aa1dcc70d989065601d0da7437bbd3eb0fef/astro_reduce-4.1.2-py3.8.egg
+[2023-07-03 14:29:54] INFO root fetch - processPackages [langflow]: Downloading https://files.pythonhosted.org/packages/8c/bb/df0397c690142374fe5cc52134d7e4461b82626db9823c3d3baca67c4495/langflow-0.2.8.tar.gz
+[2023-07-03 14:29:54] INFO root fetch - processPackages [feathub-nightly]: Downloading https://files.pythonhosted.org/packages/fe/5b/04fb7358b02b8ce49b3f11ec64a9601685f16698f582863d62225f7016b7/feathub_nightly-0.1.dev20230701-py3-none-any.whl
+[2023-07-03 14:29:55] WARNING root fetch - processPackages [feathub-nightly]: Skipping package: exceeds size limit 12210402>=10485760
+[2023-07-03 14:29:55] INFO root fetch - processPackages [feathub-nightly]: Start processing: fusionprov
+[2023-07-03 14:29:55] INFO root fetch - main [MainThread]: End processing [feathub-nightly] error
+[2023-07-03 14:29:55] INFO root fetch - processPackages [apache-bookkeeper-client]: Downloading https://files.pythonhosted.org/packages/cf/05/1d3ccb5e0c997ed828f8c2e566e6d03b9aa2b87e4082e897c44b833169b4/apache-bookkeeper-client-4.9.2.tar.gz
+[2023-07-03 14:29:55] INFO root fetch - processPackages [testpoetry2]: Downloading https://files.pythonhosted.org/packages/30/8e/2a5667e0a491b0a7af7dd539d4fa73c281b7801bed1f7fabf4e3bf655326/testpoetry2-0.1.9.tar.gz
+[2023-07-03 14:29:55] INFO root fetch - processPackages [testpoetry2]: Downloading https://files.pythonhosted.org/packages/30/8e/2a5667e0a491b0a7af7dd539d4fa73c281b7801bed1f7fabf4e3bf655326/testpoetry2-0.1.9.tar.gz
+[2023-07-03 14:29:55] INFO root fetch - processPackages [fusionprov]: New version: [1.2.2] Old Version: [1.2.1]
+[2023-07-03 14:29:55] INFO root fetch - processPackages [astro-reduce]: Downloading https://files.pythonhosted.org/packages/60/12/a05a80b61b66ef4eb0e22b30b792d1d856ef461ef4052a887b7863677ed5/astro_reduce-5.0.0-py3-none-any.whl
+[2023-07-03 14:29:55] INFO root fetch - processPackages [astro-reduce]: Downloading https://files.pythonhosted.org/packages/60/12/a05a80b61b66ef4eb0e22b30b792d1d856ef461ef4052a887b7863677ed5/astro_reduce-5.0.0-py3-none-any.whl
+[2023-07-03 14:29:55] INFO root fetch - processPackages [astro-reduce]: Downloading https://files.pythonhosted.org/packages/60/12/a05a80b61b66ef4eb0e22b30b792d1d856ef461ef4052a887b7863677ed5/astro_reduce-5.0.0-py3-none-any.whl
+[2023-07-03 14:29:55] INFO root fetch - processPackages [mapentity]: Downloading https://files.pythonhosted.org/packages/50/b5/7b5d739e92bcea48dee376ffd25a208a89a30ec58e5b327efac0f3521846/mapentity-8.5.4.tar.gz
+[2023-07-03 14:29:55] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/d6/7e/80bbf10d5634a932760fbb85138245f7f53ad73bcdd6d223800c8b51e56f/cg-37.0.9.tar.gz
+[2023-07-03 14:29:55] INFO root fetch - processPackages [testpoetry2]: executing diffoscope
+[2023-07-03 14:29:55] INFO root fetch - processPackages [testpoetry2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testpoetry2-0.1.8.tar.gz tmp/testpoetry2-0.1.9.tar.gz --markdown 20230703/t/testpoetry2/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-03 14:29:55] INFO root fetch - processPackages [testpoetry2]: executing diffoscope
+[2023-07-03 14:29:55] INFO root fetch - processPackages [testpoetry2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testpoetry2-0.1.8.tar.gz tmp/testpoetry2-0.1.9.tar.gz --markdown 20230703/t/testpoetry2/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-03 14:29:55] INFO root fetch - processPackages [apache-bookkeeper-client]: executing diffoscope
+[2023-07-03 14:29:55] INFO root fetch - processPackages [apache-bookkeeper-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apache-bookkeeper-client-4.9.1.tar.gz tmp/apache-bookkeeper-client-4.9.2.tar.gz --markdown 20230703/a/apache-bookkeeper-client/4.9.1-4.9.2/diff.md --exclude *.pyd
+[2023-07-03 14:29:55] INFO root fetch - processPackages [fusionprov]: Downloading https://files.pythonhosted.org/packages/a8/a5/22e953c22c482994645a399041d2d061a611815f598c716d51885a53a2f6/fusionprov-1.2.1-py3-none-any.whl
+[2023-07-03 14:29:55] INFO root fetch - processPackages [astro-reduce]: executing diffoscope
+[2023-07-03 14:29:55] INFO root fetch - processPackages [astro-reduce]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/astro_reduce-4.1.2-py3.8.egg tmp/astro_reduce-5.0.0-py3-none-any.whl.zip --markdown 20230703/a/astro-reduce/4.1.2-5.0.0/diff.md --exclude *.pyd
+[2023-07-03 14:29:55] INFO root fetch - processPackages [astro-reduce]: executing diffoscope
+[2023-07-03 14:29:55] INFO root fetch - processPackages [astro-reduce]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/astro_reduce-4.1.2-py3.8.egg tmp/astro_reduce-5.0.0-py3-none-any.whl.zip --markdown 20230703/a/astro-reduce/4.1.2-5.0.0/diff.md --exclude *.pyd
+[2023-07-03 14:29:55] INFO root fetch - processPackages [astro-reduce]: executing diffoscope
+[2023-07-03 14:29:55] INFO root fetch - processPackages [astro-reduce]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/astro_reduce-4.1.2-py3.8.egg tmp/astro_reduce-5.0.0-py3-none-any.whl.zip --markdown 20230703/a/astro-reduce/4.1.2-5.0.0/diff.md --exclude *.pyd
+[2023-07-03 14:29:55] INFO root fetch - processPackages [mapentity]: executing diffoscope
+[2023-07-03 14:29:55] INFO root fetch - processPackages [mapentity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mapentity-8.5.3.tar.gz tmp/mapentity-8.5.4.tar.gz --markdown 20230703/m/mapentity/8.5.3-8.5.4/diff.md --exclude *.pyd
+[2023-07-03 14:29:56] INFO root fetch - processPackages [fusionprov]: Downloading https://files.pythonhosted.org/packages/ff/69/1fcf1a21ce6adba6a0b329c9afb58a85fcd3e2c930e798dfcbe8286a6ac6/fusionprov-1.2.2-py3-none-any.whl
+[2023-07-03 14:29:56] INFO root fetch - processPackages [langflow]: Downloading https://files.pythonhosted.org/packages/08/a8/b7023e44d8be8d1c885fde686c8dac151027089f7419dde947f6b7f98533/langflow-0.2.9.tar.gz
+[2023-07-03 14:29:56] INFO root fetch - processPackages [cg]: executing diffoscope
+[2023-07-03 14:29:56] INFO root fetch - processPackages [cg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cg-37.0.8.tar.gz tmp/cg-37.0.9.tar.gz --markdown 20230703/c/cg/37.0.8-37.0.9/diff.md --exclude *.pyd
+[2023-07-03 14:29:56] INFO root fetch - processPackages [fusionprov]: executing diffoscope
+[2023-07-03 14:29:56] INFO root fetch - processPackages [fusionprov]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fusionprov-1.2.1-py3-none-any.whl.zip tmp/fusionprov-1.2.2-py3-none-any.whl.zip --markdown 20230703/f/fusionprov/1.2.1-1.2.2/diff.md --exclude *.pyd
+[2023-07-03 14:29:56] INFO root fetch - processPackages [langflow]: executing diffoscope
+[2023-07-03 14:29:56] INFO root fetch - processPackages [langflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langflow-0.2.8.tar.gz tmp/langflow-0.2.9.tar.gz --markdown 20230703/l/langflow/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-03 14:29:57] INFO root fetch - processPackages [testpoetry2]: Remove: archive file [/home/abi/fetcher/tmp/testpoetry2-0.1.8.tar.gz]
+[2023-07-03 14:29:57] INFO root fetch - processPackages [testpoetry2]: Remove: archive file [/home/abi/fetcher/tmp/testpoetry2-0.1.9.tar.gz]
+[2023-07-03 14:29:57] INFO root fetch - main [MainThread]: End processing [testpoetry2]: success
+[2023-07-03 14:29:57] INFO root fetch - main [MainThread]: End processing [testpoetry2]: success
+[2023-07-03 14:29:57] INFO root fetch - processPackages [astro-reduce]: Remove: archive file [/home/abi/fetcher/tmp/astro_reduce-4.1.2-py3.8.egg]
+[2023-07-03 14:29:57] INFO root fetch - processPackages [astro-reduce]: Remove: archive file [/home/abi/fetcher/tmp/astro_reduce-5.0.0-py3-none-any.whl.zip]
+[2023-07-03 14:29:57] INFO root fetch - main [MainThread]: End processing [astro-reduce]: success
+[2023-07-03 14:29:57] INFO root fetch - main [MainThread]: End processing [astro-reduce]: success
+[2023-07-03 14:29:57] INFO root fetch - processPackages [apache-bookkeeper-client]: Remove: archive file [/home/abi/fetcher/tmp/apache-bookkeeper-client-4.9.1.tar.gz]
+[2023-07-03 14:29:57] INFO root fetch - processPackages [apache-bookkeeper-client]: Remove: archive file [/home/abi/fetcher/tmp/apache-bookkeeper-client-4.9.2.tar.gz]
+[2023-07-03 14:29:57] INFO root fetch - main [MainThread]: End processing [apache-bookkeeper-client]: success
+[2023-07-03 14:29:57] INFO root fetch - main [MainThread]: End processing [astro-reduce]: success
+[2023-07-03 14:29:57] INFO root fetch - processPackages [fusionprov]: Remove: archive file [/home/abi/fetcher/tmp/fusionprov-1.2.1-py3-none-any.whl.zip]
+[2023-07-03 14:29:57] INFO root fetch - processPackages [fusionprov]: Remove: archive file [/home/abi/fetcher/tmp/fusionprov-1.2.2-py3-none-any.whl.zip]
+[2023-07-03 14:29:57] INFO root fetch - main [MainThread]: End processing [fusionprov]: success
+[2023-07-03 14:30:03] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-37.0.8.tar.gz]
+[2023-07-03 14:30:03] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-37.0.9.tar.gz]
+[2023-07-03 14:30:03] INFO root fetch - main [MainThread]: End processing [cg]: success
+[2023-07-03 14:30:05] INFO root fetch - processPackages [mapentity]: Remove: archive file [/home/abi/fetcher/tmp/mapentity-8.5.3.tar.gz]
+[2023-07-03 14:30:05] INFO root fetch - processPackages [mapentity]: Remove: archive file [/home/abi/fetcher/tmp/mapentity-8.5.4.tar.gz]
+[2023-07-03 14:30:05] INFO root fetch - main [MainThread]: End processing [mapentity]: success
+[2023-07-03 14:30:21] INFO root fetch - processPackages [langflow]: Remove: archive file [/home/abi/fetcher/tmp/langflow-0.2.8.tar.gz]
+[2023-07-03 14:30:21] INFO root fetch - processPackages [langflow]: Remove: archive file [/home/abi/fetcher/tmp/langflow-0.2.9.tar.gz]
+[2023-07-03 14:30:21] INFO root fetch - main [MainThread]: End processing [langflow]: success
+[2023-07-03 14:30:21] INFO root fetch - main [MainThread]: Store serial: [18738932]
