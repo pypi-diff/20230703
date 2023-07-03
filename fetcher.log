@@ -14328,3 +14328,157 @@ AssertionError: tmp/discord-ansi-0.3.tar.gz does not exist
 [2023-07-03 12:28:00] INFO root fetch - processPackages [c2cciutils]: Remove: archive file [/home/abi/fetcher/tmp/c2cciutils-1.6.0.dev99.tar.gz]
 [2023-07-03 12:28:00] INFO root fetch - main [MainThread]: End processing [c2cciutils]: success
 [2023-07-03 12:28:00] INFO root fetch - main [MainThread]: Store serial: [18737652]
+[2023-07-03 12:33:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18737652]
+[2023-07-03 12:33:09] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-07-03 12:33:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: spaceone-plugin
+[2023-07-03 12:33:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: netbone
+[2023-07-03 12:33:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cyc-gbm
+[2023-07-03 12:33:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: jenkspy
+[2023-07-03 12:33:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mouse2
+[2023-07-03 12:33:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: vollseg-napari-trackmate
+[2023-07-03 12:33:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mkdocs-material
+[2023-07-03 12:33:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: modeldag
+[2023-07-03 12:33:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: limberer
+[2023-07-03 12:33:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: lokzzpylib
+[2023-07-03 12:33:10] INFO root fetch - processPackages [limberer]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-07-03 12:33:10] INFO root fetch - processPackages [cyc-gbm]: New version: [0.0.24] Old Version: [0.0.23]
+[2023-07-03 12:33:10] INFO root fetch - processPackages [lokzzpylib]: New version: [0.2.dev9] Old Version: [0.2.dev8]
+[2023-07-03 12:33:10] INFO root fetch - processPackages [vollseg-napari-trackmate]: New version: [2.2.6] Old Version: [2.2.5]
+[2023-07-03 12:33:10] INFO root fetch - processPackages [mouse2]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-03 12:33:10] INFO root fetch - processPackages [netbone]: New version: [0.2.2] Old Version: [0.2.1.1]
+[2023-07-03 12:33:10] INFO root fetch - processPackages [modeldag]: New version: [0.4.0] Old Version: [0.3.3]
+[2023-07-03 12:33:10] INFO root fetch - processPackages [limberer]: Downloading https://files.pythonhosted.org/packages/ce/d1/9505f40834c9263d37430053314f8be9a1ec7ac8c4469e4f916a25e647ee/limberer-0.2.1.tar.gz
+[2023-07-03 12:33:10] INFO root fetch - processPackages [mouse2]: Downloading https://files.pythonhosted.org/packages/71/af/4471c4bdb401c2eb1af021c6ca28e08d5d508db68923ca092b4bd35171e5/mouse2-0.2.8.tar.gz
+[2023-07-03 12:33:10] INFO root fetch - processPackages [lokzzpylib]: Downloading https://files.pythonhosted.org/packages/e2/59/899dd08722b859f214b6eee5335384aa5e1bb485140945e6cb65257098a5/lokzzpylib-0.2.dev8.tar.gz
+[2023-07-03 12:33:10] INFO root fetch - processPackages [jenkspy]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-07-03 12:33:10] INFO root fetch - processPackages [spaceone-plugin]: New version: [1.9.7rc1] Old Version: [1.9.7.2]
+[2023-07-03 12:33:10] INFO root fetch - processPackages [mkdocs-material]: New version: [9.1.9] Old Version: [9.1.8]
+[2023-07-03 12:33:10] INFO root fetch - processPackages [cyc-gbm]: Downloading https://files.pythonhosted.org/packages/a6/14/5b02fc60144fe4e01ac432afa768da6b6da198f6883340a2e9f2feec2059/cyc-gbm-0.0.23.tar.gz
+[2023-07-03 12:33:10] INFO root fetch - processPackages [netbone]: Downloading https://files.pythonhosted.org/packages/03/90/acbfefd2b00adff798aa34a064e4445756205f9c50b076aa16ef2ab7f644/netbone-0.2.1.1.tar.gz
+[2023-07-03 12:33:10] INFO root fetch - processPackages [vollseg-napari-trackmate]: Downloading https://files.pythonhosted.org/packages/95/7f/2e459e10ebdbaff6c2ae76b67f620ea92278c17c1a69e1197442ac7adb9e/vollseg-napari-trackmate-2.2.5.tar.gz
+[2023-07-03 12:33:10] INFO root fetch - processPackages [modeldag]: Downloading https://files.pythonhosted.org/packages/2e/f3/d16b7cb6f92242ce542326ed879a162a07b3f348b6530796b577ee586296/modeldag-0.3.3.tar.gz
+[2023-07-03 12:33:10] INFO root fetch - processPackages [mouse2]: Downloading https://files.pythonhosted.org/packages/38/4f/0f78a073a4cba3f2a488e767e2ad7e4de4de2f9a4993165d4e4cbecbc753/mouse2-0.2.9.tar.gz
+[2023-07-03 12:33:10] INFO root fetch - processPackages [jenkspy]: Downloading https://files.pythonhosted.org/packages/32/4b/b1733f58a792000d989987155a4456a6dff88a036ecb70f0a8cf9afc0b63/jenkspy-0.3.2.tar.gz
+[2023-07-03 12:33:10] INFO root fetch - processPackages [spaceone-plugin]: Downloading https://files.pythonhosted.org/packages/fc/e2/7181fc4fb594e9563106bb073b7d0a2163965fb92346319bfb2767f674f6/spaceone_plugin-1.9.7.2-py3-none-any.whl
+[2023-07-03 12:33:10] INFO root fetch - processPackages [cyc-gbm]: Downloading https://files.pythonhosted.org/packages/e5/97/51ec2e8155737cd4fba1039e135ac08f16b94c60cb574478557ba780eacd/cyc-gbm-0.0.24.tar.gz
+[2023-07-03 12:33:11] INFO root fetch - processPackages [limberer]: Downloading https://files.pythonhosted.org/packages/19/c1/ad1da00c3258e0504dcae33020df98d05a61c9f3936d7829d68487e28c6f/limberer-0.2.2.tar.gz
+[2023-07-03 12:33:11] INFO root fetch - processPackages [lokzzpylib]: Downloading https://files.pythonhosted.org/packages/d3/9b/e4bbf15840f86c58df052ec37f778b6563255557c0f8edc61797a91a6dcf/lokzzpylib-0.2.dev9.tar.gz
+[2023-07-03 12:33:11] INFO root fetch - processPackages [mouse2]: executing diffoscope
+[2023-07-03 12:33:11] INFO root fetch - processPackages [mouse2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mouse2-0.2.8.tar.gz tmp/mouse2-0.2.9.tar.gz --markdown 20230703/m/mouse2/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-03 12:33:11] INFO root fetch - processPackages [vollseg-napari-trackmate]: Downloading https://files.pythonhosted.org/packages/43/60/8ef963e682de4a392b9ad3006005a25e84df6c9ed84f4a16055ade1be661/vollseg-napari-trackmate-2.2.6.tar.gz
+[2023-07-03 12:33:11] INFO root fetch - processPackages [cyc-gbm]: executing diffoscope
+[2023-07-03 12:33:11] INFO root fetch - processPackages [cyc-gbm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cyc-gbm-0.0.23.tar.gz tmp/cyc-gbm-0.0.24.tar.gz --markdown 20230703/c/cyc-gbm/0.0.23-0.0.24/diff.md --exclude *.pyd
+[2023-07-03 12:33:11] INFO root fetch - processPackages [mkdocs-material]: executing diffoscope
+[2023-07-03 12:33:11] INFO root fetch - processPackages [mkdocs-material]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkdocs_material-9.1.8.tar.gz tmp/mkdocs_material-9.1.9.tar.gz --markdown 20230703/m/mkdocs-material/9.1.8-9.1.9/diff.md --exclude *.pyd
+[2023-07-03 12:33:11] INFO root fetch - processPackages [limberer]: executing diffoscope
+[2023-07-03 12:33:11] INFO root fetch - processPackages [limberer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/limberer-0.2.1.tar.gz tmp/limberer-0.2.2.tar.gz --markdown 20230703/l/limberer/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-07-03 12:33:11] INFO root fetch - processPackages [netbone]: Downloading https://files.pythonhosted.org/packages/2e/13/c7fab2f00981319672fa99886c0d613a3a51a96521e3ceec9e3877b20e74/netbone-0.2.2.tar.gz
+[2023-07-03 12:33:11] INFO root fetch - processPackages [lokzzpylib]: executing diffoscope
+[2023-07-03 12:33:11] INFO root fetch - processPackages [lokzzpylib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lokzzpylib-0.2.dev8.tar.gz tmp/lokzzpylib-0.2.dev9.tar.gz --markdown 20230703/l/lokzzpylib/0.2.dev8-0.2.dev9/diff.md --exclude *.pyd
+[2023-07-03 12:33:11] INFO root fetch - processPackages [modeldag]: Downloading https://files.pythonhosted.org/packages/ba/5b/63ed3e3f99fbfc65a9d9ca71e3a820ff8b271d637346597f40bc5898efcc/modeldag-0.4.0.tar.gz
+[2023-07-03 12:33:11] INFO root fetch - processPackages [jenkspy]: Downloading https://files.pythonhosted.org/packages/55/3a/8477e0951b006627567a67f9cca717ccfa960f3c78f04f3fdba385eacf40/jenkspy-0.3.3.tar.gz
+[2023-07-03 12:33:11] INFO root fetch - processPackages [netbone]: executing diffoscope
+[2023-07-03 12:33:11] INFO root fetch - processPackages [netbone]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbone-0.2.1.1.tar.gz tmp/netbone-0.2.2.tar.gz --markdown 20230703/n/netbone/0.2.1.1-0.2.2/diff.md --exclude *.pyd
+[2023-07-03 12:33:11] INFO root fetch - processPackages [spaceone-plugin]: Downloading https://files.pythonhosted.org/packages/49/24/2f5d11b22569fcca24e6ced49a4d3ca780ebadcff4047b6229deb760e6ee/spaceone_plugin-1.9.7rc1-py3-none-any.whl
+[2023-07-03 12:33:11] INFO root fetch - processPackages [vollseg-napari-trackmate]: executing diffoscope
+[2023-07-03 12:33:11] INFO root fetch - processPackages [vollseg-napari-trackmate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vollseg-napari-trackmate-2.2.5.tar.gz tmp/vollseg-napari-trackmate-2.2.6.tar.gz --markdown 20230703/v/vollseg-napari-trackmate/2.2.5-2.2.6/diff.md --exclude *.pyd
+[2023-07-03 12:33:11] INFO root fetch - processPackages [modeldag]: executing diffoscope
+[2023-07-03 12:33:11] INFO root fetch - processPackages [modeldag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modeldag-0.3.3.tar.gz tmp/modeldag-0.4.0.tar.gz --markdown 20230703/m/modeldag/0.3.3-0.4.0/diff.md --exclude *.pyd
+[2023-07-03 12:33:11] INFO root fetch - processPackages [jenkspy]: executing diffoscope
+[2023-07-03 12:33:11] INFO root fetch - processPackages [jenkspy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jenkspy-0.3.2.tar.gz tmp/jenkspy-0.3.3.tar.gz --markdown 20230703/j/jenkspy/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-07-03 12:33:11] INFO root fetch - processPackages [spaceone-plugin]: executing diffoscope
+[2023-07-03 12:33:11] INFO root fetch - processPackages [spaceone-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spaceone_plugin-1.9.7.2-py3-none-any.whl.zip tmp/spaceone_plugin-1.9.7rc1-py3-none-any.whl.zip --markdown 20230703/s/spaceone-plugin/1.9.7.2-1.9.7rc1/diff.md --exclude *.pyd
+[2023-07-03 12:33:12] INFO root fetch - processPackages [mouse2]: Remove: archive file [/home/abi/fetcher/tmp/mouse2-0.2.8.tar.gz]
+[2023-07-03 12:33:12] INFO root fetch - processPackages [mouse2]: Remove: archive file [/home/abi/fetcher/tmp/mouse2-0.2.9.tar.gz]
+[2023-07-03 12:33:12] INFO root fetch - processPackages [mouse2]: Start processing: h2o-wave
+[2023-07-03 12:33:12] INFO root fetch - main [MainThread]: End processing [mouse2]: success
+[2023-07-03 12:33:12] INFO root fetch - processPackages [cyc-gbm]: Remove: archive file [/home/abi/fetcher/tmp/cyc-gbm-0.0.23.tar.gz]
+[2023-07-03 12:33:12] INFO root fetch - processPackages [cyc-gbm]: Remove: archive file [/home/abi/fetcher/tmp/cyc-gbm-0.0.24.tar.gz]
+[2023-07-03 12:33:12] INFO root fetch - processPackages [cyc-gbm]: Start processing: sj-tool
+[2023-07-03 12:33:12] INFO root fetch - main [MainThread]: End processing [cyc-gbm]: success
+[2023-07-03 12:33:12] INFO root fetch - processPackages [lokzzpylib]: Remove: archive file [/home/abi/fetcher/tmp/lokzzpylib-0.2.dev8.tar.gz]
+[2023-07-03 12:33:12] INFO root fetch - processPackages [lokzzpylib]: Remove: archive file [/home/abi/fetcher/tmp/lokzzpylib-0.2.dev9.tar.gz]
+[2023-07-03 12:33:12] INFO root fetch - processPackages [lokzzpylib]: Start processing: c2cciutils
+[2023-07-03 12:33:12] INFO root fetch - main [MainThread]: End processing [lokzzpylib]: success
+[2023-07-03 12:33:12] INFO root fetch - processPackages [sj-tool]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-03 12:33:12] INFO root fetch - processPackages [c2cciutils]: New version: [1.6.0.dev99] Old Version: [1.6.0.dev98]
+[2023-07-03 12:33:12] INFO root fetch - processPackages [h2o-wave]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-07-03 12:33:12] INFO root fetch - processPackages [limberer]: Remove: archive file [/home/abi/fetcher/tmp/limberer-0.2.1.tar.gz]
+[2023-07-03 12:33:12] INFO root fetch - processPackages [limberer]: Remove: archive file [/home/abi/fetcher/tmp/limberer-0.2.2.tar.gz]
+[2023-07-03 12:33:12] INFO root fetch - processPackages [limberer]: Start processing: uasset-dump
+[2023-07-03 12:33:12] INFO root fetch - main [MainThread]: End processing [limberer]: success
+[2023-07-03 12:33:12] INFO root fetch - processPackages [uasset-dump]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-03 12:33:12] INFO root fetch - processPackages [sj-tool]: Downloading https://files.pythonhosted.org/packages/8b/f9/2af667f18b77632259bbdac6a0db7f33f9cbea38a7a1baa7d9979d9060d3/sj_tool-1.0.8-py3-none-any.whl
+[2023-07-03 12:33:12] INFO root fetch - processPackages [c2cciutils]: Downloading https://files.pythonhosted.org/packages/a1/2b/1d6a9f2a49b1cf5d42f9fe6f8498218d1aa03ad4f83547e435c82985bf79/c2cciutils-1.6.0.dev98.tar.gz
+[2023-07-03 12:33:12] INFO root fetch - processPackages [modeldag]: Remove: archive file [/home/abi/fetcher/tmp/modeldag-0.3.3.tar.gz]
+[2023-07-03 12:33:12] INFO root fetch - processPackages [modeldag]: Remove: archive file [/home/abi/fetcher/tmp/modeldag-0.4.0.tar.gz]
+[2023-07-03 12:33:12] INFO root fetch - processPackages [modeldag]: Start processing: h2o-wave-university
+[2023-07-03 12:33:12] INFO root fetch - main [MainThread]: End processing [modeldag]: success
+[2023-07-03 12:33:13] INFO root fetch - processPackages [jenkspy]: Remove: archive file [/home/abi/fetcher/tmp/jenkspy-0.3.2.tar.gz]
+[2023-07-03 12:33:13] INFO root fetch - processPackages [jenkspy]: Remove: archive file [/home/abi/fetcher/tmp/jenkspy-0.3.3.tar.gz]
+[2023-07-03 12:33:13] INFO root fetch - processPackages [jenkspy]: Start processing: h2o-lightwave
+[2023-07-03 12:33:13] INFO root fetch - main [MainThread]: End processing [jenkspy]: success
+[2023-07-03 12:33:13] INFO root fetch - processPackages [h2o-wave]: Downloading https://files.pythonhosted.org/packages/21/e4/247471a4f0f9d3daa6445a1dcb18a0c3ca7da040f0ab0081b13ec09297d6/h2o_wave-0.9.0-py3-none-any.whl
+[2023-07-03 12:33:13] INFO root fetch - processPackages [h2o-wave-university]: New version: [0.26.1] Old Version: [0.26.0]
+[2023-07-03 12:33:13] INFO root fetch - processPackages [netbone]: Remove: archive file [/home/abi/fetcher/tmp/netbone-0.2.1.1.tar.gz]
+[2023-07-03 12:33:13] INFO root fetch - processPackages [netbone]: Remove: archive file [/home/abi/fetcher/tmp/netbone-0.2.2.tar.gz]
+[2023-07-03 12:33:13] INFO root fetch - processPackages [netbone]: Start processing: h2o-lightwave-web
+[2023-07-03 12:33:13] INFO root fetch - main [MainThread]: End processing [netbone]: success
+[2023-07-03 12:33:13] INFO root fetch - processPackages [sj-tool]: Downloading https://files.pythonhosted.org/packages/2e/c6/ed941d25e472426116ea2e75bd85fead4f6fad46d6238c6a7bc0c10801f1/sj_tool-1.0.9-py3-none-any.whl
+[2023-07-03 12:33:13] INFO root fetch - processPackages [uasset-dump]: Downloading https://files.pythonhosted.org/packages/c5/fe/b268b80db7de33f649ed3e2502a9f44699e289bde507787fd13c419fc513/uasset_dump-0.0.4.tar.gz
+[2023-07-03 12:33:13] INFO root fetch - processPackages [spaceone-plugin]: Remove: archive file [/home/abi/fetcher/tmp/spaceone_plugin-1.9.7.2-py3-none-any.whl.zip]
+[2023-07-03 12:33:13] INFO root fetch - processPackages [spaceone-plugin]: Remove: archive file [/home/abi/fetcher/tmp/spaceone_plugin-1.9.7rc1-py3-none-any.whl.zip]
+[2023-07-03 12:33:13] INFO root fetch - processPackages [spaceone-plugin]: Start processing: sora-sdk
+[2023-07-03 12:33:13] INFO root fetch - main [MainThread]: End processing [spaceone-plugin]: success
+[2023-07-03 12:33:13] INFO root fetch - processPackages [h2o-lightwave]: New version: [0.26.1] Old Version: [0.26.0]
+[2023-07-03 12:33:13] INFO root fetch - processPackages [h2o-lightwave-web]: New version: [0.26.1] Old Version: [0.26.0]
+[2023-07-03 12:33:13] INFO root fetch - processPackages [c2cciutils]: Downloading https://files.pythonhosted.org/packages/60/cb/aa51be69fbd8a1ba783878ebc042a12a61ad083b26d90280d1164ab692f5/c2cciutils-1.6.0.dev99.tar.gz
+[2023-07-03 12:33:13] INFO root fetch - processPackages [sj-tool]: executing diffoscope
+[2023-07-03 12:33:13] INFO root fetch - processPackages [sj-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sj_tool-1.0.8-py3-none-any.whl.zip tmp/sj_tool-1.0.9-py3-none-any.whl.zip --markdown 20230703/s/sj-tool/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-03 12:33:13] INFO root fetch - processPackages [sora-sdk]: New version: [2023.2.0.dev1] Old Version: [2023.2.0.dev0]
+[2023-07-03 12:33:13] INFO root fetch - processPackages [h2o-wave-university]: Downloading https://files.pythonhosted.org/packages/e1/21/2543e23eddb1a6be631520a4492dd0457c8c3f07d369f9ccc0b201487b7a/h2o_wave_university-0.26.0-py3-none-any.whl
+[2023-07-03 12:33:13] INFO root fetch - processPackages [sora-sdk]: Downloading https://files.pythonhosted.org/packages/a8/12/2b81fbeb938078078fe1a123bd4e2772d6447a8503da6e61d3b893edd471/sora_sdk-2023.2.0.dev0.tar.gz
+[2023-07-03 12:33:13] INFO root fetch - processPackages [c2cciutils]: executing diffoscope
+[2023-07-03 12:33:13] INFO root fetch - processPackages [c2cciutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c2cciutils-1.6.0.dev98.tar.gz tmp/c2cciutils-1.6.0.dev99.tar.gz --markdown 20230703/c/c2cciutils/1.6.0.dev98-1.6.0.dev99/diff.md --exclude *.pyd
+[2023-07-03 12:33:13] WARNING root fetch - processPackages [sora-sdk]: Skipping package: exceeds size limit 11016681>=10485760
+[2023-07-03 12:33:13] INFO root fetch - main [MainThread]: End processing [sora-sdk] error
+[2023-07-03 12:33:13] WARNING root fetch - processPackages [h2o-wave-university]: Skipping package: exceeds size limit 12937003>=10485760
+[2023-07-03 12:33:13] INFO root fetch - processPackages [uasset-dump]: Downloading https://files.pythonhosted.org/packages/51/49/050688c1d9e21662ca0b0701c3a38bbfe24c35761949810c1a7a08ab9400/uasset_dump-0.0.5.tar.gz
+[2023-07-03 12:33:13] INFO root fetch - main [MainThread]: End processing [h2o-wave-university] error
+[2023-07-03 12:33:13] INFO root fetch - processPackages [h2o-lightwave-web]: Downloading https://files.pythonhosted.org/packages/07/66/8ac966508f10a8e2a3b6781a23cda70c6f0a6c36ee9ab36b75cedfec3bfa/h2o_lightwave_web-0.26.0-py3-none-any.whl
+[2023-07-03 12:33:13] INFO root fetch - processPackages [h2o-lightwave]: Downloading https://files.pythonhosted.org/packages/b1/83/1ceb727211bb0477fb3703382119ae8ced7ac49f9950ab22a6c18d8d65a5/h2o_lightwave-0.26.0-py3-none-any.whl
+[2023-07-03 12:33:13] INFO root fetch - processPackages [h2o-wave]: Downloading https://files.pythonhosted.org/packages/9d/56/ccd5ddaf73a43d645fd4ea6287bf3581a8efd9c4c6aeaed05ca1273c74f4/h2o_wave-0.9.1-py3-none-any.whl
+[2023-07-03 12:33:13] INFO root fetch - processPackages [uasset-dump]: executing diffoscope
+[2023-07-03 12:33:13] INFO root fetch - processPackages [uasset-dump]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uasset_dump-0.0.4.tar.gz tmp/uasset_dump-0.0.5.tar.gz --markdown 20230703/u/uasset-dump/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-03 12:33:13] INFO root fetch - processPackages [h2o-wave]: executing diffoscope
+[2023-07-03 12:33:13] INFO root fetch - processPackages [h2o-wave]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/h2o_wave-0.9.0-py3-none-any.whl.zip tmp/h2o_wave-0.9.1-py3-none-any.whl.zip --markdown 20230703/h/h2o-wave/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-07-03 12:33:13] INFO root fetch - processPackages [h2o-lightwave]: Downloading https://files.pythonhosted.org/packages/45/41/42682b9a29a534c8d58fd784498044a28de85cd23bfe0bca6883531f89cc/h2o_lightwave-0.26.1-py3-none-any.whl
+[2023-07-03 12:33:14] INFO root fetch - processPackages [h2o-lightwave]: executing diffoscope
+[2023-07-03 12:33:14] INFO root fetch - processPackages [h2o-lightwave]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/h2o_lightwave-0.26.0-py3-none-any.whl.zip tmp/h2o_lightwave-0.26.1-py3-none-any.whl.zip --markdown 20230703/h/h2o-lightwave/0.26.0-0.26.1/diff.md --exclude *.pyd
+[2023-07-03 12:33:14] INFO root fetch - processPackages [vollseg-napari-trackmate]: Remove: archive file [/home/abi/fetcher/tmp/vollseg-napari-trackmate-2.2.5.tar.gz]
+[2023-07-03 12:33:14] INFO root fetch - processPackages [vollseg-napari-trackmate]: Remove: archive file [/home/abi/fetcher/tmp/vollseg-napari-trackmate-2.2.6.tar.gz]
+[2023-07-03 12:33:14] INFO root fetch - main [MainThread]: End processing [vollseg-napari-trackmate]: success
+[2023-07-03 12:33:14] INFO root fetch - processPackages [sj-tool]: Remove: archive file [/home/abi/fetcher/tmp/sj_tool-1.0.8-py3-none-any.whl.zip]
+[2023-07-03 12:33:14] INFO root fetch - processPackages [sj-tool]: Remove: archive file [/home/abi/fetcher/tmp/sj_tool-1.0.9-py3-none-any.whl.zip]
+[2023-07-03 12:33:14] INFO root fetch - main [MainThread]: End processing [sj-tool]: success
+[2023-07-03 12:33:14] INFO root fetch - processPackages [uasset-dump]: Remove: archive file [/home/abi/fetcher/tmp/uasset_dump-0.0.4.tar.gz]
+[2023-07-03 12:33:14] INFO root fetch - processPackages [uasset-dump]: Remove: archive file [/home/abi/fetcher/tmp/uasset_dump-0.0.5.tar.gz]
+[2023-07-03 12:33:14] INFO root fetch - main [MainThread]: End processing [uasset-dump]: success
+[2023-07-03 12:33:14] INFO root fetch - processPackages [h2o-wave]: Remove: archive file [/home/abi/fetcher/tmp/h2o_wave-0.9.0-py3-none-any.whl.zip]
+[2023-07-03 12:33:14] INFO root fetch - processPackages [h2o-wave]: Remove: archive file [/home/abi/fetcher/tmp/h2o_wave-0.9.1-py3-none-any.whl.zip]
+[2023-07-03 12:33:14] INFO root fetch - main [MainThread]: End processing [h2o-wave]: success
+[2023-07-03 12:33:15] INFO root fetch - processPackages [h2o-lightwave]: Remove: archive file [/home/abi/fetcher/tmp/h2o_lightwave-0.26.0-py3-none-any.whl.zip]
+[2023-07-03 12:33:15] INFO root fetch - processPackages [h2o-lightwave]: Remove: archive file [/home/abi/fetcher/tmp/h2o_lightwave-0.26.1-py3-none-any.whl.zip]
+[2023-07-03 12:33:15] INFO root fetch - main [MainThread]: End processing [h2o-lightwave]: success
+[2023-07-03 12:33:15] INFO root fetch - processPackages [h2o-lightwave-web]: Downloading https://files.pythonhosted.org/packages/c6/d9/f0b6a3b9013b52f37bd89edf795cf3ead458b1f9f84e294be54ac705fb01/h2o_lightwave_web-0.26.1-py3-none-any.whl
+[2023-07-03 12:33:16] INFO root fetch - processPackages [h2o-lightwave-web]: executing diffoscope
+[2023-07-03 12:33:16] INFO root fetch - processPackages [h2o-lightwave-web]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/h2o_lightwave_web-0.26.0-py3-none-any.whl.zip tmp/h2o_lightwave_web-0.26.1-py3-none-any.whl.zip --markdown 20230703/h/h2o-lightwave-web/0.26.0-0.26.1/diff.md --exclude *.pyd
+[2023-07-03 12:33:17] INFO root fetch - processPackages [c2cciutils]: Remove: archive file [/home/abi/fetcher/tmp/c2cciutils-1.6.0.dev98.tar.gz]
+[2023-07-03 12:33:17] INFO root fetch - processPackages [c2cciutils]: Remove: archive file [/home/abi/fetcher/tmp/c2cciutils-1.6.0.dev99.tar.gz]
+[2023-07-03 12:33:17] INFO root fetch - main [MainThread]: End processing [c2cciutils]: success
+[2023-07-03 12:34:24] INFO root fetch - processPackages [h2o-lightwave-web]: Remove: archive file [/home/abi/fetcher/tmp/h2o_lightwave_web-0.26.0-py3-none-any.whl.zip]
+[2023-07-03 12:34:24] INFO root fetch - processPackages [h2o-lightwave-web]: Remove: archive file [/home/abi/fetcher/tmp/h2o_lightwave_web-0.26.1-py3-none-any.whl.zip]
+[2023-07-03 12:34:24] INFO root fetch - main [MainThread]: End processing [h2o-lightwave-web]: success
+[2023-07-03 12:36:11] ERROR root fetch - processPackages [mkdocs-material]: Timeout during execution of pkgdiff
+[2023-07-03 12:36:11] INFO root fetch - main [MainThread]: End processing [mkdocs-material] error
+[2023-07-03 12:36:11] INFO root fetch - main [MainThread]: Store serial: [18737708]
