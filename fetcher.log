@@ -7583,3 +7583,24 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-03 07:22:18] INFO root fetch - processPackages [fast-brainfuck]: Remove: archive file [/home/abi/fetcher/tmp/fast-brainfuck-3.0.1.tar.gz]
 [2023-07-03 07:22:18] INFO root fetch - main [MainThread]: End processing [fast-brainfuck]: success
 [2023-07-03 07:22:18] INFO root fetch - main [MainThread]: Store serial: [18734907]
+[2023-07-03 07:27:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18734907]
+[2023-07-03 07:27:27] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-07-03 07:27:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: loguru-discord
+[2023-07-03 07:27:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: FeishuBitableAPI
+[2023-07-03 07:27:27] INFO root fetch - processPackages [loguru-discord]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-03 07:27:27] INFO root fetch - processPackages [FeishuBitableAPI]: New version: [3.1.2] Old Version: [3.1.1]
+[2023-07-03 07:27:27] INFO root fetch - processPackages [loguru-discord]: Downloading https://files.pythonhosted.org/packages/87/4a/8c15e48e34fa380c2a54c907dae6ba6fb30a43a41263880d6408a249841a/loguru_discord-1.0.0.tar.gz
+[2023-07-03 07:27:27] INFO root fetch - processPackages [FeishuBitableAPI]: Downloading https://files.pythonhosted.org/packages/8a/5c/8ad635c63000f5525ce625e3eafda3ad3af96860585ed5f661585478ba0e/FeishuBitableAPI-3.1.1.tar.gz
+[2023-07-03 07:27:28] INFO root fetch - processPackages [loguru-discord]: Downloading https://files.pythonhosted.org/packages/e2/d3/1281886c302d6fabe26bda50e9eae3661f5bb22e2ec21df536adedba359d/loguru_discord-1.0.1.tar.gz
+[2023-07-03 07:27:28] INFO root fetch - processPackages [FeishuBitableAPI]: Downloading https://files.pythonhosted.org/packages/4a/d6/31c57ab821f5377f0f9fbb8fe81f08e1a5e73daf4de02eaf9e2704640f48/FeishuBitableAPI-3.1.2.tar.gz
+[2023-07-03 07:27:28] INFO root fetch - processPackages [loguru-discord]: executing diffoscope
+[2023-07-03 07:27:28] INFO root fetch - processPackages [loguru-discord]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/loguru_discord-1.0.0.tar.gz tmp/loguru_discord-1.0.1.tar.gz --markdown 20230703/l/loguru-discord/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-03 07:27:28] INFO root fetch - processPackages [FeishuBitableAPI]: executing diffoscope
+[2023-07-03 07:27:28] INFO root fetch - processPackages [FeishuBitableAPI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FeishuBitableAPI-3.1.1.tar.gz tmp/FeishuBitableAPI-3.1.2.tar.gz --markdown 20230703/F/FeishuBitableAPI/3.1.1-3.1.2/diff.md --exclude *.pyd
+[2023-07-03 07:27:29] INFO root fetch - processPackages [loguru-discord]: Remove: archive file [/home/abi/fetcher/tmp/loguru_discord-1.0.0.tar.gz]
+[2023-07-03 07:27:29] INFO root fetch - processPackages [loguru-discord]: Remove: archive file [/home/abi/fetcher/tmp/loguru_discord-1.0.1.tar.gz]
+[2023-07-03 07:27:29] INFO root fetch - main [MainThread]: End processing [loguru-discord]: success
+[2023-07-03 07:27:29] INFO root fetch - processPackages [FeishuBitableAPI]: Remove: archive file [/home/abi/fetcher/tmp/FeishuBitableAPI-3.1.1.tar.gz]
+[2023-07-03 07:27:29] INFO root fetch - processPackages [FeishuBitableAPI]: Remove: archive file [/home/abi/fetcher/tmp/FeishuBitableAPI-3.1.2.tar.gz]
+[2023-07-03 07:27:29] INFO root fetch - main [MainThread]: End processing [FeishuBitableAPI]: success
+[2023-07-03 07:27:29] INFO root fetch - main [MainThread]: Store serial: [18734913]
