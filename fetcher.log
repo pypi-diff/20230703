@@ -4846,3 +4846,81 @@
 [2023-07-03 03:28:25] INFO root fetch - processPackages [cdk-sops-secrets]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sops-secrets-1.2.99.tar.gz]
 [2023-07-03 03:28:25] INFO root fetch - main [MainThread]: End processing [cdk-sops-secrets]: success
 [2023-07-03 03:28:25] INFO root fetch - main [MainThread]: Store serial: [18733606]
+[2023-07-03 03:33:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18733606]
+[2023-07-03 03:33:34] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-03 03:33:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jsoner-lib
+[2023-07-03 03:33:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: yplib
+[2023-07-03 03:33:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jax-tools
+[2023-07-03 03:33:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: devvit-manager
+[2023-07-03 03:33:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: project-tree
+[2023-07-03 03:33:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: xiaogpt
+[2023-07-03 03:33:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lmo
+[2023-07-03 03:33:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pythermalcomfort
+[2023-07-03 03:33:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: policyengine-us
+[2023-07-03 03:33:34] INFO root fetch - processPackages [jax-tools]: New version: [1.0.63] Old Version: [1.0.61]
+[2023-07-03 03:33:34] INFO root fetch - processPackages [xiaogpt]: New version: [1.51] Old Version: [1.50]
+[2023-07-03 03:33:34] INFO root fetch - processPackages [jsoner-lib]: New version: [0.4] Old Version: [0.3]
+[2023-07-03 03:33:34] INFO root fetch - processPackages [lmo]: New version: [0.6.0] Old Version: [0.5.3]
+[2023-07-03 03:33:34] INFO root fetch - processPackages [yplib]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-07-03 03:33:34] INFO root fetch - processPackages [devvit-manager]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-03 03:33:34] ERROR root fetch - processPackages [project-tree]: Unable to get metadata: No such project 'project-tree'
+[2023-07-03 03:33:34] INFO root fetch - main [MainThread]: End processing [project-tree] error
+[2023-07-03 03:33:34] INFO root fetch - processPackages [jsoner-lib]: Downloading https://files.pythonhosted.org/packages/c1/79/8fd567fa32f296dbcf3de9fd70e4010180b77273c85c58aa31c274bd4211/jsoner-lib-0.3.tar.gz
+[2023-07-03 03:33:34] INFO root fetch - processPackages [pythermalcomfort]: New version: [2.8.0] Old Version: [2.7.2]
+[2023-07-03 03:33:34] INFO root fetch - processPackages [policyengine-us]: New version: [0.346.3] Old Version: [0.346.2]
+[2023-07-03 03:33:35] INFO root fetch - processPackages [devvit-manager]: Downloading https://files.pythonhosted.org/packages/72/da/87dc829241ee2f2076e119da47fd189bac68109c22b0c8a3c2a5895a8e10/devvit-manager-1.0.0.tar.gz
+[2023-07-03 03:33:35] INFO root fetch - processPackages [jax-tools]: Downloading https://files.pythonhosted.org/packages/12/4e/db1fcb7804df50c8c38fe063ca3c7453a2edfafa414c13b91ed198ff9cfa/jax-tools-1.0.61.tar.gz
+[2023-07-03 03:33:35] INFO root fetch - processPackages [xiaogpt]: Downloading https://files.pythonhosted.org/packages/5c/ce/bbea79fbdd4ae569ec9dfc324f3cc72ff3dbf0f3c4d3cd58459fe24a67e8/xiaogpt-1.50.tar.gz
+[2023-07-03 03:33:35] INFO root fetch - processPackages [lmo]: Downloading https://files.pythonhosted.org/packages/1c/c3/5cc83c15fbefe8fbe0e80ca9ae037e677769493c83bab79ff8285ed60a82/lmo-0.5.3.tar.gz
+[2023-07-03 03:33:35] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/b5/7a/9990c159e7c97acc4ba61cfbd681a1da7da7fb80259fe24ef618ff8440c2/yplib-2.0.8.tar.gz
+[2023-07-03 03:33:35] INFO root fetch - processPackages [pythermalcomfort]: Downloading https://files.pythonhosted.org/packages/55/07/813ab5b4c881fd74dc344cab0e4687cb963f24bc08bb3cd359b0cde9689f/pythermalcomfort-2.7.2.tar.gz
+[2023-07-03 03:33:35] INFO root fetch - processPackages [policyengine-us]: Downloading https://files.pythonhosted.org/packages/8c/85/fb7d8935713b6fa3cd72d1d9ce0c89ce2b9a50360d20ba82fd47d7aa70a3/policyengine-us-0.346.2.tar.gz
+[2023-07-03 03:33:35] INFO root fetch - processPackages [jsoner-lib]: Downloading https://files.pythonhosted.org/packages/79/bc/5dd2cc92a7c8d559924266fbb451c5278f4cd1a7b45f4339d5bbe29e42ea/jsoner-lib-0.4.tar.gz
+[2023-07-03 03:33:35] INFO root fetch - processPackages [jsoner-lib]: executing diffoscope
+[2023-07-03 03:33:35] INFO root fetch - processPackages [jsoner-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jsoner-lib-0.3.tar.gz tmp/jsoner-lib-0.4.tar.gz --markdown 20230703/j/jsoner-lib/0.3-0.4/diff.md --exclude *.pyd
+[2023-07-03 03:33:35] INFO root fetch - processPackages [jax-tools]: Downloading https://files.pythonhosted.org/packages/dd/c2/9ff2f9b34b4212884dfa535865db354b8ba10573054f19b5a94745476cff/jax-tools-1.0.63.tar.gz
+[2023-07-03 03:33:35] INFO root fetch - processPackages [devvit-manager]: Downloading https://files.pythonhosted.org/packages/e5/82/8ad11eadc08e850fa310f71795b7f2222d7a02acf94c83cc5bc4cdf1fdef/devvit-manager-1.0.1.tar.gz
+[2023-07-03 03:33:35] INFO root fetch - processPackages [lmo]: Downloading https://files.pythonhosted.org/packages/a2/18/7d79e967cc0cad634769ebb2ace9f1277dbd12ad753204d7db2457de8e76/lmo-0.6.0.tar.gz
+[2023-07-03 03:33:35] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/b5/03/700f9292c7d724eebe686baf28136accb128e7cae410ab9308344c3e14be/yplib-2.0.9.tar.gz
+[2023-07-03 03:33:35] INFO root fetch - processPackages [xiaogpt]: Downloading https://files.pythonhosted.org/packages/30/c9/a5bdfb07767a8bd77b3e6c96eac733f303c543b647a2deac4632f817dfc3/xiaogpt-1.51.tar.gz
+[2023-07-03 03:33:35] INFO root fetch - processPackages [jax-tools]: executing diffoscope
+[2023-07-03 03:33:35] INFO root fetch - processPackages [jax-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jax-tools-1.0.61.tar.gz tmp/jax-tools-1.0.63.tar.gz --markdown 20230703/j/jax-tools/1.0.61-1.0.63/diff.md --exclude *.pyd
+[2023-07-03 03:33:35] INFO root fetch - processPackages [devvit-manager]: executing diffoscope
+[2023-07-03 03:33:35] INFO root fetch - processPackages [devvit-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/devvit-manager-1.0.0.tar.gz tmp/devvit-manager-1.0.1.tar.gz --markdown 20230703/d/devvit-manager/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-03 03:33:35] INFO root fetch - processPackages [lmo]: executing diffoscope
+[2023-07-03 03:33:35] INFO root fetch - processPackages [lmo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lmo-0.5.3.tar.gz tmp/lmo-0.6.0.tar.gz --markdown 20230703/l/lmo/0.5.3-0.6.0/diff.md --exclude *.pyd
+[2023-07-03 03:33:35] INFO root fetch - processPackages [yplib]: executing diffoscope
+[2023-07-03 03:33:35] INFO root fetch - processPackages [yplib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yplib-2.0.8.tar.gz tmp/yplib-2.0.9.tar.gz --markdown 20230703/y/yplib/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-07-03 03:33:35] INFO root fetch - processPackages [xiaogpt]: executing diffoscope
+[2023-07-03 03:33:35] INFO root fetch - processPackages [xiaogpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xiaogpt-1.50.tar.gz tmp/xiaogpt-1.51.tar.gz --markdown 20230703/x/xiaogpt/1.50-1.51/diff.md --exclude *.pyd
+[2023-07-03 03:33:35] INFO root fetch - processPackages [policyengine-us]: Downloading https://files.pythonhosted.org/packages/e8/44/da9a60c6b75b7225b2a92ab0f779652587a0555bb7652e566a7cea52438c/policyengine-us-0.346.3.tar.gz
+[2023-07-03 03:33:35] INFO root fetch - processPackages [pythermalcomfort]: Downloading https://files.pythonhosted.org/packages/26/65/78526fdf5de9c0d3ff0d6bcbc3e846be3036aa373e5a51b90ae38cde15da/pythermalcomfort-2.8.0.tar.gz
+[2023-07-03 03:33:35] INFO root fetch - processPackages [policyengine-us]: executing diffoscope
+[2023-07-03 03:33:35] INFO root fetch - processPackages [policyengine-us]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/policyengine-us-0.346.2.tar.gz tmp/policyengine-us-0.346.3.tar.gz --markdown 20230703/p/policyengine-us/0.346.2-0.346.3/diff.md --exclude *.pyd
+[2023-07-03 03:33:35] INFO root fetch - processPackages [pythermalcomfort]: executing diffoscope
+[2023-07-03 03:33:35] INFO root fetch - processPackages [pythermalcomfort]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pythermalcomfort-2.7.2.tar.gz tmp/pythermalcomfort-2.8.0.tar.gz --markdown 20230703/p/pythermalcomfort/2.7.2-2.8.0/diff.md --exclude *.pyd
+[2023-07-03 03:33:36] INFO root fetch - processPackages [jsoner-lib]: Remove: archive file [/home/abi/fetcher/tmp/jsoner-lib-0.3.tar.gz]
+[2023-07-03 03:33:36] INFO root fetch - processPackages [jsoner-lib]: Remove: archive file [/home/abi/fetcher/tmp/jsoner-lib-0.4.tar.gz]
+[2023-07-03 03:33:36] INFO root fetch - main [MainThread]: End processing [jsoner-lib]: success
+[2023-07-03 03:33:36] INFO root fetch - processPackages [devvit-manager]: Remove: archive file [/home/abi/fetcher/tmp/devvit-manager-1.0.0.tar.gz]
+[2023-07-03 03:33:36] INFO root fetch - processPackages [devvit-manager]: Remove: archive file [/home/abi/fetcher/tmp/devvit-manager-1.0.1.tar.gz]
+[2023-07-03 03:33:36] INFO root fetch - main [MainThread]: End processing [devvit-manager]: success
+[2023-07-03 03:33:36] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-2.0.8.tar.gz]
+[2023-07-03 03:33:36] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-2.0.9.tar.gz]
+[2023-07-03 03:33:36] INFO root fetch - main [MainThread]: End processing [yplib]: success
+[2023-07-03 03:33:36] INFO root fetch - processPackages [lmo]: Remove: archive file [/home/abi/fetcher/tmp/lmo-0.5.3.tar.gz]
+[2023-07-03 03:33:36] INFO root fetch - processPackages [lmo]: Remove: archive file [/home/abi/fetcher/tmp/lmo-0.6.0.tar.gz]
+[2023-07-03 03:33:36] INFO root fetch - main [MainThread]: End processing [lmo]: success
+[2023-07-03 03:33:37] INFO root fetch - processPackages [jax-tools]: Remove: archive file [/home/abi/fetcher/tmp/jax-tools-1.0.61.tar.gz]
+[2023-07-03 03:33:37] INFO root fetch - processPackages [jax-tools]: Remove: archive file [/home/abi/fetcher/tmp/jax-tools-1.0.63.tar.gz]
+[2023-07-03 03:33:37] INFO root fetch - main [MainThread]: End processing [jax-tools]: success
+[2023-07-03 03:33:37] INFO root fetch - processPackages [pythermalcomfort]: Remove: archive file [/home/abi/fetcher/tmp/pythermalcomfort-2.7.2.tar.gz]
+[2023-07-03 03:33:37] INFO root fetch - processPackages [pythermalcomfort]: Remove: archive file [/home/abi/fetcher/tmp/pythermalcomfort-2.8.0.tar.gz]
+[2023-07-03 03:33:37] INFO root fetch - main [MainThread]: End processing [pythermalcomfort]: success
+[2023-07-03 03:33:37] INFO root fetch - processPackages [xiaogpt]: Remove: archive file [/home/abi/fetcher/tmp/xiaogpt-1.50.tar.gz]
+[2023-07-03 03:33:37] INFO root fetch - processPackages [xiaogpt]: Remove: archive file [/home/abi/fetcher/tmp/xiaogpt-1.51.tar.gz]
+[2023-07-03 03:33:37] INFO root fetch - main [MainThread]: End processing [xiaogpt]: success
+[2023-07-03 03:34:58] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.346.2.tar.gz]
+[2023-07-03 03:34:58] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.346.3.tar.gz]
+[2023-07-03 03:34:58] INFO root fetch - main [MainThread]: End processing [policyengine-us]: success
+[2023-07-03 03:34:58] INFO root fetch - main [MainThread]: Store serial: [18733638]
