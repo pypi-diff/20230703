@@ -1191,3 +1191,115 @@
 [2023-07-03 02:10:17] INFO root fetch - processPackages [MeUtils]: Remove: archive file [/home/abi/fetcher/tmp/MeUtils-2023.7.3.8.8.54.tar.gz]
 [2023-07-03 02:10:17] INFO root fetch - main [MainThread]: End processing [MeUtils]: success
 [2023-07-03 02:10:17] INFO root fetch - main [MainThread]: Store serial: [18732209]
+[2023-07-03 02:15:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18732209]
+[2023-07-03 02:15:27] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-07-03 02:15:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: render-engine-youtube-embed
+[2023-07-03 02:15:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: flowtask
+[2023-07-03 02:15:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk8s
+[2023-07-03 02:15:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: flash-attn
+[2023-07-03 02:15:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdk8s-jenkins
+[2023-07-03 02:15:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cdk8s-grafana
+[2023-07-03 02:15:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: constructs
+[2023-07-03 02:15:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: openbb-nightly
+[2023-07-03 02:15:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mct-quantizers-nightly
+[2023-07-03 02:15:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cdklabs.codepipeline-extensions
+[2023-07-03 02:15:27] INFO root fetch - processPackages [render-engine-youtube-embed]: New version: [2023.7.2a1] Old Version: [2023.7.2]
+[2023-07-03 02:15:27] INFO root fetch - processPackages [flash-attn]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-07-03 02:15:27] INFO root fetch - processPackages [openbb-nightly]: New version: [3.1.0.dev20230702] Old Version: [3.1.0.dev20230701]
+[2023-07-03 02:15:27] INFO root fetch - processPackages [cdk8s-jenkins]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-03 02:15:27] INFO root fetch - processPackages [flowtask]: New version: [4.5.9] Old Version: [4.5.8]
+[2023-07-03 02:15:27] INFO root fetch - processPackages [cdk8s-grafana]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-07-03 02:15:27] INFO root fetch - processPackages [mct-quantizers-nightly]: New version: [1.1.0.20230702.post1309] Old Version: [1.1.0.20230701.post1347]
+[2023-07-03 02:15:27] INFO root fetch - processPackages [cdklabs.codepipeline-extensions]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-03 02:15:27] INFO root fetch - processPackages [cdk8s]: New version: [2.7.91] Old Version: [2.7.90]
+[2023-07-03 02:15:27] INFO root fetch - processPackages [constructs]: New version: [3.4.99] Old Version: [3.4.98]
+[2023-07-03 02:15:27] INFO root fetch - processPackages [mct-quantizers-nightly]: Downloading https://files.pythonhosted.org/packages/b4/43/fc33c226a37c67c677143aeee2a53f49bc1f2c963c0d635d4b61f34d5e55/mct-quantizers-nightly-1.1.0.20230701.post1347.tar.gz
+[2023-07-03 02:15:27] INFO root fetch - processPackages [cdk8s-jenkins]: Downloading https://files.pythonhosted.org/packages/90/ba/1d34a887bfae9752a98646fbb4ba086b72cc56f857a5b9642929b03e46f2/cdk8s-jenkins-0.0.98.tar.gz
+[2023-07-03 02:15:27] INFO root fetch - processPackages [cdklabs.codepipeline-extensions]: Downloading https://files.pythonhosted.org/packages/df/6c/78f1bfa2ffc81709ec21b0077aff92b7460ad1f071d595e2d767653cedc0/cdklabs.codepipeline-extensions-0.0.98.tar.gz
+[2023-07-03 02:15:27] INFO root fetch - processPackages [cdk8s-grafana]: Downloading https://files.pythonhosted.org/packages/d9/95/654afcf433ff074ee19483bcc89f1b1a113ddd08edd6ff0bfcc205167a77/cdk8s-grafana-0.1.98.tar.gz
+[2023-07-03 02:15:27] INFO root fetch - processPackages [cdk8s]: Downloading https://files.pythonhosted.org/packages/b2/d4/9cf2b2666ac68550b4581f7a82e94c22342df025cc5076ea72b6f13cd23d/cdk8s-2.7.90.tar.gz
+[2023-07-03 02:15:27] INFO root fetch - processPackages [constructs]: Downloading https://files.pythonhosted.org/packages/e6/c8/05cf61f36e0e0457efb63d90051ef801f55cf0db4e5f92c27a28a57c5501/constructs-3.4.98.tar.gz
+[2023-07-03 02:15:27] INFO root fetch - processPackages [render-engine-youtube-embed]: Downloading https://files.pythonhosted.org/packages/36/d8/735eca87938c9ddd175e7281b125ff7a6736f82a9ca782e9d51eb3edbd3f/render_engine_youtube_embed-2023.7.2.tar.gz
+[2023-07-03 02:15:27] INFO root fetch - processPackages [flash-attn]: Downloading https://files.pythonhosted.org/packages/14/61/3d89d15877e8c4bfa7aba4a23a01905123ce4b59a068b136f44d118bb5eb/flash_attn-1.0.7.tar.gz
+[2023-07-03 02:15:27] INFO root fetch - processPackages [openbb-nightly]: Downloading https://files.pythonhosted.org/packages/65/3f/532b70a8af41f62f666118d814507338876448a443639ba9e068a4479b63/openbb_nightly-3.1.0.dev20230701.tar.gz
+[2023-07-03 02:15:27] INFO root fetch - processPackages [constructs]: Downloading https://files.pythonhosted.org/packages/0a/98/a9a1408d0c31908cc2c2129ea9ab047e19bc2d51b19406637848339f5c37/constructs-3.4.99.tar.gz
+[2023-07-03 02:15:27] INFO root fetch - processPackages [flowtask]: Downloading https://files.pythonhosted.org/packages/ad/e7/2a7bdbefc43301a163c5989db8711c8a7285f1cad001672a53b0613d45cc/flowtask-4.5.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-03 02:15:27] INFO root fetch - processPackages [cdk8s-jenkins]: Downloading https://files.pythonhosted.org/packages/1d/dc/2404b70a9e64251aafef4957d08604e1863c0d6026d1bd4faf3e70e3e690/cdk8s-jenkins-0.0.99.tar.gz
+[2023-07-03 02:15:27] INFO root fetch - processPackages [cdk8s-grafana]: Downloading https://files.pythonhosted.org/packages/70/0b/1cbbebf9bdeb0edcb5ab0f3110b233c14ebfd8e9d744573a7640af1c4b94/cdk8s-grafana-0.1.99.tar.gz
+[2023-07-03 02:15:27] INFO root fetch - processPackages [cdk8s]: Downloading https://files.pythonhosted.org/packages/01/38/6593fcc79f47835b58d56937ddbee074b8ce6404ffd859e313447afabc67/cdk8s-2.7.91.tar.gz
+[2023-07-03 02:15:27] INFO root fetch - processPackages [constructs]: executing diffoscope
+[2023-07-03 02:15:27] INFO root fetch - processPackages [constructs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/constructs-3.4.98.tar.gz tmp/constructs-3.4.99.tar.gz --markdown 20230703/c/constructs/3.4.98-3.4.99/diff.md --exclude *.pyd
+[2023-07-03 02:15:27] INFO root fetch - processPackages [render-engine-youtube-embed]: Downloading https://files.pythonhosted.org/packages/2e/b3/47367b1bd154879f52668004258b75e15ce9ea6284c15cfb5fa6023adc07/render_engine_youtube_embed-2023.7.2a1.tar.gz
+[2023-07-03 02:15:27] INFO root fetch - processPackages [cdk8s-grafana]: executing diffoscope
+[2023-07-03 02:15:27] INFO root fetch - processPackages [cdk8s-grafana]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-grafana-0.1.98.tar.gz tmp/cdk8s-grafana-0.1.99.tar.gz --markdown 20230703/c/cdk8s-grafana/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-07-03 02:15:27] INFO root fetch - processPackages [cdk8s-jenkins]: executing diffoscope
+[2023-07-03 02:15:27] INFO root fetch - processPackages [cdk8s-jenkins]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-jenkins-0.0.98.tar.gz tmp/cdk8s-jenkins-0.0.99.tar.gz --markdown 20230703/c/cdk8s-jenkins/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-03 02:15:27] INFO root fetch - processPackages [render-engine-youtube-embed]: executing diffoscope
+[2023-07-03 02:15:27] INFO root fetch - processPackages [render-engine-youtube-embed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/render_engine_youtube_embed-2023.7.2.tar.gz tmp/render_engine_youtube_embed-2023.7.2a1.tar.gz --markdown 20230703/r/render-engine-youtube-embed/2023.7.2-2023.7.2a1/diff.md --exclude *.pyd
+[2023-07-03 02:15:27] WARNING root fetch - processPackages [openbb-nightly]: Skipping package: exceeds size limit 21266514>=10485760
+[2023-07-03 02:15:27] INFO root fetch - processPackages [openbb-nightly]: Start processing: cdk8s-operator
+[2023-07-03 02:15:27] INFO root fetch - main [MainThread]: End processing [openbb-nightly] error
+[2023-07-03 02:15:27] INFO root fetch - processPackages [cdk8s]: executing diffoscope
+[2023-07-03 02:15:27] INFO root fetch - processPackages [cdk8s]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-2.7.90.tar.gz tmp/cdk8s-2.7.91.tar.gz --markdown 20230703/c/cdk8s/2.7.90-2.7.91/diff.md --exclude *.pyd
+[2023-07-03 02:15:27] INFO root fetch - processPackages [cdk8s-operator]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-07-03 02:15:27] INFO root fetch - processPackages [cdk8s-operator]: Downloading https://files.pythonhosted.org/packages/81/a1/472f9e27ea96746839caa41992257e24e496917b018d958034169769bdb6/cdk8s-operator-0.1.98.tar.gz
+[2023-07-03 02:15:27] INFO root fetch - processPackages [mct-quantizers-nightly]: Downloading https://files.pythonhosted.org/packages/c4/5a/e67ff0459cafc547a2d825e030b062cf297ee4c9cd0d17f1f132398df07c/mct-quantizers-nightly-1.1.0.20230702.post1309.tar.gz
+[2023-07-03 02:15:27] INFO root fetch - processPackages [cdk8s-operator]: Downloading https://files.pythonhosted.org/packages/ed/ed/568c3c642392b5ad833ee040dea0d55163deba1f7a12ed395db2a18420f0/cdk8s-operator-0.1.99.tar.gz
+[2023-07-03 02:15:27] INFO root fetch - processPackages [flash-attn]: Downloading https://files.pythonhosted.org/packages/2b/8f/4f33f2c0538980a0c21fb9fc79288b8a553cba5328d6e7923d3af1630842/flash_attn-1.0.8.tar.gz
+[2023-07-03 02:15:27] INFO root fetch - processPackages [mct-quantizers-nightly]: executing diffoscope
+[2023-07-03 02:15:27] INFO root fetch - processPackages [mct-quantizers-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mct-quantizers-nightly-1.1.0.20230701.post1347.tar.gz tmp/mct-quantizers-nightly-1.1.0.20230702.post1309.tar.gz --markdown 20230703/m/mct-quantizers-nightly/1.1.0.20230701.post1347-1.1.0.20230702.post1309/diff.md --exclude *.pyd
+[2023-07-03 02:15:27] INFO root fetch - processPackages [cdk8s-operator]: executing diffoscope
+[2023-07-03 02:15:27] INFO root fetch - processPackages [cdk8s-operator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-operator-0.1.98.tar.gz tmp/cdk8s-operator-0.1.99.tar.gz --markdown 20230703/c/cdk8s-operator/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-07-03 02:15:28] INFO root fetch - processPackages [flash-attn]: executing diffoscope
+[2023-07-03 02:15:28] INFO root fetch - processPackages [flash-attn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flash_attn-1.0.7.tar.gz tmp/flash_attn-1.0.8.tar.gz --markdown 20230703/f/flash-attn/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-07-03 02:15:28] WARNING root fetch - processPackages [cdklabs.codepipeline-extensions]: Skipping package: exceeds size limit 12637726>=10485760
+[2023-07-03 02:15:28] INFO root fetch - processPackages [cdklabs.codepipeline-extensions]: Start processing: cdk-events-notify
+[2023-07-03 02:15:28] INFO root fetch - main [MainThread]: End processing [cdklabs.codepipeline-extensions] error
+[2023-07-03 02:15:28] INFO root fetch - processPackages [cdk-events-notify]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-07-03 02:15:28] INFO root fetch - processPackages [flowtask]: Downloading https://files.pythonhosted.org/packages/76/cb/ef23ff55853e577b3477d762009a1fc68908a244c1bfb016650886d6699b/flowtask-4.5.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-03 02:15:28] INFO root fetch - processPackages [cdk-events-notify]: Downloading https://files.pythonhosted.org/packages/b0/d8/d2deadc998a01ba26de7ffd230a5224483b3d116e10e36cb05f79b441303/cdk-events-notify-2.0.98.tar.gz
+[2023-07-03 02:15:28] INFO root fetch - processPackages [cdk-events-notify]: Downloading https://files.pythonhosted.org/packages/3d/55/4372c391faf1ce75366fa988d26fee510d2d3c2b01a27ad4c21f14ace31c/cdk-events-notify-2.0.99.tar.gz
+[2023-07-03 02:15:28] INFO root fetch - processPackages [cdk-events-notify]: executing diffoscope
+[2023-07-03 02:15:28] INFO root fetch - processPackages [cdk-events-notify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-events-notify-2.0.98.tar.gz tmp/cdk-events-notify-2.0.99.tar.gz --markdown 20230703/c/cdk-events-notify/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-07-03 02:15:28] INFO root fetch - processPackages [constructs]: Remove: archive file [/home/abi/fetcher/tmp/constructs-3.4.98.tar.gz]
+[2023-07-03 02:15:28] INFO root fetch - processPackages [constructs]: Remove: archive file [/home/abi/fetcher/tmp/constructs-3.4.99.tar.gz]
+[2023-07-03 02:15:28] INFO root fetch - processPackages [constructs]: Start processing: cdk-watchful
+[2023-07-03 02:15:28] INFO root fetch - main [MainThread]: End processing [constructs]: success
+[2023-07-03 02:15:29] INFO root fetch - processPackages [cdk-watchful]: New version: [0.6.99] Old Version: [0.6.98]
+[2023-07-03 02:15:29] INFO root fetch - processPackages [render-engine-youtube-embed]: Remove: archive file [/home/abi/fetcher/tmp/render_engine_youtube_embed-2023.7.2.tar.gz]
+[2023-07-03 02:15:29] INFO root fetch - processPackages [render-engine-youtube-embed]: Remove: archive file [/home/abi/fetcher/tmp/render_engine_youtube_embed-2023.7.2a1.tar.gz]
+[2023-07-03 02:15:29] INFO root fetch - main [MainThread]: End processing [render-engine-youtube-embed]: success
+[2023-07-03 02:15:29] INFO root fetch - processPackages [cdk-watchful]: Downloading https://files.pythonhosted.org/packages/63/04/22034e5f4a6a78ec4b91dd73cac8c9dbe6e3a87354ee89a8eaae1037e53e/cdk-watchful-0.6.98.tar.gz
+[2023-07-03 02:15:29] INFO root fetch - processPackages [cdk8s]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-2.7.90.tar.gz]
+[2023-07-03 02:15:29] INFO root fetch - processPackages [cdk8s]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-2.7.91.tar.gz]
+[2023-07-03 02:15:29] INFO root fetch - main [MainThread]: End processing [cdk8s]: success
+[2023-07-03 02:15:29] INFO root fetch - processPackages [cdk8s-grafana]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-grafana-0.1.98.tar.gz]
+[2023-07-03 02:15:29] INFO root fetch - processPackages [cdk8s-grafana]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-grafana-0.1.99.tar.gz]
+[2023-07-03 02:15:29] INFO root fetch - main [MainThread]: End processing [cdk8s-grafana]: success
+[2023-07-03 02:15:29] INFO root fetch - processPackages [flowtask]: executing diffoscope
+[2023-07-03 02:15:29] INFO root fetch - processPackages [flowtask]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flowtask-4.5.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/flowtask-4.5.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230703/f/flowtask/4.5.8-4.5.9/diff.md --exclude *.pyd
+[2023-07-03 02:15:29] INFO root fetch - processPackages [cdk8s-jenkins]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-jenkins-0.0.98.tar.gz]
+[2023-07-03 02:15:29] INFO root fetch - processPackages [cdk8s-jenkins]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-jenkins-0.0.99.tar.gz]
+[2023-07-03 02:15:29] INFO root fetch - main [MainThread]: End processing [cdk8s-jenkins]: success
+[2023-07-03 02:15:29] INFO root fetch - processPackages [cdk-watchful]: Downloading https://files.pythonhosted.org/packages/f8/58/6ba4dd415db16707dd7ba3e1359b74a8b5c71b19be3ed91e3f6f87c6c960/cdk-watchful-0.6.99.tar.gz
+[2023-07-03 02:15:29] INFO root fetch - processPackages [cdk-watchful]: executing diffoscope
+[2023-07-03 02:15:29] INFO root fetch - processPackages [cdk-watchful]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-watchful-0.6.98.tar.gz tmp/cdk-watchful-0.6.99.tar.gz --markdown 20230703/c/cdk-watchful/0.6.98-0.6.99/diff.md --exclude *.pyd
+[2023-07-03 02:15:29] INFO root fetch - processPackages [cdk8s-operator]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-operator-0.1.98.tar.gz]
+[2023-07-03 02:15:29] INFO root fetch - processPackages [cdk8s-operator]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-operator-0.1.99.tar.gz]
+[2023-07-03 02:15:29] INFO root fetch - main [MainThread]: End processing [cdk8s-operator]: success
+[2023-07-03 02:15:29] INFO root fetch - processPackages [mct-quantizers-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-quantizers-nightly-1.1.0.20230701.post1347.tar.gz]
+[2023-07-03 02:15:29] INFO root fetch - processPackages [mct-quantizers-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-quantizers-nightly-1.1.0.20230702.post1309.tar.gz]
+[2023-07-03 02:15:29] INFO root fetch - main [MainThread]: End processing [mct-quantizers-nightly]: success
+[2023-07-03 02:15:29] INFO root fetch - processPackages [cdk-events-notify]: Remove: archive file [/home/abi/fetcher/tmp/cdk-events-notify-2.0.98.tar.gz]
+[2023-07-03 02:15:29] INFO root fetch - processPackages [cdk-events-notify]: Remove: archive file [/home/abi/fetcher/tmp/cdk-events-notify-2.0.99.tar.gz]
+[2023-07-03 02:15:29] INFO root fetch - main [MainThread]: End processing [cdk-events-notify]: success
+[2023-07-03 02:15:30] INFO root fetch - processPackages [cdk-watchful]: Remove: archive file [/home/abi/fetcher/tmp/cdk-watchful-0.6.98.tar.gz]
+[2023-07-03 02:15:30] INFO root fetch - processPackages [cdk-watchful]: Remove: archive file [/home/abi/fetcher/tmp/cdk-watchful-0.6.99.tar.gz]
+[2023-07-03 02:15:30] INFO root fetch - main [MainThread]: End processing [cdk-watchful]: success
+[2023-07-03 02:15:32] INFO root fetch - processPackages [flowtask]: Remove: archive file [/home/abi/fetcher/tmp/flowtask-4.5.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-03 02:15:32] INFO root fetch - processPackages [flowtask]: Remove: archive file [/home/abi/fetcher/tmp/flowtask-4.5.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-03 02:15:32] INFO root fetch - main [MainThread]: End processing [flowtask]: success
+[2023-07-03 02:15:52] INFO root fetch - processPackages [flash-attn]: Remove: archive file [/home/abi/fetcher/tmp/flash_attn-1.0.7.tar.gz]
+[2023-07-03 02:15:52] INFO root fetch - processPackages [flash-attn]: Remove: archive file [/home/abi/fetcher/tmp/flash_attn-1.0.8.tar.gz]
+[2023-07-03 02:15:52] INFO root fetch - main [MainThread]: End processing [flash-attn]: success
+[2023-07-03 02:15:52] INFO root fetch - main [MainThread]: Store serial: [18732250]
