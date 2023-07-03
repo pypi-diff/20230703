@@ -7875,3 +7875,46 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-03 07:54:23] INFO root fetch - processPackages [c2cciutils]: Remove: archive file [/home/abi/fetcher/tmp/c2cciutils-1.6.0.dev99.tar.gz]
 [2023-07-03 07:54:23] INFO root fetch - main [MainThread]: End processing [c2cciutils]: success
 [2023-07-03 07:54:23] INFO root fetch - main [MainThread]: Store serial: [18735039]
+[2023-07-03 07:59:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18735039]
+[2023-07-03 07:59:32] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-03 07:59:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: qianxun-wechat-sdk
+[2023-07-03 07:59:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: je-editor
+[2023-07-03 07:59:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: smoldyn
+[2023-07-03 07:59:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mwplotlib
+[2023-07-03 07:59:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: smoldyn
+[2023-07-03 07:59:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: Tashriethon
+[2023-07-03 07:59:32] INFO root fetch - processPackages [mwplotlib]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-07-03 07:59:32] INFO root fetch - processPackages [je-editor]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-03 07:59:32] WARNING root fetch - processPackages [qianxun-wechat-sdk]: Skipping, unable to determine old version
+[2023-07-03 07:59:32] INFO root fetch - main [MainThread]: End processing [qianxun-wechat-sdk] error
+[2023-07-03 07:59:32] INFO root fetch - processPackages [mwplotlib]: Downloading https://files.pythonhosted.org/packages/49/c6/4bc79edb18cb0150493e2f9ab9caf1936b6a26d2bcc0dca37b4443a6ea14/mwplotlib-1.1.0.tar.gz
+[2023-07-03 07:59:32] INFO root fetch - processPackages [smoldyn]: New version: [2.72.dev202307030556] Old Version: [2.72.dev202307030555]
+[2023-07-03 07:59:32] WARNING root fetch - processPackages [Tashriethon]: Skipping, unable to determine old version
+[2023-07-03 07:59:32] INFO root fetch - main [MainThread]: End processing [Tashriethon] error
+[2023-07-03 07:59:32] INFO root fetch - processPackages [smoldyn]: New version: [2.72.dev202307030556] Old Version: [2.72.dev202307030555]
+[2023-07-03 07:59:32] INFO root fetch - processPackages [je-editor]: Downloading https://files.pythonhosted.org/packages/18/5a/9781b5d7b4cbad1f9f9cf0b8dbff0d29d79012bfa040e7a2a512b2370144/je_editor-0.0.98.tar.gz
+[2023-07-03 07:59:32] INFO root fetch - processPackages [mwplotlib]: Downloading https://files.pythonhosted.org/packages/29/a9/4456d47936fbfd8c73ae2b4478c66d05ea61d9b40224f9144940793c9b08/mwplotlib-1.1.1.tar.gz
+[2023-07-03 07:59:32] INFO root fetch - processPackages [smoldyn]: Downloading https://files.pythonhosted.org/packages/d4/78/b321cfd21b0b65f27682c6447b1dda4cd1fb2ba2ffa071af05996972759d/smoldyn-2.72.dev202307030555-cp310-cp310-win_amd64.whl
+[2023-07-03 07:59:32] INFO root fetch - processPackages [smoldyn]: Downloading https://files.pythonhosted.org/packages/d4/78/b321cfd21b0b65f27682c6447b1dda4cd1fb2ba2ffa071af05996972759d/smoldyn-2.72.dev202307030555-cp310-cp310-win_amd64.whl
+[2023-07-03 07:59:32] INFO root fetch - processPackages [mwplotlib]: executing diffoscope
+[2023-07-03 07:59:32] INFO root fetch - processPackages [mwplotlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mwplotlib-1.1.0.tar.gz tmp/mwplotlib-1.1.1.tar.gz --markdown 20230703/m/mwplotlib/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-07-03 07:59:33] INFO root fetch - processPackages [smoldyn]: Downloading https://files.pythonhosted.org/packages/92/e6/56a85b9a04311adf6ff612fffca4d0e90b4056b5c2c2dbd6a5fa3fa534a9/smoldyn-2.72.dev202307030556-cp39-cp39-win_amd64.whl
+[2023-07-03 07:59:33] INFO root fetch - processPackages [smoldyn]: Downloading https://files.pythonhosted.org/packages/92/e6/56a85b9a04311adf6ff612fffca4d0e90b4056b5c2c2dbd6a5fa3fa534a9/smoldyn-2.72.dev202307030556-cp39-cp39-win_amd64.whl
+[2023-07-03 07:59:33] INFO root fetch - processPackages [smoldyn]: executing diffoscope
+[2023-07-03 07:59:33] INFO root fetch - processPackages [smoldyn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smoldyn-2.72.dev202307030555-cp310-cp310-win_amd64.whl.zip tmp/smoldyn-2.72.dev202307030556-cp39-cp39-win_amd64.whl.zip --markdown 20230703/s/smoldyn/2.72.dev202307030555-2.72.dev202307030556/diff.md --exclude *.pyd
+[2023-07-03 07:59:33] INFO root fetch - processPackages [smoldyn]: executing diffoscope
+[2023-07-03 07:59:33] INFO root fetch - processPackages [smoldyn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smoldyn-2.72.dev202307030555-cp310-cp310-win_amd64.whl.zip tmp/smoldyn-2.72.dev202307030556-cp39-cp39-win_amd64.whl.zip --markdown 20230703/s/smoldyn/2.72.dev202307030555-2.72.dev202307030556/diff.md --exclude *.pyd
+[2023-07-03 07:59:33] INFO root fetch - processPackages [je-editor]: Downloading https://files.pythonhosted.org/packages/75/ca/4e894555d734ec4dfd99b15542060c6c3c836135f3bc5b9fd7a12b1b9620/je_editor-0.0.99.tar.gz
+[2023-07-03 07:59:33] INFO root fetch - processPackages [je-editor]: executing diffoscope
+[2023-07-03 07:59:33] INFO root fetch - processPackages [je-editor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/je_editor-0.0.98.tar.gz tmp/je_editor-0.0.99.tar.gz --markdown 20230703/j/je-editor/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-03 07:59:34] INFO root fetch - processPackages [mwplotlib]: Remove: archive file [/home/abi/fetcher/tmp/mwplotlib-1.1.0.tar.gz]
+[2023-07-03 07:59:34] INFO root fetch - processPackages [mwplotlib]: Remove: archive file [/home/abi/fetcher/tmp/mwplotlib-1.1.1.tar.gz]
+[2023-07-03 07:59:34] INFO root fetch - main [MainThread]: End processing [mwplotlib]: success
+[2023-07-03 07:59:34] INFO root fetch - processPackages [smoldyn]: Remove: archive file [/home/abi/fetcher/tmp/smoldyn-2.72.dev202307030555-cp310-cp310-win_amd64.whl.zip]
+[2023-07-03 07:59:34] INFO root fetch - processPackages [smoldyn]: Remove: archive file [/home/abi/fetcher/tmp/smoldyn-2.72.dev202307030556-cp39-cp39-win_amd64.whl.zip]
+[2023-07-03 07:59:34] INFO root fetch - main [MainThread]: End processing [smoldyn]: success
+[2023-07-03 07:59:34] INFO root fetch - main [MainThread]: End processing [smoldyn]: success
+[2023-07-03 07:59:34] INFO root fetch - processPackages [je-editor]: Remove: archive file [/home/abi/fetcher/tmp/je_editor-0.0.98.tar.gz]
+[2023-07-03 07:59:34] INFO root fetch - processPackages [je-editor]: Remove: archive file [/home/abi/fetcher/tmp/je_editor-0.0.99.tar.gz]
+[2023-07-03 07:59:34] INFO root fetch - main [MainThread]: End processing [je-editor]: success
+[2023-07-03 07:59:34] INFO root fetch - main [MainThread]: Store serial: [18735059]
