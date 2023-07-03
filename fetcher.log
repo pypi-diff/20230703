@@ -4750,3 +4750,42 @@
 [2023-07-03 03:17:59] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.99.tar.gz]
 [2023-07-03 03:17:59] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-curl]: success
 [2023-07-03 03:17:59] INFO root fetch - main [MainThread]: Store serial: [18733558]
+[2023-07-03 03:23:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18733558]
+[2023-07-03 03:23:08] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-03 03:23:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyproject-pre-commit
+[2023-07-03 03:23:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: electricalsim-opf-quadratic
+[2023-07-03 03:23:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aicodebot
+[2023-07-03 03:23:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: making-with-code-cli
+[2023-07-03 03:23:08] INFO root fetch - processPackages [aicodebot]: New version: [0.7.1] Old Version: [0.7.0]
+[2023-07-03 03:23:08] INFO root fetch - processPackages [pyproject-pre-commit]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-03 03:23:08] INFO root fetch - processPackages [aicodebot]: Downloading https://files.pythonhosted.org/packages/dd/ba/140ae6a052705193818edffc1058bd27346fee9421ed4041bc66378e7f9f/aicodebot-0.7.0.tar.gz
+[2023-07-03 03:23:08] INFO root fetch - processPackages [electricalsim-opf-quadratic]: New version: [1.1] Old Version: [1.0]
+[2023-07-03 03:23:08] INFO root fetch - processPackages [aicodebot]: Downloading https://files.pythonhosted.org/packages/9c/60/76cd6e7ae1f6aac6603b04d0e607059afa5c95619f62ff441c06211e7d36/aicodebot-0.7.1.tar.gz
+[2023-07-03 03:23:08] INFO root fetch - processPackages [pyproject-pre-commit]: Downloading https://files.pythonhosted.org/packages/d6/37/7cefb7736c79bd5242b5d80c67ec2b5db58939b1af783cdd3f30f5054a0b/pyproject_pre_commit-0.0.8.tar.gz
+[2023-07-03 03:23:08] INFO root fetch - processPackages [aicodebot]: executing diffoscope
+[2023-07-03 03:23:08] INFO root fetch - processPackages [aicodebot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aicodebot-0.7.0.tar.gz tmp/aicodebot-0.7.1.tar.gz --markdown 20230703/a/aicodebot/0.7.0-0.7.1/diff.md --exclude *.pyd
+[2023-07-03 03:23:08] INFO root fetch - processPackages [making-with-code-cli]: New version: [1.1.0] Old Version: [0.1.9]
+[2023-07-03 03:23:08] INFO root fetch - processPackages [electricalsim-opf-quadratic]: Downloading https://files.pythonhosted.org/packages/81/85/bb8c5fd2fb09239138a12c4f7534117251068441c7d466b3eadf30d78fe6/electricalsim_opf_quadratic-1.0.tar.gz
+[2023-07-03 03:23:08] INFO root fetch - processPackages [making-with-code-cli]: Downloading https://files.pythonhosted.org/packages/c1/7c/0470f8a39f9685df6220cb704e258dd18037ee37b064014f0b61701adbb8/making-with-code-cli-0.1.9.tar.gz
+[2023-07-03 03:23:08] INFO root fetch - processPackages [electricalsim-opf-quadratic]: Downloading https://files.pythonhosted.org/packages/28/37/70d871bfb4ac21f1f82b944988e075d1b294541d3e5d549a308351c2b07b/electricalsim_opf_quadratic-1.1.tar.gz
+[2023-07-03 03:23:08] INFO root fetch - processPackages [pyproject-pre-commit]: Downloading https://files.pythonhosted.org/packages/b4/05/ef39c872bbf4bec813b234e1b5bd2d0e72f0e12de11497ac672a94846e55/pyproject_pre_commit-0.0.9.tar.gz
+[2023-07-03 03:23:08] INFO root fetch - processPackages [electricalsim-opf-quadratic]: executing diffoscope
+[2023-07-03 03:23:08] INFO root fetch - processPackages [electricalsim-opf-quadratic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/electricalsim_opf_quadratic-1.0.tar.gz tmp/electricalsim_opf_quadratic-1.1.tar.gz --markdown 20230703/e/electricalsim-opf-quadratic/1.0-1.1/diff.md --exclude *.pyd
+[2023-07-03 03:23:08] INFO root fetch - processPackages [pyproject-pre-commit]: executing diffoscope
+[2023-07-03 03:23:08] INFO root fetch - processPackages [pyproject-pre-commit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyproject_pre_commit-0.0.8.tar.gz tmp/pyproject_pre_commit-0.0.9.tar.gz --markdown 20230703/p/pyproject-pre-commit/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-03 03:23:09] INFO root fetch - processPackages [making-with-code-cli]: Downloading https://files.pythonhosted.org/packages/68/a5/430dfe7dd8d54a68cc9bf7f5880c230f9991b90667d83678ee3b84d3282a/making_with_code_cli-1.1.0.tar.gz
+[2023-07-03 03:23:09] INFO root fetch - processPackages [making-with-code-cli]: executing diffoscope
+[2023-07-03 03:23:09] INFO root fetch - processPackages [making-with-code-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/making-with-code-cli-0.1.9.tar.gz tmp/making_with_code_cli-1.1.0.tar.gz --markdown 20230703/m/making-with-code-cli/0.1.9-1.1.0/diff.md --exclude *.pyd
+[2023-07-03 03:23:09] INFO root fetch - processPackages [aicodebot]: Remove: archive file [/home/abi/fetcher/tmp/aicodebot-0.7.0.tar.gz]
+[2023-07-03 03:23:09] INFO root fetch - processPackages [aicodebot]: Remove: archive file [/home/abi/fetcher/tmp/aicodebot-0.7.1.tar.gz]
+[2023-07-03 03:23:09] INFO root fetch - main [MainThread]: End processing [aicodebot]: success
+[2023-07-03 03:23:09] INFO root fetch - processPackages [pyproject-pre-commit]: Remove: archive file [/home/abi/fetcher/tmp/pyproject_pre_commit-0.0.8.tar.gz]
+[2023-07-03 03:23:09] INFO root fetch - processPackages [pyproject-pre-commit]: Remove: archive file [/home/abi/fetcher/tmp/pyproject_pre_commit-0.0.9.tar.gz]
+[2023-07-03 03:23:09] INFO root fetch - main [MainThread]: End processing [pyproject-pre-commit]: success
+[2023-07-03 03:23:10] INFO root fetch - processPackages [electricalsim-opf-quadratic]: Remove: archive file [/home/abi/fetcher/tmp/electricalsim_opf_quadratic-1.0.tar.gz]
+[2023-07-03 03:23:10] INFO root fetch - processPackages [electricalsim-opf-quadratic]: Remove: archive file [/home/abi/fetcher/tmp/electricalsim_opf_quadratic-1.1.tar.gz]
+[2023-07-03 03:23:10] INFO root fetch - main [MainThread]: End processing [electricalsim-opf-quadratic]: success
+[2023-07-03 03:23:10] INFO root fetch - processPackages [making-with-code-cli]: Remove: archive file [/home/abi/fetcher/tmp/making-with-code-cli-0.1.9.tar.gz]
+[2023-07-03 03:23:10] INFO root fetch - processPackages [making-with-code-cli]: Remove: archive file [/home/abi/fetcher/tmp/making_with_code_cli-1.1.0.tar.gz]
+[2023-07-03 03:23:10] INFO root fetch - main [MainThread]: End processing [making-with-code-cli]: success
+[2023-07-03 03:23:10] INFO root fetch - main [MainThread]: Store serial: [18733570]
