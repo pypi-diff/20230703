@@ -19233,3 +19233,129 @@ EOFError: EOF read where object expected
 [2023-07-03 15:26:43] INFO root fetch - processPackages [ultracart-rest-sdk]: Remove: archive file [/home/abi/fetcher/tmp/ultracart_rest_sdk-4.0.99rc0.tar.gz]
 [2023-07-03 15:26:43] INFO root fetch - main [MainThread]: End processing [ultracart-rest-sdk]: success
 [2023-07-03 15:26:43] INFO root fetch - main [MainThread]: Store serial: [18739690]
+[2023-07-03 15:31:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18739690]
+[2023-07-03 15:31:52] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-07-03 15:31:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pasqal-cloud
+[2023-07-03 15:31:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gbd-tools
+[2023-07-03 15:31:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hkube-python-wrapper
+[2023-07-03 15:31:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: torchility
+[2023-07-03 15:31:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pepperize.cdk-dynamodb-backup
+[2023-07-03 15:31:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: django-linear-migrations
+[2023-07-03 15:31:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: segment-guard
+[2023-07-03 15:31:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nc-py-api
+[2023-07-03 15:31:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: eventix
+[2023-07-03 15:31:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: zen-han-converter
+[2023-07-03 15:31:52] INFO root fetch - processPackages [torchility]: New version: [0.7.6] Old Version: [0.7.5]
+[2023-07-03 15:31:52] INFO root fetch - processPackages [eventix]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-07-03 15:31:52] INFO root fetch - processPackages [segment-guard]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-03 15:31:52] INFO root fetch - processPackages [gbd-tools]: New version: [4.6.3] Old Version: [4.6.2]
+[2023-07-03 15:31:52] INFO root fetch - processPackages [django-linear-migrations]: New version: [2.9.0] Old Version: [2.8.0]
+[2023-07-03 15:31:52] INFO root fetch - processPackages [pasqal-cloud]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-07-03 15:31:52] WARNING root fetch - processPackages [zen-han-converter]: Skipping, unable to determine old version
+[2023-07-03 15:31:52] INFO root fetch - processPackages [zen-han-converter]: Start processing: pymelo
+[2023-07-03 15:31:52] INFO root fetch - main [MainThread]: End processing [zen-han-converter] error
+[2023-07-03 15:31:52] INFO root fetch - processPackages [nc-py-api]: New version: [0.0.20] Old Version: [0.0.11]
+[2023-07-03 15:31:52] INFO root fetch - processPackages [hkube-python-wrapper]: New version: [2.5.0.dev5] Old Version: [2.5.0.dev4]
+[2023-07-03 15:31:52] INFO root fetch - processPackages [pepperize.cdk-dynamodb-backup]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-03 15:31:52] INFO root fetch - processPackages [eventix]: Downloading https://files.pythonhosted.org/packages/8b/1e/c9c49faa133d0d5a8602c641632c53229cda4c673e6971ef876dc507db36/eventix-0.3.0.tar.gz
+[2023-07-03 15:31:52] INFO root fetch - processPackages [torchility]: Downloading https://files.pythonhosted.org/packages/6a/85/972c16b904e2d3321d11952134cba678fce1143f416850af307b7d1a17db/torchility-0.7.5.tar.gz
+[2023-07-03 15:31:52] INFO root fetch - processPackages [gbd-tools]: Downloading https://files.pythonhosted.org/packages/f0/58/fdb15c5b3dddfb4f317c7d6c8bcdc5e70cbbc8333770f7a3b8efaf9311ef/gbd_tools-4.6.2.tar.gz
+[2023-07-03 15:31:53] INFO root fetch - processPackages [segment-guard]: Downloading https://files.pythonhosted.org/packages/7b/39/b992daac8cd7d37e2f444256cd5d1e10a2b71caf0be0cbf75601af54774c/segment-guard-0.0.1.tar.gz
+[2023-07-03 15:31:53] WARNING root fetch - processPackages [pymelo]: Skipping, unable to determine old version
+[2023-07-03 15:31:53] INFO root fetch - processPackages [pymelo]: Start processing: pyseto
+[2023-07-03 15:31:53] INFO root fetch - main [MainThread]: End processing [pymelo] error
+[2023-07-03 15:31:53] INFO root fetch - processPackages [django-linear-migrations]: Downloading https://files.pythonhosted.org/packages/90/e1/4e40cc5e89ffd639a76edc08aae7dd6132f6ab8be27b6d0333fe66182fce/django_linear_migrations-2.8.0.tar.gz
+[2023-07-03 15:31:53] INFO root fetch - processPackages [nc-py-api]: Downloading https://files.pythonhosted.org/packages/36/68/c98ee48957c607de3e6e961f1910dd17e86fe24fb6596a0f6cff21d55648/nc_py_api-0.0.11.tar.gz
+[2023-07-03 15:31:53] INFO root fetch - processPackages [pasqal-cloud]: Downloading https://files.pythonhosted.org/packages/15/22/e80047c7b74db1e06ad044e423d37f85cf007b14694dfa9aec5ef880311d/pasqal-cloud-0.3.1.tar.gz
+[2023-07-03 15:31:53] INFO root fetch - processPackages [pepperize.cdk-dynamodb-backup]: Downloading https://files.pythonhosted.org/packages/32/bc/ac3dab87c351984ae6522bf91695811f7df3607fcbcf2e87e12ccdcae4e5/pepperize.cdk-dynamodb-backup-0.0.98.tar.gz
+[2023-07-03 15:31:53] INFO root fetch - processPackages [hkube-python-wrapper]: Downloading https://files.pythonhosted.org/packages/73/26/45afc93763ce4c702804cab31b1af20bb6ea3b691ff461cdfc20d9134e40/hkube_python_wrapper-2.5.0.dev4.tar.gz
+[2023-07-03 15:31:53] INFO root fetch - processPackages [pyseto]: New version: [1.7.3] Old Version: [1.7.2]
+[2023-07-03 15:31:53] INFO root fetch - processPackages [eventix]: Downloading https://files.pythonhosted.org/packages/97/a4/1c69365268b39ef6d295065c50664ff960421bc2e110a6620b018bf62120/eventix-0.3.1.tar.gz
+[2023-07-03 15:31:53] INFO root fetch - processPackages [torchility]: Downloading https://files.pythonhosted.org/packages/11/92/ea1310b45e83f17306f9b84bf3b5aaf85f63a78526a5667b36e26c3f2c8d/torchility-0.7.6.tar.gz
+[2023-07-03 15:31:53] INFO root fetch - processPackages [eventix]: executing diffoscope
+[2023-07-03 15:31:53] INFO root fetch - processPackages [eventix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eventix-0.3.0.tar.gz tmp/eventix-0.3.1.tar.gz --markdown 20230703/e/eventix/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-07-03 15:31:53] INFO root fetch - processPackages [gbd-tools]: Downloading https://files.pythonhosted.org/packages/ec/54/41cb41935ab3e23ef4ff122865e09e46f49759e932f1a58f59c7b61ca17b/gbd_tools-4.6.3.tar.gz
+[2023-07-03 15:31:53] INFO root fetch - processPackages [segment-guard]: Downloading https://files.pythonhosted.org/packages/c3/62/780b8b3c15f3a0d9ee56c481d272a45c0c119d7c557b6012a4232942cb7f/segment-guard-0.0.2.tar.gz
+[2023-07-03 15:31:53] INFO root fetch - processPackages [django-linear-migrations]: Downloading https://files.pythonhosted.org/packages/19/29/23d24b9527be33e11b6db82e2d41b9e3c7714779ad9b981b721d9906346c/django_linear_migrations-2.9.0.tar.gz
+[2023-07-03 15:31:53] INFO root fetch - processPackages [pyseto]: Downloading https://files.pythonhosted.org/packages/37/b4/abb49bf0815b26870ceedf6dd4e557b87f58fabc43806e8c41d1412c2aa7/pyseto-1.7.2.tar.gz
+[2023-07-03 15:31:53] INFO root fetch - processPackages [torchility]: executing diffoscope
+[2023-07-03 15:31:53] INFO root fetch - processPackages [torchility]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchility-0.7.5.tar.gz tmp/torchility-0.7.6.tar.gz --markdown 20230703/t/torchility/0.7.5-0.7.6/diff.md --exclude *.pyd
+[2023-07-03 15:31:53] INFO root fetch - processPackages [nc-py-api]: Downloading https://files.pythonhosted.org/packages/9d/33/4230d72baa7faecf6265ee7d9a033121e7be9f8e8d6f2189efd0385e282a/nc_py_api-0.0.20.tar.gz
+[2023-07-03 15:31:53] INFO root fetch - processPackages [pasqal-cloud]: Downloading https://files.pythonhosted.org/packages/0c/ec/a94370df2f087db192b0f5e77406043595ee4f24fc1d7b7a928d64050b1d/pasqal-cloud-0.3.2.tar.gz
+[2023-07-03 15:31:53] INFO root fetch - processPackages [hkube-python-wrapper]: Downloading https://files.pythonhosted.org/packages/91/c0/e0dba6f46dffe170d21fa3fbbeae678b58631c7d2b5384a3d6f9eb6e75b7/hkube_python_wrapper-2.5.0.dev5.tar.gz
+[2023-07-03 15:31:53] INFO root fetch - processPackages [segment-guard]: executing diffoscope
+[2023-07-03 15:31:53] INFO root fetch - processPackages [segment-guard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/segment-guard-0.0.1.tar.gz tmp/segment-guard-0.0.2.tar.gz --markdown 20230703/s/segment-guard/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-03 15:31:53] INFO root fetch - processPackages [django-linear-migrations]: executing diffoscope
+[2023-07-03 15:31:53] INFO root fetch - processPackages [django-linear-migrations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_linear_migrations-2.8.0.tar.gz tmp/django_linear_migrations-2.9.0.tar.gz --markdown 20230703/d/django-linear-migrations/2.8.0-2.9.0/diff.md --exclude *.pyd
+[2023-07-03 15:31:53] INFO root fetch - processPackages [pepperize.cdk-dynamodb-backup]: Downloading https://files.pythonhosted.org/packages/87/60/cd337f65781a604c1d436fcd62f8ffdaff0bc80e00546a9c715fa9561007/pepperize.cdk-dynamodb-backup-0.0.99.tar.gz
+[2023-07-03 15:31:53] INFO root fetch - processPackages [gbd-tools]: executing diffoscope
+[2023-07-03 15:31:53] INFO root fetch - processPackages [gbd-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gbd_tools-4.6.2.tar.gz tmp/gbd_tools-4.6.3.tar.gz --markdown 20230703/g/gbd-tools/4.6.2-4.6.3/diff.md --exclude *.pyd
+[2023-07-03 15:31:53] INFO root fetch - processPackages [nc-py-api]: executing diffoscope
+[2023-07-03 15:31:53] INFO root fetch - processPackages [nc-py-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nc_py_api-0.0.11.tar.gz tmp/nc_py_api-0.0.20.tar.gz --markdown 20230703/n/nc-py-api/0.0.11-0.0.20/diff.md --exclude *.pyd
+[2023-07-03 15:31:53] INFO root fetch - processPackages [pasqal-cloud]: executing diffoscope
+[2023-07-03 15:31:53] INFO root fetch - processPackages [pasqal-cloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pasqal-cloud-0.3.1.tar.gz tmp/pasqal-cloud-0.3.2.tar.gz --markdown 20230703/p/pasqal-cloud/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-07-03 15:31:53] INFO root fetch - processPackages [hkube-python-wrapper]: executing diffoscope
+[2023-07-03 15:31:53] INFO root fetch - processPackages [hkube-python-wrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hkube_python_wrapper-2.5.0.dev4.tar.gz tmp/hkube_python_wrapper-2.5.0.dev5.tar.gz --markdown 20230703/h/hkube-python-wrapper/2.5.0.dev4-2.5.0.dev5/diff.md --exclude *.pyd
+[2023-07-03 15:31:54] INFO root fetch - processPackages [pepperize.cdk-dynamodb-backup]: executing diffoscope
+[2023-07-03 15:31:54] INFO root fetch - processPackages [pepperize.cdk-dynamodb-backup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-dynamodb-backup-0.0.98.tar.gz tmp/pepperize.cdk-dynamodb-backup-0.0.99.tar.gz --markdown 20230703/p/pepperize.cdk-dynamodb-backup/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-03 15:31:54] INFO root fetch - processPackages [pyseto]: Downloading https://files.pythonhosted.org/packages/dc/bb/ca48996a4ad0acd7cbd18a46a6b0eede17bdba143f3edfcd9545e6fb2551/pyseto-1.7.3.tar.gz
+[2023-07-03 15:31:54] INFO root fetch - processPackages [pyseto]: executing diffoscope
+[2023-07-03 15:31:54] INFO root fetch - processPackages [pyseto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyseto-1.7.2.tar.gz tmp/pyseto-1.7.3.tar.gz --markdown 20230703/p/pyseto/1.7.2-1.7.3/diff.md --exclude *.pyd
+[2023-07-03 15:31:54] INFO root fetch - processPackages [eventix]: Remove: archive file [/home/abi/fetcher/tmp/eventix-0.3.0.tar.gz]
+[2023-07-03 15:31:54] INFO root fetch - processPackages [eventix]: Remove: archive file [/home/abi/fetcher/tmp/eventix-0.3.1.tar.gz]
+[2023-07-03 15:31:54] INFO root fetch - processPackages [eventix]: Start processing: pydatawork
+[2023-07-03 15:31:54] INFO root fetch - main [MainThread]: End processing [eventix]: success
+[2023-07-03 15:31:54] INFO root fetch - processPackages [pydatawork]: New version: [0.17.3.0] Old Version: [0.17.2.1]
+[2023-07-03 15:31:55] INFO root fetch - processPackages [torchility]: Remove: archive file [/home/abi/fetcher/tmp/torchility-0.7.5.tar.gz]
+[2023-07-03 15:31:55] INFO root fetch - processPackages [torchility]: Remove: archive file [/home/abi/fetcher/tmp/torchility-0.7.6.tar.gz]
+[2023-07-03 15:31:55] INFO root fetch - processPackages [torchility]: Start processing: pertCF
+[2023-07-03 15:31:55] INFO root fetch - main [MainThread]: End processing [torchility]: success
+[2023-07-03 15:31:55] INFO root fetch - processPackages [pertCF]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-03 15:31:55] INFO root fetch - processPackages [segment-guard]: Remove: archive file [/home/abi/fetcher/tmp/segment-guard-0.0.1.tar.gz]
+[2023-07-03 15:31:55] INFO root fetch - processPackages [segment-guard]: Remove: archive file [/home/abi/fetcher/tmp/segment-guard-0.0.2.tar.gz]
+[2023-07-03 15:31:55] INFO root fetch - processPackages [segment-guard]: Start processing: model2queue
+[2023-07-03 15:31:55] INFO root fetch - main [MainThread]: End processing [segment-guard]: success
+[2023-07-03 15:31:55] INFO root fetch - processPackages [model2queue]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-07-03 15:31:55] INFO root fetch - processPackages [pydatawork]: Downloading https://files.pythonhosted.org/packages/01/95/438be5cbe4432d32885a923ec8085aa30e02a068fb8b10a5056c86e74e48/pydatawork-0.17.2.1.tar.gz
+[2023-07-03 15:31:55] INFO root fetch - processPackages [model2queue]: Downloading https://files.pythonhosted.org/packages/f3/64/d1379e0fa87150a52159910547b4cf5dba75f1fe2d75efdd80485cdeee4b/model2queue-0.1.5.tar.gz
+[2023-07-03 15:31:55] INFO root fetch - processPackages [pertCF]: Downloading https://files.pythonhosted.org/packages/2d/05/038fdd97f3a7ec76b2118c3702dec118e9a5bca5358bf4ee9bf14f6cec46/pertCF-0.1.1.tar.gz
+[2023-07-03 15:31:55] INFO root fetch - processPackages [nc-py-api]: Remove: archive file [/home/abi/fetcher/tmp/nc_py_api-0.0.11.tar.gz]
+[2023-07-03 15:31:55] INFO root fetch - processPackages [nc-py-api]: Remove: archive file [/home/abi/fetcher/tmp/nc_py_api-0.0.20.tar.gz]
+[2023-07-03 15:31:55] INFO root fetch - main [MainThread]: End processing [nc-py-api]: success
+[2023-07-03 15:31:55] INFO root fetch - processPackages [pydatawork]: Downloading https://files.pythonhosted.org/packages/17/82/28db74f7f49f085b853f35bf9dfc49b33f023d3bbdd6a6e061eede801d0f/pydatawork-0.17.3.0.tar.gz
+[2023-07-03 15:31:55] INFO root fetch - processPackages [django-linear-migrations]: Remove: archive file [/home/abi/fetcher/tmp/django_linear_migrations-2.8.0.tar.gz]
+[2023-07-03 15:31:55] INFO root fetch - processPackages [django-linear-migrations]: Remove: archive file [/home/abi/fetcher/tmp/django_linear_migrations-2.9.0.tar.gz]
+[2023-07-03 15:31:55] INFO root fetch - main [MainThread]: End processing [django-linear-migrations]: success
+[2023-07-03 15:31:55] INFO root fetch - processPackages [model2queue]: Downloading https://files.pythonhosted.org/packages/78/06/947c3ae3868d7f5613ee200363f464522d6c2c2580529faab6fb4a443205/model2queue-0.1.6.tar.gz
+[2023-07-03 15:31:55] INFO root fetch - processPackages [pasqal-cloud]: Remove: archive file [/home/abi/fetcher/tmp/pasqal-cloud-0.3.1.tar.gz]
+[2023-07-03 15:31:55] INFO root fetch - processPackages [pasqal-cloud]: Remove: archive file [/home/abi/fetcher/tmp/pasqal-cloud-0.3.2.tar.gz]
+[2023-07-03 15:31:55] INFO root fetch - main [MainThread]: End processing [pasqal-cloud]: success
+[2023-07-03 15:31:55] INFO root fetch - processPackages [pepperize.cdk-dynamodb-backup]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-dynamodb-backup-0.0.98.tar.gz]
+[2023-07-03 15:31:55] INFO root fetch - processPackages [pepperize.cdk-dynamodb-backup]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-dynamodb-backup-0.0.99.tar.gz]
+[2023-07-03 15:31:55] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-dynamodb-backup]: success
+[2023-07-03 15:31:55] INFO root fetch - processPackages [gbd-tools]: Remove: archive file [/home/abi/fetcher/tmp/gbd_tools-4.6.2.tar.gz]
+[2023-07-03 15:31:55] INFO root fetch - processPackages [gbd-tools]: Remove: archive file [/home/abi/fetcher/tmp/gbd_tools-4.6.3.tar.gz]
+[2023-07-03 15:31:55] INFO root fetch - main [MainThread]: End processing [gbd-tools]: success
+[2023-07-03 15:31:55] INFO root fetch - processPackages [hkube-python-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/hkube_python_wrapper-2.5.0.dev4.tar.gz]
+[2023-07-03 15:31:55] INFO root fetch - processPackages [hkube-python-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/hkube_python_wrapper-2.5.0.dev5.tar.gz]
+[2023-07-03 15:31:55] INFO root fetch - main [MainThread]: End processing [hkube-python-wrapper]: success
+[2023-07-03 15:31:55] INFO root fetch - processPackages [model2queue]: executing diffoscope
+[2023-07-03 15:31:55] INFO root fetch - processPackages [model2queue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/model2queue-0.1.5.tar.gz tmp/model2queue-0.1.6.tar.gz --markdown 20230703/m/model2queue/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-07-03 15:31:55] INFO root fetch - processPackages [pertCF]: Downloading https://files.pythonhosted.org/packages/74/c7/7923cbc31e917ab09d47ce125ee02bc8ff6987ac34c9b2aed7f4e7486dc1/pertCF-0.1.2.tar.gz
+[2023-07-03 15:31:55] INFO root fetch - processPackages [pydatawork]: executing diffoscope
+[2023-07-03 15:31:55] INFO root fetch - processPackages [pydatawork]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydatawork-0.17.2.1.tar.gz tmp/pydatawork-0.17.3.0.tar.gz --markdown 20230703/p/pydatawork/0.17.2.1-0.17.3.0/diff.md --exclude *.pyd
+[2023-07-03 15:31:55] INFO root fetch - processPackages [pertCF]: executing diffoscope
+[2023-07-03 15:31:55] INFO root fetch - processPackages [pertCF]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pertCF-0.1.1.tar.gz tmp/pertCF-0.1.2.tar.gz --markdown 20230703/p/pertCF/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-03 15:31:56] INFO root fetch - processPackages [pyseto]: Remove: archive file [/home/abi/fetcher/tmp/pyseto-1.7.2.tar.gz]
+[2023-07-03 15:31:56] INFO root fetch - processPackages [pyseto]: Remove: archive file [/home/abi/fetcher/tmp/pyseto-1.7.3.tar.gz]
+[2023-07-03 15:31:56] INFO root fetch - main [MainThread]: End processing [pyseto]: success
+[2023-07-03 15:31:56] INFO root fetch - processPackages [model2queue]: Remove: archive file [/home/abi/fetcher/tmp/model2queue-0.1.5.tar.gz]
+[2023-07-03 15:31:56] INFO root fetch - processPackages [model2queue]: Remove: archive file [/home/abi/fetcher/tmp/model2queue-0.1.6.tar.gz]
+[2023-07-03 15:31:56] INFO root fetch - main [MainThread]: End processing [model2queue]: success
+[2023-07-03 15:31:56] INFO root fetch - processPackages [pydatawork]: Remove: archive file [/home/abi/fetcher/tmp/pydatawork-0.17.2.1.tar.gz]
+[2023-07-03 15:31:56] INFO root fetch - processPackages [pydatawork]: Remove: archive file [/home/abi/fetcher/tmp/pydatawork-0.17.3.0.tar.gz]
+[2023-07-03 15:31:56] INFO root fetch - main [MainThread]: End processing [pydatawork]: success
+[2023-07-03 15:31:56] INFO root fetch - processPackages [pertCF]: Remove: archive file [/home/abi/fetcher/tmp/pertCF-0.1.1.tar.gz]
+[2023-07-03 15:31:56] INFO root fetch - processPackages [pertCF]: Remove: archive file [/home/abi/fetcher/tmp/pertCF-0.1.2.tar.gz]
+[2023-07-03 15:31:56] INFO root fetch - main [MainThread]: End processing [pertCF]: success
+[2023-07-03 15:31:56] INFO root fetch - main [MainThread]: Store serial: [18739741]
