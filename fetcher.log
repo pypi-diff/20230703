@@ -7918,3 +7918,91 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-03 07:59:34] INFO root fetch - processPackages [je-editor]: Remove: archive file [/home/abi/fetcher/tmp/je_editor-0.0.99.tar.gz]
 [2023-07-03 07:59:34] INFO root fetch - main [MainThread]: End processing [je-editor]: success
 [2023-07-03 07:59:34] INFO root fetch - main [MainThread]: Store serial: [18735059]
+[2023-07-03 08:04:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18735059]
+[2023-07-03 08:04:43] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-03 08:04:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: posco-lp
+[2023-07-03 08:04:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pait
+[2023-07-03 08:04:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: budoux
+[2023-07-03 08:04:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: smoldyn
+[2023-07-03 08:04:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: smoldyn
+[2023-07-03 08:04:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: smoldyn
+[2023-07-03 08:04:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: smoldyn
+[2023-07-03 08:04:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sj-tool
+[2023-07-03 08:04:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: undetected-playwright
+[2023-07-03 08:04:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: mypyref
+[2023-07-03 08:04:43] INFO root fetch - processPackages [pait]: New version: [1.0.0a6] Old Version: [1.0.0a5]
+[2023-07-03 08:04:43] INFO root fetch - processPackages [smoldyn]: New version: [2.72.dev202307030556] Old Version: [2.72.dev202307030555]
+[2023-07-03 08:04:43] INFO root fetch - processPackages [mypyref]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-03 08:04:43] INFO root fetch - processPackages [posco-lp]: New version: [1.1.0] Old Version: [1.0.9]
+[2023-07-03 08:04:43] INFO root fetch - processPackages [smoldyn]: New version: [2.72.dev202307030556] Old Version: [2.72.dev202307030555]
+[2023-07-03 08:04:43] INFO root fetch - processPackages [smoldyn]: New version: [2.72.dev202307030556] Old Version: [2.72.dev202307030555]
+[2023-07-03 08:04:43] INFO root fetch - processPackages [smoldyn]: New version: [2.72.dev202307030556] Old Version: [2.72.dev202307030555]
+[2023-07-03 08:04:43] INFO root fetch - processPackages [smoldyn]: Downloading https://files.pythonhosted.org/packages/d4/78/b321cfd21b0b65f27682c6447b1dda4cd1fb2ba2ffa071af05996972759d/smoldyn-2.72.dev202307030555-cp310-cp310-win_amd64.whl
+[2023-07-03 08:04:43] INFO root fetch - processPackages [mypyref]: Downloading https://files.pythonhosted.org/packages/6e/d1/3576f04cf19ab66809988abd97dc3df2039c023fcc643ddb22b95cba30cc/mypyref-0.0.2.tar.gz
+[2023-07-03 08:04:43] INFO root fetch - processPackages [budoux]: New version: [0.5.2] Old Version: [0.5.1]
+[2023-07-03 08:04:43] INFO root fetch - processPackages [smoldyn]: Downloading https://files.pythonhosted.org/packages/d4/78/b321cfd21b0b65f27682c6447b1dda4cd1fb2ba2ffa071af05996972759d/smoldyn-2.72.dev202307030555-cp310-cp310-win_amd64.whl
+[2023-07-03 08:04:43] INFO root fetch - processPackages [undetected-playwright]: New version: [0.1.0] Old Version: [0.0.5]
+[2023-07-03 08:04:43] INFO root fetch - processPackages [sj-tool]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-03 08:04:43] INFO root fetch - processPackages [smoldyn]: Downloading https://files.pythonhosted.org/packages/d4/78/b321cfd21b0b65f27682c6447b1dda4cd1fb2ba2ffa071af05996972759d/smoldyn-2.72.dev202307030555-cp310-cp310-win_amd64.whl
+[2023-07-03 08:04:43] INFO root fetch - processPackages [smoldyn]: Downloading https://files.pythonhosted.org/packages/d4/78/b321cfd21b0b65f27682c6447b1dda4cd1fb2ba2ffa071af05996972759d/smoldyn-2.72.dev202307030555-cp310-cp310-win_amd64.whl
+[2023-07-03 08:04:43] INFO root fetch - processPackages [pait]: Downloading https://files.pythonhosted.org/packages/cd/be/35a9fef494c751a578e56a6b7724c1b41f9f6825edc920a8c98b7fa00875/pait-1.0.0a5.tar.gz
+[2023-07-03 08:04:43] INFO root fetch - processPackages [mypyref]: Downloading https://files.pythonhosted.org/packages/9a/6f/d49a2cb1d9c83dfbe4d8ac8d5dbabd9297ddf8d180b804c245c469e72b66/mypyref-0.0.3.tar.gz
+[2023-07-03 08:04:43] INFO root fetch - processPackages [posco-lp]: Downloading https://files.pythonhosted.org/packages/aa/44/0c78b824ef8df63e0e5f211d053d7c7a41e81064b8e42ec40a8cfaf487d3/posco-lp-1.0.9.tar.gz
+[2023-07-03 08:04:43] INFO root fetch - processPackages [smoldyn]: Downloading https://files.pythonhosted.org/packages/92/e6/56a85b9a04311adf6ff612fffca4d0e90b4056b5c2c2dbd6a5fa3fa534a9/smoldyn-2.72.dev202307030556-cp39-cp39-win_amd64.whl
+[2023-07-03 08:04:43] INFO root fetch - processPackages [smoldyn]: Downloading https://files.pythonhosted.org/packages/92/e6/56a85b9a04311adf6ff612fffca4d0e90b4056b5c2c2dbd6a5fa3fa534a9/smoldyn-2.72.dev202307030556-cp39-cp39-win_amd64.whl
+[2023-07-03 08:04:43] INFO root fetch - processPackages [undetected-playwright]: Downloading https://files.pythonhosted.org/packages/7d/b1/0bf670eeecaa8a0b10396f56bc12101ccbec2d5e164e953505a9b44dc883/undetected-playwright-0.0.5.tar.gz
+[2023-07-03 08:04:43] INFO root fetch - processPackages [budoux]: Downloading https://files.pythonhosted.org/packages/05/cf/b7624e6e4a875c90d3a78190ce79307bf5471c591223d4b62a128b6793bc/budoux-0.5.1.tar.gz
+[2023-07-03 08:04:43] INFO root fetch - processPackages [smoldyn]: Downloading https://files.pythonhosted.org/packages/92/e6/56a85b9a04311adf6ff612fffca4d0e90b4056b5c2c2dbd6a5fa3fa534a9/smoldyn-2.72.dev202307030556-cp39-cp39-win_amd64.whl
+[2023-07-03 08:04:43] INFO root fetch - processPackages [mypyref]: executing diffoscope
+[2023-07-03 08:04:43] INFO root fetch - processPackages [mypyref]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mypyref-0.0.2.tar.gz tmp/mypyref-0.0.3.tar.gz --markdown 20230703/m/mypyref/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-03 08:04:43] INFO root fetch - processPackages [sj-tool]: Downloading https://files.pythonhosted.org/packages/8b/f9/2af667f18b77632259bbdac6a0db7f33f9cbea38a7a1baa7d9979d9060d3/sj_tool-1.0.8-py3-none-any.whl
+[2023-07-03 08:04:43] INFO root fetch - processPackages [smoldyn]: Downloading https://files.pythonhosted.org/packages/92/e6/56a85b9a04311adf6ff612fffca4d0e90b4056b5c2c2dbd6a5fa3fa534a9/smoldyn-2.72.dev202307030556-cp39-cp39-win_amd64.whl
+[2023-07-03 08:04:43] INFO root fetch - processPackages [smoldyn]: executing diffoscope
+[2023-07-03 08:04:43] INFO root fetch - processPackages [smoldyn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smoldyn-2.72.dev202307030555-cp310-cp310-win_amd64.whl.zip tmp/smoldyn-2.72.dev202307030556-cp39-cp39-win_amd64.whl.zip --markdown 20230703/s/smoldyn/2.72.dev202307030555-2.72.dev202307030556/diff.md --exclude *.pyd
+[2023-07-03 08:04:43] INFO root fetch - processPackages [smoldyn]: executing diffoscope
+[2023-07-03 08:04:43] INFO root fetch - processPackages [smoldyn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smoldyn-2.72.dev202307030555-cp310-cp310-win_amd64.whl.zip tmp/smoldyn-2.72.dev202307030556-cp39-cp39-win_amd64.whl.zip --markdown 20230703/s/smoldyn/2.72.dev202307030555-2.72.dev202307030556/diff.md --exclude *.pyd
+[2023-07-03 08:04:43] INFO root fetch - processPackages [smoldyn]: executing diffoscope
+[2023-07-03 08:04:43] INFO root fetch - processPackages [smoldyn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smoldyn-2.72.dev202307030555-cp310-cp310-win_amd64.whl.zip tmp/smoldyn-2.72.dev202307030556-cp39-cp39-win_amd64.whl.zip --markdown 20230703/s/smoldyn/2.72.dev202307030555-2.72.dev202307030556/diff.md --exclude *.pyd
+[2023-07-03 08:04:43] INFO root fetch - processPackages [pait]: Downloading https://files.pythonhosted.org/packages/d2/dc/3773e602dcebd105a15a653b76b0e8e353e8bdd7855805bcac61ec224592/pait-1.0.0a6.tar.gz
+[2023-07-03 08:04:43] INFO root fetch - processPackages [posco-lp]: Downloading https://files.pythonhosted.org/packages/c5/a5/fd36a6bb4cd9c172f40b8421aa1ca81da9a49b2583d68b899f7aa4ec8ccd/posco-lp-1.1.0.tar.gz
+[2023-07-03 08:04:43] INFO root fetch - processPackages [smoldyn]: executing diffoscope
+[2023-07-03 08:04:43] INFO root fetch - processPackages [smoldyn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smoldyn-2.72.dev202307030555-cp38-cp38-macosx_11_0_x86_64.whl.zip tmp/smoldyn-2.72.dev202307030556-cp39-cp39-win_amd64.whl.zip --markdown 20230703/s/smoldyn/2.72.dev202307030555-2.72.dev202307030556/diff.md --exclude *.pyd
+[2023-07-03 08:04:43] INFO root fetch - processPackages [pait]: executing diffoscope
+[2023-07-03 08:04:43] INFO root fetch - processPackages [pait]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pait-1.0.0a5.tar.gz tmp/pait-1.0.0a6.tar.gz --markdown 20230703/p/pait/1.0.0a5-1.0.0a6/diff.md --exclude *.pyd
+[2023-07-03 08:04:43] INFO root fetch - processPackages [posco-lp]: executing diffoscope
+[2023-07-03 08:04:43] INFO root fetch - processPackages [posco-lp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/posco-lp-1.0.9.tar.gz tmp/posco-lp-1.1.0.tar.gz --markdown 20230703/p/posco-lp/1.0.9-1.1.0/diff.md --exclude *.pyd
+[2023-07-03 08:04:43] INFO root fetch - processPackages [undetected-playwright]: Downloading https://files.pythonhosted.org/packages/f5/86/9d15baf39bd3822ac97ca3a46cbab738a6225efceffb3adff37052e7f764/undetected-playwright-0.1.0.tar.gz
+[2023-07-03 08:04:43] INFO root fetch - processPackages [budoux]: Downloading https://files.pythonhosted.org/packages/69/4f/c648b6a02cd901274534f84bebbf3d6e59c25b87cb44059c969c8fb4db03/budoux-0.5.2.tar.gz
+[2023-07-03 08:04:43] INFO root fetch - processPackages [sj-tool]: Downloading https://files.pythonhosted.org/packages/2e/c6/ed941d25e472426116ea2e75bd85fead4f6fad46d6238c6a7bc0c10801f1/sj_tool-1.0.9-py3-none-any.whl
+[2023-07-03 08:04:44] INFO root fetch - processPackages [budoux]: executing diffoscope
+[2023-07-03 08:04:44] INFO root fetch - processPackages [budoux]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/budoux-0.5.1.tar.gz tmp/budoux-0.5.2.tar.gz --markdown 20230703/b/budoux/0.5.1-0.5.2/diff.md --exclude *.pyd
+[2023-07-03 08:04:44] INFO root fetch - processPackages [sj-tool]: executing diffoscope
+[2023-07-03 08:04:44] INFO root fetch - processPackages [sj-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sj_tool-1.0.8-py3-none-any.whl.zip tmp/sj_tool-1.0.9-py3-none-any.whl.zip --markdown 20230703/s/sj-tool/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-03 08:04:44] INFO root fetch - processPackages [undetected-playwright]: executing diffoscope
+[2023-07-03 08:04:44] INFO root fetch - processPackages [undetected-playwright]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/undetected-playwright-0.0.5.tar.gz tmp/undetected-playwright-0.1.0.tar.gz --markdown 20230703/u/undetected-playwright/0.0.5-0.1.0/diff.md --exclude *.pyd
+[2023-07-03 08:04:45] INFO root fetch - processPackages [mypyref]: Remove: archive file [/home/abi/fetcher/tmp/mypyref-0.0.2.tar.gz]
+[2023-07-03 08:04:45] INFO root fetch - processPackages [mypyref]: Remove: archive file [/home/abi/fetcher/tmp/mypyref-0.0.3.tar.gz]
+[2023-07-03 08:04:45] INFO root fetch - main [MainThread]: End processing [mypyref]: success
+[2023-07-03 08:04:45] INFO root fetch - processPackages [smoldyn]: Remove: archive file [/home/abi/fetcher/tmp/smoldyn-2.72.dev202307030555-cp38-cp38-macosx_11_0_x86_64.whl.zip]
+[2023-07-03 08:04:45] INFO root fetch - processPackages [smoldyn]: Remove: archive file [/home/abi/fetcher/tmp/smoldyn-2.72.dev202307030556-cp39-cp39-win_amd64.whl.zip]
+[2023-07-03 08:04:45] INFO root fetch - main [MainThread]: End processing [smoldyn]: success
+[2023-07-03 08:04:45] INFO root fetch - processPackages [posco-lp]: Remove: archive file [/home/abi/fetcher/tmp/posco-lp-1.0.9.tar.gz]
+[2023-07-03 08:04:45] INFO root fetch - processPackages [posco-lp]: Remove: archive file [/home/abi/fetcher/tmp/posco-lp-1.1.0.tar.gz]
+[2023-07-03 08:04:45] INFO root fetch - main [MainThread]: End processing [posco-lp]: success
+[2023-07-03 08:04:45] INFO root fetch - processPackages [smoldyn]: Remove: archive file [/home/abi/fetcher/tmp/smoldyn-2.72.dev202307030555-cp310-cp310-win_amd64.whl.zip]
+[2023-07-03 08:04:45] INFO root fetch - main [MainThread]: End processing [smoldyn]: success
+[2023-07-03 08:04:45] INFO root fetch - main [MainThread]: End processing [smoldyn]: success
+[2023-07-03 08:04:45] INFO root fetch - main [MainThread]: End processing [smoldyn]: success
+[2023-07-03 08:04:45] INFO root fetch - processPackages [sj-tool]: Remove: archive file [/home/abi/fetcher/tmp/sj_tool-1.0.8-py3-none-any.whl.zip]
+[2023-07-03 08:04:45] INFO root fetch - processPackages [sj-tool]: Remove: archive file [/home/abi/fetcher/tmp/sj_tool-1.0.9-py3-none-any.whl.zip]
+[2023-07-03 08:04:45] INFO root fetch - main [MainThread]: End processing [sj-tool]: success
+[2023-07-03 08:04:46] INFO root fetch - processPackages [undetected-playwright]: Remove: archive file [/home/abi/fetcher/tmp/undetected-playwright-0.0.5.tar.gz]
+[2023-07-03 08:04:46] INFO root fetch - processPackages [undetected-playwright]: Remove: archive file [/home/abi/fetcher/tmp/undetected-playwright-0.1.0.tar.gz]
+[2023-07-03 08:04:46] INFO root fetch - main [MainThread]: End processing [undetected-playwright]: success
+[2023-07-03 08:04:46] INFO root fetch - processPackages [budoux]: Remove: archive file [/home/abi/fetcher/tmp/budoux-0.5.1.tar.gz]
+[2023-07-03 08:04:46] INFO root fetch - processPackages [budoux]: Remove: archive file [/home/abi/fetcher/tmp/budoux-0.5.2.tar.gz]
+[2023-07-03 08:04:46] INFO root fetch - main [MainThread]: End processing [budoux]: success
+[2023-07-03 08:04:47] INFO root fetch - processPackages [pait]: Remove: archive file [/home/abi/fetcher/tmp/pait-1.0.0a5.tar.gz]
+[2023-07-03 08:04:47] INFO root fetch - processPackages [pait]: Remove: archive file [/home/abi/fetcher/tmp/pait-1.0.0a6.tar.gz]
+[2023-07-03 08:04:47] INFO root fetch - main [MainThread]: End processing [pait]: success
+[2023-07-03 08:04:47] INFO root fetch - main [MainThread]: Store serial: [18735090]
