@@ -6720,3 +6720,33 @@
 [2023-07-03 06:04:58] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.349.0.tar.gz]
 [2023-07-03 06:04:58] INFO root fetch - main [MainThread]: End processing [policyengine-us]: success
 [2023-07-03 06:04:58] INFO root fetch - main [MainThread]: Store serial: [18734519]
+[2023-07-03 06:10:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18734519]
+[2023-07-03 06:10:08] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-07-03 06:10:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sinabs
+[2023-07-03 06:10:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: galpy
+[2023-07-03 06:10:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: policyengine-us
+[2023-07-03 06:10:09] INFO root fetch - processPackages [sinabs]: New version: [1.2.7.dev7] Old Version: [1.2.7.dev6]
+[2023-07-03 06:10:09] INFO root fetch - processPackages [galpy]: New version: [1.9.0] Old Version: [1.8.3]
+[2023-07-03 06:10:09] INFO root fetch - processPackages [policyengine-us]: New version: [0.349.0] Old Version: [0.348.2]
+[2023-07-03 06:10:09] INFO root fetch - processPackages [policyengine-us]: Downloading https://files.pythonhosted.org/packages/95/ed/8349207be40517c5f75115e15d79d652dc1ca28aa6ec9656d80342bb0d26/policyengine-us-0.348.2.tar.gz
+[2023-07-03 06:10:09] INFO root fetch - processPackages [sinabs]: Downloading https://files.pythonhosted.org/packages/f0/35/0215d0ab4bfeef6ae6281e7d2e600b8ec67d01f1a074929eea8537f9188a/sinabs-1.2.7.dev6.tar.gz
+[2023-07-03 06:10:09] INFO root fetch - processPackages [galpy]: Downloading https://files.pythonhosted.org/packages/60/a6/13823c49ccc8514912157362e486f33abd7f2eae70534d15639452cdd32c/galpy-1.8.3.tar.gz
+[2023-07-03 06:10:09] INFO root fetch - processPackages [policyengine-us]: Downloading https://files.pythonhosted.org/packages/55/a9/906a18a41a54b76f6cfdd15a4e96aca82d861c4f0cf38d3bfc37932c4321/policyengine-us-0.349.0.tar.gz
+[2023-07-03 06:10:09] INFO root fetch - processPackages [policyengine-us]: executing diffoscope
+[2023-07-03 06:10:09] INFO root fetch - processPackages [policyengine-us]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/policyengine-us-0.348.2.tar.gz tmp/policyengine-us-0.349.0.tar.gz --markdown 20230703/p/policyengine-us/0.348.2-0.349.0/diff.md --exclude *.pyd
+[2023-07-03 06:10:09] INFO root fetch - processPackages [sinabs]: Downloading https://files.pythonhosted.org/packages/f5/35/976796393a784989469b57e0ef34c42157d48c5ed77182a10638ab70b1a4/sinabs-1.2.7.dev7.tar.gz
+[2023-07-03 06:10:09] INFO root fetch - processPackages [galpy]: Downloading https://files.pythonhosted.org/packages/1b/1c/2ea110267578374abfada7ec8315f36ca860c0a60e241a0111624db89d9f/galpy-1.9.0.tar.gz
+[2023-07-03 06:10:09] INFO root fetch - processPackages [sinabs]: executing diffoscope
+[2023-07-03 06:10:09] INFO root fetch - processPackages [sinabs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sinabs-1.2.7.dev6.tar.gz tmp/sinabs-1.2.7.dev7.tar.gz --markdown 20230703/s/sinabs/1.2.7.dev6-1.2.7.dev7/diff.md --exclude *.pyd
+[2023-07-03 06:10:09] INFO root fetch - processPackages [galpy]: executing diffoscope
+[2023-07-03 06:10:09] INFO root fetch - processPackages [galpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/galpy-1.8.3.tar.gz tmp/galpy-1.9.0.tar.gz --markdown 20230703/g/galpy/1.8.3-1.9.0/diff.md --exclude *.pyd
+[2023-07-03 06:10:11] INFO root fetch - processPackages [sinabs]: Remove: archive file [/home/abi/fetcher/tmp/sinabs-1.2.7.dev6.tar.gz]
+[2023-07-03 06:10:11] INFO root fetch - processPackages [sinabs]: Remove: archive file [/home/abi/fetcher/tmp/sinabs-1.2.7.dev7.tar.gz]
+[2023-07-03 06:10:11] INFO root fetch - main [MainThread]: End processing [sinabs]: success
+[2023-07-03 06:10:16] INFO root fetch - processPackages [galpy]: Remove: archive file [/home/abi/fetcher/tmp/galpy-1.8.3.tar.gz]
+[2023-07-03 06:10:16] INFO root fetch - processPackages [galpy]: Remove: archive file [/home/abi/fetcher/tmp/galpy-1.9.0.tar.gz]
+[2023-07-03 06:10:16] INFO root fetch - main [MainThread]: End processing [galpy]: success
+[2023-07-03 06:11:32] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.348.2.tar.gz]
+[2023-07-03 06:11:32] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.349.0.tar.gz]
+[2023-07-03 06:11:32] INFO root fetch - main [MainThread]: End processing [policyengine-us]: success
+[2023-07-03 06:11:32] INFO root fetch - main [MainThread]: Store serial: [18734549]
