@@ -6750,3 +6750,66 @@
 [2023-07-03 06:11:32] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.349.0.tar.gz]
 [2023-07-03 06:11:32] INFO root fetch - main [MainThread]: End processing [policyengine-us]: success
 [2023-07-03 06:11:32] INFO root fetch - main [MainThread]: Store serial: [18734549]
+[2023-07-03 06:16:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18734549]
+[2023-07-03 06:16:41] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-03 06:16:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lemmy-nhl
+[2023-07-03 06:16:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cabinet
+[2023-07-03 06:16:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lyrics-transcriber
+[2023-07-03 06:16:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aws-vpclattice-prealpha
+[2023-07-03 06:16:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hello-world-testcc
+[2023-07-03 06:16:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: naters-utils
+[2023-07-03 06:16:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: servifai
+[2023-07-03 06:16:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: zipline-cli
+[2023-07-03 06:16:41] WARNING root fetch - processPackages [hello-world-testcc]: Skipping, unable to determine old version
+[2023-07-03 06:16:41] INFO root fetch - main [MainThread]: End processing [hello-world-testcc] error
+[2023-07-03 06:16:41] INFO root fetch - processPackages [naters-utils]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-03 06:16:41] INFO root fetch - processPackages [lemmy-nhl]: New version: [1.5.3] Old Version: [1.5.2]
+[2023-07-03 06:16:41] INFO root fetch - processPackages [aws-vpclattice-prealpha]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-07-03 06:16:41] WARNING root fetch - processPackages [zipline-cli]: Skipping, unable to determine old version
+[2023-07-03 06:16:41] INFO root fetch - main [MainThread]: End processing [zipline-cli] error
+[2023-07-03 06:16:41] INFO root fetch - processPackages [servifai]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-03 06:16:41] INFO root fetch - processPackages [lyrics-transcriber]: New version: [0.4.1] Old Version: [0.3.5]
+[2023-07-03 06:16:41] INFO root fetch - processPackages [cabinet]: New version: [2023.7.2.1] Old Version: [2023.6.8.1]
+[2023-07-03 06:16:41] INFO root fetch - processPackages [naters-utils]: Downloading https://files.pythonhosted.org/packages/0f/9d/d021dc8b3c150592b90356e9290f02b6eb91038c995384905750f245ae8b/naters-utils-0.1.0.tar.gz
+[2023-07-03 06:16:41] INFO root fetch - processPackages [lemmy-nhl]: Downloading https://files.pythonhosted.org/packages/1f/b2/52c45bc5cf16f70f7d9bdcd51fa70b6dc6560dd385d345fe8dc1667dc046/lemmy_nhl-1.5.2.tar.gz
+[2023-07-03 06:16:41] INFO root fetch - processPackages [lyrics-transcriber]: Downloading https://files.pythonhosted.org/packages/c3/99/3441c4364116ae4aaa7e0f72700ded7212e763d92dca46655348a408b453/lyrics_transcriber-0.3.5.tar.gz
+[2023-07-03 06:16:41] INFO root fetch - processPackages [servifai]: Downloading https://files.pythonhosted.org/packages/5c/8f/d3a87f921198f0995b9d80d5c2bbea7db1b16b6fc9e67e66b1e01a7e3cc5/servifai-0.1.0.tar.gz
+[2023-07-03 06:16:41] INFO root fetch - processPackages [aws-vpclattice-prealpha]: Downloading https://files.pythonhosted.org/packages/e5/ac/135ec4e241c1ee3399f4990859860004c5ef9ce399df09d05d06e6d941a9/aws-vpclattice-prealpha-0.4.8.tar.gz
+[2023-07-03 06:16:42] INFO root fetch - processPackages [naters-utils]: Downloading https://files.pythonhosted.org/packages/29/80/322934bc0eb06fc15857adaf6889c5901a6697bbb6dfbf43b258c654b53e/naters-utils-0.1.1.tar.gz
+[2023-07-03 06:16:42] INFO root fetch - processPackages [cabinet]: Downloading https://files.pythonhosted.org/packages/17/4b/395750b8cbd9234de129c41fee645c0c78255e978b367f976014137c7a4d/cabinet-2023.6.8.1.tar.gz
+[2023-07-03 06:16:42] INFO root fetch - processPackages [naters-utils]: executing diffoscope
+[2023-07-03 06:16:42] INFO root fetch - processPackages [naters-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/naters-utils-0.1.0.tar.gz tmp/naters-utils-0.1.1.tar.gz --markdown 20230703/n/naters-utils/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-03 06:16:42] INFO root fetch - processPackages [lemmy-nhl]: Downloading https://files.pythonhosted.org/packages/94/3e/55cd77e09c008facf619d298856b11c6d0b7e7dba8ab2bf23d70cac3b0fa/lemmy_nhl-1.5.3.tar.gz
+[2023-07-03 06:16:42] INFO root fetch - processPackages [lyrics-transcriber]: Downloading https://files.pythonhosted.org/packages/f2/a8/71170c3b2e4d7bf2a483d23278ea5d47d6a81e685ffdcfb5088ab6573b85/lyrics_transcriber-0.4.1.tar.gz
+[2023-07-03 06:16:42] INFO root fetch - processPackages [cabinet]: Downloading https://files.pythonhosted.org/packages/f4/9c/cd3d6167a7e7b45057ed5d539a4fe7ffb2aeceb968ec7a3bc0b8912e7f05/cabinet-2023.7.2.1.tar.gz
+[2023-07-03 06:16:42] INFO root fetch - processPackages [servifai]: Downloading https://files.pythonhosted.org/packages/bc/8f/279dba2b93baf58407d43437fb3c50ed885c1a8663ade41e454b413f394c/servifai-0.1.1.tar.gz
+[2023-07-03 06:16:42] INFO root fetch - processPackages [aws-vpclattice-prealpha]: Downloading https://files.pythonhosted.org/packages/d6/94/5a78b9baa62a809008186ec56f6c15eb6876d2955b1c52f45ffd7e7984b5/aws-vpclattice-prealpha-0.4.9.tar.gz
+[2023-07-03 06:16:42] INFO root fetch - processPackages [servifai]: executing diffoscope
+[2023-07-03 06:16:42] INFO root fetch - processPackages [servifai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/servifai-0.1.0.tar.gz tmp/servifai-0.1.1.tar.gz --markdown 20230703/s/servifai/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-03 06:16:42] INFO root fetch - processPackages [cabinet]: executing diffoscope
+[2023-07-03 06:16:42] INFO root fetch - processPackages [cabinet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cabinet-2023.6.8.1.tar.gz tmp/cabinet-2023.7.2.1.tar.gz --markdown 20230703/c/cabinet/2023.6.8.1-2023.7.2.1/diff.md --exclude *.pyd
+[2023-07-03 06:16:42] INFO root fetch - processPackages [lyrics-transcriber]: executing diffoscope
+[2023-07-03 06:16:42] INFO root fetch - processPackages [lyrics-transcriber]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lyrics_transcriber-0.3.5.tar.gz tmp/lyrics_transcriber-0.4.1.tar.gz --markdown 20230703/l/lyrics-transcriber/0.3.5-0.4.1/diff.md --exclude *.pyd
+[2023-07-03 06:16:42] INFO root fetch - processPackages [aws-vpclattice-prealpha]: executing diffoscope
+[2023-07-03 06:16:42] INFO root fetch - processPackages [aws-vpclattice-prealpha]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws-vpclattice-prealpha-0.4.8.tar.gz tmp/aws-vpclattice-prealpha-0.4.9.tar.gz --markdown 20230703/a/aws-vpclattice-prealpha/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-07-03 06:16:42] INFO root fetch - processPackages [lemmy-nhl]: executing diffoscope
+[2023-07-03 06:16:42] INFO root fetch - processPackages [lemmy-nhl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lemmy_nhl-1.5.2.tar.gz tmp/lemmy_nhl-1.5.3.tar.gz --markdown 20230703/l/lemmy-nhl/1.5.2-1.5.3/diff.md --exclude *.pyd
+[2023-07-03 06:16:43] INFO root fetch - processPackages [naters-utils]: Remove: archive file [/home/abi/fetcher/tmp/naters-utils-0.1.0.tar.gz]
+[2023-07-03 06:16:43] INFO root fetch - processPackages [naters-utils]: Remove: archive file [/home/abi/fetcher/tmp/naters-utils-0.1.1.tar.gz]
+[2023-07-03 06:16:43] INFO root fetch - main [MainThread]: End processing [naters-utils]: success
+[2023-07-03 06:16:43] INFO root fetch - processPackages [servifai]: Remove: archive file [/home/abi/fetcher/tmp/servifai-0.1.0.tar.gz]
+[2023-07-03 06:16:43] INFO root fetch - processPackages [servifai]: Remove: archive file [/home/abi/fetcher/tmp/servifai-0.1.1.tar.gz]
+[2023-07-03 06:16:43] INFO root fetch - main [MainThread]: End processing [servifai]: success
+[2023-07-03 06:16:43] INFO root fetch - processPackages [cabinet]: Remove: archive file [/home/abi/fetcher/tmp/cabinet-2023.6.8.1.tar.gz]
+[2023-07-03 06:16:43] INFO root fetch - processPackages [cabinet]: Remove: archive file [/home/abi/fetcher/tmp/cabinet-2023.7.2.1.tar.gz]
+[2023-07-03 06:16:43] INFO root fetch - main [MainThread]: End processing [cabinet]: success
+[2023-07-03 06:16:43] INFO root fetch - processPackages [lyrics-transcriber]: Remove: archive file [/home/abi/fetcher/tmp/lyrics_transcriber-0.3.5.tar.gz]
+[2023-07-03 06:16:43] INFO root fetch - processPackages [lyrics-transcriber]: Remove: archive file [/home/abi/fetcher/tmp/lyrics_transcriber-0.4.1.tar.gz]
+[2023-07-03 06:16:43] INFO root fetch - main [MainThread]: End processing [lyrics-transcriber]: success
+[2023-07-03 06:16:43] INFO root fetch - processPackages [lemmy-nhl]: Remove: archive file [/home/abi/fetcher/tmp/lemmy_nhl-1.5.2.tar.gz]
+[2023-07-03 06:16:43] INFO root fetch - processPackages [lemmy-nhl]: Remove: archive file [/home/abi/fetcher/tmp/lemmy_nhl-1.5.3.tar.gz]
+[2023-07-03 06:16:43] INFO root fetch - main [MainThread]: End processing [lemmy-nhl]: success
+[2023-07-03 06:16:43] INFO root fetch - processPackages [aws-vpclattice-prealpha]: Remove: archive file [/home/abi/fetcher/tmp/aws-vpclattice-prealpha-0.4.8.tar.gz]
+[2023-07-03 06:16:43] INFO root fetch - processPackages [aws-vpclattice-prealpha]: Remove: archive file [/home/abi/fetcher/tmp/aws-vpclattice-prealpha-0.4.9.tar.gz]
+[2023-07-03 06:16:43] INFO root fetch - main [MainThread]: End processing [aws-vpclattice-prealpha]: success
+[2023-07-03 06:16:43] INFO root fetch - main [MainThread]: Store serial: [18734575]
