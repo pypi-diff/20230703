@@ -5920,3 +5920,51 @@
 [2023-07-03 04:59:13] INFO root fetch - processPackages [volcengine-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/volcengine-python-sdk-1.0.9.tar.gz]
 [2023-07-03 04:59:13] INFO root fetch - main [MainThread]: End processing [volcengine-python-sdk]: success
 [2023-07-03 04:59:13] INFO root fetch - main [MainThread]: Store serial: [18734203]
+[2023-07-03 05:04:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18734203]
+[2023-07-03 05:04:22] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-03 05:04:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: openla-feature-representation
+[2023-07-03 05:04:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: auto-test-common
+[2023-07-03 05:04:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: huhangkai
+[2023-07-03 05:04:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: baysalt-christmas
+[2023-07-03 05:04:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mindflow
+[2023-07-03 05:04:22] INFO root fetch - processPackages [mindflow]: New version: [0.5.4] Old Version: [0.5.3]
+[2023-07-03 05:04:22] INFO root fetch - processPackages [openla-feature-representation]: New version: [0.1.0a5] Old Version: [0.1.0a3]
+[2023-07-03 05:04:22] INFO root fetch - processPackages [baysalt-christmas]: New version: [0.1.8.0] Old Version: [0.1.7.9]
+[2023-07-03 05:04:22] INFO root fetch - processPackages [auto-test-common]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-03 05:04:22] INFO root fetch - processPackages [mindflow]: Downloading https://files.pythonhosted.org/packages/dd/dd/f5e51e76c285d7cf289c545173334935318494562d5f5b12deb5d9e0fcc0/mindflow-0.5.3.tar.gz
+[2023-07-03 05:04:22] INFO root fetch - processPackages [baysalt-christmas]: Downloading https://files.pythonhosted.org/packages/5c/7f/6b585fb5472c47d9f577904e0c891c23d928cb30e8ae19c173ff8172e645/baysalt_christmas-0.1.7.9.tar.gz
+[2023-07-03 05:04:22] INFO root fetch - processPackages [huhangkai]: New version: [1.2.3] Old Version: [1.2.2]
+[2023-07-03 05:04:22] INFO root fetch - processPackages [openla-feature-representation]: Downloading https://files.pythonhosted.org/packages/e2/88/1d67955a113adbb086620b86ef77e2b9c054bb154eb61e0b4157e510720d/openla_feature_representation-0.1.0a3.tar.gz
+[2023-07-03 05:04:23] INFO root fetch - processPackages [mindflow]: Downloading https://files.pythonhosted.org/packages/cf/6c/2edc2b44f7bf557a992f84e6271d2bbb107a3f1d06ad620c4b664c11e81a/mindflow-0.5.4.tar.gz
+[2023-07-03 05:04:23] INFO root fetch - processPackages [mindflow]: executing diffoscope
+[2023-07-03 05:04:23] INFO root fetch - processPackages [auto-test-common]: Downloading https://files.pythonhosted.org/packages/32/5d/a940c7c89c47caa8d7d717ec993cadc32acaee6b8e51af4b6c99b06a303e/auto-test-common-1.0.8.tar.gz
+[2023-07-03 05:04:23] INFO root fetch - processPackages [mindflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mindflow-0.5.3.tar.gz tmp/mindflow-0.5.4.tar.gz --markdown 20230703/m/mindflow/0.5.3-0.5.4/diff.md --exclude *.pyd
+[2023-07-03 05:04:23] INFO root fetch - processPackages [openla-feature-representation]: Downloading https://files.pythonhosted.org/packages/48/ae/7fe65ca9f7c77cd6e97dc7b914a89e2720dd1ecf8a471baa04b4c2e00c9b/openla_feature_representation-0.1.0a5.tar.gz
+[2023-07-03 05:04:23] INFO root fetch - processPackages [baysalt-christmas]: Downloading https://files.pythonhosted.org/packages/d9/98/3bf4e166dc05da1751876f1a8f7b0fbb1200fb049d5b0a6729398c47911f/baysalt_christmas-0.1.8.0.tar.gz
+[2023-07-03 05:04:23] INFO root fetch - processPackages [huhangkai]: Downloading https://files.pythonhosted.org/packages/c5/f6/bcf2edf616d546ea4f10467c19ee89bc9825176dd9bd5f6e25a021ce8d05/huhangkai-1.2.2.tar.gz
+[2023-07-03 05:04:23] INFO root fetch - processPackages [openla-feature-representation]: executing diffoscope
+[2023-07-03 05:04:23] INFO root fetch - processPackages [openla-feature-representation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openla_feature_representation-0.1.0a3.tar.gz tmp/openla_feature_representation-0.1.0a5.tar.gz --markdown 20230703/o/openla-feature-representation/0.1.0a3-0.1.0a5/diff.md --exclude *.pyd
+[2023-07-03 05:04:23] INFO root fetch - processPackages [baysalt-christmas]: executing diffoscope
+[2023-07-03 05:04:23] INFO root fetch - processPackages [baysalt-christmas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/baysalt_christmas-0.1.7.9.tar.gz tmp/baysalt_christmas-0.1.8.0.tar.gz --markdown 20230703/b/baysalt-christmas/0.1.7.9-0.1.8.0/diff.md --exclude *.pyd
+[2023-07-03 05:04:23] INFO root fetch - processPackages [huhangkai]: Downloading https://files.pythonhosted.org/packages/e2/eb/e54c9b4f0e1fcee1c63d828fa808b3da4eaf06bbcf4f5f4b5ac95df76149/huhangkai-1.2.3.tar.gz
+[2023-07-03 05:04:23] INFO root fetch - processPackages [auto-test-common]: Downloading https://files.pythonhosted.org/packages/02/72/7059e44b7cdcc0ef7e311e32e112b1bbc1c433726e8aba80f7591c6a5e89/auto-test-common-1.0.9.tar.gz
+[2023-07-03 05:04:23] INFO root fetch - processPackages [huhangkai]: executing diffoscope
+[2023-07-03 05:04:23] INFO root fetch - processPackages [huhangkai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huhangkai-1.2.2.tar.gz tmp/huhangkai-1.2.3.tar.gz --markdown 20230703/h/huhangkai/1.2.2-1.2.3/diff.md --exclude *.pyd
+[2023-07-03 05:04:23] INFO root fetch - processPackages [auto-test-common]: executing diffoscope
+[2023-07-03 05:04:23] INFO root fetch - processPackages [auto-test-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/auto-test-common-1.0.8.tar.gz tmp/auto-test-common-1.0.9.tar.gz --markdown 20230703/a/auto-test-common/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-03 05:04:24] INFO root fetch - processPackages [openla-feature-representation]: Remove: archive file [/home/abi/fetcher/tmp/openla_feature_representation-0.1.0a3.tar.gz]
+[2023-07-03 05:04:24] INFO root fetch - processPackages [openla-feature-representation]: Remove: archive file [/home/abi/fetcher/tmp/openla_feature_representation-0.1.0a5.tar.gz]
+[2023-07-03 05:04:24] INFO root fetch - main [MainThread]: End processing [openla-feature-representation]: success
+[2023-07-03 05:04:24] INFO root fetch - processPackages [baysalt-christmas]: Remove: archive file [/home/abi/fetcher/tmp/baysalt_christmas-0.1.7.9.tar.gz]
+[2023-07-03 05:04:24] INFO root fetch - processPackages [baysalt-christmas]: Remove: archive file [/home/abi/fetcher/tmp/baysalt_christmas-0.1.8.0.tar.gz]
+[2023-07-03 05:04:24] INFO root fetch - main [MainThread]: End processing [baysalt-christmas]: success
+[2023-07-03 05:04:24] INFO root fetch - processPackages [auto-test-common]: Remove: archive file [/home/abi/fetcher/tmp/auto-test-common-1.0.8.tar.gz]
+[2023-07-03 05:04:24] INFO root fetch - processPackages [auto-test-common]: Remove: archive file [/home/abi/fetcher/tmp/auto-test-common-1.0.9.tar.gz]
+[2023-07-03 05:04:24] INFO root fetch - main [MainThread]: End processing [auto-test-common]: success
+[2023-07-03 05:04:25] INFO root fetch - processPackages [huhangkai]: Remove: archive file [/home/abi/fetcher/tmp/huhangkai-1.2.2.tar.gz]
+[2023-07-03 05:04:25] INFO root fetch - processPackages [huhangkai]: Remove: archive file [/home/abi/fetcher/tmp/huhangkai-1.2.3.tar.gz]
+[2023-07-03 05:04:25] INFO root fetch - main [MainThread]: End processing [huhangkai]: success
+[2023-07-03 05:04:25] INFO root fetch - processPackages [mindflow]: Remove: archive file [/home/abi/fetcher/tmp/mindflow-0.5.3.tar.gz]
+[2023-07-03 05:04:25] INFO root fetch - processPackages [mindflow]: Remove: archive file [/home/abi/fetcher/tmp/mindflow-0.5.4.tar.gz]
+[2023-07-03 05:04:25] INFO root fetch - main [MainThread]: End processing [mindflow]: success
+[2023-07-03 05:04:25] INFO root fetch - main [MainThread]: Store serial: [18734217]
