@@ -7604,3 +7604,57 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-03 07:27:29] INFO root fetch - processPackages [FeishuBitableAPI]: Remove: archive file [/home/abi/fetcher/tmp/FeishuBitableAPI-3.1.2.tar.gz]
 [2023-07-03 07:27:29] INFO root fetch - main [MainThread]: End processing [FeishuBitableAPI]: success
 [2023-07-03 07:27:29] INFO root fetch - main [MainThread]: Store serial: [18734913]
+[2023-07-03 07:32:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18734913]
+[2023-07-03 07:32:37] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-03 07:32:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: xj-role
+[2023-07-03 07:32:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: trueapi-cli
+[2023-07-03 07:32:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: headless-chrome
+[2023-07-03 07:32:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: venvmgr
+[2023-07-03 07:32:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gitcoll
+[2023-07-03 07:32:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: crazy-thursday
+[2023-07-03 07:32:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: documentdataextraction
+[2023-07-03 07:32:37] INFO root fetch - processPackages [gitcoll]: New version: [0.0.19] Old Version: [0.0.18]
+[2023-07-03 07:32:37] WARNING root fetch - processPackages [trueapi-cli]: Skipping, unable to determine old version
+[2023-07-03 07:32:37] INFO root fetch - main [MainThread]: End processing [trueapi-cli] error
+[2023-07-03 07:32:37] INFO root fetch - processPackages [venvmgr]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-03 07:32:37] WARNING root fetch - processPackages [headless-chrome]: Skipping, unable to determine old version
+[2023-07-03 07:32:37] INFO root fetch - main [MainThread]: End processing [headless-chrome] error
+[2023-07-03 07:32:37] INFO root fetch - processPackages [xj-role]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-03 07:32:37] INFO root fetch - processPackages [documentdataextraction]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-03 07:32:37] INFO root fetch - processPackages [crazy-thursday]: New version: [2023.7.3.1] Old Version: [2023.7.3.0]
+[2023-07-03 07:32:37] INFO root fetch - processPackages [crazy-thursday]: Downloading https://files.pythonhosted.org/packages/ee/a0/b8acb512936860210c2110c26ef6a5d72e174fe03bbfff65aee7c2aa7768/crazy-thursday-2023.7.3.0.tar.gz
+[2023-07-03 07:32:37] INFO root fetch - processPackages [venvmgr]: Downloading https://files.pythonhosted.org/packages/3a/d2/2c37b29361165270e785597ff0944d0500ddf8a918ee989718eb5414c5ec/venvmgr-0.1.1.tar.gz
+[2023-07-03 07:32:37] INFO root fetch - processPackages [gitcoll]: Downloading https://files.pythonhosted.org/packages/1a/72/d40e5891f173b39f17cd147fd5433ca75e79e27a7b2b3009ffbef6c89902/gitcoll-0.0.18.tar.gz
+[2023-07-03 07:32:38] INFO root fetch - processPackages [documentdataextraction]: Downloading https://files.pythonhosted.org/packages/1a/e4/1e85519ce247c6ed7c20e6c47ef38f5c09cf919ff231bf453cc23a1f0ba0/documentdataextraction-0.0.8-py3-none-any.whl
+[2023-07-03 07:32:38] INFO root fetch - processPackages [xj-role]: Downloading https://files.pythonhosted.org/packages/6b/8b/97965272d3462d0f7d0a27d169efd5145a23039e46eb22ce86c516d7eb65/xj_role-1.0.8.tar.gz
+[2023-07-03 07:32:38] INFO root fetch - processPackages [crazy-thursday]: Downloading https://files.pythonhosted.org/packages/26/74/66da753abdea4f56b8f29cb97c992bc9fc2bf6e537bc37d0bf7a48947ff9/crazy-thursday-2023.7.3.1.tar.gz
+[2023-07-03 07:32:38] INFO root fetch - processPackages [venvmgr]: Downloading https://files.pythonhosted.org/packages/e5/11/11c689b19fdac406a660a12404c0383cc3509b5ef6d64d47f6414c747d51/venvmgr-0.1.2.tar.gz
+[2023-07-03 07:32:38] INFO root fetch - processPackages [gitcoll]: Downloading https://files.pythonhosted.org/packages/7c/1b/76dd502b81c424fcf93aaa724d8174b79f9d1dcbad9d6abe9312b9d9eca6/gitcoll-0.0.19.tar.gz
+[2023-07-03 07:32:38] INFO root fetch - processPackages [crazy-thursday]: executing diffoscope
+[2023-07-03 07:32:38] INFO root fetch - processPackages [crazy-thursday]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crazy-thursday-2023.7.3.0.tar.gz tmp/crazy-thursday-2023.7.3.1.tar.gz --markdown 20230703/c/crazy-thursday/2023.7.3.0-2023.7.3.1/diff.md --exclude *.pyd
+[2023-07-03 07:32:38] INFO root fetch - processPackages [venvmgr]: executing diffoscope
+[2023-07-03 07:32:38] INFO root fetch - processPackages [venvmgr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/venvmgr-0.1.1.tar.gz tmp/venvmgr-0.1.2.tar.gz --markdown 20230703/v/venvmgr/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-03 07:32:38] INFO root fetch - processPackages [documentdataextraction]: Downloading https://files.pythonhosted.org/packages/b3/ec/eb9901e48d02bee04847cd1afe0c6b8ca7231d1a8b133261a63ae052f777/documentdataextraction-0.0.9-py3-none-any.whl
+[2023-07-03 07:32:38] INFO root fetch - processPackages [gitcoll]: executing diffoscope
+[2023-07-03 07:32:38] INFO root fetch - processPackages [gitcoll]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gitcoll-0.0.18.tar.gz tmp/gitcoll-0.0.19.tar.gz --markdown 20230703/g/gitcoll/0.0.18-0.0.19/diff.md --exclude *.pyd
+[2023-07-03 07:32:38] INFO root fetch - processPackages [documentdataextraction]: executing diffoscope
+[2023-07-03 07:32:38] INFO root fetch - processPackages [documentdataextraction]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/documentdataextraction-0.0.8-py3-none-any.whl.zip tmp/documentdataextraction-0.0.9-py3-none-any.whl.zip --markdown 20230703/d/documentdataextraction/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-03 07:32:39] INFO root fetch - processPackages [crazy-thursday]: Remove: archive file [/home/abi/fetcher/tmp/crazy-thursday-2023.7.3.0.tar.gz]
+[2023-07-03 07:32:39] INFO root fetch - processPackages [crazy-thursday]: Remove: archive file [/home/abi/fetcher/tmp/crazy-thursday-2023.7.3.1.tar.gz]
+[2023-07-03 07:32:39] INFO root fetch - main [MainThread]: End processing [crazy-thursday]: success
+[2023-07-03 07:32:39] INFO root fetch - processPackages [venvmgr]: Remove: archive file [/home/abi/fetcher/tmp/venvmgr-0.1.1.tar.gz]
+[2023-07-03 07:32:39] INFO root fetch - processPackages [venvmgr]: Remove: archive file [/home/abi/fetcher/tmp/venvmgr-0.1.2.tar.gz]
+[2023-07-03 07:32:39] INFO root fetch - main [MainThread]: End processing [venvmgr]: success
+[2023-07-03 07:32:39] INFO root fetch - processPackages [documentdataextraction]: Remove: archive file [/home/abi/fetcher/tmp/documentdataextraction-0.0.8-py3-none-any.whl.zip]
+[2023-07-03 07:32:39] INFO root fetch - processPackages [documentdataextraction]: Remove: archive file [/home/abi/fetcher/tmp/documentdataextraction-0.0.9-py3-none-any.whl.zip]
+[2023-07-03 07:32:39] INFO root fetch - main [MainThread]: End processing [documentdataextraction]: success
+[2023-07-03 07:32:39] INFO root fetch - processPackages [gitcoll]: Remove: archive file [/home/abi/fetcher/tmp/gitcoll-0.0.18.tar.gz]
+[2023-07-03 07:32:39] INFO root fetch - processPackages [gitcoll]: Remove: archive file [/home/abi/fetcher/tmp/gitcoll-0.0.19.tar.gz]
+[2023-07-03 07:32:39] INFO root fetch - main [MainThread]: End processing [gitcoll]: success
+[2023-07-03 07:32:39] INFO root fetch - processPackages [xj-role]: Downloading https://files.pythonhosted.org/packages/2c/77/ebb1d3254b61bd786e3aaebbd01dfa15310557c1a927f61995a6b9e0531e/xj_role-1.0.9.tar.gz
+[2023-07-03 07:32:40] INFO root fetch - processPackages [xj-role]: executing diffoscope
+[2023-07-03 07:32:40] INFO root fetch - processPackages [xj-role]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xj_role-1.0.8.tar.gz tmp/xj_role-1.0.9.tar.gz --markdown 20230703/x/xj-role/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-03 07:32:41] INFO root fetch - processPackages [xj-role]: Remove: archive file [/home/abi/fetcher/tmp/xj_role-1.0.8.tar.gz]
+[2023-07-03 07:32:41] INFO root fetch - processPackages [xj-role]: Remove: archive file [/home/abi/fetcher/tmp/xj_role-1.0.9.tar.gz]
+[2023-07-03 07:32:41] INFO root fetch - main [MainThread]: End processing [xj-role]: success
+[2023-07-03 07:32:41] INFO root fetch - main [MainThread]: Store serial: [18734946]
