@@ -23442,3 +23442,153 @@ EOFError: EOF read where object expected
 [2023-07-03 17:39:22] INFO root fetch - processPackages [hm-pyhelper]: Remove: archive file [/home/abi/fetcher/tmp/hm_pyhelper-0.8.9.tar.gz]
 [2023-07-03 17:39:22] INFO root fetch - main [MainThread]: End processing [hm-pyhelper]: success
 [2023-07-03 17:39:22] INFO root fetch - main [MainThread]: Store serial: [18741554]
+[2023-07-03 17:44:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18741554]
+[2023-07-03 17:44:35] INFO root fetch - main [MainThread]: Found 21 changed packages
+[2023-07-03 17:44:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: e2eqavn
+[2023-07-03 17:44:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pepperize.cdk-vpc
+[2023-07-03 17:44:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: petisco
+[2023-07-03 17:44:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dank-mids
+[2023-07-03 17:44:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: meshed
+[2023-07-03 17:44:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cognite-power-ops
+[2023-07-03 17:44:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: reliableGPT
+[2023-07-03 17:44:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: hello-world-ccc
+[2023-07-03 17:44:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: e2eqavn
+[2023-07-03 17:44:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: raw2tmap
+[2023-07-03 17:44:36] INFO root fetch - processPackages [reliableGPT]: New version: [0.2.961] Old Version: [0.2.960]
+[2023-07-03 17:44:36] WARNING root fetch - processPackages [hello-world-ccc]: Skipping, unable to determine old version
+[2023-07-03 17:44:36] INFO root fetch - processPackages [hello-world-ccc]: Start processing: lowrankdensity-demo
+[2023-07-03 17:44:36] INFO root fetch - main [MainThread]: End processing [hello-world-ccc] error
+[2023-07-03 17:44:36] INFO root fetch - processPackages [dank-mids]: New version: [4.20.9] Old Version: [4.20.8]
+[2023-07-03 17:44:36] INFO root fetch - processPackages [petisco]: New version: [2.0.0rc9] Old Version: [2.0.0rc8]
+[2023-07-03 17:44:36] INFO root fetch - processPackages [meshed]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-07-03 17:44:36] INFO root fetch - processPackages [pepperize.cdk-vpc]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-03 17:44:36] INFO root fetch - processPackages [lowrankdensity-demo]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-03 17:44:36] INFO root fetch - processPackages [reliableGPT]: Downloading https://files.pythonhosted.org/packages/e5/d7/41323ce0f52017a3f0d045268a02e16ffa0378cf87f5f121a4a38303096f/reliableGPT-0.2.960.tar.gz
+[2023-07-03 17:44:36] INFO root fetch - processPackages [cognite-power-ops]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-07-03 17:44:36] INFO root fetch - processPackages [e2eqavn]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-07-03 17:44:36] WARNING root fetch - processPackages [raw2tmap]: Skipping, unable to determine old version
+[2023-07-03 17:44:36] INFO root fetch - processPackages [raw2tmap]: Start processing: livestyled
+[2023-07-03 17:44:36] INFO root fetch - processPackages [e2eqavn]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-07-03 17:44:36] INFO root fetch - main [MainThread]: End processing [raw2tmap] error
+[2023-07-03 17:44:36] INFO root fetch - processPackages [dank-mids]: Downloading https://files.pythonhosted.org/packages/dd/d9/a90cdebb46db5a35fe035f493b14d48e210491b568f4927af7919ab2fdbd/dank_mids-4.20.8.tar.gz
+[2023-07-03 17:44:36] INFO root fetch - processPackages [livestyled]: New version: [1.4.3] Old Version: [1.4.2]
+[2023-07-03 17:44:36] INFO root fetch - processPackages [lowrankdensity-demo]: Downloading https://files.pythonhosted.org/packages/4c/5f/7f589da9ebf6631f659a2ab7df55e0aa719875ca2f0c8e630ef736302bfd/lowrankdensity_demo-0.0.1.tar.gz
+[2023-07-03 17:44:36] INFO root fetch - processPackages [meshed]: Downloading https://files.pythonhosted.org/packages/ec/66/ec18e469de7a31199ec17594f774aa629498f1f4b963deea16117918bef2/meshed-0.1.98.tar.gz
+[2023-07-03 17:44:36] INFO root fetch - processPackages [e2eqavn]: Downloading https://files.pythonhosted.org/packages/37/67/9354af2e03f5d72efa0f90353322169b083eb9db2b23eecaa56350b309c1/e2eqavn-0.1.5-py2.py3-none-any.whl
+[2023-07-03 17:44:36] INFO root fetch - processPackages [petisco]: Downloading https://files.pythonhosted.org/packages/6c/22/10d99d1280b98239e5c5f4c45e4e4f017af7c413c388a012689ece0e0fc4/petisco-2.0.0rc8.tar.gz
+[2023-07-03 17:44:36] INFO root fetch - processPackages [e2eqavn]: Downloading https://files.pythonhosted.org/packages/37/67/9354af2e03f5d72efa0f90353322169b083eb9db2b23eecaa56350b309c1/e2eqavn-0.1.5-py2.py3-none-any.whl
+[2023-07-03 17:44:36] INFO root fetch - processPackages [pepperize.cdk-vpc]: Downloading https://files.pythonhosted.org/packages/25/98/839bb964d107b60f6cc3bb06dbdb864b04f9c38cafbf4725617501c0ad49/pepperize.cdk-vpc-0.0.98.tar.gz
+[2023-07-03 17:44:36] INFO root fetch - processPackages [cognite-power-ops]: Downloading https://files.pythonhosted.org/packages/2b/ea/c056f5562fa0bed4321b21572bba15a2f43f6f9795d20397ee822d00d6af/cognite_power_ops-0.9.1.tar.gz
+[2023-07-03 17:44:36] INFO root fetch - processPackages [livestyled]: Downloading https://files.pythonhosted.org/packages/b6/7e/fbbb42818bf72a23173350b32868fd7ade2ddd36273b23f883ba89b39cc1/livestyled-1.4.2.tar.gz
+[2023-07-03 17:44:36] INFO root fetch - processPackages [reliableGPT]: Downloading https://files.pythonhosted.org/packages/c0/ca/631a0c4576227f467e9d995fbec1c35b7f4c67f68ede9268e20f4eb39e57/reliableGPT-0.2.961.tar.gz
+[2023-07-03 17:44:36] INFO root fetch - processPackages [dank-mids]: Downloading https://files.pythonhosted.org/packages/e9/d0/a0c6c8d2d154a0250f47b30968e60098b0d44d3b35571e97a925b9b3984f/dank_mids-4.20.9.tar.gz
+[2023-07-03 17:44:36] INFO root fetch - processPackages [lowrankdensity-demo]: Downloading https://files.pythonhosted.org/packages/0d/f2/43de41e0751d8ef169fb0774ce6ef3b125a8efe4bff91e2ad7968529e702/lowrankdensity_demo-0.0.2.tar.gz
+[2023-07-03 17:44:37] INFO root fetch - processPackages [dank-mids]: executing diffoscope
+[2023-07-03 17:44:37] INFO root fetch - processPackages [dank-mids]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dank_mids-4.20.8.tar.gz tmp/dank_mids-4.20.9.tar.gz --markdown 20230703/d/dank-mids/4.20.8-4.20.9/diff.md --exclude *.pyd
+[2023-07-03 17:44:37] INFO root fetch - processPackages [petisco]: Downloading https://files.pythonhosted.org/packages/f1/b1/328e5fa54c27eb9b31458e81fd400ae04d15d17f4c236659198a4b9cd373/petisco-2.0.0rc9.tar.gz
+[2023-07-03 17:44:37] INFO root fetch - processPackages [pepperize.cdk-vpc]: Downloading https://files.pythonhosted.org/packages/e8/f1/d3bacab49ff19cf30ba787ffcbc7ad05fd05f663b5194429568885059996/pepperize.cdk-vpc-0.0.99.tar.gz
+[2023-07-03 17:44:37] INFO root fetch - processPackages [reliableGPT]: executing diffoscope
+[2023-07-03 17:44:37] INFO root fetch - processPackages [reliableGPT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reliableGPT-0.2.960.tar.gz tmp/reliableGPT-0.2.961.tar.gz --markdown 20230703/r/reliableGPT/0.2.960-0.2.961/diff.md --exclude *.pyd
+[2023-07-03 17:44:37] INFO root fetch - processPackages [e2eqavn]: Downloading https://files.pythonhosted.org/packages/53/f3/234e382fd396fab2a89f23fab158405e6a35e11ea6e318a962fdb263921e/e2eqavn-0.1.6-py2.py3-none-any.whl
+[2023-07-03 17:44:37] INFO root fetch - processPackages [e2eqavn]: Downloading https://files.pythonhosted.org/packages/53/f3/234e382fd396fab2a89f23fab158405e6a35e11ea6e318a962fdb263921e/e2eqavn-0.1.6-py2.py3-none-any.whl
+[2023-07-03 17:44:37] INFO root fetch - processPackages [meshed]: Downloading https://files.pythonhosted.org/packages/52/c3/21e2c03ab6607bd25fb9f6efb994798b3e75db906daf491bf961ee733450/meshed-0.1.99.tar.gz
+[2023-07-03 17:44:37] INFO root fetch - processPackages [lowrankdensity-demo]: executing diffoscope
+[2023-07-03 17:44:37] INFO root fetch - processPackages [lowrankdensity-demo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lowrankdensity_demo-0.0.1.tar.gz tmp/lowrankdensity_demo-0.0.2.tar.gz --markdown 20230703/l/lowrankdensity-demo/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-03 17:44:37] INFO root fetch - processPackages [pepperize.cdk-vpc]: executing diffoscope
+[2023-07-03 17:44:37] INFO root fetch - processPackages [pepperize.cdk-vpc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-vpc-0.0.98.tar.gz tmp/pepperize.cdk-vpc-0.0.99.tar.gz --markdown 20230703/p/pepperize.cdk-vpc/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-03 17:44:37] INFO root fetch - processPackages [livestyled]: Downloading https://files.pythonhosted.org/packages/c8/d8/348f45f67abe5fcf398d9e5676a2893344c117645ee06629f774da3ef21c/livestyled-1.4.3.tar.gz
+[2023-07-03 17:44:37] INFO root fetch - processPackages [petisco]: executing diffoscope
+[2023-07-03 17:44:37] INFO root fetch - processPackages [petisco]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/petisco-2.0.0rc8.tar.gz tmp/petisco-2.0.0rc9.tar.gz --markdown 20230703/p/petisco/2.0.0rc8-2.0.0rc9/diff.md --exclude *.pyd
+[2023-07-03 17:44:37] INFO root fetch - processPackages [cognite-power-ops]: Downloading https://files.pythonhosted.org/packages/5a/e7/e66818fdcb4e952516e36c68513139d425136901b019cc2b7ae48bfa3c12/cognite_power_ops-0.9.2.tar.gz
+[2023-07-03 17:44:37] INFO root fetch - processPackages [e2eqavn]: executing diffoscope
+[2023-07-03 17:44:37] INFO root fetch - processPackages [e2eqavn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/e2eqavn-0.1.5-py2.py3-none-any.whl.zip tmp/e2eqavn-0.1.6-py2.py3-none-any.whl.zip --markdown 20230703/e/e2eqavn/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-07-03 17:44:37] INFO root fetch - processPackages [e2eqavn]: executing diffoscope
+[2023-07-03 17:44:37] INFO root fetch - processPackages [e2eqavn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/e2eqavn-0.1.5-py2.py3-none-any.whl.zip tmp/e2eqavn-0.1.6-py2.py3-none-any.whl.zip --markdown 20230703/e/e2eqavn/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-07-03 17:44:37] INFO root fetch - processPackages [livestyled]: executing diffoscope
+[2023-07-03 17:44:37] INFO root fetch - processPackages [livestyled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/livestyled-1.4.2.tar.gz tmp/livestyled-1.4.3.tar.gz --markdown 20230703/l/livestyled/1.4.2-1.4.3/diff.md --exclude *.pyd
+[2023-07-03 17:44:37] INFO root fetch - processPackages [cognite-power-ops]: executing diffoscope
+[2023-07-03 17:44:37] INFO root fetch - processPackages [cognite-power-ops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cognite_power_ops-0.9.1.tar.gz tmp/cognite_power_ops-0.9.2.tar.gz --markdown 20230703/c/cognite-power-ops/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-07-03 17:44:37] INFO root fetch - processPackages [meshed]: executing diffoscope
+[2023-07-03 17:44:37] INFO root fetch - processPackages [meshed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/meshed-0.1.98.tar.gz tmp/meshed-0.1.99.tar.gz --markdown 20230703/m/meshed/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-07-03 17:44:38] INFO root fetch - processPackages [dank-mids]: Remove: archive file [/home/abi/fetcher/tmp/dank_mids-4.20.8.tar.gz]
+[2023-07-03 17:44:38] INFO root fetch - processPackages [dank-mids]: Remove: archive file [/home/abi/fetcher/tmp/dank_mids-4.20.9.tar.gz]
+[2023-07-03 17:44:38] INFO root fetch - processPackages [dank-mids]: Start processing: pipelinewise-tap-s3-csv
+[2023-07-03 17:44:38] INFO root fetch - main [MainThread]: End processing [dank-mids]: success
+[2023-07-03 17:44:38] INFO root fetch - processPackages [pipelinewise-tap-s3-csv]: New version: [3.0.1] Old Version: [3.0.0]
+[2023-07-03 17:44:38] INFO root fetch - processPackages [reliableGPT]: Remove: archive file [/home/abi/fetcher/tmp/reliableGPT-0.2.960.tar.gz]
+[2023-07-03 17:44:38] INFO root fetch - processPackages [reliableGPT]: Remove: archive file [/home/abi/fetcher/tmp/reliableGPT-0.2.961.tar.gz]
+[2023-07-03 17:44:38] INFO root fetch - processPackages [reliableGPT]: Start processing: cellworld
+[2023-07-03 17:44:38] INFO root fetch - main [MainThread]: End processing [reliableGPT]: success
+[2023-07-03 17:44:38] INFO root fetch - processPackages [cellworld]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-03 17:44:38] INFO root fetch - processPackages [pepperize.cdk-vpc]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-vpc-0.0.98.tar.gz]
+[2023-07-03 17:44:38] INFO root fetch - processPackages [pepperize.cdk-vpc]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-vpc-0.0.99.tar.gz]
+[2023-07-03 17:44:38] INFO root fetch - processPackages [pepperize.cdk-vpc]: Start processing: sreddit
+[2023-07-03 17:44:38] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-vpc]: success
+[2023-07-03 17:44:38] INFO root fetch - processPackages [cellworld]: Downloading https://files.pythonhosted.org/packages/5b/48/37c208bf9f17c56f039db252d8343184a4a55191496e7d6fc9880261bc31/cellworld-0.0.98.tar.gz
+[2023-07-03 17:44:38] INFO root fetch - processPackages [lowrankdensity-demo]: Remove: archive file [/home/abi/fetcher/tmp/lowrankdensity_demo-0.0.1.tar.gz]
+[2023-07-03 17:44:38] INFO root fetch - processPackages [lowrankdensity-demo]: Remove: archive file [/home/abi/fetcher/tmp/lowrankdensity_demo-0.0.2.tar.gz]
+[2023-07-03 17:44:38] INFO root fetch - processPackages [lowrankdensity-demo]: Start processing: langtest
+[2023-07-03 17:44:38] INFO root fetch - main [MainThread]: End processing [lowrankdensity-demo]: success
+[2023-07-03 17:44:38] INFO root fetch - processPackages [pipelinewise-tap-s3-csv]: Downloading https://files.pythonhosted.org/packages/32/29/a94a8ea8fc47d78ae818f52742c1a2ec10e71d5ee5a7538fd8f74511ed6a/pipelinewise-tap-s3-csv-3.0.0.tar.gz
+[2023-07-03 17:44:38] INFO root fetch - processPackages [langtest]: New version: [1.0.0rc2] Old Version: [1.0.0rc1]
+[2023-07-03 17:44:38] WARNING root fetch - processPackages [sreddit]: Skipping, unable to determine old version
+[2023-07-03 17:44:38] INFO root fetch - processPackages [sreddit]: Start processing: opswork
+[2023-07-03 17:44:38] INFO root fetch - main [MainThread]: End processing [sreddit] error
+[2023-07-03 17:44:38] WARNING root fetch - processPackages [opswork]: Skipping, unable to determine old version
+[2023-07-03 17:44:38] INFO root fetch - processPackages [opswork]: Start processing: hyundai-kia-connect-api
+[2023-07-03 17:44:38] INFO root fetch - main [MainThread]: End processing [opswork] error
+[2023-07-03 17:44:38] INFO root fetch - processPackages [langtest]: Downloading https://files.pythonhosted.org/packages/90/7f/58d212a2922d829d48b6bb855052d0bb039bf69ea9b76c53ce7b9fe76d97/langtest-1.0.0rc1.tar.gz
+[2023-07-03 17:44:38] INFO root fetch - processPackages [cellworld]: Downloading https://files.pythonhosted.org/packages/ef/23/3c6f38892cfa3ebc3c34a2cf3e74549ede81266641f0969285913d8e199b/cellworld-0.0.99.tar.gz
+[2023-07-03 17:44:39] INFO root fetch - processPackages [hyundai-kia-connect-api]: New version: [3.3.9] Old Version: [3.3.8]
+[2023-07-03 17:44:39] INFO root fetch - processPackages [e2eqavn]: Remove: archive file [/home/abi/fetcher/tmp/e2eqavn-0.1.5-py2.py3-none-any.whl.zip]
+[2023-07-03 17:44:39] INFO root fetch - processPackages [e2eqavn]: Remove: archive file [/home/abi/fetcher/tmp/e2eqavn-0.1.6-py2.py3-none-any.whl.zip]
+[2023-07-03 17:44:39] INFO root fetch - processPackages [e2eqavn]: Start processing: hello-world-cc2
+[2023-07-03 17:44:39] INFO root fetch - main [MainThread]: End processing [e2eqavn]: success
+[2023-07-03 17:44:39] INFO root fetch - processPackages [e2eqavn]: Start processing: PyFGHTest
+[2023-07-03 17:44:39] INFO root fetch - main [MainThread]: End processing [e2eqavn]: success
+[2023-07-03 17:44:39] INFO root fetch - processPackages [cellworld]: executing diffoscope
+[2023-07-03 17:44:39] INFO root fetch - processPackages [cellworld]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cellworld-0.0.98.tar.gz tmp/cellworld-0.0.99.tar.gz --markdown 20230703/c/cellworld/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-03 17:44:39] WARNING root fetch - processPackages [langtest]: Skipping package: exceeds size limit 59564157>=10485760
+[2023-07-03 17:44:39] INFO root fetch - processPackages [langtest]: Start processing: flagsmith-flag-engine
+[2023-07-03 17:44:39] INFO root fetch - main [MainThread]: End processing [langtest] error
+[2023-07-03 17:44:39] WARNING root fetch - processPackages [PyFGHTest]: Skipping, unable to determine old version
+[2023-07-03 17:44:39] INFO root fetch - main [MainThread]: End processing [PyFGHTest] error
+[2023-07-03 17:44:39] INFO root fetch - processPackages [hyundai-kia-connect-api]: Downloading https://files.pythonhosted.org/packages/70/21/a8c2ac5c19dd320be981fd15b16e27cbc4fef8f293a25ce0ac9e37cdbd4b/hyundai_kia_connect_api-3.3.8.tar.gz
+[2023-07-03 17:44:39] INFO root fetch - processPackages [cognite-power-ops]: Remove: archive file [/home/abi/fetcher/tmp/cognite_power_ops-0.9.1.tar.gz]
+[2023-07-03 17:44:39] INFO root fetch - processPackages [cognite-power-ops]: Remove: archive file [/home/abi/fetcher/tmp/cognite_power_ops-0.9.2.tar.gz]
+[2023-07-03 17:44:39] INFO root fetch - main [MainThread]: End processing [cognite-power-ops]: success
+[2023-07-03 17:44:39] INFO root fetch - processPackages [pipelinewise-tap-s3-csv]: Downloading https://files.pythonhosted.org/packages/a6/f3/fe5a20b765cce0c3484a13aabdb26b47cee22079ff13aec503d02607a2cb/pipelinewise-tap-s3-csv-3.0.1.tar.gz
+[2023-07-03 17:44:39] WARNING root fetch - processPackages [hello-world-cc2]: Skipping, unable to determine old version
+[2023-07-03 17:44:39] INFO root fetch - main [MainThread]: End processing [hello-world-cc2] error
+[2023-07-03 17:44:39] INFO root fetch - processPackages [flagsmith-flag-engine]: New version: [4.0.1] Old Version: [4.0.0]
+[2023-07-03 17:44:39] INFO root fetch - processPackages [hyundai-kia-connect-api]: Downloading https://files.pythonhosted.org/packages/e8/ac/9ae5ca1f766df94c7e80c5824a4ad6c188c11f161d9700669afe15dd4728/hyundai_kia_connect_api-3.3.9.tar.gz
+[2023-07-03 17:44:39] INFO root fetch - processPackages [pipelinewise-tap-s3-csv]: executing diffoscope
+[2023-07-03 17:44:39] INFO root fetch - processPackages [pipelinewise-tap-s3-csv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipelinewise-tap-s3-csv-3.0.0.tar.gz tmp/pipelinewise-tap-s3-csv-3.0.1.tar.gz --markdown 20230703/p/pipelinewise-tap-s3-csv/3.0.0-3.0.1/diff.md --exclude *.pyd
+[2023-07-03 17:44:39] INFO root fetch - processPackages [livestyled]: Remove: archive file [/home/abi/fetcher/tmp/livestyled-1.4.2.tar.gz]
+[2023-07-03 17:44:39] INFO root fetch - processPackages [livestyled]: Remove: archive file [/home/abi/fetcher/tmp/livestyled-1.4.3.tar.gz]
+[2023-07-03 17:44:39] INFO root fetch - main [MainThread]: End processing [livestyled]: success
+[2023-07-03 17:44:39] INFO root fetch - processPackages [hyundai-kia-connect-api]: executing diffoscope
+[2023-07-03 17:44:39] INFO root fetch - processPackages [hyundai-kia-connect-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyundai_kia_connect_api-3.3.8.tar.gz tmp/hyundai_kia_connect_api-3.3.9.tar.gz --markdown 20230703/h/hyundai-kia-connect-api/3.3.8-3.3.9/diff.md --exclude *.pyd
+[2023-07-03 17:44:39] INFO root fetch - processPackages [meshed]: Remove: archive file [/home/abi/fetcher/tmp/meshed-0.1.98.tar.gz]
+[2023-07-03 17:44:39] INFO root fetch - processPackages [meshed]: Remove: archive file [/home/abi/fetcher/tmp/meshed-0.1.99.tar.gz]
+[2023-07-03 17:44:39] INFO root fetch - main [MainThread]: End processing [meshed]: success
+[2023-07-03 17:44:39] INFO root fetch - processPackages [flagsmith-flag-engine]: Downloading https://files.pythonhosted.org/packages/11/92/7b00c0736609240c0ab3f84ae428b1e1eabd7596b1eb1c1edf615c67a265/flagsmith-flag-engine-4.0.0.tar.gz
+[2023-07-03 17:44:39] INFO root fetch - processPackages [petisco]: Remove: archive file [/home/abi/fetcher/tmp/petisco-2.0.0rc8.tar.gz]
+[2023-07-03 17:44:39] INFO root fetch - processPackages [petisco]: Remove: archive file [/home/abi/fetcher/tmp/petisco-2.0.0rc9.tar.gz]
+[2023-07-03 17:44:39] INFO root fetch - main [MainThread]: End processing [petisco]: success
+[2023-07-03 17:44:39] INFO root fetch - processPackages [cellworld]: Remove: archive file [/home/abi/fetcher/tmp/cellworld-0.0.98.tar.gz]
+[2023-07-03 17:44:39] INFO root fetch - processPackages [cellworld]: Remove: archive file [/home/abi/fetcher/tmp/cellworld-0.0.99.tar.gz]
+[2023-07-03 17:44:39] INFO root fetch - main [MainThread]: End processing [cellworld]: success
+[2023-07-03 17:44:40] INFO root fetch - processPackages [flagsmith-flag-engine]: Downloading https://files.pythonhosted.org/packages/95/88/a26b0ffea50a0ef1629f4f6bb48396622aa7f251a5c4e0821966c8cfe67d/flagsmith-flag-engine-4.0.1.tar.gz
+[2023-07-03 17:44:40] INFO root fetch - processPackages [flagsmith-flag-engine]: executing diffoscope
+[2023-07-03 17:44:40] INFO root fetch - processPackages [flagsmith-flag-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flagsmith-flag-engine-4.0.0.tar.gz tmp/flagsmith-flag-engine-4.0.1.tar.gz --markdown 20230703/f/flagsmith-flag-engine/4.0.0-4.0.1/diff.md --exclude *.pyd
+[2023-07-03 17:44:40] INFO root fetch - processPackages [hyundai-kia-connect-api]: Remove: archive file [/home/abi/fetcher/tmp/hyundai_kia_connect_api-3.3.8.tar.gz]
+[2023-07-03 17:44:40] INFO root fetch - processPackages [hyundai-kia-connect-api]: Remove: archive file [/home/abi/fetcher/tmp/hyundai_kia_connect_api-3.3.9.tar.gz]
+[2023-07-03 17:44:40] INFO root fetch - main [MainThread]: End processing [hyundai-kia-connect-api]: success
+[2023-07-03 17:44:40] INFO root fetch - processPackages [pipelinewise-tap-s3-csv]: Remove: archive file [/home/abi/fetcher/tmp/pipelinewise-tap-s3-csv-3.0.0.tar.gz]
+[2023-07-03 17:44:40] INFO root fetch - processPackages [pipelinewise-tap-s3-csv]: Remove: archive file [/home/abi/fetcher/tmp/pipelinewise-tap-s3-csv-3.0.1.tar.gz]
+[2023-07-03 17:44:40] INFO root fetch - main [MainThread]: End processing [pipelinewise-tap-s3-csv]: success
+[2023-07-03 17:44:41] INFO root fetch - processPackages [flagsmith-flag-engine]: Remove: archive file [/home/abi/fetcher/tmp/flagsmith-flag-engine-4.0.0.tar.gz]
+[2023-07-03 17:44:41] INFO root fetch - processPackages [flagsmith-flag-engine]: Remove: archive file [/home/abi/fetcher/tmp/flagsmith-flag-engine-4.0.1.tar.gz]
+[2023-07-03 17:44:41] INFO root fetch - main [MainThread]: End processing [flagsmith-flag-engine]: success
+[2023-07-03 17:44:41] INFO root fetch - main [MainThread]: Store serial: [18741612]
