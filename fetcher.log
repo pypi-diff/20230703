@@ -15728,3 +15728,210 @@ AssertionError: tmp/discord-ansi-0.3.tar.gz does not exist
 [2023-07-03 13:31:15] INFO root fetch - processPackages [pylyzer]: Remove: archive file [/home/abi/fetcher/tmp/pylyzer-0.1.0b0.tar.gz]
 [2023-07-03 13:31:15] INFO root fetch - main [MainThread]: End processing [pylyzer]: success
 [2023-07-03 13:31:15] INFO root fetch - main [MainThread]: Store serial: [18738305]
+[2023-07-03 13:36:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18738305]
+[2023-07-03 13:36:35] INFO root fetch - main [MainThread]: Found 24 changed packages
+[2023-07-03 13:36:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: image-label
+[2023-07-03 13:36:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dank-mids
+[2023-07-03 13:36:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: PJYoloVision
+[2023-07-03 13:36:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bigdl-nano
+[2023-07-03 13:36:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bigdl-llm
+[2023-07-03 13:36:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bigdl-chronos
+[2023-07-03 13:36:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: wallpaperscraft
+[2023-07-03 13:36:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: c2cciutils
+[2023-07-03 13:36:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pyrepresent
+[2023-07-03 13:36:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: hotpot-zzy
+[2023-07-03 13:36:35] INFO root fetch - processPackages [bigdl-nano]: New version: [2.4.0b20230702] Old Version: [2.4.0b20230701]
+[2023-07-03 13:36:35] INFO root fetch - processPackages [pyrepresent]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-07-03 13:36:35] INFO root fetch - processPackages [PJYoloVision]: New version: [0.0.1] Old Version: [0.0.0]
+[2023-07-03 13:36:35] INFO root fetch - processPackages [bigdl-llm]: New version: [2.4.0b20230702] Old Version: [2.4.0b20230701]
+[2023-07-03 13:36:35] INFO root fetch - processPackages [hotpot-zzy]: New version: [0.3.0.7] Old Version: [0.3.0.6]
+[2023-07-03 13:36:35] INFO root fetch - processPackages [dank-mids]: New version: [4.20.9] Old Version: [4.20.8]
+[2023-07-03 13:36:35] INFO root fetch - processPackages [bigdl-chronos]: New version: [2.4.0b20230702] Old Version: [2.4.0b20230701]
+[2023-07-03 13:36:35] INFO root fetch - processPackages [c2cciutils]: New version: [1.6.0.dev99] Old Version: [1.6.0.dev98]
+[2023-07-03 13:36:35] INFO root fetch - processPackages [pyrepresent]: Downloading https://files.pythonhosted.org/packages/70/1d/0e94d6f61efc24a972827d1e4ebd478e20f9f23b43e8a8ec74a9a351a3a2/pyrepresent-0.2.3.tar.gz
+[2023-07-03 13:36:35] INFO root fetch - processPackages [wallpaperscraft]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-03 13:36:35] INFO root fetch - processPackages [image-label]: New version: [2.4.3] Old Version: [2.4.2]
+[2023-07-03 13:36:35] INFO root fetch - processPackages [c2cciutils]: Downloading https://files.pythonhosted.org/packages/a1/2b/1d6a9f2a49b1cf5d42f9fe6f8498218d1aa03ad4f83547e435c82985bf79/c2cciutils-1.6.0.dev98.tar.gz
+[2023-07-03 13:36:35] INFO root fetch - processPackages [dank-mids]: Downloading https://files.pythonhosted.org/packages/dd/d9/a90cdebb46db5a35fe035f493b14d48e210491b568f4927af7919ab2fdbd/dank_mids-4.20.8.tar.gz
+[2023-07-03 13:36:35] INFO root fetch - processPackages [bigdl-nano]: Downloading https://files.pythonhosted.org/packages/ea/20/795e5333e51f116eebc23cfb6f6475d9f5ce710f7e778f18fdbd279b63d1/bigdl_nano-2.4.0b20230701-py3-none-win_amd64.whl
+[2023-07-03 13:36:35] INFO root fetch - processPackages [PJYoloVision]: Downloading https://files.pythonhosted.org/packages/fc/b7/bc055d70c1e16bf3372a9c99e7f319d017954768c8074537a4a0a95a7a87/PJYoloVision-0.0.0.tar.gz
+[2023-07-03 13:36:36] INFO root fetch - processPackages [bigdl-llm]: Downloading https://files.pythonhosted.org/packages/7f/60/d8a9b39c64d96aba156a3f4b3c47fc589ae2ae6e96ab43b2e08053b1baf3/bigdl_llm-2.4.0b20230701-py3-none-win_amd64.whl
+[2023-07-03 13:36:36] INFO root fetch - processPackages [hotpot-zzy]: Downloading https://files.pythonhosted.org/packages/52/02/81c2580f88508568e7b7a1aa96f12c8e4f73a53d0af13f937996b8815548/hotpot-zzy-0.3.0.6.tar.gz
+[2023-07-03 13:36:36] INFO root fetch - processPackages [bigdl-chronos]: Downloading https://files.pythonhosted.org/packages/56/b7/ac0c4eaa1337ac6fcaff5018308f1b8bf0eec2d931765e0edaafe3ed9b0b/bigdl_chronos-2.4.0b20230701-py3-none-win_amd64.whl
+[2023-07-03 13:36:36] INFO root fetch - processPackages [image-label]: Downloading https://files.pythonhosted.org/packages/35/05/db3ba2db1b503be2018a694090e1397d08fb700df1e807796f889c837410/image_label-2.4.2.tar.gz
+[2023-07-03 13:36:36] INFO root fetch - processPackages [wallpaperscraft]: Downloading https://files.pythonhosted.org/packages/01/98/584cc6813a86a0ea2a539294f8d065200fe54a4669b699974f1a6b0e740f/wallpaperscraft-1.0.0.tar.gz
+[2023-07-03 13:36:36] INFO root fetch - processPackages [pyrepresent]: Downloading https://files.pythonhosted.org/packages/8d/e5/db4346190401a418848de6528432246106f4f2abc0cc48431609c189cb61/pyrepresent-0.2.4.tar.gz
+[2023-07-03 13:36:36] INFO root fetch - processPackages [dank-mids]: Downloading https://files.pythonhosted.org/packages/e9/d0/a0c6c8d2d154a0250f47b30968e60098b0d44d3b35571e97a925b9b3984f/dank_mids-4.20.9.tar.gz
+[2023-07-03 13:36:36] INFO root fetch - processPackages [PJYoloVision]: Downloading https://files.pythonhosted.org/packages/56/bd/45f8f8d74b819bfe92c122484756003b51712e6769d830426f0d148a713e/PJYoloVision-0.0.1.tar.gz
+[2023-07-03 13:36:36] INFO root fetch - processPackages [pyrepresent]: executing diffoscope
+[2023-07-03 13:36:36] INFO root fetch - processPackages [pyrepresent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrepresent-0.2.3.tar.gz tmp/pyrepresent-0.2.4.tar.gz --markdown 20230703/p/pyrepresent/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-07-03 13:36:36] INFO root fetch - processPackages [dank-mids]: executing diffoscope
+[2023-07-03 13:36:36] INFO root fetch - processPackages [dank-mids]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dank_mids-4.20.8.tar.gz tmp/dank_mids-4.20.9.tar.gz --markdown 20230703/d/dank-mids/4.20.8-4.20.9/diff.md --exclude *.pyd
+[2023-07-03 13:36:36] INFO root fetch - processPackages [hotpot-zzy]: Downloading https://files.pythonhosted.org/packages/8d/e5/6cf9d3215725cace49c52ce5c11e0eb71161242c6bc59bd19e90eef66161/hotpot-zzy-0.3.0.7.tar.gz
+[2023-07-03 13:36:36] INFO root fetch - processPackages [PJYoloVision]: executing diffoscope
+[2023-07-03 13:36:36] INFO root fetch - processPackages [PJYoloVision]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PJYoloVision-0.0.0.tar.gz tmp/PJYoloVision-0.0.1.tar.gz --markdown 20230703/P/PJYoloVision/0.0.0-0.0.1/diff.md --exclude *.pyd
+[2023-07-03 13:36:36] INFO root fetch - processPackages [wallpaperscraft]: Downloading https://files.pythonhosted.org/packages/c3/70/0d8f15f6df4f2f9d1727d19cb1d97ad258897516968433882e003991a510/wallpaperscraft-1.0.1.tar.gz
+[2023-07-03 13:36:36] INFO root fetch - processPackages [bigdl-nano]: Downloading https://files.pythonhosted.org/packages/8e/47/979c17e00deb6f5a13262825dd099628cb7436caf68b2d0f5d555510f2e1/bigdl_nano-2.4.0b20230702-py3-none-win_amd64.whl
+[2023-07-03 13:36:36] INFO root fetch - processPackages [image-label]: Downloading https://files.pythonhosted.org/packages/ce/e4/92ef0ba73e1a2bd02d924aa2162cc989923014243f7f1e0c3c732f84419b/image_label-2.4.3.tar.gz
+[2023-07-03 13:36:36] INFO root fetch - processPackages [bigdl-chronos]: Downloading https://files.pythonhosted.org/packages/c9/43/7807c7da715baf22f71e892586b9868b96fd5d4a92ed8d30e32a1d22e285/bigdl_chronos-2.4.0b20230702-py3-none-win_amd64.whl
+[2023-07-03 13:36:36] INFO root fetch - processPackages [bigdl-llm]: Downloading https://files.pythonhosted.org/packages/b9/9a/f67a1b9a5faf49f727284dbc76eb837cdd5459aaec7a621675b0d0293138/bigdl_llm-2.4.0b20230702-py3-none-win_amd64.whl
+[2023-07-03 13:36:36] INFO root fetch - processPackages [c2cciutils]: Downloading https://files.pythonhosted.org/packages/60/cb/aa51be69fbd8a1ba783878ebc042a12a61ad083b26d90280d1164ab692f5/c2cciutils-1.6.0.dev99.tar.gz
+[2023-07-03 13:36:36] INFO root fetch - processPackages [hotpot-zzy]: executing diffoscope
+[2023-07-03 13:36:36] INFO root fetch - processPackages [hotpot-zzy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hotpot-zzy-0.3.0.6.tar.gz tmp/hotpot-zzy-0.3.0.7.tar.gz --markdown 20230703/h/hotpot-zzy/0.3.0.6-0.3.0.7/diff.md --exclude *.pyd
+[2023-07-03 13:36:36] INFO root fetch - processPackages [wallpaperscraft]: executing diffoscope
+[2023-07-03 13:36:36] INFO root fetch - processPackages [wallpaperscraft]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wallpaperscraft-1.0.0.tar.gz tmp/wallpaperscraft-1.0.1.tar.gz --markdown 20230703/w/wallpaperscraft/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-03 13:36:37] INFO root fetch - processPackages [bigdl-chronos]: executing diffoscope
+[2023-07-03 13:36:37] INFO root fetch - processPackages [bigdl-chronos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_chronos-2.4.0b20230701-py3-none-win_amd64.whl.zip tmp/bigdl_chronos-2.4.0b20230702-py3-none-win_amd64.whl.zip --markdown 20230703/b/bigdl-chronos/2.4.0b20230701-2.4.0b20230702/diff.md --exclude *.pyd
+[2023-07-03 13:36:37] INFO root fetch - processPackages [image-label]: executing diffoscope
+[2023-07-03 13:36:37] INFO root fetch - processPackages [image-label]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/image_label-2.4.2.tar.gz tmp/image_label-2.4.3.tar.gz --markdown 20230703/i/image-label/2.4.2-2.4.3/diff.md --exclude *.pyd
+[2023-07-03 13:36:37] INFO root fetch - processPackages [bigdl-nano]: executing diffoscope
+[2023-07-03 13:36:37] INFO root fetch - processPackages [bigdl-nano]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_nano-2.4.0b20230701-py3-none-win_amd64.whl.zip tmp/bigdl_nano-2.4.0b20230702-py3-none-win_amd64.whl.zip --markdown 20230703/b/bigdl-nano/2.4.0b20230701-2.4.0b20230702/diff.md --exclude *.pyd
+[2023-07-03 13:36:37] INFO root fetch - processPackages [bigdl-llm]: executing diffoscope
+[2023-07-03 13:36:37] INFO root fetch - processPackages [bigdl-llm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_llm-2.4.0b20230701-py3-none-win_amd64.whl.zip tmp/bigdl_llm-2.4.0b20230702-py3-none-win_amd64.whl.zip --markdown 20230703/b/bigdl-llm/2.4.0b20230701-2.4.0b20230702/diff.md --exclude *.pyd
+[2023-07-03 13:36:37] INFO root fetch - processPackages [c2cciutils]: executing diffoscope
+[2023-07-03 13:36:37] INFO root fetch - processPackages [c2cciutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c2cciutils-1.6.0.dev98.tar.gz tmp/c2cciutils-1.6.0.dev99.tar.gz --markdown 20230703/c/c2cciutils/1.6.0.dev98-1.6.0.dev99/diff.md --exclude *.pyd
+[2023-07-03 13:36:38] INFO root fetch - processPackages [pyrepresent]: Remove: archive file [/home/abi/fetcher/tmp/pyrepresent-0.2.3.tar.gz]
+[2023-07-03 13:36:38] INFO root fetch - processPackages [pyrepresent]: Remove: archive file [/home/abi/fetcher/tmp/pyrepresent-0.2.4.tar.gz]
+[2023-07-03 13:36:38] INFO root fetch - processPackages [pyrepresent]: Start processing: bigdl-serving
+[2023-07-03 13:36:38] INFO root fetch - main [MainThread]: End processing [pyrepresent]: success
+[2023-07-03 13:36:38] INFO root fetch - processPackages [bigdl-serving]: New version: [2.4.0b20230702] Old Version: [2.4.0b20230701]
+[2023-07-03 13:36:38] INFO root fetch - processPackages [dank-mids]: Remove: archive file [/home/abi/fetcher/tmp/dank_mids-4.20.8.tar.gz]
+[2023-07-03 13:36:38] INFO root fetch - processPackages [dank-mids]: Remove: archive file [/home/abi/fetcher/tmp/dank_mids-4.20.9.tar.gz]
+[2023-07-03 13:36:38] INFO root fetch - processPackages [dank-mids]: Start processing: kalman-labs
+[2023-07-03 13:36:38] INFO root fetch - main [MainThread]: End processing [dank-mids]: success
+[2023-07-03 13:36:38] INFO root fetch - processPackages [bigdl-serving]: Downloading https://files.pythonhosted.org/packages/ab/ef/0166a7e4f408445dee07d9ce8665b8dfdfa487a651f3f3f1266a39a80d4f/bigdl_serving-2.4.0b20230701-py2.py3-none-any.whl
+[2023-07-03 13:36:38] WARNING root fetch - processPackages [kalman-labs]: Skipping, unable to determine old version
+[2023-07-03 13:36:38] INFO root fetch - processPackages [kalman-labs]: Start processing: n2t-hardware-tester
+[2023-07-03 13:36:38] INFO root fetch - main [MainThread]: End processing [kalman-labs] error
+[2023-07-03 13:36:39] WARNING root fetch - processPackages [n2t-hardware-tester]: Skipping, unable to determine old version
+[2023-07-03 13:36:39] INFO root fetch - processPackages [n2t-hardware-tester]: Start processing: currentscape
+[2023-07-03 13:36:39] INFO root fetch - main [MainThread]: End processing [n2t-hardware-tester] error
+[2023-07-03 13:36:39] INFO root fetch - processPackages [bigdl-serving]: Downloading https://files.pythonhosted.org/packages/d0/44/0ebbf5ce064c42aec0a0c04f6f864e17ee0f6e822b4ac397ed1acd7e8f41/bigdl_serving-2.4.0b20230702-py2.py3-none-any.whl
+[2023-07-03 13:36:39] INFO root fetch - processPackages [wallpaperscraft]: Remove: archive file [/home/abi/fetcher/tmp/wallpaperscraft-1.0.0.tar.gz]
+[2023-07-03 13:36:39] INFO root fetch - processPackages [wallpaperscraft]: Remove: archive file [/home/abi/fetcher/tmp/wallpaperscraft-1.0.1.tar.gz]
+[2023-07-03 13:36:39] INFO root fetch - processPackages [wallpaperscraft]: Start processing: currentscape
+[2023-07-03 13:36:39] INFO root fetch - main [MainThread]: End processing [wallpaperscraft]: success
+[2023-07-03 13:36:39] INFO root fetch - processPackages [currentscape]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-03 13:36:39] INFO root fetch - processPackages [currentscape]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-03 13:36:39] INFO root fetch - processPackages [bigdl-serving]: executing diffoscope
+[2023-07-03 13:36:39] INFO root fetch - processPackages [bigdl-serving]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_serving-2.4.0b20230701-py2.py3-none-any.whl.zip tmp/bigdl_serving-2.4.0b20230702-py2.py3-none-any.whl.zip --markdown 20230703/b/bigdl-serving/2.4.0b20230701-2.4.0b20230702/diff.md --exclude *.pyd
+[2023-07-03 13:36:39] INFO root fetch - processPackages [PJYoloVision]: Remove: archive file [/home/abi/fetcher/tmp/PJYoloVision-0.0.0.tar.gz]
+[2023-07-03 13:36:39] INFO root fetch - processPackages [PJYoloVision]: Remove: archive file [/home/abi/fetcher/tmp/PJYoloVision-0.0.1.tar.gz]
+[2023-07-03 13:36:39] INFO root fetch - processPackages [PJYoloVision]: Start processing: nucliadb
+[2023-07-03 13:36:39] INFO root fetch - main [MainThread]: End processing [PJYoloVision]: success
+[2023-07-03 13:36:39] INFO root fetch - processPackages [nucliadb]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-07-03 13:36:39] INFO root fetch - processPackages [currentscape]: Downloading https://files.pythonhosted.org/packages/42/8f/8eac7b66edeec39347dc1ccd1389e7f3ae09c1ac09a70e41179b45b6b992/currentscape-1.0.8.tar.gz
+[2023-07-03 13:36:39] INFO root fetch - processPackages [currentscape]: Downloading https://files.pythonhosted.org/packages/42/8f/8eac7b66edeec39347dc1ccd1389e7f3ae09c1ac09a70e41179b45b6b992/currentscape-1.0.8.tar.gz
+[2023-07-03 13:36:39] INFO root fetch - processPackages [nucliadb]: Downloading https://files.pythonhosted.org/packages/7c/ff/0a879c94d307d6130c47fa95a8a217386c5cbb1838101d660244b068cd95/nucliadb-2.9.0.post266-py3-none-any.whl
+[2023-07-03 13:36:39] INFO root fetch - processPackages [bigdl-llm]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_llm-2.4.0b20230701-py3-none-win_amd64.whl.zip]
+[2023-07-03 13:36:39] INFO root fetch - processPackages [bigdl-llm]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_llm-2.4.0b20230702-py3-none-win_amd64.whl.zip]
+[2023-07-03 13:36:39] INFO root fetch - processPackages [bigdl-llm]: Start processing: pyatlan
+[2023-07-03 13:36:39] INFO root fetch - main [MainThread]: End processing [bigdl-llm]: success
+[2023-07-03 13:36:39] INFO root fetch - processPackages [currentscape]: Downloading https://files.pythonhosted.org/packages/81/1d/5874bda594bb373df4bef0c3cc8fe4eb06fea3cf00701e9c787f5cb4f496/currentscape-1.0.9.tar.gz
+[2023-07-03 13:36:39] INFO root fetch - processPackages [currentscape]: Downloading https://files.pythonhosted.org/packages/81/1d/5874bda594bb373df4bef0c3cc8fe4eb06fea3cf00701e9c787f5cb4f496/currentscape-1.0.9.tar.gz
+[2023-07-03 13:36:39] INFO root fetch - processPackages [nucliadb]: Downloading https://files.pythonhosted.org/packages/d0/e8/3c39cb6a2ed6ad97a3e0dec5110ec85934306f7a7d052b0cb4fe4762aa0f/nucliadb-2.9.0.post267-py3-none-any.whl
+[2023-07-03 13:36:40] INFO root fetch - processPackages [pyatlan]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-07-03 13:36:40] INFO root fetch - processPackages [currentscape]: executing diffoscope
+[2023-07-03 13:36:40] INFO root fetch - processPackages [currentscape]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/currentscape-1.0.8.tar.gz tmp/currentscape-1.0.9.tar.gz --markdown 20230703/c/currentscape/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-03 13:36:40] INFO root fetch - processPackages [currentscape]: executing diffoscope
+[2023-07-03 13:36:40] INFO root fetch - processPackages [currentscape]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/currentscape-1.0.8.tar.gz tmp/currentscape-1.0.9.tar.gz --markdown 20230703/c/currentscape/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-03 13:36:40] INFO root fetch - processPackages [nucliadb]: executing diffoscope
+[2023-07-03 13:36:40] INFO root fetch - processPackages [nucliadb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb-2.9.0.post267-py3-none-any.whl.zip --markdown 20230703/n/nucliadb/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-07-03 13:36:40] INFO root fetch - processPackages [pyatlan]: Downloading https://files.pythonhosted.org/packages/a4/72/b9b88ed7c3dd705cbb3f17327cbfbf340c68bd7f37cccfd66620784daabe/pyatlan-0.2.0.tar.gz
+[2023-07-03 13:36:40] INFO root fetch - processPackages [bigdl-chronos]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_chronos-2.4.0b20230701-py3-none-win_amd64.whl.zip]
+[2023-07-03 13:36:40] INFO root fetch - processPackages [bigdl-chronos]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_chronos-2.4.0b20230702-py3-none-win_amd64.whl.zip]
+[2023-07-03 13:36:40] INFO root fetch - processPackages [bigdl-chronos]: Start processing: nucliadb-client
+[2023-07-03 13:36:40] INFO root fetch - main [MainThread]: End processing [bigdl-chronos]: success
+[2023-07-03 13:36:40] INFO root fetch - processPackages [nucliadb-client]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-07-03 13:36:40] INFO root fetch - processPackages [bigdl-serving]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_serving-2.4.0b20230701-py2.py3-none-any.whl.zip]
+[2023-07-03 13:36:40] INFO root fetch - processPackages [bigdl-serving]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_serving-2.4.0b20230702-py2.py3-none-any.whl.zip]
+[2023-07-03 13:36:40] INFO root fetch - processPackages [bigdl-serving]: Start processing: nucliadb-dataset
+[2023-07-03 13:36:40] INFO root fetch - main [MainThread]: End processing [bigdl-serving]: success
+[2023-07-03 13:36:40] INFO root fetch - processPackages [nucliadb-client]: Downloading https://files.pythonhosted.org/packages/e9/f9/e883083a5a0915d9eef487a6fa094cee59f24bf25f983e64b02d3dd71a9f/nucliadb_client-2.9.0.post266-py3-none-any.whl
+[2023-07-03 13:36:40] INFO root fetch - processPackages [pyatlan]: Downloading https://files.pythonhosted.org/packages/8b/33/8cbe1b04c6dfa005a60487d3e8f17d647f82659e0fe513ff1b0529648d0f/pyatlan-0.3.0.tar.gz
+[2023-07-03 13:36:40] INFO root fetch - processPackages [nucliadb-dataset]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-07-03 13:36:40] INFO root fetch - processPackages [hotpot-zzy]: Remove: archive file [/home/abi/fetcher/tmp/hotpot-zzy-0.3.0.6.tar.gz]
+[2023-07-03 13:36:40] INFO root fetch - processPackages [hotpot-zzy]: Remove: archive file [/home/abi/fetcher/tmp/hotpot-zzy-0.3.0.7.tar.gz]
+[2023-07-03 13:36:40] INFO root fetch - processPackages [hotpot-zzy]: Start processing: nucliadb-models
+[2023-07-03 13:36:40] INFO root fetch - main [MainThread]: End processing [hotpot-zzy]: success
+[2023-07-03 13:36:40] INFO root fetch - processPackages [nucliadb-dataset]: Downloading https://files.pythonhosted.org/packages/56/4b/fc2d9cfebab3c585f1cb9965c827bf2aca2a655f2fec6b1fffcac6eef1c1/nucliadb_dataset-2.9.0.post266-py3-none-any.whl
+[2023-07-03 13:36:41] INFO root fetch - processPackages [nucliadb-models]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-07-03 13:36:41] INFO root fetch - processPackages [nucliadb-client]: Downloading https://files.pythonhosted.org/packages/24/40/81827f509054d15496de510289a599e8f6d34f706b2371d86d048fbc0db0/nucliadb_client-2.9.0.post267-py3-none-any.whl
+[2023-07-03 13:36:41] INFO root fetch - processPackages [pyatlan]: executing diffoscope
+[2023-07-03 13:36:41] INFO root fetch - processPackages [pyatlan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyatlan-0.2.0.tar.gz tmp/pyatlan-0.3.0.tar.gz --markdown 20230703/p/pyatlan/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-07-03 13:36:41] INFO root fetch - processPackages [bigdl-nano]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_nano-2.4.0b20230701-py3-none-win_amd64.whl.zip]
+[2023-07-03 13:36:41] INFO root fetch - processPackages [bigdl-nano]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_nano-2.4.0b20230702-py3-none-win_amd64.whl.zip]
+[2023-07-03 13:36:41] INFO root fetch - processPackages [bigdl-nano]: Start processing: nucliadb-protos
+[2023-07-03 13:36:41] INFO root fetch - main [MainThread]: End processing [bigdl-nano]: success
+[2023-07-03 13:36:41] INFO root fetch - processPackages [nucliadb-models]: Downloading https://files.pythonhosted.org/packages/3b/2d/e4d68391765b0e9f57ca1023e2aec3cf60968a9418e00f24c1554bb0041e/nucliadb_models-2.9.0.post266-py3-none-any.whl
+[2023-07-03 13:36:41] INFO root fetch - processPackages [nucliadb-client]: executing diffoscope
+[2023-07-03 13:36:41] INFO root fetch - processPackages [nucliadb-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_client-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_client-2.9.0.post267-py3-none-any.whl.zip --markdown 20230703/n/nucliadb-client/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-07-03 13:36:41] INFO root fetch - processPackages [nucliadb-protos]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-07-03 13:36:41] INFO root fetch - processPackages [nucliadb-dataset]: Downloading https://files.pythonhosted.org/packages/80/9f/9ffeb0e3d1b4da8f1178595f75fb1c1ffe183913036ae2a60f569c8c7dc7/nucliadb_dataset-2.9.0.post267-py3-none-any.whl
+[2023-07-03 13:36:41] INFO root fetch - processPackages [nucliadb-protos]: Downloading https://files.pythonhosted.org/packages/16/50/6ab2e4f9cca425d97ef0824c338fea58b8e3a0bfb590231f3196942875c0/nucliadb_protos-2.9.0.post266-py3-none-any.whl
+[2023-07-03 13:36:41] INFO root fetch - processPackages [nucliadb-models]: Downloading https://files.pythonhosted.org/packages/33/34/554de7935ae3aecd4129d1f85d83822f97fd284da917d6aced4c09802f1a/nucliadb_models-2.9.0.post267-py3-none-any.whl
+[2023-07-03 13:36:41] INFO root fetch - processPackages [nucliadb-dataset]: executing diffoscope
+[2023-07-03 13:36:41] INFO root fetch - processPackages [nucliadb-dataset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_dataset-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_dataset-2.9.0.post267-py3-none-any.whl.zip --markdown 20230703/n/nucliadb-dataset/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-07-03 13:36:41] INFO root fetch - processPackages [nucliadb-models]: executing diffoscope
+[2023-07-03 13:36:41] INFO root fetch - processPackages [nucliadb-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_models-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_models-2.9.0.post267-py3-none-any.whl.zip --markdown 20230703/n/nucliadb-models/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-07-03 13:36:41] INFO root fetch - processPackages [nucliadb-protos]: Downloading https://files.pythonhosted.org/packages/21/bd/4fffaf241f826293c98c1317bdaff65a5d202f9ec94d08322b2fd017f3b0/nucliadb_protos-2.9.0.post267-py3-none-any.whl
+[2023-07-03 13:36:41] INFO root fetch - processPackages [nucliadb-protos]: executing diffoscope
+[2023-07-03 13:36:41] INFO root fetch - processPackages [nucliadb-protos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_protos-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_protos-2.9.0.post267-py3-none-any.whl.zip --markdown 20230703/n/nucliadb-protos/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-07-03 13:36:42] INFO root fetch - processPackages [currentscape]: Remove: archive file [/home/abi/fetcher/tmp/currentscape-1.0.8.tar.gz]
+[2023-07-03 13:36:42] INFO root fetch - processPackages [currentscape]: Remove: archive file [/home/abi/fetcher/tmp/currentscape-1.0.9.tar.gz]
+[2023-07-03 13:36:42] INFO root fetch - processPackages [currentscape]: Remove: archive file [/home/abi/fetcher/tmp/currentscape-1.0.9.tar.gz]
+[2023-07-03 13:36:42] WARNING root fetch - processPackages [currentscape]: Unable to remove archive file: [[Errno 2] No such file or directory: '/home/abi/fetcher/tmp/currentscape-1.0.9.tar.gz']
+[2023-07-03 13:36:42] INFO root fetch - processPackages [currentscape]: Start processing: nucliadb-sdk
+[2023-07-03 13:36:42] INFO root fetch - processPackages [currentscape]: Start processing: nucliadb-utils
+[2023-07-03 13:36:42] INFO root fetch - main [MainThread]: End processing [currentscape]: success
+[2023-07-03 13:36:42] INFO root fetch - main [MainThread]: End processing [currentscape]: success
+[2023-07-03 13:36:42] INFO root fetch - processPackages [nucliadb-sdk]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-07-03 13:36:42] INFO root fetch - processPackages [nucliadb-utils]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-07-03 13:36:42] INFO root fetch - processPackages [nucliadb-utils]: Downloading https://files.pythonhosted.org/packages/9c/a6/d6dd21ed1948bdcc0b560698e72d117f3fdad522e2ac0894dd980e184631/nucliadb_utils-2.9.0.post266-py3-none-any.whl
+[2023-07-03 13:36:42] INFO root fetch - processPackages [nucliadb-sdk]: Downloading https://files.pythonhosted.org/packages/a1/64/be41afa3acf3d90a5d9575ac0e1c151ff6e91fb473f9724dac60fea85414/nucliadb_sdk-2.9.0.post266-py3-none-any.whl
+[2023-07-03 13:36:42] INFO root fetch - processPackages [nucliadb-client]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_client-2.9.0.post266-py3-none-any.whl.zip]
+[2023-07-03 13:36:42] INFO root fetch - processPackages [nucliadb-client]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_client-2.9.0.post267-py3-none-any.whl.zip]
+[2023-07-03 13:36:42] INFO root fetch - processPackages [nucliadb-client]: Start processing: gazouilloire
+[2023-07-03 13:36:42] INFO root fetch - main [MainThread]: End processing [nucliadb-client]: success
+[2023-07-03 13:36:42] INFO root fetch - processPackages [nucliadb-utils]: Downloading https://files.pythonhosted.org/packages/a2/ce/8ce8a66a2ef214d8ae9f81cb70eb5d8d5396c8bd94794cf92d145fdccd31/nucliadb_utils-2.9.0.post267-py3-none-any.whl
+[2023-07-03 13:36:42] INFO root fetch - processPackages [nucliadb-sdk]: Downloading https://files.pythonhosted.org/packages/35/7b/660db604a69a01811bfa1b2ce906d520705e186b4f8a91c3972cb4446303/nucliadb_sdk-2.9.0.post267-py3-none-any.whl
+[2023-07-03 13:36:42] INFO root fetch - processPackages [nucliadb-utils]: executing diffoscope
+[2023-07-03 13:36:42] INFO root fetch - processPackages [nucliadb-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_utils-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_utils-2.9.0.post267-py3-none-any.whl.zip --markdown 20230703/n/nucliadb-utils/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-07-03 13:36:42] INFO root fetch - processPackages [gazouilloire]: New version: [1.5.0] Old Version: [1.4.0]
+[2023-07-03 13:36:43] INFO root fetch - processPackages [nucliadb-sdk]: executing diffoscope
+[2023-07-03 13:36:43] INFO root fetch - processPackages [nucliadb-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_sdk-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_sdk-2.9.0.post267-py3-none-any.whl.zip --markdown 20230703/n/nucliadb-sdk/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-07-03 13:36:43] INFO root fetch - processPackages [nucliadb-dataset]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_dataset-2.9.0.post266-py3-none-any.whl.zip]
+[2023-07-03 13:36:43] INFO root fetch - processPackages [nucliadb-dataset]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_dataset-2.9.0.post267-py3-none-any.whl.zip]
+[2023-07-03 13:36:43] INFO root fetch - main [MainThread]: End processing [nucliadb-dataset]: success
+[2023-07-03 13:36:43] INFO root fetch - processPackages [nucliadb-models]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_models-2.9.0.post266-py3-none-any.whl.zip]
+[2023-07-03 13:36:43] INFO root fetch - processPackages [nucliadb-models]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_models-2.9.0.post267-py3-none-any.whl.zip]
+[2023-07-03 13:36:43] INFO root fetch - main [MainThread]: End processing [nucliadb-models]: success
+[2023-07-03 13:36:43] INFO root fetch - processPackages [gazouilloire]: Downloading https://files.pythonhosted.org/packages/e3/42/11c071726901020d7aa10752fd6db703bc3862ab52d468988c1dc1c8177e/gazouilloire-1.4.0.tar.gz
+[2023-07-03 13:36:43] INFO root fetch - processPackages [pyatlan]: Remove: archive file [/home/abi/fetcher/tmp/pyatlan-0.2.0.tar.gz]
+[2023-07-03 13:36:43] INFO root fetch - processPackages [pyatlan]: Remove: archive file [/home/abi/fetcher/tmp/pyatlan-0.3.0.tar.gz]
+[2023-07-03 13:36:43] INFO root fetch - main [MainThread]: End processing [pyatlan]: success
+[2023-07-03 13:36:43] INFO root fetch - processPackages [nucliadb-protos]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_protos-2.9.0.post266-py3-none-any.whl.zip]
+[2023-07-03 13:36:43] INFO root fetch - processPackages [nucliadb-protos]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_protos-2.9.0.post267-py3-none-any.whl.zip]
+[2023-07-03 13:36:43] INFO root fetch - main [MainThread]: End processing [nucliadb-protos]: success
+[2023-07-03 13:36:43] INFO root fetch - processPackages [gazouilloire]: Downloading https://files.pythonhosted.org/packages/86/57/84b4bc7f902d462206e78fd1882ed1c542b48e19abe637a3af7f2b16ff32/gazouilloire-1.5.0.tar.gz
+[2023-07-03 13:36:43] INFO root fetch - processPackages [nucliadb]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb-2.9.0.post266-py3-none-any.whl.zip]
+[2023-07-03 13:36:43] INFO root fetch - processPackages [nucliadb]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb-2.9.0.post267-py3-none-any.whl.zip]
+[2023-07-03 13:36:43] INFO root fetch - main [MainThread]: End processing [nucliadb]: success
+[2023-07-03 13:36:43] INFO root fetch - processPackages [gazouilloire]: executing diffoscope
+[2023-07-03 13:36:43] INFO root fetch - processPackages [gazouilloire]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gazouilloire-1.4.0.tar.gz tmp/gazouilloire-1.5.0.tar.gz --markdown 20230703/g/gazouilloire/1.4.0-1.5.0/diff.md --exclude *.pyd
+[2023-07-03 13:36:44] INFO root fetch - processPackages [nucliadb-sdk]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_sdk-2.9.0.post266-py3-none-any.whl.zip]
+[2023-07-03 13:36:44] INFO root fetch - processPackages [nucliadb-sdk]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_sdk-2.9.0.post267-py3-none-any.whl.zip]
+[2023-07-03 13:36:44] INFO root fetch - main [MainThread]: End processing [nucliadb-sdk]: success
+[2023-07-03 13:36:44] INFO root fetch - processPackages [nucliadb-utils]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_utils-2.9.0.post266-py3-none-any.whl.zip]
+[2023-07-03 13:36:44] INFO root fetch - processPackages [nucliadb-utils]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_utils-2.9.0.post267-py3-none-any.whl.zip]
+[2023-07-03 13:36:44] INFO root fetch - main [MainThread]: End processing [nucliadb-utils]: success
+[2023-07-03 13:36:44] INFO root fetch - processPackages [c2cciutils]: Remove: archive file [/home/abi/fetcher/tmp/c2cciutils-1.6.0.dev98.tar.gz]
+[2023-07-03 13:36:44] INFO root fetch - processPackages [c2cciutils]: Remove: archive file [/home/abi/fetcher/tmp/c2cciutils-1.6.0.dev99.tar.gz]
+[2023-07-03 13:36:44] INFO root fetch - main [MainThread]: End processing [c2cciutils]: success
+[2023-07-03 13:36:44] INFO root fetch - processPackages [gazouilloire]: Remove: archive file [/home/abi/fetcher/tmp/gazouilloire-1.4.0.tar.gz]
+[2023-07-03 13:36:44] INFO root fetch - processPackages [gazouilloire]: Remove: archive file [/home/abi/fetcher/tmp/gazouilloire-1.5.0.tar.gz]
+[2023-07-03 13:36:44] INFO root fetch - main [MainThread]: End processing [gazouilloire]: success
+[2023-07-03 13:36:59] INFO root fetch - processPackages [image-label]: Remove: archive file [/home/abi/fetcher/tmp/image_label-2.4.2.tar.gz]
+[2023-07-03 13:36:59] INFO root fetch - processPackages [image-label]: Remove: archive file [/home/abi/fetcher/tmp/image_label-2.4.3.tar.gz]
+[2023-07-03 13:36:59] INFO root fetch - main [MainThread]: End processing [image-label]: success
+[2023-07-03 13:36:59] INFO root fetch - main [MainThread]: Store serial: [18738371]
