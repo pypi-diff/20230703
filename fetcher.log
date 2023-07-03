@@ -15195,3 +15195,188 @@ AssertionError: tmp/discord-ansi-0.3.tar.gz does not exist
 [2023-07-03 13:08:30] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-private-bucket-0.0.99.tar.gz]
 [2023-07-03 13:08:30] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-private-bucket]: success
 [2023-07-03 13:08:30] INFO root fetch - main [MainThread]: Store serial: [18738012]
+[2023-07-03 13:13:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18738012]
+[2023-07-03 13:13:39] INFO root fetch - main [MainThread]: Found 24 changed packages
+[2023-07-03 13:13:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyNIKI
+[2023-07-03 13:13:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: vessl
+[2023-07-03 13:13:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ailola
+[2023-07-03 13:13:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: configcat-client
+[2023-07-03 13:13:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: one-api-tool
+[2023-07-03 13:13:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: vineyard-kedro
+[2023-07-03 13:13:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: djangocms-xliff
+[2023-07-03 13:13:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dataplicity
+[2023-07-03 13:13:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pyperf2
+[2023-07-03 13:13:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: lhp
+[2023-07-03 13:13:40] INFO root fetch - processPackages [pyperf2]: New version: [0.4.3] Old Version: [0.4.2]
+[2023-07-03 13:13:40] INFO root fetch - processPackages [one-api-tool]: New version: [0.4.0] Old Version: [0.3.9]
+[2023-07-03 13:13:40] INFO root fetch - processPackages [dataplicity]: New version: [0.5.9a5] Old Version: [0.5.9a4]
+[2023-07-03 13:13:40] WARNING root fetch - processPackages [pyNIKI]: Skipping, unable to determine old version
+[2023-07-03 13:13:40] INFO root fetch - processPackages [pyNIKI]: Start processing: oa3-responses-validator
+[2023-07-03 13:13:40] INFO root fetch - main [MainThread]: End processing [pyNIKI] error
+[2023-07-03 13:13:40] INFO root fetch - processPackages [ailola]: New version: [0.9.0] Old Version: [0.8.2]
+[2023-07-03 13:13:40] INFO root fetch - processPackages [lhp]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-03 13:13:40] INFO root fetch - processPackages [configcat-client]: New version: [8.0.0] Old Version: [7.0.1]
+[2023-07-03 13:13:40] INFO root fetch - processPackages [djangocms-xliff]: New version: [1.3.5] Old Version: [1.3.4]
+[2023-07-03 13:13:40] INFO root fetch - processPackages [pyperf2]: Downloading https://files.pythonhosted.org/packages/47/11/9f7884b08202a6c9bee0258f303d6bc85c0cc8660f5ee0bd5fa9240d4d00/pyperf2-0.4.2-py3-none-any.whl
+[2023-07-03 13:13:40] WARNING root fetch - processPackages [vineyard-kedro]: Skipping, unable to determine old version
+[2023-07-03 13:13:40] INFO root fetch - processPackages [vineyard-kedro]: Start processing: cj-test-pypi
+[2023-07-03 13:13:40] INFO root fetch - main [MainThread]: End processing [vineyard-kedro] error
+[2023-07-03 13:13:40] INFO root fetch - processPackages [one-api-tool]: Downloading https://files.pythonhosted.org/packages/df/e3/538498a55b67f973f1094231955d79341475512b30254fc8f6216c4c45f3/one-api-tool-0.3.9.tar.gz
+[2023-07-03 13:13:40] INFO root fetch - processPackages [vessl]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-07-03 13:13:40] INFO root fetch - processPackages [dataplicity]: Downloading https://files.pythonhosted.org/packages/ef/55/51d0f967e475001f99b73eb9ff910341b5f4e3c0a8b008f0651338bde6ae/dataplicity-0.5.9a4.tar.gz
+[2023-07-03 13:13:40] WARNING root fetch - processPackages [cj-test-pypi]: Skipping, unable to determine old version
+[2023-07-03 13:13:40] INFO root fetch - processPackages [cj-test-pypi]: Start processing: lakeapi2sql
+[2023-07-03 13:13:40] INFO root fetch - main [MainThread]: End processing [cj-test-pypi] error
+[2023-07-03 13:13:40] WARNING root fetch - processPackages [oa3-responses-validator]: Skipping, unable to determine old version
+[2023-07-03 13:13:40] INFO root fetch - processPackages [oa3-responses-validator]: Start processing: cefeste
+[2023-07-03 13:13:40] INFO root fetch - main [MainThread]: End processing [oa3-responses-validator] error
+[2023-07-03 13:13:40] INFO root fetch - processPackages [configcat-client]: Downloading https://files.pythonhosted.org/packages/e8/0e/f0d332416c28cb4f092a1b5de6ec50d3cdd037e3444ec3b66d67213078fe/configcat-client-7.0.1.tar.gz
+[2023-07-03 13:13:40] INFO root fetch - processPackages [lakeapi2sql]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-07-03 13:13:40] INFO root fetch - processPackages [ailola]: Downloading https://files.pythonhosted.org/packages/90/30/0473d1db9f5404cd6b45875717fcfd7c2e67e5dc9555545dc71a7655a864/ailola-0.8.2.tar.gz
+[2023-07-03 13:13:40] INFO root fetch - processPackages [djangocms-xliff]: Downloading https://files.pythonhosted.org/packages/f4/4c/9e8ac89687eaf6e3c0032d94a32397a846512327979ada99df2e53f53f9b/djangocms_xliff-1.3.4.tar.gz
+[2023-07-03 13:13:40] INFO root fetch - processPackages [lhp]: Downloading https://files.pythonhosted.org/packages/ac/04/db64b4ea28ad70db875ca4b816ee71e8f25186a91641323454f3535620e2/lhp-0.0.3.tar.gz
+[2023-07-03 13:13:40] INFO root fetch - processPackages [cefeste]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-07-03 13:13:40] INFO root fetch - processPackages [vessl]: Downloading https://files.pythonhosted.org/packages/38/7d/1b2b94a1083188f3376a0af9cb2701abb4c084a8e0608a25f97e191ab3e7/vessl-0.1.98.tar.gz
+[2023-07-03 13:13:40] INFO root fetch - processPackages [pyperf2]: Downloading https://files.pythonhosted.org/packages/16/26/a4c03c8d6d92f9b7d08e87543e90cdc7df5c7a98c666f6f9f81e1fe8c367/pyperf2-0.4.3-py3-none-any.whl
+[2023-07-03 13:13:40] INFO root fetch - processPackages [lakeapi2sql]: Downloading https://files.pythonhosted.org/packages/75/70/b681e45906f8ca1320c34d940cbb9aebf0154137e41d5fd772b968195b85/lakeapi2sql-0.1.0.tar.gz
+[2023-07-03 13:13:40] INFO root fetch - processPackages [dataplicity]: Downloading https://files.pythonhosted.org/packages/90/33/51cf718679e72aa0262c29bc64715d7498269d5de2a09e211efe30644d63/dataplicity-0.5.9a5.tar.gz
+[2023-07-03 13:13:40] INFO root fetch - processPackages [one-api-tool]: Downloading https://files.pythonhosted.org/packages/56/4d/4e0b8d6feb826039ef61af04e58b990f8e7acdfabec72305c3a192bcc5e7/one-api-tool-0.4.0.tar.gz
+[2023-07-03 13:13:40] INFO root fetch - processPackages [pyperf2]: executing diffoscope
+[2023-07-03 13:13:40] INFO root fetch - processPackages [pyperf2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyperf2-0.4.2-py3-none-any.whl.zip tmp/pyperf2-0.4.3-py3-none-any.whl.zip --markdown 20230703/p/pyperf2/0.4.2-0.4.3/diff.md --exclude *.pyd
+[2023-07-03 13:13:40] INFO root fetch - processPackages [cefeste]: Downloading https://files.pythonhosted.org/packages/1a/ef/88301679a3cd44621a7b0b6d414e340e38c8a29b94c81dd950dc1032ca4d/cefeste-1.1.8.tar.gz
+[2023-07-03 13:13:40] INFO root fetch - processPackages [configcat-client]: Downloading https://files.pythonhosted.org/packages/63/fb/b9ea60d754163f6a67c44b67addeb3ba31404a08cb1886be20e1882d0177/configcat-client-8.0.0.tar.gz
+[2023-07-03 13:13:40] INFO root fetch - processPackages [dataplicity]: executing diffoscope
+[2023-07-03 13:13:40] INFO root fetch - processPackages [dataplicity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataplicity-0.5.9a4.tar.gz tmp/dataplicity-0.5.9a5.tar.gz --markdown 20230703/d/dataplicity/0.5.9a4-0.5.9a5/diff.md --exclude *.pyd
+[2023-07-03 13:13:41] INFO root fetch - processPackages [ailola]: Downloading https://files.pythonhosted.org/packages/d0/62/e89f05e01116106134013f3b19af615dfcc49e59262402f99320c8cd17e6/ailola-0.9.0.tar.gz
+[2023-07-03 13:13:41] INFO root fetch - processPackages [one-api-tool]: executing diffoscope
+[2023-07-03 13:13:41] INFO root fetch - processPackages [one-api-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/one-api-tool-0.3.9.tar.gz tmp/one-api-tool-0.4.0.tar.gz --markdown 20230703/o/one-api-tool/0.3.9-0.4.0/diff.md --exclude *.pyd
+[2023-07-03 13:13:41] INFO root fetch - processPackages [djangocms-xliff]: Downloading https://files.pythonhosted.org/packages/13/c4/3abbc131a3652563d171476422c9cea613e719c073eac5b5eef13e0590d2/djangocms_xliff-1.3.5.tar.gz
+[2023-07-03 13:13:41] INFO root fetch - processPackages [lhp]: Downloading https://files.pythonhosted.org/packages/ca/1c/37f99a132f962f92c016c76811ea0418cbd57fa18440443e7b8e5b21acc2/lhp-0.0.4.tar.gz
+[2023-07-03 13:13:41] INFO root fetch - processPackages [lakeapi2sql]: Downloading https://files.pythonhosted.org/packages/ce/48/f23e87edb7ba8fb7096422bb6e918a69d3ab00a4d10e67a36034a27d42a0/lakeapi2sql-0.2.0.tar.gz
+[2023-07-03 13:13:41] INFO root fetch - processPackages [configcat-client]: executing diffoscope
+[2023-07-03 13:13:41] INFO root fetch - processPackages [configcat-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/configcat-client-7.0.1.tar.gz tmp/configcat-client-8.0.0.tar.gz --markdown 20230703/c/configcat-client/7.0.1-8.0.0/diff.md --exclude *.pyd
+[2023-07-03 13:13:41] INFO root fetch - processPackages [ailola]: executing diffoscope
+[2023-07-03 13:13:41] INFO root fetch - processPackages [ailola]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ailola-0.8.2.tar.gz tmp/ailola-0.9.0.tar.gz --markdown 20230703/a/ailola/0.8.2-0.9.0/diff.md --exclude *.pyd
+[2023-07-03 13:13:41] INFO root fetch - processPackages [vessl]: Downloading https://files.pythonhosted.org/packages/21/b8/cbd9a61ba9f582b647d4ef42d4b54900e40293bc599bde0a7f1fe73974bc/vessl-0.1.99.tar.gz
+[2023-07-03 13:13:41] INFO root fetch - processPackages [djangocms-xliff]: executing diffoscope
+[2023-07-03 13:13:41] INFO root fetch - processPackages [djangocms-xliff]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djangocms_xliff-1.3.4.tar.gz tmp/djangocms_xliff-1.3.5.tar.gz --markdown 20230703/d/djangocms-xliff/1.3.4-1.3.5/diff.md --exclude *.pyd
+[2023-07-03 13:13:41] INFO root fetch - processPackages [lhp]: executing diffoscope
+[2023-07-03 13:13:41] INFO root fetch - processPackages [lhp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lhp-0.0.3.tar.gz tmp/lhp-0.0.4.tar.gz --markdown 20230703/l/lhp/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-03 13:13:41] INFO root fetch - processPackages [lakeapi2sql]: executing diffoscope
+[2023-07-03 13:13:41] INFO root fetch - processPackages [lakeapi2sql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lakeapi2sql-0.1.0.tar.gz tmp/lakeapi2sql-0.2.0.tar.gz --markdown 20230703/l/lakeapi2sql/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-07-03 13:13:41] INFO root fetch - processPackages [vessl]: executing diffoscope
+[2023-07-03 13:13:41] INFO root fetch - processPackages [vessl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vessl-0.1.98.tar.gz tmp/vessl-0.1.99.tar.gz --markdown 20230703/v/vessl/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-07-03 13:13:41] INFO root fetch - processPackages [cefeste]: Downloading https://files.pythonhosted.org/packages/e1/3a/6b5f22999234e088b243c5f44471b108d0ba8c7859fed4911f55d1dcbe42/cefeste-1.1.9.tar.gz
+[2023-07-03 13:13:41] INFO root fetch - processPackages [cefeste]: executing diffoscope
+[2023-07-03 13:13:41] INFO root fetch - processPackages [cefeste]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cefeste-1.1.8.tar.gz tmp/cefeste-1.1.9.tar.gz --markdown 20230703/c/cefeste/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-07-03 13:13:42] INFO root fetch - processPackages [pyperf2]: Remove: archive file [/home/abi/fetcher/tmp/pyperf2-0.4.2-py3-none-any.whl.zip]
+[2023-07-03 13:13:42] INFO root fetch - processPackages [pyperf2]: Remove: archive file [/home/abi/fetcher/tmp/pyperf2-0.4.3-py3-none-any.whl.zip]
+[2023-07-03 13:13:42] INFO root fetch - processPackages [pyperf2]: Start processing: turkey-eq
+[2023-07-03 13:13:42] INFO root fetch - main [MainThread]: End processing [pyperf2]: success
+[2023-07-03 13:13:42] WARNING root fetch - processPackages [turkey-eq]: Skipping, unable to determine old version
+[2023-07-03 13:13:42] INFO root fetch - processPackages [turkey-eq]: Start processing: cla
+[2023-07-03 13:13:42] INFO root fetch - main [MainThread]: End processing [turkey-eq] error
+[2023-07-03 13:13:42] INFO root fetch - processPackages [one-api-tool]: Remove: archive file [/home/abi/fetcher/tmp/one-api-tool-0.3.9.tar.gz]
+[2023-07-03 13:13:42] INFO root fetch - processPackages [one-api-tool]: Remove: archive file [/home/abi/fetcher/tmp/one-api-tool-0.4.0.tar.gz]
+[2023-07-03 13:13:42] INFO root fetch - processPackages [one-api-tool]: Start processing: testpoetry2
+[2023-07-03 13:13:42] INFO root fetch - main [MainThread]: End processing [one-api-tool]: success
+[2023-07-03 13:13:42] INFO root fetch - processPackages [testpoetry2]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-07-03 13:13:42] INFO root fetch - processPackages [cla]: New version: [1.3.0] Old Version: [1.2.0]
+[2023-07-03 13:13:43] INFO root fetch - processPackages [testpoetry2]: Downloading https://files.pythonhosted.org/packages/79/1c/4389558f72c0e053c7c3bbbf7c3344eeb4592c387675cd3bafad5c0fbf1a/testpoetry2-0.1.6.tar.gz
+[2023-07-03 13:13:43] INFO root fetch - processPackages [ailola]: Remove: archive file [/home/abi/fetcher/tmp/ailola-0.8.2.tar.gz]
+[2023-07-03 13:13:43] INFO root fetch - processPackages [ailola]: Remove: archive file [/home/abi/fetcher/tmp/ailola-0.9.0.tar.gz]
+[2023-07-03 13:13:43] INFO root fetch - processPackages [ailola]: Start processing: cdktf
+[2023-07-03 13:13:43] INFO root fetch - main [MainThread]: End processing [ailola]: success
+[2023-07-03 13:13:43] INFO root fetch - processPackages [lhp]: Remove: archive file [/home/abi/fetcher/tmp/lhp-0.0.3.tar.gz]
+[2023-07-03 13:13:43] INFO root fetch - processPackages [lhp]: Remove: archive file [/home/abi/fetcher/tmp/lhp-0.0.4.tar.gz]
+[2023-07-03 13:13:43] INFO root fetch - processPackages [lhp]: Start processing: docleaf
+[2023-07-03 13:13:43] INFO root fetch - main [MainThread]: End processing [lhp]: success
+[2023-07-03 13:13:43] INFO root fetch - processPackages [dataplicity]: Remove: archive file [/home/abi/fetcher/tmp/dataplicity-0.5.9a4.tar.gz]
+[2023-07-03 13:13:43] INFO root fetch - processPackages [dataplicity]: Remove: archive file [/home/abi/fetcher/tmp/dataplicity-0.5.9a5.tar.gz]
+[2023-07-03 13:13:43] INFO root fetch - processPackages [dataplicity]: Start processing: datascrub
+[2023-07-03 13:13:43] INFO root fetch - main [MainThread]: End processing [dataplicity]: success
+[2023-07-03 13:13:43] INFO root fetch - processPackages [cla]: Downloading https://files.pythonhosted.org/packages/19/e8/4968d9a99117bfe84e7cc341e8b7c264a4fd820d94fb691dde4de40e9c59/cla-1.2.0.tar.gz
+[2023-07-03 13:13:43] INFO root fetch - processPackages [cdktf]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-07-03 13:13:43] INFO root fetch - processPackages [datascrub]: New version: [1.1.4] Old Version: [1.1.3]
+[2023-07-03 13:13:43] INFO root fetch - processPackages [djangocms-xliff]: Remove: archive file [/home/abi/fetcher/tmp/djangocms_xliff-1.3.4.tar.gz]
+[2023-07-03 13:13:43] INFO root fetch - processPackages [djangocms-xliff]: Remove: archive file [/home/abi/fetcher/tmp/djangocms_xliff-1.3.5.tar.gz]
+[2023-07-03 13:13:43] INFO root fetch - processPackages [djangocms-xliff]: Start processing: aiida-vasp
+[2023-07-03 13:13:43] INFO root fetch - main [MainThread]: End processing [djangocms-xliff]: success
+[2023-07-03 13:13:43] INFO root fetch - processPackages [docleaf]: New version: [0.8.1] Old Version: [0.8.0]
+[2023-07-03 13:13:43] INFO root fetch - processPackages [configcat-client]: Remove: archive file [/home/abi/fetcher/tmp/configcat-client-7.0.1.tar.gz]
+[2023-07-03 13:13:43] INFO root fetch - processPackages [configcat-client]: Remove: archive file [/home/abi/fetcher/tmp/configcat-client-8.0.0.tar.gz]
+[2023-07-03 13:13:43] INFO root fetch - processPackages [configcat-client]: Start processing: Cryptem
+[2023-07-03 13:13:43] INFO root fetch - main [MainThread]: End processing [configcat-client]: success
+[2023-07-03 13:13:43] INFO root fetch - processPackages [testpoetry2]: Downloading https://files.pythonhosted.org/packages/34/c3/2990a6cf7023182dbf9eb66b7d3792bf96ae83b87e85de8fb7ea9e2c2fc0/testpoetry2-0.1.7.tar.gz
+[2023-07-03 13:13:43] INFO root fetch - processPackages [aiida-vasp]: New version: [3.0.0] Old Version: [2.2.0]
+[2023-07-03 13:13:43] INFO root fetch - processPackages [datascrub]: Downloading https://files.pythonhosted.org/packages/61/bc/de96ad6607ec1c40ce4c6461930383e50f6c20ef1673f836586aaf1b2fc1/datascrub-1.1.3.tar.gz
+[2023-07-03 13:13:43] INFO root fetch - processPackages [cefeste]: Remove: archive file [/home/abi/fetcher/tmp/cefeste-1.1.8.tar.gz]
+[2023-07-03 13:13:43] INFO root fetch - processPackages [cefeste]: Remove: archive file [/home/abi/fetcher/tmp/cefeste-1.1.9.tar.gz]
+[2023-07-03 13:13:43] INFO root fetch - processPackages [cefeste]: Start processing: one-api-tool
+[2023-07-03 13:13:43] INFO root fetch - main [MainThread]: End processing [cefeste]: success
+[2023-07-03 13:13:43] INFO root fetch - processPackages [aiida-vasp]: Downloading https://files.pythonhosted.org/packages/e3/30/01d26b94a8df19ab372ba3d21ca8ac8aee0c69562439c6d5d315d5db375d/aiida-vasp-2.2.0.tar.gz
+[2023-07-03 13:13:43] INFO root fetch - processPackages [testpoetry2]: executing diffoscope
+[2023-07-03 13:13:43] INFO root fetch - processPackages [testpoetry2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testpoetry2-0.1.6.tar.gz tmp/testpoetry2-0.1.7.tar.gz --markdown 20230703/t/testpoetry2/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-07-03 13:13:43] INFO root fetch - processPackages [lakeapi2sql]: Remove: archive file [/home/abi/fetcher/tmp/lakeapi2sql-0.1.0.tar.gz]
+[2023-07-03 13:13:43] INFO root fetch - processPackages [lakeapi2sql]: Remove: archive file [/home/abi/fetcher/tmp/lakeapi2sql-0.2.0.tar.gz]
+[2023-07-03 13:13:43] INFO root fetch - processPackages [lakeapi2sql]: Start processing: pepperize.cdk-private-bucket
+[2023-07-03 13:13:43] INFO root fetch - main [MainThread]: End processing [lakeapi2sql]: success
+[2023-07-03 13:13:43] INFO root fetch - processPackages [Cryptem]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-03 13:13:43] INFO root fetch - processPackages [cdktf]: Downloading https://files.pythonhosted.org/packages/87/b3/c146d54086d890741cc9d05c63504e1386b268ef8cbc52d9aa78c1080aa3/cdktf-0.9.3.tar.gz
+[2023-07-03 13:13:43] WARNING root fetch - processPackages [aiida-vasp]: Skipping package: exceeds size limit 11725384>=10485760
+[2023-07-03 13:13:43] INFO root fetch - main [MainThread]: End processing [aiida-vasp] error
+[2023-07-03 13:13:43] INFO root fetch - processPackages [one-api-tool]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-07-03 13:13:43] INFO root fetch - processPackages [docleaf]: Downloading https://files.pythonhosted.org/packages/77/f4/fd82d6ade80c856d1a30f1fc723cfa61efaf4c6d8c5f7c56d1838eb89145/docleaf-0.8.0-cp39-none-win_amd64.whl
+[2023-07-03 13:13:43] INFO root fetch - processPackages [cla]: Downloading https://files.pythonhosted.org/packages/d9/21/10a326badd17d5fcd7ef9422c69a09ef7275deb39c693e404a0f16c42f53/cla-1.3.0.tar.gz
+[2023-07-03 13:13:43] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-03 13:13:43] INFO root fetch - processPackages [datascrub]: Downloading https://files.pythonhosted.org/packages/d2/67/15ebf60342db0e1149433aa0b79826e0cb36608a7ec3b016b0ab3455f0d9/datascrub-1.1.4.tar.gz
+[2023-07-03 13:13:43] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: Downloading https://files.pythonhosted.org/packages/e7/b6/4073de848e06d760b3ef30686b0684410fc4bb899faf50e7ef4a0b2fac85/pepperize.cdk-private-bucket-0.0.98.tar.gz
+[2023-07-03 13:13:43] INFO root fetch - processPackages [Cryptem]: Downloading https://files.pythonhosted.org/packages/46/de/808c683cdc589e7abaf48d27976837612725a1766d8f14efb83c61cfbe57/Cryptem-0.1.0.tar.gz
+[2023-07-03 13:13:43] INFO root fetch - processPackages [cla]: executing diffoscope
+[2023-07-03 13:13:43] INFO root fetch - processPackages [cla]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cla-1.2.0.tar.gz tmp/cla-1.3.0.tar.gz --markdown 20230703/c/cla/1.2.0-1.3.0/diff.md --exclude *.pyd
+[2023-07-03 13:13:43] INFO root fetch - processPackages [one-api-tool]: Downloading https://files.pythonhosted.org/packages/31/c7/1f6d1f383000f326973295c44836d4a7e87d40b62f95232e8eb5b73d32ae/one-api-tool-0.4.1.tar.gz
+[2023-07-03 13:13:43] INFO root fetch - processPackages [datascrub]: executing diffoscope
+[2023-07-03 13:13:43] INFO root fetch - processPackages [datascrub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datascrub-1.1.3.tar.gz tmp/datascrub-1.1.4.tar.gz --markdown 20230703/d/datascrub/1.1.3-1.1.4/diff.md --exclude *.pyd
+[2023-07-03 13:13:44] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: Downloading https://files.pythonhosted.org/packages/e3/22/68d054109f3033e215b3e2bb124cce096ee16c91911cef45f98e5a69d1ca/pepperize.cdk-private-bucket-0.0.99.tar.gz
+[2023-07-03 13:13:44] INFO root fetch - processPackages [cdktf]: Downloading https://files.pythonhosted.org/packages/80/8d/cbc9ef418f046a8c17f614889aba72b6e668540a2966498bef6f1dbb3a10/cdktf-0.9.4.tar.gz
+[2023-07-03 13:13:44] INFO root fetch - processPackages [docleaf]: Downloading https://files.pythonhosted.org/packages/28/a2/c7341a543f53664e422e226224d7dc2239227f81160c79a79131e5cffb92/docleaf-0.8.1-cp39-none-win_amd64.whl
+[2023-07-03 13:13:44] INFO root fetch - processPackages [Cryptem]: Downloading https://files.pythonhosted.org/packages/a8/ea/919b912d6ef055ac6e9075342ff98af73ad310a7f79ddad83fc9f9ed64fb/Cryptem-0.1.1.tar.gz
+[2023-07-03 13:13:44] INFO root fetch - processPackages [one-api-tool]: Downloading https://files.pythonhosted.org/packages/d7/5a/306e6dc6c09f52bf79d75eda212557982fc91319b88ad1320fe4b40733ca/one-api-tool-0.4.2.tar.gz
+[2023-07-03 13:13:44] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: executing diffoscope
+[2023-07-03 13:13:44] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-private-bucket-0.0.98.tar.gz tmp/pepperize.cdk-private-bucket-0.0.99.tar.gz --markdown 20230703/p/pepperize.cdk-private-bucket/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-03 13:13:44] INFO root fetch - processPackages [cdktf]: executing diffoscope
+[2023-07-03 13:13:44] INFO root fetch - processPackages [cdktf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-0.9.3.tar.gz tmp/cdktf-0.9.4.tar.gz --markdown 20230703/c/cdktf/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-07-03 13:13:44] INFO root fetch - processPackages [Cryptem]: executing diffoscope
+[2023-07-03 13:13:44] INFO root fetch - processPackages [Cryptem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Cryptem-0.1.0.tar.gz tmp/Cryptem-0.1.1.tar.gz --markdown 20230703/C/Cryptem/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-03 13:13:44] INFO root fetch - processPackages [testpoetry2]: Remove: archive file [/home/abi/fetcher/tmp/testpoetry2-0.1.6.tar.gz]
+[2023-07-03 13:13:44] INFO root fetch - processPackages [testpoetry2]: Remove: archive file [/home/abi/fetcher/tmp/testpoetry2-0.1.7.tar.gz]
+[2023-07-03 13:13:44] INFO root fetch - main [MainThread]: End processing [testpoetry2]: success
+[2023-07-03 13:13:44] INFO root fetch - processPackages [one-api-tool]: executing diffoscope
+[2023-07-03 13:13:44] INFO root fetch - processPackages [one-api-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/one-api-tool-0.4.1.tar.gz tmp/one-api-tool-0.4.2.tar.gz --markdown 20230703/o/one-api-tool/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-07-03 13:13:44] INFO root fetch - processPackages [docleaf]: executing diffoscope
+[2023-07-03 13:13:44] INFO root fetch - processPackages [docleaf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docleaf-0.8.0-cp39-none-win_amd64.whl.zip tmp/docleaf-0.8.1-cp39-none-win_amd64.whl.zip --markdown 20230703/d/docleaf/0.8.0-0.8.1/diff.md --exclude *.pyd
+[2023-07-03 13:13:45] INFO root fetch - processPackages [cla]: Remove: archive file [/home/abi/fetcher/tmp/cla-1.2.0.tar.gz]
+[2023-07-03 13:13:45] INFO root fetch - processPackages [cla]: Remove: archive file [/home/abi/fetcher/tmp/cla-1.3.0.tar.gz]
+[2023-07-03 13:13:45] INFO root fetch - main [MainThread]: End processing [cla]: success
+[2023-07-03 13:13:45] INFO root fetch - processPackages [datascrub]: Remove: archive file [/home/abi/fetcher/tmp/datascrub-1.1.3.tar.gz]
+[2023-07-03 13:13:45] INFO root fetch - processPackages [datascrub]: Remove: archive file [/home/abi/fetcher/tmp/datascrub-1.1.4.tar.gz]
+[2023-07-03 13:13:45] INFO root fetch - main [MainThread]: End processing [datascrub]: success
+[2023-07-03 13:13:45] INFO root fetch - processPackages [Cryptem]: Remove: archive file [/home/abi/fetcher/tmp/Cryptem-0.1.0.tar.gz]
+[2023-07-03 13:13:45] INFO root fetch - processPackages [Cryptem]: Remove: archive file [/home/abi/fetcher/tmp/Cryptem-0.1.1.tar.gz]
+[2023-07-03 13:13:45] INFO root fetch - main [MainThread]: End processing [Cryptem]: success
+[2023-07-03 13:13:45] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-private-bucket-0.0.98.tar.gz]
+[2023-07-03 13:13:45] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-private-bucket-0.0.99.tar.gz]
+[2023-07-03 13:13:45] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-private-bucket]: success
+[2023-07-03 13:13:45] INFO root fetch - processPackages [docleaf]: Remove: archive file [/home/abi/fetcher/tmp/docleaf-0.8.0-cp39-none-win_amd64.whl.zip]
+[2023-07-03 13:13:45] INFO root fetch - processPackages [docleaf]: Remove: archive file [/home/abi/fetcher/tmp/docleaf-0.8.1-cp39-none-win_amd64.whl.zip]
+[2023-07-03 13:13:45] INFO root fetch - main [MainThread]: End processing [docleaf]: success
+[2023-07-03 13:13:45] INFO root fetch - processPackages [cdktf]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-0.9.3.tar.gz]
+[2023-07-03 13:13:45] INFO root fetch - processPackages [cdktf]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-0.9.4.tar.gz]
+[2023-07-03 13:13:45] INFO root fetch - main [MainThread]: End processing [cdktf]: success
+[2023-07-03 13:13:45] INFO root fetch - processPackages [one-api-tool]: Remove: archive file [/home/abi/fetcher/tmp/one-api-tool-0.4.1.tar.gz]
+[2023-07-03 13:13:45] INFO root fetch - processPackages [one-api-tool]: Remove: archive file [/home/abi/fetcher/tmp/one-api-tool-0.4.2.tar.gz]
+[2023-07-03 13:13:45] INFO root fetch - main [MainThread]: End processing [one-api-tool]: success
+[2023-07-03 13:13:47] INFO root fetch - processPackages [vessl]: Remove: archive file [/home/abi/fetcher/tmp/vessl-0.1.98.tar.gz]
+[2023-07-03 13:13:47] INFO root fetch - processPackages [vessl]: Remove: archive file [/home/abi/fetcher/tmp/vessl-0.1.99.tar.gz]
+[2023-07-03 13:13:47] INFO root fetch - main [MainThread]: End processing [vessl]: success
+[2023-07-03 13:13:47] INFO root fetch - main [MainThread]: Store serial: [18738125]
