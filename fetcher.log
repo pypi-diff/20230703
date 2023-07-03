@@ -20193,3 +20193,134 @@ EOFError: EOF read where object expected
 [2023-07-03 15:48:21] INFO root fetch - processPackages [cbra]: Remove: archive file [/home/abi/fetcher/tmp/cbra-3.0.0a7.tar.gz]
 [2023-07-03 15:48:21] INFO root fetch - main [MainThread]: End processing [cbra]: success
 [2023-07-03 15:48:21] INFO root fetch - main [MainThread]: Store serial: [18740063]
+[2023-07-03 15:53:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18740063]
+[2023-07-03 15:53:31] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-07-03 15:53:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: textual
+[2023-07-03 15:53:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: n-profile-sdk
+[2023-07-03 15:53:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: px-django-lingua
+[2023-07-03 15:53:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: langchain-serve
+[2023-07-03 15:53:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: deeppipe-api
+[2023-07-03 15:53:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: phanos
+[2023-07-03 15:53:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: BMCTool
+[2023-07-03 15:53:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: n-profile-sdk
+[2023-07-03 15:53:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: akerbp.mlops
+[2023-07-03 15:53:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: hyundai-kia-connect-api
+[2023-07-03 15:53:31] INFO root fetch - processPackages [BMCTool]: New version: [0.6.1] Old Version: [0.6.0]
+[2023-07-03 15:53:31] INFO root fetch - processPackages [phanos]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-03 15:53:31] INFO root fetch - processPackages [n-profile-sdk]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-07-03 15:53:31] INFO root fetch - processPackages [deeppipe-api]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-07-03 15:53:31] INFO root fetch - processPackages [px-django-lingua]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-07-03 15:53:31] INFO root fetch - processPackages [n-profile-sdk]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-07-03 15:53:31] INFO root fetch - processPackages [langchain-serve]: New version: [0.0.9.dev9] Old Version: [0.0.9.dev22]
+[2023-07-03 15:53:31] INFO root fetch - processPackages [hyundai-kia-connect-api]: New version: [3.3.9] Old Version: [3.3.8]
+[2023-07-03 15:53:31] INFO root fetch - processPackages [textual]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-07-03 15:53:31] INFO root fetch - processPackages [akerbp.mlops]: New version: [3.2.1a6] Old Version: [3.2.1a5]
+[2023-07-03 15:53:31] INFO root fetch - processPackages [langchain-serve]: Downloading https://files.pythonhosted.org/packages/b7/44/08a32d4d65d7aed7bf8a2e8d59c7c72ac5c5538be8c3e735a588d5ccf69b/langchain-serve-0.0.9.dev22.tar.gz
+[2023-07-03 15:53:31] INFO root fetch - processPackages [phanos]: Downloading https://files.pythonhosted.org/packages/4b/f5/909646af549681228ac5386ba876146c741cd63cf80a65f006c015a8c4ff/phanos-0.0.2.tar.gz
+[2023-07-03 15:53:31] INFO root fetch - processPackages [hyundai-kia-connect-api]: Downloading https://files.pythonhosted.org/packages/70/21/a8c2ac5c19dd320be981fd15b16e27cbc4fef8f293a25ce0ac9e37cdbd4b/hyundai_kia_connect_api-3.3.8.tar.gz
+[2023-07-03 15:53:31] INFO root fetch - processPackages [BMCTool]: Downloading https://files.pythonhosted.org/packages/7a/75/3db1348bc3e64466f87a744a122b4716a54d1468966692118dc319da2a82/BMCTool-0.6.0.tar.gz
+[2023-07-03 15:53:31] INFO root fetch - processPackages [akerbp.mlops]: Downloading https://files.pythonhosted.org/packages/32/11/0f27ed413328261eca787bc8c27798e427f75296b88a2c0c56fa309a6d11/akerbp.mlops-3.2.1a5.tar.gz
+[2023-07-03 15:53:31] INFO root fetch - processPackages [n-profile-sdk]: Downloading https://files.pythonhosted.org/packages/c6/bf/05515cd849a3b1ddcca4ea3d25e8e372f79d5856e4f1d67cdcac5a66476a/n-profile-sdk-1.0.3.tar.gz
+[2023-07-03 15:53:31] INFO root fetch - processPackages [n-profile-sdk]: Downloading https://files.pythonhosted.org/packages/c6/bf/05515cd849a3b1ddcca4ea3d25e8e372f79d5856e4f1d67cdcac5a66476a/n-profile-sdk-1.0.3.tar.gz
+[2023-07-03 15:53:32] INFO root fetch - processPackages [px-django-lingua]: Downloading https://files.pythonhosted.org/packages/8c/75/88ee05f8fd3a5b7dcca7dbfafdbf767556284e0efd10dca21b6b8c35aec5/px-django-lingua-0.1.7.tar.gz
+[2023-07-03 15:53:32] INFO root fetch - processPackages [deeppipe-api]: Downloading https://files.pythonhosted.org/packages/16/75/06b42c21ea57f3d1968215e2b2a58414b8d92f9789f03233fa68a52ec305/deeppipe_api-0.1.3.tar.gz
+[2023-07-03 15:53:32] INFO root fetch - processPackages [textual]: Downloading https://files.pythonhosted.org/packages/17/d2/002affba91d339187f5699c26fecc3fa3bf966f17c5d08bb696c724b63ee/textual-0.9.0.tar.gz
+[2023-07-03 15:53:32] INFO root fetch - processPackages [phanos]: Downloading https://files.pythonhosted.org/packages/95/c3/4535f1de6814d3099d7d588f3ee288daf49958d884bf577ca3ae1deefd23/phanos-0.0.3.tar.gz
+[2023-07-03 15:53:32] INFO root fetch - processPackages [hyundai-kia-connect-api]: Downloading https://files.pythonhosted.org/packages/e8/ac/9ae5ca1f766df94c7e80c5824a4ad6c188c11f161d9700669afe15dd4728/hyundai_kia_connect_api-3.3.9.tar.gz
+[2023-07-03 15:53:32] WARNING root fetch - processPackages [deeppipe-api]: Skipping package: exceeds size limit 49278874>=10485760
+[2023-07-03 15:53:32] INFO root fetch - processPackages [deeppipe-api]: Start processing: pylyzer
+[2023-07-03 15:53:32] INFO root fetch - main [MainThread]: End processing [deeppipe-api] error
+[2023-07-03 15:53:32] INFO root fetch - processPackages [akerbp.mlops]: Downloading https://files.pythonhosted.org/packages/cc/f1/72c2b3e43452761c72ea8a3b95efe8c5a57bae2149c1a24ce92794896a88/akerbp.mlops-3.2.1a6.tar.gz
+[2023-07-03 15:53:32] INFO root fetch - processPackages [n-profile-sdk]: Downloading https://files.pythonhosted.org/packages/ac/26/9e5ec5aa8a51878997947dd596d33b63a94134f3532c6e976ac3cb274231/n-profile-sdk-1.0.4.tar.gz
+[2023-07-03 15:53:32] INFO root fetch - processPackages [n-profile-sdk]: Downloading https://files.pythonhosted.org/packages/ac/26/9e5ec5aa8a51878997947dd596d33b63a94134f3532c6e976ac3cb274231/n-profile-sdk-1.0.4.tar.gz
+[2023-07-03 15:53:32] INFO root fetch - processPackages [phanos]: executing diffoscope
+[2023-07-03 15:53:32] INFO root fetch - processPackages [phanos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phanos-0.0.2.tar.gz tmp/phanos-0.0.3.tar.gz --markdown 20230703/p/phanos/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-03 15:53:32] INFO root fetch - processPackages [BMCTool]: Downloading https://files.pythonhosted.org/packages/fd/25/f24b8fa73c6a12ff40ba0e7c0c631f9bf518092b0bf9e3065304a54c1994/BMCTool-0.6.1.tar.gz
+[2023-07-03 15:53:32] INFO root fetch - processPackages [hyundai-kia-connect-api]: executing diffoscope
+[2023-07-03 15:53:32] INFO root fetch - processPackages [hyundai-kia-connect-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyundai_kia_connect_api-3.3.8.tar.gz tmp/hyundai_kia_connect_api-3.3.9.tar.gz --markdown 20230703/h/hyundai-kia-connect-api/3.3.8-3.3.9/diff.md --exclude *.pyd
+[2023-07-03 15:53:32] INFO root fetch - processPackages [pylyzer]: New version: [0.1.0b0] Old Version: [0.0.9]
+[2023-07-03 15:53:32] INFO root fetch - processPackages [px-django-lingua]: Downloading https://files.pythonhosted.org/packages/2a/fe/da8fcd69bc933e2c5711da121304d16e78afc2588f0793d652a520069948/px-django-lingua-0.1.8.tar.gz
+[2023-07-03 15:53:32] INFO root fetch - processPackages [textual]: Downloading https://files.pythonhosted.org/packages/0e/7d/2155bf024c3bdf1dc6365e109a16bab46098e032e62666565176ebc9f84a/textual-0.9.1.tar.gz
+[2023-07-03 15:53:32] INFO root fetch - processPackages [akerbp.mlops]: executing diffoscope
+[2023-07-03 15:53:32] INFO root fetch - processPackages [akerbp.mlops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/akerbp.mlops-3.2.1a5.tar.gz tmp/akerbp.mlops-3.2.1a6.tar.gz --markdown 20230703/a/akerbp.mlops/3.2.1a5-3.2.1a6/diff.md --exclude *.pyd
+[2023-07-03 15:53:32] INFO root fetch - processPackages [BMCTool]: executing diffoscope
+[2023-07-03 15:53:32] INFO root fetch - processPackages [BMCTool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BMCTool-0.6.0.tar.gz tmp/BMCTool-0.6.1.tar.gz --markdown 20230703/B/BMCTool/0.6.0-0.6.1/diff.md --exclude *.pyd
+[2023-07-03 15:53:32] INFO root fetch - processPackages [n-profile-sdk]: executing diffoscope
+[2023-07-03 15:53:32] INFO root fetch - processPackages [n-profile-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/n-profile-sdk-1.0.3.tar.gz tmp/n-profile-sdk-1.0.4.tar.gz --markdown 20230703/n/n-profile-sdk/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-07-03 15:53:32] INFO root fetch - processPackages [n-profile-sdk]: executing diffoscope
+[2023-07-03 15:53:32] INFO root fetch - processPackages [n-profile-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/n-profile-sdk-1.0.3.tar.gz tmp/n-profile-sdk-1.0.4.tar.gz --markdown 20230703/n/n-profile-sdk/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-07-03 15:53:32] INFO root fetch - processPackages [langchain-serve]: Downloading https://files.pythonhosted.org/packages/51/a3/7492d3c89e7181c3fb783593129a3de459021071c2e7075f0050494b2de4/langchain-serve-0.0.9.dev9.tar.gz
+[2023-07-03 15:53:32] INFO root fetch - processPackages [pylyzer]: Downloading https://files.pythonhosted.org/packages/cc/0a/4a378f3aa880a5556006b21d0369dc5df4f54e0c90ea175006814eac5d27/pylyzer-0.0.9-py3-none-win_amd64.whl
+[2023-07-03 15:53:32] INFO root fetch - processPackages [textual]: executing diffoscope
+[2023-07-03 15:53:32] INFO root fetch - processPackages [textual]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/textual-0.9.0.tar.gz tmp/textual-0.9.1.tar.gz --markdown 20230703/t/textual/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-07-03 15:53:32] INFO root fetch - processPackages [px-django-lingua]: executing diffoscope
+[2023-07-03 15:53:32] INFO root fetch - processPackages [px-django-lingua]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/px-django-lingua-0.1.7.tar.gz tmp/px-django-lingua-0.1.8.tar.gz --markdown 20230703/p/px-django-lingua/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-07-03 15:53:33] INFO root fetch - processPackages [pylyzer]: Downloading https://files.pythonhosted.org/packages/4f/d0/21c0aba8f19b6a9dbd76297b9868884a362a07955eb9f714e654d0a2c7a3/pylyzer-0.1.0b0.tar.gz
+[2023-07-03 15:53:33] INFO root fetch - processPackages [pylyzer]: executing diffoscope
+[2023-07-03 15:53:33] INFO root fetch - processPackages [pylyzer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pylyzer-0.0.9-py3-none-win_amd64.whl.zip tmp/pylyzer-0.1.0b0.tar.gz --markdown 20230703/p/pylyzer/0.0.9-0.1.0b0/diff.md --exclude *.pyd
+[2023-07-03 15:53:33] INFO root fetch - processPackages [langchain-serve]: executing diffoscope
+[2023-07-03 15:53:33] INFO root fetch - processPackages [langchain-serve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain-serve-0.0.9.dev22.tar.gz tmp/langchain-serve-0.0.9.dev9.tar.gz --markdown 20230703/l/langchain-serve/0.0.9.dev22-0.0.9.dev9/diff.md --exclude *.pyd
+[2023-07-03 15:53:33] INFO root fetch - processPackages [phanos]: Remove: archive file [/home/abi/fetcher/tmp/phanos-0.0.2.tar.gz]
+[2023-07-03 15:53:33] INFO root fetch - processPackages [phanos]: Remove: archive file [/home/abi/fetcher/tmp/phanos-0.0.3.tar.gz]
+[2023-07-03 15:53:33] INFO root fetch - processPackages [phanos]: Start processing: bilibili-up
+[2023-07-03 15:53:33] INFO root fetch - main [MainThread]: End processing [phanos]: success
+[2023-07-03 15:53:34] INFO root fetch - processPackages [hyundai-kia-connect-api]: Remove: archive file [/home/abi/fetcher/tmp/hyundai_kia_connect_api-3.3.8.tar.gz]
+[2023-07-03 15:53:34] INFO root fetch - processPackages [hyundai-kia-connect-api]: Remove: archive file [/home/abi/fetcher/tmp/hyundai_kia_connect_api-3.3.9.tar.gz]
+[2023-07-03 15:53:34] INFO root fetch - processPackages [hyundai-kia-connect-api]: Start processing: nlsam
+[2023-07-03 15:53:34] INFO root fetch - main [MainThread]: End processing [hyundai-kia-connect-api]: success
+[2023-07-03 15:53:34] WARNING root fetch - processPackages [bilibili-up]: Skipping, unable to determine old version
+[2023-07-03 15:53:34] INFO root fetch - processPackages [bilibili-up]: Start processing: pertCF
+[2023-07-03 15:53:34] INFO root fetch - main [MainThread]: End processing [bilibili-up] error
+[2023-07-03 15:53:34] INFO root fetch - processPackages [pertCF]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-03 15:53:34] INFO root fetch - processPackages [nlsam]: New version: [0.7.1] Old Version: [0.7]
+[2023-07-03 15:53:34] INFO root fetch - processPackages [pertCF]: Downloading https://files.pythonhosted.org/packages/74/c7/7923cbc31e917ab09d47ce125ee02bc8ff6987ac34c9b2aed7f4e7486dc1/pertCF-0.1.2.tar.gz
+[2023-07-03 15:53:34] INFO root fetch - processPackages [px-django-lingua]: Remove: archive file [/home/abi/fetcher/tmp/px-django-lingua-0.1.7.tar.gz]
+[2023-07-03 15:53:34] INFO root fetch - processPackages [px-django-lingua]: Remove: archive file [/home/abi/fetcher/tmp/px-django-lingua-0.1.8.tar.gz]
+[2023-07-03 15:53:34] INFO root fetch - processPackages [px-django-lingua]: Start processing: deci-platform-client
+[2023-07-03 15:53:34] INFO root fetch - main [MainThread]: End processing [px-django-lingua]: success
+[2023-07-03 15:53:34] INFO root fetch - processPackages [akerbp.mlops]: Remove: archive file [/home/abi/fetcher/tmp/akerbp.mlops-3.2.1a5.tar.gz]
+[2023-07-03 15:53:34] INFO root fetch - processPackages [akerbp.mlops]: Remove: archive file [/home/abi/fetcher/tmp/akerbp.mlops-3.2.1a6.tar.gz]
+[2023-07-03 15:53:34] INFO root fetch - processPackages [akerbp.mlops]: Start processing: TDhelper
+[2023-07-03 15:53:34] INFO root fetch - main [MainThread]: End processing [akerbp.mlops]: success
+[2023-07-03 15:53:34] INFO root fetch - processPackages [BMCTool]: Remove: archive file [/home/abi/fetcher/tmp/BMCTool-0.6.0.tar.gz]
+[2023-07-03 15:53:34] INFO root fetch - processPackages [BMCTool]: Remove: archive file [/home/abi/fetcher/tmp/BMCTool-0.6.1.tar.gz]
+[2023-07-03 15:53:34] INFO root fetch - main [MainThread]: End processing [BMCTool]: success
+[2023-07-03 15:53:34] INFO root fetch - processPackages [nlsam]: Downloading https://files.pythonhosted.org/packages/78/be/fcbf778d27d15ca126f38f86776f7540c9ad92269eeeb7fb78af2dc0d17b/nlsam-0.7.tar.gz
+[2023-07-03 15:53:34] INFO root fetch - processPackages [TDhelper]: New version: [2.6.9] Old Version: [2.6.8]
+[2023-07-03 15:53:34] INFO root fetch - processPackages [pertCF]: Downloading https://files.pythonhosted.org/packages/29/a0/79fea9d3bdc79ddba10606e6ab52c9f9cc26cd1c48c125ccd554e312ecc9/pertCF-0.1.3.tar.gz
+[2023-07-03 15:53:34] INFO root fetch - processPackages [deci-platform-client]: New version: [5.7.0] Old Version: [5.6.0]
+[2023-07-03 15:53:34] INFO root fetch - processPackages [TDhelper]: Downloading https://files.pythonhosted.org/packages/a1/94/f77c60e37ae0bcd3286ef92509b0b1c3c91f9c6c0407a63813a5c135a4e8/TDhelper-2.6.8.tar.gz
+[2023-07-03 15:53:34] INFO root fetch - processPackages [pertCF]: executing diffoscope
+[2023-07-03 15:53:34] INFO root fetch - processPackages [pertCF]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pertCF-0.1.2.tar.gz tmp/pertCF-0.1.3.tar.gz --markdown 20230703/p/pertCF/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-03 15:53:34] INFO root fetch - processPackages [deci-platform-client]: Downloading https://files.pythonhosted.org/packages/a7/d9/837803f212e2c3594bc9436c33cd8de4fdf6880eb7690dc3f6debeca8f86/deci_platform_client-5.6.0-py3-none-any.whl
+[2023-07-03 15:53:34] INFO root fetch - processPackages [TDhelper]: Downloading https://files.pythonhosted.org/packages/c0/dd/c2cfcce8e92522a4ae5d3f36d6ee27598351b1765ef6cb27529d6b15c021/TDhelper-2.6.9.tar.gz
+[2023-07-03 15:53:34] INFO root fetch - processPackages [n-profile-sdk]: Remove: archive file [/home/abi/fetcher/tmp/n-profile-sdk-1.0.3.tar.gz]
+[2023-07-03 15:53:34] INFO root fetch - processPackages [n-profile-sdk]: Remove: archive file [/home/abi/fetcher/tmp/n-profile-sdk-1.0.4.tar.gz]
+[2023-07-03 15:53:34] INFO root fetch - main [MainThread]: End processing [n-profile-sdk]: success
+[2023-07-03 15:53:35] WARNING root fetch - processPackages [nlsam]: Skipping package: exceeds size limit 42090454>=10485760
+[2023-07-03 15:53:35] INFO root fetch - main [MainThread]: End processing [nlsam] error
+[2023-07-03 15:53:35] INFO root fetch - processPackages [TDhelper]: executing diffoscope
+[2023-07-03 15:53:35] INFO root fetch - processPackages [TDhelper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TDhelper-2.6.8.tar.gz tmp/TDhelper-2.6.9.tar.gz --markdown 20230703/T/TDhelper/2.6.8-2.6.9/diff.md --exclude *.pyd
+[2023-07-03 15:53:35] INFO root fetch - main [MainThread]: End processing [n-profile-sdk]: success
+[2023-07-03 15:53:35] INFO root fetch - processPackages [textual]: Remove: archive file [/home/abi/fetcher/tmp/textual-0.9.0.tar.gz]
+[2023-07-03 15:53:35] INFO root fetch - processPackages [textual]: Remove: archive file [/home/abi/fetcher/tmp/textual-0.9.1.tar.gz]
+[2023-07-03 15:53:35] INFO root fetch - main [MainThread]: End processing [textual]: success
+[2023-07-03 15:53:35] INFO root fetch - processPackages [deci-platform-client]: Downloading https://files.pythonhosted.org/packages/2e/cd/b186c43e47d58daaed1104a6420c9a3f34e18b28ec915d3aa8531ce27096/deci_platform_client-5.7.0-py3-none-any.whl
+[2023-07-03 15:53:35] INFO root fetch - processPackages [langchain-serve]: Remove: archive file [/home/abi/fetcher/tmp/langchain-serve-0.0.9.dev22.tar.gz]
+[2023-07-03 15:53:35] INFO root fetch - processPackages [langchain-serve]: Remove: archive file [/home/abi/fetcher/tmp/langchain-serve-0.0.9.dev9.tar.gz]
+[2023-07-03 15:53:35] INFO root fetch - main [MainThread]: End processing [langchain-serve]: success
+[2023-07-03 15:53:35] INFO root fetch - processPackages [deci-platform-client]: executing diffoscope
+[2023-07-03 15:53:35] INFO root fetch - processPackages [deci-platform-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deci_platform_client-5.6.0-py3-none-any.whl.zip tmp/deci_platform_client-5.7.0-py3-none-any.whl.zip --markdown 20230703/d/deci-platform-client/5.6.0-5.7.0/diff.md --exclude *.pyd
+[2023-07-03 15:53:35] INFO root fetch - processPackages [pertCF]: Remove: archive file [/home/abi/fetcher/tmp/pertCF-0.1.2.tar.gz]
+[2023-07-03 15:53:35] INFO root fetch - processPackages [pertCF]: Remove: archive file [/home/abi/fetcher/tmp/pertCF-0.1.3.tar.gz]
+[2023-07-03 15:53:35] INFO root fetch - main [MainThread]: End processing [pertCF]: success
+[2023-07-03 15:53:36] INFO root fetch - processPackages [TDhelper]: Remove: archive file [/home/abi/fetcher/tmp/TDhelper-2.6.8.tar.gz]
+[2023-07-03 15:53:36] INFO root fetch - processPackages [TDhelper]: Remove: archive file [/home/abi/fetcher/tmp/TDhelper-2.6.9.tar.gz]
+[2023-07-03 15:53:36] INFO root fetch - main [MainThread]: End processing [TDhelper]: success
+[2023-07-03 15:53:37] INFO root fetch - processPackages [pylyzer]: Remove: archive file [/home/abi/fetcher/tmp/pylyzer-0.0.9-py3-none-win_amd64.whl.zip]
+[2023-07-03 15:53:37] INFO root fetch - processPackages [pylyzer]: Remove: archive file [/home/abi/fetcher/tmp/pylyzer-0.1.0b0.tar.gz]
+[2023-07-03 15:53:37] INFO root fetch - main [MainThread]: End processing [pylyzer]: success
+[2023-07-03 15:53:38] INFO root fetch - processPackages [deci-platform-client]: Remove: archive file [/home/abi/fetcher/tmp/deci_platform_client-5.6.0-py3-none-any.whl.zip]
+[2023-07-03 15:53:38] INFO root fetch - processPackages [deci-platform-client]: Remove: archive file [/home/abi/fetcher/tmp/deci_platform_client-5.7.0-py3-none-any.whl.zip]
+[2023-07-03 15:53:38] INFO root fetch - main [MainThread]: End processing [deci-platform-client]: success
+[2023-07-03 15:53:38] INFO root fetch - main [MainThread]: Store serial: [18740125]
