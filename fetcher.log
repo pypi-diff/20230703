@@ -20969,3 +20969,179 @@ EOFError: EOF read where object expected
 [2023-07-03 16:15:12] INFO root fetch - processPackages [crypto-info]: Remove: archive file [/home/abi/fetcher/tmp/crypto-info-0.0.9.tar.gz]
 [2023-07-03 16:15:12] INFO root fetch - main [MainThread]: End processing [crypto-info]: success
 [2023-07-03 16:15:12] INFO root fetch - main [MainThread]: Store serial: [18740442]
+[2023-07-03 16:20:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18740442]
+[2023-07-03 16:20:21] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-07-03 16:20:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: yetl-framework
+[2023-07-03 16:20:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: opswork
+[2023-07-03 16:20:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cirq-iqm
+[2023-07-03 16:20:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: feedancy-client
+[2023-07-03 16:20:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aloso
+[2023-07-03 16:20:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: python-sapcommissions
+[2023-07-03 16:20:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pertCF
+[2023-07-03 16:20:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: armonik
+[2023-07-03 16:20:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: sloancone
+[2023-07-03 16:20:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: comet-mpm
+[2023-07-03 16:20:22] INFO root fetch - processPackages [aloso]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-03 16:20:22] INFO root fetch - processPackages [pertCF]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-07-03 16:20:22] INFO root fetch - processPackages [feedancy-client]: New version: [0.0.5] Old Version: [0.0.1]
+[2023-07-03 16:20:22] WARNING root fetch - processPackages [opswork]: Skipping, unable to determine old version
+[2023-07-03 16:20:22] INFO root fetch - processPackages [opswork]: Start processing: django-slick-reporting
+[2023-07-03 16:20:22] INFO root fetch - main [MainThread]: End processing [opswork] error
+[2023-07-03 16:20:22] INFO root fetch - processPackages [armonik]: New version: [3.9.3.dev624] Old Version: [3.9.3.dev620]
+[2023-07-03 16:20:22] INFO root fetch - processPackages [django-slick-reporting]: New version: [1.0.0] Old Version: [0.9.0]
+[2023-07-03 16:20:22] INFO root fetch - processPackages [sloancone]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-07-03 16:20:22] INFO root fetch - processPackages [aloso]: Downloading https://files.pythonhosted.org/packages/50/9d/0ff14b1bc5f2263235cdcf24ed3d3350aa202844d04965c4926ec9b0c09b/aloso-0.0.8-py3-none-any.whl
+[2023-07-03 16:20:22] INFO root fetch - processPackages [python-sapcommissions]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-03 16:20:22] INFO root fetch - processPackages [comet-mpm]: New version: [0.4.1] Old Version: [0.3.2b0]
+[2023-07-03 16:20:22] INFO root fetch - processPackages [cirq-iqm]: New version: [9.0] Old Version: [8.2]
+[2023-07-03 16:20:22] INFO root fetch - processPackages [yetl-framework]: New version: [1.6.5] Old Version: [1.6.4]
+[2023-07-03 16:20:22] INFO root fetch - processPackages [pertCF]: Downloading https://files.pythonhosted.org/packages/21/61/f65d33b8472a9f0d5eca3aba37d0a4c4acb76680fe2ef603d52432d388bb/pertCF-0.1.6.tar.gz
+[2023-07-03 16:20:22] INFO root fetch - processPackages [armonik]: Downloading https://files.pythonhosted.org/packages/47/53/5c87c7339779f2316a8f9f1ff4063aee133e481a62194c2b0b6e1028293a/armonik-3.9.3.dev620.tar.gz
+[2023-07-03 16:20:22] INFO root fetch - processPackages [django-slick-reporting]: Downloading https://files.pythonhosted.org/packages/b2/54/2fdf1a651567ab89c524eb2cb7c571725d1d3f17cada23dccbd5a255a803/django-slick-reporting-0.9.0.tar.gz
+[2023-07-03 16:20:22] INFO root fetch - processPackages [feedancy-client]: Downloading https://files.pythonhosted.org/packages/f8/1b/c8cd7cb2ca059bc84702599104f3853193895c6f1e52a0a51a0bd804df81/feedancy_client-0.0.1.tar.gz
+[2023-07-03 16:20:22] INFO root fetch - processPackages [comet-mpm]: Downloading https://files.pythonhosted.org/packages/e3/49/421f40a0983cffcbe29e914ca184d369b0f7b7b240d0f0910cde82da8f4d/comet_mpm-0.3.2b0.tar.gz
+[2023-07-03 16:20:22] INFO root fetch - processPackages [cirq-iqm]: Downloading https://files.pythonhosted.org/packages/c5/07/e11f5769922d666fcc6be4432d682434c208c53885cdf780e84578593a10/cirq-iqm-8.2.tar.gz
+[2023-07-03 16:20:22] INFO root fetch - processPackages [yetl-framework]: Downloading https://files.pythonhosted.org/packages/f5/bc/a09663996d7eafeed83a31fbf225368c597cd1332403e9fbad199f1b5246/yetl-framework-1.6.4.tar.gz
+[2023-07-03 16:20:22] INFO root fetch - processPackages [python-sapcommissions]: Downloading https://files.pythonhosted.org/packages/aa/3a/bf2b9402b8fb083d23e06ab93f6c056f9867ccaa306fea4e32c4fd024c56/python-sapcommissions-1.0.1.tar.gz
+[2023-07-03 16:20:22] INFO root fetch - processPackages [sloancone]: Downloading https://files.pythonhosted.org/packages/c5/28/cc9a2d3622043da5775cbad51f4047b7543aab49ae25e3e1fffb7fbfd065/sloancone-0.4.1.tar.gz
+[2023-07-03 16:20:22] INFO root fetch - processPackages [pertCF]: Downloading https://files.pythonhosted.org/packages/83/bf/632b713374302680c020215237b7e147e99160cf7fe371ed6367ed8fe23b/pertCF-0.1.7.tar.gz
+[2023-07-03 16:20:22] INFO root fetch - processPackages [aloso]: Downloading https://files.pythonhosted.org/packages/8d/c7/4327030a3a76e4d5eb22fc9af6b920dd9d50887fe3bd59e743a9e7b1ac9d/aloso-0.0.9-py3-none-any.whl
+[2023-07-03 16:20:22] INFO root fetch - processPackages [armonik]: Downloading https://files.pythonhosted.org/packages/54/8d/d7b83d2e37ccf8efdecb72187333248fffabc88a44f9f10052e712ab9950/armonik-3.9.3.dev624.tar.gz
+[2023-07-03 16:20:23] INFO root fetch - processPackages [django-slick-reporting]: Downloading https://files.pythonhosted.org/packages/f7/16/5db8c2df4db3b09494845c709523d5fb0b7b65a6c85214b479c19db747d5/django-slick-reporting-1.0.0.tar.gz
+[2023-07-03 16:20:23] INFO root fetch - processPackages [pertCF]: executing diffoscope
+[2023-07-03 16:20:23] INFO root fetch - processPackages [pertCF]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pertCF-0.1.6.tar.gz tmp/pertCF-0.1.7.tar.gz --markdown 20230703/p/pertCF/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-07-03 16:20:23] INFO root fetch - processPackages [aloso]: executing diffoscope
+[2023-07-03 16:20:23] INFO root fetch - processPackages [aloso]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aloso-0.0.8-py3-none-any.whl.zip tmp/aloso-0.0.9-py3-none-any.whl.zip --markdown 20230703/a/aloso/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-03 16:20:23] INFO root fetch - processPackages [armonik]: executing diffoscope
+[2023-07-03 16:20:23] INFO root fetch - processPackages [armonik]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/armonik-3.9.3.dev620.tar.gz tmp/armonik-3.9.3.dev624.tar.gz --markdown 20230703/a/armonik/3.9.3.dev620-3.9.3.dev624/diff.md --exclude *.pyd
+[2023-07-03 16:20:23] INFO root fetch - processPackages [feedancy-client]: Downloading https://files.pythonhosted.org/packages/ba/0d/d5a29ef02f1d414c41689dda82af4b012024a266ecfd84b227fad829d9be/feedancy_client-0.0.5.tar.gz
+[2023-07-03 16:20:23] INFO root fetch - processPackages [yetl-framework]: Downloading https://files.pythonhosted.org/packages/37/e0/978f5d9f2ec45c68f52ba14636168f22fb74b79a2d4f496ab04e341d1520/yetl-framework-1.6.5.tar.gz
+[2023-07-03 16:20:23] INFO root fetch - processPackages [django-slick-reporting]: executing diffoscope
+[2023-07-03 16:20:23] INFO root fetch - processPackages [django-slick-reporting]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-slick-reporting-0.9.0.tar.gz tmp/django-slick-reporting-1.0.0.tar.gz --markdown 20230703/d/django-slick-reporting/0.9.0-1.0.0/diff.md --exclude *.pyd
+[2023-07-03 16:20:23] INFO root fetch - processPackages [comet-mpm]: Downloading https://files.pythonhosted.org/packages/08/6e/22ed6a8516edef1fde3701109f87152938a8807608f5c11c07ba6fd0e685/comet_mpm-0.4.1.tar.gz
+[2023-07-03 16:20:23] INFO root fetch - processPackages [feedancy-client]: executing diffoscope
+[2023-07-03 16:20:23] INFO root fetch - processPackages [feedancy-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/feedancy_client-0.0.1.tar.gz tmp/feedancy_client-0.0.5.tar.gz --markdown 20230703/f/feedancy-client/0.0.1-0.0.5/diff.md --exclude *.pyd
+[2023-07-03 16:20:23] INFO root fetch - processPackages [yetl-framework]: executing diffoscope
+[2023-07-03 16:20:23] INFO root fetch - processPackages [yetl-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yetl-framework-1.6.4.tar.gz tmp/yetl-framework-1.6.5.tar.gz --markdown 20230703/y/yetl-framework/1.6.4-1.6.5/diff.md --exclude *.pyd
+[2023-07-03 16:20:23] INFO root fetch - processPackages [sloancone]: Downloading https://files.pythonhosted.org/packages/fe/1c/7652a4c3aae67efc64d6682d720e40045c77b3268cdbb48a34149467c31d/sloancone-0.4.2-py3-none-any.whl
+[2023-07-03 16:20:23] INFO root fetch - processPackages [python-sapcommissions]: Downloading https://files.pythonhosted.org/packages/59/20/c46d60d6b4d5840e2ed49c9b3892aa7d4bbbe8f8f8519cacac06700bccf7/python-sapcommissions-1.0.2.tar.gz
+[2023-07-03 16:20:23] INFO root fetch - processPackages [comet-mpm]: executing diffoscope
+[2023-07-03 16:20:23] INFO root fetch - processPackages [comet-mpm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/comet_mpm-0.3.2b0.tar.gz tmp/comet_mpm-0.4.1.tar.gz --markdown 20230703/c/comet-mpm/0.3.2b0-0.4.1/diff.md --exclude *.pyd
+[2023-07-03 16:20:23] INFO root fetch - processPackages [cirq-iqm]: Downloading https://files.pythonhosted.org/packages/42/ae/5cd7add9610b459bc1fabc8b26e110edbba64d7062ec795d9acd9637f35a/cirq-iqm-9.0.tar.gz
+[2023-07-03 16:20:23] INFO root fetch - processPackages [sloancone]: executing diffoscope
+[2023-07-03 16:20:23] INFO root fetch - processPackages [sloancone]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sloancone-0.4.1.tar.gz tmp/sloancone-0.4.2-py3-none-any.whl.zip --markdown 20230703/s/sloancone/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-07-03 16:20:23] INFO root fetch - processPackages [python-sapcommissions]: executing diffoscope
+[2023-07-03 16:20:23] INFO root fetch - processPackages [python-sapcommissions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-sapcommissions-1.0.1.tar.gz tmp/python-sapcommissions-1.0.2.tar.gz --markdown 20230703/p/python-sapcommissions/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-03 16:20:23] INFO root fetch - processPackages [cirq-iqm]: executing diffoscope
+[2023-07-03 16:20:23] INFO root fetch - processPackages [cirq-iqm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq-iqm-8.2.tar.gz tmp/cirq-iqm-9.0.tar.gz --markdown 20230703/c/cirq-iqm/8.2-9.0/diff.md --exclude *.pyd
+[2023-07-03 16:20:25] INFO root fetch - processPackages [pertCF]: Remove: archive file [/home/abi/fetcher/tmp/pertCF-0.1.6.tar.gz]
+[2023-07-03 16:20:25] INFO root fetch - processPackages [pertCF]: Remove: archive file [/home/abi/fetcher/tmp/pertCF-0.1.7.tar.gz]
+[2023-07-03 16:20:25] INFO root fetch - processPackages [pertCF]: Start processing: multimetric
+[2023-07-03 16:20:25] INFO root fetch - main [MainThread]: End processing [pertCF]: success
+[2023-07-03 16:20:25] INFO root fetch - processPackages [multimetric]: New version: [2.0.0] Old Version: [1.4.1]
+[2023-07-03 16:20:25] INFO root fetch - processPackages [multimetric]: Downloading https://files.pythonhosted.org/packages/94/4b/1816f1963b4797d56b808bf48982586d8a9a31aea77552405881cdb5102e/multimetric-1.4.1.tar.gz
+[2023-07-03 16:20:25] INFO root fetch - processPackages [aloso]: Remove: archive file [/home/abi/fetcher/tmp/aloso-0.0.8-py3-none-any.whl.zip]
+[2023-07-03 16:20:25] INFO root fetch - processPackages [aloso]: Remove: archive file [/home/abi/fetcher/tmp/aloso-0.0.9-py3-none-any.whl.zip]
+[2023-07-03 16:20:25] INFO root fetch - processPackages [aloso]: Start processing: dank-mids
+[2023-07-03 16:20:25] INFO root fetch - main [MainThread]: End processing [aloso]: success
+[2023-07-03 16:20:25] INFO root fetch - processPackages [dank-mids]: New version: [4.20.9] Old Version: [4.20.8]
+[2023-07-03 16:20:25] INFO root fetch - processPackages [dank-mids]: Downloading https://files.pythonhosted.org/packages/dd/d9/a90cdebb46db5a35fe035f493b14d48e210491b568f4927af7919ab2fdbd/dank_mids-4.20.8.tar.gz
+[2023-07-03 16:20:25] INFO root fetch - processPackages [multimetric]: Downloading https://files.pythonhosted.org/packages/36/90/bef6bba61739085f6beae548660d17cedce9d7120256c76920bcffece77c/multimetric-2.0.0.tar.gz
+[2023-07-03 16:20:25] INFO root fetch - processPackages [sloancone]: Remove: archive file [/home/abi/fetcher/tmp/sloancone-0.4.1.tar.gz]
+[2023-07-03 16:20:25] INFO root fetch - processPackages [sloancone]: Remove: archive file [/home/abi/fetcher/tmp/sloancone-0.4.2-py3-none-any.whl.zip]
+[2023-07-03 16:20:25] INFO root fetch - processPackages [sloancone]: Start processing: easier
+[2023-07-03 16:20:25] INFO root fetch - main [MainThread]: End processing [sloancone]: success
+[2023-07-03 16:20:25] INFO root fetch - processPackages [yetl-framework]: Remove: archive file [/home/abi/fetcher/tmp/yetl-framework-1.6.4.tar.gz]
+[2023-07-03 16:20:25] INFO root fetch - processPackages [yetl-framework]: Remove: archive file [/home/abi/fetcher/tmp/yetl-framework-1.6.5.tar.gz]
+[2023-07-03 16:20:25] INFO root fetch - processPackages [yetl-framework]: Start processing: e-qsl
+[2023-07-03 16:20:25] INFO root fetch - main [MainThread]: End processing [yetl-framework]: success
+[2023-07-03 16:20:25] INFO root fetch - processPackages [e-qsl]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-03 16:20:25] INFO root fetch - processPackages [comet-mpm]: Remove: archive file [/home/abi/fetcher/tmp/comet_mpm-0.3.2b0.tar.gz]
+[2023-07-03 16:20:25] INFO root fetch - processPackages [comet-mpm]: Remove: archive file [/home/abi/fetcher/tmp/comet_mpm-0.4.1.tar.gz]
+[2023-07-03 16:20:25] INFO root fetch - processPackages [comet-mpm]: Start processing: genetic-algo
+[2023-07-03 16:20:25] INFO root fetch - main [MainThread]: End processing [comet-mpm]: success
+[2023-07-03 16:20:25] INFO root fetch - processPackages [multimetric]: executing diffoscope
+[2023-07-03 16:20:25] INFO root fetch - processPackages [multimetric]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multimetric-1.4.1.tar.gz tmp/multimetric-2.0.0.tar.gz --markdown 20230703/m/multimetric/1.4.1-2.0.0/diff.md --exclude *.pyd
+[2023-07-03 16:20:25] INFO root fetch - processPackages [easier]: New version: [1.3.4] Old Version: [1.3.3]
+[2023-07-03 16:20:25] INFO root fetch - processPackages [django-slick-reporting]: Remove: archive file [/home/abi/fetcher/tmp/django-slick-reporting-0.9.0.tar.gz]
+[2023-07-03 16:20:25] INFO root fetch - processPackages [django-slick-reporting]: Remove: archive file [/home/abi/fetcher/tmp/django-slick-reporting-1.0.0.tar.gz]
+[2023-07-03 16:20:25] INFO root fetch - processPackages [django-slick-reporting]: Start processing: aiotieba
+[2023-07-03 16:20:25] INFO root fetch - main [MainThread]: End processing [django-slick-reporting]: success
+[2023-07-03 16:20:25] INFO root fetch - processPackages [e-qsl]: Downloading https://files.pythonhosted.org/packages/1d/e4/f98965ad46a5e52221c2dcd82f071628344eaebbb5dda2e663e2f69749cc/e-qsl-0.1.8.tar.gz
+[2023-07-03 16:20:25] INFO root fetch - processPackages [genetic-algo]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-03 16:20:25] INFO root fetch - processPackages [python-sapcommissions]: Remove: archive file [/home/abi/fetcher/tmp/python-sapcommissions-1.0.1.tar.gz]
+[2023-07-03 16:20:25] INFO root fetch - processPackages [python-sapcommissions]: Remove: archive file [/home/abi/fetcher/tmp/python-sapcommissions-1.0.2.tar.gz]
+[2023-07-03 16:20:25] INFO root fetch - processPackages [python-sapcommissions]: Start processing: yfiles-jupyter-graphs
+[2023-07-03 16:20:25] INFO root fetch - main [MainThread]: End processing [python-sapcommissions]: success
+[2023-07-03 16:20:25] INFO root fetch - processPackages [dank-mids]: Downloading https://files.pythonhosted.org/packages/e9/d0/a0c6c8d2d154a0250f47b30968e60098b0d44d3b35571e97a925b9b3984f/dank_mids-4.20.9.tar.gz
+[2023-07-03 16:20:25] INFO root fetch - processPackages [armonik]: Remove: archive file [/home/abi/fetcher/tmp/armonik-3.9.3.dev620.tar.gz]
+[2023-07-03 16:20:25] INFO root fetch - processPackages [armonik]: Remove: archive file [/home/abi/fetcher/tmp/armonik-3.9.3.dev624.tar.gz]
+[2023-07-03 16:20:25] INFO root fetch - processPackages [armonik]: Start processing: xclientai
+[2023-07-03 16:20:25] INFO root fetch - main [MainThread]: End processing [armonik]: success
+[2023-07-03 16:20:26] INFO root fetch - processPackages [aiotieba]: New version: [3.5.0] Old Version: [3.4.5]
+[2023-07-03 16:20:26] INFO root fetch - processPackages [xclientai]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-03 16:20:26] INFO root fetch - processPackages [yfiles-jupyter-graphs]: New version: [1.4.7] Old Version: [1.4.6]
+[2023-07-03 16:20:26] INFO root fetch - processPackages [dank-mids]: executing diffoscope
+[2023-07-03 16:20:26] INFO root fetch - processPackages [dank-mids]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dank_mids-4.20.8.tar.gz tmp/dank_mids-4.20.9.tar.gz --markdown 20230703/d/dank-mids/4.20.8-4.20.9/diff.md --exclude *.pyd
+[2023-07-03 16:20:26] INFO root fetch - processPackages [feedancy-client]: Remove: archive file [/home/abi/fetcher/tmp/feedancy_client-0.0.1.tar.gz]
+[2023-07-03 16:20:26] INFO root fetch - processPackages [feedancy-client]: Remove: archive file [/home/abi/fetcher/tmp/feedancy_client-0.0.5.tar.gz]
+[2023-07-03 16:20:26] INFO root fetch - processPackages [feedancy-client]: Start processing: fsaa
+[2023-07-03 16:20:26] INFO root fetch - main [MainThread]: End processing [feedancy-client]: success
+[2023-07-03 16:20:26] INFO root fetch - processPackages [easier]: Downloading https://files.pythonhosted.org/packages/7c/b7/755d3f3d2817b197b18331e43c6ce33ce7b3046639f7d6293f2058bfb837/easier-1.3.3.tar.gz
+[2023-07-03 16:20:26] INFO root fetch - processPackages [genetic-algo]: Downloading https://files.pythonhosted.org/packages/4e/64/18e1993bec68a03a53f5ece0d58fdd09bcac9140173aed6e85ee39d73eb2/genetic-algo-0.0.4.tar.gz
+[2023-07-03 16:20:26] INFO root fetch - processPackages [cirq-iqm]: Remove: archive file [/home/abi/fetcher/tmp/cirq-iqm-8.2.tar.gz]
+[2023-07-03 16:20:26] INFO root fetch - processPackages [cirq-iqm]: Remove: archive file [/home/abi/fetcher/tmp/cirq-iqm-9.0.tar.gz]
+[2023-07-03 16:20:26] INFO root fetch - main [MainThread]: End processing [cirq-iqm]: success
+[2023-07-03 16:20:26] INFO root fetch - processPackages [xclientai]: Downloading https://files.pythonhosted.org/packages/e7/1b/1f3ed56ac170f421d4f76925e8681ac2960afd861713280583eab2eb1812/xclientai-0.0.7.tar.gz
+[2023-07-03 16:20:26] INFO root fetch - processPackages [e-qsl]: Downloading https://files.pythonhosted.org/packages/53/3b/0affc5c6730054741a521330a3878a5d86a23d03e6c4b7b6222c10bf04b1/e-qsl-0.1.9.tar.gz
+[2023-07-03 16:20:26] INFO root fetch - processPackages [fsaa]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-03 16:20:26] INFO root fetch - processPackages [aiotieba]: Downloading https://files.pythonhosted.org/packages/0b/ab/a1f1007cd7fefe6685e5dd0ce0ddbc96fa497d63c20837ad792cbe3e8995/aiotieba-3.4.5-pp39-pypy39_pp73-win_amd64.whl
+[2023-07-03 16:20:26] INFO root fetch - processPackages [easier]: Downloading https://files.pythonhosted.org/packages/b4/6c/c439c604e94159993d302d77f20649f35e96ecab0eb277112be8da3b2d56/easier-1.3.4.tar.gz
+[2023-07-03 16:20:26] INFO root fetch - processPackages [e-qsl]: executing diffoscope
+[2023-07-03 16:20:26] INFO root fetch - processPackages [e-qsl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/e-qsl-0.1.8.tar.gz tmp/e-qsl-0.1.9.tar.gz --markdown 20230703/e/e-qsl/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-03 16:20:26] INFO root fetch - processPackages [xclientai]: Downloading https://files.pythonhosted.org/packages/9b/f3/696beb8bf9aead66cd483f0ba4010d8057d270bdd5333220903d0a296ef4/xclientai-0.0.8.tar.gz
+[2023-07-03 16:20:26] INFO root fetch - processPackages [fsaa]: Downloading https://files.pythonhosted.org/packages/59/6d/b2a9bc540061829ebabf17d0ef58e199cf11ffbc17ecec6c4eee29b5880d/fsaa-0.0.3.tar.gz
+[2023-07-03 16:20:26] INFO root fetch - processPackages [genetic-algo]: Downloading https://files.pythonhosted.org/packages/14/cb/41bdf7e2138644e5a37d13ecbdf90b714f9e53ade238bee78d8bb315a2b6/genetic-algo-0.0.5.tar.gz
+[2023-07-03 16:20:26] INFO root fetch - processPackages [yfiles-jupyter-graphs]: Downloading https://files.pythonhosted.org/packages/ed/c2/a4636ab65c8990d10cab14bf44078ccc7d039e790825cee596d8b076db9f/yfiles_jupyter_graphs-1.4.7.tar.gz
+[2023-07-03 16:20:26] INFO root fetch - processPackages [xclientai]: executing diffoscope
+[2023-07-03 16:20:26] INFO root fetch - processPackages [xclientai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xclientai-0.0.7.tar.gz tmp/xclientai-0.0.8.tar.gz --markdown 20230703/x/xclientai/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-03 16:20:26] INFO root fetch - processPackages [easier]: executing diffoscope
+[2023-07-03 16:20:26] INFO root fetch - processPackages [easier]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easier-1.3.3.tar.gz tmp/easier-1.3.4.tar.gz --markdown 20230703/e/easier/1.3.3-1.3.4/diff.md --exclude *.pyd
+[2023-07-03 16:20:26] INFO root fetch - processPackages [genetic-algo]: executing diffoscope
+[2023-07-03 16:20:26] INFO root fetch - processPackages [genetic-algo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/genetic-algo-0.0.4.tar.gz tmp/genetic-algo-0.0.5.tar.gz --markdown 20230703/g/genetic-algo/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-03 16:20:26] INFO root fetch - processPackages [aiotieba]: Downloading https://files.pythonhosted.org/packages/cd/42/3236db3760dc523c33705481d116c0e31528ec3b9ecdf0d7081612486f4a/aiotieba-3.5.0-pp39-pypy39_pp73-win_amd64.whl
+[2023-07-03 16:20:27] INFO root fetch - processPackages [fsaa]: Downloading https://files.pythonhosted.org/packages/20/78/7f7720b4ad1ccec92882e9512ea312ffc5f7358bcf6c4449adb1a9ee92c5/fsaa-0.0.4.tar.gz
+[2023-07-03 16:20:27] INFO root fetch - processPackages [multimetric]: Remove: archive file [/home/abi/fetcher/tmp/multimetric-1.4.1.tar.gz]
+[2023-07-03 16:20:27] INFO root fetch - processPackages [multimetric]: Remove: archive file [/home/abi/fetcher/tmp/multimetric-2.0.0.tar.gz]
+[2023-07-03 16:20:27] INFO root fetch - main [MainThread]: End processing [multimetric]: success
+[2023-07-03 16:20:27] INFO root fetch - processPackages [yfiles-jupyter-graphs]: executing diffoscope
+[2023-07-03 16:20:27] INFO root fetch - processPackages [yfiles-jupyter-graphs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yfiles_jupyter_graphs-1.4.6.tar.gz tmp/yfiles_jupyter_graphs-1.4.7.tar.gz --markdown 20230703/y/yfiles-jupyter-graphs/1.4.6-1.4.7/diff.md --exclude *.pyd
+[2023-07-03 16:20:27] INFO root fetch - processPackages [aiotieba]: executing diffoscope
+[2023-07-03 16:20:27] INFO root fetch - processPackages [aiotieba]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiotieba-3.4.5-pp39-pypy39_pp73-win_amd64.whl.zip tmp/aiotieba-3.5.0-pp39-pypy39_pp73-win_amd64.whl.zip --markdown 20230703/a/aiotieba/3.4.5-3.5.0/diff.md --exclude *.pyd
+[2023-07-03 16:20:27] INFO root fetch - processPackages [fsaa]: executing diffoscope
+[2023-07-03 16:20:27] INFO root fetch - processPackages [fsaa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fsaa-0.0.3.tar.gz tmp/fsaa-0.0.4.tar.gz --markdown 20230703/f/fsaa/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-03 16:20:27] INFO root fetch - processPackages [dank-mids]: Remove: archive file [/home/abi/fetcher/tmp/dank_mids-4.20.8.tar.gz]
+[2023-07-03 16:20:27] INFO root fetch - processPackages [dank-mids]: Remove: archive file [/home/abi/fetcher/tmp/dank_mids-4.20.9.tar.gz]
+[2023-07-03 16:20:27] INFO root fetch - main [MainThread]: End processing [dank-mids]: success
+[2023-07-03 16:20:28] INFO root fetch - processPackages [e-qsl]: Remove: archive file [/home/abi/fetcher/tmp/e-qsl-0.1.8.tar.gz]
+[2023-07-03 16:20:28] INFO root fetch - processPackages [e-qsl]: Remove: archive file [/home/abi/fetcher/tmp/e-qsl-0.1.9.tar.gz]
+[2023-07-03 16:20:28] INFO root fetch - main [MainThread]: End processing [e-qsl]: success
+[2023-07-03 16:20:28] INFO root fetch - processPackages [xclientai]: Remove: archive file [/home/abi/fetcher/tmp/xclientai-0.0.7.tar.gz]
+[2023-07-03 16:20:28] INFO root fetch - processPackages [xclientai]: Remove: archive file [/home/abi/fetcher/tmp/xclientai-0.0.8.tar.gz]
+[2023-07-03 16:20:28] INFO root fetch - main [MainThread]: End processing [xclientai]: success
+[2023-07-03 16:20:28] INFO root fetch - processPackages [genetic-algo]: Remove: archive file [/home/abi/fetcher/tmp/genetic-algo-0.0.4.tar.gz]
+[2023-07-03 16:20:28] INFO root fetch - processPackages [genetic-algo]: Remove: archive file [/home/abi/fetcher/tmp/genetic-algo-0.0.5.tar.gz]
+[2023-07-03 16:20:28] INFO root fetch - main [MainThread]: End processing [genetic-algo]: success
+[2023-07-03 16:20:28] INFO root fetch - processPackages [easier]: Remove: archive file [/home/abi/fetcher/tmp/easier-1.3.3.tar.gz]
+[2023-07-03 16:20:28] INFO root fetch - processPackages [easier]: Remove: archive file [/home/abi/fetcher/tmp/easier-1.3.4.tar.gz]
+[2023-07-03 16:20:28] INFO root fetch - main [MainThread]: End processing [easier]: success
+[2023-07-03 16:20:28] INFO root fetch - processPackages [fsaa]: Remove: archive file [/home/abi/fetcher/tmp/fsaa-0.0.3.tar.gz]
+[2023-07-03 16:20:28] INFO root fetch - processPackages [fsaa]: Remove: archive file [/home/abi/fetcher/tmp/fsaa-0.0.4.tar.gz]
+[2023-07-03 16:20:28] INFO root fetch - main [MainThread]: End processing [fsaa]: success
+[2023-07-03 16:20:29] INFO root fetch - processPackages [aiotieba]: Remove: archive file [/home/abi/fetcher/tmp/aiotieba-3.4.5-pp39-pypy39_pp73-win_amd64.whl.zip]
+[2023-07-03 16:20:29] INFO root fetch - processPackages [aiotieba]: Remove: archive file [/home/abi/fetcher/tmp/aiotieba-3.5.0-pp39-pypy39_pp73-win_amd64.whl.zip]
+[2023-07-03 16:20:29] INFO root fetch - main [MainThread]: End processing [aiotieba]: success
+[2023-07-03 16:23:21] INFO root fetch - processPackages [yfiles-jupyter-graphs]: Remove: archive file [/home/abi/fetcher/tmp/yfiles_jupyter_graphs-1.4.6.tar.gz]
+[2023-07-03 16:23:21] INFO root fetch - processPackages [yfiles-jupyter-graphs]: Remove: archive file [/home/abi/fetcher/tmp/yfiles_jupyter_graphs-1.4.7.tar.gz]
+[2023-07-03 16:23:21] INFO root fetch - main [MainThread]: End processing [yfiles-jupyter-graphs]: success
+[2023-07-03 16:23:21] INFO root fetch - main [MainThread]: Store serial: [18740521]
