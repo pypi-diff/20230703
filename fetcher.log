@@ -8006,3 +8006,34 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-03 08:04:47] INFO root fetch - processPackages [pait]: Remove: archive file [/home/abi/fetcher/tmp/pait-1.0.0a6.tar.gz]
 [2023-07-03 08:04:47] INFO root fetch - main [MainThread]: End processing [pait]: success
 [2023-07-03 08:04:47] INFO root fetch - main [MainThread]: Store serial: [18735090]
+[2023-07-03 08:09:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18735090]
+[2023-07-03 08:09:56] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-03 08:09:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: communica
+[2023-07-03 08:09:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: alnoda-wrk
+[2023-07-03 08:09:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: discord-ansi
+[2023-07-03 08:09:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: vgis-log
+[2023-07-03 08:09:56] INFO root fetch - processPackages [alnoda-wrk]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-07-03 08:09:57] INFO root fetch - processPackages [communica]: New version: [0.2.1b5] Old Version: [0.2.1b4]
+[2023-07-03 08:09:57] INFO root fetch - processPackages [vgis-log]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-07-03 08:09:57] WARNING root fetch - processPackages [discord-ansi]: Skipping, unable to determine old version
+[2023-07-03 08:09:57] INFO root fetch - main [MainThread]: End processing [discord-ansi] error
+[2023-07-03 08:09:57] INFO root fetch - processPackages [communica]: Downloading https://files.pythonhosted.org/packages/c9/9d/773dc9bf6c29a3cf17fadbbf0db05688e5f217885a1dd4b574108c934fd0/communica-0.2.1b4.tar.gz
+[2023-07-03 08:09:57] INFO root fetch - processPackages [vgis-log]: Downloading https://files.pythonhosted.org/packages/68/e2/5de87618ac2f26bac252391f0b452a4226f46257af8ceb93a01eb4c40465/vgis_log-1.0.3.tar.gz
+[2023-07-03 08:09:57] INFO root fetch - processPackages [alnoda-wrk]: executing diffoscope
+[2023-07-03 08:09:57] INFO root fetch - processPackages [alnoda-wrk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alnoda_wrk-0.4.8.tar.gz tmp/alnoda_wrk-0.4.9.tar.gz --markdown 20230703/a/alnoda-wrk/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-07-03 08:09:57] INFO root fetch - processPackages [communica]: Downloading https://files.pythonhosted.org/packages/f4/fe/f9704eb9a75df75132df1e124327632ee229529e1870a5ea09186b715644/communica-0.2.1b5.tar.gz
+[2023-07-03 08:09:57] INFO root fetch - processPackages [vgis-log]: Downloading https://files.pythonhosted.org/packages/29/15/5ad0afc7f0138a207a7b918fa02d0a9aa3cb2d129d9c77f72a908955c71b/vgis_log-1.0.4.tar.gz
+[2023-07-03 08:09:57] INFO root fetch - processPackages [communica]: executing diffoscope
+[2023-07-03 08:09:57] INFO root fetch - processPackages [communica]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/communica-0.2.1b4.tar.gz tmp/communica-0.2.1b5.tar.gz --markdown 20230703/c/communica/0.2.1b4-0.2.1b5/diff.md --exclude *.pyd
+[2023-07-03 08:09:57] INFO root fetch - processPackages [vgis-log]: executing diffoscope
+[2023-07-03 08:09:57] INFO root fetch - processPackages [vgis-log]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vgis_log-1.0.3.tar.gz tmp/vgis_log-1.0.4.tar.gz --markdown 20230703/v/vgis-log/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-07-03 08:09:58] INFO root fetch - processPackages [alnoda-wrk]: Remove: archive file [/home/abi/fetcher/tmp/alnoda_wrk-0.4.8.tar.gz]
+[2023-07-03 08:09:58] INFO root fetch - processPackages [alnoda-wrk]: Remove: archive file [/home/abi/fetcher/tmp/alnoda_wrk-0.4.9.tar.gz]
+[2023-07-03 08:09:58] INFO root fetch - main [MainThread]: End processing [alnoda-wrk]: success
+[2023-07-03 08:09:58] INFO root fetch - processPackages [vgis-log]: Remove: archive file [/home/abi/fetcher/tmp/vgis_log-1.0.3.tar.gz]
+[2023-07-03 08:09:58] INFO root fetch - processPackages [vgis-log]: Remove: archive file [/home/abi/fetcher/tmp/vgis_log-1.0.4.tar.gz]
+[2023-07-03 08:09:58] INFO root fetch - main [MainThread]: End processing [vgis-log]: success
+[2023-07-03 08:09:58] INFO root fetch - processPackages [communica]: Remove: archive file [/home/abi/fetcher/tmp/communica-0.2.1b4.tar.gz]
+[2023-07-03 08:09:58] INFO root fetch - processPackages [communica]: Remove: archive file [/home/abi/fetcher/tmp/communica-0.2.1b5.tar.gz]
+[2023-07-03 08:09:58] INFO root fetch - main [MainThread]: End processing [communica]: success
+[2023-07-03 08:09:58] INFO root fetch - main [MainThread]: Store serial: [18735117]
