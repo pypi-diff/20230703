@@ -18237,3 +18237,63 @@ AssertionError: tmp/docarray-0.9.9.dev4.tar.gz does not exist
 [2023-07-03 14:58:24] INFO root fetch - processPackages [verovio]: Remove: archive file [/home/abi/fetcher/tmp/verovio-3.9.0.tar.gz]
 [2023-07-03 14:58:24] INFO root fetch - main [MainThread]: End processing [verovio]: success
 [2023-07-03 14:58:24] INFO root fetch - main [MainThread]: Store serial: [18739298]
+[2023-07-03 15:03:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18739298]
+[2023-07-03 15:03:33] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-03 15:03:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: seqconverter
+[2023-07-03 15:03:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rust-sgx-gen
+[2023-07-03 15:03:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: roodkcab
+[2023-07-03 15:03:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pertCF
+[2023-07-03 15:03:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: honeybot
+[2023-07-03 15:03:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: eodc-faas-openeo
+[2023-07-03 15:03:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: qps-limit
+[2023-07-03 15:03:34] INFO root fetch - processPackages [qps-limit]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-07-03 15:03:34] INFO root fetch - processPackages [roodkcab]: New version: [3.4] Old Version: [3.3]
+[2023-07-03 15:03:34] INFO root fetch - processPackages [seqconverter]: New version: [2.9.2] Old Version: [2.9.1]
+[2023-07-03 15:03:34] INFO root fetch - processPackages [rust-sgx-gen]: New version: [0.3.8] Old Version: [0.3.7]
+[2023-07-03 15:03:34] INFO root fetch - processPackages [eodc-faas-openeo]: New version: [2023.6.9] Old Version: [2023.6.8]
+[2023-07-03 15:03:34] INFO root fetch - processPackages [honeybot]: New version: [6.1.0] Old Version: [6.0.2]
+[2023-07-03 15:03:34] WARNING root fetch - processPackages [pertCF]: Skipping, unable to determine old version
+[2023-07-03 15:03:34] INFO root fetch - main [MainThread]: End processing [pertCF] error
+[2023-07-03 15:03:34] INFO root fetch - processPackages [qps-limit]: Downloading https://files.pythonhosted.org/packages/6e/7f/172399875d12b0f3b1d87dcb1369fbf7902d17c421ff213d9d956922c933/qps_limit-1.0.3-py3-none-any.whl
+[2023-07-03 15:03:34] INFO root fetch - processPackages [roodkcab]: Downloading https://files.pythonhosted.org/packages/7b/e4/d3c3ef6cc3a5ab9f58faf00e0c9b67e0da551a49cab0c1dca866cc0bf86d/roodkcab-3.3.tar.gz
+[2023-07-03 15:03:34] INFO root fetch - processPackages [rust-sgx-gen]: Downloading https://files.pythonhosted.org/packages/ea/94/de737c71a13644f06102a3c46c6859ef1f3e0ebac730230f29ab533f6ce3/rust-sgx-gen-0.3.7.tar.gz
+[2023-07-03 15:03:34] INFO root fetch - processPackages [eodc-faas-openeo]: Downloading https://files.pythonhosted.org/packages/bf/65/17c492bd7934456ef4a003078ffcb510f62f943407298b90a63969aa3f1f/eodc_faas_openeo-2023.6.8.tar.gz
+[2023-07-03 15:03:34] INFO root fetch - processPackages [qps-limit]: Downloading https://files.pythonhosted.org/packages/a6/8a/bb14b77dcffed6349549857c8f977079ddaad14b21e962d9e65381760017/qps_limit-1.0.4-py3-none-any.whl
+[2023-07-03 15:03:34] INFO root fetch - processPackages [honeybot]: Downloading https://files.pythonhosted.org/packages/81/83/0e7db147eb5f5ece4ee852501f59f82bafab9ce67a7a12c33dccdd6a4941/honeybot-6.0.2.tar.gz
+[2023-07-03 15:03:34] INFO root fetch - processPackages [seqconverter]: Downloading https://files.pythonhosted.org/packages/74/b0/ff8a59e6781b5d3e5919026085be5d753078b0b477769779c67e9e213e9a/seqconverter-2.9.1.tar.gz
+[2023-07-03 15:03:34] INFO root fetch - processPackages [roodkcab]: Downloading https://files.pythonhosted.org/packages/d4/12/743403525e20965e77b2de1546c7286e57828e125b7dad00f2e89c85449d/roodkcab-3.4.tar.gz
+[2023-07-03 15:03:34] INFO root fetch - processPackages [qps-limit]: executing diffoscope
+[2023-07-03 15:03:34] INFO root fetch - processPackages [qps-limit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qps_limit-1.0.3-py3-none-any.whl.zip tmp/qps_limit-1.0.4-py3-none-any.whl.zip --markdown 20230703/q/qps-limit/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-07-03 15:03:34] INFO root fetch - processPackages [roodkcab]: executing diffoscope
+[2023-07-03 15:03:34] INFO root fetch - processPackages [roodkcab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/roodkcab-3.3.tar.gz tmp/roodkcab-3.4.tar.gz --markdown 20230703/r/roodkcab/3.3-3.4/diff.md --exclude *.pyd
+[2023-07-03 15:03:34] INFO root fetch - processPackages [eodc-faas-openeo]: Downloading https://files.pythonhosted.org/packages/77/6b/8eb1deae635c30a05c1c3a89c459d64974381087d1c84d89e3ad9410049a/eodc_faas_openeo-2023.6.9.tar.gz
+[2023-07-03 15:03:35] INFO root fetch - processPackages [rust-sgx-gen]: Downloading https://files.pythonhosted.org/packages/0d/19/3cf0d7f48d1d754a8298179374a018b4137375bc1d1ed58f1fbf1eb5c37c/rust-sgx-gen-0.3.8.tar.gz
+[2023-07-03 15:03:35] INFO root fetch - processPackages [honeybot]: Downloading https://files.pythonhosted.org/packages/ed/2d/dc7413f8b3d8325cd7674116ab2173f162bb30f186c02018a6188c00b056/honeybot-6.1.0.tar.gz
+[2023-07-03 15:03:35] INFO root fetch - processPackages [seqconverter]: Downloading https://files.pythonhosted.org/packages/dc/1f/7033f6e42158f5dbd9ab26654c50b76445642a61b5257e6888ffd585c1e5/seqconverter-2.9.2.tar.gz
+[2023-07-03 15:03:35] INFO root fetch - processPackages [eodc-faas-openeo]: executing diffoscope
+[2023-07-03 15:03:35] INFO root fetch - processPackages [eodc-faas-openeo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eodc_faas_openeo-2023.6.8.tar.gz tmp/eodc_faas_openeo-2023.6.9.tar.gz --markdown 20230703/e/eodc-faas-openeo/2023.6.8-2023.6.9/diff.md --exclude *.pyd
+[2023-07-03 15:03:35] INFO root fetch - processPackages [rust-sgx-gen]: executing diffoscope
+[2023-07-03 15:03:35] INFO root fetch - processPackages [rust-sgx-gen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rust-sgx-gen-0.3.7.tar.gz tmp/rust-sgx-gen-0.3.8.tar.gz --markdown 20230703/r/rust-sgx-gen/0.3.7-0.3.8/diff.md --exclude *.pyd
+[2023-07-03 15:03:35] INFO root fetch - processPackages [seqconverter]: executing diffoscope
+[2023-07-03 15:03:35] INFO root fetch - processPackages [seqconverter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seqconverter-2.9.1.tar.gz tmp/seqconverter-2.9.2.tar.gz --markdown 20230703/s/seqconverter/2.9.1-2.9.2/diff.md --exclude *.pyd
+[2023-07-03 15:03:35] INFO root fetch - processPackages [honeybot]: executing diffoscope
+[2023-07-03 15:03:35] INFO root fetch - processPackages [honeybot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/honeybot-6.0.2.tar.gz tmp/honeybot-6.1.0.tar.gz --markdown 20230703/h/honeybot/6.0.2-6.1.0/diff.md --exclude *.pyd
+[2023-07-03 15:03:35] INFO root fetch - processPackages [qps-limit]: Remove: archive file [/home/abi/fetcher/tmp/qps_limit-1.0.3-py3-none-any.whl.zip]
+[2023-07-03 15:03:35] INFO root fetch - processPackages [qps-limit]: Remove: archive file [/home/abi/fetcher/tmp/qps_limit-1.0.4-py3-none-any.whl.zip]
+[2023-07-03 15:03:35] INFO root fetch - main [MainThread]: End processing [qps-limit]: success
+[2023-07-03 15:03:36] INFO root fetch - processPackages [roodkcab]: Remove: archive file [/home/abi/fetcher/tmp/roodkcab-3.3.tar.gz]
+[2023-07-03 15:03:36] INFO root fetch - processPackages [roodkcab]: Remove: archive file [/home/abi/fetcher/tmp/roodkcab-3.4.tar.gz]
+[2023-07-03 15:03:36] INFO root fetch - main [MainThread]: End processing [roodkcab]: success
+[2023-07-03 15:03:36] INFO root fetch - processPackages [eodc-faas-openeo]: Remove: archive file [/home/abi/fetcher/tmp/eodc_faas_openeo-2023.6.8.tar.gz]
+[2023-07-03 15:03:36] INFO root fetch - processPackages [eodc-faas-openeo]: Remove: archive file [/home/abi/fetcher/tmp/eodc_faas_openeo-2023.6.9.tar.gz]
+[2023-07-03 15:03:36] INFO root fetch - main [MainThread]: End processing [eodc-faas-openeo]: success
+[2023-07-03 15:03:36] INFO root fetch - processPackages [rust-sgx-gen]: Remove: archive file [/home/abi/fetcher/tmp/rust-sgx-gen-0.3.7.tar.gz]
+[2023-07-03 15:03:36] INFO root fetch - processPackages [rust-sgx-gen]: Remove: archive file [/home/abi/fetcher/tmp/rust-sgx-gen-0.3.8.tar.gz]
+[2023-07-03 15:03:36] INFO root fetch - main [MainThread]: End processing [rust-sgx-gen]: success
+[2023-07-03 15:03:36] INFO root fetch - processPackages [seqconverter]: Remove: archive file [/home/abi/fetcher/tmp/seqconverter-2.9.1.tar.gz]
+[2023-07-03 15:03:36] INFO root fetch - processPackages [seqconverter]: Remove: archive file [/home/abi/fetcher/tmp/seqconverter-2.9.2.tar.gz]
+[2023-07-03 15:03:36] INFO root fetch - main [MainThread]: End processing [seqconverter]: success
+[2023-07-03 15:03:37] INFO root fetch - processPackages [honeybot]: Remove: archive file [/home/abi/fetcher/tmp/honeybot-6.0.2.tar.gz]
+[2023-07-03 15:03:37] INFO root fetch - processPackages [honeybot]: Remove: archive file [/home/abi/fetcher/tmp/honeybot-6.1.0.tar.gz]
+[2023-07-03 15:03:37] INFO root fetch - main [MainThread]: End processing [honeybot]: success
+[2023-07-03 15:03:37] INFO root fetch - main [MainThread]: Store serial: [18739343]
