@@ -7136,3 +7136,41 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-03 06:42:48] INFO root fetch - processPackages [cloudoll]: Remove: archive file [/home/abi/fetcher/tmp/cloudoll-2.0.2.tar.gz]
 [2023-07-03 06:42:48] INFO root fetch - main [MainThread]: End processing [cloudoll]: success
 [2023-07-03 06:42:48] INFO root fetch - main [MainThread]: Store serial: [18734676]
+[2023-07-03 06:47:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18734676]
+[2023-07-03 06:47:56] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-03 06:47:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: scReadSim
+[2023-07-03 06:47:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyTashriBS
+[2023-07-03 06:47:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: FeishuBitableAPI
+[2023-07-03 06:47:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: upstash-ratelimit
+[2023-07-03 06:47:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyswcloader
+[2023-07-03 06:47:56] INFO root fetch - processPackages [FeishuBitableAPI]: New version: [3.0.5] Old Version: [3.0.4]
+[2023-07-03 06:47:56] INFO root fetch - processPackages [upstash-ratelimit]: New version: [0.3.6] Old Version: [0.3.5]
+[2023-07-03 06:47:56] INFO root fetch - processPackages [upstash-ratelimit]: Downloading https://files.pythonhosted.org/packages/6c/24/5e912db482ab7d8e50c1c9d03186db976d7d992ad68558002ba8676e9bf4/upstash_ratelimit-0.3.5.tar.gz
+[2023-07-03 06:47:56] INFO root fetch - processPackages [FeishuBitableAPI]: Downloading https://files.pythonhosted.org/packages/e3/09/1e0767ef50e46593a59a53e2bea689a2781c6bff6ac058c8d6e47f7a1767/FeishuBitableAPI-3.0.4.tar.gz
+[2023-07-03 06:47:56] WARNING root fetch - processPackages [pyTashriBS]: Skipping, unable to determine old version
+[2023-07-03 06:47:56] INFO root fetch - main [MainThread]: End processing [pyTashriBS] error
+[2023-07-03 06:47:56] INFO root fetch - processPackages [scReadSim]: New version: [1.4.0] Old Version: [1.3.0]
+[2023-07-03 06:47:56] INFO root fetch - processPackages [pyswcloader]: New version: [1.1] Old Version: [1.0.1]
+[2023-07-03 06:47:57] INFO root fetch - processPackages [FeishuBitableAPI]: Downloading https://files.pythonhosted.org/packages/3b/33/a7381a4d9fe565b31cb3a1d2dd43b6b3b19efdd67209d3f4f5afa0fd69c5/FeishuBitableAPI-3.0.5.tar.gz
+[2023-07-03 06:47:57] INFO root fetch - processPackages [pyswcloader]: Downloading https://files.pythonhosted.org/packages/d3/d3/1c77061ba94e7f186ac427a1208f422ae11596bf9e032a4f565b9535799f/pyswcloader-1.0.1-py2.py3-none-any.whl
+[2023-07-03 06:47:57] INFO root fetch - processPackages [scReadSim]: Downloading https://files.pythonhosted.org/packages/fb/a9/05a6f151d5c22b5bf9cee8ef6702906b6982b7b1f6cfbed6574fe8a9e977/scReadSim-1.3.0.tar.gz
+[2023-07-03 06:47:57] INFO root fetch - processPackages [FeishuBitableAPI]: executing diffoscope
+[2023-07-03 06:47:57] INFO root fetch - processPackages [FeishuBitableAPI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FeishuBitableAPI-3.0.4.tar.gz tmp/FeishuBitableAPI-3.0.5.tar.gz --markdown 20230703/F/FeishuBitableAPI/3.0.4-3.0.5/diff.md --exclude *.pyd
+[2023-07-03 06:47:57] INFO root fetch - processPackages [upstash-ratelimit]: Downloading https://files.pythonhosted.org/packages/84/77/e0989c13b6424c1bb3f32e4c8293b88bcf25c90bfd839f2de0f4da054907/upstash_ratelimit-0.3.6.tar.gz
+[2023-07-03 06:47:57] WARNING root fetch - processPackages [scReadSim]: Skipping package: exceeds size limit 16991924>=10485760
+[2023-07-03 06:47:57] INFO root fetch - main [MainThread]: End processing [scReadSim] error
+[2023-07-03 06:47:57] INFO root fetch - processPackages [upstash-ratelimit]: executing diffoscope
+[2023-07-03 06:47:57] INFO root fetch - processPackages [upstash-ratelimit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/upstash_ratelimit-0.3.5.tar.gz tmp/upstash_ratelimit-0.3.6.tar.gz --markdown 20230703/u/upstash-ratelimit/0.3.5-0.3.6/diff.md --exclude *.pyd
+[2023-07-03 06:47:57] INFO root fetch - processPackages [pyswcloader]: Downloading https://files.pythonhosted.org/packages/9d/7d/d45dfa5d8c83c9eb205e3a3df933f5fc3082e9f7599209de5a6f425e1dd7/pyswcloader-1.1-py2.py3-none-any.whl
+[2023-07-03 06:47:57] INFO root fetch - processPackages [pyswcloader]: executing diffoscope
+[2023-07-03 06:47:57] INFO root fetch - processPackages [pyswcloader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyswcloader-1.0.1-py2.py3-none-any.whl.zip tmp/pyswcloader-1.1-py2.py3-none-any.whl.zip --markdown 20230703/p/pyswcloader/1.0.1-1.1/diff.md --exclude *.pyd
+[2023-07-03 06:47:58] INFO root fetch - processPackages [FeishuBitableAPI]: Remove: archive file [/home/abi/fetcher/tmp/FeishuBitableAPI-3.0.4.tar.gz]
+[2023-07-03 06:47:58] INFO root fetch - processPackages [FeishuBitableAPI]: Remove: archive file [/home/abi/fetcher/tmp/FeishuBitableAPI-3.0.5.tar.gz]
+[2023-07-03 06:47:58] INFO root fetch - main [MainThread]: End processing [FeishuBitableAPI]: success
+[2023-07-03 06:47:58] INFO root fetch - processPackages [upstash-ratelimit]: Remove: archive file [/home/abi/fetcher/tmp/upstash_ratelimit-0.3.5.tar.gz]
+[2023-07-03 06:47:58] INFO root fetch - processPackages [upstash-ratelimit]: Remove: archive file [/home/abi/fetcher/tmp/upstash_ratelimit-0.3.6.tar.gz]
+[2023-07-03 06:47:58] INFO root fetch - main [MainThread]: End processing [upstash-ratelimit]: success
+[2023-07-03 06:47:58] INFO root fetch - processPackages [pyswcloader]: Remove: archive file [/home/abi/fetcher/tmp/pyswcloader-1.0.1-py2.py3-none-any.whl.zip]
+[2023-07-03 06:47:58] INFO root fetch - processPackages [pyswcloader]: Remove: archive file [/home/abi/fetcher/tmp/pyswcloader-1.1-py2.py3-none-any.whl.zip]
+[2023-07-03 06:47:58] INFO root fetch - main [MainThread]: End processing [pyswcloader]: success
+[2023-07-03 06:47:58] INFO root fetch - main [MainThread]: Store serial: [18734694]
