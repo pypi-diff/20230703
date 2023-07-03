@@ -6306,3 +6306,129 @@
 [2023-07-03 05:36:05] ERROR root fetch - processPackages [sphinx-immaterial]: Timeout during execution of pkgdiff
 [2023-07-03 05:36:05] INFO root fetch - main [MainThread]: End processing [sphinx-immaterial] error
 [2023-07-03 05:36:05] INFO root fetch - main [MainThread]: Store serial: [18734337]
+[2023-07-03 05:41:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18734337]
+[2023-07-03 05:41:14] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-07-03 05:41:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rest-api-supporter
+[2023-07-03 05:41:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: owe-python-sdk
+[2023-07-03 05:41:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: refuel-autolabel
+[2023-07-03 05:41:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: FeishuBitableAPI
+[2023-07-03 05:41:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: qsm-forward
+[2023-07-03 05:41:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: owe-python-sdk
+[2023-07-03 05:41:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: divinegift
+[2023-07-03 05:41:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: RamseyTheoryRL
+[2023-07-03 05:41:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: datamodel-code-generator
+[2023-07-03 05:41:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: spinqit
+[2023-07-03 05:41:14] INFO root fetch - processPackages [refuel-autolabel]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-07-03 05:41:14] INFO root fetch - processPackages [RamseyTheoryRL]: New version: [0.53] Old Version: [0.52]
+[2023-07-03 05:41:14] INFO root fetch - processPackages [owe-python-sdk]: New version: [0.0.1a9] Old Version: [0.0.1a8]
+[2023-07-03 05:41:14] INFO root fetch - processPackages [FeishuBitableAPI]: New version: [3.0.4] Old Version: [3.0.2]
+[2023-07-03 05:41:14] INFO root fetch - processPackages [rest-api-supporter]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-03 05:41:14] INFO root fetch - processPackages [spinqit]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-03 05:41:14] INFO root fetch - processPackages [owe-python-sdk]: New version: [0.0.1a9] Old Version: [0.0.1a8]
+[2023-07-03 05:41:14] INFO root fetch - processPackages [datamodel-code-generator]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-07-03 05:41:14] INFO root fetch - processPackages [qsm-forward]: New version: [0.9] Old Version: [0.8]
+[2023-07-03 05:41:14] INFO root fetch - processPackages [divinegift]: New version: [2.9.2.2] Old Version: [2.9.2.1]
+[2023-07-03 05:41:15] INFO root fetch - processPackages [RamseyTheoryRL]: Downloading https://files.pythonhosted.org/packages/e4/57/42ab6c0c4dd30c21a97466f28a41b7e796c2a329e0fb3e1ef0397d512c61/RamseyTheoryRL-0.52.tar.gz
+[2023-07-03 05:41:15] INFO root fetch - processPackages [owe-python-sdk]: Downloading https://files.pythonhosted.org/packages/b7/87/2ed4496794411461faafd9b31cde5a571ee0b54f11200933d019777ca951/owe_python_sdk-0.0.1a8.tar.gz
+[2023-07-03 05:41:15] INFO root fetch - processPackages [owe-python-sdk]: Downloading https://files.pythonhosted.org/packages/b7/87/2ed4496794411461faafd9b31cde5a571ee0b54f11200933d019777ca951/owe_python_sdk-0.0.1a8.tar.gz
+[2023-07-03 05:41:15] INFO root fetch - processPackages [refuel-autolabel]: Downloading https://files.pythonhosted.org/packages/52/db/a9ac1ac47deb19017fa3830dd5376960cc52a46ccf2f8361b4e08f97c85c/refuel-autolabel-0.0.6.tar.gz
+[2023-07-03 05:41:15] INFO root fetch - processPackages [FeishuBitableAPI]: Downloading https://files.pythonhosted.org/packages/35/7d/22d24f7663bf1d6476e9d2b094e72d249dbc0047d7529abb9d5ca8a8cb77/FeishuBitableAPI-3.0.2.tar.gz
+[2023-07-03 05:41:15] INFO root fetch - processPackages [spinqit]: Downloading https://files.pythonhosted.org/packages/0c/d8/f59b2dcfe889ac5cee54957ab2cc59748fc885c79af264c89f7eb8acdde3/spinqit-0.1.0-cp39-cp39-win_amd64.whl
+[2023-07-03 05:41:15] INFO root fetch - processPackages [rest-api-supporter]: Downloading https://files.pythonhosted.org/packages/f4/16/0c2fc27776d8257953b960eea527e7f83b54019b51fbb132e634d73c5c0e/rest-api-supporter-0.0.8.tar.gz
+[2023-07-03 05:41:15] INFO root fetch - processPackages [datamodel-code-generator]: Downloading https://files.pythonhosted.org/packages/4a/d9/15bc464ce307254a4d330683427526d5e0601c774b66371809d42cc26da1/datamodel-code-generator-0.9.3.tar.gz
+[2023-07-03 05:41:15] INFO root fetch - processPackages [divinegift]: Downloading https://files.pythonhosted.org/packages/20/54/9cd490ce912447c2d9c28af6ef4a7879ad6c4951e4146bfb5408537f3941/divinegift-2.9.2.1.tar.gz
+[2023-07-03 05:41:15] INFO root fetch - processPackages [qsm-forward]: Downloading https://files.pythonhosted.org/packages/65/46/45de4bd58406ad4eba67dd561e259f33a0fcc6af97702924894b9e75b9fb/qsm-forward-0.8.tar.gz
+[2023-07-03 05:41:15] INFO root fetch - processPackages [owe-python-sdk]: Downloading https://files.pythonhosted.org/packages/31/27/a7a614b3213736597496297134f4cd10fd0ecee2f977d8e86784bb925c43/owe_python_sdk-0.0.1a9.tar.gz
+[2023-07-03 05:41:15] INFO root fetch - processPackages [owe-python-sdk]: Downloading https://files.pythonhosted.org/packages/31/27/a7a614b3213736597496297134f4cd10fd0ecee2f977d8e86784bb925c43/owe_python_sdk-0.0.1a9.tar.gz
+[2023-07-03 05:41:15] INFO root fetch - processPackages [RamseyTheoryRL]: Downloading https://files.pythonhosted.org/packages/93/2f/402ba69f8c4794c18145178fa2269b57c03dda0e6af9c7a4baa725064f38/RamseyTheoryRL-0.53.tar.gz
+[2023-07-03 05:41:15] INFO root fetch - processPackages [owe-python-sdk]: executing diffoscope
+[2023-07-03 05:41:15] INFO root fetch - processPackages [owe-python-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/owe_python_sdk-0.0.1a8.tar.gz tmp/owe_python_sdk-0.0.1a9.tar.gz --markdown 20230703/o/owe-python-sdk/0.0.1a8-0.0.1a9/diff.md --exclude *.pyd
+[2023-07-03 05:41:15] INFO root fetch - processPackages [owe-python-sdk]: executing diffoscope
+[2023-07-03 05:41:15] INFO root fetch - processPackages [owe-python-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/owe_python_sdk-0.0.1a8.tar.gz tmp/owe_python_sdk-0.0.1a9.tar.gz --markdown 20230703/o/owe-python-sdk/0.0.1a8-0.0.1a9/diff.md --exclude *.pyd
+[2023-07-03 05:41:15] INFO root fetch - processPackages [refuel-autolabel]: Downloading https://files.pythonhosted.org/packages/4b/89/5de580497b249702ee21fcaf9dd4a739bc8a2aeb130761ab6d3ac48e00a3/refuel-autolabel-0.0.7.tar.gz
+[2023-07-03 05:41:15] INFO root fetch - processPackages [FeishuBitableAPI]: Downloading https://files.pythonhosted.org/packages/e3/09/1e0767ef50e46593a59a53e2bea689a2781c6bff6ac058c8d6e47f7a1767/FeishuBitableAPI-3.0.4.tar.gz
+[2023-07-03 05:41:15] INFO root fetch - processPackages [rest-api-supporter]: Downloading https://files.pythonhosted.org/packages/35/47/76da32bcf0507aa9dbf370e1c9e91408c29a80232299067f97883d4ef255/rest-api-supporter-0.0.9.tar.gz
+[2023-07-03 05:41:15] INFO root fetch - processPackages [rest-api-supporter]: executing diffoscope
+[2023-07-03 05:41:15] INFO root fetch - processPackages [rest-api-supporter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rest-api-supporter-0.0.8.tar.gz tmp/rest-api-supporter-0.0.9.tar.gz --markdown 20230703/r/rest-api-supporter/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-03 05:41:15] INFO root fetch - processPackages [RamseyTheoryRL]: executing diffoscope
+[2023-07-03 05:41:15] INFO root fetch - processPackages [RamseyTheoryRL]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RamseyTheoryRL-0.52.tar.gz tmp/RamseyTheoryRL-0.53.tar.gz --markdown 20230703/R/RamseyTheoryRL/0.52-0.53/diff.md --exclude *.pyd
+[2023-07-03 05:41:15] INFO root fetch - processPackages [refuel-autolabel]: executing diffoscope
+[2023-07-03 05:41:15] INFO root fetch - processPackages [refuel-autolabel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/refuel-autolabel-0.0.6.tar.gz tmp/refuel-autolabel-0.0.7.tar.gz --markdown 20230703/r/refuel-autolabel/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-07-03 05:41:15] INFO root fetch - processPackages [qsm-forward]: Downloading https://files.pythonhosted.org/packages/96/7b/310a7a2cedda42fe3d293c41def115dce8f20fe7d50a71936aa9052822cd/qsm-forward-0.9.tar.gz
+[2023-07-03 05:41:15] INFO root fetch - processPackages [FeishuBitableAPI]: executing diffoscope
+[2023-07-03 05:41:15] INFO root fetch - processPackages [FeishuBitableAPI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FeishuBitableAPI-3.0.2.tar.gz tmp/FeishuBitableAPI-3.0.4.tar.gz --markdown 20230703/F/FeishuBitableAPI/3.0.2-3.0.4/diff.md --exclude *.pyd
+[2023-07-03 05:41:15] INFO root fetch - processPackages [spinqit]: Downloading https://files.pythonhosted.org/packages/a8/a4/a6049c3804aa4a839ffdef713b6df4d72f7804b3ddd1ba00f1ea1def9026/spinqit-0.1.1-cp39-cp39-win_amd64.whl
+[2023-07-03 05:41:15] INFO root fetch - processPackages [datamodel-code-generator]: Downloading https://files.pythonhosted.org/packages/4b/a5/18901fbbea50ced634d0cd3b2a12aac3d0a1dbd732418657fc54983b6e59/datamodel-code-generator-0.9.4.tar.gz
+[2023-07-03 05:41:15] INFO root fetch - processPackages [qsm-forward]: executing diffoscope
+[2023-07-03 05:41:15] INFO root fetch - processPackages [qsm-forward]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qsm-forward-0.8.tar.gz tmp/qsm-forward-0.9.tar.gz --markdown 20230703/q/qsm-forward/0.8-0.9/diff.md --exclude *.pyd
+[2023-07-03 05:41:15] INFO root fetch - processPackages [divinegift]: Downloading https://files.pythonhosted.org/packages/2e/f4/a6b82fab8e04ce99fd85cffa08df2970b44a8b3b33c001530d8de0e99ff8/divinegift-2.9.2.2.tar.gz
+[2023-07-03 05:41:15] INFO root fetch - processPackages [spinqit]: executing diffoscope
+[2023-07-03 05:41:15] INFO root fetch - processPackages [spinqit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spinqit-0.1.0-cp39-cp39-win_amd64.whl.zip tmp/spinqit-0.1.1-cp39-cp39-win_amd64.whl.zip --markdown 20230703/s/spinqit/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-03 05:41:15] INFO root fetch - processPackages [divinegift]: executing diffoscope
+[2023-07-03 05:41:15] INFO root fetch - processPackages [divinegift]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/divinegift-2.9.2.1.tar.gz tmp/divinegift-2.9.2.2.tar.gz --markdown 20230703/d/divinegift/2.9.2.1-2.9.2.2/diff.md --exclude *.pyd
+[2023-07-03 05:41:15] INFO root fetch - processPackages [datamodel-code-generator]: executing diffoscope
+[2023-07-03 05:41:15] INFO root fetch - processPackages [datamodel-code-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datamodel-code-generator-0.9.3.tar.gz tmp/datamodel-code-generator-0.9.4.tar.gz --markdown 20230703/d/datamodel-code-generator/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-07-03 05:41:17] INFO root fetch - processPackages [owe-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/owe_python_sdk-0.0.1a8.tar.gz]
+[2023-07-03 05:41:17] INFO root fetch - processPackages [owe-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/owe_python_sdk-0.0.1a9.tar.gz]
+[2023-07-03 05:41:17] INFO root fetch - processPackages [owe-python-sdk]: Start processing: qsi-tk
+[2023-07-03 05:41:17] INFO root fetch - main [MainThread]: End processing [owe-python-sdk]: success
+[2023-07-03 05:41:17] INFO root fetch - processPackages [owe-python-sdk]: Start processing: jacktest
+[2023-07-03 05:41:17] INFO root fetch - main [MainThread]: End processing [owe-python-sdk]: success
+[2023-07-03 05:41:17] INFO root fetch - processPackages [qsi-tk]: New version: [0.6.0] Old Version: [0.5.4]
+[2023-07-03 05:41:17] INFO root fetch - processPackages [jacktest]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-03 05:41:17] INFO root fetch - processPackages [rest-api-supporter]: Remove: archive file [/home/abi/fetcher/tmp/rest-api-supporter-0.0.8.tar.gz]
+[2023-07-03 05:41:17] INFO root fetch - processPackages [rest-api-supporter]: Remove: archive file [/home/abi/fetcher/tmp/rest-api-supporter-0.0.9.tar.gz]
+[2023-07-03 05:41:17] INFO root fetch - processPackages [rest-api-supporter]: Start processing: m23
+[2023-07-03 05:41:17] INFO root fetch - main [MainThread]: End processing [rest-api-supporter]: success
+[2023-07-03 05:41:17] INFO root fetch - processPackages [jacktest]: Downloading https://files.pythonhosted.org/packages/d8/d4/95a98dc9899282d1f9a386e69e7f1ffe6f7051f63777ba641880b231746c/jacktest-0.0.4.tar.gz
+[2023-07-03 05:41:17] INFO root fetch - processPackages [m23]: New version: [1.9.4] Old Version: [1.9.3]
+[2023-07-03 05:41:17] INFO root fetch - processPackages [RamseyTheoryRL]: Remove: archive file [/home/abi/fetcher/tmp/RamseyTheoryRL-0.52.tar.gz]
+[2023-07-03 05:41:17] INFO root fetch - processPackages [RamseyTheoryRL]: Remove: archive file [/home/abi/fetcher/tmp/RamseyTheoryRL-0.53.tar.gz]
+[2023-07-03 05:41:17] INFO root fetch - processPackages [RamseyTheoryRL]: Start processing: creme-nn
+[2023-07-03 05:41:17] INFO root fetch - main [MainThread]: End processing [RamseyTheoryRL]: success
+[2023-07-03 05:41:17] INFO root fetch - processPackages [qsm-forward]: Remove: archive file [/home/abi/fetcher/tmp/qsm-forward-0.8.tar.gz]
+[2023-07-03 05:41:17] INFO root fetch - processPackages [qsm-forward]: Remove: archive file [/home/abi/fetcher/tmp/qsm-forward-0.9.tar.gz]
+[2023-07-03 05:41:17] INFO root fetch - processPackages [qsm-forward]: Start processing: bacpypes3
+[2023-07-03 05:41:17] INFO root fetch - main [MainThread]: End processing [qsm-forward]: success
+[2023-07-03 05:41:17] INFO root fetch - processPackages [m23]: Downloading https://files.pythonhosted.org/packages/25/1b/1cd98c7359d0d7840ad83680e5f0bb5c3ad5d40ae326078dcec90b87590d/m23-1.9.3.tar.gz
+[2023-07-03 05:41:17] WARNING root fetch - processPackages [creme-nn]: Skipping, unable to determine old version
+[2023-07-03 05:41:17] INFO root fetch - main [MainThread]: End processing [creme-nn] error
+[2023-07-03 05:41:17] INFO root fetch - processPackages [qsi-tk]: Downloading https://files.pythonhosted.org/packages/ff/13/7726dee78d619671b070f23c9d1111ce952c1d6cb9746a51cf1103dc95f9/qsi-tk-0.5.4.tar.gz
+[2023-07-03 05:41:17] INFO root fetch - processPackages [FeishuBitableAPI]: Remove: archive file [/home/abi/fetcher/tmp/FeishuBitableAPI-3.0.2.tar.gz]
+[2023-07-03 05:41:17] INFO root fetch - processPackages [FeishuBitableAPI]: Remove: archive file [/home/abi/fetcher/tmp/FeishuBitableAPI-3.0.4.tar.gz]
+[2023-07-03 05:41:17] INFO root fetch - main [MainThread]: End processing [FeishuBitableAPI]: success
+[2023-07-03 05:41:17] INFO root fetch - processPackages [bacpypes3]: New version: [0.0.78] Old Version: [0.0.77]
+[2023-07-03 05:41:17] INFO root fetch - processPackages [jacktest]: Downloading https://files.pythonhosted.org/packages/89/04/8c2d7ae02a77498731cc73c8ad0c38708a57487638ccc888a6fb3f4a35bc/jacktest-0.0.5.tar.gz
+[2023-07-03 05:41:17] INFO root fetch - processPackages [refuel-autolabel]: Remove: archive file [/home/abi/fetcher/tmp/refuel-autolabel-0.0.6.tar.gz]
+[2023-07-03 05:41:17] INFO root fetch - processPackages [refuel-autolabel]: Remove: archive file [/home/abi/fetcher/tmp/refuel-autolabel-0.0.7.tar.gz]
+[2023-07-03 05:41:17] INFO root fetch - main [MainThread]: End processing [refuel-autolabel]: success
+[2023-07-03 05:41:17] WARNING root fetch - processPackages [qsi-tk]: Skipping package: exceeds size limit 58247973>=10485760
+[2023-07-03 05:41:17] INFO root fetch - main [MainThread]: End processing [qsi-tk] error
+[2023-07-03 05:41:17] INFO root fetch - processPackages [m23]: Downloading https://files.pythonhosted.org/packages/b7/73/ef1e5a9923185ad2d38db84efb87e8d93114907ae85cca94cb643e419634/m23-1.9.4.tar.gz
+[2023-07-03 05:41:17] INFO root fetch - processPackages [jacktest]: executing diffoscope
+[2023-07-03 05:41:17] INFO root fetch - processPackages [jacktest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jacktest-0.0.4.tar.gz tmp/jacktest-0.0.5.tar.gz --markdown 20230703/j/jacktest/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-03 05:41:17] INFO root fetch - processPackages [m23]: executing diffoscope
+[2023-07-03 05:41:17] INFO root fetch - processPackages [m23]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/m23-1.9.3.tar.gz tmp/m23-1.9.4.tar.gz --markdown 20230703/m/m23/1.9.3-1.9.4/diff.md --exclude *.pyd
+[2023-07-03 05:41:17] INFO root fetch - processPackages [bacpypes3]: Downloading https://files.pythonhosted.org/packages/5f/53/8891c25b4d375542efeb61cfc28b03041ce76a1c97963b740cd7d4884f1d/bacpypes3-0.0.77.tar.gz
+[2023-07-03 05:41:17] INFO root fetch - processPackages [bacpypes3]: Downloading https://files.pythonhosted.org/packages/86/ca/0afa8de544fe5fe25a4cf4c601ca2464e874ede8161367b4a2a07cf6dd23/bacpypes3-0.0.78.tar.gz
+[2023-07-03 05:41:17] INFO root fetch - processPackages [divinegift]: Remove: archive file [/home/abi/fetcher/tmp/divinegift-2.9.2.1.tar.gz]
+[2023-07-03 05:41:17] INFO root fetch - processPackages [divinegift]: Remove: archive file [/home/abi/fetcher/tmp/divinegift-2.9.2.2.tar.gz]
+[2023-07-03 05:41:17] INFO root fetch - main [MainThread]: End processing [divinegift]: success
+[2023-07-03 05:41:18] INFO root fetch - processPackages [bacpypes3]: executing diffoscope
+[2023-07-03 05:41:18] INFO root fetch - processPackages [bacpypes3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bacpypes3-0.0.77.tar.gz tmp/bacpypes3-0.0.78.tar.gz --markdown 20230703/b/bacpypes3/0.0.77-0.0.78/diff.md --exclude *.pyd
+[2023-07-03 05:41:18] INFO root fetch - processPackages [jacktest]: Remove: archive file [/home/abi/fetcher/tmp/jacktest-0.0.4.tar.gz]
+[2023-07-03 05:41:18] INFO root fetch - processPackages [jacktest]: Remove: archive file [/home/abi/fetcher/tmp/jacktest-0.0.5.tar.gz]
+[2023-07-03 05:41:18] INFO root fetch - main [MainThread]: End processing [jacktest]: success
+[2023-07-03 05:41:19] INFO root fetch - processPackages [m23]: Remove: archive file [/home/abi/fetcher/tmp/m23-1.9.3.tar.gz]
+[2023-07-03 05:41:19] INFO root fetch - processPackages [m23]: Remove: archive file [/home/abi/fetcher/tmp/m23-1.9.4.tar.gz]
+[2023-07-03 05:41:19] INFO root fetch - main [MainThread]: End processing [m23]: success
+[2023-07-03 05:41:19] INFO root fetch - processPackages [bacpypes3]: Remove: archive file [/home/abi/fetcher/tmp/bacpypes3-0.0.77.tar.gz]
+[2023-07-03 05:41:19] INFO root fetch - processPackages [bacpypes3]: Remove: archive file [/home/abi/fetcher/tmp/bacpypes3-0.0.78.tar.gz]
+[2023-07-03 05:41:19] INFO root fetch - main [MainThread]: End processing [bacpypes3]: success
+[2023-07-03 05:41:19] INFO root fetch - processPackages [datamodel-code-generator]: Remove: archive file [/home/abi/fetcher/tmp/datamodel-code-generator-0.9.3.tar.gz]
+[2023-07-03 05:41:19] INFO root fetch - processPackages [datamodel-code-generator]: Remove: archive file [/home/abi/fetcher/tmp/datamodel-code-generator-0.9.4.tar.gz]
+[2023-07-03 05:41:19] INFO root fetch - main [MainThread]: End processing [datamodel-code-generator]: success
+[2023-07-03 05:41:24] INFO root fetch - processPackages [spinqit]: Remove: archive file [/home/abi/fetcher/tmp/spinqit-0.1.0-cp39-cp39-win_amd64.whl.zip]
+[2023-07-03 05:41:24] INFO root fetch - processPackages [spinqit]: Remove: archive file [/home/abi/fetcher/tmp/spinqit-0.1.1-cp39-cp39-win_amd64.whl.zip]
+[2023-07-03 05:41:24] INFO root fetch - main [MainThread]: End processing [spinqit]: success
+[2023-07-03 05:41:24] INFO root fetch - main [MainThread]: Store serial: [18734383]
