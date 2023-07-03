@@ -11619,3 +11619,200 @@ AssertionError: tmp/discord-ansi-0.3.tar.gz does not exist
 [2023-07-03 10:46:42] INFO root fetch - processPackages [model-lib]: Remove: archive file [/home/abi/fetcher/tmp/model_lib-0.0.9-py3-none-any.whl.zip]
 [2023-07-03 10:46:42] INFO root fetch - main [MainThread]: End processing [model-lib]: success
 [2023-07-03 10:46:42] INFO root fetch - main [MainThread]: Store serial: [18736542]
+[2023-07-03 10:51:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18736542]
+[2023-07-03 10:51:51] INFO root fetch - main [MainThread]: Found 26 changed packages
+[2023-07-03 10:51:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: compose-chart-export
+[2023-07-03 10:51:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: zdd-algorithms
+[2023-07-03 10:51:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mini-memgraph
+[2023-07-03 10:51:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: poe-shell
+[2023-07-03 10:51:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: androidtvremote2
+[2023-07-03 10:51:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: django-tbase-post-product
+[2023-07-03 10:51:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: datawhispers
+[2023-07-03 10:51:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: FeishuBitableAPI
+[2023-07-03 10:51:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: hprint
+[2023-07-03 10:51:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: HELIOS-RL
+[2023-07-03 10:51:52] INFO root fetch - processPackages [zdd-algorithms]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-07-03 10:51:52] WARNING root fetch - processPackages [HELIOS-RL]: Skipping, unable to determine old version
+[2023-07-03 10:51:52] INFO root fetch - processPackages [HELIOS-RL]: Start processing: HELIOS-RL-Test
+[2023-07-03 10:51:52] INFO root fetch - main [MainThread]: End processing [HELIOS-RL] error
+[2023-07-03 10:51:52] INFO root fetch - processPackages [poe-shell]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-07-03 10:51:52] INFO root fetch - processPackages [androidtvremote2]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-03 10:51:52] INFO root fetch - processPackages [compose-chart-export]: New version: [0.0.21] Old Version: [0.0.20]
+[2023-07-03 10:51:52] INFO root fetch - processPackages [hprint]: New version: [2.0.6] Old Version: [2.0.5]
+[2023-07-03 10:51:52] INFO root fetch - processPackages [mini-memgraph]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-03 10:51:52] INFO root fetch - processPackages [django-tbase-post-product]: New version: [2023.7.316883740] Old Version: [2023.7.316883726]
+[2023-07-03 10:51:52] INFO root fetch - processPackages [FeishuBitableAPI]: New version: [3.1.6] Old Version: [3.1.4]
+[2023-07-03 10:51:52] INFO root fetch - processPackages [datawhispers]: New version: [0.2.8.2] Old Version: [0.2.8.1]
+[2023-07-03 10:51:52] INFO root fetch - processPackages [HELIOS-RL-Test]: New version: [0.4.2] Old Version: [0.4.19]
+[2023-07-03 10:51:52] INFO root fetch - processPackages [django-tbase-post-product]: Downloading https://files.pythonhosted.org/packages/8b/82/8eb7014ee6f4a6be9dfcb86ca034beed5ec5504efca07979deb5d94b34d5/django_tbase_post_product-2023.7.316883726.tar.gz
+[2023-07-03 10:51:52] INFO root fetch - processPackages [datawhispers]: Downloading https://files.pythonhosted.org/packages/5a/61/74ed63c242044c46e9a97aa540c15cbb4512a199c059b054fcf0b4c085a9/datawhispers-0.2.8.1.tar.gz
+[2023-07-03 10:51:52] INFO root fetch - processPackages [mini-memgraph]: Downloading https://files.pythonhosted.org/packages/d9/44/d8abe648f68fe87eed9001757f407a43b2d3e9f221e5510424fc5bc3e5be/mini_memgraph-0.1.1.tar.gz
+[2023-07-03 10:51:52] INFO root fetch - processPackages [zdd-algorithms]: Downloading https://files.pythonhosted.org/packages/43/32/3e5f4beb0f737f258cdc97468ad55b53ee2825865512b0d8061874da8668/zdd_algorithms-0.1.3.tar.gz
+[2023-07-03 10:51:52] INFO root fetch - processPackages [compose-chart-export]: Downloading https://files.pythonhosted.org/packages/bd/82/e88dc0d76a12ef945378879fd1c9e51076a792f26641501b92b5f98691bb/compose_chart_export-0.0.20-py3-none-any.whl
+[2023-07-03 10:51:52] INFO root fetch - processPackages [androidtvremote2]: Downloading https://files.pythonhosted.org/packages/19/6f/aad4c2068cc9383cad1fe138f54fed29dd5f9e1268af2aff976a1fac7998/androidtvremote2-0.0.8.tar.gz
+[2023-07-03 10:51:52] INFO root fetch - processPackages [FeishuBitableAPI]: Downloading https://files.pythonhosted.org/packages/8a/76/7e3e941e824d8f6b6c00914e8e11b8f734152e7f95fcf649e044208d5113/FeishuBitableAPI-3.1.4.tar.gz
+[2023-07-03 10:51:52] INFO root fetch - processPackages [HELIOS-RL-Test]: Downloading https://files.pythonhosted.org/packages/9f/76/dd82089974aae1babe8601f13791579c1d49c3a071b85401084eb0d3e824/HELIOS_RL_Test-0.4.19-py3-none-any.whl
+[2023-07-03 10:51:52] INFO root fetch - processPackages [hprint]: Downloading https://files.pythonhosted.org/packages/14/42/79a6a6adeb466f28e8792c675d79af36a103ba386e57d8f03b8e161dd46f/hprint-2.0.5.tar.gz
+[2023-07-03 10:51:52] INFO root fetch - processPackages [poe-shell]: Downloading https://files.pythonhosted.org/packages/07/d0/55a56bf423dfa87b3e45c7e705425b0ea8fdf669915343f4999600018dd6/poe_shell-0.1.5.tar.gz
+[2023-07-03 10:51:52] INFO root fetch - processPackages [datawhispers]: Downloading https://files.pythonhosted.org/packages/85/4b/d09c13ebe9884352c569efe6193a99a248b7e4c777b6a2793c8ba0107579/datawhispers-0.2.8.2.tar.gz
+[2023-07-03 10:51:52] INFO root fetch - processPackages [HELIOS-RL-Test]: Downloading https://files.pythonhosted.org/packages/81/d0/a06df47c1984846ec5c99befcfa7d53524cd2deaef06868c3b5c731a64d6/HELIOS_RL_Test-0.4.2-py3-none-any.whl
+[2023-07-03 10:51:52] INFO root fetch - processPackages [FeishuBitableAPI]: Downloading https://files.pythonhosted.org/packages/ce/ec/4fb31797febcf4fbfb5c2dee91cc9c8a97bd977f649f166a343f38a52d9d/FeishuBitableAPI-3.1.6.tar.gz
+[2023-07-03 10:51:52] INFO root fetch - processPackages [mini-memgraph]: Downloading https://files.pythonhosted.org/packages/ca/1d/49c1b532a0849023d7f93606c8f5bfd276c451218014e67d7a0c3b7f9154/mini_memgraph-0.1.2.tar.gz
+[2023-07-03 10:51:52] INFO root fetch - processPackages [datawhispers]: executing diffoscope
+[2023-07-03 10:51:52] INFO root fetch - processPackages [datawhispers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datawhispers-0.2.8.1.tar.gz tmp/datawhispers-0.2.8.2.tar.gz --markdown 20230703/d/datawhispers/0.2.8.1-0.2.8.2/diff.md --exclude *.pyd
+[2023-07-03 10:51:53] INFO root fetch - processPackages [zdd-algorithms]: Downloading https://files.pythonhosted.org/packages/14/ee/bcad9af3d98ae40b4b935f1380f7db90b3cad71e06d4d6e7916d3bacec28/zdd_algorithms-0.1.4.tar.gz
+[2023-07-03 10:51:53] INFO root fetch - processPackages [django-tbase-post-product]: Downloading https://files.pythonhosted.org/packages/a5/ee/d31e8c243100c8a3ac3485e9e5def4398ddf9801fce8f7c05036126c33ad/django_tbase_post_product-2023.7.316883740.tar.gz
+[2023-07-03 10:51:53] INFO root fetch - processPackages [compose-chart-export]: Downloading https://files.pythonhosted.org/packages/e4/21/1cfcb41b3bcd85d028822b8e6c51ff943c6151f07e44365698d515bf50b5/compose_chart_export-0.0.21-py3-none-any.whl
+[2023-07-03 10:51:53] INFO root fetch - processPackages [hprint]: Downloading https://files.pythonhosted.org/packages/2b/6f/6cae6f47c953f6292323c819d4b126895ced4cbdd69ad27e491d54c61029/hprint-2.0.6.tar.gz
+[2023-07-03 10:51:53] INFO root fetch - processPackages [androidtvremote2]: Downloading https://files.pythonhosted.org/packages/cc/6a/ab72650e40a1acb300b90bde94ec90521ee06fd0c067dfd12c6c2d7c2697/androidtvremote2-0.0.9.tar.gz
+[2023-07-03 10:51:53] INFO root fetch - processPackages [FeishuBitableAPI]: executing diffoscope
+[2023-07-03 10:51:53] INFO root fetch - processPackages [FeishuBitableAPI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FeishuBitableAPI-3.1.4.tar.gz tmp/FeishuBitableAPI-3.1.6.tar.gz --markdown 20230703/F/FeishuBitableAPI/3.1.4-3.1.6/diff.md --exclude *.pyd
+[2023-07-03 10:51:53] INFO root fetch - processPackages [mini-memgraph]: executing diffoscope
+[2023-07-03 10:51:53] INFO root fetch - processPackages [mini-memgraph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mini_memgraph-0.1.1.tar.gz tmp/mini_memgraph-0.1.2.tar.gz --markdown 20230703/m/mini-memgraph/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-03 10:51:53] INFO root fetch - processPackages [HELIOS-RL-Test]: executing diffoscope
+[2023-07-03 10:51:53] INFO root fetch - processPackages [HELIOS-RL-Test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/HELIOS_RL_Test-0.4.19-py3-none-any.whl.zip tmp/HELIOS_RL_Test-0.4.2-py3-none-any.whl.zip --markdown 20230703/H/HELIOS-RL-Test/0.4.19-0.4.2/diff.md --exclude *.pyd
+[2023-07-03 10:51:53] INFO root fetch - processPackages [zdd-algorithms]: executing diffoscope
+[2023-07-03 10:51:53] INFO root fetch - processPackages [zdd-algorithms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zdd_algorithms-0.1.3.tar.gz tmp/zdd_algorithms-0.1.4.tar.gz --markdown 20230703/z/zdd-algorithms/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-07-03 10:51:53] INFO root fetch - processPackages [django-tbase-post-product]: executing diffoscope
+[2023-07-03 10:51:53] INFO root fetch - processPackages [django-tbase-post-product]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_tbase_post_product-2023.7.316883726.tar.gz tmp/django_tbase_post_product-2023.7.316883740.tar.gz --markdown 20230703/d/django-tbase-post-product/2023.7.316883726-2023.7.316883740/diff.md --exclude *.pyd
+[2023-07-03 10:51:53] INFO root fetch - processPackages [compose-chart-export]: executing diffoscope
+[2023-07-03 10:51:53] INFO root fetch - processPackages [compose-chart-export]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/compose_chart_export-0.0.20-py3-none-any.whl.zip tmp/compose_chart_export-0.0.21-py3-none-any.whl.zip --markdown 20230703/c/compose-chart-export/0.0.20-0.0.21/diff.md --exclude *.pyd
+[2023-07-03 10:51:53] INFO root fetch - processPackages [hprint]: executing diffoscope
+[2023-07-03 10:51:53] INFO root fetch - processPackages [hprint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hprint-2.0.5.tar.gz tmp/hprint-2.0.6.tar.gz --markdown 20230703/h/hprint/2.0.5-2.0.6/diff.md --exclude *.pyd
+[2023-07-03 10:51:53] INFO root fetch - processPackages [poe-shell]: Downloading https://files.pythonhosted.org/packages/87/0e/5a0a90f9f962e97e4c6ccc4e8c242c6d65c46dcd7e5a9eda5ba0a1714ee8/poe_shell-0.1.6.tar.gz
+[2023-07-03 10:51:53] INFO root fetch - processPackages [androidtvremote2]: executing diffoscope
+[2023-07-03 10:51:53] INFO root fetch - processPackages [androidtvremote2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/androidtvremote2-0.0.8.tar.gz tmp/androidtvremote2-0.0.9.tar.gz --markdown 20230703/a/androidtvremote2/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-03 10:51:53] INFO root fetch - processPackages [poe-shell]: executing diffoscope
+[2023-07-03 10:51:53] INFO root fetch - processPackages [poe-shell]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/poe_shell-0.1.5.tar.gz tmp/poe_shell-0.1.6.tar.gz --markdown 20230703/p/poe-shell/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-07-03 10:51:54] INFO root fetch - processPackages [datawhispers]: Remove: archive file [/home/abi/fetcher/tmp/datawhispers-0.2.8.1.tar.gz]
+[2023-07-03 10:51:54] INFO root fetch - processPackages [datawhispers]: Remove: archive file [/home/abi/fetcher/tmp/datawhispers-0.2.8.2.tar.gz]
+[2023-07-03 10:51:54] INFO root fetch - processPackages [datawhispers]: Start processing: HELIOS-RL-Test
+[2023-07-03 10:51:54] INFO root fetch - main [MainThread]: End processing [datawhispers]: success
+[2023-07-03 10:51:54] INFO root fetch - processPackages [HELIOS-RL-Test]: New version: [0.4.2] Old Version: [0.4.19]
+[2023-07-03 10:51:54] INFO root fetch - processPackages [HELIOS-RL-Test]: executing diffoscope
+[2023-07-03 10:51:54] INFO root fetch - processPackages [HELIOS-RL-Test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/HELIOS_RL_Test-0.4.19-py3-none-any.whl.zip tmp/HELIOS_RL_Test-0.4.2-py3-none-any.whl.zip --markdown 20230703/H/HELIOS-RL-Test/0.4.19-0.4.2/diff.md --exclude *.pyd
+[2023-07-03 10:51:54] INFO root fetch - processPackages [mini-memgraph]: Remove: archive file [/home/abi/fetcher/tmp/mini_memgraph-0.1.1.tar.gz]
+[2023-07-03 10:51:54] INFO root fetch - processPackages [mini-memgraph]: Remove: archive file [/home/abi/fetcher/tmp/mini_memgraph-0.1.2.tar.gz]
+[2023-07-03 10:51:54] INFO root fetch - processPackages [mini-memgraph]: Start processing: HELIOS-RL-Test
+[2023-07-03 10:51:54] INFO root fetch - main [MainThread]: End processing [mini-memgraph]: success
+[2023-07-03 10:51:54] INFO root fetch - processPackages [compose-chart-export]: Remove: archive file [/home/abi/fetcher/tmp/compose_chart_export-0.0.20-py3-none-any.whl.zip]
+[2023-07-03 10:51:54] INFO root fetch - processPackages [compose-chart-export]: Remove: archive file [/home/abi/fetcher/tmp/compose_chart_export-0.0.21-py3-none-any.whl.zip]
+[2023-07-03 10:51:54] INFO root fetch - processPackages [compose-chart-export]: Start processing: HELIOS-RL-Test
+[2023-07-03 10:51:54] INFO root fetch - main [MainThread]: End processing [compose-chart-export]: success
+[2023-07-03 10:51:54] INFO root fetch - processPackages [HELIOS-RL-Test]: New version: [0.4.2] Old Version: [0.4.19]
+[2023-07-03 10:51:54] INFO root fetch - processPackages [HELIOS-RL-Test]: New version: [0.4.2] Old Version: [0.4.19]
+[2023-07-03 10:51:54] INFO root fetch - processPackages [HELIOS-RL-Test]: Remove: archive file [/home/abi/fetcher/tmp/HELIOS_RL_Test-0.4.19-py3-none-any.whl.zip]
+[2023-07-03 10:51:54] INFO root fetch - processPackages [HELIOS-RL-Test]: Remove: archive file [/home/abi/fetcher/tmp/HELIOS_RL_Test-0.4.2-py3-none-any.whl.zip]
+[2023-07-03 10:51:54] INFO root fetch - processPackages [HELIOS-RL-Test]: Start processing: HELIOS-RL-Test
+[2023-07-03 10:51:54] INFO root fetch - main [MainThread]: End processing [HELIOS-RL-Test]: success
+[2023-07-03 10:51:54] INFO root fetch - processPackages [HELIOS-RL-Test]: New version: [0.4.2] Old Version: [0.4.19]
+[2023-07-03 10:51:55] INFO root fetch - processPackages [HELIOS-RL-Test]: Downloading https://files.pythonhosted.org/packages/9f/76/dd82089974aae1babe8601f13791579c1d49c3a071b85401084eb0d3e824/HELIOS_RL_Test-0.4.19-py3-none-any.whl
+[2023-07-03 10:51:55] INFO root fetch - processPackages [HELIOS-RL-Test]: Downloading https://files.pythonhosted.org/packages/9f/76/dd82089974aae1babe8601f13791579c1d49c3a071b85401084eb0d3e824/HELIOS_RL_Test-0.4.19-py3-none-any.whl
+[2023-07-03 10:51:55] INFO root fetch - processPackages [django-tbase-post-product]: Remove: archive file [/home/abi/fetcher/tmp/django_tbase_post_product-2023.7.316883726.tar.gz]
+[2023-07-03 10:51:55] INFO root fetch - processPackages [django-tbase-post-product]: Remove: archive file [/home/abi/fetcher/tmp/django_tbase_post_product-2023.7.316883740.tar.gz]
+[2023-07-03 10:51:55] INFO root fetch - processPackages [django-tbase-post-product]: Start processing: HELIOS-RL-Test
+[2023-07-03 10:51:55] INFO root fetch - main [MainThread]: End processing [django-tbase-post-product]: success
+[2023-07-03 10:51:55] INFO root fetch - processPackages [HELIOS-RL-Test]: Downloading https://files.pythonhosted.org/packages/9f/76/dd82089974aae1babe8601f13791579c1d49c3a071b85401084eb0d3e824/HELIOS_RL_Test-0.4.19-py3-none-any.whl
+[2023-07-03 10:51:55] INFO root fetch - processPackages [HELIOS-RL-Test]: New version: [0.4.2] Old Version: [0.4.19]
+[2023-07-03 10:51:55] INFO root fetch - processPackages [FeishuBitableAPI]: Remove: archive file [/home/abi/fetcher/tmp/FeishuBitableAPI-3.1.4.tar.gz]
+[2023-07-03 10:51:55] INFO root fetch - processPackages [FeishuBitableAPI]: Remove: archive file [/home/abi/fetcher/tmp/FeishuBitableAPI-3.1.6.tar.gz]
+[2023-07-03 10:51:55] INFO root fetch - processPackages [FeishuBitableAPI]: Start processing: HELIOS-RL-Test
+[2023-07-03 10:51:55] INFO root fetch - main [MainThread]: End processing [FeishuBitableAPI]: success
+[2023-07-03 10:51:55] INFO root fetch - processPackages [poe-shell]: Remove: archive file [/home/abi/fetcher/tmp/poe_shell-0.1.5.tar.gz]
+[2023-07-03 10:51:55] INFO root fetch - processPackages [poe-shell]: Remove: archive file [/home/abi/fetcher/tmp/poe_shell-0.1.6.tar.gz]
+[2023-07-03 10:51:55] INFO root fetch - processPackages [poe-shell]: Start processing: HELIOS-RL-Test
+[2023-07-03 10:51:55] INFO root fetch - main [MainThread]: End processing [poe-shell]: success
+[2023-07-03 10:51:55] INFO root fetch - processPackages [zdd-algorithms]: Remove: archive file [/home/abi/fetcher/tmp/zdd_algorithms-0.1.3.tar.gz]
+[2023-07-03 10:51:55] INFO root fetch - processPackages [hprint]: Remove: archive file [/home/abi/fetcher/tmp/hprint-2.0.5.tar.gz]
+[2023-07-03 10:51:55] INFO root fetch - processPackages [zdd-algorithms]: Remove: archive file [/home/abi/fetcher/tmp/zdd_algorithms-0.1.4.tar.gz]
+[2023-07-03 10:51:55] INFO root fetch - processPackages [hprint]: Remove: archive file [/home/abi/fetcher/tmp/hprint-2.0.6.tar.gz]
+[2023-07-03 10:51:55] INFO root fetch - processPackages [zdd-algorithms]: Start processing: HELIOS-RL-Test
+[2023-07-03 10:51:55] INFO root fetch - main [MainThread]: End processing [zdd-algorithms]: success
+[2023-07-03 10:51:55] INFO root fetch - processPackages [hprint]: Start processing: HELIOS-RL-Test
+[2023-07-03 10:51:55] INFO root fetch - main [MainThread]: End processing [hprint]: success
+[2023-07-03 10:51:55] INFO root fetch - processPackages [androidtvremote2]: Remove: archive file [/home/abi/fetcher/tmp/androidtvremote2-0.0.8.tar.gz]
+[2023-07-03 10:51:55] INFO root fetch - processPackages [androidtvremote2]: Remove: archive file [/home/abi/fetcher/tmp/androidtvremote2-0.0.9.tar.gz]
+[2023-07-03 10:51:55] INFO root fetch - processPackages [androidtvremote2]: Start processing: HELIOS-RL-Test
+[2023-07-03 10:51:55] INFO root fetch - main [MainThread]: End processing [androidtvremote2]: success
+[2023-07-03 10:51:55] INFO root fetch - processPackages [HELIOS-RL-Test]: New version: [0.4.2] Old Version: [0.4.19]
+[2023-07-03 10:51:55] INFO root fetch - processPackages [HELIOS-RL-Test]: New version: [0.4.2] Old Version: [0.4.19]
+[2023-07-03 10:51:55] INFO root fetch - processPackages [HELIOS-RL-Test]: New version: [0.4.2] Old Version: [0.4.19]
+[2023-07-03 10:51:55] INFO root fetch - processPackages [HELIOS-RL-Test]: New version: [0.4.2] Old Version: [0.4.19]
+[2023-07-03 10:51:55] ERROR root fetch - processPackages [HELIOS-RL-Test]: Diffoscope failed: time="2023-07-03T10:51:54+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+/srv/diffoscope/bin/diffoscope: tmp/HELIOS_RL_Test-0.4.2-py3-none-any.whl.zip: No such file or directory
+
+[2023-07-03 10:51:55] INFO root fetch - processPackages [HELIOS-RL-Test]: Start processing: HELIOS-RL-Test
+[2023-07-03 10:51:55] INFO root fetch - main [MainThread]: End processing [HELIOS-RL-Test] error
+[2023-07-03 10:51:55] INFO root fetch - processPackages [HELIOS-RL-Test]: New version: [0.4.2] Old Version: [0.4.19]
+[2023-07-03 10:51:55] INFO root fetch - processPackages [HELIOS-RL-Test]: Downloading https://files.pythonhosted.org/packages/81/d0/a06df47c1984846ec5c99befcfa7d53524cd2deaef06868c3b5c731a64d6/HELIOS_RL_Test-0.4.2-py3-none-any.whl
+[2023-07-03 10:51:55] INFO root fetch - processPackages [HELIOS-RL-Test]: New version: [0.4.2] Old Version: [0.4.19]
+[2023-07-03 10:51:55] INFO root fetch - processPackages [HELIOS-RL-Test]: Downloading https://files.pythonhosted.org/packages/81/d0/a06df47c1984846ec5c99befcfa7d53524cd2deaef06868c3b5c731a64d6/HELIOS_RL_Test-0.4.2-py3-none-any.whl
+[2023-07-03 10:51:55] INFO root fetch - processPackages [HELIOS-RL-Test]: Downloading https://files.pythonhosted.org/packages/81/d0/a06df47c1984846ec5c99befcfa7d53524cd2deaef06868c3b5c731a64d6/HELIOS_RL_Test-0.4.2-py3-none-any.whl
+[2023-07-03 10:51:55] INFO root fetch - processPackages [HELIOS-RL-Test]: Downloading https://files.pythonhosted.org/packages/81/d0/a06df47c1984846ec5c99befcfa7d53524cd2deaef06868c3b5c731a64d6/HELIOS_RL_Test-0.4.2-py3-none-any.whl
+[2023-07-03 10:51:55] INFO root fetch - processPackages [HELIOS-RL-Test]: executing diffoscope
+[2023-07-03 10:51:55] INFO root fetch - processPackages [HELIOS-RL-Test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/HELIOS_RL_Test-0.4.19-py3-none-any.whl.zip tmp/HELIOS_RL_Test-0.4.2-py3-none-any.whl.zip --markdown 20230703/H/HELIOS-RL-Test/0.4.19-0.4.2/diff.md --exclude *.pyd
+[2023-07-03 10:51:55] INFO root fetch - processPackages [HELIOS-RL-Test]: executing diffoscope
+[2023-07-03 10:51:55] INFO root fetch - processPackages [HELIOS-RL-Test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/HELIOS_RL_Test-0.4.19-py3-none-any.whl.zip tmp/HELIOS_RL_Test-0.4.2-py3-none-any.whl.zip --markdown 20230703/H/HELIOS-RL-Test/0.4.19-0.4.2/diff.md --exclude *.pyd
+[2023-07-03 10:51:55] INFO root fetch - processPackages [HELIOS-RL-Test]: executing diffoscope
+[2023-07-03 10:51:55] INFO root fetch - processPackages [HELIOS-RL-Test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/HELIOS_RL_Test-0.4.19-py3-none-any.whl.zip tmp/HELIOS_RL_Test-0.4.2-py3-none-any.whl.zip --markdown 20230703/H/HELIOS-RL-Test/0.4.19-0.4.2/diff.md --exclude *.pyd
+[2023-07-03 10:51:55] INFO root fetch - processPackages [HELIOS-RL-Test]: executing diffoscope
+[2023-07-03 10:51:55] INFO root fetch - processPackages [HELIOS-RL-Test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/HELIOS_RL_Test-0.4.19-py3-none-any.whl.zip tmp/HELIOS_RL_Test-0.4.2-py3-none-any.whl.zip --markdown 20230703/H/HELIOS-RL-Test/0.4.19-0.4.2/diff.md --exclude *.pyd
+[2023-07-03 10:51:55] INFO root fetch - processPackages [HELIOS-RL-Test]: executing diffoscope
+[2023-07-03 10:51:55] INFO root fetch - processPackages [HELIOS-RL-Test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/HELIOS_RL_Test-0.4.19-py3-none-any.whl.zip tmp/HELIOS_RL_Test-0.4.2-py3-none-any.whl.zip --markdown 20230703/H/HELIOS-RL-Test/0.4.19-0.4.2/diff.md --exclude *.pyd
+[2023-07-03 10:51:55] INFO root fetch - processPackages [HELIOS-RL-Test]: executing diffoscope
+[2023-07-03 10:51:55] INFO root fetch - processPackages [HELIOS-RL-Test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/HELIOS_RL_Test-0.4.19-py3-none-any.whl.zip tmp/HELIOS_RL_Test-0.4.2-py3-none-any.whl.zip --markdown 20230703/H/HELIOS-RL-Test/0.4.19-0.4.2/diff.md --exclude *.pyd
+[2023-07-03 10:51:55] INFO root fetch - processPackages [HELIOS-RL-Test]: executing diffoscope
+[2023-07-03 10:51:55] INFO root fetch - processPackages [HELIOS-RL-Test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/HELIOS_RL_Test-0.4.19-py3-none-any.whl.zip tmp/HELIOS_RL_Test-0.4.2-py3-none-any.whl.zip --markdown 20230703/H/HELIOS-RL-Test/0.4.19-0.4.2/diff.md --exclude *.pyd
+[2023-07-03 10:51:55] INFO root fetch - processPackages [HELIOS-RL-Test]: executing diffoscope
+[2023-07-03 10:51:55] INFO root fetch - processPackages [HELIOS-RL-Test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/HELIOS_RL_Test-0.4.19-py3-none-any.whl.zip tmp/HELIOS_RL_Test-0.4.2-py3-none-any.whl.zip --markdown 20230703/H/HELIOS-RL-Test/0.4.19-0.4.2/diff.md --exclude *.pyd
+[2023-07-03 10:51:55] INFO root fetch - processPackages [HELIOS-RL-Test]: executing diffoscope
+[2023-07-03 10:51:55] INFO root fetch - processPackages [HELIOS-RL-Test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/HELIOS_RL_Test-0.4.19-py3-none-any.whl.zip tmp/HELIOS_RL_Test-0.4.2-py3-none-any.whl.zip --markdown 20230703/H/HELIOS-RL-Test/0.4.19-0.4.2/diff.md --exclude *.pyd
+[2023-07-03 10:51:55] INFO root fetch - processPackages [HELIOS-RL-Test]: executing diffoscope
+[2023-07-03 10:51:55] INFO root fetch - processPackages [HELIOS-RL-Test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/HELIOS_RL_Test-0.4.19-py3-none-any.whl.zip tmp/HELIOS_RL_Test-0.4.2-py3-none-any.whl.zip --markdown 20230703/H/HELIOS-RL-Test/0.4.19-0.4.2/diff.md --exclude *.pyd
+[2023-07-03 10:51:57] INFO root fetch - processPackages [HELIOS-RL-Test]: Remove: archive file [/home/abi/fetcher/tmp/HELIOS_RL_Test-0.4.19-py3-none-any.whl.zip]
+[2023-07-03 10:51:57] INFO root fetch - processPackages [HELIOS-RL-Test]: Remove: archive file [/home/abi/fetcher/tmp/HELIOS_RL_Test-0.4.2-py3-none-any.whl.zip]
+[2023-07-03 10:51:57] INFO root fetch - processPackages [HELIOS-RL-Test]: Start processing: HELIOS-RL-Test
+[2023-07-03 10:51:57] INFO root fetch - main [MainThread]: End processing [HELIOS-RL-Test]: success
+[2023-07-03 10:51:57] INFO root fetch - processPackages [HELIOS-RL-Test]: Start processing: HELIOS-RL-Test
+[2023-07-03 10:51:57] INFO root fetch - main [MainThread]: End processing [HELIOS-RL-Test]: success
+[2023-07-03 10:51:57] INFO root fetch - processPackages [HELIOS-RL-Test]: New version: [0.4.2] Old Version: [0.4.19]
+[2023-07-03 10:51:57] INFO root fetch - processPackages [HELIOS-RL-Test]: New version: [0.4.2] Old Version: [0.4.19]
+[2023-07-03 10:51:57] INFO root fetch - processPackages [HELIOS-RL-Test]: Start processing: HELIOS-RL-Test
+[2023-07-03 10:51:57] INFO root fetch - main [MainThread]: End processing [HELIOS-RL-Test]: success
+[2023-07-03 10:51:57] INFO root fetch - processPackages [HELIOS-RL-Test]: Start processing: gmail-filter-manager
+[2023-07-03 10:51:57] INFO root fetch - main [MainThread]: End processing [HELIOS-RL-Test]: success
+[2023-07-03 10:51:57] INFO root fetch - main [MainThread]: End processing [HELIOS-RL-Test]: success
+[2023-07-03 10:51:57] INFO root fetch - processPackages [HELIOS-RL-Test]: Downloading https://files.pythonhosted.org/packages/9f/76/dd82089974aae1babe8601f13791579c1d49c3a071b85401084eb0d3e824/HELIOS_RL_Test-0.4.19-py3-none-any.whl
+[2023-07-03 10:51:57] INFO root fetch - processPackages [HELIOS-RL-Test]: Downloading https://files.pythonhosted.org/packages/9f/76/dd82089974aae1babe8601f13791579c1d49c3a071b85401084eb0d3e824/HELIOS_RL_Test-0.4.19-py3-none-any.whl
+[2023-07-03 10:51:57] INFO root fetch - processPackages [HELIOS-RL-Test]: New version: [0.4.2] Old Version: [0.4.19]
+[2023-07-03 10:51:57] INFO root fetch - main [MainThread]: End processing [HELIOS-RL-Test]: success
+[2023-07-03 10:51:57] INFO root fetch - main [MainThread]: End processing [HELIOS-RL-Test]: success
+[2023-07-03 10:51:57] WARNING root fetch - processPackages [gmail-filter-manager]: Skipping, unable to determine old version
+[2023-07-03 10:51:57] INFO root fetch - main [MainThread]: End processing [gmail-filter-manager] error
+[2023-07-03 10:51:58] INFO root fetch - processPackages [HELIOS-RL-Test]: Downloading https://files.pythonhosted.org/packages/81/d0/a06df47c1984846ec5c99befcfa7d53524cd2deaef06868c3b5c731a64d6/HELIOS_RL_Test-0.4.2-py3-none-any.whl
+[2023-07-03 10:51:58] INFO root fetch - processPackages [HELIOS-RL-Test]: Remove: archive file [/home/abi/fetcher/tmp/HELIOS_RL_Test-0.4.19-py3-none-any.whl.zip]
+[2023-07-03 10:51:58] INFO root fetch - main [MainThread]: End processing [HELIOS-RL-Test]: success
+[2023-07-03 10:51:58] INFO root fetch - processPackages [HELIOS-RL-Test]: Downloading https://files.pythonhosted.org/packages/81/d0/a06df47c1984846ec5c99befcfa7d53524cd2deaef06868c3b5c731a64d6/HELIOS_RL_Test-0.4.2-py3-none-any.whl
+[2023-07-03 10:51:58] INFO root fetch - processPackages [HELIOS-RL-Test]: Downloading https://files.pythonhosted.org/packages/81/d0/a06df47c1984846ec5c99befcfa7d53524cd2deaef06868c3b5c731a64d6/HELIOS_RL_Test-0.4.2-py3-none-any.whl
+[2023-07-03 10:51:58] INFO root fetch - main [MainThread]: End processing [HELIOS-RL-Test]: success
+[2023-07-03 10:51:58] INFO root fetch - processPackages [HELIOS-RL-Test]: executing diffoscope
+[2023-07-03 10:51:58] INFO root fetch - processPackages [HELIOS-RL-Test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/HELIOS_RL_Test-0.4.19-py3-none-any.whl.zip tmp/HELIOS_RL_Test-0.4.2-py3-none-any.whl.zip --markdown 20230703/H/HELIOS-RL-Test/0.4.19-0.4.2/diff.md --exclude *.pyd
+[2023-07-03 10:51:58] INFO root fetch - processPackages [HELIOS-RL-Test]: Remove: archive file [/home/abi/fetcher/tmp/HELIOS_RL_Test-0.4.2-py3-none-any.whl.zip]
+[2023-07-03 10:51:58] INFO root fetch - main [MainThread]: End processing [HELIOS-RL-Test]: success
+[2023-07-03 10:51:58] INFO root fetch - processPackages [HELIOS-RL-Test]: executing diffoscope
+[2023-07-03 10:51:58] INFO root fetch - processPackages [HELIOS-RL-Test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/HELIOS_RL_Test-0.4.19-py3-none-any.whl.zip tmp/HELIOS_RL_Test-0.4.2-py3-none-any.whl.zip --markdown 20230703/H/HELIOS-RL-Test/0.4.19-0.4.2/diff.md --exclude *.pyd
+[2023-07-03 10:51:58] INFO root fetch - processPackages [HELIOS-RL-Test]: executing diffoscope
+[2023-07-03 10:51:58] INFO root fetch - processPackages [HELIOS-RL-Test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/HELIOS_RL_Test-0.4.19-py3-none-any.whl.zip tmp/HELIOS_RL_Test-0.4.2-py3-none-any.whl.zip --markdown 20230703/H/HELIOS-RL-Test/0.4.19-0.4.2/diff.md --exclude *.pyd
+[2023-07-03 10:51:58] ERROR root fetch - processPackages [HELIOS-RL-Test]: Diffoscope failed: time="2023-07-03T10:51:58+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+/srv/diffoscope/bin/diffoscope: tmp/HELIOS_RL_Test-0.4.19-py3-none-any.whl.zip: No such file or directory
+
+[2023-07-03 10:51:58] INFO root fetch - main [MainThread]: End processing [HELIOS-RL-Test] error
+[2023-07-03 10:51:58] ERROR root fetch - processPackages [HELIOS-RL-Test]: Diffoscope failed: time="2023-07-03T10:51:58+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+/srv/diffoscope/bin/diffoscope: tmp/HELIOS_RL_Test-0.4.19-py3-none-any.whl.zip: No such file or directory
+
+[2023-07-03 10:51:58] INFO root fetch - main [MainThread]: End processing [HELIOS-RL-Test] error
+[2023-07-03 10:51:58] ERROR root fetch - processPackages [HELIOS-RL-Test]: Diffoscope failed: time="2023-07-03T10:51:58+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+/srv/diffoscope/bin/diffoscope: tmp/HELIOS_RL_Test-0.4.19-py3-none-any.whl.zip: No such file or directory
+
+[2023-07-03 10:51:58] INFO root fetch - main [MainThread]: End processing [HELIOS-RL-Test] error
+[2023-07-03 10:51:58] INFO root fetch - main [MainThread]: Store serial: [18736609]
