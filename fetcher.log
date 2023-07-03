@@ -12223,3 +12223,87 @@ AssertionError: tmp/discord-ansi-0.3.tar.gz does not exist
 [2023-07-03 11:13:00] INFO root fetch - processPackages [django-filer]: Remove: archive file [/home/abi/fetcher/tmp/django-filer-3.0.0rc3.tar.gz]
 [2023-07-03 11:13:00] INFO root fetch - main [MainThread]: End processing [django-filer]: success
 [2023-07-03 11:13:00] INFO root fetch - main [MainThread]: Store serial: [18736778]
+[2023-07-03 11:18:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18736778]
+[2023-07-03 11:18:09] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-07-03 11:18:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: delfino-core
+[2023-07-03 11:18:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-stock-inventory
+[2023-07-03 11:18:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pelican-pdf
+[2023-07-03 11:18:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: django-pfx
+[2023-07-03 11:18:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: m-abac-test
+[2023-07-03 11:18:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: woebin-python
+[2023-07-03 11:18:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: leadguru-jobs
+[2023-07-03 11:18:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dolphie
+[2023-07-03 11:18:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: vollseg-napari-trackmate
+[2023-07-03 11:18:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: qxxkey
+[2023-07-03 11:18:09] INFO root fetch - processPackages [vollseg-napari-trackmate]: New version: [2.2.5] Old Version: [2.2.4]
+[2023-07-03 11:18:09] INFO root fetch - processPackages [leadguru-jobs]: New version: [0.99.0] Old Version: [0.98.0]
+[2023-07-03 11:18:09] WARNING root fetch - processPackages [qxxkey]: Skipping, unable to determine old version
+[2023-07-03 11:18:09] INFO root fetch - processPackages [qxxkey]: Start processing: python-dict-display-filter
+[2023-07-03 11:18:09] INFO root fetch - main [MainThread]: End processing [qxxkey] error
+[2023-07-03 11:18:09] WARNING root fetch - processPackages [woebin-python]: Skipping, unable to determine old version
+[2023-07-03 11:18:09] INFO root fetch - main [MainThread]: End processing [woebin-python] error
+[2023-07-03 11:18:09] INFO root fetch - processPackages [delfino-core]: New version: [5.2.0] Old Version: [5.1.1]
+[2023-07-03 11:18:09] INFO root fetch - processPackages [odoo-addon-stock-inventory]: New version: [15.0.1.0.1] Old Version: [15.0.1.0.0.6]
+[2023-07-03 11:18:09] INFO root fetch - processPackages [pelican-pdf]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-07-03 11:18:09] INFO root fetch - processPackages [m-abac-test]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-03 11:18:09] INFO root fetch - processPackages [django-pfx]: New version: [1.2.dev84] Old Version: [1.2.dev82]
+[2023-07-03 11:18:09] WARNING root fetch - processPackages [dolphie]: Skipping, unable to determine old version
+[2023-07-03 11:18:09] INFO root fetch - main [MainThread]: End processing [dolphie] error
+[2023-07-03 11:18:09] INFO root fetch - processPackages [leadguru-jobs]: Downloading https://files.pythonhosted.org/packages/58/0a/904c1f8e92c5b6adf3bf97a755cae87648f67ca82bb52bc30055558e0ce3/leadguru_jobs-0.98.0.tar.gz
+[2023-07-03 11:18:09] INFO root fetch - processPackages [vollseg-napari-trackmate]: Downloading https://files.pythonhosted.org/packages/7c/2b/8ffd622289754876f3ceee455b1f567711514af8440c005c2f0e21c0ae35/vollseg-napari-trackmate-2.2.4.tar.gz
+[2023-07-03 11:18:10] INFO root fetch - processPackages [python-dict-display-filter]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-03 11:18:10] INFO root fetch - processPackages [m-abac-test]: Downloading https://files.pythonhosted.org/packages/09/9a/5bf7c99a4b14d4ee9166517fc845f8ac1538097fb087c74e2055722d9a66/m-abac-test-1.0.8.tar.gz
+[2023-07-03 11:18:10] INFO root fetch - processPackages [python-dict-display-filter]: Downloading https://files.pythonhosted.org/packages/a8/87/0652d4072ae90fa64cb27d83cb605e6acb7f4a3590f6e4a8aa12afc0969b/python-dict-display-filter-0.9.8.tar.gz
+[2023-07-03 11:18:10] INFO root fetch - processPackages [delfino-core]: Downloading https://files.pythonhosted.org/packages/50/83/79a13e468d2bcb81d44680bd6723f63487c924a6152570e0dd7021cd2d26/delfino_core-5.1.1.tar.gz
+[2023-07-03 11:18:10] INFO root fetch - processPackages [odoo-addon-stock-inventory]: Downloading https://files.pythonhosted.org/packages/76/f7/64ec4cb7585e4013889e079b7c15508bce39f964a724ac87046b660004a3/odoo_addon_stock_inventory-15.0.1.0.0.6-py3-none-any.whl
+[2023-07-03 11:18:10] INFO root fetch - processPackages [django-pfx]: Downloading https://files.pythonhosted.org/packages/ec/ab/c06b8befa60f8e02c0894eb6c528bf20b35e78340b3b7245ff75c8928ba0/django-pfx-1.2.dev82.tar.gz
+[2023-07-03 11:18:10] INFO root fetch - processPackages [pelican-pdf]: Downloading https://files.pythonhosted.org/packages/09/ca/db19ae85c212dc3649e462d78fced3105bf903261531fb470437f8964b64/pelican_pdf-1.0.2.tar.gz
+[2023-07-03 11:18:10] INFO root fetch - processPackages [leadguru-jobs]: Downloading https://files.pythonhosted.org/packages/e4/7f/189fe7a4dc1256297dd1956413531652ee35cd4ee527f02aa7f2d608775a/leadguru_jobs-0.99.0.tar.gz
+[2023-07-03 11:18:10] INFO root fetch - processPackages [m-abac-test]: Downloading https://files.pythonhosted.org/packages/a9/d3/8329e6fc7756f703d2c923a04aa565e40a644e0fc7782f2737812aa123a6/m-abac-test-1.0.9.tar.gz
+[2023-07-03 11:18:10] INFO root fetch - processPackages [leadguru-jobs]: executing diffoscope
+[2023-07-03 11:18:10] INFO root fetch - processPackages [leadguru-jobs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leadguru_jobs-0.98.0.tar.gz tmp/leadguru_jobs-0.99.0.tar.gz --markdown 20230703/l/leadguru-jobs/0.98.0-0.99.0/diff.md --exclude *.pyd
+[2023-07-03 11:18:10] INFO root fetch - processPackages [vollseg-napari-trackmate]: Downloading https://files.pythonhosted.org/packages/95/7f/2e459e10ebdbaff6c2ae76b67f620ea92278c17c1a69e1197442ac7adb9e/vollseg-napari-trackmate-2.2.5.tar.gz
+[2023-07-03 11:18:10] INFO root fetch - processPackages [python-dict-display-filter]: Downloading https://files.pythonhosted.org/packages/0a/6e/40a9c38acaf8f3403e34b9b8d1a24fb28463dde5f861744f73bffcd14e26/python-dict-display-filter-0.9.9.tar.gz
+[2023-07-03 11:18:10] INFO root fetch - processPackages [m-abac-test]: executing diffoscope
+[2023-07-03 11:18:10] INFO root fetch - processPackages [m-abac-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/m-abac-test-1.0.8.tar.gz tmp/m-abac-test-1.0.9.tar.gz --markdown 20230703/m/m-abac-test/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-03 11:18:10] INFO root fetch - processPackages [odoo-addon-stock-inventory]: Downloading https://files.pythonhosted.org/packages/b5/f5/b605192a46087f5062ec57980221494774f86cae04b32f1640c241455248/odoo_addon_stock_inventory-15.0.1.0.1-py3-none-any.whl
+[2023-07-03 11:18:10] INFO root fetch - processPackages [django-pfx]: Downloading https://files.pythonhosted.org/packages/f2/2a/3febc39f8913128dd5eb8c8777a2e8cf8c1eed5767469e807446c20d36cc/django-pfx-1.2.dev84.tar.gz
+[2023-07-03 11:18:10] INFO root fetch - processPackages [pelican-pdf]: Downloading https://files.pythonhosted.org/packages/1b/a1/ecab75cd6d62257f0c0e8cb90cdf20e1cc1888956edac7efe7af5b77ed6b/pelican_pdf-1.0.3.tar.gz
+[2023-07-03 11:18:10] INFO root fetch - processPackages [delfino-core]: Downloading https://files.pythonhosted.org/packages/72/ac/139ca6897b6f81301b3ae59458122a026d77e4da1e86f3761473d1a187b4/delfino_core-5.2.0.tar.gz
+[2023-07-03 11:18:10] INFO root fetch - processPackages [django-pfx]: executing diffoscope
+[2023-07-03 11:18:10] INFO root fetch - processPackages [django-pfx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-pfx-1.2.dev82.tar.gz tmp/django-pfx-1.2.dev84.tar.gz --markdown 20230703/d/django-pfx/1.2.dev82-1.2.dev84/diff.md --exclude *.pyd
+[2023-07-03 11:18:10] INFO root fetch - processPackages [odoo-addon-stock-inventory]: executing diffoscope
+[2023-07-03 11:18:10] INFO root fetch - processPackages [odoo-addon-stock-inventory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_stock_inventory-15.0.1.0.0.6-py3-none-any.whl.zip tmp/odoo_addon_stock_inventory-15.0.1.0.1-py3-none-any.whl.zip --markdown 20230703/o/odoo-addon-stock-inventory/15.0.1.0.0.6-15.0.1.0.1/diff.md --exclude *.pyd
+[2023-07-03 11:18:10] INFO root fetch - processPackages [pelican-pdf]: executing diffoscope
+[2023-07-03 11:18:10] INFO root fetch - processPackages [pelican-pdf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pelican_pdf-1.0.2.tar.gz tmp/pelican_pdf-1.0.3.tar.gz --markdown 20230703/p/pelican-pdf/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-07-03 11:18:10] INFO root fetch - processPackages [delfino-core]: executing diffoscope
+[2023-07-03 11:18:10] INFO root fetch - processPackages [delfino-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/delfino_core-5.1.1.tar.gz tmp/delfino_core-5.2.0.tar.gz --markdown 20230703/d/delfino-core/5.1.1-5.2.0/diff.md --exclude *.pyd
+[2023-07-03 11:18:10] INFO root fetch - processPackages [python-dict-display-filter]: executing diffoscope
+[2023-07-03 11:18:10] INFO root fetch - processPackages [python-dict-display-filter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-dict-display-filter-0.9.8.tar.gz tmp/python-dict-display-filter-0.9.9.tar.gz --markdown 20230703/p/python-dict-display-filter/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-03 11:18:11] INFO root fetch - processPackages [vollseg-napari-trackmate]: executing diffoscope
+[2023-07-03 11:18:11] INFO root fetch - processPackages [vollseg-napari-trackmate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vollseg-napari-trackmate-2.2.4.tar.gz tmp/vollseg-napari-trackmate-2.2.5.tar.gz --markdown 20230703/v/vollseg-napari-trackmate/2.2.4-2.2.5/diff.md --exclude *.pyd
+[2023-07-03 11:18:11] INFO root fetch - processPackages [leadguru-jobs]: Remove: archive file [/home/abi/fetcher/tmp/leadguru_jobs-0.98.0.tar.gz]
+[2023-07-03 11:18:11] INFO root fetch - processPackages [leadguru-jobs]: Remove: archive file [/home/abi/fetcher/tmp/leadguru_jobs-0.99.0.tar.gz]
+[2023-07-03 11:18:12] INFO root fetch - main [MainThread]: End processing [leadguru-jobs]: success
+[2023-07-03 11:18:12] INFO root fetch - processPackages [pelican-pdf]: Remove: archive file [/home/abi/fetcher/tmp/pelican_pdf-1.0.2.tar.gz]
+[2023-07-03 11:18:12] INFO root fetch - processPackages [pelican-pdf]: Remove: archive file [/home/abi/fetcher/tmp/pelican_pdf-1.0.3.tar.gz]
+[2023-07-03 11:18:12] INFO root fetch - main [MainThread]: End processing [pelican-pdf]: success
+[2023-07-03 11:18:12] INFO root fetch - processPackages [python-dict-display-filter]: Remove: archive file [/home/abi/fetcher/tmp/python-dict-display-filter-0.9.8.tar.gz]
+[2023-07-03 11:18:12] INFO root fetch - processPackages [python-dict-display-filter]: Remove: archive file [/home/abi/fetcher/tmp/python-dict-display-filter-0.9.9.tar.gz]
+[2023-07-03 11:18:12] INFO root fetch - main [MainThread]: End processing [python-dict-display-filter]: success
+[2023-07-03 11:18:12] INFO root fetch - processPackages [m-abac-test]: Remove: archive file [/home/abi/fetcher/tmp/m-abac-test-1.0.8.tar.gz]
+[2023-07-03 11:18:12] INFO root fetch - processPackages [m-abac-test]: Remove: archive file [/home/abi/fetcher/tmp/m-abac-test-1.0.9.tar.gz]
+[2023-07-03 11:18:12] INFO root fetch - main [MainThread]: End processing [m-abac-test]: success
+[2023-07-03 11:18:12] INFO root fetch - processPackages [odoo-addon-stock-inventory]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_inventory-15.0.1.0.0.6-py3-none-any.whl.zip]
+[2023-07-03 11:18:12] INFO root fetch - processPackages [odoo-addon-stock-inventory]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_inventory-15.0.1.0.1-py3-none-any.whl.zip]
+[2023-07-03 11:18:12] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-inventory]: success
+[2023-07-03 11:18:12] INFO root fetch - processPackages [delfino-core]: Remove: archive file [/home/abi/fetcher/tmp/delfino_core-5.1.1.tar.gz]
+[2023-07-03 11:18:12] INFO root fetch - processPackages [delfino-core]: Remove: archive file [/home/abi/fetcher/tmp/delfino_core-5.2.0.tar.gz]
+[2023-07-03 11:18:12] INFO root fetch - main [MainThread]: End processing [delfino-core]: success
+[2023-07-03 11:18:12] INFO root fetch - processPackages [django-pfx]: Remove: archive file [/home/abi/fetcher/tmp/django-pfx-1.2.dev82.tar.gz]
+[2023-07-03 11:18:12] INFO root fetch - processPackages [django-pfx]: Remove: archive file [/home/abi/fetcher/tmp/django-pfx-1.2.dev84.tar.gz]
+[2023-07-03 11:18:12] INFO root fetch - main [MainThread]: End processing [django-pfx]: success
+[2023-07-03 11:18:13] INFO root fetch - processPackages [vollseg-napari-trackmate]: Remove: archive file [/home/abi/fetcher/tmp/vollseg-napari-trackmate-2.2.4.tar.gz]
+[2023-07-03 11:18:13] INFO root fetch - processPackages [vollseg-napari-trackmate]: Remove: archive file [/home/abi/fetcher/tmp/vollseg-napari-trackmate-2.2.5.tar.gz]
+[2023-07-03 11:18:13] INFO root fetch - main [MainThread]: End processing [vollseg-napari-trackmate]: success
+[2023-07-03 11:18:13] INFO root fetch - main [MainThread]: Store serial: [18736825]
