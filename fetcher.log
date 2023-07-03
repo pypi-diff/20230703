@@ -5735,3 +5735,84 @@
 [2023-07-03 04:42:14] INFO root fetch - main [MainThread]: End processing [deduplicationdict]: success
 [2023-07-03 04:42:14] INFO root fetch - main [MainThread]: End processing [pysqlite2liberyV1]: success
 [2023-07-03 04:42:14] INFO root fetch - main [MainThread]: Store serial: [18734122]
+[2023-07-03 04:47:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18734122]
+[2023-07-03 04:47:23] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-03 04:47:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: yapw
+[2023-07-03 04:47:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: concept-x-converter
+[2023-07-03 04:47:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk8s-plus-25
+[2023-07-03 04:47:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pepperize.cdk-autoscaling-gitlab-runner
+[2023-07-03 04:47:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdk8s-plus-26
+[2023-07-03 04:47:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: naif-eop-high-prec
+[2023-07-03 04:47:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: jacktest
+[2023-07-03 04:47:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dank-mids
+[2023-07-03 04:47:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: folder-structure-generator
+[2023-07-03 04:47:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: idoctorai
+[2023-07-03 04:47:23] INFO root fetch - processPackages [concept-x-converter]: New version: [0.3.5] Old Version: [0.3.4]
+[2023-07-03 04:47:23] INFO root fetch - processPackages [naif-eop-high-prec]: New version: [2023.7.2] Old Version: [2023.7.1]
+[2023-07-03 04:47:23] INFO root fetch - processPackages [idoctorai]: New version: [0.6.3] Old Version: [0.6.2]
+[2023-07-03 04:47:23] WARNING root fetch - processPackages [folder-structure-generator]: Skipping, unable to determine old version
+[2023-07-03 04:47:23] INFO root fetch - main [MainThread]: End processing [folder-structure-generator] error
+[2023-07-03 04:47:23] INFO root fetch - processPackages [cdk8s-plus-25]: New version: [2.8.9] Old Version: [2.8.8]
+[2023-07-03 04:47:23] INFO root fetch - processPackages [cdk8s-plus-26]: New version: [2.4.9] Old Version: [2.4.8]
+[2023-07-03 04:47:23] INFO root fetch - processPackages [concept-x-converter]: Downloading https://files.pythonhosted.org/packages/bc/39/3677b95b069cccc43260d50a3f4447a13d4588bf4f9eeef7fadc6dea25df/concept_x_converter-0.3.4-cp37-abi3-win_amd64.whl
+[2023-07-03 04:47:23] INFO root fetch - processPackages [idoctorai]: Downloading https://files.pythonhosted.org/packages/82/9b/0acfa4795dcf676e14cc340331263fd623b1756e32f3a4d72529ccfde0d7/idoctorai-0.6.2.tar.gz
+[2023-07-03 04:47:23] INFO root fetch - processPackages [yapw]: New version: [0.1.0] Old Version: [0.0.9]
+[2023-07-03 04:47:23] INFO root fetch - processPackages [naif-eop-high-prec]: Downloading https://files.pythonhosted.org/packages/cb/3b/1a56894beca28d25bea06446664c669924eaf5c4041d52f442aeb7e864eb/naif_eop_high_prec-2023.7.1.tar.gz
+[2023-07-03 04:47:23] INFO root fetch - processPackages [cdk8s-plus-25]: Downloading https://files.pythonhosted.org/packages/19/05/30d98744c3813d678438d1f164dc4db8972da2ff34d40fc7d3a6492d5cc8/cdk8s-plus-25-2.8.8.tar.gz
+[2023-07-03 04:47:23] INFO root fetch - processPackages [cdk8s-plus-26]: Downloading https://files.pythonhosted.org/packages/6b/c4/ca78f2534fcd6fa938f5b5afdce2bc5d4b2e4aca2bd70a7a76993d55cb1a/cdk8s-plus-26-2.4.8.tar.gz
+[2023-07-03 04:47:23] WARNING root fetch - processPackages [jacktest]: Skipping, unable to determine old version
+[2023-07-03 04:47:23] INFO root fetch - main [MainThread]: End processing [jacktest] error
+[2023-07-03 04:47:23] INFO root fetch - processPackages [dank-mids]: New version: [4.20.9] Old Version: [4.20.8]
+[2023-07-03 04:47:24] INFO root fetch - processPackages [idoctorai]: Downloading https://files.pythonhosted.org/packages/2d/72/f629c7570a193b97ee26fb8a016259441759bac0152ec7ed6a1c384054e2/idoctorai-0.6.3.tar.gz
+[2023-07-03 04:47:24] INFO root fetch - processPackages [concept-x-converter]: Downloading https://files.pythonhosted.org/packages/63/18/614ae82c72dc769eb5414e7339b20ff3d1cf4197bf7341a59deb4fc508f8/concept_x_converter-0.3.5-cp37-abi3-win_amd64.whl
+[2023-07-03 04:47:24] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: New version: [0.2.99] Old Version: [0.2.98]
+[2023-07-03 04:47:24] INFO root fetch - processPackages [concept-x-converter]: executing diffoscope
+[2023-07-03 04:47:24] INFO root fetch - processPackages [concept-x-converter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/concept_x_converter-0.3.4-cp37-abi3-win_amd64.whl.zip tmp/concept_x_converter-0.3.5-cp37-abi3-win_amd64.whl.zip --markdown 20230703/c/concept-x-converter/0.3.4-0.3.5/diff.md --exclude *.pyd
+[2023-07-03 04:47:24] INFO root fetch - processPackages [cdk8s-plus-26]: Downloading https://files.pythonhosted.org/packages/20/3d/a3b8eeb4f101c4c0e5eec995ea1c102412a861b81c18eee0d10bad4570fb/cdk8s-plus-26-2.4.9.tar.gz
+[2023-07-03 04:47:24] INFO root fetch - processPackages [cdk8s-plus-25]: Downloading https://files.pythonhosted.org/packages/79/f6/d6bb21b3e8c3f61cefbc6cfb377c23ba65b57440ab1bd217fa176e0b9df7/cdk8s-plus-25-2.8.9.tar.gz
+[2023-07-03 04:47:24] INFO root fetch - processPackages [yapw]: Downloading https://files.pythonhosted.org/packages/2e/6c/0c2690cd9cc182d00ff90386dfde8ea26c0ed52c3f90778fee9669d0d918/yapw-0.0.9.tar.gz
+[2023-07-03 04:47:24] INFO root fetch - processPackages [cdk8s-plus-26]: executing diffoscope
+[2023-07-03 04:47:24] INFO root fetch - processPackages [cdk8s-plus-26]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-plus-26-2.4.8.tar.gz tmp/cdk8s-plus-26-2.4.9.tar.gz --markdown 20230703/c/cdk8s-plus-26/2.4.8-2.4.9/diff.md --exclude *.pyd
+[2023-07-03 04:47:24] INFO root fetch - processPackages [idoctorai]: executing diffoscope
+[2023-07-03 04:47:24] INFO root fetch - processPackages [idoctorai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idoctorai-0.6.2.tar.gz tmp/idoctorai-0.6.3.tar.gz --markdown 20230703/i/idoctorai/0.6.2-0.6.3/diff.md --exclude *.pyd
+[2023-07-03 04:47:24] INFO root fetch - processPackages [dank-mids]: Downloading https://files.pythonhosted.org/packages/dd/d9/a90cdebb46db5a35fe035f493b14d48e210491b568f4927af7919ab2fdbd/dank_mids-4.20.8.tar.gz
+[2023-07-03 04:47:24] INFO root fetch - processPackages [cdk8s-plus-25]: executing diffoscope
+[2023-07-03 04:47:24] INFO root fetch - processPackages [cdk8s-plus-25]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-plus-25-2.8.8.tar.gz tmp/cdk8s-plus-25-2.8.9.tar.gz --markdown 20230703/c/cdk8s-plus-25/2.8.8-2.8.9/diff.md --exclude *.pyd
+[2023-07-03 04:47:24] INFO root fetch - processPackages [yapw]: Downloading https://files.pythonhosted.org/packages/c4/5b/81414d0bc4c50122a65f7741b2f85b8cdb6b2a9d634ea2237e758c48b57d/yapw-0.1.0.tar.gz
+[2023-07-03 04:47:24] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/20/7a/1cf95cd827a5bc2353d4a04fac9ad2282341306d1871323109bc1fcdc1bf/pepperize.cdk-autoscaling-gitlab-runner-0.2.98.tar.gz
+[2023-07-03 04:47:24] INFO root fetch - processPackages [dank-mids]: Downloading https://files.pythonhosted.org/packages/e9/d0/a0c6c8d2d154a0250f47b30968e60098b0d44d3b35571e97a925b9b3984f/dank_mids-4.20.9.tar.gz
+[2023-07-03 04:47:24] INFO root fetch - processPackages [dank-mids]: executing diffoscope
+[2023-07-03 04:47:24] INFO root fetch - processPackages [dank-mids]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dank_mids-4.20.8.tar.gz tmp/dank_mids-4.20.9.tar.gz --markdown 20230703/d/dank-mids/4.20.8-4.20.9/diff.md --exclude *.pyd
+[2023-07-03 04:47:24] INFO root fetch - processPackages [naif-eop-high-prec]: Downloading https://files.pythonhosted.org/packages/21/d1/68783c5c05936898ed7a5c929ff1c0d36c2eedf903c9c9b4728cb9b6e9de/naif_eop_high_prec-2023.7.2.tar.gz
+[2023-07-03 04:47:24] INFO root fetch - processPackages [yapw]: executing diffoscope
+[2023-07-03 04:47:24] INFO root fetch - processPackages [yapw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yapw-0.0.9.tar.gz tmp/yapw-0.1.0.tar.gz --markdown 20230703/y/yapw/0.0.9-0.1.0/diff.md --exclude *.pyd
+[2023-07-03 04:47:24] INFO root fetch - processPackages [naif-eop-high-prec]: executing diffoscope
+[2023-07-03 04:47:24] INFO root fetch - processPackages [naif-eop-high-prec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/naif_eop_high_prec-2023.7.1.tar.gz tmp/naif_eop_high_prec-2023.7.2.tar.gz --markdown 20230703/n/naif-eop-high-prec/2023.7.1-2023.7.2/diff.md --exclude *.pyd
+[2023-07-03 04:47:24] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/a1/02/a44f26db0508904ac5d6e70c575bf20e4f99ab1df68dad57967a57b3a117/pepperize.cdk-autoscaling-gitlab-runner-0.2.99.tar.gz
+[2023-07-03 04:47:24] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: executing diffoscope
+[2023-07-03 04:47:24] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-autoscaling-gitlab-runner-0.2.98.tar.gz tmp/pepperize.cdk-autoscaling-gitlab-runner-0.2.99.tar.gz --markdown 20230703/p/pepperize.cdk-autoscaling-gitlab-runner/0.2.98-0.2.99/diff.md --exclude *.pyd
+[2023-07-03 04:47:25] INFO root fetch - processPackages [concept-x-converter]: Remove: archive file [/home/abi/fetcher/tmp/concept_x_converter-0.3.4-cp37-abi3-win_amd64.whl.zip]
+[2023-07-03 04:47:25] INFO root fetch - processPackages [concept-x-converter]: Remove: archive file [/home/abi/fetcher/tmp/concept_x_converter-0.3.5-cp37-abi3-win_amd64.whl.zip]
+[2023-07-03 04:47:25] INFO root fetch - main [MainThread]: End processing [concept-x-converter]: success
+[2023-07-03 04:47:25] INFO root fetch - processPackages [dank-mids]: Remove: archive file [/home/abi/fetcher/tmp/dank_mids-4.20.8.tar.gz]
+[2023-07-03 04:47:25] INFO root fetch - processPackages [dank-mids]: Remove: archive file [/home/abi/fetcher/tmp/dank_mids-4.20.9.tar.gz]
+[2023-07-03 04:47:25] INFO root fetch - main [MainThread]: End processing [dank-mids]: success
+[2023-07-03 04:47:25] INFO root fetch - processPackages [yapw]: Remove: archive file [/home/abi/fetcher/tmp/yapw-0.0.9.tar.gz]
+[2023-07-03 04:47:25] INFO root fetch - processPackages [yapw]: Remove: archive file [/home/abi/fetcher/tmp/yapw-0.1.0.tar.gz]
+[2023-07-03 04:47:25] INFO root fetch - main [MainThread]: End processing [yapw]: success
+[2023-07-03 04:47:25] INFO root fetch - processPackages [idoctorai]: Remove: archive file [/home/abi/fetcher/tmp/idoctorai-0.6.2.tar.gz]
+[2023-07-03 04:47:25] INFO root fetch - processPackages [idoctorai]: Remove: archive file [/home/abi/fetcher/tmp/idoctorai-0.6.3.tar.gz]
+[2023-07-03 04:47:25] INFO root fetch - main [MainThread]: End processing [idoctorai]: success
+[2023-07-03 04:47:26] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-autoscaling-gitlab-runner-0.2.98.tar.gz]
+[2023-07-03 04:47:26] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-autoscaling-gitlab-runner-0.2.99.tar.gz]
+[2023-07-03 04:47:26] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-autoscaling-gitlab-runner]: success
+[2023-07-03 04:47:26] INFO root fetch - processPackages [cdk8s-plus-26]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-26-2.4.8.tar.gz]
+[2023-07-03 04:47:26] INFO root fetch - processPackages [cdk8s-plus-26]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-26-2.4.9.tar.gz]
+[2023-07-03 04:47:26] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-26]: success
+[2023-07-03 04:47:27] INFO root fetch - processPackages [cdk8s-plus-25]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-25-2.8.8.tar.gz]
+[2023-07-03 04:47:27] INFO root fetch - processPackages [cdk8s-plus-25]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-25-2.8.9.tar.gz]
+[2023-07-03 04:47:27] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-25]: success
+[2023-07-03 04:47:29] INFO root fetch - processPackages [naif-eop-high-prec]: Remove: archive file [/home/abi/fetcher/tmp/naif_eop_high_prec-2023.7.1.tar.gz]
+[2023-07-03 04:47:29] INFO root fetch - processPackages [naif-eop-high-prec]: Remove: archive file [/home/abi/fetcher/tmp/naif_eop_high_prec-2023.7.2.tar.gz]
+[2023-07-03 04:47:29] INFO root fetch - main [MainThread]: End processing [naif-eop-high-prec]: success
+[2023-07-03 04:47:29] INFO root fetch - main [MainThread]: Store serial: [18734162]
