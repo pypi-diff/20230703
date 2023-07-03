@@ -7374,3 +7374,72 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-03 07:03:42] INFO root fetch - processPackages [line-bot-sdk]: Remove: archive file [/home/abi/fetcher/tmp/line-bot-sdk-3.0.2.tar.gz]
 [2023-07-03 07:03:42] INFO root fetch - main [MainThread]: End processing [line-bot-sdk]: success
 [2023-07-03 07:03:42] INFO root fetch - main [MainThread]: Store serial: [18734797]
+[2023-07-03 07:08:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18734797]
+[2023-07-03 07:08:51] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-03 07:08:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nemo-library
+[2023-07-03 07:08:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rapid-pe
+[2023-07-03 07:08:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: zcmds
+[2023-07-03 07:08:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gaohn-common-utils
+[2023-07-03 07:08:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: multi-model-server
+[2023-07-03 07:08:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: python-vercel-kv
+[2023-07-03 07:08:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dask-cuda
+[2023-07-03 07:08:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: venvmgr
+[2023-07-03 07:08:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tflite-model-maker-nightly
+[2023-07-03 07:08:51] INFO root fetch - processPackages [tflite-model-maker-nightly]: New version: [0.4.3.dev202307020508] Old Version: [0.4.3.dev202307010509]
+[2023-07-03 07:08:51] INFO root fetch - processPackages [multi-model-server]: New version: [1.1.9b20230601] Old Version: [1.1.9]
+[2023-07-03 07:08:51] INFO root fetch - processPackages [rapid-pe]: New version: [0.1.1.dev20230702] Old Version: [0.1.1.dev20230701]
+[2023-07-03 07:08:51] INFO root fetch - processPackages [dask-cuda]: New version: [23.8.0a230702] Old Version: [23.8.0a230701]
+[2023-07-03 07:08:51] WARNING root fetch - processPackages [venvmgr]: Skipping, unable to determine old version
+[2023-07-03 07:08:51] INFO root fetch - main [MainThread]: End processing [venvmgr] error
+[2023-07-03 07:08:51] WARNING root fetch - processPackages [python-vercel-kv]: Skipping, unable to determine old version
+[2023-07-03 07:08:51] INFO root fetch - main [MainThread]: End processing [python-vercel-kv] error
+[2023-07-03 07:08:51] INFO root fetch - processPackages [nemo-library]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-03 07:08:51] INFO root fetch - processPackages [gaohn-common-utils]: New version: [0.0.87] Old Version: [0.0.86]
+[2023-07-03 07:08:51] INFO root fetch - processPackages [tflite-model-maker-nightly]: Downloading https://files.pythonhosted.org/packages/b5/46/4e740f3b4263f36dce3ff51d8ba994386acd241af7f3cd9658ecd3d2c528/tflite-model-maker-nightly-0.4.3.dev202307010509.tar.gz
+[2023-07-03 07:08:51] INFO root fetch - processPackages [zcmds]: New version: [1.4.9] Old Version: [1.4.8]
+[2023-07-03 07:08:51] INFO root fetch - processPackages [rapid-pe]: Downloading https://files.pythonhosted.org/packages/8e/72/91e1f77fd84536dd7c88f29f35b845d427433eee78b48260b1f3e6824d32/rapid_pe-0.1.1.dev20230701.tar.gz
+[2023-07-03 07:08:51] INFO root fetch - processPackages [dask-cuda]: Downloading https://files.pythonhosted.org/packages/ca/36/6fe2f803b769d22016bc33cce4f22d1561330309ed960f4f9dd1a8f2179a/dask-cuda-23.8.0a230701.tar.gz
+[2023-07-03 07:08:51] INFO root fetch - processPackages [multi-model-server]: executing diffoscope
+[2023-07-03 07:08:51] INFO root fetch - processPackages [multi-model-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multi_model_server-1.1.9-py2.py3-none-any.whl.zip tmp/multi_model_server-1.1.9b20230601-py2.py3-none-any.whl.zip --markdown 20230703/m/multi-model-server/1.1.9-1.1.9b20230601/diff.md --exclude *.pyd
+[2023-07-03 07:08:51] INFO root fetch - processPackages [gaohn-common-utils]: Downloading https://files.pythonhosted.org/packages/b5/48/6f1ea9e3b89e3646eeae50bd67b3fce8e9bff8f355073030542dfd7e98db/gaohn-common-utils-0.0.86.tar.gz
+[2023-07-03 07:08:51] INFO root fetch - processPackages [dask-cuda]: Downloading https://files.pythonhosted.org/packages/3a/20/e59c5ee2bb76324de82641dda80757788c4da3ea7ed08413b9107abb903b/dask-cuda-23.8.0a230702.tar.gz
+[2023-07-03 07:08:51] INFO root fetch - processPackages [nemo-library]: Downloading https://files.pythonhosted.org/packages/96/21/8535415cc9cc8917f162abf7b1da0fcb05f7bd27055ddb39595fec13e2ce/nemo_library-1.0.8.tar.gz
+[2023-07-03 07:08:51] INFO root fetch - processPackages [zcmds]: Downloading https://files.pythonhosted.org/packages/cf/85/6745bf792d3dace88b4a0cfba4bf8c74d34157be8f84838613c74637f6a0/zcmds-1.4.8.tar.gz
+[2023-07-03 07:08:51] INFO root fetch - processPackages [rapid-pe]: Downloading https://files.pythonhosted.org/packages/fd/a3/6d00bc670cf9a9a9aef65e9a9bca25ae1fe21b2994183debb4ad7dc7b0e1/rapid_pe-0.1.1.dev20230702.tar.gz
+[2023-07-03 07:08:52] INFO root fetch - processPackages [dask-cuda]: executing diffoscope
+[2023-07-03 07:08:52] INFO root fetch - processPackages [dask-cuda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dask-cuda-23.8.0a230701.tar.gz tmp/dask-cuda-23.8.0a230702.tar.gz --markdown 20230703/d/dask-cuda/23.8.0a230701-23.8.0a230702/diff.md --exclude *.pyd
+[2023-07-03 07:08:52] INFO root fetch - processPackages [tflite-model-maker-nightly]: Downloading https://files.pythonhosted.org/packages/72/d5/8ee9e4cddfb653a7f21c844ddb61a67aa867b97dadd44a84187229947872/tflite-model-maker-nightly-0.4.3.dev202307020508.tar.gz
+[2023-07-03 07:08:52] INFO root fetch - processPackages [rapid-pe]: executing diffoscope
+[2023-07-03 07:08:52] INFO root fetch - processPackages [rapid-pe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rapid_pe-0.1.1.dev20230701.tar.gz tmp/rapid_pe-0.1.1.dev20230702.tar.gz --markdown 20230703/r/rapid-pe/0.1.1.dev20230701-0.1.1.dev20230702/diff.md --exclude *.pyd
+[2023-07-03 07:08:52] INFO root fetch - processPackages [gaohn-common-utils]: Downloading https://files.pythonhosted.org/packages/7a/d3/4718e3a4e1d8a444cf6969f783176366c8c5e7a8243cc408f8ac64cfce59/gaohn-common-utils-0.0.87.tar.gz
+[2023-07-03 07:08:52] INFO root fetch - processPackages [tflite-model-maker-nightly]: executing diffoscope
+[2023-07-03 07:08:52] INFO root fetch - processPackages [tflite-model-maker-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tflite-model-maker-nightly-0.4.3.dev202307010509.tar.gz tmp/tflite-model-maker-nightly-0.4.3.dev202307020508.tar.gz --markdown 20230703/t/tflite-model-maker-nightly/0.4.3.dev202307010509-0.4.3.dev202307020508/diff.md --exclude *.pyd
+[2023-07-03 07:08:52] INFO root fetch - processPackages [nemo-library]: Downloading https://files.pythonhosted.org/packages/1c/ac/14ae2f7f8a4d99ed894b1c19114aff87c84d1136565a92f2d179daa6499f/nemo_library-1.0.9.tar.gz
+[2023-07-03 07:08:52] INFO root fetch - processPackages [zcmds]: Downloading https://files.pythonhosted.org/packages/ee/c7/785afe3eb6342eebc74522af1d496ca09cf10ab8aab660d94d91cfbef640/zcmds-1.4.9.tar.gz
+[2023-07-03 07:08:52] INFO root fetch - processPackages [zcmds]: executing diffoscope
+[2023-07-03 07:08:52] INFO root fetch - processPackages [zcmds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zcmds-1.4.8.tar.gz tmp/zcmds-1.4.9.tar.gz --markdown 20230703/z/zcmds/1.4.8-1.4.9/diff.md --exclude *.pyd
+[2023-07-03 07:08:52] INFO root fetch - processPackages [gaohn-common-utils]: executing diffoscope
+[2023-07-03 07:08:52] INFO root fetch - processPackages [gaohn-common-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gaohn-common-utils-0.0.86.tar.gz tmp/gaohn-common-utils-0.0.87.tar.gz --markdown 20230703/g/gaohn-common-utils/0.0.86-0.0.87/diff.md --exclude *.pyd
+[2023-07-03 07:08:52] INFO root fetch - processPackages [nemo-library]: executing diffoscope
+[2023-07-03 07:08:52] INFO root fetch - processPackages [nemo-library]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nemo_library-1.0.8.tar.gz tmp/nemo_library-1.0.9.tar.gz --markdown 20230703/n/nemo-library/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-03 07:08:53] INFO root fetch - processPackages [rapid-pe]: Remove: archive file [/home/abi/fetcher/tmp/rapid_pe-0.1.1.dev20230701.tar.gz]
+[2023-07-03 07:08:53] INFO root fetch - processPackages [rapid-pe]: Remove: archive file [/home/abi/fetcher/tmp/rapid_pe-0.1.1.dev20230702.tar.gz]
+[2023-07-03 07:08:53] INFO root fetch - main [MainThread]: End processing [rapid-pe]: success
+[2023-07-03 07:08:53] INFO root fetch - processPackages [dask-cuda]: Remove: archive file [/home/abi/fetcher/tmp/dask-cuda-23.8.0a230701.tar.gz]
+[2023-07-03 07:08:53] INFO root fetch - processPackages [dask-cuda]: Remove: archive file [/home/abi/fetcher/tmp/dask-cuda-23.8.0a230702.tar.gz]
+[2023-07-03 07:08:53] INFO root fetch - main [MainThread]: End processing [dask-cuda]: success
+[2023-07-03 07:08:53] INFO root fetch - processPackages [nemo-library]: Remove: archive file [/home/abi/fetcher/tmp/nemo_library-1.0.8.tar.gz]
+[2023-07-03 07:08:53] INFO root fetch - processPackages [nemo-library]: Remove: archive file [/home/abi/fetcher/tmp/nemo_library-1.0.9.tar.gz]
+[2023-07-03 07:08:53] INFO root fetch - main [MainThread]: End processing [nemo-library]: success
+[2023-07-03 07:08:53] INFO root fetch - processPackages [gaohn-common-utils]: Remove: archive file [/home/abi/fetcher/tmp/gaohn-common-utils-0.0.86.tar.gz]
+[2023-07-03 07:08:53] INFO root fetch - processPackages [gaohn-common-utils]: Remove: archive file [/home/abi/fetcher/tmp/gaohn-common-utils-0.0.87.tar.gz]
+[2023-07-03 07:08:53] INFO root fetch - main [MainThread]: End processing [gaohn-common-utils]: success
+[2023-07-03 07:08:53] INFO root fetch - processPackages [zcmds]: Remove: archive file [/home/abi/fetcher/tmp/zcmds-1.4.8.tar.gz]
+[2023-07-03 07:08:53] INFO root fetch - processPackages [zcmds]: Remove: archive file [/home/abi/fetcher/tmp/zcmds-1.4.9.tar.gz]
+[2023-07-03 07:08:53] INFO root fetch - main [MainThread]: End processing [zcmds]: success
+[2023-07-03 07:08:55] INFO root fetch - processPackages [tflite-model-maker-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tflite-model-maker-nightly-0.4.3.dev202307010509.tar.gz]
+[2023-07-03 07:08:55] INFO root fetch - processPackages [tflite-model-maker-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tflite-model-maker-nightly-0.4.3.dev202307020508.tar.gz]
+[2023-07-03 07:08:55] INFO root fetch - main [MainThread]: End processing [tflite-model-maker-nightly]: success
+[2023-07-03 07:11:51] ERROR root fetch - processPackages [multi-model-server]: Timeout during execution of pkgdiff
+[2023-07-03 07:11:51] INFO root fetch - main [MainThread]: End processing [multi-model-server] error
+[2023-07-03 07:11:51] INFO root fetch - main [MainThread]: Store serial: [18734827]
