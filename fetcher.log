@@ -6616,3 +6616,39 @@
 [2023-07-03 05:51:50] INFO root fetch - processPackages [gravitorch]: Remove: archive file [/home/abi/fetcher/tmp/gravitorch-0.0.9.tar.gz]
 [2023-07-03 05:51:50] INFO root fetch - main [MainThread]: End processing [gravitorch]: success
 [2023-07-03 05:51:50] INFO root fetch - main [MainThread]: Store serial: [18734470]
+[2023-07-03 05:56:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18734470]
+[2023-07-03 05:56:59] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-03 05:56:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dank-mids
+[2023-07-03 05:56:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: megfile
+[2023-07-03 05:56:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: RamseyTheoryRL
+[2023-07-03 05:56:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: policyengine-us
+[2023-07-03 05:56:59] INFO root fetch - processPackages [RamseyTheoryRL]: New version: [0.61] Old Version: [0.6]
+[2023-07-03 05:56:59] INFO root fetch - processPackages [dank-mids]: New version: [4.20.9] Old Version: [4.20.8]
+[2023-07-03 05:56:59] INFO root fetch - processPackages [megfile]: New version: [2.1.1] Old Version: [2.1.0]
+[2023-07-03 05:56:59] INFO root fetch - processPackages [policyengine-us]: New version: [0.348.2] Old Version: [0.348.1]
+[2023-07-03 05:56:59] INFO root fetch - processPackages [dank-mids]: Downloading https://files.pythonhosted.org/packages/dd/d9/a90cdebb46db5a35fe035f493b14d48e210491b568f4927af7919ab2fdbd/dank_mids-4.20.8.tar.gz
+[2023-07-03 05:56:59] INFO root fetch - processPackages [RamseyTheoryRL]: Downloading https://files.pythonhosted.org/packages/15/5e/c41824ffce67bda0ff20b2c66e4b7ce4112a22e308809a68eb5ff73b9c31/RamseyTheoryRL-0.6.tar.gz
+[2023-07-03 05:56:59] INFO root fetch - processPackages [policyengine-us]: Downloading https://files.pythonhosted.org/packages/97/d1/ed57b26ae4a81bf2305103d607e1fc6d3112ed3b7eac59d25b121462611d/policyengine-us-0.348.1.tar.gz
+[2023-07-03 05:56:59] INFO root fetch - processPackages [megfile]: Downloading https://files.pythonhosted.org/packages/48/bd/1c79d699c84d45e5e424ac78db4b597eeff59cdd9f52de7b6ec66daccf9d/megfile-2.1.0-py3-none-any.whl
+[2023-07-03 05:56:59] INFO root fetch - processPackages [dank-mids]: Downloading https://files.pythonhosted.org/packages/e9/d0/a0c6c8d2d154a0250f47b30968e60098b0d44d3b35571e97a925b9b3984f/dank_mids-4.20.9.tar.gz
+[2023-07-03 05:56:59] INFO root fetch - processPackages [dank-mids]: executing diffoscope
+[2023-07-03 05:56:59] INFO root fetch - processPackages [dank-mids]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dank_mids-4.20.8.tar.gz tmp/dank_mids-4.20.9.tar.gz --markdown 20230703/d/dank-mids/4.20.8-4.20.9/diff.md --exclude *.pyd
+[2023-07-03 05:56:59] INFO root fetch - processPackages [RamseyTheoryRL]: Downloading https://files.pythonhosted.org/packages/9b/4c/3dc4e8bd3e31d8ed520d81388db5265ad63c0a5d1c7a758cd5704f98f415/RamseyTheoryRL-0.61.tar.gz
+[2023-07-03 05:56:59] INFO root fetch - processPackages [policyengine-us]: Downloading https://files.pythonhosted.org/packages/95/ed/8349207be40517c5f75115e15d79d652dc1ca28aa6ec9656d80342bb0d26/policyengine-us-0.348.2.tar.gz
+[2023-07-03 05:56:59] INFO root fetch - processPackages [megfile]: Downloading https://files.pythonhosted.org/packages/21/4e/659f3a0841109cc8c048adc231fe8e8e45173f28a88c6d29c23fd67d9811/megfile-2.1.1-py3-none-any.whl
+[2023-07-03 05:56:59] WARNING root fetch - processPackages [RamseyTheoryRL]: Skipping package: exceeds size limit 12008632>=10485760
+[2023-07-03 05:56:59] INFO root fetch - main [MainThread]: End processing [RamseyTheoryRL] error
+[2023-07-03 05:56:59] INFO root fetch - processPackages [megfile]: executing diffoscope
+[2023-07-03 05:56:59] INFO root fetch - processPackages [megfile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/megfile-2.1.0-py3-none-any.whl.zip tmp/megfile-2.1.1-py3-none-any.whl.zip --markdown 20230703/m/megfile/2.1.0-2.1.1/diff.md --exclude *.pyd
+[2023-07-03 05:56:59] INFO root fetch - processPackages [policyengine-us]: executing diffoscope
+[2023-07-03 05:56:59] INFO root fetch - processPackages [policyengine-us]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/policyengine-us-0.348.1.tar.gz tmp/policyengine-us-0.348.2.tar.gz --markdown 20230703/p/policyengine-us/0.348.1-0.348.2/diff.md --exclude *.pyd
+[2023-07-03 05:57:00] INFO root fetch - processPackages [dank-mids]: Remove: archive file [/home/abi/fetcher/tmp/dank_mids-4.20.8.tar.gz]
+[2023-07-03 05:57:00] INFO root fetch - processPackages [dank-mids]: Remove: archive file [/home/abi/fetcher/tmp/dank_mids-4.20.9.tar.gz]
+[2023-07-03 05:57:00] INFO root fetch - main [MainThread]: End processing [dank-mids]: success
+[2023-07-03 05:57:00] INFO root fetch - processPackages [megfile]: Remove: archive file [/home/abi/fetcher/tmp/megfile-2.1.0-py3-none-any.whl.zip]
+[2023-07-03 05:57:00] INFO root fetch - processPackages [megfile]: Remove: archive file [/home/abi/fetcher/tmp/megfile-2.1.1-py3-none-any.whl.zip]
+[2023-07-03 05:57:00] INFO root fetch - main [MainThread]: End processing [megfile]: success
+[2023-07-03 05:58:27] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.348.1.tar.gz]
+[2023-07-03 05:58:27] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.348.2.tar.gz]
+[2023-07-03 05:58:27] INFO root fetch - main [MainThread]: End processing [policyengine-us]: success
+[2023-07-03 05:58:27] INFO root fetch - main [MainThread]: Store serial: [18734488]
