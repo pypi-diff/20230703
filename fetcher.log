@@ -19359,3 +19359,415 @@ EOFError: EOF read where object expected
 [2023-07-03 15:31:56] INFO root fetch - processPackages [pertCF]: Remove: archive file [/home/abi/fetcher/tmp/pertCF-0.1.2.tar.gz]
 [2023-07-03 15:31:56] INFO root fetch - main [MainThread]: End processing [pertCF]: success
 [2023-07-03 15:31:56] INFO root fetch - main [MainThread]: Store serial: [18739741]
+[2023-07-03 15:37:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18739741]
+[2023-07-03 15:37:05] INFO root fetch - main [MainThread]: Found 47 changed packages
+[2023-07-03 15:37:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dbm-agent
+[2023-07-03 15:37:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pre-script
+[2023-07-03 15:37:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: OpenFisca-France-Local
+[2023-07-03 15:37:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pepperize.cdk-dynamodb-backup
+[2023-07-03 15:37:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: armonik
+[2023-07-03 15:37:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ultracart-rest-sdk
+[2023-07-03 15:37:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: up-esb
+[2023-07-03 15:37:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: certora-cli-alpha-oz-cli-by-os
+[2023-07-03 15:37:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: LogTranslate
+[2023-07-03 15:37:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: tf-nightly-intel
+[2023-07-03 15:37:06] INFO root fetch - processPackages [ultracart-rest-sdk]: New version: [4.0.99rc0] Old Version: [4.0.98rc0]
+[2023-07-03 15:37:06] INFO root fetch - processPackages [tf-nightly-intel]: New version: [2.14.0.dev20230702] Old Version: [2.14.0.dev20230701]
+[2023-07-03 15:37:06] INFO root fetch - processPackages [up-esb]: New version: [0.0.143] Old Version: [0.0.138]
+[2023-07-03 15:37:06] INFO root fetch - processPackages [pepperize.cdk-dynamodb-backup]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-03 15:37:06] INFO root fetch - processPackages [armonik]: New version: [3.9.3.dev624] Old Version: [3.9.3.dev620]
+[2023-07-03 15:37:06] INFO root fetch - processPackages [dbm-agent]: New version: [8.33.9] Old Version: [8.33.8]
+[2023-07-03 15:37:06] INFO root fetch - processPackages [LogTranslate]: New version: [1.2.2] Old Version: [1.2.1]
+[2023-07-03 15:37:06] INFO root fetch - processPackages [ultracart-rest-sdk]: Downloading https://files.pythonhosted.org/packages/71/ef/7b3e4c3123392afa24ebd5018befc34b4baacf0250c8a0c2ceeff4a3e3ad/ultracart_rest_sdk-4.0.98rc0.tar.gz
+[2023-07-03 15:37:06] INFO root fetch - processPackages [OpenFisca-France-Local]: New version: [5.2.1] Old Version: [5.2.0]
+[2023-07-03 15:37:06] INFO root fetch - processPackages [certora-cli-alpha-oz-cli-by-os]: New version: [20230703.13.32.625504] Old Version: [20230702.9.1.737018]
+[2023-07-03 15:37:06] INFO root fetch - processPackages [pre-script]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-03 15:37:06] INFO root fetch - processPackages [pepperize.cdk-dynamodb-backup]: Downloading https://files.pythonhosted.org/packages/32/bc/ac3dab87c351984ae6522bf91695811f7df3607fcbcf2e87e12ccdcae4e5/pepperize.cdk-dynamodb-backup-0.0.98.tar.gz
+[2023-07-03 15:37:06] INFO root fetch - processPackages [armonik]: Downloading https://files.pythonhosted.org/packages/47/53/5c87c7339779f2316a8f9f1ff4063aee133e481a62194c2b0b6e1028293a/armonik-3.9.3.dev620.tar.gz
+[2023-07-03 15:37:06] INFO root fetch - processPackages [up-esb]: Downloading https://files.pythonhosted.org/packages/8e/15/7fbcf06ef14a96eeb60fbb40904d90dd16000b6ae5789d199d5644e8fbdb/up_esb-0.0.138.tar.gz
+[2023-07-03 15:37:06] INFO root fetch - processPackages [tf-nightly-intel]: Downloading https://files.pythonhosted.org/packages/42/0c/77434859ace24858b993a55a95aebc51276b14d7b0e30725dd21427aea62/tf_nightly_intel-2.14.0.dev20230701-cp39-cp39-win_amd64.whl
+[2023-07-03 15:37:06] WARNING root fetch - processPackages [tf-nightly-intel]: Skipping package: exceeds size limit 183407552>=10485760
+[2023-07-03 15:37:06] INFO root fetch - processPackages [tf-nightly-intel]: Start processing: OpenGeode-Geosciences
+[2023-07-03 15:37:06] INFO root fetch - main [MainThread]: End processing [tf-nightly-intel] error
+[2023-07-03 15:37:06] INFO root fetch - processPackages [LogTranslate]: Downloading https://files.pythonhosted.org/packages/86/65/648e4a92c0406b4376a06dcb21561f2f1ea57ccb978ecc8e05c7006752e5/LogTranslate-1.2.1.tar.gz
+[2023-07-03 15:37:06] INFO root fetch - processPackages [dbm-agent]: Downloading https://files.pythonhosted.org/packages/96/b4/5d18c8ae0baf6ec55dd17fe5481bea87feb7ea2efe1bf67a841037c6843c/dbm-agent-8.33.8.tar.gz
+[2023-07-03 15:37:06] INFO root fetch - processPackages [certora-cli-alpha-oz-cli-by-os]: Downloading https://files.pythonhosted.org/packages/8f/1f/32f9202a6354f6664c5439a8aa2504f4a6b3709544e9f61a65b83bcba3d6/certora-cli-alpha-oz-cli-by-os-20230702.9.1.737018.tar.gz
+[2023-07-03 15:37:06] INFO root fetch - processPackages [OpenFisca-France-Local]: Downloading https://files.pythonhosted.org/packages/2b/4c/25909f617b75736bed2fc2303fceecf7e60c84f8a0b37fe9acd566823010/OpenFisca-France-Local-5.2.0.tar.gz
+[2023-07-03 15:37:06] INFO root fetch - processPackages [pre-script]: Downloading https://files.pythonhosted.org/packages/19/a0/302bdc68c8c5eb3c153d589766a6f4dd52d37dc6d0a92c96fd4224d79d30/pre_script-0.1.1.tar.gz
+[2023-07-03 15:37:06] WARNING root fetch - processPackages [certora-cli-alpha-oz-cli-by-os]: Skipping package: exceeds size limit 37421357>=10485760
+[2023-07-03 15:37:06] INFO root fetch - processPackages [certora-cli-alpha-oz-cli-by-os]: Start processing: tamaas
+[2023-07-03 15:37:06] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-oz-cli-by-os] error
+[2023-07-03 15:37:06] INFO root fetch - processPackages [pepperize.cdk-dynamodb-backup]: Downloading https://files.pythonhosted.org/packages/87/60/cd337f65781a604c1d436fcd62f8ffdaff0bc80e00546a9c715fa9561007/pepperize.cdk-dynamodb-backup-0.0.99.tar.gz
+[2023-07-03 15:37:06] INFO root fetch - processPackages [OpenGeode-Geosciences]: New version: [7.1.0rc1] Old Version: [7.0.9rc1]
+[2023-07-03 15:37:06] INFO root fetch - processPackages [ultracart-rest-sdk]: Downloading https://files.pythonhosted.org/packages/53/de/3357390dfc51b1725d15b38c41c9c2ab33d663a1cf3e2ab06dd0ed795755/ultracart_rest_sdk-4.0.99rc0.tar.gz
+[2023-07-03 15:37:07] INFO root fetch - processPackages [armonik]: Downloading https://files.pythonhosted.org/packages/54/8d/d7b83d2e37ccf8efdecb72187333248fffabc88a44f9f10052e712ab9950/armonik-3.9.3.dev624.tar.gz
+[2023-07-03 15:37:07] INFO root fetch - processPackages [up-esb]: Downloading https://files.pythonhosted.org/packages/48/f6/68ff5724b6a7af1009068e1fe8bd39fd6a65f9509e7e6a2068342fa7f824/up_esb-0.0.143.tar.gz
+[2023-07-03 15:37:07] INFO root fetch - processPackages [pepperize.cdk-dynamodb-backup]: executing diffoscope
+[2023-07-03 15:37:07] INFO root fetch - processPackages [pepperize.cdk-dynamodb-backup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-dynamodb-backup-0.0.98.tar.gz tmp/pepperize.cdk-dynamodb-backup-0.0.99.tar.gz --markdown 20230703/p/pepperize.cdk-dynamodb-backup/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-03 15:37:07] INFO root fetch - processPackages [tamaas]: New version: [2.7.0rc2] Old Version: [2.7.0rc1]
+[2023-07-03 15:37:07] INFO root fetch - processPackages [OpenGeode-Geosciences]: Downloading https://files.pythonhosted.org/packages/e6/82/20319ac0cc8192e32f0a0bd7790fef0b179fcea64317baa750cfc4508ac9/OpenGeode_Geosciences-7.0.9rc1-cp39-cp39-win_amd64.whl
+[2023-07-03 15:37:07] INFO root fetch - processPackages [ultracart-rest-sdk]: executing diffoscope
+[2023-07-03 15:37:07] INFO root fetch - processPackages [ultracart-rest-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ultracart_rest_sdk-4.0.98rc0.tar.gz tmp/ultracart_rest_sdk-4.0.99rc0.tar.gz --markdown 20230703/u/ultracart-rest-sdk/4.0.98rc0-4.0.99rc0/diff.md --exclude *.pyd
+[2023-07-03 15:37:07] INFO root fetch - processPackages [LogTranslate]: Downloading https://files.pythonhosted.org/packages/25/26/02ed8f6f61ab0a2247c7095d2d5433ccb58b0d0a3c789ad96fe8ee07a52c/LogTranslate-1.2.2.tar.gz
+[2023-07-03 15:37:07] INFO root fetch - processPackages [pre-script]: Downloading https://files.pythonhosted.org/packages/7b/cb/dfa9fb2211ea25dd2a77dad8eda77818095d0f4502a559dbe8d724939c0c/pre_script-0.1.2.tar.gz
+[2023-07-03 15:37:07] INFO root fetch - processPackages [armonik]: executing diffoscope
+[2023-07-03 15:37:07] INFO root fetch - processPackages [armonik]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/armonik-3.9.3.dev620.tar.gz tmp/armonik-3.9.3.dev624.tar.gz --markdown 20230703/a/armonik/3.9.3.dev620-3.9.3.dev624/diff.md --exclude *.pyd
+[2023-07-03 15:37:07] INFO root fetch - processPackages [up-esb]: executing diffoscope
+[2023-07-03 15:37:07] INFO root fetch - processPackages [up-esb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/up_esb-0.0.138.tar.gz tmp/up_esb-0.0.143.tar.gz --markdown 20230703/u/up-esb/0.0.138-0.0.143/diff.md --exclude *.pyd
+[2023-07-03 15:37:07] INFO root fetch - processPackages [dbm-agent]: Downloading https://files.pythonhosted.org/packages/6e/eb/46f6de2ab921535aa9eac258386a1d4005faf46ad0a43f4556c8e41d51d5/dbm-agent-8.33.9.tar.gz
+[2023-07-03 15:37:07] INFO root fetch - processPackages [LogTranslate]: executing diffoscope
+[2023-07-03 15:37:07] INFO root fetch - processPackages [LogTranslate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/LogTranslate-1.2.1.tar.gz tmp/LogTranslate-1.2.2.tar.gz --markdown 20230703/L/LogTranslate/1.2.1-1.2.2/diff.md --exclude *.pyd
+[2023-07-03 15:37:07] INFO root fetch - processPackages [tamaas]: Downloading https://files.pythonhosted.org/packages/78/43/98fee5cb704932323cfd4d0e0caae91083c5a3cb10b498a31ba583dac74f/tamaas-2.7.0rc1-cp39-none-manylinux2014_x86_64.manylinux_2_17_x86_64.whl
+[2023-07-03 15:37:07] INFO root fetch - processPackages [dbm-agent]: executing diffoscope
+[2023-07-03 15:37:07] INFO root fetch - processPackages [dbm-agent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbm-agent-8.33.8.tar.gz tmp/dbm-agent-8.33.9.tar.gz --markdown 20230703/d/dbm-agent/8.33.8-8.33.9/diff.md --exclude *.pyd
+[2023-07-03 15:37:07] INFO root fetch - processPackages [pre-script]: executing diffoscope
+[2023-07-03 15:37:07] INFO root fetch - processPackages [pre-script]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pre_script-0.1.1.tar.gz tmp/pre_script-0.1.2.tar.gz --markdown 20230703/p/pre-script/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-03 15:37:07] INFO root fetch - processPackages [OpenGeode-Geosciences]: Downloading https://files.pythonhosted.org/packages/2a/a7/ecd88bee5fb8c0ae9f3dd42c6025c0a4f88cc606b1aedc4d2341d264e69a/OpenGeode_Geosciences-7.1.0rc1-cp39-cp39-manylinux2014_x86_64.whl
+[2023-07-03 15:37:07] INFO root fetch - processPackages [OpenGeode-Geosciences]: executing diffoscope
+[2023-07-03 15:37:07] INFO root fetch - processPackages [OpenGeode-Geosciences]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OpenGeode_Geosciences-7.0.9rc1-cp39-cp39-win_amd64.whl.zip tmp/OpenGeode_Geosciences-7.1.0rc1-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20230703/O/OpenGeode-Geosciences/7.0.9rc1-7.1.0rc1/diff.md --exclude *.pyd
+[2023-07-03 15:37:08] INFO root fetch - processPackages [pepperize.cdk-dynamodb-backup]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-dynamodb-backup-0.0.98.tar.gz]
+[2023-07-03 15:37:08] INFO root fetch - processPackages [pepperize.cdk-dynamodb-backup]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-dynamodb-backup-0.0.99.tar.gz]
+[2023-07-03 15:37:08] INFO root fetch - processPackages [pepperize.cdk-dynamodb-backup]: Start processing: mgz
+[2023-07-03 15:37:08] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-dynamodb-backup]: success
+[2023-07-03 15:37:08] INFO root fetch - processPackages [mgz]: New version: [1.8.9] Old Version: [1.8.8]
+[2023-07-03 15:37:08] INFO root fetch - processPackages [mgz]: Downloading https://files.pythonhosted.org/packages/3f/c1/01499b2c7a7e8ca67a4e3d16d6c237de4b8d8b103d08d090f99b6fbe6ece/mgz-1.8.8.tar.gz
+[2023-07-03 15:37:08] INFO root fetch - processPackages [LogTranslate]: Remove: archive file [/home/abi/fetcher/tmp/LogTranslate-1.2.1.tar.gz]
+[2023-07-03 15:37:08] INFO root fetch - processPackages [LogTranslate]: Remove: archive file [/home/abi/fetcher/tmp/LogTranslate-1.2.2.tar.gz]
+[2023-07-03 15:37:08] INFO root fetch - processPackages [LogTranslate]: Start processing: opendr-toolkit
+[2023-07-03 15:37:08] INFO root fetch - main [MainThread]: End processing [LogTranslate]: success
+[2023-07-03 15:37:08] INFO root fetch - processPackages [pre-script]: Remove: archive file [/home/abi/fetcher/tmp/pre_script-0.1.1.tar.gz]
+[2023-07-03 15:37:08] INFO root fetch - processPackages [pre-script]: Remove: archive file [/home/abi/fetcher/tmp/pre_script-0.1.2.tar.gz]
+[2023-07-03 15:37:08] INFO root fetch - processPackages [pre-script]: Start processing: opendr-toolkit-activity-recognition
+[2023-07-03 15:37:08] INFO root fetch - main [MainThread]: End processing [pre-script]: success
+[2023-07-03 15:37:08] INFO root fetch - processPackages [tamaas]: Downloading https://files.pythonhosted.org/packages/bc/1d/a23395916852d06c14a2ee3d33e361049baea7eae78aa97451a3b4a3ccaf/tamaas-2.7.0rc2-cp39-none-manylinux2014_x86_64.manylinux_2_17_x86_64.whl
+[2023-07-03 15:37:08] INFO root fetch - processPackages [OpenFisca-France-Local]: Downloading https://files.pythonhosted.org/packages/95/22/cc38ca50457305ada350a076d68a212d7ce622332a67e63649efd37cf849/OpenFisca-France-Local-5.2.1.tar.gz
+[2023-07-03 15:37:08] INFO root fetch - processPackages [up-esb]: Remove: archive file [/home/abi/fetcher/tmp/up_esb-0.0.138.tar.gz]
+[2023-07-03 15:37:08] INFO root fetch - processPackages [up-esb]: Remove: archive file [/home/abi/fetcher/tmp/up_esb-0.0.143.tar.gz]
+[2023-07-03 15:37:08] INFO root fetch - processPackages [up-esb]: Start processing: opendr-toolkit-ambiguity-measure
+[2023-07-03 15:37:08] INFO root fetch - main [MainThread]: End processing [up-esb]: success
+[2023-07-03 15:37:08] INFO root fetch - processPackages [opendr-toolkit]: New version: [2.2.0] Old Version: [2.1.0]
+[2023-07-03 15:37:08] INFO root fetch - processPackages [armonik]: Remove: archive file [/home/abi/fetcher/tmp/armonik-3.9.3.dev620.tar.gz]
+[2023-07-03 15:37:08] INFO root fetch - processPackages [armonik]: Remove: archive file [/home/abi/fetcher/tmp/armonik-3.9.3.dev624.tar.gz]
+[2023-07-03 15:37:08] INFO root fetch - processPackages [armonik]: Start processing: opendr-toolkit-binary-high-resolution
+[2023-07-03 15:37:08] INFO root fetch - main [MainThread]: End processing [armonik]: success
+[2023-07-03 15:37:08] INFO root fetch - processPackages [opendr-toolkit-activity-recognition]: New version: [2.2.0] Old Version: [2.1.0]
+[2023-07-03 15:37:09] INFO root fetch - processPackages [opendr-toolkit-ambiguity-measure]: New version: [2.2.0] Old Version: [2.1.0]
+[2023-07-03 15:37:09] INFO root fetch - processPackages [opendr-toolkit]: Downloading https://files.pythonhosted.org/packages/5e/8f/fda08a98594c72b9727569bc62886b8619fa89151ba30db381aad1a85cbf/opendr-toolkit-2.1.0.tar.gz
+[2023-07-03 15:37:09] INFO root fetch - processPackages [mgz]: Downloading https://files.pythonhosted.org/packages/af/28/845205c817682a35883ecd3b20e9e09be17f8e08dd38fd1ee3a194f8499f/mgz-1.8.9.tar.gz
+[2023-07-03 15:37:09] INFO root fetch - processPackages [opendr-toolkit-activity-recognition]: Downloading https://files.pythonhosted.org/packages/6d/0e/0a945e744958d615cf8c257f6de9a3f514c99447a8c47da0b37d21718af0/opendr-toolkit-activity-recognition-2.1.0.tar.gz
+[2023-07-03 15:37:09] INFO root fetch - processPackages [OpenGeode-Geosciences]: Remove: archive file [/home/abi/fetcher/tmp/OpenGeode_Geosciences-7.0.9rc1-cp39-cp39-win_amd64.whl.zip]
+[2023-07-03 15:37:09] INFO root fetch - processPackages [OpenGeode-Geosciences]: Remove: archive file [/home/abi/fetcher/tmp/OpenGeode_Geosciences-7.1.0rc1-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2023-07-03 15:37:09] INFO root fetch - processPackages [OpenGeode-Geosciences]: Start processing: opendr-toolkit-compressive-learning
+[2023-07-03 15:37:09] INFO root fetch - main [MainThread]: End processing [OpenGeode-Geosciences]: success
+[2023-07-03 15:37:09] INFO root fetch - processPackages [dbm-agent]: Remove: archive file [/home/abi/fetcher/tmp/dbm-agent-8.33.8.tar.gz]
+[2023-07-03 15:37:09] INFO root fetch - processPackages [dbm-agent]: Remove: archive file [/home/abi/fetcher/tmp/dbm-agent-8.33.9.tar.gz]
+[2023-07-03 15:37:09] INFO root fetch - processPackages [dbm-agent]: Start processing: opendr-toolkit-engine
+[2023-07-03 15:37:09] INFO root fetch - main [MainThread]: End processing [dbm-agent]: success
+[2023-07-03 15:37:09] INFO root fetch - processPackages [opendr-toolkit-binary-high-resolution]: New version: [2.2.0] Old Version: [2.1.0]
+[2023-07-03 15:37:09] INFO root fetch - processPackages [opendr-toolkit-ambiguity-measure]: Downloading https://files.pythonhosted.org/packages/c4/c3/d9941c79c60883445c86b4528f30e3b7706849eb75f6744cd83c91372c6a/opendr-toolkit-ambiguity-measure-2.1.0.tar.gz
+[2023-07-03 15:37:09] INFO root fetch - processPackages [OpenFisca-France-Local]: executing diffoscope
+[2023-07-03 15:37:09] INFO root fetch - processPackages [OpenFisca-France-Local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OpenFisca-France-Local-5.2.0.tar.gz tmp/OpenFisca-France-Local-5.2.1.tar.gz --markdown 20230703/O/OpenFisca-France-Local/5.2.0-5.2.1/diff.md --exclude *.pyd
+[2023-07-03 15:37:09] INFO root fetch - processPackages [opendr-toolkit-compressive-learning]: New version: [2.2.0] Old Version: [2.1.0]
+[2023-07-03 15:37:09] INFO root fetch - processPackages [opendr-toolkit-engine]: New version: [2.2.0] Old Version: [2.1.0]
+[2023-07-03 15:37:09] INFO root fetch - processPackages [opendr-toolkit]: Downloading https://files.pythonhosted.org/packages/2f/bf/aa4d8eb66bd15de18921128e131a96eb7a0ac55314fa782be623aab04f3c/opendr-toolkit-2.2.0.tar.gz
+[2023-07-03 15:37:09] INFO root fetch - processPackages [mgz]: executing diffoscope
+[2023-07-03 15:37:09] INFO root fetch - processPackages [mgz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mgz-1.8.8.tar.gz tmp/mgz-1.8.9.tar.gz --markdown 20230703/m/mgz/1.8.8-1.8.9/diff.md --exclude *.pyd
+[2023-07-03 15:37:09] INFO root fetch - processPackages [opendr-toolkit-binary-high-resolution]: Downloading https://files.pythonhosted.org/packages/bd/25/35b469356db4d97b7ef7bd22bf57b63eca310144c5e45707fc161b7e6390/opendr-toolkit-binary-high-resolution-2.1.0.tar.gz
+[2023-07-03 15:37:09] INFO root fetch - processPackages [tamaas]: executing diffoscope
+[2023-07-03 15:37:09] INFO root fetch - processPackages [tamaas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tamaas-2.7.0rc1-cp39-none-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.zip tmp/tamaas-2.7.0rc2-cp39-none-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.zip --markdown 20230703/t/tamaas/2.7.0rc1-2.7.0rc2/diff.md --exclude *.pyd
+[2023-07-03 15:37:09] INFO root fetch - processPackages [opendr-toolkit]: executing diffoscope
+[2023-07-03 15:37:09] INFO root fetch - processPackages [opendr-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opendr-toolkit-2.1.0.tar.gz tmp/opendr-toolkit-2.2.0.tar.gz --markdown 20230703/o/opendr-toolkit/2.1.0-2.2.0/diff.md --exclude *.pyd
+[2023-07-03 15:37:09] INFO root fetch - processPackages [opendr-toolkit-activity-recognition]: Downloading https://files.pythonhosted.org/packages/3d/71/580d8cf4b6e31be6275b58f5c42905ad6cf1d8f59b8d81d0d9df29c1ee10/opendr-toolkit-activity-recognition-2.2.0.tar.gz
+[2023-07-03 15:37:09] INFO root fetch - processPackages [opendr-toolkit-ambiguity-measure]: Downloading https://files.pythonhosted.org/packages/c5/b4/8ca3b99a5336174c32287d135d243baee408e0f55c2450e78b0146cbb779/opendr-toolkit-ambiguity-measure-2.2.0.tar.gz
+[2023-07-03 15:37:09] INFO root fetch - processPackages [opendr-toolkit-engine]: Downloading https://files.pythonhosted.org/packages/0a/38/84f649764e5d7ebb5f8a2e9a56816bf6ecdaab48648267467dea9bcfc8f8/opendr-toolkit-engine-2.1.0.tar.gz
+[2023-07-03 15:37:09] INFO root fetch - processPackages [opendr-toolkit-compressive-learning]: Downloading https://files.pythonhosted.org/packages/2c/66/1e9cb324c0df605ed5701149166b57810eb70dab880f032677a8bb26445d/opendr-toolkit-compressive-learning-2.1.0.tar.gz
+[2023-07-03 15:37:09] INFO root fetch - processPackages [opendr-toolkit-activity-recognition]: executing diffoscope
+[2023-07-03 15:37:09] INFO root fetch - processPackages [opendr-toolkit-activity-recognition]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opendr-toolkit-activity-recognition-2.1.0.tar.gz tmp/opendr-toolkit-activity-recognition-2.2.0.tar.gz --markdown 20230703/o/opendr-toolkit-activity-recognition/2.1.0-2.2.0/diff.md --exclude *.pyd
+[2023-07-03 15:37:09] INFO root fetch - processPackages [opendr-toolkit-ambiguity-measure]: executing diffoscope
+[2023-07-03 15:37:09] INFO root fetch - processPackages [opendr-toolkit-ambiguity-measure]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opendr-toolkit-ambiguity-measure-2.1.0.tar.gz tmp/opendr-toolkit-ambiguity-measure-2.2.0.tar.gz --markdown 20230703/o/opendr-toolkit-ambiguity-measure/2.1.0-2.2.0/diff.md --exclude *.pyd
+[2023-07-03 15:37:10] INFO root fetch - processPackages [opendr-toolkit-binary-high-resolution]: Downloading https://files.pythonhosted.org/packages/8f/5a/48bff3c69c2294292821854e9d5f8ec8f72aed639b2abffd464bffeb62ca/opendr-toolkit-binary-high-resolution-2.2.0.tar.gz
+[2023-07-03 15:37:10] INFO root fetch - processPackages [opendr-toolkit-engine]: Downloading https://files.pythonhosted.org/packages/be/5a/c4a9c82bc3e7ef8083095994ed50567d20475c85d69b6bf22be6aa018741/opendr-toolkit-engine-2.2.0.tar.gz
+[2023-07-03 15:37:10] INFO root fetch - processPackages [opendr-toolkit-compressive-learning]: Downloading https://files.pythonhosted.org/packages/f9/c4/0bbd74ec00f346c315e0643fac3cb844075fe79addf949ceab2bc6c7d34a/opendr-toolkit-compressive-learning-2.2.0.tar.gz
+[2023-07-03 15:37:10] INFO root fetch - processPackages [opendr-toolkit-binary-high-resolution]: executing diffoscope
+[2023-07-03 15:37:10] INFO root fetch - processPackages [opendr-toolkit-binary-high-resolution]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opendr-toolkit-binary-high-resolution-2.1.0.tar.gz tmp/opendr-toolkit-binary-high-resolution-2.2.0.tar.gz --markdown 20230703/o/opendr-toolkit-binary-high-resolution/2.1.0-2.2.0/diff.md --exclude *.pyd
+[2023-07-03 15:37:10] INFO root fetch - processPackages [opendr-toolkit-engine]: executing diffoscope
+[2023-07-03 15:37:10] INFO root fetch - processPackages [opendr-toolkit-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opendr-toolkit-engine-2.1.0.tar.gz tmp/opendr-toolkit-engine-2.2.0.tar.gz --markdown 20230703/o/opendr-toolkit-engine/2.1.0-2.2.0/diff.md --exclude *.pyd
+[2023-07-03 15:37:10] INFO root fetch - processPackages [opendr-toolkit-compressive-learning]: executing diffoscope
+[2023-07-03 15:37:10] INFO root fetch - processPackages [opendr-toolkit-compressive-learning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opendr-toolkit-compressive-learning-2.1.0.tar.gz tmp/opendr-toolkit-compressive-learning-2.2.0.tar.gz --markdown 20230703/o/opendr-toolkit-compressive-learning/2.1.0-2.2.0/diff.md --exclude *.pyd
+[2023-07-03 15:37:11] INFO root fetch - processPackages [mgz]: Remove: archive file [/home/abi/fetcher/tmp/mgz-1.8.8.tar.gz]
+[2023-07-03 15:37:11] INFO root fetch - processPackages [mgz]: Remove: archive file [/home/abi/fetcher/tmp/mgz-1.8.9.tar.gz]
+[2023-07-03 15:37:11] INFO root fetch - processPackages [mgz]: Start processing: opendr-toolkit-face-recognition
+[2023-07-03 15:37:11] INFO root fetch - main [MainThread]: End processing [mgz]: success
+[2023-07-03 15:37:11] INFO root fetch - processPackages [opendr-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/opendr-toolkit-2.1.0.tar.gz]
+[2023-07-03 15:37:11] INFO root fetch - processPackages [opendr-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/opendr-toolkit-2.2.0.tar.gz]
+[2023-07-03 15:37:11] INFO root fetch - processPackages [opendr-toolkit]: Start processing: opendr-toolkit-facial-expression-recognition
+[2023-07-03 15:37:11] INFO root fetch - main [MainThread]: End processing [opendr-toolkit]: success
+[2023-07-03 15:37:11] INFO root fetch - processPackages [opendr-toolkit-facial-expression-recognition]: New version: [2.2.0] Old Version: [2.1.0]
+[2023-07-03 15:37:11] INFO root fetch - processPackages [opendr-toolkit-face-recognition]: New version: [2.2.0] Old Version: [2.1.0]
+[2023-07-03 15:37:11] INFO root fetch - processPackages [opendr-toolkit-face-recognition]: Downloading https://files.pythonhosted.org/packages/b1/6d/0374a2760bf907320d6942370e9bf9b30959a00d562deb7a9a8386f60133/opendr-toolkit-face-recognition-2.1.0.tar.gz
+[2023-07-03 15:37:11] INFO root fetch - processPackages [opendr-toolkit-ambiguity-measure]: Remove: archive file [/home/abi/fetcher/tmp/opendr-toolkit-ambiguity-measure-2.1.0.tar.gz]
+[2023-07-03 15:37:11] INFO root fetch - processPackages [opendr-toolkit-ambiguity-measure]: Remove: archive file [/home/abi/fetcher/tmp/opendr-toolkit-ambiguity-measure-2.2.0.tar.gz]
+[2023-07-03 15:37:11] INFO root fetch - processPackages [opendr-toolkit-facial-expression-recognition]: Downloading https://files.pythonhosted.org/packages/b0/c5/fbba583cdaf6f42b85d5b6f86fb44d0031178bc58aadfc3c74b3dd799c44/opendr-toolkit-facial-expression-recognition-2.1.0.tar.gz
+[2023-07-03 15:37:11] INFO root fetch - processPackages [opendr-toolkit-ambiguity-measure]: Start processing: opendr-toolkit-fall-detection
+[2023-07-03 15:37:11] INFO root fetch - main [MainThread]: End processing [opendr-toolkit-ambiguity-measure]: success
+[2023-07-03 15:37:11] INFO root fetch - processPackages [opendr-toolkit-activity-recognition]: Remove: archive file [/home/abi/fetcher/tmp/opendr-toolkit-activity-recognition-2.1.0.tar.gz]
+[2023-07-03 15:37:11] INFO root fetch - processPackages [opendr-toolkit-activity-recognition]: Remove: archive file [/home/abi/fetcher/tmp/opendr-toolkit-activity-recognition-2.2.0.tar.gz]
+[2023-07-03 15:37:11] INFO root fetch - processPackages [opendr-toolkit-activity-recognition]: Start processing: opendr-toolkit-heart-anomaly-detection
+[2023-07-03 15:37:11] INFO root fetch - main [MainThread]: End processing [opendr-toolkit-activity-recognition]: success
+[2023-07-03 15:37:11] INFO root fetch - processPackages [opendr-toolkit-engine]: Remove: archive file [/home/abi/fetcher/tmp/opendr-toolkit-engine-2.1.0.tar.gz]
+[2023-07-03 15:37:11] INFO root fetch - processPackages [opendr-toolkit-engine]: Remove: archive file [/home/abi/fetcher/tmp/opendr-toolkit-engine-2.2.0.tar.gz]
+[2023-07-03 15:37:11] INFO root fetch - processPackages [opendr-toolkit-engine]: Start processing: opendr-toolkit-human-model-generation
+[2023-07-03 15:37:11] INFO root fetch - main [MainThread]: End processing [opendr-toolkit-engine]: success
+[2023-07-03 15:37:11] INFO root fetch - processPackages [opendr-toolkit-fall-detection]: New version: [2.2.0] Old Version: [2.1.0]
+[2023-07-03 15:37:11] INFO root fetch - processPackages [opendr-toolkit-heart-anomaly-detection]: New version: [2.2.0] Old Version: [2.1.0]
+[2023-07-03 15:37:12] INFO root fetch - processPackages [opendr-toolkit-human-model-generation]: New version: [2.2.0] Old Version: [2.1.0]
+[2023-07-03 15:37:12] INFO root fetch - processPackages [opendr-toolkit-compressive-learning]: Remove: archive file [/home/abi/fetcher/tmp/opendr-toolkit-compressive-learning-2.1.0.tar.gz]
+[2023-07-03 15:37:12] INFO root fetch - processPackages [opendr-toolkit-compressive-learning]: Remove: archive file [/home/abi/fetcher/tmp/opendr-toolkit-compressive-learning-2.2.0.tar.gz]
+[2023-07-03 15:37:12] INFO root fetch - processPackages [opendr-toolkit-compressive-learning]: Start processing: preflibtools
+[2023-07-03 15:37:12] INFO root fetch - main [MainThread]: End processing [opendr-toolkit-compressive-learning]: success
+[2023-07-03 15:37:12] INFO root fetch - processPackages [opendr-toolkit-facial-expression-recognition]: Downloading https://files.pythonhosted.org/packages/56/16/9986b872079c411cede08eba70ae12e2035d7e36329a4879036a361a8bcc/opendr-toolkit-facial-expression-recognition-2.2.0.tar.gz
+[2023-07-03 15:37:12] INFO root fetch - processPackages [opendr-toolkit-binary-high-resolution]: Remove: archive file [/home/abi/fetcher/tmp/opendr-toolkit-binary-high-resolution-2.1.0.tar.gz]
+[2023-07-03 15:37:12] INFO root fetch - processPackages [opendr-toolkit-binary-high-resolution]: Remove: archive file [/home/abi/fetcher/tmp/opendr-toolkit-binary-high-resolution-2.2.0.tar.gz]
+[2023-07-03 15:37:12] INFO root fetch - processPackages [opendr-toolkit-binary-high-resolution]: Start processing: opendr-toolkit-hyperparameter-tuner
+[2023-07-03 15:37:12] INFO root fetch - main [MainThread]: End processing [opendr-toolkit-binary-high-resolution]: success
+[2023-07-03 15:37:12] INFO root fetch - processPackages [preflibtools]: New version: [2.0.8] Old Version: [2.0.7]
+[2023-07-03 15:37:12] INFO root fetch - processPackages [opendr-toolkit-fall-detection]: Downloading https://files.pythonhosted.org/packages/cd/45/ee6c4e72e1af190f1b59789fe7dace3615eca6e8c282678e109694c3a977/opendr-toolkit-fall-detection-2.1.0.tar.gz
+[2023-07-03 15:37:12] INFO root fetch - processPackages [preflibtools]: Downloading https://files.pythonhosted.org/packages/87/9a/b1360d573206dbc4fa7962068c20eaae240c92af2081a763fb0362ba5fc3/preflibtools-2.0.7.tar.gz
+[2023-07-03 15:37:12] INFO root fetch - processPackages [opendr-toolkit-heart-anomaly-detection]: Downloading https://files.pythonhosted.org/packages/59/ed/44d786032fff48182da6ff0603ff763eedc93e35fe5d0e974ca0c9cd86d7/opendr-toolkit-heart-anomaly-detection-2.1.0.tar.gz
+[2023-07-03 15:37:12] INFO root fetch - processPackages [opendr-toolkit-facial-expression-recognition]: executing diffoscope
+[2023-07-03 15:37:12] INFO root fetch - processPackages [opendr-toolkit-facial-expression-recognition]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opendr-toolkit-facial-expression-recognition-2.1.0.tar.gz tmp/opendr-toolkit-facial-expression-recognition-2.2.0.tar.gz --markdown 20230703/o/opendr-toolkit-facial-expression-recognition/2.1.0-2.2.0/diff.md --exclude *.pyd
+[2023-07-03 15:37:12] INFO root fetch - processPackages [opendr-toolkit-hyperparameter-tuner]: New version: [2.2.0] Old Version: [2.1.0]
+[2023-07-03 15:37:12] INFO root fetch - processPackages [opendr-toolkit-human-model-generation]: Downloading https://files.pythonhosted.org/packages/97/94/db7d40a6ed0be1ad56383ece79110b585ead511837a650c110cc020b3595/opendr-toolkit-human-model-generation-2.1.0.tar.gz
+[2023-07-03 15:37:12] INFO root fetch - processPackages [preflibtools]: Downloading https://files.pythonhosted.org/packages/8f/8b/2e34f2397d30cd60e544c54f2b42a64914d527ff2c9d8a2b2457244144b7/preflibtools-2.0.8.tar.gz
+[2023-07-03 15:37:12] INFO root fetch - processPackages [opendr-toolkit-hyperparameter-tuner]: Downloading https://files.pythonhosted.org/packages/a4/3d/bc5674315f0b2e834edcb6eee78e6ee56c97b75d52e62ee5e94205a46bb4/opendr-toolkit-hyperparameter-tuner-2.1.0.tar.gz
+[2023-07-03 15:37:12] INFO root fetch - processPackages [opendr-toolkit-heart-anomaly-detection]: Downloading https://files.pythonhosted.org/packages/79/5d/2b428bd112ea712c43686d5f62ff65b96a56fd406c880edf966b4e1276d0/opendr-toolkit-heart-anomaly-detection-2.2.0.tar.gz
+[2023-07-03 15:37:12] INFO root fetch - processPackages [opendr-toolkit-fall-detection]: Downloading https://files.pythonhosted.org/packages/2f/4c/06e1b9f4f7bcd3f41df3015c59678ed9345b87a5b72cef33055699747c53/opendr-toolkit-fall-detection-2.2.0.tar.gz
+[2023-07-03 15:37:12] INFO root fetch - processPackages [preflibtools]: executing diffoscope
+[2023-07-03 15:37:12] INFO root fetch - processPackages [preflibtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/preflibtools-2.0.7.tar.gz tmp/preflibtools-2.0.8.tar.gz --markdown 20230703/p/preflibtools/2.0.7-2.0.8/diff.md --exclude *.pyd
+[2023-07-03 15:37:12] INFO root fetch - processPackages [opendr-toolkit-heart-anomaly-detection]: executing diffoscope
+[2023-07-03 15:37:12] INFO root fetch - processPackages [opendr-toolkit-heart-anomaly-detection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opendr-toolkit-heart-anomaly-detection-2.1.0.tar.gz tmp/opendr-toolkit-heart-anomaly-detection-2.2.0.tar.gz --markdown 20230703/o/opendr-toolkit-heart-anomaly-detection/2.1.0-2.2.0/diff.md --exclude *.pyd
+[2023-07-03 15:37:12] INFO root fetch - processPackages [opendr-toolkit-fall-detection]: executing diffoscope
+[2023-07-03 15:37:12] INFO root fetch - processPackages [opendr-toolkit-fall-detection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opendr-toolkit-fall-detection-2.1.0.tar.gz tmp/opendr-toolkit-fall-detection-2.2.0.tar.gz --markdown 20230703/o/opendr-toolkit-fall-detection/2.1.0-2.2.0/diff.md --exclude *.pyd
+[2023-07-03 15:37:12] INFO root fetch - processPackages [opendr-toolkit-human-model-generation]: Downloading https://files.pythonhosted.org/packages/f6/6a/9164e09fce17e24115ecd45ae35192ed07743039fa18289251a8b0e2c7ac/opendr-toolkit-human-model-generation-2.2.0.tar.gz
+[2023-07-03 15:37:12] INFO root fetch - processPackages [opendr-toolkit-hyperparameter-tuner]: Downloading https://files.pythonhosted.org/packages/3e/4a/4944136b315b3d588910ed2f0c0b4a7370ea860520ff2d9ef87b06b63f83/opendr-toolkit-hyperparameter-tuner-2.2.0.tar.gz
+[2023-07-03 15:37:13] INFO root fetch - processPackages [opendr-toolkit-human-model-generation]: executing diffoscope
+[2023-07-03 15:37:13] INFO root fetch - processPackages [opendr-toolkit-human-model-generation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opendr-toolkit-human-model-generation-2.1.0.tar.gz tmp/opendr-toolkit-human-model-generation-2.2.0.tar.gz --markdown 20230703/o/opendr-toolkit-human-model-generation/2.1.0-2.2.0/diff.md --exclude *.pyd
+[2023-07-03 15:37:13] INFO root fetch - processPackages [opendr-toolkit-hyperparameter-tuner]: executing diffoscope
+[2023-07-03 15:37:13] INFO root fetch - processPackages [opendr-toolkit-hyperparameter-tuner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opendr-toolkit-hyperparameter-tuner-2.1.0.tar.gz tmp/opendr-toolkit-hyperparameter-tuner-2.2.0.tar.gz --markdown 20230703/o/opendr-toolkit-hyperparameter-tuner/2.1.0-2.2.0/diff.md --exclude *.pyd
+[2023-07-03 15:37:13] INFO root fetch - processPackages [opendr-toolkit-face-recognition]: Downloading https://files.pythonhosted.org/packages/02/38/76ca479b39c67934f3729a5d715ecadc77ed6074f0e0c9d46f9dd2bc5263/opendr-toolkit-face-recognition-2.2.0.tar.gz
+[2023-07-03 15:37:13] INFO root fetch - processPackages [opendr-toolkit-face-recognition]: executing diffoscope
+[2023-07-03 15:37:13] INFO root fetch - processPackages [opendr-toolkit-face-recognition]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opendr-toolkit-face-recognition-2.1.0.tar.gz tmp/opendr-toolkit-face-recognition-2.2.0.tar.gz --markdown 20230703/o/opendr-toolkit-face-recognition/2.1.0-2.2.0/diff.md --exclude *.pyd
+[2023-07-03 15:37:14] INFO root fetch - processPackages [opendr-toolkit-facial-expression-recognition]: Remove: archive file [/home/abi/fetcher/tmp/opendr-toolkit-facial-expression-recognition-2.1.0.tar.gz]
+[2023-07-03 15:37:14] INFO root fetch - processPackages [opendr-toolkit-facial-expression-recognition]: Remove: archive file [/home/abi/fetcher/tmp/opendr-toolkit-facial-expression-recognition-2.2.0.tar.gz]
+[2023-07-03 15:37:14] INFO root fetch - processPackages [opendr-toolkit-facial-expression-recognition]: Start processing: opendr-toolkit-multimodal-human-centric
+[2023-07-03 15:37:14] INFO root fetch - main [MainThread]: End processing [opendr-toolkit-facial-expression-recognition]: success
+[2023-07-03 15:37:14] INFO root fetch - processPackages [opendr-toolkit-multimodal-human-centric]: New version: [2.2.0] Old Version: [2.1.0]
+[2023-07-03 15:37:14] INFO root fetch - processPackages [preflibtools]: Remove: archive file [/home/abi/fetcher/tmp/preflibtools-2.0.7.tar.gz]
+[2023-07-03 15:37:14] INFO root fetch - processPackages [preflibtools]: Remove: archive file [/home/abi/fetcher/tmp/preflibtools-2.0.8.tar.gz]
+[2023-07-03 15:37:14] INFO root fetch - processPackages [preflibtools]: Start processing: opendr-toolkit-object-detection-2d
+[2023-07-03 15:37:14] INFO root fetch - main [MainThread]: End processing [preflibtools]: success
+[2023-07-03 15:37:14] INFO root fetch - processPackages [opendr-toolkit-multimodal-human-centric]: Downloading https://files.pythonhosted.org/packages/71/ef/f0a017dd9bd66e8e99b80f9b2f94aaa68d59a8617227b3bea811076fc97c/opendr-toolkit-multimodal-human-centric-2.1.0.tar.gz
+[2023-07-03 15:37:14] INFO root fetch - processPackages [opendr-toolkit-heart-anomaly-detection]: Remove: archive file [/home/abi/fetcher/tmp/opendr-toolkit-heart-anomaly-detection-2.1.0.tar.gz]
+[2023-07-03 15:37:14] INFO root fetch - processPackages [opendr-toolkit-heart-anomaly-detection]: Remove: archive file [/home/abi/fetcher/tmp/opendr-toolkit-heart-anomaly-detection-2.2.0.tar.gz]
+[2023-07-03 15:37:14] INFO root fetch - processPackages [opendr-toolkit-heart-anomaly-detection]: Start processing: pre-script
+[2023-07-03 15:37:14] INFO root fetch - main [MainThread]: End processing [opendr-toolkit-heart-anomaly-detection]: success
+[2023-07-03 15:37:14] INFO root fetch - processPackages [OpenFisca-France-Local]: Remove: archive file [/home/abi/fetcher/tmp/OpenFisca-France-Local-5.2.0.tar.gz]
+[2023-07-03 15:37:14] INFO root fetch - processPackages [OpenFisca-France-Local]: Remove: archive file [/home/abi/fetcher/tmp/OpenFisca-France-Local-5.2.1.tar.gz]
+[2023-07-03 15:37:14] INFO root fetch - processPackages [OpenFisca-France-Local]: Start processing: opendr-toolkit-object-detection-3d
+[2023-07-03 15:37:14] INFO root fetch - main [MainThread]: End processing [OpenFisca-France-Local]: success
+[2023-07-03 15:37:14] INFO root fetch - processPackages [pre-script]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-03 15:37:14] INFO root fetch - processPackages [opendr-toolkit-object-detection-2d]: New version: [2.2.0] Old Version: [2.1.0]
+[2023-07-03 15:37:14] INFO root fetch - processPackages [opendr-toolkit-fall-detection]: Remove: archive file [/home/abi/fetcher/tmp/opendr-toolkit-fall-detection-2.1.0.tar.gz]
+[2023-07-03 15:37:14] INFO root fetch - processPackages [opendr-toolkit-fall-detection]: Remove: archive file [/home/abi/fetcher/tmp/opendr-toolkit-fall-detection-2.2.0.tar.gz]
+[2023-07-03 15:37:14] INFO root fetch - processPackages [opendr-toolkit-fall-detection]: Start processing: robotslacker-testcli
+[2023-07-03 15:37:14] INFO root fetch - main [MainThread]: End processing [opendr-toolkit-fall-detection]: success
+[2023-07-03 15:37:14] INFO root fetch - processPackages [opendr-toolkit-hyperparameter-tuner]: Remove: archive file [/home/abi/fetcher/tmp/opendr-toolkit-hyperparameter-tuner-2.1.0.tar.gz]
+[2023-07-03 15:37:14] INFO root fetch - processPackages [opendr-toolkit-hyperparameter-tuner]: Remove: archive file [/home/abi/fetcher/tmp/opendr-toolkit-hyperparameter-tuner-2.2.0.tar.gz]
+[2023-07-03 15:37:14] INFO root fetch - processPackages [opendr-toolkit-hyperparameter-tuner]: Start processing: opendr-toolkit-object-tracking-2d
+[2023-07-03 15:37:14] INFO root fetch - main [MainThread]: End processing [opendr-toolkit-hyperparameter-tuner]: success
+[2023-07-03 15:37:14] INFO root fetch - processPackages [pre-script]: Downloading https://files.pythonhosted.org/packages/19/a0/302bdc68c8c5eb3c153d589766a6f4dd52d37dc6d0a92c96fd4224d79d30/pre_script-0.1.1.tar.gz
+[2023-07-03 15:37:14] INFO root fetch - processPackages [opendr-toolkit-object-detection-3d]: New version: [2.2.0] Old Version: [2.1.0]
+[2023-07-03 15:37:14] INFO root fetch - processPackages [robotslacker-testcli]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-03 15:37:14] INFO root fetch - processPackages [opendr-toolkit-object-tracking-2d]: New version: [2.2.0] Old Version: [2.1.0]
+[2023-07-03 15:37:14] INFO root fetch - processPackages [opendr-toolkit-human-model-generation]: Remove: archive file [/home/abi/fetcher/tmp/opendr-toolkit-human-model-generation-2.1.0.tar.gz]
+[2023-07-03 15:37:14] INFO root fetch - processPackages [opendr-toolkit-human-model-generation]: Remove: archive file [/home/abi/fetcher/tmp/opendr-toolkit-human-model-generation-2.2.0.tar.gz]
+[2023-07-03 15:37:14] INFO root fetch - processPackages [opendr-toolkit-human-model-generation]: Start processing: opendr-toolkit-object-tracking-3d
+[2023-07-03 15:37:14] INFO root fetch - main [MainThread]: End processing [opendr-toolkit-human-model-generation]: success
+[2023-07-03 15:37:14] INFO root fetch - processPackages [opendr-toolkit-object-detection-2d]: Downloading https://files.pythonhosted.org/packages/b6/4e/710872f96180ccc51c288db41294a33f65096676e850d46813f10eb4ea7c/opendr-toolkit-object-detection-2d-2.1.0.tar.gz
+[2023-07-03 15:37:14] INFO root fetch - processPackages [opendr-toolkit-multimodal-human-centric]: Downloading https://files.pythonhosted.org/packages/84/86/7adc0463f371b3391d09b8b4155e649a3e254265154be952984107c19875/opendr-toolkit-multimodal-human-centric-2.2.0.tar.gz
+[2023-07-03 15:37:15] INFO root fetch - processPackages [pre-script]: Downloading https://files.pythonhosted.org/packages/7b/cb/dfa9fb2211ea25dd2a77dad8eda77818095d0f4502a559dbe8d724939c0c/pre_script-0.1.2.tar.gz
+[2023-07-03 15:37:15] INFO root fetch - processPackages [opendr-toolkit-object-detection-3d]: Downloading https://files.pythonhosted.org/packages/89/a3/9407d6eb01cf60721985e38254e09b08a2db4d8b6b9883022b4c53f33e75/opendr-toolkit-object-detection-3d-2.1.0.tar.gz
+[2023-07-03 15:37:15] INFO root fetch - processPackages [opendr-toolkit-object-tracking-3d]: New version: [2.2.0] Old Version: [2.1.0]
+[2023-07-03 15:37:15] INFO root fetch - processPackages [opendr-toolkit-object-tracking-2d]: Downloading https://files.pythonhosted.org/packages/ba/21/7858d1d4453e1e159c9462e0f80afc6e652e9174539a633f16c8b05dfa8a/opendr-toolkit-object-tracking-2d-2.1.0.tar.gz
+[2023-07-03 15:37:15] INFO root fetch - processPackages [opendr-toolkit-multimodal-human-centric]: executing diffoscope
+[2023-07-03 15:37:15] INFO root fetch - processPackages [opendr-toolkit-multimodal-human-centric]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opendr-toolkit-multimodal-human-centric-2.1.0.tar.gz tmp/opendr-toolkit-multimodal-human-centric-2.2.0.tar.gz --markdown 20230703/o/opendr-toolkit-multimodal-human-centric/2.1.0-2.2.0/diff.md --exclude *.pyd
+[2023-07-03 15:37:15] INFO root fetch - processPackages [robotslacker-testcli]: Downloading https://files.pythonhosted.org/packages/57/71/45cf11c2c66e7969006d17b79832678705ed38a0df644acf7ca1110f208b/robotslacker-testcli-0.0.8.tar.gz
+[2023-07-03 15:37:15] INFO root fetch - processPackages [pre-script]: executing diffoscope
+[2023-07-03 15:37:15] INFO root fetch - processPackages [pre-script]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pre_script-0.1.1.tar.gz tmp/pre_script-0.1.2.tar.gz --markdown 20230703/p/pre-script/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-03 15:37:15] INFO root fetch - processPackages [opendr-toolkit-object-tracking-3d]: Downloading https://files.pythonhosted.org/packages/79/27/31a09ff948a71f6c10547865cd923af966e24f5e5b7df9b86d4bdbc97de0/opendr-toolkit-object-tracking-3d-2.1.0.tar.gz
+[2023-07-03 15:37:15] INFO root fetch - processPackages [opendr-toolkit-object-detection-2d]: Downloading https://files.pythonhosted.org/packages/3e/7c/7b066ea4b76c85cf5a6fb47051aced54964ccdbe0c8f27cb74a688758b96/opendr-toolkit-object-detection-2d-2.2.0.tar.gz
+[2023-07-03 15:37:15] INFO root fetch - processPackages [opendr-toolkit-face-recognition]: Remove: archive file [/home/abi/fetcher/tmp/opendr-toolkit-face-recognition-2.1.0.tar.gz]
+[2023-07-03 15:37:15] INFO root fetch - processPackages [opendr-toolkit-face-recognition]: Remove: archive file [/home/abi/fetcher/tmp/opendr-toolkit-face-recognition-2.2.0.tar.gz]
+[2023-07-03 15:37:15] INFO root fetch - processPackages [opendr-toolkit-face-recognition]: Start processing: opendr-toolkit-panoptic-segmentation
+[2023-07-03 15:37:15] INFO root fetch - main [MainThread]: End processing [opendr-toolkit-face-recognition]: success
+[2023-07-03 15:37:15] INFO root fetch - processPackages [opendr-toolkit-object-detection-3d]: Downloading https://files.pythonhosted.org/packages/bf/d4/d131c59cdc13e3b6808ba291cbf7816cc2cc536ca0283426b13e724e6eca/opendr-toolkit-object-detection-3d-2.2.0.tar.gz
+[2023-07-03 15:37:15] INFO root fetch - processPackages [ultracart-rest-sdk]: Remove: archive file [/home/abi/fetcher/tmp/ultracart_rest_sdk-4.0.98rc0.tar.gz]
+[2023-07-03 15:37:15] INFO root fetch - processPackages [ultracart-rest-sdk]: Remove: archive file [/home/abi/fetcher/tmp/ultracart_rest_sdk-4.0.99rc0.tar.gz]
+[2023-07-03 15:37:15] INFO root fetch - processPackages [ultracart-rest-sdk]: Start processing: opendr-toolkit-pose-estimation
+[2023-07-03 15:37:15] INFO root fetch - main [MainThread]: End processing [ultracart-rest-sdk]: success
+[2023-07-03 15:37:15] INFO root fetch - processPackages [opendr-toolkit-object-detection-2d]: executing diffoscope
+[2023-07-03 15:37:15] INFO root fetch - processPackages [opendr-toolkit-object-detection-2d]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opendr-toolkit-object-detection-2d-2.1.0.tar.gz tmp/opendr-toolkit-object-detection-2d-2.2.0.tar.gz --markdown 20230703/o/opendr-toolkit-object-detection-2d/2.1.0-2.2.0/diff.md --exclude *.pyd
+[2023-07-03 15:37:15] INFO root fetch - processPackages [opendr-toolkit-panoptic-segmentation]: New version: [2.2.0] Old Version: [2.1.0]
+[2023-07-03 15:37:15] INFO root fetch - processPackages [opendr-toolkit-object-detection-3d]: executing diffoscope
+[2023-07-03 15:37:15] INFO root fetch - processPackages [opendr-toolkit-object-detection-3d]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opendr-toolkit-object-detection-3d-2.1.0.tar.gz tmp/opendr-toolkit-object-detection-3d-2.2.0.tar.gz --markdown 20230703/o/opendr-toolkit-object-detection-3d/2.1.0-2.2.0/diff.md --exclude *.pyd
+[2023-07-03 15:37:15] INFO root fetch - processPackages [opendr-toolkit-object-tracking-2d]: Downloading https://files.pythonhosted.org/packages/d0/f4/75cab826bb55cbfe7660ae6260e1e81725aa31220e1a7a6533be4127fa3f/opendr-toolkit-object-tracking-2d-2.2.0.tar.gz
+[2023-07-03 15:37:15] INFO root fetch - processPackages [opendr-toolkit-pose-estimation]: New version: [2.2.0] Old Version: [2.1.0]
+[2023-07-03 15:37:15] INFO root fetch - processPackages [opendr-toolkit-object-tracking-3d]: Downloading https://files.pythonhosted.org/packages/d1/b5/a937dc84b555381d734c32fbe1227a1593ed4c23410bfe49e61761a0e370/opendr-toolkit-object-tracking-3d-2.2.0.tar.gz
+[2023-07-03 15:37:15] INFO root fetch - processPackages [opendr-toolkit-panoptic-segmentation]: Downloading https://files.pythonhosted.org/packages/a2/d6/4f66f549d06eff2166db5f164dd7b27a698263618152e7c2222b921d70d4/opendr-toolkit-panoptic-segmentation-2.1.0.tar.gz
+[2023-07-03 15:37:15] INFO root fetch - processPackages [opendr-toolkit-object-tracking-2d]: executing diffoscope
+[2023-07-03 15:37:15] INFO root fetch - processPackages [opendr-toolkit-object-tracking-2d]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opendr-toolkit-object-tracking-2d-2.1.0.tar.gz tmp/opendr-toolkit-object-tracking-2d-2.2.0.tar.gz --markdown 20230703/o/opendr-toolkit-object-tracking-2d/2.1.0-2.2.0/diff.md --exclude *.pyd
+[2023-07-03 15:37:15] INFO root fetch - processPackages [opendr-toolkit-pose-estimation]: Downloading https://files.pythonhosted.org/packages/0b/ec/a0ea3ef14b904ab1bc14218a03e5cfc7aa9fd716903a4314566a3ec1c8eb/opendr-toolkit-pose-estimation-2.1.0.tar.gz
+[2023-07-03 15:37:16] INFO root fetch - processPackages [opendr-toolkit-object-tracking-3d]: executing diffoscope
+[2023-07-03 15:37:16] INFO root fetch - processPackages [opendr-toolkit-object-tracking-3d]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opendr-toolkit-object-tracking-3d-2.1.0.tar.gz tmp/opendr-toolkit-object-tracking-3d-2.2.0.tar.gz --markdown 20230703/o/opendr-toolkit-object-tracking-3d/2.1.0-2.2.0/diff.md --exclude *.pyd
+[2023-07-03 15:37:16] INFO root fetch - processPackages [pre-script]: Remove: archive file [/home/abi/fetcher/tmp/pre_script-0.1.1.tar.gz]
+[2023-07-03 15:37:16] INFO root fetch - processPackages [pre-script]: Remove: archive file [/home/abi/fetcher/tmp/pre_script-0.1.2.tar.gz]
+[2023-07-03 15:37:16] INFO root fetch - processPackages [pre-script]: Start processing: opendr-toolkit-semantic-segmentation
+[2023-07-03 15:37:16] INFO root fetch - main [MainThread]: End processing [pre-script]: success
+[2023-07-03 15:37:16] INFO root fetch - processPackages [opendr-toolkit-pose-estimation]: Downloading https://files.pythonhosted.org/packages/8f/cf/47b527ff6a89c1612d094383966b3e7c6739ae39fdadbed57df6e6912b44/opendr-toolkit-pose-estimation-2.2.0.tar.gz
+[2023-07-03 15:37:16] INFO root fetch - processPackages [robotslacker-testcli]: Downloading https://files.pythonhosted.org/packages/49/c7/4e9f25562dae606566643edd46e0c7fdfcb015dd742780c7eeb381d4ae43/robotslacker-testcli-0.0.9.tar.gz
+[2023-07-03 15:37:16] INFO root fetch - processPackages [opendr-toolkit-semantic-segmentation]: New version: [2.2.0] Old Version: [2.1.0]
+[2023-07-03 15:37:16] INFO root fetch - processPackages [opendr-toolkit-pose-estimation]: executing diffoscope
+[2023-07-03 15:37:16] INFO root fetch - processPackages [opendr-toolkit-pose-estimation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opendr-toolkit-pose-estimation-2.1.0.tar.gz tmp/opendr-toolkit-pose-estimation-2.2.0.tar.gz --markdown 20230703/o/opendr-toolkit-pose-estimation/2.1.0-2.2.0/diff.md --exclude *.pyd
+[2023-07-03 15:37:16] INFO root fetch - processPackages [opendr-toolkit-multimodal-human-centric]: Remove: archive file [/home/abi/fetcher/tmp/opendr-toolkit-multimodal-human-centric-2.1.0.tar.gz]
+[2023-07-03 15:37:16] INFO root fetch - processPackages [opendr-toolkit-multimodal-human-centric]: Remove: archive file [/home/abi/fetcher/tmp/opendr-toolkit-multimodal-human-centric-2.2.0.tar.gz]
+[2023-07-03 15:37:16] INFO root fetch - processPackages [opendr-toolkit-multimodal-human-centric]: Start processing: opendr-toolkit-skeleton-based-action-recognition
+[2023-07-03 15:37:16] INFO root fetch - main [MainThread]: End processing [opendr-toolkit-multimodal-human-centric]: success
+[2023-07-03 15:37:16] INFO root fetch - processPackages [opendr-toolkit-skeleton-based-action-recognition]: New version: [2.2.0] Old Version: [2.1.0]
+[2023-07-03 15:37:16] INFO root fetch - processPackages [opendr-toolkit-semantic-segmentation]: Downloading https://files.pythonhosted.org/packages/de/e8/ab46ba9c17095c6eebfa92b624bb242ca15893fd22bbffa198a2c4ea5f9c/opendr-toolkit-semantic-segmentation-2.1.0.tar.gz
+[2023-07-03 15:37:16] INFO root fetch - processPackages [opendr-toolkit-panoptic-segmentation]: Downloading https://files.pythonhosted.org/packages/26/0d/3c227cdc6166d9a9ddff54ccb6e4b7d256f4d690dde98e61c77117255626/opendr-toolkit-panoptic-segmentation-2.2.0.tar.gz
+[2023-07-03 15:37:16] INFO root fetch - processPackages [opendr-toolkit-skeleton-based-action-recognition]: Downloading https://files.pythonhosted.org/packages/1f/94/ab693f76f85d4e8095d297676300df6b91960e1633a749e8b25b839cc8f7/opendr-toolkit-skeleton-based-action-recognition-2.1.0.tar.gz
+[2023-07-03 15:37:17] INFO root fetch - processPackages [opendr-toolkit-semantic-segmentation]: Downloading https://files.pythonhosted.org/packages/58/c2/2c6c89687ea3c1d61894252b9c959905e356a88e88206897a4bb9dfa358c/opendr-toolkit-semantic-segmentation-2.2.0.tar.gz
+[2023-07-03 15:37:17] INFO root fetch - processPackages [opendr-toolkit-panoptic-segmentation]: executing diffoscope
+[2023-07-03 15:37:17] INFO root fetch - processPackages [opendr-toolkit-panoptic-segmentation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opendr-toolkit-panoptic-segmentation-2.1.0.tar.gz tmp/opendr-toolkit-panoptic-segmentation-2.2.0.tar.gz --markdown 20230703/o/opendr-toolkit-panoptic-segmentation/2.1.0-2.2.0/diff.md --exclude *.pyd
+[2023-07-03 15:37:17] INFO root fetch - processPackages [opendr-toolkit-semantic-segmentation]: executing diffoscope
+[2023-07-03 15:37:17] INFO root fetch - processPackages [opendr-toolkit-semantic-segmentation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opendr-toolkit-semantic-segmentation-2.1.0.tar.gz tmp/opendr-toolkit-semantic-segmentation-2.2.0.tar.gz --markdown 20230703/o/opendr-toolkit-semantic-segmentation/2.1.0-2.2.0/diff.md --exclude *.pyd
+[2023-07-03 15:37:17] INFO root fetch - processPackages [opendr-toolkit-skeleton-based-action-recognition]: Downloading https://files.pythonhosted.org/packages/2a/68/c3831c14705637001fabbf92cac27ffc98618ed2b53e74da20b8aed7e2be/opendr-toolkit-skeleton-based-action-recognition-2.2.0.tar.gz
+[2023-07-03 15:37:17] INFO root fetch - processPackages [opendr-toolkit-object-tracking-3d]: Remove: archive file [/home/abi/fetcher/tmp/opendr-toolkit-object-tracking-3d-2.1.0.tar.gz]
+[2023-07-03 15:37:17] INFO root fetch - processPackages [opendr-toolkit-object-tracking-3d]: Remove: archive file [/home/abi/fetcher/tmp/opendr-toolkit-object-tracking-3d-2.2.0.tar.gz]
+[2023-07-03 15:37:17] INFO root fetch - processPackages [opendr-toolkit-object-tracking-3d]: Start processing: opendr-toolkit-speech-recognition
+[2023-07-03 15:37:17] INFO root fetch - main [MainThread]: End processing [opendr-toolkit-object-tracking-3d]: success
+[2023-07-03 15:37:17] INFO root fetch - processPackages [robotslacker-testcli]: executing diffoscope
+[2023-07-03 15:37:17] INFO root fetch - processPackages [robotslacker-testcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotslacker-testcli-0.0.8.tar.gz tmp/robotslacker-testcli-0.0.9.tar.gz --markdown 20230703/r/robotslacker-testcli/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-03 15:37:17] INFO root fetch - processPackages [opendr-toolkit-skeleton-based-action-recognition]: executing diffoscope
+[2023-07-03 15:37:17] INFO root fetch - processPackages [opendr-toolkit-skeleton-based-action-recognition]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opendr-toolkit-skeleton-based-action-recognition-2.1.0.tar.gz tmp/opendr-toolkit-skeleton-based-action-recognition-2.2.0.tar.gz --markdown 20230703/o/opendr-toolkit-skeleton-based-action-recognition/2.1.0-2.2.0/diff.md --exclude *.pyd
+[2023-07-03 15:37:17] INFO root fetch - processPackages [opendr-toolkit-speech-recognition]: New version: [2.2.0] Old Version: [2.1.0]
+[2023-07-03 15:37:17] INFO root fetch - processPackages [opendr-toolkit-speech-recognition]: Downloading https://files.pythonhosted.org/packages/55/09/9f21117b26e51e27d092b1ef4b4be290ef894ba0da84f885c06ef4d2e3b6/opendr-toolkit-speech-recognition-2.1.0.tar.gz
+[2023-07-03 15:37:18] INFO root fetch - processPackages [opendr-toolkit-pose-estimation]: Remove: archive file [/home/abi/fetcher/tmp/opendr-toolkit-pose-estimation-2.1.0.tar.gz]
+[2023-07-03 15:37:18] INFO root fetch - processPackages [opendr-toolkit-pose-estimation]: Remove: archive file [/home/abi/fetcher/tmp/opendr-toolkit-pose-estimation-2.2.0.tar.gz]
+[2023-07-03 15:37:18] INFO root fetch - processPackages [opendr-toolkit-pose-estimation]: Start processing: ag-llama-api
+[2023-07-03 15:37:18] INFO root fetch - main [MainThread]: End processing [opendr-toolkit-pose-estimation]: success
+[2023-07-03 15:37:18] INFO root fetch - processPackages [opendr-toolkit-object-detection-3d]: Remove: archive file [/home/abi/fetcher/tmp/opendr-toolkit-object-detection-3d-2.1.0.tar.gz]
+[2023-07-03 15:37:18] INFO root fetch - processPackages [opendr-toolkit-object-detection-3d]: Remove: archive file [/home/abi/fetcher/tmp/opendr-toolkit-object-detection-3d-2.2.0.tar.gz]
+[2023-07-03 15:37:18] INFO root fetch - processPackages [opendr-toolkit-object-detection-3d]: Start processing: mkdocs-dsfr
+[2023-07-03 15:37:18] INFO root fetch - main [MainThread]: End processing [opendr-toolkit-object-detection-3d]: success
+[2023-07-03 15:37:18] INFO root fetch - processPackages [ag-llama-api]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-03 15:37:18] INFO root fetch - processPackages [opendr-toolkit-speech-recognition]: Downloading https://files.pythonhosted.org/packages/13/a6/793f5344f0669d54d0616d512795e1e8637d92d4bf02bf514298e99b4913/opendr-toolkit-speech-recognition-2.2.0.tar.gz
+[2023-07-03 15:37:18] INFO root fetch - processPackages [ag-llama-api]: Downloading https://files.pythonhosted.org/packages/e7/db/6c93bb8ec9653fafd298258240710b4768345a45843013bc715cf9e658f7/ag_llama_api-0.0.8.tar.gz
+[2023-07-03 15:37:18] INFO root fetch - processPackages [mkdocs-dsfr]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-07-03 15:37:18] INFO root fetch - processPackages [opendr-toolkit-speech-recognition]: executing diffoscope
+[2023-07-03 15:37:18] INFO root fetch - processPackages [opendr-toolkit-speech-recognition]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opendr-toolkit-speech-recognition-2.1.0.tar.gz tmp/opendr-toolkit-speech-recognition-2.2.0.tar.gz --markdown 20230703/o/opendr-toolkit-speech-recognition/2.1.0-2.2.0/diff.md --exclude *.pyd
+[2023-07-03 15:37:18] INFO root fetch - processPackages [opendr-toolkit-object-tracking-2d]: Remove: archive file [/home/abi/fetcher/tmp/opendr-toolkit-object-tracking-2d-2.1.0.tar.gz]
+[2023-07-03 15:37:18] INFO root fetch - processPackages [opendr-toolkit-object-tracking-2d]: Remove: archive file [/home/abi/fetcher/tmp/opendr-toolkit-object-tracking-2d-2.2.0.tar.gz]
+[2023-07-03 15:37:18] INFO root fetch - processPackages [opendr-toolkit-object-tracking-2d]: Start processing: ProtFlash
+[2023-07-03 15:37:18] INFO root fetch - main [MainThread]: End processing [opendr-toolkit-object-tracking-2d]: success
+[2023-07-03 15:37:18] INFO root fetch - processPackages [mkdocs-dsfr]: Downloading https://files.pythonhosted.org/packages/69/b5/df67862e68b83af969b71bf1f616e0bee897f3d0fa8117ab5784e16f327c/mkdocs_dsfr-0.3.0.tar.gz
+[2023-07-03 15:37:18] INFO root fetch - processPackages [ProtFlash]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-03 15:37:18] INFO root fetch - processPackages [ag-llama-api]: Downloading https://files.pythonhosted.org/packages/0e/45/5ce146425eb4c54590e514bf53d436ec8eb7cbeee70953b613dcd4e56824/ag_llama_api-0.0.9.tar.gz
+[2023-07-03 15:37:18] INFO root fetch - processPackages [opendr-toolkit-semantic-segmentation]: Remove: archive file [/home/abi/fetcher/tmp/opendr-toolkit-semantic-segmentation-2.1.0.tar.gz]
+[2023-07-03 15:37:18] INFO root fetch - processPackages [opendr-toolkit-semantic-segmentation]: Remove: archive file [/home/abi/fetcher/tmp/opendr-toolkit-semantic-segmentation-2.2.0.tar.gz]
+[2023-07-03 15:37:18] INFO root fetch - processPackages [opendr-toolkit-semantic-segmentation]: Start processing: subtain-test-sdk
+[2023-07-03 15:37:18] INFO root fetch - main [MainThread]: End processing [opendr-toolkit-semantic-segmentation]: success
+[2023-07-03 15:37:18] INFO root fetch - processPackages [ag-llama-api]: executing diffoscope
+[2023-07-03 15:37:18] INFO root fetch - processPackages [ag-llama-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ag_llama_api-0.0.8.tar.gz tmp/ag_llama_api-0.0.9.tar.gz --markdown 20230703/a/ag-llama-api/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-03 15:37:18] INFO root fetch - processPackages [opendr-toolkit-object-detection-2d]: Remove: archive file [/home/abi/fetcher/tmp/opendr-toolkit-object-detection-2d-2.1.0.tar.gz]
+[2023-07-03 15:37:18] INFO root fetch - processPackages [opendr-toolkit-object-detection-2d]: Remove: archive file [/home/abi/fetcher/tmp/opendr-toolkit-object-detection-2d-2.2.0.tar.gz]
+[2023-07-03 15:37:18] INFO root fetch - processPackages [opendr-toolkit-object-detection-2d]: Start processing: django-mongoengine-rql
+[2023-07-03 15:37:18] INFO root fetch - main [MainThread]: End processing [opendr-toolkit-object-detection-2d]: success
+[2023-07-03 15:37:18] INFO root fetch - processPackages [ProtFlash]: Downloading https://files.pythonhosted.org/packages/dd/ea/cfb3660878e2ecaa3ebe554312ffbcd2b98f37bcab1781f5704eac478d90/ProtFlash-0.1.0.tar.gz
+[2023-07-03 15:37:18] WARNING root fetch - processPackages [subtain-test-sdk]: Skipping, unable to determine old version
+[2023-07-03 15:37:18] INFO root fetch - processPackages [subtain-test-sdk]: Start processing: lakeapi2sql
+[2023-07-03 15:37:18] INFO root fetch - main [MainThread]: End processing [subtain-test-sdk] error
+[2023-07-03 15:37:18] INFO root fetch - processPackages [lakeapi2sql]: New version: [0.3.0] Old Version: [0.2.1]
+[2023-07-03 15:37:19] INFO root fetch - processPackages [django-mongoengine-rql]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-07-03 15:37:19] INFO root fetch - processPackages [lakeapi2sql]: Downloading https://files.pythonhosted.org/packages/73/b3/f821442a5684ad403e0879f97b0a5fecbe8c88ba14cc21edf0a7d975a979/lakeapi2sql-0.2.1.tar.gz
+[2023-07-03 15:37:19] INFO root fetch - processPackages [mkdocs-dsfr]: Downloading https://files.pythonhosted.org/packages/d3/8f/27ee8ef9e28aa2ff07c741520adba67cccd7673450746754018d55b51ad3/mkdocs_dsfr-0.3.1.tar.gz
+[2023-07-03 15:37:19] INFO root fetch - processPackages [opendr-toolkit-skeleton-based-action-recognition]: Remove: archive file [/home/abi/fetcher/tmp/opendr-toolkit-skeleton-based-action-recognition-2.1.0.tar.gz]
+[2023-07-03 15:37:19] INFO root fetch - processPackages [opendr-toolkit-skeleton-based-action-recognition]: Remove: archive file [/home/abi/fetcher/tmp/opendr-toolkit-skeleton-based-action-recognition-2.2.0.tar.gz]
+[2023-07-03 15:37:19] INFO root fetch - processPackages [opendr-toolkit-skeleton-based-action-recognition]: Start processing: pyowletapi
+[2023-07-03 15:37:19] INFO root fetch - main [MainThread]: End processing [opendr-toolkit-skeleton-based-action-recognition]: success
+[2023-07-03 15:37:19] INFO root fetch - processPackages [ProtFlash]: Downloading https://files.pythonhosted.org/packages/8e/f1/d7cbe20c911dea4e93b6711af96775458e1b18fe94fbf5f7632392927c5d/ProtFlash-0.1.1.tar.gz
+[2023-07-03 15:37:19] INFO root fetch - processPackages [pyowletapi]: New version: [2023.7.1] Old Version: [2023.5.9]
+[2023-07-03 15:37:19] INFO root fetch - processPackages [django-mongoengine-rql]: Downloading https://files.pythonhosted.org/packages/4d/df/35599ae5756609a6f55b4f9606b7404c9e5e1f856670c0767fe676738e67/django_mongoengine_rql-0.2.1.tar.gz
+[2023-07-03 15:37:19] INFO root fetch - processPackages [mkdocs-dsfr]: executing diffoscope
+[2023-07-03 15:37:19] INFO root fetch - processPackages [mkdocs-dsfr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkdocs_dsfr-0.3.0.tar.gz tmp/mkdocs_dsfr-0.3.1.tar.gz --markdown 20230703/m/mkdocs-dsfr/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-07-03 15:37:19] INFO root fetch - processPackages [ProtFlash]: executing diffoscope
+[2023-07-03 15:37:19] INFO root fetch - processPackages [ProtFlash]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ProtFlash-0.1.0.tar.gz tmp/ProtFlash-0.1.1.tar.gz --markdown 20230703/P/ProtFlash/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-03 15:37:19] INFO root fetch - processPackages [lakeapi2sql]: Downloading https://files.pythonhosted.org/packages/ee/37/33442a461b5079388e187d38a14f78797c667d5a1a68550427e87a8d92ff/lakeapi2sql-0.3.0.tar.gz
+[2023-07-03 15:37:19] INFO root fetch - processPackages [pyowletapi]: Downloading https://files.pythonhosted.org/packages/6e/2e/af455fa9c2a369e4db90d9e563028eecc7136380171d474521192dfd23ef/pyowletapi-2023.5.9.tar.gz
+[2023-07-03 15:37:19] INFO root fetch - processPackages [django-mongoengine-rql]: Downloading https://files.pythonhosted.org/packages/cf/f0/1ec1c7b8b5174b5b9c5afa4464cfe94b9db71a43cd23c0cf5397605c6224/django_mongoengine_rql-0.2.2.tar.gz
+[2023-07-03 15:37:19] INFO root fetch - processPackages [lakeapi2sql]: executing diffoscope
+[2023-07-03 15:37:19] INFO root fetch - processPackages [lakeapi2sql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lakeapi2sql-0.2.1.tar.gz tmp/lakeapi2sql-0.3.0.tar.gz --markdown 20230703/l/lakeapi2sql/0.2.1-0.3.0/diff.md --exclude *.pyd
+[2023-07-03 15:37:19] INFO root fetch - processPackages [django-mongoengine-rql]: executing diffoscope
+[2023-07-03 15:37:19] INFO root fetch - processPackages [django-mongoengine-rql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_mongoengine_rql-0.2.1.tar.gz tmp/django_mongoengine_rql-0.2.2.tar.gz --markdown 20230703/d/django-mongoengine-rql/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-07-03 15:37:19] INFO root fetch - processPackages [ag-llama-api]: Remove: archive file [/home/abi/fetcher/tmp/ag_llama_api-0.0.8.tar.gz]
+[2023-07-03 15:37:19] INFO root fetch - processPackages [ag-llama-api]: Remove: archive file [/home/abi/fetcher/tmp/ag_llama_api-0.0.9.tar.gz]
+[2023-07-03 15:37:19] INFO root fetch - processPackages [ag-llama-api]: Start processing: psyki
+[2023-07-03 15:37:19] INFO root fetch - main [MainThread]: End processing [ag-llama-api]: success
+[2023-07-03 15:37:20] INFO root fetch - processPackages [pyowletapi]: Downloading https://files.pythonhosted.org/packages/ee/cb/ad373b72ebbb33f6c8d1c8d424f531929d9a2e624c8cb080371e27f1d88f/pyowletapi-2023.7.1.tar.gz
+[2023-07-03 15:37:20] INFO root fetch - processPackages [robotslacker-testcli]: Remove: archive file [/home/abi/fetcher/tmp/robotslacker-testcli-0.0.8.tar.gz]
+[2023-07-03 15:37:20] INFO root fetch - processPackages [robotslacker-testcli]: Remove: archive file [/home/abi/fetcher/tmp/robotslacker-testcli-0.0.9.tar.gz]
+[2023-07-03 15:37:20] INFO root fetch - processPackages [robotslacker-testcli]: Start processing: InterpretME
+[2023-07-03 15:37:20] INFO root fetch - main [MainThread]: End processing [robotslacker-testcli]: success
+[2023-07-03 15:37:20] INFO root fetch - processPackages [opendr-toolkit-speech-recognition]: Remove: archive file [/home/abi/fetcher/tmp/opendr-toolkit-speech-recognition-2.1.0.tar.gz]
+[2023-07-03 15:37:20] INFO root fetch - processPackages [opendr-toolkit-speech-recognition]: Remove: archive file [/home/abi/fetcher/tmp/opendr-toolkit-speech-recognition-2.2.0.tar.gz]
+[2023-07-03 15:37:20] INFO root fetch - main [MainThread]: End processing [opendr-toolkit-speech-recognition]: success
+[2023-07-03 15:37:20] INFO root fetch - processPackages [psyki]: New version: [0.3.9] Old Version: [0.3.5]
+[2023-07-03 15:37:20] INFO root fetch - processPackages [pyowletapi]: executing diffoscope
+[2023-07-03 15:37:20] INFO root fetch - processPackages [pyowletapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyowletapi-2023.5.9.tar.gz tmp/pyowletapi-2023.7.1.tar.gz --markdown 20230703/p/pyowletapi/2023.5.9-2023.7.1/diff.md --exclude *.pyd
+[2023-07-03 15:37:20] INFO root fetch - processPackages [InterpretME]: New version: [1.3.1] Old Version: [1.3.0]
+[2023-07-03 15:37:20] INFO root fetch - processPackages [psyki]: Downloading https://files.pythonhosted.org/packages/db/af/4866412cf64b78481928d8fe81c3576e39a1ede6c6e68c672fe2cc5e8091/psyki-0.3.5.tar.gz
+[2023-07-03 15:37:20] INFO root fetch - processPackages [InterpretME]: Downloading https://files.pythonhosted.org/packages/d7/33/2278c8a266567e2fde134d5cf76c9d8438a2999caa9ab32d3ff56f6ff4df/InterpretME-1.3.0.tar.gz
+[2023-07-03 15:37:20] INFO root fetch - processPackages [ProtFlash]: Remove: archive file [/home/abi/fetcher/tmp/ProtFlash-0.1.0.tar.gz]
+[2023-07-03 15:37:20] INFO root fetch - processPackages [ProtFlash]: Remove: archive file [/home/abi/fetcher/tmp/ProtFlash-0.1.1.tar.gz]
+[2023-07-03 15:37:20] INFO root fetch - main [MainThread]: End processing [ProtFlash]: success
+[2023-07-03 15:37:20] INFO root fetch - processPackages [lakeapi2sql]: Remove: archive file [/home/abi/fetcher/tmp/lakeapi2sql-0.2.1.tar.gz]
+[2023-07-03 15:37:20] INFO root fetch - processPackages [lakeapi2sql]: Remove: archive file [/home/abi/fetcher/tmp/lakeapi2sql-0.3.0.tar.gz]
+[2023-07-03 15:37:20] INFO root fetch - main [MainThread]: End processing [lakeapi2sql]: success
+[2023-07-03 15:37:20] INFO root fetch - processPackages [InterpretME]: Downloading https://files.pythonhosted.org/packages/d7/d8/779d103f237ded92246af48cc9acea6e7d2f718f87faa7df367bd17b9b08/InterpretME-1.3.1.tar.gz
+[2023-07-03 15:37:20] INFO root fetch - processPackages [django-mongoengine-rql]: Remove: archive file [/home/abi/fetcher/tmp/django_mongoengine_rql-0.2.1.tar.gz]
+[2023-07-03 15:37:20] INFO root fetch - processPackages [django-mongoengine-rql]: Remove: archive file [/home/abi/fetcher/tmp/django_mongoengine_rql-0.2.2.tar.gz]
+[2023-07-03 15:37:20] INFO root fetch - main [MainThread]: End processing [django-mongoengine-rql]: success
+[2023-07-03 15:37:21] INFO root fetch - processPackages [InterpretME]: executing diffoscope
+[2023-07-03 15:37:21] INFO root fetch - processPackages [InterpretME]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/InterpretME-1.3.0.tar.gz tmp/InterpretME-1.3.1.tar.gz --markdown 20230703/I/InterpretME/1.3.0-1.3.1/diff.md --exclude *.pyd
+[2023-07-03 15:37:21] INFO root fetch - processPackages [psyki]: Downloading https://files.pythonhosted.org/packages/eb/06/d30c235e9876fdac02be298866ff7dacee443e5d9e1651eb856150f2836e/psyki-0.3.9.tar.gz
+[2023-07-03 15:37:21] INFO root fetch - processPackages [pyowletapi]: Remove: archive file [/home/abi/fetcher/tmp/pyowletapi-2023.5.9.tar.gz]
+[2023-07-03 15:37:21] INFO root fetch - processPackages [pyowletapi]: Remove: archive file [/home/abi/fetcher/tmp/pyowletapi-2023.7.1.tar.gz]
+[2023-07-03 15:37:21] INFO root fetch - main [MainThread]: End processing [pyowletapi]: success
+[2023-07-03 15:37:21] INFO root fetch - processPackages [psyki]: executing diffoscope
+[2023-07-03 15:37:21] INFO root fetch - processPackages [psyki]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/psyki-0.3.5.tar.gz tmp/psyki-0.3.9.tar.gz --markdown 20230703/p/psyki/0.3.5-0.3.9/diff.md --exclude *.pyd
+[2023-07-03 15:37:22] INFO root fetch - processPackages [InterpretME]: Remove: archive file [/home/abi/fetcher/tmp/InterpretME-1.3.0.tar.gz]
+[2023-07-03 15:37:22] INFO root fetch - processPackages [InterpretME]: Remove: archive file [/home/abi/fetcher/tmp/InterpretME-1.3.1.tar.gz]
+[2023-07-03 15:37:22] INFO root fetch - main [MainThread]: End processing [InterpretME]: success
+[2023-07-03 15:37:22] INFO root fetch - processPackages [opendr-toolkit-panoptic-segmentation]: Remove: archive file [/home/abi/fetcher/tmp/opendr-toolkit-panoptic-segmentation-2.1.0.tar.gz]
+[2023-07-03 15:37:22] INFO root fetch - processPackages [opendr-toolkit-panoptic-segmentation]: Remove: archive file [/home/abi/fetcher/tmp/opendr-toolkit-panoptic-segmentation-2.2.0.tar.gz]
+[2023-07-03 15:37:22] INFO root fetch - main [MainThread]: End processing [opendr-toolkit-panoptic-segmentation]: success
+[2023-07-03 15:37:22] INFO root fetch - processPackages [psyki]: Remove: archive file [/home/abi/fetcher/tmp/psyki-0.3.5.tar.gz]
+[2023-07-03 15:37:22] INFO root fetch - processPackages [psyki]: Remove: archive file [/home/abi/fetcher/tmp/psyki-0.3.9.tar.gz]
+[2023-07-03 15:37:22] INFO root fetch - main [MainThread]: End processing [psyki]: success
+[2023-07-03 15:37:24] INFO root fetch - processPackages [mkdocs-dsfr]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs_dsfr-0.3.0.tar.gz]
+[2023-07-03 15:37:24] INFO root fetch - processPackages [mkdocs-dsfr]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs_dsfr-0.3.1.tar.gz]
+[2023-07-03 15:37:24] INFO root fetch - main [MainThread]: End processing [mkdocs-dsfr]: success
+[2023-07-03 15:37:25] INFO root fetch - processPackages [tamaas]: Remove: archive file [/home/abi/fetcher/tmp/tamaas-2.7.0rc1-cp39-none-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.zip]
+[2023-07-03 15:37:25] INFO root fetch - processPackages [tamaas]: Remove: archive file [/home/abi/fetcher/tmp/tamaas-2.7.0rc2-cp39-none-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.zip]
+[2023-07-03 15:37:25] INFO root fetch - main [MainThread]: End processing [tamaas]: success
+[2023-07-03 15:37:25] INFO root fetch - main [MainThread]: Store serial: [18739887]
