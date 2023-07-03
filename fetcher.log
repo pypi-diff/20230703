@@ -6984,3 +6984,155 @@
 [2023-07-03 06:37:37] INFO root fetch - processPackages [wavespectra]: Remove: archive file [/home/abi/fetcher/tmp/wavespectra-3.9.0.tar.gz]
 [2023-07-03 06:37:37] INFO root fetch - main [MainThread]: End processing [wavespectra]: success
 [2023-07-03 06:37:37] INFO root fetch - main [MainThread]: Store serial: [18734649]
+[2023-07-03 06:42:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18734649]
+[2023-07-03 06:42:45] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-03 06:42:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tf-nightly-macos
+[2023-07-03 06:42:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sonicparanoid
+[2023-07-03 06:42:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dank-mids
+[2023-07-03 06:42:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: grassmanntn
+[2023-07-03 06:42:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cloudoll
+[2023-07-03 06:42:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: upstash-redis
+[2023-07-03 06:42:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: upstash-redis
+[2023-07-03 06:42:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: animethemes-beta-batch-encoder
+[2023-07-03 06:42:45] INFO root fetch - processPackages [upstash-redis]: New version: [0.14.2] Old Version: [0.14.1]
+[2023-07-03 06:42:45] INFO root fetch - processPackages [upstash-redis]: New version: [0.14.2] Old Version: [0.14.1]
+[2023-07-03 06:42:46] INFO root fetch - processPackages [dank-mids]: New version: [4.20.9] Old Version: [4.20.8]
+[2023-07-03 06:42:46] INFO root fetch - processPackages [upstash-redis]: Downloading https://files.pythonhosted.org/packages/26/4b/ad50b1aa2db7b754834a6bc0360523e8b37b88c0bafe78d918ae67aaa3bb/upstash_redis-0.14.1.tar.gz
+[2023-07-03 06:42:46] INFO root fetch - processPackages [upstash-redis]: Downloading https://files.pythonhosted.org/packages/26/4b/ad50b1aa2db7b754834a6bc0360523e8b37b88c0bafe78d918ae67aaa3bb/upstash_redis-0.14.1.tar.gz
+[2023-07-03 06:42:46] INFO root fetch - processPackages [grassmanntn]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-03 06:42:46] INFO root fetch - processPackages [cloudoll]: New version: [2.0.2] Old Version: [2.0.1]
+[2023-07-03 06:42:46] INFO root fetch - processPackages [dank-mids]: Downloading https://files.pythonhosted.org/packages/dd/d9/a90cdebb46db5a35fe035f493b14d48e210491b568f4927af7919ab2fdbd/dank_mids-4.20.8.tar.gz
+[2023-07-03 06:42:46] INFO root fetch - processPackages [tf-nightly-macos]: New version: [2.14.0.dev20230702] Old Version: [2.14.0.dev20230701]
+[2023-07-03 06:42:46] INFO root fetch - processPackages [sonicparanoid]: New version: [2.0.4] Old Version: [2.0.3]
+[2023-07-03 06:42:46] INFO root fetch - processPackages [animethemes-beta-batch-encoder]: New version: [1.3] Old Version: [1.2]
+[2023-07-03 06:42:46] INFO root fetch - processPackages [upstash-redis]: Downloading https://files.pythonhosted.org/packages/7d/29/090232cd8af20e8c1710ba0ab7a9d69fc0ff4f82cdd96f95931ca1ea192a/upstash_redis-0.14.2.tar.gz
+[2023-07-03 06:42:46] INFO root fetch - processPackages [upstash-redis]: Downloading https://files.pythonhosted.org/packages/7d/29/090232cd8af20e8c1710ba0ab7a9d69fc0ff4f82cdd96f95931ca1ea192a/upstash_redis-0.14.2.tar.gz
+[2023-07-03 06:42:46] INFO root fetch - processPackages [dank-mids]: Downloading https://files.pythonhosted.org/packages/e9/d0/a0c6c8d2d154a0250f47b30968e60098b0d44d3b35571e97a925b9b3984f/dank_mids-4.20.9.tar.gz
+[2023-07-03 06:42:46] INFO root fetch - processPackages [cloudoll]: Downloading https://files.pythonhosted.org/packages/62/a0/02c1e5417a1c7066e89243213073bd6311ea16c29878c16e2f4edac8dc5f/cloudoll-2.0.1.tar.gz
+[2023-07-03 06:42:46] INFO root fetch - processPackages [grassmanntn]: Downloading https://files.pythonhosted.org/packages/8e/e6/6e8429af601b70d122d7a6e657d678227f8e2c1d5316795be1ddad5e9a9f/grassmanntn-1.0.1.tar.gz
+[2023-07-03 06:42:46] INFO root fetch - processPackages [tf-nightly-macos]: Downloading https://files.pythonhosted.org/packages/a3/29/ab9e3c0dc6baa20df2af197eafe540d51132835f9cc5eb59cf0c0259846e/tf_nightly_macos-2.14.0.dev20230701-cp39-cp39-macosx_12_0_arm64.whl
+[2023-07-03 06:42:46] INFO root fetch - processPackages [dank-mids]: executing diffoscope
+[2023-07-03 06:42:46] INFO root fetch - processPackages [dank-mids]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dank_mids-4.20.8.tar.gz tmp/dank_mids-4.20.9.tar.gz --markdown 20230703/d/dank-mids/4.20.8-4.20.9/diff.md --exclude *.pyd
+[2023-07-03 06:42:46] INFO root fetch - processPackages [sonicparanoid]: Downloading https://files.pythonhosted.org/packages/c9/b3/61b7c3c3cca189d62dfb206c0fcc4e87505a17c38eaca19a997094f21934/sonicparanoid-2.0.3.tar.gz
+[2023-07-03 06:42:46] WARNING root fetch - processPackages [tf-nightly-macos]: Skipping package: exceeds size limit 199616598>=10485760
+[2023-07-03 06:42:46] INFO root fetch - main [MainThread]: End processing [tf-nightly-macos] error
+[2023-07-03 06:42:46] INFO root fetch - processPackages [upstash-redis]: executing diffoscope
+[2023-07-03 06:42:46] INFO root fetch - processPackages [upstash-redis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/upstash_redis-0.14.1.tar.gz tmp/upstash_redis-0.14.2.tar.gz --markdown 20230703/u/upstash-redis/0.14.1-0.14.2/diff.md --exclude *.pyd
+[2023-07-03 06:42:46] INFO root fetch - processPackages [upstash-redis]: executing diffoscope
+[2023-07-03 06:42:46] INFO root fetch - processPackages [upstash-redis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/upstash_redis-0.14.1.tar.gz tmp/upstash_redis-0.14.2.tar.gz --markdown 20230703/u/upstash-redis/0.14.1-0.14.2/diff.md --exclude *.pyd
+[2023-07-03 06:42:46] INFO root fetch - processPackages [animethemes-beta-batch-encoder]: Downloading https://files.pythonhosted.org/packages/34/e1/948685815e9ba0567c2775599756812479c3f55cb45886a18f778b4e038b/animethemes-beta-batch-encoder-1.2.tar.gz
+[2023-07-03 06:42:46] INFO root fetch - processPackages [cloudoll]: Downloading https://files.pythonhosted.org/packages/94/13/6d5c94b80c30461102b435a9dbe7c3a743f60628241877baff265ac79081/cloudoll-2.0.2.tar.gz
+[2023-07-03 06:42:46] WARNING root fetch - processPackages [sonicparanoid]: Skipping package: exceeds size limit 89287865>=10485760
+[2023-07-03 06:42:46] INFO root fetch - main [MainThread]: End processing [sonicparanoid] error
+[2023-07-03 06:42:46] INFO root fetch - processPackages [animethemes-beta-batch-encoder]: Downloading https://files.pythonhosted.org/packages/ad/34/4c9b1ebee7b3f0b9278566df9a2ae0e4424b7630fd1e711a0bade2222991/animethemes-beta-batch-encoder-1.3.tar.gz
+[2023-07-03 06:42:46] INFO root fetch - processPackages [cloudoll]: executing diffoscope
+[2023-07-03 06:42:46] INFO root fetch - processPackages [cloudoll]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudoll-2.0.1.tar.gz tmp/cloudoll-2.0.2.tar.gz --markdown 20230703/c/cloudoll/2.0.1-2.0.2/diff.md --exclude *.pyd
+[2023-07-03 06:42:46] INFO root fetch - processPackages [grassmanntn]: Downloading https://files.pythonhosted.org/packages/ce/dc/904d5c9edc59968d081313ddb1ee0a85a9ee8181e79737b6ad3f59d6e9e3/grassmanntn-1.0.2.tar.gz
+[2023-07-03 06:42:46] INFO root fetch - processPackages [animethemes-beta-batch-encoder]: executing diffoscope
+[2023-07-03 06:42:46] INFO root fetch - processPackages [animethemes-beta-batch-encoder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/animethemes-beta-batch-encoder-1.2.tar.gz tmp/animethemes-beta-batch-encoder-1.3.tar.gz --markdown 20230703/a/animethemes-beta-batch-encoder/1.2-1.3/diff.md --exclude *.pyd
+[2023-07-03 06:42:46] INFO root fetch - processPackages [grassmanntn]: executing diffoscope
+[2023-07-03 06:42:46] INFO root fetch - processPackages [grassmanntn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grassmanntn-1.0.1.tar.gz tmp/grassmanntn-1.0.2.tar.gz --markdown 20230703/g/grassmanntn/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-03 06:42:47] INFO root fetch - processPackages [dank-mids]: Remove: archive file [/home/abi/fetcher/tmp/dank_mids-4.20.8.tar.gz]
+[2023-07-03 06:42:47] INFO root fetch - processPackages [dank-mids]: Remove: archive file [/home/abi/fetcher/tmp/dank_mids-4.20.9.tar.gz]
+[2023-07-03 06:42:47] INFO root fetch - main [MainThread]: End processing [dank-mids]: success
+[2023-07-03 06:42:47] INFO root fetch - processPackages [upstash-redis]: Remove: archive file [/home/abi/fetcher/tmp/upstash_redis-0.14.1.tar.gz]
+[2023-07-03 06:42:47] INFO root fetch - processPackages [upstash-redis]: Remove: archive file [/home/abi/fetcher/tmp/upstash_redis-0.14.2.tar.gz]
+[2023-07-03 06:42:47] INFO root fetch - main [MainThread]: End processing [upstash-redis]: success
+[2023-07-03 06:42:47] ERROR root fetch - processPackages [upstash-redis]: Diffoscope failed: gzip: tmp/upstash_redis-0.14.2.tar.gz: No such file or directory
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 450, in _compare_using_details
+    details.extend(
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 131, in comparisons
+    other_members = OrderedDict(other.get_adjusted_members_sizes())
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 126, in get_adjusted_members_sizes
+    size = path_apparent_size(member.path)
+                              ^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/archive.py", line 114, in path
+    self._path = self.container.extract(
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/tools.py", line 141, in tool_check
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/gzip.py", line 51, in extract
+    subprocess.check_call(
+  File "/usr/lib/python3.11/subprocess.py", line 413, in check_call
+    raise CalledProcessError(retcode, cmd)
+subprocess.CalledProcessError: Command '['gzip', '-d', '-c', 'tmp/upstash_redis-0.14.2.tar.gz']' returned non-zero exit status 1.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 138, in feeder
+    raise subprocess.CalledProcessError(
+subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit status 2.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 536, in compare
+    difference = self.compare_bytes(other, source=source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 395, in compare_bytes
+    return compare_binary_files(self, other, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 176, in compare_binary_files
+    return Difference.from_operation(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 267, in from_operation
+    return Difference.from_operation_exc(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 316, in from_operation_exc
+    difference = Difference.from_feeder(
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 214, in from_feeder
+    unified_diff = diff(feeder1, feeder2)
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 138, in feeder
+    raise subprocess.CalledProcessError(
+subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit status 2.
+
+[2023-07-03 06:42:47] INFO root fetch - main [MainThread]: End processing [upstash-redis] error
+[2023-07-03 06:42:47] INFO root fetch - processPackages [animethemes-beta-batch-encoder]: Remove: archive file [/home/abi/fetcher/tmp/animethemes-beta-batch-encoder-1.2.tar.gz]
+[2023-07-03 06:42:47] INFO root fetch - processPackages [animethemes-beta-batch-encoder]: Remove: archive file [/home/abi/fetcher/tmp/animethemes-beta-batch-encoder-1.3.tar.gz]
+[2023-07-03 06:42:47] INFO root fetch - main [MainThread]: End processing [animethemes-beta-batch-encoder]: success
+[2023-07-03 06:42:47] INFO root fetch - processPackages [grassmanntn]: Remove: archive file [/home/abi/fetcher/tmp/grassmanntn-1.0.1.tar.gz]
+[2023-07-03 06:42:47] INFO root fetch - processPackages [grassmanntn]: Remove: archive file [/home/abi/fetcher/tmp/grassmanntn-1.0.2.tar.gz]
+[2023-07-03 06:42:47] INFO root fetch - main [MainThread]: End processing [grassmanntn]: success
+[2023-07-03 06:42:48] INFO root fetch - processPackages [cloudoll]: Remove: archive file [/home/abi/fetcher/tmp/cloudoll-2.0.1.tar.gz]
+[2023-07-03 06:42:48] INFO root fetch - processPackages [cloudoll]: Remove: archive file [/home/abi/fetcher/tmp/cloudoll-2.0.2.tar.gz]
+[2023-07-03 06:42:48] INFO root fetch - main [MainThread]: End processing [cloudoll]: success
+[2023-07-03 06:42:48] INFO root fetch - main [MainThread]: Store serial: [18734676]
