@@ -20081,3 +20081,115 @@ EOFError: EOF read where object expected
 [2023-07-03 15:43:02] INFO root fetch - processPackages [Geode-Simplex]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Simplex-6.0.9-cp39-cp39-win_amd64.whl.zip]
 [2023-07-03 15:43:02] INFO root fetch - main [MainThread]: End processing [Geode-Simplex]: success
 [2023-07-03 15:43:02] INFO root fetch - main [MainThread]: Store serial: [18740015]
+[2023-07-03 15:48:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18740015]
+[2023-07-03 15:48:16] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-07-03 15:48:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: etherbase-predeployed
+[2023-07-03 15:48:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: osha.oira
+[2023-07-03 15:48:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: feedancy-client
+[2023-07-03 15:48:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: regcensus
+[2023-07-03 15:48:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pymelo
+[2023-07-03 15:48:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: langchain-serve
+[2023-07-03 15:48:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: neuralpit
+[2023-07-03 15:48:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: fbgemm-gpu-nightly
+[2023-07-03 15:48:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cbra
+[2023-07-03 15:48:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: feedancy-client
+[2023-07-03 15:48:17] WARNING root fetch - processPackages [feedancy-client]: Skipping, unable to determine old version
+[2023-07-03 15:48:17] INFO root fetch - processPackages [feedancy-client]: Start processing: odoo14-addon-l10n-es-vat-prorate
+[2023-07-03 15:48:17] INFO root fetch - main [MainThread]: End processing [feedancy-client] error
+[2023-07-03 15:48:17] INFO root fetch - processPackages [neuralpit]: New version: [2.0.2] Old Version: [2.0.1]
+[2023-07-03 15:48:17] INFO root fetch - processPackages [langchain-serve]: New version: [0.0.9.dev9] Old Version: [0.0.9.dev22]
+[2023-07-03 15:48:17] WARNING root fetch - processPackages [feedancy-client]: Skipping, unable to determine old version
+[2023-07-03 15:48:17] INFO root fetch - processPackages [feedancy-client]: Start processing: marionette-predeployed
+[2023-07-03 15:48:17] INFO root fetch - main [MainThread]: End processing [feedancy-client] error
+[2023-07-03 15:48:17] INFO root fetch - processPackages [regcensus]: New version: [1.0.0] Old Version: [0.4.5]
+[2023-07-03 15:48:17] INFO root fetch - processPackages [pymelo]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-03 15:48:17] INFO root fetch - processPackages [osha.oira]: New version: [8.3.3] Old Version: [8.3.2]
+[2023-07-03 15:48:17] INFO root fetch - processPackages [cbra]: New version: [3.0.0a7] Old Version: [2.0.0a99]
+[2023-07-03 15:48:17] INFO root fetch - processPackages [etherbase-predeployed]: New version: [1.1.0b3] Old Version: [1.1.0b2]
+[2023-07-03 15:48:17] INFO root fetch - processPackages [fbgemm-gpu-nightly]: New version: [2023.7.3] Old Version: [2023.7.2]
+[2023-07-03 15:48:17] INFO root fetch - processPackages [cbra]: Downloading https://files.pythonhosted.org/packages/af/88/3a153e5aa2b82ead874b96b5f03840a68acf0a2fd0a8e77b0e770c40e5a0/cbra-2.0.0a99.tar.gz
+[2023-07-03 15:48:17] INFO root fetch - processPackages [marionette-predeployed]: New version: [2.0.0b2] Old Version: [2.0.0b1]
+[2023-07-03 15:48:17] INFO root fetch - processPackages [pymelo]: Downloading https://files.pythonhosted.org/packages/b0/e2/8cdf94f8e319c079e5a0faee3b78a867c015ebeda391b026aecf27227b30/pymelo-0.0.1.tar.gz
+[2023-07-03 15:48:17] INFO root fetch - processPackages [neuralpit]: Downloading https://files.pythonhosted.org/packages/6c/bc/0af9a0732e0ec760fbd435521adcc7ecfa818c7b682904705b6d5233907e/neuralpit-2.0.1.tar.gz
+[2023-07-03 15:48:17] INFO root fetch - processPackages [odoo14-addon-l10n-es-vat-prorate]: New version: [14.0.2.0.0] Old Version: [14.0.1.0.5.dev1]
+[2023-07-03 15:48:17] INFO root fetch - processPackages [regcensus]: Downloading https://files.pythonhosted.org/packages/27/ac/1003c1a5577be0db24faa3c8c2adbc3cdc974bf5242f8993d1825de28eb2/regcensus-0.4.5.tar.gz
+[2023-07-03 15:48:17] INFO root fetch - processPackages [langchain-serve]: Downloading https://files.pythonhosted.org/packages/b7/44/08a32d4d65d7aed7bf8a2e8d59c7c72ac5c5538be8c3e735a588d5ccf69b/langchain-serve-0.0.9.dev22.tar.gz
+[2023-07-03 15:48:17] INFO root fetch - processPackages [fbgemm-gpu-nightly]: Downloading https://files.pythonhosted.org/packages/0b/63/f5397c6d2ff63df7d989c855c683429cb707b5572764847ceb7789b184ac/fbgemm_gpu_nightly-2023.7.2-cp39-cp39-manylinux2014_x86_64.whl
+[2023-07-03 15:48:17] INFO root fetch - processPackages [etherbase-predeployed]: Downloading https://files.pythonhosted.org/packages/51/21/b929f05a9c58146b2f29c0797c3ff99adef6ce1de0f05470ac5076d248fc/etherbase-predeployed-1.1.0b2.tar.gz
+[2023-07-03 15:48:17] INFO root fetch - processPackages [osha.oira]: Downloading https://files.pythonhosted.org/packages/8a/2f/4b8b91c2b0c8c47bfd6b8991726e65659a6a3caef6abcf78fd27978e71fd/osha.oira-8.3.2.tar.gz
+[2023-07-03 15:48:17] WARNING root fetch - processPackages [fbgemm-gpu-nightly]: Skipping package: exceeds size limit 260051671>=10485760
+[2023-07-03 15:48:17] INFO root fetch - processPackages [fbgemm-gpu-nightly]: Start processing: cofybox-dce
+[2023-07-03 15:48:17] INFO root fetch - main [MainThread]: End processing [fbgemm-gpu-nightly] error
+[2023-07-03 15:48:17] WARNING root fetch - processPackages [osha.oira]: Skipping package: exceeds size limit 54107390>=10485760
+[2023-07-03 15:48:17] INFO root fetch - processPackages [osha.oira]: Start processing: n-profile-sdk
+[2023-07-03 15:48:17] INFO root fetch - main [MainThread]: End processing [osha.oira] error
+[2023-07-03 15:48:17] INFO root fetch - processPackages [cofybox-dce]: New version: [0.0.7] Old Version: [0.0.5]
+[2023-07-03 15:48:17] INFO root fetch - processPackages [marionette-predeployed]: Downloading https://files.pythonhosted.org/packages/68/83/011d8de3b5caa96970482b4419a1c42318766d4c83102bbcc26535c63fd8/marionette-predeployed-2.0.0b1.tar.gz
+[2023-07-03 15:48:17] INFO root fetch - processPackages [cbra]: Downloading https://files.pythonhosted.org/packages/e3/30/881c6ff6126ad5e84aee92c87271280498b0d03f3c7ad7ca93e0e0fd381b/cbra-3.0.0a7.tar.gz
+[2023-07-03 15:48:17] WARNING root fetch - processPackages [n-profile-sdk]: Skipping, unable to determine old version
+[2023-07-03 15:48:17] INFO root fetch - processPackages [n-profile-sdk]: Start processing: dvelopdmspy
+[2023-07-03 15:48:17] INFO root fetch - main [MainThread]: End processing [n-profile-sdk] error
+[2023-07-03 15:48:17] INFO root fetch - processPackages [odoo14-addon-l10n-es-vat-prorate]: Downloading https://files.pythonhosted.org/packages/da/3b/b12c3bd88ba0e706fc1403ea752fc2cdbab50453d5eb2ae61a53a300dd83/odoo14_addon_l10n_es_vat_prorate-14.0.1.0.5.dev1-py3-none-any.whl
+[2023-07-03 15:48:17] INFO root fetch - processPackages [pymelo]: Downloading https://files.pythonhosted.org/packages/95/55/81427adf4913670d9ef8f22c7ed2310dae8ede431e76be84f2b0312217e6/pymelo-0.0.2.tar.gz
+[2023-07-03 15:48:17] INFO root fetch - processPackages [cofybox-dce]: Downloading https://files.pythonhosted.org/packages/7a/8c/c4d0a06ca3607fc7eecd6110a97493cebdc1538a08eeca7e266ff524df73/cofybox-dce-0.0.5.tar.gz
+[2023-07-03 15:48:17] INFO root fetch - processPackages [dvelopdmspy]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-03 15:48:17] INFO root fetch - processPackages [neuralpit]: Downloading https://files.pythonhosted.org/packages/eb/b3/1007b5dda44928d8a035f97a2e5f95b8bcd9272a961950a989c77293a7f4/neuralpit-2.0.2.tar.gz
+[2023-07-03 15:48:17] INFO root fetch - processPackages [cbra]: executing diffoscope
+[2023-07-03 15:48:17] INFO root fetch - processPackages [cbra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cbra-2.0.0a99.tar.gz tmp/cbra-3.0.0a7.tar.gz --markdown 20230703/c/cbra/2.0.0a99-3.0.0a7/diff.md --exclude *.pyd
+[2023-07-03 15:48:18] INFO root fetch - processPackages [regcensus]: Downloading https://files.pythonhosted.org/packages/64/8f/fb0023600f18f74be2046b2985b4ed779ef415a8d810507e9f16defbeb8f/regcensus-1.0.0.tar.gz
+[2023-07-03 15:48:18] INFO root fetch - processPackages [pymelo]: executing diffoscope
+[2023-07-03 15:48:18] INFO root fetch - processPackages [pymelo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymelo-0.0.1.tar.gz tmp/pymelo-0.0.2.tar.gz --markdown 20230703/p/pymelo/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-03 15:48:18] INFO root fetch - processPackages [langchain-serve]: Downloading https://files.pythonhosted.org/packages/51/a3/7492d3c89e7181c3fb783593129a3de459021071c2e7075f0050494b2de4/langchain-serve-0.0.9.dev9.tar.gz
+[2023-07-03 15:48:18] INFO root fetch - processPackages [etherbase-predeployed]: Downloading https://files.pythonhosted.org/packages/3d/3d/9e8a9263aced10d2e82058dcb79e0685a5e6db3102a640656eebcfc6a889/etherbase-predeployed-1.1.0b3.tar.gz
+[2023-07-03 15:48:18] INFO root fetch - processPackages [dvelopdmspy]: Downloading https://files.pythonhosted.org/packages/4c/85/7d398c434c5485bbb33d9920475c10a32cdfcdadd2316e1504c70f6d1aa2/dvelopdmspy-1.0.1-py2.py3-none-any.whl
+[2023-07-03 15:48:18] INFO root fetch - processPackages [neuralpit]: executing diffoscope
+[2023-07-03 15:48:18] INFO root fetch - processPackages [neuralpit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neuralpit-2.0.1.tar.gz tmp/neuralpit-2.0.2.tar.gz --markdown 20230703/n/neuralpit/2.0.1-2.0.2/diff.md --exclude *.pyd
+[2023-07-03 15:48:18] INFO root fetch - processPackages [regcensus]: executing diffoscope
+[2023-07-03 15:48:18] INFO root fetch - processPackages [regcensus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/regcensus-0.4.5.tar.gz tmp/regcensus-1.0.0.tar.gz --markdown 20230703/r/regcensus/0.4.5-1.0.0/diff.md --exclude *.pyd
+[2023-07-03 15:48:18] INFO root fetch - processPackages [marionette-predeployed]: Downloading https://files.pythonhosted.org/packages/3b/59/3c96cac75eb892bea3d323d71c85f05f8cde0f928b8f4a276d5df3999f9f/marionette-predeployed-2.0.0b2.tar.gz
+[2023-07-03 15:48:18] INFO root fetch - processPackages [langchain-serve]: executing diffoscope
+[2023-07-03 15:48:18] INFO root fetch - processPackages [langchain-serve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain-serve-0.0.9.dev22.tar.gz tmp/langchain-serve-0.0.9.dev9.tar.gz --markdown 20230703/l/langchain-serve/0.0.9.dev22-0.0.9.dev9/diff.md --exclude *.pyd
+[2023-07-03 15:48:18] INFO root fetch - processPackages [odoo14-addon-l10n-es-vat-prorate]: Downloading https://files.pythonhosted.org/packages/93/9c/a888a0a5ed6e3b374f94d30067531085a6f8dd01c02dad2b93e588721a03/odoo14_addon_l10n_es_vat_prorate-14.0.2.0.0-py3-none-any.whl
+[2023-07-03 15:48:18] INFO root fetch - processPackages [cofybox-dce]: Downloading https://files.pythonhosted.org/packages/df/0f/e1bc0d9e05cb6ccfbdf91862fdcd58f15d1b2acac097e8c6e37f203b4547/cofybox-dce-0.0.7.tar.gz
+[2023-07-03 15:48:18] INFO root fetch - processPackages [etherbase-predeployed]: executing diffoscope
+[2023-07-03 15:48:18] INFO root fetch - processPackages [etherbase-predeployed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/etherbase-predeployed-1.1.0b2.tar.gz tmp/etherbase-predeployed-1.1.0b3.tar.gz --markdown 20230703/e/etherbase-predeployed/1.1.0b2-1.1.0b3/diff.md --exclude *.pyd
+[2023-07-03 15:48:18] INFO root fetch - processPackages [marionette-predeployed]: executing diffoscope
+[2023-07-03 15:48:18] INFO root fetch - processPackages [marionette-predeployed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/marionette-predeployed-2.0.0b1.tar.gz tmp/marionette-predeployed-2.0.0b2.tar.gz --markdown 20230703/m/marionette-predeployed/2.0.0b1-2.0.0b2/diff.md --exclude *.pyd
+[2023-07-03 15:48:18] INFO root fetch - processPackages [odoo14-addon-l10n-es-vat-prorate]: executing diffoscope
+[2023-07-03 15:48:18] INFO root fetch - processPackages [odoo14-addon-l10n-es-vat-prorate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_l10n_es_vat_prorate-14.0.1.0.5.dev1-py3-none-any.whl.zip tmp/odoo14_addon_l10n_es_vat_prorate-14.0.2.0.0-py3-none-any.whl.zip --markdown 20230703/o/odoo14-addon-l10n-es-vat-prorate/14.0.1.0.5.dev1-14.0.2.0.0/diff.md --exclude *.pyd
+[2023-07-03 15:48:18] INFO root fetch - processPackages [cofybox-dce]: executing diffoscope
+[2023-07-03 15:48:18] INFO root fetch - processPackages [cofybox-dce]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cofybox-dce-0.0.5.tar.gz tmp/cofybox-dce-0.0.7.tar.gz --markdown 20230703/c/cofybox-dce/0.0.5-0.0.7/diff.md --exclude *.pyd
+[2023-07-03 15:48:18] INFO root fetch - processPackages [dvelopdmspy]: Downloading https://files.pythonhosted.org/packages/9a/a0/3c8677cf98db8dbb36c618ed269a04ab8e359959f6686fe301caba3eb9d5/dvelopdmspy-1.0.2.tar.gz
+[2023-07-03 15:48:18] INFO root fetch - processPackages [dvelopdmspy]: executing diffoscope
+[2023-07-03 15:48:18] INFO root fetch - processPackages [dvelopdmspy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dvelopdmspy-1.0.1-py2.py3-none-any.whl.zip tmp/dvelopdmspy-1.0.2.tar.gz --markdown 20230703/d/dvelopdmspy/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-03 15:48:19] INFO root fetch - processPackages [pymelo]: Remove: archive file [/home/abi/fetcher/tmp/pymelo-0.0.1.tar.gz]
+[2023-07-03 15:48:19] INFO root fetch - processPackages [pymelo]: Remove: archive file [/home/abi/fetcher/tmp/pymelo-0.0.2.tar.gz]
+[2023-07-03 15:48:19] INFO root fetch - main [MainThread]: End processing [pymelo]: success
+[2023-07-03 15:48:19] INFO root fetch - processPackages [neuralpit]: Remove: archive file [/home/abi/fetcher/tmp/neuralpit-2.0.1.tar.gz]
+[2023-07-03 15:48:19] INFO root fetch - processPackages [neuralpit]: Remove: archive file [/home/abi/fetcher/tmp/neuralpit-2.0.2.tar.gz]
+[2023-07-03 15:48:19] INFO root fetch - main [MainThread]: End processing [neuralpit]: success
+[2023-07-03 15:48:19] INFO root fetch - processPackages [regcensus]: Remove: archive file [/home/abi/fetcher/tmp/regcensus-0.4.5.tar.gz]
+[2023-07-03 15:48:19] INFO root fetch - processPackages [regcensus]: Remove: archive file [/home/abi/fetcher/tmp/regcensus-1.0.0.tar.gz]
+[2023-07-03 15:48:19] INFO root fetch - main [MainThread]: End processing [regcensus]: success
+[2023-07-03 15:48:20] INFO root fetch - processPackages [etherbase-predeployed]: Remove: archive file [/home/abi/fetcher/tmp/etherbase-predeployed-1.1.0b2.tar.gz]
+[2023-07-03 15:48:20] INFO root fetch - processPackages [etherbase-predeployed]: Remove: archive file [/home/abi/fetcher/tmp/etherbase-predeployed-1.1.0b3.tar.gz]
+[2023-07-03 15:48:20] INFO root fetch - main [MainThread]: End processing [etherbase-predeployed]: success
+[2023-07-03 15:48:20] INFO root fetch - processPackages [langchain-serve]: Remove: archive file [/home/abi/fetcher/tmp/langchain-serve-0.0.9.dev22.tar.gz]
+[2023-07-03 15:48:20] INFO root fetch - processPackages [langchain-serve]: Remove: archive file [/home/abi/fetcher/tmp/langchain-serve-0.0.9.dev9.tar.gz]
+[2023-07-03 15:48:20] INFO root fetch - main [MainThread]: End processing [langchain-serve]: success
+[2023-07-03 15:48:20] INFO root fetch - processPackages [cofybox-dce]: Remove: archive file [/home/abi/fetcher/tmp/cofybox-dce-0.0.5.tar.gz]
+[2023-07-03 15:48:20] INFO root fetch - processPackages [cofybox-dce]: Remove: archive file [/home/abi/fetcher/tmp/cofybox-dce-0.0.7.tar.gz]
+[2023-07-03 15:48:20] INFO root fetch - main [MainThread]: End processing [cofybox-dce]: success
+[2023-07-03 15:48:20] INFO root fetch - processPackages [marionette-predeployed]: Remove: archive file [/home/abi/fetcher/tmp/marionette-predeployed-2.0.0b1.tar.gz]
+[2023-07-03 15:48:20] INFO root fetch - processPackages [marionette-predeployed]: Remove: archive file [/home/abi/fetcher/tmp/marionette-predeployed-2.0.0b2.tar.gz]
+[2023-07-03 15:48:20] INFO root fetch - main [MainThread]: End processing [marionette-predeployed]: success
+[2023-07-03 15:48:20] INFO root fetch - processPackages [odoo14-addon-l10n-es-vat-prorate]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_es_vat_prorate-14.0.1.0.5.dev1-py3-none-any.whl.zip]
+[2023-07-03 15:48:20] INFO root fetch - processPackages [odoo14-addon-l10n-es-vat-prorate]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_es_vat_prorate-14.0.2.0.0-py3-none-any.whl.zip]
+[2023-07-03 15:48:20] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-es-vat-prorate]: success
+[2023-07-03 15:48:20] INFO root fetch - processPackages [dvelopdmspy]: Remove: archive file [/home/abi/fetcher/tmp/dvelopdmspy-1.0.1-py2.py3-none-any.whl.zip]
+[2023-07-03 15:48:20] INFO root fetch - processPackages [dvelopdmspy]: Remove: archive file [/home/abi/fetcher/tmp/dvelopdmspy-1.0.2.tar.gz]
+[2023-07-03 15:48:20] INFO root fetch - main [MainThread]: End processing [dvelopdmspy]: success
+[2023-07-03 15:48:21] INFO root fetch - processPackages [cbra]: Remove: archive file [/home/abi/fetcher/tmp/cbra-2.0.0a99.tar.gz]
+[2023-07-03 15:48:21] INFO root fetch - processPackages [cbra]: Remove: archive file [/home/abi/fetcher/tmp/cbra-3.0.0a7.tar.gz]
+[2023-07-03 15:48:21] INFO root fetch - main [MainThread]: End processing [cbra]: success
+[2023-07-03 15:48:21] INFO root fetch - main [MainThread]: Store serial: [18740063]
