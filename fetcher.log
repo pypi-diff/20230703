@@ -14746,3 +14746,89 @@ AssertionError: tmp/discord-ansi-0.3.tar.gz does not exist
 [2023-07-03 12:41:56] INFO root fetch - processPackages [coptpy]: Remove: archive file [/home/abi/fetcher/tmp/coptpy-6.5.5-cp39-cp39-win_amd64.whl.zip]
 [2023-07-03 12:41:56] INFO root fetch - main [MainThread]: End processing [coptpy]: success
 [2023-07-03 12:41:56] INFO root fetch - main [MainThread]: Store serial: [18737831]
+[2023-07-03 12:47:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18737831]
+[2023-07-03 12:47:22] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-07-03 12:47:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lokzzpylib
+[2023-07-03 12:47:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: examplesonar
+[2023-07-03 12:47:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dsm-django-socialauth
+[2023-07-03 12:47:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nanoCEM
+[2023-07-03 12:47:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: oarepo-model-builder-cf
+[2023-07-03 12:47:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gradio-tttt
+[2023-07-03 12:47:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: testit-cli
+[2023-07-03 12:47:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: NearBeach
+[2023-07-03 12:47:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: orchestrator-core
+[2023-07-03 12:47:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: goxlrutilityapi
+[2023-07-03 12:47:22] INFO root fetch - processPackages [nanoCEM]: New version: [0.0.1.1] Old Version: [0.0.1]
+[2023-07-03 12:47:22] INFO root fetch - processPackages [lokzzpylib]: New version: [0.2.dev9] Old Version: [0.2.dev8]
+[2023-07-03 12:47:22] INFO root fetch - processPackages [orchestrator-core]: New version: [1.2.0] Old Version: [1.1.1rc4]
+[2023-07-03 12:47:22] INFO root fetch - processPackages [testit-cli]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-03 12:47:22] INFO root fetch - processPackages [NearBeach]: New version: [0.30.0rc3] Old Version: [0.30.0rc2]
+[2023-07-03 12:47:22] INFO root fetch - processPackages [oarepo-model-builder-cf]: New version: [4.0.1] Old Version: [4.0.0]
+[2023-07-03 12:47:22] WARNING root fetch - processPackages [examplesonar]: Skipping, unable to determine old version
+[2023-07-03 12:47:22] INFO root fetch - processPackages [examplesonar]: Start processing: hubrdvmairie
+[2023-07-03 12:47:22] INFO root fetch - main [MainThread]: End processing [examplesonar] error
+[2023-07-03 12:47:22] INFO root fetch - processPackages [dsm-django-socialauth]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-03 12:47:22] INFO root fetch - processPackages [goxlrutilityapi]: New version: [1.2.0] Old Version: [1.1.3.dev0]
+[2023-07-03 12:47:22] WARNING root fetch - processPackages [gradio-tttt]: Skipping, unable to determine old version
+[2023-07-03 12:47:22] INFO root fetch - main [MainThread]: End processing [gradio-tttt] error
+[2023-07-03 12:47:23] INFO root fetch - processPackages [nanoCEM]: Downloading https://files.pythonhosted.org/packages/a4/9d/80e630b4a974a9ad4f9b04abcdfc6d4f408d16dfcfadd4b16ebfdb9e3857/nanoCEM-0.0.1.tar.gz
+[2023-07-03 12:47:23] INFO root fetch - processPackages [lokzzpylib]: Downloading https://files.pythonhosted.org/packages/e2/59/899dd08722b859f214b6eee5335384aa5e1bb485140945e6cb65257098a5/lokzzpylib-0.2.dev8.tar.gz
+[2023-07-03 12:47:23] INFO root fetch - processPackages [orchestrator-core]: Downloading https://files.pythonhosted.org/packages/ea/1b/24d3b6a0fcd33063762f552ed9d5aa3a06e4ae5f518d8cd38fae1c525d2b/orchestrator_core-1.1.1rc4.tar.gz
+[2023-07-03 12:47:23] INFO root fetch - processPackages [hubrdvmairie]: New version: [2.8.1] Old Version: [2.8.0]
+[2023-07-03 12:47:23] INFO root fetch - processPackages [dsm-django-socialauth]: Downloading https://files.pythonhosted.org/packages/5d/f9/9c11ab0849df799e3f45432528010233757706427e1cc81b64e02341dede/dsm-django-socialauth-1.0.8.tar.gz
+[2023-07-03 12:47:23] INFO root fetch - processPackages [NearBeach]: Downloading https://files.pythonhosted.org/packages/ad/f9/c2e105efeef6d4146b6c5529a5689c37b888d357f818aecb110182602cf1/NearBeach-0.30.0rc2.tar.gz
+[2023-07-03 12:47:23] INFO root fetch - processPackages [oarepo-model-builder-cf]: Downloading https://files.pythonhosted.org/packages/86/fb/d92c84dbde07f8446db3d30e5cd6f5e92df5c06a356a8b5ed59b496293d1/oarepo-model-builder-cf-4.0.0.tar.gz
+[2023-07-03 12:47:23] INFO root fetch - processPackages [testit-cli]: Downloading https://files.pythonhosted.org/packages/29/d3/2948341fb6bd2bda48449ed4c6c0be6ae4c1cfa6da6cfe926e155f6db425/testit-cli-0.1.8.tar.gz
+[2023-07-03 12:47:23] INFO root fetch - processPackages [goxlrutilityapi]: Downloading https://files.pythonhosted.org/packages/53/29/a0f4b78a032adfc768817ac768f52d094202657fa710bab5723245a6e9ed/goxlrutilityapi-1.1.3.dev0.tar.gz
+[2023-07-03 12:47:23] WARNING root fetch - processPackages [NearBeach]: Skipping package: exceeds size limit 14968276>=10485760
+[2023-07-03 12:47:23] INFO root fetch - main [MainThread]: End processing [NearBeach] error
+[2023-07-03 12:47:23] INFO root fetch - processPackages [lokzzpylib]: Downloading https://files.pythonhosted.org/packages/d3/9b/e4bbf15840f86c58df052ec37f778b6563255557c0f8edc61797a91a6dcf/lokzzpylib-0.2.dev9.tar.gz
+[2023-07-03 12:47:23] INFO root fetch - processPackages [nanoCEM]: Downloading https://files.pythonhosted.org/packages/f4/9f/f69aeaf8c33d3de5640efaad21c33acefc7c4497f631c12ebbb7ef764e79/nanoCEM-0.0.1.1.tar.gz
+[2023-07-03 12:47:23] INFO root fetch - processPackages [hubrdvmairie]: Downloading https://files.pythonhosted.org/packages/03/57/b2c1285fbc1b9e624ca7879aa3c8c00be5e5eaab369b48015104ce78dd7d/hubrdvmairie-2.8.0.tar.gz
+[2023-07-03 12:47:23] INFO root fetch - processPackages [orchestrator-core]: Downloading https://files.pythonhosted.org/packages/23/05/2272ff0fd6fbefb93775babfa7ae5007495fefd0fe101fb2008badeb45e6/orchestrator_core-1.2.0.tar.gz
+[2023-07-03 12:47:23] INFO root fetch - processPackages [lokzzpylib]: executing diffoscope
+[2023-07-03 12:47:23] INFO root fetch - processPackages [lokzzpylib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lokzzpylib-0.2.dev8.tar.gz tmp/lokzzpylib-0.2.dev9.tar.gz --markdown 20230703/l/lokzzpylib/0.2.dev8-0.2.dev9/diff.md --exclude *.pyd
+[2023-07-03 12:47:23] INFO root fetch - processPackages [nanoCEM]: executing diffoscope
+[2023-07-03 12:47:23] INFO root fetch - processPackages [nanoCEM]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nanoCEM-0.0.1.tar.gz tmp/nanoCEM-0.0.1.1.tar.gz --markdown 20230703/n/nanoCEM/0.0.1-0.0.1.1/diff.md --exclude *.pyd
+[2023-07-03 12:47:23] INFO root fetch - processPackages [oarepo-model-builder-cf]: Downloading https://files.pythonhosted.org/packages/d5/d6/8a6efc4975c46f31d450c6c39fbbeeabafefefe9ebd0f7daed0cdb4f6e38/oarepo-model-builder-cf-4.0.1.tar.gz
+[2023-07-03 12:47:23] INFO root fetch - processPackages [goxlrutilityapi]: Downloading https://files.pythonhosted.org/packages/74/c8/ed4743ca4caaf08491e181ba64a094ab3a49b5cc7211cc861ee6ef379c75/goxlrutilityapi-1.2.0.tar.gz
+[2023-07-03 12:47:23] INFO root fetch - processPackages [dsm-django-socialauth]: Downloading https://files.pythonhosted.org/packages/8c/aa/089c42588b3e9ea87ea30dc296d13aa9df5baa5822d37bbb19fc2731df4f/dsm-django-socialauth-1.0.9.tar.gz
+[2023-07-03 12:47:23] INFO root fetch - processPackages [orchestrator-core]: executing diffoscope
+[2023-07-03 12:47:23] INFO root fetch - processPackages [orchestrator-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/orchestrator_core-1.1.1rc4.tar.gz tmp/orchestrator_core-1.2.0.tar.gz --markdown 20230703/o/orchestrator-core/1.1.1rc4-1.2.0/diff.md --exclude *.pyd
+[2023-07-03 12:47:23] INFO root fetch - processPackages [testit-cli]: Downloading https://files.pythonhosted.org/packages/67/81/471aec4dcb5a1692907e137f99eff8d4c7a5df3b7b08f9924d653466fb07/testit-cli-0.1.9.tar.gz
+[2023-07-03 12:47:23] INFO root fetch - processPackages [oarepo-model-builder-cf]: executing diffoscope
+[2023-07-03 12:47:23] INFO root fetch - processPackages [oarepo-model-builder-cf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oarepo-model-builder-cf-4.0.0.tar.gz tmp/oarepo-model-builder-cf-4.0.1.tar.gz --markdown 20230703/o/oarepo-model-builder-cf/4.0.0-4.0.1/diff.md --exclude *.pyd
+[2023-07-03 12:47:23] INFO root fetch - processPackages [hubrdvmairie]: Downloading https://files.pythonhosted.org/packages/43/eb/2cc6c18bad489a469f034efea0c0f86994234ab048618b080650519efcc8/hubrdvmairie-2.8.1.tar.gz
+[2023-07-03 12:47:23] INFO root fetch - processPackages [goxlrutilityapi]: executing diffoscope
+[2023-07-03 12:47:23] INFO root fetch - processPackages [goxlrutilityapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/goxlrutilityapi-1.1.3.dev0.tar.gz tmp/goxlrutilityapi-1.2.0.tar.gz --markdown 20230703/g/goxlrutilityapi/1.1.3.dev0-1.2.0/diff.md --exclude *.pyd
+[2023-07-03 12:47:24] INFO root fetch - processPackages [testit-cli]: executing diffoscope
+[2023-07-03 12:47:24] INFO root fetch - processPackages [testit-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testit-cli-0.1.8.tar.gz tmp/testit-cli-0.1.9.tar.gz --markdown 20230703/t/testit-cli/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-03 12:47:24] INFO root fetch - processPackages [dsm-django-socialauth]: executing diffoscope
+[2023-07-03 12:47:24] INFO root fetch - processPackages [dsm-django-socialauth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dsm-django-socialauth-1.0.8.tar.gz tmp/dsm-django-socialauth-1.0.9.tar.gz --markdown 20230703/d/dsm-django-socialauth/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-03 12:47:24] INFO root fetch - processPackages [hubrdvmairie]: executing diffoscope
+[2023-07-03 12:47:24] INFO root fetch - processPackages [hubrdvmairie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hubrdvmairie-2.8.0.tar.gz tmp/hubrdvmairie-2.8.1.tar.gz --markdown 20230703/h/hubrdvmairie/2.8.0-2.8.1/diff.md --exclude *.pyd
+[2023-07-03 12:47:24] INFO root fetch - processPackages [lokzzpylib]: Remove: archive file [/home/abi/fetcher/tmp/lokzzpylib-0.2.dev8.tar.gz]
+[2023-07-03 12:47:24] INFO root fetch - processPackages [lokzzpylib]: Remove: archive file [/home/abi/fetcher/tmp/lokzzpylib-0.2.dev9.tar.gz]
+[2023-07-03 12:47:24] INFO root fetch - main [MainThread]: End processing [lokzzpylib]: success
+[2023-07-03 12:47:24] INFO root fetch - processPackages [nanoCEM]: Remove: archive file [/home/abi/fetcher/tmp/nanoCEM-0.0.1.tar.gz]
+[2023-07-03 12:47:24] INFO root fetch - processPackages [nanoCEM]: Remove: archive file [/home/abi/fetcher/tmp/nanoCEM-0.0.1.1.tar.gz]
+[2023-07-03 12:47:24] INFO root fetch - main [MainThread]: End processing [nanoCEM]: success
+[2023-07-03 12:47:25] INFO root fetch - processPackages [oarepo-model-builder-cf]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-model-builder-cf-4.0.0.tar.gz]
+[2023-07-03 12:47:25] INFO root fetch - processPackages [oarepo-model-builder-cf]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-model-builder-cf-4.0.1.tar.gz]
+[2023-07-03 12:47:25] INFO root fetch - main [MainThread]: End processing [oarepo-model-builder-cf]: success
+[2023-07-03 12:47:25] INFO root fetch - processPackages [testit-cli]: Remove: archive file [/home/abi/fetcher/tmp/testit-cli-0.1.8.tar.gz]
+[2023-07-03 12:47:25] INFO root fetch - processPackages [testit-cli]: Remove: archive file [/home/abi/fetcher/tmp/testit-cli-0.1.9.tar.gz]
+[2023-07-03 12:47:25] INFO root fetch - main [MainThread]: End processing [testit-cli]: success
+[2023-07-03 12:47:25] INFO root fetch - processPackages [goxlrutilityapi]: Remove: archive file [/home/abi/fetcher/tmp/goxlrutilityapi-1.1.3.dev0.tar.gz]
+[2023-07-03 12:47:25] INFO root fetch - processPackages [goxlrutilityapi]: Remove: archive file [/home/abi/fetcher/tmp/goxlrutilityapi-1.2.0.tar.gz]
+[2023-07-03 12:47:25] INFO root fetch - main [MainThread]: End processing [goxlrutilityapi]: success
+[2023-07-03 12:47:25] INFO root fetch - processPackages [dsm-django-socialauth]: Remove: archive file [/home/abi/fetcher/tmp/dsm-django-socialauth-1.0.8.tar.gz]
+[2023-07-03 12:47:25] INFO root fetch - processPackages [dsm-django-socialauth]: Remove: archive file [/home/abi/fetcher/tmp/dsm-django-socialauth-1.0.9.tar.gz]
+[2023-07-03 12:47:25] INFO root fetch - main [MainThread]: End processing [dsm-django-socialauth]: success
+[2023-07-03 12:47:25] INFO root fetch - processPackages [hubrdvmairie]: Remove: archive file [/home/abi/fetcher/tmp/hubrdvmairie-2.8.0.tar.gz]
+[2023-07-03 12:47:25] INFO root fetch - processPackages [hubrdvmairie]: Remove: archive file [/home/abi/fetcher/tmp/hubrdvmairie-2.8.1.tar.gz]
+[2023-07-03 12:47:25] INFO root fetch - main [MainThread]: End processing [hubrdvmairie]: success
+[2023-07-03 12:47:26] INFO root fetch - processPackages [orchestrator-core]: Remove: archive file [/home/abi/fetcher/tmp/orchestrator_core-1.1.1rc4.tar.gz]
+[2023-07-03 12:47:26] INFO root fetch - processPackages [orchestrator-core]: Remove: archive file [/home/abi/fetcher/tmp/orchestrator_core-1.2.0.tar.gz]
+[2023-07-03 12:47:26] INFO root fetch - main [MainThread]: End processing [orchestrator-core]: success
+[2023-07-03 12:47:26] INFO root fetch - main [MainThread]: Store serial: [18737866]
