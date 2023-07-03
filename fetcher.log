@@ -16066,3 +16066,169 @@ AssertionError: tmp/discord-ansi-0.3.tar.gz does not exist
 [2023-07-03 13:42:28] INFO root fetch - processPackages [moto]: Remove: archive file [/home/abi/fetcher/tmp/moto-4.1.9.dev9.tar.gz]
 [2023-07-03 13:42:28] INFO root fetch - main [MainThread]: End processing [moto]: success
 [2023-07-03 13:42:28] INFO root fetch - main [MainThread]: Store serial: [18738475]
+[2023-07-03 13:47:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18738475]
+[2023-07-03 13:47:37] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-07-03 13:47:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tablite
+[2023-07-03 13:47:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: micropython-captive-dhcp-server
+[2023-07-03 13:47:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gov-uk-dashboards
+[2023-07-03 13:47:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gpt-functions
+[2023-07-03 13:47:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: macrobond-data-api
+[2023-07-03 13:47:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: optim-esm-tools
+[2023-07-03 13:47:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: rosa-python-client
+[2023-07-03 13:47:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: lfinancial
+[2023-07-03 13:47:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: avro
+[2023-07-03 13:47:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: tah-data
+[2023-07-03 13:47:38] INFO root fetch - processPackages [gpt-functions]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-07-03 13:47:38] INFO root fetch - processPackages [rosa-python-client]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-03 13:47:38] INFO root fetch - processPackages [gpt-functions]: Downloading https://files.pythonhosted.org/packages/4f/b1/2e6c0d2701cf87b0aa1151ca41af10a1597bfd01991e45f4feff8099a249/gpt_functions-0.0.6.tar.gz
+[2023-07-03 13:47:38] INFO root fetch - processPackages [optim-esm-tools]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-07-03 13:47:38] INFO root fetch - processPackages [macrobond-data-api]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-07-03 13:47:38] INFO root fetch - processPackages [tablite]: New version: [2023.6.dev9] Old Version: [2023.6.dev8]
+[2023-07-03 13:47:38] INFO root fetch - processPackages [rosa-python-client]: Downloading https://files.pythonhosted.org/packages/9d/3d/13a352dc8b1b3b85a795352b1cee6cd40ca9d5cb9e015f6174830f9ffb0e/rosa_python_client-1.0.8.tar.gz
+[2023-07-03 13:47:38] INFO root fetch - processPackages [tah-data]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-07-03 13:47:38] INFO root fetch - processPackages [micropython-captive-dhcp-server]: New version: [0.0.5.dev0] Old Version: [0.0.4.dev0]
+[2023-07-03 13:47:38] INFO root fetch - processPackages [lfinancial]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-07-03 13:47:38] INFO root fetch - processPackages [avro]: New version: [1.9.2] Old Version: [1.9.1]
+[2023-07-03 13:47:38] INFO root fetch - processPackages [gov-uk-dashboards]: New version: [9.9.0] Old Version: [9.8.0]
+[2023-07-03 13:47:38] INFO root fetch - processPackages [avro]: Downloading https://files.pythonhosted.org/packages/a1/9a/a2c83f6105d975ec6680b2cab79b4e3bd51ae33f31c10debe8d2485c8f80/avro-1.9.1.tar.gz
+[2023-07-03 13:47:38] INFO root fetch - processPackages [macrobond-data-api]: Downloading https://files.pythonhosted.org/packages/4d/f3/55398f6b6ff43cfb55f0acc08357eaecffdb9160411d3a56979986b4ccbd/macrobond-data-api-1.0.7.tar.gz
+[2023-07-03 13:47:38] INFO root fetch - processPackages [tablite]: Downloading https://files.pythonhosted.org/packages/af/fd/4f95223380042b2e479d698c96ecc34cbd35c3a161b8e322ad88b4bcfed6/tablite-2023.6.dev8-py3-none-any.whl
+[2023-07-03 13:47:38] INFO root fetch - processPackages [optim-esm-tools]: Downloading https://files.pythonhosted.org/packages/b0/fb/5e478322320622bd0ecf69e4362f4a43d1696c32913b94018c6f6f4fb242/optim_esm_tools-0.2.1.tar.gz
+[2023-07-03 13:47:38] INFO root fetch - processPackages [tah-data]: Downloading https://files.pythonhosted.org/packages/06/4e/a8c26927d925d81df6127c70a18dc7bfe8d094876a34d4bce3cdf28d7528/tah_data-1.0.0.tar.gz
+[2023-07-03 13:47:38] INFO root fetch - processPackages [lfinancial]: Downloading https://files.pythonhosted.org/packages/79/eb/30895dfee4b04e0bd50d29e36e5bc47d264e82848fd65b5ce52942624df2/lfinancial-0.1.4.tar.gz
+[2023-07-03 13:47:38] INFO root fetch - processPackages [gpt-functions]: Downloading https://files.pythonhosted.org/packages/4e/4e/d5ce82aea8c858565ba40036421e14e190095b695a02fe8eb8982fc77929/gpt_functions-0.0.7.tar.gz
+[2023-07-03 13:47:38] INFO root fetch - processPackages [micropython-captive-dhcp-server]: Downloading https://files.pythonhosted.org/packages/39/ff/66fb11fa9bd6ccaa43cae8bdcae01d0b03203930699413eb8cbd02a24220/micropython-captive-dhcp-server-0.0.4.dev0.tar.gz
+[2023-07-03 13:47:38] INFO root fetch - processPackages [gov-uk-dashboards]: Downloading https://files.pythonhosted.org/packages/28/15/aa038ec0161f510bba1e81208b6b8fb48174839d812f78343601edd00197/gov_uk_dashboards-9.8.0.tar.gz
+[2023-07-03 13:47:39] INFO root fetch - processPackages [rosa-python-client]: Downloading https://files.pythonhosted.org/packages/57/71/77aa94783e126449ad00cda27a853d3161809a6117e0e34f7ab67ade9050/rosa_python_client-1.0.9.tar.gz
+[2023-07-03 13:47:39] INFO root fetch - processPackages [gpt-functions]: executing diffoscope
+[2023-07-03 13:47:39] INFO root fetch - processPackages [gpt-functions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt_functions-0.0.6.tar.gz tmp/gpt_functions-0.0.7.tar.gz --markdown 20230703/g/gpt-functions/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-07-03 13:47:39] INFO root fetch - processPackages [avro]: Downloading https://files.pythonhosted.org/packages/d7/0b/592692ed26de33f35bf596780e6adb85c47e3e58061369bbc99125b902ec/avro-1.9.2.tar.gz
+[2023-07-03 13:47:39] INFO root fetch - processPackages [rosa-python-client]: executing diffoscope
+[2023-07-03 13:47:39] INFO root fetch - processPackages [rosa-python-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rosa_python_client-1.0.8.tar.gz tmp/rosa_python_client-1.0.9.tar.gz --markdown 20230703/r/rosa-python-client/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-03 13:47:39] INFO root fetch - processPackages [optim-esm-tools]: Downloading https://files.pythonhosted.org/packages/ce/e6/c6eb974308d010ce9f59c681f04200493f706b9380d1e89cabe84a10b7a3/optim_esm_tools-0.2.2.tar.gz
+[2023-07-03 13:47:39] INFO root fetch - processPackages [tah-data]: Downloading https://files.pythonhosted.org/packages/14/4a/0400becd60fb10a32229a0315e60356c96ebdac6ddbfc97fd45cf54cd534/tah_data-1.1.0.tar.gz
+[2023-07-03 13:47:39] INFO root fetch - processPackages [macrobond-data-api]: Downloading https://files.pythonhosted.org/packages/20/f2/3788860eb269f5ed87a602aa0c45d718d65ab61de5b1884d158183f2b7c6/macrobond-data-api-1.0.8.tar.gz
+[2023-07-03 13:47:39] INFO root fetch - processPackages [lfinancial]: Downloading https://files.pythonhosted.org/packages/f8/0f/d6f4a2707935f0dff250deb6c50591237ad7a5cf3b3b23bfd689f1982e2c/lfinancial-0.1.5.tar.gz
+[2023-07-03 13:47:39] INFO root fetch - processPackages [micropython-captive-dhcp-server]: Downloading https://files.pythonhosted.org/packages/4d/d5/df8bc92f77a493f8ca7ad68f62bc27055dff508b37f9f23b5716010f1234/micropython-captive-dhcp-server-0.0.5.dev0.tar.gz
+[2023-07-03 13:47:39] INFO root fetch - processPackages [avro]: executing diffoscope
+[2023-07-03 13:47:39] INFO root fetch - processPackages [avro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/avro-1.9.1.tar.gz tmp/avro-1.9.2.tar.gz --markdown 20230703/a/avro/1.9.1-1.9.2/diff.md --exclude *.pyd
+[2023-07-03 13:47:39] INFO root fetch - processPackages [tablite]: Downloading https://files.pythonhosted.org/packages/14/ec/59a99d9898f7f1dca847cacaa4e22888f72005d3fc9bef2f15e21bde0b8a/tablite-2023.6.dev9-py3-none-any.whl
+[2023-07-03 13:47:39] INFO root fetch - processPackages [gov-uk-dashboards]: Downloading https://files.pythonhosted.org/packages/28/ea/814247833cc4320a4963bc9588f46cb3725c05f6064d14ac066bbc574e6d/gov_uk_dashboards-9.9.0.tar.gz
+[2023-07-03 13:47:39] INFO root fetch - processPackages [tah-data]: executing diffoscope
+[2023-07-03 13:47:39] INFO root fetch - processPackages [tah-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tah_data-1.0.0.tar.gz tmp/tah_data-1.1.0.tar.gz --markdown 20230703/t/tah-data/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-07-03 13:47:39] INFO root fetch - processPackages [optim-esm-tools]: executing diffoscope
+[2023-07-03 13:47:39] INFO root fetch - processPackages [optim-esm-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/optim_esm_tools-0.2.1.tar.gz tmp/optim_esm_tools-0.2.2.tar.gz --markdown 20230703/o/optim-esm-tools/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-07-03 13:47:39] INFO root fetch - processPackages [lfinancial]: executing diffoscope
+[2023-07-03 13:47:39] INFO root fetch - processPackages [lfinancial]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lfinancial-0.1.4.tar.gz tmp/lfinancial-0.1.5.tar.gz --markdown 20230703/l/lfinancial/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-07-03 13:47:39] INFO root fetch - processPackages [micropython-captive-dhcp-server]: executing diffoscope
+[2023-07-03 13:47:39] INFO root fetch - processPackages [micropython-captive-dhcp-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/micropython-captive-dhcp-server-0.0.4.dev0.tar.gz tmp/micropython-captive-dhcp-server-0.0.5.dev0.tar.gz --markdown 20230703/m/micropython-captive-dhcp-server/0.0.4.dev0-0.0.5.dev0/diff.md --exclude *.pyd
+[2023-07-03 13:47:39] INFO root fetch - processPackages [macrobond-data-api]: executing diffoscope
+[2023-07-03 13:47:39] INFO root fetch - processPackages [macrobond-data-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/macrobond-data-api-1.0.7.tar.gz tmp/macrobond-data-api-1.0.8.tar.gz --markdown 20230703/m/macrobond-data-api/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-07-03 13:47:39] INFO root fetch - processPackages [tablite]: executing diffoscope
+[2023-07-03 13:47:39] INFO root fetch - processPackages [tablite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tablite-2023.6.dev8-py3-none-any.whl.zip tmp/tablite-2023.6.dev9-py3-none-any.whl.zip --markdown 20230703/t/tablite/2023.6.dev8-2023.6.dev9/diff.md --exclude *.pyd
+[2023-07-03 13:47:39] INFO root fetch - processPackages [gov-uk-dashboards]: executing diffoscope
+[2023-07-03 13:47:39] INFO root fetch - processPackages [gov-uk-dashboards]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gov_uk_dashboards-9.8.0.tar.gz tmp/gov_uk_dashboards-9.9.0.tar.gz --markdown 20230703/g/gov-uk-dashboards/9.8.0-9.9.0/diff.md --exclude *.pyd
+[2023-07-03 13:47:40] INFO root fetch - processPackages [rosa-python-client]: Remove: archive file [/home/abi/fetcher/tmp/rosa_python_client-1.0.8.tar.gz]
+[2023-07-03 13:47:40] INFO root fetch - processPackages [rosa-python-client]: Remove: archive file [/home/abi/fetcher/tmp/rosa_python_client-1.0.9.tar.gz]
+[2023-07-03 13:47:40] INFO root fetch - processPackages [rosa-python-client]: Start processing: huhangkai
+[2023-07-03 13:47:40] INFO root fetch - main [MainThread]: End processing [rosa-python-client]: success
+[2023-07-03 13:47:40] INFO root fetch - processPackages [huhangkai]: New version: [1.2.4] Old Version: [1.2.3]
+[2023-07-03 13:47:40] INFO root fetch - processPackages [gpt-functions]: Remove: archive file [/home/abi/fetcher/tmp/gpt_functions-0.0.6.tar.gz]
+[2023-07-03 13:47:40] INFO root fetch - processPackages [gpt-functions]: Remove: archive file [/home/abi/fetcher/tmp/gpt_functions-0.0.7.tar.gz]
+[2023-07-03 13:47:40] INFO root fetch - processPackages [gpt-functions]: Start processing: Products.urban
+[2023-07-03 13:47:40] INFO root fetch - main [MainThread]: End processing [gpt-functions]: success
+[2023-07-03 13:47:40] INFO root fetch - processPackages [Products.urban]: New version: [2.5.4] Old Version: [2.5.3]
+[2023-07-03 13:47:40] INFO root fetch - processPackages [huhangkai]: Downloading https://files.pythonhosted.org/packages/e2/eb/e54c9b4f0e1fcee1c63d828fa808b3da4eaf06bbcf4f5f4b5ac95df76149/huhangkai-1.2.3.tar.gz
+[2023-07-03 13:47:41] INFO root fetch - processPackages [Products.urban]: Downloading https://files.pythonhosted.org/packages/49/ba/3d0f16c8554acb42e15b8136d64b99ffcd222ea990654e0c2095bcf8ad89/Products.urban-2.5.3.tar.gz
+[2023-07-03 13:47:41] WARNING root fetch - processPackages [Products.urban]: Skipping package: exceeds size limit 22165082>=10485760
+[2023-07-03 13:47:41] INFO root fetch - processPackages [Products.urban]: Start processing: nkululeko
+[2023-07-03 13:47:41] INFO root fetch - main [MainThread]: End processing [Products.urban] error
+[2023-07-03 13:47:41] INFO root fetch - processPackages [nkululeko]: New version: [0.50.1] Old Version: [0.50.0]
+[2023-07-03 13:47:41] INFO root fetch - processPackages [lfinancial]: Remove: archive file [/home/abi/fetcher/tmp/lfinancial-0.1.4.tar.gz]
+[2023-07-03 13:47:41] INFO root fetch - processPackages [lfinancial]: Remove: archive file [/home/abi/fetcher/tmp/lfinancial-0.1.5.tar.gz]
+[2023-07-03 13:47:41] INFO root fetch - processPackages [lfinancial]: Start processing: starknet-devnet
+[2023-07-03 13:47:41] INFO root fetch - main [MainThread]: End processing [lfinancial]: success
+[2023-07-03 13:47:41] INFO root fetch - processPackages [huhangkai]: Downloading https://files.pythonhosted.org/packages/ad/a4/7119d60b42baa222d64bd129bf63a6076ff5b849c7c211d71711afc7d915/huhangkai-1.2.4.tar.gz
+[2023-07-03 13:47:41] INFO root fetch - processPackages [micropython-captive-dhcp-server]: Remove: archive file [/home/abi/fetcher/tmp/micropython-captive-dhcp-server-0.0.4.dev0.tar.gz]
+[2023-07-03 13:47:41] INFO root fetch - processPackages [micropython-captive-dhcp-server]: Remove: archive file [/home/abi/fetcher/tmp/micropython-captive-dhcp-server-0.0.5.dev0.tar.gz]
+[2023-07-03 13:47:41] INFO root fetch - processPackages [micropython-captive-dhcp-server]: Start processing: collective.eeafaceted.collectionwidget
+[2023-07-03 13:47:41] INFO root fetch - main [MainThread]: End processing [micropython-captive-dhcp-server]: success
+[2023-07-03 13:47:41] INFO root fetch - processPackages [avro]: Remove: archive file [/home/abi/fetcher/tmp/avro-1.9.1.tar.gz]
+[2023-07-03 13:47:41] INFO root fetch - processPackages [avro]: Remove: archive file [/home/abi/fetcher/tmp/avro-1.9.2.tar.gz]
+[2023-07-03 13:47:41] INFO root fetch - processPackages [avro]: Start processing: bce-python-sdk
+[2023-07-03 13:47:41] INFO root fetch - main [MainThread]: End processing [avro]: success
+[2023-07-03 13:47:41] INFO root fetch - processPackages [tah-data]: Remove: archive file [/home/abi/fetcher/tmp/tah_data-1.0.0.tar.gz]
+[2023-07-03 13:47:41] INFO root fetch - processPackages [tah-data]: Remove: archive file [/home/abi/fetcher/tmp/tah_data-1.1.0.tar.gz]
+[2023-07-03 13:47:41] INFO root fetch - processPackages [tah-data]: Start processing: pepperize.cdk-ssm-parameters-cross-region
+[2023-07-03 13:47:41] INFO root fetch - main [MainThread]: End processing [tah-data]: success
+[2023-07-03 13:47:41] INFO root fetch - processPackages [collective.eeafaceted.collectionwidget]: New version: [1.9] Old Version: [1.8]
+[2023-07-03 13:47:41] INFO root fetch - processPackages [tablite]: Remove: archive file [/home/abi/fetcher/tmp/tablite-2023.6.dev8-py3-none-any.whl.zip]
+[2023-07-03 13:47:41] INFO root fetch - processPackages [tablite]: Remove: archive file [/home/abi/fetcher/tmp/tablite-2023.6.dev9-py3-none-any.whl.zip]
+[2023-07-03 13:47:41] INFO root fetch - processPackages [tablite]: Start processing: django-slick-reporting
+[2023-07-03 13:47:41] INFO root fetch - main [MainThread]: End processing [tablite]: success
+[2023-07-03 13:47:41] INFO root fetch - processPackages [starknet-devnet]: New version: [0.5.5a0] Old Version: [0.5.4]
+[2023-07-03 13:47:41] INFO root fetch - processPackages [bce-python-sdk]: New version: [0.8.87] Old Version: [0.8.83]
+[2023-07-03 13:47:41] INFO root fetch - processPackages [huhangkai]: executing diffoscope
+[2023-07-03 13:47:41] INFO root fetch - processPackages [nkululeko]: Downloading https://files.pythonhosted.org/packages/6d/8f/f62f0ac6e7609b8279e78325b600d1d61e2c27c660d8e0762809791694ff/nkululeko-0.50.0.tar.gz
+[2023-07-03 13:47:41] INFO root fetch - processPackages [huhangkai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huhangkai-1.2.3.tar.gz tmp/huhangkai-1.2.4.tar.gz --markdown 20230703/h/huhangkai/1.2.3-1.2.4/diff.md --exclude *.pyd
+[2023-07-03 13:47:41] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-03 13:47:41] INFO root fetch - processPackages [optim-esm-tools]: Remove: archive file [/home/abi/fetcher/tmp/optim_esm_tools-0.2.1.tar.gz]
+[2023-07-03 13:47:41] INFO root fetch - processPackages [optim-esm-tools]: Remove: archive file [/home/abi/fetcher/tmp/optim_esm_tools-0.2.2.tar.gz]
+[2023-07-03 13:47:41] INFO root fetch - processPackages [optim-esm-tools]: Start processing: bigdl-dllib-spark3
+[2023-07-03 13:47:41] INFO root fetch - main [MainThread]: End processing [optim-esm-tools]: success
+[2023-07-03 13:47:41] INFO root fetch - processPackages [bigdl-dllib-spark3]: New version: [2.4.0b20230702] Old Version: [2.4.0b20230701]
+[2023-07-03 13:47:41] INFO root fetch - processPackages [django-slick-reporting]: New version: [1.0.0] Old Version: [0.9.0]
+[2023-07-03 13:47:41] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: Downloading https://files.pythonhosted.org/packages/fb/79/6889f2bcfe14ad3c2ad911188cae87c47eed38640d4ded20760568fafd48/pepperize.cdk-ssm-parameters-cross-region-0.0.98.tar.gz
+[2023-07-03 13:47:41] INFO root fetch - processPackages [gov-uk-dashboards]: Remove: archive file [/home/abi/fetcher/tmp/gov_uk_dashboards-9.8.0.tar.gz]
+[2023-07-03 13:47:41] INFO root fetch - processPackages [gov-uk-dashboards]: Remove: archive file [/home/abi/fetcher/tmp/gov_uk_dashboards-9.9.0.tar.gz]
+[2023-07-03 13:47:41] INFO root fetch - main [MainThread]: End processing [gov-uk-dashboards]: success
+[2023-07-03 13:47:41] INFO root fetch - processPackages [bce-python-sdk]: Downloading https://files.pythonhosted.org/packages/0c/e3/f8d6691be76ac8dbcb1fc0b8e64e345ff1bbebdf9d2398b14b514dea27e2/bce-python-sdk-0.8.83.tar.gz
+[2023-07-03 13:47:41] INFO root fetch - processPackages [collective.eeafaceted.collectionwidget]: Downloading https://files.pythonhosted.org/packages/27/28/b5aba0ad4d095916b7a7d880e19e9a457aaf3777e361df11b292061d5d9b/collective.eeafaceted.collectionwidget-1.8.tar.gz
+[2023-07-03 13:47:41] INFO root fetch - processPackages [macrobond-data-api]: Remove: archive file [/home/abi/fetcher/tmp/macrobond-data-api-1.0.7.tar.gz]
+[2023-07-03 13:47:41] INFO root fetch - processPackages [macrobond-data-api]: Remove: archive file [/home/abi/fetcher/tmp/macrobond-data-api-1.0.8.tar.gz]
+[2023-07-03 13:47:41] INFO root fetch - main [MainThread]: End processing [macrobond-data-api]: success
+[2023-07-03 13:47:41] INFO root fetch - processPackages [starknet-devnet]: Downloading https://files.pythonhosted.org/packages/ad/92/f3b965de5b8911b35e3e73b32fcba1e0fc3f5cb0772048c4115653a9c640/starknet_devnet-0.5.4.tar.gz
+[2023-07-03 13:47:41] INFO root fetch - processPackages [bigdl-dllib-spark3]: Downloading https://files.pythonhosted.org/packages/81/80/fa77743cdd213a3b59413059514f4e57c9345f61217e8ed0cb862d29438c/bigdl-dllib-spark3-2.4.0b20230701.tar.gz
+[2023-07-03 13:47:42] INFO root fetch - processPackages [nkululeko]: Downloading https://files.pythonhosted.org/packages/03/8f/ca4d812dcc9227a0ddc776e9d0819e3c8fc10db1f43343f349c81f48bc85/nkululeko-0.50.1.tar.gz
+[2023-07-03 13:47:42] INFO root fetch - processPackages [django-slick-reporting]: Downloading https://files.pythonhosted.org/packages/b2/54/2fdf1a651567ab89c524eb2cb7c571725d1d3f17cada23dccbd5a255a803/django-slick-reporting-0.9.0.tar.gz
+[2023-07-03 13:47:42] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: Downloading https://files.pythonhosted.org/packages/9b/28/15454316ba7c03762eb5f4132acad608b8e4002ca06c5309244457a24d67/pepperize.cdk-ssm-parameters-cross-region-0.0.99.tar.gz
+[2023-07-03 13:47:42] WARNING root fetch - processPackages [bigdl-dllib-spark3]: Skipping package: exceeds size limit 61329217>=10485760
+[2023-07-03 13:47:42] INFO root fetch - main [MainThread]: End processing [bigdl-dllib-spark3] error
+[2023-07-03 13:47:42] INFO root fetch - processPackages [nkululeko]: executing diffoscope
+[2023-07-03 13:47:42] INFO root fetch - processPackages [nkululeko]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nkululeko-0.50.0.tar.gz tmp/nkululeko-0.50.1.tar.gz --markdown 20230703/n/nkululeko/0.50.0-0.50.1/diff.md --exclude *.pyd
+[2023-07-03 13:47:42] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: executing diffoscope
+[2023-07-03 13:47:42] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-ssm-parameters-cross-region-0.0.98.tar.gz tmp/pepperize.cdk-ssm-parameters-cross-region-0.0.99.tar.gz --markdown 20230703/p/pepperize.cdk-ssm-parameters-cross-region/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-03 13:47:42] INFO root fetch - processPackages [bce-python-sdk]: Downloading https://files.pythonhosted.org/packages/6a/7e/d29b45c9c52dfe243b2b0e5444382bd1a9e49253ff54bc4f8691523ba430/bce-python-sdk-0.8.87.tar.gz
+[2023-07-03 13:47:42] INFO root fetch - processPackages [collective.eeafaceted.collectionwidget]: Downloading https://files.pythonhosted.org/packages/b4/7b/28a35c6502a1f2fe9af7b263dd47a7209c74af3c55ae7411333846fdffdd/collective.eeafaceted.collectionwidget-1.9.tar.gz
+[2023-07-03 13:47:42] INFO root fetch - processPackages [starknet-devnet]: Downloading https://files.pythonhosted.org/packages/7b/9b/6257149e0105eab047486fada8226f79e17d5e45e13881b19395c3afd562/starknet_devnet-0.5.5a0.tar.gz
+[2023-07-03 13:47:42] INFO root fetch - processPackages [django-slick-reporting]: Downloading https://files.pythonhosted.org/packages/f7/16/5db8c2df4db3b09494845c709523d5fb0b7b65a6c85214b479c19db747d5/django-slick-reporting-1.0.0.tar.gz
+[2023-07-03 13:47:42] INFO root fetch - processPackages [bce-python-sdk]: executing diffoscope
+[2023-07-03 13:47:42] INFO root fetch - processPackages [bce-python-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bce-python-sdk-0.8.83.tar.gz tmp/bce-python-sdk-0.8.87.tar.gz --markdown 20230703/b/bce-python-sdk/0.8.83-0.8.87/diff.md --exclude *.pyd
+[2023-07-03 13:47:42] INFO root fetch - processPackages [huhangkai]: Remove: archive file [/home/abi/fetcher/tmp/huhangkai-1.2.3.tar.gz]
+[2023-07-03 13:47:42] INFO root fetch - processPackages [huhangkai]: Remove: archive file [/home/abi/fetcher/tmp/huhangkai-1.2.4.tar.gz]
+[2023-07-03 13:47:42] INFO root fetch - main [MainThread]: End processing [huhangkai]: success
+[2023-07-03 13:47:42] INFO root fetch - processPackages [starknet-devnet]: executing diffoscope
+[2023-07-03 13:47:42] INFO root fetch - processPackages [starknet-devnet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/starknet_devnet-0.5.4.tar.gz tmp/starknet_devnet-0.5.5a0.tar.gz --markdown 20230703/s/starknet-devnet/0.5.4-0.5.5a0/diff.md --exclude *.pyd
+[2023-07-03 13:47:42] INFO root fetch - processPackages [collective.eeafaceted.collectionwidget]: executing diffoscope
+[2023-07-03 13:47:42] INFO root fetch - processPackages [collective.eeafaceted.collectionwidget]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/collective.eeafaceted.collectionwidget-1.8.tar.gz tmp/collective.eeafaceted.collectionwidget-1.9.tar.gz --markdown 20230703/c/collective.eeafaceted.collectionwidget/1.8-1.9/diff.md --exclude *.pyd
+[2023-07-03 13:47:42] INFO root fetch - processPackages [django-slick-reporting]: executing diffoscope
+[2023-07-03 13:47:42] INFO root fetch - processPackages [django-slick-reporting]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-slick-reporting-0.9.0.tar.gz tmp/django-slick-reporting-1.0.0.tar.gz --markdown 20230703/d/django-slick-reporting/0.9.0-1.0.0/diff.md --exclude *.pyd
+[2023-07-03 13:47:43] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-ssm-parameters-cross-region-0.0.98.tar.gz]
+[2023-07-03 13:47:43] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-ssm-parameters-cross-region-0.0.99.tar.gz]
+[2023-07-03 13:47:43] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-ssm-parameters-cross-region]: success
+[2023-07-03 13:47:43] INFO root fetch - processPackages [nkululeko]: Remove: archive file [/home/abi/fetcher/tmp/nkululeko-0.50.0.tar.gz]
+[2023-07-03 13:47:43] INFO root fetch - processPackages [nkululeko]: Remove: archive file [/home/abi/fetcher/tmp/nkululeko-0.50.1.tar.gz]
+[2023-07-03 13:47:43] INFO root fetch - main [MainThread]: End processing [nkululeko]: success
+[2023-07-03 13:47:43] INFO root fetch - processPackages [django-slick-reporting]: Remove: archive file [/home/abi/fetcher/tmp/django-slick-reporting-0.9.0.tar.gz]
+[2023-07-03 13:47:43] INFO root fetch - processPackages [django-slick-reporting]: Remove: archive file [/home/abi/fetcher/tmp/django-slick-reporting-1.0.0.tar.gz]
+[2023-07-03 13:47:43] INFO root fetch - main [MainThread]: End processing [django-slick-reporting]: success
+[2023-07-03 13:47:43] INFO root fetch - processPackages [starknet-devnet]: Remove: archive file [/home/abi/fetcher/tmp/starknet_devnet-0.5.4.tar.gz]
+[2023-07-03 13:47:43] INFO root fetch - processPackages [starknet-devnet]: Remove: archive file [/home/abi/fetcher/tmp/starknet_devnet-0.5.5a0.tar.gz]
+[2023-07-03 13:47:43] INFO root fetch - main [MainThread]: End processing [starknet-devnet]: success
+[2023-07-03 13:47:43] INFO root fetch - processPackages [collective.eeafaceted.collectionwidget]: Remove: archive file [/home/abi/fetcher/tmp/collective.eeafaceted.collectionwidget-1.8.tar.gz]
+[2023-07-03 13:47:43] INFO root fetch - processPackages [collective.eeafaceted.collectionwidget]: Remove: archive file [/home/abi/fetcher/tmp/collective.eeafaceted.collectionwidget-1.9.tar.gz]
+[2023-07-03 13:47:43] INFO root fetch - main [MainThread]: End processing [collective.eeafaceted.collectionwidget]: success
+[2023-07-03 13:47:44] INFO root fetch - processPackages [bce-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/bce-python-sdk-0.8.83.tar.gz]
+[2023-07-03 13:47:44] INFO root fetch - processPackages [bce-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/bce-python-sdk-0.8.87.tar.gz]
+[2023-07-03 13:47:44] INFO root fetch - main [MainThread]: End processing [bce-python-sdk]: success
+[2023-07-03 13:47:44] INFO root fetch - main [MainThread]: Store serial: [18738531]
