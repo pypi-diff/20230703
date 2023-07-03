@@ -12463,3 +12463,147 @@ AssertionError: tmp/discord-ansi-0.3.tar.gz does not exist
 [2023-07-03 11:23:38] INFO root fetch - processPackages [mjml-python]: Remove: archive file [/home/abi/fetcher/tmp/mjml_python-1.1.0-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2023-07-03 11:23:38] INFO root fetch - main [MainThread]: End processing [mjml-python]: success
 [2023-07-03 11:23:38] INFO root fetch - main [MainThread]: Store serial: [18736897]
+[2023-07-03 11:28:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18736897]
+[2023-07-03 11:28:51] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-07-03 11:28:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: funfluid
+[2023-07-03 11:28:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: spanishconjugator
+[2023-07-03 11:28:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: chellow
+[2023-07-03 11:28:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gispandas
+[2023-07-03 11:28:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: TTS
+[2023-07-03 11:28:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: few-shot-priming
+[2023-07-03 11:28:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: btimer
+[2023-07-03 11:28:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: chinesecalendar
+[2023-07-03 11:28:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: chinese-calendar
+[2023-07-03 11:28:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: backup-warden
+[2023-07-03 11:28:51] INFO root fetch - processPackages [chinese-calendar]: New version: [1.8.1] Old Version: [1.8.0]
+[2023-07-03 11:28:51] INFO root fetch - processPackages [chinesecalendar]: New version: [1.8.1] Old Version: [1.8.0]
+[2023-07-03 11:28:51] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-07-03 11:28:51] INFO root fetch - processPackages [funfluid]: New version: [202307031723] Old Version: [202307022012]
+[2023-07-03 11:28:51] INFO root fetch - processPackages [btimer]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-03 11:28:51] INFO root fetch - processPackages [gispandas]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-07-03 11:28:51] INFO root fetch - processPackages [chellow]: New version: [2827] Old Version: [2826]
+[2023-07-03 11:28:51] WARNING root fetch - processPackages [backup-warden]: Skipping, unable to determine old version
+[2023-07-03 11:28:51] INFO root fetch - processPackages [backup-warden]: Start processing: pciSeq
+[2023-07-03 11:28:51] INFO root fetch - main [MainThread]: End processing [backup-warden] error
+[2023-07-03 11:28:52] INFO root fetch - processPackages [TTS]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-07-03 11:28:52] INFO root fetch - processPackages [few-shot-priming]: New version: [0.0.99] Old Version: [0.0.96]
+[2023-07-03 11:28:52] INFO root fetch - processPackages [pciSeq]: New version: [0.0.55.dev0] Old Version: [0.0.54]
+[2023-07-03 11:28:52] INFO root fetch - processPackages [btimer]: Downloading https://files.pythonhosted.org/packages/87/c6/d773938174a91866125d3ff7863b0324ae45dc8ab20ac58c398de3a261ff/btimer-1.0.8.tar.gz
+[2023-07-03 11:28:52] INFO root fetch - processPackages [chinese-calendar]: Downloading https://files.pythonhosted.org/packages/b0/54/103f7b00a2b8ddee731ebd47b4205a803781393d21e29809d60878e535f8/chinese_calendar-1.8.0.tar.gz
+[2023-07-03 11:28:52] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/d5/95/d70c95da3e78b71d35838af276daf5b2f53394c4c9a44fa5dd8f2aa64498/few_shot_priming-0.0.96-py3-none-any.whl
+[2023-07-03 11:28:52] INFO root fetch - processPackages [gispandas]: Downloading https://files.pythonhosted.org/packages/11/27/17a1fa2d6a4c6c6a418a24f2537780269afac2e52247146c024491b991bb/gispandas-0.1.4.tar.gz
+[2023-07-03 11:28:52] INFO root fetch - processPackages [chinesecalendar]: Downloading https://files.pythonhosted.org/packages/c3/dc/ce2d1dda5e2b650dde686da12da6a68f13b661d4396a62e69abcaafb0c3b/chinesecalendar-1.8.0.tar.gz
+[2023-07-03 11:28:52] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2023-07-03 11:28:52] INFO root fetch - processPackages [pciSeq]: Downloading https://files.pythonhosted.org/packages/d9/a7/16107c217162f6ceb8ec4e2ef25f2dec258c9434ee2d76fbcb170994ccf3/pciSeq-0.0.54-py3-none-any.whl
+[2023-07-03 11:28:52] INFO root fetch - processPackages [funfluid]: Downloading https://files.pythonhosted.org/packages/19/69/88c6870310d56e806e6e8262668c0ad472c79f26d85512c1e2fff182ecb3/funfluid-202307022012.tar.gz
+[2023-07-03 11:28:52] INFO root fetch - processPackages [chellow]: Downloading https://files.pythonhosted.org/packages/53/7f/0c0b4c6862d01d54d05680973dafeac8063cadbc1558cc789060e11e064a/chellow-2826.tar.gz
+[2023-07-03 11:28:52] INFO root fetch - processPackages [TTS]: Downloading https://files.pythonhosted.org/packages/67/99/6c20d7d05ba1b790ecf630c966339575f1e1ba1de99180cfb6cd0cdef613/TTS-0.8.0.tar.gz
+[2023-07-03 11:28:52] INFO root fetch - processPackages [btimer]: Downloading https://files.pythonhosted.org/packages/42/73/09f7e55832748ff3d5052a6cbb4d87f93acdaed865f20e8d0be81bfffa4a/btimer-1.0.9.tar.gz
+[2023-07-03 11:28:52] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/1e/e8/6368ab93b7135424a35ce07aac4de4056a38a1ae6f862ed63a5a79a4dce6/few_shot_priming-0.0.99-py3-none-any.whl
+[2023-07-03 11:28:52] INFO root fetch - processPackages [chinese-calendar]: Downloading https://files.pythonhosted.org/packages/fa/03/493c40e5e21f5318940f22c270152956afc3e9451b651682e4305041be96/chinese_calendar-1.8.1.tar.gz
+[2023-07-03 11:28:52] INFO root fetch - processPackages [gispandas]: Downloading https://files.pythonhosted.org/packages/93/09/ca9fe68d97385980219fefbddfca2d39d0715ab189435a2eedaefab048fe/gispandas-0.1.5.tar.gz
+[2023-07-03 11:28:52] INFO root fetch - processPackages [chinesecalendar]: Downloading https://files.pythonhosted.org/packages/f0/e9/ae3cdc4e96eb62bda1be052a6e81818f769f108c9215f6de606436799288/chinesecalendar-1.8.1.tar.gz
+[2023-07-03 11:28:52] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2023-07-03 11:28:52] INFO root fetch - processPackages [pciSeq]: Downloading https://files.pythonhosted.org/packages/a8/d5/32be6a49692e65bd7dacbbf31f6e4516a0bd308fcecd541535e3c3c8e1ec/pciSeq-0.0.55.dev0-py3-none-any.whl
+[2023-07-03 11:28:52] INFO root fetch - processPackages [chellow]: Downloading https://files.pythonhosted.org/packages/bc/64/ec72bd83957d5f6ad5cfc5f2b156b41dad4c98bee657040bbb6b98ac80b6/chellow-2827.tar.gz
+[2023-07-03 11:28:52] INFO root fetch - processPackages [chinese-calendar]: executing diffoscope
+[2023-07-03 11:28:52] INFO root fetch - processPackages [chinese-calendar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chinese_calendar-1.8.0.tar.gz tmp/chinese_calendar-1.8.1.tar.gz --markdown 20230703/c/chinese-calendar/1.8.0-1.8.1/diff.md --exclude *.pyd
+[2023-07-03 11:28:52] INFO root fetch - processPackages [few-shot-priming]: executing diffoscope
+[2023-07-03 11:28:52] INFO root fetch - processPackages [few-shot-priming]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/few_shot_priming-0.0.96-py3-none-any.whl.zip tmp/few_shot_priming-0.0.99-py3-none-any.whl.zip --markdown 20230703/f/few-shot-priming/0.0.96-0.0.99/diff.md --exclude *.pyd
+[2023-07-03 11:28:52] INFO root fetch - processPackages [funfluid]: Downloading https://files.pythonhosted.org/packages/da/59/c1f40db4f8677c09430693848a5350c936405686810f4865363c354074f9/funfluid-202307031723.tar.gz
+[2023-07-03 11:28:52] INFO root fetch - processPackages [gispandas]: executing diffoscope
+[2023-07-03 11:28:52] INFO root fetch - processPackages [gispandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gispandas-0.1.4.tar.gz tmp/gispandas-0.1.5.tar.gz --markdown 20230703/g/gispandas/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-07-03 11:28:53] INFO root fetch - processPackages [btimer]: executing diffoscope
+[2023-07-03 11:28:53] INFO root fetch - processPackages [btimer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/btimer-1.0.8.tar.gz tmp/btimer-1.0.9.tar.gz --markdown 20230703/b/btimer/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-03 11:28:53] INFO root fetch - processPackages [TTS]: Downloading https://files.pythonhosted.org/packages/e6/68/26dd07a1742aa1c80702fe0bf57fbe9379806b1dda277c705a37a46dd744/TTS-0.9.0.tar.gz
+[2023-07-03 11:28:53] INFO root fetch - processPackages [chinesecalendar]: executing diffoscope
+[2023-07-03 11:28:53] INFO root fetch - processPackages [chinesecalendar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chinesecalendar-1.8.0.tar.gz tmp/chinesecalendar-1.8.1.tar.gz --markdown 20230703/c/chinesecalendar/1.8.0-1.8.1/diff.md --exclude *.pyd
+[2023-07-03 11:28:53] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-07-03 11:28:53] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230703/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-07-03 11:28:53] INFO root fetch - processPackages [pciSeq]: executing diffoscope
+[2023-07-03 11:28:53] INFO root fetch - processPackages [pciSeq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pciSeq-0.0.54-py3-none-any.whl.zip tmp/pciSeq-0.0.55.dev0-py3-none-any.whl.zip --markdown 20230703/p/pciSeq/0.0.54-0.0.55.dev0/diff.md --exclude *.pyd
+[2023-07-03 11:28:53] INFO root fetch - processPackages [chellow]: executing diffoscope
+[2023-07-03 11:28:53] INFO root fetch - processPackages [chellow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chellow-2826.tar.gz tmp/chellow-2827.tar.gz --markdown 20230703/c/chellow/2826-2827/diff.md --exclude *.pyd
+[2023-07-03 11:28:53] INFO root fetch - processPackages [funfluid]: executing diffoscope
+[2023-07-03 11:28:53] INFO root fetch - processPackages [funfluid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/funfluid-202307022012.tar.gz tmp/funfluid-202307031723.tar.gz --markdown 20230703/f/funfluid/202307022012-202307031723/diff.md --exclude *.pyd
+[2023-07-03 11:28:53] INFO root fetch - processPackages [TTS]: executing diffoscope
+[2023-07-03 11:28:53] INFO root fetch - processPackages [TTS]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TTS-0.8.0.tar.gz tmp/TTS-0.9.0.tar.gz --markdown 20230703/T/TTS/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-07-03 11:28:54] INFO root fetch - processPackages [chinese-calendar]: Remove: archive file [/home/abi/fetcher/tmp/chinese_calendar-1.8.0.tar.gz]
+[2023-07-03 11:28:54] INFO root fetch - processPackages [chinese-calendar]: Remove: archive file [/home/abi/fetcher/tmp/chinese_calendar-1.8.1.tar.gz]
+[2023-07-03 11:28:54] INFO root fetch - processPackages [chinese-calendar]: Start processing: qxxkey
+[2023-07-03 11:28:54] INFO root fetch - main [MainThread]: End processing [chinese-calendar]: success
+[2023-07-03 11:28:54] INFO root fetch - processPackages [qxxkey]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-03 11:28:54] INFO root fetch - processPackages [gispandas]: Remove: archive file [/home/abi/fetcher/tmp/gispandas-0.1.4.tar.gz]
+[2023-07-03 11:28:54] INFO root fetch - processPackages [gispandas]: Remove: archive file [/home/abi/fetcher/tmp/gispandas-0.1.5.tar.gz]
+[2023-07-03 11:28:54] INFO root fetch - processPackages [gispandas]: Start processing: asphalt-web
+[2023-07-03 11:28:54] INFO root fetch - main [MainThread]: End processing [gispandas]: success
+[2023-07-03 11:28:54] INFO root fetch - processPackages [btimer]: Remove: archive file [/home/abi/fetcher/tmp/btimer-1.0.8.tar.gz]
+[2023-07-03 11:28:54] INFO root fetch - processPackages [btimer]: Remove: archive file [/home/abi/fetcher/tmp/btimer-1.0.9.tar.gz]
+[2023-07-03 11:28:54] INFO root fetch - processPackages [btimer]: Start processing: rosetta-ce
+[2023-07-03 11:28:54] INFO root fetch - main [MainThread]: End processing [btimer]: success
+[2023-07-03 11:28:54] INFO root fetch - processPackages [asphalt-web]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-07-03 11:28:54] INFO root fetch - processPackages [rosetta-ce]: New version: [1.4.4] Old Version: [1.4.3]
+[2023-07-03 11:28:54] INFO root fetch - processPackages [chinesecalendar]: Remove: archive file [/home/abi/fetcher/tmp/chinesecalendar-1.8.0.tar.gz]
+[2023-07-03 11:28:54] INFO root fetch - processPackages [chinesecalendar]: Remove: archive file [/home/abi/fetcher/tmp/chinesecalendar-1.8.1.tar.gz]
+[2023-07-03 11:28:54] INFO root fetch - processPackages [chinesecalendar]: Start processing: vollseg-napari-trackmate
+[2023-07-03 11:28:54] INFO root fetch - main [MainThread]: End processing [chinesecalendar]: success
+[2023-07-03 11:28:54] INFO root fetch - processPackages [vollseg-napari-trackmate]: New version: [2.2.6] Old Version: [2.2.5]
+[2023-07-03 11:28:54] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.0.96-py3-none-any.whl.zip]
+[2023-07-03 11:28:54] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.0.99-py3-none-any.whl.zip]
+[2023-07-03 11:28:55] INFO root fetch - processPackages [few-shot-priming]: Start processing: yxr-oi-cli
+[2023-07-03 11:28:55] INFO root fetch - main [MainThread]: End processing [few-shot-priming]: success
+[2023-07-03 11:28:55] INFO root fetch - processPackages [qxxkey]: Downloading https://files.pythonhosted.org/packages/d6/9c/44fa28227d90d442a873ea4de9219f1d00df8e27b393f014a28da200f5ad/qxxkey-0.0.1.tar.gz
+[2023-07-03 11:28:55] INFO root fetch - processPackages [rosetta-ce]: Downloading https://files.pythonhosted.org/packages/7b/f7/fe52982f1829681fdb5fbd31a7e79d59bd5f40ce83d9f7b2443937071aa6/rosetta-ce-1.4.3.tar.gz
+[2023-07-03 11:28:55] WARNING root fetch - processPackages [yxr-oi-cli]: Skipping, unable to determine old version
+[2023-07-03 11:28:55] INFO root fetch - processPackages [yxr-oi-cli]: Start processing: hmmer-tables
+[2023-07-03 11:28:55] INFO root fetch - main [MainThread]: End processing [yxr-oi-cli] error
+[2023-07-03 11:28:55] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.998.tar.gz]
+[2023-07-03 11:28:55] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.999.tar.gz]
+[2023-07-03 11:28:55] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-07-03 11:28:55] INFO root fetch - processPackages [vollseg-napari-trackmate]: Downloading https://files.pythonhosted.org/packages/95/7f/2e459e10ebdbaff6c2ae76b67f620ea92278c17c1a69e1197442ac7adb9e/vollseg-napari-trackmate-2.2.5.tar.gz
+[2023-07-03 11:28:55] INFO root fetch - processPackages [asphalt-web]: Downloading https://files.pythonhosted.org/packages/ed/a5/3decbaf52d4c2383f133f1c5b2edf2cc24fa61b8c1067d5b876cd954564b/asphalt-web-1.2.0.tar.gz
+[2023-07-03 11:28:55] INFO root fetch - processPackages [hmmer-tables]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-07-03 11:28:55] INFO root fetch - processPackages [funfluid]: Remove: archive file [/home/abi/fetcher/tmp/funfluid-202307022012.tar.gz]
+[2023-07-03 11:28:55] INFO root fetch - processPackages [funfluid]: Remove: archive file [/home/abi/fetcher/tmp/funfluid-202307031723.tar.gz]
+[2023-07-03 11:28:55] INFO root fetch - main [MainThread]: End processing [funfluid]: success
+[2023-07-03 11:28:55] INFO root fetch - processPackages [qxxkey]: Downloading https://files.pythonhosted.org/packages/07/e8/5c089b9b1de8fa7ab1f02a4e8d1d91d17fd2d54ad74df3dee451a72d75d0/qxxkey-0.0.2.tar.gz
+[2023-07-03 11:28:55] INFO root fetch - processPackages [hmmer-tables]: Downloading https://files.pythonhosted.org/packages/c4/ed/0143b7d575764c46c92c5bcad42170eaa1f92474ba1ff84e9c4aa6097cf0/hmmer_tables-0.3.0.tar.gz
+[2023-07-03 11:28:55] INFO root fetch - processPackages [rosetta-ce]: Downloading https://files.pythonhosted.org/packages/88/c5/930dc9bfcf347ded260b4e8267cfe8d0bdbb7828e9e67745d30ef5156291/rosetta-ce-1.4.4.tar.gz
+[2023-07-03 11:28:55] INFO root fetch - processPackages [pciSeq]: Remove: archive file [/home/abi/fetcher/tmp/pciSeq-0.0.54-py3-none-any.whl.zip]
+[2023-07-03 11:28:55] INFO root fetch - processPackages [pciSeq]: Remove: archive file [/home/abi/fetcher/tmp/pciSeq-0.0.55.dev0-py3-none-any.whl.zip]
+[2023-07-03 11:28:55] INFO root fetch - main [MainThread]: End processing [pciSeq]: success
+[2023-07-03 11:28:55] INFO root fetch - processPackages [asphalt-web]: Downloading https://files.pythonhosted.org/packages/23/13/5563bf79b7a67ce9c9c29746e9fd82b5f80dd043e24d2d7532957c4a3f12/asphalt-web-1.2.1.tar.gz
+[2023-07-03 11:28:55] INFO root fetch - processPackages [qxxkey]: executing diffoscope
+[2023-07-03 11:28:55] INFO root fetch - processPackages [qxxkey]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qxxkey-0.0.1.tar.gz tmp/qxxkey-0.0.2.tar.gz --markdown 20230703/q/qxxkey/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-03 11:28:55] INFO root fetch - processPackages [rosetta-ce]: executing diffoscope
+[2023-07-03 11:28:55] INFO root fetch - processPackages [rosetta-ce]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rosetta-ce-1.4.3.tar.gz tmp/rosetta-ce-1.4.4.tar.gz --markdown 20230703/r/rosetta-ce/1.4.3-1.4.4/diff.md --exclude *.pyd
+[2023-07-03 11:28:55] INFO root fetch - processPackages [asphalt-web]: executing diffoscope
+[2023-07-03 11:28:55] INFO root fetch - processPackages [asphalt-web]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asphalt-web-1.2.0.tar.gz tmp/asphalt-web-1.2.1.tar.gz --markdown 20230703/a/asphalt-web/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-07-03 11:28:55] INFO root fetch - processPackages [vollseg-napari-trackmate]: Downloading https://files.pythonhosted.org/packages/43/60/8ef963e682de4a392b9ad3006005a25e84df6c9ed84f4a16055ade1be661/vollseg-napari-trackmate-2.2.6.tar.gz
+[2023-07-03 11:28:55] INFO root fetch - processPackages [hmmer-tables]: Downloading https://files.pythonhosted.org/packages/04/8e/014990f237a600fbbfb6725e3487aa7625dbb0a3847f0a2a91e7db6a3ee8/hmmer_tables-0.4.0.tar.gz
+[2023-07-03 11:28:55] INFO root fetch - processPackages [hmmer-tables]: executing diffoscope
+[2023-07-03 11:28:55] INFO root fetch - processPackages [hmmer-tables]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hmmer_tables-0.3.0.tar.gz tmp/hmmer_tables-0.4.0.tar.gz --markdown 20230703/h/hmmer-tables/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-07-03 11:28:56] INFO root fetch - processPackages [vollseg-napari-trackmate]: executing diffoscope
+[2023-07-03 11:28:56] INFO root fetch - processPackages [vollseg-napari-trackmate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vollseg-napari-trackmate-2.2.5.tar.gz tmp/vollseg-napari-trackmate-2.2.6.tar.gz --markdown 20230703/v/vollseg-napari-trackmate/2.2.5-2.2.6/diff.md --exclude *.pyd
+[2023-07-03 11:28:56] INFO root fetch - processPackages [qxxkey]: Remove: archive file [/home/abi/fetcher/tmp/qxxkey-0.0.1.tar.gz]
+[2023-07-03 11:28:56] INFO root fetch - processPackages [qxxkey]: Remove: archive file [/home/abi/fetcher/tmp/qxxkey-0.0.2.tar.gz]
+[2023-07-03 11:28:56] INFO root fetch - main [MainThread]: End processing [qxxkey]: success
+[2023-07-03 11:28:56] INFO root fetch - processPackages [rosetta-ce]: Remove: archive file [/home/abi/fetcher/tmp/rosetta-ce-1.4.3.tar.gz]
+[2023-07-03 11:28:56] INFO root fetch - processPackages [rosetta-ce]: Remove: archive file [/home/abi/fetcher/tmp/rosetta-ce-1.4.4.tar.gz]
+[2023-07-03 11:28:56] INFO root fetch - main [MainThread]: End processing [rosetta-ce]: success
+[2023-07-03 11:28:57] INFO root fetch - processPackages [hmmer-tables]: Remove: archive file [/home/abi/fetcher/tmp/hmmer_tables-0.3.0.tar.gz]
+[2023-07-03 11:28:57] INFO root fetch - processPackages [hmmer-tables]: Remove: archive file [/home/abi/fetcher/tmp/hmmer_tables-0.4.0.tar.gz]
+[2023-07-03 11:28:57] INFO root fetch - main [MainThread]: End processing [hmmer-tables]: success
+[2023-07-03 11:28:57] INFO root fetch - processPackages [TTS]: Remove: archive file [/home/abi/fetcher/tmp/TTS-0.8.0.tar.gz]
+[2023-07-03 11:28:57] INFO root fetch - processPackages [TTS]: Remove: archive file [/home/abi/fetcher/tmp/TTS-0.9.0.tar.gz]
+[2023-07-03 11:28:57] INFO root fetch - main [MainThread]: End processing [TTS]: success
+[2023-07-03 11:28:57] INFO root fetch - processPackages [asphalt-web]: Remove: archive file [/home/abi/fetcher/tmp/asphalt-web-1.2.0.tar.gz]
+[2023-07-03 11:28:57] INFO root fetch - processPackages [asphalt-web]: Remove: archive file [/home/abi/fetcher/tmp/asphalt-web-1.2.1.tar.gz]
+[2023-07-03 11:28:57] INFO root fetch - main [MainThread]: End processing [asphalt-web]: success
+[2023-07-03 11:28:57] INFO root fetch - processPackages [chellow]: Remove: archive file [/home/abi/fetcher/tmp/chellow-2826.tar.gz]
+[2023-07-03 11:28:57] INFO root fetch - processPackages [chellow]: Remove: archive file [/home/abi/fetcher/tmp/chellow-2827.tar.gz]
+[2023-07-03 11:28:57] INFO root fetch - main [MainThread]: End processing [chellow]: success
+[2023-07-03 11:28:58] INFO root fetch - processPackages [vollseg-napari-trackmate]: Remove: archive file [/home/abi/fetcher/tmp/vollseg-napari-trackmate-2.2.5.tar.gz]
+[2023-07-03 11:28:58] INFO root fetch - processPackages [vollseg-napari-trackmate]: Remove: archive file [/home/abi/fetcher/tmp/vollseg-napari-trackmate-2.2.6.tar.gz]
+[2023-07-03 11:28:58] INFO root fetch - main [MainThread]: End processing [vollseg-napari-trackmate]: success
+[2023-07-03 11:28:58] INFO root fetch - main [MainThread]: Store serial: [18736954]
