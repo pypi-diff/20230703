@@ -17988,3 +17988,252 @@ AssertionError: tmp/docarray-0.9.9.dev4.tar.gz does not exist
 [2023-07-03 14:52:47] INFO root fetch - processPackages [chef-recipes]: Remove: archive file [/home/abi/fetcher/tmp/chef_recipes-1.0.2.tar.gz]
 [2023-07-03 14:52:47] INFO root fetch - main [MainThread]: End processing [chef-recipes]: success
 [2023-07-03 14:52:47] INFO root fetch - main [MainThread]: Store serial: [18739203]
+[2023-07-03 14:57:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18739203]
+[2023-07-03 14:57:56] INFO root fetch - main [MainThread]: Found 28 changed packages
+[2023-07-03 14:57:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: oarepo-model-builder
+[2023-07-03 14:57:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: scaleway-async
+[2023-07-03 14:57:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: newenvreader
+[2023-07-03 14:57:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: scaleway-core
+[2023-07-03 14:57:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: abin-sim
+[2023-07-03 14:57:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: qwak-core
+[2023-07-03 14:57:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: finbourne-identity-sdk
+[2023-07-03 14:57:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: grai-source-fivetran
+[2023-07-03 14:57:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: qps-limit
+[2023-07-03 14:57:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: kedro
+[2023-07-03 14:57:56] INFO root fetch - processPackages [scaleway-core]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-07-03 14:57:56] INFO root fetch - processPackages [newenvreader]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-03 14:57:56] INFO root fetch - processPackages [kedro]: New version: [0.18.9] Old Version: [0.18.8]
+[2023-07-03 14:57:56] INFO root fetch - processPackages [qps-limit]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-07-03 14:57:56] INFO root fetch - processPackages [grai-source-fivetran]: New version: [0.1.0a4] Old Version: [0.1.0a2]
+[2023-07-03 14:57:56] INFO root fetch - processPackages [abin-sim]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-07-03 14:57:56] INFO root fetch - processPackages [scaleway-async]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-07-03 14:57:56] INFO root fetch - processPackages [qwak-core]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-03 14:57:56] INFO root fetch - processPackages [oarepo-model-builder]: New version: [4.0.9] Old Version: [4.0.8]
+[2023-07-03 14:57:56] INFO root fetch - processPackages [finbourne-identity-sdk]: New version: [0.0.840] Old Version: [0.0.2473]
+[2023-07-03 14:57:56] INFO root fetch - processPackages [scaleway-core]: Downloading https://files.pythonhosted.org/packages/27/da/6b45c21159f8281050256a34c8fbf4014a1c64e70e4086b70acac676a2bc/scaleway_core-0.8.0.tar.gz
+[2023-07-03 14:57:57] INFO root fetch - processPackages [oarepo-model-builder]: Downloading https://files.pythonhosted.org/packages/a7/f0/62f6d05442790f0562d20d7e93407d69aeea6c98832d6f8f68b27611715f/oarepo-model-builder-4.0.8.tar.gz
+[2023-07-03 14:57:57] INFO root fetch - processPackages [grai-source-fivetran]: Downloading https://files.pythonhosted.org/packages/c9/f5/b1dac68084a14cd3071961a0a2745b9de82b778d0cb9b0f3d3325ae1798c/grai_source_fivetran-0.1.0a2.tar.gz
+[2023-07-03 14:57:57] INFO root fetch - processPackages [finbourne-identity-sdk]: Downloading https://files.pythonhosted.org/packages/28/d4/f3aa077bd58c00de55ae35f71ef2c0c72085b5582853f0fee2f2d4a0111f/finbourne-identity-sdk-0.0.2473.tar.gz
+[2023-07-03 14:57:57] INFO root fetch - processPackages [abin-sim]: Downloading https://files.pythonhosted.org/packages/84/7f/f7233f6c1aefe6d212bcef02ef427c7cb5486e6cbf33f1aa0a8df07c2dc4/abin_sim-1.0.0.tar.gz
+[2023-07-03 14:57:57] INFO root fetch - processPackages [scaleway-async]: Downloading https://files.pythonhosted.org/packages/eb/08/72eca403ef3cc6b54711cd4effb064f70bc6b35fb4b15bd32c586c082078/scaleway_async-0.8.0.tar.gz
+[2023-07-03 14:57:57] INFO root fetch - processPackages [newenvreader]: Downloading https://files.pythonhosted.org/packages/0c/3e/1fed694776142c65911ae280d75ff628e1f6ff36f21c8a123048cdd6a25d/newenvreader-0.1.0.tar.gz
+[2023-07-03 14:57:57] INFO root fetch - processPackages [kedro]: Downloading https://files.pythonhosted.org/packages/23/1a/50d6b7065ca75273f99faf3f700a3979a6a1a7c2e80a2423426cf6a766ee/kedro-0.18.8.tar.gz
+[2023-07-03 14:57:57] INFO root fetch - processPackages [qps-limit]: Downloading https://files.pythonhosted.org/packages/6e/7f/172399875d12b0f3b1d87dcb1369fbf7902d17c421ff213d9d956922c933/qps_limit-1.0.3-py3-none-any.whl
+[2023-07-03 14:57:57] INFO root fetch - processPackages [qwak-core]: Downloading https://files.pythonhosted.org/packages/5f/d0/45d94253bcdc4108ecf2f05cb74d19b34ae62ade127e415b792f382bd060/qwak_core-0.0.98.tar.gz
+[2023-07-03 14:57:57] INFO root fetch - processPackages [oarepo-model-builder]: Downloading https://files.pythonhosted.org/packages/d0/c0/f88cc77e087d52084596bac94c3c439ecf68e7ef6b2b2efa8058d91454f9/oarepo-model-builder-4.0.9.tar.gz
+[2023-07-03 14:57:57] INFO root fetch - processPackages [scaleway-core]: Downloading https://files.pythonhosted.org/packages/9d/2c/dedd0b5233c66256c6420cb2d4a13c24719c1e1ac0c9216c3625fda1c368/scaleway_core-0.9.0.tar.gz
+[2023-07-03 14:57:57] INFO root fetch - processPackages [qps-limit]: Downloading https://files.pythonhosted.org/packages/a6/8a/bb14b77dcffed6349549857c8f977079ddaad14b21e962d9e65381760017/qps_limit-1.0.4-py3-none-any.whl
+[2023-07-03 14:57:57] INFO root fetch - processPackages [grai-source-fivetran]: Downloading https://files.pythonhosted.org/packages/33/ac/8c7a6c8fa7138b71065a2799ec00edd04413fd31b913bbff32e13bf745fc/grai_source_fivetran-0.1.0a4.tar.gz
+[2023-07-03 14:57:57] INFO root fetch - processPackages [oarepo-model-builder]: executing diffoscope
+[2023-07-03 14:57:57] INFO root fetch - processPackages [oarepo-model-builder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oarepo-model-builder-4.0.8.tar.gz tmp/oarepo-model-builder-4.0.9.tar.gz --markdown 20230703/o/oarepo-model-builder/4.0.8-4.0.9/diff.md --exclude *.pyd
+[2023-07-03 14:57:57] INFO root fetch - processPackages [finbourne-identity-sdk]: Downloading https://files.pythonhosted.org/packages/60/02/556fee55b1aaf556ab945658f46e9f25aae842d2790fb15aa1ad81b2ba2a/finbourne-identity-sdk-0.0.840.tar.gz
+[2023-07-03 14:57:57] INFO root fetch - processPackages [qps-limit]: executing diffoscope
+[2023-07-03 14:57:57] INFO root fetch - processPackages [qps-limit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qps_limit-1.0.3-py3-none-any.whl.zip tmp/qps_limit-1.0.4-py3-none-any.whl.zip --markdown 20230703/q/qps-limit/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-07-03 14:57:57] INFO root fetch - processPackages [scaleway-async]: Downloading https://files.pythonhosted.org/packages/92/c5/a4f956878eb6796ff1d5815e34389477cfb80c4c6e5b662840e1f4193337/scaleway_async-0.9.0.tar.gz
+[2023-07-03 14:57:57] INFO root fetch - processPackages [newenvreader]: Downloading https://files.pythonhosted.org/packages/2d/fd/9a39542243d5e6831166b93b4a8748ce219cd97077650130ea1a693f995e/newenvreader-0.1.1.tar.gz
+[2023-07-03 14:57:57] INFO root fetch - processPackages [abin-sim]: Downloading https://files.pythonhosted.org/packages/0d/29/840c832cbd4e82226820fad81ef242e4feb12caa7e78d6ef43bdc15be781/abin_sim-1.1.0.tar.gz
+[2023-07-03 14:57:57] INFO root fetch - processPackages [scaleway-core]: executing diffoscope
+[2023-07-03 14:57:57] INFO root fetch - processPackages [scaleway-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scaleway_core-0.8.0.tar.gz tmp/scaleway_core-0.9.0.tar.gz --markdown 20230703/s/scaleway-core/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-07-03 14:57:57] INFO root fetch - processPackages [finbourne-identity-sdk]: executing diffoscope
+[2023-07-03 14:57:57] INFO root fetch - processPackages [finbourne-identity-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finbourne-identity-sdk-0.0.2473.tar.gz tmp/finbourne-identity-sdk-0.0.840.tar.gz --markdown 20230703/f/finbourne-identity-sdk/0.0.2473-0.0.840/diff.md --exclude *.pyd
+[2023-07-03 14:57:57] INFO root fetch - processPackages [kedro]: Downloading https://files.pythonhosted.org/packages/aa/53/6a90bfe0b53ad0fc35c180ef617dd06424f09b123e188f4b85586a95d5be/kedro-0.18.9.tar.gz
+[2023-07-03 14:57:57] INFO root fetch - processPackages [newenvreader]: executing diffoscope
+[2023-07-03 14:57:57] INFO root fetch - processPackages [newenvreader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/newenvreader-0.1.0.tar.gz tmp/newenvreader-0.1.1.tar.gz --markdown 20230703/n/newenvreader/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-03 14:57:57] INFO root fetch - processPackages [grai-source-fivetran]: executing diffoscope
+[2023-07-03 14:57:57] INFO root fetch - processPackages [grai-source-fivetran]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grai_source_fivetran-0.1.0a2.tar.gz tmp/grai_source_fivetran-0.1.0a4.tar.gz --markdown 20230703/g/grai-source-fivetran/0.1.0a2-0.1.0a4/diff.md --exclude *.pyd
+[2023-07-03 14:57:57] INFO root fetch - processPackages [qwak-core]: Downloading https://files.pythonhosted.org/packages/f2/c0/4910ee16f1146c11278c0b18778d0552fdbed48c75db8c1145bb48ab13c4/qwak_core-0.0.99.tar.gz
+[2023-07-03 14:57:58] INFO root fetch - processPackages [abin-sim]: executing diffoscope
+[2023-07-03 14:57:58] INFO root fetch - processPackages [abin-sim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abin_sim-1.0.0.tar.gz tmp/abin_sim-1.1.0.tar.gz --markdown 20230703/a/abin-sim/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-07-03 14:57:58] INFO root fetch - processPackages [scaleway-async]: executing diffoscope
+[2023-07-03 14:57:58] INFO root fetch - processPackages [scaleway-async]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scaleway_async-0.8.0.tar.gz tmp/scaleway_async-0.9.0.tar.gz --markdown 20230703/s/scaleway-async/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-07-03 14:57:58] INFO root fetch - processPackages [kedro]: executing diffoscope
+[2023-07-03 14:57:58] INFO root fetch - processPackages [kedro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kedro-0.18.8.tar.gz tmp/kedro-0.18.9.tar.gz --markdown 20230703/k/kedro/0.18.8-0.18.9/diff.md --exclude *.pyd
+[2023-07-03 14:57:58] INFO root fetch - processPackages [qwak-core]: executing diffoscope
+[2023-07-03 14:57:58] INFO root fetch - processPackages [qwak-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qwak_core-0.0.98.tar.gz tmp/qwak_core-0.0.99.tar.gz --markdown 20230703/q/qwak-core/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-03 14:57:59] INFO root fetch - processPackages [qps-limit]: Remove: archive file [/home/abi/fetcher/tmp/qps_limit-1.0.3-py3-none-any.whl.zip]
+[2023-07-03 14:57:59] INFO root fetch - processPackages [qps-limit]: Remove: archive file [/home/abi/fetcher/tmp/qps_limit-1.0.4-py3-none-any.whl.zip]
+[2023-07-03 14:57:59] INFO root fetch - processPackages [qps-limit]: Start processing: mujoco-dev
+[2023-07-03 14:57:59] INFO root fetch - main [MainThread]: End processing [qps-limit]: success
+[2023-07-03 14:57:59] INFO root fetch - processPackages [mujoco-dev]: New version: [2.3.6.dev545187656] Old Version: [2.3.6.dev543789453]
+[2023-07-03 14:57:59] INFO root fetch - processPackages [newenvreader]: Remove: archive file [/home/abi/fetcher/tmp/newenvreader-0.1.0.tar.gz]
+[2023-07-03 14:57:59] INFO root fetch - processPackages [newenvreader]: Remove: archive file [/home/abi/fetcher/tmp/newenvreader-0.1.1.tar.gz]
+[2023-07-03 14:57:59] INFO root fetch - processPackages [newenvreader]: Start processing: manticore
+[2023-07-03 14:57:59] INFO root fetch - main [MainThread]: End processing [newenvreader]: success
+[2023-07-03 14:57:59] INFO root fetch - processPackages [manticore]: New version: [0.3.8.dev230703] Old Version: [0.3.8.dev230702]
+[2023-07-03 14:57:59] INFO root fetch - processPackages [mujoco-dev]: Downloading https://files.pythonhosted.org/packages/9b/40/b1e99d76f1b64e0c698f33a10e6c8c0392a344f8fde7e67fd899a3899c91/mujoco_dev-2.3.6.dev543789453-cp39-cp39-macosx_10_12_x86_64.whl
+[2023-07-03 14:57:59] INFO root fetch - processPackages [grai-source-fivetran]: Remove: archive file [/home/abi/fetcher/tmp/grai_source_fivetran-0.1.0a2.tar.gz]
+[2023-07-03 14:57:59] INFO root fetch - processPackages [grai-source-fivetran]: Remove: archive file [/home/abi/fetcher/tmp/grai_source_fivetran-0.1.0a4.tar.gz]
+[2023-07-03 14:57:59] INFO root fetch - processPackages [grai-source-fivetran]: Start processing: signposting
+[2023-07-03 14:57:59] INFO root fetch - main [MainThread]: End processing [grai-source-fivetran]: success
+[2023-07-03 14:57:59] INFO root fetch - processPackages [abin-sim]: Remove: archive file [/home/abi/fetcher/tmp/abin_sim-1.0.0.tar.gz]
+[2023-07-03 14:57:59] INFO root fetch - processPackages [abin-sim]: Remove: archive file [/home/abi/fetcher/tmp/abin_sim-1.1.0.tar.gz]
+[2023-07-03 14:57:59] INFO root fetch - processPackages [abin-sim]: Start processing: sensors-connectivity
+[2023-07-03 14:57:59] INFO root fetch - main [MainThread]: End processing [abin-sim]: success
+[2023-07-03 14:57:59] INFO root fetch - processPackages [signposting]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-07-03 14:57:59] INFO root fetch - processPackages [scaleway-core]: Remove: archive file [/home/abi/fetcher/tmp/scaleway_core-0.8.0.tar.gz]
+[2023-07-03 14:57:59] INFO root fetch - processPackages [scaleway-core]: Remove: archive file [/home/abi/fetcher/tmp/scaleway_core-0.9.0.tar.gz]
+[2023-07-03 14:57:59] INFO root fetch - processPackages [scaleway-core]: Start processing: cascade-config
+[2023-07-03 14:57:59] INFO root fetch - main [MainThread]: End processing [scaleway-core]: success
+[2023-07-03 14:57:59] INFO root fetch - processPackages [sensors-connectivity]: New version: [1.5.1] Old Version: [1.5.0]
+[2023-07-03 14:57:59] INFO root fetch - processPackages [cascade-config]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-07-03 14:57:59] INFO root fetch - processPackages [manticore]: Downloading https://files.pythonhosted.org/packages/9c/ee/53ea872d8f859e30e5a66918d76b96565023f3bd395dd1d19c88ab83d34f/manticore-0.3.8.dev230702.tar.gz
+[2023-07-03 14:57:59] INFO root fetch - processPackages [sensors-connectivity]: Downloading https://files.pythonhosted.org/packages/70/57/f89408a4a6971447d00c67627122092648bedfbe3f89312705086a357f9d/sensors_connectivity-1.5.0.tar.gz
+[2023-07-03 14:57:59] INFO root fetch - processPackages [signposting]: Downloading https://files.pythonhosted.org/packages/6d/a0/b7fe47dac393cde2f40002fa6185b60f0f89eb235a0544cebada6b20070c/signposting-0.9.1.tar.gz
+[2023-07-03 14:57:59] INFO root fetch - processPackages [finbourne-identity-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne-identity-sdk-0.0.2473.tar.gz]
+[2023-07-03 14:57:59] INFO root fetch - processPackages [finbourne-identity-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne-identity-sdk-0.0.840.tar.gz]
+[2023-07-03 14:57:59] INFO root fetch - processPackages [finbourne-identity-sdk]: Start processing: swh.loader.git
+[2023-07-03 14:57:59] INFO root fetch - main [MainThread]: End processing [finbourne-identity-sdk]: success
+[2023-07-03 14:57:59] INFO root fetch - processPackages [cascade-config]: Downloading https://files.pythonhosted.org/packages/99/4f/24ee77d086f5f83af4951f1361eaf9a47d0b1b10792ff9902116a5b0aef7/cascade-config-0.3.0.tar.gz
+[2023-07-03 14:57:59] INFO root fetch - processPackages [swh.loader.git]: New version: [2.5.2] Old Version: [2.5.1]
+[2023-07-03 14:58:00] INFO root fetch - processPackages [sensors-connectivity]: Downloading https://files.pythonhosted.org/packages/f9/fe/32b0adc178a15c75a2893981595609bf0b879345aa9a03f6aa0dd80ed182/sensors_connectivity-1.5.1.tar.gz
+[2023-07-03 14:58:00] INFO root fetch - processPackages [oarepo-model-builder]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-model-builder-4.0.8.tar.gz]
+[2023-07-03 14:58:00] INFO root fetch - processPackages [oarepo-model-builder]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-model-builder-4.0.9.tar.gz]
+[2023-07-03 14:58:00] INFO root fetch - processPackages [oarepo-model-builder]: Start processing: absl-extra
+[2023-07-03 14:58:00] INFO root fetch - main [MainThread]: End processing [oarepo-model-builder]: success
+[2023-07-03 14:58:00] INFO root fetch - processPackages [absl-extra]: New version: [0.0.2.dev9] Old Version: [0.0.2.dev8]
+[2023-07-03 14:58:00] INFO root fetch - processPackages [sensors-connectivity]: executing diffoscope
+[2023-07-03 14:58:00] INFO root fetch - processPackages [sensors-connectivity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sensors_connectivity-1.5.0.tar.gz tmp/sensors_connectivity-1.5.1.tar.gz --markdown 20230703/s/sensors-connectivity/1.5.0-1.5.1/diff.md --exclude *.pyd
+[2023-07-03 14:58:00] INFO root fetch - processPackages [manticore]: Downloading https://files.pythonhosted.org/packages/63/15/1322c381a46f1f0ff7a5e8aea17e765dd60fc3a46058a98b50824371540d/manticore-0.3.8.dev230703.tar.gz
+[2023-07-03 14:58:00] INFO root fetch - processPackages [swh.loader.git]: Downloading https://files.pythonhosted.org/packages/a8/77/b175b787b5c9fff260991bda9d19d8ed24ac417a9822195a4ed137f2aaae/swh.loader.git-2.5.1.tar.gz
+[2023-07-03 14:58:00] INFO root fetch - processPackages [signposting]: Downloading https://files.pythonhosted.org/packages/0e/62/6b2eb15c057312f57537bb4166c4905f725813dddeefe0dbdd87404e93fe/signposting-0.9.2.tar.gz
+[2023-07-03 14:58:00] INFO root fetch - processPackages [cascade-config]: Downloading https://files.pythonhosted.org/packages/02/e6/c1105f103fc074ddf80813f9ed9ed00e7208db8c454697e1ad7fb556300c/cascade_config-0.3.1.tar.gz
+[2023-07-03 14:58:00] INFO root fetch - processPackages [signposting]: executing diffoscope
+[2023-07-03 14:58:00] INFO root fetch - processPackages [signposting]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/signposting-0.9.1.tar.gz tmp/signposting-0.9.2.tar.gz --markdown 20230703/s/signposting/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-07-03 14:58:00] INFO root fetch - processPackages [cascade-config]: executing diffoscope
+[2023-07-03 14:58:00] INFO root fetch - processPackages [cascade-config]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cascade-config-0.3.0.tar.gz tmp/cascade_config-0.3.1.tar.gz --markdown 20230703/c/cascade-config/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-07-03 14:58:00] INFO root fetch - processPackages [manticore]: executing diffoscope
+[2023-07-03 14:58:00] INFO root fetch - processPackages [manticore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/manticore-0.3.8.dev230702.tar.gz tmp/manticore-0.3.8.dev230703.tar.gz --markdown 20230703/m/manticore/0.3.8.dev230702-0.3.8.dev230703/diff.md --exclude *.pyd
+[2023-07-03 14:58:00] INFO root fetch - processPackages [absl-extra]: Downloading https://files.pythonhosted.org/packages/29/92/688b446e3822b3be1951317596cd759c0087642922cd952a1d9bf930d1cd/absl_extra-0.0.2.dev8.tar.gz
+[2023-07-03 14:58:00] INFO root fetch - processPackages [kedro]: Remove: archive file [/home/abi/fetcher/tmp/kedro-0.18.8.tar.gz]
+[2023-07-03 14:58:00] INFO root fetch - processPackages [kedro]: Remove: archive file [/home/abi/fetcher/tmp/kedro-0.18.9.tar.gz]
+[2023-07-03 14:58:00] INFO root fetch - processPackages [kedro]: Start processing: mltlk
+[2023-07-03 14:58:00] INFO root fetch - main [MainThread]: End processing [kedro]: success
+[2023-07-03 14:58:00] INFO root fetch - processPackages [swh.loader.git]: Downloading https://files.pythonhosted.org/packages/b1/a9/07be63e8c2ce4ebbcece13db258cc17c2d7ef4069a9b6da68aec23b3dec3/swh.loader.git-2.5.2.tar.gz
+[2023-07-03 14:58:00] INFO root fetch - processPackages [mltlk]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-07-03 14:58:00] INFO root fetch - processPackages [absl-extra]: Downloading https://files.pythonhosted.org/packages/f7/ad/385040ffc5d1a6c7ce24b748fe7932e7fc6f931c5a98bbd7a4f9c8acacfd/absl_extra-0.0.2.dev9.tar.gz
+[2023-07-03 14:58:00] INFO root fetch - processPackages [swh.loader.git]: executing diffoscope
+[2023-07-03 14:58:00] INFO root fetch - processPackages [swh.loader.git]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swh.loader.git-2.5.1.tar.gz tmp/swh.loader.git-2.5.2.tar.gz --markdown 20230703/s/swh.loader.git/2.5.1-2.5.2/diff.md --exclude *.pyd
+[2023-07-03 14:58:00] INFO root fetch - processPackages [mltlk]: Downloading https://files.pythonhosted.org/packages/41/6b/4e30b3d3043ecd4dc33de713cc7005c3d42d2bb5ae46e48a5966591589b9/mltlk-0.1.7.tar.gz
+[2023-07-03 14:58:00] INFO root fetch - processPackages [scaleway-async]: Remove: archive file [/home/abi/fetcher/tmp/scaleway_async-0.8.0.tar.gz]
+[2023-07-03 14:58:00] INFO root fetch - processPackages [scaleway-async]: Remove: archive file [/home/abi/fetcher/tmp/scaleway_async-0.9.0.tar.gz]
+[2023-07-03 14:58:00] INFO root fetch - processPackages [scaleway-async]: Start processing: sequencelib
+[2023-07-03 14:58:00] INFO root fetch - main [MainThread]: End processing [scaleway-async]: success
+[2023-07-03 14:58:00] INFO root fetch - processPackages [absl-extra]: executing diffoscope
+[2023-07-03 14:58:01] INFO root fetch - processPackages [absl-extra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/absl_extra-0.0.2.dev8.tar.gz tmp/absl_extra-0.0.2.dev9.tar.gz --markdown 20230703/a/absl-extra/0.0.2.dev8-0.0.2.dev9/diff.md --exclude *.pyd
+[2023-07-03 14:58:01] INFO root fetch - processPackages [sequencelib]: New version: [2.9.0] Old Version: [2.8.3]
+[2023-07-03 14:58:01] INFO root fetch - processPackages [mujoco-dev]: Downloading https://files.pythonhosted.org/packages/4d/c3/2f894a4e7aee1ae37a0627a96e11a686ff9a95929bd1da362bc107072637/mujoco_dev-2.3.6.dev545187656-cp39-cp39-macosx_10_12_x86_64.whl
+[2023-07-03 14:58:01] INFO root fetch - processPackages [mltlk]: Downloading https://files.pythonhosted.org/packages/a3/43/9f4afc1db775be90fa51d830a740d6aa8de155b1838d1c5480c183ce1c56/mltlk-0.1.8.tar.gz
+[2023-07-03 14:58:01] INFO root fetch - processPackages [sequencelib]: Downloading https://files.pythonhosted.org/packages/df/af/aeffb658f34a9d10c424ea196dc62836c82233f84182f628019517b023b0/sequencelib-2.8.3.tar.gz
+[2023-07-03 14:58:01] INFO root fetch - processPackages [mltlk]: executing diffoscope
+[2023-07-03 14:58:01] INFO root fetch - processPackages [mltlk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mltlk-0.1.7.tar.gz tmp/mltlk-0.1.8.tar.gz --markdown 20230703/m/mltlk/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-07-03 14:58:01] INFO root fetch - processPackages [cascade-config]: Remove: archive file [/home/abi/fetcher/tmp/cascade-config-0.3.0.tar.gz]
+[2023-07-03 14:58:01] INFO root fetch - processPackages [cascade-config]: Remove: archive file [/home/abi/fetcher/tmp/cascade_config-0.3.1.tar.gz]
+[2023-07-03 14:58:01] INFO root fetch - processPackages [cascade-config]: Start processing: spark-ai-sdk
+[2023-07-03 14:58:01] INFO root fetch - main [MainThread]: End processing [cascade-config]: success
+[2023-07-03 14:58:01] WARNING root fetch - processPackages [spark-ai-sdk]: Skipping, unable to determine old version
+[2023-07-03 14:58:01] INFO root fetch - processPackages [spark-ai-sdk]: Start processing: dvelopdmspy
+[2023-07-03 14:58:01] INFO root fetch - main [MainThread]: End processing [spark-ai-sdk] error
+[2023-07-03 14:58:01] INFO root fetch - processPackages [sensors-connectivity]: Remove: archive file [/home/abi/fetcher/tmp/sensors_connectivity-1.5.0.tar.gz]
+[2023-07-03 14:58:01] INFO root fetch - processPackages [sensors-connectivity]: Remove: archive file [/home/abi/fetcher/tmp/sensors_connectivity-1.5.1.tar.gz]
+[2023-07-03 14:58:01] INFO root fetch - processPackages [sensors-connectivity]: Start processing: wsgi-intercept
+[2023-07-03 14:58:01] INFO root fetch - main [MainThread]: End processing [sensors-connectivity]: success
+[2023-07-03 14:58:01] INFO root fetch - processPackages [dvelopdmspy]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-03 14:58:01] INFO root fetch - processPackages [wsgi-intercept]: New version: [1.9.3] Old Version: [1.9.2]
+[2023-07-03 14:58:01] INFO root fetch - processPackages [signposting]: Remove: archive file [/home/abi/fetcher/tmp/signposting-0.9.1.tar.gz]
+[2023-07-03 14:58:01] INFO root fetch - processPackages [signposting]: Remove: archive file [/home/abi/fetcher/tmp/signposting-0.9.2.tar.gz]
+[2023-07-03 14:58:01] INFO root fetch - processPackages [signposting]: Start processing: tibis
+[2023-07-03 14:58:01] INFO root fetch - main [MainThread]: End processing [signposting]: success
+[2023-07-03 14:58:02] INFO root fetch - processPackages [mujoco-dev]: executing diffoscope
+[2023-07-03 14:58:02] INFO root fetch - processPackages [mujoco-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mujoco_dev-2.3.6.dev543789453-cp39-cp39-macosx_10_12_x86_64.whl.zip tmp/mujoco_dev-2.3.6.dev545187656-cp39-cp39-macosx_10_12_x86_64.whl.zip --markdown 20230703/m/mujoco-dev/2.3.6.dev543789453-2.3.6.dev545187656/diff.md --exclude *.pyd
+[2023-07-03 14:58:02] INFO root fetch - processPackages [tibis]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-03 14:58:02] INFO root fetch - processPackages [tibis]: Downloading https://files.pythonhosted.org/packages/d3/80/a9bbbfec1d9ed44aa3a58897b76079c901912d6abad2cb01d7e99b3e2106/tibis-1.0.8.tar.gz
+[2023-07-03 14:58:02] INFO root fetch - processPackages [dvelopdmspy]: Downloading https://files.pythonhosted.org/packages/ad/03/c873019ee307a2294a3c0073102bf8be48597701591cd8f83d920ccfb168/dvelopdmspy-1.0.0.tar.gz
+[2023-07-03 14:58:02] INFO root fetch - processPackages [wsgi-intercept]: Downloading https://files.pythonhosted.org/packages/8b/a2/2dec56a11e174d3ad6397a01118f6d7eaf3cc0fd3387f1b60d0f9df6ff96/wsgi_intercept-1.9.2.tar.gz
+[2023-07-03 14:58:02] INFO root fetch - processPackages [absl-extra]: Remove: archive file [/home/abi/fetcher/tmp/absl_extra-0.0.2.dev8.tar.gz]
+[2023-07-03 14:58:02] INFO root fetch - processPackages [absl-extra]: Remove: archive file [/home/abi/fetcher/tmp/absl_extra-0.0.2.dev9.tar.gz]
+[2023-07-03 14:58:02] INFO root fetch - processPackages [absl-extra]: Start processing: iamlistening
+[2023-07-03 14:58:02] INFO root fetch - main [MainThread]: End processing [absl-extra]: success
+[2023-07-03 14:58:02] INFO root fetch - processPackages [iamlistening]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-07-03 14:58:02] INFO root fetch - processPackages [sequencelib]: Downloading https://files.pythonhosted.org/packages/75/be/3444e09a307974313d38cd27f3f6ac864823eaa25067f32496ef0a8f44f3/sequencelib-2.9.0.tar.gz
+[2023-07-03 14:58:02] INFO root fetch - processPackages [swh.loader.git]: Remove: archive file [/home/abi/fetcher/tmp/swh.loader.git-2.5.1.tar.gz]
+[2023-07-03 14:58:02] INFO root fetch - processPackages [swh.loader.git]: Remove: archive file [/home/abi/fetcher/tmp/swh.loader.git-2.5.2.tar.gz]
+[2023-07-03 14:58:02] INFO root fetch - processPackages [swh.loader.git]: Start processing: chaostoolkit-terraform
+[2023-07-03 14:58:02] INFO root fetch - main [MainThread]: End processing [swh.loader.git]: success
+[2023-07-03 14:58:02] INFO root fetch - processPackages [manticore]: Remove: archive file [/home/abi/fetcher/tmp/manticore-0.3.8.dev230702.tar.gz]
+[2023-07-03 14:58:02] INFO root fetch - processPackages [manticore]: Remove: archive file [/home/abi/fetcher/tmp/manticore-0.3.8.dev230703.tar.gz]
+[2023-07-03 14:58:02] INFO root fetch - processPackages [manticore]: Start processing: homeassistant-stubs
+[2023-07-03 14:58:02] INFO root fetch - main [MainThread]: End processing [manticore]: success
+[2023-07-03 14:58:02] INFO root fetch - processPackages [chaostoolkit-terraform]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-03 14:58:02] INFO root fetch - processPackages [homeassistant-stubs]: New version: [2023.7.0b4] Old Version: [2023.7.0b3]
+[2023-07-03 14:58:02] INFO root fetch - processPackages [dvelopdmspy]: Downloading https://files.pythonhosted.org/packages/4c/85/7d398c434c5485bbb33d9920475c10a32cdfcdadd2316e1504c70f6d1aa2/dvelopdmspy-1.0.1-py2.py3-none-any.whl
+[2023-07-03 14:58:02] INFO root fetch - processPackages [tibis]: Downloading https://files.pythonhosted.org/packages/2c/2a/3afed2991efd00f66618bfdea24da71085aae28ecf9386d94d9b6877b02e/tibis-1.0.9.tar.gz
+[2023-07-03 14:58:02] INFO root fetch - processPackages [sequencelib]: executing diffoscope
+[2023-07-03 14:58:02] INFO root fetch - processPackages [sequencelib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sequencelib-2.8.3.tar.gz tmp/sequencelib-2.9.0.tar.gz --markdown 20230703/s/sequencelib/2.8.3-2.9.0/diff.md --exclude *.pyd
+[2023-07-03 14:58:02] INFO root fetch - processPackages [iamlistening]: Downloading https://files.pythonhosted.org/packages/6c/15/3ad3b198d123e77f7682844ae48dbb3d77b26f74e1480172fdc279929114/iamlistening-0.2.3.tar.gz
+[2023-07-03 14:58:02] INFO root fetch - processPackages [dvelopdmspy]: executing diffoscope
+[2023-07-03 14:58:02] INFO root fetch - processPackages [dvelopdmspy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dvelopdmspy-1.0.0.tar.gz tmp/dvelopdmspy-1.0.1-py2.py3-none-any.whl.zip --markdown 20230703/d/dvelopdmspy/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-03 14:58:02] INFO root fetch - processPackages [wsgi-intercept]: Downloading https://files.pythonhosted.org/packages/66/c8/836b590bc9e2a4a264b3007ea044d33b2ebd323ec06b141642884024e6bb/wsgi_intercept-1.9.3.tar.gz
+[2023-07-03 14:58:02] INFO root fetch - processPackages [chaostoolkit-terraform]: Downloading https://files.pythonhosted.org/packages/e5/40/0c2d218ee6c40fc645c3b98c1fbea7da46fb19e87687b0e0070a0daeefda/chaostoolkit-terraform-0.0.7.tar.gz
+[2023-07-03 14:58:02] INFO root fetch - processPackages [homeassistant-stubs]: Downloading https://files.pythonhosted.org/packages/be/11/47542f5db93fb74eb934d6acde9b9940dcd35b009f29cf37821523039a49/homeassistant_stubs-2023.7.0b3.tar.gz
+[2023-07-03 14:58:02] INFO root fetch - processPackages [tibis]: executing diffoscope
+[2023-07-03 14:58:02] INFO root fetch - processPackages [tibis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tibis-1.0.8.tar.gz tmp/tibis-1.0.9.tar.gz --markdown 20230703/t/tibis/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-03 14:58:02] INFO root fetch - processPackages [wsgi-intercept]: executing diffoscope
+[2023-07-03 14:58:02] INFO root fetch - processPackages [wsgi-intercept]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wsgi_intercept-1.9.2.tar.gz tmp/wsgi_intercept-1.9.3.tar.gz --markdown 20230703/w/wsgi-intercept/1.9.2-1.9.3/diff.md --exclude *.pyd
+[2023-07-03 14:58:02] INFO root fetch - processPackages [mltlk]: Remove: archive file [/home/abi/fetcher/tmp/mltlk-0.1.7.tar.gz]
+[2023-07-03 14:58:02] INFO root fetch - processPackages [mltlk]: Remove: archive file [/home/abi/fetcher/tmp/mltlk-0.1.8.tar.gz]
+[2023-07-03 14:58:02] INFO root fetch - processPackages [mltlk]: Start processing: esub-epipe
+[2023-07-03 14:58:02] INFO root fetch - main [MainThread]: End processing [mltlk]: success
+[2023-07-03 14:58:02] INFO root fetch - processPackages [iamlistening]: Downloading https://files.pythonhosted.org/packages/a0/46/c188efb40da94ce4a94bf06e386cef4c2822bf29d14bdb313d5f747c2655/iamlistening-0.2.4.tar.gz
+[2023-07-03 14:58:03] INFO root fetch - processPackages [esub-epipe]: New version: [1.9.1] Old Version: [1.6.4]
+[2023-07-03 14:58:03] INFO root fetch - processPackages [chaostoolkit-terraform]: Downloading https://files.pythonhosted.org/packages/70/27/db78d75bbc6d45f40f67f7083b59f7e29ebc1549a933150859e53b23eca8/chaostoolkit-terraform-0.0.8.tar.gz
+[2023-07-03 14:58:03] INFO root fetch - processPackages [homeassistant-stubs]: Downloading https://files.pythonhosted.org/packages/24/6f/5f70f3c172bc178d720d61952ac04347b8950d13950ea397dd8784379a83/homeassistant_stubs-2023.7.0b4.tar.gz
+[2023-07-03 14:58:03] INFO root fetch - processPackages [iamlistening]: executing diffoscope
+[2023-07-03 14:58:03] INFO root fetch - processPackages [iamlistening]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iamlistening-0.2.3.tar.gz tmp/iamlistening-0.2.4.tar.gz --markdown 20230703/i/iamlistening/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-07-03 14:58:03] INFO root fetch - processPackages [chaostoolkit-terraform]: executing diffoscope
+[2023-07-03 14:58:03] INFO root fetch - processPackages [chaostoolkit-terraform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chaostoolkit-terraform-0.0.7.tar.gz tmp/chaostoolkit-terraform-0.0.8.tar.gz --markdown 20230703/c/chaostoolkit-terraform/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-03 14:58:03] INFO root fetch - processPackages [qwak-core]: Remove: archive file [/home/abi/fetcher/tmp/qwak_core-0.0.98.tar.gz]
+[2023-07-03 14:58:03] INFO root fetch - processPackages [qwak-core]: Remove: archive file [/home/abi/fetcher/tmp/qwak_core-0.0.99.tar.gz]
+[2023-07-03 14:58:03] INFO root fetch - processPackages [qwak-core]: Start processing: verovio
+[2023-07-03 14:58:03] INFO root fetch - main [MainThread]: End processing [qwak-core]: success
+[2023-07-03 14:58:03] INFO root fetch - processPackages [esub-epipe]: Downloading https://files.pythonhosted.org/packages/1c/fb/17d003efeea56f9e69eb526093ae71886c23106193a1541d9c1d0bdb7bd9/esub-epipe-1.6.4.tar.gz
+[2023-07-03 14:58:03] INFO root fetch - processPackages [verovio]: New version: [3.9.0] Old Version: [3.8.1]
+[2023-07-03 14:58:03] INFO root fetch - processPackages [homeassistant-stubs]: executing diffoscope
+[2023-07-03 14:58:03] INFO root fetch - processPackages [homeassistant-stubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/homeassistant_stubs-2023.7.0b3.tar.gz tmp/homeassistant_stubs-2023.7.0b4.tar.gz --markdown 20230703/h/homeassistant-stubs/2023.7.0b3-2023.7.0b4/diff.md --exclude *.pyd
+[2023-07-03 14:58:03] INFO root fetch - processPackages [verovio]: Downloading https://files.pythonhosted.org/packages/14/ce/e188f46e4e183b75556c38ab8c5d793a1c34e604e542bc3b0300114c3523/verovio-3.8.1.tar.gz
+[2023-07-03 14:58:03] INFO root fetch - processPackages [esub-epipe]: Downloading https://files.pythonhosted.org/packages/7c/9c/5d595d736545d53411c6c39c79dffa5ad2c6316ac21fb0cd72c707af8c9e/esub-epipe-1.9.1.tar.gz
+[2023-07-03 14:58:03] INFO root fetch - processPackages [esub-epipe]: executing diffoscope
+[2023-07-03 14:58:03] INFO root fetch - processPackages [esub-epipe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/esub-epipe-1.6.4.tar.gz tmp/esub-epipe-1.9.1.tar.gz --markdown 20230703/e/esub-epipe/1.6.4-1.9.1/diff.md --exclude *.pyd
+[2023-07-03 14:58:03] INFO root fetch - processPackages [dvelopdmspy]: Remove: archive file [/home/abi/fetcher/tmp/dvelopdmspy-1.0.0.tar.gz]
+[2023-07-03 14:58:03] INFO root fetch - processPackages [dvelopdmspy]: Remove: archive file [/home/abi/fetcher/tmp/dvelopdmspy-1.0.1-py2.py3-none-any.whl.zip]
+[2023-07-03 14:58:03] INFO root fetch - main [MainThread]: End processing [dvelopdmspy]: success
+[2023-07-03 14:58:03] INFO root fetch - processPackages [sequencelib]: Remove: archive file [/home/abi/fetcher/tmp/sequencelib-2.8.3.tar.gz]
+[2023-07-03 14:58:03] INFO root fetch - processPackages [sequencelib]: Remove: archive file [/home/abi/fetcher/tmp/sequencelib-2.9.0.tar.gz]
+[2023-07-03 14:58:03] INFO root fetch - main [MainThread]: End processing [sequencelib]: success
+[2023-07-03 14:58:04] INFO root fetch - processPackages [wsgi-intercept]: Remove: archive file [/home/abi/fetcher/tmp/wsgi_intercept-1.9.2.tar.gz]
+[2023-07-03 14:58:04] INFO root fetch - processPackages [wsgi-intercept]: Remove: archive file [/home/abi/fetcher/tmp/wsgi_intercept-1.9.3.tar.gz]
+[2023-07-03 14:58:04] INFO root fetch - main [MainThread]: End processing [wsgi-intercept]: success
+[2023-07-03 14:58:04] INFO root fetch - processPackages [verovio]: Downloading https://files.pythonhosted.org/packages/91/9a/9145ce0830cedb28cce6957ae33f1959fbfbf3f5e2111815a8ae5534d011/verovio-3.9.0.tar.gz
+[2023-07-03 14:58:04] INFO root fetch - processPackages [chaostoolkit-terraform]: Remove: archive file [/home/abi/fetcher/tmp/chaostoolkit-terraform-0.0.7.tar.gz]
+[2023-07-03 14:58:04] INFO root fetch - processPackages [chaostoolkit-terraform]: Remove: archive file [/home/abi/fetcher/tmp/chaostoolkit-terraform-0.0.8.tar.gz]
+[2023-07-03 14:58:04] INFO root fetch - main [MainThread]: End processing [chaostoolkit-terraform]: success
+[2023-07-03 14:58:04] INFO root fetch - processPackages [tibis]: Remove: archive file [/home/abi/fetcher/tmp/tibis-1.0.8.tar.gz]
+[2023-07-03 14:58:04] INFO root fetch - processPackages [tibis]: Remove: archive file [/home/abi/fetcher/tmp/tibis-1.0.9.tar.gz]
+[2023-07-03 14:58:04] INFO root fetch - main [MainThread]: End processing [tibis]: success
+[2023-07-03 14:58:04] INFO root fetch - processPackages [iamlistening]: Remove: archive file [/home/abi/fetcher/tmp/iamlistening-0.2.3.tar.gz]
+[2023-07-03 14:58:04] INFO root fetch - processPackages [iamlistening]: Remove: archive file [/home/abi/fetcher/tmp/iamlistening-0.2.4.tar.gz]
+[2023-07-03 14:58:04] INFO root fetch - main [MainThread]: End processing [iamlistening]: success
+[2023-07-03 14:58:04] INFO root fetch - processPackages [esub-epipe]: Remove: archive file [/home/abi/fetcher/tmp/esub-epipe-1.6.4.tar.gz]
+[2023-07-03 14:58:04] INFO root fetch - processPackages [esub-epipe]: Remove: archive file [/home/abi/fetcher/tmp/esub-epipe-1.9.1.tar.gz]
+[2023-07-03 14:58:04] INFO root fetch - main [MainThread]: End processing [esub-epipe]: success
+[2023-07-03 14:58:05] INFO root fetch - processPackages [verovio]: executing diffoscope
+[2023-07-03 14:58:05] INFO root fetch - processPackages [verovio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/verovio-3.8.1.tar.gz tmp/verovio-3.9.0.tar.gz --markdown 20230703/v/verovio/3.8.1-3.9.0/diff.md --exclude *.pyd
+[2023-07-03 14:58:06] INFO root fetch - processPackages [mujoco-dev]: Remove: archive file [/home/abi/fetcher/tmp/mujoco_dev-2.3.6.dev543789453-cp39-cp39-macosx_10_12_x86_64.whl.zip]
+[2023-07-03 14:58:06] INFO root fetch - processPackages [mujoco-dev]: Remove: archive file [/home/abi/fetcher/tmp/mujoco_dev-2.3.6.dev545187656-cp39-cp39-macosx_10_12_x86_64.whl.zip]
+[2023-07-03 14:58:06] INFO root fetch - main [MainThread]: End processing [mujoco-dev]: success
+[2023-07-03 14:58:20] INFO root fetch - processPackages [homeassistant-stubs]: Remove: archive file [/home/abi/fetcher/tmp/homeassistant_stubs-2023.7.0b3.tar.gz]
+[2023-07-03 14:58:20] INFO root fetch - processPackages [homeassistant-stubs]: Remove: archive file [/home/abi/fetcher/tmp/homeassistant_stubs-2023.7.0b4.tar.gz]
+[2023-07-03 14:58:20] INFO root fetch - main [MainThread]: End processing [homeassistant-stubs]: success
+[2023-07-03 14:58:24] INFO root fetch - processPackages [verovio]: Remove: archive file [/home/abi/fetcher/tmp/verovio-3.8.1.tar.gz]
+[2023-07-03 14:58:24] INFO root fetch - processPackages [verovio]: Remove: archive file [/home/abi/fetcher/tmp/verovio-3.9.0.tar.gz]
+[2023-07-03 14:58:24] INFO root fetch - main [MainThread]: End processing [verovio]: success
+[2023-07-03 14:58:24] INFO root fetch - main [MainThread]: Store serial: [18739298]
