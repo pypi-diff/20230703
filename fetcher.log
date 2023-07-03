@@ -5816,3 +5816,42 @@
 [2023-07-03 04:47:29] INFO root fetch - processPackages [naif-eop-high-prec]: Remove: archive file [/home/abi/fetcher/tmp/naif_eop_high_prec-2023.7.2.tar.gz]
 [2023-07-03 04:47:29] INFO root fetch - main [MainThread]: End processing [naif-eop-high-prec]: success
 [2023-07-03 04:47:29] INFO root fetch - main [MainThread]: Store serial: [18734162]
+[2023-07-03 04:52:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18734162]
+[2023-07-03 04:52:43] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-03 04:52:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nats-py-worker
+[2023-07-03 04:52:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pepperize.cdk-autoscaling-gitlab-runner
+[2023-07-03 04:52:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mecord-cli
+[2023-07-03 04:52:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tensorqtl
+[2023-07-03 04:52:43] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: New version: [0.2.99] Old Version: [0.2.98]
+[2023-07-03 04:52:43] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/20/7a/1cf95cd827a5bc2353d4a04fac9ad2282341306d1871323109bc1fcdc1bf/pepperize.cdk-autoscaling-gitlab-runner-0.2.98.tar.gz
+[2023-07-03 04:52:43] INFO root fetch - processPackages [tensorqtl]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-07-03 04:52:43] INFO root fetch - processPackages [nats-py-worker]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-03 04:52:43] INFO root fetch - processPackages [mecord-cli]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-03 04:52:43] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/a1/02/a44f26db0508904ac5d6e70c575bf20e4f99ab1df68dad57967a57b3a117/pepperize.cdk-autoscaling-gitlab-runner-0.2.99.tar.gz
+[2023-07-03 04:52:43] INFO root fetch - processPackages [tensorqtl]: Downloading https://files.pythonhosted.org/packages/ae/b8/f5b00e292035b60234bbb441a989fa3098cce4dd9829df2c38f9bdc66917/tensorqtl-1.0.7.tar.gz
+[2023-07-03 04:52:43] INFO root fetch - processPackages [mecord-cli]: Downloading https://files.pythonhosted.org/packages/99/07/defecf133b4a0c137e7272f092b0a7e4b36005e5d2e5b2e4f22949323973/mecord-cli-0.1.8.tar.gz
+[2023-07-03 04:52:43] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: executing diffoscope
+[2023-07-03 04:52:43] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-autoscaling-gitlab-runner-0.2.98.tar.gz tmp/pepperize.cdk-autoscaling-gitlab-runner-0.2.99.tar.gz --markdown 20230703/p/pepperize.cdk-autoscaling-gitlab-runner/0.2.98-0.2.99/diff.md --exclude *.pyd
+[2023-07-03 04:52:43] INFO root fetch - processPackages [nats-py-worker]: Downloading https://files.pythonhosted.org/packages/b9/4c/375a46f0e8a2a67ebb9368fe0c0af9bf0b10ea4580c0e94eca32d81506f2/nats-py-worker-0.0.2.tar.gz
+[2023-07-03 04:52:44] INFO root fetch - processPackages [nats-py-worker]: Downloading https://files.pythonhosted.org/packages/81/5b/d21f27eb4e926f11a1f112ddb01c77ce01bd04f07cba06531015bc664fae/nats-py-worker-0.0.3.tar.gz
+[2023-07-03 04:52:44] INFO root fetch - processPackages [tensorqtl]: Downloading https://files.pythonhosted.org/packages/2f/3b/b8682d50ddfa89a3664f216cee892dc4b35c65a6c6c0e8f6bd145f72a579/tensorqtl-1.0.8.tar.gz
+[2023-07-03 04:52:44] INFO root fetch - processPackages [mecord-cli]: Downloading https://files.pythonhosted.org/packages/2b/9f/dbf00e6cfb2e166744734b7095dec6d81a7ee7213a1ef56c5c29e85783a1/mecord-cli-0.1.9.tar.gz
+[2023-07-03 04:52:44] INFO root fetch - processPackages [nats-py-worker]: executing diffoscope
+[2023-07-03 04:52:44] INFO root fetch - processPackages [nats-py-worker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nats-py-worker-0.0.2.tar.gz tmp/nats-py-worker-0.0.3.tar.gz --markdown 20230703/n/nats-py-worker/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-03 04:52:44] INFO root fetch - processPackages [mecord-cli]: executing diffoscope
+[2023-07-03 04:52:44] INFO root fetch - processPackages [mecord-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mecord-cli-0.1.8.tar.gz tmp/mecord-cli-0.1.9.tar.gz --markdown 20230703/m/mecord-cli/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-03 04:52:44] INFO root fetch - processPackages [tensorqtl]: executing diffoscope
+[2023-07-03 04:52:44] INFO root fetch - processPackages [tensorqtl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensorqtl-1.0.7.tar.gz tmp/tensorqtl-1.0.8.tar.gz --markdown 20230703/t/tensorqtl/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-07-03 04:52:44] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-autoscaling-gitlab-runner-0.2.98.tar.gz]
+[2023-07-03 04:52:44] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-autoscaling-gitlab-runner-0.2.99.tar.gz]
+[2023-07-03 04:52:44] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-autoscaling-gitlab-runner]: success
+[2023-07-03 04:52:45] INFO root fetch - processPackages [mecord-cli]: Remove: archive file [/home/abi/fetcher/tmp/mecord-cli-0.1.8.tar.gz]
+[2023-07-03 04:52:45] INFO root fetch - processPackages [mecord-cli]: Remove: archive file [/home/abi/fetcher/tmp/mecord-cli-0.1.9.tar.gz]
+[2023-07-03 04:52:45] INFO root fetch - main [MainThread]: End processing [mecord-cli]: success
+[2023-07-03 04:52:45] INFO root fetch - processPackages [tensorqtl]: Remove: archive file [/home/abi/fetcher/tmp/tensorqtl-1.0.7.tar.gz]
+[2023-07-03 04:52:45] INFO root fetch - processPackages [tensorqtl]: Remove: archive file [/home/abi/fetcher/tmp/tensorqtl-1.0.8.tar.gz]
+[2023-07-03 04:52:45] INFO root fetch - main [MainThread]: End processing [tensorqtl]: success
+[2023-07-03 04:53:38] INFO root fetch - processPackages [nats-py-worker]: Remove: archive file [/home/abi/fetcher/tmp/nats-py-worker-0.0.2.tar.gz]
+[2023-07-03 04:53:38] INFO root fetch - processPackages [nats-py-worker]: Remove: archive file [/home/abi/fetcher/tmp/nats-py-worker-0.0.3.tar.gz]
+[2023-07-03 04:53:38] INFO root fetch - main [MainThread]: End processing [nats-py-worker]: success
+[2023-07-03 04:53:38] INFO root fetch - main [MainThread]: Store serial: [18734177]
