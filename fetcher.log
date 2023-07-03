@@ -7237,3 +7237,49 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-03 06:53:12] INFO root fetch - processPackages [gravitorch]: Remove: archive file [/home/abi/fetcher/tmp/gravitorch-0.0.9.tar.gz]
 [2023-07-03 06:53:12] INFO root fetch - main [MainThread]: End processing [gravitorch]: success
 [2023-07-03 06:53:12] INFO root fetch - main [MainThread]: Store serial: [18734719]
+[2023-07-03 06:58:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18734719]
+[2023-07-03 06:58:22] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-03 06:58:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bo4e
+[2023-07-03 06:58:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aitomatic
+[2023-07-03 06:58:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cherab-phix
+[2023-07-03 06:58:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: certora-cli-alpha-master
+[2023-07-03 06:58:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: jijzept
+[2023-07-03 06:58:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: newenvreader
+[2023-07-03 06:58:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: excel-splitter
+[2023-07-03 06:58:22] INFO root fetch - processPackages [bo4e]: New version: [0.4.8] Old Version: [0.4.7]
+[2023-07-03 06:58:22] INFO root fetch - processPackages [cherab-phix]: New version: [1.0.0] Old Version: [0.2.2]
+[2023-07-03 06:58:22] INFO root fetch - processPackages [aitomatic]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-07-03 06:58:22] WARNING root fetch - processPackages [excel-splitter]: Skipping, unable to determine old version
+[2023-07-03 06:58:22] INFO root fetch - main [MainThread]: End processing [excel-splitter] error
+[2023-07-03 06:58:22] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20230703.4.54.777518] Old Version: [20230702.15.55.43584]
+[2023-07-03 06:58:22] WARNING root fetch - processPackages [newenvreader]: Skipping, unable to determine old version
+[2023-07-03 06:58:22] INFO root fetch - main [MainThread]: End processing [newenvreader] error
+[2023-07-03 06:58:22] INFO root fetch - processPackages [jijzept]: New version: [1.9.2] Old Version: [1.9.1]
+[2023-07-03 06:58:22] INFO root fetch - processPackages [bo4e]: Downloading https://files.pythonhosted.org/packages/dc/2b/97ba4e6c17cf2ba4a6ab087ae23d1cc7c606d71f817592eafa251251c4e9/bo4e-0.4.7.tar.gz
+[2023-07-03 06:58:22] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/89/49/3d054008e39cf8481a1b8cea70545770016b6cd2e55557b138c3f8d1f65f/certora-cli-alpha-master-20230702.15.55.43584.tar.gz
+[2023-07-03 06:58:22] INFO root fetch - processPackages [aitomatic]: Downloading https://files.pythonhosted.org/packages/50/64/07f490b899ae72ddb2eedf9af8d742eb8b336fe56d1dfa9b45355acb6da7/aitomatic-1.2.8.tar.gz
+[2023-07-03 06:58:22] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 40611093>=10485760
+[2023-07-03 06:58:22] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2023-07-03 06:58:23] INFO root fetch - processPackages [jijzept]: Downloading https://files.pythonhosted.org/packages/72/fb/9a52fe090892437248f15fb11b3c8ee874329278b8f5ee8d6169e88dc0a6/jijzept-1.9.1-cp39-cp39-win_amd64.whl
+[2023-07-03 06:58:23] INFO root fetch - processPackages [cherab-phix]: Downloading https://files.pythonhosted.org/packages/2c/cc/61773242ac4db4a50791bac2c17a72e65050865d8b3ec661ef1690d50ece/cherab-phix-0.2.2.tar.gz
+[2023-07-03 06:58:23] INFO root fetch - processPackages [aitomatic]: Downloading https://files.pythonhosted.org/packages/8a/cc/390008ced44be18f3de07fcfcb2e70f9e8c1458042419c843d7ce09a4040/aitomatic-1.2.9.tar.gz
+[2023-07-03 06:58:23] WARNING root fetch - processPackages [cherab-phix]: Skipping package: exceeds size limit 70325972>=10485760
+[2023-07-03 06:58:23] INFO root fetch - main [MainThread]: End processing [cherab-phix] error
+[2023-07-03 06:58:23] INFO root fetch - processPackages [bo4e]: Downloading https://files.pythonhosted.org/packages/67/ed/0dd5759d17f29d0bbf8068ebde814b14efd15e9801746851e8395f9cce11/bo4e-0.4.8.tar.gz
+[2023-07-03 06:58:23] INFO root fetch - processPackages [aitomatic]: executing diffoscope
+[2023-07-03 06:58:23] INFO root fetch - processPackages [aitomatic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aitomatic-1.2.8.tar.gz tmp/aitomatic-1.2.9.tar.gz --markdown 20230703/a/aitomatic/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-07-03 06:58:23] INFO root fetch - processPackages [bo4e]: executing diffoscope
+[2023-07-03 06:58:23] INFO root fetch - processPackages [bo4e]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bo4e-0.4.7.tar.gz tmp/bo4e-0.4.8.tar.gz --markdown 20230703/b/bo4e/0.4.7-0.4.8/diff.md --exclude *.pyd
+[2023-07-03 06:58:24] INFO root fetch - processPackages [jijzept]: Downloading https://files.pythonhosted.org/packages/a1/bc/e2438f5f8452cd4acef7ef12bfa56f583f3dfd05881f00d6bb416d64ba72/jijzept-1.9.2-cp39-cp39-win_amd64.whl
+[2023-07-03 06:58:24] INFO root fetch - processPackages [aitomatic]: Remove: archive file [/home/abi/fetcher/tmp/aitomatic-1.2.8.tar.gz]
+[2023-07-03 06:58:24] INFO root fetch - processPackages [aitomatic]: Remove: archive file [/home/abi/fetcher/tmp/aitomatic-1.2.9.tar.gz]
+[2023-07-03 06:58:24] INFO root fetch - main [MainThread]: End processing [aitomatic]: success
+[2023-07-03 06:58:24] INFO root fetch - processPackages [jijzept]: executing diffoscope
+[2023-07-03 06:58:24] INFO root fetch - processPackages [jijzept]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jijzept-1.9.1-cp39-cp39-win_amd64.whl.zip tmp/jijzept-1.9.2-cp39-cp39-win_amd64.whl.zip --markdown 20230703/j/jijzept/1.9.1-1.9.2/diff.md --exclude *.pyd
+[2023-07-03 06:58:26] INFO root fetch - processPackages [jijzept]: Remove: archive file [/home/abi/fetcher/tmp/jijzept-1.9.1-cp39-cp39-win_amd64.whl.zip]
+[2023-07-03 06:58:26] INFO root fetch - processPackages [jijzept]: Remove: archive file [/home/abi/fetcher/tmp/jijzept-1.9.2-cp39-cp39-win_amd64.whl.zip]
+[2023-07-03 06:58:26] INFO root fetch - main [MainThread]: End processing [jijzept]: success
+[2023-07-03 06:58:30] INFO root fetch - processPackages [bo4e]: Remove: archive file [/home/abi/fetcher/tmp/bo4e-0.4.7.tar.gz]
+[2023-07-03 06:58:30] INFO root fetch - processPackages [bo4e]: Remove: archive file [/home/abi/fetcher/tmp/bo4e-0.4.8.tar.gz]
+[2023-07-03 06:58:30] INFO root fetch - main [MainThread]: End processing [bo4e]: success
+[2023-07-03 06:58:30] INFO root fetch - main [MainThread]: Store serial: [18734771]
