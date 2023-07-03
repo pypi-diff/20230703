@@ -13355,3 +13355,147 @@ AssertionError: tmp/discord-ansi-0.3.tar.gz does not exist
 [2023-07-03 11:55:24] INFO root fetch - processPackages [c2cciutils]: Remove: archive file [/home/abi/fetcher/tmp/c2cciutils-1.6.0.dev99.tar.gz]
 [2023-07-03 11:55:24] INFO root fetch - main [MainThread]: End processing [c2cciutils]: success
 [2023-07-03 11:55:24] INFO root fetch - main [MainThread]: Store serial: [18737253]
+[2023-07-03 12:00:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18737253]
+[2023-07-03 12:00:33] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-07-03 12:00:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nvfuser-cu121
+[2023-07-03 12:00:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: autonomy-dev
+[2023-07-03 12:00:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Geode-Background
+[2023-07-03 12:00:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: django-jquery-datatables
+[2023-07-03 12:00:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: spark-dataframe-tools
+[2023-07-03 12:00:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: rosetta-ce
+[2023-07-03 12:00:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nvfuser-cu118
+[2023-07-03 12:00:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: spark-plotting-tools
+[2023-07-03 12:00:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nvfuser-cu117
+[2023-07-03 12:00:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: salesforce-functions
+[2023-07-03 12:00:33] INFO root fetch - processPackages [nvfuser-cu118]: New version: [0.0.9.dev20230515] Old Version: [0.0.9.dev20230514]
+[2023-07-03 12:00:33] INFO root fetch - processPackages [django-jquery-datatables]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-07-03 12:00:33] WARNING root fetch - processPackages [spark-plotting-tools]: Skipping, unable to determine old version
+[2023-07-03 12:00:33] INFO root fetch - processPackages [spark-plotting-tools]: Start processing: Products.CMFCore
+[2023-07-03 12:00:33] INFO root fetch - main [MainThread]: End processing [spark-plotting-tools] error
+[2023-07-03 12:00:33] INFO root fetch - processPackages [autonomy-dev]: New version: [0.2.2] Old Version: [0.2.0]
+[2023-07-03 12:00:33] INFO root fetch - processPackages [nvfuser-cu121]: New version: [0.0.9.dev20230515] Old Version: [0.0.9.dev20230514]
+[2023-07-03 12:00:33] INFO root fetch - processPackages [Geode-Background]: New version: [7.3.0rc3] Old Version: [7.3.0rc2]
+[2023-07-03 12:00:33] INFO root fetch - processPackages [spark-dataframe-tools]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-07-03 12:00:33] INFO root fetch - processPackages [nvfuser-cu117]: New version: [0.0.9.dev20230515] Old Version: [0.0.9.dev20230514]
+[2023-07-03 12:00:33] INFO root fetch - processPackages [salesforce-functions]: New version: [0.6.0] Old Version: [0.5.1]
+[2023-07-03 12:00:33] INFO root fetch - processPackages [rosetta-ce]: New version: [1.4.8] Old Version: [1.4.7]
+[2023-07-03 12:00:33] INFO root fetch - processPackages [Products.CMFCore]: New version: [3.2] Old Version: [3.1]
+[2023-07-03 12:00:33] INFO root fetch - processPackages [nvfuser-cu118]: Downloading https://files.pythonhosted.org/packages/4b/cd/4c428ce97d9be97932eb85eb49ce89f8833a6daf4081080607d7a4dd07d9/nvfuser_cu118-0.0.9.dev20230514-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-03 12:00:33] INFO root fetch - processPackages [nvfuser-cu117]: Downloading https://files.pythonhosted.org/packages/97/5f/a04da4d60f1816efafaa93531502bc7956df43f23ed210d62d175d8ae006/nvfuser_cu117-0.0.9.dev20230514-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-03 12:00:33] INFO root fetch - processPackages [autonomy-dev]: Downloading https://files.pythonhosted.org/packages/ba/18/c3947dffef956cecc70c81dccb07e715ecabe156b5d80ef901b68ee0f40e/autonomy_dev-0.2.0.tar.gz
+[2023-07-03 12:00:33] INFO root fetch - processPackages [rosetta-ce]: Downloading https://files.pythonhosted.org/packages/ab/5d/a62c5e6fdb2ca170a910b3c0e8ffa1830800b0b3917464953f36d70b5fc7/rosetta-ce-1.4.7.tar.gz
+[2023-07-03 12:00:33] INFO root fetch - processPackages [spark-dataframe-tools]: Downloading https://files.pythonhosted.org/packages/7c/3b/2435ebb6e4a9c189becedb98786f99699ed4ba035ce12c71f4c4034f9acd/spark_dataframe_tools-0.3.0.tar.gz
+[2023-07-03 12:00:33] INFO root fetch - processPackages [nvfuser-cu121]: Downloading https://files.pythonhosted.org/packages/b3/bf/667bd4aad6c776a5e62ad2f63da6dd5bb51f013f1ff3284d04efbf109991/nvfuser_cu121-0.0.9.dev20230514-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-03 12:00:33] INFO root fetch - processPackages [salesforce-functions]: Downloading https://files.pythonhosted.org/packages/cb/69/cad49f582a24229ceeecbde202186c78d8c8f61bab2e1920f99b8bab8d5a/salesforce_functions-0.5.1.tar.gz
+[2023-07-03 12:00:33] INFO root fetch - processPackages [Geode-Background]: Downloading https://files.pythonhosted.org/packages/40/a5/cfe17eef576b09e4e2038ac33d9d6a9c7383a73efc670eb449c7385bf6c5/Geode_Background-7.3.0rc2-cp39-cp39-win_amd64.whl
+[2023-07-03 12:00:33] INFO root fetch - processPackages [django-jquery-datatables]: Downloading https://files.pythonhosted.org/packages/f2/9f/60aaa1740c051fb60d5ed96701b09e341589d9183c0c1fe1d4cbee8d688b/django_jquery_datatables-1.0.3.tar.gz
+[2023-07-03 12:00:33] INFO root fetch - processPackages [Products.CMFCore]: Downloading https://files.pythonhosted.org/packages/a9/3a/95060c33b6678b0b78ea17fa82a19444a6ce053b8bf536a4cfe3ce626c49/Products.CMFCore-3.1.tar.gz
+[2023-07-03 12:00:34] INFO root fetch - processPackages [autonomy-dev]: Downloading https://files.pythonhosted.org/packages/7b/69/8f4772702396db8dda29ae108741a592cc66685c43208c10536b6dda29b8/autonomy_dev-0.2.2.tar.gz
+[2023-07-03 12:00:34] INFO root fetch - processPackages [django-jquery-datatables]: executing diffoscope
+[2023-07-03 12:00:34] INFO root fetch - processPackages [django-jquery-datatables]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_jquery_datatables-1.0.2-py3-none-any.whl.zip tmp/django_jquery_datatables-1.0.3.tar.gz --markdown 20230703/d/django-jquery-datatables/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-07-03 12:00:34] INFO root fetch - processPackages [rosetta-ce]: Downloading https://files.pythonhosted.org/packages/89/72/8d33b4514349c4983353ea0207f672cee594dff5beb7be813a0165a193d8/rosetta-ce-1.4.8.tar.gz
+[2023-07-03 12:00:34] INFO root fetch - processPackages [autonomy-dev]: executing diffoscope
+[2023-07-03 12:00:34] INFO root fetch - processPackages [autonomy-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autonomy_dev-0.2.0.tar.gz tmp/autonomy_dev-0.2.2.tar.gz --markdown 20230703/a/autonomy-dev/0.2.0-0.2.2/diff.md --exclude *.pyd
+[2023-07-03 12:00:34] INFO root fetch - processPackages [spark-dataframe-tools]: Downloading https://files.pythonhosted.org/packages/9e/bb/30e93a913aecec7d13236b58e26659cde2e779c75bec189157c5ddb830cf/spark_dataframe_tools-0.4.0.tar.gz
+[2023-07-03 12:00:34] INFO root fetch - processPackages [nvfuser-cu118]: Downloading https://files.pythonhosted.org/packages/b4/43/b31a00b4452d0b5904b6a1613a4dc7aa7a262ccdc4d4f61614f466008980/nvfuser_cu118-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-03 12:00:34] INFO root fetch - processPackages [salesforce-functions]: Downloading https://files.pythonhosted.org/packages/f6/74/92f8e3b6b76341f6b898207c4ec9d2b269340599b80f3da1f72fe4ec1279/salesforce_functions-0.6.0.tar.gz
+[2023-07-03 12:00:34] INFO root fetch - processPackages [rosetta-ce]: executing diffoscope
+[2023-07-03 12:00:34] INFO root fetch - processPackages [rosetta-ce]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rosetta-ce-1.4.7.tar.gz tmp/rosetta-ce-1.4.8.tar.gz --markdown 20230703/r/rosetta-ce/1.4.7-1.4.8/diff.md --exclude *.pyd
+[2023-07-03 12:00:34] INFO root fetch - processPackages [Products.CMFCore]: Downloading https://files.pythonhosted.org/packages/de/2e/cae0485c685c845f5fada16b6556459738f316bf62ec7fb12ab3615a253e/Products.CMFCore-3.2.tar.gz
+[2023-07-03 12:00:34] INFO root fetch - processPackages [spark-dataframe-tools]: executing diffoscope
+[2023-07-03 12:00:34] INFO root fetch - processPackages [spark-dataframe-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spark_dataframe_tools-0.3.0.tar.gz tmp/spark_dataframe_tools-0.4.0.tar.gz --markdown 20230703/s/spark-dataframe-tools/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-07-03 12:00:34] INFO root fetch - processPackages [salesforce-functions]: executing diffoscope
+[2023-07-03 12:00:34] INFO root fetch - processPackages [salesforce-functions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/salesforce_functions-0.5.1.tar.gz tmp/salesforce_functions-0.6.0.tar.gz --markdown 20230703/s/salesforce-functions/0.5.1-0.6.0/diff.md --exclude *.pyd
+[2023-07-03 12:00:34] INFO root fetch - processPackages [Products.CMFCore]: executing diffoscope
+[2023-07-03 12:00:34] INFO root fetch - processPackages [Products.CMFCore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Products.CMFCore-3.1.tar.gz tmp/Products.CMFCore-3.2.tar.gz --markdown 20230703/P/Products.CMFCore/3.1-3.2/diff.md --exclude *.pyd
+[2023-07-03 12:00:34] INFO root fetch - processPackages [nvfuser-cu121]: Downloading https://files.pythonhosted.org/packages/05/3d/6c84b5f07a9f69349df1b20f64065b4cbd84158521710f47bb31051a8ee9/nvfuser_cu121-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-03 12:00:34] INFO root fetch - processPackages [nvfuser-cu118]: executing diffoscope
+[2023-07-03 12:00:34] INFO root fetch - processPackages [nvfuser-cu118]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvfuser_cu118-0.0.9.dev20230514-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/nvfuser_cu118-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230703/n/nvfuser-cu118/0.0.9.dev20230514-0.0.9.dev20230515/diff.md --exclude *.pyd
+[2023-07-03 12:00:34] INFO root fetch - processPackages [Geode-Background]: Downloading https://files.pythonhosted.org/packages/4c/b4/d828a8b292472d94fc70455ff583caacb388a961089ef10de27bb008bb71/Geode_Background-7.3.0rc3-cp39-cp39-win_amd64.whl
+[2023-07-03 12:00:34] INFO root fetch - processPackages [nvfuser-cu117]: Downloading https://files.pythonhosted.org/packages/74/50/be3d462491ae9f70d80293010b36c2a163fbf4cce3cab00d4fd749c345ce/nvfuser_cu117-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-03 12:00:35] INFO root fetch - processPackages [nvfuser-cu121]: executing diffoscope
+[2023-07-03 12:00:35] INFO root fetch - processPackages [nvfuser-cu121]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvfuser_cu121-0.0.9.dev20230514-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/nvfuser_cu121-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230703/n/nvfuser-cu121/0.0.9.dev20230514-0.0.9.dev20230515/diff.md --exclude *.pyd
+[2023-07-03 12:00:35] INFO root fetch - processPackages [django-jquery-datatables]: Remove: archive file [/home/abi/fetcher/tmp/django_jquery_datatables-1.0.2-py3-none-any.whl.zip]
+[2023-07-03 12:00:35] INFO root fetch - processPackages [django-jquery-datatables]: Remove: archive file [/home/abi/fetcher/tmp/django_jquery_datatables-1.0.3.tar.gz]
+[2023-07-03 12:00:35] INFO root fetch - processPackages [django-jquery-datatables]: Start processing: bytetrade-recommend-model-sdk
+[2023-07-03 12:00:35] INFO root fetch - main [MainThread]: End processing [django-jquery-datatables]: success
+[2023-07-03 12:00:35] INFO root fetch - processPackages [bytetrade-recommend-model-sdk]: New version: [0.0.23] Old Version: [0.0.22]
+[2023-07-03 12:00:35] INFO root fetch - processPackages [bytetrade-recommend-model-sdk]: Downloading https://files.pythonhosted.org/packages/b8/b3/2f84687194766cae8dc22c08593326f8e28ed9477a5af656ffc8873ab6f4/bytetrade-recommend-model-sdk-0.0.22.tar.gz
+[2023-07-03 12:00:35] INFO root fetch - processPackages [autonomy-dev]: Remove: archive file [/home/abi/fetcher/tmp/autonomy_dev-0.2.0.tar.gz]
+[2023-07-03 12:00:35] INFO root fetch - processPackages [autonomy-dev]: Remove: archive file [/home/abi/fetcher/tmp/autonomy_dev-0.2.2.tar.gz]
+[2023-07-03 12:00:35] INFO root fetch - processPackages [autonomy-dev]: Start processing: design.plone.contenttypes
+[2023-07-03 12:00:35] INFO root fetch - main [MainThread]: End processing [autonomy-dev]: success
+[2023-07-03 12:00:35] INFO root fetch - processPackages [design.plone.contenttypes]: New version: [6.0.9] Old Version: [6.0.8]
+[2023-07-03 12:00:35] INFO root fetch - processPackages [rosetta-ce]: Remove: archive file [/home/abi/fetcher/tmp/rosetta-ce-1.4.7.tar.gz]
+[2023-07-03 12:00:35] INFO root fetch - processPackages [rosetta-ce]: Remove: archive file [/home/abi/fetcher/tmp/rosetta-ce-1.4.8.tar.gz]
+[2023-07-03 12:00:35] INFO root fetch - processPackages [rosetta-ce]: Start processing: quarchpy
+[2023-07-03 12:00:35] INFO root fetch - main [MainThread]: End processing [rosetta-ce]: success
+[2023-07-03 12:00:35] INFO root fetch - processPackages [spark-dataframe-tools]: Remove: archive file [/home/abi/fetcher/tmp/spark_dataframe_tools-0.3.0.tar.gz]
+[2023-07-03 12:00:35] INFO root fetch - processPackages [spark-dataframe-tools]: Remove: archive file [/home/abi/fetcher/tmp/spark_dataframe_tools-0.4.0.tar.gz]
+[2023-07-03 12:00:35] INFO root fetch - processPackages [spark-dataframe-tools]: Start processing: wavefront-cli
+[2023-07-03 12:00:35] INFO root fetch - main [MainThread]: End processing [spark-dataframe-tools]: success
+[2023-07-03 12:00:35] INFO root fetch - processPackages [quarchpy]: New version: [2.1.9.dev3] Old Version: [2.1.9.dev2]
+[2023-07-03 12:00:35] INFO root fetch - processPackages [wavefront-cli]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-03 12:00:35] INFO root fetch - processPackages [bytetrade-recommend-model-sdk]: Downloading https://files.pythonhosted.org/packages/a2/ec/f37ddc002103becb19072aa51c4d32318f2bf0f855317210c9d5ece8bbc7/bytetrade-recommend-model-sdk-0.0.23.tar.gz
+[2023-07-03 12:00:35] INFO root fetch - processPackages [design.plone.contenttypes]: Downloading https://files.pythonhosted.org/packages/55/7a/b3d9adf8e72e07ce0dc8b544e82a10bf3f6e2afd264ede3c571ebd362181/design.plone.contenttypes-6.0.8.tar.gz
+[2023-07-03 12:00:35] INFO root fetch - processPackages [salesforce-functions]: Remove: archive file [/home/abi/fetcher/tmp/salesforce_functions-0.5.1.tar.gz]
+[2023-07-03 12:00:35] INFO root fetch - processPackages [salesforce-functions]: Remove: archive file [/home/abi/fetcher/tmp/salesforce_functions-0.6.0.tar.gz]
+[2023-07-03 12:00:35] INFO root fetch - processPackages [salesforce-functions]: Start processing: oranchada
+[2023-07-03 12:00:35] INFO root fetch - main [MainThread]: End processing [salesforce-functions]: success
+[2023-07-03 12:00:35] INFO root fetch - processPackages [Geode-Background]: executing diffoscope
+[2023-07-03 12:00:35] INFO root fetch - processPackages [Geode-Background]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Geode_Background-7.3.0rc2-cp39-cp39-win_amd64.whl.zip tmp/Geode_Background-7.3.0rc3-cp39-cp39-win_amd64.whl.zip --markdown 20230703/G/Geode-Background/7.3.0rc2-7.3.0rc3/diff.md --exclude *.pyd
+[2023-07-03 12:00:35] INFO root fetch - processPackages [bytetrade-recommend-model-sdk]: executing diffoscope
+[2023-07-03 12:00:35] INFO root fetch - processPackages [bytetrade-recommend-model-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bytetrade-recommend-model-sdk-0.0.22.tar.gz tmp/bytetrade-recommend-model-sdk-0.0.23.tar.gz --markdown 20230703/b/bytetrade-recommend-model-sdk/0.0.22-0.0.23/diff.md --exclude *.pyd
+[2023-07-03 12:00:35] INFO root fetch - processPackages [quarchpy]: Downloading https://files.pythonhosted.org/packages/4c/58/57c71932b71449bc466e74bd8478a30bedf723227a6aa33c2934896c2345/quarchpy-2.1.9.dev2-py2.py3-none-any.whl
+[2023-07-03 12:00:35] INFO root fetch - processPackages [oranchada]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-03 12:00:35] WARNING root fetch - processPackages [quarchpy]: Skipping package: exceeds size limit 34469980>=10485760
+[2023-07-03 12:00:35] INFO root fetch - processPackages [quarchpy]: Start processing: funfluid
+[2023-07-03 12:00:35] INFO root fetch - main [MainThread]: End processing [quarchpy] error
+[2023-07-03 12:00:36] INFO root fetch - processPackages [nvfuser-cu117]: executing diffoscope
+[2023-07-03 12:00:36] INFO root fetch - processPackages [nvfuser-cu117]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvfuser_cu117-0.0.9.dev20230514-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/nvfuser_cu117-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230703/n/nvfuser-cu117/0.0.9.dev20230514-0.0.9.dev20230515/diff.md --exclude *.pyd
+[2023-07-03 12:00:36] INFO root fetch - processPackages [funfluid]: New version: [202307031751] Old Version: [202307031750]
+[2023-07-03 12:00:36] INFO root fetch - processPackages [funfluid]: Downloading https://files.pythonhosted.org/packages/40/c5/00b5a7537df58cafa26f81dfe100813f87ec51f8a821785642f7dac7644f/funfluid-202307031750.tar.gz
+[2023-07-03 12:00:36] INFO root fetch - processPackages [wavefront-cli]: Downloading https://files.pythonhosted.org/packages/3f/ff/30cdac8f89b4adfbf8953eee95337bdd2d5a454e71e16b3911079de0fd64/wavefront-cli-0.1.1.tar.gz
+[2023-07-03 12:00:36] INFO root fetch - processPackages [oranchada]: Downloading https://files.pythonhosted.org/packages/27/18/4fe84d02b01d0c842833b28e6b375716365d45cb581826892f9ef1e3d81c/oranchada-0.0.8.tar.gz
+[2023-07-03 12:00:36] INFO root fetch - processPackages [design.plone.contenttypes]: Downloading https://files.pythonhosted.org/packages/88/0d/5fca30d525d2cf06215ccd872cb468309acbca97d9de07e8c9c3228f5bd8/design.plone.contenttypes-6.0.9.tar.gz
+[2023-07-03 12:00:36] INFO root fetch - processPackages [wavefront-cli]: executing diffoscope
+[2023-07-03 12:00:36] INFO root fetch - processPackages [wavefront-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wavefront-cli-0.1.0.tar.gz tmp/wavefront-cli-0.1.1.tar.gz --markdown 20230703/w/wavefront-cli/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-03 12:00:36] INFO root fetch - processPackages [funfluid]: Downloading https://files.pythonhosted.org/packages/3f/6d/0c564f2784e76a98a0752dde6fa147f57ee03c2c488a31ebcdb5e6077055/funfluid-202307031751.tar.gz
+[2023-07-03 12:00:36] INFO root fetch - processPackages [design.plone.contenttypes]: executing diffoscope
+[2023-07-03 12:00:36] INFO root fetch - processPackages [design.plone.contenttypes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/design.plone.contenttypes-6.0.8.tar.gz tmp/design.plone.contenttypes-6.0.9.tar.gz --markdown 20230703/d/design.plone.contenttypes/6.0.8-6.0.9/diff.md --exclude *.pyd
+[2023-07-03 12:00:36] INFO root fetch - processPackages [funfluid]: executing diffoscope
+[2023-07-03 12:00:36] INFO root fetch - processPackages [funfluid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/funfluid-202307031750.tar.gz tmp/funfluid-202307031751.tar.gz --markdown 20230703/f/funfluid/202307031750-202307031751/diff.md --exclude *.pyd
+[2023-07-03 12:00:36] INFO root fetch - processPackages [oranchada]: Downloading https://files.pythonhosted.org/packages/20/48/ecf48549d58b6ec7ae95f09188bbc48eebb298fdbe4fe0a43b82ff3d394a/oranchada-0.0.9.tar.gz
+[2023-07-03 12:00:36] INFO root fetch - processPackages [oranchada]: executing diffoscope
+[2023-07-03 12:00:36] INFO root fetch - processPackages [oranchada]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oranchada-0.0.8.tar.gz tmp/oranchada-0.0.9.tar.gz --markdown 20230703/o/oranchada/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-03 12:00:37] INFO root fetch - processPackages [nvfuser-cu118]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu118-0.0.9.dev20230514-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-03 12:00:37] INFO root fetch - processPackages [nvfuser-cu118]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu118-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-03 12:00:37] INFO root fetch - main [MainThread]: End processing [nvfuser-cu118]: success
+[2023-07-03 12:00:37] INFO root fetch - processPackages [bytetrade-recommend-model-sdk]: Remove: archive file [/home/abi/fetcher/tmp/bytetrade-recommend-model-sdk-0.0.22.tar.gz]
+[2023-07-03 12:00:37] INFO root fetch - processPackages [bytetrade-recommend-model-sdk]: Remove: archive file [/home/abi/fetcher/tmp/bytetrade-recommend-model-sdk-0.0.23.tar.gz]
+[2023-07-03 12:00:37] INFO root fetch - main [MainThread]: End processing [bytetrade-recommend-model-sdk]: success
+[2023-07-03 12:00:37] INFO root fetch - processPackages [nvfuser-cu121]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu121-0.0.9.dev20230514-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-03 12:00:37] INFO root fetch - processPackages [nvfuser-cu121]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu121-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-03 12:00:37] INFO root fetch - main [MainThread]: End processing [nvfuser-cu121]: success
+[2023-07-03 12:00:37] INFO root fetch - processPackages [Products.CMFCore]: Remove: archive file [/home/abi/fetcher/tmp/Products.CMFCore-3.1.tar.gz]
+[2023-07-03 12:00:37] INFO root fetch - processPackages [Products.CMFCore]: Remove: archive file [/home/abi/fetcher/tmp/Products.CMFCore-3.2.tar.gz]
+[2023-07-03 12:00:37] INFO root fetch - main [MainThread]: End processing [Products.CMFCore]: success
+[2023-07-03 12:00:37] INFO root fetch - processPackages [wavefront-cli]: Remove: archive file [/home/abi/fetcher/tmp/wavefront-cli-0.1.0.tar.gz]
+[2023-07-03 12:00:37] INFO root fetch - processPackages [wavefront-cli]: Remove: archive file [/home/abi/fetcher/tmp/wavefront-cli-0.1.1.tar.gz]
+[2023-07-03 12:00:37] INFO root fetch - main [MainThread]: End processing [wavefront-cli]: success
+[2023-07-03 12:00:37] INFO root fetch - processPackages [funfluid]: Remove: archive file [/home/abi/fetcher/tmp/funfluid-202307031750.tar.gz]
+[2023-07-03 12:00:37] INFO root fetch - processPackages [funfluid]: Remove: archive file [/home/abi/fetcher/tmp/funfluid-202307031751.tar.gz]
+[2023-07-03 12:00:37] INFO root fetch - main [MainThread]: End processing [funfluid]: success
+[2023-07-03 12:00:37] INFO root fetch - processPackages [nvfuser-cu117]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu117-0.0.9.dev20230514-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-03 12:00:37] INFO root fetch - processPackages [nvfuser-cu117]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu117-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-03 12:00:37] INFO root fetch - main [MainThread]: End processing [nvfuser-cu117]: success
+[2023-07-03 12:00:38] INFO root fetch - processPackages [oranchada]: Remove: archive file [/home/abi/fetcher/tmp/oranchada-0.0.8.tar.gz]
+[2023-07-03 12:00:38] INFO root fetch - processPackages [oranchada]: Remove: archive file [/home/abi/fetcher/tmp/oranchada-0.0.9.tar.gz]
+[2023-07-03 12:00:38] INFO root fetch - main [MainThread]: End processing [oranchada]: success
+[2023-07-03 12:00:38] INFO root fetch - processPackages [design.plone.contenttypes]: Remove: archive file [/home/abi/fetcher/tmp/design.plone.contenttypes-6.0.8.tar.gz]
+[2023-07-03 12:00:38] INFO root fetch - processPackages [design.plone.contenttypes]: Remove: archive file [/home/abi/fetcher/tmp/design.plone.contenttypes-6.0.9.tar.gz]
+[2023-07-03 12:00:38] INFO root fetch - main [MainThread]: End processing [design.plone.contenttypes]: success
+[2023-07-03 12:00:49] INFO root fetch - processPackages [Geode-Background]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Background-7.3.0rc2-cp39-cp39-win_amd64.whl.zip]
+[2023-07-03 12:00:49] INFO root fetch - processPackages [Geode-Background]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Background-7.3.0rc3-cp39-cp39-win_amd64.whl.zip]
+[2023-07-03 12:00:49] INFO root fetch - main [MainThread]: End processing [Geode-Background]: success
+[2023-07-03 12:00:49] INFO root fetch - main [MainThread]: Store serial: [18737307]
