@@ -6025,3 +6025,66 @@
 [2023-07-03 05:12:02] INFO root fetch - processPackages [starwhale]: Remove: archive file [/home/abi/fetcher/tmp/starwhale-0.5.2.tar.gz]
 [2023-07-03 05:12:02] INFO root fetch - main [MainThread]: End processing [starwhale]: success
 [2023-07-03 05:12:02] INFO root fetch - main [MainThread]: Store serial: [18734235]
+[2023-07-03 05:17:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18734235]
+[2023-07-03 05:17:11] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-03 05:17:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sanic-security
+[2023-07-03 05:17:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: u-umetrics
+[2023-07-03 05:17:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: asgihandler
+[2023-07-03 05:17:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dank-mids
+[2023-07-03 05:17:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: yapw
+[2023-07-03 05:17:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: antchain-bot
+[2023-07-03 05:17:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: RamseyTheoryRL
+[2023-07-03 05:17:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: jacktest
+[2023-07-03 05:17:11] INFO root fetch - processPackages [u-umetrics]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-03 05:17:11] INFO root fetch - processPackages [yapw]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-03 05:17:11] WARNING root fetch - processPackages [jacktest]: Skipping, unable to determine old version
+[2023-07-03 05:17:11] WARNING root fetch - processPackages [RamseyTheoryRL]: Skipping, unable to determine old version
+[2023-07-03 05:17:11] INFO root fetch - main [MainThread]: End processing [jacktest] error
+[2023-07-03 05:17:11] INFO root fetch - main [MainThread]: End processing [RamseyTheoryRL] error
+[2023-07-03 05:17:11] INFO root fetch - processPackages [sanic-security]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-07-03 05:17:11] INFO root fetch - processPackages [antchain-bot]: New version: [1.8.90] Old Version: [1.8.83]
+[2023-07-03 05:17:11] INFO root fetch - processPackages [asgihandler]: New version: [0.5.4] Old Version: [0.5.3]
+[2023-07-03 05:17:11] INFO root fetch - processPackages [dank-mids]: New version: [4.20.9] Old Version: [4.20.8]
+[2023-07-03 05:17:11] INFO root fetch - processPackages [yapw]: Downloading https://files.pythonhosted.org/packages/c4/5b/81414d0bc4c50122a65f7741b2f85b8cdb6b2a9d634ea2237e758c48b57d/yapw-0.1.0.tar.gz
+[2023-07-03 05:17:12] INFO root fetch - processPackages [dank-mids]: Downloading https://files.pythonhosted.org/packages/dd/d9/a90cdebb46db5a35fe035f493b14d48e210491b568f4927af7919ab2fdbd/dank_mids-4.20.8.tar.gz
+[2023-07-03 05:17:12] INFO root fetch - processPackages [antchain-bot]: Downloading https://files.pythonhosted.org/packages/90/4e/f3edfb3f2d7458191500accfef40667d88f7f41341a51c4d7ac8d2e6949d/antchain_bot-1.8.83.tar.gz
+[2023-07-03 05:17:12] INFO root fetch - processPackages [asgihandler]: Downloading https://files.pythonhosted.org/packages/77/6d/a05d015dfebf85a4bb79942111458941c5418741dd575dd7e3dafd8fe781/asgihandler-0.5.3.tar.gz
+[2023-07-03 05:17:12] INFO root fetch - processPackages [u-umetrics]: Downloading https://files.pythonhosted.org/packages/7b/b5/9332ea62a4580581ed687e2a520f04a039a18f1b4a8e7912a1d3c6fe02da/u-umetrics-1.0.8.tar.gz
+[2023-07-03 05:17:12] INFO root fetch - processPackages [sanic-security]: Downloading https://files.pythonhosted.org/packages/97/8e/010d8c95f266d46ae059b7f411b03fbed45c3d397825f7ef0ffac6082682/sanic-security-1.9.8.tar.gz
+[2023-07-03 05:17:12] INFO root fetch - processPackages [dank-mids]: Downloading https://files.pythonhosted.org/packages/e9/d0/a0c6c8d2d154a0250f47b30968e60098b0d44d3b35571e97a925b9b3984f/dank_mids-4.20.9.tar.gz
+[2023-07-03 05:17:12] INFO root fetch - processPackages [yapw]: Downloading https://files.pythonhosted.org/packages/72/81/bc4f5206a595a6ff4ba6de69e21d17cfb46cb4d520519fcc96d4ea5807c3/yapw-0.1.1.tar.gz
+[2023-07-03 05:17:12] INFO root fetch - processPackages [dank-mids]: executing diffoscope
+[2023-07-03 05:17:12] INFO root fetch - processPackages [dank-mids]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dank_mids-4.20.8.tar.gz tmp/dank_mids-4.20.9.tar.gz --markdown 20230703/d/dank-mids/4.20.8-4.20.9/diff.md --exclude *.pyd
+[2023-07-03 05:17:12] INFO root fetch - processPackages [antchain-bot]: Downloading https://files.pythonhosted.org/packages/1d/20/40b9924f0ee63f9db9223315e4f17db962e3e858d0563b5506a2482b88c7/antchain_bot-1.8.90.tar.gz
+[2023-07-03 05:17:12] INFO root fetch - processPackages [asgihandler]: Downloading https://files.pythonhosted.org/packages/ec/2d/bd59d29287286b7b5ae5f16710ae4ba5d934ef1e6bc45ee115e5d4723864/asgihandler-0.5.4.tar.gz
+[2023-07-03 05:17:12] INFO root fetch - processPackages [u-umetrics]: Downloading https://files.pythonhosted.org/packages/71/cf/18b65239f5a324423de007ec14161d8db6f160f61f2a524407a08b8a1f40/u-umetrics-1.0.9.tar.gz
+[2023-07-03 05:17:12] INFO root fetch - processPackages [yapw]: executing diffoscope
+[2023-07-03 05:17:12] INFO root fetch - processPackages [yapw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yapw-0.1.0.tar.gz tmp/yapw-0.1.1.tar.gz --markdown 20230703/y/yapw/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-03 05:17:12] INFO root fetch - processPackages [antchain-bot]: executing diffoscope
+[2023-07-03 05:17:12] INFO root fetch - processPackages [antchain-bot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/antchain_bot-1.8.83.tar.gz tmp/antchain_bot-1.8.90.tar.gz --markdown 20230703/a/antchain-bot/1.8.83-1.8.90/diff.md --exclude *.pyd
+[2023-07-03 05:17:12] INFO root fetch - processPackages [sanic-security]: Downloading https://files.pythonhosted.org/packages/e6/51/bf5adbbe544913e29a8d4c0897a46e3f89761245b8b6f5e613a08badbc01/sanic-security-1.9.9.tar.gz
+[2023-07-03 05:17:12] INFO root fetch - processPackages [asgihandler]: executing diffoscope
+[2023-07-03 05:17:12] INFO root fetch - processPackages [asgihandler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asgihandler-0.5.3.tar.gz tmp/asgihandler-0.5.4.tar.gz --markdown 20230703/a/asgihandler/0.5.3-0.5.4/diff.md --exclude *.pyd
+[2023-07-03 05:17:12] INFO root fetch - processPackages [u-umetrics]: executing diffoscope
+[2023-07-03 05:17:12] INFO root fetch - processPackages [u-umetrics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/u-umetrics-1.0.8.tar.gz tmp/u-umetrics-1.0.9.tar.gz --markdown 20230703/u/u-umetrics/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-03 05:17:12] INFO root fetch - processPackages [sanic-security]: executing diffoscope
+[2023-07-03 05:17:12] INFO root fetch - processPackages [sanic-security]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sanic-security-1.9.8.tar.gz tmp/sanic-security-1.9.9.tar.gz --markdown 20230703/s/sanic-security/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-07-03 05:17:13] INFO root fetch - processPackages [dank-mids]: Remove: archive file [/home/abi/fetcher/tmp/dank_mids-4.20.8.tar.gz]
+[2023-07-03 05:17:13] INFO root fetch - processPackages [dank-mids]: Remove: archive file [/home/abi/fetcher/tmp/dank_mids-4.20.9.tar.gz]
+[2023-07-03 05:17:13] INFO root fetch - main [MainThread]: End processing [dank-mids]: success
+[2023-07-03 05:17:13] INFO root fetch - processPackages [yapw]: Remove: archive file [/home/abi/fetcher/tmp/yapw-0.1.0.tar.gz]
+[2023-07-03 05:17:13] INFO root fetch - processPackages [yapw]: Remove: archive file [/home/abi/fetcher/tmp/yapw-0.1.1.tar.gz]
+[2023-07-03 05:17:13] INFO root fetch - main [MainThread]: End processing [yapw]: success
+[2023-07-03 05:17:13] INFO root fetch - processPackages [u-umetrics]: Remove: archive file [/home/abi/fetcher/tmp/u-umetrics-1.0.8.tar.gz]
+[2023-07-03 05:17:13] INFO root fetch - processPackages [u-umetrics]: Remove: archive file [/home/abi/fetcher/tmp/u-umetrics-1.0.9.tar.gz]
+[2023-07-03 05:17:13] INFO root fetch - main [MainThread]: End processing [u-umetrics]: success
+[2023-07-03 05:17:13] INFO root fetch - processPackages [asgihandler]: Remove: archive file [/home/abi/fetcher/tmp/asgihandler-0.5.3.tar.gz]
+[2023-07-03 05:17:13] INFO root fetch - processPackages [asgihandler]: Remove: archive file [/home/abi/fetcher/tmp/asgihandler-0.5.4.tar.gz]
+[2023-07-03 05:17:13] INFO root fetch - main [MainThread]: End processing [asgihandler]: success
+[2023-07-03 05:17:13] INFO root fetch - processPackages [sanic-security]: Remove: archive file [/home/abi/fetcher/tmp/sanic-security-1.9.8.tar.gz]
+[2023-07-03 05:17:13] INFO root fetch - processPackages [sanic-security]: Remove: archive file [/home/abi/fetcher/tmp/sanic-security-1.9.9.tar.gz]
+[2023-07-03 05:17:13] INFO root fetch - main [MainThread]: End processing [sanic-security]: success
+[2023-07-03 05:17:14] INFO root fetch - processPackages [antchain-bot]: Remove: archive file [/home/abi/fetcher/tmp/antchain_bot-1.8.83.tar.gz]
+[2023-07-03 05:17:14] INFO root fetch - processPackages [antchain-bot]: Remove: archive file [/home/abi/fetcher/tmp/antchain_bot-1.8.90.tar.gz]
+[2023-07-03 05:17:14] INFO root fetch - main [MainThread]: End processing [antchain-bot]: success
+[2023-07-03 05:17:14] INFO root fetch - main [MainThread]: Store serial: [18734265]
