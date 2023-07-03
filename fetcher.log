@@ -7559,3 +7559,27 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-03 07:17:07] INFO root fetch - processPackages [pyhpke]: Remove: archive file [/home/abi/fetcher/tmp/pyhpke-0.4.2.tar.gz]
 [2023-07-03 07:17:07] INFO root fetch - main [MainThread]: End processing [pyhpke]: success
 [2023-07-03 07:17:07] INFO root fetch - main [MainThread]: Store serial: [18734892]
+[2023-07-03 07:22:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18734892]
+[2023-07-03 07:22:16] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-07-03 07:22:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vercel-kv
+[2023-07-03 07:22:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dabbas
+[2023-07-03 07:22:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fast-brainfuck
+[2023-07-03 07:22:16] INFO root fetch - processPackages [dabbas]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-03 07:22:17] INFO root fetch - processPackages [dabbas]: Downloading https://files.pythonhosted.org/packages/1a/8e/e5d0691550cb5578a5df9873401513821d6a43ac761b41988a767afd26fd/dabbas-0.1.8.tar.gz
+[2023-07-03 07:22:17] WARNING root fetch - processPackages [vercel-kv]: Skipping, unable to determine old version
+[2023-07-03 07:22:17] INFO root fetch - main [MainThread]: End processing [vercel-kv] error
+[2023-07-03 07:22:17] INFO root fetch - processPackages [fast-brainfuck]: New version: [3.0.1] Old Version: [3.0.0]
+[2023-07-03 07:22:17] INFO root fetch - processPackages [dabbas]: Downloading https://files.pythonhosted.org/packages/0c/72/c707c0eb0d3b89ec99495ca7bed05f2b9021c58df26a8bbceee846f4da64/dabbas-0.1.9.tar.gz
+[2023-07-03 07:22:17] INFO root fetch - processPackages [dabbas]: executing diffoscope
+[2023-07-03 07:22:17] INFO root fetch - processPackages [dabbas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dabbas-0.1.8.tar.gz tmp/dabbas-0.1.9.tar.gz --markdown 20230703/d/dabbas/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-03 07:22:17] INFO root fetch - processPackages [fast-brainfuck]: Downloading https://files.pythonhosted.org/packages/31/28/d4cceb18acbacdc654b5d886280c4bea1a33fe4929f0a4833f948c3b7d83/fast-brainfuck-3.0.0.tar.gz
+[2023-07-03 07:22:17] INFO root fetch - processPackages [fast-brainfuck]: Downloading https://files.pythonhosted.org/packages/c1/99/9284949e1ead0da83f1561510c81d8823db99e18a1f22c6789893a042e5a/fast-brainfuck-3.0.1.tar.gz
+[2023-07-03 07:22:17] INFO root fetch - processPackages [fast-brainfuck]: executing diffoscope
+[2023-07-03 07:22:17] INFO root fetch - processPackages [fast-brainfuck]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fast-brainfuck-3.0.0.tar.gz tmp/fast-brainfuck-3.0.1.tar.gz --markdown 20230703/f/fast-brainfuck/3.0.0-3.0.1/diff.md --exclude *.pyd
+[2023-07-03 07:22:18] INFO root fetch - processPackages [dabbas]: Remove: archive file [/home/abi/fetcher/tmp/dabbas-0.1.8.tar.gz]
+[2023-07-03 07:22:18] INFO root fetch - processPackages [dabbas]: Remove: archive file [/home/abi/fetcher/tmp/dabbas-0.1.9.tar.gz]
+[2023-07-03 07:22:18] INFO root fetch - main [MainThread]: End processing [dabbas]: success
+[2023-07-03 07:22:18] INFO root fetch - processPackages [fast-brainfuck]: Remove: archive file [/home/abi/fetcher/tmp/fast-brainfuck-3.0.0.tar.gz]
+[2023-07-03 07:22:18] INFO root fetch - processPackages [fast-brainfuck]: Remove: archive file [/home/abi/fetcher/tmp/fast-brainfuck-3.0.1.tar.gz]
+[2023-07-03 07:22:18] INFO root fetch - main [MainThread]: End processing [fast-brainfuck]: success
+[2023-07-03 07:22:18] INFO root fetch - main [MainThread]: Store serial: [18734907]
