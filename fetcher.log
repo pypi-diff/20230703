@@ -12703,3 +12703,147 @@ AssertionError: tmp/discord-ansi-0.3.tar.gz does not exist
 [2023-07-03 11:34:13] INFO root fetch - processPackages [c2cciutils]: Remove: archive file [/home/abi/fetcher/tmp/c2cciutils-1.6.0.dev99.tar.gz]
 [2023-07-03 11:34:13] INFO root fetch - main [MainThread]: End processing [c2cciutils]: success
 [2023-07-03 11:34:13] INFO root fetch - main [MainThread]: Store serial: [18736985]
+[2023-07-03 11:39:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18736985]
+[2023-07-03 11:39:24] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-07-03 11:39:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: linkit
+[2023-07-03 11:39:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gitlint-core
+[2023-07-03 11:39:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gitlint
+[2023-07-03 11:39:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ifiscripts
+[2023-07-03 11:39:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: rosetta-ce
+[2023-07-03 11:39:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hummuspy
+[2023-07-03 11:39:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: oarepo-model-builder
+[2023-07-03 11:39:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: imio.schedule
+[2023-07-03 11:39:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: bili-uas
+[2023-07-03 11:39:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pulp-glue-gem
+[2023-07-03 11:39:25] INFO root fetch - processPackages [rosetta-ce]: New version: [1.4.5] Old Version: [1.4.4]
+[2023-07-03 11:39:25] INFO root fetch - processPackages [ifiscripts]: New version: [2023.7.3.2] Old Version: [2023.7.3.1]
+[2023-07-03 11:39:25] INFO root fetch - processPackages [gitlint-core]: New version: [0.20.0.dev9] Old Version: [0.20.0.dev8]
+[2023-07-03 11:39:25] INFO root fetch - processPackages [imio.schedule]: New version: [1.9.0] Old Version: [1.8]
+[2023-07-03 11:39:25] INFO root fetch - processPackages [bili-uas]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-03 11:39:25] WARNING root fetch - processPackages [pulp-glue-gem]: Skipping, unable to determine old version
+[2023-07-03 11:39:25] INFO root fetch - processPackages [pulp-glue-gem]: Start processing: pulp-cli-gem
+[2023-07-03 11:39:25] INFO root fetch - main [MainThread]: End processing [pulp-glue-gem] error
+[2023-07-03 11:39:25] INFO root fetch - processPackages [gitlint]: New version: [0.9.0] Old Version: [0.8.2]
+[2023-07-03 11:39:25] INFO root fetch - processPackages [hummuspy]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-03 11:39:25] INFO root fetch - processPackages [linkit]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-07-03 11:39:25] INFO root fetch - processPackages [oarepo-model-builder]: New version: [4.0.9] Old Version: [4.0.8]
+[2023-07-03 11:39:25] INFO root fetch - processPackages [rosetta-ce]: Downloading https://files.pythonhosted.org/packages/88/c5/930dc9bfcf347ded260b4e8267cfe8d0bdbb7828e9e67745d30ef5156291/rosetta-ce-1.4.4.tar.gz
+[2023-07-03 11:39:25] WARNING root fetch - processPackages [pulp-cli-gem]: Skipping, unable to determine old version
+[2023-07-03 11:39:25] INFO root fetch - processPackages [pulp-cli-gem]: Start processing: pydantic-loggings
+[2023-07-03 11:39:25] INFO root fetch - main [MainThread]: End processing [pulp-cli-gem] error
+[2023-07-03 11:39:25] INFO root fetch - processPackages [ifiscripts]: Downloading https://files.pythonhosted.org/packages/bf/4d/1ca5b12802f0fe3ce88165a0045a9252ff400f03f62496f998806e1a176e/ifiscripts-2023.7.3.1.tar.gz
+[2023-07-03 11:39:25] INFO root fetch - processPackages [bili-uas]: Downloading https://files.pythonhosted.org/packages/85/62/5236f814d101b8df1610876a77bd12b02953af68df1488087f56717ce620/bili-uas-0.1.1.tar.gz
+[2023-07-03 11:39:25] WARNING root fetch - processPackages [pydantic-loggings]: Skipping, unable to determine old version
+[2023-07-03 11:39:25] INFO root fetch - processPackages [gitlint-core]: Downloading https://files.pythonhosted.org/packages/7a/3f/c11be6426880b469fbe1a3c199b57eee705a7cb7966f301cc09f257733a7/gitlint_core-0.20.0.dev8.tar.gz
+[2023-07-03 11:39:25] INFO root fetch - processPackages [pydantic-loggings]: Start processing: workstation-shell
+[2023-07-03 11:39:25] INFO root fetch - main [MainThread]: End processing [pydantic-loggings] error
+[2023-07-03 11:39:25] INFO root fetch - processPackages [imio.schedule]: Downloading https://files.pythonhosted.org/packages/6c/6a/75ac21e0466994614fb0ebdf52a47140f1708950bce685e881ce454d4543/imio.schedule-1.8.tar.gz
+[2023-07-03 11:39:25] INFO root fetch - processPackages [gitlint]: Downloading https://files.pythonhosted.org/packages/5b/5a/21a35893dc478dbadf89b2b03261ee5585494ba6e801a8f94c9664f78490/gitlint-0.8.2.tar.gz
+[2023-07-03 11:39:25] INFO root fetch - processPackages [linkit]: Downloading https://files.pythonhosted.org/packages/04/18/d6e54dcc2f1e8803aa68b2d7c6dff9bc6e6eb45f4f4a0728a9f1f1f37e58/linkit-0.1.7.tar.gz
+[2023-07-03 11:39:25] INFO root fetch - processPackages [hummuspy]: Downloading https://files.pythonhosted.org/packages/6c/38/cc3cd3dbc914c44f6c121a1d2dc8cc7c16f0eb80a555fbed15b589b98fd9/hummuspy-0.0.8.tar.gz
+[2023-07-03 11:39:25] INFO root fetch - processPackages [workstation-shell]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-03 11:39:25] INFO root fetch - processPackages [oarepo-model-builder]: Downloading https://files.pythonhosted.org/packages/a7/f0/62f6d05442790f0562d20d7e93407d69aeea6c98832d6f8f68b27611715f/oarepo-model-builder-4.0.8.tar.gz
+[2023-07-03 11:39:25] INFO root fetch - processPackages [rosetta-ce]: Downloading https://files.pythonhosted.org/packages/81/a1/8aafdb9a360c04183adaa4bdbd89c6bade70cee3b0111e5cd305929aaabf/rosetta-ce-1.4.5.tar.gz
+[2023-07-03 11:39:25] INFO root fetch - processPackages [bili-uas]: Downloading https://files.pythonhosted.org/packages/f3/f2/df8aa8e619935e835ddc7f3772b0d303af12063612fdea64ea0c44a4bbf1/bili-uas-0.1.2.tar.gz
+[2023-07-03 11:39:25] INFO root fetch - processPackages [ifiscripts]: Downloading https://files.pythonhosted.org/packages/68/fc/2be6656ca51423f0d4b271c80cf2426c53c0b1aae697221ac758ddc2f22c/ifiscripts-2023.7.3.2.tar.gz
+[2023-07-03 11:39:25] INFO root fetch - processPackages [workstation-shell]: Downloading https://files.pythonhosted.org/packages/06/e4/a8b350fa05ae81f5b04fcc9587eccfb5ce18d6f6f021ad6ee15f232d2a23/workstation_shell-0.0.1.tar.gz
+[2023-07-03 11:39:26] INFO root fetch - processPackages [bili-uas]: executing diffoscope
+[2023-07-03 11:39:26] INFO root fetch - processPackages [bili-uas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bili-uas-0.1.1.tar.gz tmp/bili-uas-0.1.2.tar.gz --markdown 20230703/b/bili-uas/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-03 11:39:26] INFO root fetch - processPackages [rosetta-ce]: executing diffoscope
+[2023-07-03 11:39:26] INFO root fetch - processPackages [rosetta-ce]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rosetta-ce-1.4.4.tar.gz tmp/rosetta-ce-1.4.5.tar.gz --markdown 20230703/r/rosetta-ce/1.4.4-1.4.5/diff.md --exclude *.pyd
+[2023-07-03 11:39:26] INFO root fetch - processPackages [imio.schedule]: Downloading https://files.pythonhosted.org/packages/75/cb/f6f264aad218eed04e56364a677802d27f09ef52f4710a5bbb3a0fd469f4/imio.schedule-1.9.0.tar.gz
+[2023-07-03 11:39:26] INFO root fetch - processPackages [gitlint-core]: Downloading https://files.pythonhosted.org/packages/bd/76/20021dcb9ac1f8236b853a783b3b68d9f84ad9527e2fd5c583ef08249923/gitlint_core-0.20.0.dev9.tar.gz
+[2023-07-03 11:39:26] INFO root fetch - processPackages [ifiscripts]: executing diffoscope
+[2023-07-03 11:39:26] INFO root fetch - processPackages [ifiscripts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ifiscripts-2023.7.3.1.tar.gz tmp/ifiscripts-2023.7.3.2.tar.gz --markdown 20230703/i/ifiscripts/2023.7.3.1-2023.7.3.2/diff.md --exclude *.pyd
+[2023-07-03 11:39:26] INFO root fetch - processPackages [linkit]: Downloading https://files.pythonhosted.org/packages/5c/27/6c62a9edc794fd7246e80883fbc9d5d480808f08d314322799cf33f516e6/linkit-0.1.8.tar.gz
+[2023-07-03 11:39:26] INFO root fetch - processPackages [gitlint]: Downloading https://files.pythonhosted.org/packages/d6/f1/3556a8e92846fac5b29b34e3c9c20fb5dcfddbf558227ac15ee4a4e4b06c/gitlint-0.9.0.tar.gz
+[2023-07-03 11:39:26] INFO root fetch - processPackages [oarepo-model-builder]: Downloading https://files.pythonhosted.org/packages/d0/c0/f88cc77e087d52084596bac94c3c439ecf68e7ef6b2b2efa8058d91454f9/oarepo-model-builder-4.0.9.tar.gz
+[2023-07-03 11:39:26] INFO root fetch - processPackages [linkit]: executing diffoscope
+[2023-07-03 11:39:26] INFO root fetch - processPackages [linkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/linkit-0.1.7.tar.gz tmp/linkit-0.1.8.tar.gz --markdown 20230703/l/linkit/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-07-03 11:39:26] INFO root fetch - processPackages [gitlint-core]: executing diffoscope
+[2023-07-03 11:39:26] INFO root fetch - processPackages [gitlint-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gitlint_core-0.20.0.dev8.tar.gz tmp/gitlint_core-0.20.0.dev9.tar.gz --markdown 20230703/g/gitlint-core/0.20.0.dev8-0.20.0.dev9/diff.md --exclude *.pyd
+[2023-07-03 11:39:26] INFO root fetch - processPackages [imio.schedule]: executing diffoscope
+[2023-07-03 11:39:26] INFO root fetch - processPackages [imio.schedule]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imio.schedule-1.8.tar.gz tmp/imio.schedule-1.9.0.tar.gz --markdown 20230703/i/imio.schedule/1.8-1.9.0/diff.md --exclude *.pyd
+[2023-07-03 11:39:26] INFO root fetch - processPackages [workstation-shell]: Downloading https://files.pythonhosted.org/packages/39/99/1c1ead0f62b9a439dfe179f9f3a4a999d4712921123618dab36cf4f041db/workstation_shell-0.0.2.tar.gz
+[2023-07-03 11:39:26] INFO root fetch - processPackages [gitlint]: executing diffoscope
+[2023-07-03 11:39:26] INFO root fetch - processPackages [gitlint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gitlint-0.8.2.tar.gz tmp/gitlint-0.9.0.tar.gz --markdown 20230703/g/gitlint/0.8.2-0.9.0/diff.md --exclude *.pyd
+[2023-07-03 11:39:26] INFO root fetch - processPackages [hummuspy]: Downloading https://files.pythonhosted.org/packages/6d/57/482759401474404ddc4fb988e458704c3095fcbb65a042242874ee732cc6/hummuspy-0.0.9.tar.gz
+[2023-07-03 11:39:26] INFO root fetch - processPackages [oarepo-model-builder]: executing diffoscope
+[2023-07-03 11:39:26] INFO root fetch - processPackages [oarepo-model-builder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oarepo-model-builder-4.0.8.tar.gz tmp/oarepo-model-builder-4.0.9.tar.gz --markdown 20230703/o/oarepo-model-builder/4.0.8-4.0.9/diff.md --exclude *.pyd
+[2023-07-03 11:39:26] INFO root fetch - processPackages [workstation-shell]: executing diffoscope
+[2023-07-03 11:39:26] INFO root fetch - processPackages [workstation-shell]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/workstation_shell-0.0.1.tar.gz tmp/workstation_shell-0.0.2.tar.gz --markdown 20230703/w/workstation-shell/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-03 11:39:26] INFO root fetch - processPackages [hummuspy]: executing diffoscope
+[2023-07-03 11:39:26] INFO root fetch - processPackages [hummuspy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hummuspy-0.0.8.tar.gz tmp/hummuspy-0.0.9.tar.gz --markdown 20230703/h/hummuspy/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-03 11:39:28] INFO root fetch - processPackages [rosetta-ce]: Remove: archive file [/home/abi/fetcher/tmp/rosetta-ce-1.4.4.tar.gz]
+[2023-07-03 11:39:28] INFO root fetch - processPackages [rosetta-ce]: Remove: archive file [/home/abi/fetcher/tmp/rosetta-ce-1.4.5.tar.gz]
+[2023-07-03 11:39:28] INFO root fetch - processPackages [rosetta-ce]: Start processing: rongdavbaaddins
+[2023-07-03 11:39:28] INFO root fetch - main [MainThread]: End processing [rosetta-ce]: success
+[2023-07-03 11:39:28] INFO root fetch - processPackages [rongdavbaaddins]: New version: [0.0.2.3] Old Version: [0.0.2.2]
+[2023-07-03 11:39:28] INFO root fetch - processPackages [bili-uas]: Remove: archive file [/home/abi/fetcher/tmp/bili-uas-0.1.1.tar.gz]
+[2023-07-03 11:39:28] INFO root fetch - processPackages [bili-uas]: Remove: archive file [/home/abi/fetcher/tmp/bili-uas-0.1.2.tar.gz]
+[2023-07-03 11:39:28] INFO root fetch - processPackages [bili-uas]: Start processing: pyRserve
+[2023-07-03 11:39:28] INFO root fetch - main [MainThread]: End processing [bili-uas]: success
+[2023-07-03 11:39:28] INFO root fetch - processPackages [pyRserve]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-03 11:39:28] INFO root fetch - processPackages [rongdavbaaddins]: Downloading https://files.pythonhosted.org/packages/02/c4/08b769b21d9e6c4177578cb8073ab90f8e8f5be2bbb126c99e6a10c74f27/rongdavbaaddins-0.0.2.2.tar.gz
+[2023-07-03 11:39:28] INFO root fetch - processPackages [workstation-shell]: Remove: archive file [/home/abi/fetcher/tmp/workstation_shell-0.0.1.tar.gz]
+[2023-07-03 11:39:28] INFO root fetch - processPackages [workstation-shell]: Remove: archive file [/home/abi/fetcher/tmp/workstation_shell-0.0.2.tar.gz]
+[2023-07-03 11:39:28] INFO root fetch - processPackages [workstation-shell]: Start processing: ddeq
+[2023-07-03 11:39:28] INFO root fetch - main [MainThread]: End processing [workstation-shell]: success
+[2023-07-03 11:39:28] INFO root fetch - processPackages [pyRserve]: Downloading https://files.pythonhosted.org/packages/28/62/40fc7f069a391c7e225374f5b7a9ce3ad0c23376b1bd00df031efb1a79a1/pyRserve-1.0.1.tar.gz
+[2023-07-03 11:39:28] INFO root fetch - processPackages [linkit]: Remove: archive file [/home/abi/fetcher/tmp/linkit-0.1.7.tar.gz]
+[2023-07-03 11:39:28] INFO root fetch - processPackages [ddeq]: New version: [0.2.0] Old Version: [0.1.1]
+[2023-07-03 11:39:28] INFO root fetch - processPackages [linkit]: Remove: archive file [/home/abi/fetcher/tmp/linkit-0.1.8.tar.gz]
+[2023-07-03 11:39:28] INFO root fetch - processPackages [linkit]: Start processing: dms-influx2
+[2023-07-03 11:39:28] INFO root fetch - main [MainThread]: End processing [linkit]: success
+[2023-07-03 11:39:28] INFO root fetch - processPackages [dms-influx2]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-03 11:39:28] INFO root fetch - processPackages [gitlint-core]: Remove: archive file [/home/abi/fetcher/tmp/gitlint_core-0.20.0.dev8.tar.gz]
+[2023-07-03 11:39:28] INFO root fetch - processPackages [gitlint-core]: Remove: archive file [/home/abi/fetcher/tmp/gitlint_core-0.20.0.dev9.tar.gz]
+[2023-07-03 11:39:28] INFO root fetch - processPackages [gitlint-core]: Start processing: perming
+[2023-07-03 11:39:28] INFO root fetch - main [MainThread]: End processing [gitlint-core]: success
+[2023-07-03 11:39:28] INFO root fetch - processPackages [gitlint]: Remove: archive file [/home/abi/fetcher/tmp/gitlint-0.8.2.tar.gz]
+[2023-07-03 11:39:28] INFO root fetch - processPackages [gitlint]: Remove: archive file [/home/abi/fetcher/tmp/gitlint-0.9.0.tar.gz]
+[2023-07-03 11:39:28] INFO root fetch - main [MainThread]: End processing [gitlint]: success
+[2023-07-03 11:39:28] INFO root fetch - processPackages [ddeq]: Downloading https://files.pythonhosted.org/packages/09/f3/eb4218fc25e5521d46c4f1deb383c37cb375aff4adaa0b59e5294a7801bb/ddeq-0.1.1.tar.gz
+[2023-07-03 11:39:28] INFO root fetch - processPackages [ifiscripts]: Remove: archive file [/home/abi/fetcher/tmp/ifiscripts-2023.7.3.1.tar.gz]
+[2023-07-03 11:39:28] INFO root fetch - processPackages [ifiscripts]: Remove: archive file [/home/abi/fetcher/tmp/ifiscripts-2023.7.3.2.tar.gz]
+[2023-07-03 11:39:28] INFO root fetch - main [MainThread]: End processing [ifiscripts]: success
+[2023-07-03 11:39:28] INFO root fetch - processPackages [dms-influx2]: Downloading https://files.pythonhosted.org/packages/99/d4/e62eb9df79024a639338b133b6fe5f7f3c633c8be04549c223610671e3c2/dms-influx2-0.2.8.tar.gz
+[2023-07-03 11:39:28] INFO root fetch - processPackages [pyRserve]: Downloading https://files.pythonhosted.org/packages/71/51/b48fcaa750645788bc935f397b979bab078ed52840bb5c6796e9bb7d62cb/pyRserve-1.0.2.tar.gz
+[2023-07-03 11:39:28] INFO root fetch - processPackages [hummuspy]: Remove: archive file [/home/abi/fetcher/tmp/hummuspy-0.0.8.tar.gz]
+[2023-07-03 11:39:28] INFO root fetch - processPackages [hummuspy]: Remove: archive file [/home/abi/fetcher/tmp/hummuspy-0.0.9.tar.gz]
+[2023-07-03 11:39:28] INFO root fetch - main [MainThread]: End processing [hummuspy]: success
+[2023-07-03 11:39:29] INFO root fetch - processPackages [perming]: New version: [1.3.0] Old Version: [1.2.1]
+[2023-07-03 11:39:29] INFO root fetch - processPackages [pyRserve]: executing diffoscope
+[2023-07-03 11:39:29] INFO root fetch - processPackages [pyRserve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyRserve-1.0.1.tar.gz tmp/pyRserve-1.0.2.tar.gz --markdown 20230703/p/pyRserve/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-03 11:39:29] INFO root fetch - processPackages [rongdavbaaddins]: Downloading https://files.pythonhosted.org/packages/4b/74/22b037806b61f59e1cb3d3fe225b73bba969110b14be24ccb131c8015082/rongdavbaaddins-0.0.2.3.tar.gz
+[2023-07-03 11:39:29] INFO root fetch - processPackages [imio.schedule]: Remove: archive file [/home/abi/fetcher/tmp/imio.schedule-1.8.tar.gz]
+[2023-07-03 11:39:29] INFO root fetch - processPackages [imio.schedule]: Remove: archive file [/home/abi/fetcher/tmp/imio.schedule-1.9.0.tar.gz]
+[2023-07-03 11:39:29] INFO root fetch - main [MainThread]: End processing [imio.schedule]: success
+[2023-07-03 11:39:29] INFO root fetch - processPackages [rongdavbaaddins]: executing diffoscope
+[2023-07-03 11:39:29] INFO root fetch - processPackages [rongdavbaaddins]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rongdavbaaddins-0.0.2.2.tar.gz tmp/rongdavbaaddins-0.0.2.3.tar.gz --markdown 20230703/r/rongdavbaaddins/0.0.2.2-0.0.2.3/diff.md --exclude *.pyd
+[2023-07-03 11:39:29] INFO root fetch - processPackages [perming]: Downloading https://files.pythonhosted.org/packages/ff/99/6ac90aaca4285bafa76b6a65e4a3ae2898881d0647d5f2e0b3581d6ef825/perming-1.2.1-py3-none-any.whl
+[2023-07-03 11:39:29] INFO root fetch - processPackages [dms-influx2]: Downloading https://files.pythonhosted.org/packages/5f/0e/7a9b73a27ae972079077c24d3d1d8e120c73349042dbf7e9cbc483b141b6/dms-influx2-0.2.9.tar.gz
+[2023-07-03 11:39:29] INFO root fetch - processPackages [dms-influx2]: executing diffoscope
+[2023-07-03 11:39:29] INFO root fetch - processPackages [dms-influx2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dms-influx2-0.2.8.tar.gz tmp/dms-influx2-0.2.9.tar.gz --markdown 20230703/d/dms-influx2/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-03 11:39:29] INFO root fetch - processPackages [oarepo-model-builder]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-model-builder-4.0.8.tar.gz]
+[2023-07-03 11:39:29] INFO root fetch - processPackages [oarepo-model-builder]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-model-builder-4.0.9.tar.gz]
+[2023-07-03 11:39:29] INFO root fetch - main [MainThread]: End processing [oarepo-model-builder]: success
+[2023-07-03 11:39:29] INFO root fetch - processPackages [ddeq]: Downloading https://files.pythonhosted.org/packages/91/9e/d5ef609d1cb82107a8a34591edbedf1075f6144ce9dd55181a98f6d4e03b/ddeq-0.2.0.tar.gz
+[2023-07-03 11:39:29] WARNING root fetch - processPackages [ddeq]: Skipping package: exceeds size limit 33175599>=10485760
+[2023-07-03 11:39:29] INFO root fetch - main [MainThread]: End processing [ddeq] error
+[2023-07-03 11:39:29] INFO root fetch - processPackages [perming]: Downloading https://files.pythonhosted.org/packages/cc/88/66947137d25c9220a1e7ecf50523957b852afc5630720e15d5b6bf141762/perming-1.3.0-py3-none-any.whl
+[2023-07-03 11:39:29] INFO root fetch - processPackages [perming]: executing diffoscope
+[2023-07-03 11:39:29] INFO root fetch - processPackages [perming]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/perming-1.2.1-py3-none-any.whl.zip tmp/perming-1.3.0-py3-none-any.whl.zip --markdown 20230703/p/perming/1.2.1-1.3.0/diff.md --exclude *.pyd
+[2023-07-03 11:39:30] INFO root fetch - processPackages [pyRserve]: Remove: archive file [/home/abi/fetcher/tmp/pyRserve-1.0.1.tar.gz]
+[2023-07-03 11:39:30] INFO root fetch - processPackages [pyRserve]: Remove: archive file [/home/abi/fetcher/tmp/pyRserve-1.0.2.tar.gz]
+[2023-07-03 11:39:30] INFO root fetch - main [MainThread]: End processing [pyRserve]: success
+[2023-07-03 11:39:30] INFO root fetch - processPackages [rongdavbaaddins]: Remove: archive file [/home/abi/fetcher/tmp/rongdavbaaddins-0.0.2.2.tar.gz]
+[2023-07-03 11:39:30] INFO root fetch - processPackages [rongdavbaaddins]: Remove: archive file [/home/abi/fetcher/tmp/rongdavbaaddins-0.0.2.3.tar.gz]
+[2023-07-03 11:39:30] INFO root fetch - main [MainThread]: End processing [rongdavbaaddins]: success
+[2023-07-03 11:39:30] INFO root fetch - processPackages [dms-influx2]: Remove: archive file [/home/abi/fetcher/tmp/dms-influx2-0.2.8.tar.gz]
+[2023-07-03 11:39:30] INFO root fetch - processPackages [dms-influx2]: Remove: archive file [/home/abi/fetcher/tmp/dms-influx2-0.2.9.tar.gz]
+[2023-07-03 11:39:30] INFO root fetch - main [MainThread]: End processing [dms-influx2]: success
+[2023-07-03 11:39:30] INFO root fetch - processPackages [perming]: Remove: archive file [/home/abi/fetcher/tmp/perming-1.2.1-py3-none-any.whl.zip]
+[2023-07-03 11:39:30] INFO root fetch - processPackages [perming]: Remove: archive file [/home/abi/fetcher/tmp/perming-1.3.0-py3-none-any.whl.zip]
+[2023-07-03 11:39:30] INFO root fetch - main [MainThread]: End processing [perming]: success
+[2023-07-03 11:39:30] INFO root fetch - main [MainThread]: Store serial: [18737063]
