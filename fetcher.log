@@ -5493,3 +5493,74 @@
 [2023-07-03 04:16:20] INFO root fetch - main [MainThread]: End processing [omnata-plugin-devkit]: success
 [2023-07-03 04:16:20] INFO root fetch - main [MainThread]: End processing [Alpha-Rabbit]: success
 [2023-07-03 04:16:20] INFO root fetch - main [MainThread]: Store serial: [18733882]
+[2023-07-03 04:21:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18733882]
+[2023-07-03 04:21:30] INFO root fetch - main [MainThread]: No changed packages found
+[2023-07-03 04:26:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18733882]
+[2023-07-03 04:26:35] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-03 04:26:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pydantic-core
+[2023-07-03 04:26:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: omnata-plugin-devkit
+[2023-07-03 04:26:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: physfs.py
+[2023-07-03 04:26:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lemmy-nhl
+[2023-07-03 04:26:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: drf-keycloak-auth
+[2023-07-03 04:26:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mysqlx
+[2023-07-03 04:26:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: aitemplates
+[2023-07-03 04:26:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: baysalt-christmas
+[2023-07-03 04:26:35] INFO root fetch - processPackages [omnata-plugin-devkit]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-03 04:26:35] WARNING root fetch - processPackages [physfs.py]: Skipping, unable to determine old version
+[2023-07-03 04:26:35] INFO root fetch - main [MainThread]: End processing [physfs.py] error
+[2023-07-03 04:26:35] INFO root fetch - processPackages [mysqlx]: New version: [1.3.3] Old Version: [1.3.2]
+[2023-07-03 04:26:35] INFO root fetch - processPackages [aitemplates]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-03 04:26:35] INFO root fetch - processPackages [pydantic-core]: New version: [2.0.2] Old Version: [2.0.1]
+[2023-07-03 04:26:35] INFO root fetch - processPackages [omnata-plugin-devkit]: Downloading https://files.pythonhosted.org/packages/a6/03/037aa46c1c15ce197872a42c2494fcfb0dd6fd4c14cebaeaf6f9495b5cbf/omnata_plugin_devkit-0.1.8.tar.gz
+[2023-07-03 04:26:36] INFO root fetch - processPackages [lemmy-nhl]: New version: [1.5.1] Old Version: [1.5.0]
+[2023-07-03 04:26:36] INFO root fetch - processPackages [drf-keycloak-auth]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-07-03 04:26:36] INFO root fetch - processPackages [baysalt-christmas]: New version: [0.1.8.0] Old Version: [0.1.7.9]
+[2023-07-03 04:26:36] INFO root fetch - processPackages [mysqlx]: Downloading https://files.pythonhosted.org/packages/71/0f/9bf8cdb1b8b1b7b8c7fae668cf661fb044f18527a9fb822074281515b7a2/mysqlx-1.3.2.tar.gz
+[2023-07-03 04:26:36] INFO root fetch - processPackages [aitemplates]: Downloading https://files.pythonhosted.org/packages/c9/1f/c3b35e203e73c6562287311527c36798cf058f4542a1cc2012699e54c8f2/aitemplates-0.1.8.tar.gz
+[2023-07-03 04:26:36] INFO root fetch - processPackages [pydantic-core]: Downloading https://files.pythonhosted.org/packages/22/c3/0219aff361b6975724349a1894f0a6ef808d65b268e52a9c8b1efdf8758c/pydantic_core-2.0.1.tar.gz
+[2023-07-03 04:26:36] INFO root fetch - processPackages [omnata-plugin-devkit]: Downloading https://files.pythonhosted.org/packages/94/e1/5b8aa743f4bbe600dde3989489613981c39b2dfcd44174b9931cf0c42452/omnata_plugin_devkit-0.1.9.tar.gz
+[2023-07-03 04:26:36] INFO root fetch - processPackages [aitemplates]: Downloading https://files.pythonhosted.org/packages/31/8d/fec27aa91f72352e256e81460077515d340f93b087b2d5f555a95e17896a/aitemplates-0.1.9.tar.gz
+[2023-07-03 04:26:36] INFO root fetch - processPackages [drf-keycloak-auth]: Downloading https://files.pythonhosted.org/packages/0b/83/87a24708a83659dade9c51b14e95c16b4aa6d7172be05e9feb6063bd7fac/drf_keycloak_auth-0.1.0.tar.gz
+[2023-07-03 04:26:36] INFO root fetch - processPackages [lemmy-nhl]: Downloading https://files.pythonhosted.org/packages/c2/b9/87a36d9ad04462edfd3ef40aac28568f284894f8b46d0cf839f20db1598e/lemmy_nhl-1.5.0.tar.gz
+[2023-07-03 04:26:36] INFO root fetch - processPackages [mysqlx]: Downloading https://files.pythonhosted.org/packages/bf/ed/ac06381719c87ac2af75aec3084af31e0a6e694de1c29f43eb2b5d82b45e/mysqlx-1.3.3.tar.gz
+[2023-07-03 04:26:36] INFO root fetch - processPackages [baysalt-christmas]: Downloading https://files.pythonhosted.org/packages/5c/7f/6b585fb5472c47d9f577904e0c891c23d928cb30e8ae19c173ff8172e645/baysalt_christmas-0.1.7.9.tar.gz
+[2023-07-03 04:26:36] INFO root fetch - processPackages [omnata-plugin-devkit]: executing diffoscope
+[2023-07-03 04:26:36] INFO root fetch - processPackages [omnata-plugin-devkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omnata_plugin_devkit-0.1.8.tar.gz tmp/omnata_plugin_devkit-0.1.9.tar.gz --markdown 20230703/o/omnata-plugin-devkit/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-03 04:26:36] INFO root fetch - processPackages [aitemplates]: executing diffoscope
+[2023-07-03 04:26:36] INFO root fetch - processPackages [aitemplates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aitemplates-0.1.8.tar.gz tmp/aitemplates-0.1.9.tar.gz --markdown 20230703/a/aitemplates/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-03 04:26:36] INFO root fetch - processPackages [mysqlx]: executing diffoscope
+[2023-07-03 04:26:36] INFO root fetch - processPackages [mysqlx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mysqlx-1.3.2.tar.gz tmp/mysqlx-1.3.3.tar.gz --markdown 20230703/m/mysqlx/1.3.2-1.3.3/diff.md --exclude *.pyd
+[2023-07-03 04:26:36] INFO root fetch - processPackages [pydantic-core]: Downloading https://files.pythonhosted.org/packages/bb/c9/a03a85dcfdfac6907b7203f375368460e473f2d48417ad83c88b564995a0/pydantic_core-2.0.2.tar.gz
+[2023-07-03 04:26:36] INFO root fetch - processPackages [drf-keycloak-auth]: Downloading https://files.pythonhosted.org/packages/5b/4b/ca925c6d9b8c4274ba3b52d15c0eee9dd917c9268eb7c4fba82b05d8aae4/drf_keycloak_auth-0.2.0.tar.gz
+[2023-07-03 04:26:36] INFO root fetch - processPackages [baysalt-christmas]: Downloading https://files.pythonhosted.org/packages/d9/98/3bf4e166dc05da1751876f1a8f7b0fbb1200fb049d5b0a6729398c47911f/baysalt_christmas-0.1.8.0.tar.gz
+[2023-07-03 04:26:36] INFO root fetch - processPackages [lemmy-nhl]: Downloading https://files.pythonhosted.org/packages/d0/9b/0a960acbebaab5c5d47d2f82a72a82c709418e8ff1e8a97ef21c8e5aaef5/lemmy_nhl-1.5.1.tar.gz
+[2023-07-03 04:26:36] INFO root fetch - processPackages [drf-keycloak-auth]: executing diffoscope
+[2023-07-03 04:26:36] INFO root fetch - processPackages [drf-keycloak-auth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drf_keycloak_auth-0.1.0.tar.gz tmp/drf_keycloak_auth-0.2.0.tar.gz --markdown 20230703/d/drf-keycloak-auth/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-07-03 04:26:36] INFO root fetch - processPackages [lemmy-nhl]: executing diffoscope
+[2023-07-03 04:26:36] INFO root fetch - processPackages [lemmy-nhl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lemmy_nhl-1.5.0.tar.gz tmp/lemmy_nhl-1.5.1.tar.gz --markdown 20230703/l/lemmy-nhl/1.5.0-1.5.1/diff.md --exclude *.pyd
+[2023-07-03 04:26:36] INFO root fetch - processPackages [baysalt-christmas]: executing diffoscope
+[2023-07-03 04:26:36] INFO root fetch - processPackages [baysalt-christmas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/baysalt_christmas-0.1.7.9.tar.gz tmp/baysalt_christmas-0.1.8.0.tar.gz --markdown 20230703/b/baysalt-christmas/0.1.7.9-0.1.8.0/diff.md --exclude *.pyd
+[2023-07-03 04:26:36] INFO root fetch - processPackages [pydantic-core]: executing diffoscope
+[2023-07-03 04:26:36] INFO root fetch - processPackages [pydantic-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydantic_core-2.0.1.tar.gz tmp/pydantic_core-2.0.2.tar.gz --markdown 20230703/p/pydantic-core/2.0.1-2.0.2/diff.md --exclude *.pyd
+[2023-07-03 04:26:37] INFO root fetch - processPackages [omnata-plugin-devkit]: Remove: archive file [/home/abi/fetcher/tmp/omnata_plugin_devkit-0.1.8.tar.gz]
+[2023-07-03 04:26:37] INFO root fetch - processPackages [omnata-plugin-devkit]: Remove: archive file [/home/abi/fetcher/tmp/omnata_plugin_devkit-0.1.9.tar.gz]
+[2023-07-03 04:26:37] INFO root fetch - main [MainThread]: End processing [omnata-plugin-devkit]: success
+[2023-07-03 04:26:37] INFO root fetch - processPackages [mysqlx]: Remove: archive file [/home/abi/fetcher/tmp/mysqlx-1.3.2.tar.gz]
+[2023-07-03 04:26:37] INFO root fetch - processPackages [mysqlx]: Remove: archive file [/home/abi/fetcher/tmp/mysqlx-1.3.3.tar.gz]
+[2023-07-03 04:26:37] INFO root fetch - main [MainThread]: End processing [mysqlx]: success
+[2023-07-03 04:26:37] INFO root fetch - processPackages [baysalt-christmas]: Remove: archive file [/home/abi/fetcher/tmp/baysalt_christmas-0.1.7.9.tar.gz]
+[2023-07-03 04:26:37] INFO root fetch - processPackages [baysalt-christmas]: Remove: archive file [/home/abi/fetcher/tmp/baysalt_christmas-0.1.8.0.tar.gz]
+[2023-07-03 04:26:37] INFO root fetch - main [MainThread]: End processing [baysalt-christmas]: success
+[2023-07-03 04:26:37] INFO root fetch - processPackages [lemmy-nhl]: Remove: archive file [/home/abi/fetcher/tmp/lemmy_nhl-1.5.0.tar.gz]
+[2023-07-03 04:26:37] INFO root fetch - processPackages [lemmy-nhl]: Remove: archive file [/home/abi/fetcher/tmp/lemmy_nhl-1.5.1.tar.gz]
+[2023-07-03 04:26:37] INFO root fetch - main [MainThread]: End processing [lemmy-nhl]: success
+[2023-07-03 04:26:38] INFO root fetch - processPackages [drf-keycloak-auth]: Remove: archive file [/home/abi/fetcher/tmp/drf_keycloak_auth-0.1.0.tar.gz]
+[2023-07-03 04:26:38] INFO root fetch - processPackages [drf-keycloak-auth]: Remove: archive file [/home/abi/fetcher/tmp/drf_keycloak_auth-0.2.0.tar.gz]
+[2023-07-03 04:26:38] INFO root fetch - main [MainThread]: End processing [drf-keycloak-auth]: success
+[2023-07-03 04:26:38] INFO root fetch - processPackages [aitemplates]: Remove: archive file [/home/abi/fetcher/tmp/aitemplates-0.1.8.tar.gz]
+[2023-07-03 04:26:38] INFO root fetch - processPackages [aitemplates]: Remove: archive file [/home/abi/fetcher/tmp/aitemplates-0.1.9.tar.gz]
+[2023-07-03 04:26:38] INFO root fetch - main [MainThread]: End processing [aitemplates]: success
+[2023-07-03 04:26:39] INFO root fetch - processPackages [pydantic-core]: Remove: archive file [/home/abi/fetcher/tmp/pydantic_core-2.0.1.tar.gz]
+[2023-07-03 04:26:39] INFO root fetch - processPackages [pydantic-core]: Remove: archive file [/home/abi/fetcher/tmp/pydantic_core-2.0.2.tar.gz]
+[2023-07-03 04:26:39] INFO root fetch - main [MainThread]: End processing [pydantic-core]: success
+[2023-07-03 04:26:39] INFO root fetch - main [MainThread]: Store serial: [18734027]
