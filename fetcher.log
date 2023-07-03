@@ -13499,3 +13499,209 @@ AssertionError: tmp/discord-ansi-0.3.tar.gz does not exist
 [2023-07-03 12:00:49] INFO root fetch - processPackages [Geode-Background]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Background-7.3.0rc3-cp39-cp39-win_amd64.whl.zip]
 [2023-07-03 12:00:49] INFO root fetch - main [MainThread]: End processing [Geode-Background]: success
 [2023-07-03 12:00:49] INFO root fetch - main [MainThread]: Store serial: [18737307]
+[2023-07-03 12:05:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18737307]
+[2023-07-03 12:06:02] INFO root fetch - main [MainThread]: Found 24 changed packages
+[2023-07-03 12:06:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: XoxoDay
+[2023-07-03 12:06:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: data-merge
+[2023-07-03 12:06:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: luminesce-sdk-preview
+[2023-07-03 12:06:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: django-mass-migration
+[2023-07-03 12:06:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: xformers
+[2023-07-03 12:06:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: xformers
+[2023-07-03 12:06:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: smarthouse
+[2023-07-03 12:06:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: zhmccli
+[2023-07-03 12:06:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: picogo
+[2023-07-03 12:06:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cs.cmdutils
+[2023-07-03 12:06:02] INFO root fetch - processPackages [XoxoDay]: New version: [0.0.25] Old Version: [0.0.24]
+[2023-07-03 12:06:02] INFO root fetch - processPackages [xformers]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-03 12:06:02] INFO root fetch - processPackages [django-mass-migration]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-07-03 12:06:02] INFO root fetch - processPackages [data-merge]: New version: [0.1.1] Old Version: [0.1]
+[2023-07-03 12:06:02] INFO root fetch - processPackages [xformers]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-03 12:06:02] INFO root fetch - processPackages [picogo]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-03 12:06:03] INFO root fetch - processPackages [luminesce-sdk-preview]: New version: [1.9.92] Old Version: [1.9.88]
+[2023-07-03 12:06:03] INFO root fetch - processPackages [cs.cmdutils]: New version: [20230703] Old Version: [20230612]
+[2023-07-03 12:06:03] INFO root fetch - processPackages [zhmccli]: New version: [1.7.1] Old Version: [1.7.0]
+[2023-07-03 12:06:03] INFO root fetch - processPackages [smarthouse]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-07-03 12:06:03] INFO root fetch - processPackages [luminesce-sdk-preview]: Downloading https://files.pythonhosted.org/packages/d3/7b/a9c3e829fb03ae79379224fe34adb99d80c6dbfc5f00ccc44cf429d34f61/luminesce-sdk-preview-1.9.88.tar.gz
+[2023-07-03 12:06:03] INFO root fetch - processPackages [data-merge]: Downloading https://files.pythonhosted.org/packages/41/1d/581d0832d480e73aea62aa3090af5cd57b4cb1fdfefc2325699d77c5f584/data_merge-0.1.tar.gz
+[2023-07-03 12:06:03] INFO root fetch - processPackages [xformers]: Downloading https://files.pythonhosted.org/packages/81/d6/709a1f765f8ecb6217ecd010e71f23c871a6cacdf837e1186c057eb0372f/xformers-0.0.8.tar.gz
+[2023-07-03 12:06:03] INFO root fetch - processPackages [xformers]: Downloading https://files.pythonhosted.org/packages/81/d6/709a1f765f8ecb6217ecd010e71f23c871a6cacdf837e1186c057eb0372f/xformers-0.0.8.tar.gz
+[2023-07-03 12:06:03] INFO root fetch - processPackages [XoxoDay]: Downloading https://files.pythonhosted.org/packages/96/88/bd198395692d21d93951ff67df197e0eba5c26622f76da518419e9b06474/XoxoDay-0.0.24.tar.gz
+[2023-07-03 12:06:03] INFO root fetch - processPackages [cs.cmdutils]: Downloading https://files.pythonhosted.org/packages/2b/e0/a892f880eeb71c5c9edb5fedc2999272d1b3403e6bea1ce6e2c8da13c999/cs.cmdutils-20230612.tar.gz
+[2023-07-03 12:06:03] INFO root fetch - processPackages [picogo]: Downloading https://files.pythonhosted.org/packages/e0/c6/77373684ea1f516996aac52ca016925d0213e38509750abc53603201b2ca/picogo-0.0.8.tar.gz
+[2023-07-03 12:06:03] INFO root fetch - processPackages [zhmccli]: Downloading https://files.pythonhosted.org/packages/38/6f/a836050f5e4a71ab0ed91b610caed1057718c904a83e54c5b877c670e37d/zhmccli-1.7.0.tar.gz
+[2023-07-03 12:06:03] INFO root fetch - processPackages [smarthouse]: Downloading https://files.pythonhosted.org/packages/a8/4b/21095e6350cd12b0d0ba4748a2d2172706a3f8d58055ad1c4ca8d02f78e6/smarthouse-0.1.4.tar.gz
+[2023-07-03 12:06:03] INFO root fetch - processPackages [django-mass-migration]: Downloading https://files.pythonhosted.org/packages/73/6f/edb5ba05f5cf4d42174729408729222c2b418de22ed2d18db0dafaa7a4d6/django-mass-migration-0.1.4.tar.gz
+[2023-07-03 12:06:03] INFO root fetch - processPackages [luminesce-sdk-preview]: Downloading https://files.pythonhosted.org/packages/b4/a1/29e30342ad6b0ee5f31f57c9ebeee25c12a4805f3f972e1908bf31abd599/luminesce-sdk-preview-1.9.92.tar.gz
+[2023-07-03 12:06:03] INFO root fetch - processPackages [data-merge]: Downloading https://files.pythonhosted.org/packages/44/3e/1e97e96f7ad337cfe32fdcb1244eebfd58109b4c509a125958fd302c057d/data_merge-0.1.1.tar.gz
+[2023-07-03 12:06:03] INFO root fetch - processPackages [django-mass-migration]: executing diffoscope
+[2023-07-03 12:06:03] INFO root fetch - processPackages [django-mass-migration]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-mass-migration-0.1.3.tar.gz tmp/django-mass-migration-0.1.4.tar.gz --markdown 20230703/d/django-mass-migration/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-07-03 12:06:03] INFO root fetch - processPackages [XoxoDay]: Downloading https://files.pythonhosted.org/packages/b2/53/09218e02b16495eff1e5ba85c4db8165926500105e092305e7e66902ab54/XoxoDay-0.0.25.tar.gz
+[2023-07-03 12:06:03] INFO root fetch - processPackages [luminesce-sdk-preview]: executing diffoscope
+[2023-07-03 12:06:03] INFO root fetch - processPackages [luminesce-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/luminesce-sdk-preview-1.9.88.tar.gz tmp/luminesce-sdk-preview-1.9.92.tar.gz --markdown 20230703/l/luminesce-sdk-preview/1.9.88-1.9.92/diff.md --exclude *.pyd
+[2023-07-03 12:06:03] INFO root fetch - processPackages [xformers]: Downloading https://files.pythonhosted.org/packages/8f/c2/9cfed3bb83e46be252b4a2e9a75ebb4c8a0f9df6cbb228b3646048a7d3c4/xformers-0.0.9.tar.gz
+[2023-07-03 12:06:03] INFO root fetch - processPackages [xformers]: Downloading https://files.pythonhosted.org/packages/8f/c2/9cfed3bb83e46be252b4a2e9a75ebb4c8a0f9df6cbb228b3646048a7d3c4/xformers-0.0.9.tar.gz
+[2023-07-03 12:06:03] INFO root fetch - processPackages [picogo]: Downloading https://files.pythonhosted.org/packages/8e/0e/15b62bee1afe22a0f2411879a5c23ffe6e8cdfc8228a677dc7ce8e6bcfef/picogo-0.0.9.tar.gz
+[2023-07-03 12:06:03] INFO root fetch - processPackages [data-merge]: executing diffoscope
+[2023-07-03 12:06:03] INFO root fetch - processPackages [data-merge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/data_merge-0.1.tar.gz tmp/data_merge-0.1.1.tar.gz --markdown 20230703/d/data-merge/0.1-0.1.1/diff.md --exclude *.pyd
+[2023-07-03 12:06:03] INFO root fetch - processPackages [smarthouse]: Downloading https://files.pythonhosted.org/packages/a5/5b/276217b8411adaf272808599fe58a587b090c9b878970ea220eb6c6d6bb3/smarthouse-0.1.5.tar.gz
+[2023-07-03 12:06:03] INFO root fetch - processPackages [zhmccli]: Downloading https://files.pythonhosted.org/packages/7e/df/a7588d48d8e62139b32ddaef5657d97984dfe6c85e69e328c4847345f819/zhmccli-1.7.1.tar.gz
+[2023-07-03 12:06:03] INFO root fetch - processPackages [cs.cmdutils]: Downloading https://files.pythonhosted.org/packages/2b/78/f557eb1ea5c1a4abb7266561a8256f3a8073b4cabf23d98ea947227a8d6d/cs.cmdutils-20230703.tar.gz
+[2023-07-03 12:06:03] INFO root fetch - processPackages [XoxoDay]: executing diffoscope
+[2023-07-03 12:06:03] INFO root fetch - processPackages [XoxoDay]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/XoxoDay-0.0.24.tar.gz tmp/XoxoDay-0.0.25.tar.gz --markdown 20230703/X/XoxoDay/0.0.24-0.0.25/diff.md --exclude *.pyd
+[2023-07-03 12:06:04] INFO root fetch - processPackages [xformers]: executing diffoscope
+[2023-07-03 12:06:04] INFO root fetch - processPackages [picogo]: executing diffoscope
+[2023-07-03 12:06:04] INFO root fetch - processPackages [picogo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/picogo-0.0.8.tar.gz tmp/picogo-0.0.9.tar.gz --markdown 20230703/p/picogo/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-03 12:06:04] INFO root fetch - processPackages [xformers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xformers-0.0.8.tar.gz tmp/xformers-0.0.9.tar.gz --markdown 20230703/x/xformers/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-03 12:06:04] INFO root fetch - processPackages [xformers]: executing diffoscope
+[2023-07-03 12:06:04] INFO root fetch - processPackages [xformers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xformers-0.0.8.tar.gz tmp/xformers-0.0.9.tar.gz --markdown 20230703/x/xformers/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-03 12:06:04] INFO root fetch - processPackages [smarthouse]: executing diffoscope
+[2023-07-03 12:06:04] INFO root fetch - processPackages [smarthouse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smarthouse-0.1.4.tar.gz tmp/smarthouse-0.1.5.tar.gz --markdown 20230703/s/smarthouse/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-07-03 12:06:04] INFO root fetch - processPackages [cs.cmdutils]: executing diffoscope
+[2023-07-03 12:06:04] INFO root fetch - processPackages [cs.cmdutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cs.cmdutils-20230612.tar.gz tmp/cs.cmdutils-20230703.tar.gz --markdown 20230703/c/cs.cmdutils/20230612-20230703/diff.md --exclude *.pyd
+[2023-07-03 12:06:04] INFO root fetch - processPackages [zhmccli]: executing diffoscope
+[2023-07-03 12:06:04] INFO root fetch - processPackages [zhmccli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zhmccli-1.7.0.tar.gz tmp/zhmccli-1.7.1.tar.gz --markdown 20230703/z/zhmccli/1.7.0-1.7.1/diff.md --exclude *.pyd
+[2023-07-03 12:06:04] INFO root fetch - processPackages [django-mass-migration]: Remove: archive file [/home/abi/fetcher/tmp/django-mass-migration-0.1.3.tar.gz]
+[2023-07-03 12:06:04] INFO root fetch - processPackages [django-mass-migration]: Remove: archive file [/home/abi/fetcher/tmp/django-mass-migration-0.1.4.tar.gz]
+[2023-07-03 12:06:04] INFO root fetch - processPackages [django-mass-migration]: Start processing: QuNet
+[2023-07-03 12:06:04] INFO root fetch - main [MainThread]: End processing [django-mass-migration]: success
+[2023-07-03 12:06:04] INFO root fetch - processPackages [QuNet]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-03 12:06:05] INFO root fetch - processPackages [QuNet]: Downloading https://files.pythonhosted.org/packages/d5/ed/08e3812ae99f48d271d226b77d4a7da9cf1105ce195a4687389eb1e2d646/QuNet-0.0.98-py3-none-any.whl
+[2023-07-03 12:06:05] INFO root fetch - processPackages [data-merge]: Remove: archive file [/home/abi/fetcher/tmp/data_merge-0.1.tar.gz]
+[2023-07-03 12:06:05] INFO root fetch - processPackages [data-merge]: Remove: archive file [/home/abi/fetcher/tmp/data_merge-0.1.1.tar.gz]
+[2023-07-03 12:06:05] INFO root fetch - processPackages [data-merge]: Start processing: pydantic-loggings
+[2023-07-03 12:06:05] INFO root fetch - main [MainThread]: End processing [data-merge]: success
+[2023-07-03 12:06:05] INFO root fetch - processPackages [QuNet]: Downloading https://files.pythonhosted.org/packages/e0/80/c34810051dcacd44f750dc59c5f982f9a679cbb6caaccd0aad3288430f3e/QuNet-0.0.99-py3-none-any.whl
+[2023-07-03 12:06:05] INFO root fetch - processPackages [pydantic-loggings]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-07-03 12:06:05] INFO root fetch - processPackages [XoxoDay]: Remove: archive file [/home/abi/fetcher/tmp/XoxoDay-0.0.24.tar.gz]
+[2023-07-03 12:06:05] INFO root fetch - processPackages [XoxoDay]: Remove: archive file [/home/abi/fetcher/tmp/XoxoDay-0.0.25.tar.gz]
+[2023-07-03 12:06:05] INFO root fetch - processPackages [XoxoDay]: Start processing: growtopia.py
+[2023-07-03 12:06:05] INFO root fetch - main [MainThread]: End processing [XoxoDay]: success
+[2023-07-03 12:06:05] INFO root fetch - processPackages [pydantic-loggings]: Downloading https://files.pythonhosted.org/packages/05/20/969b3167ae49876686272b8bc2ff033dcded1fe5a306c2eb87ee9f650ce2/pydantic-loggings-0.2.0.tar.gz
+[2023-07-03 12:06:05] INFO root fetch - processPackages [QuNet]: executing diffoscope
+[2023-07-03 12:06:05] INFO root fetch - processPackages [QuNet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/QuNet-0.0.98-py3-none-any.whl.zip tmp/QuNet-0.0.99-py3-none-any.whl.zip --markdown 20230703/Q/QuNet/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-03 12:06:05] INFO root fetch - processPackages [growtopia.py]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-03 12:06:05] INFO root fetch - processPackages [cs.cmdutils]: Remove: archive file [/home/abi/fetcher/tmp/cs.cmdutils-20230612.tar.gz]
+[2023-07-03 12:06:05] INFO root fetch - processPackages [cs.cmdutils]: Remove: archive file [/home/abi/fetcher/tmp/cs.cmdutils-20230703.tar.gz]
+[2023-07-03 12:06:05] INFO root fetch - processPackages [cs.cmdutils]: Start processing: inflect
+[2023-07-03 12:06:05] INFO root fetch - main [MainThread]: End processing [cs.cmdutils]: success
+[2023-07-03 12:06:05] INFO root fetch - processPackages [smarthouse]: Remove: archive file [/home/abi/fetcher/tmp/smarthouse-0.1.4.tar.gz]
+[2023-07-03 12:06:05] INFO root fetch - processPackages [smarthouse]: Remove: archive file [/home/abi/fetcher/tmp/smarthouse-0.1.5.tar.gz]
+[2023-07-03 12:06:05] INFO root fetch - processPackages [smarthouse]: Start processing: dddmisc-mongo-uow
+[2023-07-03 12:06:05] INFO root fetch - main [MainThread]: End processing [smarthouse]: success
+[2023-07-03 12:06:05] INFO root fetch - processPackages [inflect]: New version: [6.1.0] Old Version: [6.0.5]
+[2023-07-03 12:06:05] INFO root fetch - processPackages [pydantic-loggings]: Downloading https://files.pythonhosted.org/packages/b7/be/77910892d5ebefc6255de3cbafbd4be1e1d57673ce596d56a94440e498df/pydantic-loggings-0.3.0.tar.gz
+[2023-07-03 12:06:05] INFO root fetch - processPackages [picogo]: Remove: archive file [/home/abi/fetcher/tmp/picogo-0.0.8.tar.gz]
+[2023-07-03 12:06:05] INFO root fetch - processPackages [picogo]: Remove: archive file [/home/abi/fetcher/tmp/picogo-0.0.9.tar.gz]
+[2023-07-03 12:06:05] INFO root fetch - processPackages [picogo]: Start processing: openvino
+[2023-07-03 12:06:05] INFO root fetch - main [MainThread]: End processing [picogo]: success
+[2023-07-03 12:06:05] INFO root fetch - processPackages [luminesce-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/luminesce-sdk-preview-1.9.88.tar.gz]
+[2023-07-03 12:06:05] INFO root fetch - processPackages [luminesce-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/luminesce-sdk-preview-1.9.92.tar.gz]
+[2023-07-03 12:06:05] INFO root fetch - processPackages [luminesce-sdk-preview]: Start processing: puti-cmdb-sdk
+[2023-07-03 12:06:05] INFO root fetch - main [MainThread]: End processing [luminesce-sdk-preview]: success
+[2023-07-03 12:06:05] INFO root fetch - processPackages [zhmccli]: Remove: archive file [/home/abi/fetcher/tmp/zhmccli-1.7.0.tar.gz]
+[2023-07-03 12:06:05] INFO root fetch - processPackages [zhmccli]: Remove: archive file [/home/abi/fetcher/tmp/zhmccli-1.7.1.tar.gz]
+[2023-07-03 12:06:05] INFO root fetch - processPackages [zhmccli]: Start processing: aloso
+[2023-07-03 12:06:05] INFO root fetch - main [MainThread]: End processing [zhmccli]: success
+[2023-07-03 12:06:06] INFO root fetch - processPackages [growtopia.py]: Downloading https://files.pythonhosted.org/packages/1e/18/2181be53758f1cc6460c01327cf64a5728b83e25775322192a75025dec87/growtopia.py-0.1.1.tar.gz
+[2023-07-03 12:06:06] INFO root fetch - processPackages [dddmisc-mongo-uow]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-03 12:06:06] INFO root fetch - processPackages [aloso]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-03 12:06:06] INFO root fetch - processPackages [inflect]: Downloading https://files.pythonhosted.org/packages/68/40/dd79fdc41ef8e62c0d904d10548ab2d3537bd0354d460ee9f957d424bd5d/inflect-6.0.5.tar.gz
+[2023-07-03 12:06:06] INFO root fetch - processPackages [xformers]: Remove: archive file [/home/abi/fetcher/tmp/xformers-0.0.8.tar.gz]
+[2023-07-03 12:06:06] INFO root fetch - processPackages [xformers]: Remove: archive file [/home/abi/fetcher/tmp/xformers-0.0.9.tar.gz]
+[2023-07-03 12:06:06] INFO root fetch - processPackages [xformers]: Start processing: flaxsr
+[2023-07-03 12:06:06] INFO root fetch - main [MainThread]: End processing [xformers]: success
+[2023-07-03 12:06:06] WARNING root fetch - processPackages [puti-cmdb-sdk]: Skipping, unable to determine old version
+[2023-07-03 12:06:06] INFO root fetch - processPackages [puti-cmdb-sdk]: Start processing: ansys-api-pyensight
+[2023-07-03 12:06:06] INFO root fetch - main [MainThread]: End processing [puti-cmdb-sdk] error
+[2023-07-03 12:06:06] INFO root fetch - processPackages [openvino]: New version: [2023.1.0.dev20230623] Old Version: [2023.0.1]
+[2023-07-03 12:06:06] INFO root fetch - processPackages [aloso]: Downloading https://files.pythonhosted.org/packages/50/9d/0ff14b1bc5f2263235cdcf24ed3d3350aa202844d04965c4926ec9b0c09b/aloso-0.0.8-py3-none-any.whl
+[2023-07-03 12:06:06] INFO root fetch - processPackages [pydantic-loggings]: executing diffoscope
+[2023-07-03 12:06:06] INFO root fetch - processPackages [pydantic-loggings]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydantic-loggings-0.2.0.tar.gz tmp/pydantic-loggings-0.3.0.tar.gz --markdown 20230703/p/pydantic-loggings/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-07-03 12:06:06] INFO root fetch - processPackages [xformers]: Start processing: c2cciutils
+[2023-07-03 12:06:06] INFO root fetch - main [MainThread]: End processing [xformers]: success
+[2023-07-03 12:06:06] INFO root fetch - processPackages [ansys-api-pyensight]: New version: [0.2.dev0] Old Version: [0.1.2]
+[2023-07-03 12:06:06] INFO root fetch - processPackages [flaxsr]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-07-03 12:06:06] INFO root fetch - processPackages [c2cciutils]: New version: [1.6.0.dev99] Old Version: [1.6.0.dev98]
+[2023-07-03 12:06:06] INFO root fetch - processPackages [dddmisc-mongo-uow]: Downloading https://files.pythonhosted.org/packages/50/60/ee168ba64c3f75269b298415d5142f19d9d2e9df03db27ba5efcc9ae3ee8/dddmisc-mongo-uow-1.0.0.tar.gz
+[2023-07-03 12:06:06] INFO root fetch - processPackages [ansys-api-pyensight]: Downloading https://files.pythonhosted.org/packages/71/ea/34c26906e54e0257957f42b24c75a2fc4e57be9151ee661defc67437e1fb/ansys-api-pyensight-0.1.2.tar.gz
+[2023-07-03 12:06:06] INFO root fetch - processPackages [openvino]: Downloading https://files.pythonhosted.org/packages/32/df/3b1cbd8e1e70f968ec7d2188bb6d8ef3c9323993f6c1d3054f37b5024f69/openvino-2023.0.1-11005-cp311-cp311-macosx_11_0_arm64.whl
+[2023-07-03 12:06:06] INFO root fetch - processPackages [growtopia.py]: Downloading https://files.pythonhosted.org/packages/6a/9f/475848143a9b73913d236d87fddff95c186a87cbe807eadc053d3a488a80/growtopia.py-0.1.2.tar.gz
+[2023-07-03 12:06:06] INFO root fetch - processPackages [aloso]: Downloading https://files.pythonhosted.org/packages/8d/c7/4327030a3a76e4d5eb22fc9af6b920dd9d50887fe3bd59e743a9e7b1ac9d/aloso-0.0.9-py3-none-any.whl
+[2023-07-03 12:06:06] INFO root fetch - processPackages [flaxsr]: Downloading https://files.pythonhosted.org/packages/b5/c9/80f771acc4842fb5a8bc147c3afec594c227582acddc628f18a579abe27d/flaxsr-0.0.6.tar.gz
+[2023-07-03 12:06:06] INFO root fetch - processPackages [c2cciutils]: Downloading https://files.pythonhosted.org/packages/a1/2b/1d6a9f2a49b1cf5d42f9fe6f8498218d1aa03ad4f83547e435c82985bf79/c2cciutils-1.6.0.dev98.tar.gz
+[2023-07-03 12:06:06] INFO root fetch - processPackages [inflect]: Downloading https://files.pythonhosted.org/packages/39/5b/5c3c6974b7cc646f4a181591c1d28c2db7bca47641b8e02409683e742b5f/inflect-6.1.0.tar.gz
+[2023-07-03 12:06:06] WARNING root fetch - processPackages [openvino]: Skipping package: exceeds size limit 20117174>=10485760
+[2023-07-03 12:06:06] INFO root fetch - processPackages [openvino]: Start processing: xclientai
+[2023-07-03 12:06:06] INFO root fetch - main [MainThread]: End processing [openvino] error
+[2023-07-03 12:06:06] INFO root fetch - processPackages [growtopia.py]: executing diffoscope
+[2023-07-03 12:06:06] INFO root fetch - processPackages [growtopia.py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/growtopia.py-0.1.1.tar.gz tmp/growtopia.py-0.1.2.tar.gz --markdown 20230703/g/growtopia.py/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-03 12:06:06] INFO root fetch - processPackages [aloso]: executing diffoscope
+[2023-07-03 12:06:06] INFO root fetch - processPackages [aloso]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aloso-0.0.8-py3-none-any.whl.zip tmp/aloso-0.0.9-py3-none-any.whl.zip --markdown 20230703/a/aloso/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-03 12:06:06] INFO root fetch - processPackages [dddmisc-mongo-uow]: Downloading https://files.pythonhosted.org/packages/e4/da/56e6b67269b068c39273bcd9dde4bfddde89ce28a3180f7ff80b59f16454/dddmisc_mongo_uow-1.0.1.tar.gz
+[2023-07-03 12:06:06] INFO root fetch - processPackages [xclientai]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-03 12:06:06] INFO root fetch - processPackages [inflect]: executing diffoscope
+[2023-07-03 12:06:06] INFO root fetch - processPackages [inflect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inflect-6.0.5.tar.gz tmp/inflect-6.1.0.tar.gz --markdown 20230703/i/inflect/6.0.5-6.1.0/diff.md --exclude *.pyd
+[2023-07-03 12:06:06] INFO root fetch - processPackages [ansys-api-pyensight]: Downloading https://files.pythonhosted.org/packages/ee/10/98e179497091301ca3510ea334953d73bb8c49c6dc6442118bd30a24b6f5/ansys-api-pyensight-0.2.dev0.tar.gz
+[2023-07-03 12:06:06] INFO root fetch - processPackages [dddmisc-mongo-uow]: executing diffoscope
+[2023-07-03 12:06:06] INFO root fetch - processPackages [dddmisc-mongo-uow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dddmisc-mongo-uow-1.0.0.tar.gz tmp/dddmisc_mongo_uow-1.0.1.tar.gz --markdown 20230703/d/dddmisc-mongo-uow/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-03 12:06:06] INFO root fetch - processPackages [QuNet]: Remove: archive file [/home/abi/fetcher/tmp/QuNet-0.0.98-py3-none-any.whl.zip]
+[2023-07-03 12:06:06] INFO root fetch - processPackages [QuNet]: Remove: archive file [/home/abi/fetcher/tmp/QuNet-0.0.99-py3-none-any.whl.zip]
+[2023-07-03 12:06:06] INFO root fetch - processPackages [flaxsr]: Downloading https://files.pythonhosted.org/packages/94/c6/00f33305e9bbf5f5b39d49840acd3a5e66895ad251b81b586c86a9df55c6/flaxsr-0.0.7.tar.gz
+[2023-07-03 12:06:06] INFO root fetch - processPackages [QuNet]: Start processing: orchestrator-core
+[2023-07-03 12:06:06] INFO root fetch - main [MainThread]: End processing [QuNet]: success
+[2023-07-03 12:06:07] INFO root fetch - processPackages [ansys-api-pyensight]: executing diffoscope
+[2023-07-03 12:06:07] INFO root fetch - processPackages [ansys-api-pyensight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ansys-api-pyensight-0.1.2.tar.gz tmp/ansys-api-pyensight-0.2.dev0.tar.gz --markdown 20230703/a/ansys-api-pyensight/0.1.2-0.2.dev0/diff.md --exclude *.pyd
+[2023-07-03 12:06:07] INFO root fetch - processPackages [xclientai]: Downloading https://files.pythonhosted.org/packages/e7/1b/1f3ed56ac170f421d4f76925e8681ac2960afd861713280583eab2eb1812/xclientai-0.0.7.tar.gz
+[2023-07-03 12:06:07] INFO root fetch - processPackages [flaxsr]: executing diffoscope
+[2023-07-03 12:06:07] INFO root fetch - processPackages [flaxsr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flaxsr-0.0.6.tar.gz tmp/flaxsr-0.0.7.tar.gz --markdown 20230703/f/flaxsr/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-07-03 12:06:07] INFO root fetch - processPackages [orchestrator-core]: New version: [1.2.0] Old Version: [1.1.1rc4]
+[2023-07-03 12:06:07] INFO root fetch - processPackages [c2cciutils]: Downloading https://files.pythonhosted.org/packages/60/cb/aa51be69fbd8a1ba783878ebc042a12a61ad083b26d90280d1164ab692f5/c2cciutils-1.6.0.dev99.tar.gz
+[2023-07-03 12:06:07] INFO root fetch - processPackages [pydantic-loggings]: Remove: archive file [/home/abi/fetcher/tmp/pydantic-loggings-0.2.0.tar.gz]
+[2023-07-03 12:06:07] INFO root fetch - processPackages [pydantic-loggings]: Remove: archive file [/home/abi/fetcher/tmp/pydantic-loggings-0.3.0.tar.gz]
+[2023-07-03 12:06:07] INFO root fetch - processPackages [pydantic-loggings]: Start processing: lokzzpylib
+[2023-07-03 12:06:07] INFO root fetch - main [MainThread]: End processing [pydantic-loggings]: success
+[2023-07-03 12:06:07] INFO root fetch - processPackages [orchestrator-core]: Downloading https://files.pythonhosted.org/packages/ea/1b/24d3b6a0fcd33063762f552ed9d5aa3a06e4ae5f518d8cd38fae1c525d2b/orchestrator_core-1.1.1rc4.tar.gz
+[2023-07-03 12:06:07] INFO root fetch - processPackages [lokzzpylib]: New version: [0.2.dev7] Old Version: [0.2.dev6]
+[2023-07-03 12:06:07] INFO root fetch - processPackages [c2cciutils]: executing diffoscope
+[2023-07-03 12:06:07] INFO root fetch - processPackages [c2cciutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c2cciutils-1.6.0.dev98.tar.gz tmp/c2cciutils-1.6.0.dev99.tar.gz --markdown 20230703/c/c2cciutils/1.6.0.dev98-1.6.0.dev99/diff.md --exclude *.pyd
+[2023-07-03 12:06:07] INFO root fetch - processPackages [xclientai]: Downloading https://files.pythonhosted.org/packages/9b/f3/696beb8bf9aead66cd483f0ba4010d8057d270bdd5333220903d0a296ef4/xclientai-0.0.8.tar.gz
+[2023-07-03 12:06:07] INFO root fetch - processPackages [lokzzpylib]: Downloading https://files.pythonhosted.org/packages/37/78/2e5c6e1be654a550d42507936989581ee98daccd71c9a8564c52ce7bd78c/lokzzpylib-0.2.dev6.tar.gz
+[2023-07-03 12:06:07] INFO root fetch - processPackages [xclientai]: executing diffoscope
+[2023-07-03 12:06:07] INFO root fetch - processPackages [xclientai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xclientai-0.0.7.tar.gz tmp/xclientai-0.0.8.tar.gz --markdown 20230703/x/xclientai/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-03 12:06:07] INFO root fetch - processPackages [lokzzpylib]: Downloading https://files.pythonhosted.org/packages/ec/11/d1d60efe6f1f4186239da7ec66a65073a12c07a8d08788f22bdef90b6ddc/lokzzpylib-0.2.dev7.tar.gz
+[2023-07-03 12:06:07] INFO root fetch - processPackages [orchestrator-core]: Downloading https://files.pythonhosted.org/packages/23/05/2272ff0fd6fbefb93775babfa7ae5007495fefd0fe101fb2008badeb45e6/orchestrator_core-1.2.0.tar.gz
+[2023-07-03 12:06:08] INFO root fetch - processPackages [lokzzpylib]: executing diffoscope
+[2023-07-03 12:06:08] INFO root fetch - processPackages [lokzzpylib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lokzzpylib-0.2.dev6.tar.gz tmp/lokzzpylib-0.2.dev7.tar.gz --markdown 20230703/l/lokzzpylib/0.2.dev6-0.2.dev7/diff.md --exclude *.pyd
+[2023-07-03 12:06:08] INFO root fetch - processPackages [growtopia.py]: Remove: archive file [/home/abi/fetcher/tmp/growtopia.py-0.1.1.tar.gz]
+[2023-07-03 12:06:08] INFO root fetch - processPackages [growtopia.py]: Remove: archive file [/home/abi/fetcher/tmp/growtopia.py-0.1.2.tar.gz]
+[2023-07-03 12:06:08] INFO root fetch - main [MainThread]: End processing [growtopia.py]: success
+[2023-07-03 12:06:08] INFO root fetch - processPackages [aloso]: Remove: archive file [/home/abi/fetcher/tmp/aloso-0.0.8-py3-none-any.whl.zip]
+[2023-07-03 12:06:08] INFO root fetch - processPackages [aloso]: Remove: archive file [/home/abi/fetcher/tmp/aloso-0.0.9-py3-none-any.whl.zip]
+[2023-07-03 12:06:08] INFO root fetch - main [MainThread]: End processing [aloso]: success
+[2023-07-03 12:06:08] INFO root fetch - processPackages [dddmisc-mongo-uow]: Remove: archive file [/home/abi/fetcher/tmp/dddmisc-mongo-uow-1.0.0.tar.gz]
+[2023-07-03 12:06:08] INFO root fetch - processPackages [dddmisc-mongo-uow]: Remove: archive file [/home/abi/fetcher/tmp/dddmisc_mongo_uow-1.0.1.tar.gz]
+[2023-07-03 12:06:08] INFO root fetch - main [MainThread]: End processing [dddmisc-mongo-uow]: success
+[2023-07-03 12:06:08] INFO root fetch - processPackages [orchestrator-core]: executing diffoscope
+[2023-07-03 12:06:08] INFO root fetch - processPackages [orchestrator-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/orchestrator_core-1.1.1rc4.tar.gz tmp/orchestrator_core-1.2.0.tar.gz --markdown 20230703/o/orchestrator-core/1.1.1rc4-1.2.0/diff.md --exclude *.pyd
+[2023-07-03 12:06:08] INFO root fetch - processPackages [inflect]: Remove: archive file [/home/abi/fetcher/tmp/inflect-6.0.5.tar.gz]
+[2023-07-03 12:06:08] INFO root fetch - processPackages [inflect]: Remove: archive file [/home/abi/fetcher/tmp/inflect-6.1.0.tar.gz]
+[2023-07-03 12:06:08] INFO root fetch - main [MainThread]: End processing [inflect]: success
+[2023-07-03 12:06:08] INFO root fetch - processPackages [flaxsr]: Remove: archive file [/home/abi/fetcher/tmp/flaxsr-0.0.6.tar.gz]
+[2023-07-03 12:06:08] INFO root fetch - processPackages [flaxsr]: Remove: archive file [/home/abi/fetcher/tmp/flaxsr-0.0.7.tar.gz]
+[2023-07-03 12:06:08] INFO root fetch - main [MainThread]: End processing [flaxsr]: success
+[2023-07-03 12:06:08] INFO root fetch - processPackages [xclientai]: Remove: archive file [/home/abi/fetcher/tmp/xclientai-0.0.7.tar.gz]
+[2023-07-03 12:06:08] INFO root fetch - processPackages [xclientai]: Remove: archive file [/home/abi/fetcher/tmp/xclientai-0.0.8.tar.gz]
+[2023-07-03 12:06:08] INFO root fetch - main [MainThread]: End processing [xclientai]: success
+[2023-07-03 12:06:09] INFO root fetch - processPackages [lokzzpylib]: Remove: archive file [/home/abi/fetcher/tmp/lokzzpylib-0.2.dev6.tar.gz]
+[2023-07-03 12:06:09] INFO root fetch - processPackages [lokzzpylib]: Remove: archive file [/home/abi/fetcher/tmp/lokzzpylib-0.2.dev7.tar.gz]
+[2023-07-03 12:06:09] INFO root fetch - main [MainThread]: End processing [lokzzpylib]: success
+[2023-07-03 12:06:10] INFO root fetch - processPackages [ansys-api-pyensight]: Remove: archive file [/home/abi/fetcher/tmp/ansys-api-pyensight-0.1.2.tar.gz]
+[2023-07-03 12:06:10] INFO root fetch - processPackages [ansys-api-pyensight]: Remove: archive file [/home/abi/fetcher/tmp/ansys-api-pyensight-0.2.dev0.tar.gz]
+[2023-07-03 12:06:10] INFO root fetch - main [MainThread]: End processing [ansys-api-pyensight]: success
+[2023-07-03 12:06:11] INFO root fetch - processPackages [orchestrator-core]: Remove: archive file [/home/abi/fetcher/tmp/orchestrator_core-1.1.1rc4.tar.gz]
+[2023-07-03 12:06:11] INFO root fetch - processPackages [orchestrator-core]: Remove: archive file [/home/abi/fetcher/tmp/orchestrator_core-1.2.0.tar.gz]
+[2023-07-03 12:06:11] INFO root fetch - main [MainThread]: End processing [orchestrator-core]: success
+[2023-07-03 12:06:11] INFO root fetch - processPackages [c2cciutils]: Remove: archive file [/home/abi/fetcher/tmp/c2cciutils-1.6.0.dev98.tar.gz]
+[2023-07-03 12:06:11] INFO root fetch - processPackages [c2cciutils]: Remove: archive file [/home/abi/fetcher/tmp/c2cciutils-1.6.0.dev99.tar.gz]
+[2023-07-03 12:06:11] INFO root fetch - main [MainThread]: End processing [c2cciutils]: success
+[2023-07-03 12:06:11] INFO root fetch - main [MainThread]: Store serial: [18737385]
