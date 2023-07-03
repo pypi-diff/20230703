@@ -16977,3 +16977,147 @@ AssertionError: tmp/docarray-0.9.9.dev4.tar.gz does not exist
 [2023-07-03 14:19:23] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
 [2023-07-03 14:19:23] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
 [2023-07-03 14:19:23] INFO root fetch - main [MainThread]: Store serial: [18738836]
+[2023-07-03 14:24:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18738836]
+[2023-07-03 14:24:32] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-07-03 14:24:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: seven-cloudapp-frame
+[2023-07-03 14:24:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cq-queryabolt
+[2023-07-03 14:24:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: deepsensor
+[2023-07-03 14:24:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyobsplot
+[2023-07-03 14:24:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: jnt-django-admin-tools
+[2023-07-03 14:24:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pytest-playwright-async
+[2023-07-03 14:24:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: censusdis
+[2023-07-03 14:24:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: eventix
+[2023-07-03 14:24:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: singleCellHaystack
+[2023-07-03 14:24:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: drf-misc
+[2023-07-03 14:24:32] WARNING root fetch - processPackages [eventix]: Skipping, unable to determine old version
+[2023-07-03 14:24:32] INFO root fetch - processPackages [eventix]: Start processing: pydatavisualization
+[2023-07-03 14:24:32] INFO root fetch - main [MainThread]: End processing [eventix] error
+[2023-07-03 14:24:32] INFO root fetch - processPackages [pytest-playwright-async]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-07-03 14:24:32] INFO root fetch - processPackages [drf-misc]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-07-03 14:24:32] INFO root fetch - processPackages [pyobsplot]: New version: [0.3.7] Old Version: [0.3.6]
+[2023-07-03 14:24:32] INFO root fetch - processPackages [singleCellHaystack]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-03 14:24:32] INFO root fetch - processPackages [cq-queryabolt]: New version: [0.1.0] Old Version: [0.0.2]
+[2023-07-03 14:24:32] INFO root fetch - processPackages [deepsensor]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-07-03 14:24:32] INFO root fetch - processPackages [jnt-django-admin-tools]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-03 14:24:32] INFO root fetch - processPackages [pydatavisualization]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-03 14:24:32] INFO root fetch - processPackages [censusdis]: New version: [0.9.0] Old Version: [0.8.8]
+[2023-07-03 14:24:32] INFO root fetch - processPackages [seven-cloudapp-frame]: New version: [1.0.9.9] Old Version: [1.0.9.8]
+[2023-07-03 14:24:32] INFO root fetch - processPackages [drf-misc]: Downloading https://files.pythonhosted.org/packages/d3/ba/cd579f8afaca06effa1de1d8c2a21c5dcd4bb261b4c8d2991735b736fddb/drf_misc-0.1.3.tar.gz
+[2023-07-03 14:24:32] INFO root fetch - processPackages [jnt-django-admin-tools]: Downloading https://files.pythonhosted.org/packages/fe/6b/b3063a4bb824d4ebe91cc69ca6a29126b8ee3e65e124b4a3226ec325534a/jnt-django-admin-tools-0.9.8.tar.gz
+[2023-07-03 14:24:32] INFO root fetch - processPackages [pytest-playwright-async]: Downloading https://files.pythonhosted.org/packages/26/ef/3faee50ef70fcab047643bb71864595cac279ab6379b9ba68bc8bc4e0f30/pytest-playwright-async-0.1.0.tar.gz
+[2023-07-03 14:24:32] INFO root fetch - processPackages [pyobsplot]: Downloading https://files.pythonhosted.org/packages/c0/09/dba17a4d002be3a7c0f695736b6dbecf1e096adefd72a153b3017377db3f/pyobsplot-0.3.6.tar.gz
+[2023-07-03 14:24:32] INFO root fetch - processPackages [cq-queryabolt]: Downloading https://files.pythonhosted.org/packages/42/2a/d71bdc22606d388d1eb6af1f44c2b1a39fdecc92ddc949ea32aa2bae6f31/cq_queryabolt-0.0.2.tar.gz
+[2023-07-03 14:24:32] INFO root fetch - processPackages [deepsensor]: Downloading https://files.pythonhosted.org/packages/40/6d/495b0f2b73dbe35cd7b18becc5f41d121aa04f8a66a51cb3bb89b9c6ddc0/deepsensor-0.1.3.tar.gz
+[2023-07-03 14:24:32] INFO root fetch - processPackages [singleCellHaystack]: Downloading https://files.pythonhosted.org/packages/f3/6f/21b3d013b3ba9e6c4a353e887afc8fa8f38b61321c8947bef4724867eee5/singleCellHaystack-0.0.4.tar.gz
+[2023-07-03 14:24:32] INFO root fetch - processPackages [censusdis]: Downloading https://files.pythonhosted.org/packages/fd/18/5b7c72ee455cfb3948d868d748bf89555d2c149579a30e4a42a2e072e5bc/censusdis-0.8.8.tar.gz
+[2023-07-03 14:24:32] INFO root fetch - processPackages [pydatavisualization]: Downloading https://files.pythonhosted.org/packages/f9/36/3f6115781d103f8092b4ab6471ba1967ce10f7c9726c6d770c7cbeeb304e/pydatavisualization-0.0.3.tar.gz
+[2023-07-03 14:24:32] INFO root fetch - processPackages [seven-cloudapp-frame]: Downloading https://files.pythonhosted.org/packages/35/2b/05b1b8a3faf3e0417c648bb54a3032af0de6b3d08180acd83e1eea5e3701/seven_cloudapp_frame-1.0.9.8.tar.gz
+[2023-07-03 14:24:33] INFO root fetch - processPackages [jnt-django-admin-tools]: Downloading https://files.pythonhosted.org/packages/4a/8d/8e85ee009bdc218cfc4fd6b6e009852d5ac3c4e5ec6b7a1b22fc185c7451/jnt-django-admin-tools-0.9.9.tar.gz
+[2023-07-03 14:24:33] INFO root fetch - processPackages [drf-misc]: Downloading https://files.pythonhosted.org/packages/2e/81/b676ea505e8c22ccd6322c4217a06642ff89d05f5c2e0df7a457ee6929db/drf_misc-0.1.4.tar.gz
+[2023-07-03 14:24:33] INFO root fetch - processPackages [jnt-django-admin-tools]: executing diffoscope
+[2023-07-03 14:24:33] INFO root fetch - processPackages [jnt-django-admin-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jnt-django-admin-tools-0.9.8.tar.gz tmp/jnt-django-admin-tools-0.9.9.tar.gz --markdown 20230703/j/jnt-django-admin-tools/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-03 14:24:33] INFO root fetch - processPackages [pytest-playwright-async]: Downloading https://files.pythonhosted.org/packages/f4/51/6e51f1e694baa5d7fc0969e33841f63c1c72c855ed114e2d4ae43b8ac640/pytest-playwright-async-0.2.0.tar.gz
+[2023-07-03 14:24:33] INFO root fetch - processPackages [cq-queryabolt]: Downloading https://files.pythonhosted.org/packages/37/e7/5071df0a47507828675acbab9cd730bbe93c3370b37d6dd18e96695f8b8a/cq_queryabolt-0.1.0.tar.gz
+[2023-07-03 14:24:33] INFO root fetch - processPackages [pydatavisualization]: Downloading https://files.pythonhosted.org/packages/eb/dc/88ccb071881220507b8d7fce8c8bb4c435cc7366b63228bb066aebab3cbc/pydatavisualization-0.0.4.tar.gz
+[2023-07-03 14:24:33] INFO root fetch - processPackages [drf-misc]: executing diffoscope
+[2023-07-03 14:24:33] INFO root fetch - processPackages [drf-misc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drf_misc-0.1.3.tar.gz tmp/drf_misc-0.1.4.tar.gz --markdown 20230703/d/drf-misc/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-07-03 14:24:33] INFO root fetch - processPackages [pyobsplot]: Downloading https://files.pythonhosted.org/packages/ab/0c/5bca287d9f5044e527bdfeb3143c1ae1e1ce844f2698bfa96ba6c9059fa0/pyobsplot-0.3.7.tar.gz
+[2023-07-03 14:24:33] INFO root fetch - processPackages [deepsensor]: Downloading https://files.pythonhosted.org/packages/78/e5/1118a3917461718c24723ff75942c8b1866f5d959b05f518b663ead4450c/deepsensor-0.1.4.tar.gz
+[2023-07-03 14:24:33] INFO root fetch - processPackages [cq-queryabolt]: executing diffoscope
+[2023-07-03 14:24:33] INFO root fetch - processPackages [cq-queryabolt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cq_queryabolt-0.0.2.tar.gz tmp/cq_queryabolt-0.1.0.tar.gz --markdown 20230703/c/cq-queryabolt/0.0.2-0.1.0/diff.md --exclude *.pyd
+[2023-07-03 14:24:33] INFO root fetch - processPackages [seven-cloudapp-frame]: Downloading https://files.pythonhosted.org/packages/74/d6/645286f46e81a7cbd30574c917b65af03679c974a979c0421012bd713cbd/seven_cloudapp_frame-1.0.9.9.tar.gz
+[2023-07-03 14:24:33] INFO root fetch - processPackages [censusdis]: Downloading https://files.pythonhosted.org/packages/01/ee/d48301c7bc70fbf6b088f2a29da50d64b9841cdbb919002dc1bcf8082a3a/censusdis-0.9.0.tar.gz
+[2023-07-03 14:24:33] INFO root fetch - processPackages [deepsensor]: executing diffoscope
+[2023-07-03 14:24:33] INFO root fetch - processPackages [deepsensor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deepsensor-0.1.3.tar.gz tmp/deepsensor-0.1.4.tar.gz --markdown 20230703/d/deepsensor/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-07-03 14:24:33] INFO root fetch - processPackages [pytest-playwright-async]: executing diffoscope
+[2023-07-03 14:24:33] INFO root fetch - processPackages [pytest-playwright-async]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-playwright-async-0.1.0.tar.gz tmp/pytest-playwright-async-0.2.0.tar.gz --markdown 20230703/p/pytest-playwright-async/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-07-03 14:24:33] INFO root fetch - processPackages [singleCellHaystack]: Downloading https://files.pythonhosted.org/packages/31/16/962dd117bc205363778242c6d007848cce7773d123a1db26c70704b0d060/singleCellHaystack-0.0.5.tar.gz
+[2023-07-03 14:24:33] INFO root fetch - processPackages [pydatavisualization]: executing diffoscope
+[2023-07-03 14:24:33] INFO root fetch - processPackages [pydatavisualization]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydatavisualization-0.0.3.tar.gz tmp/pydatavisualization-0.0.4.tar.gz --markdown 20230703/p/pydatavisualization/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-03 14:24:33] INFO root fetch - processPackages [pyobsplot]: executing diffoscope
+[2023-07-03 14:24:33] INFO root fetch - processPackages [pyobsplot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyobsplot-0.3.6.tar.gz tmp/pyobsplot-0.3.7.tar.gz --markdown 20230703/p/pyobsplot/0.3.6-0.3.7/diff.md --exclude *.pyd
+[2023-07-03 14:24:33] INFO root fetch - processPackages [seven-cloudapp-frame]: executing diffoscope
+[2023-07-03 14:24:33] INFO root fetch - processPackages [censusdis]: executing diffoscope
+[2023-07-03 14:24:33] INFO root fetch - processPackages [seven-cloudapp-frame]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seven_cloudapp_frame-1.0.9.8.tar.gz tmp/seven_cloudapp_frame-1.0.9.9.tar.gz --markdown 20230703/s/seven-cloudapp-frame/1.0.9.8-1.0.9.9/diff.md --exclude *.pyd
+[2023-07-03 14:24:33] INFO root fetch - processPackages [censusdis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/censusdis-0.8.8.tar.gz tmp/censusdis-0.9.0.tar.gz --markdown 20230703/c/censusdis/0.8.8-0.9.0/diff.md --exclude *.pyd
+[2023-07-03 14:24:33] INFO root fetch - processPackages [singleCellHaystack]: executing diffoscope
+[2023-07-03 14:24:33] INFO root fetch - processPackages [singleCellHaystack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/singleCellHaystack-0.0.4.tar.gz tmp/singleCellHaystack-0.0.5.tar.gz --markdown 20230703/s/singleCellHaystack/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-03 14:24:35] INFO root fetch - processPackages [cq-queryabolt]: Remove: archive file [/home/abi/fetcher/tmp/cq_queryabolt-0.0.2.tar.gz]
+[2023-07-03 14:24:35] INFO root fetch - processPackages [cq-queryabolt]: Remove: archive file [/home/abi/fetcher/tmp/cq_queryabolt-0.1.0.tar.gz]
+[2023-07-03 14:24:35] INFO root fetch - processPackages [cq-queryabolt]: Start processing: viggofiscal
+[2023-07-03 14:24:35] INFO root fetch - main [MainThread]: End processing [cq-queryabolt]: success
+[2023-07-03 14:24:35] INFO root fetch - processPackages [viggofiscal]: New version: [1.6.4] Old Version: [1.6.3]
+[2023-07-03 14:24:35] INFO root fetch - processPackages [drf-misc]: Remove: archive file [/home/abi/fetcher/tmp/drf_misc-0.1.3.tar.gz]
+[2023-07-03 14:24:35] INFO root fetch - processPackages [drf-misc]: Remove: archive file [/home/abi/fetcher/tmp/drf_misc-0.1.4.tar.gz]
+[2023-07-03 14:24:35] INFO root fetch - processPackages [drf-misc]: Start processing: seinpdf
+[2023-07-03 14:24:35] INFO root fetch - main [MainThread]: End processing [drf-misc]: success
+[2023-07-03 14:24:35] WARNING root fetch - processPackages [seinpdf]: Skipping, unable to determine old version
+[2023-07-03 14:24:35] INFO root fetch - processPackages [seinpdf]: Start processing: ert
+[2023-07-03 14:24:35] INFO root fetch - main [MainThread]: End processing [seinpdf] error
+[2023-07-03 14:24:35] INFO root fetch - processPackages [ert]: New version: [5.1.0b1] Old Version: [5.1.0b0]
+[2023-07-03 14:24:35] INFO root fetch - processPackages [viggofiscal]: Downloading https://files.pythonhosted.org/packages/22/15/8d655d15675fffea634cde9773d27172c83d1d973fac222b22a002d824f9/viggofiscal-1.6.3.tar.gz
+[2023-07-03 14:24:35] INFO root fetch - processPackages [pydatavisualization]: Remove: archive file [/home/abi/fetcher/tmp/pydatavisualization-0.0.3.tar.gz]
+[2023-07-03 14:24:35] INFO root fetch - processPackages [pydatavisualization]: Remove: archive file [/home/abi/fetcher/tmp/pydatavisualization-0.0.4.tar.gz]
+[2023-07-03 14:24:35] INFO root fetch - processPackages [pydatavisualization]: Start processing: codeassist
+[2023-07-03 14:24:35] INFO root fetch - main [MainThread]: End processing [pydatavisualization]: success
+[2023-07-03 14:24:35] INFO root fetch - processPackages [codeassist]: New version: [1.0.0] Old Version: [0.1.0]
+[2023-07-03 14:24:35] INFO root fetch - processPackages [pytest-playwright-async]: Remove: archive file [/home/abi/fetcher/tmp/pytest-playwright-async-0.1.0.tar.gz]
+[2023-07-03 14:24:35] INFO root fetch - processPackages [pytest-playwright-async]: Remove: archive file [/home/abi/fetcher/tmp/pytest-playwright-async-0.2.0.tar.gz]
+[2023-07-03 14:24:35] INFO root fetch - processPackages [pytest-playwright-async]: Start processing: aloso
+[2023-07-03 14:24:35] INFO root fetch - main [MainThread]: End processing [pytest-playwright-async]: success
+[2023-07-03 14:24:35] INFO root fetch - processPackages [censusdis]: Remove: archive file [/home/abi/fetcher/tmp/censusdis-0.8.8.tar.gz]
+[2023-07-03 14:24:35] INFO root fetch - processPackages [censusdis]: Remove: archive file [/home/abi/fetcher/tmp/censusdis-0.9.0.tar.gz]
+[2023-07-03 14:24:35] INFO root fetch - processPackages [censusdis]: Start processing: mostats
+[2023-07-03 14:24:35] INFO root fetch - main [MainThread]: End processing [censusdis]: success
+[2023-07-03 14:24:35] INFO root fetch - processPackages [aloso]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-03 14:24:35] INFO root fetch - processPackages [mostats]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-03 14:24:35] INFO root fetch - processPackages [ert]: Downloading https://files.pythonhosted.org/packages/17/cb/688cb96b9f3370637b91d51ce5270075071b0aac4127b655a25b6d8a6a9c/ert-5.1.0b0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-03 14:24:35] INFO root fetch - processPackages [singleCellHaystack]: Remove: archive file [/home/abi/fetcher/tmp/singleCellHaystack-0.0.4.tar.gz]
+[2023-07-03 14:24:35] INFO root fetch - processPackages [singleCellHaystack]: Remove: archive file [/home/abi/fetcher/tmp/singleCellHaystack-0.0.5.tar.gz]
+[2023-07-03 14:24:35] INFO root fetch - main [MainThread]: End processing [singleCellHaystack]: success
+[2023-07-03 14:24:35] INFO root fetch - processPackages [aloso]: Downloading https://files.pythonhosted.org/packages/50/9d/0ff14b1bc5f2263235cdcf24ed3d3350aa202844d04965c4926ec9b0c09b/aloso-0.0.8-py3-none-any.whl
+[2023-07-03 14:24:35] INFO root fetch - processPackages [deepsensor]: Remove: archive file [/home/abi/fetcher/tmp/deepsensor-0.1.3.tar.gz]
+[2023-07-03 14:24:35] INFO root fetch - processPackages [deepsensor]: Remove: archive file [/home/abi/fetcher/tmp/deepsensor-0.1.4.tar.gz]
+[2023-07-03 14:24:35] INFO root fetch - main [MainThread]: End processing [deepsensor]: success
+[2023-07-03 14:24:35] INFO root fetch - processPackages [codeassist]: Downloading https://files.pythonhosted.org/packages/d0/6c/3423f575ba6f76dc4d77e66312dd63e2706c75d95f7229180f0f9e4b7afe/codeassist-0.1.0.tar.gz
+[2023-07-03 14:24:35] INFO root fetch - processPackages [mostats]: Downloading https://files.pythonhosted.org/packages/b2/83/5b65c2e35dc9ad195278d682a0bc496341f303f955dad8a44f83336be49e/mostats-1.0.1-py3-none-any.whl
+[2023-07-03 14:24:35] INFO root fetch - processPackages [viggofiscal]: Downloading https://files.pythonhosted.org/packages/76/d5/6e39f6c247902af5268dc81d39b8cc182251d974cc71421b4d47210cfbc9/viggofiscal-1.6.4.tar.gz
+[2023-07-03 14:24:36] INFO root fetch - processPackages [jnt-django-admin-tools]: Remove: archive file [/home/abi/fetcher/tmp/jnt-django-admin-tools-0.9.8.tar.gz]
+[2023-07-03 14:24:36] INFO root fetch - processPackages [jnt-django-admin-tools]: Remove: archive file [/home/abi/fetcher/tmp/jnt-django-admin-tools-0.9.9.tar.gz]
+[2023-07-03 14:24:36] INFO root fetch - main [MainThread]: End processing [jnt-django-admin-tools]: success
+[2023-07-03 14:24:36] INFO root fetch - processPackages [aloso]: Downloading https://files.pythonhosted.org/packages/8d/c7/4327030a3a76e4d5eb22fc9af6b920dd9d50887fe3bd59e743a9e7b1ac9d/aloso-0.0.9-py3-none-any.whl
+[2023-07-03 14:24:36] INFO root fetch - processPackages [mostats]: Downloading https://files.pythonhosted.org/packages/92/1a/04a07b1d7abaaf75801084234f6e5daf078221457ff63e16b00f2340cab4/mostats-1.0.2-py3-none-any.whl
+[2023-07-03 14:24:36] INFO root fetch - processPackages [aloso]: executing diffoscope
+[2023-07-03 14:24:36] INFO root fetch - processPackages [aloso]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aloso-0.0.8-py3-none-any.whl.zip tmp/aloso-0.0.9-py3-none-any.whl.zip --markdown 20230703/a/aloso/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-03 14:24:36] INFO root fetch - processPackages [viggofiscal]: executing diffoscope
+[2023-07-03 14:24:36] INFO root fetch - processPackages [viggofiscal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/viggofiscal-1.6.3.tar.gz tmp/viggofiscal-1.6.4.tar.gz --markdown 20230703/v/viggofiscal/1.6.3-1.6.4/diff.md --exclude *.pyd
+[2023-07-03 14:24:36] INFO root fetch - processPackages [codeassist]: Downloading https://files.pythonhosted.org/packages/bf/6b/fda02855792a18070447029027e7877b6b9131aae1ab08f70dac9aa77575/codeassist-1.0.0.tar.gz
+[2023-07-03 14:24:36] INFO root fetch - processPackages [mostats]: executing diffoscope
+[2023-07-03 14:24:36] INFO root fetch - processPackages [mostats]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mostats-1.0.1-py3-none-any.whl.zip tmp/mostats-1.0.2-py3-none-any.whl.zip --markdown 20230703/m/mostats/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-03 14:24:36] INFO root fetch - processPackages [seven-cloudapp-frame]: Remove: archive file [/home/abi/fetcher/tmp/seven_cloudapp_frame-1.0.9.8.tar.gz]
+[2023-07-03 14:24:36] INFO root fetch - processPackages [seven-cloudapp-frame]: Remove: archive file [/home/abi/fetcher/tmp/seven_cloudapp_frame-1.0.9.9.tar.gz]
+[2023-07-03 14:24:36] INFO root fetch - main [MainThread]: End processing [seven-cloudapp-frame]: success
+[2023-07-03 14:24:36] INFO root fetch - processPackages [codeassist]: executing diffoscope
+[2023-07-03 14:24:36] INFO root fetch - processPackages [codeassist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codeassist-0.1.0.tar.gz tmp/codeassist-1.0.0.tar.gz --markdown 20230703/c/codeassist/0.1.0-1.0.0/diff.md --exclude *.pyd
+[2023-07-03 14:24:36] INFO root fetch - processPackages [ert]: Downloading https://files.pythonhosted.org/packages/c0/8b/7e99a858cd05588848a800cca8b2ffb8af059ba2ffbc13cc145545d4e6f7/ert-5.1.0b1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-03 14:24:36] INFO root fetch - processPackages [ert]: executing diffoscope
+[2023-07-03 14:24:36] INFO root fetch - processPackages [ert]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ert-5.1.0b0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/ert-5.1.0b1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230703/e/ert/5.1.0b0-5.1.0b1/diff.md --exclude *.pyd
+[2023-07-03 14:24:37] INFO root fetch - processPackages [mostats]: Remove: archive file [/home/abi/fetcher/tmp/mostats-1.0.1-py3-none-any.whl.zip]
+[2023-07-03 14:24:37] INFO root fetch - processPackages [mostats]: Remove: archive file [/home/abi/fetcher/tmp/mostats-1.0.2-py3-none-any.whl.zip]
+[2023-07-03 14:24:37] INFO root fetch - main [MainThread]: End processing [mostats]: success
+[2023-07-03 14:24:37] INFO root fetch - processPackages [codeassist]: Remove: archive file [/home/abi/fetcher/tmp/codeassist-0.1.0.tar.gz]
+[2023-07-03 14:24:37] INFO root fetch - processPackages [codeassist]: Remove: archive file [/home/abi/fetcher/tmp/codeassist-1.0.0.tar.gz]
+[2023-07-03 14:24:37] INFO root fetch - main [MainThread]: End processing [codeassist]: success
+[2023-07-03 14:24:37] INFO root fetch - processPackages [aloso]: Remove: archive file [/home/abi/fetcher/tmp/aloso-0.0.8-py3-none-any.whl.zip]
+[2023-07-03 14:24:37] INFO root fetch - processPackages [aloso]: Remove: archive file [/home/abi/fetcher/tmp/aloso-0.0.9-py3-none-any.whl.zip]
+[2023-07-03 14:24:37] INFO root fetch - main [MainThread]: End processing [aloso]: success
+[2023-07-03 14:24:37] INFO root fetch - processPackages [viggofiscal]: Remove: archive file [/home/abi/fetcher/tmp/viggofiscal-1.6.3.tar.gz]
+[2023-07-03 14:24:37] INFO root fetch - processPackages [viggofiscal]: Remove: archive file [/home/abi/fetcher/tmp/viggofiscal-1.6.4.tar.gz]
+[2023-07-03 14:24:37] INFO root fetch - main [MainThread]: End processing [viggofiscal]: success
+[2023-07-03 14:24:42] INFO root fetch - processPackages [pyobsplot]: Remove: archive file [/home/abi/fetcher/tmp/pyobsplot-0.3.6.tar.gz]
+[2023-07-03 14:24:42] INFO root fetch - processPackages [pyobsplot]: Remove: archive file [/home/abi/fetcher/tmp/pyobsplot-0.3.7.tar.gz]
+[2023-07-03 14:24:42] INFO root fetch - main [MainThread]: End processing [pyobsplot]: success
+[2023-07-03 14:24:43] INFO root fetch - processPackages [ert]: Remove: archive file [/home/abi/fetcher/tmp/ert-5.1.0b0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-03 14:24:43] INFO root fetch - processPackages [ert]: Remove: archive file [/home/abi/fetcher/tmp/ert-5.1.0b1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-03 14:24:43] INFO root fetch - main [MainThread]: End processing [ert]: success
+[2023-07-03 14:24:43] INFO root fetch - main [MainThread]: Store serial: [18738894]
