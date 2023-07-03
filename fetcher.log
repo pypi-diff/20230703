@@ -15042,3 +15042,75 @@ AssertionError: tmp/discord-ansi-0.3.tar.gz does not exist
 [2023-07-03 12:57:56] INFO root fetch - processPackages [jnt-django-admin-tools]: Remove: archive file [/home/abi/fetcher/tmp/jnt-django-admin-tools-0.9.9.tar.gz]
 [2023-07-03 12:57:56] INFO root fetch - main [MainThread]: End processing [jnt-django-admin-tools]: success
 [2023-07-03 12:57:56] INFO root fetch - main [MainThread]: Store serial: [18737948]
+[2023-07-03 13:03:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18737948]
+[2023-07-03 13:03:05] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-03 13:03:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mykit
+[2023-07-03 13:03:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: blackbirds
+[2023-07-03 13:03:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: s3cps3
+[2023-07-03 13:03:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dank-mids
+[2023-07-03 13:03:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cloudtower-sdk
+[2023-07-03 13:03:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: strimzi-kafka-cli
+[2023-07-03 13:03:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: siibra
+[2023-07-03 13:03:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: supervisely
+[2023-07-03 13:03:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cofybox-dce
+[2023-07-03 13:03:05] INFO root fetch - processPackages [mykit]: New version: [5.1.0] Old Version: [5.0.1]
+[2023-07-03 13:03:05] INFO root fetch - processPackages [cloudtower-sdk]: New version: [2.9.0] Old Version: [2.8.0]
+[2023-07-03 13:03:05] INFO root fetch - processPackages [dank-mids]: New version: [4.20.9] Old Version: [4.20.8]
+[2023-07-03 13:03:05] WARNING root fetch - processPackages [s3cps3]: Skipping, unable to determine old version
+[2023-07-03 13:03:05] INFO root fetch - main [MainThread]: End processing [s3cps3] error
+[2023-07-03 13:03:05] INFO root fetch - processPackages [cofybox-dce]: New version: [0.0.7] Old Version: [0.0.5]
+[2023-07-03 13:03:05] WARNING root fetch - processPackages [blackbirds]: Skipping, unable to determine old version
+[2023-07-03 13:03:05] INFO root fetch - main [MainThread]: End processing [blackbirds] error
+[2023-07-03 13:03:05] INFO root fetch - processPackages [siibra]: New version: [0.4a59] Old Version: [0.4a58]
+[2023-07-03 13:03:05] INFO root fetch - processPackages [strimzi-kafka-cli]: New version: [0.1.0a9] Old Version: [0.1.0a8]
+[2023-07-03 13:03:05] INFO root fetch - processPackages [supervisely]: New version: [6.9.2] Old Version: [6.9.1]
+[2023-07-03 13:03:05] INFO root fetch - processPackages [dank-mids]: Downloading https://files.pythonhosted.org/packages/dd/d9/a90cdebb46db5a35fe035f493b14d48e210491b568f4927af7919ab2fdbd/dank_mids-4.20.8.tar.gz
+[2023-07-03 13:03:05] INFO root fetch - processPackages [mykit]: Downloading https://files.pythonhosted.org/packages/b0/c1/940c3b09ea8b0862b172d66fa953096d2a1bed161aa665fec285eda63179/mykit-5.0.1.tar.gz
+[2023-07-03 13:03:05] INFO root fetch - processPackages [cofybox-dce]: Downloading https://files.pythonhosted.org/packages/7a/8c/c4d0a06ca3607fc7eecd6110a97493cebdc1538a08eeca7e266ff524df73/cofybox-dce-0.0.5.tar.gz
+[2023-07-03 13:03:05] INFO root fetch - processPackages [siibra]: Downloading https://files.pythonhosted.org/packages/72/d2/5770295febfa71be70b20c7c8210a850180fef7888bde3ee246b7d905990/siibra-0.4a58.tar.gz
+[2023-07-03 13:03:05] INFO root fetch - processPackages [strimzi-kafka-cli]: Downloading https://files.pythonhosted.org/packages/15/1d/cd82f018c6ea5681b3f42e4af9a645f2def55e1a491bdd2d1e405264f7e0/strimzi-kafka-cli-0.1.0a8.tar.gz
+[2023-07-03 13:03:05] INFO root fetch - processPackages [supervisely]: Downloading https://files.pythonhosted.org/packages/bf/5a/d1c5e1830d747d899ac781f368bbd65eb9c02eaf0faf98d318a7dd8cce53/supervisely-6.9.1.tar.gz
+[2023-07-03 13:03:05] INFO root fetch - processPackages [cloudtower-sdk]: Downloading https://files.pythonhosted.org/packages/e2/14/1672145f5e7091596e6f54c961112ccb3a8b0bb33e479ccbfe00f61406c0/cloudtower-sdk-2.8.0.tar.gz
+[2023-07-03 13:03:06] INFO root fetch - processPackages [dank-mids]: Downloading https://files.pythonhosted.org/packages/e9/d0/a0c6c8d2d154a0250f47b30968e60098b0d44d3b35571e97a925b9b3984f/dank_mids-4.20.9.tar.gz
+[2023-07-03 13:03:06] INFO root fetch - processPackages [dank-mids]: executing diffoscope
+[2023-07-03 13:03:06] INFO root fetch - processPackages [dank-mids]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dank_mids-4.20.8.tar.gz tmp/dank_mids-4.20.9.tar.gz --markdown 20230703/d/dank-mids/4.20.8-4.20.9/diff.md --exclude *.pyd
+[2023-07-03 13:03:06] INFO root fetch - processPackages [mykit]: Downloading https://files.pythonhosted.org/packages/55/41/3edda7863b3276133022fee4fe9eeb243a160d6917f23ca5611c3bef03cd/mykit-5.1.0.tar.gz
+[2023-07-03 13:03:06] INFO root fetch - processPackages [cofybox-dce]: Downloading https://files.pythonhosted.org/packages/df/0f/e1bc0d9e05cb6ccfbdf91862fdcd58f15d1b2acac097e8c6e37f203b4547/cofybox-dce-0.0.7.tar.gz
+[2023-07-03 13:03:06] INFO root fetch - processPackages [strimzi-kafka-cli]: Downloading https://files.pythonhosted.org/packages/89/35/049add7eb81bcb5e57ac2b61ffeb3b2335c63dc9577af48572fd89258a21/strimzi-kafka-cli-0.1.0a9.tar.gz
+[2023-07-03 13:03:06] INFO root fetch - processPackages [mykit]: executing diffoscope
+[2023-07-03 13:03:06] INFO root fetch - processPackages [mykit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mykit-5.0.1.tar.gz tmp/mykit-5.1.0.tar.gz --markdown 20230703/m/mykit/5.0.1-5.1.0/diff.md --exclude *.pyd
+[2023-07-03 13:03:06] INFO root fetch - processPackages [cofybox-dce]: executing diffoscope
+[2023-07-03 13:03:06] INFO root fetch - processPackages [cofybox-dce]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cofybox-dce-0.0.5.tar.gz tmp/cofybox-dce-0.0.7.tar.gz --markdown 20230703/c/cofybox-dce/0.0.5-0.0.7/diff.md --exclude *.pyd
+[2023-07-03 13:03:06] INFO root fetch - processPackages [siibra]: Downloading https://files.pythonhosted.org/packages/80/c1/0b00f40117113e46990da9b317f8443983ad2cdecc72cd34f153645b5a19/siibra-0.4a59.tar.gz
+[2023-07-03 13:03:06] INFO root fetch - processPackages [supervisely]: Downloading https://files.pythonhosted.org/packages/bf/56/78987e56220fcb935013105de97143fb9371ba9732a7dcdcb9451350a28f/supervisely-6.9.2.tar.gz
+[2023-07-03 13:03:06] INFO root fetch - processPackages [cloudtower-sdk]: Downloading https://files.pythonhosted.org/packages/ab/d6/d4c858a81ca68b32996954b88411b8d192ed3eac0a500eda2e8dba8e117a/cloudtower-sdk-2.9.0.tar.gz
+[2023-07-03 13:03:06] INFO root fetch - processPackages [strimzi-kafka-cli]: executing diffoscope
+[2023-07-03 13:03:06] INFO root fetch - processPackages [strimzi-kafka-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/strimzi-kafka-cli-0.1.0a8.tar.gz tmp/strimzi-kafka-cli-0.1.0a9.tar.gz --markdown 20230703/s/strimzi-kafka-cli/0.1.0a8-0.1.0a9/diff.md --exclude *.pyd
+[2023-07-03 13:03:06] INFO root fetch - processPackages [siibra]: executing diffoscope
+[2023-07-03 13:03:06] INFO root fetch - processPackages [siibra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/siibra-0.4a58.tar.gz tmp/siibra-0.4a59.tar.gz --markdown 20230703/s/siibra/0.4a58-0.4a59/diff.md --exclude *.pyd
+[2023-07-03 13:03:06] INFO root fetch - processPackages [supervisely]: executing diffoscope
+[2023-07-03 13:03:06] INFO root fetch - processPackages [supervisely]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/supervisely-6.9.1.tar.gz tmp/supervisely-6.9.2.tar.gz --markdown 20230703/s/supervisely/6.9.1-6.9.2/diff.md --exclude *.pyd
+[2023-07-03 13:03:06] INFO root fetch - processPackages [cloudtower-sdk]: executing diffoscope
+[2023-07-03 13:03:06] INFO root fetch - processPackages [cloudtower-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudtower-sdk-2.8.0.tar.gz tmp/cloudtower-sdk-2.9.0.tar.gz --markdown 20230703/c/cloudtower-sdk/2.8.0-2.9.0/diff.md --exclude *.pyd
+[2023-07-03 13:03:07] INFO root fetch - processPackages [dank-mids]: Remove: archive file [/home/abi/fetcher/tmp/dank_mids-4.20.8.tar.gz]
+[2023-07-03 13:03:07] INFO root fetch - processPackages [dank-mids]: Remove: archive file [/home/abi/fetcher/tmp/dank_mids-4.20.9.tar.gz]
+[2023-07-03 13:03:07] INFO root fetch - main [MainThread]: End processing [dank-mids]: success
+[2023-07-03 13:03:07] INFO root fetch - processPackages [strimzi-kafka-cli]: Remove: archive file [/home/abi/fetcher/tmp/strimzi-kafka-cli-0.1.0a8.tar.gz]
+[2023-07-03 13:03:07] INFO root fetch - processPackages [strimzi-kafka-cli]: Remove: archive file [/home/abi/fetcher/tmp/strimzi-kafka-cli-0.1.0a9.tar.gz]
+[2023-07-03 13:03:07] INFO root fetch - main [MainThread]: End processing [strimzi-kafka-cli]: success
+[2023-07-03 13:03:07] INFO root fetch - processPackages [cofybox-dce]: Remove: archive file [/home/abi/fetcher/tmp/cofybox-dce-0.0.5.tar.gz]
+[2023-07-03 13:03:07] INFO root fetch - processPackages [cofybox-dce]: Remove: archive file [/home/abi/fetcher/tmp/cofybox-dce-0.0.7.tar.gz]
+[2023-07-03 13:03:07] INFO root fetch - main [MainThread]: End processing [cofybox-dce]: success
+[2023-07-03 13:03:07] INFO root fetch - processPackages [mykit]: Remove: archive file [/home/abi/fetcher/tmp/mykit-5.0.1.tar.gz]
+[2023-07-03 13:03:07] INFO root fetch - processPackages [mykit]: Remove: archive file [/home/abi/fetcher/tmp/mykit-5.1.0.tar.gz]
+[2023-07-03 13:03:07] INFO root fetch - main [MainThread]: End processing [mykit]: success
+[2023-07-03 13:03:08] INFO root fetch - processPackages [siibra]: Remove: archive file [/home/abi/fetcher/tmp/siibra-0.4a58.tar.gz]
+[2023-07-03 13:03:08] INFO root fetch - processPackages [siibra]: Remove: archive file [/home/abi/fetcher/tmp/siibra-0.4a59.tar.gz]
+[2023-07-03 13:03:08] INFO root fetch - main [MainThread]: End processing [siibra]: success
+[2023-07-03 13:03:08] INFO root fetch - processPackages [supervisely]: Remove: archive file [/home/abi/fetcher/tmp/supervisely-6.9.1.tar.gz]
+[2023-07-03 13:03:08] INFO root fetch - processPackages [supervisely]: Remove: archive file [/home/abi/fetcher/tmp/supervisely-6.9.2.tar.gz]
+[2023-07-03 13:03:08] INFO root fetch - main [MainThread]: End processing [supervisely]: success
+[2023-07-03 13:03:19] INFO root fetch - processPackages [cloudtower-sdk]: Remove: archive file [/home/abi/fetcher/tmp/cloudtower-sdk-2.8.0.tar.gz]
+[2023-07-03 13:03:19] INFO root fetch - processPackages [cloudtower-sdk]: Remove: archive file [/home/abi/fetcher/tmp/cloudtower-sdk-2.9.0.tar.gz]
+[2023-07-03 13:03:19] INFO root fetch - main [MainThread]: End processing [cloudtower-sdk]: success
+[2023-07-03 13:03:19] INFO root fetch - main [MainThread]: Store serial: [18737979]
