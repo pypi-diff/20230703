@@ -22530,3 +22530,178 @@ EOFError: EOF read where object expected
 [2023-07-03 17:06:22] INFO root fetch - processPackages [tensorflow-text-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensorflow_text_nightly-2.14.0.dev20230702-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2023-07-03 17:06:22] INFO root fetch - main [MainThread]: End processing [tensorflow-text-nightly]: success
 [2023-07-03 17:06:22] INFO root fetch - main [MainThread]: Store serial: [18741145]
+[2023-07-03 17:11:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18741145]
+[2023-07-03 17:11:34] INFO root fetch - main [MainThread]: Found 22 changed packages
+[2023-07-03 17:11:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pretix-fontpack-free
+[2023-07-03 17:11:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: WinDeklar
+[2023-07-03 17:11:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: geyserworx-sdk
+[2023-07-03 17:11:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: burla
+[2023-07-03 17:11:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: jppdf
+[2023-07-03 17:11:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: revpipyload
+[2023-07-03 17:11:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: armonik
+[2023-07-03 17:11:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nncase
+[2023-07-03 17:11:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: hagrid
+[2023-07-03 17:11:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: mend-ignore-alerts
+[2023-07-03 17:11:34] INFO root fetch - processPackages [armonik]: New version: [3.9.3.dev627] Old Version: [3.9.3.dev624]
+[2023-07-03 17:11:34] INFO root fetch - processPackages [mend-ignore-alerts]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-07-03 17:11:34] INFO root fetch - processPackages [pretix-fontpack-free]: New version: [1.9.2] Old Version: [1.9.1]
+[2023-07-03 17:11:34] INFO root fetch - processPackages [hagrid]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-03 17:11:34] INFO root fetch - processPackages [WinDeklar]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-07-03 17:11:35] WARNING root fetch - processPackages [jppdf]: Skipping, unable to determine old version
+[2023-07-03 17:11:35] INFO root fetch - processPackages [jppdf]: Start processing: zospy
+[2023-07-03 17:11:35] INFO root fetch - main [MainThread]: End processing [jppdf] error
+[2023-07-03 17:11:35] WARNING root fetch - processPackages [revpipyload]: Skipping, unable to determine old version
+[2023-07-03 17:11:35] INFO root fetch - processPackages [revpipyload]: Start processing: pythontk
+[2023-07-03 17:11:35] INFO root fetch - main [MainThread]: End processing [revpipyload] error
+[2023-07-03 17:11:35] WARNING root fetch - processPackages [burla]: Skipping, unable to determine old version
+[2023-07-03 17:11:35] INFO root fetch - processPackages [burla]: Start processing: armonik
+[2023-07-03 17:11:35] INFO root fetch - main [MainThread]: End processing [burla] error
+[2023-07-03 17:11:35] INFO root fetch - processPackages [geyserworx-sdk]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-03 17:11:35] INFO root fetch - processPackages [nncase]: New version: [2.1.0.20230703] Old Version: [2.0.0.20230602]
+[2023-07-03 17:11:35] INFO root fetch - processPackages [armonik]: Downloading https://files.pythonhosted.org/packages/54/8d/d7b83d2e37ccf8efdecb72187333248fffabc88a44f9f10052e712ab9950/armonik-3.9.3.dev624.tar.gz
+[2023-07-03 17:11:35] INFO root fetch - processPackages [mend-ignore-alerts]: Downloading https://files.pythonhosted.org/packages/2b/41/d107e7f5144429adb154e6bf41aaae922280a2a4dce91512b5b8f6997f44/mend_ignore_alerts-0.2.5-py3-none-any.whl
+[2023-07-03 17:11:35] INFO root fetch - processPackages [armonik]: New version: [3.9.3.dev630] Old Version: [3.9.3.dev627]
+[2023-07-03 17:11:35] INFO root fetch - processPackages [hagrid]: Downloading https://files.pythonhosted.org/packages/63/8f/f6b3f8daafd8bb51dd59ed15dee9f83776e53b4bd4f460239542b391169f/hagrid-0.3.8.tar.gz
+[2023-07-03 17:11:35] INFO root fetch - processPackages [zospy]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-07-03 17:11:35] INFO root fetch - processPackages [pythontk]: New version: [0.6.8] Old Version: [0.6.7]
+[2023-07-03 17:11:35] INFO root fetch - processPackages [pretix-fontpack-free]: Downloading https://files.pythonhosted.org/packages/d3/8e/ea4282e2a3c30236c10d2887293bfa112d8c41130d8058526e6bc2a852ba/pretix-fontpack-free-1.9.1.tar.gz
+[2023-07-03 17:11:35] INFO root fetch - processPackages [WinDeklar]: Downloading https://files.pythonhosted.org/packages/00/6d/743156133ceb01413f987c298da191f86c647cb80ce7a22a7ae62f51c3c0/windeklar-0.2.2.tar.gz
+[2023-07-03 17:11:35] INFO root fetch - processPackages [geyserworx-sdk]: Downloading https://files.pythonhosted.org/packages/27/b0/8e92557768c6c4e577e1ccefa847af7df7dc617f5323ed4f9f41bc37ada8/geyserworx_sdk-1.0.0.tar.gz
+[2023-07-03 17:11:35] INFO root fetch - processPackages [nncase]: Downloading https://files.pythonhosted.org/packages/8f/dd/26723462be36e80e4d0f840c173f7e2781b8aaed07e41c4b64e72db8e169/nncase-2.0.0.20230602-cp39-cp39-win_amd64.whl
+[2023-07-03 17:11:35] WARNING root fetch - processPackages [pretix-fontpack-free]: Skipping package: exceeds size limit 13080180>=10485760
+[2023-07-03 17:11:35] INFO root fetch - processPackages [pretix-fontpack-free]: Start processing: alibabacloud-rds20140815-py2
+[2023-07-03 17:11:35] INFO root fetch - main [MainThread]: End processing [pretix-fontpack-free] error
+[2023-07-03 17:11:35] INFO root fetch - processPackages [armonik]: Downloading https://files.pythonhosted.org/packages/a3/db/468340c3e51513d2270b938c830901748ba3f03d05938557f70273672795/armonik-3.9.3.dev627.tar.gz
+[2023-07-03 17:11:35] INFO root fetch - processPackages [armonik]: Downloading https://files.pythonhosted.org/packages/a3/db/468340c3e51513d2270b938c830901748ba3f03d05938557f70273672795/armonik-3.9.3.dev627.tar.gz
+[2023-07-03 17:11:35] INFO root fetch - processPackages [hagrid]: Downloading https://files.pythonhosted.org/packages/93/62/db70dc46e40b49bc26e4074bed1920230e6deffcc964b82b28bdc7cfccdc/hagrid-0.3.9.tar.gz
+[2023-07-03 17:11:35] INFO root fetch - processPackages [zospy]: Downloading https://files.pythonhosted.org/packages/bb/d6/4df4ef98c2fa6b6156a806b1ec121600ee740fe6bec92c41e425083adc3c/zospy-1.0.0.tar.gz
+[2023-07-03 17:11:35] INFO root fetch - processPackages [pythontk]: Downloading https://files.pythonhosted.org/packages/ad/1e/f4e9456e2b16a8a8daacc770a1a7cdbee749b374153294eb104087bcc702/pythontk-0.6.7.tar.gz
+[2023-07-03 17:11:35] INFO root fetch - processPackages [mend-ignore-alerts]: Downloading https://files.pythonhosted.org/packages/45/fb/b1db2239ffbe11ca184fca3163ce79f967d4341fe261e1b52e056f7a4490/mend_ignore_alerts-0.2.6-py3-none-any.whl
+[2023-07-03 17:11:35] INFO root fetch - processPackages [alibabacloud-rds20140815-py2]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-07-03 17:11:35] INFO root fetch - processPackages [armonik]: executing diffoscope
+[2023-07-03 17:11:35] INFO root fetch - processPackages [armonik]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/armonik-3.9.3.dev624.tar.gz tmp/armonik-3.9.3.dev627.tar.gz --markdown 20230703/a/armonik/3.9.3.dev624-3.9.3.dev627/diff.md --exclude *.pyd
+[2023-07-03 17:11:35] INFO root fetch - processPackages [hagrid]: executing diffoscope
+[2023-07-03 17:11:35] INFO root fetch - processPackages [hagrid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hagrid-0.3.8.tar.gz tmp/hagrid-0.3.9.tar.gz --markdown 20230703/h/hagrid/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-03 17:11:35] INFO root fetch - processPackages [alibabacloud-rds20140815-py2]: Downloading https://files.pythonhosted.org/packages/33/d5/3d04feab37e2e91f0ec71db61152cd8e112abd61d0159c5d81e91188f092/alibabacloud_rds20140815_py2-1.1.1.tar.gz
+[2023-07-03 17:11:35] INFO root fetch - processPackages [mend-ignore-alerts]: executing diffoscope
+[2023-07-03 17:11:35] INFO root fetch - processPackages [mend-ignore-alerts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mend_ignore_alerts-0.2.5-py3-none-any.whl.zip tmp/mend_ignore_alerts-0.2.6-py3-none-any.whl.zip --markdown 20230703/m/mend-ignore-alerts/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-07-03 17:11:35] INFO root fetch - processPackages [WinDeklar]: Downloading https://files.pythonhosted.org/packages/b6/3e/1bd67da531798d65ed1d319e56fff7ff72fe9b95548dec9d701425e05332/windeklar-0.2.3.tar.gz
+[2023-07-03 17:11:35] INFO root fetch - processPackages [geyserworx-sdk]: Downloading https://files.pythonhosted.org/packages/20/b6/11d18942441a47c940e4e574fb3f16ec175f3c2f01ee32935b5c951a0715/geyserworx_sdk-1.0.1.tar.gz
+[2023-07-03 17:11:35] INFO root fetch - processPackages [armonik]: Downloading https://files.pythonhosted.org/packages/11/ad/4f1bc0423cfda7af28cb5dc84e1865bf90ef91df50054caabbc8de87872b/armonik-3.9.3.dev630.tar.gz
+[2023-07-03 17:11:36] INFO root fetch - processPackages [pythontk]: Downloading https://files.pythonhosted.org/packages/b3/69/e23be4e75ea663c3e9146bc26134f5da6f3962ebfd3502ec499012a10678/pythontk-0.6.8.tar.gz
+[2023-07-03 17:11:36] INFO root fetch - processPackages [geyserworx-sdk]: executing diffoscope
+[2023-07-03 17:11:36] INFO root fetch - processPackages [geyserworx-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geyserworx_sdk-1.0.0.tar.gz tmp/geyserworx_sdk-1.0.1.tar.gz --markdown 20230703/g/geyserworx-sdk/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-03 17:11:36] INFO root fetch - processPackages [zospy]: Downloading https://files.pythonhosted.org/packages/63/2e/8abc97aede585a65c7d9ac500f898e117a20f84144ed21d51b6687adcd5f/zospy-1.1.0.tar.gz
+[2023-07-03 17:11:36] INFO root fetch - processPackages [WinDeklar]: executing diffoscope
+[2023-07-03 17:11:36] INFO root fetch - processPackages [WinDeklar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/windeklar-0.2.2.tar.gz tmp/windeklar-0.2.3.tar.gz --markdown 20230703/W/WinDeklar/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-07-03 17:11:36] INFO root fetch - processPackages [armonik]: executing diffoscope
+[2023-07-03 17:11:36] INFO root fetch - processPackages [armonik]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/armonik-3.9.3.dev627.tar.gz tmp/armonik-3.9.3.dev630.tar.gz --markdown 20230703/a/armonik/3.9.3.dev627-3.9.3.dev630/diff.md --exclude *.pyd
+[2023-07-03 17:11:36] INFO root fetch - processPackages [alibabacloud-rds20140815-py2]: Downloading https://files.pythonhosted.org/packages/e6/14/d88d469cb41d2fd38e9780c0d1454ad4dc0fb57eb83997e3a67099eab186/alibabacloud_rds20140815_py2-1.1.2.tar.gz
+[2023-07-03 17:11:36] INFO root fetch - processPackages [pythontk]: executing diffoscope
+[2023-07-03 17:11:36] INFO root fetch - processPackages [pythontk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pythontk-0.6.7.tar.gz tmp/pythontk-0.6.8.tar.gz --markdown 20230703/p/pythontk/0.6.7-0.6.8/diff.md --exclude *.pyd
+[2023-07-03 17:11:36] INFO root fetch - processPackages [zospy]: executing diffoscope
+[2023-07-03 17:11:36] INFO root fetch - processPackages [zospy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zospy-1.0.0.tar.gz tmp/zospy-1.1.0.tar.gz --markdown 20230703/z/zospy/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-07-03 17:11:36] INFO root fetch - processPackages [alibabacloud-rds20140815-py2]: executing diffoscope
+[2023-07-03 17:11:36] INFO root fetch - processPackages [alibabacloud-rds20140815-py2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_rds20140815_py2-1.1.1.tar.gz tmp/alibabacloud_rds20140815_py2-1.1.2.tar.gz --markdown 20230703/a/alibabacloud-rds20140815-py2/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-07-03 17:11:37] INFO root fetch - processPackages [mend-ignore-alerts]: Remove: archive file [/home/abi/fetcher/tmp/mend_ignore_alerts-0.2.5-py3-none-any.whl.zip]
+[2023-07-03 17:11:37] INFO root fetch - processPackages [mend-ignore-alerts]: Remove: archive file [/home/abi/fetcher/tmp/mend_ignore_alerts-0.2.6-py3-none-any.whl.zip]
+[2023-07-03 17:11:37] INFO root fetch - processPackages [mend-ignore-alerts]: Start processing: livestyled
+[2023-07-03 17:11:37] INFO root fetch - main [MainThread]: End processing [mend-ignore-alerts]: success
+[2023-07-03 17:11:37] INFO root fetch - processPackages [hagrid]: Remove: archive file [/home/abi/fetcher/tmp/hagrid-0.3.8.tar.gz]
+[2023-07-03 17:11:37] INFO root fetch - processPackages [hagrid]: Remove: archive file [/home/abi/fetcher/tmp/hagrid-0.3.9.tar.gz]
+[2023-07-03 17:11:37] INFO root fetch - processPackages [hagrid]: Start processing: mayatk
+[2023-07-03 17:11:37] INFO root fetch - main [MainThread]: End processing [hagrid]: success
+[2023-07-03 17:11:37] INFO root fetch - processPackages [geyserworx-sdk]: Remove: archive file [/home/abi/fetcher/tmp/geyserworx_sdk-1.0.0.tar.gz]
+[2023-07-03 17:11:37] INFO root fetch - processPackages [geyserworx-sdk]: Remove: archive file [/home/abi/fetcher/tmp/geyserworx_sdk-1.0.1.tar.gz]
+[2023-07-03 17:11:37] INFO root fetch - processPackages [geyserworx-sdk]: Start processing: django-mass-migration
+[2023-07-03 17:11:37] INFO root fetch - main [MainThread]: End processing [geyserworx-sdk]: success
+[2023-07-03 17:11:37] INFO root fetch - processPackages [livestyled]: New version: [1.4.3] Old Version: [1.4.2]
+[2023-07-03 17:11:37] INFO root fetch - processPackages [mayatk]: New version: [0.6.8] Old Version: [0.6.7]
+[2023-07-03 17:11:37] INFO root fetch - processPackages [django-mass-migration]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-07-03 17:11:37] INFO root fetch - processPackages [django-mass-migration]: Downloading https://files.pythonhosted.org/packages/69/5f/9eece272ad8ea1d7e0cca3ef20f11e2c402f4d515ed0965116c452a22ab1/django-mass-migration-0.1.3.tar.gz
+[2023-07-03 17:11:38] INFO root fetch - processPackages [livestyled]: Downloading https://files.pythonhosted.org/packages/b6/7e/fbbb42818bf72a23173350b32868fd7ade2ddd36273b23f883ba89b39cc1/livestyled-1.4.2.tar.gz
+[2023-07-03 17:11:38] INFO root fetch - processPackages [mayatk]: Downloading https://files.pythonhosted.org/packages/dd/a1/4235a47cd7fcf15955e321c19582948f33d7c6cbe9e2996e27ae93dcd81d/mayatk-0.6.7.tar.gz
+[2023-07-03 17:11:38] INFO root fetch - processPackages [armonik]: Remove: archive file [/home/abi/fetcher/tmp/armonik-3.9.3.dev624.tar.gz]
+[2023-07-03 17:11:38] INFO root fetch - processPackages [armonik]: Remove: archive file [/home/abi/fetcher/tmp/armonik-3.9.3.dev627.tar.gz]
+[2023-07-03 17:11:38] INFO root fetch - processPackages [armonik]: Start processing: volsite-postgres-common
+[2023-07-03 17:11:38] INFO root fetch - main [MainThread]: End processing [armonik]: success
+[2023-07-03 17:11:38] INFO root fetch - processPackages [django-mass-migration]: Downloading https://files.pythonhosted.org/packages/73/6f/edb5ba05f5cf4d42174729408729222c2b418de22ed2d18db0dafaa7a4d6/django-mass-migration-0.1.4.tar.gz
+[2023-07-03 17:11:38] INFO root fetch - processPackages [WinDeklar]: Remove: archive file [/home/abi/fetcher/tmp/windeklar-0.2.2.tar.gz]
+[2023-07-03 17:11:38] INFO root fetch - processPackages [WinDeklar]: Remove: archive file [/home/abi/fetcher/tmp/windeklar-0.2.3.tar.gz]
+[2023-07-03 17:11:38] INFO root fetch - processPackages [WinDeklar]: Start processing: uitk
+[2023-07-03 17:11:38] INFO root fetch - main [MainThread]: End processing [WinDeklar]: success
+[2023-07-03 17:11:38] INFO root fetch - processPackages [volsite-postgres-common]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-03 17:11:38] INFO root fetch - processPackages [pythontk]: Remove: archive file [/home/abi/fetcher/tmp/pythontk-0.6.7.tar.gz]
+[2023-07-03 17:11:38] INFO root fetch - processPackages [pythontk]: Remove: archive file [/home/abi/fetcher/tmp/pythontk-0.6.8.tar.gz]
+[2023-07-03 17:11:38] INFO root fetch - processPackages [pythontk]: Start processing: calibr8
+[2023-07-03 17:11:38] INFO root fetch - main [MainThread]: End processing [pythontk]: success
+[2023-07-03 17:11:38] INFO root fetch - processPackages [alibabacloud-rds20140815-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_rds20140815_py2-1.1.1.tar.gz]
+[2023-07-03 17:11:38] INFO root fetch - processPackages [alibabacloud-rds20140815-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_rds20140815_py2-1.1.2.tar.gz]
+[2023-07-03 17:11:38] INFO root fetch - processPackages [alibabacloud-rds20140815-py2]: Start processing: alibabacloud-rds20140815
+[2023-07-03 17:11:38] INFO root fetch - main [MainThread]: End processing [alibabacloud-rds20140815-py2]: success
+[2023-07-03 17:11:38] INFO root fetch - processPackages [volsite-postgres-common]: Downloading https://files.pythonhosted.org/packages/a9/48/ece41cdd1f36d5b821f07299b965387a375ef3ddd0556318e57ad9018c7c/volsite_postgres_common-0.1.8.tar.gz
+[2023-07-03 17:11:38] INFO root fetch - processPackages [alibabacloud-rds20140815]: New version: [2.2.1] Old Version: [2.2.0]
+[2023-07-03 17:11:38] INFO root fetch - processPackages [django-mass-migration]: executing diffoscope
+[2023-07-03 17:11:38] INFO root fetch - processPackages [django-mass-migration]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-mass-migration-0.1.3.tar.gz tmp/django-mass-migration-0.1.4.tar.gz --markdown 20230703/d/django-mass-migration/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-07-03 17:11:38] INFO root fetch - processPackages [livestyled]: Downloading https://files.pythonhosted.org/packages/c8/d8/348f45f67abe5fcf398d9e5676a2893344c117645ee06629f774da3ef21c/livestyled-1.4.3.tar.gz
+[2023-07-03 17:11:38] INFO root fetch - processPackages [armonik]: Remove: archive file [/home/abi/fetcher/tmp/armonik-3.9.3.dev630.tar.gz]
+[2023-07-03 17:11:38] INFO root fetch - processPackages [armonik]: Start processing: kafkaconnect
+[2023-07-03 17:11:38] INFO root fetch - main [MainThread]: End processing [armonik]: success
+[2023-07-03 17:11:38] INFO root fetch - processPackages [uitk]: New version: [0.7.9] Old Version: [0.7.8]
+[2023-07-03 17:11:38] INFO root fetch - processPackages [calibr8]: New version: [7.1.0] Old Version: [7.0.0]
+[2023-07-03 17:11:38] INFO root fetch - processPackages [mayatk]: Downloading https://files.pythonhosted.org/packages/3e/da/5ec3ee6c819a773824b754596459be1f080043ecc90f7accaf04a148c120/mayatk-0.6.8.tar.gz
+[2023-07-03 17:11:38] INFO root fetch - processPackages [alibabacloud-rds20140815]: Downloading https://files.pythonhosted.org/packages/42/64/2fa81ef5c946542fd4ad43e274ec619c8fde9d9b150438a4a5e1c5e29e27/alibabacloud_rds20140815-2.2.0.tar.gz
+[2023-07-03 17:11:38] INFO root fetch - processPackages [zospy]: Remove: archive file [/home/abi/fetcher/tmp/zospy-1.0.0.tar.gz]
+[2023-07-03 17:11:38] INFO root fetch - processPackages [zospy]: Remove: archive file [/home/abi/fetcher/tmp/zospy-1.1.0.tar.gz]
+[2023-07-03 17:11:38] INFO root fetch - main [MainThread]: End processing [zospy]: success
+[2023-07-03 17:11:38] INFO root fetch - processPackages [kafkaconnect]: New version: [1.3.0] Old Version: [1.2.0]
+[2023-07-03 17:11:38] INFO root fetch - processPackages [livestyled]: executing diffoscope
+[2023-07-03 17:11:38] INFO root fetch - processPackages [livestyled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/livestyled-1.4.2.tar.gz tmp/livestyled-1.4.3.tar.gz --markdown 20230703/l/livestyled/1.4.2-1.4.3/diff.md --exclude *.pyd
+[2023-07-03 17:11:38] INFO root fetch - processPackages [mayatk]: executing diffoscope
+[2023-07-03 17:11:38] INFO root fetch - processPackages [mayatk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mayatk-0.6.7.tar.gz tmp/mayatk-0.6.8.tar.gz --markdown 20230703/m/mayatk/0.6.7-0.6.8/diff.md --exclude *.pyd
+[2023-07-03 17:11:38] INFO root fetch - processPackages [nncase]: Downloading https://files.pythonhosted.org/packages/f8/3a/00b713b364724981f1edcd7fc2e38c67f9505f0d596d32d62ef557292070/nncase-2.1.0.20230703-cp39-cp39-win_amd64.whl
+[2023-07-03 17:11:38] INFO root fetch - processPackages [volsite-postgres-common]: Downloading https://files.pythonhosted.org/packages/ff/03/668bfd84cd84ef92e37f65f495239d8be55d05abd92dc4bd35f340822fce/volsite_postgres_common-0.1.9.tar.gz
+[2023-07-03 17:11:38] INFO root fetch - processPackages [uitk]: Downloading https://files.pythonhosted.org/packages/f3/fc/4ddef71dd111734fb9d7d556b95fadc5b067fe2cb611ec48a0df312367f0/uitk-0.7.8.tar.gz
+[2023-07-03 17:11:38] INFO root fetch - processPackages [calibr8]: Downloading https://files.pythonhosted.org/packages/78/0f/326601a6d6e209e40ef511672e91e1c2bf859b78d7b7c9f09b60d3488eb1/calibr8-7.0.0.tar.gz
+[2023-07-03 17:11:38] INFO root fetch - processPackages [alibabacloud-rds20140815]: Downloading https://files.pythonhosted.org/packages/67/09/df5f4bd55bf405213997a5c9296f0442b7cbaf27c86c1ffad924d46befa1/alibabacloud_rds20140815-2.2.1.tar.gz
+[2023-07-03 17:11:38] INFO root fetch - processPackages [kafkaconnect]: Downloading https://files.pythonhosted.org/packages/c3/f7/3c0b13622cafff76282fb56e6c9dfcbe3f7d73b06f630a37e2dfa574259f/kafkaconnect-1.2.0.tar.gz
+[2023-07-03 17:11:38] INFO root fetch - processPackages [volsite-postgres-common]: executing diffoscope
+[2023-07-03 17:11:38] INFO root fetch - processPackages [volsite-postgres-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/volsite_postgres_common-0.1.8.tar.gz tmp/volsite_postgres_common-0.1.9.tar.gz --markdown 20230703/v/volsite-postgres-common/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-03 17:11:38] WARNING root fetch - processPackages [nncase]: Skipping package: exceeds size limit 19199148>=10485760
+[2023-07-03 17:11:38] INFO root fetch - main [MainThread]: End processing [nncase] error
+[2023-07-03 17:11:39] INFO root fetch - processPackages [alibabacloud-rds20140815]: executing diffoscope
+[2023-07-03 17:11:39] INFO root fetch - processPackages [alibabacloud-rds20140815]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_rds20140815-2.2.0.tar.gz tmp/alibabacloud_rds20140815-2.2.1.tar.gz --markdown 20230703/a/alibabacloud-rds20140815/2.2.0-2.2.1/diff.md --exclude *.pyd
+[2023-07-03 17:11:39] INFO root fetch - processPackages [calibr8]: Downloading https://files.pythonhosted.org/packages/e1/0a/3798fd7a430ad488c3061bd5cb05c4f4453e3b6c52a1315dd55cdfc73c99/calibr8-7.1.0.tar.gz
+[2023-07-03 17:11:39] INFO root fetch - processPackages [uitk]: Downloading https://files.pythonhosted.org/packages/25/a9/023374a22d54ea01c5c6121f2a82af94745fc2f96444c9db4f3f1936ada2/uitk-0.7.9.tar.gz
+[2023-07-03 17:11:39] INFO root fetch - processPackages [kafkaconnect]: Downloading https://files.pythonhosted.org/packages/cb/9e/8cd7f30d405f2c75368183d1820e3dc25d96b850fd5946677d6158aec816/kafkaconnect-1.3.0.tar.gz
+[2023-07-03 17:11:39] INFO root fetch - processPackages [calibr8]: executing diffoscope
+[2023-07-03 17:11:39] INFO root fetch - processPackages [calibr8]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/calibr8-7.0.0.tar.gz tmp/calibr8-7.1.0.tar.gz --markdown 20230703/c/calibr8/7.0.0-7.1.0/diff.md --exclude *.pyd
+[2023-07-03 17:11:39] INFO root fetch - processPackages [uitk]: executing diffoscope
+[2023-07-03 17:11:39] INFO root fetch - processPackages [uitk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uitk-0.7.8.tar.gz tmp/uitk-0.7.9.tar.gz --markdown 20230703/u/uitk/0.7.8-0.7.9/diff.md --exclude *.pyd
+[2023-07-03 17:11:39] INFO root fetch - processPackages [kafkaconnect]: executing diffoscope
+[2023-07-03 17:11:39] INFO root fetch - processPackages [kafkaconnect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kafkaconnect-1.2.0.tar.gz tmp/kafkaconnect-1.3.0.tar.gz --markdown 20230703/k/kafkaconnect/1.2.0-1.3.0/diff.md --exclude *.pyd
+[2023-07-03 17:11:39] INFO root fetch - processPackages [django-mass-migration]: Remove: archive file [/home/abi/fetcher/tmp/django-mass-migration-0.1.3.tar.gz]
+[2023-07-03 17:11:39] INFO root fetch - processPackages [django-mass-migration]: Remove: archive file [/home/abi/fetcher/tmp/django-mass-migration-0.1.4.tar.gz]
+[2023-07-03 17:11:39] INFO root fetch - main [MainThread]: End processing [django-mass-migration]: success
+[2023-07-03 17:11:40] INFO root fetch - processPackages [mayatk]: Remove: archive file [/home/abi/fetcher/tmp/mayatk-0.6.7.tar.gz]
+[2023-07-03 17:11:40] INFO root fetch - processPackages [mayatk]: Remove: archive file [/home/abi/fetcher/tmp/mayatk-0.6.8.tar.gz]
+[2023-07-03 17:11:40] INFO root fetch - main [MainThread]: End processing [mayatk]: success
+[2023-07-03 17:11:40] INFO root fetch - processPackages [volsite-postgres-common]: Remove: archive file [/home/abi/fetcher/tmp/volsite_postgres_common-0.1.8.tar.gz]
+[2023-07-03 17:11:40] INFO root fetch - processPackages [volsite-postgres-common]: Remove: archive file [/home/abi/fetcher/tmp/volsite_postgres_common-0.1.9.tar.gz]
+[2023-07-03 17:11:40] INFO root fetch - main [MainThread]: End processing [volsite-postgres-common]: success
+[2023-07-03 17:11:40] INFO root fetch - processPackages [livestyled]: Remove: archive file [/home/abi/fetcher/tmp/livestyled-1.4.2.tar.gz]
+[2023-07-03 17:11:40] INFO root fetch - processPackages [livestyled]: Remove: archive file [/home/abi/fetcher/tmp/livestyled-1.4.3.tar.gz]
+[2023-07-03 17:11:40] INFO root fetch - main [MainThread]: End processing [livestyled]: success
+[2023-07-03 17:11:40] INFO root fetch - processPackages [alibabacloud-rds20140815]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_rds20140815-2.2.0.tar.gz]
+[2023-07-03 17:11:40] INFO root fetch - processPackages [alibabacloud-rds20140815]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_rds20140815-2.2.1.tar.gz]
+[2023-07-03 17:11:40] INFO root fetch - main [MainThread]: End processing [alibabacloud-rds20140815]: success
+[2023-07-03 17:11:41] INFO root fetch - processPackages [uitk]: Remove: archive file [/home/abi/fetcher/tmp/uitk-0.7.8.tar.gz]
+[2023-07-03 17:11:41] INFO root fetch - processPackages [uitk]: Remove: archive file [/home/abi/fetcher/tmp/uitk-0.7.9.tar.gz]
+[2023-07-03 17:11:41] INFO root fetch - main [MainThread]: End processing [uitk]: success
+[2023-07-03 17:11:41] INFO root fetch - processPackages [calibr8]: Remove: archive file [/home/abi/fetcher/tmp/calibr8-7.0.0.tar.gz]
+[2023-07-03 17:11:41] INFO root fetch - processPackages [calibr8]: Remove: archive file [/home/abi/fetcher/tmp/calibr8-7.1.0.tar.gz]
+[2023-07-03 17:11:41] INFO root fetch - main [MainThread]: End processing [calibr8]: success
+[2023-07-03 17:11:41] INFO root fetch - processPackages [kafkaconnect]: Remove: archive file [/home/abi/fetcher/tmp/kafkaconnect-1.2.0.tar.gz]
+[2023-07-03 17:11:41] INFO root fetch - processPackages [kafkaconnect]: Remove: archive file [/home/abi/fetcher/tmp/kafkaconnect-1.3.0.tar.gz]
+[2023-07-03 17:11:41] INFO root fetch - main [MainThread]: End processing [kafkaconnect]: success
+[2023-07-03 17:11:41] INFO root fetch - main [MainThread]: Store serial: [18741230]
