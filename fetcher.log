@@ -11316,3 +11316,156 @@ AssertionError: tmp/discord-ansi-0.3.tar.gz does not exist
 [2023-07-03 10:36:11] INFO root fetch - processPackages [systembridgefrontend]: Remove: archive file [/home/abi/fetcher/tmp/systembridgefrontend-3.7.0.dev1.tar.gz]
 [2023-07-03 10:36:11] INFO root fetch - main [MainThread]: End processing [systembridgefrontend]: success
 [2023-07-03 10:36:11] INFO root fetch - main [MainThread]: Store serial: [18736449]
+[2023-07-03 10:41:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18736449]
+[2023-07-03 10:41:20] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-07-03 10:41:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dolphie
+[2023-07-03 10:41:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: python-yapi
+[2023-07-03 10:41:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: systembridgewindowssensors
+[2023-07-03 10:41:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ExpoSeq
+[2023-07-03 10:41:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: p-ttauto-crawler
+[2023-07-03 10:41:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gradio-orz
+[2023-07-03 10:41:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: m-abac-test
+[2023-07-03 10:41:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tf-estimator-nightly
+[2023-07-03 10:41:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: volsite-postgres-common
+[2023-07-03 10:41:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: vollseg-napari-trackmate
+[2023-07-03 10:41:21] INFO root fetch - processPackages [p-ttauto-crawler]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-03 10:41:21] INFO root fetch - processPackages [ExpoSeq]: New version: [1.1.9] Old Version: [1.1.7]
+[2023-07-03 10:41:21] INFO root fetch - processPackages [python-yapi]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-03 10:41:21] WARNING root fetch - processPackages [gradio-orz]: Skipping, unable to determine old version
+[2023-07-03 10:41:21] INFO root fetch - processPackages [gradio-orz]: Start processing: dapla-toolbelt
+[2023-07-03 10:41:21] INFO root fetch - main [MainThread]: End processing [gradio-orz] error
+[2023-07-03 10:41:21] WARNING root fetch - processPackages [dolphie]: Skipping, unable to determine old version
+[2023-07-03 10:41:21] INFO root fetch - processPackages [dolphie]: Start processing: ewokscore
+[2023-07-03 10:41:21] INFO root fetch - main [MainThread]: End processing [dolphie] error
+[2023-07-03 10:41:21] INFO root fetch - processPackages [volsite-postgres-common]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-03 10:41:21] INFO root fetch - processPackages [m-abac-test]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-03 10:41:21] INFO root fetch - processPackages [vollseg-napari-trackmate]: New version: [2.2.2] Old Version: [2.2.0]
+[2023-07-03 10:41:21] INFO root fetch - processPackages [systembridgewindowssensors]: New version: [3.7.0.dev1] Old Version: [3.6.3.dev7]
+[2023-07-03 10:41:21] INFO root fetch - processPackages [tf-estimator-nightly]: New version: [2.9.0.dev2022033108] Old Version: [2.9.0.dev2022033008]
+[2023-07-03 10:41:21] INFO root fetch - processPackages [ewokscore]: New version: [0.7.0] Old Version: [0.6.1]
+[2023-07-03 10:41:21] INFO root fetch - processPackages [dapla-toolbelt]: New version: [1.8.0] Old Version: [1.7.1]
+[2023-07-03 10:41:21] INFO root fetch - processPackages [ExpoSeq]: Downloading https://files.pythonhosted.org/packages/28/c8/242933fadc87f753b965610b461104ff27972da04a1db6b4f23b5ff43709/ExpoSeq-1.1.7.tar.gz
+[2023-07-03 10:41:21] INFO root fetch - processPackages [m-abac-test]: Downloading https://files.pythonhosted.org/packages/09/9a/5bf7c99a4b14d4ee9166517fc845f8ac1538097fb087c74e2055722d9a66/m-abac-test-1.0.8.tar.gz
+[2023-07-03 10:41:21] INFO root fetch - processPackages [p-ttauto-crawler]: Downloading https://files.pythonhosted.org/packages/45/ff/fd444393f6289e82c5f9ff06d56363e7e9a0fbf58d947322f35f27542e2b/p-ttauto-crawler-0.1.8.tar.gz
+[2023-07-03 10:41:21] INFO root fetch - processPackages [tf-estimator-nightly]: Downloading https://files.pythonhosted.org/packages/31/a0/5e1b898e43043b32d95e8719e2eb127692fd8261edbdad4801876a46893f/tf_estimator_nightly-2.9.0.dev2022033008-py2.py3-none-any.whl
+[2023-07-03 10:41:21] INFO root fetch - processPackages [python-yapi]: Downloading https://files.pythonhosted.org/packages/80/64/1ad1ff58bd9d5ab4d6a5132bca691df75d7c576dd2d4aa40812446fab8a8/python_yapi-0.1.2.tar.gz
+[2023-07-03 10:41:21] INFO root fetch - processPackages [volsite-postgres-common]: Downloading https://files.pythonhosted.org/packages/a9/48/ece41cdd1f36d5b821f07299b965387a375ef3ddd0556318e57ad9018c7c/volsite_postgres_common-0.1.8.tar.gz
+[2023-07-03 10:41:21] INFO root fetch - processPackages [vollseg-napari-trackmate]: Downloading https://files.pythonhosted.org/packages/7a/68/4b5a0efa27c33a54f6ce0389872ecd7bebe16d3bc0df90f1854446f88592/vollseg-napari-trackmate-2.2.0.tar.gz
+[2023-07-03 10:41:21] INFO root fetch - processPackages [dapla-toolbelt]: Downloading https://files.pythonhosted.org/packages/05/ed/65cd9357465cd35d74c8e6f85a8fd956faabf201c9fc3ea4c7da6a538a7b/dapla_toolbelt-1.7.1.tar.gz
+[2023-07-03 10:41:21] INFO root fetch - processPackages [systembridgewindowssensors]: Downloading https://files.pythonhosted.org/packages/e2/c8/9a5c6664f19aebd1ee1466cb89af3d89e6185ccae9aee6ccd9bb495bc1e2/systembridgewindowssensors-3.6.3.dev7.tar.gz
+[2023-07-03 10:41:21] INFO root fetch - processPackages [ewokscore]: Downloading https://files.pythonhosted.org/packages/e9/9a/c953f4bc5e39e44f74808555ad0cfa1ee054458e0b1a2ff19c1ab7a49f42/ewokscore-0.6.1.tar.gz
+[2023-07-03 10:41:21] INFO root fetch - processPackages [tf-estimator-nightly]: Downloading https://files.pythonhosted.org/packages/1c/b6/fe4f7077ae036fd90bf9dfdc09b52cf611b857e7a26c3bc44a2e76c94af2/tf_estimator_nightly-2.9.0.dev2022033108-py2.py3-none-any.whl
+[2023-07-03 10:41:21] INFO root fetch - processPackages [ExpoSeq]: Downloading https://files.pythonhosted.org/packages/3a/f1/ed80a524618a2635aa0a2dead448e4c11026ce4188832d8dc0e350176780/ExpoSeq-1.1.9.tar.gz
+[2023-07-03 10:41:21] INFO root fetch - processPackages [m-abac-test]: Downloading https://files.pythonhosted.org/packages/a9/d3/8329e6fc7756f703d2c923a04aa565e40a644e0fc7782f2737812aa123a6/m-abac-test-1.0.9.tar.gz
+[2023-07-03 10:41:21] INFO root fetch - processPackages [volsite-postgres-common]: Downloading https://files.pythonhosted.org/packages/ff/03/668bfd84cd84ef92e37f65f495239d8be55d05abd92dc4bd35f340822fce/volsite_postgres_common-0.1.9.tar.gz
+[2023-07-03 10:41:22] INFO root fetch - processPackages [p-ttauto-crawler]: Downloading https://files.pythonhosted.org/packages/bc/89/e93decfa584441bc595e7c27f0d539e3c8c5adaf82e78510583f7a1f8bc6/p-ttauto-crawler-0.1.9.tar.gz
+[2023-07-03 10:41:22] INFO root fetch - processPackages [tf-estimator-nightly]: executing diffoscope
+[2023-07-03 10:41:22] INFO root fetch - processPackages [tf-estimator-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_estimator_nightly-2.9.0.dev2022033008-py2.py3-none-any.whl.zip tmp/tf_estimator_nightly-2.9.0.dev2022033108-py2.py3-none-any.whl.zip --markdown 20230703/t/tf-estimator-nightly/2.9.0.dev2022033008-2.9.0.dev2022033108/diff.md --exclude *.pyd
+[2023-07-03 10:41:22] INFO root fetch - processPackages [volsite-postgres-common]: executing diffoscope
+[2023-07-03 10:41:22] INFO root fetch - processPackages [volsite-postgres-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/volsite_postgres_common-0.1.8.tar.gz tmp/volsite_postgres_common-0.1.9.tar.gz --markdown 20230703/v/volsite-postgres-common/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-03 10:41:22] INFO root fetch - processPackages [vollseg-napari-trackmate]: Downloading https://files.pythonhosted.org/packages/cc/89/43b9df3e315ba87bda7395efc9e3f525d297e17f01ba42cead5514ce2f97/vollseg-napari-trackmate-2.2.2.tar.gz
+[2023-07-03 10:41:22] INFO root fetch - processPackages [m-abac-test]: executing diffoscope
+[2023-07-03 10:41:22] INFO root fetch - processPackages [m-abac-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/m-abac-test-1.0.8.tar.gz tmp/m-abac-test-1.0.9.tar.gz --markdown 20230703/m/m-abac-test/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-03 10:41:22] INFO root fetch - processPackages [python-yapi]: Downloading https://files.pythonhosted.org/packages/d0/8f/d532bf02dc69a0c7171ecb700d9bac184874681d085e0f721e6aa1610c2b/python_yapi-0.1.3.tar.gz
+[2023-07-03 10:41:22] INFO root fetch - processPackages [ExpoSeq]: executing diffoscope
+[2023-07-03 10:41:22] INFO root fetch - processPackages [ExpoSeq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ExpoSeq-1.1.7.tar.gz tmp/ExpoSeq-1.1.9.tar.gz --markdown 20230703/E/ExpoSeq/1.1.7-1.1.9/diff.md --exclude *.pyd
+[2023-07-03 10:41:22] INFO root fetch - processPackages [dapla-toolbelt]: Downloading https://files.pythonhosted.org/packages/f5/9b/c5ba82db2fd4566ba09c4736ef311347f975a2bacf07bcad3e0cfb773ca4/dapla_toolbelt-1.8.0.tar.gz
+[2023-07-03 10:41:22] INFO root fetch - processPackages [vollseg-napari-trackmate]: executing diffoscope
+[2023-07-03 10:41:22] INFO root fetch - processPackages [vollseg-napari-trackmate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vollseg-napari-trackmate-2.2.0.tar.gz tmp/vollseg-napari-trackmate-2.2.2.tar.gz --markdown 20230703/v/vollseg-napari-trackmate/2.2.0-2.2.2/diff.md --exclude *.pyd
+[2023-07-03 10:41:22] INFO root fetch - processPackages [python-yapi]: executing diffoscope
+[2023-07-03 10:41:22] INFO root fetch - processPackages [python-yapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_yapi-0.1.2.tar.gz tmp/python_yapi-0.1.3.tar.gz --markdown 20230703/p/python-yapi/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-03 10:41:22] INFO root fetch - processPackages [ewokscore]: Downloading https://files.pythonhosted.org/packages/30/a5/122d93f3d3a72c0843ee3c7b315d051f8e38fb017f1d5a08cd6e87d1546e/ewokscore-0.7.0.tar.gz
+[2023-07-03 10:41:22] INFO root fetch - processPackages [p-ttauto-crawler]: executing diffoscope
+[2023-07-03 10:41:22] INFO root fetch - processPackages [p-ttauto-crawler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/p-ttauto-crawler-0.1.8.tar.gz tmp/p-ttauto-crawler-0.1.9.tar.gz --markdown 20230703/p/p-ttauto-crawler/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-03 10:41:22] INFO root fetch - processPackages [dapla-toolbelt]: executing diffoscope
+[2023-07-03 10:41:22] INFO root fetch - processPackages [dapla-toolbelt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dapla_toolbelt-1.7.1.tar.gz tmp/dapla_toolbelt-1.8.0.tar.gz --markdown 20230703/d/dapla-toolbelt/1.7.1-1.8.0/diff.md --exclude *.pyd
+[2023-07-03 10:41:22] INFO root fetch - processPackages [systembridgewindowssensors]: Downloading https://files.pythonhosted.org/packages/97/8f/a750b9d6f89a982d7898f6c4dbf4c36fbb968276552c04ff333cd54eae30/systembridgewindowssensors-3.7.0.dev1.tar.gz
+[2023-07-03 10:41:22] INFO root fetch - processPackages [ewokscore]: executing diffoscope
+[2023-07-03 10:41:22] INFO root fetch - processPackages [ewokscore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ewokscore-0.6.1.tar.gz tmp/ewokscore-0.7.0.tar.gz --markdown 20230703/e/ewokscore/0.6.1-0.7.0/diff.md --exclude *.pyd
+[2023-07-03 10:41:22] INFO root fetch - processPackages [systembridgewindowssensors]: executing diffoscope
+[2023-07-03 10:41:22] INFO root fetch - processPackages [systembridgewindowssensors]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/systembridgewindowssensors-3.6.3.dev7.tar.gz tmp/systembridgewindowssensors-3.7.0.dev1.tar.gz --markdown 20230703/s/systembridgewindowssensors/3.6.3.dev7-3.7.0.dev1/diff.md --exclude *.pyd
+[2023-07-03 10:41:24] INFO root fetch - processPackages [volsite-postgres-common]: Remove: archive file [/home/abi/fetcher/tmp/volsite_postgres_common-0.1.8.tar.gz]
+[2023-07-03 10:41:24] INFO root fetch - processPackages [volsite-postgres-common]: Remove: archive file [/home/abi/fetcher/tmp/volsite_postgres_common-0.1.9.tar.gz]
+[2023-07-03 10:41:24] INFO root fetch - processPackages [volsite-postgres-common]: Start processing: video-process
+[2023-07-03 10:41:24] INFO root fetch - main [MainThread]: End processing [volsite-postgres-common]: success
+[2023-07-03 10:41:24] INFO root fetch - processPackages [video-process]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-07-03 10:41:24] INFO root fetch - processPackages [python-yapi]: Remove: archive file [/home/abi/fetcher/tmp/python_yapi-0.1.2.tar.gz]
+[2023-07-03 10:41:24] INFO root fetch - processPackages [python-yapi]: Remove: archive file [/home/abi/fetcher/tmp/python_yapi-0.1.3.tar.gz]
+[2023-07-03 10:41:24] INFO root fetch - processPackages [python-yapi]: Start processing: robino
+[2023-07-03 10:41:24] INFO root fetch - main [MainThread]: End processing [python-yapi]: success
+[2023-07-03 10:41:24] INFO root fetch - processPackages [video-process]: Downloading https://files.pythonhosted.org/packages/79/5e/2f7f79085fe9664fdca5b247f3a79a9ec2ad9a140b98decd5adf25cf9585/video_process-0.2.3.tar.gz
+[2023-07-03 10:41:24] INFO root fetch - processPackages [robino]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-07-03 10:41:24] INFO root fetch - processPackages [robino]: Downloading https://files.pythonhosted.org/packages/ac/ce/fbc7e2122b8ad723f614bccbc46b3410e7842d030d9b5f68e226700eb78d/robino-1.0.2.tar.gz
+[2023-07-03 10:41:24] INFO root fetch - processPackages [p-ttauto-crawler]: Remove: archive file [/home/abi/fetcher/tmp/p-ttauto-crawler-0.1.8.tar.gz]
+[2023-07-03 10:41:24] INFO root fetch - processPackages [p-ttauto-crawler]: Remove: archive file [/home/abi/fetcher/tmp/p-ttauto-crawler-0.1.9.tar.gz]
+[2023-07-03 10:41:24] INFO root fetch - processPackages [p-ttauto-crawler]: Start processing: sqlfluff
+[2023-07-03 10:41:24] INFO root fetch - main [MainThread]: End processing [p-ttauto-crawler]: success
+[2023-07-03 10:41:24] INFO root fetch - processPackages [m-abac-test]: Remove: archive file [/home/abi/fetcher/tmp/m-abac-test-1.0.8.tar.gz]
+[2023-07-03 10:41:24] INFO root fetch - processPackages [m-abac-test]: Remove: archive file [/home/abi/fetcher/tmp/m-abac-test-1.0.9.tar.gz]
+[2023-07-03 10:41:24] INFO root fetch - processPackages [m-abac-test]: Start processing: molano
+[2023-07-03 10:41:24] INFO root fetch - main [MainThread]: End processing [m-abac-test]: success
+[2023-07-03 10:41:24] INFO root fetch - processPackages [vollseg-napari-trackmate]: Remove: archive file [/home/abi/fetcher/tmp/vollseg-napari-trackmate-2.2.0.tar.gz]
+[2023-07-03 10:41:24] INFO root fetch - processPackages [vollseg-napari-trackmate]: Remove: archive file [/home/abi/fetcher/tmp/vollseg-napari-trackmate-2.2.2.tar.gz]
+[2023-07-03 10:41:24] INFO root fetch - processPackages [vollseg-napari-trackmate]: Start processing: sqlfluff-templater-dbt
+[2023-07-03 10:41:24] INFO root fetch - main [MainThread]: End processing [vollseg-napari-trackmate]: success
+[2023-07-03 10:41:24] INFO root fetch - processPackages [dapla-toolbelt]: Remove: archive file [/home/abi/fetcher/tmp/dapla_toolbelt-1.7.1.tar.gz]
+[2023-07-03 10:41:24] INFO root fetch - processPackages [dapla-toolbelt]: Remove: archive file [/home/abi/fetcher/tmp/dapla_toolbelt-1.8.0.tar.gz]
+[2023-07-03 10:41:24] INFO root fetch - processPackages [dapla-toolbelt]: Start processing: tff-nightly
+[2023-07-03 10:41:24] INFO root fetch - main [MainThread]: End processing [dapla-toolbelt]: success
+[2023-07-03 10:41:24] INFO root fetch - processPackages [molano]: New version: [1.0.0a9] Old Version: [1.0.0a6]
+[2023-07-03 10:41:24] INFO root fetch - processPackages [sqlfluff]: New version: [2.1.2] Old Version: [2.1.1]
+[2023-07-03 10:41:24] INFO root fetch - processPackages [sqlfluff-templater-dbt]: New version: [2.1.2] Old Version: [2.1.1]
+[2023-07-03 10:41:24] INFO root fetch - processPackages [tf-estimator-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_estimator_nightly-2.9.0.dev2022033008-py2.py3-none-any.whl.zip]
+[2023-07-03 10:41:24] INFO root fetch - processPackages [tf-estimator-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_estimator_nightly-2.9.0.dev2022033108-py2.py3-none-any.whl.zip]
+[2023-07-03 10:41:24] INFO root fetch - main [MainThread]: End processing [tf-estimator-nightly]: success
+[2023-07-03 10:41:24] INFO root fetch - processPackages [tff-nightly]: New version: [0.0.1.dev20230702] Old Version: [0.0.1.dev20230701]
+[2023-07-03 10:41:24] INFO root fetch - processPackages [molano]: Downloading https://files.pythonhosted.org/packages/cf/84/e37efd7b93813804cbf27f927bb2a5d924e9c7544cee017145344ebb2f14/molano-1.0.0a6.tar.gz
+[2023-07-03 10:41:24] INFO root fetch - processPackages [video-process]: Downloading https://files.pythonhosted.org/packages/4a/a0/c29deccd1cb310e196a81bb099ccac02c4011e4e2a303d43e239e62601c5/video_process-0.2.4.tar.gz
+[2023-07-03 10:41:24] INFO root fetch - processPackages [robino]: Downloading https://files.pythonhosted.org/packages/ca/f5/591dbe6349cbaecdc2df5bd87cc3645c783969c5b05778925bb0d2c11af2/robino-1.0.3.tar.gz
+[2023-07-03 10:41:24] INFO root fetch - processPackages [sqlfluff]: Downloading https://files.pythonhosted.org/packages/12/da/375610053ffff8674dc6689a8404cd3a07d18ef9cf864492e70e3a7f766c/sqlfluff-2.1.1.tar.gz
+[2023-07-03 10:41:24] INFO root fetch - processPackages [tff-nightly]: Downloading https://files.pythonhosted.org/packages/cf/6d/85a58a33baecda9f92882447ff497070236d5dd3eb19cd5c1eea6e24bf83/tff_nightly-0.0.1.dev20230701-py2.py3-none-any.whl
+[2023-07-03 10:41:24] INFO root fetch - processPackages [sqlfluff-templater-dbt]: Downloading https://files.pythonhosted.org/packages/0d/fe/99f54f8fe46fdcdb9de3f2ddc365d1628a400c8366fb765733a7b147e1ce/sqlfluff-templater-dbt-2.1.1.tar.gz
+[2023-07-03 10:41:24] INFO root fetch - processPackages [ewokscore]: Remove: archive file [/home/abi/fetcher/tmp/ewokscore-0.6.1.tar.gz]
+[2023-07-03 10:41:24] INFO root fetch - processPackages [ewokscore]: Remove: archive file [/home/abi/fetcher/tmp/ewokscore-0.7.0.tar.gz]
+[2023-07-03 10:41:24] INFO root fetch - main [MainThread]: End processing [ewokscore]: success
+[2023-07-03 10:41:24] INFO root fetch - processPackages [video-process]: executing diffoscope
+[2023-07-03 10:41:24] INFO root fetch - processPackages [video-process]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/video_process-0.2.3.tar.gz tmp/video_process-0.2.4.tar.gz --markdown 20230703/v/video-process/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-07-03 10:41:24] INFO root fetch - processPackages [robino]: executing diffoscope
+[2023-07-03 10:41:24] INFO root fetch - processPackages [robino]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robino-1.0.2.tar.gz tmp/robino-1.0.3.tar.gz --markdown 20230703/r/robino/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-07-03 10:41:24] INFO root fetch - processPackages [molano]: Downloading https://files.pythonhosted.org/packages/b9/cd/dde39b077eaa0feea200a2ce07ac39c3530e122096121c9a35fa2bf1de81/molano-1.0.0a9.tar.gz
+[2023-07-03 10:41:25] INFO root fetch - processPackages [molano]: executing diffoscope
+[2023-07-03 10:41:25] INFO root fetch - processPackages [molano]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/molano-1.0.0a6.tar.gz tmp/molano-1.0.0a9.tar.gz --markdown 20230703/m/molano/1.0.0a6-1.0.0a9/diff.md --exclude *.pyd
+[2023-07-03 10:41:25] INFO root fetch - processPackages [systembridgewindowssensors]: Remove: archive file [/home/abi/fetcher/tmp/systembridgewindowssensors-3.6.3.dev7.tar.gz]
+[2023-07-03 10:41:25] INFO root fetch - processPackages [systembridgewindowssensors]: Remove: archive file [/home/abi/fetcher/tmp/systembridgewindowssensors-3.7.0.dev1.tar.gz]
+[2023-07-03 10:41:25] INFO root fetch - main [MainThread]: End processing [systembridgewindowssensors]: success
+[2023-07-03 10:41:25] INFO root fetch - processPackages [sqlfluff]: Downloading https://files.pythonhosted.org/packages/7e/fb/36a5cbb407f69731556441a0d3beccadb7e7d4b520ef1fed7a8b99a835d3/sqlfluff-2.1.2.tar.gz
+[2023-07-03 10:41:25] INFO root fetch - processPackages [sqlfluff-templater-dbt]: Downloading https://files.pythonhosted.org/packages/39/bc/392347852801c3384e964158b360687d0c6c7a7a13a34a89b2ba2b927e0c/sqlfluff-templater-dbt-2.1.2.tar.gz
+[2023-07-03 10:41:25] INFO root fetch - processPackages [tff-nightly]: Downloading https://files.pythonhosted.org/packages/18/b7/db4bece334aaa7e09ac3294c4d713da37e0ab22e39802a80f2a3b3e4b381/tff_nightly-0.0.1.dev20230702-py2.py3-none-any.whl
+[2023-07-03 10:41:25] INFO root fetch - processPackages [sqlfluff]: executing diffoscope
+[2023-07-03 10:41:25] INFO root fetch - processPackages [sqlfluff]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlfluff-2.1.1.tar.gz tmp/sqlfluff-2.1.2.tar.gz --markdown 20230703/s/sqlfluff/2.1.1-2.1.2/diff.md --exclude *.pyd
+[2023-07-03 10:41:25] INFO root fetch - processPackages [sqlfluff-templater-dbt]: executing diffoscope
+[2023-07-03 10:41:25] INFO root fetch - processPackages [sqlfluff-templater-dbt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlfluff-templater-dbt-2.1.1.tar.gz tmp/sqlfluff-templater-dbt-2.1.2.tar.gz --markdown 20230703/s/sqlfluff-templater-dbt/2.1.1-2.1.2/diff.md --exclude *.pyd
+[2023-07-03 10:41:25] INFO root fetch - processPackages [ExpoSeq]: Remove: archive file [/home/abi/fetcher/tmp/ExpoSeq-1.1.7.tar.gz]
+[2023-07-03 10:41:25] INFO root fetch - processPackages [ExpoSeq]: Remove: archive file [/home/abi/fetcher/tmp/ExpoSeq-1.1.9.tar.gz]
+[2023-07-03 10:41:25] INFO root fetch - main [MainThread]: End processing [ExpoSeq]: success
+[2023-07-03 10:41:26] INFO root fetch - processPackages [robino]: Remove: archive file [/home/abi/fetcher/tmp/robino-1.0.2.tar.gz]
+[2023-07-03 10:41:26] INFO root fetch - processPackages [robino]: Remove: archive file [/home/abi/fetcher/tmp/robino-1.0.3.tar.gz]
+[2023-07-03 10:41:26] INFO root fetch - main [MainThread]: End processing [robino]: success
+[2023-07-03 10:41:26] INFO root fetch - processPackages [video-process]: Remove: archive file [/home/abi/fetcher/tmp/video_process-0.2.3.tar.gz]
+[2023-07-03 10:41:26] INFO root fetch - processPackages [video-process]: Remove: archive file [/home/abi/fetcher/tmp/video_process-0.2.4.tar.gz]
+[2023-07-03 10:41:26] INFO root fetch - main [MainThread]: End processing [video-process]: success
+[2023-07-03 10:41:26] INFO root fetch - processPackages [tff-nightly]: executing diffoscope
+[2023-07-03 10:41:26] INFO root fetch - processPackages [tff-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tff_nightly-0.0.1.dev20230701-py2.py3-none-any.whl.zip tmp/tff_nightly-0.0.1.dev20230702-py2.py3-none-any.whl.zip --markdown 20230703/t/tff-nightly/0.0.1.dev20230701-0.0.1.dev20230702/diff.md --exclude *.pyd
+[2023-07-03 10:41:26] INFO root fetch - processPackages [molano]: Remove: archive file [/home/abi/fetcher/tmp/molano-1.0.0a6.tar.gz]
+[2023-07-03 10:41:26] INFO root fetch - processPackages [molano]: Remove: archive file [/home/abi/fetcher/tmp/molano-1.0.0a9.tar.gz]
+[2023-07-03 10:41:26] INFO root fetch - main [MainThread]: End processing [molano]: success
+[2023-07-03 10:41:26] INFO root fetch - processPackages [sqlfluff-templater-dbt]: Remove: archive file [/home/abi/fetcher/tmp/sqlfluff-templater-dbt-2.1.1.tar.gz]
+[2023-07-03 10:41:26] INFO root fetch - processPackages [sqlfluff-templater-dbt]: Remove: archive file [/home/abi/fetcher/tmp/sqlfluff-templater-dbt-2.1.2.tar.gz]
+[2023-07-03 10:41:26] INFO root fetch - main [MainThread]: End processing [sqlfluff-templater-dbt]: success
+[2023-07-03 10:41:27] INFO root fetch - processPackages [sqlfluff]: Remove: archive file [/home/abi/fetcher/tmp/sqlfluff-2.1.1.tar.gz]
+[2023-07-03 10:41:27] INFO root fetch - processPackages [sqlfluff]: Remove: archive file [/home/abi/fetcher/tmp/sqlfluff-2.1.2.tar.gz]
+[2023-07-03 10:41:27] INFO root fetch - main [MainThread]: End processing [sqlfluff]: success
+[2023-07-03 10:41:27] INFO root fetch - processPackages [tff-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tff_nightly-0.0.1.dev20230701-py2.py3-none-any.whl.zip]
+[2023-07-03 10:41:27] INFO root fetch - processPackages [tff-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tff_nightly-0.0.1.dev20230702-py2.py3-none-any.whl.zip]
+[2023-07-03 10:41:27] INFO root fetch - main [MainThread]: End processing [tff-nightly]: success
+[2023-07-03 10:41:27] INFO root fetch - main [MainThread]: Store serial: [18736499]
