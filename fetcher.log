@@ -1029,3 +1029,27 @@
 [2023-07-03 01:59:46] INFO root fetch - processPackages [spice-agent]: Remove: archive file [/home/abi/fetcher/tmp/spice_agent-0.1.3.tar.gz]
 [2023-07-03 01:59:46] INFO root fetch - main [MainThread]: End processing [spice-agent]: success
 [2023-07-03 01:59:46] INFO root fetch - main [MainThread]: Store serial: [18732159]
+[2023-07-03 02:04:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18732159]
+[2023-07-03 02:04:55] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-07-03 02:04:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: torchdatasets-nightly
+[2023-07-03 02:04:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pymilka
+[2023-07-03 02:04:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mct-nightly
+[2023-07-03 02:04:56] INFO root fetch - processPackages [torchdatasets-nightly]: New version: [1688256233] Old Version: [1688169846]
+[2023-07-03 02:04:56] INFO root fetch - processPackages [mct-nightly]: New version: [1.9.0.20230702.post453] Old Version: [1.9.0.20230701.post444]
+[2023-07-03 02:04:56] INFO root fetch - processPackages [torchdatasets-nightly]: Downloading https://files.pythonhosted.org/packages/c5/c1/9d6258d2d44fa19792d012da3d33a6fcb2caad243bad92c4871a31f221bf/torchdatasets-nightly-1688169846.tar.gz
+[2023-07-03 02:04:56] INFO root fetch - processPackages [mct-nightly]: Downloading https://files.pythonhosted.org/packages/45/bd/1b40913091ab87008b9bc9daeae29485e9e5d48bf990dfce529f6e4c4250/mct-nightly-1.9.0.20230701.post444.tar.gz
+[2023-07-03 02:04:56] WARNING root fetch - processPackages [pymilka]: Skipping, unable to determine old version
+[2023-07-03 02:04:56] INFO root fetch - main [MainThread]: End processing [pymilka] error
+[2023-07-03 02:04:56] INFO root fetch - processPackages [torchdatasets-nightly]: Downloading https://files.pythonhosted.org/packages/51/8e/48083b9d33edbab56d251e04df0d14c1119bc875587c9524f5d2deb8ec2e/torchdatasets-nightly-1688256233.tar.gz
+[2023-07-03 02:04:56] INFO root fetch - processPackages [mct-nightly]: Downloading https://files.pythonhosted.org/packages/64/03/f4ab64c8f51583dca2b0c3a5e6fa27b8c0e41117d0bced7e5affc3e29551/mct-nightly-1.9.0.20230702.post453.tar.gz
+[2023-07-03 02:04:56] INFO root fetch - processPackages [torchdatasets-nightly]: executing diffoscope
+[2023-07-03 02:04:56] INFO root fetch - processPackages [torchdatasets-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchdatasets-nightly-1688169846.tar.gz tmp/torchdatasets-nightly-1688256233.tar.gz --markdown 20230703/t/torchdatasets-nightly/1688169846-1688256233/diff.md --exclude *.pyd
+[2023-07-03 02:04:56] INFO root fetch - processPackages [mct-nightly]: executing diffoscope
+[2023-07-03 02:04:56] INFO root fetch - processPackages [mct-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mct-nightly-1.9.0.20230701.post444.tar.gz tmp/mct-nightly-1.9.0.20230702.post453.tar.gz --markdown 20230703/m/mct-nightly/1.9.0.20230701.post444-1.9.0.20230702.post453/diff.md --exclude *.pyd
+[2023-07-03 02:04:57] INFO root fetch - processPackages [torchdatasets-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchdatasets-nightly-1688169846.tar.gz]
+[2023-07-03 02:04:57] INFO root fetch - processPackages [torchdatasets-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchdatasets-nightly-1688256233.tar.gz]
+[2023-07-03 02:04:57] INFO root fetch - main [MainThread]: End processing [torchdatasets-nightly]: success
+[2023-07-03 02:05:00] INFO root fetch - processPackages [mct-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-nightly-1.9.0.20230701.post444.tar.gz]
+[2023-07-03 02:05:00] INFO root fetch - processPackages [mct-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-nightly-1.9.0.20230702.post453.tar.gz]
+[2023-07-03 02:05:00] INFO root fetch - main [MainThread]: End processing [mct-nightly]: success
+[2023-07-03 02:05:00] INFO root fetch - main [MainThread]: Store serial: [18732169]
