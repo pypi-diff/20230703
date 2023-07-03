@@ -7443,3 +7443,119 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-03 07:11:51] ERROR root fetch - processPackages [multi-model-server]: Timeout during execution of pkgdiff
 [2023-07-03 07:11:51] INFO root fetch - main [MainThread]: End processing [multi-model-server] error
 [2023-07-03 07:11:51] INFO root fetch - main [MainThread]: Store serial: [18734827]
+[2023-07-03 07:16:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18734827]
+[2023-07-03 07:17:01] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-07-03 07:17:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo14-addon-base-changeset
+[2023-07-03 07:17:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo14-addon-autovacuum-message-attachment
+[2023-07-03 07:17:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyhpke
+[2023-07-03 07:17:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo14-addons-oca-server-tools
+[2023-07-03 07:17:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mwplotlib
+[2023-07-03 07:17:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tflite-runtime-nightly
+[2023-07-03 07:17:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: animethemes-beta-batch-encoder
+[2023-07-03 07:17:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dabbas
+[2023-07-03 07:17:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: fusion-engine
+[2023-07-03 07:17:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo-addon-base-tier-validation-report
+[2023-07-03 07:17:02] WARNING root fetch - processPackages [odoo-addon-base-tier-validation-report]: Skipping, unable to determine old version
+[2023-07-03 07:17:02] INFO root fetch - processPackages [odoo-addon-base-tier-validation-report]: Start processing: odoo-addons-oca-server-ux
+[2023-07-03 07:17:02] INFO root fetch - main [MainThread]: End processing [odoo-addon-base-tier-validation-report] error
+[2023-07-03 07:17:02] INFO root fetch - processPackages [pyhpke]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-07-03 07:17:02] INFO root fetch - processPackages [odoo14-addon-autovacuum-message-attachment]: New version: [14.0.1.0.1.dev8] Old Version: [14.0.1.0.1.dev6]
+[2023-07-03 07:17:02] INFO root fetch - processPackages [mwplotlib]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-07-03 07:17:02] INFO root fetch - processPackages [odoo14-addon-base-changeset]: New version: [14.0.2.0.2.dev9] Old Version: [14.0.2.0.2.dev8]
+[2023-07-03 07:17:02] WARNING root fetch - processPackages [fusion-engine]: Skipping, unable to determine old version
+[2023-07-03 07:17:02] INFO root fetch - processPackages [fusion-engine]: Start processing: tflite-support-nightly
+[2023-07-03 07:17:02] INFO root fetch - main [MainThread]: End processing [fusion-engine] error
+[2023-07-03 07:17:02] INFO root fetch - processPackages [dabbas]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-03 07:17:02] INFO root fetch - processPackages [animethemes-beta-batch-encoder]: New version: [1.3.1] Old Version: [1.3]
+[2023-07-03 07:17:02] INFO root fetch - processPackages [odoo14-addons-oca-server-tools]: New version: [14.0.20230702.0] Old Version: [14.0.20230629.1]
+[2023-07-03 07:17:02] INFO root fetch - processPackages [odoo-addons-oca-server-ux]: New version: [16.0.20230628.1] Old Version: [16.0.20230622.1]
+[2023-07-03 07:17:02] INFO root fetch - processPackages [tflite-runtime-nightly]: New version: [2.14.0.dev20230702] Old Version: [2.14.0.dev20230701]
+[2023-07-03 07:17:02] INFO root fetch - processPackages [mwplotlib]: Downloading https://files.pythonhosted.org/packages/49/c6/4bc79edb18cb0150493e2f9ab9caf1936b6a26d2bcc0dca37b4443a6ea14/mwplotlib-1.1.0.tar.gz
+[2023-07-03 07:17:02] INFO root fetch - processPackages [animethemes-beta-batch-encoder]: Downloading https://files.pythonhosted.org/packages/ad/34/4c9b1ebee7b3f0b9278566df9a2ae0e4424b7630fd1e711a0bade2222991/animethemes-beta-batch-encoder-1.3.tar.gz
+[2023-07-03 07:17:02] INFO root fetch - processPackages [odoo14-addon-base-changeset]: Downloading https://files.pythonhosted.org/packages/34/96/7e55729fd7fef42a17bd9897fc650dce59d48d453dda0854689318228e38/odoo14_addon_base_changeset-14.0.2.0.2.dev8-py3-none-any.whl
+[2023-07-03 07:17:02] INFO root fetch - processPackages [pyhpke]: Downloading https://files.pythonhosted.org/packages/01/b5/99330919fcf5923999c9e1bc271c83bd20ab0612222e152159fa711d0787/pyhpke-0.4.1.tar.gz
+[2023-07-03 07:17:02] INFO root fetch - processPackages [odoo14-addons-oca-server-tools]: Downloading https://files.pythonhosted.org/packages/f5/f5/107f179fa23daee2682208ba123c298934303484ec8b4bffd3df015057ca/odoo14_addons_oca_server_tools-14.0.20230629.1-py3-none-any.whl
+[2023-07-03 07:17:02] INFO root fetch - processPackages [tflite-support-nightly]: New version: [0.4.4.dev20230702] Old Version: [0.4.4.dev20230701]
+[2023-07-03 07:17:02] INFO root fetch - processPackages [odoo-addons-oca-server-ux]: Downloading https://files.pythonhosted.org/packages/23/79/0048585ef235747484f35c1669dda630304f15c523344281127b543d190f/odoo_addons_oca_server_ux-16.0.20230622.1-py3-none-any.whl
+[2023-07-03 07:17:02] INFO root fetch - processPackages [odoo14-addon-autovacuum-message-attachment]: Downloading https://files.pythonhosted.org/packages/35/d7/3658e5dbbba12685cf7f8590d9bea5a12d5bcf223bf5ca499c790ceaf978/odoo14_addon_autovacuum_message_attachment-14.0.1.0.1.dev6-py3-none-any.whl
+[2023-07-03 07:17:02] INFO root fetch - processPackages [dabbas]: Downloading https://files.pythonhosted.org/packages/1a/8e/e5d0691550cb5578a5df9873401513821d6a43ac761b41988a767afd26fd/dabbas-0.1.8.tar.gz
+[2023-07-03 07:17:02] INFO root fetch - processPackages [tflite-runtime-nightly]: Downloading https://files.pythonhosted.org/packages/c8/13/d905275a3ae15f78d5d23794f71bd4211b091b4a3d2dbb081b72c8e35322/tflite_runtime_nightly-2.14.0.dev20230701-cp39-cp39-manylinux2014_x86_64.whl
+[2023-07-03 07:17:02] INFO root fetch - processPackages [mwplotlib]: Downloading https://files.pythonhosted.org/packages/29/a9/4456d47936fbfd8c73ae2b4478c66d05ea61d9b40224f9144940793c9b08/mwplotlib-1.1.1.tar.gz
+[2023-07-03 07:17:02] INFO root fetch - processPackages [tflite-support-nightly]: Downloading https://files.pythonhosted.org/packages/c3/d0/ae551d2471339c91b2b91a82c52a80e581bec6980c9f56fad27cf30f010b/tflite_support_nightly-0.4.4.dev20230701-cp39-cp39-manylinux2014_x86_64.whl
+[2023-07-03 07:17:02] INFO root fetch - processPackages [animethemes-beta-batch-encoder]: Downloading https://files.pythonhosted.org/packages/f0/24/d836e7c65b321c403471d69ba53813cba2c3496cb0cbbe12137eb2bb3696/animethemes-beta-batch-encoder-1.3.1.tar.gz
+[2023-07-03 07:17:02] INFO root fetch - processPackages [odoo-addons-oca-server-ux]: Downloading https://files.pythonhosted.org/packages/e7/d9/ff02694d7fc99abf880ce7481016cde96f134be44f669b03cc1206738020/odoo_addons_oca_server_ux-16.0.20230628.1-py3-none-any.whl
+[2023-07-03 07:17:02] INFO root fetch - processPackages [odoo14-addons-oca-server-tools]: Downloading https://files.pythonhosted.org/packages/ea/93/0ada96b143cbd8b27ed1195c67aafd1f2c3583f3e9525e938944494c0b8b/odoo14_addons_oca_server_tools-14.0.20230702.0-py3-none-any.whl
+[2023-07-03 07:17:02] INFO root fetch - processPackages [dabbas]: Downloading https://files.pythonhosted.org/packages/0c/72/c707c0eb0d3b89ec99495ca7bed05f2b9021c58df26a8bbceee846f4da64/dabbas-0.1.9.tar.gz
+[2023-07-03 07:17:02] WARNING root fetch - processPackages [tflite-support-nightly]: Skipping package: exceeds size limit 60815122>=10485760
+[2023-07-03 07:17:02] INFO root fetch - processPackages [tflite-support-nightly]: Start processing: django-flatpickr
+[2023-07-03 07:17:02] INFO root fetch - main [MainThread]: End processing [tflite-support-nightly] error
+[2023-07-03 07:17:02] INFO root fetch - processPackages [mwplotlib]: executing diffoscope
+[2023-07-03 07:17:02] INFO root fetch - processPackages [mwplotlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mwplotlib-1.1.0.tar.gz tmp/mwplotlib-1.1.1.tar.gz --markdown 20230703/m/mwplotlib/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-07-03 07:17:02] INFO root fetch - processPackages [odoo14-addon-base-changeset]: Downloading https://files.pythonhosted.org/packages/7c/f8/4b85b39bc4566ab393522d17e4eb4b4868b801088141eb501b43058a2461/odoo14_addon_base_changeset-14.0.2.0.2.dev9-py3-none-any.whl
+[2023-07-03 07:17:02] INFO root fetch - processPackages [animethemes-beta-batch-encoder]: executing diffoscope
+[2023-07-03 07:17:02] INFO root fetch - processPackages [animethemes-beta-batch-encoder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/animethemes-beta-batch-encoder-1.3.tar.gz tmp/animethemes-beta-batch-encoder-1.3.1.tar.gz --markdown 20230703/a/animethemes-beta-batch-encoder/1.3-1.3.1/diff.md --exclude *.pyd
+[2023-07-03 07:17:02] INFO root fetch - processPackages [pyhpke]: Downloading https://files.pythonhosted.org/packages/52/eb/4af48761941a2dadac1eb78e38350f105dfb08b3676300260cb0ad36f1f0/pyhpke-0.4.2.tar.gz
+[2023-07-03 07:17:02] INFO root fetch - processPackages [tflite-runtime-nightly]: Downloading https://files.pythonhosted.org/packages/f2/72/9e2e3ec2bd0ce9535e10b7f773fb815d70ebbba7f47e2883beb1eacb250f/tflite_runtime_nightly-2.14.0.dev20230702-cp39-cp39-manylinux2014_x86_64.whl
+[2023-07-03 07:17:02] INFO root fetch - processPackages [odoo14-addon-autovacuum-message-attachment]: Downloading https://files.pythonhosted.org/packages/5e/14/1b6c5865feddbadbd26fa3b7697f1da32ae6249dd5fff03fc5c37dc33686/odoo14_addon_autovacuum_message_attachment-14.0.1.0.1.dev8-py3-none-any.whl
+[2023-07-03 07:17:02] INFO root fetch - processPackages [odoo-addons-oca-server-ux]: executing diffoscope
+[2023-07-03 07:17:02] INFO root fetch - processPackages [odoo-addons-oca-server-ux]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_server_ux-16.0.20230622.1-py3-none-any.whl.zip tmp/odoo_addons_oca_server_ux-16.0.20230628.1-py3-none-any.whl.zip --markdown 20230703/o/odoo-addons-oca-server-ux/16.0.20230622.1-16.0.20230628.1/diff.md --exclude *.pyd
+[2023-07-03 07:17:02] INFO root fetch - processPackages [odoo14-addons-oca-server-tools]: executing diffoscope
+[2023-07-03 07:17:02] INFO root fetch - processPackages [odoo14-addons-oca-server-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addons_oca_server_tools-14.0.20230629.1-py3-none-any.whl.zip tmp/odoo14_addons_oca_server_tools-14.0.20230702.0-py3-none-any.whl.zip --markdown 20230703/o/odoo14-addons-oca-server-tools/14.0.20230629.1-14.0.20230702.0/diff.md --exclude *.pyd
+[2023-07-03 07:17:03] INFO root fetch - processPackages [django-flatpickr]: New version: [2.0.1] Old Version: [2.0.0]
+[2023-07-03 07:17:03] INFO root fetch - processPackages [dabbas]: executing diffoscope
+[2023-07-03 07:17:03] INFO root fetch - processPackages [dabbas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dabbas-0.1.8.tar.gz tmp/dabbas-0.1.9.tar.gz --markdown 20230703/d/dabbas/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-03 07:17:03] INFO root fetch - processPackages [odoo14-addon-base-changeset]: executing diffoscope
+[2023-07-03 07:17:03] INFO root fetch - processPackages [odoo14-addon-base-changeset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_base_changeset-14.0.2.0.2.dev8-py3-none-any.whl.zip tmp/odoo14_addon_base_changeset-14.0.2.0.2.dev9-py3-none-any.whl.zip --markdown 20230703/o/odoo14-addon-base-changeset/14.0.2.0.2.dev8-14.0.2.0.2.dev9/diff.md --exclude *.pyd
+[2023-07-03 07:17:03] INFO root fetch - processPackages [odoo14-addon-autovacuum-message-attachment]: executing diffoscope
+[2023-07-03 07:17:03] INFO root fetch - processPackages [odoo14-addon-autovacuum-message-attachment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_autovacuum_message_attachment-14.0.1.0.1.dev6-py3-none-any.whl.zip tmp/odoo14_addon_autovacuum_message_attachment-14.0.1.0.1.dev8-py3-none-any.whl.zip --markdown 20230703/o/odoo14-addon-autovacuum-message-attachment/14.0.1.0.1.dev6-14.0.1.0.1.dev8/diff.md --exclude *.pyd
+[2023-07-03 07:17:03] INFO root fetch - processPackages [django-flatpickr]: Downloading https://files.pythonhosted.org/packages/84/ff/f9662985fbd46e465eb0f84fd2cf18206693df5297e8412620c9e422cf63/django_flatpickr-2.0.0.tar.gz
+[2023-07-03 07:17:03] INFO root fetch - processPackages [pyhpke]: executing diffoscope
+[2023-07-03 07:17:03] INFO root fetch - processPackages [pyhpke]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyhpke-0.4.1.tar.gz tmp/pyhpke-0.4.2.tar.gz --markdown 20230703/p/pyhpke/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-07-03 07:17:03] INFO root fetch - processPackages [django-flatpickr]: Downloading https://files.pythonhosted.org/packages/43/c1/b00732fbc5aa17267a6b31ebdeaecdd0e2a6a0bd4c239936a0df2cdeadf3/django_flatpickr-2.0.1.tar.gz
+[2023-07-03 07:17:03] INFO root fetch - processPackages [django-flatpickr]: executing diffoscope
+[2023-07-03 07:17:03] INFO root fetch - processPackages [django-flatpickr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_flatpickr-2.0.0.tar.gz tmp/django_flatpickr-2.0.1.tar.gz --markdown 20230703/d/django-flatpickr/2.0.0-2.0.1/diff.md --exclude *.pyd
+[2023-07-03 07:17:03] INFO root fetch - processPackages [tflite-runtime-nightly]: executing diffoscope
+[2023-07-03 07:17:03] INFO root fetch - processPackages [tflite-runtime-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tflite_runtime_nightly-2.14.0.dev20230701-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/tflite_runtime_nightly-2.14.0.dev20230702-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20230703/t/tflite-runtime-nightly/2.14.0.dev20230701-2.14.0.dev20230702/diff.md --exclude *.pyd
+[2023-07-03 07:17:04] INFO root fetch - processPackages [odoo14-addons-oca-server-tools]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addons_oca_server_tools-14.0.20230629.1-py3-none-any.whl.zip]
+[2023-07-03 07:17:04] INFO root fetch - processPackages [odoo14-addons-oca-server-tools]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addons_oca_server_tools-14.0.20230702.0-py3-none-any.whl.zip]
+[2023-07-03 07:17:04] INFO root fetch - processPackages [odoo14-addons-oca-server-tools]: Start processing: FeishuBitableAPI
+[2023-07-03 07:17:04] INFO root fetch - main [MainThread]: End processing [odoo14-addons-oca-server-tools]: success
+[2023-07-03 07:17:04] INFO root fetch - processPackages [odoo-addons-oca-server-ux]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_server_ux-16.0.20230622.1-py3-none-any.whl.zip]
+[2023-07-03 07:17:04] INFO root fetch - processPackages [odoo-addons-oca-server-ux]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_server_ux-16.0.20230628.1-py3-none-any.whl.zip]
+[2023-07-03 07:17:04] INFO root fetch - processPackages [odoo-addons-oca-server-ux]: Start processing: djangoautorouter
+[2023-07-03 07:17:04] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-server-ux]: success
+[2023-07-03 07:17:04] INFO root fetch - processPackages [FeishuBitableAPI]: New version: [3.1.1] Old Version: [3.1.0]
+[2023-07-03 07:17:04] INFO root fetch - processPackages [FeishuBitableAPI]: Downloading https://files.pythonhosted.org/packages/60/46/5fb0db49a2d5e527dd0b5260fcf529f5f5d32ca94ce17110f68db5915bbc/FeishuBitableAPI-3.1.0.tar.gz
+[2023-07-03 07:17:04] WARNING root fetch - processPackages [djangoautorouter]: Skipping, unable to determine old version
+[2023-07-03 07:17:04] INFO root fetch - main [MainThread]: End processing [djangoautorouter] error
+[2023-07-03 07:17:04] INFO root fetch - processPackages [dabbas]: Remove: archive file [/home/abi/fetcher/tmp/dabbas-0.1.8.tar.gz]
+[2023-07-03 07:17:04] INFO root fetch - processPackages [dabbas]: Remove: archive file [/home/abi/fetcher/tmp/dabbas-0.1.9.tar.gz]
+[2023-07-03 07:17:04] INFO root fetch - main [MainThread]: End processing [dabbas]: success
+[2023-07-03 07:17:04] INFO root fetch - processPackages [odoo14-addon-autovacuum-message-attachment]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_autovacuum_message_attachment-14.0.1.0.1.dev6-py3-none-any.whl.zip]
+[2023-07-03 07:17:04] INFO root fetch - processPackages [odoo14-addon-autovacuum-message-attachment]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_autovacuum_message_attachment-14.0.1.0.1.dev8-py3-none-any.whl.zip]
+[2023-07-03 07:17:04] INFO root fetch - main [MainThread]: End processing [odoo14-addon-autovacuum-message-attachment]: success
+[2023-07-03 07:17:04] INFO root fetch - processPackages [FeishuBitableAPI]: Downloading https://files.pythonhosted.org/packages/8a/5c/8ad635c63000f5525ce625e3eafda3ad3af96860585ed5f661585478ba0e/FeishuBitableAPI-3.1.1.tar.gz
+[2023-07-03 07:17:04] INFO root fetch - processPackages [mwplotlib]: Remove: archive file [/home/abi/fetcher/tmp/mwplotlib-1.1.0.tar.gz]
+[2023-07-03 07:17:04] INFO root fetch - processPackages [mwplotlib]: Remove: archive file [/home/abi/fetcher/tmp/mwplotlib-1.1.1.tar.gz]
+[2023-07-03 07:17:04] INFO root fetch - main [MainThread]: End processing [mwplotlib]: success
+[2023-07-03 07:17:04] INFO root fetch - processPackages [FeishuBitableAPI]: executing diffoscope
+[2023-07-03 07:17:04] INFO root fetch - processPackages [FeishuBitableAPI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FeishuBitableAPI-3.1.0.tar.gz tmp/FeishuBitableAPI-3.1.1.tar.gz --markdown 20230703/F/FeishuBitableAPI/3.1.0-3.1.1/diff.md --exclude *.pyd
+[2023-07-03 07:17:04] INFO root fetch - processPackages [animethemes-beta-batch-encoder]: Remove: archive file [/home/abi/fetcher/tmp/animethemes-beta-batch-encoder-1.3.tar.gz]
+[2023-07-03 07:17:04] INFO root fetch - processPackages [animethemes-beta-batch-encoder]: Remove: archive file [/home/abi/fetcher/tmp/animethemes-beta-batch-encoder-1.3.1.tar.gz]
+[2023-07-03 07:17:04] INFO root fetch - main [MainThread]: End processing [animethemes-beta-batch-encoder]: success
+[2023-07-03 07:17:05] INFO root fetch - processPackages [django-flatpickr]: Remove: archive file [/home/abi/fetcher/tmp/django_flatpickr-2.0.0.tar.gz]
+[2023-07-03 07:17:05] INFO root fetch - processPackages [django-flatpickr]: Remove: archive file [/home/abi/fetcher/tmp/django_flatpickr-2.0.1.tar.gz]
+[2023-07-03 07:17:05] INFO root fetch - main [MainThread]: End processing [django-flatpickr]: success
+[2023-07-03 07:17:05] INFO root fetch - processPackages [odoo14-addon-base-changeset]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_base_changeset-14.0.2.0.2.dev8-py3-none-any.whl.zip]
+[2023-07-03 07:17:05] INFO root fetch - processPackages [odoo14-addon-base-changeset]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_base_changeset-14.0.2.0.2.dev9-py3-none-any.whl.zip]
+[2023-07-03 07:17:05] INFO root fetch - main [MainThread]: End processing [odoo14-addon-base-changeset]: success
+[2023-07-03 07:17:06] INFO root fetch - processPackages [tflite-runtime-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tflite_runtime_nightly-2.14.0.dev20230701-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2023-07-03 07:17:06] INFO root fetch - processPackages [tflite-runtime-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tflite_runtime_nightly-2.14.0.dev20230702-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2023-07-03 07:17:06] INFO root fetch - main [MainThread]: End processing [tflite-runtime-nightly]: success
+[2023-07-03 07:17:06] INFO root fetch - processPackages [FeishuBitableAPI]: Remove: archive file [/home/abi/fetcher/tmp/FeishuBitableAPI-3.1.0.tar.gz]
+[2023-07-03 07:17:06] INFO root fetch - processPackages [FeishuBitableAPI]: Remove: archive file [/home/abi/fetcher/tmp/FeishuBitableAPI-3.1.1.tar.gz]
+[2023-07-03 07:17:06] INFO root fetch - main [MainThread]: End processing [FeishuBitableAPI]: success
+[2023-07-03 07:17:07] INFO root fetch - processPackages [pyhpke]: Remove: archive file [/home/abi/fetcher/tmp/pyhpke-0.4.1.tar.gz]
+[2023-07-03 07:17:07] INFO root fetch - processPackages [pyhpke]: Remove: archive file [/home/abi/fetcher/tmp/pyhpke-0.4.2.tar.gz]
+[2023-07-03 07:17:07] INFO root fetch - main [MainThread]: End processing [pyhpke]: success
+[2023-07-03 07:17:07] INFO root fetch - main [MainThread]: Store serial: [18734892]
