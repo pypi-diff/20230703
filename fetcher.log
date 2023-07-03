@@ -6432,3 +6432,96 @@
 [2023-07-03 05:41:24] INFO root fetch - processPackages [spinqit]: Remove: archive file [/home/abi/fetcher/tmp/spinqit-0.1.1-cp39-cp39-win_amd64.whl.zip]
 [2023-07-03 05:41:24] INFO root fetch - main [MainThread]: End processing [spinqit]: success
 [2023-07-03 05:41:24] INFO root fetch - main [MainThread]: Store serial: [18734383]
+[2023-07-03 05:46:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18734383]
+[2023-07-03 05:46:34] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-07-03 05:46:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: loguru-discord
+[2023-07-03 05:46:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: FeishuBitableAPI
+[2023-07-03 05:46:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sreddit
+[2023-07-03 05:46:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dank-mids
+[2023-07-03 05:46:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mypyref
+[2023-07-03 05:46:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: concept-x-converter
+[2023-07-03 05:46:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: RamseyTheoryRL
+[2023-07-03 05:46:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: optastic
+[2023-07-03 05:46:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: DBRetina
+[2023-07-03 05:46:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: jacktest
+[2023-07-03 05:46:34] WARNING root fetch - processPackages [mypyref]: Skipping, unable to determine old version
+[2023-07-03 05:46:34] INFO root fetch - processPackages [mypyref]: Start processing: owe-python-sdk
+[2023-07-03 05:46:34] INFO root fetch - main [MainThread]: End processing [mypyref] error
+[2023-07-03 05:46:34] INFO root fetch - processPackages [dank-mids]: New version: [4.20.9] Old Version: [4.20.8]
+[2023-07-03 05:46:34] WARNING root fetch - processPackages [loguru-discord]: Skipping, unable to determine old version
+[2023-07-03 05:46:34] INFO root fetch - processPackages [sreddit]: New version: [1.2.6] Old Version: [1.2.5]
+[2023-07-03 05:46:34] INFO root fetch - processPackages [loguru-discord]: Start processing: ai2-kit
+[2023-07-03 05:46:34] INFO root fetch - main [MainThread]: End processing [loguru-discord] error
+[2023-07-03 05:46:34] INFO root fetch - processPackages [RamseyTheoryRL]: New version: [0.54] Old Version: [0.53]
+[2023-07-03 05:46:34] INFO root fetch - processPackages [jacktest]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-03 05:46:34] INFO root fetch - processPackages [owe-python-sdk]: New version: [0.0.1a9] Old Version: [0.0.1a8]
+[2023-07-03 05:46:34] WARNING root fetch - processPackages [optastic]: Skipping, unable to determine old version
+[2023-07-03 05:46:34] INFO root fetch - main [MainThread]: End processing [optastic] error
+[2023-07-03 05:46:34] INFO root fetch - processPackages [FeishuBitableAPI]: New version: [3.0.5] Old Version: [3.0.4]
+[2023-07-03 05:46:34] INFO root fetch - processPackages [DBRetina]: New version: [2.2.9] Old Version: [2.2.8]
+[2023-07-03 05:46:34] INFO root fetch - processPackages [concept-x-converter]: New version: [0.3.7] Old Version: [0.3.6]
+[2023-07-03 05:46:34] INFO root fetch - processPackages [ai2-kit]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-03 05:46:34] INFO root fetch - processPackages [dank-mids]: Downloading https://files.pythonhosted.org/packages/dd/d9/a90cdebb46db5a35fe035f493b14d48e210491b568f4927af7919ab2fdbd/dank_mids-4.20.8.tar.gz
+[2023-07-03 05:46:34] INFO root fetch - processPackages [RamseyTheoryRL]: Downloading https://files.pythonhosted.org/packages/93/2f/402ba69f8c4794c18145178fa2269b57c03dda0e6af9c7a4baa725064f38/RamseyTheoryRL-0.53.tar.gz
+[2023-07-03 05:46:34] INFO root fetch - processPackages [owe-python-sdk]: Downloading https://files.pythonhosted.org/packages/b7/87/2ed4496794411461faafd9b31cde5a571ee0b54f11200933d019777ca951/owe_python_sdk-0.0.1a8.tar.gz
+[2023-07-03 05:46:34] INFO root fetch - processPackages [jacktest]: Downloading https://files.pythonhosted.org/packages/89/04/8c2d7ae02a77498731cc73c8ad0c38708a57487638ccc888a6fb3f4a35bc/jacktest-0.0.5.tar.gz
+[2023-07-03 05:46:34] INFO root fetch - processPackages [ai2-kit]: Downloading https://files.pythonhosted.org/packages/eb/f4/ea38d8c9f78873edcbb17216f185baee2019ecb183cd80b334c593f2b1bc/ai2_kit-0.3.8.tar.gz
+[2023-07-03 05:46:34] INFO root fetch - processPackages [DBRetina]: Downloading https://files.pythonhosted.org/packages/2d/27/4639789d91afeb031994b2e4b18127a4d05a446158df3426ad749254d322/DBRetina-2.2.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-03 05:46:34] INFO root fetch - processPackages [dank-mids]: Downloading https://files.pythonhosted.org/packages/e9/d0/a0c6c8d2d154a0250f47b30968e60098b0d44d3b35571e97a925b9b3984f/dank_mids-4.20.9.tar.gz
+[2023-07-03 05:46:34] INFO root fetch - processPackages [FeishuBitableAPI]: Downloading https://files.pythonhosted.org/packages/e3/09/1e0767ef50e46593a59a53e2bea689a2781c6bff6ac058c8d6e47f7a1767/FeishuBitableAPI-3.0.4.tar.gz
+[2023-07-03 05:46:34] INFO root fetch - processPackages [concept-x-converter]: Downloading https://files.pythonhosted.org/packages/72/e7/0a0b0214fb504eb11b2f179d777b4e10abc16c11986b7fb0783fe5149233/concept_x_converter-0.3.6-cp37-abi3-win_amd64.whl
+[2023-07-03 05:46:34] INFO root fetch - processPackages [ai2-kit]: Downloading https://files.pythonhosted.org/packages/f8/ec/3044fde579418570279eb9f4c2d60facdbd573ed724ec7fa07e3a4c940aa/ai2_kit-0.3.9.tar.gz
+[2023-07-03 05:46:34] INFO root fetch - processPackages [owe-python-sdk]: Downloading https://files.pythonhosted.org/packages/31/27/a7a614b3213736597496297134f4cd10fd0ecee2f977d8e86784bb925c43/owe_python_sdk-0.0.1a9.tar.gz
+[2023-07-03 05:46:34] INFO root fetch - processPackages [sreddit]: Downloading https://files.pythonhosted.org/packages/38/34/c748604b0f028727d4fc78c3d7f382f4da1ffaa2f574dfa50ca10bee4c98/sreddit-1.2.5.tar.gz
+[2023-07-03 05:46:35] INFO root fetch - processPackages [ai2-kit]: executing diffoscope
+[2023-07-03 05:46:35] INFO root fetch - processPackages [ai2-kit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ai2_kit-0.3.8.tar.gz tmp/ai2_kit-0.3.9.tar.gz --markdown 20230703/a/ai2-kit/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-03 05:46:35] INFO root fetch - processPackages [dank-mids]: executing diffoscope
+[2023-07-03 05:46:35] INFO root fetch - processPackages [dank-mids]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dank_mids-4.20.8.tar.gz tmp/dank_mids-4.20.9.tar.gz --markdown 20230703/d/dank-mids/4.20.8-4.20.9/diff.md --exclude *.pyd
+[2023-07-03 05:46:35] INFO root fetch - processPackages [owe-python-sdk]: executing diffoscope
+[2023-07-03 05:46:35] INFO root fetch - processPackages [owe-python-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/owe_python_sdk-0.0.1a8.tar.gz tmp/owe_python_sdk-0.0.1a9.tar.gz --markdown 20230703/o/owe-python-sdk/0.0.1a8-0.0.1a9/diff.md --exclude *.pyd
+[2023-07-03 05:46:35] INFO root fetch - processPackages [jacktest]: Downloading https://files.pythonhosted.org/packages/ee/8a/dbee9c849851c5028ee8bf0d6fe81844ceb3cbc909b1b0b1c1bbb7570b0b/jacktest-0.0.6.tar.gz
+[2023-07-03 05:46:35] INFO root fetch - processPackages [RamseyTheoryRL]: Downloading https://files.pythonhosted.org/packages/f0/08/715b6bc086254b8a68b135e14372d64b9f4d64ab7f8af1ad3ea1b1734e14/RamseyTheoryRL-0.54.tar.gz
+[2023-07-03 05:46:35] INFO root fetch - processPackages [concept-x-converter]: Downloading https://files.pythonhosted.org/packages/54/91/7756de9142df4fdef8e1931ee0d1727236e25b39e69ed1ecc2a981927501/concept_x_converter-0.3.7-cp37-abi3-win_amd64.whl
+[2023-07-03 05:46:35] INFO root fetch - processPackages [FeishuBitableAPI]: Downloading https://files.pythonhosted.org/packages/3b/33/a7381a4d9fe565b31cb3a1d2dd43b6b3b19efdd67209d3f4f5afa0fd69c5/FeishuBitableAPI-3.0.5.tar.gz
+[2023-07-03 05:46:35] INFO root fetch - processPackages [jacktest]: executing diffoscope
+[2023-07-03 05:46:35] INFO root fetch - processPackages [jacktest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jacktest-0.0.5.tar.gz tmp/jacktest-0.0.6.tar.gz --markdown 20230703/j/jacktest/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-03 05:46:35] INFO root fetch - processPackages [RamseyTheoryRL]: executing diffoscope
+[2023-07-03 05:46:35] INFO root fetch - processPackages [RamseyTheoryRL]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RamseyTheoryRL-0.53.tar.gz tmp/RamseyTheoryRL-0.54.tar.gz --markdown 20230703/R/RamseyTheoryRL/0.53-0.54/diff.md --exclude *.pyd
+[2023-07-03 05:46:35] INFO root fetch - processPackages [sreddit]: Downloading https://files.pythonhosted.org/packages/9b/4a/2d952ed596ce56e7274e1389aada03e33b86e54da60d88f7f5d345dec9f0/sreddit-1.2.6.tar.gz
+[2023-07-03 05:46:35] INFO root fetch - processPackages [FeishuBitableAPI]: executing diffoscope
+[2023-07-03 05:46:35] INFO root fetch - processPackages [FeishuBitableAPI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FeishuBitableAPI-3.0.4.tar.gz tmp/FeishuBitableAPI-3.0.5.tar.gz --markdown 20230703/F/FeishuBitableAPI/3.0.4-3.0.5/diff.md --exclude *.pyd
+[2023-07-03 05:46:35] INFO root fetch - processPackages [sreddit]: executing diffoscope
+[2023-07-03 05:46:35] INFO root fetch - processPackages [sreddit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sreddit-1.2.5.tar.gz tmp/sreddit-1.2.6.tar.gz --markdown 20230703/s/sreddit/1.2.5-1.2.6/diff.md --exclude *.pyd
+[2023-07-03 05:46:35] INFO root fetch - processPackages [DBRetina]: Downloading https://files.pythonhosted.org/packages/69/9c/c6dde0ad5623c71abd1f045b795791335b2760160922c49eb6342f60c439/DBRetina-2.2.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-03 05:46:35] INFO root fetch - processPackages [concept-x-converter]: executing diffoscope
+[2023-07-03 05:46:35] INFO root fetch - processPackages [concept-x-converter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/concept_x_converter-0.3.6-cp37-abi3-win_amd64.whl.zip tmp/concept_x_converter-0.3.7-cp37-abi3-win_amd64.whl.zip --markdown 20230703/c/concept-x-converter/0.3.6-0.3.7/diff.md --exclude *.pyd
+[2023-07-03 05:46:36] INFO root fetch - processPackages [DBRetina]: executing diffoscope
+[2023-07-03 05:46:36] INFO root fetch - processPackages [DBRetina]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DBRetina-2.2.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/DBRetina-2.2.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230703/D/DBRetina/2.2.8-2.2.9/diff.md --exclude *.pyd
+[2023-07-03 05:46:36] INFO root fetch - processPackages [dank-mids]: Remove: archive file [/home/abi/fetcher/tmp/dank_mids-4.20.8.tar.gz]
+[2023-07-03 05:46:36] INFO root fetch - processPackages [dank-mids]: Remove: archive file [/home/abi/fetcher/tmp/dank_mids-4.20.9.tar.gz]
+[2023-07-03 05:46:36] INFO root fetch - main [MainThread]: End processing [dank-mids]: success
+[2023-07-03 05:46:36] INFO root fetch - processPackages [jacktest]: Remove: archive file [/home/abi/fetcher/tmp/jacktest-0.0.5.tar.gz]
+[2023-07-03 05:46:36] INFO root fetch - processPackages [jacktest]: Remove: archive file [/home/abi/fetcher/tmp/jacktest-0.0.6.tar.gz]
+[2023-07-03 05:46:36] INFO root fetch - main [MainThread]: End processing [jacktest]: success
+[2023-07-03 05:46:36] INFO root fetch - processPackages [owe-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/owe_python_sdk-0.0.1a8.tar.gz]
+[2023-07-03 05:46:36] INFO root fetch - processPackages [owe-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/owe_python_sdk-0.0.1a9.tar.gz]
+[2023-07-03 05:46:36] INFO root fetch - main [MainThread]: End processing [owe-python-sdk]: success
+[2023-07-03 05:46:36] INFO root fetch - processPackages [ai2-kit]: Remove: archive file [/home/abi/fetcher/tmp/ai2_kit-0.3.8.tar.gz]
+[2023-07-03 05:46:36] INFO root fetch - processPackages [ai2-kit]: Remove: archive file [/home/abi/fetcher/tmp/ai2_kit-0.3.9.tar.gz]
+[2023-07-03 05:46:36] INFO root fetch - main [MainThread]: End processing [ai2-kit]: success
+[2023-07-03 05:46:36] INFO root fetch - processPackages [sreddit]: Remove: archive file [/home/abi/fetcher/tmp/sreddit-1.2.5.tar.gz]
+[2023-07-03 05:46:36] INFO root fetch - processPackages [sreddit]: Remove: archive file [/home/abi/fetcher/tmp/sreddit-1.2.6.tar.gz]
+[2023-07-03 05:46:36] INFO root fetch - main [MainThread]: End processing [sreddit]: success
+[2023-07-03 05:46:36] INFO root fetch - processPackages [FeishuBitableAPI]: Remove: archive file [/home/abi/fetcher/tmp/FeishuBitableAPI-3.0.4.tar.gz]
+[2023-07-03 05:46:36] INFO root fetch - processPackages [FeishuBitableAPI]: Remove: archive file [/home/abi/fetcher/tmp/FeishuBitableAPI-3.0.5.tar.gz]
+[2023-07-03 05:46:36] INFO root fetch - main [MainThread]: End processing [FeishuBitableAPI]: success
+[2023-07-03 05:46:36] INFO root fetch - processPackages [concept-x-converter]: Remove: archive file [/home/abi/fetcher/tmp/concept_x_converter-0.3.6-cp37-abi3-win_amd64.whl.zip]
+[2023-07-03 05:46:36] INFO root fetch - processPackages [concept-x-converter]: Remove: archive file [/home/abi/fetcher/tmp/concept_x_converter-0.3.7-cp37-abi3-win_amd64.whl.zip]
+[2023-07-03 05:46:36] INFO root fetch - main [MainThread]: End processing [concept-x-converter]: success
+[2023-07-03 05:46:36] INFO root fetch - processPackages [RamseyTheoryRL]: Remove: archive file [/home/abi/fetcher/tmp/RamseyTheoryRL-0.53.tar.gz]
+[2023-07-03 05:46:36] INFO root fetch - processPackages [RamseyTheoryRL]: Remove: archive file [/home/abi/fetcher/tmp/RamseyTheoryRL-0.54.tar.gz]
+[2023-07-03 05:46:36] INFO root fetch - main [MainThread]: End processing [RamseyTheoryRL]: success
+[2023-07-03 05:46:37] INFO root fetch - processPackages [DBRetina]: Remove: archive file [/home/abi/fetcher/tmp/DBRetina-2.2.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-03 05:46:37] INFO root fetch - processPackages [DBRetina]: Remove: archive file [/home/abi/fetcher/tmp/DBRetina-2.2.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-03 05:46:37] INFO root fetch - main [MainThread]: End processing [DBRetina]: success
+[2023-07-03 05:46:37] INFO root fetch - main [MainThread]: Store serial: [18734436]
