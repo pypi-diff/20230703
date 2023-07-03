@@ -21804,3 +21804,79 @@ EOFError: EOF read where object expected
 [2023-07-03 16:39:20] INFO root fetch - processPackages [frictionless]: Remove: archive file [/home/abi/fetcher/tmp/frictionless-5.8.3.tar.gz]
 [2023-07-03 16:39:20] INFO root fetch - main [MainThread]: End processing [frictionless]: success
 [2023-07-03 16:39:20] INFO root fetch - main [MainThread]: Store serial: [18740791]
+[2023-07-03 16:44:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18740791]
+[2023-07-03 16:44:29] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-03 16:44:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo13-addon-product-analytic
+[2023-07-03 16:44:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: opensesame-core
+[2023-07-03 16:44:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: personal-knowledge-library
+[2023-07-03 16:44:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: livekit
+[2023-07-03 16:44:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: zesty.zbs-api-securonix
+[2023-07-03 16:44:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nwon-django-toolbox
+[2023-07-03 16:44:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: textual
+[2023-07-03 16:44:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ag-llama-api
+[2023-07-03 16:44:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: rapunzel
+[2023-07-03 16:44:29] INFO root fetch - processPackages [odoo13-addon-product-analytic]: New version: [13.0.1.0.1.dev9] Old Version: [13.0.1.0.1.dev8]
+[2023-07-03 16:44:29] INFO root fetch - processPackages [zesty.zbs-api-securonix]: New version: [1.0.2023.7.3.1688388215] Old Version: [1.0.2023.7.2.1688341676]
+[2023-07-03 16:44:29] INFO root fetch - processPackages [ag-llama-api]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-03 16:44:29] INFO root fetch - processPackages [textual]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-07-03 16:44:29] INFO root fetch - processPackages [personal-knowledge-library]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-07-03 16:44:29] INFO root fetch - processPackages [odoo13-addon-product-analytic]: Downloading https://files.pythonhosted.org/packages/ac/66/015a132192766a1157be0166c873e9d60b7500343ca131e5e45b012c7105/odoo13_addon_product_analytic-13.0.1.0.1.dev8-py3-none-any.whl
+[2023-07-03 16:44:29] INFO root fetch - processPackages [livekit]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-03 16:44:29] INFO root fetch - processPackages [opensesame-core]: New version: [4.0.0a5] Old Version: [4.0.0a49]
+[2023-07-03 16:44:29] INFO root fetch - processPackages [ag-llama-api]: Downloading https://files.pythonhosted.org/packages/e7/db/6c93bb8ec9653fafd298258240710b4768345a45843013bc715cf9e658f7/ag_llama_api-0.0.8.tar.gz
+[2023-07-03 16:44:29] INFO root fetch - processPackages [nwon-django-toolbox]: New version: [0.5.8] Old Version: [0.5.7]
+[2023-07-03 16:44:29] INFO root fetch - processPackages [zesty.zbs-api-securonix]: Downloading https://files.pythonhosted.org/packages/87/0a/8376cf5da9446060f4ec2da73c12e9820f378175b68e09221443cef967df/zesty.zbs-api-securonix-1.0.2023.7.2.1688341676.tar.gz
+[2023-07-03 16:44:29] INFO root fetch - processPackages [rapunzel]: New version: [1.0.0a9] Old Version: [1.0.0a8]
+[2023-07-03 16:44:29] INFO root fetch - processPackages [textual]: Downloading https://files.pythonhosted.org/packages/17/d2/002affba91d339187f5699c26fecc3fa3bf966f17c5d08bb696c724b63ee/textual-0.9.0.tar.gz
+[2023-07-03 16:44:30] INFO root fetch - processPackages [opensesame-core]: Downloading https://files.pythonhosted.org/packages/6e/d8/98f3634d12dbf84a8fb701f5fd171a0716d3a22edacc03c8c26208f53d2d/opensesame_core-4.0.0a49.tar.gz
+[2023-07-03 16:44:30] INFO root fetch - processPackages [personal-knowledge-library]: Downloading https://files.pythonhosted.org/packages/02/99/6f2217118b74b883515098d1d47af6448672c31638d58110dd1fd029930f/personal_knowledge_library-1.0.4.tar.gz
+[2023-07-03 16:44:30] INFO root fetch - processPackages [rapunzel]: Downloading https://files.pythonhosted.org/packages/de/c2/86e1513fa726ebf6f6ed180a18e6d976d061b08590d2cfc35e9b3a258b92/rapunzel-1.0.0a8.tar.gz
+[2023-07-03 16:44:30] INFO root fetch - processPackages [livekit]: Downloading https://files.pythonhosted.org/packages/43/38/b9a5193f46075f71027a0e445b3e839e2f7407377affb1e3c444d1f8bc49/livekit-0.1.0-py3-none-any.whl
+[2023-07-03 16:44:30] INFO root fetch - processPackages [ag-llama-api]: Downloading https://files.pythonhosted.org/packages/0e/45/5ce146425eb4c54590e514bf53d436ec8eb7cbeee70953b613dcd4e56824/ag_llama_api-0.0.9.tar.gz
+[2023-07-03 16:44:30] INFO root fetch - processPackages [nwon-django-toolbox]: Downloading https://files.pythonhosted.org/packages/13/00/c58de7b71e8903184f1a92f47d6ddca571a17903fa237f1370dbdb0a4a4d/nwon_django_toolbox-0.5.7.tar.gz
+[2023-07-03 16:44:30] INFO root fetch - processPackages [odoo13-addon-product-analytic]: Downloading https://files.pythonhosted.org/packages/70/65/c13d9b454cb70f49c2e70af3bed67802bedc529336789edf57bd9684c724/odoo13_addon_product_analytic-13.0.1.0.1.dev9-py3-none-any.whl
+[2023-07-03 16:44:30] INFO root fetch - processPackages [zesty.zbs-api-securonix]: Downloading https://files.pythonhosted.org/packages/11/19/d645f0ab22307572e9b7ac814183f24784a813758385754fc6550aa95309/zesty.zbs-api-securonix-1.0.2023.7.3.1688388215.tar.gz
+[2023-07-03 16:44:30] WARNING root fetch - processPackages [opensesame-core]: Skipping package: exceeds size limit 18926577>=10485760
+[2023-07-03 16:44:30] INFO root fetch - main [MainThread]: End processing [opensesame-core] error
+[2023-07-03 16:44:30] INFO root fetch - processPackages [textual]: Downloading https://files.pythonhosted.org/packages/0e/7d/2155bf024c3bdf1dc6365e109a16bab46098e032e62666565176ebc9f84a/textual-0.9.1.tar.gz
+[2023-07-03 16:44:30] WARNING root fetch - processPackages [livekit]: Skipping package: exceeds size limit 43048919>=10485760
+[2023-07-03 16:44:30] INFO root fetch - main [MainThread]: End processing [livekit] error
+[2023-07-03 16:44:30] INFO root fetch - processPackages [ag-llama-api]: executing diffoscope
+[2023-07-03 16:44:30] INFO root fetch - processPackages [ag-llama-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ag_llama_api-0.0.8.tar.gz tmp/ag_llama_api-0.0.9.tar.gz --markdown 20230703/a/ag-llama-api/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-03 16:44:30] INFO root fetch - processPackages [odoo13-addon-product-analytic]: executing diffoscope
+[2023-07-03 16:44:30] INFO root fetch - processPackages [zesty.zbs-api-securonix]: executing diffoscope
+[2023-07-03 16:44:30] INFO root fetch - processPackages [odoo13-addon-product-analytic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addon_product_analytic-13.0.1.0.1.dev8-py3-none-any.whl.zip tmp/odoo13_addon_product_analytic-13.0.1.0.1.dev9-py3-none-any.whl.zip --markdown 20230703/o/odoo13-addon-product-analytic/13.0.1.0.1.dev8-13.0.1.0.1.dev9/diff.md --exclude *.pyd
+[2023-07-03 16:44:30] INFO root fetch - processPackages [zesty.zbs-api-securonix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zesty.zbs-api-securonix-1.0.2023.7.2.1688341676.tar.gz tmp/zesty.zbs-api-securonix-1.0.2023.7.3.1688388215.tar.gz --markdown 20230703/z/zesty.zbs-api-securonix/1.0.2023.7.2.1688341676-1.0.2023.7.3.1688388215/diff.md --exclude *.pyd
+[2023-07-03 16:44:30] INFO root fetch - processPackages [textual]: executing diffoscope
+[2023-07-03 16:44:30] INFO root fetch - processPackages [textual]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/textual-0.9.0.tar.gz tmp/textual-0.9.1.tar.gz --markdown 20230703/t/textual/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-07-03 16:44:30] INFO root fetch - processPackages [personal-knowledge-library]: Downloading https://files.pythonhosted.org/packages/a4/0e/1fe959a87f448da1f3d17f26c020b6e00c76f3e3eb6b61c8c813273517fa/personal_knowledge_library-1.0.5.tar.gz
+[2023-07-03 16:44:30] INFO root fetch - processPackages [rapunzel]: Downloading https://files.pythonhosted.org/packages/77/22/06d8a6c065dcaed023ec0fe794a9f3c723f2396fc1d1da140b985e0e47ff/rapunzel-1.0.0a9.tar.gz
+[2023-07-03 16:44:30] INFO root fetch - processPackages [personal-knowledge-library]: executing diffoscope
+[2023-07-03 16:44:30] INFO root fetch - processPackages [personal-knowledge-library]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/personal_knowledge_library-1.0.4.tar.gz tmp/personal_knowledge_library-1.0.5.tar.gz --markdown 20230703/p/personal-knowledge-library/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-07-03 16:44:30] INFO root fetch - processPackages [nwon-django-toolbox]: Downloading https://files.pythonhosted.org/packages/33/a5/5f03b0c0ab24a2724115c394fd8bde5031d21c2b46bb8dbb9fe059fd25fb/nwon_django_toolbox-0.5.8.tar.gz
+[2023-07-03 16:44:30] INFO root fetch - processPackages [rapunzel]: executing diffoscope
+[2023-07-03 16:44:30] INFO root fetch - processPackages [rapunzel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rapunzel-1.0.0a8.tar.gz tmp/rapunzel-1.0.0a9.tar.gz --markdown 20230703/r/rapunzel/1.0.0a8-1.0.0a9/diff.md --exclude *.pyd
+[2023-07-03 16:44:31] INFO root fetch - processPackages [nwon-django-toolbox]: executing diffoscope
+[2023-07-03 16:44:31] INFO root fetch - processPackages [nwon-django-toolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nwon_django_toolbox-0.5.7.tar.gz tmp/nwon_django_toolbox-0.5.8.tar.gz --markdown 20230703/n/nwon-django-toolbox/0.5.7-0.5.8/diff.md --exclude *.pyd
+[2023-07-03 16:44:31] INFO root fetch - processPackages [ag-llama-api]: Remove: archive file [/home/abi/fetcher/tmp/ag_llama_api-0.0.8.tar.gz]
+[2023-07-03 16:44:31] INFO root fetch - processPackages [ag-llama-api]: Remove: archive file [/home/abi/fetcher/tmp/ag_llama_api-0.0.9.tar.gz]
+[2023-07-03 16:44:31] INFO root fetch - main [MainThread]: End processing [ag-llama-api]: success
+[2023-07-03 16:44:31] INFO root fetch - processPackages [zesty.zbs-api-securonix]: Remove: archive file [/home/abi/fetcher/tmp/zesty.zbs-api-securonix-1.0.2023.7.2.1688341676.tar.gz]
+[2023-07-03 16:44:31] INFO root fetch - processPackages [zesty.zbs-api-securonix]: Remove: archive file [/home/abi/fetcher/tmp/zesty.zbs-api-securonix-1.0.2023.7.3.1688388215.tar.gz]
+[2023-07-03 16:44:31] INFO root fetch - main [MainThread]: End processing [zesty.zbs-api-securonix]: success
+[2023-07-03 16:44:31] INFO root fetch - processPackages [odoo13-addon-product-analytic]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_product_analytic-13.0.1.0.1.dev8-py3-none-any.whl.zip]
+[2023-07-03 16:44:31] INFO root fetch - processPackages [odoo13-addon-product-analytic]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_product_analytic-13.0.1.0.1.dev9-py3-none-any.whl.zip]
+[2023-07-03 16:44:31] INFO root fetch - main [MainThread]: End processing [odoo13-addon-product-analytic]: success
+[2023-07-03 16:44:32] INFO root fetch - processPackages [personal-knowledge-library]: Remove: archive file [/home/abi/fetcher/tmp/personal_knowledge_library-1.0.4.tar.gz]
+[2023-07-03 16:44:32] INFO root fetch - processPackages [personal-knowledge-library]: Remove: archive file [/home/abi/fetcher/tmp/personal_knowledge_library-1.0.5.tar.gz]
+[2023-07-03 16:44:32] INFO root fetch - main [MainThread]: End processing [personal-knowledge-library]: success
+[2023-07-03 16:44:32] INFO root fetch - processPackages [textual]: Remove: archive file [/home/abi/fetcher/tmp/textual-0.9.0.tar.gz]
+[2023-07-03 16:44:32] INFO root fetch - processPackages [textual]: Remove: archive file [/home/abi/fetcher/tmp/textual-0.9.1.tar.gz]
+[2023-07-03 16:44:32] INFO root fetch - main [MainThread]: End processing [textual]: success
+[2023-07-03 16:44:32] INFO root fetch - processPackages [rapunzel]: Remove: archive file [/home/abi/fetcher/tmp/rapunzel-1.0.0a8.tar.gz]
+[2023-07-03 16:44:32] INFO root fetch - processPackages [rapunzel]: Remove: archive file [/home/abi/fetcher/tmp/rapunzel-1.0.0a9.tar.gz]
+[2023-07-03 16:44:32] INFO root fetch - main [MainThread]: End processing [rapunzel]: success
+[2023-07-03 16:44:44] INFO root fetch - processPackages [nwon-django-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/nwon_django_toolbox-0.5.7.tar.gz]
+[2023-07-03 16:44:44] INFO root fetch - processPackages [nwon-django-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/nwon_django_toolbox-0.5.8.tar.gz]
+[2023-07-03 16:44:44] INFO root fetch - main [MainThread]: End processing [nwon-django-toolbox]: success
+[2023-07-03 16:44:44] INFO root fetch - main [MainThread]: Store serial: [18740817]
