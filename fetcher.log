@@ -11469,3 +11469,153 @@ AssertionError: tmp/discord-ansi-0.3.tar.gz does not exist
 [2023-07-03 10:41:27] INFO root fetch - processPackages [tff-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tff_nightly-0.0.1.dev20230702-py2.py3-none-any.whl.zip]
 [2023-07-03 10:41:27] INFO root fetch - main [MainThread]: End processing [tff-nightly]: success
 [2023-07-03 10:41:27] INFO root fetch - main [MainThread]: Store serial: [18736499]
+[2023-07-03 10:46:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18736499]
+[2023-07-03 10:46:36] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-07-03 10:46:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: few-shot-priming
+[2023-07-03 10:46:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: plottah
+[2023-07-03 10:46:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: modal-client
+[2023-07-03 10:46:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: modal
+[2023-07-03 10:46:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: invenio-administration
+[2023-07-03 10:46:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: volworld-common
+[2023-07-03 10:46:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: evo
+[2023-07-03 10:46:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tinybird-cli
+[2023-07-03 10:46:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pywa
+[2023-07-03 10:46:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ailola
+[2023-07-03 10:46:36] INFO root fetch - processPackages [invenio-administration]: New version: [1.6.0] Old Version: [1.5.0]
+[2023-07-03 10:46:36] INFO root fetch - processPackages [pywa]: New version: [0.0.1rc14] Old Version: [0.0.1rc13]
+[2023-07-03 10:46:36] INFO root fetch - processPackages [tinybird-cli]: New version: [1.0.0b99] Old Version: [1.0.0b98]
+[2023-07-03 10:46:36] INFO root fetch - processPackages [plottah]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-03 10:46:36] INFO root fetch - processPackages [volworld-common]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-03 10:46:36] INFO root fetch - processPackages [modal]: New version: [0.50.2544] Old Version: [0.50.2539]
+[2023-07-03 10:46:36] WARNING root fetch - processPackages [ailola]: Skipping, unable to determine old version
+[2023-07-03 10:46:36] INFO root fetch - processPackages [ailola]: Start processing: hayloft
+[2023-07-03 10:46:36] INFO root fetch - main [MainThread]: End processing [ailola] error
+[2023-07-03 10:46:36] INFO root fetch - processPackages [modal-client]: New version: [0.50.2544] Old Version: [0.50.2539]
+[2023-07-03 10:46:37] INFO root fetch - processPackages [evo]: New version: [1.9.1] Old Version: [1.9]
+[2023-07-03 10:46:37] INFO root fetch - processPackages [few-shot-priming]: New version: [0.0.99] Old Version: [0.0.96]
+[2023-07-03 10:46:37] INFO root fetch - processPackages [pywa]: Downloading https://files.pythonhosted.org/packages/e7/a2/8614ad474c51ef56bb7208e4e62da07d0c74455022fdcab6f2e67fada143/pywa-0.0.1rc13-py3-none-any.whl
+[2023-07-03 10:46:37] INFO root fetch - processPackages [modal]: Downloading https://files.pythonhosted.org/packages/46/c5/961205e3b874b81b87a50dcc671b5514b00a36680390e094e97bfd4b940e/modal-0.50.2539-py3-none-any.whl
+[2023-07-03 10:46:37] INFO root fetch - processPackages [modal-client]: Downloading https://files.pythonhosted.org/packages/25/2b/7ad0f83d9f7bc647ce4cfc7500184fe19fe51124d1c719a0065e436af8f3/modal_client-0.50.2539-py3-none-any.whl
+[2023-07-03 10:46:37] INFO root fetch - processPackages [tinybird-cli]: Downloading https://files.pythonhosted.org/packages/cf/bc/f6fe2aa48ad97fc6f03b105a263497f0cc5d7173fa89703bbc609c18f13a/tinybird-cli-1.0.0b98.tar.gz
+[2023-07-03 10:46:37] INFO root fetch - processPackages [invenio-administration]: Downloading https://files.pythonhosted.org/packages/d2/16/75530a4cee7b9f3cd23d0e976e3f8180c94660efae48161a2dc1dcc66485/invenio-administration-1.5.0.tar.gz
+[2023-07-03 10:46:37] INFO root fetch - processPackages [hayloft]: New version: [0.4.0a0] Old Version: [0.3.1]
+[2023-07-03 10:46:37] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/d5/95/d70c95da3e78b71d35838af276daf5b2f53394c4c9a44fa5dd8f2aa64498/few_shot_priming-0.0.96-py3-none-any.whl
+[2023-07-03 10:46:37] INFO root fetch - processPackages [volworld-common]: Downloading https://files.pythonhosted.org/packages/36/f5/04703f35fdba4fe396b51dd9a209f86f4b86ba14d4f6e3daf103a7c5f1be/volworld_common-0.1.8.tar.gz
+[2023-07-03 10:46:37] INFO root fetch - processPackages [evo]: Downloading https://files.pythonhosted.org/packages/fa/e5/ee49f9a9284fdc048d92a81fd7415a0edbfcdfb5cb1a4591bf861ed3ee41/evo-1.9.tar.gz
+[2023-07-03 10:46:37] INFO root fetch - processPackages [plottah]: Downloading https://files.pythonhosted.org/packages/1f/bd/8004e10cd96d279cff357b27c7c2919bfd278da1ebc414d2d82c898deaa5/plottah-0.1.8.tar.gz
+[2023-07-03 10:46:37] INFO root fetch - processPackages [hayloft]: Downloading https://files.pythonhosted.org/packages/56/cb/7b1884fc8954d86490af602f0bcb87c5f031163d41b40f2f3c5dd88e8b05/hayloft-0.3.1.tar.gz
+[2023-07-03 10:46:37] INFO root fetch - processPackages [modal]: Downloading https://files.pythonhosted.org/packages/26/07/98e78d9722a45c7e21df75056668ef818d96427513ae04788b645cdfeed7/modal-0.50.2544-py3-none-any.whl
+[2023-07-03 10:46:37] INFO root fetch - processPackages [pywa]: Downloading https://files.pythonhosted.org/packages/a5/0a/56b51c4f77cbc747b9672cd9b97fb7774bf76e08110da2d4297410937b03/pywa-0.0.1rc14-py3-none-any.whl
+[2023-07-03 10:46:37] INFO root fetch - processPackages [modal-client]: Downloading https://files.pythonhosted.org/packages/a0/3f/b36119dd53339ea6594afb18d4db15e006999256026670df66b0c6c24f60/modal_client-0.50.2544-py3-none-any.whl
+[2023-07-03 10:46:37] INFO root fetch - processPackages [tinybird-cli]: Downloading https://files.pythonhosted.org/packages/6a/27/a5d411f1a02b44b9f386c7d18397784dcaa5fe1129d9a77e87a5e048edc5/tinybird-cli-1.0.0b99.tar.gz
+[2023-07-03 10:46:37] INFO root fetch - processPackages [invenio-administration]: Downloading https://files.pythonhosted.org/packages/be/98/4b1e543051c927ae70cb0196057cf94b2bd90e99570965083b66f3175085/invenio-administration-1.6.0.tar.gz
+[2023-07-03 10:46:37] INFO root fetch - processPackages [modal]: executing diffoscope
+[2023-07-03 10:46:37] INFO root fetch - processPackages [modal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modal-0.50.2539-py3-none-any.whl.zip tmp/modal-0.50.2544-py3-none-any.whl.zip --markdown 20230703/m/modal/0.50.2539-0.50.2544/diff.md --exclude *.pyd
+[2023-07-03 10:46:37] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/1e/e8/6368ab93b7135424a35ce07aac4de4056a38a1ae6f862ed63a5a79a4dce6/few_shot_priming-0.0.99-py3-none-any.whl
+[2023-07-03 10:46:37] INFO root fetch - processPackages [evo]: Downloading https://files.pythonhosted.org/packages/a2/43/5be79fe2d4ceac3509b0eabb311aa1a37ae30e1bf2a0267346548575c189/evo-1.9.1.tar.gz
+[2023-07-03 10:46:37] INFO root fetch - processPackages [pywa]: executing diffoscope
+[2023-07-03 10:46:37] INFO root fetch - processPackages [pywa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pywa-0.0.1rc13-py3-none-any.whl.zip tmp/pywa-0.0.1rc14-py3-none-any.whl.zip --markdown 20230703/p/pywa/0.0.1rc13-0.0.1rc14/diff.md --exclude *.pyd
+[2023-07-03 10:46:37] INFO root fetch - processPackages [volworld-common]: Downloading https://files.pythonhosted.org/packages/02/36/ee40d29c97ab10ad17e2e9e1bc1421c09bf3b8e9938152ca40d63eba5559/volworld_common-0.1.9.tar.gz
+[2023-07-03 10:46:38] INFO root fetch - processPackages [modal-client]: executing diffoscope
+[2023-07-03 10:46:38] INFO root fetch - processPackages [modal-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modal_client-0.50.2539-py3-none-any.whl.zip tmp/modal_client-0.50.2544-py3-none-any.whl.zip --markdown 20230703/m/modal-client/0.50.2539-0.50.2544/diff.md --exclude *.pyd
+[2023-07-03 10:46:38] INFO root fetch - processPackages [tinybird-cli]: executing diffoscope
+[2023-07-03 10:46:38] INFO root fetch - processPackages [tinybird-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tinybird-cli-1.0.0b98.tar.gz tmp/tinybird-cli-1.0.0b99.tar.gz --markdown 20230703/t/tinybird-cli/1.0.0b98-1.0.0b99/diff.md --exclude *.pyd
+[2023-07-03 10:46:38] INFO root fetch - processPackages [invenio-administration]: executing diffoscope
+[2023-07-03 10:46:38] INFO root fetch - processPackages [invenio-administration]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/invenio-administration-1.5.0.tar.gz tmp/invenio-administration-1.6.0.tar.gz --markdown 20230703/i/invenio-administration/1.5.0-1.6.0/diff.md --exclude *.pyd
+[2023-07-03 10:46:38] INFO root fetch - processPackages [hayloft]: Downloading https://files.pythonhosted.org/packages/1d/76/742bd80f2e242ea724afcd00ee3ed825307fc25c5171267711998a7cfe3c/hayloft-0.4.0a0.tar.gz
+[2023-07-03 10:46:38] INFO root fetch - processPackages [plottah]: Downloading https://files.pythonhosted.org/packages/f0/0c/2b96606283fa54d0dde8653cbc8688dcd7136b8891488fa91b0b62a6ea23/plottah-0.1.9.tar.gz
+[2023-07-03 10:46:38] INFO root fetch - processPackages [evo]: executing diffoscope
+[2023-07-03 10:46:38] INFO root fetch - processPackages [evo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/evo-1.9.tar.gz tmp/evo-1.9.1.tar.gz --markdown 20230703/e/evo/1.9-1.9.1/diff.md --exclude *.pyd
+[2023-07-03 10:46:38] INFO root fetch - processPackages [few-shot-priming]: executing diffoscope
+[2023-07-03 10:46:38] INFO root fetch - processPackages [few-shot-priming]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/few_shot_priming-0.0.96-py3-none-any.whl.zip tmp/few_shot_priming-0.0.99-py3-none-any.whl.zip --markdown 20230703/f/few-shot-priming/0.0.96-0.0.99/diff.md --exclude *.pyd
+[2023-07-03 10:46:38] INFO root fetch - processPackages [volworld-common]: executing diffoscope
+[2023-07-03 10:46:38] INFO root fetch - processPackages [volworld-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/volworld_common-0.1.8.tar.gz tmp/volworld_common-0.1.9.tar.gz --markdown 20230703/v/volworld-common/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-03 10:46:38] INFO root fetch - processPackages [hayloft]: executing diffoscope
+[2023-07-03 10:46:38] INFO root fetch - processPackages [hayloft]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hayloft-0.3.1.tar.gz tmp/hayloft-0.4.0a0.tar.gz --markdown 20230703/h/hayloft/0.3.1-0.4.0a0/diff.md --exclude *.pyd
+[2023-07-03 10:46:38] INFO root fetch - processPackages [plottah]: executing diffoscope
+[2023-07-03 10:46:38] INFO root fetch - processPackages [plottah]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plottah-0.1.8.tar.gz tmp/plottah-0.1.9.tar.gz --markdown 20230703/p/plottah/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-03 10:46:39] INFO root fetch - processPackages [modal]: Remove: archive file [/home/abi/fetcher/tmp/modal-0.50.2539-py3-none-any.whl.zip]
+[2023-07-03 10:46:39] INFO root fetch - processPackages [modal]: Remove: archive file [/home/abi/fetcher/tmp/modal-0.50.2544-py3-none-any.whl.zip]
+[2023-07-03 10:46:39] INFO root fetch - processPackages [modal]: Start processing: spyx
+[2023-07-03 10:46:39] INFO root fetch - main [MainThread]: End processing [modal]: success
+[2023-07-03 10:46:39] INFO root fetch - processPackages [spyx]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-03 10:46:39] INFO root fetch - processPackages [pywa]: Remove: archive file [/home/abi/fetcher/tmp/pywa-0.0.1rc13-py3-none-any.whl.zip]
+[2023-07-03 10:46:39] INFO root fetch - processPackages [pywa]: Remove: archive file [/home/abi/fetcher/tmp/pywa-0.0.1rc14-py3-none-any.whl.zip]
+[2023-07-03 10:46:39] INFO root fetch - processPackages [pywa]: Start processing: zero-3rdparty
+[2023-07-03 10:46:39] INFO root fetch - main [MainThread]: End processing [pywa]: success
+[2023-07-03 10:46:39] INFO root fetch - processPackages [spyx]: Downloading https://files.pythonhosted.org/packages/ad/3c/0923fad22a4814ff108e27da31aad55c408b1e2127c55c0e0beb6ccc3d40/spyx-0.0.8.tar.gz
+[2023-07-03 10:46:39] INFO root fetch - processPackages [zero-3rdparty]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-03 10:46:39] INFO root fetch - processPackages [volworld-common]: Remove: archive file [/home/abi/fetcher/tmp/volworld_common-0.1.8.tar.gz]
+[2023-07-03 10:46:39] INFO root fetch - processPackages [volworld-common]: Remove: archive file [/home/abi/fetcher/tmp/volworld_common-0.1.9.tar.gz]
+[2023-07-03 10:46:39] INFO root fetch - processPackages [volworld-common]: Start processing: checkQC
+[2023-07-03 10:46:39] INFO root fetch - main [MainThread]: End processing [volworld-common]: success
+[2023-07-03 10:46:40] INFO root fetch - processPackages [tinybird-cli]: Remove: archive file [/home/abi/fetcher/tmp/tinybird-cli-1.0.0b98.tar.gz]
+[2023-07-03 10:46:40] INFO root fetch - processPackages [tinybird-cli]: Remove: archive file [/home/abi/fetcher/tmp/tinybird-cli-1.0.0b99.tar.gz]
+[2023-07-03 10:46:40] INFO root fetch - processPackages [tinybird-cli]: Start processing: model-lib
+[2023-07-03 10:46:40] INFO root fetch - main [MainThread]: End processing [tinybird-cli]: success
+[2023-07-03 10:46:40] INFO root fetch - processPackages [checkQC]: New version: [3.8.1rc1] Old Version: [3.8.1]
+[2023-07-03 10:46:40] INFO root fetch - processPackages [zero-3rdparty]: Downloading https://files.pythonhosted.org/packages/02/77/9b25da26d84e860f91f7869dd90591c0aec5e456c230be79db7208e01a37/zero_3rdparty-0.0.8-py3-none-any.whl
+[2023-07-03 10:46:40] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.0.96-py3-none-any.whl.zip]
+[2023-07-03 10:46:40] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.0.99-py3-none-any.whl.zip]
+[2023-07-03 10:46:40] INFO root fetch - processPackages [few-shot-priming]: Start processing: pyperf2
+[2023-07-03 10:46:40] INFO root fetch - main [MainThread]: End processing [few-shot-priming]: success
+[2023-07-03 10:46:40] INFO root fetch - processPackages [plottah]: Remove: archive file [/home/abi/fetcher/tmp/plottah-0.1.8.tar.gz]
+[2023-07-03 10:46:40] INFO root fetch - processPackages [plottah]: Remove: archive file [/home/abi/fetcher/tmp/plottah-0.1.9.tar.gz]
+[2023-07-03 10:46:40] INFO root fetch - processPackages [plottah]: Start processing: docker-compose-parser
+[2023-07-03 10:46:40] INFO root fetch - main [MainThread]: End processing [plottah]: success
+[2023-07-03 10:46:40] INFO root fetch - processPackages [pyperf2]: New version: [0.4.1] Old Version: [0.4]
+[2023-07-03 10:46:40] INFO root fetch - processPackages [model-lib]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-03 10:46:40] INFO root fetch - processPackages [evo]: Remove: archive file [/home/abi/fetcher/tmp/evo-1.9.tar.gz]
+[2023-07-03 10:46:40] INFO root fetch - processPackages [evo]: Remove: archive file [/home/abi/fetcher/tmp/evo-1.9.1.tar.gz]
+[2023-07-03 10:46:40] INFO root fetch - main [MainThread]: End processing [evo]: success
+[2023-07-03 10:46:40] INFO root fetch - processPackages [spyx]: Downloading https://files.pythonhosted.org/packages/03/d3/7fb8e0ae16918d31936abec49e12b457a905c8e39fb1405a1236b7e03d85/spyx-0.0.9.tar.gz
+[2023-07-03 10:46:40] INFO root fetch - processPackages [checkQC]: Downloading https://files.pythonhosted.org/packages/c6/ad/3257d202bbb27728893b3d0ff644337ba322f7c0441e1a595de6fa0d5b25/checkQC-3.8.1.tar.gz
+[2023-07-03 10:46:40] INFO root fetch - processPackages [pyperf2]: Downloading https://files.pythonhosted.org/packages/35/5b/21ae5f11c46c0ada155fa5d76c53a914438e1476a315dba0960f6af25993/pyperf2-0.4-py3-none-any.whl
+[2023-07-03 10:46:40] INFO root fetch - processPackages [docker-compose-parser]: New version: [0.0.21] Old Version: [0.0.20]
+[2023-07-03 10:46:40] INFO root fetch - processPackages [spyx]: executing diffoscope
+[2023-07-03 10:46:40] INFO root fetch - processPackages [spyx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spyx-0.0.8.tar.gz tmp/spyx-0.0.9.tar.gz --markdown 20230703/s/spyx/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-03 10:46:40] INFO root fetch - processPackages [model-lib]: Downloading https://files.pythonhosted.org/packages/3a/37/f439fc46ad12d47c469a89b962f6930daa6f1af9319dce3ed5f398a5b0f2/model_lib-0.0.8-py3-none-any.whl
+[2023-07-03 10:46:40] INFO root fetch - processPackages [pyperf2]: Downloading https://files.pythonhosted.org/packages/14/d1/30468cfbf3fe7e9f4d6b3ad2efb1f3defb0d7e27b3d5c2e0441092a9696a/pyperf2-0.4.1-py3-none-any.whl
+[2023-07-03 10:46:40] INFO root fetch - processPackages [zero-3rdparty]: Downloading https://files.pythonhosted.org/packages/ac/57/d5880eac743d0a1370807895ce1e784289fd0b2bd6cbcba1b3fb57043af3/zero_3rdparty-0.0.9-py3-none-any.whl
+[2023-07-03 10:46:40] INFO root fetch - processPackages [docker-compose-parser]: Downloading https://files.pythonhosted.org/packages/67/f2/1e0e93b46879d1de50b8144f31359a38e3bd02d65e1fa789e559ca8320b7/docker_compose_parser-0.0.20-py3-none-any.whl
+[2023-07-03 10:46:40] INFO root fetch - processPackages [pyperf2]: executing diffoscope
+[2023-07-03 10:46:40] INFO root fetch - processPackages [pyperf2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyperf2-0.4-py3-none-any.whl.zip tmp/pyperf2-0.4.1-py3-none-any.whl.zip --markdown 20230703/p/pyperf2/0.4-0.4.1/diff.md --exclude *.pyd
+[2023-07-03 10:46:40] INFO root fetch - processPackages [modal-client]: Remove: archive file [/home/abi/fetcher/tmp/modal_client-0.50.2539-py3-none-any.whl.zip]
+[2023-07-03 10:46:40] INFO root fetch - processPackages [modal-client]: Remove: archive file [/home/abi/fetcher/tmp/modal_client-0.50.2544-py3-none-any.whl.zip]
+[2023-07-03 10:46:40] INFO root fetch - main [MainThread]: End processing [modal-client]: success
+[2023-07-03 10:46:40] INFO root fetch - processPackages [checkQC]: Downloading https://files.pythonhosted.org/packages/24/35/3a7c6a1241f8b70680c2de4947d95781483dac6e67b473f5947ddf7d0a3d/checkQC-3.8.1rc1.tar.gz
+[2023-07-03 10:46:40] INFO root fetch - processPackages [zero-3rdparty]: executing diffoscope
+[2023-07-03 10:46:40] INFO root fetch - processPackages [zero-3rdparty]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zero_3rdparty-0.0.8-py3-none-any.whl.zip tmp/zero_3rdparty-0.0.9-py3-none-any.whl.zip --markdown 20230703/z/zero-3rdparty/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-03 10:46:40] INFO root fetch - processPackages [invenio-administration]: Remove: archive file [/home/abi/fetcher/tmp/invenio-administration-1.5.0.tar.gz]
+[2023-07-03 10:46:40] INFO root fetch - processPackages [invenio-administration]: Remove: archive file [/home/abi/fetcher/tmp/invenio-administration-1.6.0.tar.gz]
+[2023-07-03 10:46:40] INFO root fetch - main [MainThread]: End processing [invenio-administration]: success
+[2023-07-03 10:46:41] INFO root fetch - processPackages [checkQC]: executing diffoscope
+[2023-07-03 10:46:41] INFO root fetch - processPackages [checkQC]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/checkQC-3.8.1.tar.gz tmp/checkQC-3.8.1rc1.tar.gz --markdown 20230703/c/checkQC/3.8.1-3.8.1rc1/diff.md --exclude *.pyd
+[2023-07-03 10:46:41] INFO root fetch - processPackages [model-lib]: Downloading https://files.pythonhosted.org/packages/0e/81/219c8c28610fddb4410a4cb595f3323d27988d35dd0ab098737ad0d8b598/model_lib-0.0.9-py3-none-any.whl
+[2023-07-03 10:46:41] INFO root fetch - processPackages [docker-compose-parser]: Downloading https://files.pythonhosted.org/packages/4e/59/bec6e343ac3d15654944cd7a8d56aced463d9fe794006a4f950d6581a7a0/docker_compose_parser-0.0.21-py3-none-any.whl
+[2023-07-03 10:46:41] INFO root fetch - processPackages [model-lib]: executing diffoscope
+[2023-07-03 10:46:41] INFO root fetch - processPackages [model-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/model_lib-0.0.8-py3-none-any.whl.zip tmp/model_lib-0.0.9-py3-none-any.whl.zip --markdown 20230703/m/model-lib/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-03 10:46:41] INFO root fetch - processPackages [docker-compose-parser]: executing diffoscope
+[2023-07-03 10:46:41] INFO root fetch - processPackages [docker-compose-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docker_compose_parser-0.0.20-py3-none-any.whl.zip tmp/docker_compose_parser-0.0.21-py3-none-any.whl.zip --markdown 20230703/d/docker-compose-parser/0.0.20-0.0.21/diff.md --exclude *.pyd
+[2023-07-03 10:46:41] INFO root fetch - processPackages [spyx]: Remove: archive file [/home/abi/fetcher/tmp/spyx-0.0.8.tar.gz]
+[2023-07-03 10:46:41] INFO root fetch - processPackages [spyx]: Remove: archive file [/home/abi/fetcher/tmp/spyx-0.0.9.tar.gz]
+[2023-07-03 10:46:41] INFO root fetch - main [MainThread]: End processing [spyx]: success
+[2023-07-03 10:46:42] INFO root fetch - processPackages [pyperf2]: Remove: archive file [/home/abi/fetcher/tmp/pyperf2-0.4-py3-none-any.whl.zip]
+[2023-07-03 10:46:42] INFO root fetch - processPackages [pyperf2]: Remove: archive file [/home/abi/fetcher/tmp/pyperf2-0.4.1-py3-none-any.whl.zip]
+[2023-07-03 10:46:42] INFO root fetch - main [MainThread]: End processing [pyperf2]: success
+[2023-07-03 10:46:42] INFO root fetch - processPackages [checkQC]: Remove: archive file [/home/abi/fetcher/tmp/checkQC-3.8.1.tar.gz]
+[2023-07-03 10:46:42] INFO root fetch - processPackages [checkQC]: Remove: archive file [/home/abi/fetcher/tmp/checkQC-3.8.1rc1.tar.gz]
+[2023-07-03 10:46:42] INFO root fetch - main [MainThread]: End processing [checkQC]: success
+[2023-07-03 10:46:42] INFO root fetch - processPackages [hayloft]: Remove: archive file [/home/abi/fetcher/tmp/hayloft-0.3.1.tar.gz]
+[2023-07-03 10:46:42] INFO root fetch - processPackages [hayloft]: Remove: archive file [/home/abi/fetcher/tmp/hayloft-0.4.0a0.tar.gz]
+[2023-07-03 10:46:42] INFO root fetch - main [MainThread]: End processing [hayloft]: success
+[2023-07-03 10:46:42] INFO root fetch - processPackages [zero-3rdparty]: Remove: archive file [/home/abi/fetcher/tmp/zero_3rdparty-0.0.8-py3-none-any.whl.zip]
+[2023-07-03 10:46:42] INFO root fetch - processPackages [zero-3rdparty]: Remove: archive file [/home/abi/fetcher/tmp/zero_3rdparty-0.0.9-py3-none-any.whl.zip]
+[2023-07-03 10:46:42] INFO root fetch - main [MainThread]: End processing [zero-3rdparty]: success
+[2023-07-03 10:46:42] INFO root fetch - processPackages [docker-compose-parser]: Remove: archive file [/home/abi/fetcher/tmp/docker_compose_parser-0.0.20-py3-none-any.whl.zip]
+[2023-07-03 10:46:42] INFO root fetch - processPackages [docker-compose-parser]: Remove: archive file [/home/abi/fetcher/tmp/docker_compose_parser-0.0.21-py3-none-any.whl.zip]
+[2023-07-03 10:46:42] INFO root fetch - main [MainThread]: End processing [docker-compose-parser]: success
+[2023-07-03 10:46:42] INFO root fetch - processPackages [model-lib]: Remove: archive file [/home/abi/fetcher/tmp/model_lib-0.0.8-py3-none-any.whl.zip]
+[2023-07-03 10:46:42] INFO root fetch - processPackages [model-lib]: Remove: archive file [/home/abi/fetcher/tmp/model_lib-0.0.9-py3-none-any.whl.zip]
+[2023-07-03 10:46:42] INFO root fetch - main [MainThread]: End processing [model-lib]: success
+[2023-07-03 10:46:42] INFO root fetch - main [MainThread]: Store serial: [18736542]
