@@ -10527,3 +10527,258 @@ AssertionError: tmp/discord-ansi-0.3.tar.gz does not exist
 [2023-07-03 10:23:18] INFO root fetch - main [MainThread]: End processing [Django]: success
 [2023-07-03 10:23:19] INFO root fetch - main [MainThread]: End processing [Django]: success
 [2023-07-03 10:23:19] INFO root fetch - main [MainThread]: Store serial: [18736171]
+[2023-07-03 10:28:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18736171]
+[2023-07-03 10:28:38] INFO root fetch - main [MainThread]: Found 31 changed packages
+[2023-07-03 10:28:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gaitalytics
+[2023-07-03 10:28:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: polybius-square-pro
+[2023-07-03 10:28:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: oidc-drf
+[2023-07-03 10:28:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sphinxcontrib-katex
+[2023-07-03 10:28:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mostats
+[2023-07-03 10:28:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ml-crafter
+[2023-07-03 10:28:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pydantic-resolve
+[2023-07-03 10:28:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: frouros
+[2023-07-03 10:28:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tokenmonster
+[2023-07-03 10:28:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: tf-nightly
+[2023-07-03 10:28:38] INFO root fetch - processPackages [ml-crafter]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-03 10:28:38] INFO root fetch - processPackages [mostats]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-03 10:28:38] INFO root fetch - processPackages [pydantic-resolve]: New version: [1.3.2] Old Version: [1.3.1]
+[2023-07-03 10:28:38] INFO root fetch - processPackages [oidc-drf]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-03 10:28:38] WARNING root fetch - processPackages [polybius-square-pro]: Skipping, unable to determine old version
+[2023-07-03 10:28:38] INFO root fetch - processPackages [polybius-square-pro]: Start processing: uniem
+[2023-07-03 10:28:38] INFO root fetch - main [MainThread]: End processing [polybius-square-pro] error
+[2023-07-03 10:28:38] INFO root fetch - processPackages [sphinxcontrib-katex]: New version: [0.9.7] Old Version: [0.9.6]
+[2023-07-03 10:28:38] INFO root fetch - processPackages [frouros]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-07-03 10:28:38] INFO root fetch - processPackages [gaitalytics]: New version: [0.1.3b0] Old Version: [0.1.2b0]
+[2023-07-03 10:28:38] WARNING root fetch - processPackages [tokenmonster]: Skipping, unable to determine old version
+[2023-07-03 10:28:38] INFO root fetch - processPackages [tokenmonster]: Start processing: yapapi
+[2023-07-03 10:28:38] INFO root fetch - main [MainThread]: End processing [tokenmonster] error
+[2023-07-03 10:28:38] INFO root fetch - processPackages [uniem]: New version: [0.2.4.post1] Old Version: [0.2.3]
+[2023-07-03 10:28:38] INFO root fetch - processPackages [yapapi]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-07-03 10:28:38] INFO root fetch - processPackages [oidc-drf]: Downloading https://files.pythonhosted.org/packages/68/9c/dfd2ae2a5dacafd614f4d4c352c6125c2640e9e04ba204cf253952d67b80/oidc_drf-1.0.8.tar.gz
+[2023-07-03 10:28:38] INFO root fetch - processPackages [gaitalytics]: Downloading https://files.pythonhosted.org/packages/2b/3e/a290f8e68fe73cd663f15ba3e9c0ac7fad96c5a326a90c315363296744d9/gaitalytics-0.1.2b0.tar.gz
+[2023-07-03 10:28:38] INFO root fetch - processPackages [pydantic-resolve]: Downloading https://files.pythonhosted.org/packages/ef/89/79c728fc5c7bdc808c438bd07f670de58cf07b71d33ce0687b6aaea73323/pydantic_resolve-1.3.1.tar.gz
+[2023-07-03 10:28:38] INFO root fetch - processPackages [tf-nightly]: New version: [2.14.0.dev20230703] Old Version: [2.14.0.dev20230702]
+[2023-07-03 10:28:38] INFO root fetch - processPackages [ml-crafter]: Downloading https://files.pythonhosted.org/packages/f5/5d/3908d10ba4a8b21c8d91e6bb9377e68166b8c6fd10111b979f07f4e91472/ml-crafter-0.1.0.tar.gz
+[2023-07-03 10:28:38] INFO root fetch - processPackages [mostats]: Downloading https://files.pythonhosted.org/packages/b2/83/5b65c2e35dc9ad195278d682a0bc496341f303f955dad8a44f83336be49e/mostats-1.0.1-py3-none-any.whl
+[2023-07-03 10:28:38] INFO root fetch - processPackages [sphinxcontrib-katex]: Downloading https://files.pythonhosted.org/packages/34/d0/cfcdc78803c83708953c4539cd61022085faa4445cdf2bea51393d852903/sphinxcontrib-katex-0.9.6.tar.gz
+[2023-07-03 10:28:38] INFO root fetch - processPackages [frouros]: Downloading https://files.pythonhosted.org/packages/23/ce/9ee798c3d456018869e860527d6564fcba6145f3003d940b56b89cc60a97/frouros-0.4.0.tar.gz
+[2023-07-03 10:28:38] INFO root fetch - processPackages [yapapi]: Downloading https://files.pythonhosted.org/packages/6c/5f/04cdb59d116536140554c6c31c20bbc3c7946e0ca17be0325ba050167c51/yapapi-0.9.2.tar.gz
+[2023-07-03 10:28:38] INFO root fetch - processPackages [uniem]: Downloading https://files.pythonhosted.org/packages/b5/3d/12963d7826188aeb1e8446f3d58e54b4c87052933e783a2e30ed86efa184/uniem-0.2.3.tar.gz
+[2023-07-03 10:28:39] INFO root fetch - processPackages [oidc-drf]: Downloading https://files.pythonhosted.org/packages/2b/7c/5162af84a2e25144c175ceb604a8b632d77bcf5be0cf0ea4b1c7cb8b4e6e/oidc_drf-1.0.9.tar.gz
+[2023-07-03 10:28:39] INFO root fetch - processPackages [tf-nightly]: Downloading https://files.pythonhosted.org/packages/df/bd/29a7bd74daaec762e6e520d4e9a59bcf4111d1cf0aee116b38046fdfc08b/tf_nightly-2.14.0.dev20230702-cp39-cp39-win_amd64.whl
+[2023-07-03 10:28:39] INFO root fetch - processPackages [gaitalytics]: Downloading https://files.pythonhosted.org/packages/5a/7d/d1679d70840e1b202882a668a2adc5e840dd03f074ac997299980fd14ef3/gaitalytics-0.1.3b0.tar.gz
+[2023-07-03 10:28:39] INFO root fetch - processPackages [ml-crafter]: Downloading https://files.pythonhosted.org/packages/df/f2/d0a433c2d27584fe91880795e5bdcf7e0c19e3efe621ec37d678a6cf7dc4/ml-crafter-0.1.1.tar.gz
+[2023-07-03 10:28:39] INFO root fetch - processPackages [oidc-drf]: executing diffoscope
+[2023-07-03 10:28:39] INFO root fetch - processPackages [oidc-drf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oidc_drf-1.0.8.tar.gz tmp/oidc_drf-1.0.9.tar.gz --markdown 20230703/o/oidc-drf/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-03 10:28:39] INFO root fetch - processPackages [gaitalytics]: executing diffoscope
+[2023-07-03 10:28:39] INFO root fetch - processPackages [gaitalytics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gaitalytics-0.1.2b0.tar.gz tmp/gaitalytics-0.1.3b0.tar.gz --markdown 20230703/g/gaitalytics/0.1.2b0-0.1.3b0/diff.md --exclude *.pyd
+[2023-07-03 10:28:39] INFO root fetch - processPackages [pydantic-resolve]: Downloading https://files.pythonhosted.org/packages/62/0b/7d899f089aa4b40dd1d7192caaf4c9880e2e48dc6bfedbea306a72deee64/pydantic_resolve-1.3.2.tar.gz
+[2023-07-03 10:28:39] INFO root fetch - processPackages [mostats]: Downloading https://files.pythonhosted.org/packages/92/1a/04a07b1d7abaaf75801084234f6e5daf078221457ff63e16b00f2340cab4/mostats-1.0.2-py3-none-any.whl
+[2023-07-03 10:28:39] INFO root fetch - processPackages [sphinxcontrib-katex]: Downloading https://files.pythonhosted.org/packages/04/61/2b61f5cdcb1a63f071f3b56bf5d56dfa05d35cabd49a9c1c0a1b2efa55dc/sphinxcontrib-katex-0.9.7.tar.gz
+[2023-07-03 10:28:39] INFO root fetch - processPackages [frouros]: Downloading https://files.pythonhosted.org/packages/7d/48/b1cf74030e20917124fafc533c09e8c7e041b7bea01c09c9617589b542b9/frouros-0.4.1.tar.gz
+[2023-07-03 10:28:39] INFO root fetch - processPackages [ml-crafter]: executing diffoscope
+[2023-07-03 10:28:39] INFO root fetch - processPackages [ml-crafter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ml-crafter-0.1.0.tar.gz tmp/ml-crafter-0.1.1.tar.gz --markdown 20230703/m/ml-crafter/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-03 10:28:39] INFO root fetch - processPackages [pydantic-resolve]: executing diffoscope
+[2023-07-03 10:28:39] INFO root fetch - processPackages [pydantic-resolve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydantic_resolve-1.3.1.tar.gz tmp/pydantic_resolve-1.3.2.tar.gz --markdown 20230703/p/pydantic-resolve/1.3.1-1.3.2/diff.md --exclude *.pyd
+[2023-07-03 10:28:39] INFO root fetch - processPackages [uniem]: Downloading https://files.pythonhosted.org/packages/65/50/b15b71f11b53562652f2f95cd9d8ff160f112da84ad9525068050d257aad/uniem-0.2.4.post1.tar.gz
+[2023-07-03 10:28:39] INFO root fetch - processPackages [mostats]: executing diffoscope
+[2023-07-03 10:28:39] INFO root fetch - processPackages [mostats]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mostats-1.0.1-py3-none-any.whl.zip tmp/mostats-1.0.2-py3-none-any.whl.zip --markdown 20230703/m/mostats/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-03 10:28:39] INFO root fetch - processPackages [frouros]: executing diffoscope
+[2023-07-03 10:28:39] INFO root fetch - processPackages [frouros]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/frouros-0.4.0.tar.gz tmp/frouros-0.4.1.tar.gz --markdown 20230703/f/frouros/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-07-03 10:28:39] INFO root fetch - processPackages [sphinxcontrib-katex]: executing diffoscope
+[2023-07-03 10:28:39] INFO root fetch - processPackages [sphinxcontrib-katex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sphinxcontrib-katex-0.9.6.tar.gz tmp/sphinxcontrib-katex-0.9.7.tar.gz --markdown 20230703/s/sphinxcontrib-katex/0.9.6-0.9.7/diff.md --exclude *.pyd
+[2023-07-03 10:28:39] INFO root fetch - processPackages [tf-nightly]: Downloading https://files.pythonhosted.org/packages/6c/ec/11290eea17cb88a8142da1aa787af7e6e17c118e75e7d320c3d21445e64f/tf_nightly-2.14.0.dev20230703-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-03 10:28:39] INFO root fetch - processPackages [uniem]: executing diffoscope
+[2023-07-03 10:28:39] INFO root fetch - processPackages [uniem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uniem-0.2.3.tar.gz tmp/uniem-0.2.4.post1.tar.gz --markdown 20230703/u/uniem/0.2.3-0.2.4.post1/diff.md --exclude *.pyd
+[2023-07-03 10:28:39] INFO root fetch - processPackages [yapapi]: Downloading https://files.pythonhosted.org/packages/2f/b9/93fa9ee3fff4055cae31d46acfe9a196a4281b6e13aecfde5141fd1aec98/yapapi-0.9.3.tar.gz
+[2023-07-03 10:28:40] INFO root fetch - processPackages [yapapi]: executing diffoscope
+[2023-07-03 10:28:40] INFO root fetch - processPackages [yapapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yapapi-0.9.2.tar.gz tmp/yapapi-0.9.3.tar.gz --markdown 20230703/y/yapapi/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-07-03 10:28:40] WARNING root fetch - processPackages [tf-nightly]: Skipping package: exceeds size limit 491036144>=10485760
+[2023-07-03 10:28:40] INFO root fetch - processPackages [tf-nightly]: Start processing: easy-yapi
+[2023-07-03 10:28:40] INFO root fetch - main [MainThread]: End processing [tf-nightly] error
+[2023-07-03 10:28:40] INFO root fetch - processPackages [easy-yapi]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-03 10:28:40] INFO root fetch - processPackages [oidc-drf]: Remove: archive file [/home/abi/fetcher/tmp/oidc_drf-1.0.8.tar.gz]
+[2023-07-03 10:28:40] INFO root fetch - processPackages [oidc-drf]: Remove: archive file [/home/abi/fetcher/tmp/oidc_drf-1.0.9.tar.gz]
+[2023-07-03 10:28:40] INFO root fetch - processPackages [oidc-drf]: Start processing: qontract-reconcile
+[2023-07-03 10:28:40] INFO root fetch - main [MainThread]: End processing [oidc-drf]: success
+[2023-07-03 10:28:40] INFO root fetch - processPackages [easy-yapi]: Downloading https://files.pythonhosted.org/packages/4c/b1/d310deef281ab28153e807703cd2be63a63c09198152b678c9c6af4dc2c2/easy_yapi-0.1.1.tar.gz
+[2023-07-03 10:28:40] INFO root fetch - processPackages [ml-crafter]: Remove: archive file [/home/abi/fetcher/tmp/ml-crafter-0.1.0.tar.gz]
+[2023-07-03 10:28:40] INFO root fetch - processPackages [ml-crafter]: Remove: archive file [/home/abi/fetcher/tmp/ml-crafter-0.1.1.tar.gz]
+[2023-07-03 10:28:40] INFO root fetch - processPackages [ml-crafter]: Start processing: molano
+[2023-07-03 10:28:40] INFO root fetch - main [MainThread]: End processing [ml-crafter]: success
+[2023-07-03 10:28:40] INFO root fetch - processPackages [molano]: New version: [1.0.0a9] Old Version: [1.0.0a6]
+[2023-07-03 10:28:41] INFO root fetch - processPackages [gaitalytics]: Remove: archive file [/home/abi/fetcher/tmp/gaitalytics-0.1.2b0.tar.gz]
+[2023-07-03 10:28:41] INFO root fetch - processPackages [gaitalytics]: Remove: archive file [/home/abi/fetcher/tmp/gaitalytics-0.1.3b0.tar.gz]
+[2023-07-03 10:28:41] INFO root fetch - processPackages [gaitalytics]: Start processing: KwoksTool
+[2023-07-03 10:28:41] INFO root fetch - main [MainThread]: End processing [gaitalytics]: success
+[2023-07-03 10:28:41] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2023-07-03 10:28:41] INFO root fetch - processPackages [mostats]: Remove: archive file [/home/abi/fetcher/tmp/mostats-1.0.1-py3-none-any.whl.zip]
+[2023-07-03 10:28:41] INFO root fetch - processPackages [mostats]: Remove: archive file [/home/abi/fetcher/tmp/mostats-1.0.2-py3-none-any.whl.zip]
+[2023-07-03 10:28:41] INFO root fetch - processPackages [mostats]: Start processing: tulip-python
+[2023-07-03 10:28:41] INFO root fetch - main [MainThread]: End processing [mostats]: success
+[2023-07-03 10:28:41] INFO root fetch - processPackages [KwoksTool]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-03 10:28:41] INFO root fetch - processPackages [molano]: Downloading https://files.pythonhosted.org/packages/cf/84/e37efd7b93813804cbf27f927bb2a5d924e9c7544cee017145344ebb2f14/molano-1.0.0a6.tar.gz
+[2023-07-03 10:28:41] INFO root fetch - processPackages [pydantic-resolve]: Remove: archive file [/home/abi/fetcher/tmp/pydantic_resolve-1.3.1.tar.gz]
+[2023-07-03 10:28:41] INFO root fetch - processPackages [pydantic-resolve]: Remove: archive file [/home/abi/fetcher/tmp/pydantic_resolve-1.3.2.tar.gz]
+[2023-07-03 10:28:41] INFO root fetch - processPackages [pydantic-resolve]: Start processing: airflow-provider-vineyard
+[2023-07-03 10:28:41] INFO root fetch - main [MainThread]: End processing [pydantic-resolve]: success
+[2023-07-03 10:28:41] INFO root fetch - processPackages [tulip-python]: New version: [5.7.2] Old Version: [5.7.1]
+[2023-07-03 10:28:41] INFO root fetch - processPackages [airflow-provider-vineyard]: New version: [0.9.0] Old Version: [0.8.6]
+[2023-07-03 10:28:41] INFO root fetch - processPackages [uniem]: Remove: archive file [/home/abi/fetcher/tmp/uniem-0.2.3.tar.gz]
+[2023-07-03 10:28:41] INFO root fetch - processPackages [uniem]: Remove: archive file [/home/abi/fetcher/tmp/uniem-0.2.4.post1.tar.gz]
+[2023-07-03 10:28:41] INFO root fetch - processPackages [uniem]: Start processing: vineyard
+[2023-07-03 10:28:41] INFO root fetch - main [MainThread]: End processing [uniem]: success
+[2023-07-03 10:28:41] INFO root fetch - processPackages [easy-yapi]: Downloading https://files.pythonhosted.org/packages/89/cf/70397ef92815d3185a84bc79210bb00b8a84716c9ebd1bae61a6325d399d/easy_yapi-0.1.2.tar.gz
+[2023-07-03 10:28:41] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/ee/0e/ac8ef8d8ff9114b5366efefac8ac0a94430168107cf051385aa73efdd7ef/qontract_reconcile-0.9.1rc98-py3-none-any.whl
+[2023-07-03 10:28:41] INFO root fetch - processPackages [KwoksTool]: Downloading https://files.pythonhosted.org/packages/76/bf/840d0d608ee4f116071ed352ea542fad233c604985d69197a1581f3523ff/KwoksTool-0.0.1.tar.gz
+[2023-07-03 10:28:41] INFO root fetch - processPackages [vineyard]: New version: [0.9.0] Old Version: [0.8.6]
+[2023-07-03 10:28:41] INFO root fetch - processPackages [molano]: Downloading https://files.pythonhosted.org/packages/b9/cd/dde39b077eaa0feea200a2ce07ac39c3530e122096121c9a35fa2bf1de81/molano-1.0.0a9.tar.gz
+[2023-07-03 10:28:41] INFO root fetch - processPackages [tulip-python]: Downloading https://files.pythonhosted.org/packages/9d/28/5e518d259b27a6fa5a7592c13a75393de24c2b876d7ac6d8da0bd050ff7e/tulip_python-5.7.1-cp39-cp39-win_amd64.whl
+[2023-07-03 10:28:41] INFO root fetch - processPackages [airflow-provider-vineyard]: Downloading https://files.pythonhosted.org/packages/bc/6a/10db0cbd85bc88811f2a93264857d60383c7d194263678c9e95b9fc27875/airflow_provider_vineyard-0.8.6-py3-none-any.whl
+[2023-07-03 10:28:41] INFO root fetch - processPackages [frouros]: Remove: archive file [/home/abi/fetcher/tmp/frouros-0.4.0.tar.gz]
+[2023-07-03 10:28:41] INFO root fetch - processPackages [frouros]: Remove: archive file [/home/abi/fetcher/tmp/frouros-0.4.1.tar.gz]
+[2023-07-03 10:28:41] INFO root fetch - processPackages [frouros]: Start processing: checked-exception
+[2023-07-03 10:28:41] INFO root fetch - main [MainThread]: End processing [frouros]: success
+[2023-07-03 10:28:41] WARNING root fetch - processPackages [tulip-python]: Skipping package: exceeds size limit 14918578>=10485760
+[2023-07-03 10:28:41] INFO root fetch - processPackages [tulip-python]: Start processing: zcmds
+[2023-07-03 10:28:41] INFO root fetch - main [MainThread]: End processing [tulip-python] error
+[2023-07-03 10:28:41] INFO root fetch - processPackages [easy-yapi]: executing diffoscope
+[2023-07-03 10:28:41] INFO root fetch - processPackages [easy-yapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easy_yapi-0.1.1.tar.gz tmp/easy_yapi-0.1.2.tar.gz --markdown 20230703/e/easy-yapi/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-03 10:28:41] INFO root fetch - processPackages [checked-exception]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-07-03 10:28:41] INFO root fetch - processPackages [molano]: executing diffoscope
+[2023-07-03 10:28:41] INFO root fetch - processPackages [molano]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/molano-1.0.0a6.tar.gz tmp/molano-1.0.0a9.tar.gz --markdown 20230703/m/molano/1.0.0a6-1.0.0a9/diff.md --exclude *.pyd
+[2023-07-03 10:28:41] INFO root fetch - processPackages [zcmds]: New version: [1.4.9] Old Version: [1.4.8]
+[2023-07-03 10:28:41] INFO root fetch - processPackages [vineyard]: Downloading https://files.pythonhosted.org/packages/9d/2a/a253c807a750e951378e7a3ab1d51d2fef6447b872b6cbd417df779a782b/vineyard-0.8.6-cp39-cp39-manylinux_2_12_x86_64.manylinux2010_x86_64.whl
+[2023-07-03 10:28:41] INFO root fetch - processPackages [zcmds]: Downloading https://files.pythonhosted.org/packages/cf/85/6745bf792d3dace88b4a0cfba4bf8c74d34157be8f84838613c74637f6a0/zcmds-1.4.8.tar.gz
+[2023-07-03 10:28:41] INFO root fetch - processPackages [KwoksTool]: Downloading https://files.pythonhosted.org/packages/28/42/fe99f8f1e801b27a8b582004b96aaff7e00df8efa9d40c75ddda85785191/KwoksTool-0.0.2.tar.gz
+[2023-07-03 10:28:41] INFO root fetch - processPackages [checked-exception]: Downloading https://files.pythonhosted.org/packages/0d/ac/be8f17be5c82aa8a07d0df2c63b983a13b615d7c8e9fedf998f2dea43531/checked-exception-0.0.6.tar.gz
+[2023-07-03 10:28:41] INFO root fetch - processPackages [yapapi]: Remove: archive file [/home/abi/fetcher/tmp/yapapi-0.9.2.tar.gz]
+[2023-07-03 10:28:41] INFO root fetch - processPackages [yapapi]: Remove: archive file [/home/abi/fetcher/tmp/yapapi-0.9.3.tar.gz]
+[2023-07-03 10:28:41] INFO root fetch - processPackages [yapapi]: Start processing: django-tbase-post-product
+[2023-07-03 10:28:41] INFO root fetch - main [MainThread]: End processing [yapapi]: success
+[2023-07-03 10:28:41] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/dd/8b/9de8b95ca80c898ecaafa95edc3438d306b82ab0d29d3895dd6e8f152129/qontract_reconcile-0.9.1rc99-py3-none-any.whl
+[2023-07-03 10:28:41] INFO root fetch - processPackages [django-tbase-post-product]: New version: [2023.7.316883726] Old Version: [2023.7.316883179]
+[2023-07-03 10:28:41] INFO root fetch - processPackages [KwoksTool]: executing diffoscope
+[2023-07-03 10:28:41] INFO root fetch - processPackages [KwoksTool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/KwoksTool-0.0.1.tar.gz tmp/KwoksTool-0.0.2.tar.gz --markdown 20230703/K/KwoksTool/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-03 10:28:42] INFO root fetch - processPackages [django-tbase-post-product]: Downloading https://files.pythonhosted.org/packages/ff/de/1958c5d56f3d9a7f6c86603b8659eac85b1ec1f1bd73878160270e705290/django_tbase_post_product-2023.7.316883179.tar.gz
+[2023-07-03 10:28:42] INFO root fetch - processPackages [zcmds]: Downloading https://files.pythonhosted.org/packages/ee/c7/785afe3eb6342eebc74522af1d496ca09cf10ab8aab660d94d91cfbef640/zcmds-1.4.9.tar.gz
+[2023-07-03 10:28:42] INFO root fetch - processPackages [airflow-provider-vineyard]: Downloading https://files.pythonhosted.org/packages/7a/c0/0e1b084b3a68c67f78edaeda3a93a1c473a048fb76636c59de1eff6ebe46/airflow_provider_vineyard-0.9.0-py3-none-any.whl
+[2023-07-03 10:28:42] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2023-07-03 10:28:42] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20230703/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/diff.md --exclude *.pyd
+[2023-07-03 10:28:42] INFO root fetch - processPackages [checked-exception]: Downloading https://files.pythonhosted.org/packages/05/48/337fdb4d5ef97e0829d5a35e95c251929a147bceec41666e622a64ec1238/checked-exception-0.0.7.tar.gz
+[2023-07-03 10:28:42] INFO root fetch - processPackages [zcmds]: executing diffoscope
+[2023-07-03 10:28:42] INFO root fetch - processPackages [zcmds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zcmds-1.4.8.tar.gz tmp/zcmds-1.4.9.tar.gz --markdown 20230703/z/zcmds/1.4.8-1.4.9/diff.md --exclude *.pyd
+[2023-07-03 10:28:42] INFO root fetch - processPackages [airflow-provider-vineyard]: executing diffoscope
+[2023-07-03 10:28:42] INFO root fetch - processPackages [airflow-provider-vineyard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airflow_provider_vineyard-0.8.6-py3-none-any.whl.zip tmp/airflow_provider_vineyard-0.9.0-py3-none-any.whl.zip --markdown 20230703/a/airflow-provider-vineyard/0.8.6-0.9.0/diff.md --exclude *.pyd
+[2023-07-03 10:28:42] INFO root fetch - processPackages [checked-exception]: executing diffoscope
+[2023-07-03 10:28:42] INFO root fetch - processPackages [checked-exception]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/checked-exception-0.0.6.tar.gz tmp/checked-exception-0.0.7.tar.gz --markdown 20230703/c/checked-exception/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-07-03 10:28:42] INFO root fetch - processPackages [django-tbase-post-product]: Downloading https://files.pythonhosted.org/packages/8b/82/8eb7014ee6f4a6be9dfcb86ca034beed5ec5504efca07979deb5d94b34d5/django_tbase_post_product-2023.7.316883726.tar.gz
+[2023-07-03 10:28:42] INFO root fetch - processPackages [django-tbase-post-product]: executing diffoscope
+[2023-07-03 10:28:42] INFO root fetch - processPackages [django-tbase-post-product]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_tbase_post_product-2023.7.316883179.tar.gz tmp/django_tbase_post_product-2023.7.316883726.tar.gz --markdown 20230703/d/django-tbase-post-product/2023.7.316883179-2023.7.316883726/diff.md --exclude *.pyd
+[2023-07-03 10:28:42] INFO root fetch - processPackages [easy-yapi]: Remove: archive file [/home/abi/fetcher/tmp/easy_yapi-0.1.1.tar.gz]
+[2023-07-03 10:28:42] INFO root fetch - processPackages [easy-yapi]: Remove: archive file [/home/abi/fetcher/tmp/easy_yapi-0.1.2.tar.gz]
+[2023-07-03 10:28:42] INFO root fetch - processPackages [easy-yapi]: Start processing: mia-processes
+[2023-07-03 10:28:42] INFO root fetch - main [MainThread]: End processing [easy-yapi]: success
+[2023-07-03 10:28:43] INFO root fetch - processPackages [mia-processes]: New version: [2.3.0] Old Version: [2.2.1]
+[2023-07-03 10:28:43] INFO root fetch - processPackages [KwoksTool]: Remove: archive file [/home/abi/fetcher/tmp/KwoksTool-0.0.1.tar.gz]
+[2023-07-03 10:28:43] INFO root fetch - processPackages [KwoksTool]: Remove: archive file [/home/abi/fetcher/tmp/KwoksTool-0.0.2.tar.gz]
+[2023-07-03 10:28:43] INFO root fetch - processPackages [KwoksTool]: Start processing: vineyard-bdist
+[2023-07-03 10:28:43] INFO root fetch - main [MainThread]: End processing [KwoksTool]: success
+[2023-07-03 10:28:43] INFO root fetch - processPackages [molano]: Remove: archive file [/home/abi/fetcher/tmp/molano-1.0.0a6.tar.gz]
+[2023-07-03 10:28:43] INFO root fetch - processPackages [molano]: Remove: archive file [/home/abi/fetcher/tmp/molano-1.0.0a9.tar.gz]
+[2023-07-03 10:28:43] INFO root fetch - processPackages [molano]: Start processing: wpdetect
+[2023-07-03 10:28:43] INFO root fetch - main [MainThread]: End processing [molano]: success
+[2023-07-03 10:28:43] INFO root fetch - processPackages [vineyard-bdist]: New version: [0.15.3] Old Version: [0.15.2]
+[2023-07-03 10:28:43] INFO root fetch - processPackages [wpdetect]: New version: [1.4.8] Old Version: [1.4.7]
+[2023-07-03 10:28:43] INFO root fetch - processPackages [mia-processes]: Downloading https://files.pythonhosted.org/packages/8c/fb/a2d3f6c88f380c188ba4771acb5ee2f804edc7d0c4ba787ce1c784c2d0bf/mia_processes-2.2.1.tar.gz
+[2023-07-03 10:28:43] WARNING root fetch - processPackages [mia-processes]: Skipping package: exceeds size limit 30648695>=10485760
+[2023-07-03 10:28:43] INFO root fetch - processPackages [mia-processes]: Start processing: vineyard-dask
+[2023-07-03 10:28:43] INFO root fetch - main [MainThread]: End processing [mia-processes] error
+[2023-07-03 10:28:43] INFO root fetch - processPackages [wpdetect]: Downloading https://files.pythonhosted.org/packages/e8/5e/547beec5236f08e02133c4a8721840971f60ef1297e094e7fa09a8c03ff3/wpdetect-1.4.7.tar.gz
+[2023-07-03 10:28:43] INFO root fetch - processPackages [vineyard-dask]: New version: [0.9.0] Old Version: [0.8.6]
+[2023-07-03 10:28:43] INFO root fetch - processPackages [vineyard-bdist]: Downloading https://files.pythonhosted.org/packages/ee/21/ac9ca2b45f0ae569cc71843d00d4cd35d8101689d83c41ceef767eb4bdec/vineyard_bdist-0.15.2-py3-none-manylinux2014_x86_64.whl
+[2023-07-03 10:28:43] INFO root fetch - processPackages [wpdetect]: Downloading https://files.pythonhosted.org/packages/66/01/676b0f2472bbb71eda572bc21f7ba6b69b6e63829d7547b5b01916e4d40d/wpdetect-1.4.8.tar.gz
+[2023-07-03 10:28:43] WARNING root fetch - processPackages [vineyard-bdist]: Skipping package: exceeds size limit 22974696>=10485760
+[2023-07-03 10:28:43] INFO root fetch - processPackages [vineyard-bdist]: Start processing: vineyard-io
+[2023-07-03 10:28:43] INFO root fetch - main [MainThread]: End processing [vineyard-bdist] error
+[2023-07-03 10:28:43] INFO root fetch - processPackages [checked-exception]: Remove: archive file [/home/abi/fetcher/tmp/checked-exception-0.0.6.tar.gz]
+[2023-07-03 10:28:43] INFO root fetch - processPackages [checked-exception]: Remove: archive file [/home/abi/fetcher/tmp/checked-exception-0.0.7.tar.gz]
+[2023-07-03 10:28:43] INFO root fetch - processPackages [checked-exception]: Start processing: vineyard-ml
+[2023-07-03 10:28:43] INFO root fetch - main [MainThread]: End processing [checked-exception]: success
+[2023-07-03 10:28:43] INFO root fetch - processPackages [airflow-provider-vineyard]: Remove: archive file [/home/abi/fetcher/tmp/airflow_provider_vineyard-0.8.6-py3-none-any.whl.zip]
+[2023-07-03 10:28:43] INFO root fetch - processPackages [airflow-provider-vineyard]: Remove: archive file [/home/abi/fetcher/tmp/airflow_provider_vineyard-0.9.0-py3-none-any.whl.zip]
+[2023-07-03 10:28:43] INFO root fetch - processPackages [airflow-provider-vineyard]: Start processing: uasset-dump
+[2023-07-03 10:28:43] INFO root fetch - main [MainThread]: End processing [airflow-provider-vineyard]: success
+[2023-07-03 10:28:43] INFO root fetch - processPackages [wpdetect]: executing diffoscope
+[2023-07-03 10:28:43] INFO root fetch - processPackages [wpdetect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wpdetect-1.4.7.tar.gz tmp/wpdetect-1.4.8.tar.gz --markdown 20230703/w/wpdetect/1.4.7-1.4.8/diff.md --exclude *.pyd
+[2023-07-03 10:28:43] INFO root fetch - processPackages [vineyard-dask]: Downloading https://files.pythonhosted.org/packages/7e/4d/11f9d8e59dae1a18bf97323cb5bc0d90cf342ba3dc08c19eb8e67b6bffa7/vineyard_dask-0.8.6-py3-none-any.whl
+[2023-07-03 10:28:43] INFO root fetch - processPackages [vineyard-io]: New version: [0.9.0] Old Version: [0.8.6]
+[2023-07-03 10:28:43] INFO root fetch - processPackages [vineyard]: Downloading https://files.pythonhosted.org/packages/09/c1/99b0791e766e16902b883540228d4762bd12a44f2b331b33b5b7766e7164/vineyard-0.9.0-cp39-cp39-manylinux_2_12_x86_64.manylinux2010_x86_64.whl
+[2023-07-03 10:28:43] INFO root fetch - processPackages [vineyard-ml]: New version: [0.9.0] Old Version: [0.8.6]
+[2023-07-03 10:28:43] INFO root fetch - processPackages [uasset-dump]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-03 10:28:44] INFO root fetch - processPackages [vineyard-io]: Downloading https://files.pythonhosted.org/packages/93/23/07b239e15cfe3c9d7e6e4ace52cc180a9c40f8edce8593341ec1dfd56b01/vineyard_io-0.8.6-py3-none-any.whl
+[2023-07-03 10:28:44] INFO root fetch - processPackages [sphinxcontrib-katex]: Remove: archive file [/home/abi/fetcher/tmp/sphinxcontrib-katex-0.9.6.tar.gz]
+[2023-07-03 10:28:44] INFO root fetch - processPackages [sphinxcontrib-katex]: Remove: archive file [/home/abi/fetcher/tmp/sphinxcontrib-katex-0.9.7.tar.gz]
+[2023-07-03 10:28:44] INFO root fetch - processPackages [sphinxcontrib-katex]: Start processing: dapp-runner
+[2023-07-03 10:28:44] INFO root fetch - main [MainThread]: End processing [sphinxcontrib-katex]: success
+[2023-07-03 10:28:44] INFO root fetch - processPackages [django-tbase-post-product]: Remove: archive file [/home/abi/fetcher/tmp/django_tbase_post_product-2023.7.316883179.tar.gz]
+[2023-07-03 10:28:44] INFO root fetch - processPackages [vineyard-ml]: Downloading https://files.pythonhosted.org/packages/37/97/c22cf628301b855f79e8c0b034b7bb6c78b534155dc4402d6e4713d17d37/vineyard_ml-0.8.6-py3-none-any.whl
+[2023-07-03 10:28:44] INFO root fetch - processPackages [django-tbase-post-product]: Remove: archive file [/home/abi/fetcher/tmp/django_tbase_post_product-2023.7.316883726.tar.gz]
+[2023-07-03 10:28:44] INFO root fetch - processPackages [django-tbase-post-product]: Start processing: pepperize.projen-awscdk-construct
+[2023-07-03 10:28:44] INFO root fetch - main [MainThread]: End processing [django-tbase-post-product]: success
+[2023-07-03 10:28:44] INFO root fetch - processPackages [uasset-dump]: Downloading https://files.pythonhosted.org/packages/0b/06/09b4083a16c155fe9b35d18594995de154e3dbc822255d147470716bdf9c/uasset_dump-0.0.3.tar.gz
+[2023-07-03 10:28:44] INFO root fetch - processPackages [zcmds]: Remove: archive file [/home/abi/fetcher/tmp/zcmds-1.4.8.tar.gz]
+[2023-07-03 10:28:44] INFO root fetch - processPackages [zcmds]: Remove: archive file [/home/abi/fetcher/tmp/zcmds-1.4.9.tar.gz]
+[2023-07-03 10:28:44] INFO root fetch - main [MainThread]: End processing [zcmds]: success
+[2023-07-03 10:28:44] INFO root fetch - processPackages [dapp-runner]: New version: [0.2.0] Old Version: [0.1.2]
+[2023-07-03 10:28:44] INFO root fetch - processPackages [vineyard-dask]: Downloading https://files.pythonhosted.org/packages/83/59/f3909e80e7d602ca77528b4fd80aafe2e0b8f9a3aa90c0c25dddc9b7a578/vineyard_dask-0.9.0-py3-none-any.whl
+[2023-07-03 10:28:44] INFO root fetch - processPackages [pepperize.projen-awscdk-construct]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-03 10:28:44] INFO root fetch - processPackages [vineyard-io]: Downloading https://files.pythonhosted.org/packages/8d/ed/3afe6a3d585eacffceee242a21b7a6a8c5a1878284ccf321aa95f32fdaf8/vineyard_io-0.9.0-py3-none-any.whl
+[2023-07-03 10:28:44] INFO root fetch - processPackages [dapp-runner]: Downloading https://files.pythonhosted.org/packages/99/02/0cb58f223a8f4eb71db7077a6d0367297131c9b9119963b79c40118d2d54/dapp_runner-0.1.2.tar.gz
+[2023-07-03 10:28:44] INFO root fetch - processPackages [uasset-dump]: Downloading https://files.pythonhosted.org/packages/c5/fe/b268b80db7de33f649ed3e2502a9f44699e289bde507787fd13c419fc513/uasset_dump-0.0.4.tar.gz
+[2023-07-03 10:28:44] INFO root fetch - processPackages [vineyard-dask]: executing diffoscope
+[2023-07-03 10:28:44] INFO root fetch - processPackages [vineyard-dask]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vineyard_dask-0.8.6-py3-none-any.whl.zip tmp/vineyard_dask-0.9.0-py3-none-any.whl.zip --markdown 20230703/v/vineyard-dask/0.8.6-0.9.0/diff.md --exclude *.pyd
+[2023-07-03 10:28:44] INFO root fetch - processPackages [vineyard-ml]: Downloading https://files.pythonhosted.org/packages/23/7b/a35647dea67113391d818963d45530d02ea9d10eb2168e8f5fdbda75ac07/vineyard_ml-0.9.0-py3-none-any.whl
+[2023-07-03 10:28:44] INFO root fetch - processPackages [wpdetect]: Remove: archive file [/home/abi/fetcher/tmp/wpdetect-1.4.7.tar.gz]
+[2023-07-03 10:28:44] INFO root fetch - processPackages [wpdetect]: Remove: archive file [/home/abi/fetcher/tmp/wpdetect-1.4.8.tar.gz]
+[2023-07-03 10:28:44] INFO root fetch - main [MainThread]: End processing [wpdetect]: success
+[2023-07-03 10:28:44] INFO root fetch - processPackages [pepperize.projen-awscdk-construct]: Downloading https://files.pythonhosted.org/packages/73/65/dda73a01dc2ff283b57f83a0bbc3f1c935027e6ee30e4e6bc15797d67da0/pepperize.projen-awscdk-construct-0.0.98.tar.gz
+[2023-07-03 10:28:44] INFO root fetch - processPackages [uasset-dump]: executing diffoscope
+[2023-07-03 10:28:44] INFO root fetch - processPackages [uasset-dump]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uasset_dump-0.0.3.tar.gz tmp/uasset_dump-0.0.4.tar.gz --markdown 20230703/u/uasset-dump/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-03 10:28:44] INFO root fetch - processPackages [vineyard-ml]: executing diffoscope
+[2023-07-03 10:28:44] INFO root fetch - processPackages [vineyard-ml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vineyard_ml-0.8.6-py3-none-any.whl.zip tmp/vineyard_ml-0.9.0-py3-none-any.whl.zip --markdown 20230703/v/vineyard-ml/0.8.6-0.9.0/diff.md --exclude *.pyd
+[2023-07-03 10:28:45] INFO root fetch - processPackages [dapp-runner]: Downloading https://files.pythonhosted.org/packages/e1/32/09dcfa8fb6e8279bbb54eb3f30abc6c804423233ef96bcc52a905ea9dee7/dapp_runner-0.2.0.tar.gz
+[2023-07-03 10:28:45] INFO root fetch - processPackages [pepperize.projen-awscdk-construct]: Downloading https://files.pythonhosted.org/packages/f5/d1/e1f4c78f27c0f4fcdd4024b42cd0ac56deada431e5cac3ce9363aec5c5dd/pepperize.projen-awscdk-construct-0.0.99.tar.gz
+[2023-07-03 10:28:45] INFO root fetch - processPackages [dapp-runner]: executing diffoscope
+[2023-07-03 10:28:45] INFO root fetch - processPackages [dapp-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dapp_runner-0.1.2.tar.gz tmp/dapp_runner-0.2.0.tar.gz --markdown 20230703/d/dapp-runner/0.1.2-0.2.0/diff.md --exclude *.pyd
+[2023-07-03 10:28:45] INFO root fetch - processPackages [pepperize.projen-awscdk-construct]: executing diffoscope
+[2023-07-03 10:28:45] INFO root fetch - processPackages [pepperize.projen-awscdk-construct]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.projen-awscdk-construct-0.0.98.tar.gz tmp/pepperize.projen-awscdk-construct-0.0.99.tar.gz --markdown 20230703/p/pepperize.projen-awscdk-construct/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-03 10:28:45] INFO root fetch - processPackages [vineyard-io]: executing diffoscope
+[2023-07-03 10:28:45] INFO root fetch - processPackages [vineyard-io]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vineyard_io-0.8.6-py3-none-any.whl.zip tmp/vineyard_io-0.9.0-py3-none-any.whl.zip --markdown 20230703/v/vineyard-io/0.8.6-0.9.0/diff.md --exclude *.pyd
+[2023-07-03 10:28:45] INFO root fetch - processPackages [vineyard-dask]: Remove: archive file [/home/abi/fetcher/tmp/vineyard_dask-0.8.6-py3-none-any.whl.zip]
+[2023-07-03 10:28:45] INFO root fetch - processPackages [vineyard-dask]: Remove: archive file [/home/abi/fetcher/tmp/vineyard_dask-0.9.0-py3-none-any.whl.zip]
+[2023-07-03 10:28:45] INFO root fetch - main [MainThread]: End processing [vineyard-dask]: success
+[2023-07-03 10:28:45] INFO root fetch - processPackages [vineyard]: executing diffoscope
+[2023-07-03 10:28:45] INFO root fetch - processPackages [vineyard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vineyard-0.8.6-cp39-cp39-manylinux_2_12_x86_64.manylinux2010_x86_64.whl.zip tmp/vineyard-0.9.0-cp39-cp39-manylinux_2_12_x86_64.manylinux2010_x86_64.whl.zip --markdown 20230703/v/vineyard/0.8.6-0.9.0/diff.md --exclude *.pyd
+[2023-07-03 10:28:45] INFO root fetch - processPackages [uasset-dump]: Remove: archive file [/home/abi/fetcher/tmp/uasset_dump-0.0.3.tar.gz]
+[2023-07-03 10:28:45] INFO root fetch - processPackages [uasset-dump]: Remove: archive file [/home/abi/fetcher/tmp/uasset_dump-0.0.4.tar.gz]
+[2023-07-03 10:28:45] INFO root fetch - main [MainThread]: End processing [uasset-dump]: success
+[2023-07-03 10:28:45] INFO root fetch - processPackages [vineyard-ml]: Remove: archive file [/home/abi/fetcher/tmp/vineyard_ml-0.8.6-py3-none-any.whl.zip]
+[2023-07-03 10:28:45] INFO root fetch - processPackages [vineyard-ml]: Remove: archive file [/home/abi/fetcher/tmp/vineyard_ml-0.9.0-py3-none-any.whl.zip]
+[2023-07-03 10:28:45] INFO root fetch - main [MainThread]: End processing [vineyard-ml]: success
+[2023-07-03 10:28:46] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip]
+[2023-07-03 10:28:46] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
+[2023-07-03 10:28:46] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2023-07-03 10:28:46] INFO root fetch - processPackages [dapp-runner]: Remove: archive file [/home/abi/fetcher/tmp/dapp_runner-0.1.2.tar.gz]
+[2023-07-03 10:28:46] INFO root fetch - processPackages [dapp-runner]: Remove: archive file [/home/abi/fetcher/tmp/dapp_runner-0.2.0.tar.gz]
+[2023-07-03 10:28:46] INFO root fetch - main [MainThread]: End processing [dapp-runner]: success
+[2023-07-03 10:28:46] INFO root fetch - processPackages [pepperize.projen-awscdk-construct]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.projen-awscdk-construct-0.0.98.tar.gz]
+[2023-07-03 10:28:46] INFO root fetch - processPackages [pepperize.projen-awscdk-construct]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.projen-awscdk-construct-0.0.99.tar.gz]
+[2023-07-03 10:28:46] INFO root fetch - main [MainThread]: End processing [pepperize.projen-awscdk-construct]: success
+[2023-07-03 10:28:47] INFO root fetch - processPackages [vineyard-io]: Remove: archive file [/home/abi/fetcher/tmp/vineyard_io-0.8.6-py3-none-any.whl.zip]
+[2023-07-03 10:28:47] INFO root fetch - processPackages [vineyard-io]: Remove: archive file [/home/abi/fetcher/tmp/vineyard_io-0.9.0-py3-none-any.whl.zip]
+[2023-07-03 10:28:47] INFO root fetch - main [MainThread]: End processing [vineyard-io]: success
+[2023-07-03 10:30:30] INFO root fetch - processPackages [vineyard]: Remove: archive file [/home/abi/fetcher/tmp/vineyard-0.8.6-cp39-cp39-manylinux_2_12_x86_64.manylinux2010_x86_64.whl.zip]
+[2023-07-03 10:30:30] INFO root fetch - processPackages [vineyard]: Remove: archive file [/home/abi/fetcher/tmp/vineyard-0.9.0-cp39-cp39-manylinux_2_12_x86_64.manylinux2010_x86_64.whl.zip]
+[2023-07-03 10:30:30] INFO root fetch - main [MainThread]: End processing [vineyard]: success
+[2023-07-03 10:30:30] INFO root fetch - main [MainThread]: Store serial: [18736295]
