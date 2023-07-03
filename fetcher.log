@@ -12190,3 +12190,36 @@ AssertionError: tmp/discord-ansi-0.3.tar.gz does not exist
 [2023-07-03 11:07:47] INFO root fetch - processPackages [indiredis]: Remove: archive file [/home/abi/fetcher/tmp/indiredis-0.7.1.tar.gz]
 [2023-07-03 11:07:47] INFO root fetch - main [MainThread]: End processing [indiredis]: success
 [2023-07-03 11:07:47] INFO root fetch - main [MainThread]: Store serial: [18736762]
+[2023-07-03 11:12:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18736762]
+[2023-07-03 11:12:55] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-03 11:12:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mltlk
+[2023-07-03 11:12:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: vgetpupil
+[2023-07-03 11:12:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: django-filer
+[2023-07-03 11:12:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: woebinning
+[2023-07-03 11:12:56] INFO root fetch - processPackages [vgetpupil]: New version: [2.0.0] Old Version: [1.0.4]
+[2023-07-03 11:12:56] INFO root fetch - processPackages [django-filer]: New version: [3.0.0rc3] Old Version: [3.0.0rc2]
+[2023-07-03 11:12:56] ERROR root fetch - processPackages [woebinning]: Unable to get metadata: No such project 'woebinning'
+[2023-07-03 11:12:56] INFO root fetch - main [MainThread]: End processing [woebinning] error
+[2023-07-03 11:12:56] INFO root fetch - processPackages [mltlk]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-07-03 11:12:56] INFO root fetch - processPackages [vgetpupil]: Downloading https://files.pythonhosted.org/packages/e7/8a/058dc01a4d5eb1c94d0b852dc2233cefa4ad61a6b08bf3ab2df219065a39/vgetpupil-1.0.4.tar.gz
+[2023-07-03 11:12:56] INFO root fetch - processPackages [django-filer]: Downloading https://files.pythonhosted.org/packages/64/1a/b9667f8f614265a6cc7830e8e83b51f11c1d4bed58795134af328032b73f/django-filer-3.0.0rc2.tar.gz
+[2023-07-03 11:12:56] INFO root fetch - processPackages [vgetpupil]: Downloading https://files.pythonhosted.org/packages/40/db/b186a13bdcc2804ab4d9d5f6d272e9a86be36382ae2e3985672f1e45d5cc/vgetpupil-2.0.0.tar.gz
+[2023-07-03 11:12:56] INFO root fetch - processPackages [mltlk]: Downloading https://files.pythonhosted.org/packages/41/6b/4e30b3d3043ecd4dc33de713cc7005c3d42d2bb5ae46e48a5966591589b9/mltlk-0.1.7.tar.gz
+[2023-07-03 11:12:56] INFO root fetch - processPackages [vgetpupil]: executing diffoscope
+[2023-07-03 11:12:56] INFO root fetch - processPackages [vgetpupil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vgetpupil-1.0.4.tar.gz tmp/vgetpupil-2.0.0.tar.gz --markdown 20230703/v/vgetpupil/1.0.4-2.0.0/diff.md --exclude *.pyd
+[2023-07-03 11:12:56] INFO root fetch - processPackages [django-filer]: Downloading https://files.pythonhosted.org/packages/bc/ed/6464a8a6bb8ef3a342a380220aac36ed9bfdef680fd6066ecffa866a094e/django-filer-3.0.0rc3.tar.gz
+[2023-07-03 11:12:57] INFO root fetch - processPackages [vgetpupil]: Remove: archive file [/home/abi/fetcher/tmp/vgetpupil-1.0.4.tar.gz]
+[2023-07-03 11:12:57] INFO root fetch - processPackages [vgetpupil]: Remove: archive file [/home/abi/fetcher/tmp/vgetpupil-2.0.0.tar.gz]
+[2023-07-03 11:12:57] INFO root fetch - main [MainThread]: End processing [vgetpupil]: success
+[2023-07-03 11:12:57] INFO root fetch - processPackages [django-filer]: executing diffoscope
+[2023-07-03 11:12:57] INFO root fetch - processPackages [django-filer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-filer-3.0.0rc2.tar.gz tmp/django-filer-3.0.0rc3.tar.gz --markdown 20230703/d/django-filer/3.0.0rc2-3.0.0rc3/diff.md --exclude *.pyd
+[2023-07-03 11:12:57] INFO root fetch - processPackages [mltlk]: Downloading https://files.pythonhosted.org/packages/a3/43/9f4afc1db775be90fa51d830a740d6aa8de155b1838d1c5480c183ce1c56/mltlk-0.1.8.tar.gz
+[2023-07-03 11:12:58] INFO root fetch - processPackages [mltlk]: executing diffoscope
+[2023-07-03 11:12:58] INFO root fetch - processPackages [mltlk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mltlk-0.1.7.tar.gz tmp/mltlk-0.1.8.tar.gz --markdown 20230703/m/mltlk/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-07-03 11:12:59] INFO root fetch - processPackages [mltlk]: Remove: archive file [/home/abi/fetcher/tmp/mltlk-0.1.7.tar.gz]
+[2023-07-03 11:12:59] INFO root fetch - processPackages [mltlk]: Remove: archive file [/home/abi/fetcher/tmp/mltlk-0.1.8.tar.gz]
+[2023-07-03 11:12:59] INFO root fetch - main [MainThread]: End processing [mltlk]: success
+[2023-07-03 11:13:00] INFO root fetch - processPackages [django-filer]: Remove: archive file [/home/abi/fetcher/tmp/django-filer-3.0.0rc2.tar.gz]
+[2023-07-03 11:13:00] INFO root fetch - processPackages [django-filer]: Remove: archive file [/home/abi/fetcher/tmp/django-filer-3.0.0rc3.tar.gz]
+[2023-07-03 11:13:00] INFO root fetch - main [MainThread]: End processing [django-filer]: success
+[2023-07-03 11:13:00] INFO root fetch - main [MainThread]: Store serial: [18736778]
