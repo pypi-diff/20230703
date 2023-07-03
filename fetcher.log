@@ -17641,3 +17641,197 @@ AssertionError: tmp/docarray-0.9.9.dev4.tar.gz does not exist
 [2023-07-03 14:41:00] INFO root fetch - main [MainThread]: End processing [metaphor-connectors]: success
 [2023-07-03 14:41:01] INFO root fetch - main [MainThread]: End processing [HSTI]: success
 [2023-07-03 14:41:01] INFO root fetch - main [MainThread]: Store serial: [18739077]
+[2023-07-03 14:46:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18739077]
+[2023-07-03 14:46:10] INFO root fetch - main [MainThread]: Found 23 changed packages
+[2023-07-03 14:46:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: HSTI
+[2023-07-03 14:46:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pertCF
+[2023-07-03 14:46:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: testpoetry2
+[2023-07-03 14:46:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kasutils
+[2023-07-03 14:46:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sama-probability
+[2023-07-03 14:46:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: zesty.zbs-api-securonix
+[2023-07-03 14:46:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tensorcircuit-nightly
+[2023-07-03 14:46:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dsna-complete
+[2023-07-03 14:46:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: frequenz-sdk
+[2023-07-03 14:46:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: uge-drmaa2
+[2023-07-03 14:46:10] INFO root fetch - processPackages [HSTI]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-03 14:46:10] WARNING root fetch - processPackages [pertCF]: Skipping, unable to determine old version
+[2023-07-03 14:46:10] INFO root fetch - processPackages [pertCF]: Start processing: uge-pycl
+[2023-07-03 14:46:10] INFO root fetch - main [MainThread]: End processing [pertCF] error
+[2023-07-03 14:46:10] INFO root fetch - processPackages [zesty.zbs-api-securonix]: New version: [1.0.2023.7.3.1688388215] Old Version: [1.0.2023.7.2.1688341676]
+[2023-07-03 14:46:10] WARNING root fetch - processPackages [sama-probability]: Skipping, unable to determine old version
+[2023-07-03 14:46:10] INFO root fetch - processPackages [sama-probability]: Start processing: tibis
+[2023-07-03 14:46:10] INFO root fetch - main [MainThread]: End processing [sama-probability] error
+[2023-07-03 14:46:10] INFO root fetch - processPackages [testpoetry2]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-03 14:46:10] INFO root fetch - processPackages [kasutils]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-03 14:46:10] INFO root fetch - processPackages [uge-drmaa2]: New version: [8.8.0] Old Version: [8.7.2]
+[2023-07-03 14:46:10] INFO root fetch - processPackages [dsna-complete]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-03 14:46:10] INFO root fetch - processPackages [frequenz-sdk]: New version: [0.21.1] Old Version: [0.20.0]
+[2023-07-03 14:46:10] INFO root fetch - processPackages [tensorcircuit-nightly]: New version: [0.9.1.dev20230608] Old Version: [0.9.1.dev20230607]
+[2023-07-03 14:46:10] INFO root fetch - processPackages [uge-pycl]: New version: [8.8.0] Old Version: [8.7.2]
+[2023-07-03 14:46:10] INFO root fetch - processPackages [tibis]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-07-03 14:46:10] INFO root fetch - processPackages [zesty.zbs-api-securonix]: Downloading https://files.pythonhosted.org/packages/87/0a/8376cf5da9446060f4ec2da73c12e9820f378175b68e09221443cef967df/zesty.zbs-api-securonix-1.0.2023.7.2.1688341676.tar.gz
+[2023-07-03 14:46:10] INFO root fetch - processPackages [testpoetry2]: Downloading https://files.pythonhosted.org/packages/fc/62/689f1f4d2e82b281a8233ea4df984b5ad612236bca857a7089866bec9969/testpoetry2-0.1.8.tar.gz
+[2023-07-03 14:46:10] INFO root fetch - processPackages [tensorcircuit-nightly]: Downloading https://files.pythonhosted.org/packages/79/2a/50740b6f8b7e1d0c4223c72c789f41baca7a4e77f32e8f52bd91e7ebff20/tensorcircuit-nightly-0.9.1.dev20230607.tar.gz
+[2023-07-03 14:46:10] INFO root fetch - processPackages [HSTI]: Downloading https://files.pythonhosted.org/packages/61/ba/843e4a6a39f024e15e9f248b8b9daf6551846c6e8b5257f75db604fdbd56/HSTI-0.0.8.tar.gz
+[2023-07-03 14:46:10] INFO root fetch - processPackages [dsna-complete]: Downloading https://files.pythonhosted.org/packages/23/cb/3feb48662efa444bea8a5be26d9cf6de983d63262364130433acd5a4b503/dsna_complete-0.0.1.tar.gz
+[2023-07-03 14:46:11] INFO root fetch - processPackages [kasutils]: Downloading https://files.pythonhosted.org/packages/e3/36/e9eeafbddeed8844f333c06d6ed390af0e1a5e08393076e602d878679fe0/kasutils-0.0.1.tar.gz
+[2023-07-03 14:46:11] INFO root fetch - processPackages [uge-drmaa2]: Downloading https://files.pythonhosted.org/packages/02/af/bd6ff5ed13d11aa4be9095c1e1d93e05efdef53bb44c24ca9cb58b87130a/uge-drmaa2-8.7.2.tar.gz
+[2023-07-03 14:46:11] INFO root fetch - processPackages [tibis]: Downloading https://files.pythonhosted.org/packages/5a/2d/734ae851d6718a6bf11b27b4068aacfa96131055a1ad8ea9a461cb93ccc4/tibis-1.0.7.tar.gz
+[2023-07-03 14:46:11] INFO root fetch - processPackages [uge-pycl]: Downloading https://files.pythonhosted.org/packages/ab/27/3b27d56cfaaa680d331cdf2cbedf010ae603b2f1a151734e0fc4fd6f2d81/uge-pycl-8.7.2.tar.gz
+[2023-07-03 14:46:11] INFO root fetch - processPackages [frequenz-sdk]: Downloading https://files.pythonhosted.org/packages/ea/4e/16598935c8fa894f31f838117c9396b56b58d4fbbd4c74109ae7fc4be18d/frequenz-sdk-0.20.0.tar.gz
+[2023-07-03 14:46:11] INFO root fetch - processPackages [zesty.zbs-api-securonix]: Downloading https://files.pythonhosted.org/packages/11/19/d645f0ab22307572e9b7ac814183f24784a813758385754fc6550aa95309/zesty.zbs-api-securonix-1.0.2023.7.3.1688388215.tar.gz
+[2023-07-03 14:46:11] INFO root fetch - processPackages [testpoetry2]: Downloading https://files.pythonhosted.org/packages/30/8e/2a5667e0a491b0a7af7dd539d4fa73c281b7801bed1f7fabf4e3bf655326/testpoetry2-0.1.9.tar.gz
+[2023-07-03 14:46:11] INFO root fetch - processPackages [dsna-complete]: Downloading https://files.pythonhosted.org/packages/38/50/d9758a2aea29886887ca3f8810163af4a12b44af46d2a12f76cb3aec8440/dsna_complete-0.0.2.tar.gz
+[2023-07-03 14:46:11] INFO root fetch - processPackages [zesty.zbs-api-securonix]: executing diffoscope
+[2023-07-03 14:46:11] INFO root fetch - processPackages [zesty.zbs-api-securonix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zesty.zbs-api-securonix-1.0.2023.7.2.1688341676.tar.gz tmp/zesty.zbs-api-securonix-1.0.2023.7.3.1688388215.tar.gz --markdown 20230703/z/zesty.zbs-api-securonix/1.0.2023.7.2.1688341676-1.0.2023.7.3.1688388215/diff.md --exclude *.pyd
+[2023-07-03 14:46:11] INFO root fetch - processPackages [tensorcircuit-nightly]: Downloading https://files.pythonhosted.org/packages/2f/cc/671276320457670987d1eb503de15ee19924e63c7ec9c99b14c240d5aa18/tensorcircuit-nightly-0.9.1.dev20230608.tar.gz
+[2023-07-03 14:46:11] INFO root fetch - processPackages [testpoetry2]: executing diffoscope
+[2023-07-03 14:46:11] INFO root fetch - processPackages [testpoetry2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testpoetry2-0.1.8.tar.gz tmp/testpoetry2-0.1.9.tar.gz --markdown 20230703/t/testpoetry2/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-03 14:46:11] INFO root fetch - processPackages [HSTI]: Downloading https://files.pythonhosted.org/packages/d8/11/fc8e17c1c7ea1ed6d3fe2ace9c4bdf9f92089ddcd32e4c2f4e2c0d60dc8f/HSTI-0.0.9.tar.gz
+[2023-07-03 14:46:11] INFO root fetch - processPackages [kasutils]: Downloading https://files.pythonhosted.org/packages/ea/d4/a2e6850a846b1e3bd8c4d00b03f849e5a9c5f30d25dc65f38b4d7f55af41/kasutils-0.0.2.tar.gz
+[2023-07-03 14:46:11] INFO root fetch - processPackages [uge-drmaa2]: Downloading https://files.pythonhosted.org/packages/4a/2c/f2ff3a903f1c39b2617cfeff11dee9505ee4525bae196e7602ea9868e48d/uge-drmaa2-8.8.0.tar.gz
+[2023-07-03 14:46:11] INFO root fetch - processPackages [dsna-complete]: executing diffoscope
+[2023-07-03 14:46:11] INFO root fetch - processPackages [dsna-complete]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dsna_complete-0.0.1.tar.gz tmp/dsna_complete-0.0.2.tar.gz --markdown 20230703/d/dsna-complete/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-03 14:46:11] INFO root fetch - processPackages [tensorcircuit-nightly]: executing diffoscope
+[2023-07-03 14:46:11] INFO root fetch - processPackages [tensorcircuit-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensorcircuit-nightly-0.9.1.dev20230607.tar.gz tmp/tensorcircuit-nightly-0.9.1.dev20230608.tar.gz --markdown 20230703/t/tensorcircuit-nightly/0.9.1.dev20230607-0.9.1.dev20230608/diff.md --exclude *.pyd
+[2023-07-03 14:46:11] INFO root fetch - processPackages [tibis]: Downloading https://files.pythonhosted.org/packages/d3/80/a9bbbfec1d9ed44aa3a58897b76079c901912d6abad2cb01d7e99b3e2106/tibis-1.0.8.tar.gz
+[2023-07-03 14:46:11] INFO root fetch - processPackages [uge-pycl]: Downloading https://files.pythonhosted.org/packages/7d/f4/6b6feb063af718b6639a5ca59522365d094fb381bff8ad48375eeac2922b/uge-pycl-8.8.0.tar.gz
+[2023-07-03 14:46:11] INFO root fetch - processPackages [uge-drmaa2]: executing diffoscope
+[2023-07-03 14:46:11] INFO root fetch - processPackages [uge-drmaa2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uge-drmaa2-8.7.2.tar.gz tmp/uge-drmaa2-8.8.0.tar.gz --markdown 20230703/u/uge-drmaa2/8.7.2-8.8.0/diff.md --exclude *.pyd
+[2023-07-03 14:46:11] INFO root fetch - processPackages [frequenz-sdk]: Downloading https://files.pythonhosted.org/packages/00/94/8df0e7b232fae62a432157f08d4ab7c8bc60ee4f11d135cce3d1a82f0129/frequenz-sdk-0.21.1.tar.gz
+[2023-07-03 14:46:11] INFO root fetch - processPackages [kasutils]: executing diffoscope
+[2023-07-03 14:46:11] INFO root fetch - processPackages [kasutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kasutils-0.0.1.tar.gz tmp/kasutils-0.0.2.tar.gz --markdown 20230703/k/kasutils/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-03 14:46:11] INFO root fetch - processPackages [HSTI]: executing diffoscope
+[2023-07-03 14:46:11] INFO root fetch - processPackages [HSTI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/HSTI-0.0.8.tar.gz tmp/HSTI-0.0.9.tar.gz --markdown 20230703/H/HSTI/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-03 14:46:12] INFO root fetch - processPackages [tibis]: executing diffoscope
+[2023-07-03 14:46:12] INFO root fetch - processPackages [tibis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tibis-1.0.7.tar.gz tmp/tibis-1.0.8.tar.gz --markdown 20230703/t/tibis/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-07-03 14:46:12] INFO root fetch - processPackages [frequenz-sdk]: executing diffoscope
+[2023-07-03 14:46:12] INFO root fetch - processPackages [frequenz-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/frequenz-sdk-0.20.0.tar.gz tmp/frequenz-sdk-0.21.1.tar.gz --markdown 20230703/f/frequenz-sdk/0.20.0-0.21.1/diff.md --exclude *.pyd
+[2023-07-03 14:46:12] INFO root fetch - processPackages [uge-pycl]: executing diffoscope
+[2023-07-03 14:46:12] INFO root fetch - processPackages [uge-pycl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uge-pycl-8.7.2.tar.gz tmp/uge-pycl-8.8.0.tar.gz --markdown 20230703/u/uge-pycl/8.7.2-8.8.0/diff.md --exclude *.pyd
+[2023-07-03 14:46:13] INFO root fetch - processPackages [testpoetry2]: Remove: archive file [/home/abi/fetcher/tmp/testpoetry2-0.1.8.tar.gz]
+[2023-07-03 14:46:13] INFO root fetch - processPackages [testpoetry2]: Remove: archive file [/home/abi/fetcher/tmp/testpoetry2-0.1.9.tar.gz]
+[2023-07-03 14:46:13] INFO root fetch - processPackages [testpoetry2]: Start processing: redbrick-sdk
+[2023-07-03 14:46:13] INFO root fetch - main [MainThread]: End processing [testpoetry2]: success
+[2023-07-03 14:46:13] INFO root fetch - processPackages [zesty.zbs-api-securonix]: Remove: archive file [/home/abi/fetcher/tmp/zesty.zbs-api-securonix-1.0.2023.7.2.1688341676.tar.gz]
+[2023-07-03 14:46:13] INFO root fetch - processPackages [zesty.zbs-api-securonix]: Remove: archive file [/home/abi/fetcher/tmp/zesty.zbs-api-securonix-1.0.2023.7.3.1688388215.tar.gz]
+[2023-07-03 14:46:13] INFO root fetch - processPackages [zesty.zbs-api-securonix]: Start processing: satpy
+[2023-07-03 14:46:13] INFO root fetch - main [MainThread]: End processing [zesty.zbs-api-securonix]: success
+[2023-07-03 14:46:13] INFO root fetch - processPackages [dsna-complete]: Remove: archive file [/home/abi/fetcher/tmp/dsna_complete-0.0.1.tar.gz]
+[2023-07-03 14:46:13] INFO root fetch - processPackages [dsna-complete]: Remove: archive file [/home/abi/fetcher/tmp/dsna_complete-0.0.2.tar.gz]
+[2023-07-03 14:46:13] INFO root fetch - processPackages [dsna-complete]: Start processing: hestia-earth-validation
+[2023-07-03 14:46:13] INFO root fetch - main [MainThread]: End processing [dsna-complete]: success
+[2023-07-03 14:46:13] INFO root fetch - processPackages [redbrick-sdk]: New version: [2.9.1] Old Version: [2.9.0]
+[2023-07-03 14:46:13] INFO root fetch - processPackages [hestia-earth-validation]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-07-03 14:46:13] INFO root fetch - processPackages [satpy]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-07-03 14:46:13] INFO root fetch - processPackages [kasutils]: Remove: archive file [/home/abi/fetcher/tmp/kasutils-0.0.1.tar.gz]
+[2023-07-03 14:46:13] INFO root fetch - processPackages [kasutils]: Remove: archive file [/home/abi/fetcher/tmp/kasutils-0.0.2.tar.gz]
+[2023-07-03 14:46:13] INFO root fetch - processPackages [kasutils]: Start processing: webexception
+[2023-07-03 14:46:13] INFO root fetch - main [MainThread]: End processing [kasutils]: success
+[2023-07-03 14:46:13] INFO root fetch - processPackages [webexception]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-07-03 14:46:13] INFO root fetch - processPackages [redbrick-sdk]: Downloading https://files.pythonhosted.org/packages/39/80/dc7084102f17b9bfc0989d45c43808a79888bb2b1ede233fc3c06f239087/redbrick-sdk-2.9.0.tar.gz
+[2023-07-03 14:46:13] INFO root fetch - processPackages [hestia-earth-validation]: Downloading https://files.pythonhosted.org/packages/33/b1/1105a4e61f23c309958db8eb0a5c59b945e3291d912a253970b1cdb90f73/hestia-earth-validation-0.9.2.tar.gz
+[2023-07-03 14:46:13] INFO root fetch - processPackages [satpy]: Downloading https://files.pythonhosted.org/packages/d4/03/9b1c911b623622b0e5930e9e95074a7ee9f25f8ba07d4c1d57686b541754/satpy-0.9.3.tar.gz
+[2023-07-03 14:46:13] INFO root fetch - processPackages [webexception]: Downloading https://files.pythonhosted.org/packages/ce/12/1cef6bf4834cce70ec2a317009e596eec4f61c0f27c5cf860a3d166234e9/webexception-1.0.3.tar.gz
+[2023-07-03 14:46:13] INFO root fetch - processPackages [tibis]: Remove: archive file [/home/abi/fetcher/tmp/tibis-1.0.7.tar.gz]
+[2023-07-03 14:46:13] INFO root fetch - processPackages [tibis]: Remove: archive file [/home/abi/fetcher/tmp/tibis-1.0.8.tar.gz]
+[2023-07-03 14:46:13] INFO root fetch - processPackages [tibis]: Start processing: linien-common
+[2023-07-03 14:46:13] INFO root fetch - main [MainThread]: End processing [tibis]: success
+[2023-07-03 14:46:13] INFO root fetch - processPackages [linien-common]: New version: [0.8.0rc2] Old Version: [0.8.0rc1]
+[2023-07-03 14:46:13] INFO root fetch - processPackages [uge-drmaa2]: Remove: archive file [/home/abi/fetcher/tmp/uge-drmaa2-8.7.2.tar.gz]
+[2023-07-03 14:46:13] INFO root fetch - processPackages [uge-drmaa2]: Remove: archive file [/home/abi/fetcher/tmp/uge-drmaa2-8.8.0.tar.gz]
+[2023-07-03 14:46:13] INFO root fetch - processPackages [uge-drmaa2]: Start processing: linien-server
+[2023-07-03 14:46:13] INFO root fetch - main [MainThread]: End processing [uge-drmaa2]: success
+[2023-07-03 14:46:13] INFO root fetch - processPackages [linien-server]: New version: [0.8.0rc2] Old Version: [0.8.0rc1]
+[2023-07-03 14:46:13] INFO root fetch - processPackages [linien-common]: Downloading https://files.pythonhosted.org/packages/c2/0a/0e0bf15587abc7b213a19c31dcad581a0bf80e2af91c087cf303ab105610/linien-common-0.8.0rc1.tar.gz
+[2023-07-03 14:46:14] INFO root fetch - processPackages [linien-server]: Downloading https://files.pythonhosted.org/packages/ff/61/433ab5bfe78e91181084e19f89346ff431a5422c3c295f3c7656373634d1/linien-server-0.8.0rc1.tar.gz
+[2023-07-03 14:46:14] INFO root fetch - processPackages [webexception]: Downloading https://files.pythonhosted.org/packages/8f/08/04e89f5a1f650def1a89f7eb5b7be76a726f9cf4f8cf00ad1987d32d67cb/webexception-1.0.4.tar.gz
+[2023-07-03 14:46:14] INFO root fetch - processPackages [redbrick-sdk]: Downloading https://files.pythonhosted.org/packages/a7/76/019f7262b8485c21cf169b7845636395b17c40312c8ef76d03c3492c4218/redbrick-sdk-2.9.1.tar.gz
+[2023-07-03 14:46:14] INFO root fetch - processPackages [tensorcircuit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensorcircuit-nightly-0.9.1.dev20230607.tar.gz]
+[2023-07-03 14:46:14] INFO root fetch - processPackages [tensorcircuit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensorcircuit-nightly-0.9.1.dev20230608.tar.gz]
+[2023-07-03 14:46:14] INFO root fetch - processPackages [tensorcircuit-nightly]: Start processing: grai-source-postgres
+[2023-07-03 14:46:14] INFO root fetch - main [MainThread]: End processing [tensorcircuit-nightly]: success
+[2023-07-03 14:46:14] INFO root fetch - processPackages [satpy]: Downloading https://files.pythonhosted.org/packages/2f/56/11aed07191781fa2d5d61309c4d7865c609a9b968782b24fd9e29e964942/satpy-0.9.4.tar.gz
+[2023-07-03 14:46:14] INFO root fetch - processPackages [uge-pycl]: Remove: archive file [/home/abi/fetcher/tmp/uge-pycl-8.7.2.tar.gz]
+[2023-07-03 14:46:14] INFO root fetch - processPackages [uge-pycl]: Remove: archive file [/home/abi/fetcher/tmp/uge-pycl-8.8.0.tar.gz]
+[2023-07-03 14:46:14] INFO root fetch - processPackages [uge-pycl]: Start processing: linien-client
+[2023-07-03 14:46:14] INFO root fetch - main [MainThread]: End processing [uge-pycl]: success
+[2023-07-03 14:46:14] INFO root fetch - processPackages [webexception]: executing diffoscope
+[2023-07-03 14:46:14] INFO root fetch - processPackages [webexception]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/webexception-1.0.3.tar.gz tmp/webexception-1.0.4.tar.gz --markdown 20230703/w/webexception/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-07-03 14:46:14] INFO root fetch - processPackages [linien-client]: New version: [0.8.0rc1] Old Version: [0.7.0rc2]
+[2023-07-03 14:46:14] INFO root fetch - processPackages [grai-source-postgres]: New version: [0.2.0a3] Old Version: [0.2.0a2]
+[2023-07-03 14:46:14] INFO root fetch - processPackages [frequenz-sdk]: Remove: archive file [/home/abi/fetcher/tmp/frequenz-sdk-0.20.0.tar.gz]
+[2023-07-03 14:46:14] INFO root fetch - processPackages [frequenz-sdk]: Remove: archive file [/home/abi/fetcher/tmp/frequenz-sdk-0.21.1.tar.gz]
+[2023-07-03 14:46:14] INFO root fetch - processPackages [frequenz-sdk]: Start processing: chainforge
+[2023-07-03 14:46:14] INFO root fetch - main [MainThread]: End processing [frequenz-sdk]: success
+[2023-07-03 14:46:14] INFO root fetch - processPackages [hestia-earth-validation]: Downloading https://files.pythonhosted.org/packages/b0/45/d5ba27a9ee459bf387b017277d998197192c37d8374146ae34a294f8a0af/hestia-earth-validation-0.9.3.tar.gz
+[2023-07-03 14:46:14] INFO root fetch - processPackages [linien-common]: Downloading https://files.pythonhosted.org/packages/8f/f8/8b4e85e01f2de4037ce6e0564cc4839fe0d46c641f4801c1e78ea54582c1/linien-common-0.8.0rc2.tar.gz
+[2023-07-03 14:46:14] INFO root fetch - processPackages [linien-client]: Downloading https://files.pythonhosted.org/packages/c7/65/fb41a2447fe6ebee1ffee0a6690a34fd30927623f4d9cfbfb42cfc19732b/linien-client-0.7.0rc2.tar.gz
+[2023-07-03 14:46:14] INFO root fetch - processPackages [satpy]: executing diffoscope
+[2023-07-03 14:46:14] INFO root fetch - processPackages [satpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/satpy-0.9.3.tar.gz tmp/satpy-0.9.4.tar.gz --markdown 20230703/s/satpy/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-07-03 14:46:14] INFO root fetch - processPackages [chainforge]: New version: [0.2.0.1] Old Version: [0.2]
+[2023-07-03 14:46:14] INFO root fetch - processPackages [redbrick-sdk]: executing diffoscope
+[2023-07-03 14:46:14] INFO root fetch - processPackages [redbrick-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/redbrick-sdk-2.9.0.tar.gz tmp/redbrick-sdk-2.9.1.tar.gz --markdown 20230703/r/redbrick-sdk/2.9.0-2.9.1/diff.md --exclude *.pyd
+[2023-07-03 14:46:14] INFO root fetch - processPackages [grai-source-postgres]: Downloading https://files.pythonhosted.org/packages/62/0a/6798ca4271242178f7020fb5116a7b9a62ec58d978483287f4d1fa9b08be/grai_source_postgres-0.2.0a2.tar.gz
+[2023-07-03 14:46:14] INFO root fetch - processPackages [linien-common]: executing diffoscope
+[2023-07-03 14:46:14] INFO root fetch - processPackages [linien-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/linien-common-0.8.0rc1.tar.gz tmp/linien-common-0.8.0rc2.tar.gz --markdown 20230703/l/linien-common/0.8.0rc1-0.8.0rc2/diff.md --exclude *.pyd
+[2023-07-03 14:46:14] INFO root fetch - processPackages [hestia-earth-validation]: executing diffoscope
+[2023-07-03 14:46:14] INFO root fetch - processPackages [hestia-earth-validation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hestia-earth-validation-0.9.2.tar.gz tmp/hestia-earth-validation-0.9.3.tar.gz --markdown 20230703/h/hestia-earth-validation/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-07-03 14:46:14] INFO root fetch - processPackages [linien-server]: Downloading https://files.pythonhosted.org/packages/7b/f5/ecfa305b2b580d04936ae4dc341d80b88749333a419f64fcd91c84454e4a/linien-server-0.8.0rc2.tar.gz
+[2023-07-03 14:46:14] INFO root fetch - processPackages [linien-client]: Downloading https://files.pythonhosted.org/packages/6b/f3/31f0898c92a64e40890e3621ac0e23f62078db4ccdbead712a4d0c511d8f/linien-client-0.8.0rc1.tar.gz
+[2023-07-03 14:46:14] INFO root fetch - processPackages [chainforge]: Downloading https://files.pythonhosted.org/packages/ab/cb/64258325cd29c4ca29993c9bbf06340e17f512f7d8e0640588dc17d5c046/chainforge-0.2.tar.gz
+[2023-07-03 14:46:14] INFO root fetch - processPackages [linien-client]: executing diffoscope
+[2023-07-03 14:46:14] INFO root fetch - processPackages [linien-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/linien-client-0.7.0rc2.tar.gz tmp/linien-client-0.8.0rc1.tar.gz --markdown 20230703/l/linien-client/0.7.0rc2-0.8.0rc1/diff.md --exclude *.pyd
+[2023-07-03 14:46:14] INFO root fetch - processPackages [linien-server]: executing diffoscope
+[2023-07-03 14:46:14] INFO root fetch - processPackages [linien-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/linien-server-0.8.0rc1.tar.gz tmp/linien-server-0.8.0rc2.tar.gz --markdown 20230703/l/linien-server/0.8.0rc1-0.8.0rc2/diff.md --exclude *.pyd
+[2023-07-03 14:46:14] INFO root fetch - processPackages [grai-source-postgres]: Downloading https://files.pythonhosted.org/packages/19/be/e2babee1dda07250cf6fb957bfc98c2bedd90fd696a90098cf2d0cf94f3a/grai_source_postgres-0.2.0a3.tar.gz
+[2023-07-03 14:46:15] INFO root fetch - processPackages [HSTI]: Remove: archive file [/home/abi/fetcher/tmp/HSTI-0.0.8.tar.gz]
+[2023-07-03 14:46:15] INFO root fetch - processPackages [HSTI]: Remove: archive file [/home/abi/fetcher/tmp/HSTI-0.0.9.tar.gz]
+[2023-07-03 14:46:15] INFO root fetch - processPackages [HSTI]: Start processing: linien-gui
+[2023-07-03 14:46:15] INFO root fetch - main [MainThread]: End processing [HSTI]: success
+[2023-07-03 14:46:15] INFO root fetch - processPackages [linien-gui]: New version: [0.8.0rc1] Old Version: [0.7.0rc2]
+[2023-07-03 14:46:15] INFO root fetch - processPackages [grai-source-postgres]: executing diffoscope
+[2023-07-03 14:46:15] INFO root fetch - processPackages [grai-source-postgres]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grai_source_postgres-0.2.0a2.tar.gz tmp/grai_source_postgres-0.2.0a3.tar.gz --markdown 20230703/g/grai-source-postgres/0.2.0a2-0.2.0a3/diff.md --exclude *.pyd
+[2023-07-03 14:46:15] INFO root fetch - processPackages [linien-gui]: Downloading https://files.pythonhosted.org/packages/e9/ab/eabc53be29694b0e7f04029e8335ad707b8fd79c7fef846cb056d9fc1638/linien-gui-0.7.0rc2.tar.gz
+[2023-07-03 14:46:15] INFO root fetch - processPackages [webexception]: Remove: archive file [/home/abi/fetcher/tmp/webexception-1.0.3.tar.gz]
+[2023-07-03 14:46:15] INFO root fetch - processPackages [webexception]: Remove: archive file [/home/abi/fetcher/tmp/webexception-1.0.4.tar.gz]
+[2023-07-03 14:46:15] INFO root fetch - processPackages [webexception]: Start processing: libTSCANAPI
+[2023-07-03 14:46:15] INFO root fetch - main [MainThread]: End processing [webexception]: success
+[2023-07-03 14:46:15] INFO root fetch - processPackages [libTSCANAPI]: New version: [1.1.6] Old Version: [1.1.5]
+[2023-07-03 14:46:15] INFO root fetch - processPackages [linien-gui]: Downloading https://files.pythonhosted.org/packages/60/2c/4499c653bae19e1ea23c2468e1192051cc55ea1e4f688927daac13c5e64f/linien-gui-0.8.0rc1.tar.gz
+[2023-07-03 14:46:15] INFO root fetch - processPackages [linien-common]: Remove: archive file [/home/abi/fetcher/tmp/linien-common-0.8.0rc1.tar.gz]
+[2023-07-03 14:46:15] INFO root fetch - processPackages [linien-common]: Remove: archive file [/home/abi/fetcher/tmp/linien-common-0.8.0rc2.tar.gz]
+[2023-07-03 14:46:15] INFO root fetch - main [MainThread]: End processing [linien-common]: success
+[2023-07-03 14:46:15] INFO root fetch - processPackages [linien-gui]: executing diffoscope
+[2023-07-03 14:46:15] INFO root fetch - processPackages [linien-gui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/linien-gui-0.7.0rc2.tar.gz tmp/linien-gui-0.8.0rc1.tar.gz --markdown 20230703/l/linien-gui/0.7.0rc2-0.8.0rc1/diff.md --exclude *.pyd
+[2023-07-03 14:46:15] INFO root fetch - processPackages [libTSCANAPI]: Downloading https://files.pythonhosted.org/packages/98/43/240576ec1fcb80a109d4d1afea52b65dc1dbdbf602fff676903395cbea57/libTSCANAPI-1.1.5.tar.gz
+[2023-07-03 14:46:15] INFO root fetch - processPackages [redbrick-sdk]: Remove: archive file [/home/abi/fetcher/tmp/redbrick-sdk-2.9.0.tar.gz]
+[2023-07-03 14:46:15] INFO root fetch - processPackages [redbrick-sdk]: Remove: archive file [/home/abi/fetcher/tmp/redbrick-sdk-2.9.1.tar.gz]
+[2023-07-03 14:46:15] INFO root fetch - main [MainThread]: End processing [redbrick-sdk]: success
+[2023-07-03 14:46:15] WARNING root fetch - processPackages [libTSCANAPI]: Skipping package: exceeds size limit 16390296>=10485760
+[2023-07-03 14:46:15] INFO root fetch - main [MainThread]: End processing [libTSCANAPI] error
+[2023-07-03 14:46:16] INFO root fetch - processPackages [chainforge]: Downloading https://files.pythonhosted.org/packages/3d/5c/1e69a7022952c6d00bd9e7dd4594abd75458ae517131a2bfb89478a03a96/chainforge-0.2.0.1.tar.gz
+[2023-07-03 14:46:16] INFO root fetch - processPackages [hestia-earth-validation]: Remove: archive file [/home/abi/fetcher/tmp/hestia-earth-validation-0.9.2.tar.gz]
+[2023-07-03 14:46:16] INFO root fetch - processPackages [hestia-earth-validation]: Remove: archive file [/home/abi/fetcher/tmp/hestia-earth-validation-0.9.3.tar.gz]
+[2023-07-03 14:46:16] INFO root fetch - main [MainThread]: End processing [hestia-earth-validation]: success
+[2023-07-03 14:46:16] INFO root fetch - processPackages [linien-client]: Remove: archive file [/home/abi/fetcher/tmp/linien-client-0.7.0rc2.tar.gz]
+[2023-07-03 14:46:16] INFO root fetch - processPackages [linien-client]: Remove: archive file [/home/abi/fetcher/tmp/linien-client-0.8.0rc1.tar.gz]
+[2023-07-03 14:46:16] INFO root fetch - main [MainThread]: End processing [linien-client]: success
+[2023-07-03 14:46:16] INFO root fetch - processPackages [grai-source-postgres]: Remove: archive file [/home/abi/fetcher/tmp/grai_source_postgres-0.2.0a2.tar.gz]
+[2023-07-03 14:46:16] INFO root fetch - processPackages [grai-source-postgres]: Remove: archive file [/home/abi/fetcher/tmp/grai_source_postgres-0.2.0a3.tar.gz]
+[2023-07-03 14:46:16] INFO root fetch - main [MainThread]: End processing [grai-source-postgres]: success
+[2023-07-03 14:46:16] INFO root fetch - processPackages [linien-server]: Remove: archive file [/home/abi/fetcher/tmp/linien-server-0.8.0rc1.tar.gz]
+[2023-07-03 14:46:16] INFO root fetch - processPackages [linien-server]: Remove: archive file [/home/abi/fetcher/tmp/linien-server-0.8.0rc2.tar.gz]
+[2023-07-03 14:46:16] INFO root fetch - main [MainThread]: End processing [linien-server]: success
+[2023-07-03 14:46:16] INFO root fetch - processPackages [satpy]: Remove: archive file [/home/abi/fetcher/tmp/satpy-0.9.3.tar.gz]
+[2023-07-03 14:46:16] INFO root fetch - processPackages [satpy]: Remove: archive file [/home/abi/fetcher/tmp/satpy-0.9.4.tar.gz]
+[2023-07-03 14:46:16] INFO root fetch - main [MainThread]: End processing [satpy]: success
+[2023-07-03 14:46:17] INFO root fetch - processPackages [chainforge]: executing diffoscope
+[2023-07-03 14:46:17] INFO root fetch - processPackages [chainforge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chainforge-0.2.tar.gz tmp/chainforge-0.2.0.1.tar.gz --markdown 20230703/c/chainforge/0.2-0.2.0.1/diff.md --exclude *.pyd
+[2023-07-03 14:46:17] INFO root fetch - processPackages [linien-gui]: Remove: archive file [/home/abi/fetcher/tmp/linien-gui-0.7.0rc2.tar.gz]
+[2023-07-03 14:46:17] INFO root fetch - processPackages [linien-gui]: Remove: archive file [/home/abi/fetcher/tmp/linien-gui-0.8.0rc1.tar.gz]
+[2023-07-03 14:46:17] INFO root fetch - main [MainThread]: End processing [linien-gui]: success
+[2023-07-03 14:47:20] INFO root fetch - processPackages [chainforge]: Remove: archive file [/home/abi/fetcher/tmp/chainforge-0.2.tar.gz]
+[2023-07-03 14:47:20] INFO root fetch - processPackages [chainforge]: Remove: archive file [/home/abi/fetcher/tmp/chainforge-0.2.0.1.tar.gz]
+[2023-07-03 14:47:20] INFO root fetch - main [MainThread]: End processing [chainforge]: success
+[2023-07-03 14:47:20] INFO root fetch - main [MainThread]: Store serial: [18739146]
