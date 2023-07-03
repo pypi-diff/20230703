@@ -4924,3 +4924,126 @@
 [2023-07-03 03:34:58] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.346.3.tar.gz]
 [2023-07-03 03:34:58] INFO root fetch - main [MainThread]: End processing [policyengine-us]: success
 [2023-07-03 03:34:58] INFO root fetch - main [MainThread]: Store serial: [18733638]
+[2023-07-03 03:40:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18733638]
+[2023-07-03 03:40:08] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-07-03 03:40:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: py-dot
+[2023-07-03 03:40:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: yplib
+[2023-07-03 03:40:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk-lambda-subminute
+[2023-07-03 03:40:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nbdev-stdlib
+[2023-07-03 03:40:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: m23
+[2023-07-03 03:40:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: aicodebot
+[2023-07-03 03:40:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bioregistry
+[2023-07-03 03:40:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: spaceone-cost-analysis
+[2023-07-03 03:40:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: policyengine-us
+[2023-07-03 03:40:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: nbdev-numpy
+[2023-07-03 03:40:09] INFO root fetch - processPackages [py-dot]: New version: [0.6.2] Old Version: [0.6.1]
+[2023-07-03 03:40:09] INFO root fetch - processPackages [cdk-lambda-subminute]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-07-03 03:40:09] INFO root fetch - processPackages [aicodebot]: New version: [0.7.3] Old Version: [0.7.2]
+[2023-07-03 03:40:09] INFO root fetch - processPackages [spaceone-cost-analysis]: New version: [1.9.7rc1] Old Version: [1.9.7.1]
+[2023-07-03 03:40:09] INFO root fetch - processPackages [m23]: New version: [1.9.4] Old Version: [1.9.3]
+[2023-07-03 03:40:09] INFO root fetch - processPackages [yplib]: New version: [2.1.0] Old Version: [2.0.9]
+[2023-07-03 03:40:09] INFO root fetch - processPackages [bioregistry]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-03 03:40:09] INFO root fetch - processPackages [nbdev-stdlib]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-03 03:40:09] INFO root fetch - processPackages [policyengine-us]: New version: [0.346.4] Old Version: [0.346.3]
+[2023-07-03 03:40:09] INFO root fetch - processPackages [nbdev-numpy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-03 03:40:09] INFO root fetch - processPackages [policyengine-us]: Downloading https://files.pythonhosted.org/packages/e8/44/da9a60c6b75b7225b2a92ab0f779652587a0555bb7652e566a7cea52438c/policyengine-us-0.346.3.tar.gz
+[2023-07-03 03:40:09] INFO root fetch - processPackages [bioregistry]: Downloading https://files.pythonhosted.org/packages/4e/f6/973ccd4316a05888c3eb85264c9bad233e8f486e3bd1d3ed06d5c5e3504c/bioregistry-0.9.8.tar.gz
+[2023-07-03 03:40:09] INFO root fetch - processPackages [nbdev-numpy]: Downloading https://files.pythonhosted.org/packages/73/28/26429c7dd7dcf4c45025b55facc2688943de2ab2ec4851cc073f81f31e65/nbdev-numpy-0.0.98.tar.gz
+[2023-07-03 03:40:09] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/b5/03/700f9292c7d724eebe686baf28136accb128e7cae410ab9308344c3e14be/yplib-2.0.9.tar.gz
+[2023-07-03 03:40:09] INFO root fetch - processPackages [aicodebot]: Downloading https://files.pythonhosted.org/packages/58/07/3f3545580ab24660d825f93c613d8b524ba0e7e2b8964eda5e5082873bb0/aicodebot-0.7.2.tar.gz
+[2023-07-03 03:40:09] INFO root fetch - processPackages [py-dot]: Downloading https://files.pythonhosted.org/packages/d8/ec/570aa2d4662682f9f9f724c1ded3f2dc6f5302dece7d35e7b7768fb33700/py_dot-0.6.1.tar.gz
+[2023-07-03 03:40:09] INFO root fetch - processPackages [spaceone-cost-analysis]: Downloading https://files.pythonhosted.org/packages/ca/57/274de01859938ee0ea18fde02a27bd004721324e14d9173c1aed6ce505f5/spaceone_cost_analysis-1.9.7.1-py3-none-any.whl
+[2023-07-03 03:40:09] INFO root fetch - processPackages [cdk-lambda-subminute]: Downloading https://files.pythonhosted.org/packages/e5/12/963a9c9137cb30feaf66b7d9cb7a08a6ea591ebef038343c3b132f84bba7/cdk_lambda_subminute-2.0.98.tar.gz
+[2023-07-03 03:40:09] INFO root fetch - processPackages [m23]: Downloading https://files.pythonhosted.org/packages/25/1b/1cd98c7359d0d7840ad83680e5f0bb5c3ad5d40ae326078dcec90b87590d/m23-1.9.3.tar.gz
+[2023-07-03 03:40:09] INFO root fetch - processPackages [nbdev-stdlib]: Downloading https://files.pythonhosted.org/packages/e8/48/ed43dbfa0bd5ca86a6a3f6ae0500b0cffb413b2c3f118e82da24ef3488f1/nbdev-stdlib-0.0.98.tar.gz
+[2023-07-03 03:40:09] INFO root fetch - processPackages [nbdev-numpy]: Downloading https://files.pythonhosted.org/packages/ea/78/0c0ef1d69ad517e7123dd810dda3cf8c0863af031c2cbb78ac3dae878b48/nbdev-numpy-0.0.99.tar.gz
+[2023-07-03 03:40:09] INFO root fetch - processPackages [nbdev-numpy]: executing diffoscope
+[2023-07-03 03:40:09] INFO root fetch - processPackages [nbdev-numpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-numpy-0.0.98.tar.gz tmp/nbdev-numpy-0.0.99.tar.gz --markdown 20230703/n/nbdev-numpy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-03 03:40:09] INFO root fetch - processPackages [policyengine-us]: Downloading https://files.pythonhosted.org/packages/5a/00/d8a1ac4f4cc07ca12f75b16faf742c374a73ccfed58425c3d30405e9ed83/policyengine-us-0.346.4.tar.gz
+[2023-07-03 03:40:09] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/d0/8f/2c2a4bb3c4f40d670386aa8709abee2885f8a6dcedd07766d8a1c31e9d2c/yplib-2.1.0.tar.gz
+[2023-07-03 03:40:09] INFO root fetch - processPackages [aicodebot]: Downloading https://files.pythonhosted.org/packages/6f/d1/a7afa11d7cd7d5fe9f00bc524909dcf608400fbc44b571b875d03f7cfed9/aicodebot-0.7.3.tar.gz
+[2023-07-03 03:40:09] INFO root fetch - processPackages [py-dot]: Downloading https://files.pythonhosted.org/packages/fb/e0/06a48a94556b4eed1977b319ca9b0cc3a04f2d24d91355f3a79d517bb141/py_dot-0.6.2.tar.gz
+[2023-07-03 03:40:09] INFO root fetch - processPackages [aicodebot]: executing diffoscope
+[2023-07-03 03:40:09] INFO root fetch - processPackages [aicodebot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aicodebot-0.7.2.tar.gz tmp/aicodebot-0.7.3.tar.gz --markdown 20230703/a/aicodebot/0.7.2-0.7.3/diff.md --exclude *.pyd
+[2023-07-03 03:40:09] INFO root fetch - processPackages [yplib]: executing diffoscope
+[2023-07-03 03:40:09] INFO root fetch - processPackages [yplib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yplib-2.0.9.tar.gz tmp/yplib-2.1.0.tar.gz --markdown 20230703/y/yplib/2.0.9-2.1.0/diff.md --exclude *.pyd
+[2023-07-03 03:40:09] INFO root fetch - processPackages [cdk-lambda-subminute]: Downloading https://files.pythonhosted.org/packages/72/85/0d48595efd9bc93c2b767982602157ef78a97896735d1d14075242ba3a9f/cdk_lambda_subminute-2.0.99.tar.gz
+[2023-07-03 03:40:09] INFO root fetch - processPackages [policyengine-us]: executing diffoscope
+[2023-07-03 03:40:09] INFO root fetch - processPackages [policyengine-us]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/policyengine-us-0.346.3.tar.gz tmp/policyengine-us-0.346.4.tar.gz --markdown 20230703/p/policyengine-us/0.346.3-0.346.4/diff.md --exclude *.pyd
+[2023-07-03 03:40:09] INFO root fetch - processPackages [py-dot]: executing diffoscope
+[2023-07-03 03:40:09] INFO root fetch - processPackages [py-dot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_dot-0.6.1.tar.gz tmp/py_dot-0.6.2.tar.gz --markdown 20230703/p/py-dot/0.6.1-0.6.2/diff.md --exclude *.pyd
+[2023-07-03 03:40:09] INFO root fetch - processPackages [nbdev-stdlib]: Downloading https://files.pythonhosted.org/packages/9b/0f/42944508859f820e43bf894814c5e9dbc7920a0caceef1828a31a9e5b599/nbdev-stdlib-0.0.99.tar.gz
+[2023-07-03 03:40:09] INFO root fetch - processPackages [cdk-lambda-subminute]: executing diffoscope
+[2023-07-03 03:40:09] INFO root fetch - processPackages [cdk-lambda-subminute]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk_lambda_subminute-2.0.98.tar.gz tmp/cdk_lambda_subminute-2.0.99.tar.gz --markdown 20230703/c/cdk-lambda-subminute/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-07-03 03:40:09] INFO root fetch - processPackages [m23]: Downloading https://files.pythonhosted.org/packages/b7/73/ef1e5a9923185ad2d38db84efb87e8d93114907ae85cca94cb643e419634/m23-1.9.4.tar.gz
+[2023-07-03 03:40:09] INFO root fetch - processPackages [nbdev-stdlib]: executing diffoscope
+[2023-07-03 03:40:09] INFO root fetch - processPackages [nbdev-stdlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-stdlib-0.0.98.tar.gz tmp/nbdev-stdlib-0.0.99.tar.gz --markdown 20230703/n/nbdev-stdlib/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-03 03:40:09] INFO root fetch - processPackages [spaceone-cost-analysis]: Downloading https://files.pythonhosted.org/packages/cf/26/f9d82f22108804a06ee9380b339d652897bc5997f046962edc93c30d5f6a/spaceone_cost_analysis-1.9.7rc1-py3-none-any.whl
+[2023-07-03 03:40:09] INFO root fetch - processPackages [m23]: executing diffoscope
+[2023-07-03 03:40:09] INFO root fetch - processPackages [m23]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/m23-1.9.3.tar.gz tmp/m23-1.9.4.tar.gz --markdown 20230703/m/m23/1.9.3-1.9.4/diff.md --exclude *.pyd
+[2023-07-03 03:40:09] INFO root fetch - processPackages [spaceone-cost-analysis]: executing diffoscope
+[2023-07-03 03:40:09] INFO root fetch - processPackages [spaceone-cost-analysis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spaceone_cost_analysis-1.9.7.1-py3-none-any.whl.zip tmp/spaceone_cost_analysis-1.9.7rc1-py3-none-any.whl.zip --markdown 20230703/s/spaceone-cost-analysis/1.9.7.1-1.9.7rc1/diff.md --exclude *.pyd
+[2023-07-03 03:40:11] INFO root fetch - processPackages [cdk-lambda-subminute]: Remove: archive file [/home/abi/fetcher/tmp/cdk_lambda_subminute-2.0.98.tar.gz]
+[2023-07-03 03:40:11] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-2.0.9.tar.gz]
+[2023-07-03 03:40:11] INFO root fetch - processPackages [cdk-lambda-subminute]: Remove: archive file [/home/abi/fetcher/tmp/cdk_lambda_subminute-2.0.99.tar.gz]
+[2023-07-03 03:40:11] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-2.1.0.tar.gz]
+[2023-07-03 03:40:11] INFO root fetch - processPackages [cdk-lambda-subminute]: Start processing: pyxllib
+[2023-07-03 03:40:11] INFO root fetch - processPackages [yplib]: Start processing: nbdev-pandas
+[2023-07-03 03:40:11] INFO root fetch - main [MainThread]: End processing [cdk-lambda-subminute]: success
+[2023-07-03 03:40:11] INFO root fetch - main [MainThread]: End processing [yplib]: success
+[2023-07-03 03:40:11] INFO root fetch - processPackages [bioregistry]: Downloading https://files.pythonhosted.org/packages/5b/a2/66d69f3acb3d998356aaa7ccffe5395fb3221c2f99dd12100c6abf1826b4/bioregistry-0.9.9.tar.gz
+[2023-07-03 03:40:11] INFO root fetch - processPackages [pyxllib]: New version: [0.3.9] Old Version: [0.3.8.1]
+[2023-07-03 03:40:11] INFO root fetch - processPackages [nbdev-pandas]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-03 03:40:11] INFO root fetch - processPackages [nbdev-pandas]: Downloading https://files.pythonhosted.org/packages/e4/e4/cd3df65f7d13a8e8dfa1592e08d78574793d38384b1c92993ce920dcd0df/nbdev-pandas-0.0.98.tar.gz
+[2023-07-03 03:40:11] INFO root fetch - processPackages [nbdev-stdlib]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-stdlib-0.0.98.tar.gz]
+[2023-07-03 03:40:11] INFO root fetch - processPackages [nbdev-stdlib]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-stdlib-0.0.99.tar.gz]
+[2023-07-03 03:40:11] INFO root fetch - processPackages [nbdev-stdlib]: Start processing: pmkoalas
+[2023-07-03 03:40:11] INFO root fetch - main [MainThread]: End processing [nbdev-stdlib]: success
+[2023-07-03 03:40:11] INFO root fetch - processPackages [aicodebot]: Remove: archive file [/home/abi/fetcher/tmp/aicodebot-0.7.2.tar.gz]
+[2023-07-03 03:40:11] INFO root fetch - processPackages [aicodebot]: Remove: archive file [/home/abi/fetcher/tmp/aicodebot-0.7.3.tar.gz]
+[2023-07-03 03:40:11] INFO root fetch - processPackages [aicodebot]: Start processing: Endandicrypto
+[2023-07-03 03:40:11] INFO root fetch - main [MainThread]: End processing [aicodebot]: success
+[2023-07-03 03:40:11] INFO root fetch - processPackages [pmkoalas]: New version: [0.2.1] Old Version: [0.2]
+[2023-07-03 03:40:11] WARNING root fetch - processPackages [Endandicrypto]: Skipping, unable to determine old version
+[2023-07-03 03:40:11] INFO root fetch - main [MainThread]: End processing [Endandicrypto] error
+[2023-07-03 03:40:11] INFO root fetch - processPackages [nbdev-pandas]: Downloading https://files.pythonhosted.org/packages/cf/b5/493c8e89c5cb4fcc7db248f99868f931ca6389f6e411e63c97bb22c6f1b0/nbdev-pandas-0.0.99.tar.gz
+[2023-07-03 03:40:11] INFO root fetch - processPackages [py-dot]: Remove: archive file [/home/abi/fetcher/tmp/py_dot-0.6.1.tar.gz]
+[2023-07-03 03:40:11] INFO root fetch - processPackages [py-dot]: Remove: archive file [/home/abi/fetcher/tmp/py_dot-0.6.2.tar.gz]
+[2023-07-03 03:40:11] INFO root fetch - main [MainThread]: End processing [py-dot]: success
+[2023-07-03 03:40:11] INFO root fetch - processPackages [pyxllib]: Downloading https://files.pythonhosted.org/packages/92/b3/63c0f112ecbc647b12359588e1a5e43868ba4542e1fdb6d0f037c3b00b1f/pyxllib-0.3.8.1.tar.gz
+[2023-07-03 03:40:11] INFO root fetch - processPackages [nbdev-pandas]: executing diffoscope
+[2023-07-03 03:40:11] INFO root fetch - processPackages [nbdev-pandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-pandas-0.0.98.tar.gz tmp/nbdev-pandas-0.0.99.tar.gz --markdown 20230703/n/nbdev-pandas/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-03 03:40:11] INFO root fetch - processPackages [pmkoalas]: Downloading https://files.pythonhosted.org/packages/69/13/6c27fec89fe995dae53a86052a06172108e43719e38396bb550559852465/pmkoalas-0.2.tar.gz
+[2023-07-03 03:40:11] INFO root fetch - processPackages [nbdev-numpy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-numpy-0.0.98.tar.gz]
+[2023-07-03 03:40:11] INFO root fetch - processPackages [nbdev-numpy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-numpy-0.0.99.tar.gz]
+[2023-07-03 03:40:11] INFO root fetch - main [MainThread]: End processing [nbdev-numpy]: success
+[2023-07-03 03:40:11] INFO root fetch - processPackages [spaceone-cost-analysis]: Remove: archive file [/home/abi/fetcher/tmp/spaceone_cost_analysis-1.9.7.1-py3-none-any.whl.zip]
+[2023-07-03 03:40:11] INFO root fetch - processPackages [spaceone-cost-analysis]: Remove: archive file [/home/abi/fetcher/tmp/spaceone_cost_analysis-1.9.7rc1-py3-none-any.whl.zip]
+[2023-07-03 03:40:11] INFO root fetch - main [MainThread]: End processing [spaceone-cost-analysis]: success
+[2023-07-03 03:40:11] INFO root fetch - processPackages [pmkoalas]: Downloading https://files.pythonhosted.org/packages/6f/81/31384c9ab3fde5fb5700b666dca2c3ab83e1a8d7d0f3a249f8a300632f18/pmkoalas-0.2.1.tar.gz
+[2023-07-03 03:40:11] INFO root fetch - processPackages [pyxllib]: Downloading https://files.pythonhosted.org/packages/13/39/f5a231f530fcc02e172ed8ed86feec98a3adf3989fabedaeb988e624cefa/pyxllib-0.3.9.tar.gz
+[2023-07-03 03:40:11] INFO root fetch - processPackages [m23]: Remove: archive file [/home/abi/fetcher/tmp/m23-1.9.3.tar.gz]
+[2023-07-03 03:40:11] INFO root fetch - processPackages [m23]: Remove: archive file [/home/abi/fetcher/tmp/m23-1.9.4.tar.gz]
+[2023-07-03 03:40:11] INFO root fetch - main [MainThread]: End processing [m23]: success
+[2023-07-03 03:40:11] INFO root fetch - processPackages [pmkoalas]: executing diffoscope
+[2023-07-03 03:40:11] INFO root fetch - processPackages [pmkoalas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pmkoalas-0.2.tar.gz tmp/pmkoalas-0.2.1.tar.gz --markdown 20230703/p/pmkoalas/0.2-0.2.1/diff.md --exclude *.pyd
+[2023-07-03 03:40:11] INFO root fetch - processPackages [pyxllib]: executing diffoscope
+[2023-07-03 03:40:11] INFO root fetch - processPackages [pyxllib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyxllib-0.3.8.1.tar.gz tmp/pyxllib-0.3.9.tar.gz --markdown 20230703/p/pyxllib/0.3.8.1-0.3.9/diff.md --exclude *.pyd
+[2023-07-03 03:40:12] INFO root fetch - processPackages [bioregistry]: executing diffoscope
+[2023-07-03 03:40:12] INFO root fetch - processPackages [bioregistry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bioregistry-0.9.8.tar.gz tmp/bioregistry-0.9.9.tar.gz --markdown 20230703/b/bioregistry/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-03 03:40:12] INFO root fetch - processPackages [nbdev-pandas]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pandas-0.0.98.tar.gz]
+[2023-07-03 03:40:12] INFO root fetch - processPackages [nbdev-pandas]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pandas-0.0.99.tar.gz]
+[2023-07-03 03:40:12] INFO root fetch - main [MainThread]: End processing [nbdev-pandas]: success
+[2023-07-03 03:40:12] INFO root fetch - processPackages [pmkoalas]: Remove: archive file [/home/abi/fetcher/tmp/pmkoalas-0.2.tar.gz]
+[2023-07-03 03:40:12] INFO root fetch - processPackages [pmkoalas]: Remove: archive file [/home/abi/fetcher/tmp/pmkoalas-0.2.1.tar.gz]
+[2023-07-03 03:40:12] INFO root fetch - main [MainThread]: End processing [pmkoalas]: success
+[2023-07-03 03:40:16] INFO root fetch - processPackages [pyxllib]: Remove: archive file [/home/abi/fetcher/tmp/pyxllib-0.3.8.1.tar.gz]
+[2023-07-03 03:40:16] INFO root fetch - processPackages [pyxllib]: Remove: archive file [/home/abi/fetcher/tmp/pyxllib-0.3.9.tar.gz]
+[2023-07-03 03:40:16] INFO root fetch - main [MainThread]: End processing [pyxllib]: success
+[2023-07-03 03:41:34] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.346.3.tar.gz]
+[2023-07-03 03:41:34] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.346.4.tar.gz]
+[2023-07-03 03:41:34] INFO root fetch - main [MainThread]: End processing [policyengine-us]: success
+[2023-07-03 03:42:11] INFO root fetch - processPackages [bioregistry]: Remove: archive file [/home/abi/fetcher/tmp/bioregistry-0.9.8.tar.gz]
+[2023-07-03 03:42:11] INFO root fetch - processPackages [bioregistry]: Remove: archive file [/home/abi/fetcher/tmp/bioregistry-0.9.9.tar.gz]
+[2023-07-03 03:42:11] INFO root fetch - main [MainThread]: End processing [bioregistry]: success
+[2023-07-03 03:42:11] INFO root fetch - main [MainThread]: Store serial: [18733686]
