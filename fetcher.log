@@ -7776,3 +7776,39 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-03 07:43:26] INFO root fetch - processPackages [funix]: Remove: archive file [/home/abi/fetcher/tmp/funix-0.4.3.tar.gz]
 [2023-07-03 07:43:26] INFO root fetch - main [MainThread]: End processing [funix]: success
 [2023-07-03 07:43:26] INFO root fetch - main [MainThread]: Store serial: [18734991]
+[2023-07-03 07:48:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18734991]
+[2023-07-03 07:48:35] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-03 07:48:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: flybirds
+[2023-07-03 07:48:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: wpdetect
+[2023-07-03 07:48:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: flask-project-builder
+[2023-07-03 07:48:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: c2cciutils
+[2023-07-03 07:48:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: c2cciutils
+[2023-07-03 07:48:35] INFO root fetch - processPackages [wpdetect]: New version: [1.4.7] Old Version: [1.4.6]
+[2023-07-03 07:48:35] ERROR root fetch - processPackages [flask-project-builder]: Unable to get metadata: No such project 'flask-project-builder'
+[2023-07-03 07:48:35] INFO root fetch - main [MainThread]: End processing [flask-project-builder] error
+[2023-07-03 07:48:35] INFO root fetch - processPackages [flybirds]: New version: [0.6.3] Old Version: [0.6.2]
+[2023-07-03 07:48:35] INFO root fetch - processPackages [c2cciutils]: New version: [1.6.0.dev99] Old Version: [1.6.0.dev98]
+[2023-07-03 07:48:35] INFO root fetch - processPackages [c2cciutils]: New version: [1.6.0.dev99] Old Version: [1.6.0.dev98]
+[2023-07-03 07:48:35] INFO root fetch - processPackages [wpdetect]: Downloading https://files.pythonhosted.org/packages/de/34/5f2a7a0dbbac87ba3cbd9f6afe83645c10d1154401f7a789785faa262f23/wpdetect-1.4.6.tar.gz
+[2023-07-03 07:48:35] INFO root fetch - processPackages [flybirds]: Downloading https://files.pythonhosted.org/packages/0d/fc/937006d5c729a1c03f2e561b26dc55803d25dc4df6c04a6665b70f4a52fc/flybirds-0.6.2.tar.gz
+[2023-07-03 07:48:35] INFO root fetch - processPackages [wpdetect]: Downloading https://files.pythonhosted.org/packages/e8/5e/547beec5236f08e02133c4a8721840971f60ef1297e094e7fa09a8c03ff3/wpdetect-1.4.7.tar.gz
+[2023-07-03 07:48:35] INFO root fetch - processPackages [wpdetect]: executing diffoscope
+[2023-07-03 07:48:35] INFO root fetch - processPackages [wpdetect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wpdetect-1.4.6.tar.gz tmp/wpdetect-1.4.7.tar.gz --markdown 20230703/w/wpdetect/1.4.6-1.4.7/diff.md --exclude *.pyd
+[2023-07-03 07:48:35] INFO root fetch - processPackages [c2cciutils]: executing diffoscope
+[2023-07-03 07:48:35] INFO root fetch - processPackages [c2cciutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c2cciutils-1.6.0.dev98.tar.gz tmp/c2cciutils-1.6.0.dev99.tar.gz --markdown 20230703/c/c2cciutils/1.6.0.dev98-1.6.0.dev99/diff.md --exclude *.pyd
+[2023-07-03 07:48:35] INFO root fetch - processPackages [c2cciutils]: executing diffoscope
+[2023-07-03 07:48:35] INFO root fetch - processPackages [c2cciutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c2cciutils-1.6.0.dev98.tar.gz tmp/c2cciutils-1.6.0.dev99.tar.gz --markdown 20230703/c/c2cciutils/1.6.0.dev98-1.6.0.dev99/diff.md --exclude *.pyd
+[2023-07-03 07:48:36] INFO root fetch - processPackages [flybirds]: Downloading https://files.pythonhosted.org/packages/d0/51/efd205e7b494892273db35bfa4882f11dd4751bc291402078e9173f81354/flybirds-0.6.3.tar.gz
+[2023-07-03 07:48:36] INFO root fetch - processPackages [c2cciutils]: Remove: archive file [/home/abi/fetcher/tmp/c2cciutils-1.6.0.dev98.tar.gz]
+[2023-07-03 07:48:36] INFO root fetch - processPackages [c2cciutils]: Remove: archive file [/home/abi/fetcher/tmp/c2cciutils-1.6.0.dev99.tar.gz]
+[2023-07-03 07:48:36] INFO root fetch - main [MainThread]: End processing [c2cciutils]: success
+[2023-07-03 07:48:36] INFO root fetch - main [MainThread]: End processing [c2cciutils]: success
+[2023-07-03 07:48:36] INFO root fetch - processPackages [wpdetect]: Remove: archive file [/home/abi/fetcher/tmp/wpdetect-1.4.6.tar.gz]
+[2023-07-03 07:48:36] INFO root fetch - processPackages [wpdetect]: Remove: archive file [/home/abi/fetcher/tmp/wpdetect-1.4.7.tar.gz]
+[2023-07-03 07:48:36] INFO root fetch - main [MainThread]: End processing [wpdetect]: success
+[2023-07-03 07:48:36] INFO root fetch - processPackages [flybirds]: executing diffoscope
+[2023-07-03 07:48:36] INFO root fetch - processPackages [flybirds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flybirds-0.6.2.tar.gz tmp/flybirds-0.6.3.tar.gz --markdown 20230703/f/flybirds/0.6.2-0.6.3/diff.md --exclude *.pyd
+[2023-07-03 07:49:07] INFO root fetch - processPackages [flybirds]: Remove: archive file [/home/abi/fetcher/tmp/flybirds-0.6.2.tar.gz]
+[2023-07-03 07:49:07] INFO root fetch - processPackages [flybirds]: Remove: archive file [/home/abi/fetcher/tmp/flybirds-0.6.3.tar.gz]
+[2023-07-03 07:49:07] INFO root fetch - main [MainThread]: End processing [flybirds]: success
+[2023-07-03 07:49:07] INFO root fetch - main [MainThread]: Store serial: [18735007]
