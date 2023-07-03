@@ -20807,3 +20807,165 @@ EOFError: EOF read where object expected
 [2023-07-03 16:09:42] INFO root fetch - processPackages [rucio]: Remove: archive file [/home/abi/fetcher/tmp/rucio-1.9.6.tar.gz]
 [2023-07-03 16:09:42] INFO root fetch - main [MainThread]: End processing [rucio]: success
 [2023-07-03 16:09:42] INFO root fetch - main [MainThread]: Store serial: [18740391]
+[2023-07-03 16:14:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18740391]
+[2023-07-03 16:14:51] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-07-03 16:14:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: crypto-info
+[2023-07-03 16:14:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pertCF
+[2023-07-03 16:14:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: influxdb3-python
+[2023-07-03 16:14:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: petisco
+[2023-07-03 16:14:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: arclet-alconna-ariadne
+[2023-07-03 16:14:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: arclet-alconna-avilla
+[2023-07-03 16:14:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: linien-common
+[2023-07-03 16:14:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: arclet-alconna-graia
+[2023-07-03 16:14:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: arclet-alconna-ichika
+[2023-07-03 16:14:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: linien-server
+[2023-07-03 16:14:52] INFO root fetch - processPackages [arclet-alconna-graia]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-07-03 16:14:52] INFO root fetch - processPackages [linien-common]: New version: [0.8.0rc4] Old Version: [0.8.0rc2]
+[2023-07-03 16:14:52] INFO root fetch - processPackages [arclet-alconna-avilla]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-07-03 16:14:52] INFO root fetch - processPackages [arclet-alconna-ariadne]: New version: [0.14.1] Old Version: [0.14.0]
+[2023-07-03 16:14:52] INFO root fetch - processPackages [pertCF]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-07-03 16:14:52] INFO root fetch - processPackages [linien-server]: New version: [0.8.0rc4] Old Version: [0.8.0rc2]
+[2023-07-03 16:14:52] INFO root fetch - processPackages [arclet-alconna-ichika]: New version: [0.14.1] Old Version: [0.14.0]
+[2023-07-03 16:14:52] INFO root fetch - processPackages [crypto-info]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-03 16:14:52] INFO root fetch - processPackages [arclet-alconna-avilla]: Downloading https://files.pythonhosted.org/packages/71/1b/b06f39dfa4b73497f68d84cfacc42f0cb0e49dc08bbc18b4706059ffaadc/arclet-alconna-avilla-0.2.0.tar.gz
+[2023-07-03 16:14:52] INFO root fetch - processPackages [influxdb3-python]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-07-03 16:14:52] INFO root fetch - processPackages [arclet-alconna-graia]: Downloading https://files.pythonhosted.org/packages/81/33/d4915aeae59920c0f2ed22afcc7ded2a9a7758f6a2732921f67476ad60af/arclet-alconna-graia-0.9.0.tar.gz
+[2023-07-03 16:14:52] INFO root fetch - processPackages [petisco]: New version: [2.0.0rc9] Old Version: [2.0.0rc8]
+[2023-07-03 16:14:52] INFO root fetch - processPackages [linien-server]: Downloading https://files.pythonhosted.org/packages/7b/f5/ecfa305b2b580d04936ae4dc341d80b88749333a419f64fcd91c84454e4a/linien-server-0.8.0rc2.tar.gz
+[2023-07-03 16:14:52] INFO root fetch - processPackages [arclet-alconna-ichika]: Downloading https://files.pythonhosted.org/packages/45/45/046dd8646f6993f81c451a959d255b0005d603c2e6769226aec8dbafbd17/arclet-alconna-ichika-0.14.0.tar.gz
+[2023-07-03 16:14:52] INFO root fetch - processPackages [linien-common]: Downloading https://files.pythonhosted.org/packages/8f/f8/8b4e85e01f2de4037ce6e0564cc4839fe0d46c641f4801c1e78ea54582c1/linien-common-0.8.0rc2.tar.gz
+[2023-07-03 16:14:52] INFO root fetch - processPackages [pertCF]: Downloading https://files.pythonhosted.org/packages/29/a0/79fea9d3bdc79ddba10606e6ab52c9f9cc26cd1c48c125ccd554e312ecc9/pertCF-0.1.3.tar.gz
+[2023-07-03 16:14:52] INFO root fetch - processPackages [arclet-alconna-ariadne]: Downloading https://files.pythonhosted.org/packages/d8/a8/571a008c269cd4513c87d024f84e2ff4763836c90e3637595d34181f3d4f/arclet-alconna-ariadne-0.14.0.tar.gz
+[2023-07-03 16:14:52] INFO root fetch - processPackages [crypto-info]: Downloading https://files.pythonhosted.org/packages/a0/b1/a4fe69ff56f1e278103e2b62b760c63dc129cf41b8917bcefd5e8e355a09/crypto-info-0.0.8.tar.gz
+[2023-07-03 16:14:52] INFO root fetch - processPackages [influxdb3-python]: Downloading https://files.pythonhosted.org/packages/14/74/e9c0c92008f86696a0d2c7c226539a3af12d496a01c95b2173ee356384db/influxdb3-python-0.1.4.tar.gz
+[2023-07-03 16:14:52] INFO root fetch - processPackages [petisco]: Downloading https://files.pythonhosted.org/packages/6c/22/10d99d1280b98239e5c5f4c45e4e4f017af7c413c388a012689ece0e0fc4/petisco-2.0.0rc8.tar.gz
+[2023-07-03 16:14:52] INFO root fetch - processPackages [arclet-alconna-avilla]: Downloading https://files.pythonhosted.org/packages/56/a1/7cb5ff9f274fdb76460249eba125a3125af806bc273601be741f982aaf8c/arclet-alconna-avilla-0.3.0.tar.gz
+[2023-07-03 16:14:52] INFO root fetch - processPackages [arclet-alconna-graia]: Downloading https://files.pythonhosted.org/packages/dc/96/d3e155e743ed52df7ba0ccbfae61b3bd016965286eea7f049d5455905674/arclet-alconna-graia-0.9.1.tar.gz
+[2023-07-03 16:14:52] INFO root fetch - processPackages [linien-common]: Downloading https://files.pythonhosted.org/packages/30/15/68b4458c9e0b04bc9d9c1d24e9372c74fcde0d00339bab1b1b4a6134cb65/linien-common-0.8.0rc4.tar.gz
+[2023-07-03 16:14:52] INFO root fetch - processPackages [arclet-alconna-ichika]: Downloading https://files.pythonhosted.org/packages/31/cc/bbf7dda31c41c59548ea96f6b9cc3b03c6342c63353b9dc84a4e4fe613bb/arclet_alconna_ichika-0.14.1.tar.gz
+[2023-07-03 16:14:52] INFO root fetch - processPackages [arclet-alconna-ariadne]: Downloading https://files.pythonhosted.org/packages/e4/58/550719f03f68f789d835d100c6931f5bcce0c398e5d1389fbbff32d751aa/arclet_alconna_ariadne-0.14.1.tar.gz
+[2023-07-03 16:14:52] INFO root fetch - processPackages [pertCF]: Downloading https://files.pythonhosted.org/packages/33/01/0c67aa09f80192cb1d32041173c696d215a1976ae6c60a4710376982c4bd/pertCF-0.1.4.tar.gz
+[2023-07-03 16:14:52] INFO root fetch - processPackages [arclet-alconna-graia]: executing diffoscope
+[2023-07-03 16:14:52] INFO root fetch - processPackages [arclet-alconna-graia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arclet-alconna-graia-0.9.0.tar.gz tmp/arclet-alconna-graia-0.9.1.tar.gz --markdown 20230703/a/arclet-alconna-graia/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-07-03 16:14:52] INFO root fetch - processPackages [arclet-alconna-avilla]: executing diffoscope
+[2023-07-03 16:14:52] INFO root fetch - processPackages [linien-server]: Downloading https://files.pythonhosted.org/packages/89/3e/8312827769641eed58559e722422321b9dabc4eac3fec0c58a679c2a8e91/linien-server-0.8.0rc4.tar.gz
+[2023-07-03 16:14:52] INFO root fetch - processPackages [arclet-alconna-avilla]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arclet-alconna-avilla-0.2.0.tar.gz tmp/arclet-alconna-avilla-0.3.0.tar.gz --markdown 20230703/a/arclet-alconna-avilla/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-07-03 16:14:53] INFO root fetch - processPackages [linien-common]: executing diffoscope
+[2023-07-03 16:14:53] INFO root fetch - processPackages [linien-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/linien-common-0.8.0rc2.tar.gz tmp/linien-common-0.8.0rc4.tar.gz --markdown 20230703/l/linien-common/0.8.0rc2-0.8.0rc4/diff.md --exclude *.pyd
+[2023-07-03 16:14:53] INFO root fetch - processPackages [arclet-alconna-ichika]: executing diffoscope
+[2023-07-03 16:14:53] INFO root fetch - processPackages [arclet-alconna-ichika]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arclet-alconna-ichika-0.14.0.tar.gz tmp/arclet_alconna_ichika-0.14.1.tar.gz --markdown 20230703/a/arclet-alconna-ichika/0.14.0-0.14.1/diff.md --exclude *.pyd
+[2023-07-03 16:14:53] INFO root fetch - processPackages [influxdb3-python]: Downloading https://files.pythonhosted.org/packages/61/f2/6bd2820ceae50411c03769de51113998966926f47112123c874e17be2fa7/influxdb3-python-0.1.5.tar.gz
+[2023-07-03 16:14:53] INFO root fetch - processPackages [arclet-alconna-ariadne]: executing diffoscope
+[2023-07-03 16:14:53] INFO root fetch - processPackages [arclet-alconna-ariadne]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arclet-alconna-ariadne-0.14.0.tar.gz tmp/arclet_alconna_ariadne-0.14.1.tar.gz --markdown 20230703/a/arclet-alconna-ariadne/0.14.0-0.14.1/diff.md --exclude *.pyd
+[2023-07-03 16:14:53] INFO root fetch - processPackages [pertCF]: executing diffoscope
+[2023-07-03 16:14:53] INFO root fetch - processPackages [pertCF]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pertCF-0.1.3.tar.gz tmp/pertCF-0.1.4.tar.gz --markdown 20230703/p/pertCF/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-07-03 16:14:53] INFO root fetch - processPackages [petisco]: Downloading https://files.pythonhosted.org/packages/f1/b1/328e5fa54c27eb9b31458e81fd400ae04d15d17f4c236659198a4b9cd373/petisco-2.0.0rc9.tar.gz
+[2023-07-03 16:14:53] INFO root fetch - processPackages [linien-server]: executing diffoscope
+[2023-07-03 16:14:53] INFO root fetch - processPackages [linien-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/linien-server-0.8.0rc2.tar.gz tmp/linien-server-0.8.0rc4.tar.gz --markdown 20230703/l/linien-server/0.8.0rc2-0.8.0rc4/diff.md --exclude *.pyd
+[2023-07-03 16:14:53] INFO root fetch - processPackages [influxdb3-python]: executing diffoscope
+[2023-07-03 16:14:53] INFO root fetch - processPackages [influxdb3-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/influxdb3-python-0.1.4.tar.gz tmp/influxdb3-python-0.1.5.tar.gz --markdown 20230703/i/influxdb3-python/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-07-03 16:14:53] INFO root fetch - processPackages [petisco]: executing diffoscope
+[2023-07-03 16:14:53] INFO root fetch - processPackages [petisco]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/petisco-2.0.0rc8.tar.gz tmp/petisco-2.0.0rc9.tar.gz --markdown 20230703/p/petisco/2.0.0rc8-2.0.0rc9/diff.md --exclude *.pyd
+[2023-07-03 16:14:53] INFO root fetch - processPackages [crypto-info]: Downloading https://files.pythonhosted.org/packages/65/53/c97bb74d14ad2264f9dbc6cc6e59589acab0f3c2a63e7f0c2d84301574b5/crypto-info-0.0.9.tar.gz
+[2023-07-03 16:14:54] INFO root fetch - processPackages [crypto-info]: executing diffoscope
+[2023-07-03 16:14:54] INFO root fetch - processPackages [crypto-info]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crypto-info-0.0.8.tar.gz tmp/crypto-info-0.0.9.tar.gz --markdown 20230703/c/crypto-info/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-03 16:14:55] INFO root fetch - processPackages [arclet-alconna-avilla]: Remove: archive file [/home/abi/fetcher/tmp/arclet-alconna-avilla-0.2.0.tar.gz]
+[2023-07-03 16:14:55] INFO root fetch - processPackages [arclet-alconna-avilla]: Remove: archive file [/home/abi/fetcher/tmp/arclet-alconna-avilla-0.3.0.tar.gz]
+[2023-07-03 16:14:55] INFO root fetch - processPackages [arclet-alconna-avilla]: Start processing: linien-client
+[2023-07-03 16:14:55] INFO root fetch - main [MainThread]: End processing [arclet-alconna-avilla]: success
+[2023-07-03 16:14:55] INFO root fetch - processPackages [linien-client]: New version: [0.8.0rc4] Old Version: [0.8.0rc2]
+[2023-07-03 16:14:55] INFO root fetch - processPackages [linien-client]: Downloading https://files.pythonhosted.org/packages/4e/95/a4abad3c334621fe6a34371235212e215797bc99c2b5152a9a7fd4654506/linien-client-0.8.0rc2.tar.gz
+[2023-07-03 16:14:55] INFO root fetch - processPackages [linien-common]: Remove: archive file [/home/abi/fetcher/tmp/linien-common-0.8.0rc2.tar.gz]
+[2023-07-03 16:14:55] INFO root fetch - processPackages [linien-common]: Remove: archive file [/home/abi/fetcher/tmp/linien-common-0.8.0rc4.tar.gz]
+[2023-07-03 16:14:55] INFO root fetch - processPackages [linien-common]: Start processing: pertCF
+[2023-07-03 16:14:55] INFO root fetch - main [MainThread]: End processing [linien-common]: success
+[2023-07-03 16:14:55] INFO root fetch - processPackages [arclet-alconna-graia]: Remove: archive file [/home/abi/fetcher/tmp/arclet-alconna-graia-0.9.0.tar.gz]
+[2023-07-03 16:14:55] INFO root fetch - processPackages [arclet-alconna-graia]: Remove: archive file [/home/abi/fetcher/tmp/arclet-alconna-graia-0.9.1.tar.gz]
+[2023-07-03 16:14:55] INFO root fetch - processPackages [arclet-alconna-graia]: Start processing: linien-gui
+[2023-07-03 16:14:55] INFO root fetch - main [MainThread]: End processing [arclet-alconna-graia]: success
+[2023-07-03 16:14:55] INFO root fetch - processPackages [arclet-alconna-ichika]: Remove: archive file [/home/abi/fetcher/tmp/arclet-alconna-ichika-0.14.0.tar.gz]
+[2023-07-03 16:14:55] INFO root fetch - processPackages [arclet-alconna-ichika]: Remove: archive file [/home/abi/fetcher/tmp/arclet_alconna_ichika-0.14.1.tar.gz]
+[2023-07-03 16:14:55] INFO root fetch - processPackages [pertCF]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-07-03 16:14:55] INFO root fetch - processPackages [arclet-alconna-ichika]: Start processing: spinneroo
+[2023-07-03 16:14:55] INFO root fetch - main [MainThread]: End processing [arclet-alconna-ichika]: success
+[2023-07-03 16:14:56] INFO root fetch - processPackages [linien-gui]: New version: [0.8.0rc4] Old Version: [0.8.0rc2]
+[2023-07-03 16:14:56] INFO root fetch - processPackages [arclet-alconna-ariadne]: Remove: archive file [/home/abi/fetcher/tmp/arclet-alconna-ariadne-0.14.0.tar.gz]
+[2023-07-03 16:14:56] INFO root fetch - processPackages [arclet-alconna-ariadne]: Remove: archive file [/home/abi/fetcher/tmp/arclet_alconna_ariadne-0.14.1.tar.gz]
+[2023-07-03 16:14:56] INFO root fetch - processPackages [arclet-alconna-ariadne]: Start processing: pydatawork
+[2023-07-03 16:14:56] INFO root fetch - main [MainThread]: End processing [arclet-alconna-ariadne]: success
+[2023-07-03 16:14:56] INFO root fetch - processPackages [pertCF]: Remove: archive file [/home/abi/fetcher/tmp/pertCF-0.1.3.tar.gz]
+[2023-07-03 16:14:56] INFO root fetch - processPackages [pertCF]: Remove: archive file [/home/abi/fetcher/tmp/pertCF-0.1.4.tar.gz]
+[2023-07-03 16:14:56] INFO root fetch - processPackages [pertCF]: Start processing: qiskit-iqm
+[2023-07-03 16:14:56] INFO root fetch - main [MainThread]: End processing [pertCF]: success
+[2023-07-03 16:14:56] INFO root fetch - processPackages [linien-client]: Downloading https://files.pythonhosted.org/packages/6f/d2/19887fa7aca18257d9ce82987cba8cc0d5ce66c9e9b2cb28b0ae34a02d73/linien-client-0.8.0rc4.tar.gz
+[2023-07-03 16:14:56] INFO root fetch - processPackages [spinneroo]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-07-03 16:14:56] INFO root fetch - processPackages [influxdb3-python]: Remove: archive file [/home/abi/fetcher/tmp/influxdb3-python-0.1.4.tar.gz]
+[2023-07-03 16:14:56] INFO root fetch - processPackages [influxdb3-python]: Remove: archive file [/home/abi/fetcher/tmp/influxdb3-python-0.1.5.tar.gz]
+[2023-07-03 16:14:56] INFO root fetch - processPackages [influxdb3-python]: Start processing: einfach
+[2023-07-03 16:14:56] INFO root fetch - main [MainThread]: End processing [influxdb3-python]: success
+[2023-07-03 16:14:56] INFO root fetch - processPackages [pydatawork]: New version: [0.17.3.1] Old Version: [0.17.3.0]
+[2023-07-03 16:14:56] INFO root fetch - processPackages [linien-gui]: Downloading https://files.pythonhosted.org/packages/fe/09/7b29805e863deb77bf4752ed776e3f55b20dba1169d79a57dbee5e0eaf61/linien-gui-0.8.0rc2.tar.gz
+[2023-07-03 16:14:56] INFO root fetch - processPackages [einfach]: New version: [0.2.0.0] Old Version: [0.1.0.6]
+[2023-07-03 16:14:56] INFO root fetch - processPackages [pertCF]: Downloading https://files.pythonhosted.org/packages/21/61/f65d33b8472a9f0d5eca3aba37d0a4c4acb76680fe2ef603d52432d388bb/pertCF-0.1.6.tar.gz
+[2023-07-03 16:14:56] INFO root fetch - processPackages [qiskit-iqm]: New version: [9.0] Old Version: [8.3]
+[2023-07-03 16:14:56] INFO root fetch - processPackages [linien-client]: executing diffoscope
+[2023-07-03 16:14:56] INFO root fetch - processPackages [linien-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/linien-client-0.8.0rc2.tar.gz tmp/linien-client-0.8.0rc4.tar.gz --markdown 20230703/l/linien-client/0.8.0rc2-0.8.0rc4/diff.md --exclude *.pyd
+[2023-07-03 16:14:56] INFO root fetch - processPackages [pydatawork]: Downloading https://files.pythonhosted.org/packages/17/82/28db74f7f49f085b853f35bf9dfc49b33f023d3bbdd6a6e061eede801d0f/pydatawork-0.17.3.0.tar.gz
+[2023-07-03 16:14:56] INFO root fetch - processPackages [linien-server]: Remove: archive file [/home/abi/fetcher/tmp/linien-server-0.8.0rc2.tar.gz]
+[2023-07-03 16:14:56] INFO root fetch - processPackages [linien-server]: Remove: archive file [/home/abi/fetcher/tmp/linien-server-0.8.0rc4.tar.gz]
+[2023-07-03 16:14:56] INFO root fetch - processPackages [linien-server]: Start processing: pertCF
+[2023-07-03 16:14:56] INFO root fetch - main [MainThread]: End processing [linien-server]: success
+[2023-07-03 16:14:56] INFO root fetch - processPackages [einfach]: Downloading https://files.pythonhosted.org/packages/ca/09/65e29d7ddd03eedc5b4ae1de8aa3e241f0e494ab3245b9b1df84851a922f/einfach-0.1.0.6.tar.gz
+[2023-07-03 16:14:56] INFO root fetch - processPackages [spinneroo]: Downloading https://files.pythonhosted.org/packages/72/84/47083d43a4ab9572bd628ef7a715e1c2ef642e81f6920c12bc8f51674fe0/spinneroo-1.1.0.tar.gz
+[2023-07-03 16:14:56] INFO root fetch - processPackages [pertCF]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-07-03 16:14:56] INFO root fetch - processPackages [linien-gui]: Downloading https://files.pythonhosted.org/packages/70/49/bf21eb11a12332c12708a5237d137396f82c964b7f488572c409a3737935/linien-gui-0.8.0rc4.tar.gz
+[2023-07-03 16:14:56] INFO root fetch - processPackages [qiskit-iqm]: Downloading https://files.pythonhosted.org/packages/6f/9f/9f7666c7e61e4ba8b3f959e0c5eef07e997c7500f0d051b41a202380e0fc/qiskit-iqm-8.3.tar.gz
+[2023-07-03 16:14:56] INFO root fetch - processPackages [pydatawork]: Downloading https://files.pythonhosted.org/packages/8a/7c/c33b8401691d4ecda95708b9d34f34d1f50fe0c91d31cae25d1b021f95a6/pydatawork-0.17.3.1.tar.gz
+[2023-07-03 16:14:56] INFO root fetch - processPackages [pertCF]: Downloading https://files.pythonhosted.org/packages/83/bf/632b713374302680c020215237b7e147e99160cf7fe371ed6367ed8fe23b/pertCF-0.1.7.tar.gz
+[2023-07-03 16:14:56] INFO root fetch - processPackages [einfach]: Downloading https://files.pythonhosted.org/packages/0e/13/c8b40d6550d6b1b3d45b914f75012f102c61cbf9a4095e00c1b57a614dce/einfach-0.2.0.0.tar.gz
+[2023-07-03 16:14:56] INFO root fetch - processPackages [pertCF]: Downloading https://files.pythonhosted.org/packages/83/bf/632b713374302680c020215237b7e147e99160cf7fe371ed6367ed8fe23b/pertCF-0.1.7.tar.gz
+[2023-07-03 16:14:57] INFO root fetch - processPackages [linien-gui]: executing diffoscope
+[2023-07-03 16:14:57] INFO root fetch - processPackages [linien-gui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/linien-gui-0.8.0rc2.tar.gz tmp/linien-gui-0.8.0rc4.tar.gz --markdown 20230703/l/linien-gui/0.8.0rc2-0.8.0rc4/diff.md --exclude *.pyd
+[2023-07-03 16:14:57] INFO root fetch - processPackages [spinneroo]: Downloading https://files.pythonhosted.org/packages/ca/04/dde87e61384f6b40c684b0fbfc9a65e6b1eafdbf29c1b631ba8aea29a915/spinneroo-1.1.1.tar.gz
+[2023-07-03 16:14:57] INFO root fetch - processPackages [pydatawork]: executing diffoscope
+[2023-07-03 16:14:57] INFO root fetch - processPackages [pydatawork]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydatawork-0.17.3.0.tar.gz tmp/pydatawork-0.17.3.1.tar.gz --markdown 20230703/p/pydatawork/0.17.3.0-0.17.3.1/diff.md --exclude *.pyd
+[2023-07-03 16:14:57] INFO root fetch - processPackages [einfach]: executing diffoscope
+[2023-07-03 16:14:57] INFO root fetch - processPackages [einfach]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/einfach-0.1.0.6.tar.gz tmp/einfach-0.2.0.0.tar.gz --markdown 20230703/e/einfach/0.1.0.6-0.2.0.0/diff.md --exclude *.pyd
+[2023-07-03 16:14:57] INFO root fetch - processPackages [pertCF]: executing diffoscope
+[2023-07-03 16:14:57] INFO root fetch - processPackages [pertCF]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pertCF-0.1.6.tar.gz tmp/pertCF-0.1.7.tar.gz --markdown 20230703/p/pertCF/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-07-03 16:14:57] INFO root fetch - processPackages [pertCF]: executing diffoscope
+[2023-07-03 16:14:57] INFO root fetch - processPackages [pertCF]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pertCF-0.1.6.tar.gz tmp/pertCF-0.1.7.tar.gz --markdown 20230703/p/pertCF/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-07-03 16:14:57] INFO root fetch - processPackages [spinneroo]: executing diffoscope
+[2023-07-03 16:14:57] INFO root fetch - processPackages [spinneroo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spinneroo-1.1.0.tar.gz tmp/spinneroo-1.1.1.tar.gz --markdown 20230703/s/spinneroo/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-07-03 16:14:57] INFO root fetch - processPackages [qiskit-iqm]: Downloading https://files.pythonhosted.org/packages/21/fa/19188be4ca367f4ebaec7bd7ee3b5daab94d4a3a20da3ac629796190e76b/qiskit-iqm-9.0.tar.gz
+[2023-07-03 16:14:57] INFO root fetch - processPackages [petisco]: Remove: archive file [/home/abi/fetcher/tmp/petisco-2.0.0rc8.tar.gz]
+[2023-07-03 16:14:57] INFO root fetch - processPackages [petisco]: Remove: archive file [/home/abi/fetcher/tmp/petisco-2.0.0rc9.tar.gz]
+[2023-07-03 16:14:57] INFO root fetch - main [MainThread]: End processing [petisco]: success
+[2023-07-03 16:14:57] INFO root fetch - processPackages [qiskit-iqm]: executing diffoscope
+[2023-07-03 16:14:57] INFO root fetch - processPackages [qiskit-iqm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qiskit-iqm-8.3.tar.gz tmp/qiskit-iqm-9.0.tar.gz --markdown 20230703/q/qiskit-iqm/8.3-9.0/diff.md --exclude *.pyd
+[2023-07-03 16:14:58] INFO root fetch - processPackages [linien-client]: Remove: archive file [/home/abi/fetcher/tmp/linien-client-0.8.0rc2.tar.gz]
+[2023-07-03 16:14:58] INFO root fetch - processPackages [linien-client]: Remove: archive file [/home/abi/fetcher/tmp/linien-client-0.8.0rc4.tar.gz]
+[2023-07-03 16:14:58] INFO root fetch - main [MainThread]: End processing [linien-client]: success
+[2023-07-03 16:14:59] INFO root fetch - processPackages [pertCF]: Remove: archive file [/home/abi/fetcher/tmp/pertCF-0.1.6.tar.gz]
+[2023-07-03 16:14:59] INFO root fetch - processPackages [pertCF]: Remove: archive file [/home/abi/fetcher/tmp/pertCF-0.1.7.tar.gz]
+[2023-07-03 16:14:59] INFO root fetch - processPackages [pydatawork]: Remove: archive file [/home/abi/fetcher/tmp/pydatawork-0.17.3.0.tar.gz]
+[2023-07-03 16:14:59] INFO root fetch - main [MainThread]: End processing [pertCF]: success
+[2023-07-03 16:14:59] INFO root fetch - processPackages [pydatawork]: Remove: archive file [/home/abi/fetcher/tmp/pydatawork-0.17.3.1.tar.gz]
+[2023-07-03 16:14:59] INFO root fetch - main [MainThread]: End processing [pydatawork]: success
+[2023-07-03 16:14:59] INFO root fetch - processPackages [spinneroo]: Remove: archive file [/home/abi/fetcher/tmp/spinneroo-1.1.0.tar.gz]
+[2023-07-03 16:14:59] INFO root fetch - processPackages [spinneroo]: Remove: archive file [/home/abi/fetcher/tmp/spinneroo-1.1.1.tar.gz]
+[2023-07-03 16:14:59] INFO root fetch - main [MainThread]: End processing [spinneroo]: success
+[2023-07-03 16:14:59] INFO root fetch - main [MainThread]: End processing [pertCF]: success
+[2023-07-03 16:14:59] INFO root fetch - processPackages [einfach]: Remove: archive file [/home/abi/fetcher/tmp/einfach-0.1.0.6.tar.gz]
+[2023-07-03 16:14:59] INFO root fetch - processPackages [einfach]: Remove: archive file [/home/abi/fetcher/tmp/einfach-0.2.0.0.tar.gz]
+[2023-07-03 16:14:59] INFO root fetch - main [MainThread]: End processing [einfach]: success
+[2023-07-03 16:14:59] INFO root fetch - processPackages [linien-gui]: Remove: archive file [/home/abi/fetcher/tmp/linien-gui-0.8.0rc2.tar.gz]
+[2023-07-03 16:14:59] INFO root fetch - processPackages [linien-gui]: Remove: archive file [/home/abi/fetcher/tmp/linien-gui-0.8.0rc4.tar.gz]
+[2023-07-03 16:14:59] INFO root fetch - main [MainThread]: End processing [linien-gui]: success
+[2023-07-03 16:14:59] INFO root fetch - processPackages [qiskit-iqm]: Remove: archive file [/home/abi/fetcher/tmp/qiskit-iqm-8.3.tar.gz]
+[2023-07-03 16:14:59] INFO root fetch - processPackages [qiskit-iqm]: Remove: archive file [/home/abi/fetcher/tmp/qiskit-iqm-9.0.tar.gz]
+[2023-07-03 16:14:59] INFO root fetch - main [MainThread]: End processing [qiskit-iqm]: success
+[2023-07-03 16:15:12] INFO root fetch - processPackages [crypto-info]: Remove: archive file [/home/abi/fetcher/tmp/crypto-info-0.0.8.tar.gz]
+[2023-07-03 16:15:12] INFO root fetch - processPackages [crypto-info]: Remove: archive file [/home/abi/fetcher/tmp/crypto-info-0.0.9.tar.gz]
+[2023-07-03 16:15:12] INFO root fetch - main [MainThread]: End processing [crypto-info]: success
+[2023-07-03 16:15:12] INFO root fetch - main [MainThread]: Store serial: [18740442]
