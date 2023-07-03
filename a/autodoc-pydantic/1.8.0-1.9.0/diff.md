@@ -1,0 +1,4461 @@
+# Comparing `tmp/autodoc_pydantic-1.8.0.tar.gz` & `tmp/autodoc_pydantic-1.9.0.tar.gz`
+
+## filetype from file(1)
+
+```diff
+@@ -1 +1 @@
+-gzip compressed data, was "autodoc_pydantic-1.8.0.tar", last modified: Thu Oct 13 11:29:01 2022, max compression
++gzip compressed data, was "autodoc_pydantic-1.9.0.tar", max compression
+```
+
+## Comparing `autodoc_pydantic-1.8.0.tar` & `autodoc_pydantic-1.9.0.tar`
+
+### file list
+
+```diff
+@@ -1,21 +1,20 @@
+--rw-r--r--   0        0        0     1071 2022-10-13 11:28:46.150954 autodoc_pydantic-1.8.0/LICENSE
+--rw-r--r--   0        0        0    14649 2022-10-13 11:28:46.150954 autodoc_pydantic-1.8.0/README.md
+--rw-r--r--   0        0        0     1749 2022-10-13 11:28:46.162954 autodoc_pydantic-1.8.0/pyproject.toml
+--rw-r--r--   0        0        0        0 2022-10-13 11:28:46.162954 autodoc_pydantic-1.8.0/sphinxcontrib/__init__.py
+--rw-r--r--   0        0        0     6131 2022-10-13 11:28:46.162954 autodoc_pydantic-1.8.0/sphinxcontrib/autodoc_pydantic/__init__.py
+--rw-r--r--   0        0        0      121 2022-10-13 11:28:46.162954 autodoc_pydantic-1.8.0/sphinxcontrib/autodoc_pydantic/css/autodoc_pydantic.css
+--rw-r--r--   0        0        0        0 2022-10-13 11:28:46.162954 autodoc_pydantic-1.8.0/sphinxcontrib/autodoc_pydantic/directives/__init__.py
+--rw-r--r--   0        0        0    30409 2022-10-13 11:28:46.166954 autodoc_pydantic-1.8.0/sphinxcontrib/autodoc_pydantic/directives/autodocumenters.py
+--rw-r--r--   0        0        0     9252 2022-10-13 11:28:46.166954 autodoc_pydantic-1.8.0/sphinxcontrib/autodoc_pydantic/directives/directives.py
+--rw-r--r--   0        0        0        0 2022-10-13 11:28:46.166954 autodoc_pydantic-1.8.0/sphinxcontrib/autodoc_pydantic/directives/options/__init__.py
+--rw-r--r--   0        0        0     9253 2022-10-13 11:28:46.166954 autodoc_pydantic-1.8.0/sphinxcontrib/autodoc_pydantic/directives/options/composites.py
+--rw-r--r--   0        0        0     3654 2022-10-13 11:28:46.166954 autodoc_pydantic-1.8.0/sphinxcontrib/autodoc_pydantic/directives/options/definition.py
+--rw-r--r--   0        0        0      452 2022-10-13 11:28:46.166954 autodoc_pydantic-1.8.0/sphinxcontrib/autodoc_pydantic/directives/options/enums.py
+--rw-r--r--   0        0        0     1814 2022-10-13 11:28:46.166954 autodoc_pydantic-1.8.0/sphinxcontrib/autodoc_pydantic/directives/options/validators.py
+--rw-r--r--   0        0        0      282 2022-10-13 11:28:46.166954 autodoc_pydantic-1.8.0/sphinxcontrib/autodoc_pydantic/directives/templates.py
+--rw-r--r--   0        0        0     1302 2022-10-13 11:28:46.166954 autodoc_pydantic-1.8.0/sphinxcontrib/autodoc_pydantic/directives/utility.py
+--rw-r--r--   0        0        0     1140 2022-10-13 11:28:46.166954 autodoc_pydantic-1.8.0/sphinxcontrib/autodoc_pydantic/events.py
+--rw-r--r--   0        0        0    16648 2022-10-13 11:28:46.166954 autodoc_pydantic-1.8.0/sphinxcontrib/autodoc_pydantic/inspection.py
+--rw-r--r--   0        0        0     1681 2022-10-13 11:28:46.166954 autodoc_pydantic-1.8.0/sphinxcontrib/autodoc_pydantic/utility.py
+--rw-r--r--   0        0        0    16179 2022-10-13 11:29:01.839419 autodoc_pydantic-1.8.0/setup.py
+--rw-r--r--   0        0        0    16267 2022-10-13 11:29:01.840138 autodoc_pydantic-1.8.0/PKG-INFO
++-rw-r--r--   0        0        0     1071 2023-07-03 19:04:23.280982 autodoc_pydantic-1.9.0/LICENSE
++-rw-r--r--   0        0        0    16402 2023-07-03 19:04:23.280982 autodoc_pydantic-1.9.0/README.md
++-rw-r--r--   0        0        0     1830 2023-07-03 19:04:23.292982 autodoc_pydantic-1.9.0/pyproject.toml
++-rw-r--r--   0        0        0        0 2023-07-03 19:04:23.296982 autodoc_pydantic-1.9.0/sphinxcontrib/__init__.py
++-rw-r--r--   0        0        0     6258 2023-07-03 19:04:23.296982 autodoc_pydantic-1.9.0/sphinxcontrib/autodoc_pydantic/__init__.py
++-rw-r--r--   0        0        0      181 2023-07-03 19:04:23.296982 autodoc_pydantic-1.9.0/sphinxcontrib/autodoc_pydantic/css/autodoc_pydantic.css
++-rw-r--r--   0        0        0        0 2023-07-03 19:04:23.296982 autodoc_pydantic-1.9.0/sphinxcontrib/autodoc_pydantic/directives/__init__.py
++-rw-r--r--   0        0        0    31842 2023-07-03 19:04:23.296982 autodoc_pydantic-1.9.0/sphinxcontrib/autodoc_pydantic/directives/autodocumenters.py
++-rw-r--r--   0        0        0     9252 2023-07-03 19:04:23.296982 autodoc_pydantic-1.9.0/sphinxcontrib/autodoc_pydantic/directives/directives.py
++-rw-r--r--   0        0        0        0 2023-07-03 19:04:23.296982 autodoc_pydantic-1.9.0/sphinxcontrib/autodoc_pydantic/directives/options/__init__.py
++-rw-r--r--   0        0        0     9253 2023-07-03 19:04:23.296982 autodoc_pydantic-1.9.0/sphinxcontrib/autodoc_pydantic/directives/options/composites.py
++-rw-r--r--   0        0        0     3764 2023-07-03 19:04:23.296982 autodoc_pydantic-1.9.0/sphinxcontrib/autodoc_pydantic/directives/options/definition.py
++-rw-r--r--   0        0        0      452 2023-07-03 19:04:23.296982 autodoc_pydantic-1.9.0/sphinxcontrib/autodoc_pydantic/directives/options/enums.py
++-rw-r--r--   0        0        0     1814 2023-07-03 19:04:23.296982 autodoc_pydantic-1.9.0/sphinxcontrib/autodoc_pydantic/directives/options/validators.py
++-rw-r--r--   0        0        0      838 2023-07-03 19:04:23.296982 autodoc_pydantic-1.9.0/sphinxcontrib/autodoc_pydantic/directives/templates.py
++-rw-r--r--   0        0        0     1302 2023-07-03 19:04:23.296982 autodoc_pydantic-1.9.0/sphinxcontrib/autodoc_pydantic/directives/utility.py
++-rw-r--r--   0        0        0     1140 2023-07-03 19:04:23.296982 autodoc_pydantic-1.9.0/sphinxcontrib/autodoc_pydantic/events.py
++-rw-r--r--   0        0        0    16648 2023-07-03 19:04:23.296982 autodoc_pydantic-1.9.0/sphinxcontrib/autodoc_pydantic/inspection.py
++-rw-r--r--   0        0        0     1736 2023-07-03 19:04:23.296982 autodoc_pydantic-1.9.0/sphinxcontrib/autodoc_pydantic/utility.py
++-rw-r--r--   0        0        0    18173 1970-01-01 00:00:00.000000 autodoc_pydantic-1.9.0/PKG-INFO
+```
+
+### Comparing `autodoc_pydantic-1.8.0/LICENSE` & `autodoc_pydantic-1.9.0/LICENSE`
+
+ * *Files identical despite different names*
+
+### Comparing `autodoc_pydantic-1.8.0/README.md` & `autodoc_pydantic-1.9.0/PKG-INFO`
+
+ * *Files 13% similar despite different names*
+
+```diff
+@@ -1,916 +1,1136 @@
+-00000000: 215b 4175 746f 646f 6320 5079 6461 6e74  ![Autodoc Pydant
+-00000010: 6963 5d28 6874 7470 733a 2f2f 7261 772e  ic](https://raw.
+-00000020: 6769 7468 7562 7573 6572 636f 6e74 656e  githubuserconten
+-00000030: 742e 636f 6d2f 6d61 6e73 656e 6672 616e  t.com/mansenfran
+-00000040: 7a65 6e2f 6175 746f 646f 635f 7079 6461  zen/autodoc_pyda
+-00000050: 6e74 6963 2f6d 6169 6e2f 646f 6373 2f73  ntic/main/docs/s
+-00000060: 6f75 7263 652f 6d61 7465 7269 616c 2f6c  ource/material/l
+-00000070: 6f67 6f5f 626c 6163 6b2e 7376 6729 0a0a  ogo_black.svg)..
+-00000080: 5b21 5b50 7950 4920 7665 7273 696f 6e5d  [![PyPI version]
+-00000090: 2868 7474 7073 3a2f 2f69 6d67 2e73 6869  (https://img.shi
+-000000a0: 656c 6473 2e69 6f2f 7079 7069 2f76 2f61  elds.io/pypi/v/a
+-000000b0: 7574 6f64 6f63 5f70 7964 616e 7469 633f  utodoc_pydantic?
+-000000c0: 7374 796c 653d 666f 722d 7468 652d 6261  style=for-the-ba
+-000000d0: 6467 6529 5d28 6874 7470 733a 2f2f 7079  dge)](https://py
+-000000e0: 7069 2e6f 7267 2f70 726f 6a65 6374 2f61  pi.org/project/a
+-000000f0: 7574 6f64 6f63 2d70 7964 616e 7469 632f  utodoc-pydantic/
+-00000100: 290a 215b 5079 7468 6f6e 5d28 6874 7470  ).![Python](http
+-00000110: 733a 2f2f 696d 672e 7368 6965 6c64 732e  s://img.shields.
+-00000120: 696f 2f62 6164 6765 2f70 7974 686f 6e2d  io/badge/python-
+-00000130: 332e 362b 2d62 6c75 652e 7376 673f 7374  3.6+-blue.svg?st
+-00000140: 796c 653d 666f 722d 7468 652d 6261 6467  yle=for-the-badg
+-00000150: 6529 0a0a 5b21 5b4d 6173 7465 725d 2868  e)..[![Master](h
+-00000160: 7474 7073 3a2f 2f69 6d67 2e73 6869 656c  ttps://img.shiel
+-00000170: 6473 2e69 6f2f 6769 7468 7562 2f77 6f72  ds.io/github/wor
+-00000180: 6b66 6c6f 772f 7374 6174 7573 2f6d 616e  kflow/status/man
+-00000190: 7365 6e66 7261 6e7a 656e 2f61 7574 6f64  senfranzen/autod
+-000001a0: 6f63 5f70 7964 616e 7469 632f 6369 3f73  oc_pydantic/ci?s
+-000001b0: 7479 6c65 3d66 6f72 2d74 6865 2d62 6164  tyle=for-the-bad
+-000001c0: 6765 295d 2868 7474 7073 3a2f 2f67 6974  ge)](https://git
+-000001d0: 6875 622e 636f 6d2f 6d61 6e73 656e 6672  hub.com/mansenfr
+-000001e0: 616e 7a65 6e2f 6175 746f 646f 635f 7079  anzen/autodoc_py
+-000001f0: 6461 6e74 6963 2f61 6374 696f 6e73 2f77  dantic/actions/w
+-00000200: 6f72 6b66 6c6f 7773 2f74 6573 7473 2e79  orkflows/tests.y
+-00000210: 6d6c 290a 5b21 5b43 6f76 6572 6167 655d  ml).[![Coverage]
+-00000220: 2868 7474 7073 3a2f 2f69 6d67 2e73 6869  (https://img.shi
+-00000230: 656c 6473 2e69 6f2f 636f 6465 636f 762f  elds.io/codecov/
+-00000240: 632f 6768 2f6d 616e 7365 6e66 7261 6e7a  c/gh/mansenfranz
+-00000250: 656e 2f61 7574 6f64 6f63 5f70 7964 616e  en/autodoc_pydan
+-00000260: 7469 633f 7374 796c 653d 666f 722d 7468  tic?style=for-th
+-00000270: 652d 6261 6467 6529 5d28 6874 7470 733a  e-badge)](https:
+-00000280: 2f2f 6170 702e 636f 6465 636f 762e 696f  //app.codecov.io
+-00000290: 2f67 682f 6d61 6e73 656e 6672 616e 7a65  /gh/mansenfranze
+-000002a0: 6e2f 6175 746f 646f 635f 7079 6461 6e74  n/autodoc_pydant
+-000002b0: 6963 290a 0a5b 215b 446f 776e 6c6f 6164  ic)..[![Download
+-000002c0: 735d 2868 7474 7073 3a2f 2f69 6d67 2e73  s](https://img.s
+-000002d0: 6869 656c 6473 2e69 6f2f 7079 7069 2f64  hields.io/pypi/d
+-000002e0: 6d2f 6175 746f 646f 635f 7079 6461 6e74  m/autodoc_pydant
+-000002f0: 6963 3f63 6f6c 6f72 3d66 6537 6433 3726  ic?color=fe7d37&
+-00000300: 7374 796c 653d 666f 722d 7468 652d 6261  style=for-the-ba
+-00000310: 6467 6529 5d28 6874 7470 733a 2f2f 7079  dge)](https://py
+-00000320: 7069 7374 6174 732e 6f72 672f 7061 636b  pistats.org/pack
+-00000330: 6167 6573 2f61 7574 6f64 6f63 2d70 7964  ages/autodoc-pyd
+-00000340: 616e 7469 6329 3c21 2d2d 2041 4c4c 2d43  antic)<!-- ALL-C
+-00000350: 4f4e 5452 4942 5554 4f52 532d 4241 4447  ONTRIBUTORS-BADG
+-00000360: 453a 5354 4152 5420 2d20 446f 206e 6f74  E:START - Do not
+-00000370: 2072 656d 6f76 6520 6f72 206d 6f64 6966   remove or modif
+-00000380: 7920 7468 6973 2073 6563 7469 6f6e 202d  y this section -
+-00000390: 2d3e 0a5b 215b 416c 6c20 436f 6e74 7269  ->.[![All Contri
+-000003a0: 6275 746f 7273 5d28 6874 7470 733a 2f2f  butors](https://
+-000003b0: 696d 672e 7368 6965 6c64 732e 696f 2f62  img.shields.io/b
+-000003c0: 6164 6765 2f61 6c6c 5f63 6f6e 7472 6962  adge/all_contrib
+-000003d0: 7574 6f72 732d 3239 2d6f 7261 6e67 652e  utors-29-orange.
+-000003e0: 7376 673f 7374 796c 653d 666f 722d 7468  svg?style=for-th
+-000003f0: 652d 6261 6467 6529 5d28 2363 6f6e 7472  e-badge)](#contr
+-00000400: 6962 7574 6f72 7329 0a3c 212d 2d20 414c  ibutors).<!-- AL
+-00000410: 4c2d 434f 4e54 5249 4255 544f 5253 2d42  L-CONTRIBUTORS-B
+-00000420: 4144 4745 3a45 4e44 202d 2d3e 0a0a 0a59  ADGE:END -->...Y
+-00000430: 6f75 206c 6f76 6520 5b70 7964 616e 7469  ou love [pydanti
+-00000440: 635d 2868 7474 7073 3a2f 2f70 7964 616e  c](https://pydan
+-00000450: 7469 632d 646f 6373 2e68 656c 706d 616e  tic-docs.helpman
+-00000460: 7561 6c2e 696f 2f29 20e2 9da4 2061 6e64  ual.io/) ... and
+-00000470: 2079 6f75 2077 616e 7420 746f 0a64 6f63   you want to.doc
+-00000480: 756d 656e 7420 796f 7572 206d 6f64 656c  ument your model
+-00000490: 7320 616e 6420 636f 6e66 6967 7572 6174  s and configurat
+-000004a0: 696f 6e20 7365 7474 696e 6773 2077 6974  ion settings wit
+-000004b0: 6820 5b73 7068 696e 785d 2868 7474 7073  h [sphinx](https
+-000004c0: 3a2f 2f77 7777 2e73 7068 696e 782d 646f  ://www.sphinx-do
+-000004d0: 632e 6f72 672f 656e 2f6d 6173 7465 722f  c.org/en/master/
+-000004e0: 293f 0a0a 5065 7266 6563 742c 206c 6574  )?..Perfect, let
+-000004f0: 2773 2067 6f2e 2042 7574 2077 6169 742c  's go. But wait,
+-00000500: 2073 7068 696e 7827 205b 6175 746f 646f   sphinx' [autodo
+-00000510: 635d 2868 7474 7073 3a2f 2f77 7777 2e73  c](https://www.s
+-00000520: 7068 696e 782d 646f 632e 6f72 672f 656e  phinx-doc.org/en
+-00000530: 2f6d 6173 7465 722f 7573 6167 652f 6578  /master/usage/ex
+-00000540: 7465 6e73 696f 6e73 2f61 7574 6f64 6f63  tensions/autodoc
+-00000550: 2e68 746d 6c29 0a64 6f65 7320 6e6f 7420  .html).does not 
+-00000560: 696e 7465 6772 6174 6520 746f 6f20 7765  integrate too we
+-00000570: 6c6c 2077 6974 6820 7079 6461 6e74 6963  ll with pydantic
+-00000580: 206d 6f64 656c 7320 f09f 9895 2e0a 0a44   models .......D
+-00000590: 6f6e 2774 2077 6f72 7279 202d 206a 7573  on't worry - jus
+-000005a0: 7420 6070 6970 2069 6e73 7461 6c6c 2061  t `pip install a
+-000005b0: 7574 6f64 6f63 5f70 7964 616e 7469 6360  utodoc_pydantic`
+-000005c0: 20e2 98ba 2e0a 0a23 2320 4665 6174 7572   ......## Featur
+-000005d0: 6573 0a0a 2d20 f09f 92ac 2070 726f 7669  es..- .... provi
+-000005e0: 6465 7320 6465 6661 756c 7420 7661 6c75  des default valu
+-000005f0: 6573 2c20 616c 6961 7320 616e 6420 636f  es, alias and co
+-00000600: 6e73 7472 6169 6e74 7320 666f 7220 6d6f  nstraints for mo
+-00000610: 6465 6c20 6669 656c 6473 0a2d 20f0 9f94  del fields.- ...
+-00000620: 9720 6164 6473 2068 7970 6572 6c69 6e6b  . adds hyperlink
+-00000630: 7320 6265 7477 6565 6e20 7661 6c69 6461  s between valida
+-00000640: 746f 7273 2061 6e64 2063 6f72 7265 7370  tors and corresp
+-00000650: 6f6e 6469 6e67 2066 6965 6c64 730a 2d20  onding fields.- 
+-00000660: f09f 9383 2069 6e63 6c75 6465 7320 636f  .... includes co
+-00000670: 6c6c 6170 7361 626c 6520 6d6f 6465 6c20  llapsable model 
+-00000680: 6a73 6f6e 2073 6368 656d 610a 2d20 f09f  json schema.- ..
+-00000690: 8f84 206e 6174 6976 656c 7920 696e 7465  .. natively inte
+-000006a0: 6772 6174 6573 2077 6974 6820 6175 746f  grates with auto
+-000006b0: 646f 6320 616e 6420 6175 746f 7375 6d6d  doc and autosumm
+-000006c0: 6172 7920 6578 7465 6e73 696f 6e73 0a2d  ary extensions.-
+-000006d0: 20f0 9f93 8e20 6465 6669 6e65 7320 6578   .... defines ex
+-000006e0: 706c 6963 6974 2070 7964 616e 7469 6320  plicit pydantic 
+-000006f0: 7072 6566 6978 6573 2066 6f72 206d 6f64  prefixes for mod
+-00000700: 656c 732c 2073 6574 7469 6e67 732c 2066  els, settings, f
+-00000710: 6965 6c64 732c 2076 616c 6964 6174 6f72  ields, validator
+-00000720: 7320 616e 6420 6d6f 6465 6c20 636f 6e66  s and model conf
+-00000730: 6967 0a2d 20f0 9f93 8b20 7368 6f77 7320  ig.- .... shows 
+-00000740: 7375 6d6d 6172 7920 7365 6374 696f 6e20  summary section 
+-00000750: 666f 7220 6d6f 6465 6c20 636f 6e66 6967  for model config
+-00000760: 7572 6174 696f 6e2c 2066 6965 6c64 7320  uration, fields 
+-00000770: 616e 6420 7661 6c69 6461 746f 7273 0a2d  and validators.-
+-00000780: 20f0 9f91 8020 6869 6465 7320 6f76 6572   .... hides over
+-00000790: 6c6f 6164 6564 2061 6e64 2072 6564 756e  loaded and redun
+-000007a0: 6461 6e74 206d 6f64 656c 2063 6c61 7373  dant model class
+-000007b0: 2073 6967 6e61 7475 7265 0a2d 20f0 9f93   signature.- ...
+-000007c0: 9a20 736f 7274 7320 6669 656c 6473 2c20  . sorts fields, 
+-000007d0: 7661 6c69 6461 746f 7273 2061 6e64 206d  validators and m
+-000007e0: 6f64 656c 2063 6f6e 6669 6720 7769 7468  odel config with
+-000007f0: 696e 206d 6f64 656c 7320 6279 2074 7970  in models by typ
+-00000800: 650a 2d20 f09f 8d80 2053 7570 706f 7274  e.- .... Support
+-00000810: 7320 6070 7964 616e 7469 6320 3e3d 2031  s `pydantic >= 1
+-00000820: 2e35 2e30 6020 616e 6420 6073 7068 696e  .5.0` and `sphin
+-00000830: 7820 3e3d 2033 2e34 2e30 600a 0a23 2323  x >= 3.4.0`..###
+-00000840: 2043 6f6d 7061 7269 736f 6e20 6265 7477   Comparison betw
+-00000850: 6565 6e20 6175 746f 646f 6320 7370 6869  een autodoc sphi
+-00000860: 6e78 2061 6e64 2061 7574 6f64 6f63 2070  nx and autodoc p
+-00000870: 7964 616e 7469 630a 0a5b 215b 436f 6d70  ydantic..[![Comp
+-00000880: 6172 6973 6f6e 5d28 6874 7470 733a 2f2f  arison](https://
+-00000890: 7261 772e 6769 7468 7562 7573 6572 636f  raw.githubuserco
+-000008a0: 6e74 656e 742e 636f 6d2f 6d61 6e73 656e  ntent.com/mansen
+-000008b0: 6672 616e 7a65 6e2f 6175 746f 646f 635f  franzen/autodoc_
+-000008c0: 7079 6461 6e74 6963 2f6d 6169 6e2f 646f  pydantic/main/do
+-000008d0: 6373 2f73 6f75 7263 652f 6d61 7465 7269  cs/source/materi
+-000008e0: 616c 2f65 7861 6d70 6c65 5f63 6f6d 7061  al/example_compa
+-000008f0: 7269 736f 6e5f 7631 2e30 2e30 2e67 6966  rison_v1.0.0.gif
+-00000900: 295d 2868 7474 7073 3a2f 2f61 7574 6f64  )](https://autod
+-00000910: 6f63 2d70 7964 616e 7469 632e 7265 6164  oc-pydantic.read
+-00000920: 7468 6564 6f63 732e 696f 2f65 6e2f 6c61  thedocs.io/en/la
+-00000930: 7465 7374 2f65 7861 6d70 6c65 732e 6874  test/examples.ht
+-00000940: 6d6c 2364 6566 6175 6c74 2d63 6f6e 6669  ml#default-confi
+-00000950: 6775 7261 7469 6f6e 290a 0a54 6f20 7365  guration)..To se
+-00000960: 6520 7468 6f73 6520 6665 6174 7572 6573  e those features
+-00000970: 2069 6e20 6163 7469 6f6e 2c20 6a75 6d70   in action, jump
+-00000980: 206f 7665 7220 746f 2074 6865 205b 6578   over to the [ex
+-00000990: 616d 706c 6520 646f 6375 6d65 6e74 6174  ample documentat
+-000009a0: 696f 6e5d 2868 7474 7073 3a2f 2f61 7574  ion](https://aut
+-000009b0: 6f64 6f63 2d70 7964 616e 7469 632e 7265  odoc-pydantic.re
+-000009c0: 6164 7468 6564 6f63 732e 696f 2f65 6e2f  adthedocs.io/en/
+-000009d0: 7374 6162 6c65 2f75 7365 7273 2f65 7861  stable/users/exa
+-000009e0: 6d70 6c65 732e 6874 6d6c 2364 6566 6175  mples.html#defau
+-000009f0: 6c74 2d63 6f6e 6669 6775 7261 7469 6f6e  lt-configuration
+-00000a00: 2920 746f 2063 6f6d 7061 7265 0a74 6865  ) to compare.the
+-00000a10: 2061 7070 6561 7261 6e63 6520 6f66 2073   appearance of s
+-00000a20: 7461 6e64 6172 6420 7370 6869 6e78 2061  tandard sphinx a
+-00000a30: 7574 6f64 6f63 2077 6974 6820 2a61 7574  utodoc with *aut
+-00000a40: 6f64 6f63 5f70 7964 616e 7469 632a 2e0a  odoc_pydantic*..
+-00000a50: 0a23 2320 446f 6375 6d65 6e74 6174 696f  .## Documentatio
+-00000a60: 6e0a 0a46 6f72 206d 6f72 6520 6465 7461  n..For more deta
+-00000a70: 696c 732c 2070 6c65 6173 6520 7669 7369  ils, please visi
+-00000a80: 7420 7468 6520 6f66 6669 6369 616c 205b  t the official [
+-00000a90: 646f 6375 6d65 6e74 6174 696f 6e5d 2868  documentation](h
+-00000aa0: 7474 7073 3a2f 2f61 7574 6f64 6f63 2d70  ttps://autodoc-p
+-00000ab0: 7964 616e 7469 632e 7265 6164 7468 6564  ydantic.readthed
+-00000ac0: 6f63 732e 696f 2f65 6e2f 7374 6162 6c65  ocs.io/en/stable
+-00000ad0: 2f29 3a0a 0a2d 205b 496e 7374 616c 6c61  /):..- [Installa
+-00000ae0: 7469 6f6e 5d28 6874 7470 733a 2f2f 6175  tion](https://au
+-00000af0: 746f 646f 632d 7079 6461 6e74 6963 2e72  todoc-pydantic.r
+-00000b00: 6561 6474 6865 646f 6373 2e69 6f2f 656e  eadthedocs.io/en
+-00000b10: 2f73 7461 626c 652f 7573 6572 732f 696e  /stable/users/in
+-00000b20: 7374 616c 6c61 7469 6f6e 2e68 746d 6c29  stallation.html)
+-00000b30: 0a2d 205b 436f 6e66 6967 7572 6174 696f  .- [Configuratio
+-00000b40: 6e5d 2868 7474 7073 3a2f 2f61 7574 6f64  n](https://autod
+-00000b50: 6f63 2d70 7964 616e 7469 632e 7265 6164  oc-pydantic.read
+-00000b60: 7468 6564 6f63 732e 696f 2f65 6e2f 7374  thedocs.io/en/st
+-00000b70: 6162 6c65 2f75 7365 7273 2f63 6f6e 6669  able/users/confi
+-00000b80: 6775 7261 7469 6f6e 2e68 746d 6c29 0a2d  guration.html).-
+-00000b90: 205b 5573 6167 655d 2868 7474 7073 3a2f   [Usage](https:/
+-00000ba0: 2f61 7574 6f64 6f63 2d70 7964 616e 7469  /autodoc-pydanti
+-00000bb0: 632e 7265 6164 7468 6564 6f63 732e 696f  c.readthedocs.io
+-00000bc0: 2f65 6e2f 7374 6162 6c65 2f75 7365 7273  /en/stable/users
+-00000bd0: 2f75 7361 6765 2e68 746d 6c29 0a2d 205b  /usage.html).- [
+-00000be0: 4578 616d 706c 6573 5d28 6874 7470 733a  Examples](https:
+-00000bf0: 2f2f 6175 746f 646f 632d 7079 6461 6e74  //autodoc-pydant
+-00000c00: 6963 2e72 6561 6474 6865 646f 6373 2e69  ic.readthedocs.i
+-00000c10: 6f2f 656e 2f73 7461 626c 652f 7573 6572  o/en/stable/user
+-00000c20: 732f 6578 616d 706c 6573 2e68 746d 6c29  s/examples.html)
+-00000c30: 0a0a 2323 2041 636b 6e6f 776c 6564 6765  ..## Acknowledge
+-00000c40: 6d65 6e74 730a 0a54 6861 6e6b 7320 746f  ments..Thanks to
+-00000c50: 2067 7265 6174 206f 7065 6e20 736f 7572   great open sour
+-00000c60: 6365 2070 726f 6a65 6374 7320 5b73 7068  ce projects [sph
+-00000c70: 696e 785d 2868 7474 7073 3a2f 2f77 7777  inx](https://www
+-00000c80: 2e73 7068 696e 782d 646f 632e 6f72 672f  .sphinx-doc.org/
+-00000c90: 656e 2f6d 6173 7465 722f 292c 0a5b 7079  en/master/),.[py
+-00000ca0: 6461 6e74 6963 5d28 6874 7470 733a 2f2f  dantic](https://
+-00000cb0: 7079 6461 6e74 6963 2d64 6f63 732e 6865  pydantic-docs.he
+-00000cc0: 6c70 6d61 6e75 616c 2e69 6f2f 2920 616e  lpmanual.io/) an
+-00000cd0: 640a 5b70 6f65 7472 795d 2868 7474 7073  d.[poetry](https
+-00000ce0: 3a2f 2f70 7974 686f 6e2d 706f 6574 7279  ://python-poetry
+-00000cf0: 2e6f 7267 2f29 2028 616e 6420 736f 206d  .org/) (and so m
+-00000d00: 616e 7920 6d6f 7265 2920 e29d a420 696e  any more) ... in
+-00000d10: 2061 6464 6974 696f 6e20 746f 2074 6865   addition to the
+-00000d20: 2066 6f6c 6c6f 7769 6e67 2063 6f6e 7472   following contr
+-00000d30: 6962 7574 6f72 733a 0a0a 3c21 2d2d 2041  ibutors:..<!-- A
+-00000d40: 4c4c 2d43 4f4e 5452 4942 5554 4f52 532d  LL-CONTRIBUTORS-
+-00000d50: 4c49 5354 3a53 5441 5254 202d 2044 6f20  LIST:START - Do 
+-00000d60: 6e6f 7420 7265 6d6f 7665 206f 7220 6d6f  not remove or mo
+-00000d70: 6469 6679 2074 6869 7320 7365 6374 696f  dify this sectio
+-00000d80: 6e20 2d2d 3e0a 3c21 2d2d 2070 7265 7474  n -->.<!-- prett
+-00000d90: 6965 722d 6967 6e6f 7265 2d73 7461 7274  ier-ignore-start
+-00000da0: 202d 2d3e 0a3c 212d 2d20 6d61 726b 646f   -->.<!-- markdo
+-00000db0: 776e 6c69 6e74 2d64 6973 6162 6c65 202d  wnlint-disable -
+-00000dc0: 2d3e 0a3c 7461 626c 653e 0a20 203c 7462  ->.<table>.  <tb
+-00000dd0: 6f64 793e 0a20 2020 203c 7472 3e0a 2020  ody>.    <tr>.  
+-00000de0: 2020 2020 3c74 6420 616c 6967 6e3d 2263      <td align="c
+-00000df0: 656e 7465 7222 3e3c 6120 6872 6566 3d22  enter"><a href="
+-00000e00: 6874 7470 733a 2f2f 6769 7468 7562 2e63  https://github.c
+-00000e10: 6f6d 2f6d 616e 7365 6e66 7261 6e7a 656e  om/mansenfranzen
+-00000e20: 223e 3c69 6d67 2073 7263 3d22 6874 7470  "><img src="http
+-00000e30: 733a 2f2f 6176 6174 6172 732e 6769 7468  s://avatars.gith
+-00000e40: 7562 7573 6572 636f 6e74 656e 742e 636f  ubusercontent.co
+-00000e50: 6d2f 752f 3138 3038 3631 3830 3f76 3d34  m/u/18086180?v=4
+-00000e60: 3f73 3d31 3030 2220 7769 6474 683d 2231  ?s=100" width="1
+-00000e70: 3030 7078 3b22 2061 6c74 3d22 4672 616e  00px;" alt="Fran
+-00000e80: 7a20 57c3 b66c 6c65 7274 222f 3e3c 6272  z W..llert"/><br
+-00000e90: 202f 3e3c 7375 623e 3c62 3e46 7261 6e7a   /><sub><b>Franz
+-00000ea0: 2057 c3b6 6c6c 6572 743c 2f62 3e3c 2f73   W..llert</b></s
+-00000eb0: 7562 3e3c 2f61 3e3c 6272 202f 3e3c 6120  ub></a><br /><a 
+-00000ec0: 6872 6566 3d22 236d 6169 6e74 656e 616e  href="#maintenan
+-00000ed0: 6365 2d6d 616e 7365 6e66 7261 6e7a 656e  ce-mansenfranzen
+-00000ee0: 2220 7469 746c 653d 224d 6169 6e74 656e  " title="Mainten
+-00000ef0: 616e 6365 223e f09f 9aa7 3c2f 613e 203c  ance">....</a> <
+-00000f00: 6120 6872 6566 3d22 6874 7470 733a 2f2f  a href="https://
+-00000f10: 6769 7468 7562 2e63 6f6d 2f6d 616e 7365  github.com/manse
+-00000f20: 6e66 7261 6e7a 656e 2f61 7574 6f64 6f63  nfranzen/autodoc
+-00000f30: 5f70 7964 616e 7469 632f 636f 6d6d 6974  _pydantic/commit
+-00000f40: 733f 6175 7468 6f72 3d6d 616e 7365 6e66  s?author=mansenf
+-00000f50: 7261 6e7a 656e 2220 7469 746c 653d 2244  ranzen" title="D
+-00000f60: 6f63 756d 656e 7461 7469 6f6e 223e f09f  ocumentation">..
+-00000f70: 9396 3c2f 613e 203c 6120 6872 6566 3d22  ..</a> <a href="
+-00000f80: 6874 7470 733a 2f2f 6769 7468 7562 2e63  https://github.c
+-00000f90: 6f6d 2f6d 616e 7365 6e66 7261 6e7a 656e  om/mansenfranzen
+-00000fa0: 2f61 7574 6f64 6f63 5f70 7964 616e 7469  /autodoc_pydanti
+-00000fb0: 632f 636f 6d6d 6974 733f 6175 7468 6f72  c/commits?author
+-00000fc0: 3d6d 616e 7365 6e66 7261 6e7a 656e 2220  =mansenfranzen" 
+-00000fd0: 7469 746c 653d 2254 6573 7473 223e e29a  title="Tests">..
+-00000fe0: a0ef b88f 3c2f 613e 203c 6120 6872 6566  ....</a> <a href
+-00000ff0: 3d22 2363 6f6e 7465 6e74 2d6d 616e 7365  ="#content-manse
+-00001000: 6e66 7261 6e7a 656e 2220 7469 746c 653d  nfranzen" title=
+-00001010: 2243 6f6e 7465 6e74 223e f09f 968b 3c2f  "Content">....</
+-00001020: 613e 3c2f 7464 3e0a 2020 2020 2020 3c74  a></td>.      <t
+-00001030: 6420 616c 6967 6e3d 2263 656e 7465 7222  d align="center"
+-00001040: 3e3c 6120 6872 6566 3d22 6874 7470 733a  ><a href="https:
+-00001050: 2f2f 6769 7468 7562 2e63 6f6d 2f54 6865  //github.com/The
+-00001060: 4265 6172 6465 6442 6572 7365 726b 7222  BeardedBerserkr"
+-00001070: 3e3c 696d 6720 7372 633d 2268 7474 7073  ><img src="https
+-00001080: 3a2f 2f61 7661 7461 7273 2e67 6974 6875  ://avatars.githu
+-00001090: 6275 7365 7263 6f6e 7465 6e74 2e63 6f6d  busercontent.com
+-000010a0: 2f75 2f33 3232 3732 3236 383f 763d 343f  /u/32272268?v=4?
+-000010b0: 733d 3130 3022 2077 6964 7468 3d22 3130  s=100" width="10
+-000010c0: 3070 783b 2220 616c 743d 2254 6865 4265  0px;" alt="TheBe
+-000010d0: 6172 6465 6442 6572 7365 726b 7222 2f3e  ardedBerserkr"/>
+-000010e0: 3c62 7220 2f3e 3c73 7562 3e3c 623e 5468  <br /><sub><b>Th
+-000010f0: 6542 6561 7264 6564 4265 7273 6572 6b72  eBeardedBerserkr
+-00001100: 3c2f 623e 3c2f 7375 623e 3c2f 613e 3c62  </b></sub></a><b
+-00001110: 7220 2f3e 3c61 2068 7265 663d 2223 6964  r /><a href="#id
+-00001120: 6561 732d 5468 6542 6561 7264 6564 4265  eas-TheBeardedBe
+-00001130: 7273 6572 6b72 2220 7469 746c 653d 2249  rserkr" title="I
+-00001140: 6465 6173 2c20 506c 616e 6e69 6e67 2c20  deas, Planning, 
+-00001150: 2620 4665 6564 6261 636b 223e f09f a494  & Feedback">....
+-00001160: 3c2f 613e 3c2f 7464 3e0a 2020 2020 2020  </a></td>.      
+-00001170: 3c74 6420 616c 6967 6e3d 2263 656e 7465  <td align="cente
+-00001180: 7222 3e3c 6120 6872 6566 3d22 6874 7470  r"><a href="http
+-00001190: 733a 2f2f 6769 7468 7562 2e63 6f6d 2f76  s://github.com/v
+-000011a0: 6c63 696e 736b 7922 3e3c 696d 6720 7372  lcinsky"><img sr
+-000011b0: 633d 2268 7474 7073 3a2f 2f61 7661 7461  c="https://avata
+-000011c0: 7273 2e67 6974 6875 6275 7365 7263 6f6e  rs.githubusercon
+-000011d0: 7465 6e74 2e63 6f6d 2f75 2f36 3335 3931  tent.com/u/63591
+-000011e0: 313f 763d 343f 733d 3130 3022 2077 6964  1?v=4?s=100" wid
+-000011f0: 7468 3d22 3130 3070 783b 2220 616c 743d  th="100px;" alt=
+-00001200: 224a 616e 2056 6cc4 8d69 6e73 6bc3 bd22  "Jan Vl..insk.."
+-00001210: 2f3e 3c62 7220 2f3e 3c73 7562 3e3c 623e  /><br /><sub><b>
+-00001220: 4a61 6e20 566c c48d 696e 736b c3bd 3c2f  Jan Vl..insk..</
+-00001230: 623e 3c2f 7375 623e 3c2f 613e 3c62 7220  b></sub></a><br 
+-00001240: 2f3e 3c61 2068 7265 663d 2223 7365 6375  /><a href="#secu
+-00001250: 7269 7479 2d76 6c63 696e 736b 7922 2074  rity-vlcinsky" t
+-00001260: 6974 6c65 3d22 5365 6375 7269 7479 223e  itle="Security">
+-00001270: f09f 9ba1 efb8 8f3c 2f61 3e3c 2f74 643e  .......</a></td>
+-00001280: 0a20 2020 2020 203c 7464 2061 6c69 676e  .      <td align
+-00001290: 3d22 6365 6e74 6572 223e 3c61 2068 7265  ="center"><a hre
+-000012a0: 663d 2268 7474 7073 3a2f 2f67 6974 6875  f="https://githu
+-000012b0: 622e 636f 6d2f 616e 7476 6967 223e 3c69  b.com/antvig"><i
+-000012c0: 6d67 2073 7263 3d22 6874 7470 733a 2f2f  mg src="https://
+-000012d0: 6176 6174 6172 732e 6769 7468 7562 7573  avatars.githubus
+-000012e0: 6572 636f 6e74 656e 742e 636f 6d2f 752f  ercontent.com/u/
+-000012f0: 3235 3130 3532 3130 3f76 3d34 3f73 3d31  25105210?v=4?s=1
+-00001300: 3030 2220 7769 6474 683d 2231 3030 7078  00" width="100px
+-00001310: 3b22 2061 6c74 3d22 616e 7476 6967 222f  ;" alt="antvig"/
+-00001320: 3e3c 6272 202f 3e3c 7375 623e 3c62 3e61  ><br /><sub><b>a
+-00001330: 6e74 7669 673c 2f62 3e3c 2f73 7562 3e3c  ntvig</b></sub><
+-00001340: 2f61 3e3c 6272 202f 3e3c 6120 6872 6566  /a><br /><a href
+-00001350: 3d22 6874 7470 733a 2f2f 6769 7468 7562  ="https://github
+-00001360: 2e63 6f6d 2f6d 616e 7365 6e66 7261 6e7a  .com/mansenfranz
+-00001370: 656e 2f61 7574 6f64 6f63 5f70 7964 616e  en/autodoc_pydan
+-00001380: 7469 632f 6973 7375 6573 3f71 3d61 7574  tic/issues?q=aut
+-00001390: 686f 7225 3341 616e 7476 6967 2220 7469  hor%3Aantvig" ti
+-000013a0: 746c 653d 2242 7567 2072 6570 6f72 7473  tle="Bug reports
+-000013b0: 223e f09f 909b 3c2f 613e 203c 6120 6872  ">....</a> <a hr
+-000013c0: 6566 3d22 2375 7365 7254 6573 7469 6e67  ef="#userTesting
+-000013d0: 2d61 6e74 7669 6722 2074 6974 6c65 3d22  -antvig" title="
+-000013e0: 5573 6572 2054 6573 7469 6e67 223e f09f  User Testing">..
+-000013f0: 9393 3c2f 613e 3c2f 7464 3e0a 2020 2020  ..</a></td>.    
+-00001400: 2020 3c74 6420 616c 6967 6e3d 2263 656e    <td align="cen
+-00001410: 7465 7222 3e3c 6120 6872 6566 3d22 6874  ter"><a href="ht
+-00001420: 7470 733a 2f2f 726f 6775 682e 636f 6d22  tps://roguh.com"
+-00001430: 3e3c 696d 6720 7372 633d 2268 7474 7073  ><img src="https
+-00001440: 3a2f 2f61 7661 7461 7273 2e67 6974 6875  ://avatars.githu
+-00001450: 6275 7365 7263 6f6e 7465 6e74 2e63 6f6d  busercontent.com
+-00001460: 2f75 2f36 3337 3334 3437 3f76 3d34 3f73  /u/6373447?v=4?s
+-00001470: 3d31 3030 2220 7769 6474 683d 2231 3030  =100" width="100
+-00001480: 7078 3b22 2061 6c74 3d22 4875 676f 204f  px;" alt="Hugo O
+-00001490: 2052 6976 6572 6122 2f3e 3c62 7220 2f3e   Rivera"/><br />
+-000014a0: 3c73 7562 3e3c 623e 4875 676f 204f 2052  <sub><b>Hugo O R
+-000014b0: 6976 6572 613c 2f62 3e3c 2f73 7562 3e3c  ivera</b></sub><
+-000014c0: 2f61 3e3c 6272 202f 3e3c 6120 6872 6566  /a><br /><a href
+-000014d0: 3d22 2369 6465 6173 2d72 6f67 7568 2220  ="#ideas-roguh" 
+-000014e0: 7469 746c 653d 2249 6465 6173 2c20 506c  title="Ideas, Pl
+-000014f0: 616e 6e69 6e67 2c20 2620 4665 6564 6261  anning, & Feedba
+-00001500: 636b 223e f09f a494 3c2f 613e 3c2f 7464  ck">....</a></td
+-00001510: 3e0a 2020 2020 2020 3c74 6420 616c 6967  >.      <td alig
+-00001520: 6e3d 2263 656e 7465 7222 3e3c 6120 6872  n="center"><a hr
+-00001530: 6566 3d22 6874 7470 733a 2f2f 6769 7468  ef="https://gith
+-00001540: 7562 2e63 6f6d 2f79 626e 6422 3e3c 696d  ub.com/ybnd"><im
+-00001550: 6720 7372 633d 2268 7474 7073 3a2f 2f61  g src="https://a
+-00001560: 7661 7461 7273 2e67 6974 6875 6275 7365  vatars.githubuse
+-00001570: 7263 6f6e 7465 6e74 2e63 6f6d 2f75 2f33  rcontent.com/u/3
+-00001580: 3135 3437 3033 383f 763d 343f 733d 3130  1547038?v=4?s=10
+-00001590: 3022 2077 6964 7468 3d22 3130 3070 783b  0" width="100px;
+-000015a0: 2220 616c 743d 2279 7572 6120 626f 6e64  " alt="yura bond
+-000015b0: 6172 656e 6b6f 222f 3e3c 6272 202f 3e3c  arenko"/><br /><
+-000015c0: 7375 623e 3c62 3e79 7572 6120 626f 6e64  sub><b>yura bond
+-000015d0: 6172 656e 6b6f 3c2f 623e 3c2f 7375 623e  arenko</b></sub>
+-000015e0: 3c2f 613e 3c62 7220 2f3e 3c61 2068 7265  </a><br /><a hre
+-000015f0: 663d 2268 7474 7073 3a2f 2f67 6974 6875  f="https://githu
+-00001600: 622e 636f 6d2f 6d61 6e73 656e 6672 616e  b.com/mansenfran
+-00001610: 7a65 6e2f 6175 746f 646f 635f 7079 6461  zen/autodoc_pyda
+-00001620: 6e74 6963 2f69 7373 7565 733f 713d 6175  ntic/issues?q=au
+-00001630: 7468 6f72 2533 4179 626e 6422 2074 6974  thor%3Aybnd" tit
+-00001640: 6c65 3d22 4275 6720 7265 706f 7274 7322  le="Bug reports"
+-00001650: 3ef0 9f90 9b3c 2f61 3e20 3c61 2068 7265  >....</a> <a hre
+-00001660: 663d 2223 7573 6572 5465 7374 696e 672d  f="#userTesting-
+-00001670: 7962 6e64 2220 7469 746c 653d 2255 7365  ybnd" title="Use
+-00001680: 7220 5465 7374 696e 6722 3ef0 9f93 933c  r Testing">....<
+-00001690: 2f61 3e3c 2f74 643e 0a20 2020 2020 203c  /a></td>.      <
+-000016a0: 7464 2061 6c69 676e 3d22 6365 6e74 6572  td align="center
+-000016b0: 223e 3c61 2068 7265 663d 2268 7474 703a  "><a href="http:
+-000016c0: 2f2f 7461 686f 7761 7264 2e67 6974 6875  //tahoward.githu
+-000016d0: 622e 696f 223e 3c69 6d67 2073 7263 3d22  b.io"><img src="
+-000016e0: 6874 7470 733a 2f2f 6176 6174 6172 732e  https://avatars.
+-000016f0: 6769 7468 7562 7573 6572 636f 6e74 656e  githubuserconten
+-00001700: 742e 636f 6d2f 752f 3534 3735 3730 3f76  t.com/u/547570?v
+-00001710: 3d34 3f73 3d31 3030 2220 7769 6474 683d  =4?s=100" width=
+-00001720: 2231 3030 7078 3b22 2061 6c74 3d22 5472  "100px;" alt="Tr
+-00001730: 6576 6f72 2048 6f77 6172 6422 2f3e 3c62  evor Howard"/><b
+-00001740: 7220 2f3e 3c73 7562 3e3c 623e 5472 6576  r /><sub><b>Trev
+-00001750: 6f72 2048 6f77 6172 643c 2f62 3e3c 2f73  or Howard</b></s
+-00001760: 7562 3e3c 2f61 3e3c 6272 202f 3e3c 6120  ub></a><br /><a 
+-00001770: 6872 6566 3d22 6874 7470 733a 2f2f 6769  href="https://gi
+-00001780: 7468 7562 2e63 6f6d 2f6d 616e 7365 6e66  thub.com/mansenf
+-00001790: 7261 6e7a 656e 2f61 7574 6f64 6f63 5f70  ranzen/autodoc_p
+-000017a0: 7964 616e 7469 632f 6973 7375 6573 3f71  ydantic/issues?q
+-000017b0: 3d61 7574 686f 7225 3341 7461 686f 7761  =author%3Atahowa
+-000017c0: 7264 2220 7469 746c 653d 2242 7567 2072  rd" title="Bug r
+-000017d0: 6570 6f72 7473 223e f09f 909b 3c2f 613e  eports">....</a>
+-000017e0: 203c 6120 6872 6566 3d22 2375 7365 7254   <a href="#userT
+-000017f0: 6573 7469 6e67 2d74 6168 6f77 6172 6422  esting-tahoward"
+-00001800: 2074 6974 6c65 3d22 5573 6572 2054 6573   title="User Tes
+-00001810: 7469 6e67 223e f09f 9393 3c2f 613e 3c2f  ting">....</a></
+-00001820: 7464 3e0a 2020 2020 3c2f 7472 3e0a 2020  td>.    </tr>.  
+-00001830: 2020 3c74 723e 0a20 2020 2020 203c 7464    <tr>.      <td
+-00001840: 2061 6c69 676e 3d22 6365 6e74 6572 223e   align="center">
+-00001850: 3c61 2068 7265 663d 2268 7474 7073 3a2f  <a href="https:/
+-00001860: 2f67 6974 6875 622e 636f 6d2f 7468 6f6d  /github.com/thom
+-00001870: 6173 2d70 6564 6f74 223e 3c69 6d67 2073  as-pedot"><img s
+-00001880: 7263 3d22 6874 7470 733a 2f2f 6176 6174  rc="https://avat
+-00001890: 6172 732e 6769 7468 7562 7573 6572 636f  ars.githubuserco
+-000018a0: 6e74 656e 742e 636f 6d2f 752f 3836 3733  ntent.com/u/8673
+-000018b0: 3132 3132 3f76 3d34 3f73 3d31 3030 2220  1212?v=4?s=100" 
+-000018c0: 7769 6474 683d 2231 3030 7078 3b22 2061  width="100px;" a
+-000018d0: 6c74 3d22 7468 6f6d 6173 2d70 6564 6f74  lt="thomas-pedot
+-000018e0: 222f 3e3c 6272 202f 3e3c 7375 623e 3c62  "/><br /><sub><b
+-000018f0: 3e74 686f 6d61 732d 7065 646f 743c 2f62  >thomas-pedot</b
+-00001900: 3e3c 2f73 7562 3e3c 2f61 3e3c 6272 202f  ></sub></a><br /
+-00001910: 3e3c 6120 6872 6566 3d22 6874 7470 733a  ><a href="https:
+-00001920: 2f2f 6769 7468 7562 2e63 6f6d 2f6d 616e  //github.com/man
+-00001930: 7365 6e66 7261 6e7a 656e 2f61 7574 6f64  senfranzen/autod
+-00001940: 6f63 5f70 7964 616e 7469 632f 6973 7375  oc_pydantic/issu
+-00001950: 6573 3f71 3d61 7574 686f 7225 3341 7468  es?q=author%3Ath
+-00001960: 6f6d 6173 2d70 6564 6f74 2220 7469 746c  omas-pedot" titl
+-00001970: 653d 2242 7567 2072 6570 6f72 7473 223e  e="Bug reports">
+-00001980: f09f 909b 3c2f 613e 203c 6120 6872 6566  ....</a> <a href
+-00001990: 3d22 2375 7365 7254 6573 7469 6e67 2d74  ="#userTesting-t
+-000019a0: 686f 6d61 732d 7065 646f 7422 2074 6974  homas-pedot" tit
+-000019b0: 6c65 3d22 5573 6572 2054 6573 7469 6e67  le="User Testing
+-000019c0: 223e f09f 9393 3c2f 613e 3c2f 7464 3e0a  ">....</a></td>.
+-000019d0: 2020 2020 2020 3c74 6420 616c 6967 6e3d        <td align=
+-000019e0: 2263 656e 7465 7222 3e3c 6120 6872 6566  "center"><a href
+-000019f0: 3d22 6874 7470 733a 2f2f 6769 7468 7562  ="https://github
+-00001a00: 2e63 6f6d 2f6d 6174 7574 7465 7222 3e3c  .com/matutter"><
+-00001a10: 696d 6720 7372 633d 2268 7474 7073 3a2f  img src="https:/
+-00001a20: 2f61 7661 7461 7273 2e67 6974 6875 6275  /avatars.githubu
+-00001a30: 7365 7263 6f6e 7465 6e74 2e63 6f6d 2f75  sercontent.com/u
+-00001a40: 2f32 3730 3133 3739 3f76 3d34 3f73 3d31  /2701379?v=4?s=1
+-00001a50: 3030 2220 7769 6474 683d 2231 3030 7078  00" width="100px
+-00001a60: 3b22 2061 6c74 3d22 4d61 7420 5574 7465  ;" alt="Mat Utte
+-00001a70: 7222 2f3e 3c62 7220 2f3e 3c73 7562 3e3c  r"/><br /><sub><
+-00001a80: 623e 4d61 7420 5574 7465 723c 2f62 3e3c  b>Mat Utter</b><
+-00001a90: 2f73 7562 3e3c 2f61 3e3c 6272 202f 3e3c  /sub></a><br /><
+-00001aa0: 6120 6872 6566 3d22 6874 7470 733a 2f2f  a href="https://
+-00001ab0: 6769 7468 7562 2e63 6f6d 2f6d 616e 7365  github.com/manse
+-00001ac0: 6e66 7261 6e7a 656e 2f61 7574 6f64 6f63  nfranzen/autodoc
+-00001ad0: 5f70 7964 616e 7469 632f 6973 7375 6573  _pydantic/issues
+-00001ae0: 3f71 3d61 7574 686f 7225 3341 6d61 7475  ?q=author%3Amatu
+-00001af0: 7474 6572 2220 7469 746c 653d 2242 7567  tter" title="Bug
+-00001b00: 2072 6570 6f72 7473 223e f09f 909b 3c2f   reports">....</
+-00001b10: 613e 203c 6120 6872 6566 3d22 2375 7365  a> <a href="#use
+-00001b20: 7254 6573 7469 6e67 2d6d 6174 7574 7465  rTesting-matutte
+-00001b30: 7222 2074 6974 6c65 3d22 5573 6572 2054  r" title="User T
+-00001b40: 6573 7469 6e67 223e f09f 9393 3c2f 613e  esting">....</a>
+-00001b50: 3c2f 7464 3e0a 2020 2020 2020 3c74 6420  </td>.      <td 
+-00001b60: 616c 6967 6e3d 2263 656e 7465 7222 3e3c  align="center"><
+-00001b70: 6120 6872 6566 3d22 6874 7470 733a 2f2f  a href="https://
+-00001b80: 6769 7468 7562 2e63 6f6d 2f64 6176 6964  github.com/david
+-00001b90: 6368 616c 6c22 3e3c 696d 6720 7372 633d  chall"><img src=
+-00001ba0: 2268 7474 7073 3a2f 2f61 7661 7461 7273  "https://avatars
+-00001bb0: 2e67 6974 6875 6275 7365 7263 6f6e 7465  .githubuserconte
+-00001bc0: 6e74 2e63 6f6d 2f75 2f31 3830 3438 3536  nt.com/u/1804856
+-00001bd0: 3f76 3d34 3f73 3d31 3030 2220 7769 6474  ?v=4?s=100" widt
+-00001be0: 683d 2231 3030 7078 3b22 2061 6c74 3d22  h="100px;" alt="
+-00001bf0: 4461 7669 6420 4320 4861 6c6c 222f 3e3c  David C Hall"/><
+-00001c00: 6272 202f 3e3c 7375 623e 3c62 3e44 6176  br /><sub><b>Dav
+-00001c10: 6964 2043 2048 616c 6c3c 2f62 3e3c 2f73  id C Hall</b></s
+-00001c20: 7562 3e3c 2f61 3e3c 6272 202f 3e3c 6120  ub></a><br /><a 
+-00001c30: 6872 6566 3d22 2369 6465 6173 2d64 6176  href="#ideas-dav
+-00001c40: 6964 6368 616c 6c22 2074 6974 6c65 3d22  idchall" title="
+-00001c50: 4964 6561 732c 2050 6c61 6e6e 696e 672c  Ideas, Planning,
+-00001c60: 2026 2046 6565 6462 6163 6b22 3ef0 9fa4   & Feedback">...
+-00001c70: 943c 2f61 3e20 3c61 2068 7265 663d 2223  .</a> <a href="#
+-00001c80: 7573 6572 5465 7374 696e 672d 6461 7669  userTesting-davi
+-00001c90: 6463 6861 6c6c 2220 7469 746c 653d 2255  dchall" title="U
+-00001ca0: 7365 7220 5465 7374 696e 6722 3ef0 9f93  ser Testing">...
+-00001cb0: 933c 2f61 3e3c 2f74 643e 0a20 2020 2020  .</a></td>.     
+-00001cc0: 203c 7464 2061 6c69 676e 3d22 6365 6e74   <td align="cent
+-00001cd0: 6572 223e 3c61 2068 7265 663d 2268 7474  er"><a href="htt
+-00001ce0: 7073 3a2f 2f79 6f73 6861 6e75 696b 6162  ps://yoshanuikab
+-00001cf0: 756e 6469 2e6d 6522 3e3c 696d 6720 7372  undi.me"><img sr
+-00001d00: 633d 2268 7474 7073 3a2f 2f61 7661 7461  c="https://avata
+-00001d10: 7273 2e67 6974 6875 6275 7365 7263 6f6e  rs.githubusercon
+-00001d20: 7465 6e74 2e63 6f6d 2f75 2f32 3835 3930  tent.com/u/28590
+-00001d30: 3734 383f 763d 343f 733d 3130 3022 2077  748?v=4?s=100" w
+-00001d40: 6964 7468 3d22 3130 3070 783b 2220 616c  idth="100px;" al
+-00001d50: 743d 224a 6f73 6820 412e 204d 6974 6368  t="Josh A. Mitch
+-00001d60: 656c 6c22 2f3e 3c62 7220 2f3e 3c73 7562  ell"/><br /><sub
+-00001d70: 3e3c 623e 4a6f 7368 2041 2e20 4d69 7463  ><b>Josh A. Mitc
+-00001d80: 6865 6c6c 3c2f 623e 3c2f 7375 623e 3c2f  hell</b></sub></
+-00001d90: 613e 3c62 7220 2f3e 3c61 2068 7265 663d  a><br /><a href=
+-00001da0: 2223 6964 6561 732d 596f 7368 616e 7569  "#ideas-Yoshanui
+-00001db0: 6b61 6275 6e64 6922 2074 6974 6c65 3d22  kabundi" title="
+-00001dc0: 4964 6561 732c 2050 6c61 6e6e 696e 672c  Ideas, Planning,
+-00001dd0: 2026 2046 6565 6462 6163 6b22 3ef0 9fa4   & Feedback">...
+-00001de0: 943c 2f61 3e20 3c61 2068 7265 663d 2268  .</a> <a href="h
+-00001df0: 7474 7073 3a2f 2f67 6974 6875 622e 636f  ttps://github.co
+-00001e00: 6d2f 6d61 6e73 656e 6672 616e 7a65 6e2f  m/mansenfranzen/
+-00001e10: 6175 746f 646f 635f 7079 6461 6e74 6963  autodoc_pydantic
+-00001e20: 2f63 6f6d 6d69 7473 3f61 7574 686f 723d  /commits?author=
+-00001e30: 596f 7368 616e 7569 6b61 6275 6e64 6922  Yoshanuikabundi"
+-00001e40: 2074 6974 6c65 3d22 5465 7374 7322 3ee2   title="Tests">.
+-00001e50: 9aa0 efb8 8f3c 2f61 3e3c 2f74 643e 0a20  .....</a></td>. 
+-00001e60: 2020 2020 203c 7464 2061 6c69 676e 3d22       <td align="
+-00001e70: 6365 6e74 6572 223e 3c61 2068 7265 663d  center"><a href=
+-00001e80: 2268 7474 7073 3a2f 2f67 6974 6875 622e  "https://github.
+-00001e90: 636f 6d2f 676f 726f 6465 7269 636b 676f  com/goroderickgo
+-00001ea0: 223e 3c69 6d67 2073 7263 3d22 6874 7470  "><img src="http
+-00001eb0: 733a 2f2f 6176 6174 6172 732e 6769 7468  s://avatars.gith
+-00001ec0: 7562 7573 6572 636f 6e74 656e 742e 636f  ubusercontent.co
+-00001ed0: 6d2f 752f 3137 3239 3637 3133 3f76 3d34  m/u/17296713?v=4
+-00001ee0: 3f73 3d31 3030 2220 7769 6474 683d 2231  ?s=100" width="1
+-00001ef0: 3030 7078 3b22 2061 6c74 3d22 526f 6465  00px;" alt="Rode
+-00001f00: 7269 636b 2047 6f22 2f3e 3c62 7220 2f3e  rick Go"/><br />
+-00001f10: 3c73 7562 3e3c 623e 526f 6465 7269 636b  <sub><b>Roderick
+-00001f20: 2047 6f3c 2f62 3e3c 2f73 7562 3e3c 2f61   Go</b></sub></a
+-00001f30: 3e3c 6272 202f 3e3c 6120 6872 6566 3d22  ><br /><a href="
+-00001f40: 6874 7470 733a 2f2f 6769 7468 7562 2e63  https://github.c
+-00001f50: 6f6d 2f6d 616e 7365 6e66 7261 6e7a 656e  om/mansenfranzen
+-00001f60: 2f61 7574 6f64 6f63 5f70 7964 616e 7469  /autodoc_pydanti
+-00001f70: 632f 636f 6d6d 6974 733f 6175 7468 6f72  c/commits?author
+-00001f80: 3d67 6f72 6f64 6572 6963 6b67 6f22 2074  =goroderickgo" t
+-00001f90: 6974 6c65 3d22 5465 7374 7322 3ee2 9aa0  itle="Tests">...
+-00001fa0: efb8 8f3c 2f61 3e3c 2f74 643e 0a20 2020  ...</a></td>.   
+-00001fb0: 2020 203c 7464 2061 6c69 676e 3d22 6365     <td align="ce
+-00001fc0: 6e74 6572 223e 3c61 2068 7265 663d 2268  nter"><a href="h
+-00001fd0: 7474 7073 3a2f 2f67 6974 6875 622e 636f  ttps://github.co
+-00001fe0: 6d2f 6c69 6c79 6d69 6e69 756d 223e 3c69  m/lilyminium"><i
+-00001ff0: 6d67 2073 7263 3d22 6874 7470 733a 2f2f  mg src="https://
+-00002000: 6176 6174 6172 732e 6769 7468 7562 7573  avatars.githubus
+-00002010: 6572 636f 6e74 656e 742e 636f 6d2f 752f  ercontent.com/u/
+-00002020: 3331 3131 3531 3031 3f76 3d34 3f73 3d31  31115101?v=4?s=1
+-00002030: 3030 2220 7769 6474 683d 2231 3030 7078  00" width="100px
+-00002040: 3b22 2061 6c74 3d22 4c69 6c79 2057 616e  ;" alt="Lily Wan
+-00002050: 6722 2f3e 3c62 7220 2f3e 3c73 7562 3e3c  g"/><br /><sub><
+-00002060: 623e 4c69 6c79 2057 616e 673c 2f62 3e3c  b>Lily Wang</b><
+-00002070: 2f73 7562 3e3c 2f61 3e3c 6272 202f 3e3c  /sub></a><br /><
+-00002080: 6120 6872 6566 3d22 6874 7470 733a 2f2f  a href="https://
+-00002090: 6769 7468 7562 2e63 6f6d 2f6d 616e 7365  github.com/manse
+-000020a0: 6e66 7261 6e7a 656e 2f61 7574 6f64 6f63  nfranzen/autodoc
+-000020b0: 5f70 7964 616e 7469 632f 636f 6d6d 6974  _pydantic/commit
+-000020c0: 733f 6175 7468 6f72 3d6c 696c 796d 696e  s?author=lilymin
+-000020d0: 6975 6d22 2074 6974 6c65 3d22 446f 6375  ium" title="Docu
+-000020e0: 6d65 6e74 6174 696f 6e22 3ef0 9f93 963c  mentation">....<
+-000020f0: 2f61 3e20 3c61 2068 7265 663d 2223 636f  /a> <a href="#co
+-00002100: 6e74 656e 742d 6c69 6c79 6d69 6e69 756d  ntent-lilyminium
+-00002110: 2220 7469 746c 653d 2243 6f6e 7465 6e74  " title="Content
+-00002120: 223e f09f 968b 3c2f 613e 3c2f 7464 3e0a  ">....</a></td>.
+-00002130: 2020 2020 2020 3c74 6420 616c 6967 6e3d        <td align=
+-00002140: 2263 656e 7465 7222 3e3c 6120 6872 6566  "center"><a href
+-00002150: 3d22 6874 7470 733a 2f2f 6769 7468 7562  ="https://github
+-00002160: 2e63 6f6d 2f6a 2d63 6172 736f 6e22 3e3c  .com/j-carson"><
+-00002170: 696d 6720 7372 633d 2268 7474 7073 3a2f  img src="https:/
+-00002180: 2f61 7661 7461 7273 2e67 6974 6875 6275  /avatars.githubu
+-00002190: 7365 7263 6f6e 7465 6e74 2e63 6f6d 2f75  sercontent.com/u
+-000021a0: 2f34 3433 3038 3132 303f 763d 343f 733d  /44308120?v=4?s=
+-000021b0: 3130 3022 2077 6964 7468 3d22 3130 3070  100" width="100p
+-000021c0: 783b 2220 616c 743d 226a 2d63 6172 736f  x;" alt="j-carso
+-000021d0: 6e22 2f3e 3c62 7220 2f3e 3c73 7562 3e3c  n"/><br /><sub><
+-000021e0: 623e 6a2d 6361 7273 6f6e 3c2f 623e 3c2f  b>j-carson</b></
+-000021f0: 7375 623e 3c2f 613e 3c62 7220 2f3e 3c61  sub></a><br /><a
+-00002200: 2068 7265 663d 2268 7474 7073 3a2f 2f67   href="https://g
+-00002210: 6974 6875 622e 636f 6d2f 6d61 6e73 656e  ithub.com/mansen
+-00002220: 6672 616e 7a65 6e2f 6175 746f 646f 635f  franzen/autodoc_
+-00002230: 7079 6461 6e74 6963 2f69 7373 7565 733f  pydantic/issues?
+-00002240: 713d 6175 7468 6f72 2533 416a 2d63 6172  q=author%3Aj-car
+-00002250: 736f 6e22 2074 6974 6c65 3d22 4275 6720  son" title="Bug 
+-00002260: 7265 706f 7274 7322 3ef0 9f90 9b3c 2f61  reports">....</a
+-00002270: 3e20 3c61 2068 7265 663d 2268 7474 7073  > <a href="https
+-00002280: 3a2f 2f67 6974 6875 622e 636f 6d2f 6d61  ://github.com/ma
+-00002290: 6e73 656e 6672 616e 7a65 6e2f 6175 746f  nsenfranzen/auto
+-000022a0: 646f 635f 7079 6461 6e74 6963 2f63 6f6d  doc_pydantic/com
+-000022b0: 6d69 7473 3f61 7574 686f 723d 6a2d 6361  mits?author=j-ca
+-000022c0: 7273 6f6e 2220 7469 746c 653d 2243 6f64  rson" title="Cod
+-000022d0: 6522 3ef0 9f92 bb3c 2f61 3e20 3c61 2068  e">....</a> <a h
+-000022e0: 7265 663d 2268 7474 7073 3a2f 2f67 6974  ref="https://git
+-000022f0: 6875 622e 636f 6d2f 6d61 6e73 656e 6672  hub.com/mansenfr
+-00002300: 616e 7a65 6e2f 6175 746f 646f 635f 7079  anzen/autodoc_py
+-00002310: 6461 6e74 6963 2f63 6f6d 6d69 7473 3f61  dantic/commits?a
+-00002320: 7574 686f 723d 6a2d 6361 7273 6f6e 2220  uthor=j-carson" 
+-00002330: 7469 746c 653d 2254 6573 7473 223e e29a  title="Tests">..
+-00002340: a0ef b88f 3c2f 613e 3c2f 7464 3e0a 2020  ....</a></td>.  
+-00002350: 2020 3c2f 7472 3e0a 2020 2020 3c74 723e    </tr>.    <tr>
+-00002360: 0a20 2020 2020 203c 7464 2061 6c69 676e  .      <td align
+-00002370: 3d22 6365 6e74 6572 223e 3c61 2068 7265  ="center"><a hre
+-00002380: 663d 2268 7474 703a 2f2f 696d 6164 612e  f="http://imada.
+-00002390: 7364 752e 646b 2f7e 6a6c 616e 6465 7273  sdu.dk/~jlanders
+-000023a0: 656e 2f22 3e3c 696d 6720 7372 633d 2268  en/"><img src="h
+-000023b0: 7474 7073 3a2f 2f61 7661 7461 7273 2e67  ttps://avatars.g
+-000023c0: 6974 6875 6275 7365 7263 6f6e 7465 6e74  ithubusercontent
+-000023d0: 2e63 6f6d 2f75 2f36 3436 3537 3335 3f76  .com/u/6465735?v
+-000023e0: 3d34 3f73 3d31 3030 2220 7769 6474 683d  =4?s=100" width=
+-000023f0: 2231 3030 7078 3b22 2061 6c74 3d22 4a61  "100px;" alt="Ja
+-00002400: 6b6f 6220 4c79 6b6b 6520 416e 6465 7273  kob Lykke Anders
+-00002410: 656e 222f 3e3c 6272 202f 3e3c 7375 623e  en"/><br /><sub>
+-00002420: 3c62 3e4a 616b 6f62 204c 796b 6b65 2041  <b>Jakob Lykke A
+-00002430: 6e64 6572 7365 6e3c 2f62 3e3c 2f73 7562  ndersen</b></sub
+-00002440: 3e3c 2f61 3e3c 6272 202f 3e3c 6120 6872  ></a><br /><a hr
+-00002450: 6566 3d22 6874 7470 733a 2f2f 6769 7468  ef="https://gith
+-00002460: 7562 2e63 6f6d 2f6d 616e 7365 6e66 7261  ub.com/mansenfra
+-00002470: 6e7a 656e 2f61 7574 6f64 6f63 5f70 7964  nzen/autodoc_pyd
+-00002480: 616e 7469 632f 636f 6d6d 6974 733f 6175  antic/commits?au
+-00002490: 7468 6f72 3d6a 616b 6f62 616e 6465 7273  thor=jakobanders
+-000024a0: 656e 2220 7469 746c 653d 2243 6f64 6522  en" title="Code"
+-000024b0: 3ef0 9f92 bb3c 2f61 3e3c 2f74 643e 0a20  >....</a></td>. 
+-000024c0: 2020 2020 203c 7464 2061 6c69 676e 3d22       <td align="
+-000024d0: 6365 6e74 6572 223e 3c61 2068 7265 663d  center"><a href=
+-000024e0: 2268 7474 7073 3a2f 2f67 6974 6875 622e  "https://github.
+-000024f0: 636f 6d2f 6173 7472 6f6a 7561 6e6c 7522  com/astrojuanlu"
+-00002500: 3e3c 696d 6720 7372 633d 2268 7474 7073  ><img src="https
+-00002510: 3a2f 2f61 7661 7461 7273 2e67 6974 6875  ://avatars.githu
+-00002520: 6275 7365 7263 6f6e 7465 6e74 2e63 6f6d  busercontent.com
+-00002530: 2f75 2f33 3136 3531 373f 763d 343f 733d  /u/316517?v=4?s=
+-00002540: 3130 3022 2077 6964 7468 3d22 3130 3070  100" width="100p
+-00002550: 783b 2220 616c 743d 224a 7561 6e20 4c75  x;" alt="Juan Lu
+-00002560: 6973 2043 616e 6f20 526f 6472 c3ad 6775  is Cano Rodr..gu
+-00002570: 657a 222f 3e3c 6272 202f 3e3c 7375 623e  ez"/><br /><sub>
+-00002580: 3c62 3e4a 7561 6e20 4c75 6973 2043 616e  <b>Juan Luis Can
+-00002590: 6f20 526f 6472 c3ad 6775 657a 3c2f 623e  o Rodr..guez</b>
+-000025a0: 3c2f 7375 623e 3c2f 613e 3c62 7220 2f3e  </sub></a><br />
+-000025b0: 3c61 2068 7265 663d 2223 636f 6e74 656e  <a href="#conten
+-000025c0: 742d 6173 7472 6f6a 7561 6e6c 7522 2074  t-astrojuanlu" t
+-000025d0: 6974 6c65 3d22 436f 6e74 656e 7422 3ef0  itle="Content">.
+-000025e0: 9f96 8b3c 2f61 3e3c 2f74 643e 0a20 2020  ...</a></td>.   
+-000025f0: 2020 203c 7464 2061 6c69 676e 3d22 6365     <td align="ce
+-00002600: 6e74 6572 223e 3c61 2068 7265 663d 2268  nter"><a href="h
+-00002610: 7474 7073 3a2f 2f67 6974 6875 622e 636f  ttps://github.co
+-00002620: 6d2f 6e63 6861 6c79 223e 3c69 6d67 2073  m/nchaly"><img s
+-00002630: 7263 3d22 6874 7470 733a 2f2f 6176 6174  rc="https://avat
+-00002640: 6172 732e 6769 7468 7562 7573 6572 636f  ars.githubuserco
+-00002650: 6e74 656e 742e 636f 6d2f 752f 3236 3635  ntent.com/u/2665
+-00002660: 3237 333f 763d 343f 733d 3130 3022 2077  273?v=4?s=100" w
+-00002670: 6964 7468 3d22 3130 3070 783b 2220 616c  idth="100px;" al
+-00002680: 743d 224d 696b 616c 6169 2043 6861 6c79  t="Mikalai Chaly
+-00002690: 222f 3e3c 6272 202f 3e3c 7375 623e 3c62  "/><br /><sub><b
+-000026a0: 3e4d 696b 616c 6169 2043 6861 6c79 3c2f  >Mikalai Chaly</
+-000026b0: 623e 3c2f 7375 623e 3c2f 613e 3c62 7220  b></sub></a><br 
+-000026c0: 2f3e 3c61 2068 7265 663d 2268 7474 7073  /><a href="https
+-000026d0: 3a2f 2f67 6974 6875 622e 636f 6d2f 6d61  ://github.com/ma
+-000026e0: 6e73 656e 6672 616e 7a65 6e2f 6175 746f  nsenfranzen/auto
+-000026f0: 646f 635f 7079 6461 6e74 6963 2f69 7373  doc_pydantic/iss
+-00002700: 7565 733f 713d 6175 7468 6f72 2533 416e  ues?q=author%3An
+-00002710: 6368 616c 7922 2074 6974 6c65 3d22 4275  chaly" title="Bu
+-00002720: 6720 7265 706f 7274 7322 3ef0 9f90 9b3c  g reports">....<
+-00002730: 2f61 3e20 3c61 2068 7265 663d 2268 7474  /a> <a href="htt
+-00002740: 7073 3a2f 2f67 6974 6875 622e 636f 6d2f  ps://github.com/
+-00002750: 6d61 6e73 656e 6672 616e 7a65 6e2f 6175  mansenfranzen/au
+-00002760: 746f 646f 635f 7079 6461 6e74 6963 2f63  todoc_pydantic/c
+-00002770: 6f6d 6d69 7473 3f61 7574 686f 723d 6e63  ommits?author=nc
+-00002780: 6861 6c79 2220 7469 746c 653d 2254 6573  haly" title="Tes
+-00002790: 7473 223e e29a a0ef b88f 3c2f 613e 3c2f  ts">......</a></
+-000027a0: 7464 3e0a 2020 2020 2020 3c74 6420 616c  td>.      <td al
+-000027b0: 6967 6e3d 2263 656e 7465 7222 3e3c 6120  ign="center"><a 
+-000027c0: 6872 6566 3d22 6874 7470 733a 2f2f 6769  href="https://gi
+-000027d0: 7468 7562 2e63 6f6d 2f53 7469 674b 6f72  thub.com/StigKor
+-000027e0: 736e 6573 223e 3c69 6d67 2073 7263 3d22  snes"><img src="
+-000027f0: 6874 7470 733a 2f2f 6176 6174 6172 732e  https://avatars.
+-00002800: 6769 7468 7562 7573 6572 636f 6e74 656e  githubuserconten
+-00002810: 742e 636f 6d2f 752f 3130 3038 3535 3336  t.com/u/10085536
+-00002820: 3f76 3d34 3f73 3d31 3030 2220 7769 6474  ?v=4?s=100" widt
+-00002830: 683d 2231 3030 7078 3b22 2061 6c74 3d22  h="100px;" alt="
+-00002840: 5374 6967 204b 6f72 736e 6573 222f 3e3c  Stig Korsnes"/><
+-00002850: 6272 202f 3e3c 7375 623e 3c62 3e53 7469  br /><sub><b>Sti
+-00002860: 6720 4b6f 7273 6e65 733c 2f62 3e3c 2f73  g Korsnes</b></s
+-00002870: 7562 3e3c 2f61 3e3c 6272 202f 3e3c 6120  ub></a><br /><a 
+-00002880: 6872 6566 3d22 6874 7470 733a 2f2f 6769  href="https://gi
+-00002890: 7468 7562 2e63 6f6d 2f6d 616e 7365 6e66  thub.com/mansenf
+-000028a0: 7261 6e7a 656e 2f61 7574 6f64 6f63 5f70  ranzen/autodoc_p
+-000028b0: 7964 616e 7469 632f 6973 7375 6573 3f71  ydantic/issues?q
+-000028c0: 3d61 7574 686f 7225 3341 5374 6967 4b6f  =author%3AStigKo
+-000028d0: 7273 6e65 7322 2074 6974 6c65 3d22 4275  rsnes" title="Bu
+-000028e0: 6720 7265 706f 7274 7322 3ef0 9f90 9b3c  g reports">....<
+-000028f0: 2f61 3e20 3c61 2068 7265 663d 2223 6964  /a> <a href="#id
+-00002900: 6561 732d 5374 6967 4b6f 7273 6e65 7322  eas-StigKorsnes"
+-00002910: 2074 6974 6c65 3d22 4964 6561 732c 2050   title="Ideas, P
+-00002920: 6c61 6e6e 696e 672c 2026 2046 6565 6462  lanning, & Feedb
+-00002930: 6163 6b22 3ef0 9fa4 943c 2f61 3e3c 2f74  ack">....</a></t
+-00002940: 643e 0a20 2020 2020 203c 7464 2061 6c69  d>.      <td ali
+-00002950: 676e 3d22 6365 6e74 6572 223e 3c61 2068  gn="center"><a h
+-00002960: 7265 663d 2268 7474 7073 3a2f 2f67 6974  ref="https://git
+-00002970: 6875 622e 636f 6d2f 696c 6961 6b75 7222  hub.com/iliakur"
+-00002980: 3e3c 696d 6720 7372 633d 2268 7474 7073  ><img src="https
+-00002990: 3a2f 2f61 7661 7461 7273 2e67 6974 6875  ://avatars.githu
+-000029a0: 6275 7365 7263 6f6e 7465 6e74 2e63 6f6d  busercontent.com
+-000029b0: 2f75 2f38 3939 3539 313f 763d 343f 733d  /u/899591?v=4?s=
+-000029c0: 3130 3022 2077 6964 7468 3d22 3130 3070  100" width="100p
+-000029d0: 783b 2220 616c 743d 2249 6c69 6120 4b75  x;" alt="Ilia Ku
+-000029e0: 7265 6e6b 6f76 222f 3e3c 6272 202f 3e3c  renkov"/><br /><
+-000029f0: 7375 623e 3c62 3e49 6c69 6120 4b75 7265  sub><b>Ilia Kure
+-00002a00: 6e6b 6f76 3c2f 623e 3c2f 7375 623e 3c2f  nkov</b></sub></
+-00002a10: 613e 3c62 7220 2f3e 3c61 2068 7265 663d  a><br /><a href=
+-00002a20: 2268 7474 7073 3a2f 2f67 6974 6875 622e  "https://github.
+-00002a30: 636f 6d2f 6d61 6e73 656e 6672 616e 7a65  com/mansenfranze
+-00002a40: 6e2f 6175 746f 646f 635f 7079 6461 6e74  n/autodoc_pydant
+-00002a50: 6963 2f69 7373 7565 733f 713d 6175 7468  ic/issues?q=auth
+-00002a60: 6f72 2533 4169 6c69 616b 7572 2220 7469  or%3Ailiakur" ti
+-00002a70: 746c 653d 2242 7567 2072 6570 6f72 7473  tle="Bug reports
+-00002a80: 223e f09f 909b 3c2f 613e 3c2f 7464 3e0a  ">....</a></td>.
+-00002a90: 2020 2020 2020 3c74 6420 616c 6967 6e3d        <td align=
+-00002aa0: 2263 656e 7465 7222 3e3c 6120 6872 6566  "center"><a href
+-00002ab0: 3d22 6874 7470 733a 2f2f 6f72 6369 642e  ="https://orcid.
+-00002ac0: 6f72 672f 6d79 2d6f 7263 6964 3f6f 7263  org/my-orcid?orc
+-00002ad0: 6964 3d30 3030 302d 3030 3032 2d35 3437  id=0000-0002-547
+-00002ae0: 302d 3136 3736 223e 3c69 6d67 2073 7263  0-1676"><img src
+-00002af0: 3d22 6874 7470 733a 2f2f 6176 6174 6172  ="https://avatar
+-00002b00: 732e 6769 7468 7562 7573 6572 636f 6e74  s.githubusercont
+-00002b10: 656e 742e 636f 6d2f 752f 3338 3236 3231  ent.com/u/382621
+-00002b20: 303f 763d 343f 733d 3130 3022 2077 6964  0?v=4?s=100" wid
+-00002b30: 7468 3d22 3130 3070 783b 2220 616c 743d  th="100px;" alt=
+-00002b40: 2247 727a 6567 6f72 7a20 426f 6b6f 7461  "Grzegorz Bokota
+-00002b50: 222f 3e3c 6272 202f 3e3c 7375 623e 3c62  "/><br /><sub><b
+-00002b60: 3e47 727a 6567 6f72 7a20 426f 6b6f 7461  >Grzegorz Bokota
+-00002b70: 3c2f 623e 3c2f 7375 623e 3c2f 613e 3c62  </b></sub></a><b
+-00002b80: 7220 2f3e 3c61 2068 7265 663d 2268 7474  r /><a href="htt
+-00002b90: 7073 3a2f 2f67 6974 6875 622e 636f 6d2f  ps://github.com/
+-00002ba0: 6d61 6e73 656e 6672 616e 7a65 6e2f 6175  mansenfranzen/au
+-00002bb0: 746f 646f 635f 7079 6461 6e74 6963 2f69  todoc_pydantic/i
+-00002bc0: 7373 7565 733f 713d 6175 7468 6f72 2533  ssues?q=author%3
+-00002bd0: 4143 7a61 6b69 2220 7469 746c 653d 2242  ACzaki" title="B
+-00002be0: 7567 2072 6570 6f72 7473 223e f09f 909b  ug reports">....
+-00002bf0: 3c2f 613e 3c2f 7464 3e0a 2020 2020 2020  </a></td>.      
+-00002c00: 3c74 6420 616c 6967 6e3d 2263 656e 7465  <td align="cente
+-00002c10: 7222 3e3c 6120 6872 6566 3d22 6874 7470  r"><a href="http
+-00002c20: 733a 2f2f 6769 7468 7562 2e63 6f6d 2f6a  s://github.com/j
+-00002c30: 6775 6e73 746f 6e65 223e 3c69 6d67 2073  gunstone"><img s
+-00002c40: 7263 3d22 6874 7470 733a 2f2f 6176 6174  rc="https://avat
+-00002c50: 6172 732e 6769 7468 7562 7573 6572 636f  ars.githubuserco
+-00002c60: 6e74 656e 742e 636f 6d2f 752f 3231 3337  ntent.com/u/2137
+-00002c70: 3039 3830 3f76 3d34 3f73 3d31 3030 2220  0980?v=4?s=100" 
+-00002c80: 7769 6474 683d 2231 3030 7078 3b22 2061  width="100px;" a
+-00002c90: 6c74 3d22 6a67 756e 7374 6f6e 6522 2f3e  lt="jgunstone"/>
+-00002ca0: 3c62 7220 2f3e 3c73 7562 3e3c 623e 6a67  <br /><sub><b>jg
+-00002cb0: 756e 7374 6f6e 653c 2f62 3e3c 2f73 7562  unstone</b></sub
+-00002cc0: 3e3c 2f61 3e3c 6272 202f 3e3c 6120 6872  ></a><br /><a hr
+-00002cd0: 6566 3d22 6874 7470 733a 2f2f 6769 7468  ef="https://gith
+-00002ce0: 7562 2e63 6f6d 2f6d 616e 7365 6e66 7261  ub.com/mansenfra
+-00002cf0: 6e7a 656e 2f61 7574 6f64 6f63 5f70 7964  nzen/autodoc_pyd
+-00002d00: 616e 7469 632f 6973 7375 6573 3f71 3d61  antic/issues?q=a
+-00002d10: 7574 686f 7225 3341 6a67 756e 7374 6f6e  uthor%3Ajgunston
+-00002d20: 6522 2074 6974 6c65 3d22 4275 6720 7265  e" title="Bug re
+-00002d30: 706f 7274 7322 3ef0 9f90 9b3c 2f61 3e3c  ports">....</a><
+-00002d40: 2f74 643e 0a20 2020 203c 2f74 723e 0a20  /td>.    </tr>. 
+-00002d50: 2020 203c 7472 3e0a 2020 2020 2020 3c74     <tr>.      <t
+-00002d60: 6420 616c 6967 6e3d 2263 656e 7465 7222  d align="center"
+-00002d70: 3e3c 6120 6872 6566 3d22 6874 7470 733a  ><a href="https:
+-00002d80: 2f2f 6769 7468 7562 2e63 6f6d 2f69 7779  //github.com/iwy
+-00002d90: 726b 6f72 6522 3e3c 696d 6720 7372 633d  rkore"><img src=
+-00002da0: 2268 7474 7073 3a2f 2f61 7661 7461 7273  "https://avatars
+-00002db0: 2e67 6974 6875 6275 7365 7263 6f6e 7465  .githubuserconte
+-00002dc0: 6e74 2e63 6f6d 2f75 2f39 3237 3435 3838  nt.com/u/9274588
+-00002dd0: 303f 763d 343f 733d 3130 3022 2077 6964  0?v=4?s=100" wid
+-00002de0: 7468 3d22 3130 3070 783b 2220 616c 743d  th="100px;" alt=
+-00002df0: 2269 7779 726b 6f72 6522 2f3e 3c62 7220  "iwyrkore"/><br 
+-00002e00: 2f3e 3c73 7562 3e3c 623e 6977 7972 6b6f  /><sub><b>iwyrko
+-00002e10: 7265 3c2f 623e 3c2f 7375 623e 3c2f 613e  re</b></sub></a>
+-00002e20: 3c62 7220 2f3e 3c61 2068 7265 663d 2268  <br /><a href="h
+-00002e30: 7474 7073 3a2f 2f67 6974 6875 622e 636f  ttps://github.co
+-00002e40: 6d2f 6d61 6e73 656e 6672 616e 7a65 6e2f  m/mansenfranzen/
+-00002e50: 6175 746f 646f 635f 7079 6461 6e74 6963  autodoc_pydantic
+-00002e60: 2f63 6f6d 6d69 7473 3f61 7574 686f 723d  /commits?author=
+-00002e70: 6977 7972 6b6f 7265 2220 7469 746c 653d  iwyrkore" title=
+-00002e80: 2243 6f64 6522 3ef0 9f92 bb3c 2f61 3e3c  "Code">....</a><
+-00002e90: 2f74 643e 0a20 2020 2020 203c 7464 2061  /td>.      <td a
+-00002ea0: 6c69 676e 3d22 6365 6e74 6572 223e 3c61  lign="center"><a
+-00002eb0: 2068 7265 663d 2268 7474 7073 3a2f 2f67   href="https://g
+-00002ec0: 6974 6875 622e 636f 6d2f 7370 6163 656d  ithub.com/spacem
+-00002ed0: 616e 7370 6966 6632 3030 3722 3e3c 696d  anspiff2007"><im
+-00002ee0: 6720 7372 633d 2268 7474 7073 3a2f 2f61  g src="https://a
+-00002ef0: 7661 7461 7273 2e67 6974 6875 6275 7365  vatars.githubuse
+-00002f00: 7263 6f6e 7465 6e74 2e63 6f6d 2f75 2f31  rcontent.com/u/1
+-00002f10: 3037 3534 3731 363f 763d 343f 733d 3130  0754716?v=4?s=10
+-00002f20: 3022 2077 6964 7468 3d22 3130 3070 783b  0" width="100px;
+-00002f30: 2220 616c 743d 2273 7061 6365 6d61 6e73  " alt="spacemans
+-00002f40: 7069 6666 3230 3037 222f 3e3c 6272 202f  piff2007"/><br /
+-00002f50: 3e3c 7375 623e 3c62 3e73 7061 6365 6d61  ><sub><b>spacema
+-00002f60: 6e73 7069 6666 3230 3037 3c2f 623e 3c2f  nspiff2007</b></
+-00002f70: 7375 623e 3c2f 613e 3c62 7220 2f3e 3c61  sub></a><br /><a
+-00002f80: 2068 7265 663d 2268 7474 7073 3a2f 2f67   href="https://g
+-00002f90: 6974 6875 622e 636f 6d2f 6d61 6e73 656e  ithub.com/mansen
+-00002fa0: 6672 616e 7a65 6e2f 6175 746f 646f 635f  franzen/autodoc_
+-00002fb0: 7079 6461 6e74 6963 2f69 7373 7565 733f  pydantic/issues?
+-00002fc0: 713d 6175 7468 6f72 2533 4173 7061 6365  q=author%3Aspace
+-00002fd0: 6d61 6e73 7069 6666 3230 3037 2220 7469  manspiff2007" ti
+-00002fe0: 746c 653d 2242 7567 2072 6570 6f72 7473  tle="Bug reports
+-00002ff0: 223e f09f 909b 3c2f 613e 203c 6120 6872  ">....</a> <a hr
+-00003000: 6566 3d22 2369 6465 6173 2d73 7061 6365  ef="#ideas-space
+-00003010: 6d61 6e73 7069 6666 3230 3037 2220 7469  manspiff2007" ti
+-00003020: 746c 653d 2249 6465 6173 2c20 506c 616e  tle="Ideas, Plan
+-00003030: 6e69 6e67 2c20 2620 4665 6564 6261 636b  ning, & Feedback
+-00003040: 223e f09f a494 3c2f 613e 3c2f 7464 3e0a  ">....</a></td>.
+-00003050: 2020 2020 2020 3c74 6420 616c 6967 6e3d        <td align=
+-00003060: 2263 656e 7465 7222 3e3c 6120 6872 6566  "center"><a href
+-00003070: 3d22 6874 7470 733a 2f2f 6c75 6b65 2e68  ="https://luke.h
+-00003080: 7369 616f 2e64 6576 223e 3c69 6d67 2073  siao.dev"><img s
+-00003090: 7263 3d22 6874 7470 733a 2f2f 6176 6174  rc="https://avat
+-000030a0: 6172 732e 6769 7468 7562 7573 6572 636f  ars.githubuserco
+-000030b0: 6e74 656e 742e 636f 6d2f 752f 3735 3733  ntent.com/u/7573
+-000030c0: 3534 323f 763d 343f 733d 3130 3022 2077  542?v=4?s=100" w
+-000030d0: 6964 7468 3d22 3130 3070 783b 2220 616c  idth="100px;" al
+-000030e0: 743d 224c 756b 6520 4873 6961 6f22 2f3e  t="Luke Hsiao"/>
+-000030f0: 3c62 7220 2f3e 3c73 7562 3e3c 623e 4c75  <br /><sub><b>Lu
+-00003100: 6b65 2048 7369 616f 3c2f 623e 3c2f 7375  ke Hsiao</b></su
+-00003110: 623e 3c2f 613e 3c62 7220 2f3e 3c61 2068  b></a><br /><a h
+-00003120: 7265 663d 2268 7474 7073 3a2f 2f67 6974  ref="https://git
+-00003130: 6875 622e 636f 6d2f 6d61 6e73 656e 6672  hub.com/mansenfr
+-00003140: 616e 7a65 6e2f 6175 746f 646f 635f 7079  anzen/autodoc_py
+-00003150: 6461 6e74 6963 2f69 7373 7565 733f 713d  dantic/issues?q=
+-00003160: 6175 7468 6f72 2533 416c 756b 6568 7369  author%3Alukehsi
+-00003170: 616f 2220 7469 746c 653d 2242 7567 2072  ao" title="Bug r
+-00003180: 6570 6f72 7473 223e f09f 909b 3c2f 613e  eports">....</a>
+-00003190: 3c2f 7464 3e0a 2020 2020 2020 3c74 6420  </td>.      <td 
+-000031a0: 616c 6967 6e3d 2263 656e 7465 7222 3e3c  align="center"><
+-000031b0: 6120 6872 6566 3d22 6874 7470 733a 2f2f  a href="https://
+-000031c0: 6769 7468 7562 2e63 6f6d 2f6e 6963 6b65  github.com/nicke
+-000031d0: 6c64 616e 223e 3c69 6d67 2073 7263 3d22  ldan"><img src="
+-000031e0: 6874 7470 733a 2f2f 6176 6174 6172 732e  https://avatars.
+-000031f0: 6769 7468 7562 7573 6572 636f 6e74 656e  githubuserconten
+-00003200: 742e 636f 6d2f 752f 3231 3231 3035 3932  t.com/u/21210592
+-00003210: 3f76 3d34 3f73 3d31 3030 2220 7769 6474  ?v=4?s=100" widt
+-00003220: 683d 2231 3030 7078 3b22 2061 6c74 3d22  h="100px;" alt="
+-00003230: 4461 6e69 656c 2057 616c 6b65 7222 2f3e  Daniel Walker"/>
+-00003240: 3c62 7220 2f3e 3c73 7562 3e3c 623e 4461  <br /><sub><b>Da
+-00003250: 6e69 656c 2057 616c 6b65 723c 2f62 3e3c  niel Walker</b><
+-00003260: 2f73 7562 3e3c 2f61 3e3c 6272 202f 3e3c  /sub></a><br /><
+-00003270: 6120 6872 6566 3d22 6874 7470 733a 2f2f  a href="https://
+-00003280: 6769 7468 7562 2e63 6f6d 2f6d 616e 7365  github.com/manse
+-00003290: 6e66 7261 6e7a 656e 2f61 7574 6f64 6f63  nfranzen/autodoc
+-000032a0: 5f70 7964 616e 7469 632f 6973 7375 6573  _pydantic/issues
+-000032b0: 3f71 3d61 7574 686f 7225 3341 6e69 636b  ?q=author%3Anick
+-000032c0: 656c 6461 6e22 2074 6974 6c65 3d22 4275  eldan" title="Bu
+-000032d0: 6720 7265 706f 7274 7322 3ef0 9f90 9b3c  g reports">....<
+-000032e0: 2f61 3e3c 2f74 643e 0a20 2020 2020 203c  /a></td>.      <
+-000032f0: 7464 2061 6c69 676e 3d22 6365 6e74 6572  td align="center
+-00003300: 223e 3c61 2068 7265 663d 2268 7474 7073  "><a href="https
+-00003310: 3a2f 2f74 2e6d 652f 7069 7065 6b6e 6967  ://t.me/pipeknig
+-00003320: 6874 223e 3c69 6d67 2073 7263 3d22 6874  ht"><img src="ht
+-00003330: 7470 733a 2f2f 6176 6174 6172 732e 6769  tps://avatars.gi
+-00003340: 7468 7562 7573 6572 636f 6e74 656e 742e  thubusercontent.
+-00003350: 636f 6d2f 752f 3334 3831 3035 3636 3f76  com/u/34810566?v
+-00003360: 3d34 3f73 3d31 3030 2220 7769 6474 683d  =4?s=100" width=
+-00003370: 2231 3030 7078 3b22 2061 6c74 3d22 4576  "100px;" alt="Ev
+-00003380: 6765 6e69 7920 4c75 7061 7368 696e 222f  geniy Lupashin"/
+-00003390: 3e3c 6272 202f 3e3c 7375 623e 3c62 3e45  ><br /><sub><b>E
+-000033a0: 7667 656e 6979 204c 7570 6173 6869 6e3c  vgeniy Lupashin<
+-000033b0: 2f62 3e3c 2f73 7562 3e3c 2f61 3e3c 6272  /b></sub></a><br
+-000033c0: 202f 3e3c 6120 6872 6566 3d22 6874 7470   /><a href="http
+-000033d0: 733a 2f2f 6769 7468 7562 2e63 6f6d 2f6d  s://github.com/m
+-000033e0: 616e 7365 6e66 7261 6e7a 656e 2f61 7574  ansenfranzen/aut
+-000033f0: 6f64 6f63 5f70 7964 616e 7469 632f 6973  odoc_pydantic/is
+-00003400: 7375 6573 3f71 3d61 7574 686f 7225 3341  sues?q=author%3A
+-00003410: 5069 7065 4b6e 6967 6874 2220 7469 746c  PipeKnight" titl
+-00003420: 653d 2242 7567 2072 6570 6f72 7473 223e  e="Bug reports">
+-00003430: f09f 909b 3c2f 613e 3c2f 7464 3e0a 2020  ....</a></td>.  
+-00003440: 2020 2020 3c74 6420 616c 6967 6e3d 2263      <td align="c
+-00003450: 656e 7465 7222 3e3c 6120 6872 6566 3d22  enter"><a href="
+-00003460: 6874 7470 3a2f 2f6a 616e 6865 6e64 7269  http://janhendri
+-00003470: 6b65 7765 7273 2e75 6b2f 223e 3c69 6d67  kewers.uk/"><img
+-00003480: 2073 7263 3d22 6874 7470 733a 2f2f 6176   src="https://av
+-00003490: 6174 6172 732e 6769 7468 7562 7573 6572  atars.githubuser
+-000034a0: 636f 6e74 656e 742e 636f 6d2f 752f 3132  content.com/u/12
+-000034b0: 3338 3330 3239 3f76 3d34 3f73 3d31 3030  383029?v=4?s=100
+-000034c0: 2220 7769 6474 683d 2231 3030 7078 3b22  " width="100px;"
+-000034d0: 2061 6c74 3d22 4a61 6e2d 4865 6e64 7269   alt="Jan-Hendri
+-000034e0: 6b20 4577 6572 7322 2f3e 3c62 7220 2f3e  k Ewers"/><br />
+-000034f0: 3c73 7562 3e3c 623e 4a61 6e2d 4865 6e64  <sub><b>Jan-Hend
+-00003500: 7269 6b20 4577 6572 733c 2f62 3e3c 2f73  rik Ewers</b></s
+-00003510: 7562 3e3c 2f61 3e3c 6272 202f 3e3c 6120  ub></a><br /><a 
+-00003520: 6872 6566 3d22 6874 7470 733a 2f2f 6769  href="https://gi
+-00003530: 7468 7562 2e63 6f6d 2f6d 616e 7365 6e66  thub.com/mansenf
+-00003540: 7261 6e7a 656e 2f61 7574 6f64 6f63 5f70  ranzen/autodoc_p
+-00003550: 7964 616e 7469 632f 6973 7375 6573 3f71  ydantic/issues?q
+-00003560: 3d61 7574 686f 7225 3341 6977 6973 6869  =author%3Aiwishi
+-00003570: 7761 7361 6e65 6167 6c65 2220 7469 746c  wasaneagle" titl
+-00003580: 653d 2242 7567 2072 6570 6f72 7473 223e  e="Bug reports">
+-00003590: f09f 909b 3c2f 613e 3c2f 7464 3e0a 2020  ....</a></td>.  
+-000035a0: 2020 2020 3c74 6420 616c 6967 6e3d 2263      <td align="c
+-000035b0: 656e 7465 7222 3e3c 6120 6872 6566 3d22  enter"><a href="
+-000035c0: 6874 7470 733a 2f2f 6a6f 6e2d 652e 6e65  https://jon-e.ne
+-000035d0: 7422 3e3c 696d 6720 7372 633d 2268 7474  t"><img src="htt
+-000035e0: 7073 3a2f 2f61 7661 7461 7273 2e67 6974  ps://avatars.git
+-000035f0: 6875 6275 7365 7263 6f6e 7465 6e74 2e63  hubusercontent.c
+-00003600: 6f6d 2f75 2f31 3239 3631 3439 393f 763d  om/u/12961499?v=
+-00003610: 343f 733d 3130 3022 2077 6964 7468 3d22  4?s=100" width="
+-00003620: 3130 3070 783b 2220 616c 743d 224a 6f6e  100px;" alt="Jon
+-00003630: 6e79 2053 6175 6e64 6572 7322 2f3e 3c62  ny Saunders"/><b
+-00003640: 7220 2f3e 3c73 7562 3e3c 623e 4a6f 6e6e  r /><sub><b>Jonn
+-00003650: 7920 5361 756e 6465 7273 3c2f 623e 3c2f  y Saunders</b></
+-00003660: 7375 623e 3c2f 613e 3c62 7220 2f3e 3c61  sub></a><br /><a
+-00003670: 2068 7265 663d 2268 7474 7073 3a2f 2f67   href="https://g
+-00003680: 6974 6875 622e 636f 6d2f 6d61 6e73 656e  ithub.com/mansen
+-00003690: 6672 616e 7a65 6e2f 6175 746f 646f 635f  franzen/autodoc_
+-000036a0: 7079 6461 6e74 6963 2f69 7373 7565 733f  pydantic/issues?
+-000036b0: 713d 6175 7468 6f72 2533 4173 6e65 616b  q=author%3Asneak
+-000036c0: 6572 732d 7468 652d 7261 7422 2074 6974  ers-the-rat" tit
+-000036d0: 6c65 3d22 4275 6720 7265 706f 7274 7322  le="Bug reports"
+-000036e0: 3ef0 9f90 9b3c 2f61 3e3c 2f74 643e 0a20  >....</a></td>. 
+-000036f0: 2020 203c 2f74 723e 0a20 2020 203c 7472     </tr>.    <tr
+-00003700: 3e0a 2020 2020 2020 3c74 6420 616c 6967  >.      <td alig
+-00003710: 6e3d 2263 656e 7465 7222 3e3c 6120 6872  n="center"><a hr
+-00003720: 6566 3d22 6874 7470 3a2f 2f63 6861 726c  ef="http://charl
+-00003730: 6965 2e6d 6163 6861 6c6f 772e 636f 6d22  ie.machalow.com"
+-00003740: 3e3c 696d 6720 7372 633d 2268 7474 7073  ><img src="https
+-00003750: 3a2f 2f61 7661 7461 7273 2e67 6974 6875  ://avatars.githu
+-00003760: 6275 7365 7263 6f6e 7465 6e74 2e63 6f6d  busercontent.com
+-00003770: 2f75 2f35 3734 3938 3338 3f76 3d34 3f73  /u/5749838?v=4?s
+-00003780: 3d31 3030 2220 7769 6474 683d 2231 3030  =100" width="100
+-00003790: 7078 3b22 2061 6c74 3d22 4368 6172 6c65  px;" alt="Charle
+-000037a0: 7320 4d61 6368 616c 6f77 222f 3e3c 6272  s Machalow"/><br
+-000037b0: 202f 3e3c 7375 623e 3c62 3e43 6861 726c   /><sub><b>Charl
+-000037c0: 6573 204d 6163 6861 6c6f 773c 2f62 3e3c  es Machalow</b><
+-000037d0: 2f73 7562 3e3c 2f61 3e3c 6272 202f 3e3c  /sub></a><br /><
+-000037e0: 6120 6872 6566 3d22 2371 7565 7374 696f  a href="#questio
+-000037f0: 6e2d 6373 6d31 3034 3935 2220 7469 746c  n-csm10495" titl
+-00003800: 653d 2241 6e73 7765 7269 6e67 2051 7565  e="Answering Que
+-00003810: 7374 696f 6e73 223e f09f 92ac 3c2f 613e  stions">....</a>
+-00003820: 3c2f 7464 3e0a 2020 2020 3c2f 7472 3e0a  </td>.    </tr>.
+-00003830: 2020 3c2f 7462 6f64 793e 0a3c 2f74 6162    </tbody>.</tab
+-00003840: 6c65 3e0a 0a3c 212d 2d20 6d61 726b 646f  le>..<!-- markdo
+-00003850: 776e 6c69 6e74 2d72 6573 746f 7265 202d  wnlint-restore -
+-00003860: 2d3e 0a3c 212d 2d20 7072 6574 7469 6572  ->.<!-- prettier
+-00003870: 2d69 676e 6f72 652d 656e 6420 2d2d 3e0a  -ignore-end -->.
+-00003880: 0a3c 212d 2d20 414c 4c2d 434f 4e54 5249  .<!-- ALL-CONTRI
+-00003890: 4255 544f 5253 2d4c 4953 543a 454e 4420  BUTORS-LIST:END 
+-000038a0: 2d2d 3e0a 0a54 6869 7320 7072 6f6a 6563  -->..This projec
+-000038b0: 7420 666f 6c6c 6f77 7320 7468 6520 5b61  t follows the [a
+-000038c0: 6c6c 2d63 6f6e 7472 6962 7574 6f72 735d  ll-contributors]
+-000038d0: 2868 7474 7073 3a2f 2f67 6974 6875 622e  (https://github.
+-000038e0: 636f 6d2f 616c 6c2d 636f 6e74 7269 6275  com/all-contribu
+-000038f0: 746f 7273 2f61 6c6c 2d63 6f6e 7472 6962  tors/all-contrib
+-00003900: 7574 6f72 7329 2073 7065 6369 6669 6361  utors) specifica
+-00003910: 7469 6f6e 2e20 436f 6e74 7269 6275 7469  tion. Contributi
+-00003920: 6f6e 7320 6f66 2061 6e79 206b 696e 6420  ons of any kind 
+-00003930: 7765 6c63 6f6d 6521 0a                   welcome!.
++00000000: 4d65 7461 6461 7461 2d56 6572 7369 6f6e  Metadata-Version
++00000010: 3a20 322e 310a 4e61 6d65 3a20 6175 746f  : 2.1.Name: auto
++00000020: 646f 632d 7079 6461 6e74 6963 0a56 6572  doc-pydantic.Ver
++00000030: 7369 6f6e 3a20 312e 392e 300a 5375 6d6d  sion: 1.9.0.Summ
++00000040: 6172 793a 2053 6561 6d6c 6573 736c 7920  ary: Seamlessly 
++00000050: 696e 7465 6772 6174 6520 7079 6461 6e74  integrate pydant
++00000060: 6963 206d 6f64 656c 7320 696e 2079 6f75  ic models in you
++00000070: 7220 5370 6869 6e78 2064 6f63 756d 656e  r Sphinx documen
++00000080: 7461 7469 6f6e 2e0a 486f 6d65 2d70 6167  tation..Home-pag
++00000090: 653a 2068 7474 7073 3a2f 2f67 6974 6875  e: https://githu
++000000a0: 622e 636f 6d2f 6d61 6e73 656e 6672 616e  b.com/mansenfran
++000000b0: 7a65 6e2f 6175 746f 646f 635f 7079 6461  zen/autodoc_pyda
++000000c0: 6e74 6963 0a4c 6963 656e 7365 3a20 4d49  ntic.License: MI
++000000d0: 540a 4b65 7977 6f72 6473 3a20 7370 6869  T.Keywords: sphi
++000000e0: 6e78 2c70 7964 616e 7469 632c 6175 746f  nx,pydantic,auto
++000000f0: 646f 632c 646f 6375 6d65 6e74 6174 696f  doc,documentatio
++00000100: 6e2c 6578 7465 6e73 696f 6e0a 4175 7468  n,extension.Auth
++00000110: 6f72 3a20 6d61 6e73 656e 6672 616e 7a65  or: mansenfranze
++00000120: 6e0a 4175 7468 6f72 2d65 6d61 696c 3a20  n.Author-email: 
++00000130: 6672 616e 7a2e 776f 656c 6c65 7274 4067  franz.woellert@g
++00000140: 6d61 696c 2e63 6f6d 0a52 6571 7569 7265  mail.com.Require
++00000150: 732d 5079 7468 6f6e 3a20 3e3d 332e 372e  s-Python: >=3.7.
++00000160: 312c 3c34 2e30 2e30 0a43 6c61 7373 6966  1,<4.0.0.Classif
++00000170: 6965 723a 2046 7261 6d65 776f 726b 203a  ier: Framework :
++00000180: 3a20 5370 6869 6e78 203a 3a20 4578 7465  : Sphinx :: Exte
++00000190: 6e73 696f 6e0a 436c 6173 7369 6669 6572  nsion.Classifier
++000001a0: 3a20 4c69 6365 6e73 6520 3a3a 204f 5349  : License :: OSI
++000001b0: 2041 7070 726f 7665 6420 3a3a 204d 4954   Approved :: MIT
++000001c0: 204c 6963 656e 7365 0a43 6c61 7373 6966   License.Classif
++000001d0: 6965 723a 2050 726f 6772 616d 6d69 6e67  ier: Programming
++000001e0: 204c 616e 6775 6167 6520 3a3a 2050 7974   Language :: Pyt
++000001f0: 686f 6e20 3a3a 2033 0a43 6c61 7373 6966  hon :: 3.Classif
++00000200: 6965 723a 2050 726f 6772 616d 6d69 6e67  ier: Programming
++00000210: 204c 616e 6775 6167 6520 3a3a 2050 7974   Language :: Pyt
++00000220: 686f 6e20 3a3a 2033 2e38 0a43 6c61 7373  hon :: 3.8.Class
++00000230: 6966 6965 723a 2050 726f 6772 616d 6d69  ifier: Programmi
++00000240: 6e67 204c 616e 6775 6167 6520 3a3a 2050  ng Language :: P
++00000250: 7974 686f 6e20 3a3a 2033 2e39 0a43 6c61  ython :: 3.9.Cla
++00000260: 7373 6966 6965 723a 2050 726f 6772 616d  ssifier: Program
++00000270: 6d69 6e67 204c 616e 6775 6167 6520 3a3a  ming Language ::
++00000280: 2050 7974 686f 6e20 3a3a 2033 2e31 300a   Python :: 3.10.
++00000290: 436c 6173 7369 6669 6572 3a20 5072 6f67  Classifier: Prog
++000002a0: 7261 6d6d 696e 6720 4c61 6e67 7561 6765  ramming Language
++000002b0: 203a 3a20 5079 7468 6f6e 203a 3a20 332e   :: Python :: 3.
++000002c0: 3131 0a43 6c61 7373 6966 6965 723a 2054  11.Classifier: T
++000002d0: 6f70 6963 203a 3a20 446f 6375 6d65 6e74  opic :: Document
++000002e0: 6174 696f 6e20 3a3a 2053 7068 696e 780a  ation :: Sphinx.
++000002f0: 436c 6173 7369 6669 6572 3a20 546f 7069  Classifier: Topi
++00000300: 6320 3a3a 2053 6f66 7477 6172 6520 4465  c :: Software De
++00000310: 7665 6c6f 706d 656e 7420 3a3a 2044 6f63  velopment :: Doc
++00000320: 756d 656e 7461 7469 6f6e 0a50 726f 7669  umentation.Provi
++00000330: 6465 732d 4578 7472 613a 2064 6576 0a50  des-Extra: dev.P
++00000340: 726f 7669 6465 732d 4578 7472 613a 2064  rovides-Extra: d
++00000350: 6f63 730a 5072 6f76 6964 6573 2d45 7874  ocs.Provides-Ext
++00000360: 7261 3a20 6572 6461 6e74 6963 0a50 726f  ra: erdantic.Pro
++00000370: 7669 6465 732d 4578 7472 613a 2074 6573  vides-Extra: tes
++00000380: 740a 5265 7175 6972 6573 2d44 6973 743a  t.Requires-Dist:
++00000390: 2053 7068 696e 7820 283e 3d33 2e34 290a   Sphinx (>=3.4).
++000003a0: 5265 7175 6972 6573 2d44 6973 743a 2063  Requires-Dist: c
++000003b0: 6f76 6572 6167 6520 283e 3d37 2c3c 3829  overage (>=7,<8)
++000003c0: 203b 2065 7874 7261 203d 3d20 2274 6573   ; extra == "tes
++000003d0: 7422 206f 7220 6578 7472 6120 3d3d 2022  t" or extra == "
++000003e0: 6465 7622 0a52 6571 7569 7265 732d 4469  dev".Requires-Di
++000003f0: 7374 3a20 6572 6461 6e74 6963 2028 3e3d  st: erdantic (>=
++00000400: 302e 352c 3c30 2e36 2920 3b20 6578 7472  0.5,<0.6) ; extr
++00000410: 6120 3d3d 2022 6572 6461 6e74 6963 220a  a == "erdantic".
++00000420: 5265 7175 6972 6573 2d44 6973 743a 2066  Requires-Dist: f
++00000430: 6c61 6b65 3820 283e 3d33 2c3c 3429 203b  lake8 (>=3,<4) ;
++00000440: 2065 7874 7261 203d 3d20 2264 6576 220a   extra == "dev".
++00000450: 5265 7175 6972 6573 2d44 6973 743a 2070  Requires-Dist: p
++00000460: 7964 616e 7469 6320 283e 3d31 2e35 2c3c  ydantic (>=1.5,<
++00000470: 322e 302e 3029 0a52 6571 7569 7265 732d  2.0.0).Requires-
++00000480: 4469 7374 3a20 7079 7465 7374 2028 3e3d  Dist: pytest (>=
++00000490: 372c 3c38 2920 3b20 6578 7472 6120 3d3d  7,<8) ; extra ==
++000004a0: 2022 7465 7374 2220 6f72 2065 7874 7261   "test" or extra
++000004b0: 203d 3d20 2264 6576 220a 5265 7175 6972   == "dev".Requir
++000004c0: 6573 2d44 6973 743a 2073 7068 696e 782d  es-Dist: sphinx-
++000004d0: 636f 7079 6275 7474 6f6e 2028 3e3d 302e  copybutton (>=0.
++000004e0: 342c 3c30 2e35 2920 3b20 6578 7472 6120  4,<0.5) ; extra 
++000004f0: 3d3d 2022 646f 6373 2220 6f72 2065 7874  == "docs" or ext
++00000500: 7261 203d 3d20 2264 6576 220a 5265 7175  ra == "dev".Requ
++00000510: 6972 6573 2d44 6973 743a 2073 7068 696e  ires-Dist: sphin
++00000520: 782d 7274 642d 7468 656d 6520 283e 3d31  x-rtd-theme (>=1
++00000530: 2e30 2c3c 322e 3029 203b 2065 7874 7261  .0,<2.0) ; extra
++00000540: 203d 3d20 2264 6f63 7322 206f 7220 6578   == "docs" or ex
++00000550: 7472 6120 3d3d 2022 6465 7622 0a52 6571  tra == "dev".Req
++00000560: 7569 7265 732d 4469 7374 3a20 7370 6869  uires-Dist: sphi
++00000570: 6e78 2d74 6162 7320 283e 3d33 2c3c 3429  nx-tabs (>=3,<4)
++00000580: 203b 2065 7874 7261 203d 3d20 2264 6f63   ; extra == "doc
++00000590: 7322 206f 7220 6578 7472 6120 3d3d 2022  s" or extra == "
++000005a0: 6465 7622 0a52 6571 7569 7265 732d 4469  dev".Requires-Di
++000005b0: 7374 3a20 7370 6869 6e78 636f 6e74 7269  st: sphinxcontri
++000005c0: 622d 6d65 726d 6169 6420 283e 3d30 2e37  b-mermaid (>=0.7
++000005d0: 2c3c 302e 3829 203b 2065 7874 7261 203d  ,<0.8) ; extra =
++000005e0: 3d20 2264 6f63 7322 206f 7220 6578 7472  = "docs" or extr
++000005f0: 6120 3d3d 2022 6465 7622 0a52 6571 7569  a == "dev".Requi
++00000600: 7265 732d 4469 7374 3a20 746f 7820 283e  res-Dist: tox (>
++00000610: 3d33 2c3c 3429 203b 2065 7874 7261 203d  =3,<4) ; extra =
++00000620: 3d20 2264 6576 220a 5072 6f6a 6563 742d  = "dev".Project-
++00000630: 5552 4c3a 2044 6f63 756d 656e 7461 7469  URL: Documentati
++00000640: 6f6e 2c20 6874 7470 733a 2f2f 6769 7468  on, https://gith
++00000650: 7562 2e63 6f6d 2f6d 616e 7365 6e66 7261  ub.com/mansenfra
++00000660: 6e7a 656e 2f61 7574 6f64 6f63 5f70 7964  nzen/autodoc_pyd
++00000670: 616e 7469 630a 5072 6f6a 6563 742d 5552  antic.Project-UR
++00000680: 4c3a 2052 6570 6f73 6974 6f72 792c 2068  L: Repository, h
++00000690: 7474 7073 3a2f 2f67 6974 6875 622e 636f  ttps://github.co
++000006a0: 6d2f 6d61 6e73 656e 6672 616e 7a65 6e2f  m/mansenfranzen/
++000006b0: 6175 746f 646f 635f 7079 6461 6e74 6963  autodoc_pydantic
++000006c0: 0a44 6573 6372 6970 7469 6f6e 2d43 6f6e  .Description-Con
++000006d0: 7465 6e74 2d54 7970 653a 2074 6578 742f  tent-Type: text/
++000006e0: 6d61 726b 646f 776e 0a0a 215b 4175 746f  markdown..![Auto
++000006f0: 646f 6320 5079 6461 6e74 6963 5d28 6874  doc Pydantic](ht
++00000700: 7470 733a 2f2f 7261 772e 6769 7468 7562  tps://raw.github
++00000710: 7573 6572 636f 6e74 656e 742e 636f 6d2f  usercontent.com/
++00000720: 6d61 6e73 656e 6672 616e 7a65 6e2f 6175  mansenfranzen/au
++00000730: 746f 646f 635f 7079 6461 6e74 6963 2f6d  todoc_pydantic/m
++00000740: 6169 6e2f 646f 6373 2f73 6f75 7263 652f  ain/docs/source/
++00000750: 6d61 7465 7269 616c 2f6c 6f67 6f5f 626c  material/logo_bl
++00000760: 6163 6b2e 7376 6729 0a0a 5b21 5b50 7950  ack.svg)..[![PyP
++00000770: 4920 7665 7273 696f 6e5d 2868 7474 7073  I version](https
++00000780: 3a2f 2f69 6d67 2e73 6869 656c 6473 2e69  ://img.shields.i
++00000790: 6f2f 7079 7069 2f76 2f61 7574 6f64 6f63  o/pypi/v/autodoc
++000007a0: 5f70 7964 616e 7469 633f 7374 796c 653d  _pydantic?style=
++000007b0: 666f 722d 7468 652d 6261 6467 6529 5d28  for-the-badge)](
++000007c0: 6874 7470 733a 2f2f 7079 7069 2e6f 7267  https://pypi.org
++000007d0: 2f70 726f 6a65 6374 2f61 7574 6f64 6f63  /project/autodoc
++000007e0: 2d70 7964 616e 7469 632f 290a 215b 5079  -pydantic/).![Py
++000007f0: 7468 6f6e 5d28 6874 7470 733a 2f2f 696d  thon](https://im
++00000800: 672e 7368 6965 6c64 732e 696f 2f62 6164  g.shields.io/bad
++00000810: 6765 2f70 7974 686f 6e2d 332e 372b 2d62  ge/python-3.7+-b
++00000820: 6c75 652e 7376 673f 7374 796c 653d 666f  lue.svg?style=fo
++00000830: 722d 7468 652d 6261 6467 6529 0a0a 5b21  r-the-badge)..[!
++00000840: 5b4d 6173 7465 725d 2868 7474 7073 3a2f  [Master](https:/
++00000850: 2f69 6d67 2e73 6869 656c 6473 2e69 6f2f  /img.shields.io/
++00000860: 6769 7468 7562 2f61 6374 696f 6e73 2f77  github/actions/w
++00000870: 6f72 6b66 6c6f 772f 7374 6174 7573 2f6d  orkflow/status/m
++00000880: 616e 7365 6e66 7261 6e7a 656e 2f61 7574  ansenfranzen/aut
++00000890: 6f64 6f63 5f70 7964 616e 7469 632f 7465  odoc_pydantic/te
++000008a0: 7374 732e 796d 6c3f 6272 616e 6368 3d6d  sts.yml?branch=m
++000008b0: 6169 6e26 7374 796c 653d 666f 722d 7468  ain&style=for-th
++000008c0: 652d 6261 6467 6529 5d28 6874 7470 733a  e-badge)](https:
++000008d0: 2f2f 6769 7468 7562 2e63 6f6d 2f6d 616e  //github.com/man
++000008e0: 7365 6e66 7261 6e7a 656e 2f61 7574 6f64  senfranzen/autod
++000008f0: 6f63 5f70 7964 616e 7469 632f 6163 7469  oc_pydantic/acti
++00000900: 6f6e 732f 776f 726b 666c 6f77 732f 7465  ons/workflows/te
++00000910: 7374 732e 796d 6c29 0a5b 215b 436f 7665  sts.yml).[![Cove
++00000920: 7261 6765 5d28 6874 7470 733a 2f2f 696d  rage](https://im
++00000930: 672e 7368 6965 6c64 732e 696f 2f63 6f64  g.shields.io/cod
++00000940: 6563 6f76 2f63 2f67 682f 6d61 6e73 656e  ecov/c/gh/mansen
++00000950: 6672 616e 7a65 6e2f 6175 746f 646f 635f  franzen/autodoc_
++00000960: 7079 6461 6e74 6963 3f73 7479 6c65 3d66  pydantic?style=f
++00000970: 6f72 2d74 6865 2d62 6164 6765 295d 2868  or-the-badge)](h
++00000980: 7474 7073 3a2f 2f61 7070 2e63 6f64 6563  ttps://app.codec
++00000990: 6f76 2e69 6f2f 6768 2f6d 616e 7365 6e66  ov.io/gh/mansenf
++000009a0: 7261 6e7a 656e 2f61 7574 6f64 6f63 5f70  ranzen/autodoc_p
++000009b0: 7964 616e 7469 6329 0a0a 5b21 5b44 6f77  ydantic)..[![Dow
++000009c0: 6e6c 6f61 6473 5d28 6874 7470 733a 2f2f  nloads](https://
++000009d0: 696d 672e 7368 6965 6c64 732e 696f 2f70  img.shields.io/p
++000009e0: 7970 692f 646d 2f61 7574 6f64 6f63 5f70  ypi/dm/autodoc_p
++000009f0: 7964 616e 7469 633f 636f 6c6f 723d 6665  ydantic?color=fe
++00000a00: 3764 3337 2673 7479 6c65 3d66 6f72 2d74  7d37&style=for-t
++00000a10: 6865 2d62 6164 6765 295d 2868 7474 7073  he-badge)](https
++00000a20: 3a2f 2f70 7970 6973 7461 7473 2e6f 7267  ://pypistats.org
++00000a30: 2f70 6163 6b61 6765 732f 6175 746f 646f  /packages/autodo
++00000a40: 632d 7079 6461 6e74 6963 293c 212d 2d20  c-pydantic)<!-- 
++00000a50: 414c 4c2d 434f 4e54 5249 4255 544f 5253  ALL-CONTRIBUTORS
++00000a60: 2d42 4144 4745 3a53 5441 5254 202d 2044  -BADGE:START - D
++00000a70: 6f20 6e6f 7420 7265 6d6f 7665 206f 7220  o not remove or 
++00000a80: 6d6f 6469 6679 2074 6869 7320 7365 6374  modify this sect
++00000a90: 696f 6e20 2d2d 3e0a 5b21 5b41 6c6c 2043  ion -->.[![All C
++00000aa0: 6f6e 7472 6962 7574 6f72 735d 2868 7474  ontributors](htt
++00000ab0: 7073 3a2f 2f69 6d67 2e73 6869 656c 6473  ps://img.shields
++00000ac0: 2e69 6f2f 6261 6467 652f 616c 6c5f 636f  .io/badge/all_co
++00000ad0: 6e74 7269 6275 746f 7273 2d33 312d 6f72  ntributors-31-or
++00000ae0: 616e 6765 2e73 7667 3f73 7479 6c65 3d66  ange.svg?style=f
++00000af0: 6f72 2d74 6865 2d62 6164 6765 295d 2823  or-the-badge)](#
++00000b00: 636f 6e74 7269 6275 746f 7273 290a 3c21  contributors).<!
++00000b10: 2d2d 2041 4c4c 2d43 4f4e 5452 4942 5554  -- ALL-CONTRIBUT
++00000b20: 4f52 532d 4241 4447 453a 454e 4420 2d2d  ORS-BADGE:END --
++00000b30: 3e0a 0a0a 596f 7520 6c6f 7665 205b 7079  >...You love [py
++00000b40: 6461 6e74 6963 5d28 6874 7470 733a 2f2f  dantic](https://
++00000b50: 7079 6461 6e74 6963 2d64 6f63 732e 6865  pydantic-docs.he
++00000b60: 6c70 6d61 6e75 616c 2e69 6f2f 2920 e29d  lpmanual.io/) ..
++00000b70: a420 616e 6420 796f 7520 7761 6e74 2074  . and you want t
++00000b80: 6f0a 646f 6375 6d65 6e74 2079 6f75 7220  o.document your 
++00000b90: 6d6f 6465 6c73 2061 6e64 2063 6f6e 6669  models and confi
++00000ba0: 6775 7261 7469 6f6e 2073 6574 7469 6e67  guration setting
++00000bb0: 7320 7769 7468 205b 7370 6869 6e78 5d28  s with [sphinx](
++00000bc0: 6874 7470 733a 2f2f 7777 772e 7370 6869  https://www.sphi
++00000bd0: 6e78 2d64 6f63 2e6f 7267 2f65 6e2f 6d61  nx-doc.org/en/ma
++00000be0: 7374 6572 2f29 3f0a 0a50 6572 6665 6374  ster/)?..Perfect
++00000bf0: 2c20 6c65 7427 7320 676f 2e20 4275 7420  , let's go. But 
++00000c00: 7761 6974 2c20 7370 6869 6e78 2720 5b61  wait, sphinx' [a
++00000c10: 7574 6f64 6f63 5d28 6874 7470 733a 2f2f  utodoc](https://
++00000c20: 7777 772e 7370 6869 6e78 2d64 6f63 2e6f  www.sphinx-doc.o
++00000c30: 7267 2f65 6e2f 6d61 7374 6572 2f75 7361  rg/en/master/usa
++00000c40: 6765 2f65 7874 656e 7369 6f6e 732f 6175  ge/extensions/au
++00000c50: 746f 646f 632e 6874 6d6c 290a 646f 6573  todoc.html).does
++00000c60: 206e 6f74 2069 6e74 6567 7261 7465 2074   not integrate t
++00000c70: 6f6f 2077 656c 6c20 7769 7468 2070 7964  oo well with pyd
++00000c80: 616e 7469 6320 6d6f 6465 6c73 20f0 9f98  antic models ...
++00000c90: 952e 0a0a 446f 6e27 7420 776f 7272 7920  ....Don't worry 
++00000ca0: 2d20 6a75 7374 2060 7069 7020 696e 7374  - just `pip inst
++00000cb0: 616c 6c20 6175 746f 646f 635f 7079 6461  all autodoc_pyda
++00000cc0: 6e74 6963 6020 e298 ba2e 0a0a 2323 2046  ntic` ......## F
++00000cd0: 6561 7475 7265 730a 0a2d 20f0 9f92 ac20  eatures..- .... 
++00000ce0: 7072 6f76 6964 6573 2064 6566 6175 6c74  provides default
++00000cf0: 2076 616c 7565 732c 2061 6c69 6173 2061   values, alias a
++00000d00: 6e64 2063 6f6e 7374 7261 696e 7473 2066  nd constraints f
++00000d10: 6f72 206d 6f64 656c 2066 6965 6c64 730a  or model fields.
++00000d20: 2d20 f09f 9497 2061 6464 7320 6879 7065  - .... adds hype
++00000d30: 726c 696e 6b73 2062 6574 7765 656e 2076  rlinks between v
++00000d40: 616c 6964 6174 6f72 7320 616e 6420 636f  alidators and co
++00000d50: 7272 6573 706f 6e64 696e 6720 6669 656c  rresponding fiel
++00000d60: 6473 0a2d 20f0 9f93 8320 696e 636c 7564  ds.- .... includ
++00000d70: 6573 2063 6f6c 6c61 7073 6162 6c65 206d  es collapsable m
++00000d80: 6f64 656c 206a 736f 6e20 7363 6865 6d61  odel json schema
++00000d90: 0a2d 20f0 9f8f 8420 6e61 7469 7665 6c79  .- .... natively
++00000da0: 2069 6e74 6567 7261 7465 7320 7769 7468   integrates with
++00000db0: 2061 7574 6f64 6f63 2061 6e64 2061 7574   autodoc and aut
++00000dc0: 6f73 756d 6d61 7279 2065 7874 656e 7369  osummary extensi
++00000dd0: 6f6e 730a 2d20 f09f 938e 2064 6566 696e  ons.- .... defin
++00000de0: 6573 2065 7870 6c69 6369 7420 7079 6461  es explicit pyda
++00000df0: 6e74 6963 2070 7265 6669 7865 7320 666f  ntic prefixes fo
++00000e00: 7220 6d6f 6465 6c73 2c20 7365 7474 696e  r models, settin
++00000e10: 6773 2c20 6669 656c 6473 2c20 7661 6c69  gs, fields, vali
++00000e20: 6461 746f 7273 2061 6e64 206d 6f64 656c  dators and model
++00000e30: 2063 6f6e 6669 670a 2d20 f09f 938b 2073   config.- .... s
++00000e40: 686f 7773 2073 756d 6d61 7279 2073 6563  hows summary sec
++00000e50: 7469 6f6e 2066 6f72 206d 6f64 656c 2063  tion for model c
++00000e60: 6f6e 6669 6775 7261 7469 6f6e 2c20 6669  onfiguration, fi
++00000e70: 656c 6473 2061 6e64 2076 616c 6964 6174  elds and validat
++00000e80: 6f72 730a 2d20 f09f 9180 2068 6964 6573  ors.- .... hides
++00000e90: 206f 7665 726c 6f61 6465 6420 616e 6420   overloaded and 
++00000ea0: 7265 6475 6e64 616e 7420 6d6f 6465 6c20  redundant model 
++00000eb0: 636c 6173 7320 7369 676e 6174 7572 650a  class signature.
++00000ec0: 2d20 f09f 939a 2073 6f72 7473 2066 6965  - .... sorts fie
++00000ed0: 6c64 732c 2076 616c 6964 6174 6f72 7320  lds, validators 
++00000ee0: 616e 6420 6d6f 6465 6c20 636f 6e66 6967  and model config
++00000ef0: 2077 6974 6869 6e20 6d6f 6465 6c73 2062   within models b
++00000f00: 7920 7479 7065 0a2d 20f0 9f8d 8020 5375  y type.- .... Su
++00000f10: 7070 6f72 7473 2060 7079 6461 6e74 6963  pports `pydantic
++00000f20: 203e 3d20 312e 352e 3060 2061 6e64 2060   >= 1.5.0` and `
++00000f30: 7370 6869 6e78 203e 3d20 332e 342e 3060  sphinx >= 3.4.0`
++00000f40: 0a0a 2323 2320 436f 6d70 6172 6973 6f6e  ..### Comparison
++00000f50: 2062 6574 7765 656e 2061 7574 6f64 6f63   between autodoc
++00000f60: 2073 7068 696e 7820 616e 6420 6175 746f   sphinx and auto
++00000f70: 646f 6320 7079 6461 6e74 6963 0a0a 5b21  doc pydantic..[!
++00000f80: 5b43 6f6d 7061 7269 736f 6e5d 2868 7474  [Comparison](htt
++00000f90: 7073 3a2f 2f72 6177 2e67 6974 6875 6275  ps://raw.githubu
++00000fa0: 7365 7263 6f6e 7465 6e74 2e63 6f6d 2f6d  sercontent.com/m
++00000fb0: 616e 7365 6e66 7261 6e7a 656e 2f61 7574  ansenfranzen/aut
++00000fc0: 6f64 6f63 5f70 7964 616e 7469 632f 6d61  odoc_pydantic/ma
++00000fd0: 696e 2f64 6f63 732f 736f 7572 6365 2f6d  in/docs/source/m
++00000fe0: 6174 6572 6961 6c2f 6578 616d 706c 655f  aterial/example_
++00000ff0: 636f 6d70 6172 6973 6f6e 5f76 312e 302e  comparison_v1.0.
++00001000: 302e 6769 6629 5d28 6874 7470 733a 2f2f  0.gif)](https://
++00001010: 6175 746f 646f 632d 7079 6461 6e74 6963  autodoc-pydantic
++00001020: 2e72 6561 6474 6865 646f 6373 2e69 6f2f  .readthedocs.io/
++00001030: 656e 2f6c 6174 6573 742f 6578 616d 706c  en/latest/exampl
++00001040: 6573 2e68 746d 6c23 6465 6661 756c 742d  es.html#default-
++00001050: 636f 6e66 6967 7572 6174 696f 6e29 0a0a  configuration)..
++00001060: 546f 2073 6565 2074 686f 7365 2066 6561  To see those fea
++00001070: 7475 7265 7320 696e 2061 6374 696f 6e2c  tures in action,
++00001080: 206a 756d 7020 6f76 6572 2074 6f20 7468   jump over to th
++00001090: 6520 5b65 7861 6d70 6c65 2064 6f63 756d  e [example docum
++000010a0: 656e 7461 7469 6f6e 5d28 6874 7470 733a  entation](https:
++000010b0: 2f2f 6175 746f 646f 632d 7079 6461 6e74  //autodoc-pydant
++000010c0: 6963 2e72 6561 6474 6865 646f 6373 2e69  ic.readthedocs.i
++000010d0: 6f2f 656e 2f73 7461 626c 652f 7573 6572  o/en/stable/user
++000010e0: 732f 6578 616d 706c 6573 2e68 746d 6c23  s/examples.html#
++000010f0: 6465 6661 756c 742d 636f 6e66 6967 7572  default-configur
++00001100: 6174 696f 6e29 2074 6f20 636f 6d70 6172  ation) to compar
++00001110: 650a 7468 6520 6170 7065 6172 616e 6365  e.the appearance
++00001120: 206f 6620 7374 616e 6461 7264 2073 7068   of standard sph
++00001130: 696e 7820 6175 746f 646f 6320 7769 7468  inx autodoc with
++00001140: 202a 6175 746f 646f 635f 7079 6461 6e74   *autodoc_pydant
++00001150: 6963 2a2e 0a0a 2323 2044 6f63 756d 656e  ic*...## Documen
++00001160: 7461 7469 6f6e 0a0a 466f 7220 6d6f 7265  tation..For more
++00001170: 2064 6574 6169 6c73 2c20 706c 6561 7365   details, please
++00001180: 2076 6973 6974 2074 6865 206f 6666 6963   visit the offic
++00001190: 6961 6c20 5b64 6f63 756d 656e 7461 7469  ial [documentati
++000011a0: 6f6e 5d28 6874 7470 733a 2f2f 6175 746f  on](https://auto
++000011b0: 646f 632d 7079 6461 6e74 6963 2e72 6561  doc-pydantic.rea
++000011c0: 6474 6865 646f 6373 2e69 6f2f 656e 2f73  dthedocs.io/en/s
++000011d0: 7461 626c 652f 293a 0a0a 2d20 5b49 6e73  table/):..- [Ins
++000011e0: 7461 6c6c 6174 696f 6e5d 2868 7474 7073  tallation](https
++000011f0: 3a2f 2f61 7574 6f64 6f63 2d70 7964 616e  ://autodoc-pydan
++00001200: 7469 632e 7265 6164 7468 6564 6f63 732e  tic.readthedocs.
++00001210: 696f 2f65 6e2f 7374 6162 6c65 2f75 7365  io/en/stable/use
++00001220: 7273 2f69 6e73 7461 6c6c 6174 696f 6e2e  rs/installation.
++00001230: 6874 6d6c 290a 2d20 5b43 6f6e 6669 6775  html).- [Configu
++00001240: 7261 7469 6f6e 5d28 6874 7470 733a 2f2f  ration](https://
++00001250: 6175 746f 646f 632d 7079 6461 6e74 6963  autodoc-pydantic
++00001260: 2e72 6561 6474 6865 646f 6373 2e69 6f2f  .readthedocs.io/
++00001270: 656e 2f73 7461 626c 652f 7573 6572 732f  en/stable/users/
++00001280: 636f 6e66 6967 7572 6174 696f 6e2e 6874  configuration.ht
++00001290: 6d6c 290a 2d20 5b55 7361 6765 5d28 6874  ml).- [Usage](ht
++000012a0: 7470 733a 2f2f 6175 746f 646f 632d 7079  tps://autodoc-py
++000012b0: 6461 6e74 6963 2e72 6561 6474 6865 646f  dantic.readthedo
++000012c0: 6373 2e69 6f2f 656e 2f73 7461 626c 652f  cs.io/en/stable/
++000012d0: 7573 6572 732f 7573 6167 652e 6874 6d6c  users/usage.html
++000012e0: 290a 2d20 5b45 7861 6d70 6c65 735d 2868  ).- [Examples](h
++000012f0: 7474 7073 3a2f 2f61 7574 6f64 6f63 2d70  ttps://autodoc-p
++00001300: 7964 616e 7469 632e 7265 6164 7468 6564  ydantic.readthed
++00001310: 6f63 732e 696f 2f65 6e2f 7374 6162 6c65  ocs.io/en/stable
++00001320: 2f75 7365 7273 2f65 7861 6d70 6c65 732e  /users/examples.
++00001330: 6874 6d6c 290a 0a23 2320 4163 6b6e 6f77  html)..## Acknow
++00001340: 6c65 6467 656d 656e 7473 0a0a 5468 616e  ledgements..Than
++00001350: 6b73 2074 6f20 6772 6561 7420 6f70 656e  ks to great open
++00001360: 2073 6f75 7263 6520 7072 6f6a 6563 7473   source projects
++00001370: 205b 7370 6869 6e78 5d28 6874 7470 733a   [sphinx](https:
++00001380: 2f2f 7777 772e 7370 6869 6e78 2d64 6f63  //www.sphinx-doc
++00001390: 2e6f 7267 2f65 6e2f 6d61 7374 6572 2f29  .org/en/master/)
++000013a0: 2c0a 5b70 7964 616e 7469 635d 2868 7474  ,.[pydantic](htt
++000013b0: 7073 3a2f 2f70 7964 616e 7469 632d 646f  ps://pydantic-do
++000013c0: 6373 2e68 656c 706d 616e 7561 6c2e 696f  cs.helpmanual.io
++000013d0: 2f29 2061 6e64 0a5b 706f 6574 7279 5d28  /) and.[poetry](
++000013e0: 6874 7470 733a 2f2f 7079 7468 6f6e 2d70  https://python-p
++000013f0: 6f65 7472 792e 6f72 672f 2920 2861 6e64  oetry.org/) (and
++00001400: 2073 6f20 6d61 6e79 206d 6f72 6529 20e2   so many more) .
++00001410: 9da4 2069 6e20 6164 6469 7469 6f6e 2074  .. in addition t
++00001420: 6f20 7468 6520 666f 6c6c 6f77 696e 6720  o the following 
++00001430: 636f 6e74 7269 6275 746f 7273 3a0a 0a3c  contributors:..<
++00001440: 212d 2d20 414c 4c2d 434f 4e54 5249 4255  !-- ALL-CONTRIBU
++00001450: 544f 5253 2d4c 4953 543a 5354 4152 5420  TORS-LIST:START 
++00001460: 2d20 446f 206e 6f74 2072 656d 6f76 6520  - Do not remove 
++00001470: 6f72 206d 6f64 6966 7920 7468 6973 2073  or modify this s
++00001480: 6563 7469 6f6e 202d 2d3e 0a3c 212d 2d20  ection -->.<!-- 
++00001490: 7072 6574 7469 6572 2d69 676e 6f72 652d  prettier-ignore-
++000014a0: 7374 6172 7420 2d2d 3e0a 3c21 2d2d 206d  start -->.<!-- m
++000014b0: 6172 6b64 6f77 6e6c 696e 742d 6469 7361  arkdownlint-disa
++000014c0: 626c 6520 2d2d 3e0a 3c74 6162 6c65 3e0a  ble -->.<table>.
++000014d0: 2020 3c74 626f 6479 3e0a 2020 2020 3c74    <tbody>.    <t
++000014e0: 723e 0a20 2020 2020 203c 7464 2061 6c69  r>.      <td ali
++000014f0: 676e 3d22 6365 6e74 6572 2220 7661 6c69  gn="center" vali
++00001500: 676e 3d22 746f 7022 2077 6964 7468 3d22  gn="top" width="
++00001510: 3134 2e32 3825 223e 3c61 2068 7265 663d  14.28%"><a href=
++00001520: 2268 7474 7073 3a2f 2f67 6974 6875 622e  "https://github.
++00001530: 636f 6d2f 6d61 6e73 656e 6672 616e 7a65  com/mansenfranze
++00001540: 6e22 3e3c 696d 6720 7372 633d 2268 7474  n"><img src="htt
++00001550: 7073 3a2f 2f61 7661 7461 7273 2e67 6974  ps://avatars.git
++00001560: 6875 6275 7365 7263 6f6e 7465 6e74 2e63  hubusercontent.c
++00001570: 6f6d 2f75 2f31 3830 3836 3138 303f 763d  om/u/18086180?v=
++00001580: 343f 733d 3130 3022 2077 6964 7468 3d22  4?s=100" width="
++00001590: 3130 3070 783b 2220 616c 743d 2246 7261  100px;" alt="Fra
++000015a0: 6e7a 2057 c3b6 6c6c 6572 7422 2f3e 3c62  nz W..llert"/><b
++000015b0: 7220 2f3e 3c73 7562 3e3c 623e 4672 616e  r /><sub><b>Fran
++000015c0: 7a20 57c3 b66c 6c65 7274 3c2f 623e 3c2f  z W..llert</b></
++000015d0: 7375 623e 3c2f 613e 3c62 7220 2f3e 3c61  sub></a><br /><a
++000015e0: 2068 7265 663d 2223 6d61 696e 7465 6e61   href="#maintena
++000015f0: 6e63 652d 6d61 6e73 656e 6672 616e 7a65  nce-mansenfranze
++00001600: 6e22 2074 6974 6c65 3d22 4d61 696e 7465  n" title="Mainte
++00001610: 6e61 6e63 6522 3ef0 9f9a a73c 2f61 3e20  nance">....</a> 
++00001620: 3c61 2068 7265 663d 2268 7474 7073 3a2f  <a href="https:/
++00001630: 2f67 6974 6875 622e 636f 6d2f 6d61 6e73  /github.com/mans
++00001640: 656e 6672 616e 7a65 6e2f 6175 746f 646f  enfranzen/autodo
++00001650: 635f 7079 6461 6e74 6963 2f63 6f6d 6d69  c_pydantic/commi
++00001660: 7473 3f61 7574 686f 723d 6d61 6e73 656e  ts?author=mansen
++00001670: 6672 616e 7a65 6e22 2074 6974 6c65 3d22  franzen" title="
++00001680: 446f 6375 6d65 6e74 6174 696f 6e22 3ef0  Documentation">.
++00001690: 9f93 963c 2f61 3e20 3c61 2068 7265 663d  ...</a> <a href=
++000016a0: 2268 7474 7073 3a2f 2f67 6974 6875 622e  "https://github.
++000016b0: 636f 6d2f 6d61 6e73 656e 6672 616e 7a65  com/mansenfranze
++000016c0: 6e2f 6175 746f 646f 635f 7079 6461 6e74  n/autodoc_pydant
++000016d0: 6963 2f63 6f6d 6d69 7473 3f61 7574 686f  ic/commits?autho
++000016e0: 723d 6d61 6e73 656e 6672 616e 7a65 6e22  r=mansenfranzen"
++000016f0: 2074 6974 6c65 3d22 5465 7374 7322 3ee2   title="Tests">.
++00001700: 9aa0 efb8 8f3c 2f61 3e20 3c61 2068 7265  .....</a> <a hre
++00001710: 663d 2223 636f 6e74 656e 742d 6d61 6e73  f="#content-mans
++00001720: 656e 6672 616e 7a65 6e22 2074 6974 6c65  enfranzen" title
++00001730: 3d22 436f 6e74 656e 7422 3ef0 9f96 8b3c  ="Content">....<
++00001740: 2f61 3e3c 2f74 643e 0a20 2020 2020 203c  /a></td>.      <
++00001750: 7464 2061 6c69 676e 3d22 6365 6e74 6572  td align="center
++00001760: 2220 7661 6c69 676e 3d22 746f 7022 2077  " valign="top" w
++00001770: 6964 7468 3d22 3134 2e32 3825 223e 3c61  idth="14.28%"><a
++00001780: 2068 7265 663d 2268 7474 7073 3a2f 2f67   href="https://g
++00001790: 6974 6875 622e 636f 6d2f 7976 6573 2d72  ithub.com/yves-r
++000017a0: 656e 6965 7222 3e3c 696d 6720 7372 633d  enier"><img src=
++000017b0: 2268 7474 7073 3a2f 2f61 7661 7461 7273  "https://avatars
++000017c0: 2e67 6974 6875 6275 7365 7263 6f6e 7465  .githubuserconte
++000017d0: 6e74 2e63 6f6d 2f75 2f31 3032 3335 3830  nt.com/u/1023580
++000017e0: 3136 3f76 3d34 3f73 3d31 3030 2220 7769  16?v=4?s=100" wi
++000017f0: 6474 683d 2231 3030 7078 3b22 2061 6c74  dth="100px;" alt
++00001800: 3d22 5976 6573 2052 656e 6965 7222 2f3e  ="Yves Renier"/>
++00001810: 3c62 7220 2f3e 3c73 7562 3e3c 623e 5976  <br /><sub><b>Yv
++00001820: 6573 2052 656e 6965 723c 2f62 3e3c 2f73  es Renier</b></s
++00001830: 7562 3e3c 2f61 3e3c 6272 202f 3e3c 6120  ub></a><br /><a 
++00001840: 6872 6566 3d22 6874 7470 733a 2f2f 6769  href="https://gi
++00001850: 7468 7562 2e63 6f6d 2f6d 616e 7365 6e66  thub.com/mansenf
++00001860: 7261 6e7a 656e 2f61 7574 6f64 6f63 5f70  ranzen/autodoc_p
++00001870: 7964 616e 7469 632f 636f 6d6d 6974 733f  ydantic/commits?
++00001880: 6175 7468 6f72 3d79 7665 732d 7265 6e69  author=yves-reni
++00001890: 6572 2220 7469 746c 653d 2244 6f63 756d  er" title="Docum
++000018a0: 656e 7461 7469 6f6e 223e f09f 9396 3c2f  entation">....</
++000018b0: 613e 203c 6120 6872 6566 3d22 6874 7470  a> <a href="http
++000018c0: 733a 2f2f 6769 7468 7562 2e63 6f6d 2f6d  s://github.com/m
++000018d0: 616e 7365 6e66 7261 6e7a 656e 2f61 7574  ansenfranzen/aut
++000018e0: 6f64 6f63 5f70 7964 616e 7469 632f 636f  odoc_pydantic/co
++000018f0: 6d6d 6974 733f 6175 7468 6f72 3d79 7665  mmits?author=yve
++00001900: 732d 7265 6e69 6572 2220 7469 746c 653d  s-renier" title=
++00001910: 2254 6573 7473 223e e29a a0ef b88f 3c2f  "Tests">......</
++00001920: 613e 203c 6120 6872 6566 3d22 2363 6f6e  a> <a href="#con
++00001930: 7465 6e74 2d79 7665 732d 7265 6e69 6572  tent-yves-renier
++00001940: 2220 7469 746c 653d 2243 6f6e 7465 6e74  " title="Content
++00001950: 223e f09f 968b 3c2f 613e 3c2f 7464 3e0a  ">....</a></td>.
++00001960: 2020 2020 2020 3c74 6420 616c 6967 6e3d        <td align=
++00001970: 2263 656e 7465 7222 2076 616c 6967 6e3d  "center" valign=
++00001980: 2274 6f70 2220 7769 6474 683d 2231 342e  "top" width="14.
++00001990: 3238 2522 3e3c 6120 6872 6566 3d22 6874  28%"><a href="ht
++000019a0: 7470 733a 2f2f 6769 7468 7562 2e63 6f6d  tps://github.com
++000019b0: 2f54 6865 4265 6172 6465 6442 6572 7365  /TheBeardedBerse
++000019c0: 726b 7222 3e3c 696d 6720 7372 633d 2268  rkr"><img src="h
++000019d0: 7474 7073 3a2f 2f61 7661 7461 7273 2e67  ttps://avatars.g
++000019e0: 6974 6875 6275 7365 7263 6f6e 7465 6e74  ithubusercontent
++000019f0: 2e63 6f6d 2f75 2f33 3232 3732 3236 383f  .com/u/32272268?
++00001a00: 763d 343f 733d 3130 3022 2077 6964 7468  v=4?s=100" width
++00001a10: 3d22 3130 3070 783b 2220 616c 743d 2254  ="100px;" alt="T
++00001a20: 6865 4265 6172 6465 6442 6572 7365 726b  heBeardedBerserk
++00001a30: 7222 2f3e 3c62 7220 2f3e 3c73 7562 3e3c  r"/><br /><sub><
++00001a40: 623e 5468 6542 6561 7264 6564 4265 7273  b>TheBeardedBers
++00001a50: 6572 6b72 3c2f 623e 3c2f 7375 623e 3c2f  erkr</b></sub></
++00001a60: 613e 3c62 7220 2f3e 3c61 2068 7265 663d  a><br /><a href=
++00001a70: 2223 6964 6561 732d 5468 6542 6561 7264  "#ideas-TheBeard
++00001a80: 6564 4265 7273 6572 6b72 2220 7469 746c  edBerserkr" titl
++00001a90: 653d 2249 6465 6173 2c20 506c 616e 6e69  e="Ideas, Planni
++00001aa0: 6e67 2c20 2620 4665 6564 6261 636b 223e  ng, & Feedback">
++00001ab0: f09f a494 3c2f 613e 3c2f 7464 3e0a 2020  ....</a></td>.  
++00001ac0: 2020 2020 3c74 6420 616c 6967 6e3d 2263      <td align="c
++00001ad0: 656e 7465 7222 2076 616c 6967 6e3d 2274  enter" valign="t
++00001ae0: 6f70 2220 7769 6474 683d 2231 342e 3238  op" width="14.28
++00001af0: 2522 3e3c 6120 6872 6566 3d22 6874 7470  %"><a href="http
++00001b00: 733a 2f2f 6769 7468 7562 2e63 6f6d 2f76  s://github.com/v
++00001b10: 6c63 696e 736b 7922 3e3c 696d 6720 7372  lcinsky"><img sr
++00001b20: 633d 2268 7474 7073 3a2f 2f61 7661 7461  c="https://avata
++00001b30: 7273 2e67 6974 6875 6275 7365 7263 6f6e  rs.githubusercon
++00001b40: 7465 6e74 2e63 6f6d 2f75 2f36 3335 3931  tent.com/u/63591
++00001b50: 313f 763d 343f 733d 3130 3022 2077 6964  1?v=4?s=100" wid
++00001b60: 7468 3d22 3130 3070 783b 2220 616c 743d  th="100px;" alt=
++00001b70: 224a 616e 2056 6cc4 8d69 6e73 6bc3 bd22  "Jan Vl..insk.."
++00001b80: 2f3e 3c62 7220 2f3e 3c73 7562 3e3c 623e  /><br /><sub><b>
++00001b90: 4a61 6e20 566c c48d 696e 736b c3bd 3c2f  Jan Vl..insk..</
++00001ba0: 623e 3c2f 7375 623e 3c2f 613e 3c62 7220  b></sub></a><br 
++00001bb0: 2f3e 3c61 2068 7265 663d 2223 7365 6375  /><a href="#secu
++00001bc0: 7269 7479 2d76 6c63 696e 736b 7922 2074  rity-vlcinsky" t
++00001bd0: 6974 6c65 3d22 5365 6375 7269 7479 223e  itle="Security">
++00001be0: f09f 9ba1 efb8 8f3c 2f61 3e3c 2f74 643e  .......</a></td>
++00001bf0: 0a20 2020 2020 203c 7464 2061 6c69 676e  .      <td align
++00001c00: 3d22 6365 6e74 6572 2220 7661 6c69 676e  ="center" valign
++00001c10: 3d22 746f 7022 2077 6964 7468 3d22 3134  ="top" width="14
++00001c20: 2e32 3825 223e 3c61 2068 7265 663d 2268  .28%"><a href="h
++00001c30: 7474 7073 3a2f 2f67 6974 6875 622e 636f  ttps://github.co
++00001c40: 6d2f 616e 7476 6967 223e 3c69 6d67 2073  m/antvig"><img s
++00001c50: 7263 3d22 6874 7470 733a 2f2f 6176 6174  rc="https://avat
++00001c60: 6172 732e 6769 7468 7562 7573 6572 636f  ars.githubuserco
++00001c70: 6e74 656e 742e 636f 6d2f 752f 3235 3130  ntent.com/u/2510
++00001c80: 3532 3130 3f76 3d34 3f73 3d31 3030 2220  5210?v=4?s=100" 
++00001c90: 7769 6474 683d 2231 3030 7078 3b22 2061  width="100px;" a
++00001ca0: 6c74 3d22 616e 7476 6967 222f 3e3c 6272  lt="antvig"/><br
++00001cb0: 202f 3e3c 7375 623e 3c62 3e61 6e74 7669   /><sub><b>antvi
++00001cc0: 673c 2f62 3e3c 2f73 7562 3e3c 2f61 3e3c  g</b></sub></a><
++00001cd0: 6272 202f 3e3c 6120 6872 6566 3d22 6874  br /><a href="ht
++00001ce0: 7470 733a 2f2f 6769 7468 7562 2e63 6f6d  tps://github.com
++00001cf0: 2f6d 616e 7365 6e66 7261 6e7a 656e 2f61  /mansenfranzen/a
++00001d00: 7574 6f64 6f63 5f70 7964 616e 7469 632f  utodoc_pydantic/
++00001d10: 6973 7375 6573 3f71 3d61 7574 686f 7225  issues?q=author%
++00001d20: 3341 616e 7476 6967 2220 7469 746c 653d  3Aantvig" title=
++00001d30: 2242 7567 2072 6570 6f72 7473 223e f09f  "Bug reports">..
++00001d40: 909b 3c2f 613e 203c 6120 6872 6566 3d22  ..</a> <a href="
++00001d50: 2375 7365 7254 6573 7469 6e67 2d61 6e74  #userTesting-ant
++00001d60: 7669 6722 2074 6974 6c65 3d22 5573 6572  vig" title="User
++00001d70: 2054 6573 7469 6e67 223e f09f 9393 3c2f   Testing">....</
++00001d80: 613e 3c2f 7464 3e0a 2020 2020 2020 3c74  a></td>.      <t
++00001d90: 6420 616c 6967 6e3d 2263 656e 7465 7222  d align="center"
++00001da0: 2076 616c 6967 6e3d 2274 6f70 2220 7769   valign="top" wi
++00001db0: 6474 683d 2231 342e 3238 2522 3e3c 6120  dth="14.28%"><a 
++00001dc0: 6872 6566 3d22 6874 7470 733a 2f2f 726f  href="https://ro
++00001dd0: 6775 682e 636f 6d22 3e3c 696d 6720 7372  guh.com"><img sr
++00001de0: 633d 2268 7474 7073 3a2f 2f61 7661 7461  c="https://avata
++00001df0: 7273 2e67 6974 6875 6275 7365 7263 6f6e  rs.githubusercon
++00001e00: 7465 6e74 2e63 6f6d 2f75 2f36 3337 3334  tent.com/u/63734
++00001e10: 3437 3f76 3d34 3f73 3d31 3030 2220 7769  47?v=4?s=100" wi
++00001e20: 6474 683d 2231 3030 7078 3b22 2061 6c74  dth="100px;" alt
++00001e30: 3d22 4875 676f 204f 2052 6976 6572 6122  ="Hugo O Rivera"
++00001e40: 2f3e 3c62 7220 2f3e 3c73 7562 3e3c 623e  /><br /><sub><b>
++00001e50: 4875 676f 204f 2052 6976 6572 613c 2f62  Hugo O Rivera</b
++00001e60: 3e3c 2f73 7562 3e3c 2f61 3e3c 6272 202f  ></sub></a><br /
++00001e70: 3e3c 6120 6872 6566 3d22 2369 6465 6173  ><a href="#ideas
++00001e80: 2d72 6f67 7568 2220 7469 746c 653d 2249  -roguh" title="I
++00001e90: 6465 6173 2c20 506c 616e 6e69 6e67 2c20  deas, Planning, 
++00001ea0: 2620 4665 6564 6261 636b 223e f09f a494  & Feedback">....
++00001eb0: 3c2f 613e 3c2f 7464 3e0a 2020 2020 2020  </a></td>.      
++00001ec0: 3c74 6420 616c 6967 6e3d 2263 656e 7465  <td align="cente
++00001ed0: 7222 2076 616c 6967 6e3d 2274 6f70 2220  r" valign="top" 
++00001ee0: 7769 6474 683d 2231 342e 3238 2522 3e3c  width="14.28%"><
++00001ef0: 6120 6872 6566 3d22 6874 7470 733a 2f2f  a href="https://
++00001f00: 6769 7468 7562 2e63 6f6d 2f79 626e 6422  github.com/ybnd"
++00001f10: 3e3c 696d 6720 7372 633d 2268 7474 7073  ><img src="https
++00001f20: 3a2f 2f61 7661 7461 7273 2e67 6974 6875  ://avatars.githu
++00001f30: 6275 7365 7263 6f6e 7465 6e74 2e63 6f6d  busercontent.com
++00001f40: 2f75 2f33 3135 3437 3033 383f 763d 343f  /u/31547038?v=4?
++00001f50: 733d 3130 3022 2077 6964 7468 3d22 3130  s=100" width="10
++00001f60: 3070 783b 2220 616c 743d 2279 7572 6120  0px;" alt="yura 
++00001f70: 626f 6e64 6172 656e 6b6f 222f 3e3c 6272  bondarenko"/><br
++00001f80: 202f 3e3c 7375 623e 3c62 3e79 7572 6120   /><sub><b>yura 
++00001f90: 626f 6e64 6172 656e 6b6f 3c2f 623e 3c2f  bondarenko</b></
++00001fa0: 7375 623e 3c2f 613e 3c62 7220 2f3e 3c61  sub></a><br /><a
++00001fb0: 2068 7265 663d 2268 7474 7073 3a2f 2f67   href="https://g
++00001fc0: 6974 6875 622e 636f 6d2f 6d61 6e73 656e  ithub.com/mansen
++00001fd0: 6672 616e 7a65 6e2f 6175 746f 646f 635f  franzen/autodoc_
++00001fe0: 7079 6461 6e74 6963 2f69 7373 7565 733f  pydantic/issues?
++00001ff0: 713d 6175 7468 6f72 2533 4179 626e 6422  q=author%3Aybnd"
++00002000: 2074 6974 6c65 3d22 4275 6720 7265 706f   title="Bug repo
++00002010: 7274 7322 3ef0 9f90 9b3c 2f61 3e20 3c61  rts">....</a> <a
++00002020: 2068 7265 663d 2223 7573 6572 5465 7374   href="#userTest
++00002030: 696e 672d 7962 6e64 2220 7469 746c 653d  ing-ybnd" title=
++00002040: 2255 7365 7220 5465 7374 696e 6722 3ef0  "User Testing">.
++00002050: 9f93 933c 2f61 3e3c 2f74 643e 0a20 2020  ...</a></td>.   
++00002060: 203c 2f74 723e 0a20 2020 203c 7472 3e0a   </tr>.    <tr>.
++00002070: 2020 2020 2020 3c74 6420 616c 6967 6e3d        <td align=
++00002080: 2263 656e 7465 7222 2076 616c 6967 6e3d  "center" valign=
++00002090: 2274 6f70 2220 7769 6474 683d 2231 342e  "top" width="14.
++000020a0: 3238 2522 3e3c 6120 6872 6566 3d22 6874  28%"><a href="ht
++000020b0: 7470 3a2f 2f74 6168 6f77 6172 642e 6769  tp://tahoward.gi
++000020c0: 7468 7562 2e69 6f22 3e3c 696d 6720 7372  thub.io"><img sr
++000020d0: 633d 2268 7474 7073 3a2f 2f61 7661 7461  c="https://avata
++000020e0: 7273 2e67 6974 6875 6275 7365 7263 6f6e  rs.githubusercon
++000020f0: 7465 6e74 2e63 6f6d 2f75 2f35 3437 3537  tent.com/u/54757
++00002100: 303f 763d 343f 733d 3130 3022 2077 6964  0?v=4?s=100" wid
++00002110: 7468 3d22 3130 3070 783b 2220 616c 743d  th="100px;" alt=
++00002120: 2254 7265 766f 7220 486f 7761 7264 222f  "Trevor Howard"/
++00002130: 3e3c 6272 202f 3e3c 7375 623e 3c62 3e54  ><br /><sub><b>T
++00002140: 7265 766f 7220 486f 7761 7264 3c2f 623e  revor Howard</b>
++00002150: 3c2f 7375 623e 3c2f 613e 3c62 7220 2f3e  </sub></a><br />
++00002160: 3c61 2068 7265 663d 2268 7474 7073 3a2f  <a href="https:/
++00002170: 2f67 6974 6875 622e 636f 6d2f 6d61 6e73  /github.com/mans
++00002180: 656e 6672 616e 7a65 6e2f 6175 746f 646f  enfranzen/autodo
++00002190: 635f 7079 6461 6e74 6963 2f69 7373 7565  c_pydantic/issue
++000021a0: 733f 713d 6175 7468 6f72 2533 4174 6168  s?q=author%3Atah
++000021b0: 6f77 6172 6422 2074 6974 6c65 3d22 4275  oward" title="Bu
++000021c0: 6720 7265 706f 7274 7322 3ef0 9f90 9b3c  g reports">....<
++000021d0: 2f61 3e20 3c61 2068 7265 663d 2223 7573  /a> <a href="#us
++000021e0: 6572 5465 7374 696e 672d 7461 686f 7761  erTesting-tahowa
++000021f0: 7264 2220 7469 746c 653d 2255 7365 7220  rd" title="User 
++00002200: 5465 7374 696e 6722 3ef0 9f93 933c 2f61  Testing">....</a
++00002210: 3e3c 2f74 643e 0a20 2020 2020 203c 7464  ></td>.      <td
++00002220: 2061 6c69 676e 3d22 6365 6e74 6572 2220   align="center" 
++00002230: 7661 6c69 676e 3d22 746f 7022 2077 6964  valign="top" wid
++00002240: 7468 3d22 3134 2e32 3825 223e 3c61 2068  th="14.28%"><a h
++00002250: 7265 663d 2268 7474 7073 3a2f 2f67 6974  ref="https://git
++00002260: 6875 622e 636f 6d2f 7468 6f6d 6173 2d70  hub.com/thomas-p
++00002270: 6564 6f74 223e 3c69 6d67 2073 7263 3d22  edot"><img src="
++00002280: 6874 7470 733a 2f2f 6176 6174 6172 732e  https://avatars.
++00002290: 6769 7468 7562 7573 6572 636f 6e74 656e  githubuserconten
++000022a0: 742e 636f 6d2f 752f 3836 3733 3132 3132  t.com/u/86731212
++000022b0: 3f76 3d34 3f73 3d31 3030 2220 7769 6474  ?v=4?s=100" widt
++000022c0: 683d 2231 3030 7078 3b22 2061 6c74 3d22  h="100px;" alt="
++000022d0: 7468 6f6d 6173 2d70 6564 6f74 222f 3e3c  thomas-pedot"/><
++000022e0: 6272 202f 3e3c 7375 623e 3c62 3e74 686f  br /><sub><b>tho
++000022f0: 6d61 732d 7065 646f 743c 2f62 3e3c 2f73  mas-pedot</b></s
++00002300: 7562 3e3c 2f61 3e3c 6272 202f 3e3c 6120  ub></a><br /><a 
++00002310: 6872 6566 3d22 6874 7470 733a 2f2f 6769  href="https://gi
++00002320: 7468 7562 2e63 6f6d 2f6d 616e 7365 6e66  thub.com/mansenf
++00002330: 7261 6e7a 656e 2f61 7574 6f64 6f63 5f70  ranzen/autodoc_p
++00002340: 7964 616e 7469 632f 6973 7375 6573 3f71  ydantic/issues?q
++00002350: 3d61 7574 686f 7225 3341 7468 6f6d 6173  =author%3Athomas
++00002360: 2d70 6564 6f74 2220 7469 746c 653d 2242  -pedot" title="B
++00002370: 7567 2072 6570 6f72 7473 223e f09f 909b  ug reports">....
++00002380: 3c2f 613e 203c 6120 6872 6566 3d22 2375  </a> <a href="#u
++00002390: 7365 7254 6573 7469 6e67 2d74 686f 6d61  serTesting-thoma
++000023a0: 732d 7065 646f 7422 2074 6974 6c65 3d22  s-pedot" title="
++000023b0: 5573 6572 2054 6573 7469 6e67 223e f09f  User Testing">..
++000023c0: 9393 3c2f 613e 3c2f 7464 3e0a 2020 2020  ..</a></td>.    
++000023d0: 2020 3c74 6420 616c 6967 6e3d 2263 656e    <td align="cen
++000023e0: 7465 7222 2076 616c 6967 6e3d 2274 6f70  ter" valign="top
++000023f0: 2220 7769 6474 683d 2231 342e 3238 2522  " width="14.28%"
++00002400: 3e3c 6120 6872 6566 3d22 6874 7470 733a  ><a href="https:
++00002410: 2f2f 6769 7468 7562 2e63 6f6d 2f6d 6174  //github.com/mat
++00002420: 7574 7465 7222 3e3c 696d 6720 7372 633d  utter"><img src=
++00002430: 2268 7474 7073 3a2f 2f61 7661 7461 7273  "https://avatars
++00002440: 2e67 6974 6875 6275 7365 7263 6f6e 7465  .githubuserconte
++00002450: 6e74 2e63 6f6d 2f75 2f32 3730 3133 3739  nt.com/u/2701379
++00002460: 3f76 3d34 3f73 3d31 3030 2220 7769 6474  ?v=4?s=100" widt
++00002470: 683d 2231 3030 7078 3b22 2061 6c74 3d22  h="100px;" alt="
++00002480: 4d61 7420 5574 7465 7222 2f3e 3c62 7220  Mat Utter"/><br 
++00002490: 2f3e 3c73 7562 3e3c 623e 4d61 7420 5574  /><sub><b>Mat Ut
++000024a0: 7465 723c 2f62 3e3c 2f73 7562 3e3c 2f61  ter</b></sub></a
++000024b0: 3e3c 6272 202f 3e3c 6120 6872 6566 3d22  ><br /><a href="
++000024c0: 6874 7470 733a 2f2f 6769 7468 7562 2e63  https://github.c
++000024d0: 6f6d 2f6d 616e 7365 6e66 7261 6e7a 656e  om/mansenfranzen
++000024e0: 2f61 7574 6f64 6f63 5f70 7964 616e 7469  /autodoc_pydanti
++000024f0: 632f 6973 7375 6573 3f71 3d61 7574 686f  c/issues?q=autho
++00002500: 7225 3341 6d61 7475 7474 6572 2220 7469  r%3Amatutter" ti
++00002510: 746c 653d 2242 7567 2072 6570 6f72 7473  tle="Bug reports
++00002520: 223e f09f 909b 3c2f 613e 203c 6120 6872  ">....</a> <a hr
++00002530: 6566 3d22 2375 7365 7254 6573 7469 6e67  ef="#userTesting
++00002540: 2d6d 6174 7574 7465 7222 2074 6974 6c65  -matutter" title
++00002550: 3d22 5573 6572 2054 6573 7469 6e67 223e  ="User Testing">
++00002560: f09f 9393 3c2f 613e 3c2f 7464 3e0a 2020  ....</a></td>.  
++00002570: 2020 2020 3c74 6420 616c 6967 6e3d 2263      <td align="c
++00002580: 656e 7465 7222 2076 616c 6967 6e3d 2274  enter" valign="t
++00002590: 6f70 2220 7769 6474 683d 2231 342e 3238  op" width="14.28
++000025a0: 2522 3e3c 6120 6872 6566 3d22 6874 7470  %"><a href="http
++000025b0: 733a 2f2f 6769 7468 7562 2e63 6f6d 2f64  s://github.com/d
++000025c0: 6176 6964 6368 616c 6c22 3e3c 696d 6720  avidchall"><img 
++000025d0: 7372 633d 2268 7474 7073 3a2f 2f61 7661  src="https://ava
++000025e0: 7461 7273 2e67 6974 6875 6275 7365 7263  tars.githubuserc
++000025f0: 6f6e 7465 6e74 2e63 6f6d 2f75 2f31 3830  ontent.com/u/180
++00002600: 3438 3536 3f76 3d34 3f73 3d31 3030 2220  4856?v=4?s=100" 
++00002610: 7769 6474 683d 2231 3030 7078 3b22 2061  width="100px;" a
++00002620: 6c74 3d22 4461 7669 6420 4320 4861 6c6c  lt="David C Hall
++00002630: 222f 3e3c 6272 202f 3e3c 7375 623e 3c62  "/><br /><sub><b
++00002640: 3e44 6176 6964 2043 2048 616c 6c3c 2f62  >David C Hall</b
++00002650: 3e3c 2f73 7562 3e3c 2f61 3e3c 6272 202f  ></sub></a><br /
++00002660: 3e3c 6120 6872 6566 3d22 2369 6465 6173  ><a href="#ideas
++00002670: 2d64 6176 6964 6368 616c 6c22 2074 6974  -davidchall" tit
++00002680: 6c65 3d22 4964 6561 732c 2050 6c61 6e6e  le="Ideas, Plann
++00002690: 696e 672c 2026 2046 6565 6462 6163 6b22  ing, & Feedback"
++000026a0: 3ef0 9fa4 943c 2f61 3e20 3c61 2068 7265  >....</a> <a hre
++000026b0: 663d 2223 7573 6572 5465 7374 696e 672d  f="#userTesting-
++000026c0: 6461 7669 6463 6861 6c6c 2220 7469 746c  davidchall" titl
++000026d0: 653d 2255 7365 7220 5465 7374 696e 6722  e="User Testing"
++000026e0: 3ef0 9f93 933c 2f61 3e3c 2f74 643e 0a20  >....</a></td>. 
++000026f0: 2020 2020 203c 7464 2061 6c69 676e 3d22       <td align="
++00002700: 6365 6e74 6572 2220 7661 6c69 676e 3d22  center" valign="
++00002710: 746f 7022 2077 6964 7468 3d22 3134 2e32  top" width="14.2
++00002720: 3825 223e 3c61 2068 7265 663d 2268 7474  8%"><a href="htt
++00002730: 7073 3a2f 2f79 6f73 6861 6e75 696b 6162  ps://yoshanuikab
++00002740: 756e 6469 2e6d 6522 3e3c 696d 6720 7372  undi.me"><img sr
++00002750: 633d 2268 7474 7073 3a2f 2f61 7661 7461  c="https://avata
++00002760: 7273 2e67 6974 6875 6275 7365 7263 6f6e  rs.githubusercon
++00002770: 7465 6e74 2e63 6f6d 2f75 2f32 3835 3930  tent.com/u/28590
++00002780: 3734 383f 763d 343f 733d 3130 3022 2077  748?v=4?s=100" w
++00002790: 6964 7468 3d22 3130 3070 783b 2220 616c  idth="100px;" al
++000027a0: 743d 224a 6f73 6820 412e 204d 6974 6368  t="Josh A. Mitch
++000027b0: 656c 6c22 2f3e 3c62 7220 2f3e 3c73 7562  ell"/><br /><sub
++000027c0: 3e3c 623e 4a6f 7368 2041 2e20 4d69 7463  ><b>Josh A. Mitc
++000027d0: 6865 6c6c 3c2f 623e 3c2f 7375 623e 3c2f  hell</b></sub></
++000027e0: 613e 3c62 7220 2f3e 3c61 2068 7265 663d  a><br /><a href=
++000027f0: 2223 6964 6561 732d 596f 7368 616e 7569  "#ideas-Yoshanui
++00002800: 6b61 6275 6e64 6922 2074 6974 6c65 3d22  kabundi" title="
++00002810: 4964 6561 732c 2050 6c61 6e6e 696e 672c  Ideas, Planning,
++00002820: 2026 2046 6565 6462 6163 6b22 3ef0 9fa4   & Feedback">...
++00002830: 943c 2f61 3e20 3c61 2068 7265 663d 2268  .</a> <a href="h
++00002840: 7474 7073 3a2f 2f67 6974 6875 622e 636f  ttps://github.co
++00002850: 6d2f 6d61 6e73 656e 6672 616e 7a65 6e2f  m/mansenfranzen/
++00002860: 6175 746f 646f 635f 7079 6461 6e74 6963  autodoc_pydantic
++00002870: 2f63 6f6d 6d69 7473 3f61 7574 686f 723d  /commits?author=
++00002880: 596f 7368 616e 7569 6b61 6275 6e64 6922  Yoshanuikabundi"
++00002890: 2074 6974 6c65 3d22 5465 7374 7322 3ee2   title="Tests">.
++000028a0: 9aa0 efb8 8f3c 2f61 3e3c 2f74 643e 0a20  .....</a></td>. 
++000028b0: 2020 2020 203c 7464 2061 6c69 676e 3d22       <td align="
++000028c0: 6365 6e74 6572 2220 7661 6c69 676e 3d22  center" valign="
++000028d0: 746f 7022 2077 6964 7468 3d22 3134 2e32  top" width="14.2
++000028e0: 3825 223e 3c61 2068 7265 663d 2268 7474  8%"><a href="htt
++000028f0: 7073 3a2f 2f67 6974 6875 622e 636f 6d2f  ps://github.com/
++00002900: 676f 726f 6465 7269 636b 676f 223e 3c69  goroderickgo"><i
++00002910: 6d67 2073 7263 3d22 6874 7470 733a 2f2f  mg src="https://
++00002920: 6176 6174 6172 732e 6769 7468 7562 7573  avatars.githubus
++00002930: 6572 636f 6e74 656e 742e 636f 6d2f 752f  ercontent.com/u/
++00002940: 3137 3239 3637 3133 3f76 3d34 3f73 3d31  17296713?v=4?s=1
++00002950: 3030 2220 7769 6474 683d 2231 3030 7078  00" width="100px
++00002960: 3b22 2061 6c74 3d22 526f 6465 7269 636b  ;" alt="Roderick
++00002970: 2047 6f22 2f3e 3c62 7220 2f3e 3c73 7562   Go"/><br /><sub
++00002980: 3e3c 623e 526f 6465 7269 636b 2047 6f3c  ><b>Roderick Go<
++00002990: 2f62 3e3c 2f73 7562 3e3c 2f61 3e3c 6272  /b></sub></a><br
++000029a0: 202f 3e3c 6120 6872 6566 3d22 6874 7470   /><a href="http
++000029b0: 733a 2f2f 6769 7468 7562 2e63 6f6d 2f6d  s://github.com/m
++000029c0: 616e 7365 6e66 7261 6e7a 656e 2f61 7574  ansenfranzen/aut
++000029d0: 6f64 6f63 5f70 7964 616e 7469 632f 636f  odoc_pydantic/co
++000029e0: 6d6d 6974 733f 6175 7468 6f72 3d67 6f72  mmits?author=gor
++000029f0: 6f64 6572 6963 6b67 6f22 2074 6974 6c65  oderickgo" title
++00002a00: 3d22 5465 7374 7322 3ee2 9aa0 efb8 8f3c  ="Tests">......<
++00002a10: 2f61 3e3c 2f74 643e 0a20 2020 2020 203c  /a></td>.      <
++00002a20: 7464 2061 6c69 676e 3d22 6365 6e74 6572  td align="center
++00002a30: 2220 7661 6c69 676e 3d22 746f 7022 2077  " valign="top" w
++00002a40: 6964 7468 3d22 3134 2e32 3825 223e 3c61  idth="14.28%"><a
++00002a50: 2068 7265 663d 2268 7474 7073 3a2f 2f67   href="https://g
++00002a60: 6974 6875 622e 636f 6d2f 6c69 6c79 6d69  ithub.com/lilymi
++00002a70: 6e69 756d 223e 3c69 6d67 2073 7263 3d22  nium"><img src="
++00002a80: 6874 7470 733a 2f2f 6176 6174 6172 732e  https://avatars.
++00002a90: 6769 7468 7562 7573 6572 636f 6e74 656e  githubuserconten
++00002aa0: 742e 636f 6d2f 752f 3331 3131 3531 3031  t.com/u/31115101
++00002ab0: 3f76 3d34 3f73 3d31 3030 2220 7769 6474  ?v=4?s=100" widt
++00002ac0: 683d 2231 3030 7078 3b22 2061 6c74 3d22  h="100px;" alt="
++00002ad0: 4c69 6c79 2057 616e 6722 2f3e 3c62 7220  Lily Wang"/><br 
++00002ae0: 2f3e 3c73 7562 3e3c 623e 4c69 6c79 2057  /><sub><b>Lily W
++00002af0: 616e 673c 2f62 3e3c 2f73 7562 3e3c 2f61  ang</b></sub></a
++00002b00: 3e3c 6272 202f 3e3c 6120 6872 6566 3d22  ><br /><a href="
++00002b10: 6874 7470 733a 2f2f 6769 7468 7562 2e63  https://github.c
++00002b20: 6f6d 2f6d 616e 7365 6e66 7261 6e7a 656e  om/mansenfranzen
++00002b30: 2f61 7574 6f64 6f63 5f70 7964 616e 7469  /autodoc_pydanti
++00002b40: 632f 636f 6d6d 6974 733f 6175 7468 6f72  c/commits?author
++00002b50: 3d6c 696c 796d 696e 6975 6d22 2074 6974  =lilyminium" tit
++00002b60: 6c65 3d22 446f 6375 6d65 6e74 6174 696f  le="Documentatio
++00002b70: 6e22 3ef0 9f93 963c 2f61 3e20 3c61 2068  n">....</a> <a h
++00002b80: 7265 663d 2223 636f 6e74 656e 742d 6c69  ref="#content-li
++00002b90: 6c79 6d69 6e69 756d 2220 7469 746c 653d  lyminium" title=
++00002ba0: 2243 6f6e 7465 6e74 223e f09f 968b 3c2f  "Content">....</
++00002bb0: 613e 3c2f 7464 3e0a 2020 2020 3c2f 7472  a></td>.    </tr
++00002bc0: 3e0a 2020 2020 3c74 723e 0a20 2020 2020  >.    <tr>.     
++00002bd0: 203c 7464 2061 6c69 676e 3d22 6365 6e74   <td align="cent
++00002be0: 6572 2220 7661 6c69 676e 3d22 746f 7022  er" valign="top"
++00002bf0: 2077 6964 7468 3d22 3134 2e32 3825 223e   width="14.28%">
++00002c00: 3c61 2068 7265 663d 2268 7474 7073 3a2f  <a href="https:/
++00002c10: 2f67 6974 6875 622e 636f 6d2f 6a2d 6361  /github.com/j-ca
++00002c20: 7273 6f6e 223e 3c69 6d67 2073 7263 3d22  rson"><img src="
++00002c30: 6874 7470 733a 2f2f 6176 6174 6172 732e  https://avatars.
++00002c40: 6769 7468 7562 7573 6572 636f 6e74 656e  githubuserconten
++00002c50: 742e 636f 6d2f 752f 3434 3330 3831 3230  t.com/u/44308120
++00002c60: 3f76 3d34 3f73 3d31 3030 2220 7769 6474  ?v=4?s=100" widt
++00002c70: 683d 2231 3030 7078 3b22 2061 6c74 3d22  h="100px;" alt="
++00002c80: 6a2d 6361 7273 6f6e 222f 3e3c 6272 202f  j-carson"/><br /
++00002c90: 3e3c 7375 623e 3c62 3e6a 2d63 6172 736f  ><sub><b>j-carso
++00002ca0: 6e3c 2f62 3e3c 2f73 7562 3e3c 2f61 3e3c  n</b></sub></a><
++00002cb0: 6272 202f 3e3c 6120 6872 6566 3d22 6874  br /><a href="ht
++00002cc0: 7470 733a 2f2f 6769 7468 7562 2e63 6f6d  tps://github.com
++00002cd0: 2f6d 616e 7365 6e66 7261 6e7a 656e 2f61  /mansenfranzen/a
++00002ce0: 7574 6f64 6f63 5f70 7964 616e 7469 632f  utodoc_pydantic/
++00002cf0: 6973 7375 6573 3f71 3d61 7574 686f 7225  issues?q=author%
++00002d00: 3341 6a2d 6361 7273 6f6e 2220 7469 746c  3Aj-carson" titl
++00002d10: 653d 2242 7567 2072 6570 6f72 7473 223e  e="Bug reports">
++00002d20: f09f 909b 3c2f 613e 203c 6120 6872 6566  ....</a> <a href
++00002d30: 3d22 6874 7470 733a 2f2f 6769 7468 7562  ="https://github
++00002d40: 2e63 6f6d 2f6d 616e 7365 6e66 7261 6e7a  .com/mansenfranz
++00002d50: 656e 2f61 7574 6f64 6f63 5f70 7964 616e  en/autodoc_pydan
++00002d60: 7469 632f 636f 6d6d 6974 733f 6175 7468  tic/commits?auth
++00002d70: 6f72 3d6a 2d63 6172 736f 6e22 2074 6974  or=j-carson" tit
++00002d80: 6c65 3d22 436f 6465 223e f09f 92bb 3c2f  le="Code">....</
++00002d90: 613e 203c 6120 6872 6566 3d22 6874 7470  a> <a href="http
++00002da0: 733a 2f2f 6769 7468 7562 2e63 6f6d 2f6d  s://github.com/m
++00002db0: 616e 7365 6e66 7261 6e7a 656e 2f61 7574  ansenfranzen/aut
++00002dc0: 6f64 6f63 5f70 7964 616e 7469 632f 636f  odoc_pydantic/co
++00002dd0: 6d6d 6974 733f 6175 7468 6f72 3d6a 2d63  mmits?author=j-c
++00002de0: 6172 736f 6e22 2074 6974 6c65 3d22 5465  arson" title="Te
++00002df0: 7374 7322 3ee2 9aa0 efb8 8f3c 2f61 3e3c  sts">......</a><
++00002e00: 2f74 643e 0a20 2020 2020 203c 7464 2061  /td>.      <td a
++00002e10: 6c69 676e 3d22 6365 6e74 6572 2220 7661  lign="center" va
++00002e20: 6c69 676e 3d22 746f 7022 2077 6964 7468  lign="top" width
++00002e30: 3d22 3134 2e32 3825 223e 3c61 2068 7265  ="14.28%"><a hre
++00002e40: 663d 2268 7474 703a 2f2f 696d 6164 612e  f="http://imada.
++00002e50: 7364 752e 646b 2f7e 6a6c 616e 6465 7273  sdu.dk/~jlanders
++00002e60: 656e 2f22 3e3c 696d 6720 7372 633d 2268  en/"><img src="h
++00002e70: 7474 7073 3a2f 2f61 7661 7461 7273 2e67  ttps://avatars.g
++00002e80: 6974 6875 6275 7365 7263 6f6e 7465 6e74  ithubusercontent
++00002e90: 2e63 6f6d 2f75 2f36 3436 3537 3335 3f76  .com/u/6465735?v
++00002ea0: 3d34 3f73 3d31 3030 2220 7769 6474 683d  =4?s=100" width=
++00002eb0: 2231 3030 7078 3b22 2061 6c74 3d22 4a61  "100px;" alt="Ja
++00002ec0: 6b6f 6220 4c79 6b6b 6520 416e 6465 7273  kob Lykke Anders
++00002ed0: 656e 222f 3e3c 6272 202f 3e3c 7375 623e  en"/><br /><sub>
++00002ee0: 3c62 3e4a 616b 6f62 204c 796b 6b65 2041  <b>Jakob Lykke A
++00002ef0: 6e64 6572 7365 6e3c 2f62 3e3c 2f73 7562  ndersen</b></sub
++00002f00: 3e3c 2f61 3e3c 6272 202f 3e3c 6120 6872  ></a><br /><a hr
++00002f10: 6566 3d22 6874 7470 733a 2f2f 6769 7468  ef="https://gith
++00002f20: 7562 2e63 6f6d 2f6d 616e 7365 6e66 7261  ub.com/mansenfra
++00002f30: 6e7a 656e 2f61 7574 6f64 6f63 5f70 7964  nzen/autodoc_pyd
++00002f40: 616e 7469 632f 636f 6d6d 6974 733f 6175  antic/commits?au
++00002f50: 7468 6f72 3d6a 616b 6f62 616e 6465 7273  thor=jakobanders
++00002f60: 656e 2220 7469 746c 653d 2243 6f64 6522  en" title="Code"
++00002f70: 3ef0 9f92 bb3c 2f61 3e3c 2f74 643e 0a20  >....</a></td>. 
++00002f80: 2020 2020 203c 7464 2061 6c69 676e 3d22       <td align="
++00002f90: 6365 6e74 6572 2220 7661 6c69 676e 3d22  center" valign="
++00002fa0: 746f 7022 2077 6964 7468 3d22 3134 2e32  top" width="14.2
++00002fb0: 3825 223e 3c61 2068 7265 663d 2268 7474  8%"><a href="htt
++00002fc0: 7073 3a2f 2f67 6974 6875 622e 636f 6d2f  ps://github.com/
++00002fd0: 6173 7472 6f6a 7561 6e6c 7522 3e3c 696d  astrojuanlu"><im
++00002fe0: 6720 7372 633d 2268 7474 7073 3a2f 2f61  g src="https://a
++00002ff0: 7661 7461 7273 2e67 6974 6875 6275 7365  vatars.githubuse
++00003000: 7263 6f6e 7465 6e74 2e63 6f6d 2f75 2f33  rcontent.com/u/3
++00003010: 3136 3531 373f 763d 343f 733d 3130 3022  16517?v=4?s=100"
++00003020: 2077 6964 7468 3d22 3130 3070 783b 2220   width="100px;" 
++00003030: 616c 743d 224a 7561 6e20 4c75 6973 2043  alt="Juan Luis C
++00003040: 616e 6f20 526f 6472 c3ad 6775 657a 222f  ano Rodr..guez"/
++00003050: 3e3c 6272 202f 3e3c 7375 623e 3c62 3e4a  ><br /><sub><b>J
++00003060: 7561 6e20 4c75 6973 2043 616e 6f20 526f  uan Luis Cano Ro
++00003070: 6472 c3ad 6775 657a 3c2f 623e 3c2f 7375  dr..guez</b></su
++00003080: 623e 3c2f 613e 3c62 7220 2f3e 3c61 2068  b></a><br /><a h
++00003090: 7265 663d 2223 636f 6e74 656e 742d 6173  ref="#content-as
++000030a0: 7472 6f6a 7561 6e6c 7522 2074 6974 6c65  trojuanlu" title
++000030b0: 3d22 436f 6e74 656e 7422 3ef0 9f96 8b3c  ="Content">....<
++000030c0: 2f61 3e3c 2f74 643e 0a20 2020 2020 203c  /a></td>.      <
++000030d0: 7464 2061 6c69 676e 3d22 6365 6e74 6572  td align="center
++000030e0: 2220 7661 6c69 676e 3d22 746f 7022 2077  " valign="top" w
++000030f0: 6964 7468 3d22 3134 2e32 3825 223e 3c61  idth="14.28%"><a
++00003100: 2068 7265 663d 2268 7474 7073 3a2f 2f67   href="https://g
++00003110: 6974 6875 622e 636f 6d2f 6e63 6861 6c79  ithub.com/nchaly
++00003120: 223e 3c69 6d67 2073 7263 3d22 6874 7470  "><img src="http
++00003130: 733a 2f2f 6176 6174 6172 732e 6769 7468  s://avatars.gith
++00003140: 7562 7573 6572 636f 6e74 656e 742e 636f  ubusercontent.co
++00003150: 6d2f 752f 3236 3635 3237 333f 763d 343f  m/u/2665273?v=4?
++00003160: 733d 3130 3022 2077 6964 7468 3d22 3130  s=100" width="10
++00003170: 3070 783b 2220 616c 743d 224d 696b 616c  0px;" alt="Mikal
++00003180: 6169 2043 6861 6c79 222f 3e3c 6272 202f  ai Chaly"/><br /
++00003190: 3e3c 7375 623e 3c62 3e4d 696b 616c 6169  ><sub><b>Mikalai
++000031a0: 2043 6861 6c79 3c2f 623e 3c2f 7375 623e   Chaly</b></sub>
++000031b0: 3c2f 613e 3c62 7220 2f3e 3c61 2068 7265  </a><br /><a hre
++000031c0: 663d 2268 7474 7073 3a2f 2f67 6974 6875  f="https://githu
++000031d0: 622e 636f 6d2f 6d61 6e73 656e 6672 616e  b.com/mansenfran
++000031e0: 7a65 6e2f 6175 746f 646f 635f 7079 6461  zen/autodoc_pyda
++000031f0: 6e74 6963 2f69 7373 7565 733f 713d 6175  ntic/issues?q=au
++00003200: 7468 6f72 2533 416e 6368 616c 7922 2074  thor%3Anchaly" t
++00003210: 6974 6c65 3d22 4275 6720 7265 706f 7274  itle="Bug report
++00003220: 7322 3ef0 9f90 9b3c 2f61 3e20 3c61 2068  s">....</a> <a h
++00003230: 7265 663d 2268 7474 7073 3a2f 2f67 6974  ref="https://git
++00003240: 6875 622e 636f 6d2f 6d61 6e73 656e 6672  hub.com/mansenfr
++00003250: 616e 7a65 6e2f 6175 746f 646f 635f 7079  anzen/autodoc_py
++00003260: 6461 6e74 6963 2f63 6f6d 6d69 7473 3f61  dantic/commits?a
++00003270: 7574 686f 723d 6e63 6861 6c79 2220 7469  uthor=nchaly" ti
++00003280: 746c 653d 2254 6573 7473 223e e29a a0ef  tle="Tests">....
++00003290: b88f 3c2f 613e 3c2f 7464 3e0a 2020 2020  ..</a></td>.    
++000032a0: 2020 3c74 6420 616c 6967 6e3d 2263 656e    <td align="cen
++000032b0: 7465 7222 2076 616c 6967 6e3d 2274 6f70  ter" valign="top
++000032c0: 2220 7769 6474 683d 2231 342e 3238 2522  " width="14.28%"
++000032d0: 3e3c 6120 6872 6566 3d22 6874 7470 733a  ><a href="https:
++000032e0: 2f2f 6769 7468 7562 2e63 6f6d 2f53 7469  //github.com/Sti
++000032f0: 674b 6f72 736e 6573 223e 3c69 6d67 2073  gKorsnes"><img s
++00003300: 7263 3d22 6874 7470 733a 2f2f 6176 6174  rc="https://avat
++00003310: 6172 732e 6769 7468 7562 7573 6572 636f  ars.githubuserco
++00003320: 6e74 656e 742e 636f 6d2f 752f 3130 3038  ntent.com/u/1008
++00003330: 3535 3336 3f76 3d34 3f73 3d31 3030 2220  5536?v=4?s=100" 
++00003340: 7769 6474 683d 2231 3030 7078 3b22 2061  width="100px;" a
++00003350: 6c74 3d22 5374 6967 204b 6f72 736e 6573  lt="Stig Korsnes
++00003360: 222f 3e3c 6272 202f 3e3c 7375 623e 3c62  "/><br /><sub><b
++00003370: 3e53 7469 6720 4b6f 7273 6e65 733c 2f62  >Stig Korsnes</b
++00003380: 3e3c 2f73 7562 3e3c 2f61 3e3c 6272 202f  ></sub></a><br /
++00003390: 3e3c 6120 6872 6566 3d22 6874 7470 733a  ><a href="https:
++000033a0: 2f2f 6769 7468 7562 2e63 6f6d 2f6d 616e  //github.com/man
++000033b0: 7365 6e66 7261 6e7a 656e 2f61 7574 6f64  senfranzen/autod
++000033c0: 6f63 5f70 7964 616e 7469 632f 6973 7375  oc_pydantic/issu
++000033d0: 6573 3f71 3d61 7574 686f 7225 3341 5374  es?q=author%3ASt
++000033e0: 6967 4b6f 7273 6e65 7322 2074 6974 6c65  igKorsnes" title
++000033f0: 3d22 4275 6720 7265 706f 7274 7322 3ef0  ="Bug reports">.
++00003400: 9f90 9b3c 2f61 3e20 3c61 2068 7265 663d  ...</a> <a href=
++00003410: 2223 6964 6561 732d 5374 6967 4b6f 7273  "#ideas-StigKors
++00003420: 6e65 7322 2074 6974 6c65 3d22 4964 6561  nes" title="Idea
++00003430: 732c 2050 6c61 6e6e 696e 672c 2026 2046  s, Planning, & F
++00003440: 6565 6462 6163 6b22 3ef0 9fa4 943c 2f61  eedback">....</a
++00003450: 3e3c 2f74 643e 0a20 2020 2020 203c 7464  ></td>.      <td
++00003460: 2061 6c69 676e 3d22 6365 6e74 6572 2220   align="center" 
++00003470: 7661 6c69 676e 3d22 746f 7022 2077 6964  valign="top" wid
++00003480: 7468 3d22 3134 2e32 3825 223e 3c61 2068  th="14.28%"><a h
++00003490: 7265 663d 2268 7474 7073 3a2f 2f67 6974  ref="https://git
++000034a0: 6875 622e 636f 6d2f 696c 6961 6b75 7222  hub.com/iliakur"
++000034b0: 3e3c 696d 6720 7372 633d 2268 7474 7073  ><img src="https
++000034c0: 3a2f 2f61 7661 7461 7273 2e67 6974 6875  ://avatars.githu
++000034d0: 6275 7365 7263 6f6e 7465 6e74 2e63 6f6d  busercontent.com
++000034e0: 2f75 2f38 3939 3539 313f 763d 343f 733d  /u/899591?v=4?s=
++000034f0: 3130 3022 2077 6964 7468 3d22 3130 3070  100" width="100p
++00003500: 783b 2220 616c 743d 2249 6c69 6120 4b75  x;" alt="Ilia Ku
++00003510: 7265 6e6b 6f76 222f 3e3c 6272 202f 3e3c  renkov"/><br /><
++00003520: 7375 623e 3c62 3e49 6c69 6120 4b75 7265  sub><b>Ilia Kure
++00003530: 6e6b 6f76 3c2f 623e 3c2f 7375 623e 3c2f  nkov</b></sub></
++00003540: 613e 3c62 7220 2f3e 3c61 2068 7265 663d  a><br /><a href=
++00003550: 2268 7474 7073 3a2f 2f67 6974 6875 622e  "https://github.
++00003560: 636f 6d2f 6d61 6e73 656e 6672 616e 7a65  com/mansenfranze
++00003570: 6e2f 6175 746f 646f 635f 7079 6461 6e74  n/autodoc_pydant
++00003580: 6963 2f69 7373 7565 733f 713d 6175 7468  ic/issues?q=auth
++00003590: 6f72 2533 4169 6c69 616b 7572 2220 7469  or%3Ailiakur" ti
++000035a0: 746c 653d 2242 7567 2072 6570 6f72 7473  tle="Bug reports
++000035b0: 223e f09f 909b 3c2f 613e 3c2f 7464 3e0a  ">....</a></td>.
++000035c0: 2020 2020 2020 3c74 6420 616c 6967 6e3d        <td align=
++000035d0: 2263 656e 7465 7222 2076 616c 6967 6e3d  "center" valign=
++000035e0: 2274 6f70 2220 7769 6474 683d 2231 342e  "top" width="14.
++000035f0: 3238 2522 3e3c 6120 6872 6566 3d22 6874  28%"><a href="ht
++00003600: 7470 733a 2f2f 6f72 6369 642e 6f72 672f  tps://orcid.org/
++00003610: 6d79 2d6f 7263 6964 3f6f 7263 6964 3d30  my-orcid?orcid=0
++00003620: 3030 302d 3030 3032 2d35 3437 302d 3136  000-0002-5470-16
++00003630: 3736 223e 3c69 6d67 2073 7263 3d22 6874  76"><img src="ht
++00003640: 7470 733a 2f2f 6176 6174 6172 732e 6769  tps://avatars.gi
++00003650: 7468 7562 7573 6572 636f 6e74 656e 742e  thubusercontent.
++00003660: 636f 6d2f 752f 3338 3236 3231 303f 763d  com/u/3826210?v=
++00003670: 343f 733d 3130 3022 2077 6964 7468 3d22  4?s=100" width="
++00003680: 3130 3070 783b 2220 616c 743d 2247 727a  100px;" alt="Grz
++00003690: 6567 6f72 7a20 426f 6b6f 7461 222f 3e3c  egorz Bokota"/><
++000036a0: 6272 202f 3e3c 7375 623e 3c62 3e47 727a  br /><sub><b>Grz
++000036b0: 6567 6f72 7a20 426f 6b6f 7461 3c2f 623e  egorz Bokota</b>
++000036c0: 3c2f 7375 623e 3c2f 613e 3c62 7220 2f3e  </sub></a><br />
++000036d0: 3c61 2068 7265 663d 2268 7474 7073 3a2f  <a href="https:/
++000036e0: 2f67 6974 6875 622e 636f 6d2f 6d61 6e73  /github.com/mans
++000036f0: 656e 6672 616e 7a65 6e2f 6175 746f 646f  enfranzen/autodo
++00003700: 635f 7079 6461 6e74 6963 2f69 7373 7565  c_pydantic/issue
++00003710: 733f 713d 6175 7468 6f72 2533 4143 7a61  s?q=author%3ACza
++00003720: 6b69 2220 7469 746c 653d 2242 7567 2072  ki" title="Bug r
++00003730: 6570 6f72 7473 223e f09f 909b 3c2f 613e  eports">....</a>
++00003740: 3c2f 7464 3e0a 2020 2020 3c2f 7472 3e0a  </td>.    </tr>.
++00003750: 2020 2020 3c74 723e 0a20 2020 2020 203c      <tr>.      <
++00003760: 7464 2061 6c69 676e 3d22 6365 6e74 6572  td align="center
++00003770: 2220 7661 6c69 676e 3d22 746f 7022 2077  " valign="top" w
++00003780: 6964 7468 3d22 3134 2e32 3825 223e 3c61  idth="14.28%"><a
++00003790: 2068 7265 663d 2268 7474 7073 3a2f 2f67   href="https://g
++000037a0: 6974 6875 622e 636f 6d2f 6a67 756e 7374  ithub.com/jgunst
++000037b0: 6f6e 6522 3e3c 696d 6720 7372 633d 2268  one"><img src="h
++000037c0: 7474 7073 3a2f 2f61 7661 7461 7273 2e67  ttps://avatars.g
++000037d0: 6974 6875 6275 7365 7263 6f6e 7465 6e74  ithubusercontent
++000037e0: 2e63 6f6d 2f75 2f32 3133 3730 3938 303f  .com/u/21370980?
++000037f0: 763d 343f 733d 3130 3022 2077 6964 7468  v=4?s=100" width
++00003800: 3d22 3130 3070 783b 2220 616c 743d 226a  ="100px;" alt="j
++00003810: 6775 6e73 746f 6e65 222f 3e3c 6272 202f  gunstone"/><br /
++00003820: 3e3c 7375 623e 3c62 3e6a 6775 6e73 746f  ><sub><b>jgunsto
++00003830: 6e65 3c2f 623e 3c2f 7375 623e 3c2f 613e  ne</b></sub></a>
++00003840: 3c62 7220 2f3e 3c61 2068 7265 663d 2268  <br /><a href="h
++00003850: 7474 7073 3a2f 2f67 6974 6875 622e 636f  ttps://github.co
++00003860: 6d2f 6d61 6e73 656e 6672 616e 7a65 6e2f  m/mansenfranzen/
++00003870: 6175 746f 646f 635f 7079 6461 6e74 6963  autodoc_pydantic
++00003880: 2f69 7373 7565 733f 713d 6175 7468 6f72  /issues?q=author
++00003890: 2533 416a 6775 6e73 746f 6e65 2220 7469  %3Ajgunstone" ti
++000038a0: 746c 653d 2242 7567 2072 6570 6f72 7473  tle="Bug reports
++000038b0: 223e f09f 909b 3c2f 613e 3c2f 7464 3e0a  ">....</a></td>.
++000038c0: 2020 2020 2020 3c74 6420 616c 6967 6e3d        <td align=
++000038d0: 2263 656e 7465 7222 2076 616c 6967 6e3d  "center" valign=
++000038e0: 2274 6f70 2220 7769 6474 683d 2231 342e  "top" width="14.
++000038f0: 3238 2522 3e3c 6120 6872 6566 3d22 6874  28%"><a href="ht
++00003900: 7470 733a 2f2f 6769 7468 7562 2e63 6f6d  tps://github.com
++00003910: 2f69 7779 726b 6f72 6522 3e3c 696d 6720  /iwyrkore"><img 
++00003920: 7372 633d 2268 7474 7073 3a2f 2f61 7661  src="https://ava
++00003930: 7461 7273 2e67 6974 6875 6275 7365 7263  tars.githubuserc
++00003940: 6f6e 7465 6e74 2e63 6f6d 2f75 2f39 3237  ontent.com/u/927
++00003950: 3435 3838 303f 763d 343f 733d 3130 3022  45880?v=4?s=100"
++00003960: 2077 6964 7468 3d22 3130 3070 783b 2220   width="100px;" 
++00003970: 616c 743d 2269 7779 726b 6f72 6522 2f3e  alt="iwyrkore"/>
++00003980: 3c62 7220 2f3e 3c73 7562 3e3c 623e 6977  <br /><sub><b>iw
++00003990: 7972 6b6f 7265 3c2f 623e 3c2f 7375 623e  yrkore</b></sub>
++000039a0: 3c2f 613e 3c62 7220 2f3e 3c61 2068 7265  </a><br /><a hre
++000039b0: 663d 2268 7474 7073 3a2f 2f67 6974 6875  f="https://githu
++000039c0: 622e 636f 6d2f 6d61 6e73 656e 6672 616e  b.com/mansenfran
++000039d0: 7a65 6e2f 6175 746f 646f 635f 7079 6461  zen/autodoc_pyda
++000039e0: 6e74 6963 2f63 6f6d 6d69 7473 3f61 7574  ntic/commits?aut
++000039f0: 686f 723d 6977 7972 6b6f 7265 2220 7469  hor=iwyrkore" ti
++00003a00: 746c 653d 2243 6f64 6522 3ef0 9f92 bb3c  tle="Code">....<
++00003a10: 2f61 3e3c 2f74 643e 0a20 2020 2020 203c  /a></td>.      <
++00003a20: 7464 2061 6c69 676e 3d22 6365 6e74 6572  td align="center
++00003a30: 2220 7661 6c69 676e 3d22 746f 7022 2077  " valign="top" w
++00003a40: 6964 7468 3d22 3134 2e32 3825 223e 3c61  idth="14.28%"><a
++00003a50: 2068 7265 663d 2268 7474 7073 3a2f 2f67   href="https://g
++00003a60: 6974 6875 622e 636f 6d2f 7370 6163 656d  ithub.com/spacem
++00003a70: 616e 7370 6966 6632 3030 3722 3e3c 696d  anspiff2007"><im
++00003a80: 6720 7372 633d 2268 7474 7073 3a2f 2f61  g src="https://a
++00003a90: 7661 7461 7273 2e67 6974 6875 6275 7365  vatars.githubuse
++00003aa0: 7263 6f6e 7465 6e74 2e63 6f6d 2f75 2f31  rcontent.com/u/1
++00003ab0: 3037 3534 3731 363f 763d 343f 733d 3130  0754716?v=4?s=10
++00003ac0: 3022 2077 6964 7468 3d22 3130 3070 783b  0" width="100px;
++00003ad0: 2220 616c 743d 2273 7061 6365 6d61 6e73  " alt="spacemans
++00003ae0: 7069 6666 3230 3037 222f 3e3c 6272 202f  piff2007"/><br /
++00003af0: 3e3c 7375 623e 3c62 3e73 7061 6365 6d61  ><sub><b>spacema
++00003b00: 6e73 7069 6666 3230 3037 3c2f 623e 3c2f  nspiff2007</b></
++00003b10: 7375 623e 3c2f 613e 3c62 7220 2f3e 3c61  sub></a><br /><a
++00003b20: 2068 7265 663d 2268 7474 7073 3a2f 2f67   href="https://g
++00003b30: 6974 6875 622e 636f 6d2f 6d61 6e73 656e  ithub.com/mansen
++00003b40: 6672 616e 7a65 6e2f 6175 746f 646f 635f  franzen/autodoc_
++00003b50: 7079 6461 6e74 6963 2f69 7373 7565 733f  pydantic/issues?
++00003b60: 713d 6175 7468 6f72 2533 4173 7061 6365  q=author%3Aspace
++00003b70: 6d61 6e73 7069 6666 3230 3037 2220 7469  manspiff2007" ti
++00003b80: 746c 653d 2242 7567 2072 6570 6f72 7473  tle="Bug reports
++00003b90: 223e f09f 909b 3c2f 613e 203c 6120 6872  ">....</a> <a hr
++00003ba0: 6566 3d22 2369 6465 6173 2d73 7061 6365  ef="#ideas-space
++00003bb0: 6d61 6e73 7069 6666 3230 3037 2220 7469  manspiff2007" ti
++00003bc0: 746c 653d 2249 6465 6173 2c20 506c 616e  tle="Ideas, Plan
++00003bd0: 6e69 6e67 2c20 2620 4665 6564 6261 636b  ning, & Feedback
++00003be0: 223e f09f a494 3c2f 613e 3c2f 7464 3e0a  ">....</a></td>.
++00003bf0: 2020 2020 2020 3c74 6420 616c 6967 6e3d        <td align=
++00003c00: 2263 656e 7465 7222 2076 616c 6967 6e3d  "center" valign=
++00003c10: 2274 6f70 2220 7769 6474 683d 2231 342e  "top" width="14.
++00003c20: 3238 2522 3e3c 6120 6872 6566 3d22 6874  28%"><a href="ht
++00003c30: 7470 733a 2f2f 6c75 6b65 2e68 7369 616f  tps://luke.hsiao
++00003c40: 2e64 6576 223e 3c69 6d67 2073 7263 3d22  .dev"><img src="
++00003c50: 6874 7470 733a 2f2f 6176 6174 6172 732e  https://avatars.
++00003c60: 6769 7468 7562 7573 6572 636f 6e74 656e  githubuserconten
++00003c70: 742e 636f 6d2f 752f 3735 3733 3534 323f  t.com/u/7573542?
++00003c80: 763d 343f 733d 3130 3022 2077 6964 7468  v=4?s=100" width
++00003c90: 3d22 3130 3070 783b 2220 616c 743d 224c  ="100px;" alt="L
++00003ca0: 756b 6520 4873 6961 6f22 2f3e 3c62 7220  uke Hsiao"/><br 
++00003cb0: 2f3e 3c73 7562 3e3c 623e 4c75 6b65 2048  /><sub><b>Luke H
++00003cc0: 7369 616f 3c2f 623e 3c2f 7375 623e 3c2f  siao</b></sub></
++00003cd0: 613e 3c62 7220 2f3e 3c61 2068 7265 663d  a><br /><a href=
++00003ce0: 2268 7474 7073 3a2f 2f67 6974 6875 622e  "https://github.
++00003cf0: 636f 6d2f 6d61 6e73 656e 6672 616e 7a65  com/mansenfranze
++00003d00: 6e2f 6175 746f 646f 635f 7079 6461 6e74  n/autodoc_pydant
++00003d10: 6963 2f69 7373 7565 733f 713d 6175 7468  ic/issues?q=auth
++00003d20: 6f72 2533 416c 756b 6568 7369 616f 2220  or%3Alukehsiao" 
++00003d30: 7469 746c 653d 2242 7567 2072 6570 6f72  title="Bug repor
++00003d40: 7473 223e f09f 909b 3c2f 613e 3c2f 7464  ts">....</a></td
++00003d50: 3e0a 2020 2020 2020 3c74 6420 616c 6967  >.      <td alig
++00003d60: 6e3d 2263 656e 7465 7222 2076 616c 6967  n="center" valig
++00003d70: 6e3d 2274 6f70 2220 7769 6474 683d 2231  n="top" width="1
++00003d80: 342e 3238 2522 3e3c 6120 6872 6566 3d22  4.28%"><a href="
++00003d90: 6874 7470 733a 2f2f 6769 7468 7562 2e63  https://github.c
++00003da0: 6f6d 2f6e 6963 6b65 6c64 616e 223e 3c69  om/nickeldan"><i
++00003db0: 6d67 2073 7263 3d22 6874 7470 733a 2f2f  mg src="https://
++00003dc0: 6176 6174 6172 732e 6769 7468 7562 7573  avatars.githubus
++00003dd0: 6572 636f 6e74 656e 742e 636f 6d2f 752f  ercontent.com/u/
++00003de0: 3231 3231 3035 3932 3f76 3d34 3f73 3d31  21210592?v=4?s=1
++00003df0: 3030 2220 7769 6474 683d 2231 3030 7078  00" width="100px
++00003e00: 3b22 2061 6c74 3d22 4461 6e69 656c 2057  ;" alt="Daniel W
++00003e10: 616c 6b65 7222 2f3e 3c62 7220 2f3e 3c73  alker"/><br /><s
++00003e20: 7562 3e3c 623e 4461 6e69 656c 2057 616c  ub><b>Daniel Wal
++00003e30: 6b65 723c 2f62 3e3c 2f73 7562 3e3c 2f61  ker</b></sub></a
++00003e40: 3e3c 6272 202f 3e3c 6120 6872 6566 3d22  ><br /><a href="
++00003e50: 6874 7470 733a 2f2f 6769 7468 7562 2e63  https://github.c
++00003e60: 6f6d 2f6d 616e 7365 6e66 7261 6e7a 656e  om/mansenfranzen
++00003e70: 2f61 7574 6f64 6f63 5f70 7964 616e 7469  /autodoc_pydanti
++00003e80: 632f 6973 7375 6573 3f71 3d61 7574 686f  c/issues?q=autho
++00003e90: 7225 3341 6e69 636b 656c 6461 6e22 2074  r%3Anickeldan" t
++00003ea0: 6974 6c65 3d22 4275 6720 7265 706f 7274  itle="Bug report
++00003eb0: 7322 3ef0 9f90 9b3c 2f61 3e3c 2f74 643e  s">....</a></td>
++00003ec0: 0a20 2020 2020 203c 7464 2061 6c69 676e  .      <td align
++00003ed0: 3d22 6365 6e74 6572 2220 7661 6c69 676e  ="center" valign
++00003ee0: 3d22 746f 7022 2077 6964 7468 3d22 3134  ="top" width="14
++00003ef0: 2e32 3825 223e 3c61 2068 7265 663d 2268  .28%"><a href="h
++00003f00: 7474 7073 3a2f 2f74 2e6d 652f 7069 7065  ttps://t.me/pipe
++00003f10: 6b6e 6967 6874 223e 3c69 6d67 2073 7263  knight"><img src
++00003f20: 3d22 6874 7470 733a 2f2f 6176 6174 6172  ="https://avatar
++00003f30: 732e 6769 7468 7562 7573 6572 636f 6e74  s.githubusercont
++00003f40: 656e 742e 636f 6d2f 752f 3334 3831 3035  ent.com/u/348105
++00003f50: 3636 3f76 3d34 3f73 3d31 3030 2220 7769  66?v=4?s=100" wi
++00003f60: 6474 683d 2231 3030 7078 3b22 2061 6c74  dth="100px;" alt
++00003f70: 3d22 4576 6765 6e69 7920 4c75 7061 7368  ="Evgeniy Lupash
++00003f80: 696e 222f 3e3c 6272 202f 3e3c 7375 623e  in"/><br /><sub>
++00003f90: 3c62 3e45 7667 656e 6979 204c 7570 6173  <b>Evgeniy Lupas
++00003fa0: 6869 6e3c 2f62 3e3c 2f73 7562 3e3c 2f61  hin</b></sub></a
++00003fb0: 3e3c 6272 202f 3e3c 6120 6872 6566 3d22  ><br /><a href="
++00003fc0: 6874 7470 733a 2f2f 6769 7468 7562 2e63  https://github.c
++00003fd0: 6f6d 2f6d 616e 7365 6e66 7261 6e7a 656e  om/mansenfranzen
++00003fe0: 2f61 7574 6f64 6f63 5f70 7964 616e 7469  /autodoc_pydanti
++00003ff0: 632f 6973 7375 6573 3f71 3d61 7574 686f  c/issues?q=autho
++00004000: 7225 3341 5069 7065 4b6e 6967 6874 2220  r%3APipeKnight" 
++00004010: 7469 746c 653d 2242 7567 2072 6570 6f72  title="Bug repor
++00004020: 7473 223e f09f 909b 3c2f 613e 3c2f 7464  ts">....</a></td
++00004030: 3e0a 2020 2020 2020 3c74 6420 616c 6967  >.      <td alig
++00004040: 6e3d 2263 656e 7465 7222 2076 616c 6967  n="center" valig
++00004050: 6e3d 2274 6f70 2220 7769 6474 683d 2231  n="top" width="1
++00004060: 342e 3238 2522 3e3c 6120 6872 6566 3d22  4.28%"><a href="
++00004070: 6874 7470 3a2f 2f6a 616e 6865 6e64 7269  http://janhendri
++00004080: 6b65 7765 7273 2e75 6b2f 223e 3c69 6d67  kewers.uk/"><img
++00004090: 2073 7263 3d22 6874 7470 733a 2f2f 6176   src="https://av
++000040a0: 6174 6172 732e 6769 7468 7562 7573 6572  atars.githubuser
++000040b0: 636f 6e74 656e 742e 636f 6d2f 752f 3132  content.com/u/12
++000040c0: 3338 3330 3239 3f76 3d34 3f73 3d31 3030  383029?v=4?s=100
++000040d0: 2220 7769 6474 683d 2231 3030 7078 3b22  " width="100px;"
++000040e0: 2061 6c74 3d22 4a61 6e2d 4865 6e64 7269   alt="Jan-Hendri
++000040f0: 6b20 4577 6572 7322 2f3e 3c62 7220 2f3e  k Ewers"/><br />
++00004100: 3c73 7562 3e3c 623e 4a61 6e2d 4865 6e64  <sub><b>Jan-Hend
++00004110: 7269 6b20 4577 6572 733c 2f62 3e3c 2f73  rik Ewers</b></s
++00004120: 7562 3e3c 2f61 3e3c 6272 202f 3e3c 6120  ub></a><br /><a 
++00004130: 6872 6566 3d22 6874 7470 733a 2f2f 6769  href="https://gi
++00004140: 7468 7562 2e63 6f6d 2f6d 616e 7365 6e66  thub.com/mansenf
++00004150: 7261 6e7a 656e 2f61 7574 6f64 6f63 5f70  ranzen/autodoc_p
++00004160: 7964 616e 7469 632f 6973 7375 6573 3f71  ydantic/issues?q
++00004170: 3d61 7574 686f 7225 3341 6977 6973 6869  =author%3Aiwishi
++00004180: 7761 7361 6e65 6167 6c65 2220 7469 746c  wasaneagle" titl
++00004190: 653d 2242 7567 2072 6570 6f72 7473 223e  e="Bug reports">
++000041a0: f09f 909b 3c2f 613e 3c2f 7464 3e0a 2020  ....</a></td>.  
++000041b0: 2020 3c2f 7472 3e0a 2020 2020 3c74 723e    </tr>.    <tr>
++000041c0: 0a20 2020 2020 203c 7464 2061 6c69 676e  .      <td align
++000041d0: 3d22 6365 6e74 6572 2220 7661 6c69 676e  ="center" valign
++000041e0: 3d22 746f 7022 2077 6964 7468 3d22 3134  ="top" width="14
++000041f0: 2e32 3825 223e 3c61 2068 7265 663d 2268  .28%"><a href="h
++00004200: 7474 7073 3a2f 2f6a 6f6e 2d65 2e6e 6574  ttps://jon-e.net
++00004210: 223e 3c69 6d67 2073 7263 3d22 6874 7470  "><img src="http
++00004220: 733a 2f2f 6176 6174 6172 732e 6769 7468  s://avatars.gith
++00004230: 7562 7573 6572 636f 6e74 656e 742e 636f  ubusercontent.co
++00004240: 6d2f 752f 3132 3936 3134 3939 3f76 3d34  m/u/12961499?v=4
++00004250: 3f73 3d31 3030 2220 7769 6474 683d 2231  ?s=100" width="1
++00004260: 3030 7078 3b22 2061 6c74 3d22 4a6f 6e6e  00px;" alt="Jonn
++00004270: 7920 5361 756e 6465 7273 222f 3e3c 6272  y Saunders"/><br
++00004280: 202f 3e3c 7375 623e 3c62 3e4a 6f6e 6e79   /><sub><b>Jonny
++00004290: 2053 6175 6e64 6572 733c 2f62 3e3c 2f73   Saunders</b></s
++000042a0: 7562 3e3c 2f61 3e3c 6272 202f 3e3c 6120  ub></a><br /><a 
++000042b0: 6872 6566 3d22 6874 7470 733a 2f2f 6769  href="https://gi
++000042c0: 7468 7562 2e63 6f6d 2f6d 616e 7365 6e66  thub.com/mansenf
++000042d0: 7261 6e7a 656e 2f61 7574 6f64 6f63 5f70  ranzen/autodoc_p
++000042e0: 7964 616e 7469 632f 6973 7375 6573 3f71  ydantic/issues?q
++000042f0: 3d61 7574 686f 7225 3341 736e 6561 6b65  =author%3Asneake
++00004300: 7273 2d74 6865 2d72 6174 2220 7469 746c  rs-the-rat" titl
++00004310: 653d 2242 7567 2072 6570 6f72 7473 223e  e="Bug reports">
++00004320: f09f 909b 3c2f 613e 3c2f 7464 3e0a 2020  ....</a></td>.  
++00004330: 2020 2020 3c74 6420 616c 6967 6e3d 2263      <td align="c
++00004340: 656e 7465 7222 2076 616c 6967 6e3d 2274  enter" valign="t
++00004350: 6f70 2220 7769 6474 683d 2231 342e 3238  op" width="14.28
++00004360: 2522 3e3c 6120 6872 6566 3d22 6874 7470  %"><a href="http
++00004370: 3a2f 2f63 6861 726c 6965 2e6d 6163 6861  ://charlie.macha
++00004380: 6c6f 772e 636f 6d22 3e3c 696d 6720 7372  low.com"><img sr
++00004390: 633d 2268 7474 7073 3a2f 2f61 7661 7461  c="https://avata
++000043a0: 7273 2e67 6974 6875 6275 7365 7263 6f6e  rs.githubusercon
++000043b0: 7465 6e74 2e63 6f6d 2f75 2f35 3734 3938  tent.com/u/57498
++000043c0: 3338 3f76 3d34 3f73 3d31 3030 2220 7769  38?v=4?s=100" wi
++000043d0: 6474 683d 2231 3030 7078 3b22 2061 6c74  dth="100px;" alt
++000043e0: 3d22 4368 6172 6c65 7320 4d61 6368 616c  ="Charles Machal
++000043f0: 6f77 222f 3e3c 6272 202f 3e3c 7375 623e  ow"/><br /><sub>
++00004400: 3c62 3e43 6861 726c 6573 204d 6163 6861  <b>Charles Macha
++00004410: 6c6f 773c 2f62 3e3c 2f73 7562 3e3c 2f61  low</b></sub></a
++00004420: 3e3c 6272 202f 3e3c 6120 6872 6566 3d22  ><br /><a href="
++00004430: 2371 7565 7374 696f 6e2d 6373 6d31 3034  #question-csm104
++00004440: 3935 2220 7469 746c 653d 2241 6e73 7765  95" title="Answe
++00004450: 7269 6e67 2051 7565 7374 696f 6e73 223e  ring Questions">
++00004460: f09f 92ac 3c2f 613e 3c2f 7464 3e0a 2020  ....</a></td>.  
++00004470: 2020 2020 3c74 6420 616c 6967 6e3d 2263      <td align="c
++00004480: 656e 7465 7222 2076 616c 6967 6e3d 2274  enter" valign="t
++00004490: 6f70 2220 7769 6474 683d 2231 342e 3238  op" width="14.28
++000044a0: 2522 3e3c 6120 6872 6566 3d22 6874 7470  %"><a href="http
++000044b0: 733a 2f2f 6769 7468 7562 2e63 6f6d 2f74  s://github.com/t
++000044c0: 6b61 7261 6f75 7a65 6e65 223e 3c69 6d67  karaouzene"><img
++000044d0: 2073 7263 3d22 6874 7470 733a 2f2f 6176   src="https://av
++000044e0: 6174 6172 732e 6769 7468 7562 7573 6572  atars.githubuser
++000044f0: 636f 6e74 656e 742e 636f 6d2f 752f 3230  content.com/u/20
++00004500: 3036 3430 3737 3f76 3d34 3f73 3d31 3030  064077?v=4?s=100
++00004510: 2220 7769 6474 683d 2231 3030 7078 3b22  " width="100px;"
++00004520: 2061 6c74 3d22 5468 6f6d 6173 204b 6172   alt="Thomas Kar
++00004530: 616f 757a 656e 6522 2f3e 3c62 7220 2f3e  aouzene"/><br />
++00004540: 3c73 7562 3e3c 623e 5468 6f6d 6173 204b  <sub><b>Thomas K
++00004550: 6172 616f 757a 656e 653c 2f62 3e3c 2f73  araouzene</b></s
++00004560: 7562 3e3c 2f61 3e3c 6272 202f 3e3c 6120  ub></a><br /><a 
++00004570: 6872 6566 3d22 6874 7470 733a 2f2f 6769  href="https://gi
++00004580: 7468 7562 2e63 6f6d 2f6d 616e 7365 6e66  thub.com/mansenf
++00004590: 7261 6e7a 656e 2f61 7574 6f64 6f63 5f70  ranzen/autodoc_p
++000045a0: 7964 616e 7469 632f 6973 7375 6573 3f71  ydantic/issues?q
++000045b0: 3d61 7574 686f 7225 3341 746b 6172 616f  =author%3Atkarao
++000045c0: 757a 656e 6522 2074 6974 6c65 3d22 4275  uzene" title="Bu
++000045d0: 6720 7265 706f 7274 7322 3ef0 9f90 9b3c  g reports">....<
++000045e0: 2f61 3e3c 2f74 643e 0a20 2020 203c 2f74  /a></td>.    </t
++000045f0: 723e 0a20 203c 2f74 626f 6479 3e0a 3c2f  r>.  </tbody>.</
++00004600: 7461 626c 653e 0a0a 3c21 2d2d 206d 6172  table>..<!-- mar
++00004610: 6b64 6f77 6e6c 696e 742d 7265 7374 6f72  kdownlint-restor
++00004620: 6520 2d2d 3e0a 3c21 2d2d 2070 7265 7474  e -->.<!-- prett
++00004630: 6965 722d 6967 6e6f 7265 2d65 6e64 202d  ier-ignore-end -
++00004640: 2d3e 0a0a 3c21 2d2d 2041 4c4c 2d43 4f4e  ->..<!-- ALL-CON
++00004650: 5452 4942 5554 4f52 532d 4c49 5354 3a45  TRIBUTORS-LIST:E
++00004660: 4e44 202d 2d3e 0a0a 5468 6973 2070 726f  ND -->..This pro
++00004670: 6a65 6374 2066 6f6c 6c6f 7773 2074 6865  ject follows the
++00004680: 205b 616c 6c2d 636f 6e74 7269 6275 746f   [all-contributo
++00004690: 7273 5d28 6874 7470 733a 2f2f 6769 7468  rs](https://gith
++000046a0: 7562 2e63 6f6d 2f61 6c6c 2d63 6f6e 7472  ub.com/all-contr
++000046b0: 6962 7574 6f72 732f 616c 6c2d 636f 6e74  ibutors/all-cont
++000046c0: 7269 6275 746f 7273 2920 7370 6563 6966  ributors) specif
++000046d0: 6963 6174 696f 6e2e 2043 6f6e 7472 6962  ication. Contrib
++000046e0: 7574 696f 6e73 206f 6620 616e 7920 6b69  utions of any ki
++000046f0: 6e64 2077 656c 636f 6d65 210a 0a         nd welcome!..
+```
+
+### Comparing `autodoc_pydantic-1.8.0/pyproject.toml` & `autodoc_pydantic-1.9.0/pyproject.toml`
+
+ * *Files 7% similar despite different names*
+
+```diff
+@@ -1,10 +1,10 @@
+ [tool.poetry]
+ name = "autodoc_pydantic"
+-version = "1.8.0"
++version = "1.9.0"
+ description = "Seamlessly integrate pydantic models in your Sphinx documentation."
+ authors = ["mansenfranzen <franz.woellert@gmail.com>"]
+ packages = [{ include = "sphinxcontrib" }]
+ license = "MIT"
+ readme = "README.md"
+ homepage = "https://github.com/mansenfranzen/autodoc_pydantic"
+ repository = "https://github.com/mansenfranzen/autodoc_pydantic"
+@@ -14,26 +14,27 @@
+     "Framework :: Sphinx :: Extension",
+     "Topic :: Documentation :: Sphinx",
+     "Topic :: Software Development :: Documentation"
+ ]
+ include = ["sphinxcontrib/autodoc_pydantic/css/autodoc_pydantic.css"]
+ 
+ [tool.poetry.dependencies]
+-python = ">=3.6,<4.0.0"
++python = ">=3.7.1,<4.0.0"
+ Sphinx = ">=3.4"
+-pydantic = ">=1.5"
++pydantic = ">=1.5,<2.0.0"
+ 
+ sphinx-rtd-theme = { version = "^1.0", optional = true }
+ sphinx-tabs = { version = "^3", optional = true }
+ sphinx-copybutton = { version = "^0.4", optional = true }
+ sphinxcontrib-mermaid = { version = "^0.7", optional = true }
+-pytest = {version = "^6", optional = true }
+-coverage = { version ="^5", optional = true }
++pytest = {version = "^7", optional = true }
++coverage = { version ="^7", optional = true }
+ flake8 = { version = "^3", optional = true }
+ tox = { version ="^3", optional = true }
++erdantic= { version ="^0.5", optional = true }
+ 
+ [tool.pytest.ini_options]
+ minversion = "6.0"
+ 
+ [tool.poetry.extras]
+ docs = ["sphinx-rtd-theme",
+         "sphinx-tabs",
+@@ -48,10 +49,12 @@
+        "sphinx-rtd-theme",
+        "sphinx-tabs",
+        "sphinx-copybutton",
+        "sphinxcontrib-mermaid",
+        "flake8",
+        "tox"]
+ 
++erdantic = ["erdantic"]
++
+ [build-system]
+ requires = ["poetry-core>=1.0.0"]
+ build-backend = "poetry.core.masonry.api"
+```
+
+### Comparing `autodoc_pydantic-1.8.0/sphinxcontrib/autodoc_pydantic/__init__.py` & `autodoc_pydantic-1.9.0/sphinxcontrib/autodoc_pydantic/__init__.py`
+
+ * *Files 1% similar despite different names*
+
+```diff
+@@ -102,14 +102,16 @@
+     add(f'{stem}model_summary_list_order', summary_list_order, True, str)
+     add(f'{stem}model_hide_paramlist', True, True, bool)
+     add(f'{stem}model_hide_reused_validator', True, True, bool)
+     add(f'{stem}model_undoc_members', True, True, bool)
+     add(f'{stem}model_members', True, True, bool)
+     add(f'{stem}model_member_order', 'groupwise', True, str)
+     add(f'{stem}model_signature_prefix', "pydantic model", True, str)
++    add(f'{stem}model_erdantic_figure', False, True, bool)
++    add(f'{stem}model_erdantic_figure_collapsed', True, True, bool)
+ 
+     add(f'{stem}validator_signature_prefix', "validator", True, str)
+     add(f'{stem}validator_replace_signature', True, True, bool)
+     add(f'{stem}validator_list_fields', False, True, bool)
+ 
+     add(f'{stem}field_list_validators', True, True, bool)
+     add(f'{stem}field_doc_policy', OptionsFieldDocPolicy.BOTH, True, str)
+```
+
+### Comparing `autodoc_pydantic-1.8.0/sphinxcontrib/autodoc_pydantic/directives/autodocumenters.py` & `autodoc_pydantic-1.9.0/sphinxcontrib/autodoc_pydantic/directives/autodocumenters.py`
+
+ * *Files 2% similar despite different names*
+
+```diff
+@@ -28,21 +28,25 @@
+     OPTIONS_MODEL,
+     OPTIONS_SETTINGS,
+     OPTIONS_FIELD,
+     OPTIONS_VALIDATOR,
+     OPTIONS_CONFIG,
+     OPTIONS_MERGED
+ )
+-from sphinxcontrib.autodoc_pydantic.directives.templates import TPL_COLLAPSE
++from sphinxcontrib.autodoc_pydantic.directives.templates import to_collapsable
+ from sphinxcontrib.autodoc_pydantic.inspection import ModelInspector, \
+     ValidatorFieldMap
+ from sphinxcontrib.autodoc_pydantic.directives.options.composites import (
+     AutoDocOptions
+ )
+ from sphinxcontrib.autodoc_pydantic.directives.utility import NONE
++try:
++    import erdantic as erd
++except ImportError:
++    erd = None
+ 
+ 
+ class PydanticAutoDoc:
+     """Composite to provide single namespace to access all **autodoc_pydantic**
+     relevant documenter directive functionalities.
+ 
+     """
+@@ -271,21 +275,23 @@
+     def add_content(self,
+                     more_content: Optional[StringList],
+                     **kwargs
+                     ) -> None:
+         """Delegate additional content creation.
+ 
+         """
+-
+         super().add_content(more_content, **kwargs)
+ 
+         # do not provide any additional info if documented as attribute
+         if self.doc_as_attr:
+             return
+ 
++        if self.pydantic.options.is_true("erdantic-figure", True):
++            self.add_erdantic_figure()
++
+         if self.pydantic.options.is_true("show-json", True):
+             self.add_collapsable_schema()
+ 
+         if self.pydantic.options.is_true("show-config-summary", True):
+             self.add_config_summary()
+ 
+         if self.pydantic.options.is_true("show-field-summary", True):
+@@ -320,18 +326,45 @@
+                 raise sphinx.errors.ExtensionError(
+                     f"Invalid option provided for 'show-json-error-strategy'. "
+                     f"Allowed values are f{OptionsJsonErrorStrategy.values()}"
+                 )
+ 
+         schema_rest = self._convert_json_schema_to_rest(schema)
+         source_name = self.get_sourcename()
+-
+         for line in schema_rest:
+             self.add_line(line, source_name)
+ 
++    def add_erdantic_figure(self):
++        """Adds an erdantic entity relation diagram to the doc of an
++        pydantic model.
++
++        """
++        source_name = self.get_sourcename()
++        if erd is None:
++            error_msg = 'erdantic is not installed, you need to install ' \
++                'it before creating an Entity Relationship Diagram for ' \
++                'f{self.fullname}. See ' \
++                'https://autodoc-pydantic.readthedocs.io/' \
++                'en/stable/users/installation.html'
++            raise RuntimeError(error_msg)
++
++        # Graphviz [DOT language](https://graphviz.org/doc/info/lang.html)
++        figure_dot = erd.to_dot(self.object).replace('\t', '   ').split('\n')
++        lines_dot = ['   ' + line for line in figure_dot]
++        lines = [".. graphviz::", ""] + lines_dot + [""]
++
++        if self.pydantic.options.is_true("erdantic-figure-collapsed", True):
++            lines = to_collapsable(
++                lines,
++                "Show Entity Relationship Diagram",
++                "autodoc_pydantic_collapsable_erd"
++            )
++        for line in lines:
++            self.add_line(line, source_name)
++
+     def add_config_summary(self):
+         """Adds summary section describing the model configuration.
+ 
+         """
+ 
+         if not self.pydantic.inspect.config.is_configured:
+             return
+@@ -504,17 +537,20 @@
+     def _convert_json_schema_to_rest(schema: Dict) -> List[str]:
+         """Convert model's schema dict into reST.
+ 
+         """
+ 
+         schema = json.dumps(schema, default=str, indent=3)
+         lines = [f"   {line}" for line in schema.split("\n")]
+-        lines = "\n".join(lines)
+-        lines = TPL_COLLAPSE.format(lines).split("\n")
+-
++        lines = ['.. code-block:: json', ''] + lines
++        lines = to_collapsable(
++            lines,
++            "Show JSON schema",
++            "autodoc_pydantic_collapsable_json"
++        )
+         return lines
+ 
+ 
+ class PydanticSettingsDocumenter(PydanticModelDocumenter):
+     """Represents specialized Documenter subclass for pydantic settings.
+ 
+     """
+```
+
+### Comparing `autodoc_pydantic-1.8.0/sphinxcontrib/autodoc_pydantic/directives/directives.py` & `autodoc_pydantic-1.9.0/sphinxcontrib/autodoc_pydantic/directives/directives.py`
+
+ * *Files identical despite different names*
+
+### Comparing `autodoc_pydantic-1.8.0/sphinxcontrib/autodoc_pydantic/directives/options/composites.py` & `autodoc_pydantic-1.9.0/sphinxcontrib/autodoc_pydantic/directives/options/composites.py`
+
+ * *Files identical despite different names*
+
+### Comparing `autodoc_pydantic-1.8.0/sphinxcontrib/autodoc_pydantic/directives/options/definition.py` & `autodoc_pydantic-1.9.0/sphinxcontrib/autodoc_pydantic/directives/options/definition.py`
+
+ * *Files 1% similar despite different names*
+
+```diff
+@@ -51,14 +51,16 @@
+     "model-show-validator-summary": option_default_true,
+     "model-show-field-summary": option_default_true,
+     "model-summary-list-order": option_one_of_factory(
+         OptionsSummaryListOrder.values()
+     ),
+     "model-show-config-member": option_default_true,
+     "model-show-config-summary": option_default_true,
++    "model-erdantic-figure": option_default_true,
++    "model-erdantic-figure-collapsed": option_default_true,
+     "model-signature-prefix": unchanged,
+     "undoc-members": option_default_true,
+     "members": option_members,
+     "__doc_disable_except__": option_list_like}
+ """Represents added directive options for :class:`PydanticModelDocumenter`."""
+ 
+ OPTIONS_SETTINGS = {
+```
+
+### Comparing `autodoc_pydantic-1.8.0/sphinxcontrib/autodoc_pydantic/directives/options/validators.py` & `autodoc_pydantic-1.9.0/sphinxcontrib/autodoc_pydantic/directives/options/validators.py`
+
+ * *Files identical despite different names*
+
+### Comparing `autodoc_pydantic-1.8.0/sphinxcontrib/autodoc_pydantic/directives/utility.py` & `autodoc_pydantic-1.9.0/sphinxcontrib/autodoc_pydantic/directives/utility.py`
+
+ * *Files identical despite different names*
+
+### Comparing `autodoc_pydantic-1.8.0/sphinxcontrib/autodoc_pydantic/events.py` & `autodoc_pydantic-1.9.0/sphinxcontrib/autodoc_pydantic/events.py`
+
+ * *Files identical despite different names*
+
+### Comparing `autodoc_pydantic-1.8.0/sphinxcontrib/autodoc_pydantic/inspection.py` & `autodoc_pydantic-1.9.0/sphinxcontrib/autodoc_pydantic/inspection.py`
+
+ * *Files identical despite different names*
+
+### Comparing `autodoc_pydantic-1.8.0/sphinxcontrib/autodoc_pydantic/utility.py` & `autodoc_pydantic-1.9.0/sphinxcontrib/autodoc_pydantic/utility.py`
+
+ * *Files 5% similar despite different names*
+
+```diff
+@@ -49,15 +49,17 @@
+ 
+     print(
+         f"Version info: "
+         f"autodoc_pydantic: {get_version('sphinxcontrib.autodoc_pydantic')} | "
+         f"pydantic: {get_version_special('pydantic')} | "
+         f"sphinx: {get_version('sphinx')} | "
+         f"sphinx_rtd_theme: {get_version('sphinx_rtd_theme')} | "
+-        f"sphinx_tabs: {get_version('sphinx_tabs')}")
++        f"sphinx_tabs: {get_version('sphinx_tabs')} | "
++        f"erdantic: {get_version('erdantic')}"
++    )
+ 
+ 
+ class CustomEnum:
+     """Customized enum to provide all values via `values` and
+     which allows direct value access upon lookup.
+ 
+     Examples
+```
+
+### Comparing `autodoc_pydantic-1.8.0/setup.py` & `autodoc_pydantic-1.9.0/README.md`
+
+ * *Files 25% similar despite different names*
+
+```diff
+@@ -1,1012 +1,1026 @@
+-00000000: 2320 2d2a 2d20 636f 6469 6e67 3a20 7574  # -*- coding: ut
+-00000010: 662d 3820 2d2a 2d0a 6672 6f6d 2073 6574  f-8 -*-.from set
+-00000020: 7570 746f 6f6c 7320 696d 706f 7274 2073  uptools import s
+-00000030: 6574 7570 0a0a 7061 636b 6167 6573 203d  etup..packages =
+-00000040: 205c 0a5b 2773 7068 696e 7863 6f6e 7472   \.['sphinxcontr
+-00000050: 6962 272c 0a20 2773 7068 696e 7863 6f6e  ib',. 'sphinxcon
+-00000060: 7472 6962 2e61 7574 6f64 6f63 5f70 7964  trib.autodoc_pyd
+-00000070: 616e 7469 6327 2c0a 2027 7370 6869 6e78  antic',. 'sphinx
+-00000080: 636f 6e74 7269 622e 6175 746f 646f 635f  contrib.autodoc_
+-00000090: 7079 6461 6e74 6963 2e64 6972 6563 7469  pydantic.directi
+-000000a0: 7665 7327 2c0a 2027 7370 6869 6e78 636f  ves',. 'sphinxco
+-000000b0: 6e74 7269 622e 6175 746f 646f 635f 7079  ntrib.autodoc_py
+-000000c0: 6461 6e74 6963 2e64 6972 6563 7469 7665  dantic.directive
+-000000d0: 732e 6f70 7469 6f6e 7327 5d0a 0a70 6163  s.options']..pac
+-000000e0: 6b61 6765 5f64 6174 6120 3d20 5c0a 7b27  kage_data = \.{'
+-000000f0: 273a 205b 272a 275d 2c20 2773 7068 696e  ': ['*'], 'sphin
+-00000100: 7863 6f6e 7472 6962 2e61 7574 6f64 6f63  xcontrib.autodoc
+-00000110: 5f70 7964 616e 7469 6327 3a20 5b27 6373  _pydantic': ['cs
+-00000120: 732f 2a27 5d7d 0a0a 696e 7374 616c 6c5f  s/*']}..install_
+-00000130: 7265 7175 6972 6573 203d 205c 0a5b 2753  requires = \.['S
+-00000140: 7068 696e 783e 3d33 2e34 272c 2027 7079  phinx>=3.4', 'py
+-00000150: 6461 6e74 6963 3e3d 312e 3527 5d0a 0a65  dantic>=1.5']..e
+-00000160: 7874 7261 735f 7265 7175 6972 6520 3d20  xtras_require = 
+-00000170: 5c0a 7b27 6465 7627 3a20 5b27 7370 6869  \.{'dev': ['sphi
+-00000180: 6e78 2d72 7464 2d74 6865 6d65 3e3d 312e  nx-rtd-theme>=1.
+-00000190: 302c 3c32 2e30 272c 0a20 2020 2020 2020  0,<2.0',.       
+-000001a0: 2020 2773 7068 696e 782d 7461 6273 3e3d    'sphinx-tabs>=
+-000001b0: 332c 3c34 272c 0a20 2020 2020 2020 2020  3,<4',.         
+-000001c0: 2773 7068 696e 782d 636f 7079 6275 7474  'sphinx-copybutt
+-000001d0: 6f6e 3e3d 302e 342c 3c30 2e35 272c 0a20  on>=0.4,<0.5',. 
+-000001e0: 2020 2020 2020 2020 2773 7068 696e 7863          'sphinxc
+-000001f0: 6f6e 7472 6962 2d6d 6572 6d61 6964 3e3d  ontrib-mermaid>=
+-00000200: 302e 372c 3c30 2e38 272c 0a20 2020 2020  0.7,<0.8',.     
+-00000210: 2020 2020 2770 7974 6573 743e 3d36 2c3c      'pytest>=6,<
+-00000220: 3727 2c0a 2020 2020 2020 2020 2027 636f  7',.         'co
+-00000230: 7665 7261 6765 3e3d 352c 3c36 272c 0a20  verage>=5,<6',. 
+-00000240: 2020 2020 2020 2020 2766 6c61 6b65 383e          'flake8>
+-00000250: 3d33 2c3c 3427 2c0a 2020 2020 2020 2020  =3,<4',.        
+-00000260: 2027 746f 783e 3d33 2c3c 3427 5d2c 0a20   'tox>=3,<4'],. 
+-00000270: 2764 6f63 7327 3a20 5b27 7370 6869 6e78  'docs': ['sphinx
+-00000280: 2d72 7464 2d74 6865 6d65 3e3d 312e 302c  -rtd-theme>=1.0,
+-00000290: 3c32 2e30 272c 0a20 2020 2020 2020 2020  <2.0',.         
+-000002a0: 2027 7370 6869 6e78 2d74 6162 733e 3d33   'sphinx-tabs>=3
+-000002b0: 2c3c 3427 2c0a 2020 2020 2020 2020 2020  ,<4',.          
+-000002c0: 2773 7068 696e 782d 636f 7079 6275 7474  'sphinx-copybutt
+-000002d0: 6f6e 3e3d 302e 342c 3c30 2e35 272c 0a20  on>=0.4,<0.5',. 
+-000002e0: 2020 2020 2020 2020 2027 7370 6869 6e78           'sphinx
+-000002f0: 636f 6e74 7269 622d 6d65 726d 6169 643e  contrib-mermaid>
+-00000300: 3d30 2e37 2c3c 302e 3827 5d2c 0a20 2774  =0.7,<0.8'],. 't
+-00000310: 6573 7427 3a20 5b27 7079 7465 7374 3e3d  est': ['pytest>=
+-00000320: 362c 3c37 272c 2027 636f 7665 7261 6765  6,<7', 'coverage
+-00000330: 3e3d 352c 3c36 275d 7d0a 0a73 6574 7570  >=5,<6']}..setup
+-00000340: 5f6b 7761 7267 7320 3d20 7b0a 2020 2020  _kwargs = {.    
+-00000350: 276e 616d 6527 3a20 2761 7574 6f64 6f63  'name': 'autodoc
+-00000360: 2d70 7964 616e 7469 6327 2c0a 2020 2020  -pydantic',.    
+-00000370: 2776 6572 7369 6f6e 273a 2027 312e 382e  'version': '1.8.
+-00000380: 3027 2c0a 2020 2020 2764 6573 6372 6970  0',.    'descrip
+-00000390: 7469 6f6e 273a 2027 5365 616d 6c65 7373  tion': 'Seamless
+-000003a0: 6c79 2069 6e74 6567 7261 7465 2070 7964  ly integrate pyd
+-000003b0: 616e 7469 6320 6d6f 6465 6c73 2069 6e20  antic models in 
+-000003c0: 796f 7572 2053 7068 696e 7820 646f 6375  your Sphinx docu
+-000003d0: 6d65 6e74 6174 696f 6e2e 272c 0a20 2020  mentation.',.   
+-000003e0: 2027 6c6f 6e67 5f64 6573 6372 6970 7469   'long_descripti
+-000003f0: 6f6e 273a 2027 215b 4175 746f 646f 6320  on': '![Autodoc 
+-00000400: 5079 6461 6e74 6963 5d28 6874 7470 733a  Pydantic](https:
+-00000410: 2f2f 7261 772e 6769 7468 7562 7573 6572  //raw.githubuser
+-00000420: 636f 6e74 656e 742e 636f 6d2f 6d61 6e73  content.com/mans
+-00000430: 656e 6672 616e 7a65 6e2f 6175 746f 646f  enfranzen/autodo
+-00000440: 635f 7079 6461 6e74 6963 2f6d 6169 6e2f  c_pydantic/main/
+-00000450: 646f 6373 2f73 6f75 7263 652f 6d61 7465  docs/source/mate
+-00000460: 7269 616c 2f6c 6f67 6f5f 626c 6163 6b2e  rial/logo_black.
+-00000470: 7376 6729 5c6e 5c6e 5b21 5b50 7950 4920  svg)\n\n[![PyPI 
+-00000480: 7665 7273 696f 6e5d 2868 7474 7073 3a2f  version](https:/
+-00000490: 2f69 6d67 2e73 6869 656c 6473 2e69 6f2f  /img.shields.io/
+-000004a0: 7079 7069 2f76 2f61 7574 6f64 6f63 5f70  pypi/v/autodoc_p
+-000004b0: 7964 616e 7469 633f 7374 796c 653d 666f  ydantic?style=fo
+-000004c0: 722d 7468 652d 6261 6467 6529 5d28 6874  r-the-badge)](ht
+-000004d0: 7470 733a 2f2f 7079 7069 2e6f 7267 2f70  tps://pypi.org/p
+-000004e0: 726f 6a65 6374 2f61 7574 6f64 6f63 2d70  roject/autodoc-p
+-000004f0: 7964 616e 7469 632f 295c 6e21 5b50 7974  ydantic/)\n![Pyt
+-00000500: 686f 6e5d 2868 7474 7073 3a2f 2f69 6d67  hon](https://img
+-00000510: 2e73 6869 656c 6473 2e69 6f2f 6261 6467  .shields.io/badg
+-00000520: 652f 7079 7468 6f6e 2d33 2e36 2b2d 626c  e/python-3.6+-bl
+-00000530: 7565 2e73 7667 3f73 7479 6c65 3d66 6f72  ue.svg?style=for
+-00000540: 2d74 6865 2d62 6164 6765 295c 6e5c 6e5b  -the-badge)\n\n[
+-00000550: 215b 4d61 7374 6572 5d28 6874 7470 733a  ![Master](https:
+-00000560: 2f2f 696d 672e 7368 6965 6c64 732e 696f  //img.shields.io
+-00000570: 2f67 6974 6875 622f 776f 726b 666c 6f77  /github/workflow
+-00000580: 2f73 7461 7475 732f 6d61 6e73 656e 6672  /status/mansenfr
+-00000590: 616e 7a65 6e2f 6175 746f 646f 635f 7079  anzen/autodoc_py
+-000005a0: 6461 6e74 6963 2f63 693f 7374 796c 653d  dantic/ci?style=
+-000005b0: 666f 722d 7468 652d 6261 6467 6529 5d28  for-the-badge)](
+-000005c0: 6874 7470 733a 2f2f 6769 7468 7562 2e63  https://github.c
+-000005d0: 6f6d 2f6d 616e 7365 6e66 7261 6e7a 656e  om/mansenfranzen
+-000005e0: 2f61 7574 6f64 6f63 5f70 7964 616e 7469  /autodoc_pydanti
+-000005f0: 632f 6163 7469 6f6e 732f 776f 726b 666c  c/actions/workfl
+-00000600: 6f77 732f 7465 7374 732e 796d 6c29 5c6e  ows/tests.yml)\n
+-00000610: 5b21 5b43 6f76 6572 6167 655d 2868 7474  [![Coverage](htt
+-00000620: 7073 3a2f 2f69 6d67 2e73 6869 656c 6473  ps://img.shields
+-00000630: 2e69 6f2f 636f 6465 636f 762f 632f 6768  .io/codecov/c/gh
+-00000640: 2f6d 616e 7365 6e66 7261 6e7a 656e 2f61  /mansenfranzen/a
+-00000650: 7574 6f64 6f63 5f70 7964 616e 7469 633f  utodoc_pydantic?
+-00000660: 7374 796c 653d 666f 722d 7468 652d 6261  style=for-the-ba
+-00000670: 6467 6529 5d28 6874 7470 733a 2f2f 6170  dge)](https://ap
+-00000680: 702e 636f 6465 636f 762e 696f 2f67 682f  p.codecov.io/gh/
+-00000690: 6d61 6e73 656e 6672 616e 7a65 6e2f 6175  mansenfranzen/au
+-000006a0: 746f 646f 635f 7079 6461 6e74 6963 295c  todoc_pydantic)\
+-000006b0: 6e5c 6e5b 215b 446f 776e 6c6f 6164 735d  n\n[![Downloads]
+-000006c0: 2868 7474 7073 3a2f 2f69 6d67 2e73 6869  (https://img.shi
+-000006d0: 656c 6473 2e69 6f2f 7079 7069 2f64 6d2f  elds.io/pypi/dm/
+-000006e0: 6175 746f 646f 635f 7079 6461 6e74 6963  autodoc_pydantic
+-000006f0: 3f63 6f6c 6f72 3d66 6537 6433 3726 7374  ?color=fe7d37&st
+-00000700: 796c 653d 666f 722d 7468 652d 6261 6467  yle=for-the-badg
+-00000710: 6529 5d28 6874 7470 733a 2f2f 7079 7069  e)](https://pypi
+-00000720: 7374 6174 732e 6f72 672f 7061 636b 6167  stats.org/packag
+-00000730: 6573 2f61 7574 6f64 6f63 2d70 7964 616e  es/autodoc-pydan
+-00000740: 7469 6329 3c21 2d2d 2041 4c4c 2d43 4f4e  tic)<!-- ALL-CON
+-00000750: 5452 4942 5554 4f52 532d 4241 4447 453a  TRIBUTORS-BADGE:
+-00000760: 5354 4152 5420 2d20 446f 206e 6f74 2072  START - Do not r
+-00000770: 656d 6f76 6520 6f72 206d 6f64 6966 7920  emove or modify 
+-00000780: 7468 6973 2073 6563 7469 6f6e 202d 2d3e  this section -->
+-00000790: 5c6e 5b21 5b41 6c6c 2043 6f6e 7472 6962  \n[![All Contrib
+-000007a0: 7574 6f72 735d 2868 7474 7073 3a2f 2f69  utors](https://i
+-000007b0: 6d67 2e73 6869 656c 6473 2e69 6f2f 6261  mg.shields.io/ba
+-000007c0: 6467 652f 616c 6c5f 636f 6e74 7269 6275  dge/all_contribu
+-000007d0: 746f 7273 2d32 392d 6f72 616e 6765 2e73  tors-29-orange.s
+-000007e0: 7667 3f73 7479 6c65 3d66 6f72 2d74 6865  vg?style=for-the
+-000007f0: 2d62 6164 6765 295d 2823 636f 6e74 7269  -badge)](#contri
+-00000800: 6275 746f 7273 295c 6e3c 212d 2d20 414c  butors)\n<!-- AL
+-00000810: 4c2d 434f 4e54 5249 4255 544f 5253 2d42  L-CONTRIBUTORS-B
+-00000820: 4144 4745 3a45 4e44 202d 2d3e 5c6e 5c6e  ADGE:END -->\n\n
+-00000830: 5c6e 596f 7520 6c6f 7665 205b 7079 6461  \nYou love [pyda
+-00000840: 6e74 6963 5d28 6874 7470 733a 2f2f 7079  ntic](https://py
+-00000850: 6461 6e74 6963 2d64 6f63 732e 6865 6c70  dantic-docs.help
+-00000860: 6d61 6e75 616c 2e69 6f2f 2920 e29d a420  manual.io/) ... 
+-00000870: 616e 6420 796f 7520 7761 6e74 2074 6f5c  and you want to\
+-00000880: 6e64 6f63 756d 656e 7420 796f 7572 206d  ndocument your m
+-00000890: 6f64 656c 7320 616e 6420 636f 6e66 6967  odels and config
+-000008a0: 7572 6174 696f 6e20 7365 7474 696e 6773  uration settings
+-000008b0: 2077 6974 6820 5b73 7068 696e 785d 2868   with [sphinx](h
+-000008c0: 7474 7073 3a2f 2f77 7777 2e73 7068 696e  ttps://www.sphin
+-000008d0: 782d 646f 632e 6f72 672f 656e 2f6d 6173  x-doc.org/en/mas
+-000008e0: 7465 722f 293f 5c6e 5c6e 5065 7266 6563  ter/)?\n\nPerfec
+-000008f0: 742c 206c 6574 5c27 7320 676f 2e20 4275  t, let\'s go. Bu
+-00000900: 7420 7761 6974 2c20 7370 6869 6e78 5c27  t wait, sphinx\'
+-00000910: 205b 6175 746f 646f 635d 2868 7474 7073   [autodoc](https
+-00000920: 3a2f 2f77 7777 2e73 7068 696e 782d 646f  ://www.sphinx-do
+-00000930: 632e 6f72 672f 656e 2f6d 6173 7465 722f  c.org/en/master/
+-00000940: 7573 6167 652f 6578 7465 6e73 696f 6e73  usage/extensions
+-00000950: 2f61 7574 6f64 6f63 2e68 746d 6c29 5c6e  /autodoc.html)\n
+-00000960: 646f 6573 206e 6f74 2069 6e74 6567 7261  does not integra
+-00000970: 7465 2074 6f6f 2077 656c 6c20 7769 7468  te too well with
+-00000980: 2070 7964 616e 7469 6320 6d6f 6465 6c73   pydantic models
+-00000990: 20f0 9f98 952e 5c6e 5c6e 446f 6e5c 2774   .....\n\nDon\'t
+-000009a0: 2077 6f72 7279 202d 206a 7573 7420 6070   worry - just `p
+-000009b0: 6970 2069 6e73 7461 6c6c 2061 7574 6f64  ip install autod
+-000009c0: 6f63 5f70 7964 616e 7469 6360 20e2 98ba  oc_pydantic` ...
+-000009d0: 2e5c 6e5c 6e23 2320 4665 6174 7572 6573  .\n\n## Features
+-000009e0: 5c6e 5c6e 2d20 f09f 92ac 2070 726f 7669  \n\n- .... provi
+-000009f0: 6465 7320 6465 6661 756c 7420 7661 6c75  des default valu
+-00000a00: 6573 2c20 616c 6961 7320 616e 6420 636f  es, alias and co
+-00000a10: 6e73 7472 6169 6e74 7320 666f 7220 6d6f  nstraints for mo
+-00000a20: 6465 6c20 6669 656c 6473 5c6e 2d20 f09f  del fields\n- ..
+-00000a30: 9497 2061 6464 7320 6879 7065 726c 696e  .. adds hyperlin
+-00000a40: 6b73 2062 6574 7765 656e 2076 616c 6964  ks between valid
+-00000a50: 6174 6f72 7320 616e 6420 636f 7272 6573  ators and corres
+-00000a60: 706f 6e64 696e 6720 6669 656c 6473 5c6e  ponding fields\n
+-00000a70: 2d20 f09f 9383 2069 6e63 6c75 6465 7320  - .... includes 
+-00000a80: 636f 6c6c 6170 7361 626c 6520 6d6f 6465  collapsable mode
+-00000a90: 6c20 6a73 6f6e 2073 6368 656d 615c 6e2d  l json schema\n-
+-00000aa0: 20f0 9f8f 8420 6e61 7469 7665 6c79 2069   .... natively i
+-00000ab0: 6e74 6567 7261 7465 7320 7769 7468 2061  ntegrates with a
+-00000ac0: 7574 6f64 6f63 2061 6e64 2061 7574 6f73  utodoc and autos
+-00000ad0: 756d 6d61 7279 2065 7874 656e 7369 6f6e  ummary extension
+-00000ae0: 735c 6e2d 20f0 9f93 8e20 6465 6669 6e65  s\n- .... define
+-00000af0: 7320 6578 706c 6963 6974 2070 7964 616e  s explicit pydan
+-00000b00: 7469 6320 7072 6566 6978 6573 2066 6f72  tic prefixes for
+-00000b10: 206d 6f64 656c 732c 2073 6574 7469 6e67   models, setting
+-00000b20: 732c 2066 6965 6c64 732c 2076 616c 6964  s, fields, valid
+-00000b30: 6174 6f72 7320 616e 6420 6d6f 6465 6c20  ators and model 
+-00000b40: 636f 6e66 6967 5c6e 2d20 f09f 938b 2073  config\n- .... s
+-00000b50: 686f 7773 2073 756d 6d61 7279 2073 6563  hows summary sec
+-00000b60: 7469 6f6e 2066 6f72 206d 6f64 656c 2063  tion for model c
+-00000b70: 6f6e 6669 6775 7261 7469 6f6e 2c20 6669  onfiguration, fi
+-00000b80: 656c 6473 2061 6e64 2076 616c 6964 6174  elds and validat
+-00000b90: 6f72 735c 6e2d 20f0 9f91 8020 6869 6465  ors\n- .... hide
+-00000ba0: 7320 6f76 6572 6c6f 6164 6564 2061 6e64  s overloaded and
+-00000bb0: 2072 6564 756e 6461 6e74 206d 6f64 656c   redundant model
+-00000bc0: 2063 6c61 7373 2073 6967 6e61 7475 7265   class signature
+-00000bd0: 5c6e 2d20 f09f 939a 2073 6f72 7473 2066  \n- .... sorts f
+-00000be0: 6965 6c64 732c 2076 616c 6964 6174 6f72  ields, validator
+-00000bf0: 7320 616e 6420 6d6f 6465 6c20 636f 6e66  s and model conf
+-00000c00: 6967 2077 6974 6869 6e20 6d6f 6465 6c73  ig within models
+-00000c10: 2062 7920 7479 7065 5c6e 2d20 f09f 8d80   by type\n- ....
+-00000c20: 2053 7570 706f 7274 7320 6070 7964 616e   Supports `pydan
+-00000c30: 7469 6320 3e3d 2031 2e35 2e30 6020 616e  tic >= 1.5.0` an
+-00000c40: 6420 6073 7068 696e 7820 3e3d 2033 2e34  d `sphinx >= 3.4
+-00000c50: 2e30 605c 6e5c 6e23 2323 2043 6f6d 7061  .0`\n\n### Compa
+-00000c60: 7269 736f 6e20 6265 7477 6565 6e20 6175  rison between au
+-00000c70: 746f 646f 6320 7370 6869 6e78 2061 6e64  todoc sphinx and
+-00000c80: 2061 7574 6f64 6f63 2070 7964 616e 7469   autodoc pydanti
+-00000c90: 635c 6e5c 6e5b 215b 436f 6d70 6172 6973  c\n\n[![Comparis
+-00000ca0: 6f6e 5d28 6874 7470 733a 2f2f 7261 772e  on](https://raw.
+-00000cb0: 6769 7468 7562 7573 6572 636f 6e74 656e  githubuserconten
+-00000cc0: 742e 636f 6d2f 6d61 6e73 656e 6672 616e  t.com/mansenfran
+-00000cd0: 7a65 6e2f 6175 746f 646f 635f 7079 6461  zen/autodoc_pyda
+-00000ce0: 6e74 6963 2f6d 6169 6e2f 646f 6373 2f73  ntic/main/docs/s
+-00000cf0: 6f75 7263 652f 6d61 7465 7269 616c 2f65  ource/material/e
+-00000d00: 7861 6d70 6c65 5f63 6f6d 7061 7269 736f  xample_compariso
+-00000d10: 6e5f 7631 2e30 2e30 2e67 6966 295d 2868  n_v1.0.0.gif)](h
+-00000d20: 7474 7073 3a2f 2f61 7574 6f64 6f63 2d70  ttps://autodoc-p
+-00000d30: 7964 616e 7469 632e 7265 6164 7468 6564  ydantic.readthed
+-00000d40: 6f63 732e 696f 2f65 6e2f 6c61 7465 7374  ocs.io/en/latest
+-00000d50: 2f65 7861 6d70 6c65 732e 6874 6d6c 2364  /examples.html#d
+-00000d60: 6566 6175 6c74 2d63 6f6e 6669 6775 7261  efault-configura
+-00000d70: 7469 6f6e 295c 6e5c 6e54 6f20 7365 6520  tion)\n\nTo see 
+-00000d80: 7468 6f73 6520 6665 6174 7572 6573 2069  those features i
+-00000d90: 6e20 6163 7469 6f6e 2c20 6a75 6d70 206f  n action, jump o
+-00000da0: 7665 7220 746f 2074 6865 205b 6578 616d  ver to the [exam
+-00000db0: 706c 6520 646f 6375 6d65 6e74 6174 696f  ple documentatio
+-00000dc0: 6e5d 2868 7474 7073 3a2f 2f61 7574 6f64  n](https://autod
+-00000dd0: 6f63 2d70 7964 616e 7469 632e 7265 6164  oc-pydantic.read
+-00000de0: 7468 6564 6f63 732e 696f 2f65 6e2f 7374  thedocs.io/en/st
+-00000df0: 6162 6c65 2f75 7365 7273 2f65 7861 6d70  able/users/examp
+-00000e00: 6c65 732e 6874 6d6c 2364 6566 6175 6c74  les.html#default
+-00000e10: 2d63 6f6e 6669 6775 7261 7469 6f6e 2920  -configuration) 
+-00000e20: 746f 2063 6f6d 7061 7265 5c6e 7468 6520  to compare\nthe 
+-00000e30: 6170 7065 6172 616e 6365 206f 6620 7374  appearance of st
+-00000e40: 616e 6461 7264 2073 7068 696e 7820 6175  andard sphinx au
+-00000e50: 746f 646f 6320 7769 7468 202a 6175 746f  todoc with *auto
+-00000e60: 646f 635f 7079 6461 6e74 6963 2a2e 5c6e  doc_pydantic*.\n
+-00000e70: 5c6e 2323 2044 6f63 756d 656e 7461 7469  \n## Documentati
+-00000e80: 6f6e 5c6e 5c6e 466f 7220 6d6f 7265 2064  on\n\nFor more d
+-00000e90: 6574 6169 6c73 2c20 706c 6561 7365 2076  etails, please v
+-00000ea0: 6973 6974 2074 6865 206f 6666 6963 6961  isit the officia
+-00000eb0: 6c20 5b64 6f63 756d 656e 7461 7469 6f6e  l [documentation
+-00000ec0: 5d28 6874 7470 733a 2f2f 6175 746f 646f  ](https://autodo
+-00000ed0: 632d 7079 6461 6e74 6963 2e72 6561 6474  c-pydantic.readt
+-00000ee0: 6865 646f 6373 2e69 6f2f 656e 2f73 7461  hedocs.io/en/sta
+-00000ef0: 626c 652f 293a 5c6e 5c6e 2d20 5b49 6e73  ble/):\n\n- [Ins
+-00000f00: 7461 6c6c 6174 696f 6e5d 2868 7474 7073  tallation](https
+-00000f10: 3a2f 2f61 7574 6f64 6f63 2d70 7964 616e  ://autodoc-pydan
+-00000f20: 7469 632e 7265 6164 7468 6564 6f63 732e  tic.readthedocs.
+-00000f30: 696f 2f65 6e2f 7374 6162 6c65 2f75 7365  io/en/stable/use
+-00000f40: 7273 2f69 6e73 7461 6c6c 6174 696f 6e2e  rs/installation.
+-00000f50: 6874 6d6c 295c 6e2d 205b 436f 6e66 6967  html)\n- [Config
+-00000f60: 7572 6174 696f 6e5d 2868 7474 7073 3a2f  uration](https:/
+-00000f70: 2f61 7574 6f64 6f63 2d70 7964 616e 7469  /autodoc-pydanti
+-00000f80: 632e 7265 6164 7468 6564 6f63 732e 696f  c.readthedocs.io
+-00000f90: 2f65 6e2f 7374 6162 6c65 2f75 7365 7273  /en/stable/users
+-00000fa0: 2f63 6f6e 6669 6775 7261 7469 6f6e 2e68  /configuration.h
+-00000fb0: 746d 6c29 5c6e 2d20 5b55 7361 6765 5d28  tml)\n- [Usage](
+-00000fc0: 6874 7470 733a 2f2f 6175 746f 646f 632d  https://autodoc-
+-00000fd0: 7079 6461 6e74 6963 2e72 6561 6474 6865  pydantic.readthe
+-00000fe0: 646f 6373 2e69 6f2f 656e 2f73 7461 626c  docs.io/en/stabl
+-00000ff0: 652f 7573 6572 732f 7573 6167 652e 6874  e/users/usage.ht
+-00001000: 6d6c 295c 6e2d 205b 4578 616d 706c 6573  ml)\n- [Examples
+-00001010: 5d28 6874 7470 733a 2f2f 6175 746f 646f  ](https://autodo
+-00001020: 632d 7079 6461 6e74 6963 2e72 6561 6474  c-pydantic.readt
+-00001030: 6865 646f 6373 2e69 6f2f 656e 2f73 7461  hedocs.io/en/sta
+-00001040: 626c 652f 7573 6572 732f 6578 616d 706c  ble/users/exampl
+-00001050: 6573 2e68 746d 6c29 5c6e 5c6e 2323 2041  es.html)\n\n## A
+-00001060: 636b 6e6f 776c 6564 6765 6d65 6e74 735c  cknowledgements\
+-00001070: 6e5c 6e54 6861 6e6b 7320 746f 2067 7265  n\nThanks to gre
+-00001080: 6174 206f 7065 6e20 736f 7572 6365 2070  at open source p
+-00001090: 726f 6a65 6374 7320 5b73 7068 696e 785d  rojects [sphinx]
+-000010a0: 2868 7474 7073 3a2f 2f77 7777 2e73 7068  (https://www.sph
+-000010b0: 696e 782d 646f 632e 6f72 672f 656e 2f6d  inx-doc.org/en/m
+-000010c0: 6173 7465 722f 292c 5c6e 5b70 7964 616e  aster/),\n[pydan
+-000010d0: 7469 635d 2868 7474 7073 3a2f 2f70 7964  tic](https://pyd
+-000010e0: 616e 7469 632d 646f 6373 2e68 656c 706d  antic-docs.helpm
+-000010f0: 616e 7561 6c2e 696f 2f29 2061 6e64 5c6e  anual.io/) and\n
+-00001100: 5b70 6f65 7472 795d 2868 7474 7073 3a2f  [poetry](https:/
+-00001110: 2f70 7974 686f 6e2d 706f 6574 7279 2e6f  /python-poetry.o
+-00001120: 7267 2f29 2028 616e 6420 736f 206d 616e  rg/) (and so man
+-00001130: 7920 6d6f 7265 2920 e29d a420 696e 2061  y more) ... in a
+-00001140: 6464 6974 696f 6e20 746f 2074 6865 2066  ddition to the f
+-00001150: 6f6c 6c6f 7769 6e67 2063 6f6e 7472 6962  ollowing contrib
+-00001160: 7574 6f72 733a 5c6e 5c6e 3c21 2d2d 2041  utors:\n\n<!-- A
+-00001170: 4c4c 2d43 4f4e 5452 4942 5554 4f52 532d  LL-CONTRIBUTORS-
+-00001180: 4c49 5354 3a53 5441 5254 202d 2044 6f20  LIST:START - Do 
+-00001190: 6e6f 7420 7265 6d6f 7665 206f 7220 6d6f  not remove or mo
+-000011a0: 6469 6679 2074 6869 7320 7365 6374 696f  dify this sectio
+-000011b0: 6e20 2d2d 3e5c 6e3c 212d 2d20 7072 6574  n -->\n<!-- pret
+-000011c0: 7469 6572 2d69 676e 6f72 652d 7374 6172  tier-ignore-star
+-000011d0: 7420 2d2d 3e5c 6e3c 212d 2d20 6d61 726b  t -->\n<!-- mark
+-000011e0: 646f 776e 6c69 6e74 2d64 6973 6162 6c65  downlint-disable
+-000011f0: 202d 2d3e 5c6e 3c74 6162 6c65 3e5c 6e20   -->\n<table>\n 
+-00001200: 203c 7462 6f64 793e 5c6e 2020 2020 3c74   <tbody>\n    <t
+-00001210: 723e 5c6e 2020 2020 2020 3c74 6420 616c  r>\n      <td al
+-00001220: 6967 6e3d 2263 656e 7465 7222 3e3c 6120  ign="center"><a 
+-00001230: 6872 6566 3d22 6874 7470 733a 2f2f 6769  href="https://gi
+-00001240: 7468 7562 2e63 6f6d 2f6d 616e 7365 6e66  thub.com/mansenf
+-00001250: 7261 6e7a 656e 223e 3c69 6d67 2073 7263  ranzen"><img src
+-00001260: 3d22 6874 7470 733a 2f2f 6176 6174 6172  ="https://avatar
+-00001270: 732e 6769 7468 7562 7573 6572 636f 6e74  s.githubusercont
+-00001280: 656e 742e 636f 6d2f 752f 3138 3038 3631  ent.com/u/180861
+-00001290: 3830 3f76 3d34 3f73 3d31 3030 2220 7769  80?v=4?s=100" wi
+-000012a0: 6474 683d 2231 3030 7078 3b22 2061 6c74  dth="100px;" alt
+-000012b0: 3d22 4672 616e 7a20 57c3 b66c 6c65 7274  ="Franz W..llert
+-000012c0: 222f 3e3c 6272 202f 3e3c 7375 623e 3c62  "/><br /><sub><b
+-000012d0: 3e46 7261 6e7a 2057 c3b6 6c6c 6572 743c  >Franz W..llert<
+-000012e0: 2f62 3e3c 2f73 7562 3e3c 2f61 3e3c 6272  /b></sub></a><br
+-000012f0: 202f 3e3c 6120 6872 6566 3d22 236d 6169   /><a href="#mai
+-00001300: 6e74 656e 616e 6365 2d6d 616e 7365 6e66  ntenance-mansenf
+-00001310: 7261 6e7a 656e 2220 7469 746c 653d 224d  ranzen" title="M
+-00001320: 6169 6e74 656e 616e 6365 223e f09f 9aa7  aintenance">....
+-00001330: 3c2f 613e 203c 6120 6872 6566 3d22 6874  </a> <a href="ht
+-00001340: 7470 733a 2f2f 6769 7468 7562 2e63 6f6d  tps://github.com
+-00001350: 2f6d 616e 7365 6e66 7261 6e7a 656e 2f61  /mansenfranzen/a
+-00001360: 7574 6f64 6f63 5f70 7964 616e 7469 632f  utodoc_pydantic/
+-00001370: 636f 6d6d 6974 733f 6175 7468 6f72 3d6d  commits?author=m
+-00001380: 616e 7365 6e66 7261 6e7a 656e 2220 7469  ansenfranzen" ti
+-00001390: 746c 653d 2244 6f63 756d 656e 7461 7469  tle="Documentati
+-000013a0: 6f6e 223e f09f 9396 3c2f 613e 203c 6120  on">....</a> <a 
+-000013b0: 6872 6566 3d22 6874 7470 733a 2f2f 6769  href="https://gi
+-000013c0: 7468 7562 2e63 6f6d 2f6d 616e 7365 6e66  thub.com/mansenf
+-000013d0: 7261 6e7a 656e 2f61 7574 6f64 6f63 5f70  ranzen/autodoc_p
+-000013e0: 7964 616e 7469 632f 636f 6d6d 6974 733f  ydantic/commits?
+-000013f0: 6175 7468 6f72 3d6d 616e 7365 6e66 7261  author=mansenfra
+-00001400: 6e7a 656e 2220 7469 746c 653d 2254 6573  nzen" title="Tes
+-00001410: 7473 223e e29a a0ef b88f 3c2f 613e 203c  ts">......</a> <
+-00001420: 6120 6872 6566 3d22 2363 6f6e 7465 6e74  a href="#content
+-00001430: 2d6d 616e 7365 6e66 7261 6e7a 656e 2220  -mansenfranzen" 
+-00001440: 7469 746c 653d 2243 6f6e 7465 6e74 223e  title="Content">
+-00001450: f09f 968b 3c2f 613e 3c2f 7464 3e5c 6e20  ....</a></td>\n 
+-00001460: 2020 2020 203c 7464 2061 6c69 676e 3d22       <td align="
+-00001470: 6365 6e74 6572 223e 3c61 2068 7265 663d  center"><a href=
+-00001480: 2268 7474 7073 3a2f 2f67 6974 6875 622e  "https://github.
+-00001490: 636f 6d2f 5468 6542 6561 7264 6564 4265  com/TheBeardedBe
+-000014a0: 7273 6572 6b72 223e 3c69 6d67 2073 7263  rserkr"><img src
+-000014b0: 3d22 6874 7470 733a 2f2f 6176 6174 6172  ="https://avatar
+-000014c0: 732e 6769 7468 7562 7573 6572 636f 6e74  s.githubusercont
+-000014d0: 656e 742e 636f 6d2f 752f 3332 3237 3232  ent.com/u/322722
+-000014e0: 3638 3f76 3d34 3f73 3d31 3030 2220 7769  68?v=4?s=100" wi
+-000014f0: 6474 683d 2231 3030 7078 3b22 2061 6c74  dth="100px;" alt
+-00001500: 3d22 5468 6542 6561 7264 6564 4265 7273  ="TheBeardedBers
+-00001510: 6572 6b72 222f 3e3c 6272 202f 3e3c 7375  erkr"/><br /><su
+-00001520: 623e 3c62 3e54 6865 4265 6172 6465 6442  b><b>TheBeardedB
+-00001530: 6572 7365 726b 723c 2f62 3e3c 2f73 7562  erserkr</b></sub
+-00001540: 3e3c 2f61 3e3c 6272 202f 3e3c 6120 6872  ></a><br /><a hr
+-00001550: 6566 3d22 2369 6465 6173 2d54 6865 4265  ef="#ideas-TheBe
+-00001560: 6172 6465 6442 6572 7365 726b 7222 2074  ardedBerserkr" t
+-00001570: 6974 6c65 3d22 4964 6561 732c 2050 6c61  itle="Ideas, Pla
+-00001580: 6e6e 696e 672c 2026 2046 6565 6462 6163  nning, & Feedbac
+-00001590: 6b22 3ef0 9fa4 943c 2f61 3e3c 2f74 643e  k">....</a></td>
+-000015a0: 5c6e 2020 2020 2020 3c74 6420 616c 6967  \n      <td alig
+-000015b0: 6e3d 2263 656e 7465 7222 3e3c 6120 6872  n="center"><a hr
+-000015c0: 6566 3d22 6874 7470 733a 2f2f 6769 7468  ef="https://gith
+-000015d0: 7562 2e63 6f6d 2f76 6c63 696e 736b 7922  ub.com/vlcinsky"
+-000015e0: 3e3c 696d 6720 7372 633d 2268 7474 7073  ><img src="https
+-000015f0: 3a2f 2f61 7661 7461 7273 2e67 6974 6875  ://avatars.githu
+-00001600: 6275 7365 7263 6f6e 7465 6e74 2e63 6f6d  busercontent.com
+-00001610: 2f75 2f36 3335 3931 313f 763d 343f 733d  /u/635911?v=4?s=
+-00001620: 3130 3022 2077 6964 7468 3d22 3130 3070  100" width="100p
+-00001630: 783b 2220 616c 743d 224a 616e 2056 6cc4  x;" alt="Jan Vl.
+-00001640: 8d69 6e73 6bc3 bd22 2f3e 3c62 7220 2f3e  .insk.."/><br />
+-00001650: 3c73 7562 3e3c 623e 4a61 6e20 566c c48d  <sub><b>Jan Vl..
+-00001660: 696e 736b c3bd 3c2f 623e 3c2f 7375 623e  insk..</b></sub>
+-00001670: 3c2f 613e 3c62 7220 2f3e 3c61 2068 7265  </a><br /><a hre
+-00001680: 663d 2223 7365 6375 7269 7479 2d76 6c63  f="#security-vlc
+-00001690: 696e 736b 7922 2074 6974 6c65 3d22 5365  insky" title="Se
+-000016a0: 6375 7269 7479 223e f09f 9ba1 efb8 8f3c  curity">.......<
+-000016b0: 2f61 3e3c 2f74 643e 5c6e 2020 2020 2020  /a></td>\n      
+-000016c0: 3c74 6420 616c 6967 6e3d 2263 656e 7465  <td align="cente
+-000016d0: 7222 3e3c 6120 6872 6566 3d22 6874 7470  r"><a href="http
+-000016e0: 733a 2f2f 6769 7468 7562 2e63 6f6d 2f61  s://github.com/a
+-000016f0: 6e74 7669 6722 3e3c 696d 6720 7372 633d  ntvig"><img src=
+-00001700: 2268 7474 7073 3a2f 2f61 7661 7461 7273  "https://avatars
+-00001710: 2e67 6974 6875 6275 7365 7263 6f6e 7465  .githubuserconte
+-00001720: 6e74 2e63 6f6d 2f75 2f32 3531 3035 3231  nt.com/u/2510521
+-00001730: 303f 763d 343f 733d 3130 3022 2077 6964  0?v=4?s=100" wid
+-00001740: 7468 3d22 3130 3070 783b 2220 616c 743d  th="100px;" alt=
+-00001750: 2261 6e74 7669 6722 2f3e 3c62 7220 2f3e  "antvig"/><br />
+-00001760: 3c73 7562 3e3c 623e 616e 7476 6967 3c2f  <sub><b>antvig</
+-00001770: 623e 3c2f 7375 623e 3c2f 613e 3c62 7220  b></sub></a><br 
+-00001780: 2f3e 3c61 2068 7265 663d 2268 7474 7073  /><a href="https
+-00001790: 3a2f 2f67 6974 6875 622e 636f 6d2f 6d61  ://github.com/ma
+-000017a0: 6e73 656e 6672 616e 7a65 6e2f 6175 746f  nsenfranzen/auto
+-000017b0: 646f 635f 7079 6461 6e74 6963 2f69 7373  doc_pydantic/iss
+-000017c0: 7565 733f 713d 6175 7468 6f72 2533 4161  ues?q=author%3Aa
+-000017d0: 6e74 7669 6722 2074 6974 6c65 3d22 4275  ntvig" title="Bu
+-000017e0: 6720 7265 706f 7274 7322 3ef0 9f90 9b3c  g reports">....<
+-000017f0: 2f61 3e20 3c61 2068 7265 663d 2223 7573  /a> <a href="#us
+-00001800: 6572 5465 7374 696e 672d 616e 7476 6967  erTesting-antvig
+-00001810: 2220 7469 746c 653d 2255 7365 7220 5465  " title="User Te
+-00001820: 7374 696e 6722 3ef0 9f93 933c 2f61 3e3c  sting">....</a><
+-00001830: 2f74 643e 5c6e 2020 2020 2020 3c74 6420  /td>\n      <td 
+-00001840: 616c 6967 6e3d 2263 656e 7465 7222 3e3c  align="center"><
+-00001850: 6120 6872 6566 3d22 6874 7470 733a 2f2f  a href="https://
+-00001860: 726f 6775 682e 636f 6d22 3e3c 696d 6720  roguh.com"><img 
+-00001870: 7372 633d 2268 7474 7073 3a2f 2f61 7661  src="https://ava
+-00001880: 7461 7273 2e67 6974 6875 6275 7365 7263  tars.githubuserc
+-00001890: 6f6e 7465 6e74 2e63 6f6d 2f75 2f36 3337  ontent.com/u/637
+-000018a0: 3334 3437 3f76 3d34 3f73 3d31 3030 2220  3447?v=4?s=100" 
+-000018b0: 7769 6474 683d 2231 3030 7078 3b22 2061  width="100px;" a
+-000018c0: 6c74 3d22 4875 676f 204f 2052 6976 6572  lt="Hugo O River
+-000018d0: 6122 2f3e 3c62 7220 2f3e 3c73 7562 3e3c  a"/><br /><sub><
+-000018e0: 623e 4875 676f 204f 2052 6976 6572 613c  b>Hugo O Rivera<
+-000018f0: 2f62 3e3c 2f73 7562 3e3c 2f61 3e3c 6272  /b></sub></a><br
+-00001900: 202f 3e3c 6120 6872 6566 3d22 2369 6465   /><a href="#ide
+-00001910: 6173 2d72 6f67 7568 2220 7469 746c 653d  as-roguh" title=
+-00001920: 2249 6465 6173 2c20 506c 616e 6e69 6e67  "Ideas, Planning
+-00001930: 2c20 2620 4665 6564 6261 636b 223e f09f  , & Feedback">..
+-00001940: a494 3c2f 613e 3c2f 7464 3e5c 6e20 2020  ..</a></td>\n   
+-00001950: 2020 203c 7464 2061 6c69 676e 3d22 6365     <td align="ce
+-00001960: 6e74 6572 223e 3c61 2068 7265 663d 2268  nter"><a href="h
+-00001970: 7474 7073 3a2f 2f67 6974 6875 622e 636f  ttps://github.co
+-00001980: 6d2f 7962 6e64 223e 3c69 6d67 2073 7263  m/ybnd"><img src
+-00001990: 3d22 6874 7470 733a 2f2f 6176 6174 6172  ="https://avatar
+-000019a0: 732e 6769 7468 7562 7573 6572 636f 6e74  s.githubusercont
+-000019b0: 656e 742e 636f 6d2f 752f 3331 3534 3730  ent.com/u/315470
+-000019c0: 3338 3f76 3d34 3f73 3d31 3030 2220 7769  38?v=4?s=100" wi
+-000019d0: 6474 683d 2231 3030 7078 3b22 2061 6c74  dth="100px;" alt
+-000019e0: 3d22 7975 7261 2062 6f6e 6461 7265 6e6b  ="yura bondarenk
+-000019f0: 6f22 2f3e 3c62 7220 2f3e 3c73 7562 3e3c  o"/><br /><sub><
+-00001a00: 623e 7975 7261 2062 6f6e 6461 7265 6e6b  b>yura bondarenk
+-00001a10: 6f3c 2f62 3e3c 2f73 7562 3e3c 2f61 3e3c  o</b></sub></a><
+-00001a20: 6272 202f 3e3c 6120 6872 6566 3d22 6874  br /><a href="ht
+-00001a30: 7470 733a 2f2f 6769 7468 7562 2e63 6f6d  tps://github.com
+-00001a40: 2f6d 616e 7365 6e66 7261 6e7a 656e 2f61  /mansenfranzen/a
+-00001a50: 7574 6f64 6f63 5f70 7964 616e 7469 632f  utodoc_pydantic/
+-00001a60: 6973 7375 6573 3f71 3d61 7574 686f 7225  issues?q=author%
+-00001a70: 3341 7962 6e64 2220 7469 746c 653d 2242  3Aybnd" title="B
+-00001a80: 7567 2072 6570 6f72 7473 223e f09f 909b  ug reports">....
+-00001a90: 3c2f 613e 203c 6120 6872 6566 3d22 2375  </a> <a href="#u
+-00001aa0: 7365 7254 6573 7469 6e67 2d79 626e 6422  serTesting-ybnd"
+-00001ab0: 2074 6974 6c65 3d22 5573 6572 2054 6573   title="User Tes
+-00001ac0: 7469 6e67 223e f09f 9393 3c2f 613e 3c2f  ting">....</a></
+-00001ad0: 7464 3e5c 6e20 2020 2020 203c 7464 2061  td>\n      <td a
+-00001ae0: 6c69 676e 3d22 6365 6e74 6572 223e 3c61  lign="center"><a
+-00001af0: 2068 7265 663d 2268 7474 703a 2f2f 7461   href="http://ta
+-00001b00: 686f 7761 7264 2e67 6974 6875 622e 696f  howard.github.io
+-00001b10: 223e 3c69 6d67 2073 7263 3d22 6874 7470  "><img src="http
+-00001b20: 733a 2f2f 6176 6174 6172 732e 6769 7468  s://avatars.gith
+-00001b30: 7562 7573 6572 636f 6e74 656e 742e 636f  ubusercontent.co
+-00001b40: 6d2f 752f 3534 3735 3730 3f76 3d34 3f73  m/u/547570?v=4?s
+-00001b50: 3d31 3030 2220 7769 6474 683d 2231 3030  =100" width="100
+-00001b60: 7078 3b22 2061 6c74 3d22 5472 6576 6f72  px;" alt="Trevor
+-00001b70: 2048 6f77 6172 6422 2f3e 3c62 7220 2f3e   Howard"/><br />
+-00001b80: 3c73 7562 3e3c 623e 5472 6576 6f72 2048  <sub><b>Trevor H
+-00001b90: 6f77 6172 643c 2f62 3e3c 2f73 7562 3e3c  oward</b></sub><
+-00001ba0: 2f61 3e3c 6272 202f 3e3c 6120 6872 6566  /a><br /><a href
+-00001bb0: 3d22 6874 7470 733a 2f2f 6769 7468 7562  ="https://github
+-00001bc0: 2e63 6f6d 2f6d 616e 7365 6e66 7261 6e7a  .com/mansenfranz
+-00001bd0: 656e 2f61 7574 6f64 6f63 5f70 7964 616e  en/autodoc_pydan
+-00001be0: 7469 632f 6973 7375 6573 3f71 3d61 7574  tic/issues?q=aut
+-00001bf0: 686f 7225 3341 7461 686f 7761 7264 2220  hor%3Atahoward" 
+-00001c00: 7469 746c 653d 2242 7567 2072 6570 6f72  title="Bug repor
+-00001c10: 7473 223e f09f 909b 3c2f 613e 203c 6120  ts">....</a> <a 
+-00001c20: 6872 6566 3d22 2375 7365 7254 6573 7469  href="#userTesti
+-00001c30: 6e67 2d74 6168 6f77 6172 6422 2074 6974  ng-tahoward" tit
+-00001c40: 6c65 3d22 5573 6572 2054 6573 7469 6e67  le="User Testing
+-00001c50: 223e f09f 9393 3c2f 613e 3c2f 7464 3e5c  ">....</a></td>\
+-00001c60: 6e20 2020 203c 2f74 723e 5c6e 2020 2020  n    </tr>\n    
+-00001c70: 3c74 723e 5c6e 2020 2020 2020 3c74 6420  <tr>\n      <td 
+-00001c80: 616c 6967 6e3d 2263 656e 7465 7222 3e3c  align="center"><
+-00001c90: 6120 6872 6566 3d22 6874 7470 733a 2f2f  a href="https://
+-00001ca0: 6769 7468 7562 2e63 6f6d 2f74 686f 6d61  github.com/thoma
+-00001cb0: 732d 7065 646f 7422 3e3c 696d 6720 7372  s-pedot"><img sr
+-00001cc0: 633d 2268 7474 7073 3a2f 2f61 7661 7461  c="https://avata
+-00001cd0: 7273 2e67 6974 6875 6275 7365 7263 6f6e  rs.githubusercon
+-00001ce0: 7465 6e74 2e63 6f6d 2f75 2f38 3637 3331  tent.com/u/86731
+-00001cf0: 3231 323f 763d 343f 733d 3130 3022 2077  212?v=4?s=100" w
+-00001d00: 6964 7468 3d22 3130 3070 783b 2220 616c  idth="100px;" al
+-00001d10: 743d 2274 686f 6d61 732d 7065 646f 7422  t="thomas-pedot"
+-00001d20: 2f3e 3c62 7220 2f3e 3c73 7562 3e3c 623e  /><br /><sub><b>
+-00001d30: 7468 6f6d 6173 2d70 6564 6f74 3c2f 623e  thomas-pedot</b>
+-00001d40: 3c2f 7375 623e 3c2f 613e 3c62 7220 2f3e  </sub></a><br />
+-00001d50: 3c61 2068 7265 663d 2268 7474 7073 3a2f  <a href="https:/
+-00001d60: 2f67 6974 6875 622e 636f 6d2f 6d61 6e73  /github.com/mans
+-00001d70: 656e 6672 616e 7a65 6e2f 6175 746f 646f  enfranzen/autodo
+-00001d80: 635f 7079 6461 6e74 6963 2f69 7373 7565  c_pydantic/issue
+-00001d90: 733f 713d 6175 7468 6f72 2533 4174 686f  s?q=author%3Atho
+-00001da0: 6d61 732d 7065 646f 7422 2074 6974 6c65  mas-pedot" title
+-00001db0: 3d22 4275 6720 7265 706f 7274 7322 3ef0  ="Bug reports">.
+-00001dc0: 9f90 9b3c 2f61 3e20 3c61 2068 7265 663d  ...</a> <a href=
+-00001dd0: 2223 7573 6572 5465 7374 696e 672d 7468  "#userTesting-th
+-00001de0: 6f6d 6173 2d70 6564 6f74 2220 7469 746c  omas-pedot" titl
+-00001df0: 653d 2255 7365 7220 5465 7374 696e 6722  e="User Testing"
+-00001e00: 3ef0 9f93 933c 2f61 3e3c 2f74 643e 5c6e  >....</a></td>\n
+-00001e10: 2020 2020 2020 3c74 6420 616c 6967 6e3d        <td align=
+-00001e20: 2263 656e 7465 7222 3e3c 6120 6872 6566  "center"><a href
+-00001e30: 3d22 6874 7470 733a 2f2f 6769 7468 7562  ="https://github
+-00001e40: 2e63 6f6d 2f6d 6174 7574 7465 7222 3e3c  .com/matutter"><
+-00001e50: 696d 6720 7372 633d 2268 7474 7073 3a2f  img src="https:/
+-00001e60: 2f61 7661 7461 7273 2e67 6974 6875 6275  /avatars.githubu
+-00001e70: 7365 7263 6f6e 7465 6e74 2e63 6f6d 2f75  sercontent.com/u
+-00001e80: 2f32 3730 3133 3739 3f76 3d34 3f73 3d31  /2701379?v=4?s=1
+-00001e90: 3030 2220 7769 6474 683d 2231 3030 7078  00" width="100px
+-00001ea0: 3b22 2061 6c74 3d22 4d61 7420 5574 7465  ;" alt="Mat Utte
+-00001eb0: 7222 2f3e 3c62 7220 2f3e 3c73 7562 3e3c  r"/><br /><sub><
+-00001ec0: 623e 4d61 7420 5574 7465 723c 2f62 3e3c  b>Mat Utter</b><
+-00001ed0: 2f73 7562 3e3c 2f61 3e3c 6272 202f 3e3c  /sub></a><br /><
+-00001ee0: 6120 6872 6566 3d22 6874 7470 733a 2f2f  a href="https://
+-00001ef0: 6769 7468 7562 2e63 6f6d 2f6d 616e 7365  github.com/manse
+-00001f00: 6e66 7261 6e7a 656e 2f61 7574 6f64 6f63  nfranzen/autodoc
+-00001f10: 5f70 7964 616e 7469 632f 6973 7375 6573  _pydantic/issues
+-00001f20: 3f71 3d61 7574 686f 7225 3341 6d61 7475  ?q=author%3Amatu
+-00001f30: 7474 6572 2220 7469 746c 653d 2242 7567  tter" title="Bug
+-00001f40: 2072 6570 6f72 7473 223e f09f 909b 3c2f   reports">....</
+-00001f50: 613e 203c 6120 6872 6566 3d22 2375 7365  a> <a href="#use
+-00001f60: 7254 6573 7469 6e67 2d6d 6174 7574 7465  rTesting-matutte
+-00001f70: 7222 2074 6974 6c65 3d22 5573 6572 2054  r" title="User T
+-00001f80: 6573 7469 6e67 223e f09f 9393 3c2f 613e  esting">....</a>
+-00001f90: 3c2f 7464 3e5c 6e20 2020 2020 203c 7464  </td>\n      <td
+-00001fa0: 2061 6c69 676e 3d22 6365 6e74 6572 223e   align="center">
+-00001fb0: 3c61 2068 7265 663d 2268 7474 7073 3a2f  <a href="https:/
+-00001fc0: 2f67 6974 6875 622e 636f 6d2f 6461 7669  /github.com/davi
+-00001fd0: 6463 6861 6c6c 223e 3c69 6d67 2073 7263  dchall"><img src
+-00001fe0: 3d22 6874 7470 733a 2f2f 6176 6174 6172  ="https://avatar
+-00001ff0: 732e 6769 7468 7562 7573 6572 636f 6e74  s.githubusercont
+-00002000: 656e 742e 636f 6d2f 752f 3138 3034 3835  ent.com/u/180485
+-00002010: 363f 763d 343f 733d 3130 3022 2077 6964  6?v=4?s=100" wid
+-00002020: 7468 3d22 3130 3070 783b 2220 616c 743d  th="100px;" alt=
+-00002030: 2244 6176 6964 2043 2048 616c 6c22 2f3e  "David C Hall"/>
+-00002040: 3c62 7220 2f3e 3c73 7562 3e3c 623e 4461  <br /><sub><b>Da
+-00002050: 7669 6420 4320 4861 6c6c 3c2f 623e 3c2f  vid C Hall</b></
+-00002060: 7375 623e 3c2f 613e 3c62 7220 2f3e 3c61  sub></a><br /><a
+-00002070: 2068 7265 663d 2223 6964 6561 732d 6461   href="#ideas-da
+-00002080: 7669 6463 6861 6c6c 2220 7469 746c 653d  vidchall" title=
+-00002090: 2249 6465 6173 2c20 506c 616e 6e69 6e67  "Ideas, Planning
+-000020a0: 2c20 2620 4665 6564 6261 636b 223e f09f  , & Feedback">..
+-000020b0: a494 3c2f 613e 203c 6120 6872 6566 3d22  ..</a> <a href="
+-000020c0: 2375 7365 7254 6573 7469 6e67 2d64 6176  #userTesting-dav
+-000020d0: 6964 6368 616c 6c22 2074 6974 6c65 3d22  idchall" title="
+-000020e0: 5573 6572 2054 6573 7469 6e67 223e f09f  User Testing">..
+-000020f0: 9393 3c2f 613e 3c2f 7464 3e5c 6e20 2020  ..</a></td>\n   
+-00002100: 2020 203c 7464 2061 6c69 676e 3d22 6365     <td align="ce
+-00002110: 6e74 6572 223e 3c61 2068 7265 663d 2268  nter"><a href="h
+-00002120: 7474 7073 3a2f 2f79 6f73 6861 6e75 696b  ttps://yoshanuik
+-00002130: 6162 756e 6469 2e6d 6522 3e3c 696d 6720  abundi.me"><img 
+-00002140: 7372 633d 2268 7474 7073 3a2f 2f61 7661  src="https://ava
+-00002150: 7461 7273 2e67 6974 6875 6275 7365 7263  tars.githubuserc
+-00002160: 6f6e 7465 6e74 2e63 6f6d 2f75 2f32 3835  ontent.com/u/285
+-00002170: 3930 3734 383f 763d 343f 733d 3130 3022  90748?v=4?s=100"
+-00002180: 2077 6964 7468 3d22 3130 3070 783b 2220   width="100px;" 
+-00002190: 616c 743d 224a 6f73 6820 412e 204d 6974  alt="Josh A. Mit
+-000021a0: 6368 656c 6c22 2f3e 3c62 7220 2f3e 3c73  chell"/><br /><s
+-000021b0: 7562 3e3c 623e 4a6f 7368 2041 2e20 4d69  ub><b>Josh A. Mi
+-000021c0: 7463 6865 6c6c 3c2f 623e 3c2f 7375 623e  tchell</b></sub>
+-000021d0: 3c2f 613e 3c62 7220 2f3e 3c61 2068 7265  </a><br /><a hre
+-000021e0: 663d 2223 6964 6561 732d 596f 7368 616e  f="#ideas-Yoshan
+-000021f0: 7569 6b61 6275 6e64 6922 2074 6974 6c65  uikabundi" title
+-00002200: 3d22 4964 6561 732c 2050 6c61 6e6e 696e  ="Ideas, Plannin
+-00002210: 672c 2026 2046 6565 6462 6163 6b22 3ef0  g, & Feedback">.
+-00002220: 9fa4 943c 2f61 3e20 3c61 2068 7265 663d  ...</a> <a href=
+-00002230: 2268 7474 7073 3a2f 2f67 6974 6875 622e  "https://github.
+-00002240: 636f 6d2f 6d61 6e73 656e 6672 616e 7a65  com/mansenfranze
+-00002250: 6e2f 6175 746f 646f 635f 7079 6461 6e74  n/autodoc_pydant
+-00002260: 6963 2f63 6f6d 6d69 7473 3f61 7574 686f  ic/commits?autho
+-00002270: 723d 596f 7368 616e 7569 6b61 6275 6e64  r=Yoshanuikabund
+-00002280: 6922 2074 6974 6c65 3d22 5465 7374 7322  i" title="Tests"
+-00002290: 3ee2 9aa0 efb8 8f3c 2f61 3e3c 2f74 643e  >......</a></td>
+-000022a0: 5c6e 2020 2020 2020 3c74 6420 616c 6967  \n      <td alig
+-000022b0: 6e3d 2263 656e 7465 7222 3e3c 6120 6872  n="center"><a hr
+-000022c0: 6566 3d22 6874 7470 733a 2f2f 6769 7468  ef="https://gith
+-000022d0: 7562 2e63 6f6d 2f67 6f72 6f64 6572 6963  ub.com/goroderic
+-000022e0: 6b67 6f22 3e3c 696d 6720 7372 633d 2268  kgo"><img src="h
+-000022f0: 7474 7073 3a2f 2f61 7661 7461 7273 2e67  ttps://avatars.g
+-00002300: 6974 6875 6275 7365 7263 6f6e 7465 6e74  ithubusercontent
+-00002310: 2e63 6f6d 2f75 2f31 3732 3936 3731 333f  .com/u/17296713?
+-00002320: 763d 343f 733d 3130 3022 2077 6964 7468  v=4?s=100" width
+-00002330: 3d22 3130 3070 783b 2220 616c 743d 2252  ="100px;" alt="R
+-00002340: 6f64 6572 6963 6b20 476f 222f 3e3c 6272  oderick Go"/><br
+-00002350: 202f 3e3c 7375 623e 3c62 3e52 6f64 6572   /><sub><b>Roder
+-00002360: 6963 6b20 476f 3c2f 623e 3c2f 7375 623e  ick Go</b></sub>
+-00002370: 3c2f 613e 3c62 7220 2f3e 3c61 2068 7265  </a><br /><a hre
+-00002380: 663d 2268 7474 7073 3a2f 2f67 6974 6875  f="https://githu
+-00002390: 622e 636f 6d2f 6d61 6e73 656e 6672 616e  b.com/mansenfran
+-000023a0: 7a65 6e2f 6175 746f 646f 635f 7079 6461  zen/autodoc_pyda
+-000023b0: 6e74 6963 2f63 6f6d 6d69 7473 3f61 7574  ntic/commits?aut
+-000023c0: 686f 723d 676f 726f 6465 7269 636b 676f  hor=goroderickgo
+-000023d0: 2220 7469 746c 653d 2254 6573 7473 223e  " title="Tests">
+-000023e0: e29a a0ef b88f 3c2f 613e 3c2f 7464 3e5c  ......</a></td>\
+-000023f0: 6e20 2020 2020 203c 7464 2061 6c69 676e  n      <td align
+-00002400: 3d22 6365 6e74 6572 223e 3c61 2068 7265  ="center"><a hre
+-00002410: 663d 2268 7474 7073 3a2f 2f67 6974 6875  f="https://githu
+-00002420: 622e 636f 6d2f 6c69 6c79 6d69 6e69 756d  b.com/lilyminium
+-00002430: 223e 3c69 6d67 2073 7263 3d22 6874 7470  "><img src="http
+-00002440: 733a 2f2f 6176 6174 6172 732e 6769 7468  s://avatars.gith
+-00002450: 7562 7573 6572 636f 6e74 656e 742e 636f  ubusercontent.co
+-00002460: 6d2f 752f 3331 3131 3531 3031 3f76 3d34  m/u/31115101?v=4
+-00002470: 3f73 3d31 3030 2220 7769 6474 683d 2231  ?s=100" width="1
+-00002480: 3030 7078 3b22 2061 6c74 3d22 4c69 6c79  00px;" alt="Lily
+-00002490: 2057 616e 6722 2f3e 3c62 7220 2f3e 3c73   Wang"/><br /><s
+-000024a0: 7562 3e3c 623e 4c69 6c79 2057 616e 673c  ub><b>Lily Wang<
+-000024b0: 2f62 3e3c 2f73 7562 3e3c 2f61 3e3c 6272  /b></sub></a><br
+-000024c0: 202f 3e3c 6120 6872 6566 3d22 6874 7470   /><a href="http
+-000024d0: 733a 2f2f 6769 7468 7562 2e63 6f6d 2f6d  s://github.com/m
+-000024e0: 616e 7365 6e66 7261 6e7a 656e 2f61 7574  ansenfranzen/aut
+-000024f0: 6f64 6f63 5f70 7964 616e 7469 632f 636f  odoc_pydantic/co
+-00002500: 6d6d 6974 733f 6175 7468 6f72 3d6c 696c  mmits?author=lil
+-00002510: 796d 696e 6975 6d22 2074 6974 6c65 3d22  yminium" title="
+-00002520: 446f 6375 6d65 6e74 6174 696f 6e22 3ef0  Documentation">.
+-00002530: 9f93 963c 2f61 3e20 3c61 2068 7265 663d  ...</a> <a href=
+-00002540: 2223 636f 6e74 656e 742d 6c69 6c79 6d69  "#content-lilymi
+-00002550: 6e69 756d 2220 7469 746c 653d 2243 6f6e  nium" title="Con
+-00002560: 7465 6e74 223e f09f 968b 3c2f 613e 3c2f  tent">....</a></
+-00002570: 7464 3e5c 6e20 2020 2020 203c 7464 2061  td>\n      <td a
+-00002580: 6c69 676e 3d22 6365 6e74 6572 223e 3c61  lign="center"><a
+-00002590: 2068 7265 663d 2268 7474 7073 3a2f 2f67   href="https://g
+-000025a0: 6974 6875 622e 636f 6d2f 6a2d 6361 7273  ithub.com/j-cars
+-000025b0: 6f6e 223e 3c69 6d67 2073 7263 3d22 6874  on"><img src="ht
+-000025c0: 7470 733a 2f2f 6176 6174 6172 732e 6769  tps://avatars.gi
+-000025d0: 7468 7562 7573 6572 636f 6e74 656e 742e  thubusercontent.
+-000025e0: 636f 6d2f 752f 3434 3330 3831 3230 3f76  com/u/44308120?v
+-000025f0: 3d34 3f73 3d31 3030 2220 7769 6474 683d  =4?s=100" width=
+-00002600: 2231 3030 7078 3b22 2061 6c74 3d22 6a2d  "100px;" alt="j-
+-00002610: 6361 7273 6f6e 222f 3e3c 6272 202f 3e3c  carson"/><br /><
+-00002620: 7375 623e 3c62 3e6a 2d63 6172 736f 6e3c  sub><b>j-carson<
+-00002630: 2f62 3e3c 2f73 7562 3e3c 2f61 3e3c 6272  /b></sub></a><br
+-00002640: 202f 3e3c 6120 6872 6566 3d22 6874 7470   /><a href="http
+-00002650: 733a 2f2f 6769 7468 7562 2e63 6f6d 2f6d  s://github.com/m
+-00002660: 616e 7365 6e66 7261 6e7a 656e 2f61 7574  ansenfranzen/aut
+-00002670: 6f64 6f63 5f70 7964 616e 7469 632f 6973  odoc_pydantic/is
+-00002680: 7375 6573 3f71 3d61 7574 686f 7225 3341  sues?q=author%3A
+-00002690: 6a2d 6361 7273 6f6e 2220 7469 746c 653d  j-carson" title=
+-000026a0: 2242 7567 2072 6570 6f72 7473 223e f09f  "Bug reports">..
+-000026b0: 909b 3c2f 613e 203c 6120 6872 6566 3d22  ..</a> <a href="
+-000026c0: 6874 7470 733a 2f2f 6769 7468 7562 2e63  https://github.c
+-000026d0: 6f6d 2f6d 616e 7365 6e66 7261 6e7a 656e  om/mansenfranzen
+-000026e0: 2f61 7574 6f64 6f63 5f70 7964 616e 7469  /autodoc_pydanti
+-000026f0: 632f 636f 6d6d 6974 733f 6175 7468 6f72  c/commits?author
+-00002700: 3d6a 2d63 6172 736f 6e22 2074 6974 6c65  =j-carson" title
+-00002710: 3d22 436f 6465 223e f09f 92bb 3c2f 613e  ="Code">....</a>
+-00002720: 203c 6120 6872 6566 3d22 6874 7470 733a   <a href="https:
+-00002730: 2f2f 6769 7468 7562 2e63 6f6d 2f6d 616e  //github.com/man
+-00002740: 7365 6e66 7261 6e7a 656e 2f61 7574 6f64  senfranzen/autod
+-00002750: 6f63 5f70 7964 616e 7469 632f 636f 6d6d  oc_pydantic/comm
+-00002760: 6974 733f 6175 7468 6f72 3d6a 2d63 6172  its?author=j-car
+-00002770: 736f 6e22 2074 6974 6c65 3d22 5465 7374  son" title="Test
+-00002780: 7322 3ee2 9aa0 efb8 8f3c 2f61 3e3c 2f74  s">......</a></t
+-00002790: 643e 5c6e 2020 2020 3c2f 7472 3e5c 6e20  d>\n    </tr>\n 
+-000027a0: 2020 203c 7472 3e5c 6e20 2020 2020 203c     <tr>\n      <
+-000027b0: 7464 2061 6c69 676e 3d22 6365 6e74 6572  td align="center
+-000027c0: 223e 3c61 2068 7265 663d 2268 7474 703a  "><a href="http:
+-000027d0: 2f2f 696d 6164 612e 7364 752e 646b 2f7e  //imada.sdu.dk/~
+-000027e0: 6a6c 616e 6465 7273 656e 2f22 3e3c 696d  jlandersen/"><im
+-000027f0: 6720 7372 633d 2268 7474 7073 3a2f 2f61  g src="https://a
+-00002800: 7661 7461 7273 2e67 6974 6875 6275 7365  vatars.githubuse
+-00002810: 7263 6f6e 7465 6e74 2e63 6f6d 2f75 2f36  rcontent.com/u/6
+-00002820: 3436 3537 3335 3f76 3d34 3f73 3d31 3030  465735?v=4?s=100
+-00002830: 2220 7769 6474 683d 2231 3030 7078 3b22  " width="100px;"
+-00002840: 2061 6c74 3d22 4a61 6b6f 6220 4c79 6b6b   alt="Jakob Lykk
+-00002850: 6520 416e 6465 7273 656e 222f 3e3c 6272  e Andersen"/><br
+-00002860: 202f 3e3c 7375 623e 3c62 3e4a 616b 6f62   /><sub><b>Jakob
+-00002870: 204c 796b 6b65 2041 6e64 6572 7365 6e3c   Lykke Andersen<
+-00002880: 2f62 3e3c 2f73 7562 3e3c 2f61 3e3c 6272  /b></sub></a><br
+-00002890: 202f 3e3c 6120 6872 6566 3d22 6874 7470   /><a href="http
+-000028a0: 733a 2f2f 6769 7468 7562 2e63 6f6d 2f6d  s://github.com/m
+-000028b0: 616e 7365 6e66 7261 6e7a 656e 2f61 7574  ansenfranzen/aut
+-000028c0: 6f64 6f63 5f70 7964 616e 7469 632f 636f  odoc_pydantic/co
+-000028d0: 6d6d 6974 733f 6175 7468 6f72 3d6a 616b  mmits?author=jak
+-000028e0: 6f62 616e 6465 7273 656e 2220 7469 746c  obandersen" titl
+-000028f0: 653d 2243 6f64 6522 3ef0 9f92 bb3c 2f61  e="Code">....</a
+-00002900: 3e3c 2f74 643e 5c6e 2020 2020 2020 3c74  ></td>\n      <t
+-00002910: 6420 616c 6967 6e3d 2263 656e 7465 7222  d align="center"
+-00002920: 3e3c 6120 6872 6566 3d22 6874 7470 733a  ><a href="https:
+-00002930: 2f2f 6769 7468 7562 2e63 6f6d 2f61 7374  //github.com/ast
+-00002940: 726f 6a75 616e 6c75 223e 3c69 6d67 2073  rojuanlu"><img s
+-00002950: 7263 3d22 6874 7470 733a 2f2f 6176 6174  rc="https://avat
+-00002960: 6172 732e 6769 7468 7562 7573 6572 636f  ars.githubuserco
+-00002970: 6e74 656e 742e 636f 6d2f 752f 3331 3635  ntent.com/u/3165
+-00002980: 3137 3f76 3d34 3f73 3d31 3030 2220 7769  17?v=4?s=100" wi
+-00002990: 6474 683d 2231 3030 7078 3b22 2061 6c74  dth="100px;" alt
+-000029a0: 3d22 4a75 616e 204c 7569 7320 4361 6e6f  ="Juan Luis Cano
+-000029b0: 2052 6f64 72c3 ad67 7565 7a22 2f3e 3c62   Rodr..guez"/><b
+-000029c0: 7220 2f3e 3c73 7562 3e3c 623e 4a75 616e  r /><sub><b>Juan
+-000029d0: 204c 7569 7320 4361 6e6f 2052 6f64 72c3   Luis Cano Rodr.
+-000029e0: ad67 7565 7a3c 2f62 3e3c 2f73 7562 3e3c  .guez</b></sub><
+-000029f0: 2f61 3e3c 6272 202f 3e3c 6120 6872 6566  /a><br /><a href
+-00002a00: 3d22 2363 6f6e 7465 6e74 2d61 7374 726f  ="#content-astro
+-00002a10: 6a75 616e 6c75 2220 7469 746c 653d 2243  juanlu" title="C
+-00002a20: 6f6e 7465 6e74 223e f09f 968b 3c2f 613e  ontent">....</a>
+-00002a30: 3c2f 7464 3e5c 6e20 2020 2020 203c 7464  </td>\n      <td
+-00002a40: 2061 6c69 676e 3d22 6365 6e74 6572 223e   align="center">
+-00002a50: 3c61 2068 7265 663d 2268 7474 7073 3a2f  <a href="https:/
+-00002a60: 2f67 6974 6875 622e 636f 6d2f 6e63 6861  /github.com/ncha
+-00002a70: 6c79 223e 3c69 6d67 2073 7263 3d22 6874  ly"><img src="ht
+-00002a80: 7470 733a 2f2f 6176 6174 6172 732e 6769  tps://avatars.gi
+-00002a90: 7468 7562 7573 6572 636f 6e74 656e 742e  thubusercontent.
+-00002aa0: 636f 6d2f 752f 3236 3635 3237 333f 763d  com/u/2665273?v=
+-00002ab0: 343f 733d 3130 3022 2077 6964 7468 3d22  4?s=100" width="
+-00002ac0: 3130 3070 783b 2220 616c 743d 224d 696b  100px;" alt="Mik
+-00002ad0: 616c 6169 2043 6861 6c79 222f 3e3c 6272  alai Chaly"/><br
+-00002ae0: 202f 3e3c 7375 623e 3c62 3e4d 696b 616c   /><sub><b>Mikal
+-00002af0: 6169 2043 6861 6c79 3c2f 623e 3c2f 7375  ai Chaly</b></su
+-00002b00: 623e 3c2f 613e 3c62 7220 2f3e 3c61 2068  b></a><br /><a h
+-00002b10: 7265 663d 2268 7474 7073 3a2f 2f67 6974  ref="https://git
+-00002b20: 6875 622e 636f 6d2f 6d61 6e73 656e 6672  hub.com/mansenfr
+-00002b30: 616e 7a65 6e2f 6175 746f 646f 635f 7079  anzen/autodoc_py
+-00002b40: 6461 6e74 6963 2f69 7373 7565 733f 713d  dantic/issues?q=
+-00002b50: 6175 7468 6f72 2533 416e 6368 616c 7922  author%3Anchaly"
+-00002b60: 2074 6974 6c65 3d22 4275 6720 7265 706f   title="Bug repo
+-00002b70: 7274 7322 3ef0 9f90 9b3c 2f61 3e20 3c61  rts">....</a> <a
+-00002b80: 2068 7265 663d 2268 7474 7073 3a2f 2f67   href="https://g
+-00002b90: 6974 6875 622e 636f 6d2f 6d61 6e73 656e  ithub.com/mansen
+-00002ba0: 6672 616e 7a65 6e2f 6175 746f 646f 635f  franzen/autodoc_
+-00002bb0: 7079 6461 6e74 6963 2f63 6f6d 6d69 7473  pydantic/commits
+-00002bc0: 3f61 7574 686f 723d 6e63 6861 6c79 2220  ?author=nchaly" 
+-00002bd0: 7469 746c 653d 2254 6573 7473 223e e29a  title="Tests">..
+-00002be0: a0ef b88f 3c2f 613e 3c2f 7464 3e5c 6e20  ....</a></td>\n 
+-00002bf0: 2020 2020 203c 7464 2061 6c69 676e 3d22       <td align="
+-00002c00: 6365 6e74 6572 223e 3c61 2068 7265 663d  center"><a href=
+-00002c10: 2268 7474 7073 3a2f 2f67 6974 6875 622e  "https://github.
+-00002c20: 636f 6d2f 5374 6967 4b6f 7273 6e65 7322  com/StigKorsnes"
+-00002c30: 3e3c 696d 6720 7372 633d 2268 7474 7073  ><img src="https
+-00002c40: 3a2f 2f61 7661 7461 7273 2e67 6974 6875  ://avatars.githu
+-00002c50: 6275 7365 7263 6f6e 7465 6e74 2e63 6f6d  busercontent.com
+-00002c60: 2f75 2f31 3030 3835 3533 363f 763d 343f  /u/10085536?v=4?
+-00002c70: 733d 3130 3022 2077 6964 7468 3d22 3130  s=100" width="10
+-00002c80: 3070 783b 2220 616c 743d 2253 7469 6720  0px;" alt="Stig 
+-00002c90: 4b6f 7273 6e65 7322 2f3e 3c62 7220 2f3e  Korsnes"/><br />
+-00002ca0: 3c73 7562 3e3c 623e 5374 6967 204b 6f72  <sub><b>Stig Kor
+-00002cb0: 736e 6573 3c2f 623e 3c2f 7375 623e 3c2f  snes</b></sub></
+-00002cc0: 613e 3c62 7220 2f3e 3c61 2068 7265 663d  a><br /><a href=
+-00002cd0: 2268 7474 7073 3a2f 2f67 6974 6875 622e  "https://github.
+-00002ce0: 636f 6d2f 6d61 6e73 656e 6672 616e 7a65  com/mansenfranze
+-00002cf0: 6e2f 6175 746f 646f 635f 7079 6461 6e74  n/autodoc_pydant
+-00002d00: 6963 2f69 7373 7565 733f 713d 6175 7468  ic/issues?q=auth
+-00002d10: 6f72 2533 4153 7469 674b 6f72 736e 6573  or%3AStigKorsnes
+-00002d20: 2220 7469 746c 653d 2242 7567 2072 6570  " title="Bug rep
+-00002d30: 6f72 7473 223e f09f 909b 3c2f 613e 203c  orts">....</a> <
+-00002d40: 6120 6872 6566 3d22 2369 6465 6173 2d53  a href="#ideas-S
+-00002d50: 7469 674b 6f72 736e 6573 2220 7469 746c  tigKorsnes" titl
+-00002d60: 653d 2249 6465 6173 2c20 506c 616e 6e69  e="Ideas, Planni
+-00002d70: 6e67 2c20 2620 4665 6564 6261 636b 223e  ng, & Feedback">
+-00002d80: f09f a494 3c2f 613e 3c2f 7464 3e5c 6e20  ....</a></td>\n 
+-00002d90: 2020 2020 203c 7464 2061 6c69 676e 3d22       <td align="
+-00002da0: 6365 6e74 6572 223e 3c61 2068 7265 663d  center"><a href=
+-00002db0: 2268 7474 7073 3a2f 2f67 6974 6875 622e  "https://github.
+-00002dc0: 636f 6d2f 696c 6961 6b75 7222 3e3c 696d  com/iliakur"><im
+-00002dd0: 6720 7372 633d 2268 7474 7073 3a2f 2f61  g src="https://a
+-00002de0: 7661 7461 7273 2e67 6974 6875 6275 7365  vatars.githubuse
+-00002df0: 7263 6f6e 7465 6e74 2e63 6f6d 2f75 2f38  rcontent.com/u/8
+-00002e00: 3939 3539 313f 763d 343f 733d 3130 3022  99591?v=4?s=100"
+-00002e10: 2077 6964 7468 3d22 3130 3070 783b 2220   width="100px;" 
+-00002e20: 616c 743d 2249 6c69 6120 4b75 7265 6e6b  alt="Ilia Kurenk
+-00002e30: 6f76 222f 3e3c 6272 202f 3e3c 7375 623e  ov"/><br /><sub>
+-00002e40: 3c62 3e49 6c69 6120 4b75 7265 6e6b 6f76  <b>Ilia Kurenkov
+-00002e50: 3c2f 623e 3c2f 7375 623e 3c2f 613e 3c62  </b></sub></a><b
+-00002e60: 7220 2f3e 3c61 2068 7265 663d 2268 7474  r /><a href="htt
+-00002e70: 7073 3a2f 2f67 6974 6875 622e 636f 6d2f  ps://github.com/
+-00002e80: 6d61 6e73 656e 6672 616e 7a65 6e2f 6175  mansenfranzen/au
+-00002e90: 746f 646f 635f 7079 6461 6e74 6963 2f69  todoc_pydantic/i
+-00002ea0: 7373 7565 733f 713d 6175 7468 6f72 2533  ssues?q=author%3
+-00002eb0: 4169 6c69 616b 7572 2220 7469 746c 653d  Ailiakur" title=
+-00002ec0: 2242 7567 2072 6570 6f72 7473 223e f09f  "Bug reports">..
+-00002ed0: 909b 3c2f 613e 3c2f 7464 3e5c 6e20 2020  ..</a></td>\n   
+-00002ee0: 2020 203c 7464 2061 6c69 676e 3d22 6365     <td align="ce
+-00002ef0: 6e74 6572 223e 3c61 2068 7265 663d 2268  nter"><a href="h
+-00002f00: 7474 7073 3a2f 2f6f 7263 6964 2e6f 7267  ttps://orcid.org
+-00002f10: 2f6d 792d 6f72 6369 643f 6f72 6369 643d  /my-orcid?orcid=
+-00002f20: 3030 3030 2d30 3030 322d 3534 3730 2d31  0000-0002-5470-1
+-00002f30: 3637 3622 3e3c 696d 6720 7372 633d 2268  676"><img src="h
+-00002f40: 7474 7073 3a2f 2f61 7661 7461 7273 2e67  ttps://avatars.g
+-00002f50: 6974 6875 6275 7365 7263 6f6e 7465 6e74  ithubusercontent
+-00002f60: 2e63 6f6d 2f75 2f33 3832 3632 3130 3f76  .com/u/3826210?v
+-00002f70: 3d34 3f73 3d31 3030 2220 7769 6474 683d  =4?s=100" width=
+-00002f80: 2231 3030 7078 3b22 2061 6c74 3d22 4772  "100px;" alt="Gr
+-00002f90: 7a65 676f 727a 2042 6f6b 6f74 6122 2f3e  zegorz Bokota"/>
+-00002fa0: 3c62 7220 2f3e 3c73 7562 3e3c 623e 4772  <br /><sub><b>Gr
+-00002fb0: 7a65 676f 727a 2042 6f6b 6f74 613c 2f62  zegorz Bokota</b
+-00002fc0: 3e3c 2f73 7562 3e3c 2f61 3e3c 6272 202f  ></sub></a><br /
+-00002fd0: 3e3c 6120 6872 6566 3d22 6874 7470 733a  ><a href="https:
+-00002fe0: 2f2f 6769 7468 7562 2e63 6f6d 2f6d 616e  //github.com/man
+-00002ff0: 7365 6e66 7261 6e7a 656e 2f61 7574 6f64  senfranzen/autod
+-00003000: 6f63 5f70 7964 616e 7469 632f 6973 7375  oc_pydantic/issu
+-00003010: 6573 3f71 3d61 7574 686f 7225 3341 437a  es?q=author%3ACz
+-00003020: 616b 6922 2074 6974 6c65 3d22 4275 6720  aki" title="Bug 
+-00003030: 7265 706f 7274 7322 3ef0 9f90 9b3c 2f61  reports">....</a
+-00003040: 3e3c 2f74 643e 5c6e 2020 2020 2020 3c74  ></td>\n      <t
+-00003050: 6420 616c 6967 6e3d 2263 656e 7465 7222  d align="center"
+-00003060: 3e3c 6120 6872 6566 3d22 6874 7470 733a  ><a href="https:
+-00003070: 2f2f 6769 7468 7562 2e63 6f6d 2f6a 6775  //github.com/jgu
+-00003080: 6e73 746f 6e65 223e 3c69 6d67 2073 7263  nstone"><img src
+-00003090: 3d22 6874 7470 733a 2f2f 6176 6174 6172  ="https://avatar
+-000030a0: 732e 6769 7468 7562 7573 6572 636f 6e74  s.githubusercont
+-000030b0: 656e 742e 636f 6d2f 752f 3231 3337 3039  ent.com/u/213709
+-000030c0: 3830 3f76 3d34 3f73 3d31 3030 2220 7769  80?v=4?s=100" wi
+-000030d0: 6474 683d 2231 3030 7078 3b22 2061 6c74  dth="100px;" alt
+-000030e0: 3d22 6a67 756e 7374 6f6e 6522 2f3e 3c62  ="jgunstone"/><b
+-000030f0: 7220 2f3e 3c73 7562 3e3c 623e 6a67 756e  r /><sub><b>jgun
+-00003100: 7374 6f6e 653c 2f62 3e3c 2f73 7562 3e3c  stone</b></sub><
+-00003110: 2f61 3e3c 6272 202f 3e3c 6120 6872 6566  /a><br /><a href
+-00003120: 3d22 6874 7470 733a 2f2f 6769 7468 7562  ="https://github
+-00003130: 2e63 6f6d 2f6d 616e 7365 6e66 7261 6e7a  .com/mansenfranz
+-00003140: 656e 2f61 7574 6f64 6f63 5f70 7964 616e  en/autodoc_pydan
+-00003150: 7469 632f 6973 7375 6573 3f71 3d61 7574  tic/issues?q=aut
+-00003160: 686f 7225 3341 6a67 756e 7374 6f6e 6522  hor%3Ajgunstone"
+-00003170: 2074 6974 6c65 3d22 4275 6720 7265 706f   title="Bug repo
+-00003180: 7274 7322 3ef0 9f90 9b3c 2f61 3e3c 2f74  rts">....</a></t
+-00003190: 643e 5c6e 2020 2020 3c2f 7472 3e5c 6e20  d>\n    </tr>\n 
+-000031a0: 2020 203c 7472 3e5c 6e20 2020 2020 203c     <tr>\n      <
+-000031b0: 7464 2061 6c69 676e 3d22 6365 6e74 6572  td align="center
+-000031c0: 223e 3c61 2068 7265 663d 2268 7474 7073  "><a href="https
+-000031d0: 3a2f 2f67 6974 6875 622e 636f 6d2f 6977  ://github.com/iw
+-000031e0: 7972 6b6f 7265 223e 3c69 6d67 2073 7263  yrkore"><img src
+-000031f0: 3d22 6874 7470 733a 2f2f 6176 6174 6172  ="https://avatar
+-00003200: 732e 6769 7468 7562 7573 6572 636f 6e74  s.githubusercont
+-00003210: 656e 742e 636f 6d2f 752f 3932 3734 3538  ent.com/u/927458
+-00003220: 3830 3f76 3d34 3f73 3d31 3030 2220 7769  80?v=4?s=100" wi
+-00003230: 6474 683d 2231 3030 7078 3b22 2061 6c74  dth="100px;" alt
+-00003240: 3d22 6977 7972 6b6f 7265 222f 3e3c 6272  ="iwyrkore"/><br
+-00003250: 202f 3e3c 7375 623e 3c62 3e69 7779 726b   /><sub><b>iwyrk
+-00003260: 6f72 653c 2f62 3e3c 2f73 7562 3e3c 2f61  ore</b></sub></a
+-00003270: 3e3c 6272 202f 3e3c 6120 6872 6566 3d22  ><br /><a href="
+-00003280: 6874 7470 733a 2f2f 6769 7468 7562 2e63  https://github.c
+-00003290: 6f6d 2f6d 616e 7365 6e66 7261 6e7a 656e  om/mansenfranzen
+-000032a0: 2f61 7574 6f64 6f63 5f70 7964 616e 7469  /autodoc_pydanti
+-000032b0: 632f 636f 6d6d 6974 733f 6175 7468 6f72  c/commits?author
+-000032c0: 3d69 7779 726b 6f72 6522 2074 6974 6c65  =iwyrkore" title
+-000032d0: 3d22 436f 6465 223e f09f 92bb 3c2f 613e  ="Code">....</a>
+-000032e0: 3c2f 7464 3e5c 6e20 2020 2020 203c 7464  </td>\n      <td
+-000032f0: 2061 6c69 676e 3d22 6365 6e74 6572 223e   align="center">
+-00003300: 3c61 2068 7265 663d 2268 7474 7073 3a2f  <a href="https:/
+-00003310: 2f67 6974 6875 622e 636f 6d2f 7370 6163  /github.com/spac
+-00003320: 656d 616e 7370 6966 6632 3030 3722 3e3c  emanspiff2007"><
+-00003330: 696d 6720 7372 633d 2268 7474 7073 3a2f  img src="https:/
+-00003340: 2f61 7661 7461 7273 2e67 6974 6875 6275  /avatars.githubu
+-00003350: 7365 7263 6f6e 7465 6e74 2e63 6f6d 2f75  sercontent.com/u
+-00003360: 2f31 3037 3534 3731 363f 763d 343f 733d  /10754716?v=4?s=
+-00003370: 3130 3022 2077 6964 7468 3d22 3130 3070  100" width="100p
+-00003380: 783b 2220 616c 743d 2273 7061 6365 6d61  x;" alt="spacema
+-00003390: 6e73 7069 6666 3230 3037 222f 3e3c 6272  nspiff2007"/><br
+-000033a0: 202f 3e3c 7375 623e 3c62 3e73 7061 6365   /><sub><b>space
+-000033b0: 6d61 6e73 7069 6666 3230 3037 3c2f 623e  manspiff2007</b>
+-000033c0: 3c2f 7375 623e 3c2f 613e 3c62 7220 2f3e  </sub></a><br />
+-000033d0: 3c61 2068 7265 663d 2268 7474 7073 3a2f  <a href="https:/
+-000033e0: 2f67 6974 6875 622e 636f 6d2f 6d61 6e73  /github.com/mans
+-000033f0: 656e 6672 616e 7a65 6e2f 6175 746f 646f  enfranzen/autodo
+-00003400: 635f 7079 6461 6e74 6963 2f69 7373 7565  c_pydantic/issue
+-00003410: 733f 713d 6175 7468 6f72 2533 4173 7061  s?q=author%3Aspa
+-00003420: 6365 6d61 6e73 7069 6666 3230 3037 2220  cemanspiff2007" 
+-00003430: 7469 746c 653d 2242 7567 2072 6570 6f72  title="Bug repor
+-00003440: 7473 223e f09f 909b 3c2f 613e 203c 6120  ts">....</a> <a 
+-00003450: 6872 6566 3d22 2369 6465 6173 2d73 7061  href="#ideas-spa
+-00003460: 6365 6d61 6e73 7069 6666 3230 3037 2220  cemanspiff2007" 
+-00003470: 7469 746c 653d 2249 6465 6173 2c20 506c  title="Ideas, Pl
+-00003480: 616e 6e69 6e67 2c20 2620 4665 6564 6261  anning, & Feedba
+-00003490: 636b 223e f09f a494 3c2f 613e 3c2f 7464  ck">....</a></td
+-000034a0: 3e5c 6e20 2020 2020 203c 7464 2061 6c69  >\n      <td ali
+-000034b0: 676e 3d22 6365 6e74 6572 223e 3c61 2068  gn="center"><a h
+-000034c0: 7265 663d 2268 7474 7073 3a2f 2f6c 756b  ref="https://luk
+-000034d0: 652e 6873 6961 6f2e 6465 7622 3e3c 696d  e.hsiao.dev"><im
+-000034e0: 6720 7372 633d 2268 7474 7073 3a2f 2f61  g src="https://a
+-000034f0: 7661 7461 7273 2e67 6974 6875 6275 7365  vatars.githubuse
+-00003500: 7263 6f6e 7465 6e74 2e63 6f6d 2f75 2f37  rcontent.com/u/7
+-00003510: 3537 3335 3432 3f76 3d34 3f73 3d31 3030  573542?v=4?s=100
+-00003520: 2220 7769 6474 683d 2231 3030 7078 3b22  " width="100px;"
+-00003530: 2061 6c74 3d22 4c75 6b65 2048 7369 616f   alt="Luke Hsiao
+-00003540: 222f 3e3c 6272 202f 3e3c 7375 623e 3c62  "/><br /><sub><b
+-00003550: 3e4c 756b 6520 4873 6961 6f3c 2f62 3e3c  >Luke Hsiao</b><
+-00003560: 2f73 7562 3e3c 2f61 3e3c 6272 202f 3e3c  /sub></a><br /><
+-00003570: 6120 6872 6566 3d22 6874 7470 733a 2f2f  a href="https://
+-00003580: 6769 7468 7562 2e63 6f6d 2f6d 616e 7365  github.com/manse
+-00003590: 6e66 7261 6e7a 656e 2f61 7574 6f64 6f63  nfranzen/autodoc
+-000035a0: 5f70 7964 616e 7469 632f 6973 7375 6573  _pydantic/issues
+-000035b0: 3f71 3d61 7574 686f 7225 3341 6c75 6b65  ?q=author%3Aluke
+-000035c0: 6873 6961 6f22 2074 6974 6c65 3d22 4275  hsiao" title="Bu
+-000035d0: 6720 7265 706f 7274 7322 3ef0 9f90 9b3c  g reports">....<
+-000035e0: 2f61 3e3c 2f74 643e 5c6e 2020 2020 2020  /a></td>\n      
+-000035f0: 3c74 6420 616c 6967 6e3d 2263 656e 7465  <td align="cente
+-00003600: 7222 3e3c 6120 6872 6566 3d22 6874 7470  r"><a href="http
+-00003610: 733a 2f2f 6769 7468 7562 2e63 6f6d 2f6e  s://github.com/n
+-00003620: 6963 6b65 6c64 616e 223e 3c69 6d67 2073  ickeldan"><img s
+-00003630: 7263 3d22 6874 7470 733a 2f2f 6176 6174  rc="https://avat
+-00003640: 6172 732e 6769 7468 7562 7573 6572 636f  ars.githubuserco
+-00003650: 6e74 656e 742e 636f 6d2f 752f 3231 3231  ntent.com/u/2121
+-00003660: 3035 3932 3f76 3d34 3f73 3d31 3030 2220  0592?v=4?s=100" 
+-00003670: 7769 6474 683d 2231 3030 7078 3b22 2061  width="100px;" a
+-00003680: 6c74 3d22 4461 6e69 656c 2057 616c 6b65  lt="Daniel Walke
+-00003690: 7222 2f3e 3c62 7220 2f3e 3c73 7562 3e3c  r"/><br /><sub><
+-000036a0: 623e 4461 6e69 656c 2057 616c 6b65 723c  b>Daniel Walker<
+-000036b0: 2f62 3e3c 2f73 7562 3e3c 2f61 3e3c 6272  /b></sub></a><br
+-000036c0: 202f 3e3c 6120 6872 6566 3d22 6874 7470   /><a href="http
+-000036d0: 733a 2f2f 6769 7468 7562 2e63 6f6d 2f6d  s://github.com/m
+-000036e0: 616e 7365 6e66 7261 6e7a 656e 2f61 7574  ansenfranzen/aut
+-000036f0: 6f64 6f63 5f70 7964 616e 7469 632f 6973  odoc_pydantic/is
+-00003700: 7375 6573 3f71 3d61 7574 686f 7225 3341  sues?q=author%3A
+-00003710: 6e69 636b 656c 6461 6e22 2074 6974 6c65  nickeldan" title
+-00003720: 3d22 4275 6720 7265 706f 7274 7322 3ef0  ="Bug reports">.
+-00003730: 9f90 9b3c 2f61 3e3c 2f74 643e 5c6e 2020  ...</a></td>\n  
+-00003740: 2020 2020 3c74 6420 616c 6967 6e3d 2263      <td align="c
+-00003750: 656e 7465 7222 3e3c 6120 6872 6566 3d22  enter"><a href="
+-00003760: 6874 7470 733a 2f2f 742e 6d65 2f70 6970  https://t.me/pip
+-00003770: 656b 6e69 6768 7422 3e3c 696d 6720 7372  eknight"><img sr
+-00003780: 633d 2268 7474 7073 3a2f 2f61 7661 7461  c="https://avata
+-00003790: 7273 2e67 6974 6875 6275 7365 7263 6f6e  rs.githubusercon
+-000037a0: 7465 6e74 2e63 6f6d 2f75 2f33 3438 3130  tent.com/u/34810
+-000037b0: 3536 363f 763d 343f 733d 3130 3022 2077  566?v=4?s=100" w
+-000037c0: 6964 7468 3d22 3130 3070 783b 2220 616c  idth="100px;" al
+-000037d0: 743d 2245 7667 656e 6979 204c 7570 6173  t="Evgeniy Lupas
+-000037e0: 6869 6e22 2f3e 3c62 7220 2f3e 3c73 7562  hin"/><br /><sub
+-000037f0: 3e3c 623e 4576 6765 6e69 7920 4c75 7061  ><b>Evgeniy Lupa
+-00003800: 7368 696e 3c2f 623e 3c2f 7375 623e 3c2f  shin</b></sub></
+-00003810: 613e 3c62 7220 2f3e 3c61 2068 7265 663d  a><br /><a href=
+-00003820: 2268 7474 7073 3a2f 2f67 6974 6875 622e  "https://github.
+-00003830: 636f 6d2f 6d61 6e73 656e 6672 616e 7a65  com/mansenfranze
+-00003840: 6e2f 6175 746f 646f 635f 7079 6461 6e74  n/autodoc_pydant
+-00003850: 6963 2f69 7373 7565 733f 713d 6175 7468  ic/issues?q=auth
+-00003860: 6f72 2533 4150 6970 654b 6e69 6768 7422  or%3APipeKnight"
+-00003870: 2074 6974 6c65 3d22 4275 6720 7265 706f   title="Bug repo
+-00003880: 7274 7322 3ef0 9f90 9b3c 2f61 3e3c 2f74  rts">....</a></t
+-00003890: 643e 5c6e 2020 2020 2020 3c74 6420 616c  d>\n      <td al
+-000038a0: 6967 6e3d 2263 656e 7465 7222 3e3c 6120  ign="center"><a 
+-000038b0: 6872 6566 3d22 6874 7470 3a2f 2f6a 616e  href="http://jan
+-000038c0: 6865 6e64 7269 6b65 7765 7273 2e75 6b2f  hendrikewers.uk/
+-000038d0: 223e 3c69 6d67 2073 7263 3d22 6874 7470  "><img src="http
+-000038e0: 733a 2f2f 6176 6174 6172 732e 6769 7468  s://avatars.gith
+-000038f0: 7562 7573 6572 636f 6e74 656e 742e 636f  ubusercontent.co
+-00003900: 6d2f 752f 3132 3338 3330 3239 3f76 3d34  m/u/12383029?v=4
+-00003910: 3f73 3d31 3030 2220 7769 6474 683d 2231  ?s=100" width="1
+-00003920: 3030 7078 3b22 2061 6c74 3d22 4a61 6e2d  00px;" alt="Jan-
+-00003930: 4865 6e64 7269 6b20 4577 6572 7322 2f3e  Hendrik Ewers"/>
+-00003940: 3c62 7220 2f3e 3c73 7562 3e3c 623e 4a61  <br /><sub><b>Ja
+-00003950: 6e2d 4865 6e64 7269 6b20 4577 6572 733c  n-Hendrik Ewers<
+-00003960: 2f62 3e3c 2f73 7562 3e3c 2f61 3e3c 6272  /b></sub></a><br
+-00003970: 202f 3e3c 6120 6872 6566 3d22 6874 7470   /><a href="http
+-00003980: 733a 2f2f 6769 7468 7562 2e63 6f6d 2f6d  s://github.com/m
+-00003990: 616e 7365 6e66 7261 6e7a 656e 2f61 7574  ansenfranzen/aut
+-000039a0: 6f64 6f63 5f70 7964 616e 7469 632f 6973  odoc_pydantic/is
+-000039b0: 7375 6573 3f71 3d61 7574 686f 7225 3341  sues?q=author%3A
+-000039c0: 6977 6973 6869 7761 7361 6e65 6167 6c65  iwishiwasaneagle
+-000039d0: 2220 7469 746c 653d 2242 7567 2072 6570  " title="Bug rep
+-000039e0: 6f72 7473 223e f09f 909b 3c2f 613e 3c2f  orts">....</a></
+-000039f0: 7464 3e5c 6e20 2020 2020 203c 7464 2061  td>\n      <td a
+-00003a00: 6c69 676e 3d22 6365 6e74 6572 223e 3c61  lign="center"><a
+-00003a10: 2068 7265 663d 2268 7474 7073 3a2f 2f6a   href="https://j
+-00003a20: 6f6e 2d65 2e6e 6574 223e 3c69 6d67 2073  on-e.net"><img s
+-00003a30: 7263 3d22 6874 7470 733a 2f2f 6176 6174  rc="https://avat
+-00003a40: 6172 732e 6769 7468 7562 7573 6572 636f  ars.githubuserco
+-00003a50: 6e74 656e 742e 636f 6d2f 752f 3132 3936  ntent.com/u/1296
+-00003a60: 3134 3939 3f76 3d34 3f73 3d31 3030 2220  1499?v=4?s=100" 
+-00003a70: 7769 6474 683d 2231 3030 7078 3b22 2061  width="100px;" a
+-00003a80: 6c74 3d22 4a6f 6e6e 7920 5361 756e 6465  lt="Jonny Saunde
+-00003a90: 7273 222f 3e3c 6272 202f 3e3c 7375 623e  rs"/><br /><sub>
+-00003aa0: 3c62 3e4a 6f6e 6e79 2053 6175 6e64 6572  <b>Jonny Saunder
+-00003ab0: 733c 2f62 3e3c 2f73 7562 3e3c 2f61 3e3c  s</b></sub></a><
+-00003ac0: 6272 202f 3e3c 6120 6872 6566 3d22 6874  br /><a href="ht
+-00003ad0: 7470 733a 2f2f 6769 7468 7562 2e63 6f6d  tps://github.com
+-00003ae0: 2f6d 616e 7365 6e66 7261 6e7a 656e 2f61  /mansenfranzen/a
+-00003af0: 7574 6f64 6f63 5f70 7964 616e 7469 632f  utodoc_pydantic/
+-00003b00: 6973 7375 6573 3f71 3d61 7574 686f 7225  issues?q=author%
+-00003b10: 3341 736e 6561 6b65 7273 2d74 6865 2d72  3Asneakers-the-r
+-00003b20: 6174 2220 7469 746c 653d 2242 7567 2072  at" title="Bug r
+-00003b30: 6570 6f72 7473 223e f09f 909b 3c2f 613e  eports">....</a>
+-00003b40: 3c2f 7464 3e5c 6e20 2020 203c 2f74 723e  </td>\n    </tr>
+-00003b50: 5c6e 2020 2020 3c74 723e 5c6e 2020 2020  \n    <tr>\n    
+-00003b60: 2020 3c74 6420 616c 6967 6e3d 2263 656e    <td align="cen
+-00003b70: 7465 7222 3e3c 6120 6872 6566 3d22 6874  ter"><a href="ht
+-00003b80: 7470 3a2f 2f63 6861 726c 6965 2e6d 6163  tp://charlie.mac
+-00003b90: 6861 6c6f 772e 636f 6d22 3e3c 696d 6720  halow.com"><img 
+-00003ba0: 7372 633d 2268 7474 7073 3a2f 2f61 7661  src="https://ava
+-00003bb0: 7461 7273 2e67 6974 6875 6275 7365 7263  tars.githubuserc
+-00003bc0: 6f6e 7465 6e74 2e63 6f6d 2f75 2f35 3734  ontent.com/u/574
+-00003bd0: 3938 3338 3f76 3d34 3f73 3d31 3030 2220  9838?v=4?s=100" 
+-00003be0: 7769 6474 683d 2231 3030 7078 3b22 2061  width="100px;" a
+-00003bf0: 6c74 3d22 4368 6172 6c65 7320 4d61 6368  lt="Charles Mach
+-00003c00: 616c 6f77 222f 3e3c 6272 202f 3e3c 7375  alow"/><br /><su
+-00003c10: 623e 3c62 3e43 6861 726c 6573 204d 6163  b><b>Charles Mac
+-00003c20: 6861 6c6f 773c 2f62 3e3c 2f73 7562 3e3c  halow</b></sub><
+-00003c30: 2f61 3e3c 6272 202f 3e3c 6120 6872 6566  /a><br /><a href
+-00003c40: 3d22 2371 7565 7374 696f 6e2d 6373 6d31  ="#question-csm1
+-00003c50: 3034 3935 2220 7469 746c 653d 2241 6e73  0495" title="Ans
+-00003c60: 7765 7269 6e67 2051 7565 7374 696f 6e73  wering Questions
+-00003c70: 223e f09f 92ac 3c2f 613e 3c2f 7464 3e5c  ">....</a></td>\
+-00003c80: 6e20 2020 203c 2f74 723e 5c6e 2020 3c2f  n    </tr>\n  </
+-00003c90: 7462 6f64 793e 5c6e 3c2f 7461 626c 653e  tbody>\n</table>
+-00003ca0: 5c6e 5c6e 3c21 2d2d 206d 6172 6b64 6f77  \n\n<!-- markdow
+-00003cb0: 6e6c 696e 742d 7265 7374 6f72 6520 2d2d  nlint-restore --
+-00003cc0: 3e5c 6e3c 212d 2d20 7072 6574 7469 6572  >\n<!-- prettier
+-00003cd0: 2d69 676e 6f72 652d 656e 6420 2d2d 3e5c  -ignore-end -->\
+-00003ce0: 6e5c 6e3c 212d 2d20 414c 4c2d 434f 4e54  n\n<!-- ALL-CONT
+-00003cf0: 5249 4255 544f 5253 2d4c 4953 543a 454e  RIBUTORS-LIST:EN
+-00003d00: 4420 2d2d 3e5c 6e5c 6e54 6869 7320 7072  D -->\n\nThis pr
+-00003d10: 6f6a 6563 7420 666f 6c6c 6f77 7320 7468  oject follows th
+-00003d20: 6520 5b61 6c6c 2d63 6f6e 7472 6962 7574  e [all-contribut
+-00003d30: 6f72 735d 2868 7474 7073 3a2f 2f67 6974  ors](https://git
+-00003d40: 6875 622e 636f 6d2f 616c 6c2d 636f 6e74  hub.com/all-cont
+-00003d50: 7269 6275 746f 7273 2f61 6c6c 2d63 6f6e  ributors/all-con
+-00003d60: 7472 6962 7574 6f72 7329 2073 7065 6369  tributors) speci
+-00003d70: 6669 6361 7469 6f6e 2e20 436f 6e74 7269  fication. Contri
+-00003d80: 6275 7469 6f6e 7320 6f66 2061 6e79 206b  butions of any k
+-00003d90: 696e 6420 7765 6c63 6f6d 6521 5c6e 272c  ind welcome!\n',
+-00003da0: 0a20 2020 2027 6175 7468 6f72 273a 2027  .    'author': '
+-00003db0: 6d61 6e73 656e 6672 616e 7a65 6e27 2c0a  mansenfranzen',.
+-00003dc0: 2020 2020 2761 7574 686f 725f 656d 6169      'author_emai
+-00003dd0: 6c27 3a20 2766 7261 6e7a 2e77 6f65 6c6c  l': 'franz.woell
+-00003de0: 6572 7440 676d 6169 6c2e 636f 6d27 2c0a  ert@gmail.com',.
+-00003df0: 2020 2020 276d 6169 6e74 6169 6e65 7227      'maintainer'
+-00003e00: 3a20 4e6f 6e65 2c0a 2020 2020 276d 6169  : None,.    'mai
+-00003e10: 6e74 6169 6e65 725f 656d 6169 6c27 3a20  ntainer_email': 
+-00003e20: 4e6f 6e65 2c0a 2020 2020 2775 726c 273a  None,.    'url':
+-00003e30: 2027 6874 7470 733a 2f2f 6769 7468 7562   'https://github
+-00003e40: 2e63 6f6d 2f6d 616e 7365 6e66 7261 6e7a  .com/mansenfranz
+-00003e50: 656e 2f61 7574 6f64 6f63 5f70 7964 616e  en/autodoc_pydan
+-00003e60: 7469 6327 2c0a 2020 2020 2770 6163 6b61  tic',.    'packa
+-00003e70: 6765 7327 3a20 7061 636b 6167 6573 2c0a  ges': packages,.
+-00003e80: 2020 2020 2770 6163 6b61 6765 5f64 6174      'package_dat
+-00003e90: 6127 3a20 7061 636b 6167 655f 6461 7461  a': package_data
+-00003ea0: 2c0a 2020 2020 2769 6e73 7461 6c6c 5f72  ,.    'install_r
+-00003eb0: 6571 7569 7265 7327 3a20 696e 7374 616c  equires': instal
+-00003ec0: 6c5f 7265 7175 6972 6573 2c0a 2020 2020  l_requires,.    
+-00003ed0: 2765 7874 7261 735f 7265 7175 6972 6527  'extras_require'
+-00003ee0: 3a20 6578 7472 6173 5f72 6571 7569 7265  : extras_require
+-00003ef0: 2c0a 2020 2020 2770 7974 686f 6e5f 7265  ,.    'python_re
+-00003f00: 7175 6972 6573 273a 2027 3e3d 332e 362c  quires': '>=3.6,
+-00003f10: 3c34 2e30 2e30 272c 0a7d 0a0a 0a73 6574  <4.0.0',.}...set
+-00003f20: 7570 282a 2a73 6574 7570 5f6b 7761 7267  up(**setup_kwarg
+-00003f30: 7329 0a                                  s).
++00000000: 215b 4175 746f 646f 6320 5079 6461 6e74  ![Autodoc Pydant
++00000010: 6963 5d28 6874 7470 733a 2f2f 7261 772e  ic](https://raw.
++00000020: 6769 7468 7562 7573 6572 636f 6e74 656e  githubuserconten
++00000030: 742e 636f 6d2f 6d61 6e73 656e 6672 616e  t.com/mansenfran
++00000040: 7a65 6e2f 6175 746f 646f 635f 7079 6461  zen/autodoc_pyda
++00000050: 6e74 6963 2f6d 6169 6e2f 646f 6373 2f73  ntic/main/docs/s
++00000060: 6f75 7263 652f 6d61 7465 7269 616c 2f6c  ource/material/l
++00000070: 6f67 6f5f 626c 6163 6b2e 7376 6729 0a0a  ogo_black.svg)..
++00000080: 5b21 5b50 7950 4920 7665 7273 696f 6e5d  [![PyPI version]
++00000090: 2868 7474 7073 3a2f 2f69 6d67 2e73 6869  (https://img.shi
++000000a0: 656c 6473 2e69 6f2f 7079 7069 2f76 2f61  elds.io/pypi/v/a
++000000b0: 7574 6f64 6f63 5f70 7964 616e 7469 633f  utodoc_pydantic?
++000000c0: 7374 796c 653d 666f 722d 7468 652d 6261  style=for-the-ba
++000000d0: 6467 6529 5d28 6874 7470 733a 2f2f 7079  dge)](https://py
++000000e0: 7069 2e6f 7267 2f70 726f 6a65 6374 2f61  pi.org/project/a
++000000f0: 7574 6f64 6f63 2d70 7964 616e 7469 632f  utodoc-pydantic/
++00000100: 290a 215b 5079 7468 6f6e 5d28 6874 7470  ).![Python](http
++00000110: 733a 2f2f 696d 672e 7368 6965 6c64 732e  s://img.shields.
++00000120: 696f 2f62 6164 6765 2f70 7974 686f 6e2d  io/badge/python-
++00000130: 332e 372b 2d62 6c75 652e 7376 673f 7374  3.7+-blue.svg?st
++00000140: 796c 653d 666f 722d 7468 652d 6261 6467  yle=for-the-badg
++00000150: 6529 0a0a 5b21 5b4d 6173 7465 725d 2868  e)..[![Master](h
++00000160: 7474 7073 3a2f 2f69 6d67 2e73 6869 656c  ttps://img.shiel
++00000170: 6473 2e69 6f2f 6769 7468 7562 2f61 6374  ds.io/github/act
++00000180: 696f 6e73 2f77 6f72 6b66 6c6f 772f 7374  ions/workflow/st
++00000190: 6174 7573 2f6d 616e 7365 6e66 7261 6e7a  atus/mansenfranz
++000001a0: 656e 2f61 7574 6f64 6f63 5f70 7964 616e  en/autodoc_pydan
++000001b0: 7469 632f 7465 7374 732e 796d 6c3f 6272  tic/tests.yml?br
++000001c0: 616e 6368 3d6d 6169 6e26 7374 796c 653d  anch=main&style=
++000001d0: 666f 722d 7468 652d 6261 6467 6529 5d28  for-the-badge)](
++000001e0: 6874 7470 733a 2f2f 6769 7468 7562 2e63  https://github.c
++000001f0: 6f6d 2f6d 616e 7365 6e66 7261 6e7a 656e  om/mansenfranzen
++00000200: 2f61 7574 6f64 6f63 5f70 7964 616e 7469  /autodoc_pydanti
++00000210: 632f 6163 7469 6f6e 732f 776f 726b 666c  c/actions/workfl
++00000220: 6f77 732f 7465 7374 732e 796d 6c29 0a5b  ows/tests.yml).[
++00000230: 215b 436f 7665 7261 6765 5d28 6874 7470  ![Coverage](http
++00000240: 733a 2f2f 696d 672e 7368 6965 6c64 732e  s://img.shields.
++00000250: 696f 2f63 6f64 6563 6f76 2f63 2f67 682f  io/codecov/c/gh/
++00000260: 6d61 6e73 656e 6672 616e 7a65 6e2f 6175  mansenfranzen/au
++00000270: 746f 646f 635f 7079 6461 6e74 6963 3f73  todoc_pydantic?s
++00000280: 7479 6c65 3d66 6f72 2d74 6865 2d62 6164  tyle=for-the-bad
++00000290: 6765 295d 2868 7474 7073 3a2f 2f61 7070  ge)](https://app
++000002a0: 2e63 6f64 6563 6f76 2e69 6f2f 6768 2f6d  .codecov.io/gh/m
++000002b0: 616e 7365 6e66 7261 6e7a 656e 2f61 7574  ansenfranzen/aut
++000002c0: 6f64 6f63 5f70 7964 616e 7469 6329 0a0a  odoc_pydantic)..
++000002d0: 5b21 5b44 6f77 6e6c 6f61 6473 5d28 6874  [![Downloads](ht
++000002e0: 7470 733a 2f2f 696d 672e 7368 6965 6c64  tps://img.shield
++000002f0: 732e 696f 2f70 7970 692f 646d 2f61 7574  s.io/pypi/dm/aut
++00000300: 6f64 6f63 5f70 7964 616e 7469 633f 636f  odoc_pydantic?co
++00000310: 6c6f 723d 6665 3764 3337 2673 7479 6c65  lor=fe7d37&style
++00000320: 3d66 6f72 2d74 6865 2d62 6164 6765 295d  =for-the-badge)]
++00000330: 2868 7474 7073 3a2f 2f70 7970 6973 7461  (https://pypista
++00000340: 7473 2e6f 7267 2f70 6163 6b61 6765 732f  ts.org/packages/
++00000350: 6175 746f 646f 632d 7079 6461 6e74 6963  autodoc-pydantic
++00000360: 293c 212d 2d20 414c 4c2d 434f 4e54 5249  )<!-- ALL-CONTRI
++00000370: 4255 544f 5253 2d42 4144 4745 3a53 5441  BUTORS-BADGE:STA
++00000380: 5254 202d 2044 6f20 6e6f 7420 7265 6d6f  RT - Do not remo
++00000390: 7665 206f 7220 6d6f 6469 6679 2074 6869  ve or modify thi
++000003a0: 7320 7365 6374 696f 6e20 2d2d 3e0a 5b21  s section -->.[!
++000003b0: 5b41 6c6c 2043 6f6e 7472 6962 7574 6f72  [All Contributor
++000003c0: 735d 2868 7474 7073 3a2f 2f69 6d67 2e73  s](https://img.s
++000003d0: 6869 656c 6473 2e69 6f2f 6261 6467 652f  hields.io/badge/
++000003e0: 616c 6c5f 636f 6e74 7269 6275 746f 7273  all_contributors
++000003f0: 2d33 312d 6f72 616e 6765 2e73 7667 3f73  -31-orange.svg?s
++00000400: 7479 6c65 3d66 6f72 2d74 6865 2d62 6164  tyle=for-the-bad
++00000410: 6765 295d 2823 636f 6e74 7269 6275 746f  ge)](#contributo
++00000420: 7273 290a 3c21 2d2d 2041 4c4c 2d43 4f4e  rs).<!-- ALL-CON
++00000430: 5452 4942 5554 4f52 532d 4241 4447 453a  TRIBUTORS-BADGE:
++00000440: 454e 4420 2d2d 3e0a 0a0a 596f 7520 6c6f  END -->...You lo
++00000450: 7665 205b 7079 6461 6e74 6963 5d28 6874  ve [pydantic](ht
++00000460: 7470 733a 2f2f 7079 6461 6e74 6963 2d64  tps://pydantic-d
++00000470: 6f63 732e 6865 6c70 6d61 6e75 616c 2e69  ocs.helpmanual.i
++00000480: 6f2f 2920 e29d a420 616e 6420 796f 7520  o/) ... and you 
++00000490: 7761 6e74 2074 6f0a 646f 6375 6d65 6e74  want to.document
++000004a0: 2079 6f75 7220 6d6f 6465 6c73 2061 6e64   your models and
++000004b0: 2063 6f6e 6669 6775 7261 7469 6f6e 2073   configuration s
++000004c0: 6574 7469 6e67 7320 7769 7468 205b 7370  ettings with [sp
++000004d0: 6869 6e78 5d28 6874 7470 733a 2f2f 7777  hinx](https://ww
++000004e0: 772e 7370 6869 6e78 2d64 6f63 2e6f 7267  w.sphinx-doc.org
++000004f0: 2f65 6e2f 6d61 7374 6572 2f29 3f0a 0a50  /en/master/)?..P
++00000500: 6572 6665 6374 2c20 6c65 7427 7320 676f  erfect, let's go
++00000510: 2e20 4275 7420 7761 6974 2c20 7370 6869  . But wait, sphi
++00000520: 6e78 2720 5b61 7574 6f64 6f63 5d28 6874  nx' [autodoc](ht
++00000530: 7470 733a 2f2f 7777 772e 7370 6869 6e78  tps://www.sphinx
++00000540: 2d64 6f63 2e6f 7267 2f65 6e2f 6d61 7374  -doc.org/en/mast
++00000550: 6572 2f75 7361 6765 2f65 7874 656e 7369  er/usage/extensi
++00000560: 6f6e 732f 6175 746f 646f 632e 6874 6d6c  ons/autodoc.html
++00000570: 290a 646f 6573 206e 6f74 2069 6e74 6567  ).does not integ
++00000580: 7261 7465 2074 6f6f 2077 656c 6c20 7769  rate too well wi
++00000590: 7468 2070 7964 616e 7469 6320 6d6f 6465  th pydantic mode
++000005a0: 6c73 20f0 9f98 952e 0a0a 446f 6e27 7420  ls .......Don't 
++000005b0: 776f 7272 7920 2d20 6a75 7374 2060 7069  worry - just `pi
++000005c0: 7020 696e 7374 616c 6c20 6175 746f 646f  p install autodo
++000005d0: 635f 7079 6461 6e74 6963 6020 e298 ba2e  c_pydantic` ....
++000005e0: 0a0a 2323 2046 6561 7475 7265 730a 0a2d  ..## Features..-
++000005f0: 20f0 9f92 ac20 7072 6f76 6964 6573 2064   .... provides d
++00000600: 6566 6175 6c74 2076 616c 7565 732c 2061  efault values, a
++00000610: 6c69 6173 2061 6e64 2063 6f6e 7374 7261  lias and constra
++00000620: 696e 7473 2066 6f72 206d 6f64 656c 2066  ints for model f
++00000630: 6965 6c64 730a 2d20 f09f 9497 2061 6464  ields.- .... add
++00000640: 7320 6879 7065 726c 696e 6b73 2062 6574  s hyperlinks bet
++00000650: 7765 656e 2076 616c 6964 6174 6f72 7320  ween validators 
++00000660: 616e 6420 636f 7272 6573 706f 6e64 696e  and correspondin
++00000670: 6720 6669 656c 6473 0a2d 20f0 9f93 8320  g fields.- .... 
++00000680: 696e 636c 7564 6573 2063 6f6c 6c61 7073  includes collaps
++00000690: 6162 6c65 206d 6f64 656c 206a 736f 6e20  able model json 
++000006a0: 7363 6865 6d61 0a2d 20f0 9f8f 8420 6e61  schema.- .... na
++000006b0: 7469 7665 6c79 2069 6e74 6567 7261 7465  tively integrate
++000006c0: 7320 7769 7468 2061 7574 6f64 6f63 2061  s with autodoc a
++000006d0: 6e64 2061 7574 6f73 756d 6d61 7279 2065  nd autosummary e
++000006e0: 7874 656e 7369 6f6e 730a 2d20 f09f 938e  xtensions.- ....
++000006f0: 2064 6566 696e 6573 2065 7870 6c69 6369   defines explici
++00000700: 7420 7079 6461 6e74 6963 2070 7265 6669  t pydantic prefi
++00000710: 7865 7320 666f 7220 6d6f 6465 6c73 2c20  xes for models, 
++00000720: 7365 7474 696e 6773 2c20 6669 656c 6473  settings, fields
++00000730: 2c20 7661 6c69 6461 746f 7273 2061 6e64  , validators and
++00000740: 206d 6f64 656c 2063 6f6e 6669 670a 2d20   model config.- 
++00000750: f09f 938b 2073 686f 7773 2073 756d 6d61  .... shows summa
++00000760: 7279 2073 6563 7469 6f6e 2066 6f72 206d  ry section for m
++00000770: 6f64 656c 2063 6f6e 6669 6775 7261 7469  odel configurati
++00000780: 6f6e 2c20 6669 656c 6473 2061 6e64 2076  on, fields and v
++00000790: 616c 6964 6174 6f72 730a 2d20 f09f 9180  alidators.- ....
++000007a0: 2068 6964 6573 206f 7665 726c 6f61 6465   hides overloade
++000007b0: 6420 616e 6420 7265 6475 6e64 616e 7420  d and redundant 
++000007c0: 6d6f 6465 6c20 636c 6173 7320 7369 676e  model class sign
++000007d0: 6174 7572 650a 2d20 f09f 939a 2073 6f72  ature.- .... sor
++000007e0: 7473 2066 6965 6c64 732c 2076 616c 6964  ts fields, valid
++000007f0: 6174 6f72 7320 616e 6420 6d6f 6465 6c20  ators and model 
++00000800: 636f 6e66 6967 2077 6974 6869 6e20 6d6f  config within mo
++00000810: 6465 6c73 2062 7920 7479 7065 0a2d 20f0  dels by type.- .
++00000820: 9f8d 8020 5375 7070 6f72 7473 2060 7079  ... Supports `py
++00000830: 6461 6e74 6963 203e 3d20 312e 352e 3060  dantic >= 1.5.0`
++00000840: 2061 6e64 2060 7370 6869 6e78 203e 3d20   and `sphinx >= 
++00000850: 332e 342e 3060 0a0a 2323 2320 436f 6d70  3.4.0`..### Comp
++00000860: 6172 6973 6f6e 2062 6574 7765 656e 2061  arison between a
++00000870: 7574 6f64 6f63 2073 7068 696e 7820 616e  utodoc sphinx an
++00000880: 6420 6175 746f 646f 6320 7079 6461 6e74  d autodoc pydant
++00000890: 6963 0a0a 5b21 5b43 6f6d 7061 7269 736f  ic..[![Compariso
++000008a0: 6e5d 2868 7474 7073 3a2f 2f72 6177 2e67  n](https://raw.g
++000008b0: 6974 6875 6275 7365 7263 6f6e 7465 6e74  ithubusercontent
++000008c0: 2e63 6f6d 2f6d 616e 7365 6e66 7261 6e7a  .com/mansenfranz
++000008d0: 656e 2f61 7574 6f64 6f63 5f70 7964 616e  en/autodoc_pydan
++000008e0: 7469 632f 6d61 696e 2f64 6f63 732f 736f  tic/main/docs/so
++000008f0: 7572 6365 2f6d 6174 6572 6961 6c2f 6578  urce/material/ex
++00000900: 616d 706c 655f 636f 6d70 6172 6973 6f6e  ample_comparison
++00000910: 5f76 312e 302e 302e 6769 6629 5d28 6874  _v1.0.0.gif)](ht
++00000920: 7470 733a 2f2f 6175 746f 646f 632d 7079  tps://autodoc-py
++00000930: 6461 6e74 6963 2e72 6561 6474 6865 646f  dantic.readthedo
++00000940: 6373 2e69 6f2f 656e 2f6c 6174 6573 742f  cs.io/en/latest/
++00000950: 6578 616d 706c 6573 2e68 746d 6c23 6465  examples.html#de
++00000960: 6661 756c 742d 636f 6e66 6967 7572 6174  fault-configurat
++00000970: 696f 6e29 0a0a 546f 2073 6565 2074 686f  ion)..To see tho
++00000980: 7365 2066 6561 7475 7265 7320 696e 2061  se features in a
++00000990: 6374 696f 6e2c 206a 756d 7020 6f76 6572  ction, jump over
++000009a0: 2074 6f20 7468 6520 5b65 7861 6d70 6c65   to the [example
++000009b0: 2064 6f63 756d 656e 7461 7469 6f6e 5d28   documentation](
++000009c0: 6874 7470 733a 2f2f 6175 746f 646f 632d  https://autodoc-
++000009d0: 7079 6461 6e74 6963 2e72 6561 6474 6865  pydantic.readthe
++000009e0: 646f 6373 2e69 6f2f 656e 2f73 7461 626c  docs.io/en/stabl
++000009f0: 652f 7573 6572 732f 6578 616d 706c 6573  e/users/examples
++00000a00: 2e68 746d 6c23 6465 6661 756c 742d 636f  .html#default-co
++00000a10: 6e66 6967 7572 6174 696f 6e29 2074 6f20  nfiguration) to 
++00000a20: 636f 6d70 6172 650a 7468 6520 6170 7065  compare.the appe
++00000a30: 6172 616e 6365 206f 6620 7374 616e 6461  arance of standa
++00000a40: 7264 2073 7068 696e 7820 6175 746f 646f  rd sphinx autodo
++00000a50: 6320 7769 7468 202a 6175 746f 646f 635f  c with *autodoc_
++00000a60: 7079 6461 6e74 6963 2a2e 0a0a 2323 2044  pydantic*...## D
++00000a70: 6f63 756d 656e 7461 7469 6f6e 0a0a 466f  ocumentation..Fo
++00000a80: 7220 6d6f 7265 2064 6574 6169 6c73 2c20  r more details, 
++00000a90: 706c 6561 7365 2076 6973 6974 2074 6865  please visit the
++00000aa0: 206f 6666 6963 6961 6c20 5b64 6f63 756d   official [docum
++00000ab0: 656e 7461 7469 6f6e 5d28 6874 7470 733a  entation](https:
++00000ac0: 2f2f 6175 746f 646f 632d 7079 6461 6e74  //autodoc-pydant
++00000ad0: 6963 2e72 6561 6474 6865 646f 6373 2e69  ic.readthedocs.i
++00000ae0: 6f2f 656e 2f73 7461 626c 652f 293a 0a0a  o/en/stable/):..
++00000af0: 2d20 5b49 6e73 7461 6c6c 6174 696f 6e5d  - [Installation]
++00000b00: 2868 7474 7073 3a2f 2f61 7574 6f64 6f63  (https://autodoc
++00000b10: 2d70 7964 616e 7469 632e 7265 6164 7468  -pydantic.readth
++00000b20: 6564 6f63 732e 696f 2f65 6e2f 7374 6162  edocs.io/en/stab
++00000b30: 6c65 2f75 7365 7273 2f69 6e73 7461 6c6c  le/users/install
++00000b40: 6174 696f 6e2e 6874 6d6c 290a 2d20 5b43  ation.html).- [C
++00000b50: 6f6e 6669 6775 7261 7469 6f6e 5d28 6874  onfiguration](ht
++00000b60: 7470 733a 2f2f 6175 746f 646f 632d 7079  tps://autodoc-py
++00000b70: 6461 6e74 6963 2e72 6561 6474 6865 646f  dantic.readthedo
++00000b80: 6373 2e69 6f2f 656e 2f73 7461 626c 652f  cs.io/en/stable/
++00000b90: 7573 6572 732f 636f 6e66 6967 7572 6174  users/configurat
++00000ba0: 696f 6e2e 6874 6d6c 290a 2d20 5b55 7361  ion.html).- [Usa
++00000bb0: 6765 5d28 6874 7470 733a 2f2f 6175 746f  ge](https://auto
++00000bc0: 646f 632d 7079 6461 6e74 6963 2e72 6561  doc-pydantic.rea
++00000bd0: 6474 6865 646f 6373 2e69 6f2f 656e 2f73  dthedocs.io/en/s
++00000be0: 7461 626c 652f 7573 6572 732f 7573 6167  table/users/usag
++00000bf0: 652e 6874 6d6c 290a 2d20 5b45 7861 6d70  e.html).- [Examp
++00000c00: 6c65 735d 2868 7474 7073 3a2f 2f61 7574  les](https://aut
++00000c10: 6f64 6f63 2d70 7964 616e 7469 632e 7265  odoc-pydantic.re
++00000c20: 6164 7468 6564 6f63 732e 696f 2f65 6e2f  adthedocs.io/en/
++00000c30: 7374 6162 6c65 2f75 7365 7273 2f65 7861  stable/users/exa
++00000c40: 6d70 6c65 732e 6874 6d6c 290a 0a23 2320  mples.html)..## 
++00000c50: 4163 6b6e 6f77 6c65 6467 656d 656e 7473  Acknowledgements
++00000c60: 0a0a 5468 616e 6b73 2074 6f20 6772 6561  ..Thanks to grea
++00000c70: 7420 6f70 656e 2073 6f75 7263 6520 7072  t open source pr
++00000c80: 6f6a 6563 7473 205b 7370 6869 6e78 5d28  ojects [sphinx](
++00000c90: 6874 7470 733a 2f2f 7777 772e 7370 6869  https://www.sphi
++00000ca0: 6e78 2d64 6f63 2e6f 7267 2f65 6e2f 6d61  nx-doc.org/en/ma
++00000cb0: 7374 6572 2f29 2c0a 5b70 7964 616e 7469  ster/),.[pydanti
++00000cc0: 635d 2868 7474 7073 3a2f 2f70 7964 616e  c](https://pydan
++00000cd0: 7469 632d 646f 6373 2e68 656c 706d 616e  tic-docs.helpman
++00000ce0: 7561 6c2e 696f 2f29 2061 6e64 0a5b 706f  ual.io/) and.[po
++00000cf0: 6574 7279 5d28 6874 7470 733a 2f2f 7079  etry](https://py
++00000d00: 7468 6f6e 2d70 6f65 7472 792e 6f72 672f  thon-poetry.org/
++00000d10: 2920 2861 6e64 2073 6f20 6d61 6e79 206d  ) (and so many m
++00000d20: 6f72 6529 20e2 9da4 2069 6e20 6164 6469  ore) ... in addi
++00000d30: 7469 6f6e 2074 6f20 7468 6520 666f 6c6c  tion to the foll
++00000d40: 6f77 696e 6720 636f 6e74 7269 6275 746f  owing contributo
++00000d50: 7273 3a0a 0a3c 212d 2d20 414c 4c2d 434f  rs:..<!-- ALL-CO
++00000d60: 4e54 5249 4255 544f 5253 2d4c 4953 543a  NTRIBUTORS-LIST:
++00000d70: 5354 4152 5420 2d20 446f 206e 6f74 2072  START - Do not r
++00000d80: 656d 6f76 6520 6f72 206d 6f64 6966 7920  emove or modify 
++00000d90: 7468 6973 2073 6563 7469 6f6e 202d 2d3e  this section -->
++00000da0: 0a3c 212d 2d20 7072 6574 7469 6572 2d69  .<!-- prettier-i
++00000db0: 676e 6f72 652d 7374 6172 7420 2d2d 3e0a  gnore-start -->.
++00000dc0: 3c21 2d2d 206d 6172 6b64 6f77 6e6c 696e  <!-- markdownlin
++00000dd0: 742d 6469 7361 626c 6520 2d2d 3e0a 3c74  t-disable -->.<t
++00000de0: 6162 6c65 3e0a 2020 3c74 626f 6479 3e0a  able>.  <tbody>.
++00000df0: 2020 2020 3c74 723e 0a20 2020 2020 203c      <tr>.      <
++00000e00: 7464 2061 6c69 676e 3d22 6365 6e74 6572  td align="center
++00000e10: 2220 7661 6c69 676e 3d22 746f 7022 2077  " valign="top" w
++00000e20: 6964 7468 3d22 3134 2e32 3825 223e 3c61  idth="14.28%"><a
++00000e30: 2068 7265 663d 2268 7474 7073 3a2f 2f67   href="https://g
++00000e40: 6974 6875 622e 636f 6d2f 6d61 6e73 656e  ithub.com/mansen
++00000e50: 6672 616e 7a65 6e22 3e3c 696d 6720 7372  franzen"><img sr
++00000e60: 633d 2268 7474 7073 3a2f 2f61 7661 7461  c="https://avata
++00000e70: 7273 2e67 6974 6875 6275 7365 7263 6f6e  rs.githubusercon
++00000e80: 7465 6e74 2e63 6f6d 2f75 2f31 3830 3836  tent.com/u/18086
++00000e90: 3138 303f 763d 343f 733d 3130 3022 2077  180?v=4?s=100" w
++00000ea0: 6964 7468 3d22 3130 3070 783b 2220 616c  idth="100px;" al
++00000eb0: 743d 2246 7261 6e7a 2057 c3b6 6c6c 6572  t="Franz W..ller
++00000ec0: 7422 2f3e 3c62 7220 2f3e 3c73 7562 3e3c  t"/><br /><sub><
++00000ed0: 623e 4672 616e 7a20 57c3 b66c 6c65 7274  b>Franz W..llert
++00000ee0: 3c2f 623e 3c2f 7375 623e 3c2f 613e 3c62  </b></sub></a><b
++00000ef0: 7220 2f3e 3c61 2068 7265 663d 2223 6d61  r /><a href="#ma
++00000f00: 696e 7465 6e61 6e63 652d 6d61 6e73 656e  intenance-mansen
++00000f10: 6672 616e 7a65 6e22 2074 6974 6c65 3d22  franzen" title="
++00000f20: 4d61 696e 7465 6e61 6e63 6522 3ef0 9f9a  Maintenance">...
++00000f30: a73c 2f61 3e20 3c61 2068 7265 663d 2268  .</a> <a href="h
++00000f40: 7474 7073 3a2f 2f67 6974 6875 622e 636f  ttps://github.co
++00000f50: 6d2f 6d61 6e73 656e 6672 616e 7a65 6e2f  m/mansenfranzen/
++00000f60: 6175 746f 646f 635f 7079 6461 6e74 6963  autodoc_pydantic
++00000f70: 2f63 6f6d 6d69 7473 3f61 7574 686f 723d  /commits?author=
++00000f80: 6d61 6e73 656e 6672 616e 7a65 6e22 2074  mansenfranzen" t
++00000f90: 6974 6c65 3d22 446f 6375 6d65 6e74 6174  itle="Documentat
++00000fa0: 696f 6e22 3ef0 9f93 963c 2f61 3e20 3c61  ion">....</a> <a
++00000fb0: 2068 7265 663d 2268 7474 7073 3a2f 2f67   href="https://g
++00000fc0: 6974 6875 622e 636f 6d2f 6d61 6e73 656e  ithub.com/mansen
++00000fd0: 6672 616e 7a65 6e2f 6175 746f 646f 635f  franzen/autodoc_
++00000fe0: 7079 6461 6e74 6963 2f63 6f6d 6d69 7473  pydantic/commits
++00000ff0: 3f61 7574 686f 723d 6d61 6e73 656e 6672  ?author=mansenfr
++00001000: 616e 7a65 6e22 2074 6974 6c65 3d22 5465  anzen" title="Te
++00001010: 7374 7322 3ee2 9aa0 efb8 8f3c 2f61 3e20  sts">......</a> 
++00001020: 3c61 2068 7265 663d 2223 636f 6e74 656e  <a href="#conten
++00001030: 742d 6d61 6e73 656e 6672 616e 7a65 6e22  t-mansenfranzen"
++00001040: 2074 6974 6c65 3d22 436f 6e74 656e 7422   title="Content"
++00001050: 3ef0 9f96 8b3c 2f61 3e3c 2f74 643e 0a20  >....</a></td>. 
++00001060: 2020 2020 203c 7464 2061 6c69 676e 3d22       <td align="
++00001070: 6365 6e74 6572 2220 7661 6c69 676e 3d22  center" valign="
++00001080: 746f 7022 2077 6964 7468 3d22 3134 2e32  top" width="14.2
++00001090: 3825 223e 3c61 2068 7265 663d 2268 7474  8%"><a href="htt
++000010a0: 7073 3a2f 2f67 6974 6875 622e 636f 6d2f  ps://github.com/
++000010b0: 7976 6573 2d72 656e 6965 7222 3e3c 696d  yves-renier"><im
++000010c0: 6720 7372 633d 2268 7474 7073 3a2f 2f61  g src="https://a
++000010d0: 7661 7461 7273 2e67 6974 6875 6275 7365  vatars.githubuse
++000010e0: 7263 6f6e 7465 6e74 2e63 6f6d 2f75 2f31  rcontent.com/u/1
++000010f0: 3032 3335 3830 3136 3f76 3d34 3f73 3d31  02358016?v=4?s=1
++00001100: 3030 2220 7769 6474 683d 2231 3030 7078  00" width="100px
++00001110: 3b22 2061 6c74 3d22 5976 6573 2052 656e  ;" alt="Yves Ren
++00001120: 6965 7222 2f3e 3c62 7220 2f3e 3c73 7562  ier"/><br /><sub
++00001130: 3e3c 623e 5976 6573 2052 656e 6965 723c  ><b>Yves Renier<
++00001140: 2f62 3e3c 2f73 7562 3e3c 2f61 3e3c 6272  /b></sub></a><br
++00001150: 202f 3e3c 6120 6872 6566 3d22 6874 7470   /><a href="http
++00001160: 733a 2f2f 6769 7468 7562 2e63 6f6d 2f6d  s://github.com/m
++00001170: 616e 7365 6e66 7261 6e7a 656e 2f61 7574  ansenfranzen/aut
++00001180: 6f64 6f63 5f70 7964 616e 7469 632f 636f  odoc_pydantic/co
++00001190: 6d6d 6974 733f 6175 7468 6f72 3d79 7665  mmits?author=yve
++000011a0: 732d 7265 6e69 6572 2220 7469 746c 653d  s-renier" title=
++000011b0: 2244 6f63 756d 656e 7461 7469 6f6e 223e  "Documentation">
++000011c0: f09f 9396 3c2f 613e 203c 6120 6872 6566  ....</a> <a href
++000011d0: 3d22 6874 7470 733a 2f2f 6769 7468 7562  ="https://github
++000011e0: 2e63 6f6d 2f6d 616e 7365 6e66 7261 6e7a  .com/mansenfranz
++000011f0: 656e 2f61 7574 6f64 6f63 5f70 7964 616e  en/autodoc_pydan
++00001200: 7469 632f 636f 6d6d 6974 733f 6175 7468  tic/commits?auth
++00001210: 6f72 3d79 7665 732d 7265 6e69 6572 2220  or=yves-renier" 
++00001220: 7469 746c 653d 2254 6573 7473 223e e29a  title="Tests">..
++00001230: a0ef b88f 3c2f 613e 203c 6120 6872 6566  ....</a> <a href
++00001240: 3d22 2363 6f6e 7465 6e74 2d79 7665 732d  ="#content-yves-
++00001250: 7265 6e69 6572 2220 7469 746c 653d 2243  renier" title="C
++00001260: 6f6e 7465 6e74 223e f09f 968b 3c2f 613e  ontent">....</a>
++00001270: 3c2f 7464 3e0a 2020 2020 2020 3c74 6420  </td>.      <td 
++00001280: 616c 6967 6e3d 2263 656e 7465 7222 2076  align="center" v
++00001290: 616c 6967 6e3d 2274 6f70 2220 7769 6474  align="top" widt
++000012a0: 683d 2231 342e 3238 2522 3e3c 6120 6872  h="14.28%"><a hr
++000012b0: 6566 3d22 6874 7470 733a 2f2f 6769 7468  ef="https://gith
++000012c0: 7562 2e63 6f6d 2f54 6865 4265 6172 6465  ub.com/TheBearde
++000012d0: 6442 6572 7365 726b 7222 3e3c 696d 6720  dBerserkr"><img 
++000012e0: 7372 633d 2268 7474 7073 3a2f 2f61 7661  src="https://ava
++000012f0: 7461 7273 2e67 6974 6875 6275 7365 7263  tars.githubuserc
++00001300: 6f6e 7465 6e74 2e63 6f6d 2f75 2f33 3232  ontent.com/u/322
++00001310: 3732 3236 383f 763d 343f 733d 3130 3022  72268?v=4?s=100"
++00001320: 2077 6964 7468 3d22 3130 3070 783b 2220   width="100px;" 
++00001330: 616c 743d 2254 6865 4265 6172 6465 6442  alt="TheBeardedB
++00001340: 6572 7365 726b 7222 2f3e 3c62 7220 2f3e  erserkr"/><br />
++00001350: 3c73 7562 3e3c 623e 5468 6542 6561 7264  <sub><b>TheBeard
++00001360: 6564 4265 7273 6572 6b72 3c2f 623e 3c2f  edBerserkr</b></
++00001370: 7375 623e 3c2f 613e 3c62 7220 2f3e 3c61  sub></a><br /><a
++00001380: 2068 7265 663d 2223 6964 6561 732d 5468   href="#ideas-Th
++00001390: 6542 6561 7264 6564 4265 7273 6572 6b72  eBeardedBerserkr
++000013a0: 2220 7469 746c 653d 2249 6465 6173 2c20  " title="Ideas, 
++000013b0: 506c 616e 6e69 6e67 2c20 2620 4665 6564  Planning, & Feed
++000013c0: 6261 636b 223e f09f a494 3c2f 613e 3c2f  back">....</a></
++000013d0: 7464 3e0a 2020 2020 2020 3c74 6420 616c  td>.      <td al
++000013e0: 6967 6e3d 2263 656e 7465 7222 2076 616c  ign="center" val
++000013f0: 6967 6e3d 2274 6f70 2220 7769 6474 683d  ign="top" width=
++00001400: 2231 342e 3238 2522 3e3c 6120 6872 6566  "14.28%"><a href
++00001410: 3d22 6874 7470 733a 2f2f 6769 7468 7562  ="https://github
++00001420: 2e63 6f6d 2f76 6c63 696e 736b 7922 3e3c  .com/vlcinsky"><
++00001430: 696d 6720 7372 633d 2268 7474 7073 3a2f  img src="https:/
++00001440: 2f61 7661 7461 7273 2e67 6974 6875 6275  /avatars.githubu
++00001450: 7365 7263 6f6e 7465 6e74 2e63 6f6d 2f75  sercontent.com/u
++00001460: 2f36 3335 3931 313f 763d 343f 733d 3130  /635911?v=4?s=10
++00001470: 3022 2077 6964 7468 3d22 3130 3070 783b  0" width="100px;
++00001480: 2220 616c 743d 224a 616e 2056 6cc4 8d69  " alt="Jan Vl..i
++00001490: 6e73 6bc3 bd22 2f3e 3c62 7220 2f3e 3c73  nsk.."/><br /><s
++000014a0: 7562 3e3c 623e 4a61 6e20 566c c48d 696e  ub><b>Jan Vl..in
++000014b0: 736b c3bd 3c2f 623e 3c2f 7375 623e 3c2f  sk..</b></sub></
++000014c0: 613e 3c62 7220 2f3e 3c61 2068 7265 663d  a><br /><a href=
++000014d0: 2223 7365 6375 7269 7479 2d76 6c63 696e  "#security-vlcin
++000014e0: 736b 7922 2074 6974 6c65 3d22 5365 6375  sky" title="Secu
++000014f0: 7269 7479 223e f09f 9ba1 efb8 8f3c 2f61  rity">.......</a
++00001500: 3e3c 2f74 643e 0a20 2020 2020 203c 7464  ></td>.      <td
++00001510: 2061 6c69 676e 3d22 6365 6e74 6572 2220   align="center" 
++00001520: 7661 6c69 676e 3d22 746f 7022 2077 6964  valign="top" wid
++00001530: 7468 3d22 3134 2e32 3825 223e 3c61 2068  th="14.28%"><a h
++00001540: 7265 663d 2268 7474 7073 3a2f 2f67 6974  ref="https://git
++00001550: 6875 622e 636f 6d2f 616e 7476 6967 223e  hub.com/antvig">
++00001560: 3c69 6d67 2073 7263 3d22 6874 7470 733a  <img src="https:
++00001570: 2f2f 6176 6174 6172 732e 6769 7468 7562  //avatars.github
++00001580: 7573 6572 636f 6e74 656e 742e 636f 6d2f  usercontent.com/
++00001590: 752f 3235 3130 3532 3130 3f76 3d34 3f73  u/25105210?v=4?s
++000015a0: 3d31 3030 2220 7769 6474 683d 2231 3030  =100" width="100
++000015b0: 7078 3b22 2061 6c74 3d22 616e 7476 6967  px;" alt="antvig
++000015c0: 222f 3e3c 6272 202f 3e3c 7375 623e 3c62  "/><br /><sub><b
++000015d0: 3e61 6e74 7669 673c 2f62 3e3c 2f73 7562  >antvig</b></sub
++000015e0: 3e3c 2f61 3e3c 6272 202f 3e3c 6120 6872  ></a><br /><a hr
++000015f0: 6566 3d22 6874 7470 733a 2f2f 6769 7468  ef="https://gith
++00001600: 7562 2e63 6f6d 2f6d 616e 7365 6e66 7261  ub.com/mansenfra
++00001610: 6e7a 656e 2f61 7574 6f64 6f63 5f70 7964  nzen/autodoc_pyd
++00001620: 616e 7469 632f 6973 7375 6573 3f71 3d61  antic/issues?q=a
++00001630: 7574 686f 7225 3341 616e 7476 6967 2220  uthor%3Aantvig" 
++00001640: 7469 746c 653d 2242 7567 2072 6570 6f72  title="Bug repor
++00001650: 7473 223e f09f 909b 3c2f 613e 203c 6120  ts">....</a> <a 
++00001660: 6872 6566 3d22 2375 7365 7254 6573 7469  href="#userTesti
++00001670: 6e67 2d61 6e74 7669 6722 2074 6974 6c65  ng-antvig" title
++00001680: 3d22 5573 6572 2054 6573 7469 6e67 223e  ="User Testing">
++00001690: f09f 9393 3c2f 613e 3c2f 7464 3e0a 2020  ....</a></td>.  
++000016a0: 2020 2020 3c74 6420 616c 6967 6e3d 2263      <td align="c
++000016b0: 656e 7465 7222 2076 616c 6967 6e3d 2274  enter" valign="t
++000016c0: 6f70 2220 7769 6474 683d 2231 342e 3238  op" width="14.28
++000016d0: 2522 3e3c 6120 6872 6566 3d22 6874 7470  %"><a href="http
++000016e0: 733a 2f2f 726f 6775 682e 636f 6d22 3e3c  s://roguh.com"><
++000016f0: 696d 6720 7372 633d 2268 7474 7073 3a2f  img src="https:/
++00001700: 2f61 7661 7461 7273 2e67 6974 6875 6275  /avatars.githubu
++00001710: 7365 7263 6f6e 7465 6e74 2e63 6f6d 2f75  sercontent.com/u
++00001720: 2f36 3337 3334 3437 3f76 3d34 3f73 3d31  /6373447?v=4?s=1
++00001730: 3030 2220 7769 6474 683d 2231 3030 7078  00" width="100px
++00001740: 3b22 2061 6c74 3d22 4875 676f 204f 2052  ;" alt="Hugo O R
++00001750: 6976 6572 6122 2f3e 3c62 7220 2f3e 3c73  ivera"/><br /><s
++00001760: 7562 3e3c 623e 4875 676f 204f 2052 6976  ub><b>Hugo O Riv
++00001770: 6572 613c 2f62 3e3c 2f73 7562 3e3c 2f61  era</b></sub></a
++00001780: 3e3c 6272 202f 3e3c 6120 6872 6566 3d22  ><br /><a href="
++00001790: 2369 6465 6173 2d72 6f67 7568 2220 7469  #ideas-roguh" ti
++000017a0: 746c 653d 2249 6465 6173 2c20 506c 616e  tle="Ideas, Plan
++000017b0: 6e69 6e67 2c20 2620 4665 6564 6261 636b  ning, & Feedback
++000017c0: 223e f09f a494 3c2f 613e 3c2f 7464 3e0a  ">....</a></td>.
++000017d0: 2020 2020 2020 3c74 6420 616c 6967 6e3d        <td align=
++000017e0: 2263 656e 7465 7222 2076 616c 6967 6e3d  "center" valign=
++000017f0: 2274 6f70 2220 7769 6474 683d 2231 342e  "top" width="14.
++00001800: 3238 2522 3e3c 6120 6872 6566 3d22 6874  28%"><a href="ht
++00001810: 7470 733a 2f2f 6769 7468 7562 2e63 6f6d  tps://github.com
++00001820: 2f79 626e 6422 3e3c 696d 6720 7372 633d  /ybnd"><img src=
++00001830: 2268 7474 7073 3a2f 2f61 7661 7461 7273  "https://avatars
++00001840: 2e67 6974 6875 6275 7365 7263 6f6e 7465  .githubuserconte
++00001850: 6e74 2e63 6f6d 2f75 2f33 3135 3437 3033  nt.com/u/3154703
++00001860: 383f 763d 343f 733d 3130 3022 2077 6964  8?v=4?s=100" wid
++00001870: 7468 3d22 3130 3070 783b 2220 616c 743d  th="100px;" alt=
++00001880: 2279 7572 6120 626f 6e64 6172 656e 6b6f  "yura bondarenko
++00001890: 222f 3e3c 6272 202f 3e3c 7375 623e 3c62  "/><br /><sub><b
++000018a0: 3e79 7572 6120 626f 6e64 6172 656e 6b6f  >yura bondarenko
++000018b0: 3c2f 623e 3c2f 7375 623e 3c2f 613e 3c62  </b></sub></a><b
++000018c0: 7220 2f3e 3c61 2068 7265 663d 2268 7474  r /><a href="htt
++000018d0: 7073 3a2f 2f67 6974 6875 622e 636f 6d2f  ps://github.com/
++000018e0: 6d61 6e73 656e 6672 616e 7a65 6e2f 6175  mansenfranzen/au
++000018f0: 746f 646f 635f 7079 6461 6e74 6963 2f69  todoc_pydantic/i
++00001900: 7373 7565 733f 713d 6175 7468 6f72 2533  ssues?q=author%3
++00001910: 4179 626e 6422 2074 6974 6c65 3d22 4275  Aybnd" title="Bu
++00001920: 6720 7265 706f 7274 7322 3ef0 9f90 9b3c  g reports">....<
++00001930: 2f61 3e20 3c61 2068 7265 663d 2223 7573  /a> <a href="#us
++00001940: 6572 5465 7374 696e 672d 7962 6e64 2220  erTesting-ybnd" 
++00001950: 7469 746c 653d 2255 7365 7220 5465 7374  title="User Test
++00001960: 696e 6722 3ef0 9f93 933c 2f61 3e3c 2f74  ing">....</a></t
++00001970: 643e 0a20 2020 203c 2f74 723e 0a20 2020  d>.    </tr>.   
++00001980: 203c 7472 3e0a 2020 2020 2020 3c74 6420   <tr>.      <td 
++00001990: 616c 6967 6e3d 2263 656e 7465 7222 2076  align="center" v
++000019a0: 616c 6967 6e3d 2274 6f70 2220 7769 6474  align="top" widt
++000019b0: 683d 2231 342e 3238 2522 3e3c 6120 6872  h="14.28%"><a hr
++000019c0: 6566 3d22 6874 7470 3a2f 2f74 6168 6f77  ef="http://tahow
++000019d0: 6172 642e 6769 7468 7562 2e69 6f22 3e3c  ard.github.io"><
++000019e0: 696d 6720 7372 633d 2268 7474 7073 3a2f  img src="https:/
++000019f0: 2f61 7661 7461 7273 2e67 6974 6875 6275  /avatars.githubu
++00001a00: 7365 7263 6f6e 7465 6e74 2e63 6f6d 2f75  sercontent.com/u
++00001a10: 2f35 3437 3537 303f 763d 343f 733d 3130  /547570?v=4?s=10
++00001a20: 3022 2077 6964 7468 3d22 3130 3070 783b  0" width="100px;
++00001a30: 2220 616c 743d 2254 7265 766f 7220 486f  " alt="Trevor Ho
++00001a40: 7761 7264 222f 3e3c 6272 202f 3e3c 7375  ward"/><br /><su
++00001a50: 623e 3c62 3e54 7265 766f 7220 486f 7761  b><b>Trevor Howa
++00001a60: 7264 3c2f 623e 3c2f 7375 623e 3c2f 613e  rd</b></sub></a>
++00001a70: 3c62 7220 2f3e 3c61 2068 7265 663d 2268  <br /><a href="h
++00001a80: 7474 7073 3a2f 2f67 6974 6875 622e 636f  ttps://github.co
++00001a90: 6d2f 6d61 6e73 656e 6672 616e 7a65 6e2f  m/mansenfranzen/
++00001aa0: 6175 746f 646f 635f 7079 6461 6e74 6963  autodoc_pydantic
++00001ab0: 2f69 7373 7565 733f 713d 6175 7468 6f72  /issues?q=author
++00001ac0: 2533 4174 6168 6f77 6172 6422 2074 6974  %3Atahoward" tit
++00001ad0: 6c65 3d22 4275 6720 7265 706f 7274 7322  le="Bug reports"
++00001ae0: 3ef0 9f90 9b3c 2f61 3e20 3c61 2068 7265  >....</a> <a hre
++00001af0: 663d 2223 7573 6572 5465 7374 696e 672d  f="#userTesting-
++00001b00: 7461 686f 7761 7264 2220 7469 746c 653d  tahoward" title=
++00001b10: 2255 7365 7220 5465 7374 696e 6722 3ef0  "User Testing">.
++00001b20: 9f93 933c 2f61 3e3c 2f74 643e 0a20 2020  ...</a></td>.   
++00001b30: 2020 203c 7464 2061 6c69 676e 3d22 6365     <td align="ce
++00001b40: 6e74 6572 2220 7661 6c69 676e 3d22 746f  nter" valign="to
++00001b50: 7022 2077 6964 7468 3d22 3134 2e32 3825  p" width="14.28%
++00001b60: 223e 3c61 2068 7265 663d 2268 7474 7073  "><a href="https
++00001b70: 3a2f 2f67 6974 6875 622e 636f 6d2f 7468  ://github.com/th
++00001b80: 6f6d 6173 2d70 6564 6f74 223e 3c69 6d67  omas-pedot"><img
++00001b90: 2073 7263 3d22 6874 7470 733a 2f2f 6176   src="https://av
++00001ba0: 6174 6172 732e 6769 7468 7562 7573 6572  atars.githubuser
++00001bb0: 636f 6e74 656e 742e 636f 6d2f 752f 3836  content.com/u/86
++00001bc0: 3733 3132 3132 3f76 3d34 3f73 3d31 3030  731212?v=4?s=100
++00001bd0: 2220 7769 6474 683d 2231 3030 7078 3b22  " width="100px;"
++00001be0: 2061 6c74 3d22 7468 6f6d 6173 2d70 6564   alt="thomas-ped
++00001bf0: 6f74 222f 3e3c 6272 202f 3e3c 7375 623e  ot"/><br /><sub>
++00001c00: 3c62 3e74 686f 6d61 732d 7065 646f 743c  <b>thomas-pedot<
++00001c10: 2f62 3e3c 2f73 7562 3e3c 2f61 3e3c 6272  /b></sub></a><br
++00001c20: 202f 3e3c 6120 6872 6566 3d22 6874 7470   /><a href="http
++00001c30: 733a 2f2f 6769 7468 7562 2e63 6f6d 2f6d  s://github.com/m
++00001c40: 616e 7365 6e66 7261 6e7a 656e 2f61 7574  ansenfranzen/aut
++00001c50: 6f64 6f63 5f70 7964 616e 7469 632f 6973  odoc_pydantic/is
++00001c60: 7375 6573 3f71 3d61 7574 686f 7225 3341  sues?q=author%3A
++00001c70: 7468 6f6d 6173 2d70 6564 6f74 2220 7469  thomas-pedot" ti
++00001c80: 746c 653d 2242 7567 2072 6570 6f72 7473  tle="Bug reports
++00001c90: 223e f09f 909b 3c2f 613e 203c 6120 6872  ">....</a> <a hr
++00001ca0: 6566 3d22 2375 7365 7254 6573 7469 6e67  ef="#userTesting
++00001cb0: 2d74 686f 6d61 732d 7065 646f 7422 2074  -thomas-pedot" t
++00001cc0: 6974 6c65 3d22 5573 6572 2054 6573 7469  itle="User Testi
++00001cd0: 6e67 223e f09f 9393 3c2f 613e 3c2f 7464  ng">....</a></td
++00001ce0: 3e0a 2020 2020 2020 3c74 6420 616c 6967  >.      <td alig
++00001cf0: 6e3d 2263 656e 7465 7222 2076 616c 6967  n="center" valig
++00001d00: 6e3d 2274 6f70 2220 7769 6474 683d 2231  n="top" width="1
++00001d10: 342e 3238 2522 3e3c 6120 6872 6566 3d22  4.28%"><a href="
++00001d20: 6874 7470 733a 2f2f 6769 7468 7562 2e63  https://github.c
++00001d30: 6f6d 2f6d 6174 7574 7465 7222 3e3c 696d  om/matutter"><im
++00001d40: 6720 7372 633d 2268 7474 7073 3a2f 2f61  g src="https://a
++00001d50: 7661 7461 7273 2e67 6974 6875 6275 7365  vatars.githubuse
++00001d60: 7263 6f6e 7465 6e74 2e63 6f6d 2f75 2f32  rcontent.com/u/2
++00001d70: 3730 3133 3739 3f76 3d34 3f73 3d31 3030  701379?v=4?s=100
++00001d80: 2220 7769 6474 683d 2231 3030 7078 3b22  " width="100px;"
++00001d90: 2061 6c74 3d22 4d61 7420 5574 7465 7222   alt="Mat Utter"
++00001da0: 2f3e 3c62 7220 2f3e 3c73 7562 3e3c 623e  /><br /><sub><b>
++00001db0: 4d61 7420 5574 7465 723c 2f62 3e3c 2f73  Mat Utter</b></s
++00001dc0: 7562 3e3c 2f61 3e3c 6272 202f 3e3c 6120  ub></a><br /><a 
++00001dd0: 6872 6566 3d22 6874 7470 733a 2f2f 6769  href="https://gi
++00001de0: 7468 7562 2e63 6f6d 2f6d 616e 7365 6e66  thub.com/mansenf
++00001df0: 7261 6e7a 656e 2f61 7574 6f64 6f63 5f70  ranzen/autodoc_p
++00001e00: 7964 616e 7469 632f 6973 7375 6573 3f71  ydantic/issues?q
++00001e10: 3d61 7574 686f 7225 3341 6d61 7475 7474  =author%3Amatutt
++00001e20: 6572 2220 7469 746c 653d 2242 7567 2072  er" title="Bug r
++00001e30: 6570 6f72 7473 223e f09f 909b 3c2f 613e  eports">....</a>
++00001e40: 203c 6120 6872 6566 3d22 2375 7365 7254   <a href="#userT
++00001e50: 6573 7469 6e67 2d6d 6174 7574 7465 7222  esting-matutter"
++00001e60: 2074 6974 6c65 3d22 5573 6572 2054 6573   title="User Tes
++00001e70: 7469 6e67 223e f09f 9393 3c2f 613e 3c2f  ting">....</a></
++00001e80: 7464 3e0a 2020 2020 2020 3c74 6420 616c  td>.      <td al
++00001e90: 6967 6e3d 2263 656e 7465 7222 2076 616c  ign="center" val
++00001ea0: 6967 6e3d 2274 6f70 2220 7769 6474 683d  ign="top" width=
++00001eb0: 2231 342e 3238 2522 3e3c 6120 6872 6566  "14.28%"><a href
++00001ec0: 3d22 6874 7470 733a 2f2f 6769 7468 7562  ="https://github
++00001ed0: 2e63 6f6d 2f64 6176 6964 6368 616c 6c22  .com/davidchall"
++00001ee0: 3e3c 696d 6720 7372 633d 2268 7474 7073  ><img src="https
++00001ef0: 3a2f 2f61 7661 7461 7273 2e67 6974 6875  ://avatars.githu
++00001f00: 6275 7365 7263 6f6e 7465 6e74 2e63 6f6d  busercontent.com
++00001f10: 2f75 2f31 3830 3438 3536 3f76 3d34 3f73  /u/1804856?v=4?s
++00001f20: 3d31 3030 2220 7769 6474 683d 2231 3030  =100" width="100
++00001f30: 7078 3b22 2061 6c74 3d22 4461 7669 6420  px;" alt="David 
++00001f40: 4320 4861 6c6c 222f 3e3c 6272 202f 3e3c  C Hall"/><br /><
++00001f50: 7375 623e 3c62 3e44 6176 6964 2043 2048  sub><b>David C H
++00001f60: 616c 6c3c 2f62 3e3c 2f73 7562 3e3c 2f61  all</b></sub></a
++00001f70: 3e3c 6272 202f 3e3c 6120 6872 6566 3d22  ><br /><a href="
++00001f80: 2369 6465 6173 2d64 6176 6964 6368 616c  #ideas-davidchal
++00001f90: 6c22 2074 6974 6c65 3d22 4964 6561 732c  l" title="Ideas,
++00001fa0: 2050 6c61 6e6e 696e 672c 2026 2046 6565   Planning, & Fee
++00001fb0: 6462 6163 6b22 3ef0 9fa4 943c 2f61 3e20  dback">....</a> 
++00001fc0: 3c61 2068 7265 663d 2223 7573 6572 5465  <a href="#userTe
++00001fd0: 7374 696e 672d 6461 7669 6463 6861 6c6c  sting-davidchall
++00001fe0: 2220 7469 746c 653d 2255 7365 7220 5465  " title="User Te
++00001ff0: 7374 696e 6722 3ef0 9f93 933c 2f61 3e3c  sting">....</a><
++00002000: 2f74 643e 0a20 2020 2020 203c 7464 2061  /td>.      <td a
++00002010: 6c69 676e 3d22 6365 6e74 6572 2220 7661  lign="center" va
++00002020: 6c69 676e 3d22 746f 7022 2077 6964 7468  lign="top" width
++00002030: 3d22 3134 2e32 3825 223e 3c61 2068 7265  ="14.28%"><a hre
++00002040: 663d 2268 7474 7073 3a2f 2f79 6f73 6861  f="https://yosha
++00002050: 6e75 696b 6162 756e 6469 2e6d 6522 3e3c  nuikabundi.me"><
++00002060: 696d 6720 7372 633d 2268 7474 7073 3a2f  img src="https:/
++00002070: 2f61 7661 7461 7273 2e67 6974 6875 6275  /avatars.githubu
++00002080: 7365 7263 6f6e 7465 6e74 2e63 6f6d 2f75  sercontent.com/u
++00002090: 2f32 3835 3930 3734 383f 763d 343f 733d  /28590748?v=4?s=
++000020a0: 3130 3022 2077 6964 7468 3d22 3130 3070  100" width="100p
++000020b0: 783b 2220 616c 743d 224a 6f73 6820 412e  x;" alt="Josh A.
++000020c0: 204d 6974 6368 656c 6c22 2f3e 3c62 7220   Mitchell"/><br 
++000020d0: 2f3e 3c73 7562 3e3c 623e 4a6f 7368 2041  /><sub><b>Josh A
++000020e0: 2e20 4d69 7463 6865 6c6c 3c2f 623e 3c2f  . Mitchell</b></
++000020f0: 7375 623e 3c2f 613e 3c62 7220 2f3e 3c61  sub></a><br /><a
++00002100: 2068 7265 663d 2223 6964 6561 732d 596f   href="#ideas-Yo
++00002110: 7368 616e 7569 6b61 6275 6e64 6922 2074  shanuikabundi" t
++00002120: 6974 6c65 3d22 4964 6561 732c 2050 6c61  itle="Ideas, Pla
++00002130: 6e6e 696e 672c 2026 2046 6565 6462 6163  nning, & Feedbac
++00002140: 6b22 3ef0 9fa4 943c 2f61 3e20 3c61 2068  k">....</a> <a h
++00002150: 7265 663d 2268 7474 7073 3a2f 2f67 6974  ref="https://git
++00002160: 6875 622e 636f 6d2f 6d61 6e73 656e 6672  hub.com/mansenfr
++00002170: 616e 7a65 6e2f 6175 746f 646f 635f 7079  anzen/autodoc_py
++00002180: 6461 6e74 6963 2f63 6f6d 6d69 7473 3f61  dantic/commits?a
++00002190: 7574 686f 723d 596f 7368 616e 7569 6b61  uthor=Yoshanuika
++000021a0: 6275 6e64 6922 2074 6974 6c65 3d22 5465  bundi" title="Te
++000021b0: 7374 7322 3ee2 9aa0 efb8 8f3c 2f61 3e3c  sts">......</a><
++000021c0: 2f74 643e 0a20 2020 2020 203c 7464 2061  /td>.      <td a
++000021d0: 6c69 676e 3d22 6365 6e74 6572 2220 7661  lign="center" va
++000021e0: 6c69 676e 3d22 746f 7022 2077 6964 7468  lign="top" width
++000021f0: 3d22 3134 2e32 3825 223e 3c61 2068 7265  ="14.28%"><a hre
++00002200: 663d 2268 7474 7073 3a2f 2f67 6974 6875  f="https://githu
++00002210: 622e 636f 6d2f 676f 726f 6465 7269 636b  b.com/goroderick
++00002220: 676f 223e 3c69 6d67 2073 7263 3d22 6874  go"><img src="ht
++00002230: 7470 733a 2f2f 6176 6174 6172 732e 6769  tps://avatars.gi
++00002240: 7468 7562 7573 6572 636f 6e74 656e 742e  thubusercontent.
++00002250: 636f 6d2f 752f 3137 3239 3637 3133 3f76  com/u/17296713?v
++00002260: 3d34 3f73 3d31 3030 2220 7769 6474 683d  =4?s=100" width=
++00002270: 2231 3030 7078 3b22 2061 6c74 3d22 526f  "100px;" alt="Ro
++00002280: 6465 7269 636b 2047 6f22 2f3e 3c62 7220  derick Go"/><br 
++00002290: 2f3e 3c73 7562 3e3c 623e 526f 6465 7269  /><sub><b>Roderi
++000022a0: 636b 2047 6f3c 2f62 3e3c 2f73 7562 3e3c  ck Go</b></sub><
++000022b0: 2f61 3e3c 6272 202f 3e3c 6120 6872 6566  /a><br /><a href
++000022c0: 3d22 6874 7470 733a 2f2f 6769 7468 7562  ="https://github
++000022d0: 2e63 6f6d 2f6d 616e 7365 6e66 7261 6e7a  .com/mansenfranz
++000022e0: 656e 2f61 7574 6f64 6f63 5f70 7964 616e  en/autodoc_pydan
++000022f0: 7469 632f 636f 6d6d 6974 733f 6175 7468  tic/commits?auth
++00002300: 6f72 3d67 6f72 6f64 6572 6963 6b67 6f22  or=goroderickgo"
++00002310: 2074 6974 6c65 3d22 5465 7374 7322 3ee2   title="Tests">.
++00002320: 9aa0 efb8 8f3c 2f61 3e3c 2f74 643e 0a20  .....</a></td>. 
++00002330: 2020 2020 203c 7464 2061 6c69 676e 3d22       <td align="
++00002340: 6365 6e74 6572 2220 7661 6c69 676e 3d22  center" valign="
++00002350: 746f 7022 2077 6964 7468 3d22 3134 2e32  top" width="14.2
++00002360: 3825 223e 3c61 2068 7265 663d 2268 7474  8%"><a href="htt
++00002370: 7073 3a2f 2f67 6974 6875 622e 636f 6d2f  ps://github.com/
++00002380: 6c69 6c79 6d69 6e69 756d 223e 3c69 6d67  lilyminium"><img
++00002390: 2073 7263 3d22 6874 7470 733a 2f2f 6176   src="https://av
++000023a0: 6174 6172 732e 6769 7468 7562 7573 6572  atars.githubuser
++000023b0: 636f 6e74 656e 742e 636f 6d2f 752f 3331  content.com/u/31
++000023c0: 3131 3531 3031 3f76 3d34 3f73 3d31 3030  115101?v=4?s=100
++000023d0: 2220 7769 6474 683d 2231 3030 7078 3b22  " width="100px;"
++000023e0: 2061 6c74 3d22 4c69 6c79 2057 616e 6722   alt="Lily Wang"
++000023f0: 2f3e 3c62 7220 2f3e 3c73 7562 3e3c 623e  /><br /><sub><b>
++00002400: 4c69 6c79 2057 616e 673c 2f62 3e3c 2f73  Lily Wang</b></s
++00002410: 7562 3e3c 2f61 3e3c 6272 202f 3e3c 6120  ub></a><br /><a 
++00002420: 6872 6566 3d22 6874 7470 733a 2f2f 6769  href="https://gi
++00002430: 7468 7562 2e63 6f6d 2f6d 616e 7365 6e66  thub.com/mansenf
++00002440: 7261 6e7a 656e 2f61 7574 6f64 6f63 5f70  ranzen/autodoc_p
++00002450: 7964 616e 7469 632f 636f 6d6d 6974 733f  ydantic/commits?
++00002460: 6175 7468 6f72 3d6c 696c 796d 696e 6975  author=lilyminiu
++00002470: 6d22 2074 6974 6c65 3d22 446f 6375 6d65  m" title="Docume
++00002480: 6e74 6174 696f 6e22 3ef0 9f93 963c 2f61  ntation">....</a
++00002490: 3e20 3c61 2068 7265 663d 2223 636f 6e74  > <a href="#cont
++000024a0: 656e 742d 6c69 6c79 6d69 6e69 756d 2220  ent-lilyminium" 
++000024b0: 7469 746c 653d 2243 6f6e 7465 6e74 223e  title="Content">
++000024c0: f09f 968b 3c2f 613e 3c2f 7464 3e0a 2020  ....</a></td>.  
++000024d0: 2020 3c2f 7472 3e0a 2020 2020 3c74 723e    </tr>.    <tr>
++000024e0: 0a20 2020 2020 203c 7464 2061 6c69 676e  .      <td align
++000024f0: 3d22 6365 6e74 6572 2220 7661 6c69 676e  ="center" valign
++00002500: 3d22 746f 7022 2077 6964 7468 3d22 3134  ="top" width="14
++00002510: 2e32 3825 223e 3c61 2068 7265 663d 2268  .28%"><a href="h
++00002520: 7474 7073 3a2f 2f67 6974 6875 622e 636f  ttps://github.co
++00002530: 6d2f 6a2d 6361 7273 6f6e 223e 3c69 6d67  m/j-carson"><img
++00002540: 2073 7263 3d22 6874 7470 733a 2f2f 6176   src="https://av
++00002550: 6174 6172 732e 6769 7468 7562 7573 6572  atars.githubuser
++00002560: 636f 6e74 656e 742e 636f 6d2f 752f 3434  content.com/u/44
++00002570: 3330 3831 3230 3f76 3d34 3f73 3d31 3030  308120?v=4?s=100
++00002580: 2220 7769 6474 683d 2231 3030 7078 3b22  " width="100px;"
++00002590: 2061 6c74 3d22 6a2d 6361 7273 6f6e 222f   alt="j-carson"/
++000025a0: 3e3c 6272 202f 3e3c 7375 623e 3c62 3e6a  ><br /><sub><b>j
++000025b0: 2d63 6172 736f 6e3c 2f62 3e3c 2f73 7562  -carson</b></sub
++000025c0: 3e3c 2f61 3e3c 6272 202f 3e3c 6120 6872  ></a><br /><a hr
++000025d0: 6566 3d22 6874 7470 733a 2f2f 6769 7468  ef="https://gith
++000025e0: 7562 2e63 6f6d 2f6d 616e 7365 6e66 7261  ub.com/mansenfra
++000025f0: 6e7a 656e 2f61 7574 6f64 6f63 5f70 7964  nzen/autodoc_pyd
++00002600: 616e 7469 632f 6973 7375 6573 3f71 3d61  antic/issues?q=a
++00002610: 7574 686f 7225 3341 6a2d 6361 7273 6f6e  uthor%3Aj-carson
++00002620: 2220 7469 746c 653d 2242 7567 2072 6570  " title="Bug rep
++00002630: 6f72 7473 223e f09f 909b 3c2f 613e 203c  orts">....</a> <
++00002640: 6120 6872 6566 3d22 6874 7470 733a 2f2f  a href="https://
++00002650: 6769 7468 7562 2e63 6f6d 2f6d 616e 7365  github.com/manse
++00002660: 6e66 7261 6e7a 656e 2f61 7574 6f64 6f63  nfranzen/autodoc
++00002670: 5f70 7964 616e 7469 632f 636f 6d6d 6974  _pydantic/commit
++00002680: 733f 6175 7468 6f72 3d6a 2d63 6172 736f  s?author=j-carso
++00002690: 6e22 2074 6974 6c65 3d22 436f 6465 223e  n" title="Code">
++000026a0: f09f 92bb 3c2f 613e 203c 6120 6872 6566  ....</a> <a href
++000026b0: 3d22 6874 7470 733a 2f2f 6769 7468 7562  ="https://github
++000026c0: 2e63 6f6d 2f6d 616e 7365 6e66 7261 6e7a  .com/mansenfranz
++000026d0: 656e 2f61 7574 6f64 6f63 5f70 7964 616e  en/autodoc_pydan
++000026e0: 7469 632f 636f 6d6d 6974 733f 6175 7468  tic/commits?auth
++000026f0: 6f72 3d6a 2d63 6172 736f 6e22 2074 6974  or=j-carson" tit
++00002700: 6c65 3d22 5465 7374 7322 3ee2 9aa0 efb8  le="Tests">.....
++00002710: 8f3c 2f61 3e3c 2f74 643e 0a20 2020 2020  .</a></td>.     
++00002720: 203c 7464 2061 6c69 676e 3d22 6365 6e74   <td align="cent
++00002730: 6572 2220 7661 6c69 676e 3d22 746f 7022  er" valign="top"
++00002740: 2077 6964 7468 3d22 3134 2e32 3825 223e   width="14.28%">
++00002750: 3c61 2068 7265 663d 2268 7474 703a 2f2f  <a href="http://
++00002760: 696d 6164 612e 7364 752e 646b 2f7e 6a6c  imada.sdu.dk/~jl
++00002770: 616e 6465 7273 656e 2f22 3e3c 696d 6720  andersen/"><img 
++00002780: 7372 633d 2268 7474 7073 3a2f 2f61 7661  src="https://ava
++00002790: 7461 7273 2e67 6974 6875 6275 7365 7263  tars.githubuserc
++000027a0: 6f6e 7465 6e74 2e63 6f6d 2f75 2f36 3436  ontent.com/u/646
++000027b0: 3537 3335 3f76 3d34 3f73 3d31 3030 2220  5735?v=4?s=100" 
++000027c0: 7769 6474 683d 2231 3030 7078 3b22 2061  width="100px;" a
++000027d0: 6c74 3d22 4a61 6b6f 6220 4c79 6b6b 6520  lt="Jakob Lykke 
++000027e0: 416e 6465 7273 656e 222f 3e3c 6272 202f  Andersen"/><br /
++000027f0: 3e3c 7375 623e 3c62 3e4a 616b 6f62 204c  ><sub><b>Jakob L
++00002800: 796b 6b65 2041 6e64 6572 7365 6e3c 2f62  ykke Andersen</b
++00002810: 3e3c 2f73 7562 3e3c 2f61 3e3c 6272 202f  ></sub></a><br /
++00002820: 3e3c 6120 6872 6566 3d22 6874 7470 733a  ><a href="https:
++00002830: 2f2f 6769 7468 7562 2e63 6f6d 2f6d 616e  //github.com/man
++00002840: 7365 6e66 7261 6e7a 656e 2f61 7574 6f64  senfranzen/autod
++00002850: 6f63 5f70 7964 616e 7469 632f 636f 6d6d  oc_pydantic/comm
++00002860: 6974 733f 6175 7468 6f72 3d6a 616b 6f62  its?author=jakob
++00002870: 616e 6465 7273 656e 2220 7469 746c 653d  andersen" title=
++00002880: 2243 6f64 6522 3ef0 9f92 bb3c 2f61 3e3c  "Code">....</a><
++00002890: 2f74 643e 0a20 2020 2020 203c 7464 2061  /td>.      <td a
++000028a0: 6c69 676e 3d22 6365 6e74 6572 2220 7661  lign="center" va
++000028b0: 6c69 676e 3d22 746f 7022 2077 6964 7468  lign="top" width
++000028c0: 3d22 3134 2e32 3825 223e 3c61 2068 7265  ="14.28%"><a hre
++000028d0: 663d 2268 7474 7073 3a2f 2f67 6974 6875  f="https://githu
++000028e0: 622e 636f 6d2f 6173 7472 6f6a 7561 6e6c  b.com/astrojuanl
++000028f0: 7522 3e3c 696d 6720 7372 633d 2268 7474  u"><img src="htt
++00002900: 7073 3a2f 2f61 7661 7461 7273 2e67 6974  ps://avatars.git
++00002910: 6875 6275 7365 7263 6f6e 7465 6e74 2e63  hubusercontent.c
++00002920: 6f6d 2f75 2f33 3136 3531 373f 763d 343f  om/u/316517?v=4?
++00002930: 733d 3130 3022 2077 6964 7468 3d22 3130  s=100" width="10
++00002940: 3070 783b 2220 616c 743d 224a 7561 6e20  0px;" alt="Juan 
++00002950: 4c75 6973 2043 616e 6f20 526f 6472 c3ad  Luis Cano Rodr..
++00002960: 6775 657a 222f 3e3c 6272 202f 3e3c 7375  guez"/><br /><su
++00002970: 623e 3c62 3e4a 7561 6e20 4c75 6973 2043  b><b>Juan Luis C
++00002980: 616e 6f20 526f 6472 c3ad 6775 657a 3c2f  ano Rodr..guez</
++00002990: 623e 3c2f 7375 623e 3c2f 613e 3c62 7220  b></sub></a><br 
++000029a0: 2f3e 3c61 2068 7265 663d 2223 636f 6e74  /><a href="#cont
++000029b0: 656e 742d 6173 7472 6f6a 7561 6e6c 7522  ent-astrojuanlu"
++000029c0: 2074 6974 6c65 3d22 436f 6e74 656e 7422   title="Content"
++000029d0: 3ef0 9f96 8b3c 2f61 3e3c 2f74 643e 0a20  >....</a></td>. 
++000029e0: 2020 2020 203c 7464 2061 6c69 676e 3d22       <td align="
++000029f0: 6365 6e74 6572 2220 7661 6c69 676e 3d22  center" valign="
++00002a00: 746f 7022 2077 6964 7468 3d22 3134 2e32  top" width="14.2
++00002a10: 3825 223e 3c61 2068 7265 663d 2268 7474  8%"><a href="htt
++00002a20: 7073 3a2f 2f67 6974 6875 622e 636f 6d2f  ps://github.com/
++00002a30: 6e63 6861 6c79 223e 3c69 6d67 2073 7263  nchaly"><img src
++00002a40: 3d22 6874 7470 733a 2f2f 6176 6174 6172  ="https://avatar
++00002a50: 732e 6769 7468 7562 7573 6572 636f 6e74  s.githubusercont
++00002a60: 656e 742e 636f 6d2f 752f 3236 3635 3237  ent.com/u/266527
++00002a70: 333f 763d 343f 733d 3130 3022 2077 6964  3?v=4?s=100" wid
++00002a80: 7468 3d22 3130 3070 783b 2220 616c 743d  th="100px;" alt=
++00002a90: 224d 696b 616c 6169 2043 6861 6c79 222f  "Mikalai Chaly"/
++00002aa0: 3e3c 6272 202f 3e3c 7375 623e 3c62 3e4d  ><br /><sub><b>M
++00002ab0: 696b 616c 6169 2043 6861 6c79 3c2f 623e  ikalai Chaly</b>
++00002ac0: 3c2f 7375 623e 3c2f 613e 3c62 7220 2f3e  </sub></a><br />
++00002ad0: 3c61 2068 7265 663d 2268 7474 7073 3a2f  <a href="https:/
++00002ae0: 2f67 6974 6875 622e 636f 6d2f 6d61 6e73  /github.com/mans
++00002af0: 656e 6672 616e 7a65 6e2f 6175 746f 646f  enfranzen/autodo
++00002b00: 635f 7079 6461 6e74 6963 2f69 7373 7565  c_pydantic/issue
++00002b10: 733f 713d 6175 7468 6f72 2533 416e 6368  s?q=author%3Anch
++00002b20: 616c 7922 2074 6974 6c65 3d22 4275 6720  aly" title="Bug 
++00002b30: 7265 706f 7274 7322 3ef0 9f90 9b3c 2f61  reports">....</a
++00002b40: 3e20 3c61 2068 7265 663d 2268 7474 7073  > <a href="https
++00002b50: 3a2f 2f67 6974 6875 622e 636f 6d2f 6d61  ://github.com/ma
++00002b60: 6e73 656e 6672 616e 7a65 6e2f 6175 746f  nsenfranzen/auto
++00002b70: 646f 635f 7079 6461 6e74 6963 2f63 6f6d  doc_pydantic/com
++00002b80: 6d69 7473 3f61 7574 686f 723d 6e63 6861  mits?author=ncha
++00002b90: 6c79 2220 7469 746c 653d 2254 6573 7473  ly" title="Tests
++00002ba0: 223e e29a a0ef b88f 3c2f 613e 3c2f 7464  ">......</a></td
++00002bb0: 3e0a 2020 2020 2020 3c74 6420 616c 6967  >.      <td alig
++00002bc0: 6e3d 2263 656e 7465 7222 2076 616c 6967  n="center" valig
++00002bd0: 6e3d 2274 6f70 2220 7769 6474 683d 2231  n="top" width="1
++00002be0: 342e 3238 2522 3e3c 6120 6872 6566 3d22  4.28%"><a href="
++00002bf0: 6874 7470 733a 2f2f 6769 7468 7562 2e63  https://github.c
++00002c00: 6f6d 2f53 7469 674b 6f72 736e 6573 223e  om/StigKorsnes">
++00002c10: 3c69 6d67 2073 7263 3d22 6874 7470 733a  <img src="https:
++00002c20: 2f2f 6176 6174 6172 732e 6769 7468 7562  //avatars.github
++00002c30: 7573 6572 636f 6e74 656e 742e 636f 6d2f  usercontent.com/
++00002c40: 752f 3130 3038 3535 3336 3f76 3d34 3f73  u/10085536?v=4?s
++00002c50: 3d31 3030 2220 7769 6474 683d 2231 3030  =100" width="100
++00002c60: 7078 3b22 2061 6c74 3d22 5374 6967 204b  px;" alt="Stig K
++00002c70: 6f72 736e 6573 222f 3e3c 6272 202f 3e3c  orsnes"/><br /><
++00002c80: 7375 623e 3c62 3e53 7469 6720 4b6f 7273  sub><b>Stig Kors
++00002c90: 6e65 733c 2f62 3e3c 2f73 7562 3e3c 2f61  nes</b></sub></a
++00002ca0: 3e3c 6272 202f 3e3c 6120 6872 6566 3d22  ><br /><a href="
++00002cb0: 6874 7470 733a 2f2f 6769 7468 7562 2e63  https://github.c
++00002cc0: 6f6d 2f6d 616e 7365 6e66 7261 6e7a 656e  om/mansenfranzen
++00002cd0: 2f61 7574 6f64 6f63 5f70 7964 616e 7469  /autodoc_pydanti
++00002ce0: 632f 6973 7375 6573 3f71 3d61 7574 686f  c/issues?q=autho
++00002cf0: 7225 3341 5374 6967 4b6f 7273 6e65 7322  r%3AStigKorsnes"
++00002d00: 2074 6974 6c65 3d22 4275 6720 7265 706f   title="Bug repo
++00002d10: 7274 7322 3ef0 9f90 9b3c 2f61 3e20 3c61  rts">....</a> <a
++00002d20: 2068 7265 663d 2223 6964 6561 732d 5374   href="#ideas-St
++00002d30: 6967 4b6f 7273 6e65 7322 2074 6974 6c65  igKorsnes" title
++00002d40: 3d22 4964 6561 732c 2050 6c61 6e6e 696e  ="Ideas, Plannin
++00002d50: 672c 2026 2046 6565 6462 6163 6b22 3ef0  g, & Feedback">.
++00002d60: 9fa4 943c 2f61 3e3c 2f74 643e 0a20 2020  ...</a></td>.   
++00002d70: 2020 203c 7464 2061 6c69 676e 3d22 6365     <td align="ce
++00002d80: 6e74 6572 2220 7661 6c69 676e 3d22 746f  nter" valign="to
++00002d90: 7022 2077 6964 7468 3d22 3134 2e32 3825  p" width="14.28%
++00002da0: 223e 3c61 2068 7265 663d 2268 7474 7073  "><a href="https
++00002db0: 3a2f 2f67 6974 6875 622e 636f 6d2f 696c  ://github.com/il
++00002dc0: 6961 6b75 7222 3e3c 696d 6720 7372 633d  iakur"><img src=
++00002dd0: 2268 7474 7073 3a2f 2f61 7661 7461 7273  "https://avatars
++00002de0: 2e67 6974 6875 6275 7365 7263 6f6e 7465  .githubuserconte
++00002df0: 6e74 2e63 6f6d 2f75 2f38 3939 3539 313f  nt.com/u/899591?
++00002e00: 763d 343f 733d 3130 3022 2077 6964 7468  v=4?s=100" width
++00002e10: 3d22 3130 3070 783b 2220 616c 743d 2249  ="100px;" alt="I
++00002e20: 6c69 6120 4b75 7265 6e6b 6f76 222f 3e3c  lia Kurenkov"/><
++00002e30: 6272 202f 3e3c 7375 623e 3c62 3e49 6c69  br /><sub><b>Ili
++00002e40: 6120 4b75 7265 6e6b 6f76 3c2f 623e 3c2f  a Kurenkov</b></
++00002e50: 7375 623e 3c2f 613e 3c62 7220 2f3e 3c61  sub></a><br /><a
++00002e60: 2068 7265 663d 2268 7474 7073 3a2f 2f67   href="https://g
++00002e70: 6974 6875 622e 636f 6d2f 6d61 6e73 656e  ithub.com/mansen
++00002e80: 6672 616e 7a65 6e2f 6175 746f 646f 635f  franzen/autodoc_
++00002e90: 7079 6461 6e74 6963 2f69 7373 7565 733f  pydantic/issues?
++00002ea0: 713d 6175 7468 6f72 2533 4169 6c69 616b  q=author%3Ailiak
++00002eb0: 7572 2220 7469 746c 653d 2242 7567 2072  ur" title="Bug r
++00002ec0: 6570 6f72 7473 223e f09f 909b 3c2f 613e  eports">....</a>
++00002ed0: 3c2f 7464 3e0a 2020 2020 2020 3c74 6420  </td>.      <td 
++00002ee0: 616c 6967 6e3d 2263 656e 7465 7222 2076  align="center" v
++00002ef0: 616c 6967 6e3d 2274 6f70 2220 7769 6474  align="top" widt
++00002f00: 683d 2231 342e 3238 2522 3e3c 6120 6872  h="14.28%"><a hr
++00002f10: 6566 3d22 6874 7470 733a 2f2f 6f72 6369  ef="https://orci
++00002f20: 642e 6f72 672f 6d79 2d6f 7263 6964 3f6f  d.org/my-orcid?o
++00002f30: 7263 6964 3d30 3030 302d 3030 3032 2d35  rcid=0000-0002-5
++00002f40: 3437 302d 3136 3736 223e 3c69 6d67 2073  470-1676"><img s
++00002f50: 7263 3d22 6874 7470 733a 2f2f 6176 6174  rc="https://avat
++00002f60: 6172 732e 6769 7468 7562 7573 6572 636f  ars.githubuserco
++00002f70: 6e74 656e 742e 636f 6d2f 752f 3338 3236  ntent.com/u/3826
++00002f80: 3231 303f 763d 343f 733d 3130 3022 2077  210?v=4?s=100" w
++00002f90: 6964 7468 3d22 3130 3070 783b 2220 616c  idth="100px;" al
++00002fa0: 743d 2247 727a 6567 6f72 7a20 426f 6b6f  t="Grzegorz Boko
++00002fb0: 7461 222f 3e3c 6272 202f 3e3c 7375 623e  ta"/><br /><sub>
++00002fc0: 3c62 3e47 727a 6567 6f72 7a20 426f 6b6f  <b>Grzegorz Boko
++00002fd0: 7461 3c2f 623e 3c2f 7375 623e 3c2f 613e  ta</b></sub></a>
++00002fe0: 3c62 7220 2f3e 3c61 2068 7265 663d 2268  <br /><a href="h
++00002ff0: 7474 7073 3a2f 2f67 6974 6875 622e 636f  ttps://github.co
++00003000: 6d2f 6d61 6e73 656e 6672 616e 7a65 6e2f  m/mansenfranzen/
++00003010: 6175 746f 646f 635f 7079 6461 6e74 6963  autodoc_pydantic
++00003020: 2f69 7373 7565 733f 713d 6175 7468 6f72  /issues?q=author
++00003030: 2533 4143 7a61 6b69 2220 7469 746c 653d  %3ACzaki" title=
++00003040: 2242 7567 2072 6570 6f72 7473 223e f09f  "Bug reports">..
++00003050: 909b 3c2f 613e 3c2f 7464 3e0a 2020 2020  ..</a></td>.    
++00003060: 3c2f 7472 3e0a 2020 2020 3c74 723e 0a20  </tr>.    <tr>. 
++00003070: 2020 2020 203c 7464 2061 6c69 676e 3d22       <td align="
++00003080: 6365 6e74 6572 2220 7661 6c69 676e 3d22  center" valign="
++00003090: 746f 7022 2077 6964 7468 3d22 3134 2e32  top" width="14.2
++000030a0: 3825 223e 3c61 2068 7265 663d 2268 7474  8%"><a href="htt
++000030b0: 7073 3a2f 2f67 6974 6875 622e 636f 6d2f  ps://github.com/
++000030c0: 6a67 756e 7374 6f6e 6522 3e3c 696d 6720  jgunstone"><img 
++000030d0: 7372 633d 2268 7474 7073 3a2f 2f61 7661  src="https://ava
++000030e0: 7461 7273 2e67 6974 6875 6275 7365 7263  tars.githubuserc
++000030f0: 6f6e 7465 6e74 2e63 6f6d 2f75 2f32 3133  ontent.com/u/213
++00003100: 3730 3938 303f 763d 343f 733d 3130 3022  70980?v=4?s=100"
++00003110: 2077 6964 7468 3d22 3130 3070 783b 2220   width="100px;" 
++00003120: 616c 743d 226a 6775 6e73 746f 6e65 222f  alt="jgunstone"/
++00003130: 3e3c 6272 202f 3e3c 7375 623e 3c62 3e6a  ><br /><sub><b>j
++00003140: 6775 6e73 746f 6e65 3c2f 623e 3c2f 7375  gunstone</b></su
++00003150: 623e 3c2f 613e 3c62 7220 2f3e 3c61 2068  b></a><br /><a h
++00003160: 7265 663d 2268 7474 7073 3a2f 2f67 6974  ref="https://git
++00003170: 6875 622e 636f 6d2f 6d61 6e73 656e 6672  hub.com/mansenfr
++00003180: 616e 7a65 6e2f 6175 746f 646f 635f 7079  anzen/autodoc_py
++00003190: 6461 6e74 6963 2f69 7373 7565 733f 713d  dantic/issues?q=
++000031a0: 6175 7468 6f72 2533 416a 6775 6e73 746f  author%3Ajgunsto
++000031b0: 6e65 2220 7469 746c 653d 2242 7567 2072  ne" title="Bug r
++000031c0: 6570 6f72 7473 223e f09f 909b 3c2f 613e  eports">....</a>
++000031d0: 3c2f 7464 3e0a 2020 2020 2020 3c74 6420  </td>.      <td 
++000031e0: 616c 6967 6e3d 2263 656e 7465 7222 2076  align="center" v
++000031f0: 616c 6967 6e3d 2274 6f70 2220 7769 6474  align="top" widt
++00003200: 683d 2231 342e 3238 2522 3e3c 6120 6872  h="14.28%"><a hr
++00003210: 6566 3d22 6874 7470 733a 2f2f 6769 7468  ef="https://gith
++00003220: 7562 2e63 6f6d 2f69 7779 726b 6f72 6522  ub.com/iwyrkore"
++00003230: 3e3c 696d 6720 7372 633d 2268 7474 7073  ><img src="https
++00003240: 3a2f 2f61 7661 7461 7273 2e67 6974 6875  ://avatars.githu
++00003250: 6275 7365 7263 6f6e 7465 6e74 2e63 6f6d  busercontent.com
++00003260: 2f75 2f39 3237 3435 3838 303f 763d 343f  /u/92745880?v=4?
++00003270: 733d 3130 3022 2077 6964 7468 3d22 3130  s=100" width="10
++00003280: 3070 783b 2220 616c 743d 2269 7779 726b  0px;" alt="iwyrk
++00003290: 6f72 6522 2f3e 3c62 7220 2f3e 3c73 7562  ore"/><br /><sub
++000032a0: 3e3c 623e 6977 7972 6b6f 7265 3c2f 623e  ><b>iwyrkore</b>
++000032b0: 3c2f 7375 623e 3c2f 613e 3c62 7220 2f3e  </sub></a><br />
++000032c0: 3c61 2068 7265 663d 2268 7474 7073 3a2f  <a href="https:/
++000032d0: 2f67 6974 6875 622e 636f 6d2f 6d61 6e73  /github.com/mans
++000032e0: 656e 6672 616e 7a65 6e2f 6175 746f 646f  enfranzen/autodo
++000032f0: 635f 7079 6461 6e74 6963 2f63 6f6d 6d69  c_pydantic/commi
++00003300: 7473 3f61 7574 686f 723d 6977 7972 6b6f  ts?author=iwyrko
++00003310: 7265 2220 7469 746c 653d 2243 6f64 6522  re" title="Code"
++00003320: 3ef0 9f92 bb3c 2f61 3e3c 2f74 643e 0a20  >....</a></td>. 
++00003330: 2020 2020 203c 7464 2061 6c69 676e 3d22       <td align="
++00003340: 6365 6e74 6572 2220 7661 6c69 676e 3d22  center" valign="
++00003350: 746f 7022 2077 6964 7468 3d22 3134 2e32  top" width="14.2
++00003360: 3825 223e 3c61 2068 7265 663d 2268 7474  8%"><a href="htt
++00003370: 7073 3a2f 2f67 6974 6875 622e 636f 6d2f  ps://github.com/
++00003380: 7370 6163 656d 616e 7370 6966 6632 3030  spacemanspiff200
++00003390: 3722 3e3c 696d 6720 7372 633d 2268 7474  7"><img src="htt
++000033a0: 7073 3a2f 2f61 7661 7461 7273 2e67 6974  ps://avatars.git
++000033b0: 6875 6275 7365 7263 6f6e 7465 6e74 2e63  hubusercontent.c
++000033c0: 6f6d 2f75 2f31 3037 3534 3731 363f 763d  om/u/10754716?v=
++000033d0: 343f 733d 3130 3022 2077 6964 7468 3d22  4?s=100" width="
++000033e0: 3130 3070 783b 2220 616c 743d 2273 7061  100px;" alt="spa
++000033f0: 6365 6d61 6e73 7069 6666 3230 3037 222f  cemanspiff2007"/
++00003400: 3e3c 6272 202f 3e3c 7375 623e 3c62 3e73  ><br /><sub><b>s
++00003410: 7061 6365 6d61 6e73 7069 6666 3230 3037  pacemanspiff2007
++00003420: 3c2f 623e 3c2f 7375 623e 3c2f 613e 3c62  </b></sub></a><b
++00003430: 7220 2f3e 3c61 2068 7265 663d 2268 7474  r /><a href="htt
++00003440: 7073 3a2f 2f67 6974 6875 622e 636f 6d2f  ps://github.com/
++00003450: 6d61 6e73 656e 6672 616e 7a65 6e2f 6175  mansenfranzen/au
++00003460: 746f 646f 635f 7079 6461 6e74 6963 2f69  todoc_pydantic/i
++00003470: 7373 7565 733f 713d 6175 7468 6f72 2533  ssues?q=author%3
++00003480: 4173 7061 6365 6d61 6e73 7069 6666 3230  Aspacemanspiff20
++00003490: 3037 2220 7469 746c 653d 2242 7567 2072  07" title="Bug r
++000034a0: 6570 6f72 7473 223e f09f 909b 3c2f 613e  eports">....</a>
++000034b0: 203c 6120 6872 6566 3d22 2369 6465 6173   <a href="#ideas
++000034c0: 2d73 7061 6365 6d61 6e73 7069 6666 3230  -spacemanspiff20
++000034d0: 3037 2220 7469 746c 653d 2249 6465 6173  07" title="Ideas
++000034e0: 2c20 506c 616e 6e69 6e67 2c20 2620 4665  , Planning, & Fe
++000034f0: 6564 6261 636b 223e f09f a494 3c2f 613e  edback">....</a>
++00003500: 3c2f 7464 3e0a 2020 2020 2020 3c74 6420  </td>.      <td 
++00003510: 616c 6967 6e3d 2263 656e 7465 7222 2076  align="center" v
++00003520: 616c 6967 6e3d 2274 6f70 2220 7769 6474  align="top" widt
++00003530: 683d 2231 342e 3238 2522 3e3c 6120 6872  h="14.28%"><a hr
++00003540: 6566 3d22 6874 7470 733a 2f2f 6c75 6b65  ef="https://luke
++00003550: 2e68 7369 616f 2e64 6576 223e 3c69 6d67  .hsiao.dev"><img
++00003560: 2073 7263 3d22 6874 7470 733a 2f2f 6176   src="https://av
++00003570: 6174 6172 732e 6769 7468 7562 7573 6572  atars.githubuser
++00003580: 636f 6e74 656e 742e 636f 6d2f 752f 3735  content.com/u/75
++00003590: 3733 3534 323f 763d 343f 733d 3130 3022  73542?v=4?s=100"
++000035a0: 2077 6964 7468 3d22 3130 3070 783b 2220   width="100px;" 
++000035b0: 616c 743d 224c 756b 6520 4873 6961 6f22  alt="Luke Hsiao"
++000035c0: 2f3e 3c62 7220 2f3e 3c73 7562 3e3c 623e  /><br /><sub><b>
++000035d0: 4c75 6b65 2048 7369 616f 3c2f 623e 3c2f  Luke Hsiao</b></
++000035e0: 7375 623e 3c2f 613e 3c62 7220 2f3e 3c61  sub></a><br /><a
++000035f0: 2068 7265 663d 2268 7474 7073 3a2f 2f67   href="https://g
++00003600: 6974 6875 622e 636f 6d2f 6d61 6e73 656e  ithub.com/mansen
++00003610: 6672 616e 7a65 6e2f 6175 746f 646f 635f  franzen/autodoc_
++00003620: 7079 6461 6e74 6963 2f69 7373 7565 733f  pydantic/issues?
++00003630: 713d 6175 7468 6f72 2533 416c 756b 6568  q=author%3Alukeh
++00003640: 7369 616f 2220 7469 746c 653d 2242 7567  siao" title="Bug
++00003650: 2072 6570 6f72 7473 223e f09f 909b 3c2f   reports">....</
++00003660: 613e 3c2f 7464 3e0a 2020 2020 2020 3c74  a></td>.      <t
++00003670: 6420 616c 6967 6e3d 2263 656e 7465 7222  d align="center"
++00003680: 2076 616c 6967 6e3d 2274 6f70 2220 7769   valign="top" wi
++00003690: 6474 683d 2231 342e 3238 2522 3e3c 6120  dth="14.28%"><a 
++000036a0: 6872 6566 3d22 6874 7470 733a 2f2f 6769  href="https://gi
++000036b0: 7468 7562 2e63 6f6d 2f6e 6963 6b65 6c64  thub.com/nickeld
++000036c0: 616e 223e 3c69 6d67 2073 7263 3d22 6874  an"><img src="ht
++000036d0: 7470 733a 2f2f 6176 6174 6172 732e 6769  tps://avatars.gi
++000036e0: 7468 7562 7573 6572 636f 6e74 656e 742e  thubusercontent.
++000036f0: 636f 6d2f 752f 3231 3231 3035 3932 3f76  com/u/21210592?v
++00003700: 3d34 3f73 3d31 3030 2220 7769 6474 683d  =4?s=100" width=
++00003710: 2231 3030 7078 3b22 2061 6c74 3d22 4461  "100px;" alt="Da
++00003720: 6e69 656c 2057 616c 6b65 7222 2f3e 3c62  niel Walker"/><b
++00003730: 7220 2f3e 3c73 7562 3e3c 623e 4461 6e69  r /><sub><b>Dani
++00003740: 656c 2057 616c 6b65 723c 2f62 3e3c 2f73  el Walker</b></s
++00003750: 7562 3e3c 2f61 3e3c 6272 202f 3e3c 6120  ub></a><br /><a 
++00003760: 6872 6566 3d22 6874 7470 733a 2f2f 6769  href="https://gi
++00003770: 7468 7562 2e63 6f6d 2f6d 616e 7365 6e66  thub.com/mansenf
++00003780: 7261 6e7a 656e 2f61 7574 6f64 6f63 5f70  ranzen/autodoc_p
++00003790: 7964 616e 7469 632f 6973 7375 6573 3f71  ydantic/issues?q
++000037a0: 3d61 7574 686f 7225 3341 6e69 636b 656c  =author%3Anickel
++000037b0: 6461 6e22 2074 6974 6c65 3d22 4275 6720  dan" title="Bug 
++000037c0: 7265 706f 7274 7322 3ef0 9f90 9b3c 2f61  reports">....</a
++000037d0: 3e3c 2f74 643e 0a20 2020 2020 203c 7464  ></td>.      <td
++000037e0: 2061 6c69 676e 3d22 6365 6e74 6572 2220   align="center" 
++000037f0: 7661 6c69 676e 3d22 746f 7022 2077 6964  valign="top" wid
++00003800: 7468 3d22 3134 2e32 3825 223e 3c61 2068  th="14.28%"><a h
++00003810: 7265 663d 2268 7474 7073 3a2f 2f74 2e6d  ref="https://t.m
++00003820: 652f 7069 7065 6b6e 6967 6874 223e 3c69  e/pipeknight"><i
++00003830: 6d67 2073 7263 3d22 6874 7470 733a 2f2f  mg src="https://
++00003840: 6176 6174 6172 732e 6769 7468 7562 7573  avatars.githubus
++00003850: 6572 636f 6e74 656e 742e 636f 6d2f 752f  ercontent.com/u/
++00003860: 3334 3831 3035 3636 3f76 3d34 3f73 3d31  34810566?v=4?s=1
++00003870: 3030 2220 7769 6474 683d 2231 3030 7078  00" width="100px
++00003880: 3b22 2061 6c74 3d22 4576 6765 6e69 7920  ;" alt="Evgeniy 
++00003890: 4c75 7061 7368 696e 222f 3e3c 6272 202f  Lupashin"/><br /
++000038a0: 3e3c 7375 623e 3c62 3e45 7667 656e 6979  ><sub><b>Evgeniy
++000038b0: 204c 7570 6173 6869 6e3c 2f62 3e3c 2f73   Lupashin</b></s
++000038c0: 7562 3e3c 2f61 3e3c 6272 202f 3e3c 6120  ub></a><br /><a 
++000038d0: 6872 6566 3d22 6874 7470 733a 2f2f 6769  href="https://gi
++000038e0: 7468 7562 2e63 6f6d 2f6d 616e 7365 6e66  thub.com/mansenf
++000038f0: 7261 6e7a 656e 2f61 7574 6f64 6f63 5f70  ranzen/autodoc_p
++00003900: 7964 616e 7469 632f 6973 7375 6573 3f71  ydantic/issues?q
++00003910: 3d61 7574 686f 7225 3341 5069 7065 4b6e  =author%3APipeKn
++00003920: 6967 6874 2220 7469 746c 653d 2242 7567  ight" title="Bug
++00003930: 2072 6570 6f72 7473 223e f09f 909b 3c2f   reports">....</
++00003940: 613e 3c2f 7464 3e0a 2020 2020 2020 3c74  a></td>.      <t
++00003950: 6420 616c 6967 6e3d 2263 656e 7465 7222  d align="center"
++00003960: 2076 616c 6967 6e3d 2274 6f70 2220 7769   valign="top" wi
++00003970: 6474 683d 2231 342e 3238 2522 3e3c 6120  dth="14.28%"><a 
++00003980: 6872 6566 3d22 6874 7470 3a2f 2f6a 616e  href="http://jan
++00003990: 6865 6e64 7269 6b65 7765 7273 2e75 6b2f  hendrikewers.uk/
++000039a0: 223e 3c69 6d67 2073 7263 3d22 6874 7470  "><img src="http
++000039b0: 733a 2f2f 6176 6174 6172 732e 6769 7468  s://avatars.gith
++000039c0: 7562 7573 6572 636f 6e74 656e 742e 636f  ubusercontent.co
++000039d0: 6d2f 752f 3132 3338 3330 3239 3f76 3d34  m/u/12383029?v=4
++000039e0: 3f73 3d31 3030 2220 7769 6474 683d 2231  ?s=100" width="1
++000039f0: 3030 7078 3b22 2061 6c74 3d22 4a61 6e2d  00px;" alt="Jan-
++00003a00: 4865 6e64 7269 6b20 4577 6572 7322 2f3e  Hendrik Ewers"/>
++00003a10: 3c62 7220 2f3e 3c73 7562 3e3c 623e 4a61  <br /><sub><b>Ja
++00003a20: 6e2d 4865 6e64 7269 6b20 4577 6572 733c  n-Hendrik Ewers<
++00003a30: 2f62 3e3c 2f73 7562 3e3c 2f61 3e3c 6272  /b></sub></a><br
++00003a40: 202f 3e3c 6120 6872 6566 3d22 6874 7470   /><a href="http
++00003a50: 733a 2f2f 6769 7468 7562 2e63 6f6d 2f6d  s://github.com/m
++00003a60: 616e 7365 6e66 7261 6e7a 656e 2f61 7574  ansenfranzen/aut
++00003a70: 6f64 6f63 5f70 7964 616e 7469 632f 6973  odoc_pydantic/is
++00003a80: 7375 6573 3f71 3d61 7574 686f 7225 3341  sues?q=author%3A
++00003a90: 6977 6973 6869 7761 7361 6e65 6167 6c65  iwishiwasaneagle
++00003aa0: 2220 7469 746c 653d 2242 7567 2072 6570  " title="Bug rep
++00003ab0: 6f72 7473 223e f09f 909b 3c2f 613e 3c2f  orts">....</a></
++00003ac0: 7464 3e0a 2020 2020 3c2f 7472 3e0a 2020  td>.    </tr>.  
++00003ad0: 2020 3c74 723e 0a20 2020 2020 203c 7464    <tr>.      <td
++00003ae0: 2061 6c69 676e 3d22 6365 6e74 6572 2220   align="center" 
++00003af0: 7661 6c69 676e 3d22 746f 7022 2077 6964  valign="top" wid
++00003b00: 7468 3d22 3134 2e32 3825 223e 3c61 2068  th="14.28%"><a h
++00003b10: 7265 663d 2268 7474 7073 3a2f 2f6a 6f6e  ref="https://jon
++00003b20: 2d65 2e6e 6574 223e 3c69 6d67 2073 7263  -e.net"><img src
++00003b30: 3d22 6874 7470 733a 2f2f 6176 6174 6172  ="https://avatar
++00003b40: 732e 6769 7468 7562 7573 6572 636f 6e74  s.githubusercont
++00003b50: 656e 742e 636f 6d2f 752f 3132 3936 3134  ent.com/u/129614
++00003b60: 3939 3f76 3d34 3f73 3d31 3030 2220 7769  99?v=4?s=100" wi
++00003b70: 6474 683d 2231 3030 7078 3b22 2061 6c74  dth="100px;" alt
++00003b80: 3d22 4a6f 6e6e 7920 5361 756e 6465 7273  ="Jonny Saunders
++00003b90: 222f 3e3c 6272 202f 3e3c 7375 623e 3c62  "/><br /><sub><b
++00003ba0: 3e4a 6f6e 6e79 2053 6175 6e64 6572 733c  >Jonny Saunders<
++00003bb0: 2f62 3e3c 2f73 7562 3e3c 2f61 3e3c 6272  /b></sub></a><br
++00003bc0: 202f 3e3c 6120 6872 6566 3d22 6874 7470   /><a href="http
++00003bd0: 733a 2f2f 6769 7468 7562 2e63 6f6d 2f6d  s://github.com/m
++00003be0: 616e 7365 6e66 7261 6e7a 656e 2f61 7574  ansenfranzen/aut
++00003bf0: 6f64 6f63 5f70 7964 616e 7469 632f 6973  odoc_pydantic/is
++00003c00: 7375 6573 3f71 3d61 7574 686f 7225 3341  sues?q=author%3A
++00003c10: 736e 6561 6b65 7273 2d74 6865 2d72 6174  sneakers-the-rat
++00003c20: 2220 7469 746c 653d 2242 7567 2072 6570  " title="Bug rep
++00003c30: 6f72 7473 223e f09f 909b 3c2f 613e 3c2f  orts">....</a></
++00003c40: 7464 3e0a 2020 2020 2020 3c74 6420 616c  td>.      <td al
++00003c50: 6967 6e3d 2263 656e 7465 7222 2076 616c  ign="center" val
++00003c60: 6967 6e3d 2274 6f70 2220 7769 6474 683d  ign="top" width=
++00003c70: 2231 342e 3238 2522 3e3c 6120 6872 6566  "14.28%"><a href
++00003c80: 3d22 6874 7470 3a2f 2f63 6861 726c 6965  ="http://charlie
++00003c90: 2e6d 6163 6861 6c6f 772e 636f 6d22 3e3c  .machalow.com"><
++00003ca0: 696d 6720 7372 633d 2268 7474 7073 3a2f  img src="https:/
++00003cb0: 2f61 7661 7461 7273 2e67 6974 6875 6275  /avatars.githubu
++00003cc0: 7365 7263 6f6e 7465 6e74 2e63 6f6d 2f75  sercontent.com/u
++00003cd0: 2f35 3734 3938 3338 3f76 3d34 3f73 3d31  /5749838?v=4?s=1
++00003ce0: 3030 2220 7769 6474 683d 2231 3030 7078  00" width="100px
++00003cf0: 3b22 2061 6c74 3d22 4368 6172 6c65 7320  ;" alt="Charles 
++00003d00: 4d61 6368 616c 6f77 222f 3e3c 6272 202f  Machalow"/><br /
++00003d10: 3e3c 7375 623e 3c62 3e43 6861 726c 6573  ><sub><b>Charles
++00003d20: 204d 6163 6861 6c6f 773c 2f62 3e3c 2f73   Machalow</b></s
++00003d30: 7562 3e3c 2f61 3e3c 6272 202f 3e3c 6120  ub></a><br /><a 
++00003d40: 6872 6566 3d22 2371 7565 7374 696f 6e2d  href="#question-
++00003d50: 6373 6d31 3034 3935 2220 7469 746c 653d  csm10495" title=
++00003d60: 2241 6e73 7765 7269 6e67 2051 7565 7374  "Answering Quest
++00003d70: 696f 6e73 223e f09f 92ac 3c2f 613e 3c2f  ions">....</a></
++00003d80: 7464 3e0a 2020 2020 2020 3c74 6420 616c  td>.      <td al
++00003d90: 6967 6e3d 2263 656e 7465 7222 2076 616c  ign="center" val
++00003da0: 6967 6e3d 2274 6f70 2220 7769 6474 683d  ign="top" width=
++00003db0: 2231 342e 3238 2522 3e3c 6120 6872 6566  "14.28%"><a href
++00003dc0: 3d22 6874 7470 733a 2f2f 6769 7468 7562  ="https://github
++00003dd0: 2e63 6f6d 2f74 6b61 7261 6f75 7a65 6e65  .com/tkaraouzene
++00003de0: 223e 3c69 6d67 2073 7263 3d22 6874 7470  "><img src="http
++00003df0: 733a 2f2f 6176 6174 6172 732e 6769 7468  s://avatars.gith
++00003e00: 7562 7573 6572 636f 6e74 656e 742e 636f  ubusercontent.co
++00003e10: 6d2f 752f 3230 3036 3430 3737 3f76 3d34  m/u/20064077?v=4
++00003e20: 3f73 3d31 3030 2220 7769 6474 683d 2231  ?s=100" width="1
++00003e30: 3030 7078 3b22 2061 6c74 3d22 5468 6f6d  00px;" alt="Thom
++00003e40: 6173 204b 6172 616f 757a 656e 6522 2f3e  as Karaouzene"/>
++00003e50: 3c62 7220 2f3e 3c73 7562 3e3c 623e 5468  <br /><sub><b>Th
++00003e60: 6f6d 6173 204b 6172 616f 757a 656e 653c  omas Karaouzene<
++00003e70: 2f62 3e3c 2f73 7562 3e3c 2f61 3e3c 6272  /b></sub></a><br
++00003e80: 202f 3e3c 6120 6872 6566 3d22 6874 7470   /><a href="http
++00003e90: 733a 2f2f 6769 7468 7562 2e63 6f6d 2f6d  s://github.com/m
++00003ea0: 616e 7365 6e66 7261 6e7a 656e 2f61 7574  ansenfranzen/aut
++00003eb0: 6f64 6f63 5f70 7964 616e 7469 632f 6973  odoc_pydantic/is
++00003ec0: 7375 6573 3f71 3d61 7574 686f 7225 3341  sues?q=author%3A
++00003ed0: 746b 6172 616f 757a 656e 6522 2074 6974  tkaraouzene" tit
++00003ee0: 6c65 3d22 4275 6720 7265 706f 7274 7322  le="Bug reports"
++00003ef0: 3ef0 9f90 9b3c 2f61 3e3c 2f74 643e 0a20  >....</a></td>. 
++00003f00: 2020 203c 2f74 723e 0a20 203c 2f74 626f     </tr>.  </tbo
++00003f10: 6479 3e0a 3c2f 7461 626c 653e 0a0a 3c21  dy>.</table>..<!
++00003f20: 2d2d 206d 6172 6b64 6f77 6e6c 696e 742d  -- markdownlint-
++00003f30: 7265 7374 6f72 6520 2d2d 3e0a 3c21 2d2d  restore -->.<!--
++00003f40: 2070 7265 7474 6965 722d 6967 6e6f 7265   prettier-ignore
++00003f50: 2d65 6e64 202d 2d3e 0a0a 3c21 2d2d 2041  -end -->..<!-- A
++00003f60: 4c4c 2d43 4f4e 5452 4942 5554 4f52 532d  LL-CONTRIBUTORS-
++00003f70: 4c49 5354 3a45 4e44 202d 2d3e 0a0a 5468  LIST:END -->..Th
++00003f80: 6973 2070 726f 6a65 6374 2066 6f6c 6c6f  is project follo
++00003f90: 7773 2074 6865 205b 616c 6c2d 636f 6e74  ws the [all-cont
++00003fa0: 7269 6275 746f 7273 5d28 6874 7470 733a  ributors](https:
++00003fb0: 2f2f 6769 7468 7562 2e63 6f6d 2f61 6c6c  //github.com/all
++00003fc0: 2d63 6f6e 7472 6962 7574 6f72 732f 616c  -contributors/al
++00003fd0: 6c2d 636f 6e74 7269 6275 746f 7273 2920  l-contributors) 
++00003fe0: 7370 6563 6966 6963 6174 696f 6e2e 2043  specification. C
++00003ff0: 6f6e 7472 6962 7574 696f 6e73 206f 6620  ontributions of 
++00004000: 616e 7920 6b69 6e64 2077 656c 636f 6d65  any kind welcome
++00004010: 210a                                     !.
+```
+
