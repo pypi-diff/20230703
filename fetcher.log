@@ -5228,3 +5228,74 @@
 [2023-07-03 03:54:09] INFO root fetch - main [MainThread]: End processing [policyengine-us]: success
 [2023-07-03 03:54:10] INFO root fetch - main [MainThread]: End processing [policyengine-us]: success
 [2023-07-03 03:54:10] INFO root fetch - main [MainThread]: Store serial: [18733766]
+[2023-07-03 03:59:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18733766]
+[2023-07-03 03:59:20] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-03 03:59:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: binance-connector
+[2023-07-03 03:59:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: metriclog
+[2023-07-03 03:59:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: folder-structure-generator
+[2023-07-03 03:59:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hepai
+[2023-07-03 03:59:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: amiyabot
+[2023-07-03 03:59:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: rayfed-nightly
+[2023-07-03 03:59:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: omnata-plugin-devkit
+[2023-07-03 03:59:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: bromide.py
+[2023-07-03 03:59:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cdk-wordpress
+[2023-07-03 03:59:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: vios
+[2023-07-03 03:59:20] INFO root fetch - processPackages [omnata-plugin-devkit]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-03 03:59:20] INFO root fetch - processPackages [binance-connector]: New version: [3.1.1] Old Version: [3.1.0]
+[2023-07-03 03:59:20] WARNING root fetch - processPackages [folder-structure-generator]: Skipping, unable to determine old version
+[2023-07-03 03:59:20] INFO root fetch - main [MainThread]: End processing [folder-structure-generator] error
+[2023-07-03 03:59:20] INFO root fetch - processPackages [vios]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-07-03 03:59:20] INFO root fetch - processPackages [hepai]: New version: [1.0.9] Old Version: [1.0.8.1]
+[2023-07-03 03:59:20] INFO root fetch - processPackages [amiyabot]: New version: [1.5.3] Old Version: [1.5.2]
+[2023-07-03 03:59:20] WARNING root fetch - processPackages [metriclog]: Skipping, unable to determine old version
+[2023-07-03 03:59:20] INFO root fetch - main [MainThread]: End processing [metriclog] error
+[2023-07-03 03:59:20] WARNING root fetch - processPackages [bromide.py]: Skipping, unable to determine old version
+[2023-07-03 03:59:20] INFO root fetch - main [MainThread]: End processing [bromide.py] error
+[2023-07-03 03:59:20] INFO root fetch - processPackages [cdk-wordpress]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-03 03:59:20] INFO root fetch - processPackages [omnata-plugin-devkit]: Downloading https://files.pythonhosted.org/packages/a6/03/037aa46c1c15ce197872a42c2494fcfb0dd6fd4c14cebaeaf6f9495b5cbf/omnata_plugin_devkit-0.1.8.tar.gz
+[2023-07-03 03:59:20] INFO root fetch - processPackages [vios]: Downloading https://files.pythonhosted.org/packages/0a/cf/e37ed9f804617799f1311c92b91111df4d651bb2098ad588a70f6157afaa/vios-1.0.4-py3-none-any.whl
+[2023-07-03 03:59:20] INFO root fetch - processPackages [cdk-wordpress]: Downloading https://files.pythonhosted.org/packages/95/5a/46730445b7c8db7cad33c0b319cbd75004ba42b6cbe2f00628d2191c5516/cdk-wordpress-0.0.98.tar.gz
+[2023-07-03 03:59:20] INFO root fetch - processPackages [rayfed-nightly]: New version: [0.1.0b20230703.dev0] Old Version: [0.1.0b20230622.dev0]
+[2023-07-03 03:59:20] INFO root fetch - processPackages [omnata-plugin-devkit]: Downloading https://files.pythonhosted.org/packages/94/e1/5b8aa743f4bbe600dde3989489613981c39b2dfcd44174b9931cf0c42452/omnata_plugin_devkit-0.1.9.tar.gz
+[2023-07-03 03:59:20] INFO root fetch - processPackages [cdk-wordpress]: Downloading https://files.pythonhosted.org/packages/f5/33/8bc435266e926cea52eb7df452e54c2c0657beef07580a86eae44236d88b/cdk-wordpress-0.0.99.tar.gz
+[2023-07-03 03:59:20] INFO root fetch - processPackages [binance-connector]: Downloading https://files.pythonhosted.org/packages/27/0b/bda5bef6236db6072867c8e15cb84f3f613eb126f7a08c036f97621affd5/binance-connector-3.1.0.tar.gz
+[2023-07-03 03:59:20] INFO root fetch - processPackages [hepai]: Downloading https://files.pythonhosted.org/packages/d5/59/1a2d684052d8cfb8c732ee281019dd1d18d8712598941b10038ccbd31386/hepai-1.0.8.1.tar.gz
+[2023-07-03 03:59:20] INFO root fetch - processPackages [amiyabot]: Downloading https://files.pythonhosted.org/packages/0b/c7/70e0effbe635c4cbfb0432251e3f2875bda1ef11e353cf74b4bc6d096a52/amiyabot-1.5.2-py3-none-any.whl
+[2023-07-03 03:59:20] INFO root fetch - processPackages [omnata-plugin-devkit]: executing diffoscope
+[2023-07-03 03:59:20] INFO root fetch - processPackages [omnata-plugin-devkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omnata_plugin_devkit-0.1.8.tar.gz tmp/omnata_plugin_devkit-0.1.9.tar.gz --markdown 20230703/o/omnata-plugin-devkit/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-03 03:59:20] INFO root fetch - processPackages [cdk-wordpress]: executing diffoscope
+[2023-07-03 03:59:20] INFO root fetch - processPackages [cdk-wordpress]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-wordpress-0.0.98.tar.gz tmp/cdk-wordpress-0.0.99.tar.gz --markdown 20230703/c/cdk-wordpress/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-03 03:59:20] INFO root fetch - processPackages [vios]: Downloading https://files.pythonhosted.org/packages/15/1e/362e2a248b022994cd9062a886a4a1143ad259b79773ab8204c42ea2b4e6/vios-1.0.5-py3-none-any.whl
+[2023-07-03 03:59:20] INFO root fetch - processPackages [rayfed-nightly]: Downloading https://files.pythonhosted.org/packages/af/4d/f3ff215642d53a7410bbb1c9d1a8928bf9dad96015bf9acda0326600e946/rayfed_nightly-0.1.0b20230622.dev0-py3-none-any.whl
+[2023-07-03 03:59:20] INFO root fetch - processPackages [vios]: executing diffoscope
+[2023-07-03 03:59:20] INFO root fetch - processPackages [vios]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vios-1.0.4-py3-none-any.whl.zip tmp/vios-1.0.5-py3-none-any.whl.zip --markdown 20230703/v/vios/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-07-03 03:59:20] INFO root fetch - processPackages [binance-connector]: Downloading https://files.pythonhosted.org/packages/e7/ac/3897feddc1de98beac6cae18ea56f65e0c97dedbb539d7ee097176a55393/binance-connector-3.1.1.tar.gz
+[2023-07-03 03:59:20] WARNING root fetch - processPackages [amiyabot]: Skipping package: exceeds size limit 11299441>=10485760
+[2023-07-03 03:59:20] INFO root fetch - main [MainThread]: End processing [amiyabot] error
+[2023-07-03 03:59:20] INFO root fetch - processPackages [binance-connector]: executing diffoscope
+[2023-07-03 03:59:20] INFO root fetch - processPackages [binance-connector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/binance-connector-3.1.0.tar.gz tmp/binance-connector-3.1.1.tar.gz --markdown 20230703/b/binance-connector/3.1.0-3.1.1/diff.md --exclude *.pyd
+[2023-07-03 03:59:20] INFO root fetch - processPackages [rayfed-nightly]: Downloading https://files.pythonhosted.org/packages/64/53/1738c7f6e6d8a4c21220a695ec73e9f9a5ee90dbde932e88f50dc0e8ab7d/rayfed_nightly-0.1.0b20230703.dev0-py3-none-any.whl
+[2023-07-03 03:59:20] INFO root fetch - processPackages [hepai]: Downloading https://files.pythonhosted.org/packages/cf/bd/8488ec87ec4b70a54ec1e07c585b3022e45956051b92296e2fb7aee39bc9/hepai-1.0.9.tar.gz
+[2023-07-03 03:59:21] INFO root fetch - processPackages [rayfed-nightly]: executing diffoscope
+[2023-07-03 03:59:21] INFO root fetch - processPackages [rayfed-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rayfed_nightly-0.1.0b20230622.dev0-py3-none-any.whl.zip tmp/rayfed_nightly-0.1.0b20230703.dev0-py3-none-any.whl.zip --markdown 20230703/r/rayfed-nightly/0.1.0b20230622.dev0-0.1.0b20230703.dev0/diff.md --exclude *.pyd
+[2023-07-03 03:59:21] INFO root fetch - processPackages [hepai]: executing diffoscope
+[2023-07-03 03:59:21] INFO root fetch - processPackages [hepai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hepai-1.0.8.1.tar.gz tmp/hepai-1.0.9.tar.gz --markdown 20230703/h/hepai/1.0.8.1-1.0.9/diff.md --exclude *.pyd
+[2023-07-03 03:59:21] INFO root fetch - processPackages [omnata-plugin-devkit]: Remove: archive file [/home/abi/fetcher/tmp/omnata_plugin_devkit-0.1.8.tar.gz]
+[2023-07-03 03:59:21] INFO root fetch - processPackages [omnata-plugin-devkit]: Remove: archive file [/home/abi/fetcher/tmp/omnata_plugin_devkit-0.1.9.tar.gz]
+[2023-07-03 03:59:21] INFO root fetch - main [MainThread]: End processing [omnata-plugin-devkit]: success
+[2023-07-03 03:59:21] INFO root fetch - processPackages [cdk-wordpress]: Remove: archive file [/home/abi/fetcher/tmp/cdk-wordpress-0.0.98.tar.gz]
+[2023-07-03 03:59:21] INFO root fetch - processPackages [cdk-wordpress]: Remove: archive file [/home/abi/fetcher/tmp/cdk-wordpress-0.0.99.tar.gz]
+[2023-07-03 03:59:21] INFO root fetch - main [MainThread]: End processing [cdk-wordpress]: success
+[2023-07-03 03:59:21] INFO root fetch - processPackages [vios]: Remove: archive file [/home/abi/fetcher/tmp/vios-1.0.4-py3-none-any.whl.zip]
+[2023-07-03 03:59:21] INFO root fetch - processPackages [vios]: Remove: archive file [/home/abi/fetcher/tmp/vios-1.0.5-py3-none-any.whl.zip]
+[2023-07-03 03:59:21] INFO root fetch - main [MainThread]: End processing [vios]: success
+[2023-07-03 03:59:22] INFO root fetch - processPackages [rayfed-nightly]: Remove: archive file [/home/abi/fetcher/tmp/rayfed_nightly-0.1.0b20230622.dev0-py3-none-any.whl.zip]
+[2023-07-03 03:59:22] INFO root fetch - processPackages [rayfed-nightly]: Remove: archive file [/home/abi/fetcher/tmp/rayfed_nightly-0.1.0b20230703.dev0-py3-none-any.whl.zip]
+[2023-07-03 03:59:22] INFO root fetch - main [MainThread]: End processing [rayfed-nightly]: success
+[2023-07-03 03:59:22] INFO root fetch - processPackages [hepai]: Remove: archive file [/home/abi/fetcher/tmp/hepai-1.0.8.1.tar.gz]
+[2023-07-03 03:59:22] INFO root fetch - processPackages [hepai]: Remove: archive file [/home/abi/fetcher/tmp/hepai-1.0.9.tar.gz]
+[2023-07-03 03:59:22] INFO root fetch - main [MainThread]: End processing [hepai]: success
+[2023-07-03 03:59:24] INFO root fetch - processPackages [binance-connector]: Remove: archive file [/home/abi/fetcher/tmp/binance-connector-3.1.0.tar.gz]
+[2023-07-03 03:59:24] INFO root fetch - processPackages [binance-connector]: Remove: archive file [/home/abi/fetcher/tmp/binance-connector-3.1.1.tar.gz]
+[2023-07-03 03:59:24] INFO root fetch - main [MainThread]: End processing [binance-connector]: success
+[2023-07-03 03:59:24] INFO root fetch - main [MainThread]: Store serial: [18733799]
