@@ -20530,3 +20530,142 @@ EOFError: EOF read where object expected
 [2023-07-03 15:59:03] INFO root fetch - processPackages [ms2rescore]: Remove: archive file [/home/abi/fetcher/tmp/ms2rescore-3.0.0.dev3.tar.gz]
 [2023-07-03 15:59:03] INFO root fetch - main [MainThread]: End processing [ms2rescore]: success
 [2023-07-03 15:59:03] INFO root fetch - main [MainThread]: Store serial: [18740207]
+[2023-07-03 16:04:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18740207]
+[2023-07-03 16:04:12] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-07-03 16:04:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dcoraid
+[2023-07-03 16:04:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rfst
+[2023-07-03 16:04:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ramodels
+[2023-07-03 16:04:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cg
+[2023-07-03 16:04:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: orchestrator-core
+[2023-07-03 16:04:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyrepresent
+[2023-07-03 16:04:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: multimetric
+[2023-07-03 16:04:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: gbd-tools
+[2023-07-03 16:04:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: streamlit-slice-select
+[2023-07-03 16:04:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: splicekit
+[2023-07-03 16:04:12] INFO root fetch - processPackages [pyrepresent]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-07-03 16:04:13] INFO root fetch - processPackages [streamlit-slice-select]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-03 16:04:13] INFO root fetch - processPackages [dcoraid]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-07-03 16:04:13] INFO root fetch - processPackages [ramodels]: New version: [9.7.3] Old Version: [9.7.2]
+[2023-07-03 16:04:13] INFO root fetch - processPackages [orchestrator-core]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-07-03 16:04:13] INFO root fetch - processPackages [gbd-tools]: New version: [4.6.3] Old Version: [4.6.2]
+[2023-07-03 16:04:13] INFO root fetch - processPackages [cg]: New version: [37.0.9] Old Version: [37.0.8]
+[2023-07-03 16:04:13] INFO root fetch - processPackages [splicekit]: New version: [0.4.6] Old Version: [0.4.5]
+[2023-07-03 16:04:13] WARNING root fetch - processPackages [rfst]: Skipping, unable to determine old version
+[2023-07-03 16:04:13] INFO root fetch - processPackages [rfst]: Start processing: openapi-hub-sdk
+[2023-07-03 16:04:13] INFO root fetch - main [MainThread]: End processing [rfst] error
+[2023-07-03 16:04:13] INFO root fetch - processPackages [multimetric]: New version: [2.0.0] Old Version: [1.4.1]
+[2023-07-03 16:04:13] INFO root fetch - processPackages [pyrepresent]: Downloading https://files.pythonhosted.org/packages/a4/82/10af24a19bf7674c0d7945f7939d9c05ee6cc0e88c37c2d4d20f6eef2cda/pyrepresent-0.2.5.tar.gz
+[2023-07-03 16:04:13] INFO root fetch - processPackages [streamlit-slice-select]: Downloading https://files.pythonhosted.org/packages/23/fa/babf388fb3f6ec4b5c22d097d3dc5a5685be4925cd44b5a3fc1de55c5842/streamlit_slice_select-0.1.0.tar.gz
+[2023-07-03 16:04:13] INFO root fetch - processPackages [orchestrator-core]: Downloading https://files.pythonhosted.org/packages/23/05/2272ff0fd6fbefb93775babfa7ae5007495fefd0fe101fb2008badeb45e6/orchestrator_core-1.2.0.tar.gz
+[2023-07-03 16:04:13] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/ec/1d/c584ab5bd145f7bc64a980cb9243f2ce4190d6259515da4ad36aa6cd5b8d/cg-37.0.8.tar.gz
+[2023-07-03 16:04:13] INFO root fetch - processPackages [ramodels]: Downloading https://files.pythonhosted.org/packages/29/94/25c6513c9642d16d4d771d154cb5d58a1f40fbf5e9234badf73bf79c1b4d/ramodels-9.7.2.tar.gz
+[2023-07-03 16:04:13] INFO root fetch - processPackages [gbd-tools]: Downloading https://files.pythonhosted.org/packages/f0/58/fdb15c5b3dddfb4f317c7d6c8bcdc5e70cbbc8333770f7a3b8efaf9311ef/gbd_tools-4.6.2.tar.gz
+[2023-07-03 16:04:13] INFO root fetch - processPackages [dcoraid]: Downloading https://files.pythonhosted.org/packages/4b/4b/086d768fe30a3aa11e3687a9d6b9784cd9be555442c490dbda65cd0dd0da/dcoraid-0.9.0.tar.gz
+[2023-07-03 16:04:13] WARNING root fetch - processPackages [openapi-hub-sdk]: Skipping, unable to determine old version
+[2023-07-03 16:04:13] INFO root fetch - processPackages [openapi-hub-sdk]: Start processing: cofybox-dce
+[2023-07-03 16:04:13] INFO root fetch - main [MainThread]: End processing [openapi-hub-sdk] error
+[2023-07-03 16:04:13] INFO root fetch - processPackages [cofybox-dce]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-03 16:04:13] INFO root fetch - processPackages [splicekit]: Downloading https://files.pythonhosted.org/packages/70/a2/e1f2e456846b93b54df4612e354e708c1812c60f25f54da284e7529d6128/splicekit-0.4.5.tar.gz
+[2023-07-03 16:04:13] INFO root fetch - processPackages [multimetric]: Downloading https://files.pythonhosted.org/packages/94/4b/1816f1963b4797d56b808bf48982586d8a9a31aea77552405881cdb5102e/multimetric-1.4.1.tar.gz
+[2023-07-03 16:04:13] INFO root fetch - processPackages [streamlit-slice-select]: Downloading https://files.pythonhosted.org/packages/d1/dc/92bd29a62e5d48ccb34e2806ecde5c793881595749009ae6c67cad443ce2/streamlit_slice_select-0.1.1.tar.gz
+[2023-07-03 16:04:13] INFO root fetch - processPackages [cofybox-dce]: Downloading https://files.pythonhosted.org/packages/df/0f/e1bc0d9e05cb6ccfbdf91862fdcd58f15d1b2acac097e8c6e37f203b4547/cofybox-dce-0.0.7.tar.gz
+[2023-07-03 16:04:13] INFO root fetch - processPackages [pyrepresent]: Downloading https://files.pythonhosted.org/packages/a8/ef/7b8c98c44e8a22ee69701840c4eb848e4f6459eef49bbc1cf1436b021970/pyrepresent-0.2.6.tar.gz
+[2023-07-03 16:04:13] INFO root fetch - processPackages [ramodels]: Downloading https://files.pythonhosted.org/packages/b1/d1/a8e61257ea98cd3ecc586e4ab73fdc4c6dc2c4b71071bd21a7915b67aeb9/ramodels-9.7.3.tar.gz
+[2023-07-03 16:04:13] INFO root fetch - processPackages [streamlit-slice-select]: executing diffoscope
+[2023-07-03 16:04:13] INFO root fetch - processPackages [streamlit-slice-select]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit_slice_select-0.1.0.tar.gz tmp/streamlit_slice_select-0.1.1.tar.gz --markdown 20230703/s/streamlit-slice-select/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-03 16:04:13] INFO root fetch - processPackages [dcoraid]: Downloading https://files.pythonhosted.org/packages/c0/f5/368bfc2d71af3f9137b5423efe942bf8fcf37edc18fe8d9ba77e00e6241c/dcoraid-0.9.1.tar.gz
+[2023-07-03 16:04:13] INFO root fetch - processPackages [gbd-tools]: Downloading https://files.pythonhosted.org/packages/ec/54/41cb41935ab3e23ef4ff122865e09e46f49759e932f1a58f59c7b61ca17b/gbd_tools-4.6.3.tar.gz
+[2023-07-03 16:04:13] INFO root fetch - processPackages [pyrepresent]: executing diffoscope
+[2023-07-03 16:04:13] INFO root fetch - processPackages [pyrepresent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrepresent-0.2.5.tar.gz tmp/pyrepresent-0.2.6.tar.gz --markdown 20230703/p/pyrepresent/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-07-03 16:04:13] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/d6/7e/80bbf10d5634a932760fbb85138245f7f53ad73bcdd6d223800c8b51e56f/cg-37.0.9.tar.gz
+[2023-07-03 16:04:13] INFO root fetch - processPackages [ramodels]: executing diffoscope
+[2023-07-03 16:04:13] INFO root fetch - processPackages [ramodels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ramodels-9.7.2.tar.gz tmp/ramodels-9.7.3.tar.gz --markdown 20230703/r/ramodels/9.7.2-9.7.3/diff.md --exclude *.pyd
+[2023-07-03 16:04:13] INFO root fetch - processPackages [multimetric]: Downloading https://files.pythonhosted.org/packages/36/90/bef6bba61739085f6beae548660d17cedce9d7120256c76920bcffece77c/multimetric-2.0.0.tar.gz
+[2023-07-03 16:04:13] INFO root fetch - processPackages [splicekit]: Downloading https://files.pythonhosted.org/packages/2d/8a/19b1c388c45615d3066f43035e3d7cfbca4ec2b78a57b65c239be6737af1/splicekit-0.4.6.tar.gz
+[2023-07-03 16:04:14] INFO root fetch - processPackages [orchestrator-core]: Downloading https://files.pythonhosted.org/packages/9e/6b/9e0a8ab46169c776f32808251facd664bf3747954b0e9b70b56c6f881c7b/orchestrator_core-1.2.1.tar.gz
+[2023-07-03 16:04:14] INFO root fetch - processPackages [dcoraid]: executing diffoscope
+[2023-07-03 16:04:14] INFO root fetch - processPackages [dcoraid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dcoraid-0.9.0.tar.gz tmp/dcoraid-0.9.1.tar.gz --markdown 20230703/d/dcoraid/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-07-03 16:04:14] INFO root fetch - processPackages [cofybox-dce]: Downloading https://files.pythonhosted.org/packages/a9/73/e9d67a00ff9d409796d5e197176363615ecd005640759c99d4f48abcb13e/cofybox-dce-0.0.8.tar.gz
+[2023-07-03 16:04:14] INFO root fetch - processPackages [multimetric]: executing diffoscope
+[2023-07-03 16:04:14] INFO root fetch - processPackages [multimetric]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multimetric-1.4.1.tar.gz tmp/multimetric-2.0.0.tar.gz --markdown 20230703/m/multimetric/1.4.1-2.0.0/diff.md --exclude *.pyd
+[2023-07-03 16:04:14] INFO root fetch - processPackages [splicekit]: executing diffoscope
+[2023-07-03 16:04:14] INFO root fetch - processPackages [splicekit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/splicekit-0.4.5.tar.gz tmp/splicekit-0.4.6.tar.gz --markdown 20230703/s/splicekit/0.4.5-0.4.6/diff.md --exclude *.pyd
+[2023-07-03 16:04:14] INFO root fetch - processPackages [gbd-tools]: executing diffoscope
+[2023-07-03 16:04:14] INFO root fetch - processPackages [gbd-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gbd_tools-4.6.2.tar.gz tmp/gbd_tools-4.6.3.tar.gz --markdown 20230703/g/gbd-tools/4.6.2-4.6.3/diff.md --exclude *.pyd
+[2023-07-03 16:04:14] INFO root fetch - processPackages [cg]: executing diffoscope
+[2023-07-03 16:04:14] INFO root fetch - processPackages [cg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cg-37.0.8.tar.gz tmp/cg-37.0.9.tar.gz --markdown 20230703/c/cg/37.0.8-37.0.9/diff.md --exclude *.pyd
+[2023-07-03 16:04:14] INFO root fetch - processPackages [orchestrator-core]: executing diffoscope
+[2023-07-03 16:04:14] INFO root fetch - processPackages [orchestrator-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/orchestrator_core-1.2.0.tar.gz tmp/orchestrator_core-1.2.1.tar.gz --markdown 20230703/o/orchestrator-core/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-07-03 16:04:14] INFO root fetch - processPackages [cofybox-dce]: executing diffoscope
+[2023-07-03 16:04:14] INFO root fetch - processPackages [cofybox-dce]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cofybox-dce-0.0.7.tar.gz tmp/cofybox-dce-0.0.8.tar.gz --markdown 20230703/c/cofybox-dce/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-03 16:04:14] INFO root fetch - processPackages [streamlit-slice-select]: Remove: archive file [/home/abi/fetcher/tmp/streamlit_slice_select-0.1.0.tar.gz]
+[2023-07-03 16:04:14] INFO root fetch - processPackages [streamlit-slice-select]: Remove: archive file [/home/abi/fetcher/tmp/streamlit_slice_select-0.1.1.tar.gz]
+[2023-07-03 16:04:14] INFO root fetch - processPackages [streamlit-slice-select]: Start processing: kisters.water.time-series
+[2023-07-03 16:04:14] INFO root fetch - main [MainThread]: End processing [streamlit-slice-select]: success
+[2023-07-03 16:04:15] INFO root fetch - processPackages [kisters.water.time-series]: New version: [2.3.6] Old Version: [2.3.5]
+[2023-07-03 16:04:15] INFO root fetch - processPackages [kisters.water.time-series]: Downloading https://files.pythonhosted.org/packages/a8/c1/d57373fb256d9ee2374e914d6c02f8b0e13b5d17924549a2f7ee04e8df71/kisters.water.time_series-2.3.5.tar.gz
+[2023-07-03 16:04:15] INFO root fetch - processPackages [pyrepresent]: Remove: archive file [/home/abi/fetcher/tmp/pyrepresent-0.2.5.tar.gz]
+[2023-07-03 16:04:15] INFO root fetch - processPackages [pyrepresent]: Remove: archive file [/home/abi/fetcher/tmp/pyrepresent-0.2.6.tar.gz]
+[2023-07-03 16:04:15] INFO root fetch - processPackages [pyrepresent]: Start processing: graphscope
+[2023-07-03 16:04:15] INFO root fetch - main [MainThread]: End processing [pyrepresent]: success
+[2023-07-03 16:04:15] INFO root fetch - processPackages [ramodels]: Remove: archive file [/home/abi/fetcher/tmp/ramodels-9.7.2.tar.gz]
+[2023-07-03 16:04:15] INFO root fetch - processPackages [ramodels]: Remove: archive file [/home/abi/fetcher/tmp/ramodels-9.7.3.tar.gz]
+[2023-07-03 16:04:15] INFO root fetch - processPackages [ramodels]: Start processing: python-gerrit-api
+[2023-07-03 16:04:15] INFO root fetch - main [MainThread]: End processing [ramodels]: success
+[2023-07-03 16:04:15] INFO root fetch - processPackages [graphscope]: New version: [0.23.0a20230702] Old Version: [0.23.0a20230701]
+[2023-07-03 16:04:15] INFO root fetch - processPackages [graphscope]: Downloading https://files.pythonhosted.org/packages/e7/cd/3786ad5216eca061f96ffcb293c090a2e78352cf443f46d30e80eb44db4d/graphscope-0.23.0a20230701-py2.py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-03 16:04:15] INFO root fetch - processPackages [python-gerrit-api]: New version: [3.0.0.dev1] Old Version: [3.0.0]
+[2023-07-03 16:04:15] WARNING root fetch - processPackages [graphscope]: Skipping package: exceeds size limit 211426221>=10485760
+[2023-07-03 16:04:15] INFO root fetch - processPackages [graphscope]: Start processing: lemonai
+[2023-07-03 16:04:15] INFO root fetch - main [MainThread]: End processing [graphscope] error
+[2023-07-03 16:04:15] INFO root fetch - processPackages [multimetric]: Remove: archive file [/home/abi/fetcher/tmp/multimetric-1.4.1.tar.gz]
+[2023-07-03 16:04:15] INFO root fetch - processPackages [multimetric]: Remove: archive file [/home/abi/fetcher/tmp/multimetric-2.0.0.tar.gz]
+[2023-07-03 16:04:15] INFO root fetch - processPackages [multimetric]: Start processing: graphscope-client
+[2023-07-03 16:04:15] INFO root fetch - main [MainThread]: End processing [multimetric]: success
+[2023-07-03 16:04:15] WARNING root fetch - processPackages [lemonai]: Skipping, unable to determine old version
+[2023-07-03 16:04:15] INFO root fetch - processPackages [lemonai]: Start processing: grai-client
+[2023-07-03 16:04:15] INFO root fetch - main [MainThread]: End processing [lemonai] error
+[2023-07-03 16:04:15] INFO root fetch - processPackages [gbd-tools]: Remove: archive file [/home/abi/fetcher/tmp/gbd_tools-4.6.2.tar.gz]
+[2023-07-03 16:04:15] INFO root fetch - processPackages [gbd-tools]: Remove: archive file [/home/abi/fetcher/tmp/gbd_tools-4.6.3.tar.gz]
+[2023-07-03 16:04:15] INFO root fetch - main [MainThread]: End processing [gbd-tools]: success
+[2023-07-03 16:04:15] INFO root fetch - processPackages [kisters.water.time-series]: Downloading https://files.pythonhosted.org/packages/95/48/6f2bff7948913601bbd40c508a780e11f8970aa3e0f471fa2eee851b5fc5/kisters.water.time_series-2.3.6-py3-none-any.whl
+[2023-07-03 16:04:15] INFO root fetch - processPackages [python-gerrit-api]: Downloading https://files.pythonhosted.org/packages/79/ae/5fa252ad9eb955c15891c8d90d9f43d774bee30114fe80bd2581e7d76361/python-gerrit-api-3.0.0.tar.gz
+[2023-07-03 16:04:15] INFO root fetch - processPackages [cofybox-dce]: Remove: archive file [/home/abi/fetcher/tmp/cofybox-dce-0.0.7.tar.gz]
+[2023-07-03 16:04:15] INFO root fetch - processPackages [cofybox-dce]: Remove: archive file [/home/abi/fetcher/tmp/cofybox-dce-0.0.8.tar.gz]
+[2023-07-03 16:04:15] INFO root fetch - main [MainThread]: End processing [cofybox-dce]: success
+[2023-07-03 16:04:15] INFO root fetch - processPackages [splicekit]: Remove: archive file [/home/abi/fetcher/tmp/splicekit-0.4.5.tar.gz]
+[2023-07-03 16:04:15] INFO root fetch - processPackages [splicekit]: Remove: archive file [/home/abi/fetcher/tmp/splicekit-0.4.6.tar.gz]
+[2023-07-03 16:04:15] INFO root fetch - main [MainThread]: End processing [splicekit]: success
+[2023-07-03 16:04:16] INFO root fetch - processPackages [graphscope-client]: New version: [0.23.0a20230703] Old Version: [0.23.0a20230702]
+[2023-07-03 16:04:16] INFO root fetch - processPackages [grai-client]: New version: [0.3.0a9] Old Version: [0.3.0a8]
+[2023-07-03 16:04:16] INFO root fetch - processPackages [kisters.water.time-series]: executing diffoscope
+[2023-07-03 16:04:16] INFO root fetch - processPackages [kisters.water.time-series]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kisters.water.time_series-2.3.5.tar.gz tmp/kisters.water.time_series-2.3.6-py3-none-any.whl.zip --markdown 20230703/k/kisters.water.time-series/2.3.5-2.3.6/diff.md --exclude *.pyd
+[2023-07-03 16:04:16] INFO root fetch - processPackages [graphscope-client]: Downloading https://files.pythonhosted.org/packages/fd/f7/bfa1f15643798a3b7278b6ce4013d8295f575c170aedfe5d8b4e8e60e119/graphscope_client-0.23.0a20230702-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-03 16:04:16] INFO root fetch - processPackages [grai-client]: Downloading https://files.pythonhosted.org/packages/7b/0c/3ea2e50fbd7275dd1c4003dc273a6673f7f6072e73030d815eb008c57cf7/grai_client-0.3.0a8.tar.gz
+[2023-07-03 16:04:16] WARNING root fetch - processPackages [graphscope-client]: Skipping package: exceeds size limit 64485252>=10485760
+[2023-07-03 16:04:16] INFO root fetch - main [MainThread]: End processing [graphscope-client] error
+[2023-07-03 16:04:16] INFO root fetch - processPackages [python-gerrit-api]: Downloading https://files.pythonhosted.org/packages/94/66/a66dcfebbe383f89c63c1c0e6b76ccc69f27e033fd61d7c60ad1f4f7fa0a/python-gerrit-api-3.0.0.dev1.tar.gz
+[2023-07-03 16:04:16] INFO root fetch - processPackages [dcoraid]: Remove: archive file [/home/abi/fetcher/tmp/dcoraid-0.9.0.tar.gz]
+[2023-07-03 16:04:16] INFO root fetch - processPackages [dcoraid]: Remove: archive file [/home/abi/fetcher/tmp/dcoraid-0.9.1.tar.gz]
+[2023-07-03 16:04:16] INFO root fetch - main [MainThread]: End processing [dcoraid]: success
+[2023-07-03 16:04:16] INFO root fetch - processPackages [python-gerrit-api]: executing diffoscope
+[2023-07-03 16:04:16] INFO root fetch - processPackages [python-gerrit-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-gerrit-api-3.0.0.tar.gz tmp/python-gerrit-api-3.0.0.dev1.tar.gz --markdown 20230703/p/python-gerrit-api/3.0.0-3.0.0.dev1/diff.md --exclude *.pyd
+[2023-07-03 16:04:16] INFO root fetch - processPackages [grai-client]: Downloading https://files.pythonhosted.org/packages/99/fe/aff0ad822eae61047cf64181e643629668c44ac5d46f6baf5af3086d1f1b/grai_client-0.3.0a9.tar.gz
+[2023-07-03 16:04:16] INFO root fetch - processPackages [grai-client]: executing diffoscope
+[2023-07-03 16:04:16] INFO root fetch - processPackages [grai-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grai_client-0.3.0a8.tar.gz tmp/grai_client-0.3.0a9.tar.gz --markdown 20230703/g/grai-client/0.3.0a8-0.3.0a9/diff.md --exclude *.pyd
+[2023-07-03 16:04:17] INFO root fetch - processPackages [kisters.water.time-series]: Remove: archive file [/home/abi/fetcher/tmp/kisters.water.time_series-2.3.5.tar.gz]
+[2023-07-03 16:04:17] INFO root fetch - processPackages [kisters.water.time-series]: Remove: archive file [/home/abi/fetcher/tmp/kisters.water.time_series-2.3.6-py3-none-any.whl.zip]
+[2023-07-03 16:04:17] INFO root fetch - main [MainThread]: End processing [kisters.water.time-series]: success
+[2023-07-03 16:04:17] INFO root fetch - processPackages [python-gerrit-api]: Remove: archive file [/home/abi/fetcher/tmp/python-gerrit-api-3.0.0.tar.gz]
+[2023-07-03 16:04:17] INFO root fetch - processPackages [python-gerrit-api]: Remove: archive file [/home/abi/fetcher/tmp/python-gerrit-api-3.0.0.dev1.tar.gz]
+[2023-07-03 16:04:17] INFO root fetch - main [MainThread]: End processing [python-gerrit-api]: success
+[2023-07-03 16:04:17] INFO root fetch - processPackages [orchestrator-core]: Remove: archive file [/home/abi/fetcher/tmp/orchestrator_core-1.2.0.tar.gz]
+[2023-07-03 16:04:17] INFO root fetch - processPackages [orchestrator-core]: Remove: archive file [/home/abi/fetcher/tmp/orchestrator_core-1.2.1.tar.gz]
+[2023-07-03 16:04:17] INFO root fetch - main [MainThread]: End processing [orchestrator-core]: success
+[2023-07-03 16:04:17] INFO root fetch - processPackages [grai-client]: Remove: archive file [/home/abi/fetcher/tmp/grai_client-0.3.0a8.tar.gz]
+[2023-07-03 16:04:17] INFO root fetch - processPackages [grai-client]: Remove: archive file [/home/abi/fetcher/tmp/grai_client-0.3.0a9.tar.gz]
+[2023-07-03 16:04:17] INFO root fetch - main [MainThread]: End processing [grai-client]: success
+[2023-07-03 16:04:20] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-37.0.8.tar.gz]
+[2023-07-03 16:04:20] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-37.0.9.tar.gz]
+[2023-07-03 16:04:20] INFO root fetch - main [MainThread]: End processing [cg]: success
+[2023-07-03 16:04:20] INFO root fetch - main [MainThread]: Store serial: [18740332]
