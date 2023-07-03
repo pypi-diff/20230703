@@ -5428,3 +5428,68 @@
 [2023-07-03 04:11:09] INFO root fetch - processPackages [jaseci-serv]: Remove: archive file [/home/abi/fetcher/tmp/jaseci_serv-1.4.1.4.tar.gz]
 [2023-07-03 04:11:09] INFO root fetch - main [MainThread]: End processing [jaseci-serv]: success
 [2023-07-03 04:11:09] INFO root fetch - main [MainThread]: Store serial: [18733857]
+[2023-07-03 04:16:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18733857]
+[2023-07-03 04:16:17] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-03 04:16:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: policyengine-canada
+[2023-07-03 04:16:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aitemplates
+[2023-07-03 04:16:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: omnata-plugin-devkit
+[2023-07-03 04:16:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aitemplates
+[2023-07-03 04:16:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: Alpha-Rabbit
+[2023-07-03 04:16:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: naters-utils
+[2023-07-03 04:16:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: Alpha-Rabbit
+[2023-07-03 04:16:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: folder-structure-generator
+[2023-07-03 04:16:18] INFO root fetch - processPackages [aitemplates]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-03 04:16:18] WARNING root fetch - processPackages [folder-structure-generator]: Skipping, unable to determine old version
+[2023-07-03 04:16:18] INFO root fetch - main [MainThread]: End processing [folder-structure-generator] error
+[2023-07-03 04:16:18] INFO root fetch - processPackages [policyengine-canada]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-07-03 04:16:18] INFO root fetch - processPackages [naters-utils]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-03 04:16:18] INFO root fetch - processPackages [aitemplates]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-03 04:16:18] INFO root fetch - processPackages [omnata-plugin-devkit]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-03 04:16:18] INFO root fetch - processPackages [Alpha-Rabbit]: New version: [1.4.3] Old Version: [1.4.2]
+[2023-07-03 04:16:18] INFO root fetch - processPackages [Alpha-Rabbit]: New version: [1.4.3] Old Version: [1.4.2]
+[2023-07-03 04:16:18] INFO root fetch - processPackages [aitemplates]: Downloading https://files.pythonhosted.org/packages/c9/1f/c3b35e203e73c6562287311527c36798cf058f4542a1cc2012699e54c8f2/aitemplates-0.1.8.tar.gz
+[2023-07-03 04:16:18] INFO root fetch - processPackages [aitemplates]: Downloading https://files.pythonhosted.org/packages/c9/1f/c3b35e203e73c6562287311527c36798cf058f4542a1cc2012699e54c8f2/aitemplates-0.1.8.tar.gz
+[2023-07-03 04:16:18] INFO root fetch - processPackages [omnata-plugin-devkit]: Downloading https://files.pythonhosted.org/packages/a6/03/037aa46c1c15ce197872a42c2494fcfb0dd6fd4c14cebaeaf6f9495b5cbf/omnata_plugin_devkit-0.1.8.tar.gz
+[2023-07-03 04:16:18] INFO root fetch - processPackages [naters-utils]: Downloading https://files.pythonhosted.org/packages/0f/9d/d021dc8b3c150592b90356e9290f02b6eb91038c995384905750f245ae8b/naters-utils-0.1.0.tar.gz
+[2023-07-03 04:16:18] INFO root fetch - processPackages [aitemplates]: Downloading https://files.pythonhosted.org/packages/31/8d/fec27aa91f72352e256e81460077515d340f93b087b2d5f555a95e17896a/aitemplates-0.1.9.tar.gz
+[2023-07-03 04:16:18] INFO root fetch - processPackages [policyengine-canada]: Downloading https://files.pythonhosted.org/packages/28/4b/01a629b9dfc11172c45bc99a7aa9efe756417158eab74625e8861959eca2/policyengine-canada-0.8.0.tar.gz
+[2023-07-03 04:16:18] INFO root fetch - processPackages [aitemplates]: Downloading https://files.pythonhosted.org/packages/31/8d/fec27aa91f72352e256e81460077515d340f93b087b2d5f555a95e17896a/aitemplates-0.1.9.tar.gz
+[2023-07-03 04:16:18] INFO root fetch - processPackages [omnata-plugin-devkit]: Downloading https://files.pythonhosted.org/packages/94/e1/5b8aa743f4bbe600dde3989489613981c39b2dfcd44174b9931cf0c42452/omnata_plugin_devkit-0.1.9.tar.gz
+[2023-07-03 04:16:18] INFO root fetch - processPackages [aitemplates]: executing diffoscope
+[2023-07-03 04:16:18] INFO root fetch - processPackages [aitemplates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aitemplates-0.1.8.tar.gz tmp/aitemplates-0.1.9.tar.gz --markdown 20230703/a/aitemplates/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-03 04:16:18] INFO root fetch - processPackages [aitemplates]: executing diffoscope
+[2023-07-03 04:16:18] INFO root fetch - processPackages [aitemplates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aitemplates-0.1.8.tar.gz tmp/aitemplates-0.1.9.tar.gz --markdown 20230703/a/aitemplates/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-03 04:16:18] INFO root fetch - processPackages [Alpha-Rabbit]: Downloading https://files.pythonhosted.org/packages/53/eb/61e05108419264c6090050b9e2712eb5d32ac4d635232602c612ca62a4d8/Alpha_Rabbit-1.4.2.tar.gz
+[2023-07-03 04:16:18] INFO root fetch - processPackages [omnata-plugin-devkit]: executing diffoscope
+[2023-07-03 04:16:18] INFO root fetch - processPackages [omnata-plugin-devkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omnata_plugin_devkit-0.1.8.tar.gz tmp/omnata_plugin_devkit-0.1.9.tar.gz --markdown 20230703/o/omnata-plugin-devkit/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-03 04:16:18] INFO root fetch - processPackages [Alpha-Rabbit]: Downloading https://files.pythonhosted.org/packages/53/eb/61e05108419264c6090050b9e2712eb5d32ac4d635232602c612ca62a4d8/Alpha_Rabbit-1.4.2.tar.gz
+[2023-07-03 04:16:18] INFO root fetch - processPackages [naters-utils]: Downloading https://files.pythonhosted.org/packages/29/80/322934bc0eb06fc15857adaf6889c5901a6697bbb6dfbf43b258c654b53e/naters-utils-0.1.1.tar.gz
+[2023-07-03 04:16:18] INFO root fetch - processPackages [policyengine-canada]: Downloading https://files.pythonhosted.org/packages/40/22/555a719f4eeb35f27888de983fc27df67a98895889b7ce3bcef8998f9116/policyengine-canada-0.9.0.tar.gz
+[2023-07-03 04:16:18] INFO root fetch - processPackages [Alpha-Rabbit]: Downloading https://files.pythonhosted.org/packages/2e/61/f17c367eb29059be34a80fb262c7624e41af7e8f47a32f08c99b843160d5/Alpha_Rabbit-1.4.3.tar.gz
+[2023-07-03 04:16:18] INFO root fetch - processPackages [Alpha-Rabbit]: Downloading https://files.pythonhosted.org/packages/2e/61/f17c367eb29059be34a80fb262c7624e41af7e8f47a32f08c99b843160d5/Alpha_Rabbit-1.4.3.tar.gz
+[2023-07-03 04:16:18] INFO root fetch - processPackages [policyengine-canada]: executing diffoscope
+[2023-07-03 04:16:18] INFO root fetch - processPackages [policyengine-canada]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/policyengine-canada-0.8.0.tar.gz tmp/policyengine-canada-0.9.0.tar.gz --markdown 20230703/p/policyengine-canada/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-07-03 04:16:18] INFO root fetch - processPackages [naters-utils]: executing diffoscope
+[2023-07-03 04:16:18] INFO root fetch - processPackages [naters-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/naters-utils-0.1.0.tar.gz tmp/naters-utils-0.1.1.tar.gz --markdown 20230703/n/naters-utils/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-03 04:16:18] INFO root fetch - processPackages [Alpha-Rabbit]: executing diffoscope
+[2023-07-03 04:16:18] INFO root fetch - processPackages [Alpha-Rabbit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Alpha_Rabbit-1.4.2.tar.gz tmp/Alpha_Rabbit-1.4.3.tar.gz --markdown 20230703/A/Alpha-Rabbit/1.4.2-1.4.3/diff.md --exclude *.pyd
+[2023-07-03 04:16:18] INFO root fetch - processPackages [Alpha-Rabbit]: executing diffoscope
+[2023-07-03 04:16:18] INFO root fetch - processPackages [Alpha-Rabbit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Alpha_Rabbit-1.4.2.tar.gz tmp/Alpha_Rabbit-1.4.3.tar.gz --markdown 20230703/A/Alpha-Rabbit/1.4.2-1.4.3/diff.md --exclude *.pyd
+[2023-07-03 04:16:19] INFO root fetch - processPackages [aitemplates]: Remove: archive file [/home/abi/fetcher/tmp/aitemplates-0.1.8.tar.gz]
+[2023-07-03 04:16:19] INFO root fetch - processPackages [aitemplates]: Remove: archive file [/home/abi/fetcher/tmp/aitemplates-0.1.9.tar.gz]
+[2023-07-03 04:16:19] INFO root fetch - main [MainThread]: End processing [aitemplates]: success
+[2023-07-03 04:16:19] INFO root fetch - main [MainThread]: End processing [aitemplates]: success
+[2023-07-03 04:16:19] INFO root fetch - processPackages [policyengine-canada]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-canada-0.8.0.tar.gz]
+[2023-07-03 04:16:19] INFO root fetch - processPackages [policyengine-canada]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-canada-0.9.0.tar.gz]
+[2023-07-03 04:16:19] INFO root fetch - main [MainThread]: End processing [policyengine-canada]: success
+[2023-07-03 04:16:20] INFO root fetch - processPackages [naters-utils]: Remove: archive file [/home/abi/fetcher/tmp/naters-utils-0.1.0.tar.gz]
+[2023-07-03 04:16:20] INFO root fetch - processPackages [naters-utils]: Remove: archive file [/home/abi/fetcher/tmp/naters-utils-0.1.1.tar.gz]
+[2023-07-03 04:16:20] INFO root fetch - main [MainThread]: End processing [naters-utils]: success
+[2023-07-03 04:16:20] INFO root fetch - processPackages [Alpha-Rabbit]: Remove: archive file [/home/abi/fetcher/tmp/Alpha_Rabbit-1.4.2.tar.gz]
+[2023-07-03 04:16:20] INFO root fetch - processPackages [Alpha-Rabbit]: Remove: archive file [/home/abi/fetcher/tmp/Alpha_Rabbit-1.4.3.tar.gz]
+[2023-07-03 04:16:20] INFO root fetch - main [MainThread]: End processing [Alpha-Rabbit]: success
+[2023-07-03 04:16:20] INFO root fetch - processPackages [omnata-plugin-devkit]: Remove: archive file [/home/abi/fetcher/tmp/omnata_plugin_devkit-0.1.8.tar.gz]
+[2023-07-03 04:16:20] INFO root fetch - processPackages [omnata-plugin-devkit]: Remove: archive file [/home/abi/fetcher/tmp/omnata_plugin_devkit-0.1.9.tar.gz]
+[2023-07-03 04:16:20] INFO root fetch - main [MainThread]: End processing [omnata-plugin-devkit]: success
+[2023-07-03 04:16:20] INFO root fetch - main [MainThread]: End processing [Alpha-Rabbit]: success
+[2023-07-03 04:16:20] INFO root fetch - main [MainThread]: Store serial: [18733882]
