@@ -17835,3 +17835,156 @@ AssertionError: tmp/docarray-0.9.9.dev4.tar.gz does not exist
 [2023-07-03 14:47:20] INFO root fetch - processPackages [chainforge]: Remove: archive file [/home/abi/fetcher/tmp/chainforge-0.2.0.1.tar.gz]
 [2023-07-03 14:47:20] INFO root fetch - main [MainThread]: End processing [chainforge]: success
 [2023-07-03 14:47:20] INFO root fetch - main [MainThread]: Store serial: [18739146]
+[2023-07-03 14:52:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18739146]
+[2023-07-03 14:52:39] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-07-03 14:52:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gispandas
+[2023-07-03 14:52:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Gammatone
+[2023-07-03 14:52:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: chef-recipes
+[2023-07-03 14:52:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rannet
+[2023-07-03 14:52:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: eventix
+[2023-07-03 14:52:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ag-llama-api
+[2023-07-03 14:52:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: grai-source-dbt
+[2023-07-03 14:52:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyNIKI
+[2023-07-03 14:52:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: zhenglin
+[2023-07-03 14:52:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: gitlab-runner-tart-driver
+[2023-07-03 14:52:39] INFO root fetch - processPackages [gispandas]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-07-03 14:52:39] INFO root fetch - processPackages [grai-source-dbt]: New version: [0.3.0a3] Old Version: [0.3.0a2]
+[2023-07-03 14:52:39] INFO root fetch - processPackages [Gammatone]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-03 14:52:39] INFO root fetch - processPackages [chef-recipes]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-03 14:52:39] INFO root fetch - processPackages [rannet]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-07-03 14:52:39] INFO root fetch - processPackages [ag-llama-api]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-03 14:52:39] INFO root fetch - processPackages [zhenglin]: New version: [0.13.5] Old Version: [0.13.4]
+[2023-07-03 14:52:39] INFO root fetch - processPackages [pyNIKI]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-03 14:52:39] INFO root fetch - processPackages [eventix]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-07-03 14:52:39] INFO root fetch - processPackages [gitlab-runner-tart-driver]: New version: [0.2.0] Old Version: [0.1.7]
+[2023-07-03 14:52:39] INFO root fetch - processPackages [ag-llama-api]: Downloading https://files.pythonhosted.org/packages/e7/db/6c93bb8ec9653fafd298258240710b4768345a45843013bc715cf9e658f7/ag_llama_api-0.0.8.tar.gz
+[2023-07-03 14:52:39] INFO root fetch - processPackages [zhenglin]: Downloading https://files.pythonhosted.org/packages/23/50/7764b732f22a80624422486ab90a0e89a261ea6b4a1ccc1f38d27fcfa814/zhenglin-0.13.4.tar.gz
+[2023-07-03 14:52:39] INFO root fetch - processPackages [eventix]: Downloading https://files.pythonhosted.org/packages/8b/1e/c9c49faa133d0d5a8602c641632c53229cda4c673e6971ef876dc507db36/eventix-0.3.0.tar.gz
+[2023-07-03 14:52:39] INFO root fetch - processPackages [gispandas]: Downloading https://files.pythonhosted.org/packages/93/09/ca9fe68d97385980219fefbddfca2d39d0715ab189435a2eedaefab048fe/gispandas-0.1.5.tar.gz
+[2023-07-03 14:52:39] INFO root fetch - processPackages [grai-source-dbt]: Downloading https://files.pythonhosted.org/packages/7e/e7/1eec1e0a5afe15cd33d8929925ae97821565b4c6a7634fcc40e78b6a680b/grai_source_dbt-0.3.0a2.tar.gz
+[2023-07-03 14:52:39] INFO root fetch - processPackages [Gammatone]: Downloading https://files.pythonhosted.org/packages/4c/37/d850c593c5cabd51cc77858fd312844bc9d3dafc3bc1702b2bb12dc06156/Gammatone-1.0.0.tar.gz
+[2023-07-03 14:52:39] INFO root fetch - processPackages [chef-recipes]: Downloading https://files.pythonhosted.org/packages/43/c2/722366b715dd9e49aefe1eb995dc4d2a2406bd7619660db5159a58bf1f1c/chef_recipes-1.0.1.tar.gz
+[2023-07-03 14:52:39] INFO root fetch - processPackages [pyNIKI]: Downloading https://files.pythonhosted.org/packages/62/6b/556c4052205f6612e8244a82a6330b6905e1f1c53930960f0ffe515fbba1/pyniki-0.0.1.tar.gz
+[2023-07-03 14:52:39] INFO root fetch - processPackages [gitlab-runner-tart-driver]: Downloading https://files.pythonhosted.org/packages/23/6b/8127aae6f32b6e8b8a4501974025b937e1cf9732d4fedc12be5d293171ef/gitlab-runner-tart-driver-0.1.7.tar.gz
+[2023-07-03 14:52:39] INFO root fetch - processPackages [rannet]: Downloading https://files.pythonhosted.org/packages/fe/d1/a1f8190afe91e74e5239fcc184e8c8837f93e004a9949c349c55a335d4b4/rannet-0.1.0.tar.gz
+[2023-07-03 14:52:39] INFO root fetch - processPackages [ag-llama-api]: Downloading https://files.pythonhosted.org/packages/0e/45/5ce146425eb4c54590e514bf53d436ec8eb7cbeee70953b613dcd4e56824/ag_llama_api-0.0.9.tar.gz
+[2023-07-03 14:52:40] INFO root fetch - processPackages [zhenglin]: Downloading https://files.pythonhosted.org/packages/ab/9e/fe75677ce41b7b10e122a51c197a6d8fe7b858a2289aeb85f55aad70395a/zhenglin-0.13.5.tar.gz
+[2023-07-03 14:52:40] INFO root fetch - processPackages [ag-llama-api]: executing diffoscope
+[2023-07-03 14:52:40] INFO root fetch - processPackages [ag-llama-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ag_llama_api-0.0.8.tar.gz tmp/ag_llama_api-0.0.9.tar.gz --markdown 20230703/a/ag-llama-api/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-03 14:52:40] INFO root fetch - processPackages [eventix]: Downloading https://files.pythonhosted.org/packages/97/a4/1c69365268b39ef6d295065c50664ff960421bc2e110a6620b018bf62120/eventix-0.3.1.tar.gz
+[2023-07-03 14:52:40] INFO root fetch - processPackages [gispandas]: Downloading https://files.pythonhosted.org/packages/60/d2/ad24618a572293d3bec85679864898dba5dfd11e08c85a66f21f3480c88d/gispandas-0.1.6.tar.gz
+[2023-07-03 14:52:40] INFO root fetch - processPackages [Gammatone]: Downloading https://files.pythonhosted.org/packages/9c/4e/1be86c898f94e968079500f0afce47b918c750d77139c01b4c1688b61aff/Gammatone-1.0.1.tar.gz
+[2023-07-03 14:52:40] INFO root fetch - processPackages [chef-recipes]: Downloading https://files.pythonhosted.org/packages/f2/21/46b773b9ca572b70190d215687ab63be2301271f35898e960118e8a5060d/chef_recipes-1.0.2.tar.gz
+[2023-07-03 14:52:40] INFO root fetch - processPackages [zhenglin]: executing diffoscope
+[2023-07-03 14:52:40] INFO root fetch - processPackages [zhenglin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zhenglin-0.13.4.tar.gz tmp/zhenglin-0.13.5.tar.gz --markdown 20230703/z/zhenglin/0.13.4-0.13.5/diff.md --exclude *.pyd
+[2023-07-03 14:52:40] INFO root fetch - processPackages [grai-source-dbt]: Downloading https://files.pythonhosted.org/packages/29/d6/20a7ef5581507a970a89188fe5cb1236ff204c2b631df2f138841c2ad680/grai_source_dbt-0.3.0a3.tar.gz
+[2023-07-03 14:52:40] INFO root fetch - processPackages [eventix]: executing diffoscope
+[2023-07-03 14:52:40] INFO root fetch - processPackages [eventix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eventix-0.3.0.tar.gz tmp/eventix-0.3.1.tar.gz --markdown 20230703/e/eventix/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-07-03 14:52:40] INFO root fetch - processPackages [Gammatone]: executing diffoscope
+[2023-07-03 14:52:40] INFO root fetch - processPackages [Gammatone]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Gammatone-1.0.0.tar.gz tmp/Gammatone-1.0.1.tar.gz --markdown 20230703/G/Gammatone/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-03 14:52:40] INFO root fetch - processPackages [gitlab-runner-tart-driver]: Downloading https://files.pythonhosted.org/packages/58/0f/8d772f2ab7678fc3adf986030b4f6d6bd900db83ac673a21d3da324ceed5/gitlab-runner-tart-driver-0.2.0.tar.gz
+[2023-07-03 14:52:40] INFO root fetch - processPackages [rannet]: Downloading https://files.pythonhosted.org/packages/34/a8/c611ed1582a39c86b4e62d69100ee2ae566ce272ffd58d3cb9ab508205ce/rannet-0.2.0.tar.gz
+[2023-07-03 14:52:40] INFO root fetch - processPackages [pyNIKI]: Downloading https://files.pythonhosted.org/packages/8e/2a/f042ecabd32c44ae3a7cc50a95e8be5df5aa785c1f6e728d808c95e69e8f/pyniki-0.0.2.tar.gz
+[2023-07-03 14:52:40] INFO root fetch - processPackages [chef-recipes]: executing diffoscope
+[2023-07-03 14:52:40] INFO root fetch - processPackages [chef-recipes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chef_recipes-1.0.1.tar.gz tmp/chef_recipes-1.0.2.tar.gz --markdown 20230703/c/chef-recipes/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-03 14:52:40] INFO root fetch - processPackages [gispandas]: executing diffoscope
+[2023-07-03 14:52:40] INFO root fetch - processPackages [gispandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gispandas-0.1.5.tar.gz tmp/gispandas-0.1.6.tar.gz --markdown 20230703/g/gispandas/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-07-03 14:52:40] INFO root fetch - processPackages [rannet]: executing diffoscope
+[2023-07-03 14:52:40] INFO root fetch - processPackages [rannet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rannet-0.1.0.tar.gz tmp/rannet-0.2.0.tar.gz --markdown 20230703/r/rannet/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-07-03 14:52:40] INFO root fetch - processPackages [pyNIKI]: executing diffoscope
+[2023-07-03 14:52:40] INFO root fetch - processPackages [pyNIKI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyniki-0.0.1.tar.gz tmp/pyniki-0.0.2.tar.gz --markdown 20230703/p/pyNIKI/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-03 14:52:40] INFO root fetch - processPackages [grai-source-dbt]: executing diffoscope
+[2023-07-03 14:52:40] INFO root fetch - processPackages [grai-source-dbt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grai_source_dbt-0.3.0a2.tar.gz tmp/grai_source_dbt-0.3.0a3.tar.gz --markdown 20230703/g/grai-source-dbt/0.3.0a2-0.3.0a3/diff.md --exclude *.pyd
+[2023-07-03 14:52:40] INFO root fetch - processPackages [gitlab-runner-tart-driver]: executing diffoscope
+[2023-07-03 14:52:40] INFO root fetch - processPackages [gitlab-runner-tart-driver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gitlab-runner-tart-driver-0.1.7.tar.gz tmp/gitlab-runner-tart-driver-0.2.0.tar.gz --markdown 20230703/g/gitlab-runner-tart-driver/0.1.7-0.2.0/diff.md --exclude *.pyd
+[2023-07-03 14:52:41] INFO root fetch - processPackages [ag-llama-api]: Remove: archive file [/home/abi/fetcher/tmp/ag_llama_api-0.0.8.tar.gz]
+[2023-07-03 14:52:41] INFO root fetch - processPackages [ag-llama-api]: Remove: archive file [/home/abi/fetcher/tmp/ag_llama_api-0.0.9.tar.gz]
+[2023-07-03 14:52:41] INFO root fetch - processPackages [ag-llama-api]: Start processing: oarepo-cli
+[2023-07-03 14:52:41] INFO root fetch - main [MainThread]: End processing [ag-llama-api]: success
+[2023-07-03 14:52:41] INFO root fetch - processPackages [oarepo-cli]: New version: [11.1.9] Old Version: [11.1.8]
+[2023-07-03 14:52:41] INFO root fetch - processPackages [oarepo-cli]: Downloading https://files.pythonhosted.org/packages/af/a7/2733a476ea08d89fb2f474b4da4c3e1bcd0256c07baebfab128540be8be1/oarepo-cli-11.1.8.tar.gz
+[2023-07-03 14:52:41] INFO root fetch - processPackages [eventix]: Remove: archive file [/home/abi/fetcher/tmp/eventix-0.3.0.tar.gz]
+[2023-07-03 14:52:41] INFO root fetch - processPackages [eventix]: Remove: archive file [/home/abi/fetcher/tmp/eventix-0.3.1.tar.gz]
+[2023-07-03 14:52:41] INFO root fetch - processPackages [eventix]: Start processing: haystack-entailment-checker
+[2023-07-03 14:52:41] INFO root fetch - main [MainThread]: End processing [eventix]: success
+[2023-07-03 14:52:41] INFO root fetch - processPackages [Gammatone]: Remove: archive file [/home/abi/fetcher/tmp/Gammatone-1.0.0.tar.gz]
+[2023-07-03 14:52:41] INFO root fetch - processPackages [Gammatone]: Remove: archive file [/home/abi/fetcher/tmp/Gammatone-1.0.1.tar.gz]
+[2023-07-03 14:52:41] INFO root fetch - processPackages [Gammatone]: Start processing: edsteva
+[2023-07-03 14:52:41] INFO root fetch - main [MainThread]: End processing [Gammatone]: success
+[2023-07-03 14:52:42] INFO root fetch - processPackages [gispandas]: Remove: archive file [/home/abi/fetcher/tmp/gispandas-0.1.5.tar.gz]
+[2023-07-03 14:52:42] INFO root fetch - processPackages [gispandas]: Remove: archive file [/home/abi/fetcher/tmp/gispandas-0.1.6.tar.gz]
+[2023-07-03 14:52:42] INFO root fetch - processPackages [gispandas]: Start processing: logprep
+[2023-07-03 14:52:42] INFO root fetch - main [MainThread]: End processing [gispandas]: success
+[2023-07-03 14:52:42] WARNING root fetch - processPackages [haystack-entailment-checker]: Skipping, unable to determine old version
+[2023-07-03 14:52:42] INFO root fetch - processPackages [haystack-entailment-checker]: Start processing: zqyMathTest
+[2023-07-03 14:52:42] INFO root fetch - main [MainThread]: End processing [haystack-entailment-checker] error
+[2023-07-03 14:52:42] INFO root fetch - processPackages [oarepo-cli]: Downloading https://files.pythonhosted.org/packages/c1/07/390f9767ed13e63ef97918ed09945b5501685e21d178f8f10dfc1cd2a54c/oarepo-cli-11.1.9.tar.gz
+[2023-07-03 14:52:42] INFO root fetch - processPackages [pyNIKI]: Remove: archive file [/home/abi/fetcher/tmp/pyniki-0.0.1.tar.gz]
+[2023-07-03 14:52:42] INFO root fetch - processPackages [pyNIKI]: Remove: archive file [/home/abi/fetcher/tmp/pyniki-0.0.2.tar.gz]
+[2023-07-03 14:52:42] INFO root fetch - processPackages [pyNIKI]: Start processing: easyFermi
+[2023-07-03 14:52:42] INFO root fetch - main [MainThread]: End processing [pyNIKI]: success
+[2023-07-03 14:52:42] INFO root fetch - processPackages [edsteva]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-07-03 14:52:42] WARNING root fetch - processPackages [zqyMathTest]: Skipping, unable to determine old version
+[2023-07-03 14:52:42] INFO root fetch - processPackages [zqyMathTest]: Start processing: pydantic-loggings
+[2023-07-03 14:52:42] INFO root fetch - main [MainThread]: End processing [zqyMathTest] error
+[2023-07-03 14:52:42] INFO root fetch - processPackages [logprep]: New version: [6.6.0] Old Version: [6.5.1]
+[2023-07-03 14:52:42] INFO root fetch - processPackages [pydantic-loggings]: New version: [0.6.0] Old Version: [0.5.0]
+[2023-07-03 14:52:42] INFO root fetch - processPackages [grai-source-dbt]: Remove: archive file [/home/abi/fetcher/tmp/grai_source_dbt-0.3.0a2.tar.gz]
+[2023-07-03 14:52:42] INFO root fetch - processPackages [grai-source-dbt]: Remove: archive file [/home/abi/fetcher/tmp/grai_source_dbt-0.3.0a3.tar.gz]
+[2023-07-03 14:52:42] INFO root fetch - processPackages [grai-source-dbt]: Start processing: oarepo-model-builder
+[2023-07-03 14:52:42] INFO root fetch - main [MainThread]: End processing [grai-source-dbt]: success
+[2023-07-03 14:52:42] INFO root fetch - processPackages [rannet]: Remove: archive file [/home/abi/fetcher/tmp/rannet-0.1.0.tar.gz]
+[2023-07-03 14:52:42] INFO root fetch - processPackages [rannet]: Remove: archive file [/home/abi/fetcher/tmp/rannet-0.2.0.tar.gz]
+[2023-07-03 14:52:42] INFO root fetch - main [MainThread]: End processing [rannet]: success
+[2023-07-03 14:52:42] INFO root fetch - processPackages [easyFermi]: New version: [1.1.3] Old Version: [1.1.2]
+[2023-07-03 14:52:42] INFO root fetch - processPackages [gitlab-runner-tart-driver]: Remove: archive file [/home/abi/fetcher/tmp/gitlab-runner-tart-driver-0.1.7.tar.gz]
+[2023-07-03 14:52:42] INFO root fetch - processPackages [gitlab-runner-tart-driver]: Remove: archive file [/home/abi/fetcher/tmp/gitlab-runner-tart-driver-0.2.0.tar.gz]
+[2023-07-03 14:52:42] INFO root fetch - main [MainThread]: End processing [gitlab-runner-tart-driver]: success
+[2023-07-03 14:52:42] INFO root fetch - processPackages [oarepo-cli]: executing diffoscope
+[2023-07-03 14:52:42] INFO root fetch - processPackages [oarepo-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oarepo-cli-11.1.8.tar.gz tmp/oarepo-cli-11.1.9.tar.gz --markdown 20230703/o/oarepo-cli/11.1.8-11.1.9/diff.md --exclude *.pyd
+[2023-07-03 14:52:42] INFO root fetch - processPackages [oarepo-model-builder]: New version: [4.0.9] Old Version: [4.0.8]
+[2023-07-03 14:52:42] INFO root fetch - processPackages [zhenglin]: Remove: archive file [/home/abi/fetcher/tmp/zhenglin-0.13.4.tar.gz]
+[2023-07-03 14:52:42] INFO root fetch - processPackages [zhenglin]: Remove: archive file [/home/abi/fetcher/tmp/zhenglin-0.13.5.tar.gz]
+[2023-07-03 14:52:42] INFO root fetch - main [MainThread]: End processing [zhenglin]: success
+[2023-07-03 14:52:42] INFO root fetch - processPackages [pydantic-loggings]: Downloading https://files.pythonhosted.org/packages/11/c2/0319afd01a50e4900f15dfc10dc1f323d4b6995304ddaa4c39da967f6e1a/pydantic-loggings-0.5.0.tar.gz
+[2023-07-03 14:52:42] INFO root fetch - processPackages [edsteva]: Downloading https://files.pythonhosted.org/packages/64/12/9919d5aa744950e8ad9f9a49973d7866e5e3de6b55ddf9db1a213c0d30e3/edsteva-0.2.0.tar.gz
+[2023-07-03 14:52:42] INFO root fetch - processPackages [oarepo-model-builder]: Downloading https://files.pythonhosted.org/packages/a7/f0/62f6d05442790f0562d20d7e93407d69aeea6c98832d6f8f68b27611715f/oarepo-model-builder-4.0.8.tar.gz
+[2023-07-03 14:52:42] INFO root fetch - processPackages [easyFermi]: Downloading https://files.pythonhosted.org/packages/3c/f1/76a4c7f4d55cba1f8d0e4cd309de76aa05bdb246dc22a7b751a8c4f40d60/easyFermi-1.1.2.tar.gz
+[2023-07-03 14:52:42] INFO root fetch - processPackages [logprep]: Downloading https://files.pythonhosted.org/packages/d8/70/1962ab1e756deee0faa24a1de91c580a38d9d5dd808d1925f54e3e2a27db/logprep-6.5.1.tar.gz
+[2023-07-03 14:52:42] INFO root fetch - processPackages [oarepo-model-builder]: Downloading https://files.pythonhosted.org/packages/d0/c0/f88cc77e087d52084596bac94c3c439ecf68e7ef6b2b2efa8058d91454f9/oarepo-model-builder-4.0.9.tar.gz
+[2023-07-03 14:52:42] INFO root fetch - processPackages [edsteva]: Downloading https://files.pythonhosted.org/packages/20/99/faf0cab36bded487da6dba19faaec23e1c52616f34db65b95786f7fae254/edsteva-0.2.1.tar.gz
+[2023-07-03 14:52:42] INFO root fetch - processPackages [oarepo-model-builder]: executing diffoscope
+[2023-07-03 14:52:42] INFO root fetch - processPackages [oarepo-model-builder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oarepo-model-builder-4.0.8.tar.gz tmp/oarepo-model-builder-4.0.9.tar.gz --markdown 20230703/o/oarepo-model-builder/4.0.8-4.0.9/diff.md --exclude *.pyd
+[2023-07-03 14:52:42] INFO root fetch - processPackages [pydantic-loggings]: Downloading https://files.pythonhosted.org/packages/c4/16/d01dde9eae63c7b3c4e34a112951821c50499f202e0880c625add4d7bfee/pydantic-loggings-0.6.0.tar.gz
+[2023-07-03 14:52:42] INFO root fetch - processPackages [pydantic-loggings]: executing diffoscope
+[2023-07-03 14:52:42] INFO root fetch - processPackages [pydantic-loggings]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydantic-loggings-0.5.0.tar.gz tmp/pydantic-loggings-0.6.0.tar.gz --markdown 20230703/p/pydantic-loggings/0.5.0-0.6.0/diff.md --exclude *.pyd
+[2023-07-03 14:52:43] INFO root fetch - processPackages [edsteva]: executing diffoscope
+[2023-07-03 14:52:43] INFO root fetch - processPackages [edsteva]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edsteva-0.2.0.tar.gz tmp/edsteva-0.2.1.tar.gz --markdown 20230703/e/edsteva/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-07-03 14:52:43] INFO root fetch - processPackages [easyFermi]: Downloading https://files.pythonhosted.org/packages/27/e1/511b701122e70fe9117fbbe8c99374d6711b1c5d28e3aaf29faac1031bed/easyFermi-1.1.3.tar.gz
+[2023-07-03 14:52:43] INFO root fetch - processPackages [logprep]: Downloading https://files.pythonhosted.org/packages/5d/9b/28739f33b35f67d10dfa63c3163071a962c6b549e1299ebcf88b308248d0/logprep-6.6.0.tar.gz
+[2023-07-03 14:52:43] INFO root fetch - processPackages [easyFermi]: executing diffoscope
+[2023-07-03 14:52:43] INFO root fetch - processPackages [easyFermi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easyFermi-1.1.2.tar.gz tmp/easyFermi-1.1.3.tar.gz --markdown 20230703/e/easyFermi/1.1.2-1.1.3/diff.md --exclude *.pyd
+[2023-07-03 14:52:43] INFO root fetch - processPackages [logprep]: executing diffoscope
+[2023-07-03 14:52:43] INFO root fetch - processPackages [logprep]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/logprep-6.5.1.tar.gz tmp/logprep-6.6.0.tar.gz --markdown 20230703/l/logprep/6.5.1-6.6.0/diff.md --exclude *.pyd
+[2023-07-03 14:52:44] INFO root fetch - processPackages [pydantic-loggings]: Remove: archive file [/home/abi/fetcher/tmp/pydantic-loggings-0.5.0.tar.gz]
+[2023-07-03 14:52:44] INFO root fetch - processPackages [pydantic-loggings]: Remove: archive file [/home/abi/fetcher/tmp/pydantic-loggings-0.6.0.tar.gz]
+[2023-07-03 14:52:44] INFO root fetch - main [MainThread]: End processing [pydantic-loggings]: success
+[2023-07-03 14:52:44] INFO root fetch - processPackages [easyFermi]: Remove: archive file [/home/abi/fetcher/tmp/easyFermi-1.1.2.tar.gz]
+[2023-07-03 14:52:44] INFO root fetch - processPackages [easyFermi]: Remove: archive file [/home/abi/fetcher/tmp/easyFermi-1.1.3.tar.gz]
+[2023-07-03 14:52:44] INFO root fetch - main [MainThread]: End processing [easyFermi]: success
+[2023-07-03 14:52:44] INFO root fetch - processPackages [oarepo-model-builder]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-model-builder-4.0.8.tar.gz]
+[2023-07-03 14:52:44] INFO root fetch - processPackages [oarepo-model-builder]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-model-builder-4.0.9.tar.gz]
+[2023-07-03 14:52:44] INFO root fetch - main [MainThread]: End processing [oarepo-model-builder]: success
+[2023-07-03 14:52:45] INFO root fetch - processPackages [edsteva]: Remove: archive file [/home/abi/fetcher/tmp/edsteva-0.2.0.tar.gz]
+[2023-07-03 14:52:45] INFO root fetch - processPackages [edsteva]: Remove: archive file [/home/abi/fetcher/tmp/edsteva-0.2.1.tar.gz]
+[2023-07-03 14:52:45] INFO root fetch - main [MainThread]: End processing [edsteva]: success
+[2023-07-03 14:52:45] INFO root fetch - processPackages [oarepo-cli]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-cli-11.1.8.tar.gz]
+[2023-07-03 14:52:45] INFO root fetch - processPackages [oarepo-cli]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-cli-11.1.9.tar.gz]
+[2023-07-03 14:52:45] INFO root fetch - main [MainThread]: End processing [oarepo-cli]: success
+[2023-07-03 14:52:46] INFO root fetch - processPackages [logprep]: Remove: archive file [/home/abi/fetcher/tmp/logprep-6.5.1.tar.gz]
+[2023-07-03 14:52:46] INFO root fetch - processPackages [logprep]: Remove: archive file [/home/abi/fetcher/tmp/logprep-6.6.0.tar.gz]
+[2023-07-03 14:52:46] INFO root fetch - main [MainThread]: End processing [logprep]: success
+[2023-07-03 14:52:47] INFO root fetch - processPackages [chef-recipes]: Remove: archive file [/home/abi/fetcher/tmp/chef_recipes-1.0.1.tar.gz]
+[2023-07-03 14:52:47] INFO root fetch - processPackages [chef-recipes]: Remove: archive file [/home/abi/fetcher/tmp/chef_recipes-1.0.2.tar.gz]
+[2023-07-03 14:52:47] INFO root fetch - main [MainThread]: End processing [chef-recipes]: success
+[2023-07-03 14:52:47] INFO root fetch - main [MainThread]: Store serial: [18739203]
