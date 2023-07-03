@@ -16232,3 +16232,167 @@ AssertionError: tmp/discord-ansi-0.3.tar.gz does not exist
 [2023-07-03 13:47:44] INFO root fetch - processPackages [bce-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/bce-python-sdk-0.8.87.tar.gz]
 [2023-07-03 13:47:44] INFO root fetch - main [MainThread]: End processing [bce-python-sdk]: success
 [2023-07-03 13:47:44] INFO root fetch - main [MainThread]: Store serial: [18738531]
+[2023-07-03 13:52:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18738531]
+[2023-07-03 13:52:52] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-07-03 13:52:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bigdl-orca-spark3
+[2023-07-03 13:52:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bigdl-friesian-spark3
+[2023-07-03 13:52:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bigdl-chronos-spark3
+[2023-07-03 13:52:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bigdl-spark3
+[2023-07-03 13:52:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ailola
+[2023-07-03 13:52:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addon-l10n-fr-das2
+[2023-07-03 13:52:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: xython
+[2023-07-03 13:52:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: huhangkai
+[2023-07-03 13:52:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: spectree
+[2023-07-03 13:52:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: solid-backend
+[2023-07-03 13:52:53] INFO root fetch - processPackages [huhangkai]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-07-03 13:52:53] INFO root fetch - processPackages [xython]: New version: [1.4.0] Old Version: [1.3.0]
+[2023-07-03 13:52:53] INFO root fetch - processPackages [bigdl-orca-spark3]: New version: [2.4.0b20230703] Old Version: [2.4.0b20230702]
+[2023-07-03 13:52:53] INFO root fetch - processPackages [odoo-addon-l10n-fr-das2]: New version: [16.0.1.4.0] Old Version: [16.0.1.3.0.1]
+[2023-07-03 13:52:53] INFO root fetch - processPackages [ailola]: New version: [0.9.6] Old Version: [0.9.0]
+[2023-07-03 13:52:53] INFO root fetch - processPackages [bigdl-friesian-spark3]: New version: [2.4.0b20230703] Old Version: [2.4.0b20230702]
+[2023-07-03 13:52:53] INFO root fetch - processPackages [solid-backend]: New version: [0.3a2] Old Version: [0.3.3]
+[2023-07-03 13:52:53] INFO root fetch - processPackages [spectree]: New version: [1.1.5] Old Version: [1.1.4]
+[2023-07-03 13:52:53] INFO root fetch - processPackages [bigdl-spark3]: New version: [2.4.0b20230703] Old Version: [2.4.0b20230702]
+[2023-07-03 13:52:53] INFO root fetch - processPackages [bigdl-chronos-spark3]: New version: [2.4.0b20230703] Old Version: [2.4.0b20230702]
+[2023-07-03 13:52:53] INFO root fetch - processPackages [odoo-addon-l10n-fr-das2]: Downloading https://files.pythonhosted.org/packages/5f/75/6acf416c0cc108bb2cb79c25abe389ec29ff0da3f628fd06c329642b0770/odoo_addon_l10n_fr_das2-16.0.1.3.0.1-py3-none-any.whl
+[2023-07-03 13:52:53] INFO root fetch - processPackages [huhangkai]: Downloading https://files.pythonhosted.org/packages/26/56/edc83724b2faa6b21cd293a8cb1610a96bc170f5c70c35947e32dd1b59c1/huhangkai-1.2.8.tar.gz
+[2023-07-03 13:52:53] INFO root fetch - processPackages [solid-backend]: Downloading https://files.pythonhosted.org/packages/04/88/db1b72c9b35e17cb0776af574c24a62a64799da8a77b270bef12d4ec70d4/solid_backend-0.3.3.tar.gz
+[2023-07-03 13:52:53] INFO root fetch - processPackages [ailola]: Downloading https://files.pythonhosted.org/packages/d0/62/e89f05e01116106134013f3b19af615dfcc49e59262402f99320c8cd17e6/ailola-0.9.0.tar.gz
+[2023-07-03 13:52:53] INFO root fetch - processPackages [bigdl-orca-spark3]: Downloading https://files.pythonhosted.org/packages/96/27/1db87b108afd70665b103acc5a64a74bca6dce9ea3350d88567847db5f9c/bigdl_orca_spark3-2.4.0b20230702-py3-none-manylinux1_x86_64.whl
+[2023-07-03 13:52:53] INFO root fetch - processPackages [xython]: Downloading https://files.pythonhosted.org/packages/0e/18/c241942e4443a6f3c411fb5637b053774e10fb467428ce5d472910614313/xython-1.3.0.tar.gz
+[2023-07-03 13:52:53] INFO root fetch - processPackages [bigdl-friesian-spark3]: Downloading https://files.pythonhosted.org/packages/cd/2c/22d64945c8449656643c4219f09b4058a4cecd9c47b015e40ebffd17588a/bigdl_friesian_spark3-2.4.0b20230702-py3-none-manylinux1_x86_64.whl
+[2023-07-03 13:52:53] INFO root fetch - processPackages [spectree]: Downloading https://files.pythonhosted.org/packages/7b/ca/aab3d711b5f07182c3dce1f8721aca8fdf9c1c43743945f7262d2f6d9fb9/spectree-1.1.4.tar.gz
+[2023-07-03 13:52:53] INFO root fetch - processPackages [bigdl-spark3]: Downloading https://files.pythonhosted.org/packages/db/da/8dfd36d352fdb720e8bbbc899c87d776bff9f6e65e8deceba4c20fdae897/bigdl_spark3-2.4.0b20230702-py3-none-manylinux1_x86_64.whl
+[2023-07-03 13:52:53] WARNING root fetch - processPackages [bigdl-orca-spark3]: Skipping package: exceeds size limit 20207866>=10485760
+[2023-07-03 13:52:53] INFO root fetch - processPackages [bigdl-orca-spark3]: Start processing: cj-test-pypi
+[2023-07-03 13:52:53] INFO root fetch - main [MainThread]: End processing [bigdl-orca-spark3] error
+[2023-07-03 13:52:53] INFO root fetch - processPackages [bigdl-chronos-spark3]: Downloading https://files.pythonhosted.org/packages/63/d0/68079d5f42b5bf4f20f623b2407e836dc5fce63d11562e74b73a6460e12c/bigdl_chronos_spark3-2.4.0b20230702-py3-none-manylinux1_x86_64.whl
+[2023-07-03 13:52:53] INFO root fetch - processPackages [cj-test-pypi]: New version: [0.2.1] Old Version: [0.1.1]
+[2023-07-03 13:52:53] INFO root fetch - processPackages [huhangkai]: Downloading https://files.pythonhosted.org/packages/64/75/d49b3e97e447455d2ccbae3d151a2112dcecb9eeb4c3d6f7a87007c74683/huhangkai-1.2.9.tar.gz
+[2023-07-03 13:52:53] INFO root fetch - processPackages [odoo-addon-l10n-fr-das2]: Downloading https://files.pythonhosted.org/packages/1d/8d/7eff99025ea6d3ef00999e2799c083037141131d68039dc258fb3a228799/odoo_addon_l10n_fr_das2-16.0.1.4.0-py3-none-any.whl
+[2023-07-03 13:52:53] INFO root fetch - processPackages [cj-test-pypi]: Downloading https://files.pythonhosted.org/packages/c6/62/68d96533e92346a9e46b2a1c6a6c7e6e2ed61ad02aa595bc4d9525355b35/cj_test_pypi-0.1.1.tar.gz
+[2023-07-03 13:52:54] INFO root fetch - processPackages [ailola]: Downloading https://files.pythonhosted.org/packages/eb/2b/da041d4008516527a1efd5299ac4fce0f0bc0b09ea74f2178887931c95fd/ailola-0.9.6.tar.gz
+[2023-07-03 13:52:54] INFO root fetch - processPackages [xython]: Downloading https://files.pythonhosted.org/packages/5a/9a/61a554086bad351dd788eca47c93021fb01586f7e8ce9dfc45b009742815/xython-1.4.0.tar.gz
+[2023-07-03 13:52:54] INFO root fetch - processPackages [bigdl-friesian-spark3]: Downloading https://files.pythonhosted.org/packages/6a/89/d7cc00ed4a0f35886593358480b59b5fb2e0c3993c55758d3bb57d621590/bigdl_friesian_spark3-2.4.0b20230703-py3-none-manylinux1_x86_64.whl
+[2023-07-03 13:52:54] INFO root fetch - processPackages [bigdl-spark3]: Downloading https://files.pythonhosted.org/packages/0e/0d/90605705087533b048d6d3087dd11ef8721b21a53a3e1fc1c3716417d8c3/bigdl_spark3-2.4.0b20230703-py3-none-manylinux1_x86_64.whl
+[2023-07-03 13:52:54] INFO root fetch - processPackages [solid-backend]: Downloading https://files.pythonhosted.org/packages/07/07/8ba8601db1255c25754ad7cd3a48eec64325baeec5b3e0133a5e2bc916e6/solid_backend-0.3a2.tar.gz
+[2023-07-03 13:52:54] INFO root fetch - processPackages [spectree]: Downloading https://files.pythonhosted.org/packages/1e/db/23b1cef1801802d73a3467b2bf1b4a88bbd9ce8058711b863eac5186926f/spectree-1.1.5.tar.gz
+[2023-07-03 13:52:54] INFO root fetch - processPackages [huhangkai]: executing diffoscope
+[2023-07-03 13:52:54] INFO root fetch - processPackages [huhangkai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huhangkai-1.2.8.tar.gz tmp/huhangkai-1.2.9.tar.gz --markdown 20230703/h/huhangkai/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-07-03 13:52:54] INFO root fetch - processPackages [odoo-addon-l10n-fr-das2]: executing diffoscope
+[2023-07-03 13:52:54] INFO root fetch - processPackages [odoo-addon-l10n-fr-das2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_fr_das2-16.0.1.3.0.1-py3-none-any.whl.zip tmp/odoo_addon_l10n_fr_das2-16.0.1.4.0-py3-none-any.whl.zip --markdown 20230703/o/odoo-addon-l10n-fr-das2/16.0.1.3.0.1-16.0.1.4.0/diff.md --exclude *.pyd
+[2023-07-03 13:52:54] INFO root fetch - processPackages [bigdl-chronos-spark3]: Downloading https://files.pythonhosted.org/packages/c1/bf/ca1812a2ab19d4e74461e93566ad97e8580de8b327a63affc9a22edc6ccf/bigdl_chronos_spark3-2.4.0b20230703-py3-none-manylinux1_x86_64.whl
+[2023-07-03 13:52:54] INFO root fetch - processPackages [xython]: executing diffoscope
+[2023-07-03 13:52:54] INFO root fetch - processPackages [xython]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xython-1.3.0.tar.gz tmp/xython-1.4.0.tar.gz --markdown 20230703/x/xython/1.3.0-1.4.0/diff.md --exclude *.pyd
+[2023-07-03 13:52:54] INFO root fetch - processPackages [ailola]: executing diffoscope
+[2023-07-03 13:52:54] INFO root fetch - processPackages [ailola]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ailola-0.9.0.tar.gz tmp/ailola-0.9.6.tar.gz --markdown 20230703/a/ailola/0.9.0-0.9.6/diff.md --exclude *.pyd
+[2023-07-03 13:52:54] INFO root fetch - processPackages [solid-backend]: executing diffoscope
+[2023-07-03 13:52:54] INFO root fetch - processPackages [solid-backend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/solid_backend-0.3.3.tar.gz tmp/solid_backend-0.3a2.tar.gz --markdown 20230703/s/solid-backend/0.3.3-0.3a2/diff.md --exclude *.pyd
+[2023-07-03 13:52:54] INFO root fetch - processPackages [spectree]: executing diffoscope
+[2023-07-03 13:52:54] INFO root fetch - processPackages [spectree]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spectree-1.1.4.tar.gz tmp/spectree-1.1.5.tar.gz --markdown 20230703/s/spectree/1.1.4-1.1.5/diff.md --exclude *.pyd
+[2023-07-03 13:52:54] INFO root fetch - processPackages [bigdl-friesian-spark3]: executing diffoscope
+[2023-07-03 13:52:54] INFO root fetch - processPackages [bigdl-friesian-spark3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_friesian_spark3-2.4.0b20230702-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_friesian_spark3-2.4.0b20230703-py3-none-manylinux1_x86_64.whl.zip --markdown 20230703/b/bigdl-friesian-spark3/2.4.0b20230702-2.4.0b20230703/diff.md --exclude *.pyd
+[2023-07-03 13:52:54] INFO root fetch - processPackages [bigdl-spark3]: executing diffoscope
+[2023-07-03 13:52:54] INFO root fetch - processPackages [bigdl-spark3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_spark3-2.4.0b20230702-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_spark3-2.4.0b20230703-py3-none-manylinux1_x86_64.whl.zip --markdown 20230703/b/bigdl-spark3/2.4.0b20230702-2.4.0b20230703/diff.md --exclude *.pyd
+[2023-07-03 13:52:54] INFO root fetch - processPackages [cj-test-pypi]: Downloading https://files.pythonhosted.org/packages/50/31/1e0fb14ef4136b2a184a5e94fe5d3e3ce34c676bb7ae4bc472c6ee5e79a4/cj_test_pypi-0.2.1.tar.gz
+[2023-07-03 13:52:54] INFO root fetch - processPackages [bigdl-chronos-spark3]: executing diffoscope
+[2023-07-03 13:52:54] INFO root fetch - processPackages [bigdl-chronos-spark3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_chronos_spark3-2.4.0b20230702-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_chronos_spark3-2.4.0b20230703-py3-none-manylinux1_x86_64.whl.zip --markdown 20230703/b/bigdl-chronos-spark3/2.4.0b20230702-2.4.0b20230703/diff.md --exclude *.pyd
+[2023-07-03 13:52:54] INFO root fetch - processPackages [cj-test-pypi]: executing diffoscope
+[2023-07-03 13:52:54] INFO root fetch - processPackages [cj-test-pypi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cj_test_pypi-0.1.1.tar.gz tmp/cj_test_pypi-0.2.1.tar.gz --markdown 20230703/c/cj-test-pypi/0.1.1-0.2.1/diff.md --exclude *.pyd
+[2023-07-03 13:52:56] INFO root fetch - processPackages [ailola]: Remove: archive file [/home/abi/fetcher/tmp/ailola-0.9.0.tar.gz]
+[2023-07-03 13:52:56] INFO root fetch - processPackages [ailola]: Remove: archive file [/home/abi/fetcher/tmp/ailola-0.9.6.tar.gz]
+[2023-07-03 13:52:56] INFO root fetch - processPackages [ailola]: Start processing: ragger
+[2023-07-03 13:52:56] INFO root fetch - main [MainThread]: End processing [ailola]: success
+[2023-07-03 13:52:56] INFO root fetch - processPackages [ragger]: New version: [1.9.2] Old Version: [1.9.1]
+[2023-07-03 13:52:56] INFO root fetch - processPackages [huhangkai]: Remove: archive file [/home/abi/fetcher/tmp/huhangkai-1.2.8.tar.gz]
+[2023-07-03 13:52:56] INFO root fetch - processPackages [huhangkai]: Remove: archive file [/home/abi/fetcher/tmp/huhangkai-1.2.9.tar.gz]
+[2023-07-03 13:52:56] INFO root fetch - processPackages [huhangkai]: Start processing: odoo-addon-account-cutoff-base
+[2023-07-03 13:52:56] INFO root fetch - main [MainThread]: End processing [huhangkai]: success
+[2023-07-03 13:52:56] INFO root fetch - processPackages [odoo-addon-account-cutoff-base]: New version: [16.0.1.2.0] Old Version: [16.0.1.1.0.4]
+[2023-07-03 13:52:56] INFO root fetch - processPackages [odoo-addon-l10n-fr-das2]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_fr_das2-16.0.1.3.0.1-py3-none-any.whl.zip]
+[2023-07-03 13:52:56] INFO root fetch - processPackages [odoo-addon-l10n-fr-das2]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_fr_das2-16.0.1.4.0-py3-none-any.whl.zip]
+[2023-07-03 13:52:56] INFO root fetch - processPackages [odoo-addon-l10n-fr-das2]: Start processing: torch-mist
+[2023-07-03 13:52:56] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-fr-das2]: success
+[2023-07-03 13:52:56] WARNING root fetch - processPackages [torch-mist]: Skipping, unable to determine old version
+[2023-07-03 13:52:56] INFO root fetch - processPackages [torch-mist]: Start processing: odoo-addon-account-cutoff-accrual-subscription
+[2023-07-03 13:52:56] INFO root fetch - main [MainThread]: End processing [torch-mist] error
+[2023-07-03 13:52:56] INFO root fetch - processPackages [bigdl-spark3]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_spark3-2.4.0b20230702-py3-none-manylinux1_x86_64.whl.zip]
+[2023-07-03 13:52:56] INFO root fetch - processPackages [bigdl-spark3]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_spark3-2.4.0b20230703-py3-none-manylinux1_x86_64.whl.zip]
+[2023-07-03 13:52:56] INFO root fetch - processPackages [bigdl-spark3]: Start processing: odoo-addon-account-cutoff-picking
+[2023-07-03 13:52:56] INFO root fetch - main [MainThread]: End processing [bigdl-spark3]: success
+[2023-07-03 13:52:56] INFO root fetch - processPackages [odoo-addon-account-cutoff-accrual-subscription]: New version: [16.0.1.2.0] Old Version: [16.0.1.1.0.3]
+[2023-07-03 13:52:56] INFO root fetch - processPackages [odoo-addon-account-cutoff-picking]: New version: [16.0.1.2.0] Old Version: [16.0.1.1.0.2]
+[2023-07-03 13:52:56] INFO root fetch - processPackages [ragger]: Downloading https://files.pythonhosted.org/packages/82/04/82bc3bf0c47a6f88a45e1b5604b67e6f9d9d9068f3a4713025a7590f00e8/ragger-1.9.1.tar.gz
+[2023-07-03 13:52:56] INFO root fetch - processPackages [cj-test-pypi]: Remove: archive file [/home/abi/fetcher/tmp/cj_test_pypi-0.1.1.tar.gz]
+[2023-07-03 13:52:56] INFO root fetch - processPackages [cj-test-pypi]: Remove: archive file [/home/abi/fetcher/tmp/cj_test_pypi-0.2.1.tar.gz]
+[2023-07-03 13:52:56] INFO root fetch - processPackages [cj-test-pypi]: Start processing: jVMC
+[2023-07-03 13:52:56] INFO root fetch - main [MainThread]: End processing [cj-test-pypi]: success
+[2023-07-03 13:52:56] INFO root fetch - processPackages [jVMC]: New version: [1.2.3] Old Version: [1.2.2]
+[2023-07-03 13:52:56] INFO root fetch - processPackages [odoo-addon-account-cutoff-base]: Downloading https://files.pythonhosted.org/packages/69/de/1f2646bea42552e28bde3bfced6171c56f5de9b8a7e2124f7b6b31d8acd8/odoo_addon_account_cutoff_base-16.0.1.1.0.4-py3-none-any.whl
+[2023-07-03 13:52:56] INFO root fetch - processPackages [spectree]: Remove: archive file [/home/abi/fetcher/tmp/spectree-1.1.4.tar.gz]
+[2023-07-03 13:52:56] INFO root fetch - processPackages [spectree]: Remove: archive file [/home/abi/fetcher/tmp/spectree-1.1.5.tar.gz]
+[2023-07-03 13:52:56] INFO root fetch - processPackages [spectree]: Start processing: hsfs
+[2023-07-03 13:52:56] INFO root fetch - main [MainThread]: End processing [spectree]: success
+[2023-07-03 13:52:56] INFO root fetch - processPackages [xython]: Remove: archive file [/home/abi/fetcher/tmp/xython-1.3.0.tar.gz]
+[2023-07-03 13:52:56] INFO root fetch - processPackages [bigdl-friesian-spark3]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_friesian_spark3-2.4.0b20230702-py3-none-manylinux1_x86_64.whl.zip]
+[2023-07-03 13:52:56] INFO root fetch - processPackages [xython]: Remove: archive file [/home/abi/fetcher/tmp/xython-1.4.0.tar.gz]
+[2023-07-03 13:52:56] INFO root fetch - processPackages [bigdl-friesian-spark3]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_friesian_spark3-2.4.0b20230703-py3-none-manylinux1_x86_64.whl.zip]
+[2023-07-03 13:52:56] INFO root fetch - processPackages [bigdl-friesian-spark3]: Start processing: discord-ansi
+[2023-07-03 13:52:56] INFO root fetch - main [MainThread]: End processing [bigdl-friesian-spark3]: success
+[2023-07-03 13:52:56] INFO root fetch - main [MainThread]: End processing [xython]: success
+[2023-07-03 13:52:56] INFO root fetch - processPackages [odoo-addon-account-cutoff-accrual-subscription]: Downloading https://files.pythonhosted.org/packages/82/bc/2f75fecced92a68f61d5826a91ec126db9cda6c73d29f9a84ba9ca2c1980/odoo_addon_account_cutoff_accrual_subscription-16.0.1.1.0.3-py3-none-any.whl
+[2023-07-03 13:52:56] INFO root fetch - processPackages [odoo-addon-account-cutoff-picking]: Downloading https://files.pythonhosted.org/packages/95/1e/90f2be1e0372d7235289da6967e2bd1cab8a84b14df3bbe62d0e42f9b67c/odoo_addon_account_cutoff_picking-16.0.1.1.0.2-py3-none-any.whl
+[2023-07-03 13:52:56] INFO root fetch - processPackages [hsfs]: New version: [3.3.0rc0] Old Version: [3.2.0rc5]
+[2023-07-03 13:52:56] INFO root fetch - processPackages [jVMC]: Downloading https://files.pythonhosted.org/packages/48/c6/8441637aed91135a91392dcd4882ab8b079bde5f10dd3bd391be03a77eda/jVMC-1.2.2.tar.gz
+[2023-07-03 13:52:56] INFO root fetch - processPackages [discord-ansi]: New version: [0.5.2] Old Version: [0.5.1]
+[2023-07-03 13:52:56] INFO root fetch - processPackages [solid-backend]: Remove: archive file [/home/abi/fetcher/tmp/solid_backend-0.3.3.tar.gz]
+[2023-07-03 13:52:56] INFO root fetch - processPackages [solid-backend]: Remove: archive file [/home/abi/fetcher/tmp/solid_backend-0.3a2.tar.gz]
+[2023-07-03 13:52:56] INFO root fetch - main [MainThread]: End processing [solid-backend]: success
+[2023-07-03 13:52:56] INFO root fetch - processPackages [odoo-addon-account-cutoff-base]: Downloading https://files.pythonhosted.org/packages/15/cf/4065ec62eb6fd93c22dd7726d7198f4d2adc0adcc4bc240e2636b1a36728/odoo_addon_account_cutoff_base-16.0.1.2.0-py3-none-any.whl
+[2023-07-03 13:52:56] INFO root fetch - processPackages [ragger]: Downloading https://files.pythonhosted.org/packages/55/ac/75fc7e94a713ed26019e36497774d89d7eaa377fab2ac4183dd45fc028b5/ragger-1.9.2.tar.gz
+[2023-07-03 13:52:56] INFO root fetch - processPackages [discord-ansi]: Downloading https://files.pythonhosted.org/packages/37/77/805d519decde43578adda86a5c16061888c6039d217f922f5bf4dc80e27b/discord-ansi-0.5.1.tar.gz
+[2023-07-03 13:52:57] INFO root fetch - processPackages [hsfs]: Downloading https://files.pythonhosted.org/packages/e5/48/80d490879e6e436467e0bdf44c05629397ec13acd7a3ec52f40e9eaeb988/hsfs-3.2.0rc5.tar.gz
+[2023-07-03 13:52:57] INFO root fetch - processPackages [odoo-addon-account-cutoff-accrual-subscription]: Downloading https://files.pythonhosted.org/packages/f8/69/6773aa1a2182de0dda1411172d765716cbd6f4d8eca76f9dea19d8cfb236/odoo_addon_account_cutoff_accrual_subscription-16.0.1.2.0-py3-none-any.whl
+[2023-07-03 13:52:57] INFO root fetch - processPackages [odoo-addon-account-cutoff-base]: executing diffoscope
+[2023-07-03 13:52:57] INFO root fetch - processPackages [odoo-addon-account-cutoff-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_cutoff_base-16.0.1.1.0.4-py3-none-any.whl.zip tmp/odoo_addon_account_cutoff_base-16.0.1.2.0-py3-none-any.whl.zip --markdown 20230703/o/odoo-addon-account-cutoff-base/16.0.1.1.0.4-16.0.1.2.0/diff.md --exclude *.pyd
+[2023-07-03 13:52:57] INFO root fetch - processPackages [odoo-addon-account-cutoff-picking]: Downloading https://files.pythonhosted.org/packages/e4/47/fae0a174d3ca206fea0602bbe7529e43d1dadcbfd0e601c16a9f115c4a08/odoo_addon_account_cutoff_picking-16.0.1.2.0-py3-none-any.whl
+[2023-07-03 13:52:57] INFO root fetch - processPackages [ragger]: executing diffoscope
+[2023-07-03 13:52:57] INFO root fetch - processPackages [ragger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ragger-1.9.1.tar.gz tmp/ragger-1.9.2.tar.gz --markdown 20230703/r/ragger/1.9.1-1.9.2/diff.md --exclude *.pyd
+[2023-07-03 13:52:57] INFO root fetch - processPackages [jVMC]: Downloading https://files.pythonhosted.org/packages/66/74/24562ef0e4b06f97af4737b646ebfd462de7a22dba2a48e7f8aa2a558fbc/jVMC-1.2.3.tar.gz
+[2023-07-03 13:52:57] INFO root fetch - processPackages [odoo-addon-account-cutoff-accrual-subscription]: executing diffoscope
+[2023-07-03 13:52:57] INFO root fetch - processPackages [odoo-addon-account-cutoff-accrual-subscription]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_cutoff_accrual_subscription-16.0.1.1.0.3-py3-none-any.whl.zip tmp/odoo_addon_account_cutoff_accrual_subscription-16.0.1.2.0-py3-none-any.whl.zip --markdown 20230703/o/odoo-addon-account-cutoff-accrual-subscription/16.0.1.1.0.3-16.0.1.2.0/diff.md --exclude *.pyd
+[2023-07-03 13:52:57] INFO root fetch - processPackages [discord-ansi]: Downloading https://files.pythonhosted.org/packages/1a/78/54186dd496b97645a7e78475f408acf48e7046343af416a2770fd1cf0885/discord-ansi-0.5.2.tar.gz
+[2023-07-03 13:52:57] INFO root fetch - processPackages [bigdl-chronos-spark3]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_chronos_spark3-2.4.0b20230702-py3-none-manylinux1_x86_64.whl.zip]
+[2023-07-03 13:52:57] INFO root fetch - processPackages [bigdl-chronos-spark3]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_chronos_spark3-2.4.0b20230703-py3-none-manylinux1_x86_64.whl.zip]
+[2023-07-03 13:52:57] INFO root fetch - main [MainThread]: End processing [bigdl-chronos-spark3]: success
+[2023-07-03 13:52:57] INFO root fetch - processPackages [odoo-addon-account-cutoff-picking]: executing diffoscope
+[2023-07-03 13:52:57] INFO root fetch - processPackages [odoo-addon-account-cutoff-picking]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_cutoff_picking-16.0.1.1.0.2-py3-none-any.whl.zip tmp/odoo_addon_account_cutoff_picking-16.0.1.2.0-py3-none-any.whl.zip --markdown 20230703/o/odoo-addon-account-cutoff-picking/16.0.1.1.0.2-16.0.1.2.0/diff.md --exclude *.pyd
+[2023-07-03 13:52:57] INFO root fetch - processPackages [jVMC]: executing diffoscope
+[2023-07-03 13:52:57] INFO root fetch - processPackages [jVMC]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jVMC-1.2.2.tar.gz tmp/jVMC-1.2.3.tar.gz --markdown 20230703/j/jVMC/1.2.2-1.2.3/diff.md --exclude *.pyd
+[2023-07-03 13:52:57] INFO root fetch - processPackages [discord-ansi]: executing diffoscope
+[2023-07-03 13:52:57] INFO root fetch - processPackages [discord-ansi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/discord-ansi-0.5.1.tar.gz tmp/discord-ansi-0.5.2.tar.gz --markdown 20230703/d/discord-ansi/0.5.1-0.5.2/diff.md --exclude *.pyd
+[2023-07-03 13:52:57] INFO root fetch - processPackages [hsfs]: Downloading https://files.pythonhosted.org/packages/3c/1c/009786e63e8255a40d830af6914753de7334967941f76121100ba1b65d58/hsfs-3.3.0rc0.tar.gz
+[2023-07-03 13:52:57] INFO root fetch - processPackages [hsfs]: executing diffoscope
+[2023-07-03 13:52:57] INFO root fetch - processPackages [hsfs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hsfs-3.2.0rc5.tar.gz tmp/hsfs-3.3.0rc0.tar.gz --markdown 20230703/h/hsfs/3.2.0rc5-3.3.0rc0/diff.md --exclude *.pyd
+[2023-07-03 13:52:58] INFO root fetch - processPackages [odoo-addon-account-cutoff-accrual-subscription]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_cutoff_accrual_subscription-16.0.1.1.0.3-py3-none-any.whl.zip]
+[2023-07-03 13:52:58] INFO root fetch - processPackages [odoo-addon-account-cutoff-accrual-subscription]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_cutoff_accrual_subscription-16.0.1.2.0-py3-none-any.whl.zip]
+[2023-07-03 13:52:58] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-cutoff-accrual-subscription]: success
+[2023-07-03 13:52:58] INFO root fetch - processPackages [discord-ansi]: Remove: archive file [/home/abi/fetcher/tmp/discord-ansi-0.5.1.tar.gz]
+[2023-07-03 13:52:58] INFO root fetch - processPackages [discord-ansi]: Remove: archive file [/home/abi/fetcher/tmp/discord-ansi-0.5.2.tar.gz]
+[2023-07-03 13:52:58] INFO root fetch - main [MainThread]: End processing [discord-ansi]: success
+[2023-07-03 13:52:58] INFO root fetch - processPackages [jVMC]: Remove: archive file [/home/abi/fetcher/tmp/jVMC-1.2.2.tar.gz]
+[2023-07-03 13:52:58] INFO root fetch - processPackages [jVMC]: Remove: archive file [/home/abi/fetcher/tmp/jVMC-1.2.3.tar.gz]
+[2023-07-03 13:52:58] INFO root fetch - main [MainThread]: End processing [jVMC]: success
+[2023-07-03 13:52:59] INFO root fetch - processPackages [odoo-addon-account-cutoff-picking]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_cutoff_picking-16.0.1.1.0.2-py3-none-any.whl.zip]
+[2023-07-03 13:52:59] INFO root fetch - processPackages [odoo-addon-account-cutoff-picking]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_cutoff_picking-16.0.1.2.0-py3-none-any.whl.zip]
+[2023-07-03 13:52:59] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-cutoff-picking]: success
+[2023-07-03 13:52:59] INFO root fetch - processPackages [ragger]: Remove: archive file [/home/abi/fetcher/tmp/ragger-1.9.1.tar.gz]
+[2023-07-03 13:52:59] INFO root fetch - processPackages [ragger]: Remove: archive file [/home/abi/fetcher/tmp/ragger-1.9.2.tar.gz]
+[2023-07-03 13:52:59] INFO root fetch - main [MainThread]: End processing [ragger]: success
+[2023-07-03 13:52:59] INFO root fetch - processPackages [odoo-addon-account-cutoff-base]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_cutoff_base-16.0.1.1.0.4-py3-none-any.whl.zip]
+[2023-07-03 13:52:59] INFO root fetch - processPackages [odoo-addon-account-cutoff-base]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_cutoff_base-16.0.1.2.0-py3-none-any.whl.zip]
+[2023-07-03 13:52:59] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-cutoff-base]: success
+[2023-07-03 13:52:59] INFO root fetch - processPackages [hsfs]: Remove: archive file [/home/abi/fetcher/tmp/hsfs-3.2.0rc5.tar.gz]
+[2023-07-03 13:52:59] INFO root fetch - processPackages [hsfs]: Remove: archive file [/home/abi/fetcher/tmp/hsfs-3.3.0rc0.tar.gz]
+[2023-07-03 13:52:59] INFO root fetch - main [MainThread]: End processing [hsfs]: success
+[2023-07-03 13:52:59] INFO root fetch - main [MainThread]: Store serial: [18738580]
