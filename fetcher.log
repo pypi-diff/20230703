@@ -1053,3 +1053,141 @@
 [2023-07-03 02:05:00] INFO root fetch - processPackages [mct-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-nightly-1.9.0.20230702.post453.tar.gz]
 [2023-07-03 02:05:00] INFO root fetch - main [MainThread]: End processing [mct-nightly]: success
 [2023-07-03 02:05:00] INFO root fetch - main [MainThread]: Store serial: [18732169]
+[2023-07-03 02:10:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18732169]
+[2023-07-03 02:10:09] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-07-03 02:10:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jaxkern-nightly
+[2023-07-03 02:10:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jaxutils-nightly
+[2023-07-03 02:10:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: vgetpupil
+[2023-07-03 02:10:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cloudmesh-common
+[2023-07-03 02:10:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: spice-agent
+[2023-07-03 02:10:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ml-compiler-opt
+[2023-07-03 02:10:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: torchlayers-nightly
+[2023-07-03 02:10:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: crankshaft
+[2023-07-03 02:10:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: MeUtils
+[2023-07-03 02:10:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: tccli
+[2023-07-03 02:10:09] INFO root fetch - processPackages [jaxutils-nightly]: New version: [0.0.8.dev20230702] Old Version: [0.0.8.dev20230701]
+[2023-07-03 02:10:09] INFO root fetch - processPackages [ml-compiler-opt]: New version: [0.0.1.dev202307030008] Old Version: [0.0.1.dev202307020008]
+[2023-07-03 02:10:09] INFO root fetch - processPackages [cloudmesh-common]: New version: [4.3.99] Old Version: [4.3.98]
+[2023-07-03 02:10:09] INFO root fetch - processPackages [crankshaft]: New version: [0.4.0] Old Version: [0.3.4]
+[2023-07-03 02:10:09] INFO root fetch - processPackages [vgetpupil]: New version: [2.0.0] Old Version: [1.0.4]
+[2023-07-03 02:10:09] INFO root fetch - processPackages [spice-agent]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-07-03 02:10:09] INFO root fetch - processPackages [MeUtils]: New version: [2023.7.3.8.8.54] Old Version: [2023.6.8.9.46.19]
+[2023-07-03 02:10:09] INFO root fetch - processPackages [tccli]: New version: [3.0.99.1] Old Version: [3.0.98.1]
+[2023-07-03 02:10:09] INFO root fetch - processPackages [torchlayers-nightly]: New version: [1688256541] Old Version: [1688170164]
+[2023-07-03 02:10:09] INFO root fetch - processPackages [spice-agent]: Downloading https://files.pythonhosted.org/packages/96/4c/8eb5bd07f5d06f97b4f84931d21c1ca62585ae9327356e09f493ee595890/spice_agent-0.1.3.tar.gz
+[2023-07-03 02:10:09] INFO root fetch - processPackages [ml-compiler-opt]: Downloading https://files.pythonhosted.org/packages/a2/7c/e56797b91a30fbef5d2477ba0b161f0417ad0b362891ad399bb312cc2d53/ml-compiler-opt-0.0.1.dev202307020008.tar.gz
+[2023-07-03 02:10:09] INFO root fetch - processPackages [jaxkern-nightly]: New version: [0.dev20221222] Old Version: [0.dev20221221]
+[2023-07-03 02:10:09] INFO root fetch - processPackages [jaxutils-nightly]: Downloading https://files.pythonhosted.org/packages/2e/b0/20bf229fa3c8948a62370386d88f0aa6f7be30319834fd2041547dd720f8/jaxutils-nightly-0.0.8.dev20230701.tar.gz
+[2023-07-03 02:10:09] INFO root fetch - processPackages [torchlayers-nightly]: Downloading https://files.pythonhosted.org/packages/d0/0e/b220eabcdedf1aa7488fe6d0c5b328e97f8d56f4301693b7e5d5025e4d18/torchlayers-nightly-1688170164.tar.gz
+[2023-07-03 02:10:09] INFO root fetch - processPackages [cloudmesh-common]: Downloading https://files.pythonhosted.org/packages/68/c3/2fff9f3ea01944b9d6b899705c9bed1ef01383b84542bbfe95d76134debc/cloudmesh-common-4.3.98.tar.gz
+[2023-07-03 02:10:09] INFO root fetch - processPackages [crankshaft]: Downloading https://files.pythonhosted.org/packages/4d/9d/2f70739b532cc427da5b6d5c53d3b1acb64d3a870bc7e2045a4273a84314/crankshaft-0.3.4.tar.gz
+[2023-07-03 02:10:09] INFO root fetch - processPackages [vgetpupil]: Downloading https://files.pythonhosted.org/packages/e7/8a/058dc01a4d5eb1c94d0b852dc2233cefa4ad61a6b08bf3ab2df219065a39/vgetpupil-1.0.4.tar.gz
+[2023-07-03 02:10:09] INFO root fetch - processPackages [jaxkern-nightly]: Downloading https://files.pythonhosted.org/packages/76/55/ef13835e3e8e1570e91b3bc7235725e556f183e3222d5e7e66ac8de58ba0/jaxkern-nightly-0.dev20221221.tar.gz
+[2023-07-03 02:10:09] INFO root fetch - processPackages [MeUtils]: Downloading https://files.pythonhosted.org/packages/0e/2e/ec2cc34871c3af09dac9ee93f99e7d89d8a20aca1a7c655697f42d240e9b/MeUtils-2023.6.8.9.46.19.tar.gz
+[2023-07-03 02:10:09] INFO root fetch - processPackages [ml-compiler-opt]: Downloading https://files.pythonhosted.org/packages/08/e4/fcfeb41f7bcfa36a94e884a13fbc6f82ce934b94ed7b04855cdf5b44be8c/ml-compiler-opt-0.0.1.dev202307030008.tar.gz
+[2023-07-03 02:10:09] INFO root fetch - processPackages [tccli]: Downloading https://files.pythonhosted.org/packages/d5/c0/3ba1e7e48c25d80695e0216e1e772ed1492bdb76a0d81d9ddca3443d1353/tccli-3.0.98.1.tar.gz
+[2023-07-03 02:10:09] INFO root fetch - processPackages [spice-agent]: Downloading https://files.pythonhosted.org/packages/f2/6e/5e4607a284af43e098c4e46da9d42fbd46d554d45222a2a64ab1a0fafdd3/spice_agent-0.1.4.tar.gz
+[2023-07-03 02:10:09] INFO root fetch - processPackages [jaxutils-nightly]: Downloading https://files.pythonhosted.org/packages/c9/d2/9d47ed99100dbbdb73875c2ac427335fc2ac103024eb6c0e2ae27553d4c3/jaxutils-nightly-0.0.8.dev20230702.tar.gz
+[2023-07-03 02:10:09] INFO root fetch - processPackages [spice-agent]: executing diffoscope
+[2023-07-03 02:10:09] INFO root fetch - processPackages [spice-agent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spice_agent-0.1.3.tar.gz tmp/spice_agent-0.1.4.tar.gz --markdown 20230703/s/spice-agent/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-07-03 02:10:10] INFO root fetch - processPackages [torchlayers-nightly]: Downloading https://files.pythonhosted.org/packages/78/93/7d465a56f79480d0295d7d3c069e4dcfc29c59980f3ff3696f368e5fec55/torchlayers-nightly-1688256541.tar.gz
+[2023-07-03 02:10:10] INFO root fetch - processPackages [ml-compiler-opt]: executing diffoscope
+[2023-07-03 02:10:10] INFO root fetch - processPackages [ml-compiler-opt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ml-compiler-opt-0.0.1.dev202307020008.tar.gz tmp/ml-compiler-opt-0.0.1.dev202307030008.tar.gz --markdown 20230703/m/ml-compiler-opt/0.0.1.dev202307020008-0.0.1.dev202307030008/diff.md --exclude *.pyd
+[2023-07-03 02:10:10] INFO root fetch - processPackages [vgetpupil]: Downloading https://files.pythonhosted.org/packages/40/db/b186a13bdcc2804ab4d9d5f6d272e9a86be36382ae2e3985672f1e45d5cc/vgetpupil-2.0.0.tar.gz
+[2023-07-03 02:10:10] INFO root fetch - processPackages [jaxutils-nightly]: executing diffoscope
+[2023-07-03 02:10:10] INFO root fetch - processPackages [jaxutils-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaxutils-nightly-0.0.8.dev20230701.tar.gz tmp/jaxutils-nightly-0.0.8.dev20230702.tar.gz --markdown 20230703/j/jaxutils-nightly/0.0.8.dev20230701-0.0.8.dev20230702/diff.md --exclude *.pyd
+[2023-07-03 02:10:10] INFO root fetch - processPackages [jaxkern-nightly]: Downloading https://files.pythonhosted.org/packages/ea/b1/fbac44f07e48f8800aada2de8e9114775baf3f3d605ee80382db18a1c728/jaxkern-nightly-0.dev20221222.tar.gz
+[2023-07-03 02:10:10] INFO root fetch - processPackages [crankshaft]: Downloading https://files.pythonhosted.org/packages/c6/37/9657a14916e9f3ccbb1018c6840de84e795b63789c32b7ff1d3c6886dfb2/crankshaft-0.4.0.tar.gz
+[2023-07-03 02:10:10] INFO root fetch - processPackages [jaxkern-nightly]: executing diffoscope
+[2023-07-03 02:10:10] INFO root fetch - processPackages [jaxkern-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaxkern-nightly-0.dev20221221.tar.gz tmp/jaxkern-nightly-0.dev20221222.tar.gz --markdown 20230703/j/jaxkern-nightly/0.dev20221221-0.dev20221222/diff.md --exclude *.pyd
+[2023-07-03 02:10:10] INFO root fetch - processPackages [torchlayers-nightly]: executing diffoscope
+[2023-07-03 02:10:10] INFO root fetch - processPackages [torchlayers-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchlayers-nightly-1688170164.tar.gz tmp/torchlayers-nightly-1688256541.tar.gz --markdown 20230703/t/torchlayers-nightly/1688170164-1688256541/diff.md --exclude *.pyd
+[2023-07-03 02:10:10] INFO root fetch - processPackages [cloudmesh-common]: Downloading https://files.pythonhosted.org/packages/e0/06/2a9df727a32d9c3a2e1bc9afb544e91ea00289cb5cc2e474e902e06b74d7/cloudmesh-common-4.3.99.tar.gz
+[2023-07-03 02:10:10] INFO root fetch - processPackages [crankshaft]: executing diffoscope
+[2023-07-03 02:10:10] INFO root fetch - processPackages [crankshaft]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crankshaft-0.3.4.tar.gz tmp/crankshaft-0.4.0.tar.gz --markdown 20230703/c/crankshaft/0.3.4-0.4.0/diff.md --exclude *.pyd
+[2023-07-03 02:10:10] INFO root fetch - processPackages [vgetpupil]: executing diffoscope
+[2023-07-03 02:10:10] INFO root fetch - processPackages [vgetpupil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vgetpupil-1.0.4.tar.gz tmp/vgetpupil-2.0.0.tar.gz --markdown 20230703/v/vgetpupil/1.0.4-2.0.0/diff.md --exclude *.pyd
+[2023-07-03 02:10:10] INFO root fetch - processPackages [tccli]: Downloading https://files.pythonhosted.org/packages/f6/c1/6e489190b9983c2b5d4a0260a36bcfb8647ee614634e4992013766cbc5cc/tccli-3.0.99.1.tar.gz
+[2023-07-03 02:10:10] INFO root fetch - processPackages [cloudmesh-common]: executing diffoscope
+[2023-07-03 02:10:10] INFO root fetch - processPackages [cloudmesh-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudmesh-common-4.3.98.tar.gz tmp/cloudmesh-common-4.3.99.tar.gz --markdown 20230703/c/cloudmesh-common/4.3.98-4.3.99/diff.md --exclude *.pyd
+[2023-07-03 02:10:10] INFO root fetch - processPackages [tccli]: executing diffoscope
+[2023-07-03 02:10:10] INFO root fetch - processPackages [tccli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tccli-3.0.98.1.tar.gz tmp/tccli-3.0.99.1.tar.gz --markdown 20230703/t/tccli/3.0.98.1-3.0.99.1/diff.md --exclude *.pyd
+[2023-07-03 02:10:11] INFO root fetch - processPackages [MeUtils]: Downloading https://files.pythonhosted.org/packages/e6/24/10df222d883366f113c52584a2aae369cdeadfc8b66c95297de93f439028/MeUtils-2023.7.3.8.8.54.tar.gz
+[2023-07-03 02:10:11] INFO root fetch - processPackages [jaxkern-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxkern-nightly-0.dev20221221.tar.gz]
+[2023-07-03 02:10:11] INFO root fetch - processPackages [jaxkern-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxkern-nightly-0.dev20221222.tar.gz]
+[2023-07-03 02:10:11] INFO root fetch - processPackages [jaxkern-nightly]: Start processing: gitlabx
+[2023-07-03 02:10:11] INFO root fetch - main [MainThread]: End processing [jaxkern-nightly]: success
+[2023-07-03 02:10:11] INFO root fetch - processPackages [gitlabx]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-07-03 02:10:11] INFO root fetch - processPackages [gitlabx]: Downloading https://files.pythonhosted.org/packages/93/9e/d5719c1572cdb7681b1cb97fb4852135d3ad50e51cade1fcf7ffbb4942e0/gitlabx-0.2.0-py3-none-any.whl
+[2023-07-03 02:10:11] INFO root fetch - processPackages [torchlayers-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchlayers-nightly-1688170164.tar.gz]
+[2023-07-03 02:10:11] INFO root fetch - processPackages [torchlayers-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchlayers-nightly-1688256541.tar.gz]
+[2023-07-03 02:10:11] INFO root fetch - processPackages [torchlayers-nightly]: Start processing: wows-shell
+[2023-07-03 02:10:11] INFO root fetch - main [MainThread]: End processing [torchlayers-nightly]: success
+[2023-07-03 02:10:11] INFO root fetch - processPackages [vgetpupil]: Remove: archive file [/home/abi/fetcher/tmp/vgetpupil-1.0.4.tar.gz]
+[2023-07-03 02:10:11] INFO root fetch - processPackages [vgetpupil]: Remove: archive file [/home/abi/fetcher/tmp/vgetpupil-2.0.0.tar.gz]
+[2023-07-03 02:10:11] INFO root fetch - processPackages [vgetpupil]: Start processing: cdk-aws-discord-notifiers
+[2023-07-03 02:10:11] INFO root fetch - main [MainThread]: End processing [vgetpupil]: success
+[2023-07-03 02:10:11] INFO root fetch - processPackages [jaxutils-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxutils-nightly-0.0.8.dev20230701.tar.gz]
+[2023-07-03 02:10:11] INFO root fetch - processPackages [jaxutils-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxutils-nightly-0.0.8.dev20230702.tar.gz]
+[2023-07-03 02:10:11] INFO root fetch - processPackages [jaxutils-nightly]: Start processing: cdk-common
+[2023-07-03 02:10:11] INFO root fetch - main [MainThread]: End processing [jaxutils-nightly]: success
+[2023-07-03 02:10:11] INFO root fetch - processPackages [cdk-aws-discord-notifiers]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-03 02:10:11] INFO root fetch - processPackages [gitlabx]: Downloading https://files.pythonhosted.org/packages/1b/1c/b8d9f7517adcdd391aec9596e57a4ccfc0db16ea2bde95c7a933050492d5/gitlabx-0.3.0-py3-none-any.whl
+[2023-07-03 02:10:11] INFO root fetch - processPackages [wows-shell]: New version: [1.2.3] Old Version: [1.2.2]
+[2023-07-03 02:10:11] INFO root fetch - processPackages [cdk-common]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-07-03 02:10:11] INFO root fetch - processPackages [gitlabx]: executing diffoscope
+[2023-07-03 02:10:11] INFO root fetch - processPackages [gitlabx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gitlabx-0.2.0-py3-none-any.whl.zip tmp/gitlabx-0.3.0-py3-none-any.whl.zip --markdown 20230703/g/gitlabx/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-07-03 02:10:11] INFO root fetch - processPackages [cdk-aws-discord-notifiers]: Downloading https://files.pythonhosted.org/packages/56/53/6723a7c49bca58765247618ffc3edcd771eea50c77deafc133a9513dfcde/cdk-aws-discord-notifiers-0.0.98.tar.gz
+[2023-07-03 02:10:11] INFO root fetch - processPackages [cloudmesh-common]: Remove: archive file [/home/abi/fetcher/tmp/cloudmesh-common-4.3.98.tar.gz]
+[2023-07-03 02:10:11] INFO root fetch - processPackages [cloudmesh-common]: Remove: archive file [/home/abi/fetcher/tmp/cloudmesh-common-4.3.99.tar.gz]
+[2023-07-03 02:10:11] INFO root fetch - processPackages [cloudmesh-common]: Start processing: render-engine-youtube-embed
+[2023-07-03 02:10:11] INFO root fetch - main [MainThread]: End processing [cloudmesh-common]: success
+[2023-07-03 02:10:11] INFO root fetch - processPackages [render-engine-youtube-embed]: New version: [2023.7.2a1] Old Version: [2023.7.1]
+[2023-07-03 02:10:11] INFO root fetch - processPackages [cdk-common]: Downloading https://files.pythonhosted.org/packages/f3/30/796e7080e9a9b293ccf386b0d95f40dde8e214e0415d2c59be9c661105a9/cdk-common-2.0.98.tar.gz
+[2023-07-03 02:10:11] INFO root fetch - processPackages [spice-agent]: Remove: archive file [/home/abi/fetcher/tmp/spice_agent-0.1.3.tar.gz]
+[2023-07-03 02:10:12] INFO root fetch - processPackages [spice-agent]: Remove: archive file [/home/abi/fetcher/tmp/spice_agent-0.1.4.tar.gz]
+[2023-07-03 02:10:12] INFO root fetch - main [MainThread]: End processing [spice-agent]: success
+[2023-07-03 02:10:12] INFO root fetch - processPackages [wows-shell]: Downloading https://files.pythonhosted.org/packages/e3/2b/00e979dbe4b44c1fc8b66f4d9a0cf8b0ce34a95c5e5bac0a56259a21dc7c/wows_shell-1.2.2-cp39-cp39-win_amd64.whl
+[2023-07-03 02:10:12] INFO root fetch - processPackages [cdk-aws-discord-notifiers]: Downloading https://files.pythonhosted.org/packages/e9/77/7aafe1cb83c9a08a337fb161ed76fbd8ea0e22d81058ab1a2974adb0a1f9/cdk-aws-discord-notifiers-0.0.99.tar.gz
+[2023-07-03 02:10:12] INFO root fetch - processPackages [render-engine-youtube-embed]: Downloading https://files.pythonhosted.org/packages/32/3c/c8827e39a37518512b26d555a3eb34ab83b10599e0ed54d8f96f6f5348fb/render_engine_youtube_embed-2023.7.1.tar.gz
+[2023-07-03 02:10:12] INFO root fetch - processPackages [crankshaft]: Remove: archive file [/home/abi/fetcher/tmp/crankshaft-0.3.4.tar.gz]
+[2023-07-03 02:10:12] INFO root fetch - processPackages [crankshaft]: Remove: archive file [/home/abi/fetcher/tmp/crankshaft-0.4.0.tar.gz]
+[2023-07-03 02:10:12] INFO root fetch - main [MainThread]: End processing [crankshaft]: success
+[2023-07-03 02:10:12] INFO root fetch - processPackages [render-engine-youtube-embed]: Downloading https://files.pythonhosted.org/packages/2e/b3/47367b1bd154879f52668004258b75e15ce9ea6284c15cfb5fa6023adc07/render_engine_youtube_embed-2023.7.2a1.tar.gz
+[2023-07-03 02:10:12] INFO root fetch - processPackages [cdk-aws-discord-notifiers]: executing diffoscope
+[2023-07-03 02:10:12] INFO root fetch - processPackages [cdk-aws-discord-notifiers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-aws-discord-notifiers-0.0.98.tar.gz tmp/cdk-aws-discord-notifiers-0.0.99.tar.gz --markdown 20230703/c/cdk-aws-discord-notifiers/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-03 02:10:12] INFO root fetch - processPackages [cdk-common]: Downloading https://files.pythonhosted.org/packages/11/10/ca183f281275ec945ede082d9491c0bb5bfb9152c437124c86e37cba7079/cdk-common-2.0.99.tar.gz
+[2023-07-03 02:10:12] INFO root fetch - processPackages [render-engine-youtube-embed]: executing diffoscope
+[2023-07-03 02:10:12] INFO root fetch - processPackages [render-engine-youtube-embed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/render_engine_youtube_embed-2023.7.1.tar.gz tmp/render_engine_youtube_embed-2023.7.2a1.tar.gz --markdown 20230703/r/render-engine-youtube-embed/2023.7.1-2023.7.2a1/diff.md --exclude *.pyd
+[2023-07-03 02:10:12] INFO root fetch - processPackages [wows-shell]: Downloading https://files.pythonhosted.org/packages/e0/a4/c3580c26c7e2110cff5d04af2104abcae115f5f2d3c4fe379c26c5b75056/wows_shell-1.2.3.tar.gz
+[2023-07-03 02:10:12] INFO root fetch - processPackages [cdk-common]: executing diffoscope
+[2023-07-03 02:10:12] INFO root fetch - processPackages [cdk-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-common-2.0.98.tar.gz tmp/cdk-common-2.0.99.tar.gz --markdown 20230703/c/cdk-common/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-07-03 02:10:12] INFO root fetch - processPackages [wows-shell]: executing diffoscope
+[2023-07-03 02:10:12] INFO root fetch - processPackages [wows-shell]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wows_shell-1.2.2-cp39-cp39-win_amd64.whl.zip tmp/wows_shell-1.2.3.tar.gz --markdown 20230703/w/wows-shell/1.2.2-1.2.3/diff.md --exclude *.pyd
+[2023-07-03 02:10:12] INFO root fetch - processPackages [MeUtils]: executing diffoscope
+[2023-07-03 02:10:12] INFO root fetch - processPackages [MeUtils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MeUtils-2023.6.8.9.46.19.tar.gz tmp/MeUtils-2023.7.3.8.8.54.tar.gz --markdown 20230703/M/MeUtils/2023.6.8.9.46.19-2023.7.3.8.8.54/diff.md --exclude *.pyd
+[2023-07-03 02:10:13] INFO root fetch - processPackages [gitlabx]: Remove: archive file [/home/abi/fetcher/tmp/gitlabx-0.2.0-py3-none-any.whl.zip]
+[2023-07-03 02:10:13] INFO root fetch - processPackages [gitlabx]: Remove: archive file [/home/abi/fetcher/tmp/gitlabx-0.3.0-py3-none-any.whl.zip]
+[2023-07-03 02:10:13] INFO root fetch - main [MainThread]: End processing [gitlabx]: success
+[2023-07-03 02:10:13] INFO root fetch - processPackages [cdk-aws-discord-notifiers]: Remove: archive file [/home/abi/fetcher/tmp/cdk-aws-discord-notifiers-0.0.98.tar.gz]
+[2023-07-03 02:10:13] INFO root fetch - processPackages [cdk-aws-discord-notifiers]: Remove: archive file [/home/abi/fetcher/tmp/cdk-aws-discord-notifiers-0.0.99.tar.gz]
+[2023-07-03 02:10:13] INFO root fetch - main [MainThread]: End processing [cdk-aws-discord-notifiers]: success
+[2023-07-03 02:10:13] INFO root fetch - processPackages [ml-compiler-opt]: Remove: archive file [/home/abi/fetcher/tmp/ml-compiler-opt-0.0.1.dev202307020008.tar.gz]
+[2023-07-03 02:10:13] INFO root fetch - processPackages [ml-compiler-opt]: Remove: archive file [/home/abi/fetcher/tmp/ml-compiler-opt-0.0.1.dev202307030008.tar.gz]
+[2023-07-03 02:10:13] INFO root fetch - main [MainThread]: End processing [ml-compiler-opt]: success
+[2023-07-03 02:10:13] INFO root fetch - processPackages [cdk-common]: Remove: archive file [/home/abi/fetcher/tmp/cdk-common-2.0.98.tar.gz]
+[2023-07-03 02:10:13] INFO root fetch - processPackages [cdk-common]: Remove: archive file [/home/abi/fetcher/tmp/cdk-common-2.0.99.tar.gz]
+[2023-07-03 02:10:13] INFO root fetch - main [MainThread]: End processing [cdk-common]: success
+[2023-07-03 02:10:14] INFO root fetch - processPackages [wows-shell]: Remove: archive file [/home/abi/fetcher/tmp/wows_shell-1.2.2-cp39-cp39-win_amd64.whl.zip]
+[2023-07-03 02:10:14] INFO root fetch - processPackages [wows-shell]: Remove: archive file [/home/abi/fetcher/tmp/wows_shell-1.2.3.tar.gz]
+[2023-07-03 02:10:14] INFO root fetch - main [MainThread]: End processing [wows-shell]: success
+[2023-07-03 02:10:14] INFO root fetch - processPackages [render-engine-youtube-embed]: Remove: archive file [/home/abi/fetcher/tmp/render_engine_youtube_embed-2023.7.1.tar.gz]
+[2023-07-03 02:10:14] INFO root fetch - processPackages [render-engine-youtube-embed]: Remove: archive file [/home/abi/fetcher/tmp/render_engine_youtube_embed-2023.7.2a1.tar.gz]
+[2023-07-03 02:10:14] INFO root fetch - main [MainThread]: End processing [render-engine-youtube-embed]: success
+[2023-07-03 02:10:15] INFO root fetch - processPackages [tccli]: Remove: archive file [/home/abi/fetcher/tmp/tccli-3.0.98.1.tar.gz]
+[2023-07-03 02:10:15] INFO root fetch - processPackages [tccli]: Remove: archive file [/home/abi/fetcher/tmp/tccli-3.0.99.1.tar.gz]
+[2023-07-03 02:10:15] INFO root fetch - main [MainThread]: End processing [tccli]: success
+[2023-07-03 02:10:17] INFO root fetch - processPackages [MeUtils]: Remove: archive file [/home/abi/fetcher/tmp/MeUtils-2023.6.8.9.46.19.tar.gz]
+[2023-07-03 02:10:17] INFO root fetch - processPackages [MeUtils]: Remove: archive file [/home/abi/fetcher/tmp/MeUtils-2023.7.3.8.8.54.tar.gz]
+[2023-07-03 02:10:17] INFO root fetch - main [MainThread]: End processing [MeUtils]: success
+[2023-07-03 02:10:17] INFO root fetch - main [MainThread]: Store serial: [18732209]
