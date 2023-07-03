@@ -4353,3 +4353,66 @@
 [2023-07-03 02:54:57] INFO root fetch - processPackages [DBRetina]: Remove: archive file [/home/abi/fetcher/tmp/DBRetina-2.2.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2023-07-03 02:54:57] INFO root fetch - main [MainThread]: End processing [DBRetina]: success
 [2023-07-03 02:54:57] INFO root fetch - main [MainThread]: Store serial: [18733383]
+[2023-07-03 03:00:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18733383]
+[2023-07-03 03:00:12] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-03 03:00:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jyablonski-common-modules
+[2023-07-03 03:00:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pioreactor-basic-auth-for-ui
+[2023-07-03 03:00:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: update-notify
+[2023-07-03 03:00:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: project-tree
+[2023-07-03 03:00:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: endandaitonetettonetta
+[2023-07-03 03:00:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: aiopathy
+[2023-07-03 03:00:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: jsoner-lib
+[2023-07-03 03:00:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dry-scraper
+[2023-07-03 03:00:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dvc
+[2023-07-03 03:00:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: tencentcloud-sdk-python-intl-en
+[2023-07-03 03:00:12] INFO root fetch - processPackages [jyablonski-common-modules]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-03 03:00:12] WARNING root fetch - processPackages [endandaitonetettonetta]: Skipping, unable to determine old version
+[2023-07-03 03:00:12] INFO root fetch - main [MainThread]: End processing [endandaitonetettonetta] error
+[2023-07-03 03:00:12] WARNING root fetch - processPackages [aiopathy]: Skipping, unable to determine old version
+[2023-07-03 03:00:12] INFO root fetch - main [MainThread]: End processing [aiopathy] error
+[2023-07-03 03:00:12] WARNING root fetch - processPackages [pioreactor-basic-auth-for-ui]: Skipping, unable to determine old version
+[2023-07-03 03:00:12] INFO root fetch - main [MainThread]: End processing [pioreactor-basic-auth-for-ui] error
+[2023-07-03 03:00:12] WARNING root fetch - processPackages [update-notify]: Skipping, unable to determine old version
+[2023-07-03 03:00:12] INFO root fetch - main [MainThread]: End processing [update-notify] error
+[2023-07-03 03:00:12] INFO root fetch - processPackages [dry-scraper]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-07-03 03:00:12] INFO root fetch - processPackages [dvc]: New version: [3.3.1] Old Version: [3.3.0]
+[2023-07-03 03:00:12] INFO root fetch - processPackages [jsoner-lib]: New version: [0.2] Old Version: [0.1]
+[2023-07-03 03:00:12] WARNING root fetch - processPackages [project-tree]: Skipping, unable to determine old version
+[2023-07-03 03:00:12] INFO root fetch - main [MainThread]: End processing [project-tree] error
+[2023-07-03 03:00:12] INFO root fetch - processPackages [tencentcloud-sdk-python-intl-en]: New version: [3.0.99] Old Version: [3.0.98]
+[2023-07-03 03:00:12] INFO root fetch - processPackages [dvc]: Downloading https://files.pythonhosted.org/packages/76/d0/d6dc1c8056dac6221cf5b60d94eee6a07e46862bc99bc386e56e34d48b66/dvc-3.3.0.tar.gz
+[2023-07-03 03:00:12] INFO root fetch - processPackages [jyablonski-common-modules]: Downloading https://files.pythonhosted.org/packages/69/e0/df2b9ae2bccddc0d742e94501d59883db2258eeea3e284821b45a13b7dc8/jyablonski_common_modules-0.0.1.tar.gz
+[2023-07-03 03:00:12] INFO root fetch - processPackages [jsoner-lib]: Downloading https://files.pythonhosted.org/packages/b3/44/2e0ab117b8b9a3263847714c45814fc3ce7b1238194494401991b0812516/jsoner-lib-0.1.tar.gz
+[2023-07-03 03:00:12] INFO root fetch - processPackages [dry-scraper]: Downloading https://files.pythonhosted.org/packages/b4/f5/f9edda8fd792095001041743c9ce53d884a4027f7b40a962e5e50a7e3a1f/dry_scraper-0.1.4.tar.gz
+[2023-07-03 03:00:12] INFO root fetch - processPackages [tencentcloud-sdk-python-intl-en]: Downloading https://files.pythonhosted.org/packages/47/ec/491739e9cb7da970b8f280ea2383dc94da0c3d39e938ac559e0f2e52aea8/tencentcloud-sdk-python-intl-en-3.0.98.tar.gz
+[2023-07-03 03:00:13] INFO root fetch - processPackages [dvc]: Downloading https://files.pythonhosted.org/packages/47/95/af3a434d4e37df3718c7cd47127e4c948eeed0247bedce8e80e6762d0887/dvc-3.3.1.tar.gz
+[2023-07-03 03:00:13] INFO root fetch - processPackages [jsoner-lib]: Downloading https://files.pythonhosted.org/packages/c1/00/9a36ab9866303afe1e2541714324576cd4e3e6dfbb192145f221d137033a/jsoner-lib-0.2.tar.gz
+[2023-07-03 03:00:13] INFO root fetch - processPackages [jyablonski-common-modules]: Downloading https://files.pythonhosted.org/packages/57/9c/9cc16e304ddb2c1c143723862cd68011a13995f3fd466f668f2e7ffef648/jyablonski_common_modules-0.0.2.tar.gz
+[2023-07-03 03:00:13] INFO root fetch - processPackages [dvc]: executing diffoscope
+[2023-07-03 03:00:13] INFO root fetch - processPackages [dvc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dvc-3.3.0.tar.gz tmp/dvc-3.3.1.tar.gz --markdown 20230703/d/dvc/3.3.0-3.3.1/diff.md --exclude *.pyd
+[2023-07-03 03:00:13] INFO root fetch - processPackages [dry-scraper]: Downloading https://files.pythonhosted.org/packages/7f/6a/971f495269ff151bc616809e3393e741c89a5cade5295b9a059da74463b8/dry_scraper-0.1.5.tar.gz
+[2023-07-03 03:00:13] INFO root fetch - processPackages [jsoner-lib]: executing diffoscope
+[2023-07-03 03:00:13] INFO root fetch - processPackages [jsoner-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jsoner-lib-0.1.tar.gz tmp/jsoner-lib-0.2.tar.gz --markdown 20230703/j/jsoner-lib/0.1-0.2/diff.md --exclude *.pyd
+[2023-07-03 03:00:13] INFO root fetch - processPackages [jyablonski-common-modules]: executing diffoscope
+[2023-07-03 03:00:13] INFO root fetch - processPackages [jyablonski-common-modules]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jyablonski_common_modules-0.0.1.tar.gz tmp/jyablonski_common_modules-0.0.2.tar.gz --markdown 20230703/j/jyablonski-common-modules/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-03 03:00:13] INFO root fetch - processPackages [tencentcloud-sdk-python-intl-en]: Downloading https://files.pythonhosted.org/packages/ee/9c/2dcfed598218dfd2d81fa3078c736962b265e5ae724bec2686e853a74d71/tencentcloud-sdk-python-intl-en-3.0.99.tar.gz
+[2023-07-03 03:00:13] INFO root fetch - processPackages [dry-scraper]: executing diffoscope
+[2023-07-03 03:00:13] INFO root fetch - processPackages [dry-scraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dry_scraper-0.1.4.tar.gz tmp/dry_scraper-0.1.5.tar.gz --markdown 20230703/d/dry-scraper/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-07-03 03:00:13] INFO root fetch - processPackages [tencentcloud-sdk-python-intl-en]: executing diffoscope
+[2023-07-03 03:00:13] INFO root fetch - processPackages [tencentcloud-sdk-python-intl-en]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-intl-en-3.0.98.tar.gz tmp/tencentcloud-sdk-python-intl-en-3.0.99.tar.gz --markdown 20230703/t/tencentcloud-sdk-python-intl-en/3.0.98-3.0.99/diff.md --exclude *.pyd
+[2023-07-03 03:00:14] INFO root fetch - processPackages [jsoner-lib]: Remove: archive file [/home/abi/fetcher/tmp/jsoner-lib-0.1.tar.gz]
+[2023-07-03 03:00:14] INFO root fetch - processPackages [jsoner-lib]: Remove: archive file [/home/abi/fetcher/tmp/jsoner-lib-0.2.tar.gz]
+[2023-07-03 03:00:14] INFO root fetch - main [MainThread]: End processing [jsoner-lib]: success
+[2023-07-03 03:00:14] INFO root fetch - processPackages [dry-scraper]: Remove: archive file [/home/abi/fetcher/tmp/dry_scraper-0.1.4.tar.gz]
+[2023-07-03 03:00:14] INFO root fetch - processPackages [dry-scraper]: Remove: archive file [/home/abi/fetcher/tmp/dry_scraper-0.1.5.tar.gz]
+[2023-07-03 03:00:14] INFO root fetch - main [MainThread]: End processing [dry-scraper]: success
+[2023-07-03 03:00:16] INFO root fetch - processPackages [tencentcloud-sdk-python-intl-en]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-intl-en-3.0.98.tar.gz]
+[2023-07-03 03:00:16] INFO root fetch - processPackages [tencentcloud-sdk-python-intl-en]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-intl-en-3.0.99.tar.gz]
+[2023-07-03 03:00:16] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-intl-en]: success
+[2023-07-03 03:00:18] INFO root fetch - processPackages [dvc]: Remove: archive file [/home/abi/fetcher/tmp/dvc-3.3.0.tar.gz]
+[2023-07-03 03:00:18] INFO root fetch - processPackages [dvc]: Remove: archive file [/home/abi/fetcher/tmp/dvc-3.3.1.tar.gz]
+[2023-07-03 03:00:18] INFO root fetch - main [MainThread]: End processing [dvc]: success
+[2023-07-03 03:01:06] INFO root fetch - processPackages [jyablonski-common-modules]: Remove: archive file [/home/abi/fetcher/tmp/jyablonski_common_modules-0.0.1.tar.gz]
+[2023-07-03 03:01:06] INFO root fetch - processPackages [jyablonski-common-modules]: Remove: archive file [/home/abi/fetcher/tmp/jyablonski_common_modules-0.0.2.tar.gz]
+[2023-07-03 03:01:06] INFO root fetch - main [MainThread]: End processing [jyablonski-common-modules]: success
+[2023-07-03 03:01:06] INFO root fetch - main [MainThread]: Store serial: [18733423]
