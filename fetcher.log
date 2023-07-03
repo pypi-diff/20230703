@@ -23014,3 +23014,132 @@ EOFError: EOF read where object expected
 [2023-07-03 17:22:34] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.350.0.tar.gz]
 [2023-07-03 17:22:34] INFO root fetch - main [MainThread]: End processing [policyengine-us]: success
 [2023-07-03 17:22:34] INFO root fetch - main [MainThread]: Store serial: [18741377]
+[2023-07-03 17:27:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18741377]
+[2023-07-03 17:27:44] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-07-03 17:27:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyLegendSS
+[2023-07-03 17:27:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hello-world-cc1
+[2023-07-03 17:27:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nonebot-plugin-ocgbot-v2
+[2023-07-03 17:27:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: SAC-Tello
+[2023-07-03 17:27:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sunpeek
+[2023-07-03 17:27:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: invenio-rdm-records
+[2023-07-03 17:27:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: reliableGPT
+[2023-07-03 17:27:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: autora-experimentalist-falsification
+[2023-07-03 17:27:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: textual-dev
+[2023-07-03 17:27:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: invenio-rdm-records
+[2023-07-03 17:27:44] INFO root fetch - processPackages [textual-dev]: New version: [1.0.0] Old Version: [0.1.0]
+[2023-07-03 17:27:44] INFO root fetch - processPackages [sunpeek]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-03 17:27:44] INFO root fetch - processPackages [pyLegendSS]: New version: [0.3] Old Version: [0.2]
+[2023-07-03 17:27:44] INFO root fetch - processPackages [nonebot-plugin-ocgbot-v2]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-07-03 17:27:44] INFO root fetch - processPackages [textual-dev]: Downloading https://files.pythonhosted.org/packages/49/fb/9d3d88294f7d529658bd5a7b736baedb016573370627902f3cc8d77e693a/textual_dev-0.1.0.tar.gz
+[2023-07-03 17:27:44] INFO root fetch - processPackages [invenio-rdm-records]: New version: [4.6.0] Old Version: [4.5.0]
+[2023-07-03 17:27:44] WARNING root fetch - processPackages [hello-world-cc1]: Skipping, unable to determine old version
+[2023-07-03 17:27:44] INFO root fetch - processPackages [hello-world-cc1]: Start processing: ghga-event-schemas
+[2023-07-03 17:27:44] INFO root fetch - main [MainThread]: End processing [hello-world-cc1] error
+[2023-07-03 17:27:44] INFO root fetch - processPackages [autora-experimentalist-falsification]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-07-03 17:27:44] INFO root fetch - processPackages [SAC-Tello]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-03 17:27:44] INFO root fetch - processPackages [reliableGPT]: New version: [0.2.958] Old Version: [0.2.957]
+[2023-07-03 17:27:44] INFO root fetch - processPackages [invenio-rdm-records]: New version: [4.6.0] Old Version: [4.5.0]
+[2023-07-03 17:27:44] INFO root fetch - processPackages [sunpeek]: Downloading https://files.pythonhosted.org/packages/7d/87/fc2d2721ed03813871d259741139dcbcb0f1a5a7686743ee6d533d5af952/sunpeek-0.2.8-py3-none-any.whl
+[2023-07-03 17:27:44] INFO root fetch - processPackages [ghga-event-schemas]: New version: [0.8.0] Old Version: [0.7.4]
+[2023-07-03 17:27:44] INFO root fetch - processPackages [pyLegendSS]: Downloading https://files.pythonhosted.org/packages/a3/fa/b2da5e1f2cd7caf5726dfa0656707cd5329956f5bbd743c5826cde85a3d4/pyLegendSS-0.2.tar.gz
+[2023-07-03 17:27:44] INFO root fetch - processPackages [textual-dev]: Downloading https://files.pythonhosted.org/packages/26/d3/d14165b2a9559e1a6feb11e2f099af2c303a5864587029d1c770999c0a68/textual_dev-1.0.0.tar.gz
+[2023-07-03 17:27:44] INFO root fetch - processPackages [invenio-rdm-records]: Downloading https://files.pythonhosted.org/packages/3b/b6/9aa79c9e34c5e9e545067a262cea37a3a28c7f8923327c4ff4bac6c1df19/invenio-rdm-records-4.5.0.tar.gz
+[2023-07-03 17:27:44] INFO root fetch - processPackages [invenio-rdm-records]: Downloading https://files.pythonhosted.org/packages/3b/b6/9aa79c9e34c5e9e545067a262cea37a3a28c7f8923327c4ff4bac6c1df19/invenio-rdm-records-4.5.0.tar.gz
+[2023-07-03 17:27:44] INFO root fetch - processPackages [nonebot-plugin-ocgbot-v2]: Downloading https://files.pythonhosted.org/packages/52/42/393fcad6e439455da816fdb4a7c61f926cba160bd1857a0431129af08600/nonebot_plugin_ocgbot_v2-0.2.4.tar.gz
+[2023-07-03 17:27:44] INFO root fetch - processPackages [autora-experimentalist-falsification]: Downloading https://files.pythonhosted.org/packages/3f/2a/31933c623209fd599d132e41c3f9775fc6357fe3aa380c4e94722ae18e0b/autora-experimentalist-falsification-1.0.3.tar.gz
+[2023-07-03 17:27:45] INFO root fetch - processPackages [SAC-Tello]: Downloading https://files.pythonhosted.org/packages/e0/4c/fdeb3748dc3e2e0d8729c0fe96a7d478206d3d277f943f40e26f8d19ee9e/sac_tello-0.0.7.tar.gz
+[2023-07-03 17:27:45] INFO root fetch - processPackages [reliableGPT]: Downloading https://files.pythonhosted.org/packages/92/73/1c0e3575fd98fff046da07679db700bfc8b11736e0fded31d5ede3da1b40/reliableGPT-0.2.957.tar.gz
+[2023-07-03 17:27:45] INFO root fetch - processPackages [ghga-event-schemas]: Downloading https://files.pythonhosted.org/packages/3c/c0/caf266f667a293384e27df35c290f38f81bf0a1a5aae96f975e9a715ee43/ghga_event_schemas-0.7.4.tar.gz
+[2023-07-03 17:27:45] WARNING root fetch - processPackages [nonebot-plugin-ocgbot-v2]: Skipping package: exceeds size limit 18789589>=10485760
+[2023-07-03 17:27:45] INFO root fetch - processPackages [nonebot-plugin-ocgbot-v2]: Start processing: mend-ignore-alerts
+[2023-07-03 17:27:45] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-ocgbot-v2] error
+[2023-07-03 17:27:45] INFO root fetch - processPackages [textual-dev]: executing diffoscope
+[2023-07-03 17:27:45] INFO root fetch - processPackages [textual-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/textual_dev-0.1.0.tar.gz tmp/textual_dev-1.0.0.tar.gz --markdown 20230703/t/textual-dev/0.1.0-1.0.0/diff.md --exclude *.pyd
+[2023-07-03 17:27:45] INFO root fetch - processPackages [sunpeek]: Downloading https://files.pythonhosted.org/packages/a5/83/92e0e84a50850a618aae14d33638554bcbb3ccc7fc4a8bad2c03cfa0ed20/sunpeek-0.2.9-py3-none-any.whl
+[2023-07-03 17:27:45] INFO root fetch - processPackages [mend-ignore-alerts]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-03 17:27:45] INFO root fetch - processPackages [pyLegendSS]: Downloading https://files.pythonhosted.org/packages/90/4c/c23d701e20eff5b53337e69f4f7979419c438ad5d55f849282c161450278/pyLegendSS-0.3.tar.gz
+[2023-07-03 17:27:45] INFO root fetch - processPackages [mend-ignore-alerts]: Downloading https://files.pythonhosted.org/packages/02/e5/6786c6b7ae01fdfdc602f82430e907cb62acae32dc8c6344bee7e3a507f0/mend_ignore_alerts-0.2.8-py3-none-any.whl
+[2023-07-03 17:27:45] INFO root fetch - processPackages [sunpeek]: executing diffoscope
+[2023-07-03 17:27:45] INFO root fetch - processPackages [sunpeek]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sunpeek-0.2.8-py3-none-any.whl.zip tmp/sunpeek-0.2.9-py3-none-any.whl.zip --markdown 20230703/s/sunpeek/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-03 17:27:45] INFO root fetch - processPackages [pyLegendSS]: executing diffoscope
+[2023-07-03 17:27:45] INFO root fetch - processPackages [pyLegendSS]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyLegendSS-0.2.tar.gz tmp/pyLegendSS-0.3.tar.gz --markdown 20230703/p/pyLegendSS/0.2-0.3/diff.md --exclude *.pyd
+[2023-07-03 17:27:45] INFO root fetch - processPackages [reliableGPT]: Downloading https://files.pythonhosted.org/packages/41/08/75c78a5a1c96eacd537934cb171b7270627c690533a06f2b6ad0963532ec/reliableGPT-0.2.958.tar.gz
+[2023-07-03 17:27:45] INFO root fetch - processPackages [SAC-Tello]: Downloading https://files.pythonhosted.org/packages/62/ba/886501b8619284f23b65d259ee4f70c812a31a82ab04153ff87d7de2a7fc/sac_tello-0.0.8.tar.gz
+[2023-07-03 17:27:45] INFO root fetch - processPackages [invenio-rdm-records]: Downloading https://files.pythonhosted.org/packages/f4/60/bc2c8626ffbc1f31c12b44c13b9a82176f07af4295b55233f7a35bf7b3d4/invenio-rdm-records-4.6.0.tar.gz
+[2023-07-03 17:27:45] INFO root fetch - processPackages [invenio-rdm-records]: Downloading https://files.pythonhosted.org/packages/f4/60/bc2c8626ffbc1f31c12b44c13b9a82176f07af4295b55233f7a35bf7b3d4/invenio-rdm-records-4.6.0.tar.gz
+[2023-07-03 17:27:45] INFO root fetch - processPackages [autora-experimentalist-falsification]: Downloading https://files.pythonhosted.org/packages/b1/74/64165bebdcac43471f854f77e278fed2d3bee88fe0faaf9a481c21452b63/autora-experimentalist-falsification-1.0.4.tar.gz
+[2023-07-03 17:27:45] INFO root fetch - processPackages [ghga-event-schemas]: Downloading https://files.pythonhosted.org/packages/1b/dd/6c4a8a81b4b88360cebb39bd9f5e698ba599cf34be72cea0dfd9911549d6/ghga_event_schemas-0.8.0.tar.gz
+[2023-07-03 17:27:45] INFO root fetch - processPackages [mend-ignore-alerts]: Downloading https://files.pythonhosted.org/packages/1d/c0/01b6576231a0b44acf392f851c2d5271da39ec87be563cb54b3d9b424f5d/mend_ignore_alerts-0.2.9-py3-none-any.whl
+[2023-07-03 17:27:45] INFO root fetch - processPackages [reliableGPT]: executing diffoscope
+[2023-07-03 17:27:45] INFO root fetch - processPackages [reliableGPT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reliableGPT-0.2.957.tar.gz tmp/reliableGPT-0.2.958.tar.gz --markdown 20230703/r/reliableGPT/0.2.957-0.2.958/diff.md --exclude *.pyd
+[2023-07-03 17:27:45] INFO root fetch - processPackages [ghga-event-schemas]: executing diffoscope
+[2023-07-03 17:27:45] INFO root fetch - processPackages [ghga-event-schemas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ghga_event_schemas-0.7.4.tar.gz tmp/ghga_event_schemas-0.8.0.tar.gz --markdown 20230703/g/ghga-event-schemas/0.7.4-0.8.0/diff.md --exclude *.pyd
+[2023-07-03 17:27:45] INFO root fetch - processPackages [SAC-Tello]: executing diffoscope
+[2023-07-03 17:27:45] INFO root fetch - processPackages [SAC-Tello]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sac_tello-0.0.7.tar.gz tmp/sac_tello-0.0.8.tar.gz --markdown 20230703/S/SAC-Tello/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-03 17:27:45] INFO root fetch - processPackages [invenio-rdm-records]: executing diffoscope
+[2023-07-03 17:27:45] INFO root fetch - processPackages [invenio-rdm-records]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/invenio-rdm-records-4.5.0.tar.gz tmp/invenio-rdm-records-4.6.0.tar.gz --markdown 20230703/i/invenio-rdm-records/4.5.0-4.6.0/diff.md --exclude *.pyd
+[2023-07-03 17:27:45] INFO root fetch - processPackages [autora-experimentalist-falsification]: executing diffoscope
+[2023-07-03 17:27:45] INFO root fetch - processPackages [autora-experimentalist-falsification]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autora-experimentalist-falsification-1.0.3.tar.gz tmp/autora-experimentalist-falsification-1.0.4.tar.gz --markdown 20230703/a/autora-experimentalist-falsification/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-07-03 17:27:45] INFO root fetch - processPackages [invenio-rdm-records]: executing diffoscope
+[2023-07-03 17:27:45] INFO root fetch - processPackages [invenio-rdm-records]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/invenio-rdm-records-4.5.0.tar.gz tmp/invenio-rdm-records-4.6.0.tar.gz --markdown 20230703/i/invenio-rdm-records/4.5.0-4.6.0/diff.md --exclude *.pyd
+[2023-07-03 17:27:46] INFO root fetch - processPackages [mend-ignore-alerts]: executing diffoscope
+[2023-07-03 17:27:46] INFO root fetch - processPackages [mend-ignore-alerts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mend_ignore_alerts-0.2.8-py3-none-any.whl.zip tmp/mend_ignore_alerts-0.2.9-py3-none-any.whl.zip --markdown 20230703/m/mend-ignore-alerts/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-03 17:27:46] INFO root fetch - processPackages [textual-dev]: Remove: archive file [/home/abi/fetcher/tmp/textual_dev-0.1.0.tar.gz]
+[2023-07-03 17:27:46] INFO root fetch - processPackages [textual-dev]: Remove: archive file [/home/abi/fetcher/tmp/textual_dev-1.0.0.tar.gz]
+[2023-07-03 17:27:46] INFO root fetch - processPackages [textual-dev]: Start processing: wwpdb.utils.emdb
+[2023-07-03 17:27:46] INFO root fetch - main [MainThread]: End processing [textual-dev]: success
+[2023-07-03 17:27:46] INFO root fetch - processPackages [wwpdb.utils.emdb]: New version: [1.4.3] Old Version: [1.4.2]
+[2023-07-03 17:27:46] INFO root fetch - processPackages [wwpdb.utils.emdb]: Downloading https://files.pythonhosted.org/packages/9c/b4/8147abc8ffe8678e7f504310264f40ea016c71953a8d0f254388dc586cf5/wwpdb.utils.emdb-1.4.2.tar.gz
+[2023-07-03 17:27:46] INFO root fetch - processPackages [pyLegendSS]: Remove: archive file [/home/abi/fetcher/tmp/pyLegendSS-0.2.tar.gz]
+[2023-07-03 17:27:46] INFO root fetch - processPackages [pyLegendSS]: Remove: archive file [/home/abi/fetcher/tmp/pyLegendSS-0.3.tar.gz]
+[2023-07-03 17:27:46] INFO root fetch - processPackages [pyLegendSS]: Start processing: gmail-filter-manager
+[2023-07-03 17:27:46] INFO root fetch - main [MainThread]: End processing [pyLegendSS]: success
+[2023-07-03 17:27:46] WARNING root fetch - processPackages [gmail-filter-manager]: Skipping, unable to determine old version
+[2023-07-03 17:27:46] INFO root fetch - processPackages [gmail-filter-manager]: Start processing: matadi
+[2023-07-03 17:27:46] INFO root fetch - main [MainThread]: End processing [gmail-filter-manager] error
+[2023-07-03 17:27:46] INFO root fetch - processPackages [matadi]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-03 17:27:47] INFO root fetch - processPackages [wwpdb.utils.emdb]: Downloading https://files.pythonhosted.org/packages/3a/86/9eb0994dc31303421b06591ac856173716454e29e29fe5305d314ee79656/wwpdb.utils.emdb-1.4.3.tar.gz
+[2023-07-03 17:27:47] INFO root fetch - processPackages [sunpeek]: Remove: archive file [/home/abi/fetcher/tmp/sunpeek-0.2.8-py3-none-any.whl.zip]
+[2023-07-03 17:27:47] INFO root fetch - processPackages [sunpeek]: Remove: archive file [/home/abi/fetcher/tmp/sunpeek-0.2.9-py3-none-any.whl.zip]
+[2023-07-03 17:27:47] INFO root fetch - processPackages [sunpeek]: Start processing: openai-functions
+[2023-07-03 17:27:47] INFO root fetch - main [MainThread]: End processing [sunpeek]: success
+[2023-07-03 17:27:47] INFO root fetch - processPackages [matadi]: Downloading https://files.pythonhosted.org/packages/7b/7b/07c789b02c79d89792014f0a90c5334dd5ef13d72885a5808b043613a12f/matadi-0.1.8.tar.gz
+[2023-07-03 17:27:47] INFO root fetch - processPackages [openai-functions]: New version: [0.6.5] Old Version: [0.6.4]
+[2023-07-03 17:27:47] INFO root fetch - processPackages [wwpdb.utils.emdb]: executing diffoscope
+[2023-07-03 17:27:47] INFO root fetch - processPackages [wwpdb.utils.emdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wwpdb.utils.emdb-1.4.2.tar.gz tmp/wwpdb.utils.emdb-1.4.3.tar.gz --markdown 20230703/w/wwpdb.utils.emdb/1.4.2-1.4.3/diff.md --exclude *.pyd
+[2023-07-03 17:27:47] INFO root fetch - processPackages [ghga-event-schemas]: Remove: archive file [/home/abi/fetcher/tmp/ghga_event_schemas-0.7.4.tar.gz]
+[2023-07-03 17:27:47] INFO root fetch - processPackages [ghga-event-schemas]: Remove: archive file [/home/abi/fetcher/tmp/ghga_event_schemas-0.8.0.tar.gz]
+[2023-07-03 17:27:47] INFO root fetch - main [MainThread]: End processing [ghga-event-schemas]: success
+[2023-07-03 17:27:47] INFO root fetch - processPackages [openai-functions]: Downloading https://files.pythonhosted.org/packages/49/e5/bc302974c9850a47ba547103c609f8cfd390eb1ed8eea767c55357965119/openai_functions-0.6.4.tar.gz
+[2023-07-03 17:27:47] INFO root fetch - processPackages [SAC-Tello]: Remove: archive file [/home/abi/fetcher/tmp/sac_tello-0.0.7.tar.gz]
+[2023-07-03 17:27:47] INFO root fetch - processPackages [SAC-Tello]: Remove: archive file [/home/abi/fetcher/tmp/sac_tello-0.0.8.tar.gz]
+[2023-07-03 17:27:47] INFO root fetch - main [MainThread]: End processing [SAC-Tello]: success
+[2023-07-03 17:27:47] INFO root fetch - processPackages [mend-ignore-alerts]: Remove: archive file [/home/abi/fetcher/tmp/mend_ignore_alerts-0.2.8-py3-none-any.whl.zip]
+[2023-07-03 17:27:47] INFO root fetch - processPackages [mend-ignore-alerts]: Remove: archive file [/home/abi/fetcher/tmp/mend_ignore_alerts-0.2.9-py3-none-any.whl.zip]
+[2023-07-03 17:27:47] INFO root fetch - main [MainThread]: End processing [mend-ignore-alerts]: success
+[2023-07-03 17:27:47] INFO root fetch - processPackages [reliableGPT]: Remove: archive file [/home/abi/fetcher/tmp/reliableGPT-0.2.957.tar.gz]
+[2023-07-03 17:27:47] INFO root fetch - processPackages [reliableGPT]: Remove: archive file [/home/abi/fetcher/tmp/reliableGPT-0.2.958.tar.gz]
+[2023-07-03 17:27:47] INFO root fetch - main [MainThread]: End processing [reliableGPT]: success
+[2023-07-03 17:27:47] INFO root fetch - processPackages [matadi]: Downloading https://files.pythonhosted.org/packages/53/db/64ef4477b4bd518267503761a3551be2a44de45885c79ce0aaac1d671f04/matadi-0.1.9.tar.gz
+[2023-07-03 17:27:47] INFO root fetch - processPackages [autora-experimentalist-falsification]: Remove: archive file [/home/abi/fetcher/tmp/autora-experimentalist-falsification-1.0.3.tar.gz]
+[2023-07-03 17:27:47] INFO root fetch - processPackages [autora-experimentalist-falsification]: Remove: archive file [/home/abi/fetcher/tmp/autora-experimentalist-falsification-1.0.4.tar.gz]
+[2023-07-03 17:27:47] INFO root fetch - main [MainThread]: End processing [autora-experimentalist-falsification]: success
+[2023-07-03 17:27:47] INFO root fetch - processPackages [matadi]: executing diffoscope
+[2023-07-03 17:27:47] INFO root fetch - processPackages [matadi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/matadi-0.1.8.tar.gz tmp/matadi-0.1.9.tar.gz --markdown 20230703/m/matadi/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-03 17:27:47] INFO root fetch - processPackages [openai-functions]: Downloading https://files.pythonhosted.org/packages/ad/00/f9a2435b428a5f6a4aac4115fdc36ee689924a087c8e671ca76c261a38bf/openai_functions-0.6.5.tar.gz
+[2023-07-03 17:27:48] INFO root fetch - processPackages [openai-functions]: executing diffoscope
+[2023-07-03 17:27:48] INFO root fetch - processPackages [openai-functions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openai_functions-0.6.4.tar.gz tmp/openai_functions-0.6.5.tar.gz --markdown 20230703/o/openai-functions/0.6.4-0.6.5/diff.md --exclude *.pyd
+[2023-07-03 17:27:48] INFO root fetch - processPackages [wwpdb.utils.emdb]: Remove: archive file [/home/abi/fetcher/tmp/wwpdb.utils.emdb-1.4.2.tar.gz]
+[2023-07-03 17:27:48] INFO root fetch - processPackages [wwpdb.utils.emdb]: Remove: archive file [/home/abi/fetcher/tmp/wwpdb.utils.emdb-1.4.3.tar.gz]
+[2023-07-03 17:27:48] INFO root fetch - main [MainThread]: End processing [wwpdb.utils.emdb]: success
+[2023-07-03 17:27:48] INFO root fetch - processPackages [matadi]: Remove: archive file [/home/abi/fetcher/tmp/matadi-0.1.8.tar.gz]
+[2023-07-03 17:27:48] INFO root fetch - processPackages [matadi]: Remove: archive file [/home/abi/fetcher/tmp/matadi-0.1.9.tar.gz]
+[2023-07-03 17:27:48] INFO root fetch - main [MainThread]: End processing [matadi]: success
+[2023-07-03 17:27:48] INFO root fetch - processPackages [openai-functions]: Remove: archive file [/home/abi/fetcher/tmp/openai_functions-0.6.4.tar.gz]
+[2023-07-03 17:27:48] INFO root fetch - processPackages [openai-functions]: Remove: archive file [/home/abi/fetcher/tmp/openai_functions-0.6.5.tar.gz]
+[2023-07-03 17:27:48] INFO root fetch - main [MainThread]: End processing [openai-functions]: success
+[2023-07-03 17:27:50] INFO root fetch - processPackages [invenio-rdm-records]: Remove: archive file [/home/abi/fetcher/tmp/invenio-rdm-records-4.5.0.tar.gz]
+[2023-07-03 17:27:50] INFO root fetch - processPackages [invenio-rdm-records]: Remove: archive file [/home/abi/fetcher/tmp/invenio-rdm-records-4.6.0.tar.gz]
+[2023-07-03 17:27:50] INFO root fetch - main [MainThread]: End processing [invenio-rdm-records]: success
+[2023-07-03 17:27:50] INFO root fetch - main [MainThread]: End processing [invenio-rdm-records]: success
+[2023-07-03 17:27:50] INFO root fetch - main [MainThread]: Store serial: [18741424]
