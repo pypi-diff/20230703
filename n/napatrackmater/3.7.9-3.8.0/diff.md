@@ -1,0 +1,4375 @@
+# Comparing `tmp/napatrackmater-3.7.9.tar.gz` & `tmp/napatrackmater-3.8.0.tar.gz`
+
+## filetype from file(1)
+
+```diff
+@@ -1 +1 @@
+-gzip compressed data, was "napatrackmater-3.7.9.tar", last modified: Mon Jul  3 08:07:13 2023, max compression
++gzip compressed data, was "napatrackmater-3.8.0.tar", last modified: Mon Jul  3 10:26:41 2023, max compression
+```
+
+## Comparing `napatrackmater-3.7.9.tar` & `napatrackmater-3.8.0.tar`
+
+### file list
+
+```diff
+@@ -1,24 +1,24 @@
+-drwxrwxrwx   0 debian    (1000) debian    (1000)        0 2023-07-03 08:07:13.369219 napatrackmater-3.7.9/
+--rwxrwxrwx   0 debian    (1000) debian    (1000)     1541 2023-02-25 13:00:46.000000 napatrackmater-3.7.9/LICENSE
+--rwxrwxrwx   0 debian    (1000) debian    (1000)     2816 2023-07-03 08:07:13.365217 napatrackmater-3.7.9/PKG-INFO
+--rwxrwxrwx   0 debian    (1000) debian    (1000)     2276 2023-02-25 13:36:08.000000 napatrackmater-3.7.9/README.md
+-drwxrwxrwx   0 debian    (1000) debian    (1000)        0 2023-07-03 08:07:13.166513 napatrackmater-3.7.9/napatrackmater/
+--rwxrwxrwx   0 debian    (1000) debian    (1000)     1261 2023-06-02 10:49:22.000000 napatrackmater-3.7.9/napatrackmater/CloudAutoEncoder.py
+--rwxrwxrwx   0 debian    (1000) debian    (1000)      887 2023-06-02 10:42:27.000000 napatrackmater-3.7.9/napatrackmater/DeepEmbeddedClustering.py
+--rwxrwxrwx   0 debian    (1000) debian    (1000)   110394 2023-06-11 19:02:37.000000 napatrackmater-3.7.9/napatrackmater/Trackmate.py
+--rwxrwxrwx   0 debian    (1000) debian    (1000)    16426 2023-06-15 20:52:31.000000 napatrackmater-3.7.9/napatrackmater/Trackvector.py
+--rwxrwxrwx   0 debian    (1000) debian    (1000)     1723 2023-06-11 17:28:48.000000 napatrackmater-3.7.9/napatrackmater/__init__.py
+--rwxrwxrwx   0 debian    (1000) debian    (1000)    14304 2023-06-15 20:51:11.000000 napatrackmater-3.7.9/napatrackmater/clustering.py
+--rwxrwxrwx   0 debian    (1000) debian    (1000)     3675 2023-04-23 07:54:27.000000 napatrackmater-3.7.9/napatrackmater/fast_radius_regression.py
+--rwxrwxrwx   0 debian    (1000) debian    (1000)    13011 2023-04-23 09:37:34.000000 napatrackmater-3.7.9/napatrackmater/fate_mapping.py
+--rwxrwxrwx   0 debian    (1000) debian    (1000)     6008 2023-06-02 10:44:48.000000 napatrackmater-3.7.9/napatrackmater/pretrained.py
+--rwxrwxrwx   0 debian    (1000) debian    (1000)       25 2023-07-03 07:55:51.000000 napatrackmater-3.7.9/napatrackmater/version.py
+-drwxrwxrwx   0 debian    (1000) debian    (1000)        0 2023-07-03 08:07:13.334410 napatrackmater-3.7.9/napatrackmater.egg-info/
+--rwxrwxrwx   0 debian    (1000) debian    (1000)     2816 2023-07-03 08:07:12.000000 napatrackmater-3.7.9/napatrackmater.egg-info/PKG-INFO
+--rwxrwxrwx   0 debian    (1000) debian    (1000)      573 2023-07-03 08:07:12.000000 napatrackmater-3.7.9/napatrackmater.egg-info/SOURCES.txt
+--rwxrwxrwx   0 debian    (1000) debian    (1000)        1 2023-07-03 08:07:12.000000 napatrackmater-3.7.9/napatrackmater.egg-info/dependency_links.txt
+--rwxrwxrwx   0 debian    (1000) debian    (1000)       55 2023-07-03 08:07:12.000000 napatrackmater-3.7.9/napatrackmater.egg-info/entry_points.txt
+--rwxrwxrwx   0 debian    (1000) debian    (1000)      107 2023-07-03 08:07:12.000000 napatrackmater-3.7.9/napatrackmater.egg-info/requires.txt
+--rwxrwxrwx   0 debian    (1000) debian    (1000)       15 2023-07-03 08:07:12.000000 napatrackmater-3.7.9/napatrackmater.egg-info/top_level.txt
+--rwxrwxrwx   0 debian    (1000) debian    (1000)       38 2023-07-03 08:07:13.371539 napatrackmater-3.7.9/setup.cfg
+--rwxrwxrwx   0 debian    (1000) debian    (1000)     1410 2023-07-03 08:06:08.000000 napatrackmater-3.7.9/setup.py
++drwxrwxrwx   0 debian    (1000) debian    (1000)        0 2023-07-03 10:26:41.545836 napatrackmater-3.8.0/
++-rwxrwxrwx   0 debian    (1000) debian    (1000)     1541 2023-02-25 13:00:46.000000 napatrackmater-3.8.0/LICENSE
++-rwxrwxrwx   0 debian    (1000) debian    (1000)     2816 2023-07-03 10:26:41.540051 napatrackmater-3.8.0/PKG-INFO
++-rwxrwxrwx   0 debian    (1000) debian    (1000)     2276 2023-02-25 13:36:08.000000 napatrackmater-3.8.0/README.md
++drwxrwxrwx   0 debian    (1000) debian    (1000)        0 2023-07-03 10:26:41.319552 napatrackmater-3.8.0/napatrackmater/
++-rwxrwxrwx   0 debian    (1000) debian    (1000)     1261 2023-06-02 10:49:22.000000 napatrackmater-3.8.0/napatrackmater/CloudAutoEncoder.py
++-rwxrwxrwx   0 debian    (1000) debian    (1000)      887 2023-06-02 10:42:27.000000 napatrackmater-3.8.0/napatrackmater/DeepEmbeddedClustering.py
++-rwxrwxrwx   0 debian    (1000) debian    (1000)   109368 2023-07-03 10:21:48.000000 napatrackmater-3.8.0/napatrackmater/Trackmate.py
++-rwxrwxrwx   0 debian    (1000) debian    (1000)    16426 2023-06-15 20:52:31.000000 napatrackmater-3.8.0/napatrackmater/Trackvector.py
++-rwxrwxrwx   0 debian    (1000) debian    (1000)     1723 2023-06-11 17:28:48.000000 napatrackmater-3.8.0/napatrackmater/__init__.py
++-rwxrwxrwx   0 debian    (1000) debian    (1000)    14304 2023-06-15 20:51:11.000000 napatrackmater-3.8.0/napatrackmater/clustering.py
++-rwxrwxrwx   0 debian    (1000) debian    (1000)     3675 2023-04-23 07:54:27.000000 napatrackmater-3.8.0/napatrackmater/fast_radius_regression.py
++-rwxrwxrwx   0 debian    (1000) debian    (1000)    13011 2023-04-23 09:37:34.000000 napatrackmater-3.8.0/napatrackmater/fate_mapping.py
++-rwxrwxrwx   0 debian    (1000) debian    (1000)     6008 2023-06-02 10:44:48.000000 napatrackmater-3.8.0/napatrackmater/pretrained.py
++-rwxrwxrwx   0 debian    (1000) debian    (1000)       25 2023-07-03 10:26:05.000000 napatrackmater-3.8.0/napatrackmater/version.py
++drwxrwxrwx   0 debian    (1000) debian    (1000)        0 2023-07-03 10:26:41.506665 napatrackmater-3.8.0/napatrackmater.egg-info/
++-rwxrwxrwx   0 debian    (1000) debian    (1000)     2816 2023-07-03 10:26:40.000000 napatrackmater-3.8.0/napatrackmater.egg-info/PKG-INFO
++-rwxrwxrwx   0 debian    (1000) debian    (1000)      573 2023-07-03 10:26:40.000000 napatrackmater-3.8.0/napatrackmater.egg-info/SOURCES.txt
++-rwxrwxrwx   0 debian    (1000) debian    (1000)        1 2023-07-03 10:26:40.000000 napatrackmater-3.8.0/napatrackmater.egg-info/dependency_links.txt
++-rwxrwxrwx   0 debian    (1000) debian    (1000)       55 2023-07-03 10:26:40.000000 napatrackmater-3.8.0/napatrackmater.egg-info/entry_points.txt
++-rwxrwxrwx   0 debian    (1000) debian    (1000)      107 2023-07-03 10:26:40.000000 napatrackmater-3.8.0/napatrackmater.egg-info/requires.txt
++-rwxrwxrwx   0 debian    (1000) debian    (1000)       15 2023-07-03 10:26:40.000000 napatrackmater-3.8.0/napatrackmater.egg-info/top_level.txt
++-rwxrwxrwx   0 debian    (1000) debian    (1000)       38 2023-07-03 10:26:41.546841 napatrackmater-3.8.0/setup.cfg
++-rwxrwxrwx   0 debian    (1000) debian    (1000)     1410 2023-07-03 08:06:08.000000 napatrackmater-3.8.0/setup.py
+```
+
+### Comparing `napatrackmater-3.7.9/LICENSE` & `napatrackmater-3.8.0/LICENSE`
+
+ * *Files identical despite different names*
+
+### Comparing `napatrackmater-3.7.9/PKG-INFO` & `napatrackmater-3.8.0/PKG-INFO`
+
+ * *Files 0% similar despite different names*
+
+```diff
+@@ -1,10 +1,10 @@
+ Metadata-Version: 2.1
+ Name: napatrackmater
+-Version: 3.7.9
++Version: 3.8.0
+ Summary: Import Trackmate XML files for Track Visualization and analysis in Napari.
+ Home-page: https://github.com/kapoorlab/NapaTrackMater/
+ Author: Varun Kapoor, Mari Tolonen
+ Author-email: randomaccessiblekapoor@gmail.com
+ Classifier: Development Status :: 3 - Alpha
+ Classifier: Natural Language :: English
+ Classifier: License :: OSI Approved :: MIT License
+```
+
+### Comparing `napatrackmater-3.7.9/README.md` & `napatrackmater-3.8.0/README.md`
+
+ * *Files identical despite different names*
+
+### Comparing `napatrackmater-3.7.9/napatrackmater/CloudAutoEncoder.py` & `napatrackmater-3.8.0/napatrackmater/CloudAutoEncoder.py`
+
+ * *Files identical despite different names*
+
+### Comparing `napatrackmater-3.7.9/napatrackmater/DeepEmbeddedClustering.py` & `napatrackmater-3.8.0/napatrackmater/DeepEmbeddedClustering.py`
+
+ * *Files identical despite different names*
+
+### Comparing `napatrackmater-3.7.9/napatrackmater/Trackmate.py` & `napatrackmater-3.8.0/napatrackmater/Trackmate.py`
+
+ * *Files 2% similar despite different names*
+
+```diff
+@@ -4746,2155 +4746,2091 @@
+ 00012890: 2020 2020 2020 6375 7272 656e 745f 7920        current_y 
+ 000128a0: 3d20 5b5d 0d0a 2020 2020 2020 2020 2020  = []..          
+ 000128b0: 2020 2020 2020 2020 2063 7572 7265 6e74           current
+ 000128c0: 5f78 203d 205b 5d0d 0a20 2020 2020 2020  _x = []..       
+ 000128d0: 2020 2020 2020 2020 2020 2020 6375 7272              curr
+ 000128e0: 656e 745f 696e 7465 6e73 6974 7920 3d20  ent_intensity = 
+ 000128f0: 5b5d 0d0a 2020 2020 2020 2020 2020 2020  []..            
+-00012900: 2020 2020 2020 2063 7572 7265 6e74 5f63         current_c
+-00012910: 6c75 7374 6572 5f63 6c61 7373 203d 205b  luster_class = [
+-00012920: 5d0d 0a20 2020 2020 2020 2020 2020 2020  ]..             
+-00012930: 2020 2020 2020 6375 7272 656e 745f 636c        current_cl
+-00012940: 7573 7465 725f 636c 6173 735f 7363 6f72  uster_class_scor
+-00012950: 6520 3d20 5b5d 0d0a 2020 2020 2020 2020  e = []..        
+-00012960: 2020 2020 2020 2020 2020 2063 7572 7265             curre
+-00012970: 6e74 5f72 6164 6975 7320 3d20 5b5d 0d0a  nt_radius = []..
+-00012980: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-00012990: 2020 2063 7572 7265 6e74 5f76 6f6c 756d     current_volum
+-000129a0: 6520 3d20 5b5d 0d0a 2020 2020 2020 2020  e = []..        
+-000129b0: 2020 2020 2020 2020 2020 2063 7572 7265             curre
+-000129c0: 6e74 5f73 7065 6564 203d 205b 5d0d 0a20  nt_speed = [].. 
+-000129d0: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-000129e0: 2020 6375 7272 656e 745f 6d6f 7469 6f6e    current_motion
+-000129f0: 5f61 6e67 6c65 203d 205b 5d0d 0a20 2020  _angle = []..   
+-00012a00: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-00012a10: 6375 7272 656e 745f 6163 6365 6c65 7261  current_accelera
+-00012a20: 7469 6f6e 203d 205b 5d0d 0a20 2020 2020  tion = []..     
+-00012a30: 2020 2020 2020 2020 2020 2020 2020 6375                cu
+-00012a40: 7272 656e 745f 6469 7374 616e 6365 5f63  rrent_distance_c
+-00012a50: 656c 6c5f 6d61 736b 203d 205b 5d0d 0a20  ell_mask = [].. 
+-00012a60: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-00012a70: 2020 6375 7272 656e 745f 6563 6365 6e74    current_eccent
+-00012a80: 7269 6369 7479 5f63 6f6d 705f 6669 7273  ricity_comp_firs
+-00012a90: 7420 3d20 5b5d 0d0a 2020 2020 2020 2020  t = []..        
+-00012aa0: 2020 2020 2020 2020 2020 2063 7572 7265             curre
+-00012ab0: 6e74 5f65 6363 656e 7472 6963 6974 795f  nt_eccentricity_
+-00012ac0: 636f 6d70 5f73 6563 6f6e 6420 3d20 5b5d  comp_second = []
+-00012ad0: 0d0a 2020 2020 2020 2020 2020 2020 2020  ..              
+-00012ae0: 2020 2020 2063 7572 7265 6e74 5f73 7572       current_sur
+-00012af0: 6661 6365 5f61 7265 6120 3d20 5b5d 0d0a  face_area = []..
+-00012b00: 0d0a 2020 2020 2020 2020 2020 2020 2020  ..              
+-00012b10: 2020 2020 2063 7572 7265 6e74 5f72 6164       current_rad
+-00012b20: 6961 6c5f 616e 676c 6520 3d20 5b5d 0d0a  ial_angle = []..
+-00012b30: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-00012b40: 2020 2063 7572 7265 6e74 5f63 656c 6c5f     current_cell_
+-00012b50: 6178 6973 5f6d 6173 6b20 3d20 5b5d 200d  axis_mask = [] .
+-00012b60: 0a20 2020 2020 2020 2020 2020 2020 2020  .               
+-00012b70: 2020 2020 0d0a 2020 2020 2020 2020 2020      ..          
+-00012b80: 2020 2020 2020 2020 2066 6f72 206a 2069           for j i
+-00012b90: 6e20 7261 6e67 6528 7469 6d65 2e73 6861  n range(time.sha
+-00012ba0: 7065 5b30 5d29 3a0d 0a20 2020 2020 2020  pe[0]):..       
+-00012bb0: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-00012bc0: 2020 2069 6620 6375 7272 656e 745f 756e     if current_un
+-00012bd0: 6971 7565 5f69 6420 3d3d 2075 6e69 7175  ique_id == uniqu
+-00012be0: 655f 6964 735b 6a5d 3a0d 0a20 2020 2020  e_ids[j]:..     
+-00012bf0: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-00012c00: 2020 2020 2020 2020 2020 2020 6375 7272              curr
+-00012c10: 656e 745f 7469 6d65 2e61 7070 656e 6428  ent_time.append(
+-00012c20: 7469 6d65 5b6a 5d29 0d0a 2020 2020 2020  time[j])..      
+-00012c30: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-00012c40: 2020 2020 2020 2020 2020 2063 7572 7265             curre
+-00012c50: 6e74 5f7a 2e61 7070 656e 6428 5a5b 6a5d  nt_z.append(Z[j]
+-00012c60: 290d 0a20 2020 2020 2020 2020 2020 2020  )..             
+-00012c70: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-00012c80: 2020 2020 6375 7272 656e 745f 792e 6170      current_y.ap
+-00012c90: 7065 6e64 2859 5b6a 5d29 0d0a 2020 2020  pend(Y[j])..    
+-00012ca0: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-00012cb0: 2020 2020 2020 2020 2020 2020 2063 7572               cur
+-00012cc0: 7265 6e74 5f78 2e61 7070 656e 6428 585b  rent_x.append(X[
+-00012cd0: 6a5d 290d 0a20 2020 2020 2020 2020 2020  j])..           
+-00012ce0: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-00012cf0: 2020 2020 2020 6578 7061 6e64 6564 5f69        expanded_i
+-00012d00: 6e74 656e 7369 7479 5b69 6e74 2874 696d  ntensity[int(tim
+-00012d10: 655b 6a5d 295d 203d 2069 6e74 656e 7369  e[j])] = intensi
+-00012d20: 7479 5b6a 5d0d 0a20 2020 2020 2020 2020  ty[j]..         
+-00012d30: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-00012d40: 2020 2020 2020 2020 6375 7272 656e 745f          current_
+-00012d50: 696e 7465 6e73 6974 792e 6170 7065 6e64  intensity.append
+-00012d60: 2869 6e74 656e 7369 7479 5b6a 5d29 0d0a  (intensity[j])..
+-00012d70: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-00012d80: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-00012d90: 2063 7572 7265 6e74 5f72 6164 6975 732e   current_radius.
+-00012da0: 6170 7065 6e64 2872 6164 6975 735b 6a5d  append(radius[j]
+-00012db0: 290d 0a20 2020 2020 2020 2020 2020 2020  )..             
+-00012dc0: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-00012dd0: 2020 2020 6375 7272 656e 745f 766f 6c75      current_volu
+-00012de0: 6d65 2e61 7070 656e 6428 766f 6c75 6d65  me.append(volume
+-00012df0: 5b6a 5d29 0d0a 2020 2020 2020 2020 2020  [j])..          
+-00012e00: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-00012e10: 2020 2020 2020 2063 7572 7265 6e74 5f73         current_s
+-00012e20: 7065 6564 2e61 7070 656e 6428 7370 6565  peed.append(spee
+-00012e30: 645b 6a5d 290d 0a20 2020 2020 2020 2020  d[j])..         
+-00012e40: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-00012e50: 2020 2020 2020 2020 6375 7272 656e 745f          current_
+-00012e60: 6d6f 7469 6f6e 5f61 6e67 6c65 2e61 7070  motion_angle.app
+-00012e70: 656e 6428 6d6f 7469 6f6e 5f61 6e67 6c65  end(motion_angle
+-00012e80: 5b6a 5d29 0d0a 2020 2020 2020 2020 2020  [j])..          
+-00012e90: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-00012ea0: 2020 2020 2020 2063 7572 7265 6e74 5f61         current_a
+-00012eb0: 6363 656c 6572 6174 696f 6e2e 6170 7065  cceleration.appe
+-00012ec0: 6e64 2861 6363 656c 6572 6174 696f 6e5b  nd(acceleration[
+-00012ed0: 6a5d 290d 0a20 2020 2020 2020 2020 2020  j])..           
+-00012ee0: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-00012ef0: 2020 2020 2020 6375 7272 656e 745f 6469        current_di
+-00012f00: 7374 616e 6365 5f63 656c 6c5f 6d61 736b  stance_cell_mask
+-00012f10: 2e61 7070 656e 6428 6469 7374 616e 6365  .append(distance
+-00012f20: 5f63 656c 6c5f 6d61 736b 5b6a 5d29 0d0a  _cell_mask[j])..
+-00012f30: 2020 2020 2020 2020 2020 2020 2020 2020                  
++00012900: 2020 2020 2020 2063 7572 7265 6e74 5f72         current_r
++00012910: 6164 6975 7320 3d20 5b5d 0d0a 2020 2020  adius = []..    
++00012920: 2020 2020 2020 2020 2020 2020 2020 2063                 c
++00012930: 7572 7265 6e74 5f76 6f6c 756d 6520 3d20  urrent_volume = 
++00012940: 5b5d 0d0a 2020 2020 2020 2020 2020 2020  []..            
++00012950: 2020 2020 2020 2063 7572 7265 6e74 5f73         current_s
++00012960: 7065 6564 203d 205b 5d0d 0a20 2020 2020  peed = []..     
++00012970: 2020 2020 2020 2020 2020 2020 2020 6375                cu
++00012980: 7272 656e 745f 6d6f 7469 6f6e 5f61 6e67  rrent_motion_ang
++00012990: 6c65 203d 205b 5d0d 0a20 2020 2020 2020  le = []..       
++000129a0: 2020 2020 2020 2020 2020 2020 6375 7272              curr
++000129b0: 656e 745f 6163 6365 6c65 7261 7469 6f6e  ent_acceleration
++000129c0: 203d 205b 5d0d 0a20 2020 2020 2020 2020   = []..         
++000129d0: 2020 2020 2020 2020 2020 6375 7272 656e            curren
++000129e0: 745f 6469 7374 616e 6365 5f63 656c 6c5f  t_distance_cell_
++000129f0: 6d61 736b 203d 205b 5d0d 0a20 2020 2020  mask = []..     
++00012a00: 2020 2020 2020 2020 2020 2020 2020 6375                cu
++00012a10: 7272 656e 745f 6563 6365 6e74 7269 6369  rrent_eccentrici
++00012a20: 7479 5f63 6f6d 705f 6669 7273 7420 3d20  ty_comp_first = 
++00012a30: 5b5d 0d0a 2020 2020 2020 2020 2020 2020  []..            
++00012a40: 2020 2020 2020 2063 7572 7265 6e74 5f65         current_e
++00012a50: 6363 656e 7472 6963 6974 795f 636f 6d70  ccentricity_comp
++00012a60: 5f73 6563 6f6e 6420 3d20 5b5d 0d0a 2020  _second = []..  
++00012a70: 2020 2020 2020 2020 2020 2020 2020 2020                  
++00012a80: 2063 7572 7265 6e74 5f73 7572 6661 6365   current_surface
++00012a90: 5f61 7265 6120 3d20 5b5d 0d0a 0d0a 2020  _area = []....  
++00012aa0: 2020 2020 2020 2020 2020 2020 2020 2020                  
++00012ab0: 2063 7572 7265 6e74 5f72 6164 6961 6c5f   current_radial_
++00012ac0: 616e 676c 6520 3d20 5b5d 0d0a 2020 2020  angle = []..    
++00012ad0: 2020 2020 2020 2020 2020 2020 2020 2063                 c
++00012ae0: 7572 7265 6e74 5f63 656c 6c5f 6178 6973  urrent_cell_axis
++00012af0: 5f6d 6173 6b20 3d20 5b5d 200d 0a20 2020  _mask = [] ..   
++00012b00: 2020 2020 2020 2020 2020 2020 2020 2020                  
++00012b10: 0d0a 2020 2020 2020 2020 2020 2020 2020  ..              
++00012b20: 2020 2020 2066 6f72 206a 2069 6e20 7261       for j in ra
++00012b30: 6e67 6528 7469 6d65 2e73 6861 7065 5b30  nge(time.shape[0
++00012b40: 5d29 3a0d 0a20 2020 2020 2020 2020 2020  ]):..           
++00012b50: 2020 2020 2020 2020 2020 2020 2020 2069                 i
++00012b60: 6620 6375 7272 656e 745f 756e 6971 7565  f current_unique
++00012b70: 5f69 6420 3d3d 2075 6e69 7175 655f 6964  _id == unique_id
++00012b80: 735b 6a5d 3a0d 0a20 2020 2020 2020 2020  s[j]:..         
++00012b90: 2020 2020 2020 2020 2020 2020 2020 2020                  
++00012ba0: 2020 2020 2020 2020 6375 7272 656e 745f          current_
++00012bb0: 7469 6d65 2e61 7070 656e 6428 7469 6d65  time.append(time
++00012bc0: 5b6a 5d29 0d0a 2020 2020 2020 2020 2020  [j])..          
++00012bd0: 2020 2020 2020 2020 2020 2020 2020 2020                  
++00012be0: 2020 2020 2020 2063 7572 7265 6e74 5f7a         current_z
++00012bf0: 2e61 7070 656e 6428 5a5b 6a5d 290d 0a20  .append(Z[j]).. 
++00012c00: 2020 2020 2020 2020 2020 2020 2020 2020                  
++00012c10: 2020 2020 2020 2020 2020 2020 2020 2020                  
++00012c20: 6375 7272 656e 745f 792e 6170 7065 6e64  current_y.append
++00012c30: 2859 5b6a 5d29 0d0a 2020 2020 2020 2020  (Y[j])..        
++00012c40: 2020 2020 2020 2020 2020 2020 2020 2020                  
++00012c50: 2020 2020 2020 2020 2063 7572 7265 6e74           current
++00012c60: 5f78 2e61 7070 656e 6428 585b 6a5d 290d  _x.append(X[j]).
++00012c70: 0a20 2020 2020 2020 2020 2020 2020 2020  .               
++00012c80: 2020 2020 2020 2020 2020 2020 2020 2020                  
++00012c90: 2020 6578 7061 6e64 6564 5f69 6e74 656e    expanded_inten
++00012ca0: 7369 7479 5b69 6e74 2874 696d 655b 6a5d  sity[int(time[j]
++00012cb0: 295d 203d 2069 6e74 656e 7369 7479 5b6a  )] = intensity[j
++00012cc0: 5d0d 0a20 2020 2020 2020 2020 2020 2020  ]..             
++00012cd0: 2020 2020 2020 2020 2020 2020 2020 2020                  
++00012ce0: 2020 2020 6375 7272 656e 745f 696e 7465      current_inte
++00012cf0: 6e73 6974 792e 6170 7065 6e64 2869 6e74  nsity.append(int
++00012d00: 656e 7369 7479 5b6a 5d29 0d0a 2020 2020  ensity[j])..    
++00012d10: 2020 2020 2020 2020 2020 2020 2020 2020                  
++00012d20: 2020 2020 2020 2020 2020 2020 2063 7572               cur
++00012d30: 7265 6e74 5f72 6164 6975 732e 6170 7065  rent_radius.appe
++00012d40: 6e64 2872 6164 6975 735b 6a5d 290d 0a20  nd(radius[j]).. 
++00012d50: 2020 2020 2020 2020 2020 2020 2020 2020                  
++00012d60: 2020 2020 2020 2020 2020 2020 2020 2020                  
++00012d70: 6375 7272 656e 745f 766f 6c75 6d65 2e61  current_volume.a
++00012d80: 7070 656e 6428 766f 6c75 6d65 5b6a 5d29  ppend(volume[j])
++00012d90: 0d0a 2020 2020 2020 2020 2020 2020 2020  ..              
++00012da0: 2020 2020 2020 2020 2020 2020 2020 2020                  
++00012db0: 2020 2063 7572 7265 6e74 5f73 7065 6564     current_speed
++00012dc0: 2e61 7070 656e 6428 7370 6565 645b 6a5d  .append(speed[j]
++00012dd0: 290d 0a20 2020 2020 2020 2020 2020 2020  )..             
++00012de0: 2020 2020 2020 2020 2020 2020 2020 2020                  
++00012df0: 2020 2020 6375 7272 656e 745f 6d6f 7469      current_moti
++00012e00: 6f6e 5f61 6e67 6c65 2e61 7070 656e 6428  on_angle.append(
++00012e10: 6d6f 7469 6f6e 5f61 6e67 6c65 5b6a 5d29  motion_angle[j])
++00012e20: 0d0a 2020 2020 2020 2020 2020 2020 2020  ..              
++00012e30: 2020 2020 2020 2020 2020 2020 2020 2020                  
++00012e40: 2020 2063 7572 7265 6e74 5f61 6363 656c     current_accel
++00012e50: 6572 6174 696f 6e2e 6170 7065 6e64 2861  eration.append(a
++00012e60: 6363 656c 6572 6174 696f 6e5b 6a5d 290d  cceleration[j]).
++00012e70: 0a20 2020 2020 2020 2020 2020 2020 2020  .               
++00012e80: 2020 2020 2020 2020 2020 2020 2020 2020                  
++00012e90: 2020 6375 7272 656e 745f 6469 7374 616e    current_distan
++00012ea0: 6365 5f63 656c 6c5f 6d61 736b 2e61 7070  ce_cell_mask.app
++00012eb0: 656e 6428 6469 7374 616e 6365 5f63 656c  end(distance_cel
++00012ec0: 6c5f 6d61 736b 5b6a 5d29 0d0a 2020 2020  l_mask[j])..    
++00012ed0: 2020 2020 2020 2020 2020 2020 2020 2020                  
++00012ee0: 2020 2020 2020 2020 2020 2020 2063 7572               cur
++00012ef0: 7265 6e74 5f65 6363 656e 7472 6963 6974  rent_eccentricit
++00012f00: 795f 636f 6d70 5f66 6972 7374 2e61 7070  y_comp_first.app
++00012f10: 656e 6428 6563 6365 6e74 7269 6369 7479  end(eccentricity
++00012f20: 5f63 6f6d 705f 6669 7273 745b 6a5d 290d  _comp_first[j]).
++00012f30: 0a20 2020 2020 2020 2020 2020 2020 2020  .               
+ 00012f40: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-00012f50: 2063 7572 7265 6e74 5f65 6363 656e 7472   current_eccentr
+-00012f60: 6963 6974 795f 636f 6d70 5f66 6972 7374  icity_comp_first
+-00012f70: 2e61 7070 656e 6428 6563 6365 6e74 7269  .append(eccentri
+-00012f80: 6369 7479 5f63 6f6d 705f 6669 7273 745b  city_comp_first[
+-00012f90: 6a5d 290d 0a20 2020 2020 2020 2020 2020  j])..           
++00012f50: 2020 6375 7272 656e 745f 6563 6365 6e74    current_eccent
++00012f60: 7269 6369 7479 5f63 6f6d 705f 7365 636f  ricity_comp_seco
++00012f70: 6e64 2e61 7070 656e 6428 6563 6365 6e74  nd.append(eccent
++00012f80: 7269 6369 7479 5f63 6f6d 705f 7365 636f  ricity_comp_seco
++00012f90: 6e64 5b6a 5d29 0d0a 2020 2020 2020 2020  nd[j])..        
+ 00012fa0: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-00012fb0: 2020 2020 2020 6375 7272 656e 745f 6563        current_ec
+-00012fc0: 6365 6e74 7269 6369 7479 5f63 6f6d 705f  centricity_comp_
+-00012fd0: 7365 636f 6e64 2e61 7070 656e 6428 6563  second.append(ec
+-00012fe0: 6365 6e74 7269 6369 7479 5f63 6f6d 705f  centricity_comp_
+-00012ff0: 7365 636f 6e64 5b6a 5d29 0d0a 2020 2020  second[j])..    
+-00013000: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-00013010: 2020 2020 2020 2020 2020 2020 2063 7572               cur
+-00013020: 7265 6e74 5f73 7572 6661 6365 5f61 7265  rent_surface_are
+-00013030: 612e 6170 7065 6e64 2873 7572 6661 6365  a.append(surface
+-00013040: 5f61 7265 615b 6a5d 290d 0a20 2020 2020  _area[j])..     
+-00013050: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-00013060: 2020 2020 2020 2020 2020 2020 6375 7272              curr
+-00013070: 656e 745f 7261 6469 616c 5f61 6e67 6c65  ent_radial_angle
+-00013080: 2e61 7070 656e 6428 7261 6469 616c 5f61  .append(radial_a
+-00013090: 6e67 6c65 5b6a 5d29 0d0a 2020 2020 2020  ngle[j])..      
+-000130a0: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-000130b0: 2020 2020 2020 2020 2020 2063 7572 7265             curre
+-000130c0: 6e74 5f63 656c 6c5f 6178 6973 5f6d 6173  nt_cell_axis_mas
+-000130d0: 6b2e 6170 7065 6e64 2863 656c 6c5f 6178  k.append(cell_ax
+-000130e0: 6973 5f6d 6173 6b5b 6a5d 290d 0a20 2020  is_mask[j])..   
+-000130f0: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-00013100: 6375 7272 656e 745f 7469 6d65 203d 206e  current_time = n
+-00013110: 702e 6173 6172 7261 7928 6375 7272 656e  p.asarray(curren
+-00013120: 745f 7469 6d65 2c20 6474 7970 653d 6e70  t_time, dtype=np
+-00013130: 2e66 6c6f 6174 3332 290d 0a20 2020 2020  .float32)..     
+-00013140: 2020 2020 2020 2020 2020 2020 2020 6375                cu
+-00013150: 7272 656e 745f 696e 7465 6e73 6974 7920  rrent_intensity 
+-00013160: 3d20 6e70 2e61 7361 7272 6179 2863 7572  = np.asarray(cur
+-00013170: 7265 6e74 5f69 6e74 656e 7369 7479 2c20  rent_intensity, 
+-00013180: 6474 7970 653d 6e70 2e66 6c6f 6174 3332  dtype=np.float32
+-00013190: 290d 0a0d 0a0d 0a20 2020 2020 2020 2020  )......         
+-000131a0: 2020 2020 2020 2020 2020 6375 7272 656e            curren
+-000131b0: 745f 636c 7573 7465 725f 636c 6173 7320  t_cluster_class 
+-000131c0: 3d20 6e70 2e61 7361 7272 6179 2863 7572  = np.asarray(cur
+-000131d0: 7265 6e74 5f63 6c75 7374 6572 5f63 6c61  rent_cluster_cla
+-000131e0: 7373 2c20 6474 7970 653d 6e70 2e66 6c6f  ss, dtype=np.flo
+-000131f0: 6174 3332 290d 0a20 2020 2020 2020 2020  at32)..         
+-00013200: 2020 2020 2020 2020 2020 6375 7272 656e            curren
+-00013210: 745f 636c 7573 7465 725f 636c 6173 735f  t_cluster_class_
+-00013220: 7363 6f72 6520 3d20 6e70 2e61 7361 7272  score = np.asarr
+-00013230: 6179 2863 7572 7265 6e74 5f63 6c75 7374  ay(current_clust
+-00013240: 6572 5f63 6c61 7373 5f73 636f 7265 2c20  er_class_score, 
+-00013250: 6474 7970 653d 6e70 2e66 6c6f 6174 3332  dtype=np.float32
+-00013260: 2920 2020 0d0a 0d0a 2020 2020 2020 2020  )   ....        
+-00013270: 2020 2020 2020 2020 2020 2063 7572 7265             curre
+-00013280: 6e74 5f72 6164 6975 7320 3d20 6e70 2e61  nt_radius = np.a
+-00013290: 7361 7272 6179 2863 7572 7265 6e74 5f72  sarray(current_r
+-000132a0: 6164 6975 732c 2064 7479 7065 3d6e 702e  adius, dtype=np.
+-000132b0: 666c 6f61 7433 3229 0d0a 2020 2020 2020  float32)..      
+-000132c0: 2020 2020 2020 2020 2020 2020 2063 7572               cur
+-000132d0: 7265 6e74 5f76 6f6c 756d 6520 3d20 6e70  rent_volume = np
+-000132e0: 2e61 7361 7272 6179 2863 7572 7265 6e74  .asarray(current
+-000132f0: 5f76 6f6c 756d 652c 2064 7479 7065 3d6e  _volume, dtype=n
+-00013300: 702e 666c 6f61 7433 3229 0d0a 2020 2020  p.float32)..    
+-00013310: 2020 2020 2020 2020 2020 2020 2020 2063                 c
+-00013320: 7572 7265 6e74 5f65 6363 656e 7472 6963  urrent_eccentric
+-00013330: 6974 795f 636f 6d70 5f66 6972 7374 203d  ity_comp_first =
+-00013340: 206e 702e 6173 6172 7261 7928 6375 7272   np.asarray(curr
+-00013350: 656e 745f 6563 6365 6e74 7269 6369 7479  ent_eccentricity
+-00013360: 5f63 6f6d 705f 6669 7273 742c 2064 7479  _comp_first, dty
+-00013370: 7065 3d6e 702e 666c 6f61 7433 3229 0d0a  pe=np.float32)..
+-00013380: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-00013390: 2020 2063 7572 7265 6e74 5f65 6363 656e     current_eccen
+-000133a0: 7472 6963 6974 795f 636f 6d70 5f73 6563  tricity_comp_sec
+-000133b0: 6f6e 6420 3d20 6e70 2e61 7361 7272 6179  ond = np.asarray
+-000133c0: 2863 7572 7265 6e74 5f65 6363 656e 7472  (current_eccentr
+-000133d0: 6963 6974 795f 636f 6d70 5f73 6563 6f6e  icity_comp_secon
+-000133e0: 642c 2064 7479 7065 3d6e 702e 666c 6f61  d, dtype=np.floa
+-000133f0: 7433 3229 0d0a 2020 2020 2020 2020 2020  t32)..          
+-00013400: 2020 2020 2020 2020 2063 7572 7265 6e74           current
+-00013410: 5f73 7572 6661 6365 5f61 7265 6120 3d20  _surface_area = 
+-00013420: 6e70 2e61 7361 7272 6179 2863 7572 7265  np.asarray(curre
+-00013430: 6e74 5f73 7572 6661 6365 5f61 7265 612c  nt_surface_area,
+-00013440: 2064 7479 7065 3d6e 702e 666c 6f61 7433   dtype=np.float3
+-00013450: 3229 0d0a 0d0a 2020 2020 2020 2020 2020  2)....          
+-00013460: 2020 2020 2020 2020 2063 7572 7265 6e74           current
+-00013470: 5f73 7065 6564 203d 206e 702e 6173 6172  _speed = np.asar
+-00013480: 7261 7928 6375 7272 656e 745f 7370 6565  ray(current_spee
+-00013490: 642c 2064 7479 7065 3d6e 702e 666c 6f61  d, dtype=np.floa
+-000134a0: 7433 3229 0d0a 2020 2020 2020 2020 2020  t32)..          
+-000134b0: 2020 2020 2020 2020 2063 7572 7265 6e74           current
+-000134c0: 5f6d 6f74 696f 6e5f 616e 676c 6520 3d20  _motion_angle = 
+-000134d0: 6e70 2e61 7361 7272 6179 2863 7572 7265  np.asarray(curre
+-000134e0: 6e74 5f6d 6f74 696f 6e5f 616e 676c 652c  nt_motion_angle,
+-000134f0: 2064 7479 7065 3d6e 702e 666c 6f61 7433   dtype=np.float3
+-00013500: 3229 0d0a 2020 2020 2020 2020 2020 2020  2)..            
+-00013510: 2020 2020 2020 2063 7572 7265 6e74 5f61         current_a
+-00013520: 6363 656c 6572 6174 696f 6e20 3d20 6e70  cceleration = np
+-00013530: 2e61 7361 7272 6179 2863 7572 7265 6e74  .asarray(current
+-00013540: 5f61 6363 656c 6572 6174 696f 6e2c 2064  _acceleration, d
+-00013550: 7479 7065 3d6e 702e 666c 6f61 7433 3229  type=np.float32)
+-00013560: 0d0a 2020 2020 2020 2020 2020 2020 2020  ..              
+-00013570: 2020 2020 2063 7572 7265 6e74 5f64 6973       current_dis
+-00013580: 7461 6e63 655f 6365 6c6c 5f6d 6173 6b20  tance_cell_mask 
+-00013590: 3d20 6e70 2e61 7361 7272 6179 2863 7572  = np.asarray(cur
+-000135a0: 7265 6e74 5f64 6973 7461 6e63 655f 6365  rent_distance_ce
+-000135b0: 6c6c 5f6d 6173 6b2c 2064 7479 7065 3d6e  ll_mask, dtype=n
+-000135c0: 702e 666c 6f61 7433 3229 0d0a 2020 2020  p.float32)..    
+-000135d0: 2020 2020 2020 2020 2020 2020 2020 2063                 c
+-000135e0: 7572 7265 6e74 5f72 6164 6961 6c5f 616e  urrent_radial_an
+-000135f0: 676c 6520 3d20 6e70 2e61 7361 7272 6179  gle = np.asarray
+-00013600: 2863 7572 7265 6e74 5f72 6164 6961 6c5f  (current_radial_
+-00013610: 616e 676c 652c 2064 7479 7065 3d6e 702e  angle, dtype=np.
+-00013620: 666c 6f61 7433 3229 0d0a 2020 2020 2020  float32)..      
+-00013630: 2020 2020 2020 2020 2020 2020 2063 7572               cur
+-00013640: 7265 6e74 5f63 656c 6c5f 6178 6973 5f6d  rent_cell_axis_m
+-00013650: 6173 6b20 3d20 6e70 2e61 7361 7272 6179  ask = np.asarray
+-00013660: 2863 7572 7265 6e74 5f63 656c 6c5f 6178  (current_cell_ax
+-00013670: 6973 5f6d 6173 6b2c 2064 7479 7065 3d6e  is_mask, dtype=n
+-00013680: 702e 666c 6f61 7433 3229 0d0a 0d0a 0d0a  p.float32)......
+-00013690: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-000136a0: 2020 200d 0a20 2020 2020 2020 2020 2020     ..           
+-000136b0: 2020 2020 2020 2020 0d0a 2020 2020 2020          ..      
+-000136c0: 2020 2020 2020 2020 2020 2020 2069 6620               if 
+-000136d0: 706f 696e 745f 7361 6d70 6c65 203e 2030  point_sample > 0
+-000136e0: 3a0d 0a20 2020 2020 2020 2020 2020 2020  :..             
++00012fb0: 2020 2020 2020 2020 2063 7572 7265 6e74           current
++00012fc0: 5f73 7572 6661 6365 5f61 7265 612e 6170  _surface_area.ap
++00012fd0: 7065 6e64 2873 7572 6661 6365 5f61 7265  pend(surface_are
++00012fe0: 615b 6a5d 290d 0a20 2020 2020 2020 2020  a[j])..         
++00012ff0: 2020 2020 2020 2020 2020 2020 2020 2020                  
++00013000: 2020 2020 2020 2020 6375 7272 656e 745f          current_
++00013010: 7261 6469 616c 5f61 6e67 6c65 2e61 7070  radial_angle.app
++00013020: 656e 6428 7261 6469 616c 5f61 6e67 6c65  end(radial_angle
++00013030: 5b6a 5d29 0d0a 2020 2020 2020 2020 2020  [j])..          
++00013040: 2020 2020 2020 2020 2020 2020 2020 2020                  
++00013050: 2020 2020 2020 2063 7572 7265 6e74 5f63         current_c
++00013060: 656c 6c5f 6178 6973 5f6d 6173 6b2e 6170  ell_axis_mask.ap
++00013070: 7065 6e64 2863 656c 6c5f 6178 6973 5f6d  pend(cell_axis_m
++00013080: 6173 6b5b 6a5d 290d 0a20 2020 2020 2020  ask[j])..       
++00013090: 2020 2020 2020 2020 2020 2020 6375 7272              curr
++000130a0: 656e 745f 7469 6d65 203d 206e 702e 6173  ent_time = np.as
++000130b0: 6172 7261 7928 6375 7272 656e 745f 7469  array(current_ti
++000130c0: 6d65 2c20 6474 7970 653d 6e70 2e66 6c6f  me, dtype=np.flo
++000130d0: 6174 3332 290d 0a20 2020 2020 2020 2020  at32)..         
++000130e0: 2020 2020 2020 2020 2020 6375 7272 656e            curren
++000130f0: 745f 696e 7465 6e73 6974 7920 3d20 6e70  t_intensity = np
++00013100: 2e61 7361 7272 6179 2863 7572 7265 6e74  .asarray(current
++00013110: 5f69 6e74 656e 7369 7479 2c20 6474 7970  _intensity, dtyp
++00013120: 653d 6e70 2e66 6c6f 6174 3332 290d 0a0d  e=np.float32)...
++00013130: 0a0d 0a0d 0a20 2020 2020 2020 2020 2020  .....           
++00013140: 2020 2020 2020 2020 6375 7272 656e 745f          current_
++00013150: 7261 6469 7573 203d 206e 702e 6173 6172  radius = np.asar
++00013160: 7261 7928 6375 7272 656e 745f 7261 6469  ray(current_radi
++00013170: 7573 2c20 6474 7970 653d 6e70 2e66 6c6f  us, dtype=np.flo
++00013180: 6174 3332 290d 0a20 2020 2020 2020 2020  at32)..         
++00013190: 2020 2020 2020 2020 2020 6375 7272 656e            curren
++000131a0: 745f 766f 6c75 6d65 203d 206e 702e 6173  t_volume = np.as
++000131b0: 6172 7261 7928 6375 7272 656e 745f 766f  array(current_vo
++000131c0: 6c75 6d65 2c20 6474 7970 653d 6e70 2e66  lume, dtype=np.f
++000131d0: 6c6f 6174 3332 290d 0a20 2020 2020 2020  loat32)..       
++000131e0: 2020 2020 2020 2020 2020 2020 6375 7272              curr
++000131f0: 656e 745f 6563 6365 6e74 7269 6369 7479  ent_eccentricity
++00013200: 5f63 6f6d 705f 6669 7273 7420 3d20 6e70  _comp_first = np
++00013210: 2e61 7361 7272 6179 2863 7572 7265 6e74  .asarray(current
++00013220: 5f65 6363 656e 7472 6963 6974 795f 636f  _eccentricity_co
++00013230: 6d70 5f66 6972 7374 2c20 6474 7970 653d  mp_first, dtype=
++00013240: 6e70 2e66 6c6f 6174 3332 290d 0a20 2020  np.float32)..   
++00013250: 2020 2020 2020 2020 2020 2020 2020 2020                  
++00013260: 6375 7272 656e 745f 6563 6365 6e74 7269  current_eccentri
++00013270: 6369 7479 5f63 6f6d 705f 7365 636f 6e64  city_comp_second
++00013280: 203d 206e 702e 6173 6172 7261 7928 6375   = np.asarray(cu
++00013290: 7272 656e 745f 6563 6365 6e74 7269 6369  rrent_eccentrici
++000132a0: 7479 5f63 6f6d 705f 7365 636f 6e64 2c20  ty_comp_second, 
++000132b0: 6474 7970 653d 6e70 2e66 6c6f 6174 3332  dtype=np.float32
++000132c0: 290d 0a20 2020 2020 2020 2020 2020 2020  )..             
++000132d0: 2020 2020 2020 6375 7272 656e 745f 7375        current_su
++000132e0: 7266 6163 655f 6172 6561 203d 206e 702e  rface_area = np.
++000132f0: 6173 6172 7261 7928 6375 7272 656e 745f  asarray(current_
++00013300: 7375 7266 6163 655f 6172 6561 2c20 6474  surface_area, dt
++00013310: 7970 653d 6e70 2e66 6c6f 6174 3332 290d  ype=np.float32).
++00013320: 0a0d 0a20 2020 2020 2020 2020 2020 2020  ...             
++00013330: 2020 2020 2020 6375 7272 656e 745f 7370        current_sp
++00013340: 6565 6420 3d20 6e70 2e61 7361 7272 6179  eed = np.asarray
++00013350: 2863 7572 7265 6e74 5f73 7065 6564 2c20  (current_speed, 
++00013360: 6474 7970 653d 6e70 2e66 6c6f 6174 3332  dtype=np.float32
++00013370: 290d 0a20 2020 2020 2020 2020 2020 2020  )..             
++00013380: 2020 2020 2020 6375 7272 656e 745f 6d6f        current_mo
++00013390: 7469 6f6e 5f61 6e67 6c65 203d 206e 702e  tion_angle = np.
++000133a0: 6173 6172 7261 7928 6375 7272 656e 745f  asarray(current_
++000133b0: 6d6f 7469 6f6e 5f61 6e67 6c65 2c20 6474  motion_angle, dt
++000133c0: 7970 653d 6e70 2e66 6c6f 6174 3332 290d  ype=np.float32).
++000133d0: 0a20 2020 2020 2020 2020 2020 2020 2020  .               
++000133e0: 2020 2020 6375 7272 656e 745f 6163 6365      current_acce
++000133f0: 6c65 7261 7469 6f6e 203d 206e 702e 6173  leration = np.as
++00013400: 6172 7261 7928 6375 7272 656e 745f 6163  array(current_ac
++00013410: 6365 6c65 7261 7469 6f6e 2c20 6474 7970  celeration, dtyp
++00013420: 653d 6e70 2e66 6c6f 6174 3332 290d 0a20  e=np.float32).. 
++00013430: 2020 2020 2020 2020 2020 2020 2020 2020                  
++00013440: 2020 6375 7272 656e 745f 6469 7374 616e    current_distan
++00013450: 6365 5f63 656c 6c5f 6d61 736b 203d 206e  ce_cell_mask = n
++00013460: 702e 6173 6172 7261 7928 6375 7272 656e  p.asarray(curren
++00013470: 745f 6469 7374 616e 6365 5f63 656c 6c5f  t_distance_cell_
++00013480: 6d61 736b 2c20 6474 7970 653d 6e70 2e66  mask, dtype=np.f
++00013490: 6c6f 6174 3332 290d 0a20 2020 2020 2020  loat32)..       
++000134a0: 2020 2020 2020 2020 2020 2020 6375 7272              curr
++000134b0: 656e 745f 7261 6469 616c 5f61 6e67 6c65  ent_radial_angle
++000134c0: 203d 206e 702e 6173 6172 7261 7928 6375   = np.asarray(cu
++000134d0: 7272 656e 745f 7261 6469 616c 5f61 6e67  rrent_radial_ang
++000134e0: 6c65 2c20 6474 7970 653d 6e70 2e66 6c6f  le, dtype=np.flo
++000134f0: 6174 3332 290d 0a20 2020 2020 2020 2020  at32)..         
++00013500: 2020 2020 2020 2020 2020 6375 7272 656e            curren
++00013510: 745f 6365 6c6c 5f61 7869 735f 6d61 736b  t_cell_axis_mask
++00013520: 203d 206e 702e 6173 6172 7261 7928 6375   = np.asarray(cu
++00013530: 7272 656e 745f 6365 6c6c 5f61 7869 735f  rrent_cell_axis_
++00013540: 6d61 736b 2c20 6474 7970 653d 6e70 2e66  mask, dtype=np.f
++00013550: 6c6f 6174 3332 290d 0a0d 0a0d 0a20 2020  loat32)......   
++00013560: 2020 2020 2020 2020 2020 2020 2020 2020                  
++00013570: 0d0a 2020 2020 2020 2020 2020 2020 2020  ..              
++00013580: 2020 2020 200d 0a20 2020 2020 2020 2020       ..         
++00013590: 2020 2020 2020 2020 2020 6966 2070 6f69            if poi
++000135a0: 6e74 5f73 616d 706c 6520 3e20 303a 0d0a  nt_sample > 0:..
++000135b0: 2020 2020 2020 2020 2020 2020 2020 2020                  
++000135c0: 2020 2020 2020 2020 2020 2020 2020 2020                  
++000135d0: 7866 5f73 616d 706c 6520 3d20 6666 7466  xf_sample = fftf
++000135e0: 7265 7128 706f 696e 745f 7361 6d70 6c65  req(point_sample
++000135f0: 2c20 7365 6c66 2e74 6361 6c69 6272 6174  , self.tcalibrat
++00013600: 696f 6e29 0d0a 2020 2020 2020 2020 2020  ion)..          
++00013610: 2020 2020 2020 2020 2020 2020 2020 2020                  
++00013620: 2020 2020 2020 6666 7473 7472 6970 5f73        fftstrip_s
++00013630: 616d 706c 6520 3d20 6666 7428 6578 7061  ample = fft(expa
++00013640: 6e64 6564 5f69 6e74 656e 7369 7479 290d  nded_intensity).
++00013650: 0a20 2020 2020 2020 2020 2020 2020 2020  .               
++00013660: 2020 2020 2020 2020 2020 2020 2020 2020                  
++00013670: 2066 6674 746f 7461 6c5f 7361 6d70 6c65   ffttotal_sample
++00013680: 203d 206e 702e 6162 7328 6666 7473 7472   = np.abs(fftstr
++00013690: 6970 5f73 616d 706c 6529 0d0a 2020 2020  ip_sample)..    
++000136a0: 2020 2020 2020 2020 2020 2020 2020 2020                  
++000136b0: 2020 2020 2020 2020 2020 2020 7866 5f73              xf_s
++000136c0: 616d 706c 6520 3d20 7866 5f73 616d 706c  ample = xf_sampl
++000136d0: 655b 3020 3a20 6c65 6e28 7866 5f73 616d  e[0 : len(xf_sam
++000136e0: 706c 6529 202f 2f20 325d 0d0a 2020 2020  ple) // 2]..    
+ 000136f0: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-00013700: 2020 2078 665f 7361 6d70 6c65 203d 2066     xf_sample = f
+-00013710: 6674 6672 6571 2870 6f69 6e74 5f73 616d  ftfreq(point_sam
+-00013720: 706c 652c 2073 656c 662e 7463 616c 6962  ple, self.tcalib
+-00013730: 7261 7469 6f6e 290d 0a20 2020 2020 2020  ration)..       
+-00013740: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-00013750: 2020 2020 2020 2020 2066 6674 7374 7269           fftstri
+-00013760: 705f 7361 6d70 6c65 203d 2066 6674 2865  p_sample = fft(e
+-00013770: 7870 616e 6465 645f 696e 7465 6e73 6974  xpanded_intensit
+-00013780: 7929 0d0a 2020 2020 2020 2020 2020 2020  y)..            
+-00013790: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-000137a0: 2020 2020 6666 7474 6f74 616c 5f73 616d      ffttotal_sam
+-000137b0: 706c 6520 3d20 6e70 2e61 6273 2866 6674  ple = np.abs(fft
+-000137c0: 7374 7269 705f 7361 6d70 6c65 290d 0a20  strip_sample).. 
+-000137d0: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-000137e0: 2020 2020 2020 2020 2020 2020 2020 2078                 x
+-000137f0: 665f 7361 6d70 6c65 203d 2078 665f 7361  f_sample = xf_sa
+-00013800: 6d70 6c65 5b30 203a 206c 656e 2878 665f  mple[0 : len(xf_
+-00013810: 7361 6d70 6c65 2920 2f2f 2032 5d0d 0a20  sample) // 2].. 
+-00013820: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-00013830: 2020 2020 2020 2020 2020 2020 2020 2066                 f
+-00013840: 6674 746f 7461 6c5f 7361 6d70 6c65 203d  fttotal_sample =
+-00013850: 2066 6674 746f 7461 6c5f 7361 6d70 6c65   ffttotal_sample
+-00013860: 5b30 203a 206c 656e 2866 6674 746f 7461  [0 : len(ffttota
+-00013870: 6c5f 7361 6d70 6c65 2920 2f2f 2032 5d0d  l_sample) // 2].
+-00013880: 0a0d 0a20 2020 2020 2020 2020 2020 2020  ...             
+-00013890: 2020 2020 2020 756e 6971 7565 5f66 6674        unique_fft
+-000138a0: 5f70 726f 7065 7274 6965 735f 7472 6163  _properties_trac
+-000138b0: 6b6c 6574 5b63 7572 7265 6e74 5f75 6e69  klet[current_uni
+-000138c0: 7175 655f 6964 5d20 3d20 6578 7061 6e64  que_id] = expand
+-000138d0: 6564 5f74 696d 652c 2065 7870 616e 6465  ed_time, expande
+-000138e0: 645f 696e 7465 6e73 6974 792c 2078 665f  d_intensity, xf_
+-000138f0: 7361 6d70 6c65 2c20 6666 7474 6f74 616c  sample, ffttotal
+-00013900: 5f73 616d 706c 650d 0a20 2020 2020 2020  _sample..       
+-00013910: 2020 2020 2020 2020 2020 2020 756e 6971              uniq
+-00013920: 7565 5f63 6c75 7374 6572 5f70 726f 7065  ue_cluster_prope
+-00013930: 7274 6965 735f 7472 6163 6b6c 6574 5b63  rties_tracklet[c
+-00013940: 7572 7265 6e74 5f75 6e69 7175 655f 6964  urrent_unique_id
+-00013950: 5d20 3d20 2063 7572 7265 6e74 5f74 696d  ] =  current_tim
+-00013960: 652c 2063 7572 7265 6e74 5f63 6c75 7374  e, current_clust
+-00013970: 6572 5f63 6c61 7373 2c20 6375 7272 656e  er_class, curren
+-00013980: 745f 636c 7573 7465 725f 636c 6173 735f  t_cluster_class_
+-00013990: 7363 6f72 650d 0a20 2020 2020 2020 2020  score..         
+-000139a0: 2020 2020 2020 2020 2020 756e 6971 7565            unique
+-000139b0: 5f73 6861 7065 5f70 726f 7065 7274 6965  _shape_propertie
+-000139c0: 735f 7472 6163 6b6c 6574 5b63 7572 7265  s_tracklet[curre
+-000139d0: 6e74 5f75 6e69 7175 655f 6964 5d20 3d20  nt_unique_id] = 
+-000139e0: 6375 7272 656e 745f 7469 6d65 2c20 6375  current_time, cu
+-000139f0: 7272 656e 745f 7a2c 2063 7572 7265 6e74  rrent_z, current
+-00013a00: 5f79 2c20 6375 7272 656e 745f 782c 2063  _y, current_x, c
+-00013a10: 7572 7265 6e74 5f72 6164 6975 732c 2063  urrent_radius, c
+-00013a20: 7572 7265 6e74 5f76 6f6c 756d 652c 2063  urrent_volume, c
+-00013a30: 7572 7265 6e74 5f65 6363 656e 7472 6963  urrent_eccentric
+-00013a40: 6974 795f 636f 6d70 5f66 6972 7374 2c20  ity_comp_first, 
+-00013a50: 6375 7272 656e 745f 6563 6365 6e74 7269  current_eccentri
+-00013a60: 6369 7479 5f63 6f6d 705f 7365 636f 6e64  city_comp_second
+-00013a70: 2c20 6375 7272 656e 745f 7375 7266 6163  , current_surfac
+-00013a80: 655f 6172 6561 2c20 6375 7272 656e 745f  e_area, current_
+-00013a90: 636c 7573 7465 725f 636c 6173 732c 2063  cluster_class, c
+-00013aa0: 7572 7265 6e74 5f63 6c75 7374 6572 5f63  urrent_cluster_c
+-00013ab0: 6c61 7373 5f73 636f 7265 0d0a 2020 2020  lass_score..    
+-00013ac0: 2020 2020 2020 2020 2020 2020 2020 2075                 u
+-00013ad0: 6e69 7175 655f 6479 6e61 6d69 635f 7072  nique_dynamic_pr
+-00013ae0: 6f70 6572 7469 6573 5f74 7261 636b 6c65  operties_trackle
+-00013af0: 745b 6375 7272 656e 745f 756e 6971 7565  t[current_unique
+-00013b00: 5f69 645d 203d 2063 7572 7265 6e74 5f74  _id] = current_t
+-00013b10: 696d 652c 2063 7572 7265 6e74 5f73 7065  ime, current_spe
+-00013b20: 6564 2c20 6375 7272 656e 745f 6d6f 7469  ed, current_moti
+-00013b30: 6f6e 5f61 6e67 6c65 2c20 6375 7272 656e  on_angle, curren
+-00013b40: 745f 6163 6365 6c65 7261 7469 6f6e 2c20  t_acceleration, 
+-00013b50: 6375 7272 656e 745f 6469 7374 616e 6365  current_distance
+-00013b60: 5f63 656c 6c5f 6d61 736b 2c20 6375 7272  _cell_mask, curr
+-00013b70: 656e 745f 7261 6469 616c 5f61 6e67 6c65  ent_radial_angle
+-00013b80: 2c20 6375 7272 656e 745f 6365 6c6c 5f61  , current_cell_a
+-00013b90: 7869 735f 6d61 736b 0d0a 2020 2020 2020  xis_mask..      
+-00013ba0: 2020 2020 2020 2020 2020 2020 2073 656c               sel
+-00013bb0: 662e 756e 6971 7565 5f66 6674 5f70 726f  f.unique_fft_pro
+-00013bc0: 7065 7274 6965 735b 7472 6163 6b5f 6964  perties[track_id
+-00013bd0: 5d2e 7570 6461 7465 287b 6375 7272 656e  ].update({curren
+-00013be0: 745f 756e 6971 7565 5f69 643a 756e 6971  t_unique_id:uniq
+-00013bf0: 7565 5f66 6674 5f70 726f 7065 7274 6965  ue_fft_propertie
+-00013c00: 735f 7472 6163 6b6c 6574 5b63 7572 7265  s_tracklet[curre
+-00013c10: 6e74 5f75 6e69 7175 655f 6964 5d7d 290d  nt_unique_id]}).
+-00013c20: 0a20 2020 2020 2020 2020 2020 2020 2020  .               
+-00013c30: 2020 2020 7365 6c66 2e75 6e69 7175 655f      self.unique_
+-00013c40: 636c 7573 7465 725f 7072 6f70 6572 7469  cluster_properti
+-00013c50: 6573 5b74 7261 636b 5f69 645d 2e75 7064  es[track_id].upd
+-00013c60: 6174 6528 7b63 7572 7265 6e74 5f75 6e69  ate({current_uni
+-00013c70: 7175 655f 6964 3a75 6e69 7175 655f 636c  que_id:unique_cl
+-00013c80: 7573 7465 725f 7072 6f70 6572 7469 6573  uster_properties
+-00013c90: 5f74 7261 636b 6c65 745b 6375 7272 656e  _tracklet[curren
+-00013ca0: 745f 756e 6971 7565 5f69 645d 7d29 0d0a  t_unique_id]})..
+-00013cb0: 0d0a 2020 2020 2020 2020 2020 2020 2020  ..              
+-00013cc0: 2020 2020 2073 656c 662e 756e 6971 7565       self.unique
+-00013cd0: 5f73 6861 7065 5f70 726f 7065 7274 6965  _shape_propertie
+-00013ce0: 735b 7472 6163 6b5f 6964 5d2e 7570 6461  s[track_id].upda
+-00013cf0: 7465 287b 6375 7272 656e 745f 756e 6971  te({current_uniq
+-00013d00: 7565 5f69 643a 756e 6971 7565 5f73 6861  ue_id:unique_sha
+-00013d10: 7065 5f70 726f 7065 7274 6965 735f 7472  pe_properties_tr
+-00013d20: 6163 6b6c 6574 5b63 7572 7265 6e74 5f75  acklet[current_u
+-00013d30: 6e69 7175 655f 6964 5d7d 290d 0a20 2020  nique_id]})..   
+-00013d40: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-00013d50: 7365 6c66 2e75 6e69 7175 655f 6479 6e61  self.unique_dyna
+-00013d60: 6d69 635f 7072 6f70 6572 7469 6573 5b74  mic_properties[t
+-00013d70: 7261 636b 5f69 645d 2e75 7064 6174 6528  rack_id].update(
+-00013d80: 7b63 7572 7265 6e74 5f75 6e69 7175 655f  {current_unique_
+-00013d90: 6964 3a75 6e69 7175 655f 6479 6e61 6d69  id:unique_dynami
+-00013da0: 635f 7072 6f70 6572 7469 6573 5f74 7261  c_properties_tra
+-00013db0: 636b 6c65 745b 6375 7272 656e 745f 756e  cklet[current_un
+-00013dc0: 6971 7565 5f69 645d 7d29 0d0a 0d0a 2020  ique_id]})....  
+-00013dd0: 2020 6465 6620 5f73 6563 6f6e 645f 6368    def _second_ch
+-00013de0: 616e 6e65 6c5f 7370 6f74 7328 7365 6c66  annel_spots(self
+-00013df0: 2c20 6672 616d 652c 207a 2c20 792c 2078  , frame, z, y, x
+-00013e00: 2c20 6365 6c6c 5f69 642c 2074 7261 636b  , cell_id, track
+-00013e10: 5f69 6429 3a0d 0a20 2020 2020 2020 2020  _id):..         
+-00013e20: 2020 0d0a 2020 2020 2020 2020 2020 2020    ..            
+-00013e30: 7472 6565 2c20 6365 6e74 726f 6964 732c  tree, centroids,
+-00013e40: 206c 6162 656c 732c 2076 6f6c 756d 652c   labels, volume,
+-00013e50: 2069 6e74 656e 7369 7479 5f6d 6561 6e2c   intensity_mean,
+-00013e60: 2069 6e74 656e 7369 7479 5f74 6f74 616c   intensity_total
+-00013e70: 2c20 626f 756e 6469 6e67 5f62 6f78 6573  , bounding_boxes
+-00013e80: 203d 2073 656c 662e 5f74 696d 6564 5f63   = self._timed_c
+-00013e90: 6861 6e6e 656c 5f73 6567 5f69 6d61 6765  hannel_seg_image
+-00013ea0: 5b73 7472 2869 6e74 2866 6c6f 6174 2866  [str(int(float(f
+-00013eb0: 7261 6d65 2929 295d 0d0a 2020 2020 2020  rame)))]..      
+-00013ec0: 2020 2020 2020 7069 7865 6c74 6573 746c        pixeltestl
+-00013ed0: 6f63 6174 696f 6e20 3d20 287a 2c79 2c78  ocation = (z,y,x
+-00013ee0: 290d 0a20 2020 2020 2020 2020 2020 2064  )..            d
+-00013ef0: 6973 742c 2069 6e64 6578 203d 2074 7265  ist, index = tre
+-00013f00: 652e 7175 6572 7928 7069 7865 6c74 6573  e.query(pixeltes
+-00013f10: 746c 6f63 6174 696f 6e29 0d0a 0d0a 0d0a  tlocation)......
+-00013f20: 2020 2020 2020 2020 2020 2020 6262 6f78              bbox
+-00013f30: 203d 2062 6f75 6e64 696e 675f 626f 7865   = bounding_boxe
+-00013f40: 735b 696e 6465 785d 0d0a 2020 2020 2020  s[index]..      
+-00013f50: 2020 2020 2020 7369 7a65 7a20 3d20 6162        sizez = ab
+-00013f60: 7328 6262 6f78 5b30 5d20 2d20 6262 6f78  s(bbox[0] - bbox
+-00013f70: 5b33 5d29 0d0a 2020 2020 2020 2020 2020  [3])..          
+-00013f80: 2020 7369 7a65 7920 3d20 6162 7328 6262    sizey = abs(bb
+-00013f90: 6f78 5b31 5d20 2d20 6262 6f78 5b34 5d29  ox[1] - bbox[4])
+-00013fa0: 0d0a 2020 2020 2020 2020 2020 2020 7369  ..            si
+-00013fb0: 7a65 7820 3d20 6162 7328 6262 6f78 5b32  zex = abs(bbox[2
+-00013fc0: 5d20 2d20 6262 6f78 5b35 5d29 200d 0a20  ] - bbox[5]) .. 
+-00013fd0: 2020 2020 2020 2020 2020 2076 6574 6f5f             veto_
+-00013fe0: 766f 6c75 6d65 203d 2073 697a 6578 202a  volume = sizex *
+-00013ff0: 2073 697a 6579 202a 2073 697a 657a 0d0a   sizey * sizez..
+-00014000: 2020 2020 2020 2020 2020 2020 7665 746f              veto
+-00014010: 5f72 6164 6975 7320 3d20 6d61 7468 2e70  _radius = math.p
+-00014020: 6f77 2833 202a 2076 6574 6f5f 766f 6c75  ow(3 * veto_volu
+-00014030: 6d65 202f 2028 3420 2a20 6d61 7468 2e70  me / (4 * math.p
+-00014040: 6929 2c20 312e 3020 2f20 332e 3029 0d0a  i), 1.0 / 3.0)..
+-00014050: 0d0a 2020 2020 2020 2020 2020 2020 6c6f  ..            lo
+-00014060: 6361 7469 6f6e 203d 2028 6365 6e74 726f  cation = (centro
+-00014070: 6964 735b 696e 6465 785d 5b30 5d20 2a20  ids[index][0] * 
+-00014080: 7365 6c66 2e7a 6361 6c69 6272 6174 696f  self.zcalibratio
+-00014090: 6e2c 2063 656e 7472 6f69 6473 5b69 6e64  n, centroids[ind
+-000140a0: 6578 5d5b 315d 2a73 656c 662e 7963 616c  ex][1]*self.ycal
+-000140b0: 6962 7261 7469 6f6e 2c20 6365 6e74 726f  ibration, centro
+-000140c0: 6964 735b 696e 6465 785d 5b32 5d2a 7365  ids[index][2]*se
+-000140d0: 6c66 2e78 6361 6c69 6272 6174 696f 6e29  lf.xcalibration)
+-000140e0: 0d0a 2020 2020 2020 2020 2020 2020 5155  ..            QU
+-000140f0: 414c 4954 5920 3d20 6d61 7468 2e70 6f77  ALITY = math.pow
+-00014100: 2876 6f6c 756d 655b 696e 6465 785d 2c20  (volume[index], 
+-00014110: 312e 302f 332e 3029 0d0a 2020 2020 2020  1.0/3.0)..      
+-00014120: 2020 2020 2020 5241 4449 5553 203d 206d        RADIUS = m
+-00014130: 6174 682e 706f 7728 766f 6c75 6d65 5b69  ath.pow(volume[i
+-00014140: 6e64 6578 5d20 2a20 7365 6c66 2e78 6361  ndex] * self.xca
+-00014150: 6c69 6272 6174 696f 6e20 2a20 7365 6c66  libration * self
+-00014160: 2e79 6361 6c69 6272 6174 696f 6e20 2a20  .ycalibration * 
+-00014170: 7365 6c66 2e7a 6361 6c69 6272 6174 696f  self.zcalibratio
+-00014180: 6e2c 2031 2e30 2f33 2e30 2920 0d0a 0d0a  n, 1.0/3.0) ....
+-00014190: 2020 2020 2020 2020 2020 2020 6469 7374              dist
+-000141a0: 616e 6365 5f63 656c 6c5f 6d61 736b 2c20  ance_cell_mask, 
+-000141b0: 6d61 736b 6365 6e74 726f 6964 203d 2073  maskcentroid = s
+-000141c0: 656c 662e 5f67 6574 5f62 6f75 6e64 6172  elf._get_boundar
+-000141d0: 795f 6469 7374 2866 7261 6d65 2c20 6c6f  y_dist(frame, lo
+-000141e0: 6361 7469 6f6e 290d 0a20 2020 2020 2020  cation)..       
+-000141f0: 2020 2020 2069 6620 6469 7374 203c 3d20       if dist <= 
+-00014200: 3220 2a20 7665 746f 5f72 6164 6975 733a  2 * veto_radius:
+-00014210: 0d0a 2020 2020 2020 2020 2020 2020 2020  ..              
+-00014220: 2020 7365 6c66 2e63 6861 6e6e 656c 5f75    self.channel_u
+-00014230: 6e69 7175 655f 7370 6f74 5f70 726f 7065  nique_spot_prope
+-00014240: 7274 6965 735b 6365 6c6c 5f69 645d 203d  rties[cell_id] =
+-00014250: 207b 0d0a 2020 2020 2020 2020 2020 2020   {..            
+-00014260: 2020 2020 2020 2020 2020 2020 7365 6c66              self
+-00014270: 2e63 656c 6c69 645f 6b65 793a 2069 6e74  .cellid_key: int
+-00014280: 2863 656c 6c5f 6964 292c 200d 0a20 2020  (cell_id), ..   
+-00014290: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-000142a0: 2020 2020 2073 656c 662e 6672 616d 6569       self.framei
+-000142b0: 645f 6b65 7920 3a20 696e 7428 6672 616d  d_key : int(fram
+-000142c0: 6529 2c0d 0a20 2020 2020 2020 2020 2020  e),..           
+-000142d0: 2020 2020 2020 2020 2020 2020 2073 656c               sel
+-000142e0: 662e 7a70 6f73 6964 5f6b 6579 203a 2066  f.zposid_key : f
+-000142f0: 6c6f 6174 2863 656e 7472 6f69 6473 5b69  loat(centroids[i
+-00014300: 6e64 6578 5d5b 305d 2a20 7365 6c66 2e7a  ndex][0]* self.z
+-00014310: 6361 6c69 6272 6174 696f 6e29 2c0d 0a20  calibration),.. 
++00013700: 2020 2020 2020 2020 2020 2020 6666 7474              fftt
++00013710: 6f74 616c 5f73 616d 706c 6520 3d20 6666  otal_sample = ff
++00013720: 7474 6f74 616c 5f73 616d 706c 655b 3020  ttotal_sample[0 
++00013730: 3a20 6c65 6e28 6666 7474 6f74 616c 5f73  : len(ffttotal_s
++00013740: 616d 706c 6529 202f 2f20 325d 0d0a 0d0a  ample) // 2]....
++00013750: 2020 2020 2020 2020 2020 2020 2020 2020                  
++00013760: 2020 2075 6e69 7175 655f 6666 745f 7072     unique_fft_pr
++00013770: 6f70 6572 7469 6573 5f74 7261 636b 6c65  operties_trackle
++00013780: 745b 6375 7272 656e 745f 756e 6971 7565  t[current_unique
++00013790: 5f69 645d 203d 2065 7870 616e 6465 645f  _id] = expanded_
++000137a0: 7469 6d65 2c20 6578 7061 6e64 6564 5f69  time, expanded_i
++000137b0: 6e74 656e 7369 7479 2c20 7866 5f73 616d  ntensity, xf_sam
++000137c0: 706c 652c 2066 6674 746f 7461 6c5f 7361  ple, ffttotal_sa
++000137d0: 6d70 6c65 0d0a 2020 2020 2020 2020 2020  mple..          
++000137e0: 2020 2020 2020 2020 2075 6e69 7175 655f           unique_
++000137f0: 636c 7573 7465 725f 7072 6f70 6572 7469  cluster_properti
++00013800: 6573 5f74 7261 636b 6c65 745b 6375 7272  es_tracklet[curr
++00013810: 656e 745f 756e 6971 7565 5f69 645d 203d  ent_unique_id] =
++00013820: 2020 6375 7272 656e 745f 7469 6d65 0d0a    current_time..
++00013830: 2020 2020 2020 2020 2020 2020 2020 2020                  
++00013840: 2020 2075 6e69 7175 655f 7368 6170 655f     unique_shape_
++00013850: 7072 6f70 6572 7469 6573 5f74 7261 636b  properties_track
++00013860: 6c65 745b 6375 7272 656e 745f 756e 6971  let[current_uniq
++00013870: 7565 5f69 645d 203d 2063 7572 7265 6e74  ue_id] = current
++00013880: 5f74 696d 652c 2063 7572 7265 6e74 5f7a  _time, current_z
++00013890: 2c20 6375 7272 656e 745f 792c 2063 7572  , current_y, cur
++000138a0: 7265 6e74 5f78 2c20 6375 7272 656e 745f  rent_x, current_
++000138b0: 7261 6469 7573 2c20 6375 7272 656e 745f  radius, current_
++000138c0: 766f 6c75 6d65 2c20 6375 7272 656e 745f  volume, current_
++000138d0: 6563 6365 6e74 7269 6369 7479 5f63 6f6d  eccentricity_com
++000138e0: 705f 6669 7273 742c 2063 7572 7265 6e74  p_first, current
++000138f0: 5f65 6363 656e 7472 6963 6974 795f 636f  _eccentricity_co
++00013900: 6d70 5f73 6563 6f6e 642c 2063 7572 7265  mp_second, curre
++00013910: 6e74 5f73 7572 6661 6365 5f61 7265 610d  nt_surface_area.
++00013920: 0a20 2020 2020 2020 2020 2020 2020 2020  .               
++00013930: 2020 2020 756e 6971 7565 5f64 796e 616d      unique_dynam
++00013940: 6963 5f70 726f 7065 7274 6965 735f 7472  ic_properties_tr
++00013950: 6163 6b6c 6574 5b63 7572 7265 6e74 5f75  acklet[current_u
++00013960: 6e69 7175 655f 6964 5d20 3d20 6375 7272  nique_id] = curr
++00013970: 656e 745f 7469 6d65 2c20 6375 7272 656e  ent_time, curren
++00013980: 745f 7370 6565 642c 2063 7572 7265 6e74  t_speed, current
++00013990: 5f6d 6f74 696f 6e5f 616e 676c 652c 2063  _motion_angle, c
++000139a0: 7572 7265 6e74 5f61 6363 656c 6572 6174  urrent_accelerat
++000139b0: 696f 6e2c 2063 7572 7265 6e74 5f64 6973  ion, current_dis
++000139c0: 7461 6e63 655f 6365 6c6c 5f6d 6173 6b2c  tance_cell_mask,
++000139d0: 2063 7572 7265 6e74 5f72 6164 6961 6c5f   current_radial_
++000139e0: 616e 676c 652c 2063 7572 7265 6e74 5f63  angle, current_c
++000139f0: 656c 6c5f 6178 6973 5f6d 6173 6b0d 0a20  ell_axis_mask.. 
++00013a00: 2020 2020 2020 2020 2020 2020 2020 2020                  
++00013a10: 2020 7365 6c66 2e75 6e69 7175 655f 6666    self.unique_ff
++00013a20: 745f 7072 6f70 6572 7469 6573 5b74 7261  t_properties[tra
++00013a30: 636b 5f69 645d 2e75 7064 6174 6528 7b63  ck_id].update({c
++00013a40: 7572 7265 6e74 5f75 6e69 7175 655f 6964  urrent_unique_id
++00013a50: 3a75 6e69 7175 655f 6666 745f 7072 6f70  :unique_fft_prop
++00013a60: 6572 7469 6573 5f74 7261 636b 6c65 745b  erties_tracklet[
++00013a70: 6375 7272 656e 745f 756e 6971 7565 5f69  current_unique_i
++00013a80: 645d 7d29 0d0a 2020 2020 2020 2020 2020  d]})..          
++00013a90: 2020 2020 2020 2020 2073 656c 662e 756e           self.un
++00013aa0: 6971 7565 5f63 6c75 7374 6572 5f70 726f  ique_cluster_pro
++00013ab0: 7065 7274 6965 735b 7472 6163 6b5f 6964  perties[track_id
++00013ac0: 5d2e 7570 6461 7465 287b 6375 7272 656e  ].update({curren
++00013ad0: 745f 756e 6971 7565 5f69 643a 756e 6971  t_unique_id:uniq
++00013ae0: 7565 5f63 6c75 7374 6572 5f70 726f 7065  ue_cluster_prope
++00013af0: 7274 6965 735f 7472 6163 6b6c 6574 5b63  rties_tracklet[c
++00013b00: 7572 7265 6e74 5f75 6e69 7175 655f 6964  urrent_unique_id
++00013b10: 5d7d 290d 0a0d 0a20 2020 2020 2020 2020  ]})....         
++00013b20: 2020 2020 2020 2020 2020 7365 6c66 2e75            self.u
++00013b30: 6e69 7175 655f 7368 6170 655f 7072 6f70  nique_shape_prop
++00013b40: 6572 7469 6573 5b74 7261 636b 5f69 645d  erties[track_id]
++00013b50: 2e75 7064 6174 6528 7b63 7572 7265 6e74  .update({current
++00013b60: 5f75 6e69 7175 655f 6964 3a75 6e69 7175  _unique_id:uniqu
++00013b70: 655f 7368 6170 655f 7072 6f70 6572 7469  e_shape_properti
++00013b80: 6573 5f74 7261 636b 6c65 745b 6375 7272  es_tracklet[curr
++00013b90: 656e 745f 756e 6971 7565 5f69 645d 7d29  ent_unique_id]})
++00013ba0: 0d0a 2020 2020 2020 2020 2020 2020 2020  ..              
++00013bb0: 2020 2020 2073 656c 662e 756e 6971 7565       self.unique
++00013bc0: 5f64 796e 616d 6963 5f70 726f 7065 7274  _dynamic_propert
++00013bd0: 6965 735b 7472 6163 6b5f 6964 5d2e 7570  ies[track_id].up
++00013be0: 6461 7465 287b 6375 7272 656e 745f 756e  date({current_un
++00013bf0: 6971 7565 5f69 643a 756e 6971 7565 5f64  ique_id:unique_d
++00013c00: 796e 616d 6963 5f70 726f 7065 7274 6965  ynamic_propertie
++00013c10: 735f 7472 6163 6b6c 6574 5b63 7572 7265  s_tracklet[curre
++00013c20: 6e74 5f75 6e69 7175 655f 6964 5d7d 290d  nt_unique_id]}).
++00013c30: 0a0d 0a20 2020 2064 6566 205f 7365 636f  ...    def _seco
++00013c40: 6e64 5f63 6861 6e6e 656c 5f73 706f 7473  nd_channel_spots
++00013c50: 2873 656c 662c 2066 7261 6d65 2c20 7a2c  (self, frame, z,
++00013c60: 2079 2c20 782c 2063 656c 6c5f 6964 2c20   y, x, cell_id, 
++00013c70: 7472 6163 6b5f 6964 293a 0d0a 2020 2020  track_id):..    
++00013c80: 2020 2020 2020 200d 0a20 2020 2020 2020         ..       
++00013c90: 2020 2020 2074 7265 652c 2063 656e 7472       tree, centr
++00013ca0: 6f69 6473 2c20 6c61 6265 6c73 2c20 766f  oids, labels, vo
++00013cb0: 6c75 6d65 2c20 696e 7465 6e73 6974 795f  lume, intensity_
++00013cc0: 6d65 616e 2c20 696e 7465 6e73 6974 795f  mean, intensity_
++00013cd0: 746f 7461 6c2c 2062 6f75 6e64 696e 675f  total, bounding_
++00013ce0: 626f 7865 7320 3d20 7365 6c66 2e5f 7469  boxes = self._ti
++00013cf0: 6d65 645f 6368 616e 6e65 6c5f 7365 675f  med_channel_seg_
++00013d00: 696d 6167 655b 7374 7228 696e 7428 666c  image[str(int(fl
++00013d10: 6f61 7428 6672 616d 6529 2929 5d0d 0a20  oat(frame)))].. 
++00013d20: 2020 2020 2020 2020 2020 2070 6978 656c             pixel
++00013d30: 7465 7374 6c6f 6361 7469 6f6e 203d 2028  testlocation = (
++00013d40: 7a2c 792c 7829 0d0a 2020 2020 2020 2020  z,y,x)..        
++00013d50: 2020 2020 6469 7374 2c20 696e 6465 7820      dist, index 
++00013d60: 3d20 7472 6565 2e71 7565 7279 2870 6978  = tree.query(pix
++00013d70: 656c 7465 7374 6c6f 6361 7469 6f6e 290d  eltestlocation).
++00013d80: 0a0d 0a0d 0a20 2020 2020 2020 2020 2020  .....           
++00013d90: 2062 626f 7820 3d20 626f 756e 6469 6e67   bbox = bounding
++00013da0: 5f62 6f78 6573 5b69 6e64 6578 5d0d 0a20  _boxes[index].. 
++00013db0: 2020 2020 2020 2020 2020 2073 697a 657a             sizez
++00013dc0: 203d 2061 6273 2862 626f 785b 305d 202d   = abs(bbox[0] -
++00013dd0: 2062 626f 785b 335d 290d 0a20 2020 2020   bbox[3])..     
++00013de0: 2020 2020 2020 2073 697a 6579 203d 2061         sizey = a
++00013df0: 6273 2862 626f 785b 315d 202d 2062 626f  bs(bbox[1] - bbo
++00013e00: 785b 345d 290d 0a20 2020 2020 2020 2020  x[4])..         
++00013e10: 2020 2073 697a 6578 203d 2061 6273 2862     sizex = abs(b
++00013e20: 626f 785b 325d 202d 2062 626f 785b 355d  box[2] - bbox[5]
++00013e30: 2920 0d0a 2020 2020 2020 2020 2020 2020  ) ..            
++00013e40: 7665 746f 5f76 6f6c 756d 6520 3d20 7369  veto_volume = si
++00013e50: 7a65 7820 2a20 7369 7a65 7920 2a20 7369  zex * sizey * si
++00013e60: 7a65 7a0d 0a20 2020 2020 2020 2020 2020  zez..           
++00013e70: 2076 6574 6f5f 7261 6469 7573 203d 206d   veto_radius = m
++00013e80: 6174 682e 706f 7728 3320 2a20 7665 746f  ath.pow(3 * veto
++00013e90: 5f76 6f6c 756d 6520 2f20 2834 202a 206d  _volume / (4 * m
++00013ea0: 6174 682e 7069 292c 2031 2e30 202f 2033  ath.pi), 1.0 / 3
++00013eb0: 2e30 290d 0a0d 0a20 2020 2020 2020 2020  .0)....         
++00013ec0: 2020 206c 6f63 6174 696f 6e20 3d20 2863     location = (c
++00013ed0: 656e 7472 6f69 6473 5b69 6e64 6578 5d5b  entroids[index][
++00013ee0: 305d 202a 2073 656c 662e 7a63 616c 6962  0] * self.zcalib
++00013ef0: 7261 7469 6f6e 2c20 6365 6e74 726f 6964  ration, centroid
++00013f00: 735b 696e 6465 785d 5b31 5d2a 7365 6c66  s[index][1]*self
++00013f10: 2e79 6361 6c69 6272 6174 696f 6e2c 2063  .ycalibration, c
++00013f20: 656e 7472 6f69 6473 5b69 6e64 6578 5d5b  entroids[index][
++00013f30: 325d 2a73 656c 662e 7863 616c 6962 7261  2]*self.xcalibra
++00013f40: 7469 6f6e 290d 0a20 2020 2020 2020 2020  tion)..         
++00013f50: 2020 2051 5541 4c49 5459 203d 206d 6174     QUALITY = mat
++00013f60: 682e 706f 7728 766f 6c75 6d65 5b69 6e64  h.pow(volume[ind
++00013f70: 6578 5d2c 2031 2e30 2f33 2e30 290d 0a20  ex], 1.0/3.0).. 
++00013f80: 2020 2020 2020 2020 2020 2052 4144 4955             RADIU
++00013f90: 5320 3d20 6d61 7468 2e70 6f77 2876 6f6c  S = math.pow(vol
++00013fa0: 756d 655b 696e 6465 785d 202a 2073 656c  ume[index] * sel
++00013fb0: 662e 7863 616c 6962 7261 7469 6f6e 202a  f.xcalibration *
++00013fc0: 2073 656c 662e 7963 616c 6962 7261 7469   self.ycalibrati
++00013fd0: 6f6e 202a 2073 656c 662e 7a63 616c 6962  on * self.zcalib
++00013fe0: 7261 7469 6f6e 2c20 312e 302f 332e 3029  ration, 1.0/3.0)
++00013ff0: 200d 0a0d 0a20 2020 2020 2020 2020 2020   ....           
++00014000: 2064 6973 7461 6e63 655f 6365 6c6c 5f6d   distance_cell_m
++00014010: 6173 6b2c 206d 6173 6b63 656e 7472 6f69  ask, maskcentroi
++00014020: 6420 3d20 7365 6c66 2e5f 6765 745f 626f  d = self._get_bo
++00014030: 756e 6461 7279 5f64 6973 7428 6672 616d  undary_dist(fram
++00014040: 652c 206c 6f63 6174 696f 6e29 0d0a 2020  e, location)..  
++00014050: 2020 2020 2020 2020 2020 6966 2064 6973            if dis
++00014060: 7420 3c3d 2032 202a 2076 6574 6f5f 7261  t <= 2 * veto_ra
++00014070: 6469 7573 3a0d 0a20 2020 2020 2020 2020  dius:..         
++00014080: 2020 2020 2020 2073 656c 662e 6368 616e         self.chan
++00014090: 6e65 6c5f 756e 6971 7565 5f73 706f 745f  nel_unique_spot_
++000140a0: 7072 6f70 6572 7469 6573 5b63 656c 6c5f  properties[cell_
++000140b0: 6964 5d20 3d20 7b0d 0a20 2020 2020 2020  id] = {..       
++000140c0: 2020 2020 2020 2020 2020 2020 2020 2020                  
++000140d0: 2073 656c 662e 6365 6c6c 6964 5f6b 6579   self.cellid_key
++000140e0: 3a20 696e 7428 6365 6c6c 5f69 6429 2c20  : int(cell_id), 
++000140f0: 0d0a 2020 2020 2020 2020 2020 2020 2020  ..              
++00014100: 2020 2020 2020 2020 2020 7365 6c66 2e66            self.f
++00014110: 7261 6d65 6964 5f6b 6579 203a 2069 6e74  rameid_key : int
++00014120: 2866 7261 6d65 292c 0d0a 2020 2020 2020  (frame),..      
++00014130: 2020 2020 2020 2020 2020 2020 2020 2020                  
++00014140: 2020 7365 6c66 2e7a 706f 7369 645f 6b65    self.zposid_ke
++00014150: 7920 3a20 666c 6f61 7428 6365 6e74 726f  y : float(centro
++00014160: 6964 735b 696e 6465 785d 5b30 5d2a 2073  ids[index][0]* s
++00014170: 656c 662e 7a63 616c 6962 7261 7469 6f6e  elf.zcalibration
++00014180: 292c 0d0a 2020 2020 2020 2020 2020 2020  ),..            
++00014190: 2020 2020 2020 2020 2020 2020 7365 6c66              self
++000141a0: 2e79 706f 7369 645f 6b65 7920 3a20 666c  .yposid_key : fl
++000141b0: 6f61 7428 6365 6e74 726f 6964 735b 696e  oat(centroids[in
++000141c0: 6465 785d 5b31 5d2a 2073 656c 662e 7963  dex][1]* self.yc
++000141d0: 616c 6962 7261 7469 6f6e 292c 0d0a 2020  alibration),..  
++000141e0: 2020 2020 2020 2020 2020 2020 2020 2020                  
++000141f0: 2020 2020 2020 7365 6c66 2e78 706f 7369        self.xposi
++00014200: 645f 6b65 7920 3a20 666c 6f61 7428 6365  d_key : float(ce
++00014210: 6e74 726f 6964 735b 696e 6465 785d 5b32  ntroids[index][2
++00014220: 5d2a 2073 656c 662e 7863 616c 6962 7261  ]* self.xcalibra
++00014230: 7469 6f6e 292c 0d0a 2020 2020 2020 2020  tion),..        
++00014240: 2020 2020 2020 2020 2020 2020 2020 2020                  
++00014250: 7365 6c66 2e74 7261 636b 6964 5f6b 6579  self.trackid_key
++00014260: 3a20 696e 7428 7472 6163 6b5f 6964 292c  : int(track_id),
++00014270: 0d0a 2020 2020 2020 2020 2020 2020 2020  ..              
++00014280: 2020 2020 2020 2020 2020 7365 6c66 2e74            self.t
++00014290: 6f74 616c 5f69 6e74 656e 7369 7479 5f6b  otal_intensity_k
++000142a0: 6579 203a 2028 666c 6f61 7428 696e 7465  ey : (float(inte
++000142b0: 6e73 6974 795f 746f 7461 6c5b 696e 6465  nsity_total[inde
++000142c0: 785d 2929 2c0d 0a20 2020 2020 2020 2020  x])),..         
++000142d0: 2020 2020 2020 2020 2020 2020 2020 2073                 s
++000142e0: 656c 662e 6d65 616e 5f69 6e74 656e 7369  elf.mean_intensi
++000142f0: 7479 5f6b 6579 203a 2028 666c 6f61 7428  ty_key : (float(
++00014300: 696e 7465 6e73 6974 795f 6d65 616e 5b69  intensity_mean[i
++00014310: 6e64 6578 5d29 292c 0d0a 2020 2020 2020  ndex])),..      
+ 00014320: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-00014330: 2020 2020 2020 2073 656c 662e 7970 6f73         self.ypos
+-00014340: 6964 5f6b 6579 203a 2066 6c6f 6174 2863  id_key : float(c
+-00014350: 656e 7472 6f69 6473 5b69 6e64 6578 5d5b  entroids[index][
+-00014360: 315d 2a20 7365 6c66 2e79 6361 6c69 6272  1]* self.ycalibr
+-00014370: 6174 696f 6e29 2c0d 0a20 2020 2020 2020  ation),..       
+-00014380: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-00014390: 2073 656c 662e 7870 6f73 6964 5f6b 6579   self.xposid_key
+-000143a0: 203a 2066 6c6f 6174 2863 656e 7472 6f69   : float(centroi
+-000143b0: 6473 5b69 6e64 6578 5d5b 325d 2a20 7365  ds[index][2]* se
+-000143c0: 6c66 2e78 6361 6c69 6272 6174 696f 6e29  lf.xcalibration)
+-000143d0: 2c0d 0a20 2020 2020 2020 2020 2020 2020  ,..             
+-000143e0: 2020 2020 2020 2020 2020 2073 656c 662e             self.
+-000143f0: 7472 6163 6b69 645f 6b65 793a 2069 6e74  trackid_key: int
+-00014400: 2874 7261 636b 5f69 6429 2c0d 0a20 2020  (track_id),..   
+-00014410: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-00014420: 2020 2020 2073 656c 662e 746f 7461 6c5f       self.total_
+-00014430: 696e 7465 6e73 6974 795f 6b65 7920 3a20  intensity_key : 
+-00014440: 2866 6c6f 6174 2869 6e74 656e 7369 7479  (float(intensity
+-00014450: 5f74 6f74 616c 5b69 6e64 6578 5d29 292c  _total[index])),
+-00014460: 0d0a 2020 2020 2020 2020 2020 2020 2020  ..              
+-00014470: 2020 2020 2020 2020 2020 7365 6c66 2e6d            self.m
+-00014480: 6561 6e5f 696e 7465 6e73 6974 795f 6b65  ean_intensity_ke
+-00014490: 7920 3a20 2866 6c6f 6174 2869 6e74 656e  y : (float(inten
+-000144a0: 7369 7479 5f6d 6561 6e5b 696e 6465 785d  sity_mean[index]
+-000144b0: 2929 2c0d 0a20 2020 2020 2020 2020 2020  )),..           
+-000144c0: 2020 2020 2020 2020 2020 2020 2073 656c               sel
+-000144d0: 662e 7261 6469 7573 5f6b 6579 203a 2028  f.radius_key : (
+-000144e0: 666c 6f61 7428 5241 4449 5553 2929 2c0d  float(RADIUS)),.
+-000144f0: 0a20 2020 2020 2020 2020 2020 2020 2020  .               
+-00014500: 2020 2020 2020 2020 2073 656c 662e 7175           self.qu
+-00014510: 616c 6974 795f 6b65 7920 3a20 2866 6c6f  ality_key : (flo
+-00014520: 6174 2851 5541 4c49 5459 2929 2c0d 0a20  at(QUALITY)),.. 
+-00014530: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-00014540: 2020 2020 2020 2073 656c 662e 6469 7374         self.dist
+-00014550: 616e 6365 5f63 656c 6c5f 6d61 736b 5f6b  ance_cell_mask_k
+-00014560: 6579 3a20 666c 6f61 7428 6469 7374 616e  ey: float(distan
+-00014570: 6365 5f63 656c 6c5f 6d61 736b 292c 0d0a  ce_cell_mask),..
+-00014580: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-00014590: 2020 2020 2020 2020 7365 6c66 2e6d 6173          self.mas
+-000145a0: 6b63 656e 7472 6f69 645f 7a5f 6b65 793a  kcentroid_z_key:
+-000145b0: 2066 6c6f 6174 286d 6173 6b63 656e 7472   float(maskcentr
+-000145c0: 6f69 645b 305d 292c 0d0a 2020 2020 2020  oid[0]),..      
+-000145d0: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-000145e0: 2020 7365 6c66 2e6d 6173 6b63 656e 7472    self.maskcentr
+-000145f0: 6f69 645f 795f 6b65 793a 2066 6c6f 6174  oid_y_key: float
+-00014600: 286d 6173 6b63 656e 7472 6f69 645b 315d  (maskcentroid[1]
+-00014610: 292c 0d0a 2020 2020 2020 2020 2020 2020  ),..            
+-00014620: 2020 2020 2020 2020 2020 2020 7365 6c66              self
+-00014630: 2e6d 6173 6b63 656e 7472 6f69 645f 785f  .maskcentroid_x_
+-00014640: 6b65 793a 2066 6c6f 6174 286d 6173 6b63  key: float(maskc
+-00014650: 656e 7472 6f69 645b 325d 2920 0d0a 0d0a  entroid[2]) ....
+-00014660: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-00014670: 7d0d 0a20 2020 2020 2020 2020 2020 2065  }..            e
+-00014680: 6c69 6620 6365 6c6c 5f69 6420 696e 2073  lif cell_id in s
+-00014690: 656c 662e 6564 6765 5f73 6f75 7263 655f  elf.edge_source_
+-000146a0: 6c6f 6f6b 7570 2e6b 6579 7328 293a 0d0a  lookup.keys():..
+-000146b0: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-000146c0: 2020 2020 0d0a 2020 2020 2020 2020 2020      ..          
+-000146d0: 2020 2020 2020 2020 2020 7365 6c66 2e63            self.c
+-000146e0: 6861 6e6e 656c 5f75 6e69 7175 655f 7370  hannel_unique_sp
+-000146f0: 6f74 5f70 726f 7065 7274 6965 735b 6365  ot_properties[ce
+-00014700: 6c6c 5f69 645d 203d 2073 656c 662e 756e  ll_id] = self.un
+-00014710: 6971 7565 5f73 706f 745f 7072 6f70 6572  ique_spot_proper
+-00014720: 7469 6573 5b63 656c 6c5f 6964 5d0d 0a20  ties[cell_id].. 
++00014330: 2020 7365 6c66 2e72 6164 6975 735f 6b65    self.radius_ke
++00014340: 7920 3a20 2866 6c6f 6174 2852 4144 4955  y : (float(RADIU
++00014350: 5329 292c 0d0a 2020 2020 2020 2020 2020  S)),..          
++00014360: 2020 2020 2020 2020 2020 2020 2020 7365                se
++00014370: 6c66 2e71 7561 6c69 7479 5f6b 6579 203a  lf.quality_key :
++00014380: 2028 666c 6f61 7428 5155 414c 4954 5929   (float(QUALITY)
++00014390: 292c 0d0a 2020 2020 2020 2020 2020 2020  ),..            
++000143a0: 2020 2020 2020 2020 2020 2020 7365 6c66              self
++000143b0: 2e64 6973 7461 6e63 655f 6365 6c6c 5f6d  .distance_cell_m
++000143c0: 6173 6b5f 6b65 793a 2066 6c6f 6174 2864  ask_key: float(d
++000143d0: 6973 7461 6e63 655f 6365 6c6c 5f6d 6173  istance_cell_mas
++000143e0: 6b29 2c0d 0a20 2020 2020 2020 2020 2020  k),..           
++000143f0: 2020 2020 2020 2020 2020 2020 2073 656c               sel
++00014400: 662e 6d61 736b 6365 6e74 726f 6964 5f7a  f.maskcentroid_z
++00014410: 5f6b 6579 3a20 666c 6f61 7428 6d61 736b  _key: float(mask
++00014420: 6365 6e74 726f 6964 5b30 5d29 2c0d 0a20  centroid[0]),.. 
++00014430: 2020 2020 2020 2020 2020 2020 2020 2020                  
++00014440: 2020 2020 2020 2073 656c 662e 6d61 736b         self.mask
++00014450: 6365 6e74 726f 6964 5f79 5f6b 6579 3a20  centroid_y_key: 
++00014460: 666c 6f61 7428 6d61 736b 6365 6e74 726f  float(maskcentro
++00014470: 6964 5b31 5d29 2c0d 0a20 2020 2020 2020  id[1]),..       
++00014480: 2020 2020 2020 2020 2020 2020 2020 2020                  
++00014490: 2073 656c 662e 6d61 736b 6365 6e74 726f   self.maskcentro
++000144a0: 6964 5f78 5f6b 6579 3a20 666c 6f61 7428  id_x_key: float(
++000144b0: 6d61 736b 6365 6e74 726f 6964 5b32 5d29  maskcentroid[2])
++000144c0: 200d 0a0d 0a20 2020 2020 2020 2020 2020   ....           
++000144d0: 2020 2020 207d 0d0a 2020 2020 2020 2020       }..        
++000144e0: 2020 2020 656c 6966 2063 656c 6c5f 6964      elif cell_id
++000144f0: 2069 6e20 7365 6c66 2e65 6467 655f 736f   in self.edge_so
++00014500: 7572 6365 5f6c 6f6f 6b75 702e 6b65 7973  urce_lookup.keys
++00014510: 2829 3a0d 0a20 2020 2020 2020 2020 2020  ():..           
++00014520: 2020 2020 2020 2020 200d 0a20 2020 2020           ..     
++00014530: 2020 2020 2020 2020 2020 2020 2020 2073                 s
++00014540: 656c 662e 6368 616e 6e65 6c5f 756e 6971  elf.channel_uniq
++00014550: 7565 5f73 706f 745f 7072 6f70 6572 7469  ue_spot_properti
++00014560: 6573 5b63 656c 6c5f 6964 5d20 3d20 7365  es[cell_id] = se
++00014570: 6c66 2e75 6e69 7175 655f 7370 6f74 5f70  lf.unique_spot_p
++00014580: 726f 7065 7274 6965 735b 6365 6c6c 5f69  roperties[cell_i
++00014590: 645d 0d0a 2020 2020 2020 2020 2020 2020  d]..            
++000145a0: 2020 2020 2020 2020 7365 6c66 2e63 6861          self.cha
++000145b0: 6e6e 656c 5f75 6e69 7175 655f 7370 6f74  nnel_unique_spot
++000145c0: 5f70 726f 7065 7274 6965 735b 6365 6c6c  _properties[cell
++000145d0: 5f69 645d 2e75 7064 6174 6528 7b73 656c  _id].update({sel
++000145e0: 662e 746f 7461 6c5f 696e 7465 6e73 6974  f.total_intensit
++000145f0: 795f 6b65 793a 202d 317d 290d 0a20 2020  y_key: -1})..   
++00014600: 2020 2020 2020 2020 2020 2020 2020 2020                  
++00014610: 2073 656c 662e 6368 616e 6e65 6c5f 756e   self.channel_un
++00014620: 6971 7565 5f73 706f 745f 7072 6f70 6572  ique_spot_proper
++00014630: 7469 6573 5b63 656c 6c5f 6964 5d2e 7570  ties[cell_id].up
++00014640: 6461 7465 287b 7365 6c66 2e6d 6561 6e5f  date({self.mean_
++00014650: 696e 7465 6e73 6974 795f 6b65 793a 202d  intensity_key: -
++00014660: 317d 290d 0a20 2020 2020 2020 2020 2020  1})..           
++00014670: 2020 2020 2020 2020 2073 656c 662e 6368           self.ch
++00014680: 616e 6e65 6c5f 756e 6971 7565 5f73 706f  annel_unique_spo
++00014690: 745f 7072 6f70 6572 7469 6573 5b63 656c  t_properties[cel
++000146a0: 6c5f 6964 5d2e 7570 6461 7465 287b 7365  l_id].update({se
++000146b0: 6c66 2e72 6164 6975 735f 6b65 793a 202d  lf.radius_key: -
++000146c0: 317d 290d 0a20 2020 2020 2020 2020 2020  1})..           
++000146d0: 2020 2020 2020 2020 2073 656c 662e 6368           self.ch
++000146e0: 616e 6e65 6c5f 756e 6971 7565 5f73 706f  annel_unique_spo
++000146f0: 745f 7072 6f70 6572 7469 6573 5b63 656c  t_properties[cel
++00014700: 6c5f 6964 5d2e 7570 6461 7465 287b 7365  l_id].update({se
++00014710: 6c66 2e71 7561 6c69 7479 5f6b 6579 3a20  lf.quality_key: 
++00014720: 2d31 7d29 0d0a 0d0a 0d0a 0d0a 2020 2020  -1})........    
+ 00014730: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-00014740: 2020 2073 656c 662e 6368 616e 6e65 6c5f     self.channel_
+-00014750: 756e 6971 7565 5f73 706f 745f 7072 6f70  unique_spot_prop
+-00014760: 6572 7469 6573 5b63 656c 6c5f 6964 5d2e  erties[cell_id].
+-00014770: 7570 6461 7465 287b 7365 6c66 2e74 6f74  update({self.tot
+-00014780: 616c 5f69 6e74 656e 7369 7479 5f6b 6579  al_intensity_key
+-00014790: 3a20 2d31 7d29 0d0a 2020 2020 2020 2020  : -1})..        
+-000147a0: 2020 2020 2020 2020 2020 2020 7365 6c66              self
+-000147b0: 2e63 6861 6e6e 656c 5f75 6e69 7175 655f  .channel_unique_
+-000147c0: 7370 6f74 5f70 726f 7065 7274 6965 735b  spot_properties[
+-000147d0: 6365 6c6c 5f69 645d 2e75 7064 6174 6528  cell_id].update(
+-000147e0: 7b73 656c 662e 6d65 616e 5f69 6e74 656e  {self.mean_inten
+-000147f0: 7369 7479 5f6b 6579 3a20 2d31 7d29 0d0a  sity_key: -1})..
+-00014800: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-00014810: 2020 2020 7365 6c66 2e63 6861 6e6e 656c      self.channel
+-00014820: 5f75 6e69 7175 655f 7370 6f74 5f70 726f  _unique_spot_pro
+-00014830: 7065 7274 6965 735b 6365 6c6c 5f69 645d  perties[cell_id]
+-00014840: 2e75 7064 6174 6528 7b73 656c 662e 7261  .update({self.ra
+-00014850: 6469 7573 5f6b 6579 3a20 2d31 7d29 0d0a  dius_key: -1})..
+-00014860: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-00014870: 2020 2020 7365 6c66 2e63 6861 6e6e 656c      self.channel
+-00014880: 5f75 6e69 7175 655f 7370 6f74 5f70 726f  _unique_spot_pro
+-00014890: 7065 7274 6965 735b 6365 6c6c 5f69 645d  perties[cell_id]
+-000148a0: 2e75 7064 6174 6528 7b73 656c 662e 7175  .update({self.qu
+-000148b0: 616c 6974 795f 6b65 793a 202d 317d 290d  ality_key: -1}).
+-000148c0: 0a0d 0a0d 0a0d 0a20 2020 2020 2020 2020  .......         
+-000148d0: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-000148e0: 2020 2020 2020 2020 0d0a 2020 2020 6465          ..    de
+-000148f0: 6620 5f64 6963 745f 7570 6461 7465 2873  f _dict_update(s
+-00014900: 656c 662c 2075 6e69 7175 655f 7472 6163  elf, unique_trac
+-00014910: 6b6c 6574 5f69 6473 3a20 4c69 7374 2c20  klet_ids: List, 
+-00014920: 2063 656c 6c5f 6964 3a20 696e 742c 2074   cell_id: int, t
+-00014930: 7261 636b 5f69 643a 2069 6e74 2c20 736f  rack_id: int, so
+-00014940: 7572 6365 5f69 643a 2069 6e74 2c20 7461  urce_id: int, ta
+-00014950: 7267 6574 5f69 643a 2069 6e74 293a 0d0a  rget_id: int):..
+-00014960: 0d0a 200d 0a20 2020 2020 2020 2067 656e  .. ..        gen
+-00014970: 6572 6174 696f 6e5f 6964 203d 2073 656c  eration_id = sel
+-00014980: 662e 6765 6e65 7261 7469 6f6e 5f64 6963  f.generation_dic
+-00014990: 745b 6365 6c6c 5f69 645d 0d0a 2020 2020  t[cell_id]..    
+-000149a0: 2020 2020 7472 6163 6b6c 6574 5f69 6420      tracklet_id 
+-000149b0: 3d20 7365 6c66 2e74 7261 636b 6c65 745f  = self.tracklet_
+-000149c0: 6469 6374 5b63 656c 6c5f 6964 5d0d 0a0d  dict[cell_id]...
+-000149d0: 0a20 2020 2020 2020 2075 6e69 7175 655f  .        unique_
+-000149e0: 6964 203d 2073 7472 2874 7261 636b 5f69  id = str(track_i
+-000149f0: 6429 202b 2073 7472 2873 656c 662e 6d61  d) + str(self.ma
+-00014a00: 785f 7472 6163 6b5f 6964 2920 2b20 7374  x_track_id) + st
+-00014a10: 7228 6765 6e65 7261 7469 6f6e 5f69 6429  r(generation_id)
+-00014a20: 202b 2073 7472 2874 7261 636b 6c65 745f   + str(tracklet_
+-00014a30: 6964 290d 0a20 2020 2020 2020 200d 0a20  id)..        .. 
+-00014a40: 2020 2020 2020 2076 6563 5f6d 6173 6b20         vec_mask 
+-00014a50: 3d20 5b66 6c6f 6174 2873 656c 662e 756e  = [float(self.un
+-00014a60: 6971 7565 5f73 706f 745f 7072 6f70 6572  ique_spot_proper
+-00014a70: 7469 6573 5b69 6e74 2863 656c 6c5f 6964  ties[int(cell_id
+-00014a80: 295d 5b73 656c 662e 6d61 736b 6365 6e74  )][self.maskcent
+-00014a90: 726f 6964 5f78 5f6b 6579 5d29 2c20 666c  roid_x_key]), fl
+-00014aa0: 6f61 7428 7365 6c66 2e75 6e69 7175 655f  oat(self.unique_
+-00014ab0: 7370 6f74 5f70 726f 7065 7274 6965 735b  spot_properties[
+-00014ac0: 696e 7428 6365 6c6c 5f69 6429 5d5b 7365  int(cell_id)][se
+-00014ad0: 6c66 2e6d 6173 6b63 656e 7472 6f69 645f  lf.maskcentroid_
+-00014ae0: 795f 6b65 795d 292c 2066 6c6f 6174 2873  y_key]), float(s
+-00014af0: 656c 662e 756e 6971 7565 5f73 706f 745f  elf.unique_spot_
+-00014b00: 7072 6f70 6572 7469 6573 5b69 6e74 2863  properties[int(c
+-00014b10: 656c 6c5f 6964 295d 5b73 656c 662e 6d61  ell_id)][self.ma
+-00014b20: 736b 6365 6e74 726f 6964 5f7a 5f6b 6579  skcentroid_z_key
+-00014b30: 5d29 205d 0d0a 0d0a 2020 2020 2020 2020  ]) ]....        
+-00014b40: 7665 635f 6365 6c6c 203d 205b 666c 6f61  vec_cell = [floa
+-00014b50: 7428 7365 6c66 2e75 6e69 7175 655f 7370  t(self.unique_sp
+-00014b60: 6f74 5f70 726f 7065 7274 6965 735b 696e  ot_properties[in
+-00014b70: 7428 6365 6c6c 5f69 6429 5d5b 7365 6c66  t(cell_id)][self
+-00014b80: 2e78 706f 7369 645f 6b65 795d 2920 2c20  .xposid_key]) , 
+-00014b90: 0d0a 2020 2020 2020 2020 2020 2020 2020  ..              
+-00014ba0: 2020 2020 2020 2020 2020 2020 2020 666c                fl
+-00014bb0: 6f61 7428 7365 6c66 2e75 6e69 7175 655f  oat(self.unique_
+-00014bc0: 7370 6f74 5f70 726f 7065 7274 6965 735b  spot_properties[
+-00014bd0: 696e 7428 6365 6c6c 5f69 6429 5d5b 7365  int(cell_id)][se
+-00014be0: 6c66 2e79 706f 7369 645f 6b65 795d 292c  lf.yposid_key]),
+-00014bf0: 200d 0a20 2020 2020 2020 2020 2020 2020   ..             
+-00014c00: 2020 2020 2020 2020 2020 2020 2020 2066                 f
+-00014c10: 6c6f 6174 2873 656c 662e 756e 6971 7565  loat(self.unique
+-00014c20: 5f73 706f 745f 7072 6f70 6572 7469 6573  _spot_properties
+-00014c30: 5b69 6e74 2863 656c 6c5f 6964 295d 5b73  [int(cell_id)][s
+-00014c40: 656c 662e 7a70 6f73 6964 5f6b 6579 5d29  elf.zposid_key])
+-00014c50: 5d0d 0a0d 0a20 2020 2020 2020 2061 6e67  ]....        ang
+-00014c60: 6c65 203d 2061 6e67 756c 6172 5f63 6861  le = angular_cha
+-00014c70: 6e67 6528 7665 635f 6d61 736b 2c20 7665  nge(vec_mask, ve
+-00014c80: 635f 6365 6c6c 290d 0a0d 0a20 2020 2020  c_cell)....     
+-00014c90: 2020 2073 656c 662e 756e 6971 7565 5f73     self.unique_s
+-00014ca0: 706f 745f 7072 6f70 6572 7469 6573 5b69  pot_properties[i
+-00014cb0: 6e74 2863 656c 6c5f 6964 295d 2e75 7064  nt(cell_id)].upd
+-00014cc0: 6174 6528 7b73 656c 662e 7261 6469 616c  ate({self.radial
+-00014cd0: 5f61 6e67 6c65 5f6b 6579 203a 2061 6e67  _angle_key : ang
+-00014ce0: 6c65 7d29 2020 2020 2020 2020 2020 2020  le})            
+-00014cf0: 2020 2020 2020 2020 0d0a 0d0a 2020 2020          ....    
+-00014d00: 2020 2020 756e 6971 7565 5f74 7261 636b      unique_track
+-00014d10: 6c65 745f 6964 732e 6170 7065 6e64 2873  let_ids.append(s
+-00014d20: 7472 2875 6e69 7175 655f 6964 2929 0d0a  tr(unique_id))..
+-00014d30: 2020 2020 2020 2020 7365 6c66 2e75 6e69          self.uni
+-00014d40: 7175 655f 7370 6f74 5f70 726f 7065 7274  que_spot_propert
+-00014d50: 6965 735b 696e 7428 6365 6c6c 5f69 6429  ies[int(cell_id)
+-00014d60: 5d2e 7570 6461 7465 287b 7365 6c66 2e75  ].update({self.u
+-00014d70: 6e69 7175 6569 645f 6b65 7920 3a20 7374  niqueid_key : st
+-00014d80: 7228 756e 6971 7565 5f69 6429 7d29 0d0a  r(unique_id)})..
+-00014d90: 2020 2020 2020 2020 7365 6c66 2e75 6e69          self.uni
+-00014da0: 7175 655f 7370 6f74 5f70 726f 7065 7274  que_spot_propert
+-00014db0: 6965 735b 696e 7428 6365 6c6c 5f69 6429  ies[int(cell_id)
+-00014dc0: 5d2e 7570 6461 7465 287b 7365 6c66 2e74  ].update({self.t
+-00014dd0: 7261 636b 6c65 7469 645f 6b65 7920 3a20  rackletid_key : 
+-00014de0: 7374 7228 7472 6163 6b6c 6574 5f69 6429  str(tracklet_id)
+-00014df0: 7d29 200d 0a20 2020 2020 2020 2073 656c  }) ..        sel
+-00014e00: 662e 756e 6971 7565 5f73 706f 745f 7072  f.unique_spot_pr
+-00014e10: 6f70 6572 7469 6573 5b69 6e74 2863 656c  operties[int(cel
+-00014e20: 6c5f 6964 295d 2e75 7064 6174 6528 7b73  l_id)].update({s
+-00014e30: 656c 662e 6765 6e65 7261 7469 6f6e 6964  elf.generationid
+-00014e40: 5f6b 6579 203a 2073 7472 2867 656e 6572  _key : str(gener
+-00014e50: 6174 696f 6e5f 6964 297d 2920 0d0a 2020  ation_id)}) ..  
+-00014e60: 2020 2020 2020 7365 6c66 2e75 6e69 7175        self.uniqu
+-00014e70: 655f 7370 6f74 5f70 726f 7065 7274 6965  e_spot_propertie
+-00014e80: 735b 696e 7428 6365 6c6c 5f69 6429 5d2e  s[int(cell_id)].
+-00014e90: 7570 6461 7465 287b 7365 6c66 2e74 7261  update({self.tra
+-00014ea0: 636b 6964 5f6b 6579 203a 2073 7472 2874  ckid_key : str(t
+-00014eb0: 7261 636b 5f69 6429 7d29 0d0a 2020 2020  rack_id)})..    
+-00014ec0: 2020 2020 7365 6c66 2e75 6e69 7175 655f      self.unique_
+-00014ed0: 7370 6f74 5f70 726f 7065 7274 6965 735b  spot_properties[
+-00014ee0: 696e 7428 6365 6c6c 5f69 6429 5d2e 7570  int(cell_id)].up
+-00014ef0: 6461 7465 287b 7365 6c66 2e6d 6f74 696f  date({self.motio
+-00014f00: 6e5f 616e 676c 655f 6b65 7920 3a20 302e  n_angle_key : 0.
+-00014f10: 307d 290d 0a20 2020 2020 2020 2073 656c  0})..        sel
+-00014f20: 662e 756e 6971 7565 5f73 706f 745f 7072  f.unique_spot_pr
+-00014f30: 6f70 6572 7469 6573 5b69 6e74 2863 656c  operties[int(cel
+-00014f40: 6c5f 6964 295d 2e75 7064 6174 6528 7b73  l_id)].update({s
+-00014f50: 656c 662e 7370 6565 645f 6b65 7920 3a20  elf.speed_key : 
+-00014f60: 302e 307d 290d 0a20 2020 2020 2020 2073  0.0})..        s
+-00014f70: 656c 662e 756e 6971 7565 5f73 706f 745f  elf.unique_spot_
+-00014f80: 7072 6f70 6572 7469 6573 5b69 6e74 2863  properties[int(c
+-00014f90: 656c 6c5f 6964 295d 2e75 7064 6174 6528  ell_id)].update(
+-00014fa0: 7b73 656c 662e 6163 6365 6c65 7261 7469  {self.accelerati
+-00014fb0: 6f6e 5f6b 6579 203a 2030 2e30 7d29 0d0a  on_key : 0.0})..
+-00014fc0: 2020 2020 2020 2020 7365 6c66 2e75 6e69          self.uni
+-00014fd0: 7175 655f 7370 6f74 5f70 726f 7065 7274  que_spot_propert
+-00014fe0: 6965 735b 696e 7428 6365 6c6c 5f69 6429  ies[int(cell_id)
+-00014ff0: 5d2e 7570 6461 7465 287b 7365 6c66 2e65  ].update({self.e
+-00015000: 6363 656e 7472 6963 6974 795f 636f 6d70  ccentricity_comp
+-00015010: 5f66 6972 7374 6b65 7920 3a20 2d31 7d29  _firstkey : -1})
+-00015020: 0d0a 2020 2020 2020 2020 7365 6c66 2e75  ..        self.u
+-00015030: 6e69 7175 655f 7370 6f74 5f70 726f 7065  nique_spot_prope
+-00015040: 7274 6965 735b 696e 7428 6365 6c6c 5f69  rties[int(cell_i
+-00015050: 6429 5d2e 7570 6461 7465 287b 7365 6c66  d)].update({self
+-00015060: 2e65 6363 656e 7472 6963 6974 795f 636f  .eccentricity_co
+-00015070: 6d70 5f73 6563 6f6e 646b 6579 203a 202d  mp_secondkey : -
+-00015080: 317d 290d 0a20 2020 2020 2020 2073 656c  1})..        sel
+-00015090: 662e 756e 6971 7565 5f73 706f 745f 7072  f.unique_spot_pr
+-000150a0: 6f70 6572 7469 6573 5b69 6e74 2863 656c  operties[int(cel
+-000150b0: 6c5f 6964 295d 2e75 7064 6174 6528 7b73  l_id)].update({s
+-000150c0: 656c 662e 7375 7266 6163 655f 6172 6561  elf.surface_area
+-000150d0: 5f6b 6579 203a 202d 317d 290d 0a20 2020  _key : -1})..   
+-000150e0: 2020 2020 2073 656c 662e 756e 6971 7565       self.unique
+-000150f0: 5f73 706f 745f 7072 6f70 6572 7469 6573  _spot_properties
+-00015100: 5b69 6e74 2863 656c 6c5f 6964 295d 2e75  [int(cell_id)].u
+-00015110: 7064 6174 6528 7b73 656c 662e 6365 6c6c  pdate({self.cell
+-00015120: 6178 6973 5f6d 6173 6b5f 6b65 7920 3a20  axis_mask_key : 
+-00015130: 2d31 7d29 0d0a 0d0a 2020 2020 2020 2020  -1})....        
+-00015140: 6966 2073 6f75 7263 655f 6964 2069 7320  if source_id is 
+-00015150: 6e6f 7420 4e6f 6e65 3a0d 0a20 2020 2020  not None:..     
+-00015160: 2020 2020 2020 2073 656c 662e 756e 6971         self.uniq
+-00015170: 7565 5f73 706f 745f 7072 6f70 6572 7469  ue_spot_properti
+-00015180: 6573 5b69 6e74 2863 656c 6c5f 6964 295d  es[int(cell_id)]
+-00015190: 2e75 7064 6174 6528 7b73 656c 662e 6265  .update({self.be
+-000151a0: 666f 7265 6964 5f6b 6579 203a 2069 6e74  foreid_key : int
+-000151b0: 2873 6f75 7263 655f 6964 297d 290d 0a20  (source_id)}).. 
+-000151c0: 2020 2020 2020 2020 2020 2076 6563 5f31             vec_1
+-000151d0: 203d 205b 666c 6f61 7428 7365 6c66 2e75   = [float(self.u
+-000151e0: 6e69 7175 655f 7370 6f74 5f70 726f 7065  nique_spot_prope
+-000151f0: 7274 6965 735b 696e 7428 6365 6c6c 5f69  rties[int(cell_i
+-00015200: 6429 5d5b 7365 6c66 2e78 706f 7369 645f  d)][self.xposid_
+-00015210: 6b65 795d 2920 2d20 666c 6f61 7428 7365  key]) - float(se
+-00015220: 6c66 2e75 6e69 7175 655f 7370 6f74 5f70  lf.unique_spot_p
+-00015230: 726f 7065 7274 6965 735b 696e 7428 736f  roperties[int(so
+-00015240: 7572 6365 5f69 6429 5d5b 7365 6c66 2e78  urce_id)][self.x
+-00015250: 706f 7369 645f 6b65 795d 292c 200d 0a20  posid_key]), .. 
+-00015260: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-00015270: 2020 2020 2020 2020 2020 2066 6c6f 6174             float
+-00015280: 2873 656c 662e 756e 6971 7565 5f73 706f  (self.unique_spo
+-00015290: 745f 7072 6f70 6572 7469 6573 5b69 6e74  t_properties[int
+-000152a0: 2863 656c 6c5f 6964 295d 5b73 656c 662e  (cell_id)][self.
+-000152b0: 7970 6f73 6964 5f6b 6579 5d29 202d 2066  yposid_key]) - f
+-000152c0: 6c6f 6174 2873 656c 662e 756e 6971 7565  loat(self.unique
+-000152d0: 5f73 706f 745f 7072 6f70 6572 7469 6573  _spot_properties
+-000152e0: 5b69 6e74 2873 6f75 7263 655f 6964 295d  [int(source_id)]
+-000152f0: 5b73 656c 662e 7970 6f73 6964 5f6b 6579  [self.yposid_key
+-00015300: 5d29 2c20 0d0a 2020 2020 2020 2020 2020  ]), ..          
+-00015310: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-00015320: 2020 666c 6f61 7428 7365 6c66 2e75 6e69    float(self.uni
+-00015330: 7175 655f 7370 6f74 5f70 726f 7065 7274  que_spot_propert
+-00015340: 6965 735b 696e 7428 6365 6c6c 5f69 6429  ies[int(cell_id)
+-00015350: 5d5b 7365 6c66 2e7a 706f 7369 645f 6b65  ][self.zposid_ke
+-00015360: 795d 2920 2d20 2066 6c6f 6174 2873 656c  y]) -  float(sel
+-00015370: 662e 756e 6971 7565 5f73 706f 745f 7072  f.unique_spot_pr
+-00015380: 6f70 6572 7469 6573 5b69 6e74 2873 6f75  operties[int(sou
+-00015390: 7263 655f 6964 295d 5b73 656c 662e 7a70  rce_id)][self.zp
+-000153a0: 6f73 6964 5f6b 6579 5d29 5d0d 0a20 2020  osid_key])]..   
+-000153b0: 2020 2020 2020 2020 2073 7065 6564 203d           speed =
+-000153c0: 206e 702e 7371 7274 286e 702e 646f 7428   np.sqrt(np.dot(
+-000153d0: 7665 635f 312c 2076 6563 5f31 2929 2f73  vec_1, vec_1))/s
+-000153e0: 656c 662e 7463 616c 6962 7261 7469 6f6e  elf.tcalibration
+-000153f0: 0d0a 2020 2020 2020 2020 2020 2020 7365  ..            se
+-00015400: 6c66 2e75 6e69 7175 655f 7370 6f74 5f70  lf.unique_spot_p
+-00015410: 726f 7065 7274 6965 735b 696e 7428 6365  roperties[int(ce
+-00015420: 6c6c 5f69 6429 5d2e 7570 6461 7465 287b  ll_id)].update({
+-00015430: 7365 6c66 2e73 7065 6564 5f6b 6579 203a  self.speed_key :
+-00015440: 2073 7065 6564 7d29 0d0a 0d0a 2020 2020   speed})....    
+-00015450: 2020 2020 2020 2020 6d6f 7469 6f6e 5f61          motion_a
+-00015460: 6e67 6c65 203d 2061 6e67 756c 6172 5f63  ngle = angular_c
+-00015470: 6861 6e67 6528 7665 635f 6d61 736b 2c20  hange(vec_mask, 
+-00015480: 7665 635f 3129 0d0a 0d0a 2020 2020 2020  vec_1)....      
+-00015490: 2020 2020 2020 7365 6c66 2e75 6e69 7175        self.uniqu
+-000154a0: 655f 7370 6f74 5f70 726f 7065 7274 6965  e_spot_propertie
+-000154b0: 735b 696e 7428 6365 6c6c 5f69 6429 5d2e  s[int(cell_id)].
+-000154c0: 7570 6461 7465 287b 7365 6c66 2e6d 6f74  update({self.mot
+-000154d0: 696f 6e5f 616e 676c 655f 6b65 7920 3a20  ion_angle_key : 
+-000154e0: 6d6f 7469 6f6e 5f61 6e67 6c65 7d29 200d  motion_angle}) .
+-000154f0: 0a0d 0a20 2020 2020 2020 2020 2020 2069  ...            i
+-00015500: 6620 736f 7572 6365 5f69 6420 696e 2073  f source_id in s
+-00015510: 656c 662e 6564 6765 5f73 6f75 7263 655f  elf.edge_source_
+-00015520: 6c6f 6f6b 7570 3a0d 0a20 2020 2020 2020  lookup:..       
+-00015530: 2020 2020 2020 2020 2020 2020 2070 7265               pre
+-00015540: 5f73 6f75 7263 655f 6964 203d 2073 656c  _source_id = sel
+-00015550: 662e 6564 6765 5f73 6f75 7263 655f 6c6f  f.edge_source_lo
+-00015560: 6f6b 7570 5b73 6f75 7263 655f 6964 5d0d  okup[source_id].
+-00015570: 0a20 2020 2020 2020 2020 2020 2020 2020  .               
+-00015580: 2020 2020 200d 0a20 2020 2020 2020 2020       ..         
+-00015590: 2020 2020 2020 2020 2020 2076 6563 5f32             vec_2
+-000155a0: 203d 205b 666c 6f61 7428 7365 6c66 2e75   = [float(self.u
+-000155b0: 6e69 7175 655f 7370 6f74 5f70 726f 7065  nique_spot_prope
+-000155c0: 7274 6965 735b 696e 7428 6365 6c6c 5f69  rties[int(cell_i
+-000155d0: 6429 5d5b 7365 6c66 2e78 706f 7369 645f  d)][self.xposid_
+-000155e0: 6b65 795d 2920 2d20 3220 2a20 666c 6f61  key]) - 2 * floa
+-000155f0: 7428 7365 6c66 2e75 6e69 7175 655f 7370  t(self.unique_sp
+-00015600: 6f74 5f70 726f 7065 7274 6965 735b 696e  ot_properties[in
+-00015610: 7428 736f 7572 6365 5f69 6429 5d5b 7365  t(source_id)][se
+-00015620: 6c66 2e78 706f 7369 645f 6b65 795d 2920  lf.xposid_key]) 
+-00015630: 2b20 666c 6f61 7428 7365 6c66 2e75 6e69  + float(self.uni
+-00015640: 7175 655f 7370 6f74 5f70 726f 7065 7274  que_spot_propert
+-00015650: 6965 735b 696e 7428 7072 655f 736f 7572  ies[int(pre_sour
+-00015660: 6365 5f69 6429 5d5b 7365 6c66 2e78 706f  ce_id)][self.xpo
+-00015670: 7369 645f 6b65 795d 292c 200d 0a20 2020  sid_key]), ..   
+-00015680: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-00015690: 2020 2020 2020 2020 2066 6c6f 6174 2873           float(s
+-000156a0: 656c 662e 756e 6971 7565 5f73 706f 745f  elf.unique_spot_
+-000156b0: 7072 6f70 6572 7469 6573 5b69 6e74 2863  properties[int(c
+-000156c0: 656c 6c5f 6964 295d 5b73 656c 662e 7970  ell_id)][self.yp
+-000156d0: 6f73 6964 5f6b 6579 5d29 202d 2032 202a  osid_key]) - 2 *
+-000156e0: 2066 6c6f 6174 2873 656c 662e 756e 6971   float(self.uniq
+-000156f0: 7565 5f73 706f 745f 7072 6f70 6572 7469  ue_spot_properti
+-00015700: 6573 5b69 6e74 2873 6f75 7263 655f 6964  es[int(source_id
+-00015710: 295d 5b73 656c 662e 7970 6f73 6964 5f6b  )][self.yposid_k
+-00015720: 6579 5d29 202b 2066 6c6f 6174 2873 656c  ey]) + float(sel
+-00015730: 662e 756e 6971 7565 5f73 706f 745f 7072  f.unique_spot_pr
+-00015740: 6f70 6572 7469 6573 5b69 6e74 2870 7265  operties[int(pre
+-00015750: 5f73 6f75 7263 655f 6964 295d 5b73 656c  _source_id)][sel
+-00015760: 662e 7970 6f73 6964 5f6b 6579 5d29 2c20  f.yposid_key]), 
+-00015770: 0d0a 2020 2020 2020 2020 2020 2020 2020  ..              
+-00015780: 2020 2020 2020 2020 2020 2020 2020 666c                fl
+-00015790: 6f61 7428 7365 6c66 2e75 6e69 7175 655f  oat(self.unique_
+-000157a0: 7370 6f74 5f70 726f 7065 7274 6965 735b  spot_properties[
+-000157b0: 696e 7428 6365 6c6c 5f69 6429 5d5b 7365  int(cell_id)][se
+-000157c0: 6c66 2e7a 706f 7369 645f 6b65 795d 2920  lf.zposid_key]) 
+-000157d0: 2d20 2032 202a 2066 6c6f 6174 2873 656c  -  2 * float(sel
+-000157e0: 662e 756e 6971 7565 5f73 706f 745f 7072  f.unique_spot_pr
+-000157f0: 6f70 6572 7469 6573 5b69 6e74 2873 6f75  operties[int(sou
+-00015800: 7263 655f 6964 295d 5b73 656c 662e 7a70  rce_id)][self.zp
+-00015810: 6f73 6964 5f6b 6579 5d29 202b 2066 6c6f  osid_key]) + flo
+-00015820: 6174 2873 656c 662e 756e 6971 7565 5f73  at(self.unique_s
+-00015830: 706f 745f 7072 6f70 6572 7469 6573 5b69  pot_properties[i
+-00015840: 6e74 2870 7265 5f73 6f75 7263 655f 6964  nt(pre_source_id
+-00015850: 295d 5b73 656c 662e 7a70 6f73 6964 5f6b  )][self.zposid_k
+-00015860: 6579 5d29 5d0d 0a20 2020 2020 2020 2020  ey])]..         
+-00015870: 2020 2020 2020 2020 2020 2061 6363 203d             acc =
+-00015880: 206e 702e 7371 7274 286e 702e 646f 7428   np.sqrt(np.dot(
+-00015890: 7665 635f 322c 2076 6563 5f32 2929 2f73  vec_2, vec_2))/s
+-000158a0: 656c 662e 7463 616c 6962 7261 7469 6f6e  elf.tcalibration
+-000158b0: 0d0a 2020 2020 2020 2020 2020 2020 2020  ..              
+-000158c0: 2020 2020 2020 0d0a 2020 2020 2020 2020        ..        
+-000158d0: 2020 2020 2020 2020 2020 2020 7365 6c66              self
+-000158e0: 2e75 6e69 7175 655f 7370 6f74 5f70 726f  .unique_spot_pro
+-000158f0: 7065 7274 6965 735b 696e 7428 6365 6c6c  perties[int(cell
+-00015900: 5f69 6429 5d2e 7570 6461 7465 287b 7365  _id)].update({se
+-00015910: 6c66 2e61 6363 656c 6572 6174 696f 6e5f  lf.acceleration_
+-00015920: 6b65 7920 3a20 6163 637d 290d 0a20 2020  key : acc})..   
+-00015930: 2020 2020 2065 6c69 6620 736f 7572 6365       elif source
+-00015940: 5f69 6420 6973 204e 6f6e 653a 0d0a 2020  _id is None:..  
+-00015950: 2020 2020 2020 2020 2020 7365 6c66 2e75            self.u
+-00015960: 6e69 7175 655f 7370 6f74 5f70 726f 7065  nique_spot_prope
+-00015970: 7274 6965 735b 696e 7428 6365 6c6c 5f69  rties[int(cell_i
+-00015980: 6429 5d2e 7570 6461 7465 287b 7365 6c66  d)].update({self
+-00015990: 2e62 6566 6f72 6569 645f 6b65 7920 3a20  .beforeid_key : 
+-000159a0: 4e6f 6e65 7d29 200d 0a20 2020 2020 2020  None}) ..       
+-000159b0: 2020 2020 200d 0a0d 0a20 2020 2020 2020       ....       
+-000159c0: 2069 6620 7461 7267 6574 5f69 6420 6973   if target_id is
+-000159d0: 206e 6f74 204e 6f6e 653a 2020 2020 2020   not None:      
+-000159e0: 200d 0a20 2020 2020 2020 2020 2020 2073   ..            s
+-000159f0: 656c 662e 756e 6971 7565 5f73 706f 745f  elf.unique_spot_
+-00015a00: 7072 6f70 6572 7469 6573 5b69 6e74 2863  properties[int(c
+-00015a10: 656c 6c5f 6964 295d 2e75 7064 6174 6528  ell_id)].update(
+-00015a20: 7b73 656c 662e 6166 7465 7269 645f 6b65  {self.afterid_ke
+-00015a30: 7920 3a20 696e 7428 7461 7267 6574 5f69  y : int(target_i
+-00015a40: 6429 7d29 200d 0a20 2020 2020 2020 2065  d)}) ..        e
+-00015a50: 6c69 6620 7461 7267 6574 5f69 6420 6973  lif target_id is
+-00015a60: 204e 6f6e 653a 0d0a 2020 2020 2020 2020   None:..        
+-00015a70: 2020 2020 7365 6c66 2e75 6e69 7175 655f      self.unique_
+-00015a80: 7370 6f74 5f70 726f 7065 7274 6965 735b  spot_properties[
+-00015a90: 696e 7428 6365 6c6c 5f69 6429 5d2e 7570  int(cell_id)].up
+-00015aa0: 6461 7465 287b 7365 6c66 2e61 6674 6572  date({self.after
+-00015ab0: 6964 5f6b 6579 203a 204e 6f6e 657d 290d  id_key : None}).
+-00015ac0: 0a20 2020 2020 2020 2020 2020 200d 0a20  .            .. 
+-00015ad0: 2020 2020 2020 2073 656c 662e 5f73 6563         self._sec
+-00015ae0: 6f6e 645f 6368 616e 6e65 6c5f 7570 6461  ond_channel_upda
+-00015af0: 7465 2863 656c 6c5f 6964 2c20 7472 6163  te(cell_id, trac
+-00015b00: 6b5f 6964 2920 2020 200d 0a0d 0a0d 0a20  k_id)    ...... 
+-00015b10: 2020 2064 6566 205f 7465 6d70 6f72 616c     def _temporal
+-00015b20: 5f70 6c6f 7473 5f74 7261 636b 6d61 7465  _plots_trackmate
+-00015b30: 2873 656c 6629 3a0d 0a20 2020 200d 0a20  (self):..    .. 
+-00015b40: 2020 200d 0a20 2020 200d 0a20 2020 2020     ..    ..     
+-00015b50: 2020 2020 2020 2020 2020 2073 656c 662e             self.
+-00015b60: 4174 7472 203d 207b 7d0d 0a20 2020 2020  Attr = {}..     
+-00015b70: 2020 2020 2020 2020 2020 2073 7461 7274             start
+-00015b80: 7469 6d65 203d 2069 6e74 286d 696e 2873  time = int(min(s
+-00015b90: 656c 662e 416c 6c56 616c 7565 735b 7365  elf.AllValues[se
+-00015ba0: 6c66 2e66 7261 6d65 6964 5f6b 6579 5d29  lf.frameid_key])
+-00015bb0: 290d 0a20 2020 2020 2020 2020 2020 2020  )..             
+-00015bc0: 2020 2065 6e64 7469 6d65 203d 2069 6e74     endtime = int
+-00015bd0: 286d 6178 2873 656c 662e 416c 6c56 616c  (max(self.AllVal
+-00015be0: 7565 735b 7365 6c66 2e66 7261 6d65 6964  ues[self.frameid
+-00015bf0: 5f6b 6579 5d29 290d 0a20 2020 2020 2020  _key]))..       
+-00015c00: 2020 2020 2020 2020 2020 0d0a 2020 2020            ..    
+-00015c10: 2020 2020 2020 2020 2020 2020 7365 6c66              self
+-00015c20: 2e74 696d 6520 3d20 5b5d 0d0a 2020 2020  .time = []..    
+-00015c30: 2020 2020 2020 2020 2020 2020 7365 6c66              self
+-00015c40: 2e6d 6974 6f74 6963 5f6d 6561 6e5f 6469  .mitotic_mean_di
+-00015c50: 7370 5f7a 203d 205b 5d0d 0a20 2020 2020  sp_z = []..     
+-00015c60: 2020 2020 2020 2020 2020 2073 656c 662e             self.
+-00015c70: 6d69 746f 7469 635f 7661 725f 6469 7370  mitotic_var_disp
+-00015c80: 5f7a 203d 205b 5d0d 0a0d 0a20 2020 2020  _z = []....     
+-00015c90: 2020 2020 2020 2020 2020 2073 656c 662e             self.
+-00015ca0: 6d69 746f 7469 635f 6d65 616e 5f64 6973  mitotic_mean_dis
+-00015cb0: 705f 7920 3d20 5b5d 0d0a 2020 2020 2020  p_y = []..      
+-00015cc0: 2020 2020 2020 2020 2020 7365 6c66 2e6d            self.m
+-00015cd0: 6974 6f74 6963 5f76 6172 5f64 6973 705f  itotic_var_disp_
+-00015ce0: 7920 3d20 5b5d 0d0a 0d0a 2020 2020 2020  y = []....      
+-00015cf0: 2020 2020 2020 2020 2020 7365 6c66 2e6d            self.m
+-00015d00: 6974 6f74 6963 5f6d 6561 6e5f 6469 7370  itotic_mean_disp
+-00015d10: 5f78 203d 205b 5d0d 0a20 2020 2020 2020  _x = []..       
+-00015d20: 2020 2020 2020 2020 2073 656c 662e 6d69           self.mi
+-00015d30: 746f 7469 635f 7661 725f 6469 7370 5f78  totic_var_disp_x
+-00015d40: 203d 205b 5d0d 0a0d 0a20 2020 2020 2020   = []....       
+-00015d50: 2020 2020 2020 2020 2073 656c 662e 6d69           self.mi
+-00015d60: 746f 7469 635f 6d65 616e 5f72 6164 6975  totic_mean_radiu
+-00015d70: 7320 3d20 5b5d 0d0a 2020 2020 2020 2020  s = []..        
+-00015d80: 2020 2020 2020 2020 7365 6c66 2e6d 6974          self.mit
+-00015d90: 6f74 6963 5f76 6172 5f72 6164 6975 7320  otic_var_radius 
+-00015da0: 3d20 5b5d 0d0a 0d0a 2020 2020 2020 2020  = []....        
+-00015db0: 2020 2020 2020 2020 7365 6c66 2e6d 6974          self.mit
+-00015dc0: 6f74 6963 5f6d 6561 6e5f 7370 6565 6420  otic_mean_speed 
+-00015dd0: 3d20 5b5d 0d0a 2020 2020 2020 2020 2020  = []..          
+-00015de0: 2020 2020 2020 7365 6c66 2e6d 6974 6f74        self.mitot
+-00015df0: 6963 5f76 6172 5f73 7065 6564 203d 205b  ic_var_speed = [
+-00015e00: 5d0d 0a0d 0a20 2020 2020 2020 2020 2020  ]....           
+-00015e10: 2020 2020 2073 656c 662e 6d69 746f 7469       self.mitoti
+-00015e20: 635f 6d65 616e 5f61 6363 203d 205b 5d0d  c_mean_acc = [].
+-00015e30: 0a20 2020 2020 2020 2020 2020 2020 2020  .               
+-00015e40: 2073 656c 662e 6d69 746f 7469 635f 7661   self.mitotic_va
+-00015e50: 725f 6163 6320 3d20 5b5d 0d0a 0d0a 2020  r_acc = []....  
+-00015e60: 2020 2020 2020 2020 2020 2020 2020 7365                se
+-00015e70: 6c66 2e6d 6974 6f74 6963 5f6d 6561 6e5f  lf.mitotic_mean_
+-00015e80: 6469 7265 6374 696f 6e61 6c5f 6368 616e  directional_chan
+-00015e90: 6765 203d 205b 5d0d 0a20 2020 2020 2020  ge = []..       
+-00015ea0: 2020 2020 2020 2020 2073 656c 662e 6d69           self.mi
+-00015eb0: 746f 7469 635f 7661 725f 6469 7265 6374  totic_var_direct
+-00015ec0: 696f 6e61 6c5f 6368 616e 6765 203d 205b  ional_change = [
+-00015ed0: 5d0d 0a0d 0a20 2020 2020 2020 2020 2020  ]....           
+-00015ee0: 2020 2020 2073 656c 662e 6d69 746f 7469       self.mitoti
+-00015ef0: 635f 6d65 616e 5f64 6973 7461 6e63 655f  c_mean_distance_
+-00015f00: 6365 6c6c 5f6d 6173 6b20 3d20 5b5d 0d0a  cell_mask = []..
+-00015f10: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-00015f20: 7365 6c66 2e6d 6974 6f74 6963 5f76 6172  self.mitotic_var
+-00015f30: 5f64 6973 7461 6e63 655f 6365 6c6c 5f6d  _distance_cell_m
+-00015f40: 6173 6b20 3d20 5b5d 0d0a 0d0a 2020 2020  ask = []....    
+-00015f50: 2020 2020 2020 2020 2020 2020 7365 6c66              self
+-00015f60: 2e6e 6f6e 5f6d 6974 6f74 6963 5f6d 6561  .non_mitotic_mea
+-00015f70: 6e5f 6469 7370 5f7a 203d 205b 5d0d 0a20  n_disp_z = [].. 
++00014740: 2020 2020 2020 2020 2020 2020 200d 0a20               .. 
++00014750: 2020 2064 6566 205f 6469 6374 5f75 7064     def _dict_upd
++00014760: 6174 6528 7365 6c66 2c20 756e 6971 7565  ate(self, unique
++00014770: 5f74 7261 636b 6c65 745f 6964 733a 204c  _tracklet_ids: L
++00014780: 6973 742c 2020 6365 6c6c 5f69 643a 2069  ist,  cell_id: i
++00014790: 6e74 2c20 7472 6163 6b5f 6964 3a20 696e  nt, track_id: in
++000147a0: 742c 2073 6f75 7263 655f 6964 3a20 696e  t, source_id: in
++000147b0: 742c 2074 6172 6765 745f 6964 3a20 696e  t, target_id: in
++000147c0: 7429 3a0d 0a0d 0a20 0d0a 2020 2020 2020  t):.... ..      
++000147d0: 2020 6765 6e65 7261 7469 6f6e 5f69 6420    generation_id 
++000147e0: 3d20 7365 6c66 2e67 656e 6572 6174 696f  = self.generatio
++000147f0: 6e5f 6469 6374 5b63 656c 6c5f 6964 5d0d  n_dict[cell_id].
++00014800: 0a20 2020 2020 2020 2074 7261 636b 6c65  .        trackle
++00014810: 745f 6964 203d 2073 656c 662e 7472 6163  t_id = self.trac
++00014820: 6b6c 6574 5f64 6963 745b 6365 6c6c 5f69  klet_dict[cell_i
++00014830: 645d 0d0a 0d0a 2020 2020 2020 2020 756e  d]....        un
++00014840: 6971 7565 5f69 6420 3d20 7374 7228 7472  ique_id = str(tr
++00014850: 6163 6b5f 6964 2920 2b20 7374 7228 7365  ack_id) + str(se
++00014860: 6c66 2e6d 6178 5f74 7261 636b 5f69 6429  lf.max_track_id)
++00014870: 202b 2073 7472 2867 656e 6572 6174 696f   + str(generatio
++00014880: 6e5f 6964 2920 2b20 7374 7228 7472 6163  n_id) + str(trac
++00014890: 6b6c 6574 5f69 6429 0d0a 2020 2020 2020  klet_id)..      
++000148a0: 2020 0d0a 2020 2020 2020 2020 7665 635f    ..        vec_
++000148b0: 6d61 736b 203d 205b 666c 6f61 7428 7365  mask = [float(se
++000148c0: 6c66 2e75 6e69 7175 655f 7370 6f74 5f70  lf.unique_spot_p
++000148d0: 726f 7065 7274 6965 735b 696e 7428 6365  roperties[int(ce
++000148e0: 6c6c 5f69 6429 5d5b 7365 6c66 2e6d 6173  ll_id)][self.mas
++000148f0: 6b63 656e 7472 6f69 645f 785f 6b65 795d  kcentroid_x_key]
++00014900: 292c 2066 6c6f 6174 2873 656c 662e 756e  ), float(self.un
++00014910: 6971 7565 5f73 706f 745f 7072 6f70 6572  ique_spot_proper
++00014920: 7469 6573 5b69 6e74 2863 656c 6c5f 6964  ties[int(cell_id
++00014930: 295d 5b73 656c 662e 6d61 736b 6365 6e74  )][self.maskcent
++00014940: 726f 6964 5f79 5f6b 6579 5d29 2c20 666c  roid_y_key]), fl
++00014950: 6f61 7428 7365 6c66 2e75 6e69 7175 655f  oat(self.unique_
++00014960: 7370 6f74 5f70 726f 7065 7274 6965 735b  spot_properties[
++00014970: 696e 7428 6365 6c6c 5f69 6429 5d5b 7365  int(cell_id)][se
++00014980: 6c66 2e6d 6173 6b63 656e 7472 6f69 645f  lf.maskcentroid_
++00014990: 7a5f 6b65 795d 2920 5d0d 0a0d 0a20 2020  z_key]) ]....   
++000149a0: 2020 2020 2076 6563 5f63 656c 6c20 3d20       vec_cell = 
++000149b0: 5b66 6c6f 6174 2873 656c 662e 756e 6971  [float(self.uniq
++000149c0: 7565 5f73 706f 745f 7072 6f70 6572 7469  ue_spot_properti
++000149d0: 6573 5b69 6e74 2863 656c 6c5f 6964 295d  es[int(cell_id)]
++000149e0: 5b73 656c 662e 7870 6f73 6964 5f6b 6579  [self.xposid_key
++000149f0: 5d29 202c 200d 0a20 2020 2020 2020 2020  ]) , ..         
++00014a00: 2020 2020 2020 2020 2020 2020 2020 2020                  
++00014a10: 2020 2066 6c6f 6174 2873 656c 662e 756e     float(self.un
++00014a20: 6971 7565 5f73 706f 745f 7072 6f70 6572  ique_spot_proper
++00014a30: 7469 6573 5b69 6e74 2863 656c 6c5f 6964  ties[int(cell_id
++00014a40: 295d 5b73 656c 662e 7970 6f73 6964 5f6b  )][self.yposid_k
++00014a50: 6579 5d29 2c20 0d0a 2020 2020 2020 2020  ey]), ..        
++00014a60: 2020 2020 2020 2020 2020 2020 2020 2020                  
++00014a70: 2020 2020 666c 6f61 7428 7365 6c66 2e75      float(self.u
++00014a80: 6e69 7175 655f 7370 6f74 5f70 726f 7065  nique_spot_prope
++00014a90: 7274 6965 735b 696e 7428 6365 6c6c 5f69  rties[int(cell_i
++00014aa0: 6429 5d5b 7365 6c66 2e7a 706f 7369 645f  d)][self.zposid_
++00014ab0: 6b65 795d 295d 0d0a 0d0a 2020 2020 2020  key])]....      
++00014ac0: 2020 616e 676c 6520 3d20 616e 6775 6c61    angle = angula
++00014ad0: 725f 6368 616e 6765 2876 6563 5f6d 6173  r_change(vec_mas
++00014ae0: 6b2c 2076 6563 5f63 656c 6c29 0d0a 0d0a  k, vec_cell)....
++00014af0: 2020 2020 2020 2020 7365 6c66 2e75 6e69          self.uni
++00014b00: 7175 655f 7370 6f74 5f70 726f 7065 7274  que_spot_propert
++00014b10: 6965 735b 696e 7428 6365 6c6c 5f69 6429  ies[int(cell_id)
++00014b20: 5d2e 7570 6461 7465 287b 7365 6c66 2e72  ].update({self.r
++00014b30: 6164 6961 6c5f 616e 676c 655f 6b65 7920  adial_angle_key 
++00014b40: 3a20 616e 676c 657d 2920 2020 2020 2020  : angle})       
++00014b50: 2020 2020 2020 2020 2020 2020 200d 0a0d               ...
++00014b60: 0a20 2020 2020 2020 2075 6e69 7175 655f  .        unique_
++00014b70: 7472 6163 6b6c 6574 5f69 6473 2e61 7070  tracklet_ids.app
++00014b80: 656e 6428 7374 7228 756e 6971 7565 5f69  end(str(unique_i
++00014b90: 6429 290d 0a20 2020 2020 2020 2073 656c  d))..        sel
++00014ba0: 662e 756e 6971 7565 5f73 706f 745f 7072  f.unique_spot_pr
++00014bb0: 6f70 6572 7469 6573 5b69 6e74 2863 656c  operties[int(cel
++00014bc0: 6c5f 6964 295d 2e75 7064 6174 6528 7b73  l_id)].update({s
++00014bd0: 656c 662e 756e 6971 7565 6964 5f6b 6579  elf.uniqueid_key
++00014be0: 203a 2073 7472 2875 6e69 7175 655f 6964   : str(unique_id
++00014bf0: 297d 290d 0a20 2020 2020 2020 2073 656c  )})..        sel
++00014c00: 662e 756e 6971 7565 5f73 706f 745f 7072  f.unique_spot_pr
++00014c10: 6f70 6572 7469 6573 5b69 6e74 2863 656c  operties[int(cel
++00014c20: 6c5f 6964 295d 2e75 7064 6174 6528 7b73  l_id)].update({s
++00014c30: 656c 662e 7472 6163 6b6c 6574 6964 5f6b  elf.trackletid_k
++00014c40: 6579 203a 2073 7472 2874 7261 636b 6c65  ey : str(trackle
++00014c50: 745f 6964 297d 2920 0d0a 2020 2020 2020  t_id)}) ..      
++00014c60: 2020 7365 6c66 2e75 6e69 7175 655f 7370    self.unique_sp
++00014c70: 6f74 5f70 726f 7065 7274 6965 735b 696e  ot_properties[in
++00014c80: 7428 6365 6c6c 5f69 6429 5d2e 7570 6461  t(cell_id)].upda
++00014c90: 7465 287b 7365 6c66 2e67 656e 6572 6174  te({self.generat
++00014ca0: 696f 6e69 645f 6b65 7920 3a20 7374 7228  ionid_key : str(
++00014cb0: 6765 6e65 7261 7469 6f6e 5f69 6429 7d29  generation_id)})
++00014cc0: 200d 0a20 2020 2020 2020 2073 656c 662e   ..        self.
++00014cd0: 756e 6971 7565 5f73 706f 745f 7072 6f70  unique_spot_prop
++00014ce0: 6572 7469 6573 5b69 6e74 2863 656c 6c5f  erties[int(cell_
++00014cf0: 6964 295d 2e75 7064 6174 6528 7b73 656c  id)].update({sel
++00014d00: 662e 7472 6163 6b69 645f 6b65 7920 3a20  f.trackid_key : 
++00014d10: 7374 7228 7472 6163 6b5f 6964 297d 290d  str(track_id)}).
++00014d20: 0a20 2020 2020 2020 2073 656c 662e 756e  .        self.un
++00014d30: 6971 7565 5f73 706f 745f 7072 6f70 6572  ique_spot_proper
++00014d40: 7469 6573 5b69 6e74 2863 656c 6c5f 6964  ties[int(cell_id
++00014d50: 295d 2e75 7064 6174 6528 7b73 656c 662e  )].update({self.
++00014d60: 6d6f 7469 6f6e 5f61 6e67 6c65 5f6b 6579  motion_angle_key
++00014d70: 203a 2030 2e30 7d29 0d0a 2020 2020 2020   : 0.0})..      
++00014d80: 2020 7365 6c66 2e75 6e69 7175 655f 7370    self.unique_sp
++00014d90: 6f74 5f70 726f 7065 7274 6965 735b 696e  ot_properties[in
++00014da0: 7428 6365 6c6c 5f69 6429 5d2e 7570 6461  t(cell_id)].upda
++00014db0: 7465 287b 7365 6c66 2e73 7065 6564 5f6b  te({self.speed_k
++00014dc0: 6579 203a 2030 2e30 7d29 0d0a 2020 2020  ey : 0.0})..    
++00014dd0: 2020 2020 7365 6c66 2e75 6e69 7175 655f      self.unique_
++00014de0: 7370 6f74 5f70 726f 7065 7274 6965 735b  spot_properties[
++00014df0: 696e 7428 6365 6c6c 5f69 6429 5d2e 7570  int(cell_id)].up
++00014e00: 6461 7465 287b 7365 6c66 2e61 6363 656c  date({self.accel
++00014e10: 6572 6174 696f 6e5f 6b65 7920 3a20 302e  eration_key : 0.
++00014e20: 307d 290d 0a20 2020 2020 2020 2073 656c  0})..        sel
++00014e30: 662e 756e 6971 7565 5f73 706f 745f 7072  f.unique_spot_pr
++00014e40: 6f70 6572 7469 6573 5b69 6e74 2863 656c  operties[int(cel
++00014e50: 6c5f 6964 295d 2e75 7064 6174 6528 7b73  l_id)].update({s
++00014e60: 656c 662e 6563 6365 6e74 7269 6369 7479  elf.eccentricity
++00014e70: 5f63 6f6d 705f 6669 7273 746b 6579 203a  _comp_firstkey :
++00014e80: 202d 317d 290d 0a20 2020 2020 2020 2073   -1})..        s
++00014e90: 656c 662e 756e 6971 7565 5f73 706f 745f  elf.unique_spot_
++00014ea0: 7072 6f70 6572 7469 6573 5b69 6e74 2863  properties[int(c
++00014eb0: 656c 6c5f 6964 295d 2e75 7064 6174 6528  ell_id)].update(
++00014ec0: 7b73 656c 662e 6563 6365 6e74 7269 6369  {self.eccentrici
++00014ed0: 7479 5f63 6f6d 705f 7365 636f 6e64 6b65  ty_comp_secondke
++00014ee0: 7920 3a20 2d31 7d29 0d0a 2020 2020 2020  y : -1})..      
++00014ef0: 2020 7365 6c66 2e75 6e69 7175 655f 7370    self.unique_sp
++00014f00: 6f74 5f70 726f 7065 7274 6965 735b 696e  ot_properties[in
++00014f10: 7428 6365 6c6c 5f69 6429 5d2e 7570 6461  t(cell_id)].upda
++00014f20: 7465 287b 7365 6c66 2e73 7572 6661 6365  te({self.surface
++00014f30: 5f61 7265 615f 6b65 7920 3a20 2d31 7d29  _area_key : -1})
++00014f40: 0d0a 2020 2020 2020 2020 7365 6c66 2e75  ..        self.u
++00014f50: 6e69 7175 655f 7370 6f74 5f70 726f 7065  nique_spot_prope
++00014f60: 7274 6965 735b 696e 7428 6365 6c6c 5f69  rties[int(cell_i
++00014f70: 6429 5d2e 7570 6461 7465 287b 7365 6c66  d)].update({self
++00014f80: 2e63 656c 6c61 7869 735f 6d61 736b 5f6b  .cellaxis_mask_k
++00014f90: 6579 203a 202d 317d 290d 0a0d 0a20 2020  ey : -1})....   
++00014fa0: 2020 2020 2069 6620 736f 7572 6365 5f69       if source_i
++00014fb0: 6420 6973 206e 6f74 204e 6f6e 653a 0d0a  d is not None:..
++00014fc0: 2020 2020 2020 2020 2020 2020 7365 6c66              self
++00014fd0: 2e75 6e69 7175 655f 7370 6f74 5f70 726f  .unique_spot_pro
++00014fe0: 7065 7274 6965 735b 696e 7428 6365 6c6c  perties[int(cell
++00014ff0: 5f69 6429 5d2e 7570 6461 7465 287b 7365  _id)].update({se
++00015000: 6c66 2e62 6566 6f72 6569 645f 6b65 7920  lf.beforeid_key 
++00015010: 3a20 696e 7428 736f 7572 6365 5f69 6429  : int(source_id)
++00015020: 7d29 0d0a 2020 2020 2020 2020 2020 2020  })..            
++00015030: 7665 635f 3120 3d20 5b66 6c6f 6174 2873  vec_1 = [float(s
++00015040: 656c 662e 756e 6971 7565 5f73 706f 745f  elf.unique_spot_
++00015050: 7072 6f70 6572 7469 6573 5b69 6e74 2863  properties[int(c
++00015060: 656c 6c5f 6964 295d 5b73 656c 662e 7870  ell_id)][self.xp
++00015070: 6f73 6964 5f6b 6579 5d29 202d 2066 6c6f  osid_key]) - flo
++00015080: 6174 2873 656c 662e 756e 6971 7565 5f73  at(self.unique_s
++00015090: 706f 745f 7072 6f70 6572 7469 6573 5b69  pot_properties[i
++000150a0: 6e74 2873 6f75 7263 655f 6964 295d 5b73  nt(source_id)][s
++000150b0: 656c 662e 7870 6f73 6964 5f6b 6579 5d29  elf.xposid_key])
++000150c0: 2c20 0d0a 2020 2020 2020 2020 2020 2020  , ..            
++000150d0: 2020 2020 2020 2020 2020 2020 2020 2020                  
++000150e0: 666c 6f61 7428 7365 6c66 2e75 6e69 7175  float(self.uniqu
++000150f0: 655f 7370 6f74 5f70 726f 7065 7274 6965  e_spot_propertie
++00015100: 735b 696e 7428 6365 6c6c 5f69 6429 5d5b  s[int(cell_id)][
++00015110: 7365 6c66 2e79 706f 7369 645f 6b65 795d  self.yposid_key]
++00015120: 2920 2d20 666c 6f61 7428 7365 6c66 2e75  ) - float(self.u
++00015130: 6e69 7175 655f 7370 6f74 5f70 726f 7065  nique_spot_prope
++00015140: 7274 6965 735b 696e 7428 736f 7572 6365  rties[int(source
++00015150: 5f69 6429 5d5b 7365 6c66 2e79 706f 7369  _id)][self.yposi
++00015160: 645f 6b65 795d 292c 200d 0a20 2020 2020  d_key]), ..     
++00015170: 2020 2020 2020 2020 2020 2020 2020 2020                  
++00015180: 2020 2020 2020 2066 6c6f 6174 2873 656c         float(sel
++00015190: 662e 756e 6971 7565 5f73 706f 745f 7072  f.unique_spot_pr
++000151a0: 6f70 6572 7469 6573 5b69 6e74 2863 656c  operties[int(cel
++000151b0: 6c5f 6964 295d 5b73 656c 662e 7a70 6f73  l_id)][self.zpos
++000151c0: 6964 5f6b 6579 5d29 202d 2020 666c 6f61  id_key]) -  floa
++000151d0: 7428 7365 6c66 2e75 6e69 7175 655f 7370  t(self.unique_sp
++000151e0: 6f74 5f70 726f 7065 7274 6965 735b 696e  ot_properties[in
++000151f0: 7428 736f 7572 6365 5f69 6429 5d5b 7365  t(source_id)][se
++00015200: 6c66 2e7a 706f 7369 645f 6b65 795d 295d  lf.zposid_key])]
++00015210: 0d0a 2020 2020 2020 2020 2020 2020 7370  ..            sp
++00015220: 6565 6420 3d20 6e70 2e73 7172 7428 6e70  eed = np.sqrt(np
++00015230: 2e64 6f74 2876 6563 5f31 2c20 7665 635f  .dot(vec_1, vec_
++00015240: 3129 292f 7365 6c66 2e74 6361 6c69 6272  1))/self.tcalibr
++00015250: 6174 696f 6e0d 0a20 2020 2020 2020 2020  ation..         
++00015260: 2020 2073 656c 662e 756e 6971 7565 5f73     self.unique_s
++00015270: 706f 745f 7072 6f70 6572 7469 6573 5b69  pot_properties[i
++00015280: 6e74 2863 656c 6c5f 6964 295d 2e75 7064  nt(cell_id)].upd
++00015290: 6174 6528 7b73 656c 662e 7370 6565 645f  ate({self.speed_
++000152a0: 6b65 7920 3a20 7370 6565 647d 290d 0a0d  key : speed})...
++000152b0: 0a20 2020 2020 2020 2020 2020 206d 6f74  .            mot
++000152c0: 696f 6e5f 616e 676c 6520 3d20 616e 6775  ion_angle = angu
++000152d0: 6c61 725f 6368 616e 6765 2876 6563 5f6d  lar_change(vec_m
++000152e0: 6173 6b2c 2076 6563 5f31 290d 0a0d 0a20  ask, vec_1).... 
++000152f0: 2020 2020 2020 2020 2020 2073 656c 662e             self.
++00015300: 756e 6971 7565 5f73 706f 745f 7072 6f70  unique_spot_prop
++00015310: 6572 7469 6573 5b69 6e74 2863 656c 6c5f  erties[int(cell_
++00015320: 6964 295d 2e75 7064 6174 6528 7b73 656c  id)].update({sel
++00015330: 662e 6d6f 7469 6f6e 5f61 6e67 6c65 5f6b  f.motion_angle_k
++00015340: 6579 203a 206d 6f74 696f 6e5f 616e 676c  ey : motion_angl
++00015350: 657d 2920 0d0a 0d0a 2020 2020 2020 2020  e}) ....        
++00015360: 2020 2020 6966 2073 6f75 7263 655f 6964      if source_id
++00015370: 2069 6e20 7365 6c66 2e65 6467 655f 736f   in self.edge_so
++00015380: 7572 6365 5f6c 6f6f 6b75 703a 0d0a 2020  urce_lookup:..  
++00015390: 2020 2020 2020 2020 2020 2020 2020 2020                  
++000153a0: 2020 7072 655f 736f 7572 6365 5f69 6420    pre_source_id 
++000153b0: 3d20 7365 6c66 2e65 6467 655f 736f 7572  = self.edge_sour
++000153c0: 6365 5f6c 6f6f 6b75 705b 736f 7572 6365  ce_lookup[source
++000153d0: 5f69 645d 0d0a 2020 2020 2020 2020 2020  _id]..          
++000153e0: 2020 2020 2020 2020 2020 0d0a 2020 2020            ..    
++000153f0: 2020 2020 2020 2020 2020 2020 2020 2020                  
++00015400: 7665 635f 3220 3d20 5b66 6c6f 6174 2873  vec_2 = [float(s
++00015410: 656c 662e 756e 6971 7565 5f73 706f 745f  elf.unique_spot_
++00015420: 7072 6f70 6572 7469 6573 5b69 6e74 2863  properties[int(c
++00015430: 656c 6c5f 6964 295d 5b73 656c 662e 7870  ell_id)][self.xp
++00015440: 6f73 6964 5f6b 6579 5d29 202d 2032 202a  osid_key]) - 2 *
++00015450: 2066 6c6f 6174 2873 656c 662e 756e 6971   float(self.uniq
++00015460: 7565 5f73 706f 745f 7072 6f70 6572 7469  ue_spot_properti
++00015470: 6573 5b69 6e74 2873 6f75 7263 655f 6964  es[int(source_id
++00015480: 295d 5b73 656c 662e 7870 6f73 6964 5f6b  )][self.xposid_k
++00015490: 6579 5d29 202b 2066 6c6f 6174 2873 656c  ey]) + float(sel
++000154a0: 662e 756e 6971 7565 5f73 706f 745f 7072  f.unique_spot_pr
++000154b0: 6f70 6572 7469 6573 5b69 6e74 2870 7265  operties[int(pre
++000154c0: 5f73 6f75 7263 655f 6964 295d 5b73 656c  _source_id)][sel
++000154d0: 662e 7870 6f73 6964 5f6b 6579 5d29 2c20  f.xposid_key]), 
++000154e0: 0d0a 2020 2020 2020 2020 2020 2020 2020  ..              
++000154f0: 2020 2020 2020 2020 2020 2020 2020 666c                fl
++00015500: 6f61 7428 7365 6c66 2e75 6e69 7175 655f  oat(self.unique_
++00015510: 7370 6f74 5f70 726f 7065 7274 6965 735b  spot_properties[
++00015520: 696e 7428 6365 6c6c 5f69 6429 5d5b 7365  int(cell_id)][se
++00015530: 6c66 2e79 706f 7369 645f 6b65 795d 2920  lf.yposid_key]) 
++00015540: 2d20 3220 2a20 666c 6f61 7428 7365 6c66  - 2 * float(self
++00015550: 2e75 6e69 7175 655f 7370 6f74 5f70 726f  .unique_spot_pro
++00015560: 7065 7274 6965 735b 696e 7428 736f 7572  perties[int(sour
++00015570: 6365 5f69 6429 5d5b 7365 6c66 2e79 706f  ce_id)][self.ypo
++00015580: 7369 645f 6b65 795d 2920 2b20 666c 6f61  sid_key]) + floa
++00015590: 7428 7365 6c66 2e75 6e69 7175 655f 7370  t(self.unique_sp
++000155a0: 6f74 5f70 726f 7065 7274 6965 735b 696e  ot_properties[in
++000155b0: 7428 7072 655f 736f 7572 6365 5f69 6429  t(pre_source_id)
++000155c0: 5d5b 7365 6c66 2e79 706f 7369 645f 6b65  ][self.yposid_ke
++000155d0: 795d 292c 200d 0a20 2020 2020 2020 2020  y]), ..         
++000155e0: 2020 2020 2020 2020 2020 2020 2020 2020                  
++000155f0: 2020 2066 6c6f 6174 2873 656c 662e 756e     float(self.un
++00015600: 6971 7565 5f73 706f 745f 7072 6f70 6572  ique_spot_proper
++00015610: 7469 6573 5b69 6e74 2863 656c 6c5f 6964  ties[int(cell_id
++00015620: 295d 5b73 656c 662e 7a70 6f73 6964 5f6b  )][self.zposid_k
++00015630: 6579 5d29 202d 2020 3220 2a20 666c 6f61  ey]) -  2 * floa
++00015640: 7428 7365 6c66 2e75 6e69 7175 655f 7370  t(self.unique_sp
++00015650: 6f74 5f70 726f 7065 7274 6965 735b 696e  ot_properties[in
++00015660: 7428 736f 7572 6365 5f69 6429 5d5b 7365  t(source_id)][se
++00015670: 6c66 2e7a 706f 7369 645f 6b65 795d 2920  lf.zposid_key]) 
++00015680: 2b20 666c 6f61 7428 7365 6c66 2e75 6e69  + float(self.uni
++00015690: 7175 655f 7370 6f74 5f70 726f 7065 7274  que_spot_propert
++000156a0: 6965 735b 696e 7428 7072 655f 736f 7572  ies[int(pre_sour
++000156b0: 6365 5f69 6429 5d5b 7365 6c66 2e7a 706f  ce_id)][self.zpo
++000156c0: 7369 645f 6b65 795d 295d 0d0a 2020 2020  sid_key])]..    
++000156d0: 2020 2020 2020 2020 2020 2020 2020 2020                  
++000156e0: 6163 6320 3d20 6e70 2e73 7172 7428 6e70  acc = np.sqrt(np
++000156f0: 2e64 6f74 2876 6563 5f32 2c20 7665 635f  .dot(vec_2, vec_
++00015700: 3229 292f 7365 6c66 2e74 6361 6c69 6272  2))/self.tcalibr
++00015710: 6174 696f 6e0d 0a20 2020 2020 2020 2020  ation..         
++00015720: 2020 2020 2020 2020 2020 200d 0a20 2020             ..   
++00015730: 2020 2020 2020 2020 2020 2020 2020 2020                  
++00015740: 2073 656c 662e 756e 6971 7565 5f73 706f   self.unique_spo
++00015750: 745f 7072 6f70 6572 7469 6573 5b69 6e74  t_properties[int
++00015760: 2863 656c 6c5f 6964 295d 2e75 7064 6174  (cell_id)].updat
++00015770: 6528 7b73 656c 662e 6163 6365 6c65 7261  e({self.accelera
++00015780: 7469 6f6e 5f6b 6579 203a 2061 6363 7d29  tion_key : acc})
++00015790: 0d0a 2020 2020 2020 2020 656c 6966 2073  ..        elif s
++000157a0: 6f75 7263 655f 6964 2069 7320 4e6f 6e65  ource_id is None
++000157b0: 3a0d 0a20 2020 2020 2020 2020 2020 2073  :..            s
++000157c0: 656c 662e 756e 6971 7565 5f73 706f 745f  elf.unique_spot_
++000157d0: 7072 6f70 6572 7469 6573 5b69 6e74 2863  properties[int(c
++000157e0: 656c 6c5f 6964 295d 2e75 7064 6174 6528  ell_id)].update(
++000157f0: 7b73 656c 662e 6265 666f 7265 6964 5f6b  {self.beforeid_k
++00015800: 6579 203a 204e 6f6e 657d 2920 0d0a 2020  ey : None}) ..  
++00015810: 2020 2020 2020 2020 2020 0d0a 0d0a 2020            ....  
++00015820: 2020 2020 2020 6966 2074 6172 6765 745f        if target_
++00015830: 6964 2069 7320 6e6f 7420 4e6f 6e65 3a20  id is not None: 
++00015840: 2020 2020 2020 0d0a 2020 2020 2020 2020        ..        
++00015850: 2020 2020 7365 6c66 2e75 6e69 7175 655f      self.unique_
++00015860: 7370 6f74 5f70 726f 7065 7274 6965 735b  spot_properties[
++00015870: 696e 7428 6365 6c6c 5f69 6429 5d2e 7570  int(cell_id)].up
++00015880: 6461 7465 287b 7365 6c66 2e61 6674 6572  date({self.after
++00015890: 6964 5f6b 6579 203a 2069 6e74 2874 6172  id_key : int(tar
++000158a0: 6765 745f 6964 297d 2920 0d0a 2020 2020  get_id)}) ..    
++000158b0: 2020 2020 656c 6966 2074 6172 6765 745f      elif target_
++000158c0: 6964 2069 7320 4e6f 6e65 3a0d 0a20 2020  id is None:..   
++000158d0: 2020 2020 2020 2020 2073 656c 662e 756e           self.un
++000158e0: 6971 7565 5f73 706f 745f 7072 6f70 6572  ique_spot_proper
++000158f0: 7469 6573 5b69 6e74 2863 656c 6c5f 6964  ties[int(cell_id
++00015900: 295d 2e75 7064 6174 6528 7b73 656c 662e  )].update({self.
++00015910: 6166 7465 7269 645f 6b65 7920 3a20 4e6f  afterid_key : No
++00015920: 6e65 7d29 0d0a 2020 2020 2020 2020 2020  ne})..          
++00015930: 2020 0d0a 2020 2020 2020 2020 7365 6c66    ..        self
++00015940: 2e5f 7365 636f 6e64 5f63 6861 6e6e 656c  ._second_channel
++00015950: 5f75 7064 6174 6528 6365 6c6c 5f69 642c  _update(cell_id,
++00015960: 2074 7261 636b 5f69 6429 2020 2020 0d0a   track_id)    ..
++00015970: 0d0a 0d0a 2020 2020 6465 6620 5f74 656d  ....    def _tem
++00015980: 706f 7261 6c5f 706c 6f74 735f 7472 6163  poral_plots_trac
++00015990: 6b6d 6174 6528 7365 6c66 293a 0d0a 2020  kmate(self):..  
++000159a0: 2020 0d0a 2020 2020 0d0a 2020 2020 0d0a    ..    ..    ..
++000159b0: 2020 2020 2020 2020 2020 2020 2020 2020                  
++000159c0: 7365 6c66 2e41 7474 7220 3d20 7b7d 0d0a  self.Attr = {}..
++000159d0: 2020 2020 2020 2020 2020 2020 2020 2020                  
++000159e0: 7374 6172 7474 696d 6520 3d20 696e 7428  starttime = int(
++000159f0: 6d69 6e28 7365 6c66 2e41 6c6c 5661 6c75  min(self.AllValu
++00015a00: 6573 5b73 656c 662e 6672 616d 6569 645f  es[self.frameid_
++00015a10: 6b65 795d 2929 0d0a 2020 2020 2020 2020  key]))..        
++00015a20: 2020 2020 2020 2020 656e 6474 696d 6520          endtime 
++00015a30: 3d20 696e 7428 6d61 7828 7365 6c66 2e41  = int(max(self.A
++00015a40: 6c6c 5661 6c75 6573 5b73 656c 662e 6672  llValues[self.fr
++00015a50: 616d 6569 645f 6b65 795d 2929 0d0a 2020  ameid_key]))..  
++00015a60: 2020 2020 2020 2020 2020 2020 2020 200d                 .
++00015a70: 0a20 2020 2020 2020 2020 2020 2020 2020  .               
++00015a80: 2073 656c 662e 7469 6d65 203d 205b 5d0d   self.time = [].
++00015a90: 0a20 2020 2020 2020 2020 2020 2020 2020  .               
++00015aa0: 2073 656c 662e 6d69 746f 7469 635f 6d65   self.mitotic_me
++00015ab0: 616e 5f64 6973 705f 7a20 3d20 5b5d 0d0a  an_disp_z = []..
++00015ac0: 2020 2020 2020 2020 2020 2020 2020 2020                  
++00015ad0: 7365 6c66 2e6d 6974 6f74 6963 5f76 6172  self.mitotic_var
++00015ae0: 5f64 6973 705f 7a20 3d20 5b5d 0d0a 0d0a  _disp_z = []....
++00015af0: 2020 2020 2020 2020 2020 2020 2020 2020                  
++00015b00: 7365 6c66 2e6d 6974 6f74 6963 5f6d 6561  self.mitotic_mea
++00015b10: 6e5f 6469 7370 5f79 203d 205b 5d0d 0a20  n_disp_y = [].. 
++00015b20: 2020 2020 2020 2020 2020 2020 2020 2073                 s
++00015b30: 656c 662e 6d69 746f 7469 635f 7661 725f  elf.mitotic_var_
++00015b40: 6469 7370 5f79 203d 205b 5d0d 0a0d 0a20  disp_y = [].... 
++00015b50: 2020 2020 2020 2020 2020 2020 2020 2073                 s
++00015b60: 656c 662e 6d69 746f 7469 635f 6d65 616e  elf.mitotic_mean
++00015b70: 5f64 6973 705f 7820 3d20 5b5d 0d0a 2020  _disp_x = []..  
++00015b80: 2020 2020 2020 2020 2020 2020 2020 7365                se
++00015b90: 6c66 2e6d 6974 6f74 6963 5f76 6172 5f64  lf.mitotic_var_d
++00015ba0: 6973 705f 7820 3d20 5b5d 0d0a 0d0a 2020  isp_x = []....  
++00015bb0: 2020 2020 2020 2020 2020 2020 2020 7365                se
++00015bc0: 6c66 2e6d 6974 6f74 6963 5f6d 6561 6e5f  lf.mitotic_mean_
++00015bd0: 7261 6469 7573 203d 205b 5d0d 0a20 2020  radius = []..   
++00015be0: 2020 2020 2020 2020 2020 2020 2073 656c               sel
++00015bf0: 662e 6d69 746f 7469 635f 7661 725f 7261  f.mitotic_var_ra
++00015c00: 6469 7573 203d 205b 5d0d 0a0d 0a20 2020  dius = []....   
++00015c10: 2020 2020 2020 2020 2020 2020 2073 656c               sel
++00015c20: 662e 6d69 746f 7469 635f 6d65 616e 5f73  f.mitotic_mean_s
++00015c30: 7065 6564 203d 205b 5d0d 0a20 2020 2020  peed = []..     
++00015c40: 2020 2020 2020 2020 2020 2073 656c 662e             self.
++00015c50: 6d69 746f 7469 635f 7661 725f 7370 6565  mitotic_var_spee
++00015c60: 6420 3d20 5b5d 0d0a 0d0a 2020 2020 2020  d = []....      
++00015c70: 2020 2020 2020 2020 2020 7365 6c66 2e6d            self.m
++00015c80: 6974 6f74 6963 5f6d 6561 6e5f 6163 6320  itotic_mean_acc 
++00015c90: 3d20 5b5d 0d0a 2020 2020 2020 2020 2020  = []..          
++00015ca0: 2020 2020 2020 7365 6c66 2e6d 6974 6f74        self.mitot
++00015cb0: 6963 5f76 6172 5f61 6363 203d 205b 5d0d  ic_var_acc = [].
++00015cc0: 0a0d 0a20 2020 2020 2020 2020 2020 2020  ...             
++00015cd0: 2020 2073 656c 662e 6d69 746f 7469 635f     self.mitotic_
++00015ce0: 6d65 616e 5f64 6972 6563 7469 6f6e 616c  mean_directional
++00015cf0: 5f63 6861 6e67 6520 3d20 5b5d 0d0a 2020  _change = []..  
++00015d00: 2020 2020 2020 2020 2020 2020 2020 7365                se
++00015d10: 6c66 2e6d 6974 6f74 6963 5f76 6172 5f64  lf.mitotic_var_d
++00015d20: 6972 6563 7469 6f6e 616c 5f63 6861 6e67  irectional_chang
++00015d30: 6520 3d20 5b5d 0d0a 0d0a 2020 2020 2020  e = []....      
++00015d40: 2020 2020 2020 2020 2020 7365 6c66 2e6d            self.m
++00015d50: 6974 6f74 6963 5f6d 6561 6e5f 6469 7374  itotic_mean_dist
++00015d60: 616e 6365 5f63 656c 6c5f 6d61 736b 203d  ance_cell_mask =
++00015d70: 205b 5d0d 0a20 2020 2020 2020 2020 2020   []..           
++00015d80: 2020 2020 2073 656c 662e 6d69 746f 7469       self.mitoti
++00015d90: 635f 7661 725f 6469 7374 616e 6365 5f63  c_var_distance_c
++00015da0: 656c 6c5f 6d61 736b 203d 205b 5d0d 0a0d  ell_mask = []...
++00015db0: 0a20 2020 2020 2020 2020 2020 2020 2020  .               
++00015dc0: 2073 656c 662e 6e6f 6e5f 6d69 746f 7469   self.non_mitoti
++00015dd0: 635f 6d65 616e 5f64 6973 705f 7a20 3d20  c_mean_disp_z = 
++00015de0: 5b5d 0d0a 2020 2020 2020 2020 2020 2020  []..            
++00015df0: 2020 2020 7365 6c66 2e6e 6f6e 5f6d 6974      self.non_mit
++00015e00: 6f74 6963 5f76 6172 5f64 6973 705f 7a20  otic_var_disp_z 
++00015e10: 3d20 5b5d 0d0a 0d0a 2020 2020 2020 2020  = []....        
++00015e20: 2020 2020 2020 2020 7365 6c66 2e6e 6f6e          self.non
++00015e30: 5f6d 6974 6f74 6963 5f6d 6561 6e5f 6469  _mitotic_mean_di
++00015e40: 7370 5f79 203d 205b 5d0d 0a20 2020 2020  sp_y = []..     
++00015e50: 2020 2020 2020 2020 2020 2073 656c 662e             self.
++00015e60: 6e6f 6e5f 6d69 746f 7469 635f 7661 725f  non_mitotic_var_
++00015e70: 6469 7370 5f79 203d 205b 5d0d 0a0d 0a20  disp_y = [].... 
++00015e80: 2020 2020 2020 2020 2020 2020 2020 2073                 s
++00015e90: 656c 662e 6e6f 6e5f 6d69 746f 7469 635f  elf.non_mitotic_
++00015ea0: 6d65 616e 5f64 6973 705f 7820 3d20 5b5d  mean_disp_x = []
++00015eb0: 0d0a 2020 2020 2020 2020 2020 2020 2020  ..              
++00015ec0: 2020 7365 6c66 2e6e 6f6e 5f6d 6974 6f74    self.non_mitot
++00015ed0: 6963 5f76 6172 5f64 6973 705f 7820 3d20  ic_var_disp_x = 
++00015ee0: 5b5d 0d0a 0d0a 2020 2020 2020 2020 2020  []....          
++00015ef0: 2020 2020 2020 7365 6c66 2e6e 6f6e 5f6d        self.non_m
++00015f00: 6974 6f74 6963 5f6d 6561 6e5f 7261 6469  itotic_mean_radi
++00015f10: 7573 203d 205b 5d0d 0a20 2020 2020 2020  us = []..       
++00015f20: 2020 2020 2020 2020 2073 656c 662e 6e6f           self.no
++00015f30: 6e5f 6d69 746f 7469 635f 7661 725f 7261  n_mitotic_var_ra
++00015f40: 6469 7573 203d 205b 5d0d 0a0d 0a20 2020  dius = []....   
++00015f50: 2020 2020 2020 2020 2020 2020 2073 656c               sel
++00015f60: 662e 6e6f 6e5f 6d69 746f 7469 635f 6d65  f.non_mitotic_me
++00015f70: 616e 5f73 7065 6564 203d 205b 5d0d 0a20  an_speed = [].. 
+ 00015f80: 2020 2020 2020 2020 2020 2020 2020 2073                 s
+ 00015f90: 656c 662e 6e6f 6e5f 6d69 746f 7469 635f  elf.non_mitotic_
+-00015fa0: 7661 725f 6469 7370 5f7a 203d 205b 5d0d  var_disp_z = [].
+-00015fb0: 0a0d 0a20 2020 2020 2020 2020 2020 2020  ...             
+-00015fc0: 2020 2073 656c 662e 6e6f 6e5f 6d69 746f     self.non_mito
+-00015fd0: 7469 635f 6d65 616e 5f64 6973 705f 7920  tic_mean_disp_y 
+-00015fe0: 3d20 5b5d 0d0a 2020 2020 2020 2020 2020  = []..          
+-00015ff0: 2020 2020 2020 7365 6c66 2e6e 6f6e 5f6d        self.non_m
+-00016000: 6974 6f74 6963 5f76 6172 5f64 6973 705f  itotic_var_disp_
+-00016010: 7920 3d20 5b5d 0d0a 0d0a 2020 2020 2020  y = []....      
+-00016020: 2020 2020 2020 2020 2020 7365 6c66 2e6e            self.n
+-00016030: 6f6e 5f6d 6974 6f74 6963 5f6d 6561 6e5f  on_mitotic_mean_
+-00016040: 6469 7370 5f78 203d 205b 5d0d 0a20 2020  disp_x = []..   
+-00016050: 2020 2020 2020 2020 2020 2020 2073 656c               sel
+-00016060: 662e 6e6f 6e5f 6d69 746f 7469 635f 7661  f.non_mitotic_va
+-00016070: 725f 6469 7370 5f78 203d 205b 5d0d 0a0d  r_disp_x = []...
+-00016080: 0a20 2020 2020 2020 2020 2020 2020 2020  .               
+-00016090: 2073 656c 662e 6e6f 6e5f 6d69 746f 7469   self.non_mitoti
+-000160a0: 635f 6d65 616e 5f72 6164 6975 7320 3d20  c_mean_radius = 
+-000160b0: 5b5d 0d0a 2020 2020 2020 2020 2020 2020  []..            
+-000160c0: 2020 2020 7365 6c66 2e6e 6f6e 5f6d 6974      self.non_mit
+-000160d0: 6f74 6963 5f76 6172 5f72 6164 6975 7320  otic_var_radius 
+-000160e0: 3d20 5b5d 0d0a 0d0a 2020 2020 2020 2020  = []....        
+-000160f0: 2020 2020 2020 2020 7365 6c66 2e6e 6f6e          self.non
+-00016100: 5f6d 6974 6f74 6963 5f6d 6561 6e5f 7370  _mitotic_mean_sp
+-00016110: 6565 6420 3d20 5b5d 0d0a 2020 2020 2020  eed = []..      
+-00016120: 2020 2020 2020 2020 2020 7365 6c66 2e6e            self.n
+-00016130: 6f6e 5f6d 6974 6f74 6963 5f76 6172 5f73  on_mitotic_var_s
+-00016140: 7065 6564 203d 205b 5d0d 0a0d 0a20 2020  peed = []....   
+-00016150: 2020 2020 2020 2020 2020 2020 2073 656c               sel
+-00016160: 662e 6e6f 6e5f 6d69 746f 7469 635f 6d65  f.non_mitotic_me
+-00016170: 616e 5f61 6363 203d 205b 5d0d 0a20 2020  an_acc = []..   
+-00016180: 2020 2020 2020 2020 2020 2020 2073 656c               sel
+-00016190: 662e 6e6f 6e5f 6d69 746f 7469 635f 7661  f.non_mitotic_va
+-000161a0: 725f 6163 6320 3d20 5b5d 0d0a 0d0a 2020  r_acc = []....  
+-000161b0: 2020 2020 2020 2020 2020 2020 2020 7365                se
+-000161c0: 6c66 2e6e 6f6e 5f6d 6974 6f74 6963 5f6d  lf.non_mitotic_m
+-000161d0: 6561 6e5f 6469 7265 6374 696f 6e61 6c5f  ean_directional_
+-000161e0: 6368 616e 6765 203d 205b 5d0d 0a20 2020  change = []..   
+-000161f0: 2020 2020 2020 2020 2020 2020 2073 656c               sel
+-00016200: 662e 6e6f 6e5f 6d69 746f 7469 635f 7661  f.non_mitotic_va
+-00016210: 725f 6469 7265 6374 696f 6e61 6c5f 6368  r_directional_ch
+-00016220: 616e 6765 203d 205b 5d0d 0a0d 0a20 2020  ange = []....   
+-00016230: 2020 2020 2020 2020 2020 2020 2073 656c               sel
+-00016240: 662e 6e6f 6e5f 6d69 746f 7469 635f 6d65  f.non_mitotic_me
+-00016250: 616e 5f64 6973 7461 6e63 655f 6365 6c6c  an_distance_cell
+-00016260: 5f6d 6173 6b20 3d20 5b5d 0d0a 2020 2020  _mask = []..    
+-00016270: 2020 2020 2020 2020 2020 2020 7365 6c66              self
+-00016280: 2e6e 6f6e 5f6d 6974 6f74 6963 5f76 6172  .non_mitotic_var
+-00016290: 5f64 6973 7461 6e63 655f 6365 6c6c 5f6d  _distance_cell_m
+-000162a0: 6173 6b20 3d20 5b5d 0d0a 0d0a 2020 2020  ask = []....    
+-000162b0: 2020 2020 2020 2020 2020 2020 7365 6c66              self
+-000162c0: 2e61 6c6c 5f6d 6561 6e5f 6469 7370 5f7a  .all_mean_disp_z
+-000162d0: 203d 205b 5d0d 0a20 2020 2020 2020 2020   = []..         
+-000162e0: 2020 2020 2020 2073 656c 662e 616c 6c5f         self.all_
+-000162f0: 7661 725f 6469 7370 5f7a 203d 205b 5d0d  var_disp_z = [].
+-00016300: 0a0d 0a20 2020 2020 2020 2020 2020 2020  ...             
+-00016310: 2020 2073 656c 662e 616c 6c5f 6d65 616e     self.all_mean
+-00016320: 5f64 6973 705f 7920 3d20 5b5d 0d0a 2020  _disp_y = []..  
+-00016330: 2020 2020 2020 2020 2020 2020 2020 7365                se
+-00016340: 6c66 2e61 6c6c 5f76 6172 5f64 6973 705f  lf.all_var_disp_
+-00016350: 7920 3d20 5b5d 0d0a 0d0a 2020 2020 2020  y = []....      
+-00016360: 2020 2020 2020 2020 2020 7365 6c66 2e61            self.a
+-00016370: 6c6c 5f6d 6561 6e5f 6469 7370 5f78 203d  ll_mean_disp_x =
+-00016380: 205b 5d0d 0a20 2020 2020 2020 2020 2020   []..           
+-00016390: 2020 2020 2073 656c 662e 616c 6c5f 7661       self.all_va
+-000163a0: 725f 6469 7370 5f78 203d 205b 5d0d 0a0d  r_disp_x = []...
+-000163b0: 0a20 2020 2020 2020 2020 2020 2020 2020  .               
+-000163c0: 2073 656c 662e 616c 6c5f 6d65 616e 5f72   self.all_mean_r
+-000163d0: 6164 6975 7320 3d20 5b5d 0d0a 2020 2020  adius = []..    
+-000163e0: 2020 2020 2020 2020 2020 2020 7365 6c66              self
+-000163f0: 2e61 6c6c 5f76 6172 5f72 6164 6975 7320  .all_var_radius 
+-00016400: 3d20 5b5d 0d0a 0d0a 2020 2020 2020 2020  = []....        
+-00016410: 2020 2020 2020 2020 7365 6c66 2e61 6c6c          self.all
+-00016420: 5f6d 6561 6e5f 7370 6565 6420 3d20 5b5d  _mean_speed = []
+-00016430: 0d0a 2020 2020 2020 2020 2020 2020 2020  ..              
+-00016440: 2020 7365 6c66 2e61 6c6c 5f76 6172 5f73    self.all_var_s
+-00016450: 7065 6564 203d 205b 5d0d 0a0d 0a20 2020  peed = []....   
+-00016460: 2020 2020 2020 2020 2020 2020 2073 656c               sel
+-00016470: 662e 616c 6c5f 6d65 616e 5f61 6363 203d  f.all_mean_acc =
+-00016480: 205b 5d0d 0a20 2020 2020 2020 2020 2020   []..           
+-00016490: 2020 2020 2073 656c 662e 616c 6c5f 7661       self.all_va
+-000164a0: 725f 6163 6320 3d20 5b5d 0d0a 0d0a 2020  r_acc = []....  
+-000164b0: 2020 2020 2020 2020 2020 2020 2020 7365                se
+-000164c0: 6c66 2e61 6c6c 5f6d 6561 6e5f 6469 7265  lf.all_mean_dire
+-000164d0: 6374 696f 6e61 6c5f 6368 616e 6765 203d  ctional_change =
+-000164e0: 205b 5d0d 0a20 2020 2020 2020 2020 2020   []..           
+-000164f0: 2020 2020 2073 656c 662e 616c 6c5f 7661       self.all_va
+-00016500: 725f 6469 7265 6374 696f 6e61 6c5f 6368  r_directional_ch
+-00016510: 616e 6765 203d 205b 5d0d 0a0d 0a20 2020  ange = []....   
+-00016520: 2020 2020 2020 2020 2020 2020 2073 656c               sel
+-00016530: 662e 616c 6c5f 6d65 616e 5f64 6973 7461  f.all_mean_dista
+-00016540: 6e63 655f 6365 6c6c 5f6d 6173 6b20 3d20  nce_cell_mask = 
+-00016550: 5b5d 0d0a 2020 2020 2020 2020 2020 2020  []..            
+-00016560: 2020 2020 7365 6c66 2e61 6c6c 5f76 6172      self.all_var
+-00016570: 5f64 6973 7461 6e63 655f 6365 6c6c 5f6d  _distance_cell_m
+-00016580: 6173 6b20 3d20 5b5d 0d0a 0d0a 2020 2020  ask = []....    
+-00016590: 2020 2020 2020 2020 2020 2020 7365 6c66              self
+-000165a0: 2e6d 6974 6f74 6963 5f63 6c75 7374 6572  .mitotic_cluster
+-000165b0: 5f63 6c61 7373 203d 205b 5d0d 0a20 2020  _class = []..   
+-000165c0: 2020 2020 2020 2020 2020 2020 2073 656c               sel
+-000165d0: 662e 6e6f 6e5f 6d69 746f 7469 635f 636c  f.non_mitotic_cl
+-000165e0: 7573 7465 725f 636c 6173 7320 3d20 5b5d  uster_class = []
+-000165f0: 0d0a 2020 2020 2020 2020 2020 2020 2020  ..              
+-00016600: 2020 7365 6c66 2e61 6c6c 5f63 6c75 7374    self.all_clust
+-00016610: 6572 5f63 6c61 7373 203d 205b 5d0d 0a0d  er_class = []...
+-00016620: 0a20 2020 2020 2020 2020 2020 2020 2020  .               
+-00016630: 2061 6c6c 5f73 706f 7473 5f74 7261 636b   all_spots_track
+-00016640: 7320 3d20 7b7d 0d0a 2020 2020 2020 2020  s = {}..        
+-00016650: 2020 2020 2020 2020 666f 7220 286b 2c76          for (k,v
+-00016660: 2920 696e 2073 656c 662e 756e 6971 7565  ) in self.unique
+-00016670: 5f73 706f 745f 7072 6f70 6572 7469 6573  _spot_properties
+-00016680: 2e69 7465 6d73 2829 3a0d 0a20 2020 2020  .items():..     
+-00016690: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-000166a0: 200d 0a20 2020 2020 2020 2020 2020 2020   ..             
+-000166b0: 2020 2020 2020 2020 2061 6c6c 5f73 706f           all_spo
+-000166c0: 7473 203d 2073 656c 662e 756e 6971 7565  ts = self.unique
+-000166d0: 5f73 706f 745f 7072 6f70 6572 7469 6573  _spot_properties
+-000166e0: 5b6b 5d0d 0a20 2020 2020 2020 2020 2020  [k]..           
+-000166f0: 2020 2020 2020 2020 2020 2069 6620 7365             if se
+-00016700: 6c66 2e74 7261 636b 6964 5f6b 6579 2069  lf.trackid_key i
+-00016710: 6e20 616c 6c5f 7370 6f74 733a 0d0a 2020  n all_spots:..  
+-00016720: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-00016730: 2020 2020 2020 2020 616c 6c5f 7370 6f74          all_spot
+-00016740: 735f 7472 6163 6b73 5b6b 5d20 3d20 616c  s_tracks[k] = al
+-00016750: 6c5f 7370 6f74 730d 0a20 2020 2020 2020  l_spots..       
+-00016760: 2020 2020 2020 2020 200d 0a0d 0a20 2020           ....   
+-00016770: 2020 2020 2020 2020 2020 2020 200d 0a20               .. 
+-00016780: 2020 2020 2020 2020 2020 2020 2020 2066                 f
+-00016790: 7574 7572 6573 203d 205b 5d0d 0a20 2020  utures = []..   
+-000167a0: 2020 2020 2020 2020 2020 2020 2077 6974               wit
+-000167b0: 6820 636f 6e63 7572 7265 6e74 2e66 7574  h concurrent.fut
+-000167c0: 7572 6573 2e54 6872 6561 6450 6f6f 6c45  ures.ThreadPoolE
+-000167d0: 7865 6375 746f 7228 6d61 785f 776f 726b  xecutor(max_work
+-000167e0: 6572 7320 3d20 6f73 2e63 7075 5f63 6f75  ers = os.cpu_cou
+-000167f0: 6e74 2829 2920 6173 2065 7865 6375 746f  nt()) as executo
+-00016800: 723a 0d0a 2020 2020 2020 2020 2020 2020  r:..            
+-00016810: 2020 2020 2020 2020 2020 0d0a 2020 2020            ..    
+-00016820: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-00016830: 666f 7220 6920 696e 2074 7164 6d28 7261  for i in tqdm(ra
+-00016840: 6e67 6528 7374 6172 7474 696d 652c 2065  nge(starttime, e
+-00016850: 6e64 7469 6d65 292c 2074 6f74 616c 3d65  ndtime), total=e
+-00016860: 6e64 7469 6d65 202d 2073 7461 7274 7469  ndtime - startti
+-00016870: 6d65 293a 0d0a 2020 2020 2020 2020 2020  me):..          
+-00016880: 2020 2020 2020 2020 2020 2020 0d0a 2020              ..  
++00015fa0: 7661 725f 7370 6565 6420 3d20 5b5d 0d0a  var_speed = []..
++00015fb0: 0d0a 2020 2020 2020 2020 2020 2020 2020  ..              
++00015fc0: 2020 7365 6c66 2e6e 6f6e 5f6d 6974 6f74    self.non_mitot
++00015fd0: 6963 5f6d 6561 6e5f 6163 6320 3d20 5b5d  ic_mean_acc = []
++00015fe0: 0d0a 2020 2020 2020 2020 2020 2020 2020  ..              
++00015ff0: 2020 7365 6c66 2e6e 6f6e 5f6d 6974 6f74    self.non_mitot
++00016000: 6963 5f76 6172 5f61 6363 203d 205b 5d0d  ic_var_acc = [].
++00016010: 0a0d 0a20 2020 2020 2020 2020 2020 2020  ...             
++00016020: 2020 2073 656c 662e 6e6f 6e5f 6d69 746f     self.non_mito
++00016030: 7469 635f 6d65 616e 5f64 6972 6563 7469  tic_mean_directi
++00016040: 6f6e 616c 5f63 6861 6e67 6520 3d20 5b5d  onal_change = []
++00016050: 0d0a 2020 2020 2020 2020 2020 2020 2020  ..              
++00016060: 2020 7365 6c66 2e6e 6f6e 5f6d 6974 6f74    self.non_mitot
++00016070: 6963 5f76 6172 5f64 6972 6563 7469 6f6e  ic_var_direction
++00016080: 616c 5f63 6861 6e67 6520 3d20 5b5d 0d0a  al_change = []..
++00016090: 0d0a 2020 2020 2020 2020 2020 2020 2020  ..              
++000160a0: 2020 7365 6c66 2e6e 6f6e 5f6d 6974 6f74    self.non_mitot
++000160b0: 6963 5f6d 6561 6e5f 6469 7374 616e 6365  ic_mean_distance
++000160c0: 5f63 656c 6c5f 6d61 736b 203d 205b 5d0d  _cell_mask = [].
++000160d0: 0a20 2020 2020 2020 2020 2020 2020 2020  .               
++000160e0: 2073 656c 662e 6e6f 6e5f 6d69 746f 7469   self.non_mitoti
++000160f0: 635f 7661 725f 6469 7374 616e 6365 5f63  c_var_distance_c
++00016100: 656c 6c5f 6d61 736b 203d 205b 5d0d 0a0d  ell_mask = []...
++00016110: 0a20 2020 2020 2020 2020 2020 2020 2020  .               
++00016120: 2073 656c 662e 616c 6c5f 6d65 616e 5f64   self.all_mean_d
++00016130: 6973 705f 7a20 3d20 5b5d 0d0a 2020 2020  isp_z = []..    
++00016140: 2020 2020 2020 2020 2020 2020 7365 6c66              self
++00016150: 2e61 6c6c 5f76 6172 5f64 6973 705f 7a20  .all_var_disp_z 
++00016160: 3d20 5b5d 0d0a 0d0a 2020 2020 2020 2020  = []....        
++00016170: 2020 2020 2020 2020 7365 6c66 2e61 6c6c          self.all
++00016180: 5f6d 6561 6e5f 6469 7370 5f79 203d 205b  _mean_disp_y = [
++00016190: 5d0d 0a20 2020 2020 2020 2020 2020 2020  ]..             
++000161a0: 2020 2073 656c 662e 616c 6c5f 7661 725f     self.all_var_
++000161b0: 6469 7370 5f79 203d 205b 5d0d 0a0d 0a20  disp_y = [].... 
++000161c0: 2020 2020 2020 2020 2020 2020 2020 2073                 s
++000161d0: 656c 662e 616c 6c5f 6d65 616e 5f64 6973  elf.all_mean_dis
++000161e0: 705f 7820 3d20 5b5d 0d0a 2020 2020 2020  p_x = []..      
++000161f0: 2020 2020 2020 2020 2020 7365 6c66 2e61            self.a
++00016200: 6c6c 5f76 6172 5f64 6973 705f 7820 3d20  ll_var_disp_x = 
++00016210: 5b5d 0d0a 0d0a 2020 2020 2020 2020 2020  []....          
++00016220: 2020 2020 2020 7365 6c66 2e61 6c6c 5f6d        self.all_m
++00016230: 6561 6e5f 7261 6469 7573 203d 205b 5d0d  ean_radius = [].
++00016240: 0a20 2020 2020 2020 2020 2020 2020 2020  .               
++00016250: 2073 656c 662e 616c 6c5f 7661 725f 7261   self.all_var_ra
++00016260: 6469 7573 203d 205b 5d0d 0a0d 0a20 2020  dius = []....   
++00016270: 2020 2020 2020 2020 2020 2020 2073 656c               sel
++00016280: 662e 616c 6c5f 6d65 616e 5f73 7065 6564  f.all_mean_speed
++00016290: 203d 205b 5d0d 0a20 2020 2020 2020 2020   = []..         
++000162a0: 2020 2020 2020 2073 656c 662e 616c 6c5f         self.all_
++000162b0: 7661 725f 7370 6565 6420 3d20 5b5d 0d0a  var_speed = []..
++000162c0: 0d0a 2020 2020 2020 2020 2020 2020 2020  ..              
++000162d0: 2020 7365 6c66 2e61 6c6c 5f6d 6561 6e5f    self.all_mean_
++000162e0: 6163 6320 3d20 5b5d 0d0a 2020 2020 2020  acc = []..      
++000162f0: 2020 2020 2020 2020 2020 7365 6c66 2e61            self.a
++00016300: 6c6c 5f76 6172 5f61 6363 203d 205b 5d0d  ll_var_acc = [].
++00016310: 0a0d 0a20 2020 2020 2020 2020 2020 2020  ...             
++00016320: 2020 2073 656c 662e 616c 6c5f 6d65 616e     self.all_mean
++00016330: 5f64 6972 6563 7469 6f6e 616c 5f63 6861  _directional_cha
++00016340: 6e67 6520 3d20 5b5d 0d0a 2020 2020 2020  nge = []..      
++00016350: 2020 2020 2020 2020 2020 7365 6c66 2e61            self.a
++00016360: 6c6c 5f76 6172 5f64 6972 6563 7469 6f6e  ll_var_direction
++00016370: 616c 5f63 6861 6e67 6520 3d20 5b5d 0d0a  al_change = []..
++00016380: 0d0a 2020 2020 2020 2020 2020 2020 2020  ..              
++00016390: 2020 7365 6c66 2e61 6c6c 5f6d 6561 6e5f    self.all_mean_
++000163a0: 6469 7374 616e 6365 5f63 656c 6c5f 6d61  distance_cell_ma
++000163b0: 736b 203d 205b 5d0d 0a20 2020 2020 2020  sk = []..       
++000163c0: 2020 2020 2020 2020 2073 656c 662e 616c           self.al
++000163d0: 6c5f 7661 725f 6469 7374 616e 6365 5f63  l_var_distance_c
++000163e0: 656c 6c5f 6d61 736b 203d 205b 5d0d 0a0d  ell_mask = []...
++000163f0: 0a0d 0a20 2020 2020 2020 2020 2020 2020  ...             
++00016400: 2020 2061 6c6c 5f73 706f 7473 5f74 7261     all_spots_tra
++00016410: 636b 7320 3d20 7b7d 0d0a 2020 2020 2020  cks = {}..      
++00016420: 2020 2020 2020 2020 2020 666f 7220 286b            for (k
++00016430: 2c76 2920 696e 2073 656c 662e 756e 6971  ,v) in self.uniq
++00016440: 7565 5f73 706f 745f 7072 6f70 6572 7469  ue_spot_properti
++00016450: 6573 2e69 7465 6d73 2829 3a0d 0a20 2020  es.items():..   
++00016460: 2020 2020 2020 2020 2020 2020 2020 2020                  
++00016470: 2020 200d 0a20 2020 2020 2020 2020 2020     ..           
++00016480: 2020 2020 2020 2020 2020 2061 6c6c 5f73             all_s
++00016490: 706f 7473 203d 2073 656c 662e 756e 6971  pots = self.uniq
++000164a0: 7565 5f73 706f 745f 7072 6f70 6572 7469  ue_spot_properti
++000164b0: 6573 5b6b 5d0d 0a20 2020 2020 2020 2020  es[k]..         
++000164c0: 2020 2020 2020 2020 2020 2020 2069 6620               if 
++000164d0: 7365 6c66 2e74 7261 636b 6964 5f6b 6579  self.trackid_key
++000164e0: 2069 6e20 616c 6c5f 7370 6f74 733a 0d0a   in all_spots:..
++000164f0: 2020 2020 2020 2020 2020 2020 2020 2020                  
++00016500: 2020 2020 2020 2020 2020 616c 6c5f 7370            all_sp
++00016510: 6f74 735f 7472 6163 6b73 5b6b 5d20 3d20  ots_tracks[k] = 
++00016520: 616c 6c5f 7370 6f74 730d 0a20 2020 2020  all_spots..     
++00016530: 2020 2020 2020 2020 2020 200d 0a0d 0a20             .... 
++00016540: 2020 2020 2020 2020 2020 2020 2020 200d                 .
++00016550: 0a20 2020 2020 2020 2020 2020 2020 2020  .               
++00016560: 2066 7574 7572 6573 203d 205b 5d0d 0a20   futures = [].. 
++00016570: 2020 2020 2020 2020 2020 2020 2020 2077                 w
++00016580: 6974 6820 636f 6e63 7572 7265 6e74 2e66  ith concurrent.f
++00016590: 7574 7572 6573 2e54 6872 6561 6450 6f6f  utures.ThreadPoo
++000165a0: 6c45 7865 6375 746f 7228 6d61 785f 776f  lExecutor(max_wo
++000165b0: 726b 6572 7320 3d20 6f73 2e63 7075 5f63  rkers = os.cpu_c
++000165c0: 6f75 6e74 2829 2920 6173 2065 7865 6375  ount()) as execu
++000165d0: 746f 723a 0d0a 2020 2020 2020 2020 2020  tor:..          
++000165e0: 2020 2020 2020 2020 2020 2020 0d0a 2020              ..  
++000165f0: 2020 2020 2020 2020 2020 2020 2020 2020                  
++00016600: 2020 666f 7220 6920 696e 2074 7164 6d28    for i in tqdm(
++00016610: 7261 6e67 6528 7374 6172 7474 696d 652c  range(starttime,
++00016620: 2065 6e64 7469 6d65 292c 2074 6f74 616c   endtime), total
++00016630: 3d65 6e64 7469 6d65 202d 2073 7461 7274  =endtime - start
++00016640: 7469 6d65 293a 0d0a 2020 2020 2020 2020  time):..        
++00016650: 2020 2020 2020 2020 2020 2020 2020 0d0a                ..
++00016660: 2020 2020 2020 2020 2020 2020 2020 2020                  
++00016670: 2020 2020 2020 2020 6675 7475 7265 732e          futures.
++00016680: 6170 7065 6e64 2865 7865 6375 746f 722e  append(executor.
++00016690: 7375 626d 6974 2873 656c 662e 5f63 6f6d  submit(self._com
++000166a0: 7075 7465 5f74 656d 706f 7261 6c2c 2069  pute_temporal, i
++000166b0: 2c20 616c 6c5f 7370 6f74 735f 7472 6163  , all_spots_trac
++000166c0: 6b73 2929 0d0a 200d 0a20 2020 2020 2020  ks)).. ..       
++000166d0: 2020 2020 2020 2020 2020 2020 205b 722e               [r.
++000166e0: 7265 7375 6c74 2829 2066 6f72 2072 2069  result() for r i
++000166f0: 6e20 636f 6e63 7572 7265 6e74 2e66 7574  n concurrent.fut
++00016700: 7572 6573 2e61 735f 636f 6d70 6c65 7465  ures.as_complete
++00016710: 6428 6675 7475 7265 7329 5d0d 0a0d 0a0d  d(futures)].....
++00016720: 0a20 2020 2064 6566 205f 636f 6d70 7574  .    def _comput
++00016730: 655f 7465 6d70 6f72 616c 2873 656c 662c  e_temporal(self,
++00016740: 2069 2c20 616c 6c5f 7370 6f74 735f 7472   i, all_spots_tr
++00016750: 6163 6b73 293a 2020 2020 2020 2020 2020  acks):          
++00016760: 2020 2020 2020 0d0a 2020 2020 2020 2020        ..        
++00016770: 2020 2020 2020 2020 2020 2020 6d69 746f              mito
++00016780: 7469 635f 6469 7370 5f7a 203d 205b 5d0d  tic_disp_z = [].
++00016790: 0a20 2020 2020 2020 2020 2020 2020 2020  .               
++000167a0: 2020 2020 206d 6974 6f74 6963 5f64 6973       mitotic_dis
++000167b0: 705f 7920 3d20 5b5d 0d0a 2020 2020 2020  p_y = []..      
++000167c0: 2020 2020 2020 2020 2020 2020 2020 6d69                mi
++000167d0: 746f 7469 635f 6469 7370 5f78 203d 205b  totic_disp_x = [
++000167e0: 5d0d 0a20 2020 2020 2020 2020 2020 2020  ]..             
++000167f0: 2020 2020 2020 206d 6974 6f74 6963 5f72         mitotic_r
++00016800: 6164 6975 7320 3d20 5b5d 0d0a 2020 2020  adius = []..    
++00016810: 2020 2020 2020 2020 2020 2020 2020 2020                  
++00016820: 6d69 746f 7469 635f 7370 6565 6420 3d20  mitotic_speed = 
++00016830: 5b5d 0d0a 2020 2020 2020 2020 2020 2020  []..            
++00016840: 2020 2020 2020 2020 6d69 746f 7469 635f          mitotic_
++00016850: 6163 6320 3d20 5b5d 0d0a 2020 2020 2020  acc = []..      
++00016860: 2020 2020 2020 2020 2020 2020 2020 6d69                mi
++00016870: 746f 7469 635f 6469 7265 6374 696f 6e61  totic_directiona
++00016880: 6c5f 6368 616e 6765 203d 205b 5d0d 0a20  l_change = [].. 
+ 00016890: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-000168a0: 2020 2020 2020 6675 7475 7265 732e 6170        futures.ap
+-000168b0: 7065 6e64 2865 7865 6375 746f 722e 7375  pend(executor.su
+-000168c0: 626d 6974 2873 656c 662e 5f63 6f6d 7075  bmit(self._compu
+-000168d0: 7465 5f74 656d 706f 7261 6c2c 2069 2c20  te_temporal, i, 
+-000168e0: 616c 6c5f 7370 6f74 735f 7472 6163 6b73  all_spots_tracks
+-000168f0: 2929 0d0a 200d 0a20 2020 2020 2020 2020  )).. ..         
+-00016900: 2020 2020 2020 2020 2020 205b 722e 7265             [r.re
+-00016910: 7375 6c74 2829 2066 6f72 2072 2069 6e20  sult() for r in 
+-00016920: 636f 6e63 7572 7265 6e74 2e66 7574 7572  concurrent.futur
+-00016930: 6573 2e61 735f 636f 6d70 6c65 7465 6428  es.as_completed(
+-00016940: 6675 7475 7265 7329 5d0d 0a0d 0a0d 0a20  futures)]...... 
+-00016950: 2020 2064 6566 205f 636f 6d70 7574 655f     def _compute_
+-00016960: 7465 6d70 6f72 616c 2873 656c 662c 2069  temporal(self, i
+-00016970: 2c20 616c 6c5f 7370 6f74 735f 7472 6163  , all_spots_trac
+-00016980: 6b73 293a 2020 2020 2020 2020 2020 2020  ks):            
+-00016990: 2020 2020 0d0a 2020 2020 2020 2020 2020      ..          
+-000169a0: 2020 2020 2020 2020 2020 6d69 746f 7469            mitoti
+-000169b0: 635f 6469 7370 5f7a 203d 205b 5d0d 0a20  c_disp_z = [].. 
+-000169c0: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-000169d0: 2020 206d 6974 6f74 6963 5f64 6973 705f     mitotic_disp_
+-000169e0: 7920 3d20 5b5d 0d0a 2020 2020 2020 2020  y = []..        
+-000169f0: 2020 2020 2020 2020 2020 2020 6d69 746f              mito
+-00016a00: 7469 635f 6469 7370 5f78 203d 205b 5d0d  tic_disp_x = [].
+-00016a10: 0a20 2020 2020 2020 2020 2020 2020 2020  .               
+-00016a20: 2020 2020 206d 6974 6f74 6963 5f72 6164       mitotic_rad
+-00016a30: 6975 7320 3d20 5b5d 0d0a 2020 2020 2020  ius = []..      
+-00016a40: 2020 2020 2020 2020 2020 2020 2020 6d69                mi
+-00016a50: 746f 7469 635f 7370 6565 6420 3d20 5b5d  totic_speed = []
+-00016a60: 0d0a 2020 2020 2020 2020 2020 2020 2020  ..              
+-00016a70: 2020 2020 2020 6d69 746f 7469 635f 6163        mitotic_ac
+-00016a80: 6320 3d20 5b5d 0d0a 2020 2020 2020 2020  c = []..        
+-00016a90: 2020 2020 2020 2020 2020 2020 6d69 746f              mito
+-00016aa0: 7469 635f 6469 7265 6374 696f 6e61 6c5f  tic_directional_
+-00016ab0: 6368 616e 6765 203d 205b 5d0d 0a20 2020  change = []..   
+-00016ac0: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-00016ad0: 206d 6974 6f74 6963 5f63 6c75 7374 6572   mitotic_cluster
+-00016ae0: 5f63 6c61 7373 203d 205b 5d0d 0a20 2020  _class = []..   
++000168a0: 2020 206d 6974 6f74 6963 5f64 6973 7461     mitotic_dista
++000168b0: 6e63 655f 6365 6c6c 5f6d 6173 6b20 3d20  nce_cell_mask = 
++000168c0: 5b5d 0d0a 0d0a 2020 2020 2020 2020 2020  []....          
++000168d0: 2020 2020 2020 2020 2020 6e6f 6e5f 6d69            non_mi
++000168e0: 746f 7469 635f 6469 7370 5f7a 203d 205b  totic_disp_z = [
++000168f0: 5d0d 0a20 2020 2020 2020 2020 2020 2020  ]..             
++00016900: 2020 2020 2020 206e 6f6e 5f6d 6974 6f74         non_mitot
++00016910: 6963 5f64 6973 705f 7920 3d20 5b5d 0d0a  ic_disp_y = []..
++00016920: 2020 2020 2020 2020 2020 2020 2020 2020                  
++00016930: 2020 2020 6e6f 6e5f 6d69 746f 7469 635f      non_mitotic_
++00016940: 6469 7370 5f78 203d 205b 5d0d 0a20 2020  disp_x = []..   
++00016950: 2020 2020 2020 2020 2020 2020 2020 2020                  
++00016960: 206e 6f6e 5f6d 6974 6f74 6963 5f72 6164   non_mitotic_rad
++00016970: 6975 7320 3d20 5b5d 0d0a 2020 2020 2020  ius = []..      
++00016980: 2020 2020 2020 2020 2020 2020 2020 6e6f                no
++00016990: 6e5f 6d69 746f 7469 635f 7370 6565 6420  n_mitotic_speed 
++000169a0: 3d20 5b5d 0d0a 2020 2020 2020 2020 2020  = []..          
++000169b0: 2020 2020 2020 2020 2020 6e6f 6e5f 6d69            non_mi
++000169c0: 746f 7469 635f 6163 6320 3d20 5b5d 0d0a  totic_acc = []..
++000169d0: 2020 2020 2020 2020 2020 2020 2020 2020                  
++000169e0: 2020 2020 6e6f 6e5f 6d69 746f 7469 635f      non_mitotic_
++000169f0: 6469 7265 6374 696f 6e61 6c5f 6368 616e  directional_chan
++00016a00: 6765 203d 205b 5d0d 0a20 2020 2020 2020  ge = []..       
++00016a10: 2020 2020 2020 2020 2020 2020 206e 6f6e               non
++00016a20: 5f6d 6974 6f74 6963 5f64 6973 7461 6e63  _mitotic_distanc
++00016a30: 655f 6365 6c6c 5f6d 6173 6b20 3d20 5b5d  e_cell_mask = []
++00016a40: 0d0a 2020 2020 2020 2020 2020 2020 2020  ..              
++00016a50: 2020 2020 2020 0d0a 2020 2020 2020 2020        ..        
++00016a60: 2020 2020 2020 2020 2020 2020 616c 6c5f              all_
++00016a70: 6469 7370 5f7a 203d 205b 5d0d 0a20 2020  disp_z = []..   
++00016a80: 2020 2020 2020 2020 2020 2020 2020 2020                  
++00016a90: 2061 6c6c 5f64 6973 705f 7920 3d20 5b5d   all_disp_y = []
++00016aa0: 0d0a 2020 2020 2020 2020 2020 2020 2020  ..              
++00016ab0: 2020 2020 2020 616c 6c5f 6469 7370 5f78        all_disp_x
++00016ac0: 203d 205b 5d0d 0a20 2020 2020 2020 2020   = []..         
++00016ad0: 2020 2020 2020 2020 2020 2061 6c6c 5f72             all_r
++00016ae0: 6164 6975 7320 3d20 5b5d 0d0a 2020 2020  adius = []..    
+ 00016af0: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-00016b00: 206d 6974 6f74 6963 5f64 6973 7461 6e63   mitotic_distanc
+-00016b10: 655f 6365 6c6c 5f6d 6173 6b20 3d20 5b5d  e_cell_mask = []
+-00016b20: 0d0a 0d0a 2020 2020 2020 2020 2020 2020  ....            
+-00016b30: 2020 2020 2020 2020 6e6f 6e5f 6d69 746f          non_mito
+-00016b40: 7469 635f 6469 7370 5f7a 203d 205b 5d0d  tic_disp_z = [].
+-00016b50: 0a20 2020 2020 2020 2020 2020 2020 2020  .               
+-00016b60: 2020 2020 206e 6f6e 5f6d 6974 6f74 6963       non_mitotic
+-00016b70: 5f64 6973 705f 7920 3d20 5b5d 0d0a 2020  _disp_y = []..  
+-00016b80: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-00016b90: 2020 6e6f 6e5f 6d69 746f 7469 635f 6469    non_mitotic_di
+-00016ba0: 7370 5f78 203d 205b 5d0d 0a20 2020 2020  sp_x = []..     
+-00016bb0: 2020 2020 2020 2020 2020 2020 2020 206e                 n
+-00016bc0: 6f6e 5f6d 6974 6f74 6963 5f72 6164 6975  on_mitotic_radiu
+-00016bd0: 7320 3d20 5b5d 0d0a 2020 2020 2020 2020  s = []..        
+-00016be0: 2020 2020 2020 2020 2020 2020 6e6f 6e5f              non_
+-00016bf0: 6d69 746f 7469 635f 7370 6565 6420 3d20  mitotic_speed = 
+-00016c00: 5b5d 0d0a 2020 2020 2020 2020 2020 2020  []..            
+-00016c10: 2020 2020 2020 2020 6e6f 6e5f 6d69 746f          non_mito
+-00016c20: 7469 635f 6163 6320 3d20 5b5d 0d0a 2020  tic_acc = []..  
+-00016c30: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-00016c40: 2020 6e6f 6e5f 6d69 746f 7469 635f 6469    non_mitotic_di
+-00016c50: 7265 6374 696f 6e61 6c5f 6368 616e 6765  rectional_change
+-00016c60: 203d 205b 5d0d 0a20 2020 2020 2020 2020   = []..         
+-00016c70: 2020 2020 2020 2020 2020 206e 6f6e 5f6d             non_m
+-00016c80: 6974 6f74 6963 5f63 6c75 7374 6572 5f63  itotic_cluster_c
+-00016c90: 6c61 7373 203d 205b 5d0d 0a20 2020 2020  lass = []..     
+-00016ca0: 2020 2020 2020 2020 2020 2020 2020 206e                 n
+-00016cb0: 6f6e 5f6d 6974 6f74 6963 5f64 6973 7461  on_mitotic_dista
+-00016cc0: 6e63 655f 6365 6c6c 5f6d 6173 6b20 3d20  nce_cell_mask = 
+-00016cd0: 5b5d 0d0a 2020 2020 2020 2020 2020 2020  []..            
+-00016ce0: 2020 2020 2020 2020 0d0a 2020 2020 2020          ..      
+-00016cf0: 2020 2020 2020 2020 2020 2020 2020 616c                al
+-00016d00: 6c5f 6469 7370 5f7a 203d 205b 5d0d 0a20  l_disp_z = [].. 
+-00016d10: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-00016d20: 2020 2061 6c6c 5f64 6973 705f 7920 3d20     all_disp_y = 
+-00016d30: 5b5d 0d0a 2020 2020 2020 2020 2020 2020  []..            
+-00016d40: 2020 2020 2020 2020 616c 6c5f 6469 7370          all_disp
+-00016d50: 5f78 203d 205b 5d0d 0a20 2020 2020 2020  _x = []..       
+-00016d60: 2020 2020 2020 2020 2020 2020 2061 6c6c               all
+-00016d70: 5f72 6164 6975 7320 3d20 5b5d 0d0a 2020  _radius = []..  
++00016b00: 616c 6c5f 7370 6565 6420 3d20 5b5d 0d0a  all_speed = []..
++00016b10: 2020 2020 2020 2020 2020 2020 2020 2020                  
++00016b20: 2020 2020 616c 6c5f 6163 6320 3d20 5b5d      all_acc = []
++00016b30: 0d0a 2020 2020 2020 2020 2020 2020 2020  ..              
++00016b40: 2020 2020 2020 616c 6c5f 6469 7265 6374        all_direct
++00016b50: 696f 6e61 6c5f 6368 616e 6765 203d 205b  ional_change = [
++00016b60: 5d0d 0a20 2020 2020 2020 2020 2020 2020  ]..             
++00016b70: 2020 2020 2020 2061 6c6c 5f64 6973 7461         all_dista
++00016b80: 6e63 655f 6365 6c6c 5f6d 6173 6b20 3d20  nce_cell_mask = 
++00016b90: 5b5d 0d0a 0d0a 0d0a 0d0a 0d0a 2020 2020  []..........    
++00016ba0: 2020 2020 2020 2020 2020 2020 2020 2020                  
++00016bb0: 666f 7220 286b 2c76 2920 696e 2061 6c6c  for (k,v) in all
++00016bc0: 5f73 706f 7473 5f74 7261 636b 732e 6974  _spots_tracks.it
++00016bd0: 656d 7328 293a 0d0a 2020 2020 2020 2020  ems():..        
++00016be0: 2020 2020 2020 2020 2020 2020 2020 2020                  
++00016bf0: 2020 2020 0d0a 2020 2020 2020 2020 2020      ..          
++00016c00: 2020 2020 2020 2020 2020 2020 2020 2020                  
++00016c10: 2020 6375 7272 656e 745f 7469 6d65 203d    current_time =
++00016c20: 2061 6c6c 5f73 706f 7473 5f74 7261 636b   all_spots_track
++00016c30: 735b 6b5d 5b73 656c 662e 6672 616d 6569  s[k][self.framei
++00016c40: 645f 6b65 795d 0d0a 2020 2020 2020 2020  d_key]..        
++00016c50: 2020 2020 2020 2020 2020 2020 2020 2020                  
++00016c60: 2020 2020 6d69 746f 7469 6320 3d20 616c      mitotic = al
++00016c70: 6c5f 7370 6f74 735f 7472 6163 6b73 5b6b  l_spots_tracks[k
++00016c80: 5d5b 7365 6c66 2e64 6976 6964 696e 675f  ][self.dividing_
++00016c90: 6b65 795d 0d0a 2020 2020 2020 2020 2020  key]..          
++00016ca0: 2020 2020 2020 2020 2020 2020 2020 2020                  
++00016cb0: 200d 0a20 2020 2020 2020 2020 2020 2020   ..             
++00016cc0: 2020 2020 2020 2020 2020 2020 2020 2069                 i
++00016cd0: 6620 6920 3d3d 2069 6e74 2863 7572 7265  f i == int(curre
++00016ce0: 6e74 5f74 696d 6529 3a0d 0a20 2020 2020  nt_time):..     
++00016cf0: 2020 2020 2020 2020 2020 2020 2020 2020                  
++00016d00: 2020 2020 2020 2020 2020 2020 2069 6620               if 
++00016d10: 6d69 746f 7469 633a 0d0a 2020 2020 2020  mitotic:..      
++00016d20: 2020 2020 2020 2020 2020 2020 2020 2020                  
++00016d30: 2020 2020 2020 2020 2020 2020 2020 2020                  
++00016d40: 2020 6d69 746f 7469 635f 6469 7370 5f7a    mitotic_disp_z
++00016d50: 2e61 7070 656e 6428 616c 6c5f 7370 6f74  .append(all_spot
++00016d60: 735f 7472 6163 6b73 5b6b 5d5b 7365 6c66  s_tracks[k][self
++00016d70: 2e7a 706f 7369 645f 6b65 795d 290d 0a20  .zposid_key]).. 
+ 00016d80: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-00016d90: 2020 616c 6c5f 7370 6565 6420 3d20 5b5d    all_speed = []
+-00016da0: 0d0a 2020 2020 2020 2020 2020 2020 2020  ..              
+-00016db0: 2020 2020 2020 616c 6c5f 6163 6320 3d20        all_acc = 
+-00016dc0: 5b5d 0d0a 2020 2020 2020 2020 2020 2020  []..            
+-00016dd0: 2020 2020 2020 2020 616c 6c5f 6469 7265          all_dire
+-00016de0: 6374 696f 6e61 6c5f 6368 616e 6765 203d  ctional_change =
+-00016df0: 205b 5d0d 0a20 2020 2020 2020 2020 2020   []..           
+-00016e00: 2020 2020 2020 2020 2061 6c6c 5f63 6c75           all_clu
+-00016e10: 7374 6572 5f63 6c61 7373 203d 205b 5d0d  ster_class = [].
+-00016e20: 0a20 2020 2020 2020 2020 2020 2020 2020  .               
+-00016e30: 2020 2020 2061 6c6c 5f64 6973 7461 6e63       all_distanc
+-00016e40: 655f 6365 6c6c 5f6d 6173 6b20 3d20 5b5d  e_cell_mask = []
+-00016e50: 0d0a 0d0a 0d0a 0d0a 0d0a 2020 2020 2020  ..........      
+-00016e60: 2020 2020 2020 2020 2020 2020 2020 666f                fo
+-00016e70: 7220 286b 2c76 2920 696e 2061 6c6c 5f73  r (k,v) in all_s
+-00016e80: 706f 7473 5f74 7261 636b 732e 6974 656d  pots_tracks.item
+-00016e90: 7328 293a 0d0a 2020 2020 2020 2020 2020  s():..          
+-00016ea0: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-00016eb0: 2020 0d0a 2020 2020 2020 2020 2020 2020    ..            
++00016d90: 2020 2020 2020 2020 2020 2020 2020 2020                  
++00016da0: 2020 2020 2020 206d 6974 6f74 6963 5f64         mitotic_d
++00016db0: 6973 705f 792e 6170 7065 6e64 2861 6c6c  isp_y.append(all
++00016dc0: 5f73 706f 7473 5f74 7261 636b 735b 6b5d  _spots_tracks[k]
++00016dd0: 5b73 656c 662e 7970 6f73 6964 5f6b 6579  [self.yposid_key
++00016de0: 5d29 0d0a 2020 2020 2020 2020 2020 2020  ])..            
++00016df0: 2020 2020 2020 2020 2020 2020 2020 2020                  
++00016e00: 2020 2020 2020 2020 2020 2020 6d69 746f              mito
++00016e10: 7469 635f 6469 7370 5f78 2e61 7070 656e  tic_disp_x.appen
++00016e20: 6428 616c 6c5f 7370 6f74 735f 7472 6163  d(all_spots_trac
++00016e30: 6b73 5b6b 5d5b 7365 6c66 2e78 706f 7369  ks[k][self.xposi
++00016e40: 645f 6b65 795d 290d 0a20 2020 2020 2020  d_key])..       
++00016e50: 2020 2020 2020 2020 2020 2020 2020 2020                  
++00016e60: 2020 2020 2020 2020 2020 2020 2020 2020                  
++00016e70: 206d 6974 6f74 6963 5f72 6164 6975 732e   mitotic_radius.
++00016e80: 6170 7065 6e64 2861 6c6c 5f73 706f 7473  append(all_spots
++00016e90: 5f74 7261 636b 735b 6b5d 5b73 656c 662e  _tracks[k][self.
++00016ea0: 7261 6469 7573 5f6b 6579 5d29 0d0a 2020  radius_key])..  
++00016eb0: 2020 2020 2020 2020 2020 2020 2020 2020                  
+ 00016ec0: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-00016ed0: 6375 7272 656e 745f 7469 6d65 203d 2061  current_time = a
+-00016ee0: 6c6c 5f73 706f 7473 5f74 7261 636b 735b  ll_spots_tracks[
+-00016ef0: 6b5d 5b73 656c 662e 6672 616d 6569 645f  k][self.frameid_
+-00016f00: 6b65 795d 0d0a 2020 2020 2020 2020 2020  key]..          
+-00016f10: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-00016f20: 2020 6d69 746f 7469 6320 3d20 616c 6c5f    mitotic = all_
+-00016f30: 7370 6f74 735f 7472 6163 6b73 5b6b 5d5b  spots_tracks[k][
+-00016f40: 7365 6c66 2e64 6976 6964 696e 675f 6b65  self.dividing_ke
+-00016f50: 795d 0d0a 2020 2020 2020 2020 2020 2020  y]..            
+-00016f60: 2020 2020 2020 2020 2020 2020 2020 200d                 .
+-00016f70: 0a20 2020 2020 2020 2020 2020 2020 2020  .               
+-00016f80: 2020 2020 2020 2020 2020 2020 2069 6620               if 
+-00016f90: 6920 3d3d 2069 6e74 2863 7572 7265 6e74  i == int(current
+-00016fa0: 5f74 696d 6529 3a0d 0a20 2020 2020 2020  _time):..       
+-00016fb0: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-00016fc0: 2020 2020 2020 2020 2020 2069 6620 6d69             if mi
+-00016fd0: 746f 7469 633a 0d0a 2020 2020 2020 2020  totic:..        
+-00016fe0: 2020 2020 2020 2020 2020 2020 2020 2020                  
++00016ed0: 2020 2020 2020 6d69 746f 7469 635f 7370        mitotic_sp
++00016ee0: 6565 642e 6170 7065 6e64 2861 6c6c 5f73  eed.append(all_s
++00016ef0: 706f 7473 5f74 7261 636b 735b 6b5d 5b73  pots_tracks[k][s
++00016f00: 656c 662e 7370 6565 645f 6b65 795d 290d  elf.speed_key]).
++00016f10: 0a20 2020 2020 2020 2020 2020 2020 2020  .               
++00016f20: 2020 2020 2020 2020 2020 2020 2020 2020                  
++00016f30: 2020 2020 2020 2020 206d 6974 6f74 6963           mitotic
++00016f40: 5f61 6363 2e61 7070 656e 6428 616c 6c5f  _acc.append(all_
++00016f50: 7370 6f74 735f 7472 6163 6b73 5b6b 5d5b  spots_tracks[k][
++00016f60: 7365 6c66 2e61 6363 656c 6572 6174 696f  self.acceleratio
++00016f70: 6e5f 6b65 795d 290d 0a20 2020 2020 2020  n_key])..       
++00016f80: 2020 2020 2020 2020 2020 2020 2020 2020                  
++00016f90: 2020 2020 2020 2020 2020 2020 2020 2020                  
++00016fa0: 206d 6974 6f74 6963 5f64 6972 6563 7469   mitotic_directi
++00016fb0: 6f6e 616c 5f63 6861 6e67 652e 6170 7065  onal_change.appe
++00016fc0: 6e64 2861 6c6c 5f73 706f 7473 5f74 7261  nd(all_spots_tra
++00016fd0: 636b 735b 6b5d 5b73 656c 662e 6d6f 7469  cks[k][self.moti
++00016fe0: 6f6e 5f61 6e67 6c65 5f6b 6579 5d29 0d0a  on_angle_key])..
+ 00016ff0: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-00017000: 6d69 746f 7469 635f 6469 7370 5f7a 2e61  mitotic_disp_z.a
+-00017010: 7070 656e 6428 616c 6c5f 7370 6f74 735f  ppend(all_spots_
+-00017020: 7472 6163 6b73 5b6b 5d5b 7365 6c66 2e7a  tracks[k][self.z
+-00017030: 706f 7369 645f 6b65 795d 290d 0a20 2020  posid_key])..   
+-00017040: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-00017050: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-00017060: 2020 2020 206d 6974 6f74 6963 5f64 6973       mitotic_dis
+-00017070: 705f 792e 6170 7065 6e64 2861 6c6c 5f73  p_y.append(all_s
+-00017080: 706f 7473 5f74 7261 636b 735b 6b5d 5b73  pots_tracks[k][s
+-00017090: 656c 662e 7970 6f73 6964 5f6b 6579 5d29  elf.yposid_key])
+-000170a0: 0d0a 2020 2020 2020 2020 2020 2020 2020  ..              
++00017000: 2020 2020 2020 2020 2020 2020 2020 2020                  
++00017010: 2020 2020 2020 2020 6d69 746f 7469 635f          mitotic_
++00017020: 6469 7374 616e 6365 5f63 656c 6c5f 6d61  distance_cell_ma
++00017030: 736b 2e61 7070 656e 6428 616c 6c5f 7370  sk.append(all_sp
++00017040: 6f74 735f 7472 6163 6b73 5b6b 5d5b 7365  ots_tracks[k][se
++00017050: 6c66 2e64 6973 7461 6e63 655f 6365 6c6c  lf.distance_cell
++00017060: 5f6d 6173 6b5f 6b65 795d 290d 0a0d 0a0d  _mask_key]).....
++00017070: 0a20 2020 2020 2020 2020 2020 2020 2020  .               
++00017080: 2020 2020 2020 2020 2020 2020 2020 2020                  
++00017090: 2020 2069 6620 6e6f 7420 6d69 746f 7469     if not mitoti
++000170a0: 633a 0d0a 2020 2020 2020 2020 2020 2020  c:..            
+ 000170b0: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-000170c0: 2020 2020 2020 2020 2020 6d69 746f 7469            mitoti
+-000170d0: 635f 6469 7370 5f78 2e61 7070 656e 6428  c_disp_x.append(
+-000170e0: 616c 6c5f 7370 6f74 735f 7472 6163 6b73  all_spots_tracks
+-000170f0: 5b6b 5d5b 7365 6c66 2e78 706f 7369 645f  [k][self.xposid_
+-00017100: 6b65 795d 290d 0a20 2020 2020 2020 2020  key])..         
++000170c0: 2020 2020 2020 2020 2020 2020 6e6f 6e5f              non_
++000170d0: 6d69 746f 7469 635f 6469 7370 5f7a 2e61  mitotic_disp_z.a
++000170e0: 7070 656e 6428 616c 6c5f 7370 6f74 735f  ppend(all_spots_
++000170f0: 7472 6163 6b73 5b6b 5d5b 7365 6c66 2e7a  tracks[k][self.z
++00017100: 706f 7369 645f 6b65 795d 290d 0a20 2020  posid_key])..   
+ 00017110: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-00017120: 2020 2020 2020 2020 2020 2020 2020 206d                 m
+-00017130: 6974 6f74 6963 5f72 6164 6975 732e 6170  itotic_radius.ap
+-00017140: 7065 6e64 2861 6c6c 5f73 706f 7473 5f74  pend(all_spots_t
+-00017150: 7261 636b 735b 6b5d 5b73 656c 662e 7261  racks[k][self.ra
+-00017160: 6469 7573 5f6b 6579 5d29 0d0a 2020 2020  dius_key])..    
+-00017170: 2020 2020 2020 2020 2020 2020 2020 2020                  
++00017120: 2020 2020 2020 2020 2020 2020 2020 2020                  
++00017130: 2020 2020 206e 6f6e 5f6d 6974 6f74 6963       non_mitotic
++00017140: 5f64 6973 705f 792e 6170 7065 6e64 2861  _disp_y.append(a
++00017150: 6c6c 5f73 706f 7473 5f74 7261 636b 735b  ll_spots_tracks[
++00017160: 6b5d 5b73 656c 662e 7970 6f73 6964 5f6b  k][self.yposid_k
++00017170: 6579 5d29 0d0a 2020 2020 2020 2020 2020  ey])..          
+ 00017180: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-00017190: 2020 2020 6d69 746f 7469 635f 7370 6565      mitotic_spee
+-000171a0: 642e 6170 7065 6e64 2861 6c6c 5f73 706f  d.append(all_spo
+-000171b0: 7473 5f74 7261 636b 735b 6b5d 5b73 656c  ts_tracks[k][sel
+-000171c0: 662e 7370 6565 645f 6b65 795d 290d 0a20  f.speed_key]).. 
+-000171d0: 2020 2020 2020 2020 2020 2020 2020 2020                  
++00017190: 2020 2020 2020 2020 2020 2020 2020 6e6f                no
++000171a0: 6e5f 6d69 746f 7469 635f 6469 7370 5f78  n_mitotic_disp_x
++000171b0: 2e61 7070 656e 6428 616c 6c5f 7370 6f74  .append(all_spot
++000171c0: 735f 7472 6163 6b73 5b6b 5d5b 7365 6c66  s_tracks[k][self
++000171d0: 2e78 706f 7369 645f 6b65 795d 290d 0a20  .xposid_key]).. 
+ 000171e0: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-000171f0: 2020 2020 2020 206d 6974 6f74 6963 5f61         mitotic_a
+-00017200: 6363 2e61 7070 656e 6428 616c 6c5f 7370  cc.append(all_sp
+-00017210: 6f74 735f 7472 6163 6b73 5b6b 5d5b 7365  ots_tracks[k][se
+-00017220: 6c66 2e61 6363 656c 6572 6174 696f 6e5f  lf.acceleration_
+-00017230: 6b65 795d 290d 0a20 2020 2020 2020 2020  key])..         
+-00017240: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-00017250: 2020 2020 2020 2020 2020 2020 2020 206d                 m
+-00017260: 6974 6f74 6963 5f64 6972 6563 7469 6f6e  itotic_direction
+-00017270: 616c 5f63 6861 6e67 652e 6170 7065 6e64  al_change.append
+-00017280: 2861 6c6c 5f73 706f 7473 5f74 7261 636b  (all_spots_track
+-00017290: 735b 6b5d 5b73 656c 662e 6d6f 7469 6f6e  s[k][self.motion
+-000172a0: 5f61 6e67 6c65 5f6b 6579 5d29 0d0a 2020  _angle_key])..  
++000171f0: 2020 2020 2020 2020 2020 2020 2020 2020                  
++00017200: 2020 2020 2020 206e 6f6e 5f6d 6974 6f74         non_mitot
++00017210: 6963 5f72 6164 6975 732e 6170 7065 6e64  ic_radius.append
++00017220: 2861 6c6c 5f73 706f 7473 5f74 7261 636b  (all_spots_track
++00017230: 735b 6b5d 5b73 656c 662e 7261 6469 7573  s[k][self.radius
++00017240: 5f6b 6579 5d29 0d0a 2020 2020 2020 2020  _key])..        
++00017250: 2020 2020 2020 2020 2020 2020 2020 2020                  
++00017260: 2020 2020 2020 2020 2020 2020 2020 2020                  
++00017270: 6e6f 6e5f 6d69 746f 7469 635f 7370 6565  non_mitotic_spee
++00017280: 642e 6170 7065 6e64 2861 6c6c 5f73 706f  d.append(all_spo
++00017290: 7473 5f74 7261 636b 735b 6b5d 5b73 656c  ts_tracks[k][sel
++000172a0: 662e 7370 6565 645f 6b65 795d 290d 0a20  f.speed_key]).. 
+ 000172b0: 2020 2020 2020 2020 2020 2020 2020 2020                  
+ 000172c0: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-000172d0: 2020 2020 2020 6d69 746f 7469 635f 6469        mitotic_di
+-000172e0: 7374 616e 6365 5f63 656c 6c5f 6d61 736b  stance_cell_mask
+-000172f0: 2e61 7070 656e 6428 616c 6c5f 7370 6f74  .append(all_spot
+-00017300: 735f 7472 6163 6b73 5b6b 5d5b 7365 6c66  s_tracks[k][self
+-00017310: 2e64 6973 7461 6e63 655f 6365 6c6c 5f6d  .distance_cell_m
+-00017320: 6173 6b5f 6b65 795d 290d 0a0d 0a0d 0a20  ask_key])...... 
++000172d0: 2020 2020 2020 206e 6f6e 5f6d 6974 6f74         non_mitot
++000172e0: 6963 5f61 6363 2e61 7070 656e 6428 616c  ic_acc.append(al
++000172f0: 6c5f 7370 6f74 735f 7472 6163 6b73 5b6b  l_spots_tracks[k
++00017300: 5d5b 7365 6c66 2e61 6363 656c 6572 6174  ][self.accelerat
++00017310: 696f 6e5f 6b65 795d 290d 0a20 2020 2020  ion_key])..     
++00017320: 2020 2020 2020 2020 2020 2020 2020 2020                  
+ 00017330: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-00017340: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-00017350: 2069 6620 6e6f 7420 6d69 746f 7469 633a   if not mitotic:
+-00017360: 0d0a 2020 2020 2020 2020 2020 2020 2020  ..              
+-00017370: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-00017380: 2020 2020 2020 2020 2020 6e6f 6e5f 6d69            non_mi
+-00017390: 746f 7469 635f 6469 7370 5f7a 2e61 7070  totic_disp_z.app
+-000173a0: 656e 6428 616c 6c5f 7370 6f74 735f 7472  end(all_spots_tr
+-000173b0: 6163 6b73 5b6b 5d5b 7365 6c66 2e7a 706f  acks[k][self.zpo
+-000173c0: 7369 645f 6b65 795d 290d 0a20 2020 2020  sid_key])..     
+-000173d0: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-000173e0: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-000173f0: 2020 206e 6f6e 5f6d 6974 6f74 6963 5f64     non_mitotic_d
+-00017400: 6973 705f 792e 6170 7065 6e64 2861 6c6c  isp_y.append(all
+-00017410: 5f73 706f 7473 5f74 7261 636b 735b 6b5d  _spots_tracks[k]
+-00017420: 5b73 656c 662e 7970 6f73 6964 5f6b 6579  [self.yposid_key
+-00017430: 5d29 0d0a 2020 2020 2020 2020 2020 2020  ])..            
+-00017440: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-00017450: 2020 2020 2020 2020 2020 2020 6e6f 6e5f              non_
+-00017460: 6d69 746f 7469 635f 6469 7370 5f78 2e61  mitotic_disp_x.a
+-00017470: 7070 656e 6428 616c 6c5f 7370 6f74 735f  ppend(all_spots_
+-00017480: 7472 6163 6b73 5b6b 5d5b 7365 6c66 2e78  tracks[k][self.x
+-00017490: 706f 7369 645f 6b65 795d 290d 0a20 2020  posid_key])..   
+-000174a0: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-000174b0: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-000174c0: 2020 2020 206e 6f6e 5f6d 6974 6f74 6963       non_mitotic
+-000174d0: 5f72 6164 6975 732e 6170 7065 6e64 2861  _radius.append(a
+-000174e0: 6c6c 5f73 706f 7473 5f74 7261 636b 735b  ll_spots_tracks[
+-000174f0: 6b5d 5b73 656c 662e 7261 6469 7573 5f6b  k][self.radius_k
+-00017500: 6579 5d29 0d0a 2020 2020 2020 2020 2020  ey])..          
+-00017510: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-00017520: 2020 2020 2020 2020 2020 2020 2020 6e6f                no
+-00017530: 6e5f 6d69 746f 7469 635f 7370 6565 642e  n_mitotic_speed.
+-00017540: 6170 7065 6e64 2861 6c6c 5f73 706f 7473  append(all_spots
+-00017550: 5f74 7261 636b 735b 6b5d 5b73 656c 662e  _tracks[k][self.
+-00017560: 7370 6565 645f 6b65 795d 290d 0a20 2020  speed_key])..   
+-00017570: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-00017580: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-00017590: 2020 2020 206e 6f6e 5f6d 6974 6f74 6963       non_mitotic
+-000175a0: 5f61 6363 2e61 7070 656e 6428 616c 6c5f  _acc.append(all_
+-000175b0: 7370 6f74 735f 7472 6163 6b73 5b6b 5d5b  spots_tracks[k][
+-000175c0: 7365 6c66 2e61 6363 656c 6572 6174 696f  self.acceleratio
+-000175d0: 6e5f 6b65 795d 290d 0a20 2020 2020 2020  n_key])..       
++00017340: 2020 206e 6f6e 5f6d 6974 6f74 6963 5f64     non_mitotic_d
++00017350: 6972 6563 7469 6f6e 616c 5f63 6861 6e67  irectional_chang
++00017360: 652e 6170 7065 6e64 2861 6c6c 5f73 706f  e.append(all_spo
++00017370: 7473 5f74 7261 636b 735b 6b5d 5b73 656c  ts_tracks[k][sel
++00017380: 662e 6d6f 7469 6f6e 5f61 6e67 6c65 5f6b  f.motion_angle_k
++00017390: 6579 5d29 0d0a 2020 2020 2020 2020 2020  ey])..          
++000173a0: 2020 2020 2020 2020 2020 2020 2020 2020                  
++000173b0: 2020 2020 2020 2020 2020 2020 2020 6e6f                no
++000173c0: 6e5f 6d69 746f 7469 635f 6469 7374 616e  n_mitotic_distan
++000173d0: 6365 5f63 656c 6c5f 6d61 736b 2e61 7070  ce_cell_mask.app
++000173e0: 656e 6428 616c 6c5f 7370 6f74 735f 7472  end(all_spots_tr
++000173f0: 6163 6b73 5b6b 5d5b 7365 6c66 2e64 6973  acks[k][self.dis
++00017400: 7461 6e63 655f 6365 6c6c 5f6d 6173 6b5f  tance_cell_mask_
++00017410: 6b65 795d 290d 0a0d 0a20 2020 2020 2020  key])....       
++00017420: 2020 2020 2020 2020 2020 2020 2020 2020                  
++00017430: 2020 2020 2020 2020 2020 2061 6c6c 5f64             all_d
++00017440: 6973 705f 7a2e 6170 7065 6e64 2861 6c6c  isp_z.append(all
++00017450: 5f73 706f 7473 5f74 7261 636b 735b 6b5d  _spots_tracks[k]
++00017460: 5b73 656c 662e 7a70 6f73 6964 5f6b 6579  [self.zposid_key
++00017470: 5d29 0d0a 2020 2020 2020 2020 2020 2020  ])..            
++00017480: 2020 2020 2020 2020 2020 2020 2020 2020                  
++00017490: 2020 2020 2020 616c 6c5f 6469 7370 5f79        all_disp_y
++000174a0: 2e61 7070 656e 6428 616c 6c5f 7370 6f74  .append(all_spot
++000174b0: 735f 7472 6163 6b73 5b6b 5d5b 7365 6c66  s_tracks[k][self
++000174c0: 2e79 706f 7369 645f 6b65 795d 290d 0a20  .yposid_key]).. 
++000174d0: 2020 2020 2020 2020 2020 2020 2020 2020                  
++000174e0: 2020 2020 2020 2020 2020 2020 2020 2020                  
++000174f0: 2061 6c6c 5f64 6973 705f 782e 6170 7065   all_disp_x.appe
++00017500: 6e64 2861 6c6c 5f73 706f 7473 5f74 7261  nd(all_spots_tra
++00017510: 636b 735b 6b5d 5b73 656c 662e 7870 6f73  cks[k][self.xpos
++00017520: 6964 5f6b 6579 5d29 0d0a 2020 2020 2020  id_key])..      
++00017530: 2020 2020 2020 2020 2020 2020 2020 2020                  
++00017540: 2020 2020 2020 2020 2020 2020 616c 6c5f              all_
++00017550: 7261 6469 7573 2e61 7070 656e 6428 616c  radius.append(al
++00017560: 6c5f 7370 6f74 735f 7472 6163 6b73 5b6b  l_spots_tracks[k
++00017570: 5d5b 7365 6c66 2e72 6164 6975 735f 6b65  ][self.radius_ke
++00017580: 795d 290d 0a20 2020 2020 2020 2020 2020  y])..           
++00017590: 2020 2020 2020 2020 2020 2020 2020 2020                  
++000175a0: 2020 2020 2020 2061 6c6c 5f73 7065 6564         all_speed
++000175b0: 2e61 7070 656e 6428 616c 6c5f 7370 6f74  .append(all_spot
++000175c0: 735f 7472 6163 6b73 5b6b 5d5b 7365 6c66  s_tracks[k][self
++000175d0: 2e73 7065 6564 5f6b 6579 5d29 0d0a 2020  .speed_key])..  
+ 000175e0: 2020 2020 2020 2020 2020 2020 2020 2020                  
+ 000175f0: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-00017600: 206e 6f6e 5f6d 6974 6f74 6963 5f64 6972   non_mitotic_dir
+-00017610: 6563 7469 6f6e 616c 5f63 6861 6e67 652e  ectional_change.
+-00017620: 6170 7065 6e64 2861 6c6c 5f73 706f 7473  append(all_spots
+-00017630: 5f74 7261 636b 735b 6b5d 5b73 656c 662e  _tracks[k][self.
+-00017640: 6d6f 7469 6f6e 5f61 6e67 6c65 5f6b 6579  motion_angle_key
+-00017650: 5d29 0d0a 2020 2020 2020 2020 2020 2020  ])..            
+-00017660: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-00017670: 2020 2020 2020 2020 2020 2020 6e6f 6e5f              non_
+-00017680: 6d69 746f 7469 635f 6469 7374 616e 6365  mitotic_distance
+-00017690: 5f63 656c 6c5f 6d61 736b 2e61 7070 656e  _cell_mask.appen
+-000176a0: 6428 616c 6c5f 7370 6f74 735f 7472 6163  d(all_spots_trac
+-000176b0: 6b73 5b6b 5d5b 7365 6c66 2e64 6973 7461  ks[k][self.dista
+-000176c0: 6e63 655f 6365 6c6c 5f6d 6173 6b5f 6b65  nce_cell_mask_ke
+-000176d0: 795d 290d 0a0d 0a20 2020 2020 2020 2020  y])....         
+-000176e0: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-000176f0: 2020 2020 2020 2020 2061 6c6c 5f64 6973           all_dis
+-00017700: 705f 7a2e 6170 7065 6e64 2861 6c6c 5f73  p_z.append(all_s
+-00017710: 706f 7473 5f74 7261 636b 735b 6b5d 5b73  pots_tracks[k][s
+-00017720: 656c 662e 7a70 6f73 6964 5f6b 6579 5d29  elf.zposid_key])
+-00017730: 0d0a 2020 2020 2020 2020 2020 2020 2020  ..              
+-00017740: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-00017750: 2020 2020 616c 6c5f 6469 7370 5f79 2e61      all_disp_y.a
+-00017760: 7070 656e 6428 616c 6c5f 7370 6f74 735f  ppend(all_spots_
+-00017770: 7472 6163 6b73 5b6b 5d5b 7365 6c66 2e79  tracks[k][self.y
+-00017780: 706f 7369 645f 6b65 795d 290d 0a20 2020  posid_key])..   
+-00017790: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-000177a0: 2020 2020 2020 2020 2020 2020 2020 2061                 a
+-000177b0: 6c6c 5f64 6973 705f 782e 6170 7065 6e64  ll_disp_x.append
+-000177c0: 2861 6c6c 5f73 706f 7473 5f74 7261 636b  (all_spots_track
+-000177d0: 735b 6b5d 5b73 656c 662e 7870 6f73 6964  s[k][self.xposid
+-000177e0: 5f6b 6579 5d29 0d0a 2020 2020 2020 2020  _key])..        
+-000177f0: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-00017800: 2020 2020 2020 2020 2020 616c 6c5f 7261            all_ra
+-00017810: 6469 7573 2e61 7070 656e 6428 616c 6c5f  dius.append(all_
+-00017820: 7370 6f74 735f 7472 6163 6b73 5b6b 5d5b  spots_tracks[k][
+-00017830: 7365 6c66 2e72 6164 6975 735f 6b65 795d  self.radius_key]
+-00017840: 290d 0a20 2020 2020 2020 2020 2020 2020  )..             
+-00017850: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-00017860: 2020 2020 2061 6c6c 5f73 7065 6564 2e61       all_speed.a
+-00017870: 7070 656e 6428 616c 6c5f 7370 6f74 735f  ppend(all_spots_
+-00017880: 7472 6163 6b73 5b6b 5d5b 7365 6c66 2e73  tracks[k][self.s
+-00017890: 7065 6564 5f6b 6579 5d29 0d0a 2020 2020  peed_key])..    
+-000178a0: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-000178b0: 2020 2020 2020 2020 2020 2020 2020 616c                al
+-000178c0: 6c5f 6163 632e 6170 7065 6e64 2861 6c6c  l_acc.append(all
+-000178d0: 5f73 706f 7473 5f74 7261 636b 735b 6b5d  _spots_tracks[k]
+-000178e0: 5b73 656c 662e 6163 6365 6c65 7261 7469  [self.accelerati
+-000178f0: 6f6e 5f6b 6579 5d29 0d0a 2020 2020 2020  on_key])..      
+-00017900: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-00017910: 2020 2020 2020 2020 2020 2020 616c 6c5f              all_
+-00017920: 6469 7265 6374 696f 6e61 6c5f 6368 616e  directional_chan
+-00017930: 6765 2e61 7070 656e 6428 616c 6c5f 7370  ge.append(all_sp
+-00017940: 6f74 735f 7472 6163 6b73 5b6b 5d5b 7365  ots_tracks[k][se
+-00017950: 6c66 2e6d 6f74 696f 6e5f 616e 676c 655f  lf.motion_angle_
+-00017960: 6b65 795d 2920 2020 0d0a 2020 2020 2020  key])   ..      
+-00017970: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-00017980: 2020 2020 2020 2020 2020 2020 616c 6c5f              all_
+-00017990: 6469 7374 616e 6365 5f63 656c 6c5f 6d61  distance_cell_ma
+-000179a0: 736b 2e61 7070 656e 6428 616c 6c5f 7370  sk.append(all_sp
+-000179b0: 6f74 735f 7472 6163 6b73 5b6b 5d5b 7365  ots_tracks[k][se
+-000179c0: 6c66 2e64 6973 7461 6e63 655f 6365 6c6c  lf.distance_cell
+-000179d0: 5f6d 6173 6b5f 6b65 795d 290d 0a20 2020  _mask_key])..   
++00017600: 616c 6c5f 6163 632e 6170 7065 6e64 2861  all_acc.append(a
++00017610: 6c6c 5f73 706f 7473 5f74 7261 636b 735b  ll_spots_tracks[
++00017620: 6b5d 5b73 656c 662e 6163 6365 6c65 7261  k][self.accelera
++00017630: 7469 6f6e 5f6b 6579 5d29 0d0a 2020 2020  tion_key])..    
++00017640: 2020 2020 2020 2020 2020 2020 2020 2020                  
++00017650: 2020 2020 2020 2020 2020 2020 2020 616c                al
++00017660: 6c5f 6469 7265 6374 696f 6e61 6c5f 6368  l_directional_ch
++00017670: 616e 6765 2e61 7070 656e 6428 616c 6c5f  ange.append(all_
++00017680: 7370 6f74 735f 7472 6163 6b73 5b6b 5d5b  spots_tracks[k][
++00017690: 7365 6c66 2e6d 6f74 696f 6e5f 616e 676c  self.motion_angl
++000176a0: 655f 6b65 795d 2920 2020 0d0a 2020 2020  e_key])   ..    
++000176b0: 2020 2020 2020 2020 2020 2020 2020 2020                  
++000176c0: 2020 2020 2020 2020 2020 2020 2020 616c                al
++000176d0: 6c5f 6469 7374 616e 6365 5f63 656c 6c5f  l_distance_cell_
++000176e0: 6d61 736b 2e61 7070 656e 6428 616c 6c5f  mask.append(all_
++000176f0: 7370 6f74 735f 7472 6163 6b73 5b6b 5d5b  spots_tracks[k][
++00017700: 7365 6c66 2e64 6973 7461 6e63 655f 6365  self.distance_ce
++00017710: 6c6c 5f6d 6173 6b5f 6b65 795d 290d 0a20  ll_mask_key]).. 
++00017720: 2020 2020 2020 2020 2020 2020 2020 2020                  
++00017730: 2020 2020 2020 2020 2020 2020 2020 2020                  
++00017740: 2020 2020 2020 2020 2020 2020 200d 0a0d               ...
++00017750: 0a20 2020 2020 2020 2020 2020 2020 2020  .               
++00017760: 2020 2020 206d 6974 6f74 6963 5f64 6973       mitotic_dis
++00017770: 705f 7a20 3d20 6e70 2e61 6273 286e 702e  p_z = np.abs(np.
++00017780: 6469 6666 286d 6974 6f74 6963 5f64 6973  diff(mitotic_dis
++00017790: 705f 7a29 290d 0a20 2020 2020 2020 2020  p_z))..         
++000177a0: 2020 2020 2020 2020 2020 206d 6974 6f74             mitot
++000177b0: 6963 5f64 6973 705f 7920 3d20 6e70 2e61  ic_disp_y = np.a
++000177c0: 6273 286e 702e 6469 6666 286d 6974 6f74  bs(np.diff(mitot
++000177d0: 6963 5f64 6973 705f 7929 290d 0a20 2020  ic_disp_y))..   
++000177e0: 2020 2020 2020 2020 2020 2020 2020 2020                  
++000177f0: 206d 6974 6f74 6963 5f64 6973 705f 7820   mitotic_disp_x 
++00017800: 3d20 6e70 2e61 6273 286e 702e 6469 6666  = np.abs(np.diff
++00017810: 286d 6974 6f74 6963 5f64 6973 705f 7829  (mitotic_disp_x)
++00017820: 290d 0a0d 0a20 2020 2020 2020 2020 2020  )....           
++00017830: 2020 2020 2020 2020 206e 6f6e 5f6d 6974           non_mit
++00017840: 6f74 6963 5f64 6973 705f 7a20 3d20 6e70  otic_disp_z = np
++00017850: 2e61 6273 286e 702e 6469 6666 286e 6f6e  .abs(np.diff(non
++00017860: 5f6d 6974 6f74 6963 5f64 6973 705f 7a29  _mitotic_disp_z)
++00017870: 290d 0a20 2020 2020 2020 2020 2020 2020  )..             
++00017880: 2020 2020 2020 206e 6f6e 5f6d 6974 6f74         non_mitot
++00017890: 6963 5f64 6973 705f 7920 3d20 6e70 2e61  ic_disp_y = np.a
++000178a0: 6273 286e 702e 6469 6666 286e 6f6e 5f6d  bs(np.diff(non_m
++000178b0: 6974 6f74 6963 5f64 6973 705f 7929 290d  itotic_disp_y)).
++000178c0: 0a20 2020 2020 2020 2020 2020 2020 2020  .               
++000178d0: 2020 2020 206e 6f6e 5f6d 6974 6f74 6963       non_mitotic
++000178e0: 5f64 6973 705f 7820 3d20 6e70 2e61 6273  _disp_x = np.abs
++000178f0: 286e 702e 6469 6666 286e 6f6e 5f6d 6974  (np.diff(non_mit
++00017900: 6f74 6963 5f64 6973 705f 7829 290d 0a0d  otic_disp_x))...
++00017910: 0a20 2020 2020 2020 2020 2020 2020 2020  .               
++00017920: 2020 2020 2061 6c6c 5f64 6973 705f 7a20       all_disp_z 
++00017930: 3d20 6e70 2e61 6273 286e 702e 6469 6666  = np.abs(np.diff
++00017940: 2861 6c6c 5f64 6973 705f 7a29 290d 0a20  (all_disp_z)).. 
++00017950: 2020 2020 2020 2020 2020 2020 2020 2020                  
++00017960: 2020 2061 6c6c 5f64 6973 705f 7920 3d20     all_disp_y = 
++00017970: 6e70 2e61 6273 286e 702e 6469 6666 2861  np.abs(np.diff(a
++00017980: 6c6c 5f64 6973 705f 7929 290d 0a20 2020  ll_disp_y))..   
++00017990: 2020 2020 2020 2020 2020 2020 2020 2020                  
++000179a0: 2061 6c6c 5f64 6973 705f 7820 3d20 6e70   all_disp_x = np
++000179b0: 2e61 6273 286e 702e 6469 6666 2861 6c6c  .abs(np.diff(all
++000179c0: 5f64 6973 705f 7829 290d 0a0d 0a0d 0a20  _disp_x))...... 
++000179d0: 2020 2020 2020 2020 2020 2020 2020 2020                  
+ 000179e0: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-000179f0: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-00017a00: 2020 2020 2020 2020 2020 200d 0a0d 0a20             .... 
+-00017a10: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-00017a20: 2020 206d 6974 6f74 6963 5f64 6973 705f     mitotic_disp_
+-00017a30: 7a20 3d20 6e70 2e61 6273 286e 702e 6469  z = np.abs(np.di
+-00017a40: 6666 286d 6974 6f74 6963 5f64 6973 705f  ff(mitotic_disp_
+-00017a50: 7a29 290d 0a20 2020 2020 2020 2020 2020  z))..           
+-00017a60: 2020 2020 2020 2020 206d 6974 6f74 6963           mitotic
+-00017a70: 5f64 6973 705f 7920 3d20 6e70 2e61 6273  _disp_y = np.abs
+-00017a80: 286e 702e 6469 6666 286d 6974 6f74 6963  (np.diff(mitotic
+-00017a90: 5f64 6973 705f 7929 290d 0a20 2020 2020  _disp_y))..     
+-00017aa0: 2020 2020 2020 2020 2020 2020 2020 206d                 m
+-00017ab0: 6974 6f74 6963 5f64 6973 705f 7820 3d20  itotic_disp_x = 
+-00017ac0: 6e70 2e61 6273 286e 702e 6469 6666 286d  np.abs(np.diff(m
+-00017ad0: 6974 6f74 6963 5f64 6973 705f 7829 290d  itotic_disp_x)).
+-00017ae0: 0a0d 0a20 2020 2020 2020 2020 2020 2020  ...             
+-00017af0: 2020 2020 2020 206e 6f6e 5f6d 6974 6f74         non_mitot
+-00017b00: 6963 5f64 6973 705f 7a20 3d20 6e70 2e61  ic_disp_z = np.a
+-00017b10: 6273 286e 702e 6469 6666 286e 6f6e 5f6d  bs(np.diff(non_m
+-00017b20: 6974 6f74 6963 5f64 6973 705f 7a29 290d  itotic_disp_z)).
+-00017b30: 0a20 2020 2020 2020 2020 2020 2020 2020  .               
+-00017b40: 2020 2020 206e 6f6e 5f6d 6974 6f74 6963       non_mitotic
+-00017b50: 5f64 6973 705f 7920 3d20 6e70 2e61 6273  _disp_y = np.abs
+-00017b60: 286e 702e 6469 6666 286e 6f6e 5f6d 6974  (np.diff(non_mit
+-00017b70: 6f74 6963 5f64 6973 705f 7929 290d 0a20  otic_disp_y)).. 
+-00017b80: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-00017b90: 2020 206e 6f6e 5f6d 6974 6f74 6963 5f64     non_mitotic_d
+-00017ba0: 6973 705f 7820 3d20 6e70 2e61 6273 286e  isp_x = np.abs(n
+-00017bb0: 702e 6469 6666 286e 6f6e 5f6d 6974 6f74  p.diff(non_mitot
+-00017bc0: 6963 5f64 6973 705f 7829 290d 0a0d 0a20  ic_disp_x)).... 
+-00017bd0: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-00017be0: 2020 2061 6c6c 5f64 6973 705f 7a20 3d20     all_disp_z = 
+-00017bf0: 6e70 2e61 6273 286e 702e 6469 6666 2861  np.abs(np.diff(a
+-00017c00: 6c6c 5f64 6973 705f 7a29 290d 0a20 2020  ll_disp_z))..   
++000179f0: 2020 2020 2020 200d 0a20 2020 2020 2020         ..       
++00017a00: 2020 2020 2020 2020 2020 2020 2073 656c               sel
++00017a10: 662e 7469 6d65 2e61 7070 656e 6428 6920  f.time.append(i 
++00017a20: 2a20 7365 6c66 2e74 6361 6c69 6272 6174  * self.tcalibrat
++00017a30: 696f 6e29 0d0a 0d0a 0d0a 2020 2020 2020  ion)......      
++00017a40: 2020 2020 2020 2020 2020 2020 2020 7365                se
++00017a50: 6c66 2e6d 6974 6f74 6963 5f6d 6561 6e5f  lf.mitotic_mean_
++00017a60: 6469 7370 5f7a 2e61 7070 656e 6428 6e70  disp_z.append(np
++00017a70: 2e6d 6561 6e28 6d69 746f 7469 635f 6469  .mean(mitotic_di
++00017a80: 7370 5f7a 2929 0d0a 2020 2020 2020 2020  sp_z))..        
++00017a90: 2020 2020 2020 2020 2020 2020 7365 6c66              self
++00017aa0: 2e6d 6974 6f74 6963 5f76 6172 5f64 6973  .mitotic_var_dis
++00017ab0: 705f 7a2e 6170 7065 6e64 286e 702e 7374  p_z.append(np.st
++00017ac0: 6428 6d69 746f 7469 635f 6469 7370 5f7a  d(mitotic_disp_z
++00017ad0: 2929 0d0a 0d0a 2020 2020 2020 2020 2020  ))....          
++00017ae0: 2020 2020 2020 2020 2020 7365 6c66 2e6d            self.m
++00017af0: 6974 6f74 6963 5f6d 6561 6e5f 6469 7370  itotic_mean_disp
++00017b00: 5f79 2e61 7070 656e 6428 6e70 2e6d 6561  _y.append(np.mea
++00017b10: 6e28 6d69 746f 7469 635f 6469 7370 5f79  n(mitotic_disp_y
++00017b20: 2929 0d0a 2020 2020 2020 2020 2020 2020  ))..            
++00017b30: 2020 2020 2020 2020 7365 6c66 2e6d 6974          self.mit
++00017b40: 6f74 6963 5f76 6172 5f64 6973 705f 792e  otic_var_disp_y.
++00017b50: 6170 7065 6e64 286e 702e 7374 6428 6d69  append(np.std(mi
++00017b60: 746f 7469 635f 6469 7370 5f79 2929 0d0a  totic_disp_y))..
++00017b70: 0d0a 2020 2020 2020 2020 2020 2020 2020  ..              
++00017b80: 2020 2020 2020 7365 6c66 2e6d 6974 6f74        self.mitot
++00017b90: 6963 5f6d 6561 6e5f 6469 7370 5f78 2e61  ic_mean_disp_x.a
++00017ba0: 7070 656e 6428 6e70 2e6d 6561 6e28 6d69  ppend(np.mean(mi
++00017bb0: 746f 7469 635f 6469 7370 5f78 2929 0d0a  totic_disp_x))..
++00017bc0: 2020 2020 2020 2020 2020 2020 2020 2020                  
++00017bd0: 2020 2020 7365 6c66 2e6d 6974 6f74 6963      self.mitotic
++00017be0: 5f76 6172 5f64 6973 705f 782e 6170 7065  _var_disp_x.appe
++00017bf0: 6e64 286e 702e 7374 6428 6d69 746f 7469  nd(np.std(mitoti
++00017c00: 635f 6469 7370 5f78 2929 0d0a 0d0a 2020  c_disp_x))....  
+ 00017c10: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-00017c20: 2061 6c6c 5f64 6973 705f 7920 3d20 6e70   all_disp_y = np
+-00017c30: 2e61 6273 286e 702e 6469 6666 2861 6c6c  .abs(np.diff(all
+-00017c40: 5f64 6973 705f 7929 290d 0a20 2020 2020  _disp_y))..     
+-00017c50: 2020 2020 2020 2020 2020 2020 2020 2061                 a
+-00017c60: 6c6c 5f64 6973 705f 7820 3d20 6e70 2e61  ll_disp_x = np.a
+-00017c70: 6273 286e 702e 6469 6666 2861 6c6c 5f64  bs(np.diff(all_d
+-00017c80: 6973 705f 7829 290d 0a0d 0a0d 0a20 2020  isp_x))......   
+-00017c90: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-00017ca0: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-00017cb0: 2020 2020 200d 0a20 2020 2020 2020 2020       ..         
+-00017cc0: 2020 2020 2020 2020 2020 2073 656c 662e             self.
+-00017cd0: 7469 6d65 2e61 7070 656e 6428 6920 2a20  time.append(i * 
+-00017ce0: 7365 6c66 2e74 6361 6c69 6272 6174 696f  self.tcalibratio
+-00017cf0: 6e29 0d0a 0d0a 2020 2020 2020 2020 2020  n)....          
+-00017d00: 2020 2020 2020 2020 2020 7365 6c66 2e6d            self.m
+-00017d10: 6974 6f74 6963 5f63 6c75 7374 6572 5f63  itotic_cluster_c
+-00017d20: 6c61 7373 2e61 7070 656e 6428 6e70 2e61  lass.append(np.a
+-00017d30: 7361 7272 6179 286d 6974 6f74 6963 5f63  sarray(mitotic_c
+-00017d40: 6c75 7374 6572 5f63 6c61 7373 2c20 6474  luster_class, dt
+-00017d50: 7970 653d 6e70 2e66 6c6f 6174 3332 2929  ype=np.float32))
+-00017d60: 0d0a 2020 2020 2020 2020 2020 2020 2020  ..              
+-00017d70: 2020 2020 2020 7365 6c66 2e6e 6f6e 5f6d        self.non_m
+-00017d80: 6974 6f74 6963 5f63 6c75 7374 6572 5f63  itotic_cluster_c
+-00017d90: 6c61 7373 2e61 7070 656e 6428 6e70 2e61  lass.append(np.a
+-00017da0: 7361 7272 6179 286e 6f6e 5f6d 6974 6f74  sarray(non_mitot
+-00017db0: 6963 5f63 6c75 7374 6572 5f63 6c61 7373  ic_cluster_class
+-00017dc0: 2c20 6474 7970 653d 6e70 2e66 6c6f 6174  , dtype=np.float
+-00017dd0: 3332 2929 0d0a 2020 2020 2020 2020 2020  32))..          
+-00017de0: 2020 2020 2020 2020 2020 7365 6c66 2e61            self.a
+-00017df0: 6c6c 5f63 6c75 7374 6572 5f63 6c61 7373  ll_cluster_class
+-00017e00: 2e61 7070 656e 6428 6e70 2e61 7361 7272  .append(np.asarr
+-00017e10: 6179 2861 6c6c 5f63 6c75 7374 6572 5f63  ay(all_cluster_c
+-00017e20: 6c61 7373 2c20 6474 7970 653d 6e70 2e66  lass, dtype=np.f
+-00017e30: 6c6f 6174 3332 2929 0d0a 0d0a 2020 2020  loat32))....    
+-00017e40: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-00017e50: 7365 6c66 2e6d 6974 6f74 6963 5f6d 6561  self.mitotic_mea
+-00017e60: 6e5f 6469 7370 5f7a 2e61 7070 656e 6428  n_disp_z.append(
+-00017e70: 6e70 2e6d 6561 6e28 6d69 746f 7469 635f  np.mean(mitotic_
+-00017e80: 6469 7370 5f7a 2929 0d0a 2020 2020 2020  disp_z))..      
+-00017e90: 2020 2020 2020 2020 2020 2020 2020 7365                se
+-00017ea0: 6c66 2e6d 6974 6f74 6963 5f76 6172 5f64  lf.mitotic_var_d
+-00017eb0: 6973 705f 7a2e 6170 7065 6e64 286e 702e  isp_z.append(np.
+-00017ec0: 7374 6428 6d69 746f 7469 635f 6469 7370  std(mitotic_disp
+-00017ed0: 5f7a 2929 0d0a 0d0a 2020 2020 2020 2020  _z))....        
+-00017ee0: 2020 2020 2020 2020 2020 2020 7365 6c66              self
+-00017ef0: 2e6d 6974 6f74 6963 5f6d 6561 6e5f 6469  .mitotic_mean_di
+-00017f00: 7370 5f79 2e61 7070 656e 6428 6e70 2e6d  sp_y.append(np.m
+-00017f10: 6561 6e28 6d69 746f 7469 635f 6469 7370  ean(mitotic_disp
+-00017f20: 5f79 2929 0d0a 2020 2020 2020 2020 2020  _y))..          
+-00017f30: 2020 2020 2020 2020 2020 7365 6c66 2e6d            self.m
+-00017f40: 6974 6f74 6963 5f76 6172 5f64 6973 705f  itotic_var_disp_
+-00017f50: 792e 6170 7065 6e64 286e 702e 7374 6428  y.append(np.std(
+-00017f60: 6d69 746f 7469 635f 6469 7370 5f79 2929  mitotic_disp_y))
+-00017f70: 0d0a 0d0a 2020 2020 2020 2020 2020 2020  ....            
+-00017f80: 2020 2020 2020 2020 7365 6c66 2e6d 6974          self.mit
+-00017f90: 6f74 6963 5f6d 6561 6e5f 6469 7370 5f78  otic_mean_disp_x
+-00017fa0: 2e61 7070 656e 6428 6e70 2e6d 6561 6e28  .append(np.mean(
+-00017fb0: 6d69 746f 7469 635f 6469 7370 5f78 2929  mitotic_disp_x))
+-00017fc0: 0d0a 2020 2020 2020 2020 2020 2020 2020  ..              
+-00017fd0: 2020 2020 2020 7365 6c66 2e6d 6974 6f74        self.mitot
+-00017fe0: 6963 5f76 6172 5f64 6973 705f 782e 6170  ic_var_disp_x.ap
+-00017ff0: 7065 6e64 286e 702e 7374 6428 6d69 746f  pend(np.std(mito
+-00018000: 7469 635f 6469 7370 5f78 2929 0d0a 0d0a  tic_disp_x))....
+-00018010: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-00018020: 2020 2020 6966 206c 656e 286d 6974 6f74      if len(mitot
+-00018030: 6963 5f72 6164 6975 7329 203e 2030 3a0d  ic_radius) > 0:.
+-00018040: 0a20 2020 2020 2020 2020 2020 2020 2020  .               
+-00018050: 2020 2020 2020 2020 2073 656c 662e 6d69           self.mi
+-00018060: 746f 7469 635f 6d65 616e 5f72 6164 6975  totic_mean_radiu
+-00018070: 732e 6170 7065 6e64 286e 702e 6d65 616e  s.append(np.mean
+-00018080: 286d 6974 6f74 6963 5f72 6164 6975 7329  (mitotic_radius)
+-00018090: 290d 0a20 2020 2020 2020 2020 2020 2020  )..             
+-000180a0: 2020 2020 2020 2020 2020 2073 656c 662e             self.
+-000180b0: 6d69 746f 7469 635f 7661 725f 7261 6469  mitotic_var_radi
+-000180c0: 7573 2e61 7070 656e 6428 6e70 2e73 7464  us.append(np.std
+-000180d0: 286d 6974 6f74 6963 5f72 6164 6975 7329  (mitotic_radius)
+-000180e0: 290d 0a0d 0a20 2020 2020 2020 2020 2020  )....           
+-000180f0: 2020 2020 2020 2020 2073 656c 662e 6d69           self.mi
+-00018100: 746f 7469 635f 6d65 616e 5f73 7065 6564  totic_mean_speed
+-00018110: 2e61 7070 656e 6428 6e70 2e6d 6561 6e28  .append(np.mean(
+-00018120: 6d69 746f 7469 635f 7370 6565 6429 290d  mitotic_speed)).
+-00018130: 0a20 2020 2020 2020 2020 2020 2020 2020  .               
+-00018140: 2020 2020 2073 656c 662e 6d69 746f 7469       self.mitoti
+-00018150: 635f 7661 725f 7370 6565 642e 6170 7065  c_var_speed.appe
+-00018160: 6e64 286e 702e 7374 6428 6d69 746f 7469  nd(np.std(mitoti
+-00018170: 635f 7370 6565 6429 290d 0a0d 0a20 2020  c_speed))....   
+-00018180: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-00018190: 2073 656c 662e 6d69 746f 7469 635f 6d65   self.mitotic_me
+-000181a0: 616e 5f61 6363 2e61 7070 656e 6428 6e70  an_acc.append(np
+-000181b0: 2e6d 6561 6e28 6d69 746f 7469 635f 6163  .mean(mitotic_ac
+-000181c0: 6329 290d 0a20 2020 2020 2020 2020 2020  c))..           
+-000181d0: 2020 2020 2020 2020 2073 656c 662e 6d69           self.mi
+-000181e0: 746f 7469 635f 7661 725f 6163 632e 6170  totic_var_acc.ap
+-000181f0: 7065 6e64 286e 702e 7374 6428 6d69 746f  pend(np.std(mito
+-00018200: 7469 635f 6163 6329 290d 0a0d 0a20 2020  tic_acc))....   
+-00018210: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-00018220: 2073 656c 662e 6d69 746f 7469 635f 6d65   self.mitotic_me
+-00018230: 616e 5f64 6972 6563 7469 6f6e 616c 5f63  an_directional_c
+-00018240: 6861 6e67 652e 6170 7065 6e64 286e 702e  hange.append(np.
+-00018250: 6d65 616e 286d 6974 6f74 6963 5f64 6972  mean(mitotic_dir
+-00018260: 6563 7469 6f6e 616c 5f63 6861 6e67 6529  ectional_change)
+-00018270: 290d 0a20 2020 2020 2020 2020 2020 2020  )..             
+-00018280: 2020 2020 2020 2073 656c 662e 6d69 746f         self.mito
+-00018290: 7469 635f 7661 725f 6469 7265 6374 696f  tic_var_directio
+-000182a0: 6e61 6c5f 6368 616e 6765 2e61 7070 656e  nal_change.appen
+-000182b0: 6428 6e70 2e73 7464 286d 6974 6f74 6963  d(np.std(mitotic
+-000182c0: 5f64 6972 6563 7469 6f6e 616c 5f63 6861  _directional_cha
+-000182d0: 6e67 6529 290d 0a0d 0a20 2020 2020 2020  nge))....       
+-000182e0: 2020 2020 2020 2020 2020 2020 2073 656c               sel
+-000182f0: 662e 6d69 746f 7469 635f 6d65 616e 5f64  f.mitotic_mean_d
+-00018300: 6973 7461 6e63 655f 6365 6c6c 5f6d 6173  istance_cell_mas
+-00018310: 6b2e 6170 7065 6e64 286e 702e 6d65 616e  k.append(np.mean
+-00018320: 286d 6974 6f74 6963 5f64 6973 7461 6e63  (mitotic_distanc
+-00018330: 655f 6365 6c6c 5f6d 6173 6b29 290d 0a20  e_cell_mask)).. 
+-00018340: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-00018350: 2020 2073 656c 662e 6d69 746f 7469 635f     self.mitotic_
+-00018360: 7661 725f 6469 7374 616e 6365 5f63 656c  var_distance_cel
+-00018370: 6c5f 6d61 736b 2e61 7070 656e 6428 6e70  l_mask.append(np
+-00018380: 2e73 7464 286d 6974 6f74 6963 5f64 6973  .std(mitotic_dis
+-00018390: 7461 6e63 655f 6365 6c6c 5f6d 6173 6b29  tance_cell_mask)
+-000183a0: 290d 0a0d 0a20 2020 2020 2020 2020 2020  )....           
+-000183b0: 2020 2020 2020 2020 2073 656c 662e 6e6f           self.no
+-000183c0: 6e5f 6d69 746f 7469 635f 6d65 616e 5f64  n_mitotic_mean_d
+-000183d0: 6973 705f 7a2e 6170 7065 6e64 286e 702e  isp_z.append(np.
+-000183e0: 6d65 616e 286e 6f6e 5f6d 6974 6f74 6963  mean(non_mitotic
+-000183f0: 5f64 6973 705f 7a29 290d 0a20 2020 2020  _disp_z))..     
+-00018400: 2020 2020 2020 2020 2020 2020 2020 2073                 s
+-00018410: 656c 662e 6e6f 6e5f 6d69 746f 7469 635f  elf.non_mitotic_
+-00018420: 7661 725f 6469 7370 5f7a 2e61 7070 656e  var_disp_z.appen
+-00018430: 6428 6e70 2e73 7464 286e 6f6e 5f6d 6974  d(np.std(non_mit
+-00018440: 6f74 6963 5f64 6973 705f 7a29 290d 0a0d  otic_disp_z))...
+-00018450: 0a20 2020 2020 2020 2020 2020 2020 2020  .               
+-00018460: 2020 2020 2073 656c 662e 6e6f 6e5f 6d69       self.non_mi
+-00018470: 746f 7469 635f 6d65 616e 5f64 6973 705f  totic_mean_disp_
+-00018480: 792e 6170 7065 6e64 286e 702e 6d65 616e  y.append(np.mean
+-00018490: 286e 6f6e 5f6d 6974 6f74 6963 5f64 6973  (non_mitotic_dis
+-000184a0: 705f 7929 290d 0a20 2020 2020 2020 2020  p_y))..         
+-000184b0: 2020 2020 2020 2020 2020 2073 656c 662e             self.
+-000184c0: 6e6f 6e5f 6d69 746f 7469 635f 7661 725f  non_mitotic_var_
+-000184d0: 6469 7370 5f79 2e61 7070 656e 6428 6e70  disp_y.append(np
+-000184e0: 2e73 7464 286e 6f6e 5f6d 6974 6f74 6963  .std(non_mitotic
+-000184f0: 5f64 6973 705f 7929 290d 0a0d 0a20 2020  _disp_y))....   
+-00018500: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-00018510: 2073 656c 662e 6e6f 6e5f 6d69 746f 7469   self.non_mitoti
+-00018520: 635f 6d65 616e 5f64 6973 705f 782e 6170  c_mean_disp_x.ap
+-00018530: 7065 6e64 286e 702e 6d65 616e 286e 6f6e  pend(np.mean(non
+-00018540: 5f6d 6974 6f74 6963 5f64 6973 705f 7829  _mitotic_disp_x)
+-00018550: 290d 0a20 2020 2020 2020 2020 2020 2020  )..             
+-00018560: 2020 2020 2020 2073 656c 662e 6e6f 6e5f         self.non_
+-00018570: 6d69 746f 7469 635f 7661 725f 6469 7370  mitotic_var_disp
+-00018580: 5f78 2e61 7070 656e 6428 6e70 2e73 7464  _x.append(np.std
+-00018590: 286e 6f6e 5f6d 6974 6f74 6963 5f64 6973  (non_mitotic_dis
+-000185a0: 705f 7829 290d 0a0d 0a20 2020 2020 2020  p_x))....       
+-000185b0: 2020 2020 2020 2020 2020 2020 2069 6620               if 
+-000185c0: 6c65 6e28 6e6f 6e5f 6d69 746f 7469 635f  len(non_mitotic_
+-000185d0: 7261 6469 7573 2920 3e20 303a 0d0a 2020  radius) > 0:..  
+-000185e0: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-000185f0: 2020 2020 2020 7365 6c66 2e6e 6f6e 5f6d        self.non_m
+-00018600: 6974 6f74 6963 5f6d 6561 6e5f 7261 6469  itotic_mean_radi
+-00018610: 7573 2e61 7070 656e 6428 6e70 2e6d 6561  us.append(np.mea
+-00018620: 6e28 6e6f 6e5f 6d69 746f 7469 635f 7261  n(non_mitotic_ra
+-00018630: 6469 7573 2929 0d0a 2020 2020 2020 2020  dius))..        
+-00018640: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-00018650: 7365 6c66 2e6e 6f6e 5f6d 6974 6f74 6963  self.non_mitotic
+-00018660: 5f76 6172 5f72 6164 6975 732e 6170 7065  _var_radius.appe
+-00018670: 6e64 286e 702e 7374 6428 6e6f 6e5f 6d69  nd(np.std(non_mi
+-00018680: 746f 7469 635f 7261 6469 7573 2929 0d0a  totic_radius))..
+-00018690: 0d0a 2020 2020 2020 2020 2020 2020 2020  ..              
+-000186a0: 2020 2020 2020 7365 6c66 2e6e 6f6e 5f6d        self.non_m
+-000186b0: 6974 6f74 6963 5f6d 6561 6e5f 7370 6565  itotic_mean_spee
+-000186c0: 642e 6170 7065 6e64 286e 702e 6d65 616e  d.append(np.mean
+-000186d0: 286e 6f6e 5f6d 6974 6f74 6963 5f73 7065  (non_mitotic_spe
+-000186e0: 6564 2929 0d0a 2020 2020 2020 2020 2020  ed))..          
+-000186f0: 2020 2020 2020 2020 2020 7365 6c66 2e6e            self.n
+-00018700: 6f6e 5f6d 6974 6f74 6963 5f76 6172 5f73  on_mitotic_var_s
+-00018710: 7065 6564 2e61 7070 656e 6428 6e70 2e73  peed.append(np.s
+-00018720: 7464 286e 6f6e 5f6d 6974 6f74 6963 5f73  td(non_mitotic_s
+-00018730: 7065 6564 2929 0d0a 0d0a 2020 2020 2020  peed))....      
+-00018740: 2020 2020 2020 2020 2020 2020 2020 7365                se
+-00018750: 6c66 2e6e 6f6e 5f6d 6974 6f74 6963 5f6d  lf.non_mitotic_m
+-00018760: 6561 6e5f 6163 632e 6170 7065 6e64 286e  ean_acc.append(n
+-00018770: 702e 6d65 616e 286e 6f6e 5f6d 6974 6f74  p.mean(non_mitot
+-00018780: 6963 5f61 6363 2929 0d0a 2020 2020 2020  ic_acc))..      
+-00018790: 2020 2020 2020 2020 2020 2020 2020 7365                se
+-000187a0: 6c66 2e6e 6f6e 5f6d 6974 6f74 6963 5f76  lf.non_mitotic_v
+-000187b0: 6172 5f61 6363 2e61 7070 656e 6428 6e70  ar_acc.append(np
+-000187c0: 2e73 7464 286e 6f6e 5f6d 6974 6f74 6963  .std(non_mitotic
+-000187d0: 5f61 6363 2929 0d0a 0d0a 2020 2020 2020  _acc))....      
+-000187e0: 2020 2020 2020 2020 2020 2020 2020 7365                se
+-000187f0: 6c66 2e6e 6f6e 5f6d 6974 6f74 6963 5f6d  lf.non_mitotic_m
+-00018800: 6561 6e5f 6469 7265 6374 696f 6e61 6c5f  ean_directional_
+-00018810: 6368 616e 6765 2e61 7070 656e 6428 6e70  change.append(np
+-00018820: 2e6d 6561 6e28 6e6f 6e5f 6d69 746f 7469  .mean(non_mitoti
+-00018830: 635f 6469 7265 6374 696f 6e61 6c5f 6368  c_directional_ch
+-00018840: 616e 6765 2929 0d0a 2020 2020 2020 2020  ange))..        
+-00018850: 2020 2020 2020 2020 2020 2020 7365 6c66              self
+-00018860: 2e6e 6f6e 5f6d 6974 6f74 6963 5f76 6172  .non_mitotic_var
+-00018870: 5f64 6972 6563 7469 6f6e 616c 5f63 6861  _directional_cha
+-00018880: 6e67 652e 6170 7065 6e64 286e 702e 7374  nge.append(np.st
+-00018890: 6428 6e6f 6e5f 6d69 746f 7469 635f 6469  d(non_mitotic_di
+-000188a0: 7265 6374 696f 6e61 6c5f 6368 616e 6765  rectional_change
+-000188b0: 2929 200d 0a0d 0a20 2020 2020 2020 2020  )) ....         
+-000188c0: 2020 2020 2020 2020 2020 2073 656c 662e             self.
+-000188d0: 6e6f 6e5f 6d69 746f 7469 635f 6d65 616e  non_mitotic_mean
+-000188e0: 5f64 6973 7461 6e63 655f 6365 6c6c 5f6d  _distance_cell_m
+-000188f0: 6173 6b2e 6170 7065 6e64 286e 702e 6d65  ask.append(np.me
+-00018900: 616e 286e 6f6e 5f6d 6974 6f74 6963 5f64  an(non_mitotic_d
+-00018910: 6973 7461 6e63 655f 6365 6c6c 5f6d 6173  istance_cell_mas
+-00018920: 6b29 290d 0a20 2020 2020 2020 2020 2020  k))..           
+-00018930: 2020 2020 2020 2020 2073 656c 662e 6e6f           self.no
+-00018940: 6e5f 6d69 746f 7469 635f 7661 725f 6469  n_mitotic_var_di
+-00018950: 7374 616e 6365 5f63 656c 6c5f 6d61 736b  stance_cell_mask
+-00018960: 2e61 7070 656e 6428 6e70 2e73 7464 286e  .append(np.std(n
+-00018970: 6f6e 5f6d 6974 6f74 6963 5f64 6973 7461  on_mitotic_dista
+-00018980: 6e63 655f 6365 6c6c 5f6d 6173 6b29 290d  nce_cell_mask)).
+-00018990: 0a0d 0a0d 0a20 2020 2020 2020 2020 2020  .....           
+-000189a0: 2020 2020 2020 2020 2073 656c 662e 616c           self.al
+-000189b0: 6c5f 6d65 616e 5f64 6973 705f 7a2e 6170  l_mean_disp_z.ap
+-000189c0: 7065 6e64 286e 702e 6d65 616e 2861 6c6c  pend(np.mean(all
+-000189d0: 5f64 6973 705f 7a29 290d 0a20 2020 2020  _disp_z))..     
+-000189e0: 2020 2020 2020 2020 2020 2020 2020 2073                 s
+-000189f0: 656c 662e 616c 6c5f 7661 725f 6469 7370  elf.all_var_disp
+-00018a00: 5f7a 2e61 7070 656e 6428 6e70 2e73 7464  _z.append(np.std
+-00018a10: 2861 6c6c 5f64 6973 705f 7a29 290d 0a0d  (all_disp_z))...
+-00018a20: 0a20 2020 2020 2020 2020 2020 2020 2020  .               
+-00018a30: 2020 2020 2073 656c 662e 616c 6c5f 6d65       self.all_me
+-00018a40: 616e 5f64 6973 705f 792e 6170 7065 6e64  an_disp_y.append
+-00018a50: 286e 702e 6d65 616e 2861 6c6c 5f64 6973  (np.mean(all_dis
+-00018a60: 705f 7929 290d 0a20 2020 2020 2020 2020  p_y))..         
+-00018a70: 2020 2020 2020 2020 2020 2073 656c 662e             self.
+-00018a80: 616c 6c5f 7661 725f 6469 7370 5f79 2e61  all_var_disp_y.a
+-00018a90: 7070 656e 6428 6e70 2e73 7464 2861 6c6c  ppend(np.std(all
+-00018aa0: 5f64 6973 705f 7929 290d 0a0d 0a20 2020  _disp_y))....   
+-00018ab0: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-00018ac0: 2073 656c 662e 616c 6c5f 6d65 616e 5f64   self.all_mean_d
+-00018ad0: 6973 705f 782e 6170 7065 6e64 286e 702e  isp_x.append(np.
+-00018ae0: 6d65 616e 2861 6c6c 5f64 6973 705f 7829  mean(all_disp_x)
+-00018af0: 290d 0a20 2020 2020 2020 2020 2020 2020  )..             
+-00018b00: 2020 2020 2020 2073 656c 662e 616c 6c5f         self.all_
+-00018b10: 7661 725f 6469 7370 5f78 2e61 7070 656e  var_disp_x.appen
+-00018b20: 6428 6e70 2e73 7464 2861 6c6c 5f64 6973  d(np.std(all_dis
+-00018b30: 705f 7829 290d 0a0d 0a20 2020 2020 2020  p_x))....       
+-00018b40: 2020 2020 2020 2020 2020 2020 2069 6620               if 
+-00018b50: 6c65 6e28 616c 6c5f 7261 6469 7573 2920  len(all_radius) 
+-00018b60: 3e20 303a 0d0a 2020 2020 2020 2020 2020  > 0:..          
+-00018b70: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-00018b80: 2020 7365 6c66 2e61 6c6c 5f6d 6561 6e5f    self.all_mean_
+-00018b90: 7261 6469 7573 2e61 7070 656e 6428 6e70  radius.append(np
+-00018ba0: 2e6d 6561 6e28 616c 6c5f 7261 6469 7573  .mean(all_radius
+-00018bb0: 2929 0d0a 2020 2020 2020 2020 2020 2020  ))..            
+-00018bc0: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-00018bd0: 7365 6c66 2e61 6c6c 5f76 6172 5f72 6164  self.all_var_rad
+-00018be0: 6975 732e 6170 7065 6e64 286e 702e 7374  ius.append(np.st
+-00018bf0: 6428 616c 6c5f 7261 6469 7573 2929 0d0a  d(all_radius))..
+-00018c00: 0d0a 2020 2020 2020 2020 2020 2020 2020  ..              
+-00018c10: 2020 2020 2020 7365 6c66 2e61 6c6c 5f6d        self.all_m
+-00018c20: 6561 6e5f 7370 6565 642e 6170 7065 6e64  ean_speed.append
+-00018c30: 286e 702e 6d65 616e 2861 6c6c 5f73 7065  (np.mean(all_spe
+-00018c40: 6564 2929 0d0a 2020 2020 2020 2020 2020  ed))..          
+-00018c50: 2020 2020 2020 2020 2020 7365 6c66 2e61            self.a
+-00018c60: 6c6c 5f76 6172 5f73 7065 6564 2e61 7070  ll_var_speed.app
+-00018c70: 656e 6428 6e70 2e73 7464 2861 6c6c 5f73  end(np.std(all_s
+-00018c80: 7065 6564 2929 0d0a 0d0a 2020 2020 2020  peed))....      
+-00018c90: 2020 2020 2020 2020 2020 2020 2020 7365                se
+-00018ca0: 6c66 2e61 6c6c 5f6d 6561 6e5f 6163 632e  lf.all_mean_acc.
+-00018cb0: 6170 7065 6e64 286e 702e 6d65 616e 2861  append(np.mean(a
+-00018cc0: 6c6c 5f61 6363 2929 0d0a 2020 2020 2020  ll_acc))..      
+-00018cd0: 2020 2020 2020 2020 2020 2020 2020 7365                se
+-00018ce0: 6c66 2e61 6c6c 5f76 6172 5f61 6363 2e61  lf.all_var_acc.a
+-00018cf0: 7070 656e 6428 6e70 2e73 7464 2861 6c6c  ppend(np.std(all
+-00018d00: 5f61 6363 2929 0d0a 0d0a 0d0a 0d0a 2020  _acc))........  
+-00018d10: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-00018d20: 2020 7365 6c66 2e61 6c6c 5f6d 6561 6e5f    self.all_mean_
+-00018d30: 6469 7265 6374 696f 6e61 6c5f 6368 616e  directional_chan
+-00018d40: 6765 2e61 7070 656e 6428 6e70 2e6d 6561  ge.append(np.mea
+-00018d50: 6e28 616c 6c5f 6469 7265 6374 696f 6e61  n(all_directiona
+-00018d60: 6c5f 6368 616e 6765 2929 0d0a 2020 2020  l_change))..    
+-00018d70: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-00018d80: 7365 6c66 2e61 6c6c 5f76 6172 5f64 6972  self.all_var_dir
+-00018d90: 6563 7469 6f6e 616c 5f63 6861 6e67 652e  ectional_change.
+-00018da0: 6170 7065 6e64 286e 702e 7374 6428 616c  append(np.std(al
+-00018db0: 6c5f 6469 7265 6374 696f 6e61 6c5f 6368  l_directional_ch
+-00018dc0: 616e 6765 2929 0d0a 0d0a 2020 2020 2020  ange))....      
+-00018dd0: 2020 2020 2020 2020 2020 2020 2020 7365                se
+-00018de0: 6c66 2e61 6c6c 5f6d 6561 6e5f 6469 7374  lf.all_mean_dist
+-00018df0: 616e 6365 5f63 656c 6c5f 6d61 736b 2e61  ance_cell_mask.a
+-00018e00: 7070 656e 6428 6e70 2e6d 6561 6e28 616c  ppend(np.mean(al
+-00018e10: 6c5f 6469 7374 616e 6365 5f63 656c 6c5f  l_distance_cell_
+-00018e20: 6d61 736b 2929 0d0a 2020 2020 2020 2020  mask))..        
+-00018e30: 2020 2020 2020 2020 2020 2020 7365 6c66              self
+-00018e40: 2e61 6c6c 5f76 6172 5f64 6973 7461 6e63  .all_var_distanc
+-00018e50: 655f 6365 6c6c 5f6d 6173 6b2e 6170 7065  e_cell_mask.appe
+-00018e60: 6e64 286e 702e 7374 6428 616c 6c5f 6469  nd(np.std(all_di
+-00018e70: 7374 616e 6365 5f63 656c 6c5f 6d61 736b  stance_cell_mask
+-00018e80: 2929 0d0a 2020 2020 2020 2020 2020 2020  ))..            
+-00018e90: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-00018ea0: 0d0a 2020 2020 2020 2020 0d0a 6465 6620  ..        ..def 
+-00018eb0: 626f 756e 6461 7279 5f70 6f69 6e74 7328  boundary_points(
+-00018ec0: 6d61 736b 2c20 7863 616c 6962 7261 7469  mask, xcalibrati
+-00018ed0: 6f6e 2c20 7963 616c 6962 7261 7469 6f6e  on, ycalibration
+-00018ee0: 2c20 7a63 616c 6962 7261 7469 6f6e 293a  , zcalibration):
+-00018ef0: 0d0a 0d0a 2020 2020 6e64 696d 203d 206c  ....    ndim = l
+-00018f00: 656e 286d 6173 6b2e 7368 6170 6529 0d0a  en(mask.shape)..
+-00018f10: 2020 2020 7469 6d65 645f 6d61 736b 203d      timed_mask =
+-00018f20: 207b 7d0d 0a20 2020 206d 6173 6b20 3d20   {}..    mask = 
+-00018f30: 6d61 736b 203e 2030 0d0a 2020 2020 6d61  mask > 0..    ma
+-00018f40: 736b 203d 206d 6173 6b2e 6173 7479 7065  sk = mask.astype
+-00018f50: 2827 7569 6e74 3827 290d 0a20 2020 2023  ('uint8')..    #
+-00018f60: 2059 5820 7368 6170 6564 206f 626a 6563   YX shaped objec
+-00018f70: 740d 0a20 2020 2069 6620 6e64 696d 203d  t..    if ndim =
+-00018f80: 3d20 323a 0d0a 2020 2020 2020 2020 0d0a  = 2:..        ..
+-00018f90: 2020 2020 2020 2020 626f 756e 6461 7279          boundary
+-00018fa0: 203d 2066 696e 645f 626f 756e 6461 7269   = find_boundari
+-00018fb0: 6573 286d 6173 6b29 0d0a 2020 2020 2020  es(mask)..      
+-00018fc0: 2020 7265 6769 6f6e 6365 6e74 726f 6964    regioncentroid
+-00018fd0: 203d 2028 302c 2920 2b20 636f 6d70 7574   = (0,) + comput
+-00018fe0: 655f 6365 6e74 726f 6964 2862 6f75 6e64  e_centroid(bound
+-00018ff0: 6172 7929 200d 0a20 2020 2020 2020 2069  ary) ..        i
+-00019000: 6e64 6963 6573 203d 206e 702e 7768 6572  ndices = np.wher
+-00019010: 6528 626f 756e 6461 7279 203e 2030 290d  e(boundary > 0).
+-00019020: 0a20 2020 2020 2020 2072 6561 6c5f 696e  .        real_in
+-00019030: 6469 6365 7320 3d20 6e70 2e74 7261 6e73  dices = np.trans
+-00019040: 706f 7365 286e 702e 6173 6172 7261 7928  pose(np.asarray(
+-00019050: 696e 6469 6365 732c 2064 7479 7065 3d6e  indices, dtype=n
+-00019060: 702e 666c 6f61 7433 3229 292e 636f 7079  p.float32)).copy
+-00019070: 2829 0d0a 0d0a 2020 2020 2020 2020 666f  ()....        fo
+-00019080: 7220 6a20 696e 2072 616e 6765 2830 2c20  r j in range(0, 
+-00019090: 6c65 6e28 7265 616c 5f69 6e64 6963 6573  len(real_indices
+-000190a0: 2929 3a0d 0a0d 0a20 2020 2020 2020 2020  )):....         
+-000190b0: 2020 2072 6561 6c5f 696e 6469 6365 735b     real_indices[
+-000190c0: 6a5d 5b30 5d20 3d20 7265 616c 5f69 6e64  j][0] = real_ind
+-000190d0: 6963 6573 5b6a 5d5b 305d 202a 2079 6361  ices[j][0] * yca
+-000190e0: 6c69 6272 6174 696f 6e0d 0a20 2020 2020  libration..     
+-000190f0: 2020 2020 2020 2072 6561 6c5f 696e 6469         real_indi
+-00019100: 6365 735b 6a5d 5b31 5d20 3d20 7265 616c  ces[j][1] = real
+-00019110: 5f69 6e64 6963 6573 5b6a 5d5b 315d 202a  _indices[j][1] *
+-00019120: 2078 6361 6c69 6272 6174 696f 6e0d 0a0d   xcalibration...
+-00019130: 0a20 2020 2020 2020 2074 7265 6520 3d20  .        tree = 
+-00019140: 7370 6174 6961 6c2e 634b 4454 7265 6528  spatial.cKDTree(
+-00019150: 7265 616c 5f69 6e64 6963 6573 290d 0a20  real_indices).. 
+-00019160: 2020 2020 2020 2023 2054 6869 7320 6f62         # This ob
+-00019170: 6a65 6374 2063 6f6e 7461 696e 7320 6c69  ject contains li
+-00019180: 7374 206f 6620 616c 6c20 7468 6520 706f  st of all the po
+-00019190: 696e 7473 2066 6f72 2061 6c6c 2074 6865  ints for all the
+-000191a0: 206c 6162 656c 7320 696e 2074 6865 204d   labels in the M
+-000191b0: 6173 6b20 696d 6167 6520 7769 7468 2074  ask image with t
+-000191c0: 6865 206c 6162 656c 2069 6420 616e 6420  he label id and 
+-000191d0: 766f 6c75 6d65 206f 6620 6561 6368 206c  volume of each l
+-000191e0: 6162 656c 0d0a 2020 2020 2020 2020 7469  abel..        ti
+-000191f0: 6d65 645f 6d61 736b 5b73 7472 2830 295d  med_mask[str(0)]
+-00019200: 203d 205b 7472 6565 2c20 696e 6469 6365   = [tree, indice
+-00019210: 732c 2072 6567 696f 6e63 656e 7472 6f69  s, regioncentroi
+-00019220: 645d 0d0a 0d0a 2020 2020 2320 5459 5820  d]....    # TYX 
+-00019230: 7368 6170 6564 206f 626a 6563 740d 0a20  shaped object.. 
+-00019240: 2020 2069 6620 6e64 696d 203d 3d20 333a     if ndim == 3:
+-00019250: 0d0a 0d0a 0d0a 2020 2020 2020 2020 666f  ......        fo
+-00019260: 7220 6920 696e 2074 7164 6d28 7261 6e67  r i in tqdm(rang
+-00019270: 6528 302c 206d 6173 6b2e 7368 6170 655b  e(0, mask.shape[
+-00019280: 305d 2929 3a0d 0a20 2020 2020 2020 2020  0])):..         
+-00019290: 2020 2020 2020 200d 0a20 2020 2020 2020         ..       
+-000192a0: 2020 2020 2020 2020 2062 6f75 6e64 6172           boundar
+-000192b0: 7920 3d20 6669 6e64 5f62 6f75 6e64 6172  y = find_boundar
+-000192c0: 6965 7328 6d61 736b 5b69 2c3a 5d29 0d0a  ies(mask[i,:])..
+-000192d0: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-000192e0: 7265 6769 6f6e 6365 6e74 726f 6964 203d  regioncentroid =
+-000192f0: 2028 302c 2920 2b20 636f 6d70 7574 655f   (0,) + compute_
+-00019300: 6365 6e74 726f 6964 2862 6f75 6e64 6172  centroid(boundar
+-00019310: 7929 200d 0a20 2020 2020 2020 2020 2020  y) ..           
+-00019320: 2020 2020 2069 6e64 6963 6573 203d 206e       indices = n
+-00019330: 702e 7768 6572 6528 626f 756e 6461 7279  p.where(boundary
+-00019340: 203e 2030 290d 0a20 2020 2020 2020 2020   > 0)..         
+-00019350: 2020 2020 2020 2072 6561 6c5f 696e 6469         real_indi
+-00019360: 6365 7320 3d20 6e70 2e74 7261 6e73 706f  ces = np.transpo
+-00019370: 7365 286e 702e 6173 6172 7261 7928 696e  se(np.asarray(in
+-00019380: 6469 6365 732c 2064 7479 7065 3d6e 702e  dices, dtype=np.
+-00019390: 666c 6f61 7433 3229 292e 636f 7079 2829  float32)).copy()
+-000193a0: 0d0a 0d0a 2020 2020 2020 2020 2020 2020  ....            
+-000193b0: 2020 2020 666f 7220 6a20 696e 2072 616e      for j in ran
+-000193c0: 6765 2830 2c20 6c65 6e28 7265 616c 5f69  ge(0, len(real_i
+-000193d0: 6e64 6963 6573 2929 3a0d 0a0d 0a20 2020  ndices)):....   
++00017c20: 2020 6966 206c 656e 286d 6974 6f74 6963    if len(mitotic
++00017c30: 5f72 6164 6975 7329 203e 2030 3a0d 0a20  _radius) > 0:.. 
++00017c40: 2020 2020 2020 2020 2020 2020 2020 2020                  
++00017c50: 2020 2020 2020 2073 656c 662e 6d69 746f         self.mito
++00017c60: 7469 635f 6d65 616e 5f72 6164 6975 732e  tic_mean_radius.
++00017c70: 6170 7065 6e64 286e 702e 6d65 616e 286d  append(np.mean(m
++00017c80: 6974 6f74 6963 5f72 6164 6975 7329 290d  itotic_radius)).
++00017c90: 0a20 2020 2020 2020 2020 2020 2020 2020  .               
++00017ca0: 2020 2020 2020 2020 2073 656c 662e 6d69           self.mi
++00017cb0: 746f 7469 635f 7661 725f 7261 6469 7573  totic_var_radius
++00017cc0: 2e61 7070 656e 6428 6e70 2e73 7464 286d  .append(np.std(m
++00017cd0: 6974 6f74 6963 5f72 6164 6975 7329 290d  itotic_radius)).
++00017ce0: 0a0d 0a20 2020 2020 2020 2020 2020 2020  ...             
++00017cf0: 2020 2020 2020 2073 656c 662e 6d69 746f         self.mito
++00017d00: 7469 635f 6d65 616e 5f73 7065 6564 2e61  tic_mean_speed.a
++00017d10: 7070 656e 6428 6e70 2e6d 6561 6e28 6d69  ppend(np.mean(mi
++00017d20: 746f 7469 635f 7370 6565 6429 290d 0a20  totic_speed)).. 
++00017d30: 2020 2020 2020 2020 2020 2020 2020 2020                  
++00017d40: 2020 2073 656c 662e 6d69 746f 7469 635f     self.mitotic_
++00017d50: 7661 725f 7370 6565 642e 6170 7065 6e64  var_speed.append
++00017d60: 286e 702e 7374 6428 6d69 746f 7469 635f  (np.std(mitotic_
++00017d70: 7370 6565 6429 290d 0a0d 0a20 2020 2020  speed))....     
++00017d80: 2020 2020 2020 2020 2020 2020 2020 2073                 s
++00017d90: 656c 662e 6d69 746f 7469 635f 6d65 616e  elf.mitotic_mean
++00017da0: 5f61 6363 2e61 7070 656e 6428 6e70 2e6d  _acc.append(np.m
++00017db0: 6561 6e28 6d69 746f 7469 635f 6163 6329  ean(mitotic_acc)
++00017dc0: 290d 0a20 2020 2020 2020 2020 2020 2020  )..             
++00017dd0: 2020 2020 2020 2073 656c 662e 6d69 746f         self.mito
++00017de0: 7469 635f 7661 725f 6163 632e 6170 7065  tic_var_acc.appe
++00017df0: 6e64 286e 702e 7374 6428 6d69 746f 7469  nd(np.std(mitoti
++00017e00: 635f 6163 6329 290d 0a0d 0a20 2020 2020  c_acc))....     
++00017e10: 2020 2020 2020 2020 2020 2020 2020 2073                 s
++00017e20: 656c 662e 6d69 746f 7469 635f 6d65 616e  elf.mitotic_mean
++00017e30: 5f64 6972 6563 7469 6f6e 616c 5f63 6861  _directional_cha
++00017e40: 6e67 652e 6170 7065 6e64 286e 702e 6d65  nge.append(np.me
++00017e50: 616e 286d 6974 6f74 6963 5f64 6972 6563  an(mitotic_direc
++00017e60: 7469 6f6e 616c 5f63 6861 6e67 6529 290d  tional_change)).
++00017e70: 0a20 2020 2020 2020 2020 2020 2020 2020  .               
++00017e80: 2020 2020 2073 656c 662e 6d69 746f 7469       self.mitoti
++00017e90: 635f 7661 725f 6469 7265 6374 696f 6e61  c_var_directiona
++00017ea0: 6c5f 6368 616e 6765 2e61 7070 656e 6428  l_change.append(
++00017eb0: 6e70 2e73 7464 286d 6974 6f74 6963 5f64  np.std(mitotic_d
++00017ec0: 6972 6563 7469 6f6e 616c 5f63 6861 6e67  irectional_chang
++00017ed0: 6529 290d 0a0d 0a20 2020 2020 2020 2020  e))....         
++00017ee0: 2020 2020 2020 2020 2020 2073 656c 662e             self.
++00017ef0: 6d69 746f 7469 635f 6d65 616e 5f64 6973  mitotic_mean_dis
++00017f00: 7461 6e63 655f 6365 6c6c 5f6d 6173 6b2e  tance_cell_mask.
++00017f10: 6170 7065 6e64 286e 702e 6d65 616e 286d  append(np.mean(m
++00017f20: 6974 6f74 6963 5f64 6973 7461 6e63 655f  itotic_distance_
++00017f30: 6365 6c6c 5f6d 6173 6b29 290d 0a20 2020  cell_mask))..   
++00017f40: 2020 2020 2020 2020 2020 2020 2020 2020                  
++00017f50: 2073 656c 662e 6d69 746f 7469 635f 7661   self.mitotic_va
++00017f60: 725f 6469 7374 616e 6365 5f63 656c 6c5f  r_distance_cell_
++00017f70: 6d61 736b 2e61 7070 656e 6428 6e70 2e73  mask.append(np.s
++00017f80: 7464 286d 6974 6f74 6963 5f64 6973 7461  td(mitotic_dista
++00017f90: 6e63 655f 6365 6c6c 5f6d 6173 6b29 290d  nce_cell_mask)).
++00017fa0: 0a0d 0a20 2020 2020 2020 2020 2020 2020  ...             
++00017fb0: 2020 2020 2020 2073 656c 662e 6e6f 6e5f         self.non_
++00017fc0: 6d69 746f 7469 635f 6d65 616e 5f64 6973  mitotic_mean_dis
++00017fd0: 705f 7a2e 6170 7065 6e64 286e 702e 6d65  p_z.append(np.me
++00017fe0: 616e 286e 6f6e 5f6d 6974 6f74 6963 5f64  an(non_mitotic_d
++00017ff0: 6973 705f 7a29 290d 0a20 2020 2020 2020  isp_z))..       
++00018000: 2020 2020 2020 2020 2020 2020 2073 656c               sel
++00018010: 662e 6e6f 6e5f 6d69 746f 7469 635f 7661  f.non_mitotic_va
++00018020: 725f 6469 7370 5f7a 2e61 7070 656e 6428  r_disp_z.append(
++00018030: 6e70 2e73 7464 286e 6f6e 5f6d 6974 6f74  np.std(non_mitot
++00018040: 6963 5f64 6973 705f 7a29 290d 0a0d 0a20  ic_disp_z)).... 
++00018050: 2020 2020 2020 2020 2020 2020 2020 2020                  
++00018060: 2020 2073 656c 662e 6e6f 6e5f 6d69 746f     self.non_mito
++00018070: 7469 635f 6d65 616e 5f64 6973 705f 792e  tic_mean_disp_y.
++00018080: 6170 7065 6e64 286e 702e 6d65 616e 286e  append(np.mean(n
++00018090: 6f6e 5f6d 6974 6f74 6963 5f64 6973 705f  on_mitotic_disp_
++000180a0: 7929 290d 0a20 2020 2020 2020 2020 2020  y))..           
++000180b0: 2020 2020 2020 2020 2073 656c 662e 6e6f           self.no
++000180c0: 6e5f 6d69 746f 7469 635f 7661 725f 6469  n_mitotic_var_di
++000180d0: 7370 5f79 2e61 7070 656e 6428 6e70 2e73  sp_y.append(np.s
++000180e0: 7464 286e 6f6e 5f6d 6974 6f74 6963 5f64  td(non_mitotic_d
++000180f0: 6973 705f 7929 290d 0a0d 0a20 2020 2020  isp_y))....     
++00018100: 2020 2020 2020 2020 2020 2020 2020 2073                 s
++00018110: 656c 662e 6e6f 6e5f 6d69 746f 7469 635f  elf.non_mitotic_
++00018120: 6d65 616e 5f64 6973 705f 782e 6170 7065  mean_disp_x.appe
++00018130: 6e64 286e 702e 6d65 616e 286e 6f6e 5f6d  nd(np.mean(non_m
++00018140: 6974 6f74 6963 5f64 6973 705f 7829 290d  itotic_disp_x)).
++00018150: 0a20 2020 2020 2020 2020 2020 2020 2020  .               
++00018160: 2020 2020 2073 656c 662e 6e6f 6e5f 6d69       self.non_mi
++00018170: 746f 7469 635f 7661 725f 6469 7370 5f78  totic_var_disp_x
++00018180: 2e61 7070 656e 6428 6e70 2e73 7464 286e  .append(np.std(n
++00018190: 6f6e 5f6d 6974 6f74 6963 5f64 6973 705f  on_mitotic_disp_
++000181a0: 7829 290d 0a0d 0a20 2020 2020 2020 2020  x))....         
++000181b0: 2020 2020 2020 2020 2020 2069 6620 6c65             if le
++000181c0: 6e28 6e6f 6e5f 6d69 746f 7469 635f 7261  n(non_mitotic_ra
++000181d0: 6469 7573 2920 3e20 303a 0d0a 2020 2020  dius) > 0:..    
++000181e0: 2020 2020 2020 2020 2020 2020 2020 2020                  
++000181f0: 2020 2020 7365 6c66 2e6e 6f6e 5f6d 6974      self.non_mit
++00018200: 6f74 6963 5f6d 6561 6e5f 7261 6469 7573  otic_mean_radius
++00018210: 2e61 7070 656e 6428 6e70 2e6d 6561 6e28  .append(np.mean(
++00018220: 6e6f 6e5f 6d69 746f 7469 635f 7261 6469  non_mitotic_radi
++00018230: 7573 2929 0d0a 2020 2020 2020 2020 2020  us))..          
++00018240: 2020 2020 2020 2020 2020 2020 2020 7365                se
++00018250: 6c66 2e6e 6f6e 5f6d 6974 6f74 6963 5f76  lf.non_mitotic_v
++00018260: 6172 5f72 6164 6975 732e 6170 7065 6e64  ar_radius.append
++00018270: 286e 702e 7374 6428 6e6f 6e5f 6d69 746f  (np.std(non_mito
++00018280: 7469 635f 7261 6469 7573 2929 0d0a 0d0a  tic_radius))....
++00018290: 2020 2020 2020 2020 2020 2020 2020 2020                  
++000182a0: 2020 2020 7365 6c66 2e6e 6f6e 5f6d 6974      self.non_mit
++000182b0: 6f74 6963 5f6d 6561 6e5f 7370 6565 642e  otic_mean_speed.
++000182c0: 6170 7065 6e64 286e 702e 6d65 616e 286e  append(np.mean(n
++000182d0: 6f6e 5f6d 6974 6f74 6963 5f73 7065 6564  on_mitotic_speed
++000182e0: 2929 0d0a 2020 2020 2020 2020 2020 2020  ))..            
++000182f0: 2020 2020 2020 2020 7365 6c66 2e6e 6f6e          self.non
++00018300: 5f6d 6974 6f74 6963 5f76 6172 5f73 7065  _mitotic_var_spe
++00018310: 6564 2e61 7070 656e 6428 6e70 2e73 7464  ed.append(np.std
++00018320: 286e 6f6e 5f6d 6974 6f74 6963 5f73 7065  (non_mitotic_spe
++00018330: 6564 2929 0d0a 0d0a 2020 2020 2020 2020  ed))....        
++00018340: 2020 2020 2020 2020 2020 2020 7365 6c66              self
++00018350: 2e6e 6f6e 5f6d 6974 6f74 6963 5f6d 6561  .non_mitotic_mea
++00018360: 6e5f 6163 632e 6170 7065 6e64 286e 702e  n_acc.append(np.
++00018370: 6d65 616e 286e 6f6e 5f6d 6974 6f74 6963  mean(non_mitotic
++00018380: 5f61 6363 2929 0d0a 2020 2020 2020 2020  _acc))..        
++00018390: 2020 2020 2020 2020 2020 2020 7365 6c66              self
++000183a0: 2e6e 6f6e 5f6d 6974 6f74 6963 5f76 6172  .non_mitotic_var
++000183b0: 5f61 6363 2e61 7070 656e 6428 6e70 2e73  _acc.append(np.s
++000183c0: 7464 286e 6f6e 5f6d 6974 6f74 6963 5f61  td(non_mitotic_a
++000183d0: 6363 2929 0d0a 0d0a 2020 2020 2020 2020  cc))....        
++000183e0: 2020 2020 2020 2020 2020 2020 7365 6c66              self
++000183f0: 2e6e 6f6e 5f6d 6974 6f74 6963 5f6d 6561  .non_mitotic_mea
++00018400: 6e5f 6469 7265 6374 696f 6e61 6c5f 6368  n_directional_ch
++00018410: 616e 6765 2e61 7070 656e 6428 6e70 2e6d  ange.append(np.m
++00018420: 6561 6e28 6e6f 6e5f 6d69 746f 7469 635f  ean(non_mitotic_
++00018430: 6469 7265 6374 696f 6e61 6c5f 6368 616e  directional_chan
++00018440: 6765 2929 0d0a 2020 2020 2020 2020 2020  ge))..          
++00018450: 2020 2020 2020 2020 2020 7365 6c66 2e6e            self.n
++00018460: 6f6e 5f6d 6974 6f74 6963 5f76 6172 5f64  on_mitotic_var_d
++00018470: 6972 6563 7469 6f6e 616c 5f63 6861 6e67  irectional_chang
++00018480: 652e 6170 7065 6e64 286e 702e 7374 6428  e.append(np.std(
++00018490: 6e6f 6e5f 6d69 746f 7469 635f 6469 7265  non_mitotic_dire
++000184a0: 6374 696f 6e61 6c5f 6368 616e 6765 2929  ctional_change))
++000184b0: 200d 0a0d 0a20 2020 2020 2020 2020 2020   ....           
++000184c0: 2020 2020 2020 2020 2073 656c 662e 6e6f           self.no
++000184d0: 6e5f 6d69 746f 7469 635f 6d65 616e 5f64  n_mitotic_mean_d
++000184e0: 6973 7461 6e63 655f 6365 6c6c 5f6d 6173  istance_cell_mas
++000184f0: 6b2e 6170 7065 6e64 286e 702e 6d65 616e  k.append(np.mean
++00018500: 286e 6f6e 5f6d 6974 6f74 6963 5f64 6973  (non_mitotic_dis
++00018510: 7461 6e63 655f 6365 6c6c 5f6d 6173 6b29  tance_cell_mask)
++00018520: 290d 0a20 2020 2020 2020 2020 2020 2020  )..             
++00018530: 2020 2020 2020 2073 656c 662e 6e6f 6e5f         self.non_
++00018540: 6d69 746f 7469 635f 7661 725f 6469 7374  mitotic_var_dist
++00018550: 616e 6365 5f63 656c 6c5f 6d61 736b 2e61  ance_cell_mask.a
++00018560: 7070 656e 6428 6e70 2e73 7464 286e 6f6e  ppend(np.std(non
++00018570: 5f6d 6974 6f74 6963 5f64 6973 7461 6e63  _mitotic_distanc
++00018580: 655f 6365 6c6c 5f6d 6173 6b29 290d 0a0d  e_cell_mask))...
++00018590: 0a0d 0a20 2020 2020 2020 2020 2020 2020  ...             
++000185a0: 2020 2020 2020 2073 656c 662e 616c 6c5f         self.all_
++000185b0: 6d65 616e 5f64 6973 705f 7a2e 6170 7065  mean_disp_z.appe
++000185c0: 6e64 286e 702e 6d65 616e 2861 6c6c 5f64  nd(np.mean(all_d
++000185d0: 6973 705f 7a29 290d 0a20 2020 2020 2020  isp_z))..       
++000185e0: 2020 2020 2020 2020 2020 2020 2073 656c               sel
++000185f0: 662e 616c 6c5f 7661 725f 6469 7370 5f7a  f.all_var_disp_z
++00018600: 2e61 7070 656e 6428 6e70 2e73 7464 2861  .append(np.std(a
++00018610: 6c6c 5f64 6973 705f 7a29 290d 0a0d 0a20  ll_disp_z)).... 
++00018620: 2020 2020 2020 2020 2020 2020 2020 2020                  
++00018630: 2020 2073 656c 662e 616c 6c5f 6d65 616e     self.all_mean
++00018640: 5f64 6973 705f 792e 6170 7065 6e64 286e  _disp_y.append(n
++00018650: 702e 6d65 616e 2861 6c6c 5f64 6973 705f  p.mean(all_disp_
++00018660: 7929 290d 0a20 2020 2020 2020 2020 2020  y))..           
++00018670: 2020 2020 2020 2020 2073 656c 662e 616c           self.al
++00018680: 6c5f 7661 725f 6469 7370 5f79 2e61 7070  l_var_disp_y.app
++00018690: 656e 6428 6e70 2e73 7464 2861 6c6c 5f64  end(np.std(all_d
++000186a0: 6973 705f 7929 290d 0a0d 0a20 2020 2020  isp_y))....     
++000186b0: 2020 2020 2020 2020 2020 2020 2020 2073                 s
++000186c0: 656c 662e 616c 6c5f 6d65 616e 5f64 6973  elf.all_mean_dis
++000186d0: 705f 782e 6170 7065 6e64 286e 702e 6d65  p_x.append(np.me
++000186e0: 616e 2861 6c6c 5f64 6973 705f 7829 290d  an(all_disp_x)).
++000186f0: 0a20 2020 2020 2020 2020 2020 2020 2020  .               
++00018700: 2020 2020 2073 656c 662e 616c 6c5f 7661       self.all_va
++00018710: 725f 6469 7370 5f78 2e61 7070 656e 6428  r_disp_x.append(
++00018720: 6e70 2e73 7464 2861 6c6c 5f64 6973 705f  np.std(all_disp_
++00018730: 7829 290d 0a0d 0a20 2020 2020 2020 2020  x))....         
++00018740: 2020 2020 2020 2020 2020 2069 6620 6c65             if le
++00018750: 6e28 616c 6c5f 7261 6469 7573 2920 3e20  n(all_radius) > 
++00018760: 303a 0d0a 2020 2020 2020 2020 2020 2020  0:..            
++00018770: 2020 2020 2020 2020 2020 2020 2020 2020                  
++00018780: 7365 6c66 2e61 6c6c 5f6d 6561 6e5f 7261  self.all_mean_ra
++00018790: 6469 7573 2e61 7070 656e 6428 6e70 2e6d  dius.append(np.m
++000187a0: 6561 6e28 616c 6c5f 7261 6469 7573 2929  ean(all_radius))
++000187b0: 0d0a 2020 2020 2020 2020 2020 2020 2020  ..              
++000187c0: 2020 2020 2020 2020 2020 2020 2020 7365                se
++000187d0: 6c66 2e61 6c6c 5f76 6172 5f72 6164 6975  lf.all_var_radiu
++000187e0: 732e 6170 7065 6e64 286e 702e 7374 6428  s.append(np.std(
++000187f0: 616c 6c5f 7261 6469 7573 2929 0d0a 0d0a  all_radius))....
++00018800: 2020 2020 2020 2020 2020 2020 2020 2020                  
++00018810: 2020 2020 7365 6c66 2e61 6c6c 5f6d 6561      self.all_mea
++00018820: 6e5f 7370 6565 642e 6170 7065 6e64 286e  n_speed.append(n
++00018830: 702e 6d65 616e 2861 6c6c 5f73 7065 6564  p.mean(all_speed
++00018840: 2929 0d0a 2020 2020 2020 2020 2020 2020  ))..            
++00018850: 2020 2020 2020 2020 7365 6c66 2e61 6c6c          self.all
++00018860: 5f76 6172 5f73 7065 6564 2e61 7070 656e  _var_speed.appen
++00018870: 6428 6e70 2e73 7464 2861 6c6c 5f73 7065  d(np.std(all_spe
++00018880: 6564 2929 0d0a 0d0a 2020 2020 2020 2020  ed))....        
++00018890: 2020 2020 2020 2020 2020 2020 7365 6c66              self
++000188a0: 2e61 6c6c 5f6d 6561 6e5f 6163 632e 6170  .all_mean_acc.ap
++000188b0: 7065 6e64 286e 702e 6d65 616e 2861 6c6c  pend(np.mean(all
++000188c0: 5f61 6363 2929 0d0a 2020 2020 2020 2020  _acc))..        
++000188d0: 2020 2020 2020 2020 2020 2020 7365 6c66              self
++000188e0: 2e61 6c6c 5f76 6172 5f61 6363 2e61 7070  .all_var_acc.app
++000188f0: 656e 6428 6e70 2e73 7464 2861 6c6c 5f61  end(np.std(all_a
++00018900: 6363 2929 0d0a 0d0a 0d0a 0d0a 2020 2020  cc))........    
++00018910: 2020 2020 2020 2020 2020 2020 2020 2020                  
++00018920: 7365 6c66 2e61 6c6c 5f6d 6561 6e5f 6469  self.all_mean_di
++00018930: 7265 6374 696f 6e61 6c5f 6368 616e 6765  rectional_change
++00018940: 2e61 7070 656e 6428 6e70 2e6d 6561 6e28  .append(np.mean(
++00018950: 616c 6c5f 6469 7265 6374 696f 6e61 6c5f  all_directional_
++00018960: 6368 616e 6765 2929 0d0a 2020 2020 2020  change))..      
++00018970: 2020 2020 2020 2020 2020 2020 2020 7365                se
++00018980: 6c66 2e61 6c6c 5f76 6172 5f64 6972 6563  lf.all_var_direc
++00018990: 7469 6f6e 616c 5f63 6861 6e67 652e 6170  tional_change.ap
++000189a0: 7065 6e64 286e 702e 7374 6428 616c 6c5f  pend(np.std(all_
++000189b0: 6469 7265 6374 696f 6e61 6c5f 6368 616e  directional_chan
++000189c0: 6765 2929 0d0a 0d0a 2020 2020 2020 2020  ge))....        
++000189d0: 2020 2020 2020 2020 2020 2020 7365 6c66              self
++000189e0: 2e61 6c6c 5f6d 6561 6e5f 6469 7374 616e  .all_mean_distan
++000189f0: 6365 5f63 656c 6c5f 6d61 736b 2e61 7070  ce_cell_mask.app
++00018a00: 656e 6428 6e70 2e6d 6561 6e28 616c 6c5f  end(np.mean(all_
++00018a10: 6469 7374 616e 6365 5f63 656c 6c5f 6d61  distance_cell_ma
++00018a20: 736b 2929 0d0a 2020 2020 2020 2020 2020  sk))..          
++00018a30: 2020 2020 2020 2020 2020 7365 6c66 2e61            self.a
++00018a40: 6c6c 5f76 6172 5f64 6973 7461 6e63 655f  ll_var_distance_
++00018a50: 6365 6c6c 5f6d 6173 6b2e 6170 7065 6e64  cell_mask.append
++00018a60: 286e 702e 7374 6428 616c 6c5f 6469 7374  (np.std(all_dist
++00018a70: 616e 6365 5f63 656c 6c5f 6d61 736b 2929  ance_cell_mask))
++00018a80: 0d0a 2020 2020 2020 2020 2020 2020 2020  ..              
++00018a90: 2020 2020 2020 2020 2020 2020 2020 0d0a                ..
++00018aa0: 2020 2020 2020 2020 0d0a 6465 6620 626f          ..def bo
++00018ab0: 756e 6461 7279 5f70 6f69 6e74 7328 6d61  undary_points(ma
++00018ac0: 736b 2c20 7863 616c 6962 7261 7469 6f6e  sk, xcalibration
++00018ad0: 2c20 7963 616c 6962 7261 7469 6f6e 2c20  , ycalibration, 
++00018ae0: 7a63 616c 6962 7261 7469 6f6e 293a 0d0a  zcalibration):..
++00018af0: 0d0a 2020 2020 6e64 696d 203d 206c 656e  ..    ndim = len
++00018b00: 286d 6173 6b2e 7368 6170 6529 0d0a 2020  (mask.shape)..  
++00018b10: 2020 7469 6d65 645f 6d61 736b 203d 207b    timed_mask = {
++00018b20: 7d0d 0a20 2020 206d 6173 6b20 3d20 6d61  }..    mask = ma
++00018b30: 736b 203e 2030 0d0a 2020 2020 6d61 736b  sk > 0..    mask
++00018b40: 203d 206d 6173 6b2e 6173 7479 7065 2827   = mask.astype('
++00018b50: 7569 6e74 3827 290d 0a20 2020 2023 2059  uint8')..    # Y
++00018b60: 5820 7368 6170 6564 206f 626a 6563 740d  X shaped object.
++00018b70: 0a20 2020 2069 6620 6e64 696d 203d 3d20  .    if ndim == 
++00018b80: 323a 0d0a 2020 2020 2020 2020 0d0a 2020  2:..        ..  
++00018b90: 2020 2020 2020 626f 756e 6461 7279 203d        boundary =
++00018ba0: 2066 696e 645f 626f 756e 6461 7269 6573   find_boundaries
++00018bb0: 286d 6173 6b29 0d0a 2020 2020 2020 2020  (mask)..        
++00018bc0: 7265 6769 6f6e 6365 6e74 726f 6964 203d  regioncentroid =
++00018bd0: 2028 302c 2920 2b20 636f 6d70 7574 655f   (0,) + compute_
++00018be0: 6365 6e74 726f 6964 2862 6f75 6e64 6172  centroid(boundar
++00018bf0: 7929 200d 0a20 2020 2020 2020 2069 6e64  y) ..        ind
++00018c00: 6963 6573 203d 206e 702e 7768 6572 6528  ices = np.where(
++00018c10: 626f 756e 6461 7279 203e 2030 290d 0a20  boundary > 0).. 
++00018c20: 2020 2020 2020 2072 6561 6c5f 696e 6469         real_indi
++00018c30: 6365 7320 3d20 6e70 2e74 7261 6e73 706f  ces = np.transpo
++00018c40: 7365 286e 702e 6173 6172 7261 7928 696e  se(np.asarray(in
++00018c50: 6469 6365 732c 2064 7479 7065 3d6e 702e  dices, dtype=np.
++00018c60: 666c 6f61 7433 3229 292e 636f 7079 2829  float32)).copy()
++00018c70: 0d0a 0d0a 2020 2020 2020 2020 666f 7220  ....        for 
++00018c80: 6a20 696e 2072 616e 6765 2830 2c20 6c65  j in range(0, le
++00018c90: 6e28 7265 616c 5f69 6e64 6963 6573 2929  n(real_indices))
++00018ca0: 3a0d 0a0d 0a20 2020 2020 2020 2020 2020  :....           
++00018cb0: 2072 6561 6c5f 696e 6469 6365 735b 6a5d   real_indices[j]
++00018cc0: 5b30 5d20 3d20 7265 616c 5f69 6e64 6963  [0] = real_indic
++00018cd0: 6573 5b6a 5d5b 305d 202a 2079 6361 6c69  es[j][0] * ycali
++00018ce0: 6272 6174 696f 6e0d 0a20 2020 2020 2020  bration..       
++00018cf0: 2020 2020 2072 6561 6c5f 696e 6469 6365       real_indice
++00018d00: 735b 6a5d 5b31 5d20 3d20 7265 616c 5f69  s[j][1] = real_i
++00018d10: 6e64 6963 6573 5b6a 5d5b 315d 202a 2078  ndices[j][1] * x
++00018d20: 6361 6c69 6272 6174 696f 6e0d 0a0d 0a20  calibration.... 
++00018d30: 2020 2020 2020 2074 7265 6520 3d20 7370         tree = sp
++00018d40: 6174 6961 6c2e 634b 4454 7265 6528 7265  atial.cKDTree(re
++00018d50: 616c 5f69 6e64 6963 6573 290d 0a20 2020  al_indices)..   
++00018d60: 2020 2020 2023 2054 6869 7320 6f62 6a65       # This obje
++00018d70: 6374 2063 6f6e 7461 696e 7320 6c69 7374  ct contains list
++00018d80: 206f 6620 616c 6c20 7468 6520 706f 696e   of all the poin
++00018d90: 7473 2066 6f72 2061 6c6c 2074 6865 206c  ts for all the l
++00018da0: 6162 656c 7320 696e 2074 6865 204d 6173  abels in the Mas
++00018db0: 6b20 696d 6167 6520 7769 7468 2074 6865  k image with the
++00018dc0: 206c 6162 656c 2069 6420 616e 6420 766f   label id and vo
++00018dd0: 6c75 6d65 206f 6620 6561 6368 206c 6162  lume of each lab
++00018de0: 656c 0d0a 2020 2020 2020 2020 7469 6d65  el..        time
++00018df0: 645f 6d61 736b 5b73 7472 2830 295d 203d  d_mask[str(0)] =
++00018e00: 205b 7472 6565 2c20 696e 6469 6365 732c   [tree, indices,
++00018e10: 2072 6567 696f 6e63 656e 7472 6f69 645d   regioncentroid]
++00018e20: 0d0a 0d0a 2020 2020 2320 5459 5820 7368  ....    # TYX sh
++00018e30: 6170 6564 206f 626a 6563 740d 0a20 2020  aped object..   
++00018e40: 2069 6620 6e64 696d 203d 3d20 333a 0d0a   if ndim == 3:..
++00018e50: 0d0a 0d0a 2020 2020 2020 2020 666f 7220  ....        for 
++00018e60: 6920 696e 2074 7164 6d28 7261 6e67 6528  i in tqdm(range(
++00018e70: 302c 206d 6173 6b2e 7368 6170 655b 305d  0, mask.shape[0]
++00018e80: 2929 3a0d 0a20 2020 2020 2020 2020 2020  )):..           
++00018e90: 2020 2020 200d 0a20 2020 2020 2020 2020       ..         
++00018ea0: 2020 2020 2020 2062 6f75 6e64 6172 7920         boundary 
++00018eb0: 3d20 6669 6e64 5f62 6f75 6e64 6172 6965  = find_boundarie
++00018ec0: 7328 6d61 736b 5b69 2c3a 5d29 0d0a 2020  s(mask[i,:])..  
++00018ed0: 2020 2020 2020 2020 2020 2020 2020 7265                re
++00018ee0: 6769 6f6e 6365 6e74 726f 6964 203d 2028  gioncentroid = (
++00018ef0: 302c 2920 2b20 636f 6d70 7574 655f 6365  0,) + compute_ce
++00018f00: 6e74 726f 6964 2862 6f75 6e64 6172 7929  ntroid(boundary)
++00018f10: 200d 0a20 2020 2020 2020 2020 2020 2020   ..             
++00018f20: 2020 2069 6e64 6963 6573 203d 206e 702e     indices = np.
++00018f30: 7768 6572 6528 626f 756e 6461 7279 203e  where(boundary >
++00018f40: 2030 290d 0a20 2020 2020 2020 2020 2020   0)..           
++00018f50: 2020 2020 2072 6561 6c5f 696e 6469 6365       real_indice
++00018f60: 7320 3d20 6e70 2e74 7261 6e73 706f 7365  s = np.transpose
++00018f70: 286e 702e 6173 6172 7261 7928 696e 6469  (np.asarray(indi
++00018f80: 6365 732c 2064 7479 7065 3d6e 702e 666c  ces, dtype=np.fl
++00018f90: 6f61 7433 3229 292e 636f 7079 2829 0d0a  oat32)).copy()..
++00018fa0: 0d0a 2020 2020 2020 2020 2020 2020 2020  ..              
++00018fb0: 2020 666f 7220 6a20 696e 2072 616e 6765    for j in range
++00018fc0: 2830 2c20 6c65 6e28 7265 616c 5f69 6e64  (0, len(real_ind
++00018fd0: 6963 6573 2929 3a0d 0a0d 0a20 2020 2020  ices)):....     
++00018fe0: 2020 2020 2020 2020 2020 2020 2020 2072                 r
++00018ff0: 6561 6c5f 696e 6469 6365 735b 6a5d 5b30  eal_indices[j][0
++00019000: 5d20 3d20 7265 616c 5f69 6e64 6963 6573  ] = real_indices
++00019010: 5b6a 5d5b 305d 202a 2079 6361 6c69 6272  [j][0] * ycalibr
++00019020: 6174 696f 6e0d 0a20 2020 2020 2020 2020  ation..         
++00019030: 2020 2020 2020 2020 2020 2072 6561 6c5f             real_
++00019040: 696e 6469 6365 735b 6a5d 5b31 5d20 3d20  indices[j][1] = 
++00019050: 7265 616c 5f69 6e64 6963 6573 5b6a 5d5b  real_indices[j][
++00019060: 315d 202a 2078 6361 6c69 6272 6174 696f  1] * xcalibratio
++00019070: 6e0d 0a0d 0a20 2020 2020 2020 2020 2020  n....           
++00019080: 2020 2020 2074 7265 6520 3d20 7370 6174       tree = spat
++00019090: 6961 6c2e 634b 4454 7265 6528 7265 616c  ial.cKDTree(real
++000190a0: 5f69 6e64 6963 6573 290d 0a0d 0a20 2020  _indices)....   
++000190b0: 2020 2020 2020 2020 2020 2020 2074 696d               tim
++000190c0: 6564 5f6d 6173 6b5b 7374 7228 6929 5d20  ed_mask[str(i)] 
++000190d0: 3d20 5b74 7265 652c 2069 6e64 6963 6573  = [tree, indices
++000190e0: 2c20 7265 6769 6f6e 6365 6e74 726f 6964  , regioncentroid
++000190f0: 5d0d 0a20 2020 2020 2020 2020 2020 200d  ]..            .
++00019100: 0a20 2020 2023 2054 5a59 5820 7368 6170  .    # TZYX shap
++00019110: 6564 206f 626a 6563 740d 0a20 2020 2069  ed object..    i
++00019120: 6620 6e64 696d 203d 3d20 343a 0d0a 2020  f ndim == 4:..  
++00019130: 2020 2020 2020 7072 696e 7428 274d 6173        print('Mas
++00019140: 6b73 206d 6164 6520 696e 746f 2061 2034  ks made into a 4
++00019150: 4420 6379 6c69 6e64 6572 2c20 7570 2729  D cylinder, up')
++00019160: 0d0a 2020 2020 2020 2020 626f 756e 6461  ..        bounda
++00019170: 7279 203d 206e 702e 7a65 726f 7328 0d0a  ry = np.zeros(..
++00019180: 2020 2020 2020 2020 2020 2020 5b6d 6173              [mas
++00019190: 6b2e 7368 6170 655b 305d 2c20 6d61 736b  k.shape[0], mask
++000191a0: 2e73 6861 7065 5b31 5d2c 206d 6173 6b2e  .shape[1], mask.
++000191b0: 7368 6170 655b 325d 2c20 6d61 736b 2e73  shape[2], mask.s
++000191c0: 6861 7065 5b33 5d5d 0d0a 2020 2020 2020  hape[3]]..      
++000191d0: 2020 290d 0a20 2020 2020 2020 2066 6f72    )..        for
++000191e0: 2069 2069 6e20 7261 6e67 6528 302c 206d   i in range(0, m
++000191f0: 6173 6b2e 7368 6170 655b 305d 293a 0d0a  ask.shape[0]):..
++00019200: 2020 2020 2020 2020 2020 2020 0d0a 2020              ..  
++00019210: 2020 2020 2020 2020 2020 626f 756e 6461            bounda
++00019220: 7279 5b69 2c3a 5d20 3d20 6669 6e64 5f62  ry[i,:] = find_b
++00019230: 6f75 6e64 6172 6965 7328 6d61 736b 5b69  oundaries(mask[i
++00019240: 2c3a 5d29 0d0a 2020 2020 2020 2020 2020  ,:])..          
++00019250: 2020 7265 6769 6f6e 6365 6e74 726f 6964    regioncentroid
++00019260: 203d 2063 6f6d 7075 7465 5f63 656e 7472   = compute_centr
++00019270: 6f69 6428 626f 756e 6461 7279 5b69 2c3a  oid(boundary[i,:
++00019280: 5d29 200d 0a20 2020 2020 2020 2020 2020  ]) ..           
++00019290: 2069 6e64 6963 6573 203d 206e 702e 7768   indices = np.wh
++000192a0: 6572 6528 626f 756e 6461 7279 5b69 2c3a  ere(boundary[i,:
++000192b0: 5d20 3e20 3029 0d0a 2020 2020 2020 2020  ] > 0)..        
++000192c0: 2020 2020 7265 616c 5f69 6e64 6963 6573      real_indices
++000192d0: 203d 206e 702e 7472 616e 7370 6f73 6528   = np.transpose(
++000192e0: 6e70 2e61 7361 7272 6179 2869 6e64 6963  np.asarray(indic
++000192f0: 6573 2c20 6474 7970 653d 6e70 2e66 6c6f  es, dtype=np.flo
++00019300: 6174 3332 2929 2e63 6f70 7928 290d 0a0d  at32)).copy()...
++00019310: 0a20 2020 2020 2020 2020 2020 2066 6f72  .            for
++00019320: 206a 2069 6e20 7261 6e67 6528 302c 206c   j in range(0, l
++00019330: 656e 2872 6561 6c5f 696e 6469 6365 7329  en(real_indices)
++00019340: 293a 0d0a 0d0a 2020 2020 2020 2020 2020  ):....          
++00019350: 2020 2020 2020 2020 2020 7265 616c 5f69            real_i
++00019360: 6e64 6963 6573 5b6a 5d5b 305d 203d 2072  ndices[j][0] = r
++00019370: 6561 6c5f 696e 6469 6365 735b 6a5d 5b30  eal_indices[j][0
++00019380: 5d20 2a20 7a63 616c 6962 7261 7469 6f6e  ] * zcalibration
++00019390: 0d0a 2020 2020 2020 2020 2020 2020 2020  ..              
++000193a0: 2020 2020 2020 7265 616c 5f69 6e64 6963        real_indic
++000193b0: 6573 5b6a 5d5b 315d 203d 2072 6561 6c5f  es[j][1] = real_
++000193c0: 696e 6469 6365 735b 6a5d 5b31 5d20 2a20  indices[j][1] * 
++000193d0: 7963 616c 6962 7261 7469 6f6e 0d0a 2020  ycalibration..  
+ 000193e0: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-000193f0: 2072 6561 6c5f 696e 6469 6365 735b 6a5d   real_indices[j]
+-00019400: 5b30 5d20 3d20 7265 616c 5f69 6e64 6963  [0] = real_indic
+-00019410: 6573 5b6a 5d5b 305d 202a 2079 6361 6c69  es[j][0] * ycali
+-00019420: 6272 6174 696f 6e0d 0a20 2020 2020 2020  bration..       
+-00019430: 2020 2020 2020 2020 2020 2020 2072 6561               rea
+-00019440: 6c5f 696e 6469 6365 735b 6a5d 5b31 5d20  l_indices[j][1] 
+-00019450: 3d20 7265 616c 5f69 6e64 6963 6573 5b6a  = real_indices[j
+-00019460: 5d5b 315d 202a 2078 6361 6c69 6272 6174  ][1] * xcalibrat
+-00019470: 696f 6e0d 0a0d 0a20 2020 2020 2020 2020  ion....         
+-00019480: 2020 2020 2020 2074 7265 6520 3d20 7370         tree = sp
+-00019490: 6174 6961 6c2e 634b 4454 7265 6528 7265  atial.cKDTree(re
+-000194a0: 616c 5f69 6e64 6963 6573 290d 0a0d 0a20  al_indices).... 
+-000194b0: 2020 2020 2020 2020 2020 2020 2020 2074                 t
+-000194c0: 696d 6564 5f6d 6173 6b5b 7374 7228 6929  imed_mask[str(i)
+-000194d0: 5d20 3d20 5b74 7265 652c 2069 6e64 6963  ] = [tree, indic
+-000194e0: 6573 2c20 7265 6769 6f6e 6365 6e74 726f  es, regioncentro
+-000194f0: 6964 5d0d 0a20 2020 2020 2020 2020 2020  id]..           
+-00019500: 200d 0a20 2020 2023 2054 5a59 5820 7368   ..    # TZYX sh
+-00019510: 6170 6564 206f 626a 6563 740d 0a20 2020  aped object..   
+-00019520: 2069 6620 6e64 696d 203d 3d20 343a 0d0a   if ndim == 4:..
+-00019530: 2020 2020 2020 2020 7072 696e 7428 274d          print('M
+-00019540: 6173 6b73 206d 6164 6520 696e 746f 2061  asks made into a
+-00019550: 2034 4420 6379 6c69 6e64 6572 2c20 7570   4D cylinder, up
+-00019560: 2729 0d0a 2020 2020 2020 2020 626f 756e  ')..        boun
+-00019570: 6461 7279 203d 206e 702e 7a65 726f 7328  dary = np.zeros(
+-00019580: 0d0a 2020 2020 2020 2020 2020 2020 5b6d  ..            [m
+-00019590: 6173 6b2e 7368 6170 655b 305d 2c20 6d61  ask.shape[0], ma
+-000195a0: 736b 2e73 6861 7065 5b31 5d2c 206d 6173  sk.shape[1], mas
+-000195b0: 6b2e 7368 6170 655b 325d 2c20 6d61 736b  k.shape[2], mask
+-000195c0: 2e73 6861 7065 5b33 5d5d 0d0a 2020 2020  .shape[3]]..    
+-000195d0: 2020 2020 290d 0a20 2020 2020 2020 2066      )..        f
+-000195e0: 6f72 2069 2069 6e20 7261 6e67 6528 302c  or i in range(0,
+-000195f0: 206d 6173 6b2e 7368 6170 655b 305d 293a   mask.shape[0]):
+-00019600: 0d0a 2020 2020 2020 2020 2020 2020 0d0a  ..            ..
+-00019610: 2020 2020 2020 2020 2020 2020 626f 756e              boun
+-00019620: 6461 7279 5b69 2c3a 5d20 3d20 6669 6e64  dary[i,:] = find
+-00019630: 5f62 6f75 6e64 6172 6965 7328 6d61 736b  _boundaries(mask
+-00019640: 5b69 2c3a 5d29 0d0a 2020 2020 2020 2020  [i,:])..        
+-00019650: 2020 2020 7265 6769 6f6e 6365 6e74 726f      regioncentro
+-00019660: 6964 203d 2063 6f6d 7075 7465 5f63 656e  id = compute_cen
+-00019670: 7472 6f69 6428 626f 756e 6461 7279 5b69  troid(boundary[i
+-00019680: 2c3a 5d29 200d 0a20 2020 2020 2020 2020  ,:]) ..         
+-00019690: 2020 2069 6e64 6963 6573 203d 206e 702e     indices = np.
+-000196a0: 7768 6572 6528 626f 756e 6461 7279 5b69  where(boundary[i
+-000196b0: 2c3a 5d20 3e20 3029 0d0a 2020 2020 2020  ,:] > 0)..      
+-000196c0: 2020 2020 2020 7265 616c 5f69 6e64 6963        real_indic
+-000196d0: 6573 203d 206e 702e 7472 616e 7370 6f73  es = np.transpos
+-000196e0: 6528 6e70 2e61 7361 7272 6179 2869 6e64  e(np.asarray(ind
+-000196f0: 6963 6573 2c20 6474 7970 653d 6e70 2e66  ices, dtype=np.f
+-00019700: 6c6f 6174 3332 2929 2e63 6f70 7928 290d  loat32)).copy().
+-00019710: 0a0d 0a20 2020 2020 2020 2020 2020 2066  ...            f
+-00019720: 6f72 206a 2069 6e20 7261 6e67 6528 302c  or j in range(0,
+-00019730: 206c 656e 2872 6561 6c5f 696e 6469 6365   len(real_indice
+-00019740: 7329 293a 0d0a 0d0a 2020 2020 2020 2020  s)):....        
+-00019750: 2020 2020 2020 2020 2020 2020 7265 616c              real
+-00019760: 5f69 6e64 6963 6573 5b6a 5d5b 305d 203d  _indices[j][0] =
+-00019770: 2072 6561 6c5f 696e 6469 6365 735b 6a5d   real_indices[j]
+-00019780: 5b30 5d20 2a20 7a63 616c 6962 7261 7469  [0] * zcalibrati
+-00019790: 6f6e 0d0a 2020 2020 2020 2020 2020 2020  on..            
+-000197a0: 2020 2020 2020 2020 7265 616c 5f69 6e64          real_ind
+-000197b0: 6963 6573 5b6a 5d5b 315d 203d 2072 6561  ices[j][1] = rea
+-000197c0: 6c5f 696e 6469 6365 735b 6a5d 5b31 5d20  l_indices[j][1] 
+-000197d0: 2a20 7963 616c 6962 7261 7469 6f6e 0d0a  * ycalibration..
+-000197e0: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-000197f0: 2020 2020 7265 616c 5f69 6e64 6963 6573      real_indices
+-00019800: 5b6a 5d5b 325d 203d 2072 6561 6c5f 696e  [j][2] = real_in
+-00019810: 6469 6365 735b 6a5d 5b32 5d20 2a20 7863  dices[j][2] * xc
+-00019820: 616c 6962 7261 7469 6f6e 0d0a 0d0a 2020  alibration....  
+-00019830: 2020 2020 2020 2020 2020 7472 6565 203d            tree =
+-00019840: 2073 7061 7469 616c 2e63 4b44 5472 6565   spatial.cKDTree
+-00019850: 2872 6561 6c5f 696e 6469 6365 7329 0d0a  (real_indices)..
+-00019860: 2020 2020 2020 2020 2020 2020 7469 6d65              time
+-00019870: 645f 6d61 736b 5b73 7472 2869 295d 203d  d_mask[str(i)] =
+-00019880: 205b 7472 6565 2c20 696e 6469 6365 732c   [tree, indices,
+-00019890: 2072 6567 696f 6e63 656e 7472 6f69 645d   regioncentroid]
+-000198a0: 0d0a 2020 2020 7072 696e 7428 2743 6f6d  ..    print('Com
+-000198b0: 7075 7465 6420 7468 6520 626f 756e 6461  puted the bounda
+-000198c0: 7279 2070 6f69 6e74 7327 290d 0a0d 0a20  ry points').... 
+-000198d0: 2020 2072 6574 7572 6e20 7469 6d65 645f     return timed_
+-000198e0: 6d61 736b 2c20 626f 756e 6461 7279 2020  mask, boundary  
+-000198f0: 2020 2020 2020 0d0a 0d0a 6465 6620 636f        ....def co
+-00019900: 6d70 7574 655f 6365 6e74 726f 6964 2862  mpute_centroid(b
+-00019910: 696e 6172 795f 696d 6167 6529 3a0d 0a20  inary_image):.. 
+-00019920: 2020 2023 2045 6e73 7572 6520 6269 6e61     # Ensure bina
+-00019930: 7279 2069 6d61 6765 2069 7320 6120 4e75  ry image is a Nu
+-00019940: 6d50 7920 6172 7261 790d 0a20 2020 2062  mPy array..    b
+-00019950: 696e 6172 795f 696d 6167 6520 3d20 6e70  inary_image = np
+-00019960: 2e61 7272 6179 2862 696e 6172 795f 696d  .array(binary_im
+-00019970: 6167 6529 0d0a 0d0a 2020 2020 7768 6974  age)....    whit
+-00019980: 655f 7069 7865 6c73 203d 206e 702e 7768  e_pixels = np.wh
+-00019990: 6572 6528 6269 6e61 7279 5f69 6d61 6765  ere(binary_image
+-000199a0: 203d 3d20 3129 0d0a 2020 2020 6e75 6d5f   == 1)..    num_
+-000199b0: 7069 7865 6c73 203d 206c 656e 2877 6869  pixels = len(whi
+-000199c0: 7465 5f70 6978 656c 735b 305d 290d 0a0d  te_pixels[0])...
+-000199d0: 0a20 2020 2023 2043 6f6d 7075 7465 2074  .    # Compute t
+-000199e0: 6865 2063 656e 7472 6f69 6420 6f66 2074  he centroid of t
+-000199f0: 6865 2077 6869 7465 2070 6978 656c 7320  he white pixels 
+-00019a00: 696e 2074 6865 2062 6f75 6e64 6172 7920  in the boundary 
+-00019a10: 696d 6167 650d 0a20 2020 2063 656e 7472  image..    centr
+-00019a20: 6f69 6420 3d20 6e70 2e7a 6572 6f73 2862  oid = np.zeros(b
+-00019a30: 696e 6172 795f 696d 6167 652e 6e64 696d  inary_image.ndim
+-00019a40: 290d 0a20 2020 2066 6f72 2064 696d 2069  )..    for dim i
+-00019a50: 6e20 7261 6e67 6528 6269 6e61 7279 5f69  n range(binary_i
+-00019a60: 6d61 6765 2e6e 6469 6d29 3a0d 0a20 2020  mage.ndim):..   
+-00019a70: 2020 2020 2063 656e 7472 6f69 645b 6469       centroid[di
+-00019a80: 6d5d 203d 2077 6869 7465 5f70 6978 656c  m] = white_pixel
+-00019a90: 735b 6469 6d5d 2e73 756d 2829 202f 206e  s[dim].sum() / n
+-00019aa0: 756d 5f70 6978 656c 730d 0a0d 0a20 2020  um_pixels....   
+-00019ab0: 2072 6574 7572 6e20 6365 6e74 726f 6964   return centroid
+-00019ac0: 0d0a 0d0a 0d0a 0d0a 200d 0a0d 0a64 6566  ........ ....def
+-00019ad0: 2067 6574 5f63 7376 5f64 6174 6128 6373   get_csv_data(cs
+-00019ae0: 7629 3a0d 0a0d 0a20 2020 2020 2020 2064  v):....        d
+-00019af0: 6174 6173 6574 203d 2070 642e 7265 6164  ataset = pd.read
+-00019b00: 5f63 7376 280d 0a20 2020 2020 2020 2020  _csv(..         
+-00019b10: 2020 2063 7376 2c20 6465 6c69 6d69 7465     csv, delimite
+-00019b20: 723d 222c 222c 2065 6e63 6f64 696e 673d  r=",", encoding=
+-00019b30: 2275 6e69 636f 6465 5f65 7363 6170 6522  "unicode_escape"
+-00019b40: 2c20 6c6f 775f 6d65 6d6f 7279 3d46 616c  , low_memory=Fal
+-00019b50: 7365 0d0a 2020 2020 2020 2020 295b 333a  se..        )[3:
+-00019b60: 5d0d 0a20 2020 2020 2020 2064 6174 6173  ]..        datas
+-00019b70: 6574 5f69 6e64 6578 203d 2064 6174 6173  et_index = datas
+-00019b80: 6574 2e69 6e64 6578 0d0a 2020 2020 2020  et.index..      
+-00019b90: 2020 7265 7475 726e 2064 6174 6173 6574    return dataset
+-00019ba0: 2c20 6461 7461 7365 745f 696e 6465 780d  , dataset_index.
+-00019bb0: 0a20 2020 200d 0a64 6566 2067 6574 5f73  .    ..def get_s
+-00019bc0: 706f 745f 6461 7461 7365 7428 7370 6f74  pot_dataset(spot
+-00019bd0: 5f64 6174 6173 6574 2c20 7472 6163 6b5f  _dataset, track_
+-00019be0: 616e 616c 7973 6973 5f73 706f 745f 6b65  analysis_spot_ke
+-00019bf0: 7973 2c20 7863 616c 6962 7261 7469 6f6e  ys, xcalibration
+-00019c00: 2c20 7963 616c 6962 7261 7469 6f6e 2c20  , ycalibration, 
+-00019c10: 7a63 616c 6962 7261 7469 6f6e 2c20 4174  zcalibration, At
+-00019c20: 7472 6962 7574 6542 6f78 6e61 6d65 2c20  tributeBoxname, 
+-00019c30: 6465 7465 6374 696f 6e63 6861 6e6e 656c  detectionchannel
+-00019c40: 293a 0d0a 2020 2020 2020 2020 416c 6c56  ):..        AllV
+-00019c50: 616c 7565 7320 3d20 7b7d 0d0a 2020 2020  alues = {}..    
+-00019c60: 2020 2020 706f 7369 7820 3d20 7472 6163      posix = trac
+-00019c70: 6b5f 616e 616c 7973 6973 5f73 706f 745f  k_analysis_spot_
+-00019c80: 6b65 7973 5b22 706f 7369 7822 5d0d 0a20  keys["posix"].. 
+-00019c90: 2020 2020 2020 2070 6f73 6979 203d 2074         posiy = t
+-00019ca0: 7261 636b 5f61 6e61 6c79 7369 735f 7370  rack_analysis_sp
+-00019cb0: 6f74 5f6b 6579 735b 2270 6f73 6979 225d  ot_keys["posiy"]
+-00019cc0: 0d0a 2020 2020 2020 2020 706f 7369 7a20  ..        posiz 
+-00019cd0: 3d20 7472 6163 6b5f 616e 616c 7973 6973  = track_analysis
+-00019ce0: 5f73 706f 745f 6b65 7973 5b22 706f 7369  _spot_keys["posi
+-00019cf0: 7a22 5d0d 0a20 2020 2020 2020 2066 7261  z"]..        fra
+-00019d00: 6d65 203d 2074 7261 636b 5f61 6e61 6c79  me = track_analy
+-00019d10: 7369 735f 7370 6f74 5f6b 6579 735b 2266  sis_spot_keys["f
+-00019d20: 7261 6d65 225d 0d0a 2020 2020 2020 2020  rame"]..        
+-00019d30: 0d0a 2020 2020 2020 2020 4c6f 6361 7469  ..        Locati
+-00019d40: 6f6e 5820 3d20 280d 0a20 2020 2020 2020  onX = (..       
+-00019d50: 2020 2020 2073 706f 745f 6461 7461 7365       spot_datase
+-00019d60: 745b 706f 7369 785d 2e61 7374 7970 6528  t[posix].astype(
+-00019d70: 2266 6c6f 6174 2229 202f 2078 6361 6c69  "float") / xcali
+-00019d80: 6272 6174 696f 6e0d 0a20 2020 2020 2020  bration..       
+-00019d90: 2029 2e61 7374 7970 6528 2269 6e74 2229   ).astype("int")
+-00019da0: 0d0a 2020 2020 2020 2020 4c6f 6361 7469  ..        Locati
+-00019db0: 6f6e 5920 3d20 280d 0a20 2020 2020 2020  onY = (..       
+-00019dc0: 2020 2020 2073 706f 745f 6461 7461 7365       spot_datase
+-00019dd0: 745b 706f 7369 795d 2e61 7374 7970 6528  t[posiy].astype(
+-00019de0: 2266 6c6f 6174 2229 202f 2079 6361 6c69  "float") / ycali
+-00019df0: 6272 6174 696f 6e0d 0a20 2020 2020 2020  bration..       
+-00019e00: 2029 2e61 7374 7970 6528 2269 6e74 2229   ).astype("int")
+-00019e10: 0d0a 2020 2020 2020 2020 4c6f 6361 7469  ..        Locati
+-00019e20: 6f6e 5a20 3d20 280d 0a20 2020 2020 2020  onZ = (..       
+-00019e30: 2020 2020 2073 706f 745f 6461 7461 7365       spot_datase
+-00019e40: 745b 706f 7369 7a5d 2e61 7374 7970 6528  t[posiz].astype(
+-00019e50: 2266 6c6f 6174 2229 202f 207a 6361 6c69  "float") / zcali
+-00019e60: 6272 6174 696f 6e0d 0a20 2020 2020 2020  bration..       
+-00019e70: 2029 2e61 7374 7970 6528 2269 6e74 2229   ).astype("int")
+-00019e80: 0d0a 2020 2020 2020 2020 4c6f 6361 7469  ..        Locati
+-00019e90: 6f6e 5420 3d20 2873 706f 745f 6461 7461  onT = (spot_data
+-00019ea0: 7365 745b 6672 616d 655d 2e61 7374 7970  set[frame].astyp
+-00019eb0: 6528 2266 6c6f 6174 2229 292e 6173 7479  e("float")).asty
+-00019ec0: 7065 2822 696e 7422 290d 0a20 2020 2020  pe("int")..     
+-00019ed0: 2020 200d 0a0d 0a20 2020 2020 2020 2069     ....        i
+-00019ee0: 676e 6f72 655f 7661 6c75 6573 203d 205b  gnore_values = [
+-00019ef0: 7472 6163 6b5f 616e 616c 7973 6973 5f73  track_analysis_s
+-00019f00: 706f 745f 6b65 7973 5b22 6d65 616e 5f69  pot_keys["mean_i
+-00019f10: 6e74 656e 7369 7479 225d 2c74 7261 636b  ntensity"],track
+-00019f20: 5f61 6e61 6c79 7369 735f 7370 6f74 5f6b  _analysis_spot_k
+-00019f30: 6579 735b 2274 6f74 616c 5f69 6e74 656e  eys["total_inten
+-00019f40: 7369 7479 225d 5d0d 0a20 2020 2020 2020  sity"]]..       
+-00019f50: 2066 6f72 2028 6b2c 7629 2069 6e20 7472   for (k,v) in tr
+-00019f60: 6163 6b5f 616e 616c 7973 6973 5f73 706f  ack_analysis_spo
+-00019f70: 745f 6b65 7973 2e69 7465 6d73 2829 3a0d  t_keys.items():.
+-00019f80: 0a0d 0a20 2020 2020 2020 2020 2020 2020  ...             
+-00019f90: 2020 2069 6620 6465 7465 6374 696f 6e63     if detectionc
+-00019fa0: 6861 6e6e 656c 203d 3d20 313a 0d0a 2020  hannel == 1:..  
+-00019fb0: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-00019fc0: 2020 2069 6620 6b20 3d3d 2022 6d65 616e     if k == "mean
+-00019fd0: 5f69 6e74 656e 7369 7479 5f63 6832 223a  _intensity_ch2":
+-00019fe0: 0d0a 2020 2020 2020 2020 2020 2020 2020  ..              
+-00019ff0: 2020 2020 2020 2020 2020 2020 2076 616c               val
+-0001a000: 7565 203d 2074 7261 636b 5f61 6e61 6c79  ue = track_analy
+-0001a010: 7369 735f 7370 6f74 5f6b 6579 735b 226d  sis_spot_keys["m
+-0001a020: 6561 6e5f 696e 7465 6e73 6974 7922 5d0d  ean_intensity"].
+-0001a030: 0a20 2020 2020 2020 2020 2020 2020 2020  .               
+-0001a040: 2020 2020 2020 2020 2020 2020 416c 6c56              AllV
+-0001a050: 616c 7565 735b 7661 6c75 655d 203d 2073  alues[value] = s
+-0001a060: 706f 745f 6461 7461 7365 745b 765d 2e61  pot_dataset[v].a
+-0001a070: 7374 7970 6528 2266 6c6f 6174 2229 0d0a  stype("float")..
+-0001a080: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-0001a090: 2020 2020 2069 6620 6b20 3d3d 2022 746f       if k == "to
+-0001a0a0: 7461 6c5f 696e 7465 6e73 6974 795f 6368  tal_intensity_ch
+-0001a0b0: 3222 3a0d 0a20 2020 2020 2020 2020 2020  2":..           
+-0001a0c0: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-0001a0d0: 7661 6c75 6520 3d20 7472 6163 6b5f 616e  value = track_an
+-0001a0e0: 616c 7973 6973 5f73 706f 745f 6b65 7973  alysis_spot_keys
+-0001a0f0: 5b22 746f 7461 6c5f 696e 7465 6e73 6974  ["total_intensit
+-0001a100: 7922 5d0d 0a20 2020 2020 2020 2020 2020  y"]..           
+-0001a110: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-0001a120: 416c 6c56 616c 7565 735b 7661 6c75 655d  AllValues[value]
+-0001a130: 203d 2073 706f 745f 6461 7461 7365 745b   = spot_dataset[
+-0001a140: 765d 2e61 7374 7970 6528 2266 6c6f 6174  v].astype("float
+-0001a150: 2229 2020 2020 2020 200d 0a0d 0a20 2020  ")       ....   
+-0001a160: 2020 2020 2020 2020 2020 2020 2069 6620               if 
+-0001a170: 7620 6e6f 7420 696e 2069 676e 6f72 655f  v not in ignore_
+-0001a180: 7661 6c75 6573 3a0d 0a20 2020 2020 2020  values:..       
+-0001a190: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-0001a1a0: 0d0a 2020 2020 2020 2020 2020 2020 2020  ..              
+-0001a1b0: 2020 2020 2020 2020 2041 6c6c 5661 6c75           AllValu
+-0001a1c0: 6573 5b76 5d20 3d20 7370 6f74 5f64 6174  es[v] = spot_dat
+-0001a1d0: 6173 6574 5b76 5d2e 6173 7479 7065 2822  aset[v].astype("
+-0001a1e0: 666c 6f61 7422 290d 0a20 2020 2020 2020  float")..       
+-0001a1f0: 2020 2020 2020 2020 2020 2020 0d0a 0d0a              ....
+-0001a200: 2020 2020 2020 2020 416c 6c56 616c 7565          AllValue
+-0001a210: 735b 706f 7369 785d 203d 2072 6f75 6e64  s[posix] = round
+-0001a220: 284c 6f63 6174 696f 6e58 2c33 290d 0a20  (LocationX,3).. 
+-0001a230: 2020 2020 2020 2041 6c6c 5661 6c75 6573         AllValues
+-0001a240: 5b70 6f73 6979 5d20 3d20 726f 756e 6428  [posiy] = round(
+-0001a250: 4c6f 6361 7469 6f6e 592c 3329 0d0a 2020  LocationY,3)..  
+-0001a260: 2020 2020 2020 416c 6c56 616c 7565 735b        AllValues[
+-0001a270: 706f 7369 7a5d 203d 2072 6f75 6e64 284c  posiz] = round(L
+-0001a280: 6f63 6174 696f 6e5a 2c33 290d 0a20 2020  ocationZ,3)..   
+-0001a290: 2020 2020 2041 6c6c 5661 6c75 6573 5b66       AllValues[f
+-0001a2a0: 7261 6d65 5d20 3d20 726f 756e 6428 4c6f  rame] = round(Lo
+-0001a2b0: 6361 7469 6f6e 542c 3329 0d0a 2020 2020  cationT,3)..    
+-0001a2c0: 2020 2020 4174 7472 6962 7574 6569 6473      Attributeids
+-0001a2d0: 203d 205b 5d0d 0a20 2020 2020 2020 2041   = []..        A
+-0001a2e0: 7474 7269 6275 7465 6964 732e 6170 7065  ttributeids.appe
+-0001a2f0: 6e64 2841 7474 7269 6275 7465 426f 786e  nd(AttributeBoxn
+-0001a300: 616d 6529 0d0a 2020 2020 2020 2020 666f  ame)..        fo
+-0001a310: 7220 6174 7472 6962 7574 656e 616d 6520  r attributename 
+-0001a320: 696e 2041 6c6c 5661 6c75 6573 2e6b 6579  in AllValues.key
+-0001a330: 7328 293a 0d0a 2020 2020 2020 2020 2020  s():..          
+-0001a340: 2020 2020 4174 7472 6962 7574 6569 6473      Attributeids
+-0001a350: 2e61 7070 656e 6428 6174 7472 6962 7574  .append(attribut
+-0001a360: 656e 616d 6529 2020 2020 0d0a 2020 2020  ename)    ..    
+-0001a370: 2020 2020 2020 2020 0d0a 2020 2020 2020          ..      
+-0001a380: 2020 0d0a 2020 2020 2020 2020 7265 7475    ..        retu
+-0001a390: 726e 2041 7474 7269 6275 7465 6964 732c  rn Attributeids,
+-0001a3a0: 2041 6c6c 5661 6c75 6573 2020 2020 200d   AllValues     .
+-0001a3b0: 0a20 2020 200d 0a64 6566 2067 6574 5f74  .    ..def get_t
+-0001a3c0: 7261 636b 5f64 6174 6173 6574 2874 7261  rack_dataset(tra
+-0001a3d0: 636b 5f64 6174 6173 6574 2c20 7472 6163  ck_dataset, trac
+-0001a3e0: 6b5f 616e 616c 7973 6973 5f73 706f 745f  k_analysis_spot_
+-0001a3f0: 6b65 7973 2c20 7472 6163 6b5f 616e 616c  keys, track_anal
+-0001a400: 7973 6973 5f74 7261 636b 5f6b 6579 732c  ysis_track_keys,
+-0001a410: 2054 7261 636b 4174 7472 6962 7574 6542   TrackAttributeB
+-0001a420: 6f78 6e61 6d65 293a 0d0a 0d0a 2020 2020  oxname):....    
+-0001a430: 2020 2020 416c 6c54 7261 636b 5661 6c75      AllTrackValu
+-0001a440: 6573 203d 207b 7d0d 0a20 2020 2020 2020  es = {}..       
+-0001a450: 2074 7261 636b 5f69 6420 3d20 7472 6163   track_id = trac
+-0001a460: 6b5f 616e 616c 7973 6973 5f73 706f 745f  k_analysis_spot_
+-0001a470: 6b65 7973 5b22 7472 6163 6b5f 6964 225d  keys["track_id"]
+-0001a480: 0d0a 2020 2020 2020 2020 5469 6420 3d20  ..        Tid = 
+-0001a490: 7472 6163 6b5f 6461 7461 7365 745b 7472  track_dataset[tr
+-0001a4a0: 6163 6b5f 6964 5d2e 6173 7479 7065 2822  ack_id].astype("
+-0001a4b0: 666c 6f61 7422 290d 0a20 2020 2020 2020  float")..       
+-0001a4c0: 0d0a 2020 2020 2020 2020 416c 6c54 7261  ..        AllTra
+-0001a4d0: 636b 5661 6c75 6573 5b74 7261 636b 5f69  ckValues[track_i
+-0001a4e0: 645d 203d 2054 6964 0d0a 2020 2020 2020  d] = Tid..      
+-0001a4f0: 0d0a 2020 2020 2020 2020 666f 7220 286b  ..        for (k
+-0001a500: 2c20 7629 2069 6e20 7472 6163 6b5f 616e  , v) in track_an
+-0001a510: 616c 7973 6973 5f74 7261 636b 5f6b 6579  alysis_track_key
+-0001a520: 732e 6974 656d 7328 293a 0d0a 0d0a 2020  s.items():....  
+-0001a530: 2020 2020 2020 2020 2020 2020 2020 7820                x 
+-0001a540: 3d20 7472 6163 6b5f 6461 7461 7365 745b  = track_dataset[
+-0001a550: 765d 2e61 7374 7970 6528 2266 6c6f 6174  v].astype("float
+-0001a560: 2229 0d0a 2020 2020 2020 2020 2020 2020  ")..            
+-0001a570: 2020 2020 6d69 6e76 616c 203d 206d 696e      minval = min
+-0001a580: 2878 290d 0a20 2020 2020 2020 2020 2020  (x)..           
+-0001a590: 2020 2020 206d 6178 7661 6c20 3d20 6d61       maxval = ma
+-0001a5a0: 7828 7829 0d0a 0d0a 2020 2020 2020 2020  x(x)....        
+-0001a5b0: 2020 2020 2020 2020 6966 206d 696e 7661          if minva
+-0001a5c0: 6c20 3e20 3020 616e 6420 6d61 7876 616c  l > 0 and maxval
+-0001a5d0: 203c 3d20 313a 0d0a 0d0a 2020 2020 2020   <= 1:....      
+-0001a5e0: 2020 2020 2020 2020 2020 2020 2020 7820                x 
+-0001a5f0: 3d20 7820 2b20 310d 0a0d 0a20 2020 2020  = x + 1....     
+-0001a600: 2020 2020 2020 2020 2020 2041 6c6c 5472             AllTr
+-0001a610: 6163 6b56 616c 7565 735b 6b5d 203d 2072  ackValues[k] = r
+-0001a620: 6f75 6e64 2878 2c20 3329 0d0a 0d0a 2020  ound(x, 3)....  
+-0001a630: 2020 2020 2020 5472 6163 6b41 7474 7269        TrackAttri
+-0001a640: 6275 7465 6964 7320 3d20 5b5d 0d0a 2020  buteids = []..  
+-0001a650: 2020 2020 2020 5472 6163 6b41 7474 7269        TrackAttri
+-0001a660: 6275 7465 6964 732e 6170 7065 6e64 2854  buteids.append(T
+-0001a670: 7261 636b 4174 7472 6962 7574 6542 6f78  rackAttributeBox
+-0001a680: 6e61 6d65 290d 0a20 2020 2020 2020 2066  name)..        f
+-0001a690: 6f72 2061 7474 7269 6275 7465 6e61 6d65  or attributename
+-0001a6a0: 2069 6e20 7472 6163 6b5f 616e 616c 7973   in track_analys
+-0001a6b0: 6973 5f74 7261 636b 5f6b 6579 732e 6b65  is_track_keys.ke
+-0001a6c0: 7973 2829 3a0d 0a20 2020 2020 2020 2020  ys():..         
+-0001a6d0: 2020 2054 7261 636b 4174 7472 6962 7574     TrackAttribut
+-0001a6e0: 6569 6473 2e61 7070 656e 6428 6174 7472  eids.append(attr
+-0001a6f0: 6962 7574 656e 616d 6529 2020 2020 0d0a  ibutename)    ..
+-0001a700: 2020 2020 0d0a 2020 2020 2020 2020 7265      ..        re
+-0001a710: 7475 726e 2054 7261 636b 4174 7472 6962  turn TrackAttrib
+-0001a720: 7574 6569 6473 2c20 416c 6c54 7261 636b  uteids, AllTrack
+-0001a730: 5661 6c75 6573 0d0a 2020 2020 0d0a 6465  Values..    ..de
+-0001a740: 6620 6765 745f 6564 6765 735f 6461 7461  f get_edges_data
+-0001a750: 7365 7428 6564 6765 735f 6461 7461 7365  set(edges_datase
+-0001a760: 742c 2065 6467 6573 5f64 6174 6173 6574  t, edges_dataset
+-0001a770: 5f69 6e64 6578 2c20 7472 6163 6b5f 616e  _index, track_an
+-0001a780: 616c 7973 6973 5f73 706f 745f 6b65 7973  alysis_spot_keys
+-0001a790: 2c20 7472 6163 6b5f 616e 616c 7973 6973  , track_analysis
+-0001a7a0: 5f65 6467 6573 5f6b 6579 7329 3a0d 0a0d  _edges_keys):...
+-0001a7b0: 0a20 2020 2020 2020 2041 6c6c 4564 6765  .        AllEdge
+-0001a7c0: 7356 616c 7565 7320 3d20 7b7d 0d0a 2020  sValues = {}..  
+-0001a7d0: 2020 2020 2020 7472 6163 6b5f 6964 203d        track_id =
+-0001a7e0: 2074 7261 636b 5f61 6e61 6c79 7369 735f   track_analysis_
+-0001a7f0: 7370 6f74 5f6b 6579 735b 2274 7261 636b  spot_keys["track
+-0001a800: 5f69 6422 5d0d 0a20 2020 2020 2020 2054  _id"]..        T
+-0001a810: 6964 203d 2065 6467 6573 5f64 6174 6173  id = edges_datas
+-0001a820: 6574 5b74 7261 636b 5f69 645d 2e61 7374  et[track_id].ast
+-0001a830: 7970 6528 2266 6c6f 6174 2229 0d0a 2020  ype("float")..  
+-0001a840: 2020 2020 2020 696e 6469 6365 7320 3d20        indices = 
+-0001a850: 6e70 2e77 6865 7265 2854 6964 203d 3d20  np.where(Tid == 
+-0001a860: 3029 0d0a 2020 2020 2020 2020 6d61 7874  0)..        maxt
+-0001a870: 7261 636b 5f69 6420 3d20 6d61 7828 5469  rack_id = max(Ti
+-0001a880: 6429 0d0a 2020 2020 2020 2020 636f 6e64  d)..        cond
+-0001a890: 6974 696f 6e5f 696e 6469 6365 7320 3d20  ition_indices = 
+-0001a8a0: 6564 6765 735f 6461 7461 7365 745f 696e  edges_dataset_in
+-0001a8b0: 6465 785b 696e 6469 6365 735d 0d0a 2020  dex[indices]..  
+-0001a8c0: 2020 2020 2020 5469 645b 636f 6e64 6974        Tid[condit
+-0001a8d0: 696f 6e5f 696e 6469 6365 735d 203d 206d  ion_indices] = m
+-0001a8e0: 6178 7472 6163 6b5f 6964 202b 2031 0d0a  axtrack_id + 1..
+-0001a8f0: 2020 2020 2020 2020 416c 6c45 6467 6573          AllEdges
+-0001a900: 5661 6c75 6573 5b74 7261 636b 5f69 645d  Values[track_id]
+-0001a910: 203d 2054 6964 0d0a 0d0a 2020 2020 2020   = Tid....      
+-0001a920: 2020 666f 7220 6b20 696e 2074 7261 636b    for k in track
+-0001a930: 5f61 6e61 6c79 7369 735f 6564 6765 735f  _analysis_edges_
+-0001a940: 6b65 7973 2e76 616c 7565 7328 293a 0d0a  keys.values():..
+-0001a950: 0d0a 2020 2020 2020 2020 2020 2020 6966  ..            if
+-0001a960: 206b 2021 3d20 7472 6163 6b5f 6964 3a0d   k != track_id:.
+-0001a970: 0a20 2020 2020 2020 2020 2020 2020 2020  .               
+-0001a980: 2078 203d 2065 6467 6573 5f64 6174 6173   x = edges_datas
+-0001a990: 6574 5b6b 5d2e 6173 7479 7065 2822 666c  et[k].astype("fl
+-0001a9a0: 6f61 7422 290d 0a0d 0a20 2020 2020 2020  oat")....       
+-0001a9b0: 2020 2020 2020 2020 2041 6c6c 4564 6765           AllEdge
+-0001a9c0: 7356 616c 7565 735b 6b5d 203d 2078 2020  sValues[k] = x  
+-0001a9d0: 200d 0a20 2020 2020 2020 2020 0d0a 2020   ..         ..  
+-0001a9e0: 2020 2020 2020 7265 7475 726e 2041 6c6c        return All
+-0001a9f0: 4564 6765 7356 616c 7565 7320 2020 0d0a  EdgesValues   ..
+-0001aa00: 2020 2020 0d0a 2020 2020 2020 200d 0a20      ..       .. 
+-0001aa10: 2020 200d 0a64 6566 2073 6361 6c65 5f76     ..def scale_v
+-0001aa20: 616c 7565 2878 2c20 7363 616c 6520 3d20  alue(x, scale = 
+-0001aa30: 3235 3520 2a20 3235 3529 3a0d 0a0d 0a0d  255 * 255):.....
+-0001aa40: 0a20 2020 2020 7265 7475 726e 2078 202a  .     return x *
+-0001aa50: 2073 6361 6c65 2020 200d 0a20 2020 200d   scale   ..    .
+-0001aa60: 0a0d 0a0d 0a64 6566 2070 726f 625f 7369  .....def prob_si
+-0001aa70: 676d 6f69 6428 7829 3a0d 0a20 2020 2072  gmoid(x):..    r
+-0001aa80: 6574 7572 6e20 3120 2d20 6d61 7468 2e65  eturn 1 - math.e
+-0001aa90: 7870 282d 7829 0d0a 0d0a 0d0a 6465 6620  xp(-x)......def 
+-0001aaa0: 616e 6775 6c61 725f 6368 616e 6765 2876  angular_change(v
+-0001aab0: 6563 5f30 2c20 7665 635f 3129 3a0d 0a20  ec_0, vec_1):.. 
+-0001aac0: 2020 2020 2020 200d 0a20 2020 2020 2020         ..       
+-0001aad0: 2076 6563 5f30 203d 2076 6563 5f30 202f   vec_0 = vec_0 /
+-0001aae0: 206e 702e 6c69 6e61 6c67 2e6e 6f72 6d28   np.linalg.norm(
+-0001aaf0: 7665 635f 3029 0d0a 2020 2020 2020 2020  vec_0)..        
+-0001ab00: 7665 635f 3120 3d20 7665 635f 3120 2f20  vec_1 = vec_1 / 
+-0001ab10: 6e70 2e6c 696e 616c 672e 6e6f 726d 2876  np.linalg.norm(v
+-0001ab20: 6563 5f31 290d 0a20 2020 2020 2020 2061  ec_1)..        a
+-0001ab30: 6e67 6c65 203d 206e 702e 6172 6363 6f73  ngle = np.arccos
+-0001ab40: 286e 702e 636c 6970 286e 702e 646f 7428  (np.clip(np.dot(
+-0001ab50: 7665 635f 302c 2076 6563 5f31 292c 202d  vec_0, vec_1), -
+-0001ab60: 312e 302c 2031 2e30 2929 0d0a 2020 2020  1.0, 1.0))..    
+-0001ab70: 2020 2020 616e 676c 6520 3d20 616e 676c      angle = angl
+-0001ab80: 6520 2a20 3138 3020 2f20 6e70 2e70 690d  e * 180 / np.pi.
+-0001ab90: 0a20 2020 2020 2020 2072 6574 7572 6e20  .        return 
+-0001aba0: 616e 676c 650d 0a20 2020 2020 0d0a 0d0a  angle..     ....
+-0001abb0: 6465 6620 6576 616c 5f62 6f6f 6c28 7661  def eval_bool(va
+-0001abc0: 6c75 6529 3a0d 0a20 2020 2020 2020 2020  lue):..         
+-0001abd0: 2020 2020 2020 2020 200d 0a20 2020 2020           ..     
+-0001abe0: 2020 2069 6620 7661 6c75 6520 203d 3d20     if value  == 
+-0001abf0: 2754 7275 6527 3a20 0d0a 2020 2020 2020  'True': ..      
+-0001ac00: 2020 2020 2020 2020 2020 6469 765f 6b65            div_ke
+-0001ac10: 7920 3d20 5472 7565 0d0a 2020 2020 2020  y = True..      
+-0001ac20: 2020 656c 7365 3a0d 0a20 2020 2020 2020    else:..       
+-0001ac30: 2020 2020 2020 2020 2064 6976 5f6b 6579           div_key
+-0001ac40: 203d 2046 616c 7365 200d 0a0d 0a20 2020   = False ....   
+-0001ac50: 2020 2020 2072 6574 7572 6e20 6469 765f       return div_
+-0001ac60: 6b65 7920 2020 2020 2020 2020 2020 2020  key             
+-0001ac70: 2020 200d 0a0d 0a64 6566 2063 6865 636b     ....def check
+-0001ac80: 5f61 6e64 5f75 7064 6174 655f 6d61 736b  _and_update_mask
+-0001ac90: 286d 6173 6b2c 696d 6167 6529 3a0d 0a20  (mask,image):.. 
+-0001aca0: 2020 2020 2020 0d0a 2020 2020 2020 2020        ..        
+-0001acb0: 6966 206c 656e 286d 6173 6b2e 7368 6170  if len(mask.shap
+-0001acc0: 6529 203c 206c 656e 2869 6d61 6765 2e73  e) < len(image.s
+-0001acd0: 6861 7065 293a 0d0a 2020 2020 2020 2020  hape):..        
+-0001ace0: 2020 2020 7570 6461 7465 5f6d 6173 6b20      update_mask 
+-0001acf0: 3d20 6e70 2e7a 6572 6f73 280d 0a20 2020  = np.zeros(..   
+-0001ad00: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-0001ad10: 2020 2020 2020 2020 205b 0d0a 2020 2020           [..    
+-0001ad20: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-0001ad30: 2020 2020 2020 2020 2020 2020 696d 6167              imag
+-0001ad40: 652e 7368 6170 655b 305d 2c0d 0a20 2020  e.shape[0],..   
+-0001ad50: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-0001ad60: 2020 2020 2020 2020 2020 2020 2069 6d61               ima
+-0001ad70: 6765 2e73 6861 7065 5b31 5d2c 0d0a 2020  ge.shape[1],..  
+-0001ad80: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-0001ad90: 2020 2020 2020 2020 2020 2020 2020 696d                im
+-0001ada0: 6167 652e 7368 6170 655b 325d 2c0d 0a20  age.shape[2],.. 
+-0001adb0: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-0001adc0: 2020 2020 2020 2020 2020 2020 2020 2069                 i
+-0001add0: 6d61 6765 2e73 6861 7065 5b33 5d2c 0d0a  mage.shape[3],..
+-0001ade0: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-0001adf0: 2020 2020 2020 2020 2020 2020 5d2c 2064              ], d
+-0001ae00: 7479 7065 3d22 7569 6e74 3822 0d0a 2020  type="uint8"..  
+-0001ae10: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-0001ae20: 2020 2020 2020 290d 0a20 2020 2020 2020        )..       
+-0001ae30: 2020 2020 2066 6f72 2069 2069 6e20 7261       for i in ra
+-0001ae40: 6e67 6528 302c 2075 7064 6174 655f 6d61  nge(0, update_ma
+-0001ae50: 736b 2e73 6861 7065 5b30 5d29 3a0d 0a20  sk.shape[0]):.. 
+-0001ae60: 2020 2020 2020 2020 2020 2020 2020 2066                 f
+-0001ae70: 6f72 206a 2069 6e20 7261 6e67 6528 302c  or j in range(0,
+-0001ae80: 2075 7064 6174 655f 6d61 736b 2e73 6861   update_mask.sha
+-0001ae90: 7065 5b31 5d29 3a0d 0a0d 0a20 2020 2020  pe[1]):....     
+-0001aea0: 2020 2020 2020 2020 2020 2020 2020 2075                 u
+-0001aeb0: 7064 6174 655f 6d61 736b 5b69 2c20 6a2c  pdate_mask[i, j,
+-0001aec0: 203a 2c20 3a5d 203d 206d 6173 6b5b 692c   :, :] = mask[i,
+-0001aed0: 203a 2c20 3a5d 0d0a 2020 2020 2020 2020   :, :]..        
+-0001aee0: 656c 7365 3a0d 0a20 2020 2020 2020 2020  else:..         
+-0001aef0: 2020 2020 2020 2075 7064 6174 655f 6d61         update_ma
+-0001af00: 736b 203d 206d 6173 6b0d 0a0d 0a20 2020  sk = mask....   
+-0001af10: 2020 2020 2072 6574 7572 6e20 7570 6461       return upda
+-0001af20: 7465 5f6d 6173 6b20 2020 2020 2020 200d  te_mask        .
+-0001af30: 0a20 2020 2020 2020 0d0a                 .       ..
++000193f0: 2020 7265 616c 5f69 6e64 6963 6573 5b6a    real_indices[j
++00019400: 5d5b 325d 203d 2072 6561 6c5f 696e 6469  ][2] = real_indi
++00019410: 6365 735b 6a5d 5b32 5d20 2a20 7863 616c  ces[j][2] * xcal
++00019420: 6962 7261 7469 6f6e 0d0a 0d0a 2020 2020  ibration....    
++00019430: 2020 2020 2020 2020 7472 6565 203d 2073          tree = s
++00019440: 7061 7469 616c 2e63 4b44 5472 6565 2872  patial.cKDTree(r
++00019450: 6561 6c5f 696e 6469 6365 7329 0d0a 2020  eal_indices)..  
++00019460: 2020 2020 2020 2020 2020 7469 6d65 645f            timed_
++00019470: 6d61 736b 5b73 7472 2869 295d 203d 205b  mask[str(i)] = [
++00019480: 7472 6565 2c20 696e 6469 6365 732c 2072  tree, indices, r
++00019490: 6567 696f 6e63 656e 7472 6f69 645d 0d0a  egioncentroid]..
++000194a0: 2020 2020 7072 696e 7428 2743 6f6d 7075      print('Compu
++000194b0: 7465 6420 7468 6520 626f 756e 6461 7279  ted the boundary
++000194c0: 2070 6f69 6e74 7327 290d 0a0d 0a20 2020   points')....   
++000194d0: 2072 6574 7572 6e20 7469 6d65 645f 6d61   return timed_ma
++000194e0: 736b 2c20 626f 756e 6461 7279 2020 2020  sk, boundary    
++000194f0: 2020 2020 0d0a 0d0a 6465 6620 636f 6d70      ....def comp
++00019500: 7574 655f 6365 6e74 726f 6964 2862 696e  ute_centroid(bin
++00019510: 6172 795f 696d 6167 6529 3a0d 0a20 2020  ary_image):..   
++00019520: 2023 2045 6e73 7572 6520 6269 6e61 7279   # Ensure binary
++00019530: 2069 6d61 6765 2069 7320 6120 4e75 6d50   image is a NumP
++00019540: 7920 6172 7261 790d 0a20 2020 2062 696e  y array..    bin
++00019550: 6172 795f 696d 6167 6520 3d20 6e70 2e61  ary_image = np.a
++00019560: 7272 6179 2862 696e 6172 795f 696d 6167  rray(binary_imag
++00019570: 6529 0d0a 0d0a 2020 2020 7768 6974 655f  e)....    white_
++00019580: 7069 7865 6c73 203d 206e 702e 7768 6572  pixels = np.wher
++00019590: 6528 6269 6e61 7279 5f69 6d61 6765 203d  e(binary_image =
++000195a0: 3d20 3129 0d0a 2020 2020 6e75 6d5f 7069  = 1)..    num_pi
++000195b0: 7865 6c73 203d 206c 656e 2877 6869 7465  xels = len(white
++000195c0: 5f70 6978 656c 735b 305d 290d 0a0d 0a20  _pixels[0]).... 
++000195d0: 2020 2023 2043 6f6d 7075 7465 2074 6865     # Compute the
++000195e0: 2063 656e 7472 6f69 6420 6f66 2074 6865   centroid of the
++000195f0: 2077 6869 7465 2070 6978 656c 7320 696e   white pixels in
++00019600: 2074 6865 2062 6f75 6e64 6172 7920 696d   the boundary im
++00019610: 6167 650d 0a20 2020 2063 656e 7472 6f69  age..    centroi
++00019620: 6420 3d20 6e70 2e7a 6572 6f73 2862 696e  d = np.zeros(bin
++00019630: 6172 795f 696d 6167 652e 6e64 696d 290d  ary_image.ndim).
++00019640: 0a20 2020 2066 6f72 2064 696d 2069 6e20  .    for dim in 
++00019650: 7261 6e67 6528 6269 6e61 7279 5f69 6d61  range(binary_ima
++00019660: 6765 2e6e 6469 6d29 3a0d 0a20 2020 2020  ge.ndim):..     
++00019670: 2020 2063 656e 7472 6f69 645b 6469 6d5d     centroid[dim]
++00019680: 203d 2077 6869 7465 5f70 6978 656c 735b   = white_pixels[
++00019690: 6469 6d5d 2e73 756d 2829 202f 206e 756d  dim].sum() / num
++000196a0: 5f70 6978 656c 730d 0a0d 0a20 2020 2072  _pixels....    r
++000196b0: 6574 7572 6e20 6365 6e74 726f 6964 0d0a  eturn centroid..
++000196c0: 0d0a 0d0a 0d0a 200d 0a0d 0a64 6566 2067  ...... ....def g
++000196d0: 6574 5f63 7376 5f64 6174 6128 6373 7629  et_csv_data(csv)
++000196e0: 3a0d 0a0d 0a20 2020 2020 2020 2064 6174  :....        dat
++000196f0: 6173 6574 203d 2070 642e 7265 6164 5f63  aset = pd.read_c
++00019700: 7376 280d 0a20 2020 2020 2020 2020 2020  sv(..           
++00019710: 2063 7376 2c20 6465 6c69 6d69 7465 723d   csv, delimiter=
++00019720: 222c 222c 2065 6e63 6f64 696e 673d 2275  ",", encoding="u
++00019730: 6e69 636f 6465 5f65 7363 6170 6522 2c20  nicode_escape", 
++00019740: 6c6f 775f 6d65 6d6f 7279 3d46 616c 7365  low_memory=False
++00019750: 0d0a 2020 2020 2020 2020 295b 333a 5d0d  ..        )[3:].
++00019760: 0a20 2020 2020 2020 2064 6174 6173 6574  .        dataset
++00019770: 5f69 6e64 6578 203d 2064 6174 6173 6574  _index = dataset
++00019780: 2e69 6e64 6578 0d0a 2020 2020 2020 2020  .index..        
++00019790: 7265 7475 726e 2064 6174 6173 6574 2c20  return dataset, 
++000197a0: 6461 7461 7365 745f 696e 6465 780d 0a20  dataset_index.. 
++000197b0: 2020 200d 0a64 6566 2067 6574 5f73 706f     ..def get_spo
++000197c0: 745f 6461 7461 7365 7428 7370 6f74 5f64  t_dataset(spot_d
++000197d0: 6174 6173 6574 2c20 7472 6163 6b5f 616e  ataset, track_an
++000197e0: 616c 7973 6973 5f73 706f 745f 6b65 7973  alysis_spot_keys
++000197f0: 2c20 7863 616c 6962 7261 7469 6f6e 2c20  , xcalibration, 
++00019800: 7963 616c 6962 7261 7469 6f6e 2c20 7a63  ycalibration, zc
++00019810: 616c 6962 7261 7469 6f6e 2c20 4174 7472  alibration, Attr
++00019820: 6962 7574 6542 6f78 6e61 6d65 2c20 6465  ibuteBoxname, de
++00019830: 7465 6374 696f 6e63 6861 6e6e 656c 293a  tectionchannel):
++00019840: 0d0a 2020 2020 2020 2020 416c 6c56 616c  ..        AllVal
++00019850: 7565 7320 3d20 7b7d 0d0a 2020 2020 2020  ues = {}..      
++00019860: 2020 706f 7369 7820 3d20 7472 6163 6b5f    posix = track_
++00019870: 616e 616c 7973 6973 5f73 706f 745f 6b65  analysis_spot_ke
++00019880: 7973 5b22 706f 7369 7822 5d0d 0a20 2020  ys["posix"]..   
++00019890: 2020 2020 2070 6f73 6979 203d 2074 7261       posiy = tra
++000198a0: 636b 5f61 6e61 6c79 7369 735f 7370 6f74  ck_analysis_spot
++000198b0: 5f6b 6579 735b 2270 6f73 6979 225d 0d0a  _keys["posiy"]..
++000198c0: 2020 2020 2020 2020 706f 7369 7a20 3d20          posiz = 
++000198d0: 7472 6163 6b5f 616e 616c 7973 6973 5f73  track_analysis_s
++000198e0: 706f 745f 6b65 7973 5b22 706f 7369 7a22  pot_keys["posiz"
++000198f0: 5d0d 0a20 2020 2020 2020 2066 7261 6d65  ]..        frame
++00019900: 203d 2074 7261 636b 5f61 6e61 6c79 7369   = track_analysi
++00019910: 735f 7370 6f74 5f6b 6579 735b 2266 7261  s_spot_keys["fra
++00019920: 6d65 225d 0d0a 2020 2020 2020 2020 0d0a  me"]..        ..
++00019930: 2020 2020 2020 2020 4c6f 6361 7469 6f6e          Location
++00019940: 5820 3d20 280d 0a20 2020 2020 2020 2020  X = (..         
++00019950: 2020 2073 706f 745f 6461 7461 7365 745b     spot_dataset[
++00019960: 706f 7369 785d 2e61 7374 7970 6528 2266  posix].astype("f
++00019970: 6c6f 6174 2229 202f 2078 6361 6c69 6272  loat") / xcalibr
++00019980: 6174 696f 6e0d 0a20 2020 2020 2020 2029  ation..        )
++00019990: 2e61 7374 7970 6528 2269 6e74 2229 0d0a  .astype("int")..
++000199a0: 2020 2020 2020 2020 4c6f 6361 7469 6f6e          Location
++000199b0: 5920 3d20 280d 0a20 2020 2020 2020 2020  Y = (..         
++000199c0: 2020 2073 706f 745f 6461 7461 7365 745b     spot_dataset[
++000199d0: 706f 7369 795d 2e61 7374 7970 6528 2266  posiy].astype("f
++000199e0: 6c6f 6174 2229 202f 2079 6361 6c69 6272  loat") / ycalibr
++000199f0: 6174 696f 6e0d 0a20 2020 2020 2020 2029  ation..        )
++00019a00: 2e61 7374 7970 6528 2269 6e74 2229 0d0a  .astype("int")..
++00019a10: 2020 2020 2020 2020 4c6f 6361 7469 6f6e          Location
++00019a20: 5a20 3d20 280d 0a20 2020 2020 2020 2020  Z = (..         
++00019a30: 2020 2073 706f 745f 6461 7461 7365 745b     spot_dataset[
++00019a40: 706f 7369 7a5d 2e61 7374 7970 6528 2266  posiz].astype("f
++00019a50: 6c6f 6174 2229 202f 207a 6361 6c69 6272  loat") / zcalibr
++00019a60: 6174 696f 6e0d 0a20 2020 2020 2020 2029  ation..        )
++00019a70: 2e61 7374 7970 6528 2269 6e74 2229 0d0a  .astype("int")..
++00019a80: 2020 2020 2020 2020 4c6f 6361 7469 6f6e          Location
++00019a90: 5420 3d20 2873 706f 745f 6461 7461 7365  T = (spot_datase
++00019aa0: 745b 6672 616d 655d 2e61 7374 7970 6528  t[frame].astype(
++00019ab0: 2266 6c6f 6174 2229 292e 6173 7479 7065  "float")).astype
++00019ac0: 2822 696e 7422 290d 0a20 2020 2020 2020  ("int")..       
++00019ad0: 200d 0a0d 0a20 2020 2020 2020 2069 676e   ....        ign
++00019ae0: 6f72 655f 7661 6c75 6573 203d 205b 7472  ore_values = [tr
++00019af0: 6163 6b5f 616e 616c 7973 6973 5f73 706f  ack_analysis_spo
++00019b00: 745f 6b65 7973 5b22 6d65 616e 5f69 6e74  t_keys["mean_int
++00019b10: 656e 7369 7479 225d 2c74 7261 636b 5f61  ensity"],track_a
++00019b20: 6e61 6c79 7369 735f 7370 6f74 5f6b 6579  nalysis_spot_key
++00019b30: 735b 2274 6f74 616c 5f69 6e74 656e 7369  s["total_intensi
++00019b40: 7479 225d 5d0d 0a20 2020 2020 2020 2066  ty"]]..        f
++00019b50: 6f72 2028 6b2c 7629 2069 6e20 7472 6163  or (k,v) in trac
++00019b60: 6b5f 616e 616c 7973 6973 5f73 706f 745f  k_analysis_spot_
++00019b70: 6b65 7973 2e69 7465 6d73 2829 3a0d 0a0d  keys.items():...
++00019b80: 0a20 2020 2020 2020 2020 2020 2020 2020  .               
++00019b90: 2069 6620 6465 7465 6374 696f 6e63 6861   if detectioncha
++00019ba0: 6e6e 656c 203d 3d20 313a 0d0a 2020 2020  nnel == 1:..    
++00019bb0: 2020 2020 2020 2020 2020 2020 2020 2020                  
++00019bc0: 2069 6620 6b20 3d3d 2022 6d65 616e 5f69   if k == "mean_i
++00019bd0: 6e74 656e 7369 7479 5f63 6832 223a 0d0a  ntensity_ch2":..
++00019be0: 2020 2020 2020 2020 2020 2020 2020 2020                  
++00019bf0: 2020 2020 2020 2020 2020 2076 616c 7565             value
++00019c00: 203d 2074 7261 636b 5f61 6e61 6c79 7369   = track_analysi
++00019c10: 735f 7370 6f74 5f6b 6579 735b 226d 6561  s_spot_keys["mea
++00019c20: 6e5f 696e 7465 6e73 6974 7922 5d0d 0a20  n_intensity"].. 
++00019c30: 2020 2020 2020 2020 2020 2020 2020 2020                  
++00019c40: 2020 2020 2020 2020 2020 416c 6c56 616c            AllVal
++00019c50: 7565 735b 7661 6c75 655d 203d 2073 706f  ues[value] = spo
++00019c60: 745f 6461 7461 7365 745b 765d 2e61 7374  t_dataset[v].ast
++00019c70: 7970 6528 2266 6c6f 6174 2229 0d0a 2020  ype("float")..  
++00019c80: 2020 2020 2020 2020 2020 2020 2020 2020                  
++00019c90: 2020 2069 6620 6b20 3d3d 2022 746f 7461     if k == "tota
++00019ca0: 6c5f 696e 7465 6e73 6974 795f 6368 3222  l_intensity_ch2"
++00019cb0: 3a0d 0a20 2020 2020 2020 2020 2020 2020  :..             
++00019cc0: 2020 2020 2020 2020 2020 2020 2020 7661                va
++00019cd0: 6c75 6520 3d20 7472 6163 6b5f 616e 616c  lue = track_anal
++00019ce0: 7973 6973 5f73 706f 745f 6b65 7973 5b22  ysis_spot_keys["
++00019cf0: 746f 7461 6c5f 696e 7465 6e73 6974 7922  total_intensity"
++00019d00: 5d0d 0a20 2020 2020 2020 2020 2020 2020  ]..             
++00019d10: 2020 2020 2020 2020 2020 2020 2020 416c                Al
++00019d20: 6c56 616c 7565 735b 7661 6c75 655d 203d  lValues[value] =
++00019d30: 2073 706f 745f 6461 7461 7365 745b 765d   spot_dataset[v]
++00019d40: 2e61 7374 7970 6528 2266 6c6f 6174 2229  .astype("float")
++00019d50: 2020 2020 2020 200d 0a0d 0a20 2020 2020         ....     
++00019d60: 2020 2020 2020 2020 2020 2069 6620 7620             if v 
++00019d70: 6e6f 7420 696e 2069 676e 6f72 655f 7661  not in ignore_va
++00019d80: 6c75 6573 3a0d 0a20 2020 2020 2020 2020  lues:..         
++00019d90: 2020 2020 2020 2020 2020 2020 2020 0d0a                ..
++00019da0: 2020 2020 2020 2020 2020 2020 2020 2020                  
++00019db0: 2020 2020 2020 2041 6c6c 5661 6c75 6573         AllValues
++00019dc0: 5b76 5d20 3d20 7370 6f74 5f64 6174 6173  [v] = spot_datas
++00019dd0: 6574 5b76 5d2e 6173 7479 7065 2822 666c  et[v].astype("fl
++00019de0: 6f61 7422 290d 0a20 2020 2020 2020 2020  oat")..         
++00019df0: 2020 2020 2020 2020 2020 0d0a 0d0a 2020            ....  
++00019e00: 2020 2020 2020 416c 6c56 616c 7565 735b        AllValues[
++00019e10: 706f 7369 785d 203d 2072 6f75 6e64 284c  posix] = round(L
++00019e20: 6f63 6174 696f 6e58 2c33 290d 0a20 2020  ocationX,3)..   
++00019e30: 2020 2020 2041 6c6c 5661 6c75 6573 5b70       AllValues[p
++00019e40: 6f73 6979 5d20 3d20 726f 756e 6428 4c6f  osiy] = round(Lo
++00019e50: 6361 7469 6f6e 592c 3329 0d0a 2020 2020  cationY,3)..    
++00019e60: 2020 2020 416c 6c56 616c 7565 735b 706f      AllValues[po
++00019e70: 7369 7a5d 203d 2072 6f75 6e64 284c 6f63  siz] = round(Loc
++00019e80: 6174 696f 6e5a 2c33 290d 0a20 2020 2020  ationZ,3)..     
++00019e90: 2020 2041 6c6c 5661 6c75 6573 5b66 7261     AllValues[fra
++00019ea0: 6d65 5d20 3d20 726f 756e 6428 4c6f 6361  me] = round(Loca
++00019eb0: 7469 6f6e 542c 3329 0d0a 2020 2020 2020  tionT,3)..      
++00019ec0: 2020 4174 7472 6962 7574 6569 6473 203d    Attributeids =
++00019ed0: 205b 5d0d 0a20 2020 2020 2020 2041 7474   []..        Att
++00019ee0: 7269 6275 7465 6964 732e 6170 7065 6e64  ributeids.append
++00019ef0: 2841 7474 7269 6275 7465 426f 786e 616d  (AttributeBoxnam
++00019f00: 6529 0d0a 2020 2020 2020 2020 666f 7220  e)..        for 
++00019f10: 6174 7472 6962 7574 656e 616d 6520 696e  attributename in
++00019f20: 2041 6c6c 5661 6c75 6573 2e6b 6579 7328   AllValues.keys(
++00019f30: 293a 0d0a 2020 2020 2020 2020 2020 2020  ):..            
++00019f40: 2020 4174 7472 6962 7574 6569 6473 2e61    Attributeids.a
++00019f50: 7070 656e 6428 6174 7472 6962 7574 656e  ppend(attributen
++00019f60: 616d 6529 2020 2020 0d0a 2020 2020 2020  ame)    ..      
++00019f70: 2020 2020 2020 0d0a 2020 2020 2020 2020        ..        
++00019f80: 0d0a 2020 2020 2020 2020 7265 7475 726e  ..        return
++00019f90: 2041 7474 7269 6275 7465 6964 732c 2041   Attributeids, A
++00019fa0: 6c6c 5661 6c75 6573 2020 2020 200d 0a20  llValues     .. 
++00019fb0: 2020 200d 0a64 6566 2067 6574 5f74 7261     ..def get_tra
++00019fc0: 636b 5f64 6174 6173 6574 2874 7261 636b  ck_dataset(track
++00019fd0: 5f64 6174 6173 6574 2c20 7472 6163 6b5f  _dataset, track_
++00019fe0: 616e 616c 7973 6973 5f73 706f 745f 6b65  analysis_spot_ke
++00019ff0: 7973 2c20 7472 6163 6b5f 616e 616c 7973  ys, track_analys
++0001a000: 6973 5f74 7261 636b 5f6b 6579 732c 2054  is_track_keys, T
++0001a010: 7261 636b 4174 7472 6962 7574 6542 6f78  rackAttributeBox
++0001a020: 6e61 6d65 293a 0d0a 0d0a 2020 2020 2020  name):....      
++0001a030: 2020 416c 6c54 7261 636b 5661 6c75 6573    AllTrackValues
++0001a040: 203d 207b 7d0d 0a20 2020 2020 2020 2074   = {}..        t
++0001a050: 7261 636b 5f69 6420 3d20 7472 6163 6b5f  rack_id = track_
++0001a060: 616e 616c 7973 6973 5f73 706f 745f 6b65  analysis_spot_ke
++0001a070: 7973 5b22 7472 6163 6b5f 6964 225d 0d0a  ys["track_id"]..
++0001a080: 2020 2020 2020 2020 5469 6420 3d20 7472          Tid = tr
++0001a090: 6163 6b5f 6461 7461 7365 745b 7472 6163  ack_dataset[trac
++0001a0a0: 6b5f 6964 5d2e 6173 7479 7065 2822 666c  k_id].astype("fl
++0001a0b0: 6f61 7422 290d 0a20 2020 2020 2020 0d0a  oat")..       ..
++0001a0c0: 2020 2020 2020 2020 416c 6c54 7261 636b          AllTrack
++0001a0d0: 5661 6c75 6573 5b74 7261 636b 5f69 645d  Values[track_id]
++0001a0e0: 203d 2054 6964 0d0a 2020 2020 2020 0d0a   = Tid..      ..
++0001a0f0: 2020 2020 2020 2020 666f 7220 286b 2c20          for (k, 
++0001a100: 7629 2069 6e20 7472 6163 6b5f 616e 616c  v) in track_anal
++0001a110: 7973 6973 5f74 7261 636b 5f6b 6579 732e  ysis_track_keys.
++0001a120: 6974 656d 7328 293a 0d0a 0d0a 2020 2020  items():....    
++0001a130: 2020 2020 2020 2020 2020 2020 7820 3d20              x = 
++0001a140: 7472 6163 6b5f 6461 7461 7365 745b 765d  track_dataset[v]
++0001a150: 2e61 7374 7970 6528 2266 6c6f 6174 2229  .astype("float")
++0001a160: 0d0a 2020 2020 2020 2020 2020 2020 2020  ..              
++0001a170: 2020 6d69 6e76 616c 203d 206d 696e 2878    minval = min(x
++0001a180: 290d 0a20 2020 2020 2020 2020 2020 2020  )..             
++0001a190: 2020 206d 6178 7661 6c20 3d20 6d61 7828     maxval = max(
++0001a1a0: 7829 0d0a 0d0a 2020 2020 2020 2020 2020  x)....          
++0001a1b0: 2020 2020 2020 6966 206d 696e 7661 6c20        if minval 
++0001a1c0: 3e20 3020 616e 6420 6d61 7876 616c 203c  > 0 and maxval <
++0001a1d0: 3d20 313a 0d0a 0d0a 2020 2020 2020 2020  = 1:....        
++0001a1e0: 2020 2020 2020 2020 2020 2020 7820 3d20              x = 
++0001a1f0: 7820 2b20 310d 0a0d 0a20 2020 2020 2020  x + 1....       
++0001a200: 2020 2020 2020 2020 2041 6c6c 5472 6163           AllTrac
++0001a210: 6b56 616c 7565 735b 6b5d 203d 2072 6f75  kValues[k] = rou
++0001a220: 6e64 2878 2c20 3329 0d0a 0d0a 2020 2020  nd(x, 3)....    
++0001a230: 2020 2020 5472 6163 6b41 7474 7269 6275      TrackAttribu
++0001a240: 7465 6964 7320 3d20 5b5d 0d0a 2020 2020  teids = []..    
++0001a250: 2020 2020 5472 6163 6b41 7474 7269 6275      TrackAttribu
++0001a260: 7465 6964 732e 6170 7065 6e64 2854 7261  teids.append(Tra
++0001a270: 636b 4174 7472 6962 7574 6542 6f78 6e61  ckAttributeBoxna
++0001a280: 6d65 290d 0a20 2020 2020 2020 2066 6f72  me)..        for
++0001a290: 2061 7474 7269 6275 7465 6e61 6d65 2069   attributename i
++0001a2a0: 6e20 7472 6163 6b5f 616e 616c 7973 6973  n track_analysis
++0001a2b0: 5f74 7261 636b 5f6b 6579 732e 6b65 7973  _track_keys.keys
++0001a2c0: 2829 3a0d 0a20 2020 2020 2020 2020 2020  ():..           
++0001a2d0: 2054 7261 636b 4174 7472 6962 7574 6569   TrackAttributei
++0001a2e0: 6473 2e61 7070 656e 6428 6174 7472 6962  ds.append(attrib
++0001a2f0: 7574 656e 616d 6529 2020 2020 0d0a 2020  utename)    ..  
++0001a300: 2020 0d0a 2020 2020 2020 2020 7265 7475    ..        retu
++0001a310: 726e 2054 7261 636b 4174 7472 6962 7574  rn TrackAttribut
++0001a320: 6569 6473 2c20 416c 6c54 7261 636b 5661  eids, AllTrackVa
++0001a330: 6c75 6573 0d0a 2020 2020 0d0a 6465 6620  lues..    ..def 
++0001a340: 6765 745f 6564 6765 735f 6461 7461 7365  get_edges_datase
++0001a350: 7428 6564 6765 735f 6461 7461 7365 742c  t(edges_dataset,
++0001a360: 2065 6467 6573 5f64 6174 6173 6574 5f69   edges_dataset_i
++0001a370: 6e64 6578 2c20 7472 6163 6b5f 616e 616c  ndex, track_anal
++0001a380: 7973 6973 5f73 706f 745f 6b65 7973 2c20  ysis_spot_keys, 
++0001a390: 7472 6163 6b5f 616e 616c 7973 6973 5f65  track_analysis_e
++0001a3a0: 6467 6573 5f6b 6579 7329 3a0d 0a0d 0a20  dges_keys):.... 
++0001a3b0: 2020 2020 2020 2041 6c6c 4564 6765 7356         AllEdgesV
++0001a3c0: 616c 7565 7320 3d20 7b7d 0d0a 2020 2020  alues = {}..    
++0001a3d0: 2020 2020 7472 6163 6b5f 6964 203d 2074      track_id = t
++0001a3e0: 7261 636b 5f61 6e61 6c79 7369 735f 7370  rack_analysis_sp
++0001a3f0: 6f74 5f6b 6579 735b 2274 7261 636b 5f69  ot_keys["track_i
++0001a400: 6422 5d0d 0a20 2020 2020 2020 2054 6964  d"]..        Tid
++0001a410: 203d 2065 6467 6573 5f64 6174 6173 6574   = edges_dataset
++0001a420: 5b74 7261 636b 5f69 645d 2e61 7374 7970  [track_id].astyp
++0001a430: 6528 2266 6c6f 6174 2229 0d0a 2020 2020  e("float")..    
++0001a440: 2020 2020 696e 6469 6365 7320 3d20 6e70      indices = np
++0001a450: 2e77 6865 7265 2854 6964 203d 3d20 3029  .where(Tid == 0)
++0001a460: 0d0a 2020 2020 2020 2020 6d61 7874 7261  ..        maxtra
++0001a470: 636b 5f69 6420 3d20 6d61 7828 5469 6429  ck_id = max(Tid)
++0001a480: 0d0a 2020 2020 2020 2020 636f 6e64 6974  ..        condit
++0001a490: 696f 6e5f 696e 6469 6365 7320 3d20 6564  ion_indices = ed
++0001a4a0: 6765 735f 6461 7461 7365 745f 696e 6465  ges_dataset_inde
++0001a4b0: 785b 696e 6469 6365 735d 0d0a 2020 2020  x[indices]..    
++0001a4c0: 2020 2020 5469 645b 636f 6e64 6974 696f      Tid[conditio
++0001a4d0: 6e5f 696e 6469 6365 735d 203d 206d 6178  n_indices] = max
++0001a4e0: 7472 6163 6b5f 6964 202b 2031 0d0a 2020  track_id + 1..  
++0001a4f0: 2020 2020 2020 416c 6c45 6467 6573 5661        AllEdgesVa
++0001a500: 6c75 6573 5b74 7261 636b 5f69 645d 203d  lues[track_id] =
++0001a510: 2054 6964 0d0a 0d0a 2020 2020 2020 2020   Tid....        
++0001a520: 666f 7220 6b20 696e 2074 7261 636b 5f61  for k in track_a
++0001a530: 6e61 6c79 7369 735f 6564 6765 735f 6b65  nalysis_edges_ke
++0001a540: 7973 2e76 616c 7565 7328 293a 0d0a 0d0a  ys.values():....
++0001a550: 2020 2020 2020 2020 2020 2020 6966 206b              if k
++0001a560: 2021 3d20 7472 6163 6b5f 6964 3a0d 0a20   != track_id:.. 
++0001a570: 2020 2020 2020 2020 2020 2020 2020 2078                 x
++0001a580: 203d 2065 6467 6573 5f64 6174 6173 6574   = edges_dataset
++0001a590: 5b6b 5d2e 6173 7479 7065 2822 666c 6f61  [k].astype("floa
++0001a5a0: 7422 290d 0a0d 0a20 2020 2020 2020 2020  t")....         
++0001a5b0: 2020 2020 2020 2041 6c6c 4564 6765 7356         AllEdgesV
++0001a5c0: 616c 7565 735b 6b5d 203d 2078 2020 200d  alues[k] = x   .
++0001a5d0: 0a20 2020 2020 2020 2020 0d0a 2020 2020  .         ..    
++0001a5e0: 2020 2020 7265 7475 726e 2041 6c6c 4564      return AllEd
++0001a5f0: 6765 7356 616c 7565 7320 2020 0d0a 2020  gesValues   ..  
++0001a600: 2020 0d0a 2020 2020 2020 200d 0a20 2020    ..       ..   
++0001a610: 200d 0a64 6566 2073 6361 6c65 5f76 616c   ..def scale_val
++0001a620: 7565 2878 2c20 7363 616c 6520 3d20 3235  ue(x, scale = 25
++0001a630: 3520 2a20 3235 3529 3a0d 0a0d 0a0d 0a20  5 * 255):...... 
++0001a640: 2020 2020 7265 7475 726e 2078 202a 2073      return x * s
++0001a650: 6361 6c65 2020 200d 0a20 2020 200d 0a0d  cale   ..    ...
++0001a660: 0a0d 0a64 6566 2070 726f 625f 7369 676d  ...def prob_sigm
++0001a670: 6f69 6428 7829 3a0d 0a20 2020 2072 6574  oid(x):..    ret
++0001a680: 7572 6e20 3120 2d20 6d61 7468 2e65 7870  urn 1 - math.exp
++0001a690: 282d 7829 0d0a 0d0a 0d0a 6465 6620 616e  (-x)......def an
++0001a6a0: 6775 6c61 725f 6368 616e 6765 2876 6563  gular_change(vec
++0001a6b0: 5f30 2c20 7665 635f 3129 3a0d 0a20 2020  _0, vec_1):..   
++0001a6c0: 2020 2020 200d 0a20 2020 2020 2020 2076       ..        v
++0001a6d0: 6563 5f30 203d 2076 6563 5f30 202f 206e  ec_0 = vec_0 / n
++0001a6e0: 702e 6c69 6e61 6c67 2e6e 6f72 6d28 7665  p.linalg.norm(ve
++0001a6f0: 635f 3029 0d0a 2020 2020 2020 2020 7665  c_0)..        ve
++0001a700: 635f 3120 3d20 7665 635f 3120 2f20 6e70  c_1 = vec_1 / np
++0001a710: 2e6c 696e 616c 672e 6e6f 726d 2876 6563  .linalg.norm(vec
++0001a720: 5f31 290d 0a20 2020 2020 2020 2061 6e67  _1)..        ang
++0001a730: 6c65 203d 206e 702e 6172 6363 6f73 286e  le = np.arccos(n
++0001a740: 702e 636c 6970 286e 702e 646f 7428 7665  p.clip(np.dot(ve
++0001a750: 635f 302c 2076 6563 5f31 292c 202d 312e  c_0, vec_1), -1.
++0001a760: 302c 2031 2e30 2929 0d0a 2020 2020 2020  0, 1.0))..      
++0001a770: 2020 616e 676c 6520 3d20 616e 676c 6520    angle = angle 
++0001a780: 2a20 3138 3020 2f20 6e70 2e70 690d 0a20  * 180 / np.pi.. 
++0001a790: 2020 2020 2020 2072 6574 7572 6e20 616e         return an
++0001a7a0: 676c 650d 0a20 2020 2020 0d0a 0d0a 6465  gle..     ....de
++0001a7b0: 6620 6576 616c 5f62 6f6f 6c28 7661 6c75  f eval_bool(valu
++0001a7c0: 6529 3a0d 0a20 2020 2020 2020 2020 2020  e):..           
++0001a7d0: 2020 2020 2020 200d 0a20 2020 2020 2020         ..       
++0001a7e0: 2069 6620 7661 6c75 6520 203d 3d20 2754   if value  == 'T
++0001a7f0: 7275 6527 3a20 0d0a 2020 2020 2020 2020  rue': ..        
++0001a800: 2020 2020 2020 2020 6469 765f 6b65 7920          div_key 
++0001a810: 3d20 5472 7565 0d0a 2020 2020 2020 2020  = True..        
++0001a820: 656c 7365 3a0d 0a20 2020 2020 2020 2020  else:..         
++0001a830: 2020 2020 2020 2064 6976 5f6b 6579 203d         div_key =
++0001a840: 2046 616c 7365 200d 0a0d 0a20 2020 2020   False ....     
++0001a850: 2020 2072 6574 7572 6e20 6469 765f 6b65     return div_ke
++0001a860: 7920 2020 2020 2020 2020 2020 2020 2020  y               
++0001a870: 200d 0a0d 0a64 6566 2063 6865 636b 5f61   ....def check_a
++0001a880: 6e64 5f75 7064 6174 655f 6d61 736b 286d  nd_update_mask(m
++0001a890: 6173 6b2c 696d 6167 6529 3a0d 0a20 2020  ask,image):..   
++0001a8a0: 2020 2020 0d0a 2020 2020 2020 2020 6966      ..        if
++0001a8b0: 206c 656e 286d 6173 6b2e 7368 6170 6529   len(mask.shape)
++0001a8c0: 203c 206c 656e 2869 6d61 6765 2e73 6861   < len(image.sha
++0001a8d0: 7065 293a 0d0a 2020 2020 2020 2020 2020  pe):..          
++0001a8e0: 2020 7570 6461 7465 5f6d 6173 6b20 3d20    update_mask = 
++0001a8f0: 6e70 2e7a 6572 6f73 280d 0a20 2020 2020  np.zeros(..     
++0001a900: 2020 2020 2020 2020 2020 2020 2020 2020                  
++0001a910: 2020 2020 2020 205b 0d0a 2020 2020 2020         [..      
++0001a920: 2020 2020 2020 2020 2020 2020 2020 2020                  
++0001a930: 2020 2020 2020 2020 2020 696d 6167 652e            image.
++0001a940: 7368 6170 655b 305d 2c0d 0a20 2020 2020  shape[0],..     
++0001a950: 2020 2020 2020 2020 2020 2020 2020 2020                  
++0001a960: 2020 2020 2020 2020 2020 2069 6d61 6765             image
++0001a970: 2e73 6861 7065 5b31 5d2c 0d0a 2020 2020  .shape[1],..    
++0001a980: 2020 2020 2020 2020 2020 2020 2020 2020                  
++0001a990: 2020 2020 2020 2020 2020 2020 696d 6167              imag
++0001a9a0: 652e 7368 6170 655b 325d 2c0d 0a20 2020  e.shape[2],..   
++0001a9b0: 2020 2020 2020 2020 2020 2020 2020 2020                  
++0001a9c0: 2020 2020 2020 2020 2020 2020 2069 6d61               ima
++0001a9d0: 6765 2e73 6861 7065 5b33 5d2c 0d0a 2020  ge.shape[3],..  
++0001a9e0: 2020 2020 2020 2020 2020 2020 2020 2020                  
++0001a9f0: 2020 2020 2020 2020 2020 5d2c 2064 7479            ], dty
++0001aa00: 7065 3d22 7569 6e74 3822 0d0a 2020 2020  pe="uint8"..    
++0001aa10: 2020 2020 2020 2020 2020 2020 2020 2020                  
++0001aa20: 2020 2020 290d 0a20 2020 2020 2020 2020      )..         
++0001aa30: 2020 2066 6f72 2069 2069 6e20 7261 6e67     for i in rang
++0001aa40: 6528 302c 2075 7064 6174 655f 6d61 736b  e(0, update_mask
++0001aa50: 2e73 6861 7065 5b30 5d29 3a0d 0a20 2020  .shape[0]):..   
++0001aa60: 2020 2020 2020 2020 2020 2020 2066 6f72               for
++0001aa70: 206a 2069 6e20 7261 6e67 6528 302c 2075   j in range(0, u
++0001aa80: 7064 6174 655f 6d61 736b 2e73 6861 7065  pdate_mask.shape
++0001aa90: 5b31 5d29 3a0d 0a0d 0a20 2020 2020 2020  [1]):....       
++0001aaa0: 2020 2020 2020 2020 2020 2020 2075 7064               upd
++0001aab0: 6174 655f 6d61 736b 5b69 2c20 6a2c 203a  ate_mask[i, j, :
++0001aac0: 2c20 3a5d 203d 206d 6173 6b5b 692c 203a  , :] = mask[i, :
++0001aad0: 2c20 3a5d 0d0a 2020 2020 2020 2020 656c  , :]..        el
++0001aae0: 7365 3a0d 0a20 2020 2020 2020 2020 2020  se:..           
++0001aaf0: 2020 2020 2075 7064 6174 655f 6d61 736b       update_mask
++0001ab00: 203d 206d 6173 6b0d 0a0d 0a20 2020 2020   = mask....     
++0001ab10: 2020 2072 6574 7572 6e20 7570 6461 7465     return update
++0001ab20: 5f6d 6173 6b20 2020 2020 2020 200d 0a20  _mask        .. 
++0001ab30: 2020 2020 2020 0d0a                            ..
+```
+
+### Comparing `napatrackmater-3.7.9/napatrackmater/Trackvector.py` & `napatrackmater-3.8.0/napatrackmater/Trackvector.py`
+
+ * *Files identical despite different names*
+
+### Comparing `napatrackmater-3.7.9/napatrackmater/__init__.py` & `napatrackmater-3.8.0/napatrackmater/__init__.py`
+
+ * *Files identical despite different names*
+
+### Comparing `napatrackmater-3.7.9/napatrackmater/clustering.py` & `napatrackmater-3.8.0/napatrackmater/clustering.py`
+
+ * *Files identical despite different names*
+
+### Comparing `napatrackmater-3.7.9/napatrackmater/fast_radius_regression.py` & `napatrackmater-3.8.0/napatrackmater/fast_radius_regression.py`
+
+ * *Files identical despite different names*
+
+### Comparing `napatrackmater-3.7.9/napatrackmater/fate_mapping.py` & `napatrackmater-3.8.0/napatrackmater/fate_mapping.py`
+
+ * *Files identical despite different names*
+
+### Comparing `napatrackmater-3.7.9/napatrackmater/pretrained.py` & `napatrackmater-3.8.0/napatrackmater/pretrained.py`
+
+ * *Files identical despite different names*
+
+### Comparing `napatrackmater-3.7.9/napatrackmater.egg-info/PKG-INFO` & `napatrackmater-3.8.0/napatrackmater.egg-info/PKG-INFO`
+
+ * *Files 0% similar despite different names*
+
+```diff
+@@ -1,10 +1,10 @@
+ Metadata-Version: 2.1
+ Name: napatrackmater
+-Version: 3.7.9
++Version: 3.8.0
+ Summary: Import Trackmate XML files for Track Visualization and analysis in Napari.
+ Home-page: https://github.com/kapoorlab/NapaTrackMater/
+ Author: Varun Kapoor, Mari Tolonen
+ Author-email: randomaccessiblekapoor@gmail.com
+ Classifier: Development Status :: 3 - Alpha
+ Classifier: Natural Language :: English
+ Classifier: License :: OSI Approved :: MIT License
+```
+
+### Comparing `napatrackmater-3.7.9/napatrackmater.egg-info/SOURCES.txt` & `napatrackmater-3.8.0/napatrackmater.egg-info/SOURCES.txt`
+
+ * *Files identical despite different names*
+
+### Comparing `napatrackmater-3.7.9/setup.py` & `napatrackmater-3.8.0/setup.py`
+
+ * *Files identical despite different names*
+
