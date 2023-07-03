@@ -22207,3 +22207,156 @@ EOFError: EOF read where object expected
 [2023-07-03 16:55:27] INFO root fetch - processPackages [oak9-tython]: Remove: archive file [/home/abi/fetcher/tmp/oak9_tython-1.0.9.tar.gz]
 [2023-07-03 16:55:27] INFO root fetch - main [MainThread]: End processing [oak9-tython]: success
 [2023-07-03 16:55:27] INFO root fetch - main [MainThread]: Store serial: [18740966]
+[2023-07-03 17:00:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18740966]
+[2023-07-03 17:00:37] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-07-03 17:00:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: crtoolbox
+[2023-07-03 17:00:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: zit
+[2023-07-03 17:00:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: treeswift
+[2023-07-03 17:00:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: c2cciutils
+[2023-07-03 17:00:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: computation-graph
+[2023-07-03 17:00:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nb-log
+[2023-07-03 17:00:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: kfish
+[2023-07-03 17:00:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo-addon-web-send-message-popup
+[2023-07-03 17:00:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: arfs
+[2023-07-03 17:00:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: volsite-postgres-common
+[2023-07-03 17:00:37] INFO root fetch - processPackages [nb-log]: New version: [9.4] Old Version: [9.3]
+[2023-07-03 17:00:37] INFO root fetch - processPackages [volsite-postgres-common]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-03 17:00:37] INFO root fetch - processPackages [crtoolbox]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-03 17:00:37] INFO root fetch - processPackages [kfish]: New version: [99.0.202307030642] Old Version: [99.0.202307012129]
+[2023-07-03 17:00:37] INFO root fetch - processPackages [c2cciutils]: New version: [1.6.0.dev99] Old Version: [1.6.0.dev98]
+[2023-07-03 17:00:37] INFO root fetch - processPackages [zit]: New version: [0.0.2a2] Old Version: [0.0.2a1]
+[2023-07-03 17:00:37] INFO root fetch - processPackages [nb-log]: Downloading https://files.pythonhosted.org/packages/dd/84/3c80db5f40a9dde475e8ff523701da3952ce36ca4d3e2c30cdbdbcfdc711/nb_log-9.3.tar.gz
+[2023-07-03 17:00:37] WARNING root fetch - processPackages [odoo-addon-web-send-message-popup]: Skipping, unable to determine old version
+[2023-07-03 17:00:37] INFO root fetch - processPackages [odoo-addon-web-send-message-popup]: Start processing: gridstatus
+[2023-07-03 17:00:37] INFO root fetch - main [MainThread]: End processing [odoo-addon-web-send-message-popup] error
+[2023-07-03 17:00:37] INFO root fetch - processPackages [arfs]: New version: [1.1.3] Old Version: [1.1.2]
+[2023-07-03 17:00:37] INFO root fetch - processPackages [computation-graph]: New version: [9] Old Version: [7]
+[2023-07-03 17:00:37] INFO root fetch - processPackages [treeswift]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-07-03 17:00:37] INFO root fetch - processPackages [volsite-postgres-common]: Downloading https://files.pythonhosted.org/packages/a9/48/ece41cdd1f36d5b821f07299b965387a375ef3ddd0556318e57ad9018c7c/volsite_postgres_common-0.1.8.tar.gz
+[2023-07-03 17:00:37] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/b9/57/6cd18610496bef38bedbb3edfe92cade8cec45dcde00c31bfdd410172dbe/kfish-99.0.202307012129-py3-none-any.whl
+[2023-07-03 17:00:37] INFO root fetch - processPackages [c2cciutils]: Downloading https://files.pythonhosted.org/packages/a1/2b/1d6a9f2a49b1cf5d42f9fe6f8498218d1aa03ad4f83547e435c82985bf79/c2cciutils-1.6.0.dev98.tar.gz
+[2023-07-03 17:00:37] INFO root fetch - processPackages [crtoolbox]: Downloading https://files.pythonhosted.org/packages/88/6f/e70a268e7928d7aef12d5e4d842e28c28468a377dc47dfc06523088deb62/crtoolbox-0.1.1-py3-none-any.whl
+[2023-07-03 17:00:37] INFO root fetch - processPackages [gridstatus]: New version: [0.22.0] Old Version: [0.21.0]
+[2023-07-03 17:00:37] INFO root fetch - processPackages [zit]: Downloading https://files.pythonhosted.org/packages/4d/18/b5d95340fd996fdf2d87ca07cc868b29906e342b62fd1a81a5465e65c864/zit-0.0.2a1.tar.gz
+[2023-07-03 17:00:37] INFO root fetch - processPackages [computation-graph]: Downloading https://files.pythonhosted.org/packages/d3/7a/4ca790cd68ab8ecc81d3f636b207580a86c94f97a9e81efa711c7c4d37ff/computation-graph-7.tar.gz
+[2023-07-03 17:00:37] INFO root fetch - processPackages [arfs]: Downloading https://files.pythonhosted.org/packages/bb/e7/ddf54047667607844cfae7b34132c5d624e3a8c8020eaec644fc9c322c7a/arfs-1.1.2.tar.gz
+[2023-07-03 17:00:38] INFO root fetch - processPackages [treeswift]: Downloading https://files.pythonhosted.org/packages/29/68/b5def30e349e8b2d28ff5742b5a86564724c82506c882bf0af38a776574a/treeswift-1.1.8.tar.gz
+[2023-07-03 17:00:38] INFO root fetch - processPackages [volsite-postgres-common]: Downloading https://files.pythonhosted.org/packages/ff/03/668bfd84cd84ef92e37f65f495239d8be55d05abd92dc4bd35f340822fce/volsite_postgres_common-0.1.9.tar.gz
+[2023-07-03 17:00:38] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/54/40/d401bc89a3e74a8a3b1858b0e567a418bbc79b3a79fbbe17b3bab4f23395/kfish-99.0.202307030642-py3-none-any.whl
+[2023-07-03 17:00:38] INFO root fetch - processPackages [gridstatus]: Downloading https://files.pythonhosted.org/packages/29/29/caf79993685fae96c2c0f546f5024d352a65b63547faf95ecfd07659fd28/gridstatus-0.21.0.tar.gz
+[2023-07-03 17:00:38] INFO root fetch - processPackages [nb-log]: Downloading https://files.pythonhosted.org/packages/c3/74/6aafa68e126591095a138a56ff11fc881b528e6d7572c3964e0b890d0931/nb_log-9.4.tar.gz
+[2023-07-03 17:00:38] INFO root fetch - processPackages [volsite-postgres-common]: executing diffoscope
+[2023-07-03 17:00:38] INFO root fetch - processPackages [volsite-postgres-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/volsite_postgres_common-0.1.8.tar.gz tmp/volsite_postgres_common-0.1.9.tar.gz --markdown 20230703/v/volsite-postgres-common/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-03 17:00:38] INFO root fetch - processPackages [crtoolbox]: Downloading https://files.pythonhosted.org/packages/46/54/4731972f00325d0fce60b93053b6d9488a0f43b3e549933b4d882bdb9d3d/crtoolbox-0.1.2.tar.gz
+[2023-07-03 17:00:38] INFO root fetch - processPackages [kfish]: executing diffoscope
+[2023-07-03 17:00:38] INFO root fetch - processPackages [kfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfish-99.0.202307012129-py3-none-any.whl.zip tmp/kfish-99.0.202307030642-py3-none-any.whl.zip --markdown 20230703/k/kfish/99.0.202307012129-99.0.202307030642/diff.md --exclude *.pyd
+[2023-07-03 17:00:38] INFO root fetch - processPackages [c2cciutils]: Downloading https://files.pythonhosted.org/packages/60/cb/aa51be69fbd8a1ba783878ebc042a12a61ad083b26d90280d1164ab692f5/c2cciutils-1.6.0.dev99.tar.gz
+[2023-07-03 17:00:38] INFO root fetch - processPackages [zit]: Downloading https://files.pythonhosted.org/packages/e6/8b/25b30cc5c3bfb5435afa06ca02050e8ac253ead901e224adeb86074c07db/zit-0.0.2a2.tar.gz
+[2023-07-03 17:00:38] INFO root fetch - processPackages [arfs]: Downloading https://files.pythonhosted.org/packages/23/72/41f8f44e5325c0336273def607484f7cd8a82c22a8c194ff57e9f2309808/arfs-1.1.3.tar.gz
+[2023-07-03 17:00:38] INFO root fetch - processPackages [nb-log]: executing diffoscope
+[2023-07-03 17:00:38] INFO root fetch - processPackages [nb-log]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nb_log-9.3.tar.gz tmp/nb_log-9.4.tar.gz --markdown 20230703/n/nb-log/9.3-9.4/diff.md --exclude *.pyd
+[2023-07-03 17:00:38] INFO root fetch - processPackages [crtoolbox]: executing diffoscope
+[2023-07-03 17:00:38] INFO root fetch - processPackages [crtoolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crtoolbox-0.1.1-py3-none-any.whl.zip tmp/crtoolbox-0.1.2.tar.gz --markdown 20230703/c/crtoolbox/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-03 17:00:38] INFO root fetch - processPackages [computation-graph]: Downloading https://files.pythonhosted.org/packages/d3/84/b953d43c561dc982f24fed841639a029915d5614f9ed7d2178f9e5f1d406/computation-graph-9.tar.gz
+[2023-07-03 17:00:38] INFO root fetch - processPackages [gridstatus]: Downloading https://files.pythonhosted.org/packages/21/41/b4c42926a7107dd5deacb69ea3970cf6a9ca05b3fbd187e655ec5e131445/gridstatus-0.22.0.tar.gz
+[2023-07-03 17:00:38] INFO root fetch - processPackages [treeswift]: Downloading https://files.pythonhosted.org/packages/34/7d/1242a49554692ff7a7cce109d06207a302b7e394b2f675675f80cea3589f/treeswift-1.1.9.tar.gz
+[2023-07-03 17:00:38] INFO root fetch - processPackages [zit]: executing diffoscope
+[2023-07-03 17:00:38] INFO root fetch - processPackages [zit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zit-0.0.2a1.tar.gz tmp/zit-0.0.2a2.tar.gz --markdown 20230703/z/zit/0.0.2a1-0.0.2a2/diff.md --exclude *.pyd
+[2023-07-03 17:00:38] INFO root fetch - processPackages [arfs]: executing diffoscope
+[2023-07-03 17:00:38] INFO root fetch - processPackages [arfs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arfs-1.1.2.tar.gz tmp/arfs-1.1.3.tar.gz --markdown 20230703/a/arfs/1.1.2-1.1.3/diff.md --exclude *.pyd
+[2023-07-03 17:00:38] INFO root fetch - processPackages [computation-graph]: executing diffoscope
+[2023-07-03 17:00:38] INFO root fetch - processPackages [computation-graph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/computation-graph-7.tar.gz tmp/computation-graph-9.tar.gz --markdown 20230703/c/computation-graph/7-9/diff.md --exclude *.pyd
+[2023-07-03 17:00:38] INFO root fetch - processPackages [treeswift]: executing diffoscope
+[2023-07-03 17:00:38] INFO root fetch - processPackages [treeswift]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/treeswift-1.1.8.tar.gz tmp/treeswift-1.1.9.tar.gz --markdown 20230703/t/treeswift/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-07-03 17:00:38] INFO root fetch - processPackages [gridstatus]: executing diffoscope
+[2023-07-03 17:00:38] INFO root fetch - processPackages [gridstatus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gridstatus-0.21.0.tar.gz tmp/gridstatus-0.22.0.tar.gz --markdown 20230703/g/gridstatus/0.21.0-0.22.0/diff.md --exclude *.pyd
+[2023-07-03 17:00:38] INFO root fetch - processPackages [c2cciutils]: executing diffoscope
+[2023-07-03 17:00:38] INFO root fetch - processPackages [c2cciutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c2cciutils-1.6.0.dev98.tar.gz tmp/c2cciutils-1.6.0.dev99.tar.gz --markdown 20230703/c/c2cciutils/1.6.0.dev98-1.6.0.dev99/diff.md --exclude *.pyd
+[2023-07-03 17:00:39] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202307012129-py3-none-any.whl.zip]
+[2023-07-03 17:00:39] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202307030642-py3-none-any.whl.zip]
+[2023-07-03 17:00:39] INFO root fetch - processPackages [kfish]: Start processing: odoo-addon-website-require-login
+[2023-07-03 17:00:39] INFO root fetch - main [MainThread]: End processing [kfish]: success
+[2023-07-03 17:00:39] WARNING root fetch - processPackages [odoo-addon-website-require-login]: Skipping, unable to determine old version
+[2023-07-03 17:00:39] INFO root fetch - processPackages [odoo-addon-website-require-login]: Start processing: highrise-bot-sdk
+[2023-07-03 17:00:39] INFO root fetch - main [MainThread]: End processing [odoo-addon-website-require-login] error
+[2023-07-03 17:00:40] INFO root fetch - processPackages [volsite-postgres-common]: Remove: archive file [/home/abi/fetcher/tmp/volsite_postgres_common-0.1.8.tar.gz]
+[2023-07-03 17:00:40] INFO root fetch - processPackages [volsite-postgres-common]: Remove: archive file [/home/abi/fetcher/tmp/volsite_postgres_common-0.1.9.tar.gz]
+[2023-07-03 17:00:40] INFO root fetch - processPackages [volsite-postgres-common]: Start processing: splight-cli
+[2023-07-03 17:00:40] INFO root fetch - main [MainThread]: End processing [volsite-postgres-common]: success
+[2023-07-03 17:00:40] INFO root fetch - processPackages [highrise-bot-sdk]: New version: [23.1.0b9] Old Version: [23.1.0b8]
+[2023-07-03 17:00:40] INFO root fetch - processPackages [splight-cli]: New version: [3.0.7] Old Version: [3.0.6]
+[2023-07-03 17:00:40] INFO root fetch - processPackages [crtoolbox]: Remove: archive file [/home/abi/fetcher/tmp/crtoolbox-0.1.1-py3-none-any.whl.zip]
+[2023-07-03 17:00:40] INFO root fetch - processPackages [crtoolbox]: Remove: archive file [/home/abi/fetcher/tmp/crtoolbox-0.1.2.tar.gz]
+[2023-07-03 17:00:40] INFO root fetch - processPackages [crtoolbox]: Start processing: goxlrutilityapi
+[2023-07-03 17:00:40] INFO root fetch - main [MainThread]: End processing [crtoolbox]: success
+[2023-07-03 17:00:40] INFO root fetch - processPackages [goxlrutilityapi]: New version: [1.2.0] Old Version: [1.1.3.dev0]
+[2023-07-03 17:00:40] INFO root fetch - processPackages [highrise-bot-sdk]: Downloading https://files.pythonhosted.org/packages/9e/7a/166090069cb26db15a97cf0f76551e0b46b799267bfe38724670f1d5c38b/highrise_bot_sdk-23.1.0b8.tar.gz
+[2023-07-03 17:00:40] INFO root fetch - processPackages [nb-log]: Remove: archive file [/home/abi/fetcher/tmp/nb_log-9.3.tar.gz]
+[2023-07-03 17:00:40] INFO root fetch - processPackages [nb-log]: Remove: archive file [/home/abi/fetcher/tmp/nb_log-9.4.tar.gz]
+[2023-07-03 17:00:40] INFO root fetch - processPackages [nb-log]: Start processing: spark-quality-rules-tools
+[2023-07-03 17:00:40] INFO root fetch - main [MainThread]: End processing [nb-log]: success
+[2023-07-03 17:00:40] INFO root fetch - processPackages [goxlrutilityapi]: Downloading https://files.pythonhosted.org/packages/53/29/a0f4b78a032adfc768817ac768f52d094202657fa710bab5723245a6e9ed/goxlrutilityapi-1.1.3.dev0.tar.gz
+[2023-07-03 17:00:40] INFO root fetch - processPackages [splight-cli]: Downloading https://files.pythonhosted.org/packages/22/f6/d295a81a906c09ad7cfdaa9428f2ef89d0bce8a3cee571b9f0d8584bc80a/splight-cli-3.0.6.tar.gz
+[2023-07-03 17:00:40] INFO root fetch - processPackages [spark-quality-rules-tools]: New version: [0.5.0] Old Version: [0.4.2]
+[2023-07-03 17:00:40] INFO root fetch - processPackages [computation-graph]: Remove: archive file [/home/abi/fetcher/tmp/computation-graph-7.tar.gz]
+[2023-07-03 17:00:40] INFO root fetch - processPackages [computation-graph]: Remove: archive file [/home/abi/fetcher/tmp/computation-graph-9.tar.gz]
+[2023-07-03 17:00:40] INFO root fetch - processPackages [computation-graph]: Start processing: crossroads-schematization
+[2023-07-03 17:00:40] INFO root fetch - main [MainThread]: End processing [computation-graph]: success
+[2023-07-03 17:00:40] INFO root fetch - processPackages [goxlrutilityapi]: Downloading https://files.pythonhosted.org/packages/74/c8/ed4743ca4caaf08491e181ba64a094ab3a49b5cc7211cc861ee6ef379c75/goxlrutilityapi-1.2.0.tar.gz
+[2023-07-03 17:00:40] INFO root fetch - processPackages [treeswift]: Remove: archive file [/home/abi/fetcher/tmp/treeswift-1.1.8.tar.gz]
+[2023-07-03 17:00:40] INFO root fetch - processPackages [treeswift]: Remove: archive file [/home/abi/fetcher/tmp/treeswift-1.1.9.tar.gz]
+[2023-07-03 17:00:40] INFO root fetch - processPackages [treeswift]: Start processing: drive-ibd
+[2023-07-03 17:00:40] INFO root fetch - main [MainThread]: End processing [treeswift]: success
+[2023-07-03 17:00:40] INFO root fetch - processPackages [highrise-bot-sdk]: Downloading https://files.pythonhosted.org/packages/d8/2e/d478c8615ab808c6782ccfc14040e1326b207fe0187fe64a760f8532ed5e/highrise_bot_sdk-23.1.0b9.tar.gz
+[2023-07-03 17:00:40] INFO root fetch - processPackages [zit]: Remove: archive file [/home/abi/fetcher/tmp/zit-0.0.2a1.tar.gz]
+[2023-07-03 17:00:40] INFO root fetch - processPackages [zit]: Remove: archive file [/home/abi/fetcher/tmp/zit-0.0.2a2.tar.gz]
+[2023-07-03 17:00:40] INFO root fetch - main [MainThread]: End processing [zit]: success
+[2023-07-03 17:00:40] INFO root fetch - processPackages [drive-ibd]: New version: [2.0.6] Old Version: [2.0.5]
+[2023-07-03 17:00:40] INFO root fetch - processPackages [crossroads-schematization]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-07-03 17:00:41] INFO root fetch - processPackages [goxlrutilityapi]: executing diffoscope
+[2023-07-03 17:00:41] INFO root fetch - processPackages [splight-cli]: Downloading https://files.pythonhosted.org/packages/20/c3/ca7ab2d1fc5099032b48d1f2a263b5afd0a912fbb01ca5cb409d5b5dde19/splight-cli-3.0.7.tar.gz
+[2023-07-03 17:00:41] INFO root fetch - processPackages [goxlrutilityapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/goxlrutilityapi-1.1.3.dev0.tar.gz tmp/goxlrutilityapi-1.2.0.tar.gz --markdown 20230703/g/goxlrutilityapi/1.1.3.dev0-1.2.0/diff.md --exclude *.pyd
+[2023-07-03 17:00:41] INFO root fetch - processPackages [arfs]: Remove: archive file [/home/abi/fetcher/tmp/arfs-1.1.2.tar.gz]
+[2023-07-03 17:00:41] INFO root fetch - processPackages [arfs]: Remove: archive file [/home/abi/fetcher/tmp/arfs-1.1.3.tar.gz]
+[2023-07-03 17:00:41] INFO root fetch - main [MainThread]: End processing [arfs]: success
+[2023-07-03 17:00:41] INFO root fetch - processPackages [spark-quality-rules-tools]: Downloading https://files.pythonhosted.org/packages/ff/1f/ebdfcf21de6a86529b6d3a6a33151d251170562f58d827576f7ac8484ee1/spark_quality_rules_tools-0.4.2.tar.gz
+[2023-07-03 17:00:41] INFO root fetch - processPackages [highrise-bot-sdk]: executing diffoscope
+[2023-07-03 17:00:41] INFO root fetch - processPackages [highrise-bot-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/highrise_bot_sdk-23.1.0b8.tar.gz tmp/highrise_bot_sdk-23.1.0b9.tar.gz --markdown 20230703/h/highrise-bot-sdk/23.1.0b8-23.1.0b9/diff.md --exclude *.pyd
+[2023-07-03 17:00:41] INFO root fetch - processPackages [drive-ibd]: Downloading https://files.pythonhosted.org/packages/c1/af/1b43a4b517eb4a8f47fb7204907769d11f21e240689df77581b515345ba0/drive_ibd-2.0.5.tar.gz
+[2023-07-03 17:00:41] INFO root fetch - processPackages [splight-cli]: executing diffoscope
+[2023-07-03 17:00:41] INFO root fetch - processPackages [splight-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/splight-cli-3.0.6.tar.gz tmp/splight-cli-3.0.7.tar.gz --markdown 20230703/s/splight-cli/3.0.6-3.0.7/diff.md --exclude *.pyd
+[2023-07-03 17:00:41] INFO root fetch - processPackages [crossroads-schematization]: Downloading https://files.pythonhosted.org/packages/b6/49/45483652ec5c954d29f6596327468263abd76f6df13c01929eb86f9d73fb/crossroads-schematization-0.2.2.tar.gz
+[2023-07-03 17:00:41] INFO root fetch - processPackages [gridstatus]: Remove: archive file [/home/abi/fetcher/tmp/gridstatus-0.21.0.tar.gz]
+[2023-07-03 17:00:41] INFO root fetch - processPackages [gridstatus]: Remove: archive file [/home/abi/fetcher/tmp/gridstatus-0.22.0.tar.gz]
+[2023-07-03 17:00:41] INFO root fetch - main [MainThread]: End processing [gridstatus]: success
+[2023-07-03 17:00:41] INFO root fetch - processPackages [spark-quality-rules-tools]: Downloading https://files.pythonhosted.org/packages/82/1e/f50cc89974e146fc8d3859b71d23f762d02cf32f5b0a87e3a641e0f9cfa9/spark_quality_rules_tools-0.5.0.tar.gz
+[2023-07-03 17:00:41] INFO root fetch - processPackages [drive-ibd]: Downloading https://files.pythonhosted.org/packages/d3/46/89cbbf0afc8804b4ab013e29d6cf6162badc9f7949964ebfa56d56d8c99a/drive_ibd-2.0.6.tar.gz
+[2023-07-03 17:00:41] INFO root fetch - processPackages [spark-quality-rules-tools]: executing diffoscope
+[2023-07-03 17:00:41] INFO root fetch - processPackages [spark-quality-rules-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spark_quality_rules_tools-0.4.2.tar.gz tmp/spark_quality_rules_tools-0.5.0.tar.gz --markdown 20230703/s/spark-quality-rules-tools/0.4.2-0.5.0/diff.md --exclude *.pyd
+[2023-07-03 17:00:41] INFO root fetch - processPackages [crossroads-schematization]: Downloading https://files.pythonhosted.org/packages/35/7a/87734bb2c5488e212e522d9c7b3b043a428e23a9dc6924d1d803bda271bd/crossroads-schematization-0.2.3.tar.gz
+[2023-07-03 17:00:41] INFO root fetch - processPackages [drive-ibd]: executing diffoscope
+[2023-07-03 17:00:41] INFO root fetch - processPackages [drive-ibd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drive_ibd-2.0.5.tar.gz tmp/drive_ibd-2.0.6.tar.gz --markdown 20230703/d/drive-ibd/2.0.5-2.0.6/diff.md --exclude *.pyd
+[2023-07-03 17:00:41] INFO root fetch - processPackages [crossroads-schematization]: executing diffoscope
+[2023-07-03 17:00:41] INFO root fetch - processPackages [crossroads-schematization]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crossroads-schematization-0.2.2.tar.gz tmp/crossroads-schematization-0.2.3.tar.gz --markdown 20230703/c/crossroads-schematization/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-07-03 17:00:42] INFO root fetch - processPackages [goxlrutilityapi]: Remove: archive file [/home/abi/fetcher/tmp/goxlrutilityapi-1.1.3.dev0.tar.gz]
+[2023-07-03 17:00:42] INFO root fetch - processPackages [goxlrutilityapi]: Remove: archive file [/home/abi/fetcher/tmp/goxlrutilityapi-1.2.0.tar.gz]
+[2023-07-03 17:00:42] INFO root fetch - main [MainThread]: End processing [goxlrutilityapi]: success
+[2023-07-03 17:00:42] INFO root fetch - processPackages [highrise-bot-sdk]: Remove: archive file [/home/abi/fetcher/tmp/highrise_bot_sdk-23.1.0b8.tar.gz]
+[2023-07-03 17:00:42] INFO root fetch - processPackages [highrise-bot-sdk]: Remove: archive file [/home/abi/fetcher/tmp/highrise_bot_sdk-23.1.0b9.tar.gz]
+[2023-07-03 17:00:42] INFO root fetch - main [MainThread]: End processing [highrise-bot-sdk]: success
+[2023-07-03 17:00:42] INFO root fetch - processPackages [splight-cli]: Remove: archive file [/home/abi/fetcher/tmp/splight-cli-3.0.6.tar.gz]
+[2023-07-03 17:00:42] INFO root fetch - processPackages [splight-cli]: Remove: archive file [/home/abi/fetcher/tmp/splight-cli-3.0.7.tar.gz]
+[2023-07-03 17:00:42] INFO root fetch - main [MainThread]: End processing [splight-cli]: success
+[2023-07-03 17:00:42] INFO root fetch - processPackages [spark-quality-rules-tools]: Remove: archive file [/home/abi/fetcher/tmp/spark_quality_rules_tools-0.4.2.tar.gz]
+[2023-07-03 17:00:42] INFO root fetch - processPackages [spark-quality-rules-tools]: Remove: archive file [/home/abi/fetcher/tmp/spark_quality_rules_tools-0.5.0.tar.gz]
+[2023-07-03 17:00:42] INFO root fetch - main [MainThread]: End processing [spark-quality-rules-tools]: success
+[2023-07-03 17:00:42] INFO root fetch - processPackages [drive-ibd]: Remove: archive file [/home/abi/fetcher/tmp/drive_ibd-2.0.5.tar.gz]
+[2023-07-03 17:00:42] INFO root fetch - processPackages [drive-ibd]: Remove: archive file [/home/abi/fetcher/tmp/drive_ibd-2.0.6.tar.gz]
+[2023-07-03 17:00:42] INFO root fetch - main [MainThread]: End processing [drive-ibd]: success
+[2023-07-03 17:00:43] INFO root fetch - processPackages [crossroads-schematization]: Remove: archive file [/home/abi/fetcher/tmp/crossroads-schematization-0.2.2.tar.gz]
+[2023-07-03 17:00:43] INFO root fetch - processPackages [crossroads-schematization]: Remove: archive file [/home/abi/fetcher/tmp/crossroads-schematization-0.2.3.tar.gz]
+[2023-07-03 17:00:43] INFO root fetch - main [MainThread]: End processing [crossroads-schematization]: success
+[2023-07-03 17:00:44] INFO root fetch - processPackages [c2cciutils]: Remove: archive file [/home/abi/fetcher/tmp/c2cciutils-1.6.0.dev98.tar.gz]
+[2023-07-03 17:00:44] INFO root fetch - processPackages [c2cciutils]: Remove: archive file [/home/abi/fetcher/tmp/c2cciutils-1.6.0.dev99.tar.gz]
+[2023-07-03 17:00:44] INFO root fetch - main [MainThread]: End processing [c2cciutils]: success
+[2023-07-03 17:00:44] INFO root fetch - main [MainThread]: Store serial: [18741019]
