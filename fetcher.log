@@ -6870,3 +6870,81 @@
 [2023-07-03 06:27:06] INFO root fetch - processPackages [bomf]: Remove: archive file [/home/abi/fetcher/tmp/bomf-0.5.9.tar.gz]
 [2023-07-03 06:27:06] INFO root fetch - main [MainThread]: End processing [bomf]: success
 [2023-07-03 06:27:06] INFO root fetch - main [MainThread]: Store serial: [18734599]
+[2023-07-03 06:32:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18734599]
+[2023-07-03 06:32:16] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-03 06:32:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ecr-scan-notifier
+[2023-07-03 06:32:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mypyref
+[2023-07-03 06:32:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: terraform-backend-s3-bucket
+[2023-07-03 06:32:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo14-addon-pms
+[2023-07-03 06:32:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: upstash-redis
+[2023-07-03 06:32:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: excel-splitter
+[2023-07-03 06:32:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nonebot-plugin-stable-diffusion-diao
+[2023-07-03 06:32:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: rangekeeper
+[2023-07-03 06:32:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: loguru-discord
+[2023-07-03 06:32:16] INFO root fetch - processPackages [ecr-scan-notifier]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-03 06:32:16] INFO root fetch - processPackages [terraform-backend-s3-bucket]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-03 06:32:16] INFO root fetch - processPackages [upstash-redis]: New version: [0.14.2] Old Version: [0.14.1]
+[2023-07-03 06:32:16] INFO root fetch - processPackages [mypyref]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-03 06:32:16] WARNING root fetch - processPackages [excel-splitter]: Skipping, unable to determine old version
+[2023-07-03 06:32:16] INFO root fetch - processPackages [rangekeeper]: New version: [0.4.0a0] Old Version: [0.2.1a0]
+[2023-07-03 06:32:16] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-07-03 06:32:16] INFO root fetch - main [MainThread]: End processing [excel-splitter] error
+[2023-07-03 06:32:16] INFO root fetch - processPackages [loguru-discord]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-03 06:32:16] INFO root fetch - processPackages [odoo14-addon-pms]: New version: [14.0.2.9.0] Old Version: [14.0.2.8.0]
+[2023-07-03 06:32:16] INFO root fetch - processPackages [upstash-redis]: Downloading https://files.pythonhosted.org/packages/26/4b/ad50b1aa2db7b754834a6bc0360523e8b37b88c0bafe78d918ae67aaa3bb/upstash_redis-0.14.1.tar.gz
+[2023-07-03 06:32:16] INFO root fetch - processPackages [mypyref]: Downloading https://files.pythonhosted.org/packages/6e/d1/3576f04cf19ab66809988abd97dc3df2039c023fcc643ddb22b95cba30cc/mypyref-0.0.2.tar.gz
+[2023-07-03 06:32:16] INFO root fetch - processPackages [terraform-backend-s3-bucket]: Downloading https://files.pythonhosted.org/packages/c8/d0/f24de56a6375142a732a6a63a2870145dbda0f949c19b7e1b44fe223b748/terraform-backend-s3-bucket-0.0.8.tar.gz
+[2023-07-03 06:32:16] INFO root fetch - processPackages [rangekeeper]: Downloading https://files.pythonhosted.org/packages/8d/e8/de34786617e03d3d84c3984e4ce3ea051432344e9fd6d855f89825246e11/rangekeeper-0.2.1a0.tar.gz
+[2023-07-03 06:32:16] INFO root fetch - processPackages [odoo14-addon-pms]: Downloading https://files.pythonhosted.org/packages/35/dd/9ca9ec4be1214b080d690d035081114d6c68515ac18307d8cb5edc8c7664/odoo14_addon_pms-14.0.2.8.0-py3-none-any.whl
+[2023-07-03 06:32:16] INFO root fetch - processPackages [ecr-scan-notifier]: Downloading https://files.pythonhosted.org/packages/7a/7a/dbde61edbf68737ebf8dc9eb661a80f9cb652b4209f0ab165f5a40c3ea19/ecr-scan-notifier-0.0.4.tar.gz
+[2023-07-03 06:32:16] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: Downloading https://files.pythonhosted.org/packages/7d/22/72a6cc3cf5e8df3b32d8ce2d08000e83ff657688106f6b716e5958a16d45/nonebot_plugin_stable_diffusion_diao-0.2.2.tar.gz
+[2023-07-03 06:32:16] INFO root fetch - processPackages [loguru-discord]: Downloading https://files.pythonhosted.org/packages/87/4a/8c15e48e34fa380c2a54c907dae6ba6fb30a43a41263880d6408a249841a/loguru_discord-1.0.0.tar.gz
+[2023-07-03 06:32:16] INFO root fetch - processPackages [upstash-redis]: Downloading https://files.pythonhosted.org/packages/7d/29/090232cd8af20e8c1710ba0ab7a9d69fc0ff4f82cdd96f95931ca1ea192a/upstash_redis-0.14.2.tar.gz
+[2023-07-03 06:32:17] INFO root fetch - processPackages [mypyref]: Downloading https://files.pythonhosted.org/packages/9a/6f/d49a2cb1d9c83dfbe4d8ac8d5dbabd9297ddf8d180b804c245c469e72b66/mypyref-0.0.3.tar.gz
+[2023-07-03 06:32:17] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: Downloading https://files.pythonhosted.org/packages/28/6e/6cb8bc0765c25169809b55f52932d5ca35264562d349b5efbac60d186f44/nonebot_plugin_stable_diffusion_diao-0.2.3.tar.gz
+[2023-07-03 06:32:17] INFO root fetch - processPackages [loguru-discord]: Downloading https://files.pythonhosted.org/packages/e2/d3/1281886c302d6fabe26bda50e9eae3661f5bb22e2ec21df536adedba359d/loguru_discord-1.0.1.tar.gz
+[2023-07-03 06:32:17] INFO root fetch - processPackages [upstash-redis]: executing diffoscope
+[2023-07-03 06:32:17] INFO root fetch - processPackages [upstash-redis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/upstash_redis-0.14.1.tar.gz tmp/upstash_redis-0.14.2.tar.gz --markdown 20230703/u/upstash-redis/0.14.1-0.14.2/diff.md --exclude *.pyd
+[2023-07-03 06:32:17] INFO root fetch - processPackages [ecr-scan-notifier]: Downloading https://files.pythonhosted.org/packages/25/dd/ccedf89f8814cb7040661652c00d47f2922a4413064d59b655881dfd1664/ecr-scan-notifier-0.0.5.tar.gz
+[2023-07-03 06:32:17] INFO root fetch - processPackages [odoo14-addon-pms]: Downloading https://files.pythonhosted.org/packages/6b/d2/872d4271026f02e164cdf6773633ee7c39723165f305fdf11e37a2224677/odoo14_addon_pms-14.0.2.9.0-py3-none-any.whl
+[2023-07-03 06:32:17] INFO root fetch - processPackages [rangekeeper]: Downloading https://files.pythonhosted.org/packages/b2/8a/578be52c0676d603bef9497f72a491bf9bbc7dfbcc64d916f9c34bc0af5a/rangekeeper-0.4.0a0.tar.gz
+[2023-07-03 06:32:17] INFO root fetch - processPackages [terraform-backend-s3-bucket]: Downloading https://files.pythonhosted.org/packages/cb/5e/264cab254692a82c02a6b4183994138c7fbe1b9f89a8df282e61342ed3ee/terraform-backend-s3-bucket-0.0.9.tar.gz
+[2023-07-03 06:32:17] INFO root fetch - processPackages [mypyref]: executing diffoscope
+[2023-07-03 06:32:17] INFO root fetch - processPackages [mypyref]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mypyref-0.0.2.tar.gz tmp/mypyref-0.0.3.tar.gz --markdown 20230703/m/mypyref/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-03 06:32:17] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: executing diffoscope
+[2023-07-03 06:32:17] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_stable_diffusion_diao-0.2.2.tar.gz tmp/nonebot_plugin_stable_diffusion_diao-0.2.3.tar.gz --markdown 20230703/n/nonebot-plugin-stable-diffusion-diao/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-07-03 06:32:17] INFO root fetch - processPackages [loguru-discord]: executing diffoscope
+[2023-07-03 06:32:17] INFO root fetch - processPackages [loguru-discord]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/loguru_discord-1.0.0.tar.gz tmp/loguru_discord-1.0.1.tar.gz --markdown 20230703/l/loguru-discord/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-03 06:32:17] INFO root fetch - processPackages [ecr-scan-notifier]: executing diffoscope
+[2023-07-03 06:32:17] INFO root fetch - processPackages [ecr-scan-notifier]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ecr-scan-notifier-0.0.4.tar.gz tmp/ecr-scan-notifier-0.0.5.tar.gz --markdown 20230703/e/ecr-scan-notifier/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-03 06:32:17] INFO root fetch - processPackages [rangekeeper]: executing diffoscope
+[2023-07-03 06:32:17] INFO root fetch - processPackages [rangekeeper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rangekeeper-0.2.1a0.tar.gz tmp/rangekeeper-0.4.0a0.tar.gz --markdown 20230703/r/rangekeeper/0.2.1a0-0.4.0a0/diff.md --exclude *.pyd
+[2023-07-03 06:32:17] INFO root fetch - processPackages [odoo14-addon-pms]: executing diffoscope
+[2023-07-03 06:32:17] INFO root fetch - processPackages [odoo14-addon-pms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_pms-14.0.2.8.0-py3-none-any.whl.zip tmp/odoo14_addon_pms-14.0.2.9.0-py3-none-any.whl.zip --markdown 20230703/o/odoo14-addon-pms/14.0.2.8.0-14.0.2.9.0/diff.md --exclude *.pyd
+[2023-07-03 06:32:17] INFO root fetch - processPackages [terraform-backend-s3-bucket]: executing diffoscope
+[2023-07-03 06:32:17] INFO root fetch - processPackages [terraform-backend-s3-bucket]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/terraform-backend-s3-bucket-0.0.8.tar.gz tmp/terraform-backend-s3-bucket-0.0.9.tar.gz --markdown 20230703/t/terraform-backend-s3-bucket/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-03 06:32:18] INFO root fetch - processPackages [mypyref]: Remove: archive file [/home/abi/fetcher/tmp/mypyref-0.0.2.tar.gz]
+[2023-07-03 06:32:18] INFO root fetch - processPackages [mypyref]: Remove: archive file [/home/abi/fetcher/tmp/mypyref-0.0.3.tar.gz]
+[2023-07-03 06:32:18] INFO root fetch - main [MainThread]: End processing [mypyref]: success
+[2023-07-03 06:32:18] INFO root fetch - processPackages [loguru-discord]: Remove: archive file [/home/abi/fetcher/tmp/loguru_discord-1.0.0.tar.gz]
+[2023-07-03 06:32:18] INFO root fetch - processPackages [loguru-discord]: Remove: archive file [/home/abi/fetcher/tmp/loguru_discord-1.0.1.tar.gz]
+[2023-07-03 06:32:18] INFO root fetch - main [MainThread]: End processing [loguru-discord]: success
+[2023-07-03 06:32:18] INFO root fetch - processPackages [ecr-scan-notifier]: Remove: archive file [/home/abi/fetcher/tmp/ecr-scan-notifier-0.0.4.tar.gz]
+[2023-07-03 06:32:18] INFO root fetch - processPackages [ecr-scan-notifier]: Remove: archive file [/home/abi/fetcher/tmp/ecr-scan-notifier-0.0.5.tar.gz]
+[2023-07-03 06:32:18] INFO root fetch - main [MainThread]: End processing [ecr-scan-notifier]: success
+[2023-07-03 06:32:18] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_stable_diffusion_diao-0.2.2.tar.gz]
+[2023-07-03 06:32:18] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_stable_diffusion_diao-0.2.3.tar.gz]
+[2023-07-03 06:32:18] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-stable-diffusion-diao]: success
+[2023-07-03 06:32:18] INFO root fetch - processPackages [rangekeeper]: Remove: archive file [/home/abi/fetcher/tmp/rangekeeper-0.2.1a0.tar.gz]
+[2023-07-03 06:32:18] INFO root fetch - processPackages [rangekeeper]: Remove: archive file [/home/abi/fetcher/tmp/rangekeeper-0.4.0a0.tar.gz]
+[2023-07-03 06:32:18] INFO root fetch - main [MainThread]: End processing [rangekeeper]: success
+[2023-07-03 06:32:18] INFO root fetch - processPackages [upstash-redis]: Remove: archive file [/home/abi/fetcher/tmp/upstash_redis-0.14.1.tar.gz]
+[2023-07-03 06:32:18] INFO root fetch - processPackages [upstash-redis]: Remove: archive file [/home/abi/fetcher/tmp/upstash_redis-0.14.2.tar.gz]
+[2023-07-03 06:32:18] INFO root fetch - main [MainThread]: End processing [upstash-redis]: success
+[2023-07-03 06:32:18] INFO root fetch - processPackages [terraform-backend-s3-bucket]: Remove: archive file [/home/abi/fetcher/tmp/terraform-backend-s3-bucket-0.0.8.tar.gz]
+[2023-07-03 06:32:18] INFO root fetch - processPackages [terraform-backend-s3-bucket]: Remove: archive file [/home/abi/fetcher/tmp/terraform-backend-s3-bucket-0.0.9.tar.gz]
+[2023-07-03 06:32:18] INFO root fetch - main [MainThread]: End processing [terraform-backend-s3-bucket]: success
+[2023-07-03 06:32:19] INFO root fetch - processPackages [odoo14-addon-pms]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_pms-14.0.2.8.0-py3-none-any.whl.zip]
+[2023-07-03 06:32:19] INFO root fetch - processPackages [odoo14-addon-pms]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_pms-14.0.2.9.0-py3-none-any.whl.zip]
+[2023-07-03 06:32:19] INFO root fetch - main [MainThread]: End processing [odoo14-addon-pms]: success
+[2023-07-03 06:32:19] INFO root fetch - main [MainThread]: Store serial: [18734627]
