@@ -4416,3 +4416,120 @@
 [2023-07-03 03:01:06] INFO root fetch - processPackages [jyablonski-common-modules]: Remove: archive file [/home/abi/fetcher/tmp/jyablonski_common_modules-0.0.2.tar.gz]
 [2023-07-03 03:01:06] INFO root fetch - main [MainThread]: End processing [jyablonski-common-modules]: success
 [2023-07-03 03:01:06] INFO root fetch - main [MainThread]: Store serial: [18733423]
+[2023-07-03 03:06:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18733423]
+[2023-07-03 03:06:16] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-07-03 03:06:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: idoctorai
+[2023-07-03 03:06:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk-databrew-cicd
+[2023-07-03 03:06:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jsoner-lib
+[2023-07-03 03:06:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kerberos-auth-proxy
+[2023-07-03 03:06:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: msgram-core
+[2023-07-03 03:06:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: electricalsim
+[2023-07-03 03:06:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: catmapper
+[2023-07-03 03:06:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: qworker
+[2023-07-03 03:06:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ra2mix
+[2023-07-03 03:06:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cycparser
+[2023-07-03 03:06:16] INFO root fetch - processPackages [idoctorai]: New version: [0.6.3] Old Version: [0.6.2]
+[2023-07-03 03:06:16] INFO root fetch - processPackages [ra2mix]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-03 03:06:16] INFO root fetch - processPackages [jsoner-lib]: New version: [0.3] Old Version: [0.2]
+[2023-07-03 03:06:16] INFO root fetch - processPackages [msgram-core]: New version: [1.3.2] Old Version: [1.3.1]
+[2023-07-03 03:06:16] WARNING root fetch - processPackages [kerberos-auth-proxy]: Skipping, unable to determine old version
+[2023-07-03 03:06:16] INFO root fetch - processPackages [kerberos-auth-proxy]: Start processing: PyFakeDados
+[2023-07-03 03:06:16] INFO root fetch - main [MainThread]: End processing [kerberos-auth-proxy] error
+[2023-07-03 03:06:16] INFO root fetch - processPackages [electricalsim]: New version: [0.0.7.1] Old Version: [0.0.7.0]
+[2023-07-03 03:06:16] WARNING root fetch - processPackages [catmapper]: Skipping, unable to determine old version
+[2023-07-03 03:06:16] INFO root fetch - processPackages [catmapper]: Start processing: hue-sunrise
+[2023-07-03 03:06:16] INFO root fetch - main [MainThread]: End processing [catmapper] error
+[2023-07-03 03:06:16] INFO root fetch - processPackages [cdk-databrew-cicd]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-07-03 03:06:16] INFO root fetch - processPackages [PyFakeDados]: New version: [0.0.5.2] Old Version: [0.0.5.1]
+[2023-07-03 03:06:16] INFO root fetch - processPackages [qworker]: New version: [1.9.8] Old Version: [1.9.7]
+[2023-07-03 03:06:16] INFO root fetch - processPackages [cycparser]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-07-03 03:06:16] INFO root fetch - processPackages [hue-sunrise]: New version: [0.6.9] Old Version: [0.6.8]
+[2023-07-03 03:06:16] INFO root fetch - processPackages [ra2mix]: Downloading https://files.pythonhosted.org/packages/21/a7/43a1df6f9059b4c6ec6fb02b27a5df256a0c0d04d192b07f575c5a8afbf3/ra2mix-0.0.5.tar.gz
+[2023-07-03 03:06:16] INFO root fetch - processPackages [jsoner-lib]: Downloading https://files.pythonhosted.org/packages/c1/00/9a36ab9866303afe1e2541714324576cd4e3e6dfbb192145f221d137033a/jsoner-lib-0.2.tar.gz
+[2023-07-03 03:06:16] INFO root fetch - processPackages [cdk-databrew-cicd]: Downloading https://files.pythonhosted.org/packages/9c/18/acad9d22fe20a13d93a1aee49739981e3ab739a2edcb478344aa0fc5b783/cdk_databrew_cicd-2.0.98.tar.gz
+[2023-07-03 03:06:16] INFO root fetch - processPackages [qworker]: Downloading https://files.pythonhosted.org/packages/bc/e4/b347a8ab8b662c4ed0629523f841f2e1f920edd472181d182f03352c43db/qworker-1.9.7-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-03 03:06:16] INFO root fetch - processPackages [idoctorai]: Downloading https://files.pythonhosted.org/packages/82/9b/0acfa4795dcf676e14cc340331263fd623b1756e32f3a4d72529ccfde0d7/idoctorai-0.6.2.tar.gz
+[2023-07-03 03:06:16] INFO root fetch - processPackages [msgram-core]: Downloading https://files.pythonhosted.org/packages/c9/f2/1a1aaae1d8729972794150dc8662218a89b943250e2bbd61842b07709914/msgram_core-1.3.1.tar.gz
+[2023-07-03 03:06:16] INFO root fetch - processPackages [electricalsim]: Downloading https://files.pythonhosted.org/packages/f8/4a/018343eb737eb2f8faf21def1f9f0172e8c4f8c6238233f99356152b9fec/electricalsim-0.0.7.0.tar.gz
+[2023-07-03 03:06:16] INFO root fetch - processPackages [PyFakeDados]: Downloading https://files.pythonhosted.org/packages/27/11/05203ff56229912a6c7e64a82ee93639737e1f6c500c729f06643bd5f5d9/PyFakeDados-0.0.5.1.tar.gz
+[2023-07-03 03:06:16] INFO root fetch - processPackages [hue-sunrise]: Downloading https://files.pythonhosted.org/packages/ca/e9/540d059956f78f9c8fe289ac263b36659e46539f8aa5f3d1bed8516aceb4/hue_sunrise-0.6.8.tar.gz
+[2023-07-03 03:06:16] INFO root fetch - processPackages [cdk-databrew-cicd]: Downloading https://files.pythonhosted.org/packages/66/41/4c5089b171b28b627753bb3de1b4b696fdaeb4f78ef49dcb72a79fcb6e9d/cdk_databrew_cicd-2.0.99.tar.gz
+[2023-07-03 03:06:16] INFO root fetch - processPackages [cycparser]: Downloading https://files.pythonhosted.org/packages/1c/df/ccef6d8e9998e1f3a0d71ad2d1dccb82149bd4b6761aa0ba04746369db67/cycparser-1.2.8.tar.gz
+[2023-07-03 03:06:16] INFO root fetch - processPackages [ra2mix]: Downloading https://files.pythonhosted.org/packages/46/1b/b94aad8f90bb084d0f07c79de96b06c788d78382d5d5f6bd594077c53499/ra2mix-0.0.6.tar.gz
+[2023-07-03 03:06:16] INFO root fetch - processPackages [jsoner-lib]: Downloading https://files.pythonhosted.org/packages/c1/79/8fd567fa32f296dbcf3de9fd70e4010180b77273c85c58aa31c274bd4211/jsoner-lib-0.3.tar.gz
+[2023-07-03 03:06:16] INFO root fetch - processPackages [qworker]: Downloading https://files.pythonhosted.org/packages/05/ab/a6c851c81a2baa3ca6b01d585dfe58731fc256f1bfe2ccba47020d9138ec/qworker-1.9.8-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-03 03:06:16] INFO root fetch - processPackages [cdk-databrew-cicd]: executing diffoscope
+[2023-07-03 03:06:16] INFO root fetch - processPackages [cdk-databrew-cicd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk_databrew_cicd-2.0.98.tar.gz tmp/cdk_databrew_cicd-2.0.99.tar.gz --markdown 20230703/c/cdk-databrew-cicd/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-07-03 03:06:16] INFO root fetch - processPackages [ra2mix]: executing diffoscope
+[2023-07-03 03:06:16] INFO root fetch - processPackages [ra2mix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ra2mix-0.0.5.tar.gz tmp/ra2mix-0.0.6.tar.gz --markdown 20230703/r/ra2mix/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-03 03:06:16] INFO root fetch - processPackages [jsoner-lib]: executing diffoscope
+[2023-07-03 03:06:16] INFO root fetch - processPackages [idoctorai]: Downloading https://files.pythonhosted.org/packages/2d/72/f629c7570a193b97ee26fb8a016259441759bac0152ec7ed6a1c384054e2/idoctorai-0.6.3.tar.gz
+[2023-07-03 03:06:16] INFO root fetch - processPackages [jsoner-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jsoner-lib-0.2.tar.gz tmp/jsoner-lib-0.3.tar.gz --markdown 20230703/j/jsoner-lib/0.2-0.3/diff.md --exclude *.pyd
+[2023-07-03 03:06:16] INFO root fetch - processPackages [msgram-core]: Downloading https://files.pythonhosted.org/packages/68/9b/2fce9a704f6c9f1d8606625dc72ce0a92510aaef839278d96df20e3641c9/msgram_core-1.3.2.tar.gz
+[2023-07-03 03:06:16] INFO root fetch - processPackages [PyFakeDados]: Downloading https://files.pythonhosted.org/packages/54/99/0cc519ec6e7cf77e26d780a988d8a77a04dfb962cbf2171e1017d82557c6/PyFakeDados-0.0.5.2.tar.gz
+[2023-07-03 03:06:17] INFO root fetch - processPackages [idoctorai]: executing diffoscope
+[2023-07-03 03:06:17] INFO root fetch - processPackages [idoctorai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idoctorai-0.6.2.tar.gz tmp/idoctorai-0.6.3.tar.gz --markdown 20230703/i/idoctorai/0.6.2-0.6.3/diff.md --exclude *.pyd
+[2023-07-03 03:06:17] INFO root fetch - processPackages [electricalsim]: Downloading https://files.pythonhosted.org/packages/7a/5d/b242d39838ac033ead265dbabee46a01a923ebbee8a9531e5b6457c5ca1f/electricalsim-0.0.7.1.tar.gz
+[2023-07-03 03:06:17] INFO root fetch - processPackages [msgram-core]: executing diffoscope
+[2023-07-03 03:06:17] INFO root fetch - processPackages [msgram-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/msgram_core-1.3.1.tar.gz tmp/msgram_core-1.3.2.tar.gz --markdown 20230703/m/msgram-core/1.3.1-1.3.2/diff.md --exclude *.pyd
+[2023-07-03 03:06:17] INFO root fetch - processPackages [qworker]: executing diffoscope
+[2023-07-03 03:06:17] INFO root fetch - processPackages [qworker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qworker-1.9.7-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/qworker-1.9.8-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230703/q/qworker/1.9.7-1.9.8/diff.md --exclude *.pyd
+[2023-07-03 03:06:17] INFO root fetch - processPackages [PyFakeDados]: executing diffoscope
+[2023-07-03 03:06:17] INFO root fetch - processPackages [PyFakeDados]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyFakeDados-0.0.5.1.tar.gz tmp/PyFakeDados-0.0.5.2.tar.gz --markdown 20230703/P/PyFakeDados/0.0.5.1-0.0.5.2/diff.md --exclude *.pyd
+[2023-07-03 03:06:17] INFO root fetch - processPackages [cycparser]: Downloading https://files.pythonhosted.org/packages/18/d8/2b7fc87b39a5c7e3e5efb3c4fba10bdea69dddbcaccc22660be5d4666496/cycparser-1.2.9.tar.gz
+[2023-07-03 03:06:17] INFO root fetch - processPackages [electricalsim]: executing diffoscope
+[2023-07-03 03:06:17] INFO root fetch - processPackages [electricalsim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/electricalsim-0.0.7.0.tar.gz tmp/electricalsim-0.0.7.1.tar.gz --markdown 20230703/e/electricalsim/0.0.7.0-0.0.7.1/diff.md --exclude *.pyd
+[2023-07-03 03:06:17] INFO root fetch - processPackages [hue-sunrise]: Downloading https://files.pythonhosted.org/packages/fa/05/26bf05e0f3613c7bb941514f32b7c545625037f03289eec39ac8cf0557c9/hue_sunrise-0.6.9.tar.gz
+[2023-07-03 03:06:17] INFO root fetch - processPackages [cycparser]: executing diffoscope
+[2023-07-03 03:06:17] INFO root fetch - processPackages [cycparser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cycparser-1.2.8.tar.gz tmp/cycparser-1.2.9.tar.gz --markdown 20230703/c/cycparser/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-07-03 03:06:17] INFO root fetch - processPackages [hue-sunrise]: executing diffoscope
+[2023-07-03 03:06:17] INFO root fetch - processPackages [hue-sunrise]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hue_sunrise-0.6.8.tar.gz tmp/hue_sunrise-0.6.9.tar.gz --markdown 20230703/h/hue-sunrise/0.6.8-0.6.9/diff.md --exclude *.pyd
+[2023-07-03 03:06:18] INFO root fetch - processPackages [jsoner-lib]: Remove: archive file [/home/abi/fetcher/tmp/jsoner-lib-0.2.tar.gz]
+[2023-07-03 03:06:18] INFO root fetch - processPackages [jsoner-lib]: Remove: archive file [/home/abi/fetcher/tmp/jsoner-lib-0.3.tar.gz]
+[2023-07-03 03:06:18] INFO root fetch - processPackages [jsoner-lib]: Start processing: difai
+[2023-07-03 03:06:18] INFO root fetch - main [MainThread]: End processing [jsoner-lib]: success
+[2023-07-03 03:06:18] INFO root fetch - processPackages [difai]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-03 03:06:18] INFO root fetch - processPackages [difai]: Downloading https://files.pythonhosted.org/packages/28/11/c6881565febce439d43d58de2e2a17606319196ca25c3c27cef1c63d2daa/difai-0.9.8.tar.gz
+[2023-07-03 03:06:18] INFO root fetch - processPackages [ra2mix]: Remove: archive file [/home/abi/fetcher/tmp/ra2mix-0.0.5.tar.gz]
+[2023-07-03 03:06:18] INFO root fetch - processPackages [ra2mix]: Remove: archive file [/home/abi/fetcher/tmp/ra2mix-0.0.6.tar.gz]
+[2023-07-03 03:06:18] INFO root fetch - processPackages [ra2mix]: Start processing: acb
+[2023-07-03 03:06:18] INFO root fetch - main [MainThread]: End processing [ra2mix]: success
+[2023-07-03 03:06:18] INFO root fetch - processPackages [PyFakeDados]: Remove: archive file [/home/abi/fetcher/tmp/PyFakeDados-0.0.5.1.tar.gz]
+[2023-07-03 03:06:18] INFO root fetch - processPackages [PyFakeDados]: Remove: archive file [/home/abi/fetcher/tmp/PyFakeDados-0.0.5.2.tar.gz]
+[2023-07-03 03:06:18] INFO root fetch - main [MainThread]: End processing [PyFakeDados]: success
+[2023-07-03 03:06:18] INFO root fetch - processPackages [hue-sunrise]: Remove: archive file [/home/abi/fetcher/tmp/hue_sunrise-0.6.8.tar.gz]
+[2023-07-03 03:06:18] INFO root fetch - processPackages [hue-sunrise]: Remove: archive file [/home/abi/fetcher/tmp/hue_sunrise-0.6.9.tar.gz]
+[2023-07-03 03:06:18] INFO root fetch - main [MainThread]: End processing [hue-sunrise]: success
+[2023-07-03 03:06:18] INFO root fetch - processPackages [acb]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-07-03 03:06:18] INFO root fetch - processPackages [cycparser]: Remove: archive file [/home/abi/fetcher/tmp/cycparser-1.2.8.tar.gz]
+[2023-07-03 03:06:18] INFO root fetch - processPackages [cycparser]: Remove: archive file [/home/abi/fetcher/tmp/cycparser-1.2.9.tar.gz]
+[2023-07-03 03:06:18] INFO root fetch - main [MainThread]: End processing [cycparser]: success
+[2023-07-03 03:06:18] INFO root fetch - processPackages [difai]: Downloading https://files.pythonhosted.org/packages/f8/09/7d1db68c5c752de567fec30ef6c66715361c7a8ab440134667aaef9c87d1/difai-0.9.9.tar.gz
+[2023-07-03 03:06:18] INFO root fetch - processPackages [difai]: executing diffoscope
+[2023-07-03 03:06:18] INFO root fetch - processPackages [difai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/difai-0.9.8.tar.gz tmp/difai-0.9.9.tar.gz --markdown 20230703/d/difai/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-03 03:06:18] INFO root fetch - processPackages [idoctorai]: Remove: archive file [/home/abi/fetcher/tmp/idoctorai-0.6.2.tar.gz]
+[2023-07-03 03:06:18] INFO root fetch - processPackages [idoctorai]: Remove: archive file [/home/abi/fetcher/tmp/idoctorai-0.6.3.tar.gz]
+[2023-07-03 03:06:18] INFO root fetch - main [MainThread]: End processing [idoctorai]: success
+[2023-07-03 03:06:19] INFO root fetch - processPackages [acb]: Downloading https://files.pythonhosted.org/packages/75/cb/533db2fee1500ae6a8a069068a60c4de78fbe281fdeaaa72ba8604c93199/acb-0.1.7.tar.gz
+[2023-07-03 03:06:19] INFO root fetch - processPackages [msgram-core]: Remove: archive file [/home/abi/fetcher/tmp/msgram_core-1.3.1.tar.gz]
+[2023-07-03 03:06:19] INFO root fetch - processPackages [msgram-core]: Remove: archive file [/home/abi/fetcher/tmp/msgram_core-1.3.2.tar.gz]
+[2023-07-03 03:06:19] INFO root fetch - main [MainThread]: End processing [msgram-core]: success
+[2023-07-03 03:06:19] INFO root fetch - processPackages [acb]: Downloading https://files.pythonhosted.org/packages/ef/d1/3cf3b96bae040d2a206219fd8c0769045f7c0624564d32da569d5b322105/acb-0.1.8.tar.gz
+[2023-07-03 03:06:19] INFO root fetch - processPackages [acb]: executing diffoscope
+[2023-07-03 03:06:19] INFO root fetch - processPackages [acb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acb-0.1.7.tar.gz tmp/acb-0.1.8.tar.gz --markdown 20230703/a/acb/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-07-03 03:06:19] INFO root fetch - processPackages [qworker]: Remove: archive file [/home/abi/fetcher/tmp/qworker-1.9.7-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-03 03:06:19] INFO root fetch - processPackages [qworker]: Remove: archive file [/home/abi/fetcher/tmp/qworker-1.9.8-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-03 03:06:19] INFO root fetch - main [MainThread]: End processing [qworker]: success
+[2023-07-03 03:06:20] INFO root fetch - processPackages [difai]: Remove: archive file [/home/abi/fetcher/tmp/difai-0.9.8.tar.gz]
+[2023-07-03 03:06:20] INFO root fetch - processPackages [difai]: Remove: archive file [/home/abi/fetcher/tmp/difai-0.9.9.tar.gz]
+[2023-07-03 03:06:20] INFO root fetch - main [MainThread]: End processing [difai]: success
+[2023-07-03 03:06:20] INFO root fetch - processPackages [acb]: Remove: archive file [/home/abi/fetcher/tmp/acb-0.1.7.tar.gz]
+[2023-07-03 03:06:20] INFO root fetch - processPackages [acb]: Remove: archive file [/home/abi/fetcher/tmp/acb-0.1.8.tar.gz]
+[2023-07-03 03:06:20] INFO root fetch - main [MainThread]: End processing [acb]: success
+[2023-07-03 03:06:21] INFO root fetch - processPackages [cdk-databrew-cicd]: Remove: archive file [/home/abi/fetcher/tmp/cdk_databrew_cicd-2.0.98.tar.gz]
+[2023-07-03 03:06:21] INFO root fetch - processPackages [cdk-databrew-cicd]: Remove: archive file [/home/abi/fetcher/tmp/cdk_databrew_cicd-2.0.99.tar.gz]
+[2023-07-03 03:06:21] INFO root fetch - main [MainThread]: End processing [cdk-databrew-cicd]: success
+[2023-07-03 03:07:12] INFO root fetch - processPackages [electricalsim]: Remove: archive file [/home/abi/fetcher/tmp/electricalsim-0.0.7.0.tar.gz]
+[2023-07-03 03:07:12] INFO root fetch - processPackages [electricalsim]: Remove: archive file [/home/abi/fetcher/tmp/electricalsim-0.0.7.1.tar.gz]
+[2023-07-03 03:07:12] INFO root fetch - main [MainThread]: End processing [electricalsim]: success
+[2023-07-03 03:07:12] INFO root fetch - main [MainThread]: Store serial: [18733469]
