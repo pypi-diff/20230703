@@ -8241,3 +8241,141 @@ AssertionError: tmp/bardapi-0.1.8.tar.gz does not exist
 [2023-07-03 08:15:19] INFO root fetch - processPackages [pyg-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyg_nightly-2.4.0.dev20230702.tar.gz]
 [2023-07-03 08:15:19] INFO root fetch - main [MainThread]: End processing [pyg-nightly]: success
 [2023-07-03 08:15:19] INFO root fetch - main [MainThread]: Store serial: [18735183]
+[2023-07-03 08:20:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18735183]
+[2023-07-03 08:20:30] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-07-03 08:20:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ucloud-sdk-python3
+[2023-07-03 08:20:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pytest-xlsx
+[2023-07-03 08:20:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk-cloudformation-github-teams-membership
+[2023-07-03 08:20:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdk-cloudformation-github-organizations-secret
+[2023-07-03 08:20:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mathkit
+[2023-07-03 08:20:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cdk-cloudformation-github-teams-team
+[2023-07-03 08:20:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cdk-cloudformation-github-repositories-secret
+[2023-07-03 08:20:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: discord-ansi-messages
+[2023-07-03 08:20:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cdk-cloudformation-github-teams-repositoryaccess
+[2023-07-03 08:20:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: gwlandscape-python
+[2023-07-03 08:20:30] ERROR root fetch - processPackages [cdk-cloudformation-github-organizations-secret]: Unable to get metadata: No such project 'cdk-cloudformation-github-organizations-secret'
+[2023-07-03 08:20:30] INFO root fetch - processPackages [cdk-cloudformation-github-organizations-secret]: Start processing: bardapi
+[2023-07-03 08:20:30] INFO root fetch - processPackages [cdk-cloudformation-github-teams-membership]: New version: [1.4.0a7] Old Version: [1.2.0a7]
+[2023-07-03 08:20:30] INFO root fetch - main [MainThread]: End processing [cdk-cloudformation-github-organizations-secret] error
+[2023-07-03 08:20:30] WARNING root fetch - processPackages [discord-ansi-messages]: Skipping, unable to determine old version
+[2023-07-03 08:20:30] INFO root fetch - processPackages [discord-ansi-messages]: Start processing: cdk-cloudformation-github-organizations-membership
+[2023-07-03 08:20:30] INFO root fetch - main [MainThread]: End processing [discord-ansi-messages] error
+[2023-07-03 08:20:30] INFO root fetch - processPackages [mathkit]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-07-03 08:20:30] ERROR root fetch - processPackages [cdk-cloudformation-github-repositories-secret]: Unable to get metadata: No such project 'cdk-cloudformation-github-repositories-secret'
+[2023-07-03 08:20:30] INFO root fetch - processPackages [cdk-cloudformation-github-repositories-secret]: Start processing: cdk-cloudformation-github-repositories-collaborator
+[2023-07-03 08:20:30] INFO root fetch - processPackages [cdk-cloudformation-github-teams-repositoryaccess]: New version: [1.3.0a7] Old Version: [1.1.0a7]
+[2023-07-03 08:20:30] INFO root fetch - main [MainThread]: End processing [cdk-cloudformation-github-repositories-secret] error
+[2023-07-03 08:20:30] INFO root fetch - processPackages [cdk-cloudformation-github-teams-team]: New version: [1.4.0a7] Old Version: [1.2.0a7]
+[2023-07-03 08:20:30] INFO root fetch - processPackages [ucloud-sdk-python3]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-07-03 08:20:30] INFO root fetch - processPackages [pytest-xlsx]: New version: [0.5.2] Old Version: [0.5.1]
+[2023-07-03 08:20:30] INFO root fetch - processPackages [bardapi]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-03 08:20:30] INFO root fetch - processPackages [gwlandscape-python]: New version: [0.3.4] Old Version: [0.3.3]
+[2023-07-03 08:20:30] INFO root fetch - processPackages [bardapi]: Downloading https://files.pythonhosted.org/packages/15/8c/c307da290d06da4e1a9dababf71aef7b155e7ea4f8feacfb03447cecdd15/bardapi-0.1.8.tar.gz
+[2023-07-03 08:20:30] INFO root fetch - processPackages [cdk-cloudformation-github-organizations-membership]: New version: [1.3.0a7] Old Version: [1.1.0a7]
+[2023-07-03 08:20:30] INFO root fetch - processPackages [cdk-cloudformation-github-repositories-collaborator]: New version: [1.4.0a7] Old Version: [1.2.0a7]
+[2023-07-03 08:20:30] INFO root fetch - processPackages [cdk-cloudformation-github-teams-team]: Downloading https://files.pythonhosted.org/packages/9e/11/c14a490d95af71523b40fdf8d30f5f77718225394cdca60308c3c3aa4ade/cdk-cloudformation-github-teams-team-1.2.0a7.tar.gz
+[2023-07-03 08:20:30] INFO root fetch - processPackages [cdk-cloudformation-github-teams-membership]: Downloading https://files.pythonhosted.org/packages/d0/ea/587acfc0d09ab5555928eb944731980eb66841f84fdf390990df3b7426f2/cdk-cloudformation-github-teams-membership-1.2.0a7.tar.gz
+[2023-07-03 08:20:30] INFO root fetch - processPackages [cdk-cloudformation-github-teams-repositoryaccess]: Downloading https://files.pythonhosted.org/packages/6e/5a/6f0ce42af90c05ba324e58966c479e3b09645489a645db9cfe351ae926fa/cdk-cloudformation-github-teams-repositoryaccess-1.1.0a7.tar.gz
+[2023-07-03 08:20:30] INFO root fetch - processPackages [pytest-xlsx]: Downloading https://files.pythonhosted.org/packages/b1/92/016fe0d2cf5bdb7bee9d74dd3984dee4bb60351b377ad2fcb18873ae48ed/pytest_xlsx-0.5.1-py3-none-any.whl
+[2023-07-03 08:20:30] INFO root fetch - processPackages [ucloud-sdk-python3]: Downloading https://files.pythonhosted.org/packages/b9/ad/8d3ba7b74be635980377f25b6df78942d28c0c11684ba86aa7adca44ff22/ucloud-sdk-python3-0.9.3.tar.gz
+[2023-07-03 08:20:30] INFO root fetch - processPackages [bardapi]: Downloading https://files.pythonhosted.org/packages/7d/28/67bed0a690d240036e208efb5d30b83c9d0f46dca1f249b426109f7ee2f4/bardapi-0.1.9.tar.gz
+[2023-07-03 08:20:30] INFO root fetch - processPackages [gwlandscape-python]: Downloading https://files.pythonhosted.org/packages/c6/4d/3146bfadf9e5cfc1077d06969fd2cce869da322315733e9f75b1a3bf294e/gwlandscape_python-0.3.3.tar.gz
+[2023-07-03 08:20:30] INFO root fetch - processPackages [cdk-cloudformation-github-organizations-membership]: Downloading https://files.pythonhosted.org/packages/0c/cb/5584735282d4617bfb5575badb19e710243eb6d500aaafba2e3e02dfa96a/cdk-cloudformation-github-organizations-membership-1.1.0a7.tar.gz
+[2023-07-03 08:20:30] INFO root fetch - processPackages [bardapi]: executing diffoscope
+[2023-07-03 08:20:30] INFO root fetch - processPackages [bardapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bardapi-0.1.8.tar.gz tmp/bardapi-0.1.9.tar.gz --markdown 20230703/b/bardapi/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-03 08:20:30] INFO root fetch - processPackages [cdk-cloudformation-github-repositories-collaborator]: Downloading https://files.pythonhosted.org/packages/72/0c/6ddd5111ac0a664ca1e5345e468d4ed57909476d49f684368a48ac5294bb/cdk-cloudformation-github-repositories-collaborator-1.2.0a7.tar.gz
+[2023-07-03 08:20:30] INFO root fetch - processPackages [mathkit]: Downloading https://files.pythonhosted.org/packages/de/71/70171cfd584fdd1f982a79dc1c7f47b342f50732f433ccea6a2a14b8e0c1/mathkit-1.1.0.tar.gz
+[2023-07-03 08:20:30] INFO root fetch - processPackages [cdk-cloudformation-github-teams-team]: Downloading https://files.pythonhosted.org/packages/10/95/67d2ea1a62e710369bf5bffb1cfa91727bf25572ab40f8e5802d39add466/cdk-cloudformation-github-teams-team-1.4.0a7.tar.gz
+[2023-07-03 08:20:30] INFO root fetch - processPackages [cdk-cloudformation-github-teams-repositoryaccess]: Downloading https://files.pythonhosted.org/packages/5e/b3/9e5751d4b1ed98a70c7fc0ba8e34e8e293c93b298f08024265dc1d80abad/cdk-cloudformation-github-teams-repositoryaccess-1.3.0a7.tar.gz
+[2023-07-03 08:20:30] INFO root fetch - processPackages [gwlandscape-python]: Downloading https://files.pythonhosted.org/packages/ba/3d/5b83fc0626f89bcb91800794b84a53881df1cdb1b338e8559a1275a74b55/gwlandscape_python-0.3.4.tar.gz
+[2023-07-03 08:20:30] INFO root fetch - processPackages [cdk-cloudformation-github-teams-membership]: Downloading https://files.pythonhosted.org/packages/55/25/122b541056c9e725b96fc7934d524aa7e50029d4aaec2911b497b873e3da/cdk-cloudformation-github-teams-membership-1.4.0a7.tar.gz
+[2023-07-03 08:20:30] INFO root fetch - processPackages [pytest-xlsx]: Downloading https://files.pythonhosted.org/packages/a0/25/44cef4b6bd797e4edf9b76c909e0bd35e6e1f4bc72745dbb25cb2057154a/pytest_xlsx-0.5.2-py3-none-any.whl
+[2023-07-03 08:20:30] INFO root fetch - processPackages [pytest-xlsx]: executing diffoscope
+[2023-07-03 08:20:30] INFO root fetch - processPackages [pytest-xlsx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest_xlsx-0.5.1-py3-none-any.whl.zip tmp/pytest_xlsx-0.5.2-py3-none-any.whl.zip --markdown 20230703/p/pytest-xlsx/0.5.1-0.5.2/diff.md --exclude *.pyd
+[2023-07-03 08:20:30] INFO root fetch - processPackages [mathkit]: Downloading https://files.pythonhosted.org/packages/7b/55/1506e8b6d35814dfdabdaa9870a2391390fb49e3e8f38ea833b0eb15c5f6/mathkit-1.1.1.tar.gz
+[2023-07-03 08:20:30] INFO root fetch - processPackages [ucloud-sdk-python3]: Downloading https://files.pythonhosted.org/packages/ce/46/23811142fdf629c84759319dd47a810e863e87ba1562172242caa1df2ba7/ucloud-sdk-python3-0.9.4.tar.gz
+[2023-07-03 08:20:30] INFO root fetch - processPackages [cdk-cloudformation-github-organizations-membership]: Downloading https://files.pythonhosted.org/packages/87/d3/4efbf50ecba1b683bdb767c50a354c9d9e9e60daf4ae4aa274f0c4107a47/cdk-cloudformation-github-organizations-membership-1.3.0a7.tar.gz
+[2023-07-03 08:20:30] INFO root fetch - processPackages [cdk-cloudformation-github-repositories-collaborator]: Downloading https://files.pythonhosted.org/packages/cf/d5/0552f3ed34aa7a08c706a52e5d1d0fa7de90c3c33f55f62d1fcb7cf20357/cdk-cloudformation-github-repositories-collaborator-1.4.0a7.tar.gz
+[2023-07-03 08:20:30] INFO root fetch - processPackages [cdk-cloudformation-github-teams-team]: executing diffoscope
+[2023-07-03 08:20:30] INFO root fetch - processPackages [cdk-cloudformation-github-teams-team]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-cloudformation-github-teams-team-1.2.0a7.tar.gz tmp/cdk-cloudformation-github-teams-team-1.4.0a7.tar.gz --markdown 20230703/c/cdk-cloudformation-github-teams-team/1.2.0a7-1.4.0a7/diff.md --exclude *.pyd
+[2023-07-03 08:20:30] INFO root fetch - processPackages [cdk-cloudformation-github-teams-repositoryaccess]: executing diffoscope
+[2023-07-03 08:20:30] INFO root fetch - processPackages [cdk-cloudformation-github-teams-repositoryaccess]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-cloudformation-github-teams-repositoryaccess-1.1.0a7.tar.gz tmp/cdk-cloudformation-github-teams-repositoryaccess-1.3.0a7.tar.gz --markdown 20230703/c/cdk-cloudformation-github-teams-repositoryaccess/1.1.0a7-1.3.0a7/diff.md --exclude *.pyd
+[2023-07-03 08:20:30] INFO root fetch - processPackages [gwlandscape-python]: executing diffoscope
+[2023-07-03 08:20:30] INFO root fetch - processPackages [gwlandscape-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gwlandscape_python-0.3.3.tar.gz tmp/gwlandscape_python-0.3.4.tar.gz --markdown 20230703/g/gwlandscape-python/0.3.3-0.3.4/diff.md --exclude *.pyd
+[2023-07-03 08:20:30] INFO root fetch - processPackages [cdk-cloudformation-github-teams-membership]: executing diffoscope
+[2023-07-03 08:20:30] INFO root fetch - processPackages [cdk-cloudformation-github-teams-membership]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-cloudformation-github-teams-membership-1.2.0a7.tar.gz tmp/cdk-cloudformation-github-teams-membership-1.4.0a7.tar.gz --markdown 20230703/c/cdk-cloudformation-github-teams-membership/1.2.0a7-1.4.0a7/diff.md --exclude *.pyd
+[2023-07-03 08:20:30] INFO root fetch - processPackages [mathkit]: executing diffoscope
+[2023-07-03 08:20:30] INFO root fetch - processPackages [mathkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mathkit-1.1.0.tar.gz tmp/mathkit-1.1.1.tar.gz --markdown 20230703/m/mathkit/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-07-03 08:20:30] INFO root fetch - processPackages [ucloud-sdk-python3]: executing diffoscope
+[2023-07-03 08:20:30] INFO root fetch - processPackages [ucloud-sdk-python3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ucloud-sdk-python3-0.9.3.tar.gz tmp/ucloud-sdk-python3-0.9.4.tar.gz --markdown 20230703/u/ucloud-sdk-python3/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-07-03 08:20:30] INFO root fetch - processPackages [cdk-cloudformation-github-organizations-membership]: executing diffoscope
+[2023-07-03 08:20:30] INFO root fetch - processPackages [cdk-cloudformation-github-organizations-membership]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-cloudformation-github-organizations-membership-1.1.0a7.tar.gz tmp/cdk-cloudformation-github-organizations-membership-1.3.0a7.tar.gz --markdown 20230703/c/cdk-cloudformation-github-organizations-membership/1.1.0a7-1.3.0a7/diff.md --exclude *.pyd
+[2023-07-03 08:20:30] INFO root fetch - processPackages [cdk-cloudformation-github-repositories-collaborator]: executing diffoscope
+[2023-07-03 08:20:30] INFO root fetch - processPackages [cdk-cloudformation-github-repositories-collaborator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-cloudformation-github-repositories-collaborator-1.2.0a7.tar.gz tmp/cdk-cloudformation-github-repositories-collaborator-1.4.0a7.tar.gz --markdown 20230703/c/cdk-cloudformation-github-repositories-collaborator/1.2.0a7-1.4.0a7/diff.md --exclude *.pyd
+[2023-07-03 08:20:32] INFO root fetch - processPackages [pytest-xlsx]: Remove: archive file [/home/abi/fetcher/tmp/pytest_xlsx-0.5.1-py3-none-any.whl.zip]
+[2023-07-03 08:20:32] INFO root fetch - processPackages [pytest-xlsx]: Remove: archive file [/home/abi/fetcher/tmp/pytest_xlsx-0.5.2-py3-none-any.whl.zip]
+[2023-07-03 08:20:32] INFO root fetch - processPackages [pytest-xlsx]: Start processing: cdk-cloudformation-github-repositories-repository
+[2023-07-03 08:20:32] INFO root fetch - main [MainThread]: End processing [pytest-xlsx]: success
+[2023-07-03 08:20:32] INFO root fetch - processPackages [bardapi]: Remove: archive file [/home/abi/fetcher/tmp/bardapi-0.1.8.tar.gz]
+[2023-07-03 08:20:32] INFO root fetch - processPackages [bardapi]: Remove: archive file [/home/abi/fetcher/tmp/bardapi-0.1.9.tar.gz]
+[2023-07-03 08:20:32] INFO root fetch - processPackages [bardapi]: Start processing: odd-great-expectations
+[2023-07-03 08:20:32] INFO root fetch - main [MainThread]: End processing [bardapi]: success
+[2023-07-03 08:20:32] INFO root fetch - processPackages [cdk-cloudformation-github-teams-team]: Remove: archive file [/home/abi/fetcher/tmp/cdk-cloudformation-github-teams-team-1.2.0a7.tar.gz]
+[2023-07-03 08:20:32] INFO root fetch - processPackages [cdk-cloudformation-github-teams-team]: Remove: archive file [/home/abi/fetcher/tmp/cdk-cloudformation-github-teams-team-1.4.0a7.tar.gz]
+[2023-07-03 08:20:32] INFO root fetch - processPackages [cdk-cloudformation-github-teams-team]: Start processing: cdk-cloudformation-github-repositories-webhook
+[2023-07-03 08:20:32] INFO root fetch - main [MainThread]: End processing [cdk-cloudformation-github-teams-team]: success
+[2023-07-03 08:20:32] INFO root fetch - processPackages [cdk-cloudformation-github-repositories-repository]: New version: [1.4.0a7] Old Version: [1.2.0a7]
+[2023-07-03 08:20:32] INFO root fetch - processPackages [mathkit]: Remove: archive file [/home/abi/fetcher/tmp/mathkit-1.1.0.tar.gz]
+[2023-07-03 08:20:32] INFO root fetch - processPackages [mathkit]: Remove: archive file [/home/abi/fetcher/tmp/mathkit-1.1.1.tar.gz]
+[2023-07-03 08:20:32] INFO root fetch - processPackages [mathkit]: Start processing: domain-admin
+[2023-07-03 08:20:32] INFO root fetch - main [MainThread]: End processing [mathkit]: success
+[2023-07-03 08:20:32] INFO root fetch - processPackages [odd-great-expectations]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-03 08:20:32] INFO root fetch - processPackages [cdk-cloudformation-github-repositories-webhook]: New version: [1.4.0a7] Old Version: [1.2.0a7]
+[2023-07-03 08:20:32] INFO root fetch - processPackages [cdk-cloudformation-github-teams-membership]: Remove: archive file [/home/abi/fetcher/tmp/cdk-cloudformation-github-teams-membership-1.2.0a7.tar.gz]
+[2023-07-03 08:20:32] INFO root fetch - processPackages [cdk-cloudformation-github-teams-membership]: Remove: archive file [/home/abi/fetcher/tmp/cdk-cloudformation-github-teams-membership-1.4.0a7.tar.gz]
+[2023-07-03 08:20:32] INFO root fetch - main [MainThread]: End processing [cdk-cloudformation-github-teams-membership]: success
+[2023-07-03 08:20:32] INFO root fetch - processPackages [cdk-cloudformation-github-teams-repositoryaccess]: Remove: archive file [/home/abi/fetcher/tmp/cdk-cloudformation-github-teams-repositoryaccess-1.1.0a7.tar.gz]
+[2023-07-03 08:20:32] INFO root fetch - processPackages [cdk-cloudformation-github-teams-repositoryaccess]: Remove: archive file [/home/abi/fetcher/tmp/cdk-cloudformation-github-teams-repositoryaccess-1.3.0a7.tar.gz]
+[2023-07-03 08:20:32] INFO root fetch - main [MainThread]: End processing [cdk-cloudformation-github-teams-repositoryaccess]: success
+[2023-07-03 08:20:32] INFO root fetch - processPackages [domain-admin]: New version: [1.4.9] Old Version: [1.4.8]
+[2023-07-03 08:20:32] INFO root fetch - processPackages [cdk-cloudformation-github-repositories-repository]: Downloading https://files.pythonhosted.org/packages/e0/e8/84be361c0842ce8a8af756673322d0e00c2196df048702e3d8bde3101469/cdk-cloudformation-github-repositories-repository-1.2.0a7.tar.gz
+[2023-07-03 08:20:32] INFO root fetch - processPackages [odd-great-expectations]: Downloading https://files.pythonhosted.org/packages/b8/b7/af55d1d3483030c29bdf96111ab6e4f25d0b270c911fde081b470b794d26/odd_great_expectations-0.1.8.tar.gz
+[2023-07-03 08:20:33] INFO root fetch - processPackages [cdk-cloudformation-github-repositories-webhook]: Downloading https://files.pythonhosted.org/packages/c3/c1/a4f5abdf61df2fdbbfb6f104c957ca057daabe5938ecf357b9d72ee30d52/cdk-cloudformation-github-repositories-webhook-1.2.0a7.tar.gz
+[2023-07-03 08:20:33] INFO root fetch - processPackages [cdk-cloudformation-github-organizations-membership]: Remove: archive file [/home/abi/fetcher/tmp/cdk-cloudformation-github-organizations-membership-1.1.0a7.tar.gz]
+[2023-07-03 08:20:33] INFO root fetch - processPackages [cdk-cloudformation-github-organizations-membership]: Remove: archive file [/home/abi/fetcher/tmp/cdk-cloudformation-github-organizations-membership-1.3.0a7.tar.gz]
+[2023-07-03 08:20:33] INFO root fetch - main [MainThread]: End processing [cdk-cloudformation-github-organizations-membership]: success
+[2023-07-03 08:20:33] INFO root fetch - processPackages [domain-admin]: Downloading https://files.pythonhosted.org/packages/3a/f2/23400df41503073b93b342c8dcf715e54b76978a0ee3202a010a8c6a2fe7/domain-admin-1.4.8.tar.gz
+[2023-07-03 08:20:33] INFO root fetch - processPackages [cdk-cloudformation-github-repositories-collaborator]: Remove: archive file [/home/abi/fetcher/tmp/cdk-cloudformation-github-repositories-collaborator-1.2.0a7.tar.gz]
+[2023-07-03 08:20:33] INFO root fetch - processPackages [cdk-cloudformation-github-repositories-collaborator]: Remove: archive file [/home/abi/fetcher/tmp/cdk-cloudformation-github-repositories-collaborator-1.4.0a7.tar.gz]
+[2023-07-03 08:20:33] INFO root fetch - main [MainThread]: End processing [cdk-cloudformation-github-repositories-collaborator]: success
+[2023-07-03 08:20:33] INFO root fetch - processPackages [cdk-cloudformation-github-repositories-repository]: Downloading https://files.pythonhosted.org/packages/b3/7c/aab3747af8ba29c63990e22131e709c2c2726f68f196a4d69b94254b5ffd/cdk-cloudformation-github-repositories-repository-1.4.0a7.tar.gz
+[2023-07-03 08:20:33] INFO root fetch - processPackages [odd-great-expectations]: Downloading https://files.pythonhosted.org/packages/8e/82/8019c83702eba3e07ffcf8943be571280ac506e90d50b4d1cb15cce727b1/odd_great_expectations-0.1.9.tar.gz
+[2023-07-03 08:20:33] INFO root fetch - processPackages [cdk-cloudformation-github-repositories-webhook]: Downloading https://files.pythonhosted.org/packages/38/ea/c5fb0983b9448bbca450a5601423737e4400593f27bfba19a67b95219574/cdk-cloudformation-github-repositories-webhook-1.4.0a7.tar.gz
+[2023-07-03 08:20:33] INFO root fetch - processPackages [gwlandscape-python]: Remove: archive file [/home/abi/fetcher/tmp/gwlandscape_python-0.3.3.tar.gz]
+[2023-07-03 08:20:33] INFO root fetch - processPackages [gwlandscape-python]: Remove: archive file [/home/abi/fetcher/tmp/gwlandscape_python-0.3.4.tar.gz]
+[2023-07-03 08:20:33] INFO root fetch - main [MainThread]: End processing [gwlandscape-python]: success
+[2023-07-03 08:20:33] INFO root fetch - processPackages [cdk-cloudformation-github-repositories-repository]: executing diffoscope
+[2023-07-03 08:20:33] INFO root fetch - processPackages [cdk-cloudformation-github-repositories-repository]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-cloudformation-github-repositories-repository-1.2.0a7.tar.gz tmp/cdk-cloudformation-github-repositories-repository-1.4.0a7.tar.gz --markdown 20230703/c/cdk-cloudformation-github-repositories-repository/1.2.0a7-1.4.0a7/diff.md --exclude *.pyd
+[2023-07-03 08:20:33] INFO root fetch - processPackages [odd-great-expectations]: executing diffoscope
+[2023-07-03 08:20:33] INFO root fetch - processPackages [odd-great-expectations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odd_great_expectations-0.1.8.tar.gz tmp/odd_great_expectations-0.1.9.tar.gz --markdown 20230703/o/odd-great-expectations/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-03 08:20:33] INFO root fetch - processPackages [cdk-cloudformation-github-repositories-webhook]: executing diffoscope
+[2023-07-03 08:20:33] INFO root fetch - processPackages [cdk-cloudformation-github-repositories-webhook]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-cloudformation-github-repositories-webhook-1.2.0a7.tar.gz tmp/cdk-cloudformation-github-repositories-webhook-1.4.0a7.tar.gz --markdown 20230703/c/cdk-cloudformation-github-repositories-webhook/1.2.0a7-1.4.0a7/diff.md --exclude *.pyd
+[2023-07-03 08:20:34] INFO root fetch - processPackages [domain-admin]: Downloading https://files.pythonhosted.org/packages/c8/72/cfb118e14c007a151e3448decdf03d9f857f769cf0e5fce80f46281b8de5/domain-admin-1.4.9.tar.gz
+[2023-07-03 08:20:34] INFO root fetch - processPackages [ucloud-sdk-python3]: Remove: archive file [/home/abi/fetcher/tmp/ucloud-sdk-python3-0.9.3.tar.gz]
+[2023-07-03 08:20:34] INFO root fetch - processPackages [ucloud-sdk-python3]: Remove: archive file [/home/abi/fetcher/tmp/ucloud-sdk-python3-0.9.4.tar.gz]
+[2023-07-03 08:20:34] INFO root fetch - main [MainThread]: End processing [ucloud-sdk-python3]: success
+[2023-07-03 08:20:34] INFO root fetch - processPackages [cdk-cloudformation-github-repositories-repository]: Remove: archive file [/home/abi/fetcher/tmp/cdk-cloudformation-github-repositories-repository-1.2.0a7.tar.gz]
+[2023-07-03 08:20:34] INFO root fetch - processPackages [cdk-cloudformation-github-repositories-repository]: Remove: archive file [/home/abi/fetcher/tmp/cdk-cloudformation-github-repositories-repository-1.4.0a7.tar.gz]
+[2023-07-03 08:20:34] INFO root fetch - main [MainThread]: End processing [cdk-cloudformation-github-repositories-repository]: success
+[2023-07-03 08:20:34] INFO root fetch - processPackages [odd-great-expectations]: Remove: archive file [/home/abi/fetcher/tmp/odd_great_expectations-0.1.8.tar.gz]
+[2023-07-03 08:20:34] INFO root fetch - processPackages [odd-great-expectations]: Remove: archive file [/home/abi/fetcher/tmp/odd_great_expectations-0.1.9.tar.gz]
+[2023-07-03 08:20:34] INFO root fetch - main [MainThread]: End processing [odd-great-expectations]: success
+[2023-07-03 08:20:34] INFO root fetch - processPackages [domain-admin]: executing diffoscope
+[2023-07-03 08:20:34] INFO root fetch - processPackages [domain-admin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/domain-admin-1.4.8.tar.gz tmp/domain-admin-1.4.9.tar.gz --markdown 20230703/d/domain-admin/1.4.8-1.4.9/diff.md --exclude *.pyd
+[2023-07-03 08:20:35] INFO root fetch - processPackages [cdk-cloudformation-github-repositories-webhook]: Remove: archive file [/home/abi/fetcher/tmp/cdk-cloudformation-github-repositories-webhook-1.2.0a7.tar.gz]
+[2023-07-03 08:20:35] INFO root fetch - processPackages [cdk-cloudformation-github-repositories-webhook]: Remove: archive file [/home/abi/fetcher/tmp/cdk-cloudformation-github-repositories-webhook-1.4.0a7.tar.gz]
+[2023-07-03 08:20:35] INFO root fetch - main [MainThread]: End processing [cdk-cloudformation-github-repositories-webhook]: success
+[2023-07-03 08:20:47] INFO root fetch - processPackages [domain-admin]: Remove: archive file [/home/abi/fetcher/tmp/domain-admin-1.4.8.tar.gz]
+[2023-07-03 08:20:47] INFO root fetch - processPackages [domain-admin]: Remove: archive file [/home/abi/fetcher/tmp/domain-admin-1.4.9.tar.gz]
+[2023-07-03 08:20:47] INFO root fetch - main [MainThread]: End processing [domain-admin]: success
+[2023-07-03 08:20:47] INFO root fetch - main [MainThread]: Store serial: [18735251]
