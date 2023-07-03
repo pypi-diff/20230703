@@ -12847,3 +12847,119 @@ AssertionError: tmp/discord-ansi-0.3.tar.gz does not exist
 [2023-07-03 11:39:30] INFO root fetch - processPackages [perming]: Remove: archive file [/home/abi/fetcher/tmp/perming-1.3.0-py3-none-any.whl.zip]
 [2023-07-03 11:39:30] INFO root fetch - main [MainThread]: End processing [perming]: success
 [2023-07-03 11:39:30] INFO root fetch - main [MainThread]: Store serial: [18737063]
+[2023-07-03 11:44:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18737063]
+[2023-07-03 11:44:41] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-07-03 11:44:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: orbyt
+[2023-07-03 11:44:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hummuspy
+[2023-07-03 11:44:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: collective.volto.blocksfield
+[2023-07-03 11:44:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tailscale-localapi
+[2023-07-03 11:44:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: rosetta-ce
+[2023-07-03 11:44:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: n2t-hardware-tester-test
+[2023-07-03 11:44:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ntropy-sdk
+[2023-07-03 11:44:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pydantic-loggings
+[2023-07-03 11:44:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: bili-uas
+[2023-07-03 11:44:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: mypermobil
+[2023-07-03 11:44:41] INFO root fetch - processPackages [tailscale-localapi]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-07-03 11:44:41] INFO root fetch - processPackages [collective.volto.blocksfield]: New version: [2.0.0] Old Version: [1.0.3]
+[2023-07-03 11:44:41] INFO root fetch - processPackages [ntropy-sdk]: New version: [4.9.1rc1] Old Version: [4.9.0rc8]
+[2023-07-03 11:44:41] INFO root fetch - processPackages [pydantic-loggings]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-07-03 11:44:41] INFO root fetch - processPackages [rosetta-ce]: New version: [1.4.6] Old Version: [1.4.5]
+[2023-07-03 11:44:41] INFO root fetch - processPackages [bili-uas]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-03 11:44:41] INFO root fetch - processPackages [mypermobil]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-03 11:44:41] INFO root fetch - processPackages [hummuspy]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-03 11:44:41] WARNING root fetch - processPackages [n2t-hardware-tester-test]: Skipping, unable to determine old version
+[2023-07-03 11:44:41] INFO root fetch - processPackages [n2t-hardware-tester-test]: Start processing: bagbag
+[2023-07-03 11:44:41] INFO root fetch - main [MainThread]: End processing [n2t-hardware-tester-test] error
+[2023-07-03 11:44:41] ERROR root fetch - processPackages [orbyt]: Unable to get metadata: No such project 'orbyt'
+[2023-07-03 11:44:41] INFO root fetch - processPackages [orbyt]: Start processing: LbAPCommon
+[2023-07-03 11:44:41] INFO root fetch - main [MainThread]: End processing [orbyt] error
+[2023-07-03 11:44:41] INFO root fetch - processPackages [LbAPCommon]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-03 11:44:41] INFO root fetch - processPackages [bagbag]: New version: [0.60.9] Old Version: [0.60.8]
+[2023-07-03 11:44:41] INFO root fetch - processPackages [bili-uas]: Downloading https://files.pythonhosted.org/packages/f3/f2/df8aa8e619935e835ddc7f3772b0d303af12063612fdea64ea0c44a4bbf1/bili-uas-0.1.2.tar.gz
+[2023-07-03 11:44:41] INFO root fetch - processPackages [rosetta-ce]: Downloading https://files.pythonhosted.org/packages/81/a1/8aafdb9a360c04183adaa4bdbd89c6bade70cee3b0111e5cd305929aaabf/rosetta-ce-1.4.5.tar.gz
+[2023-07-03 11:44:41] INFO root fetch - processPackages [hummuspy]: Downloading https://files.pythonhosted.org/packages/6c/38/cc3cd3dbc914c44f6c121a1d2dc8cc7c16f0eb80a555fbed15b589b98fd9/hummuspy-0.0.8.tar.gz
+[2023-07-03 11:44:41] INFO root fetch - processPackages [tailscale-localapi]: Downloading https://files.pythonhosted.org/packages/48/d0/f99f1c9f045445d23e9fa7a8aa48de06995e0a77ae8c159a062b9246bfef/tailscale_localapi-0.1.0.tar.gz
+[2023-07-03 11:44:41] INFO root fetch - processPackages [collective.volto.blocksfield]: Downloading https://files.pythonhosted.org/packages/17/e9/fe9d68d96b135f58bff221ff4b2eaa802271c83d320e9b227b787085b673/collective.volto.blocksfield-1.0.3.tar.gz
+[2023-07-03 11:44:41] INFO root fetch - processPackages [ntropy-sdk]: Downloading https://files.pythonhosted.org/packages/af/e0/ef41865115376a7eed7307dd4035a8586b800cc620d5f229dc1419de4343/ntropy_sdk-4.9.0rc8.tar.gz
+[2023-07-03 11:44:41] INFO root fetch - processPackages [mypermobil]: Downloading https://files.pythonhosted.org/packages/e7/06/194201387149ef152d659e58614e0a41c64ff3fd8db07d53ebf59f8be197/mypermobil-0.1.2.tar.gz
+[2023-07-03 11:44:41] INFO root fetch - processPackages [LbAPCommon]: Downloading https://files.pythonhosted.org/packages/a2/4c/873b2a6b734b48cc0f1cf7b790236c8234e9cba9a7eee71c763e8d1d6296/LbAPCommon-0.9.8.tar.gz
+[2023-07-03 11:44:41] INFO root fetch - processPackages [bagbag]: Downloading https://files.pythonhosted.org/packages/9c/d9/18fcc3667854a152644716d257d55e30c5845485e0c8c0086d1449f5fca5/bagbag-0.60.8.tar.gz
+[2023-07-03 11:44:41] INFO root fetch - processPackages [pydantic-loggings]: Downloading https://files.pythonhosted.org/packages/7c/3c/5d00d5fd0c37b790ddcef220c51795a1c83ff2f447587d1191716ee7e50e/pydantic-loggings-0.1.0.tar.gz
+[2023-07-03 11:44:42] INFO root fetch - processPackages [hummuspy]: Downloading https://files.pythonhosted.org/packages/6d/57/482759401474404ddc4fb988e458704c3095fcbb65a042242874ee732cc6/hummuspy-0.0.9.tar.gz
+[2023-07-03 11:44:42] INFO root fetch - processPackages [rosetta-ce]: Downloading https://files.pythonhosted.org/packages/f4/70/81cfea6c2062d029cf779e1e8442bc0937c7c7198cdb62f2071729e14916/rosetta-ce-1.4.6.tar.gz
+[2023-07-03 11:44:42] INFO root fetch - processPackages [collective.volto.blocksfield]: Downloading https://files.pythonhosted.org/packages/12/cd/090a07d84917c22631a9732a8f904f1e1165cd21c03ce4875f633e4cb2c0/collective.volto.blocksfield-2.0.0.tar.gz
+[2023-07-03 11:44:42] INFO root fetch - processPackages [bili-uas]: Downloading https://files.pythonhosted.org/packages/8b/35/06dcba9834369e46501a367d0dd46156f5c91261b3e38b188b0f0ed053f6/bili-uas-0.1.3.tar.gz
+[2023-07-03 11:44:42] INFO root fetch - processPackages [bagbag]: Downloading https://files.pythonhosted.org/packages/c5/51/7ae0a1a526da702787345e0082bd8b3269a7b0c64300d0b309a215fbe724/bagbag-0.60.9.tar.gz
+[2023-07-03 11:44:42] INFO root fetch - processPackages [tailscale-localapi]: Downloading https://files.pythonhosted.org/packages/e1/ee/c0652e480bf0443299a352f7b4eda1675b00c8dff30b2231c4455ee15919/tailscale_localapi-0.2.0.tar.gz
+[2023-07-03 11:44:42] INFO root fetch - processPackages [mypermobil]: Downloading https://files.pythonhosted.org/packages/30/da/d79640260fa463851ccd9d3d255fb03d096b53c47af59ca0a9c37c0cd1d3/mypermobil-0.1.3.tar.gz
+[2023-07-03 11:44:42] INFO root fetch - processPackages [ntropy-sdk]: Downloading https://files.pythonhosted.org/packages/7d/e5/95782f26ef364e6e2a06a057d6ab310244bc61071ca838d7222936ac3456/ntropy_sdk-4.9.1rc1.tar.gz
+[2023-07-03 11:44:42] INFO root fetch - processPackages [pydantic-loggings]: Downloading https://files.pythonhosted.org/packages/05/20/969b3167ae49876686272b8bc2ff033dcded1fe5a306c2eb87ee9f650ce2/pydantic-loggings-0.2.0.tar.gz
+[2023-07-03 11:44:42] INFO root fetch - processPackages [collective.volto.blocksfield]: executing diffoscope
+[2023-07-03 11:44:42] INFO root fetch - processPackages [collective.volto.blocksfield]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/collective.volto.blocksfield-1.0.3.tar.gz tmp/collective.volto.blocksfield-2.0.0.tar.gz --markdown 20230703/c/collective.volto.blocksfield/1.0.3-2.0.0/diff.md --exclude *.pyd
+[2023-07-03 11:44:42] INFO root fetch - processPackages [hummuspy]: executing diffoscope
+[2023-07-03 11:44:42] INFO root fetch - processPackages [hummuspy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hummuspy-0.0.8.tar.gz tmp/hummuspy-0.0.9.tar.gz --markdown 20230703/h/hummuspy/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-03 11:44:42] INFO root fetch - processPackages [LbAPCommon]: Downloading https://files.pythonhosted.org/packages/8d/40/270ffe24cea731ed2cbe8e73d29b72ca20b5d707e3aaf201d50d97ac74d4/LbAPCommon-0.9.9.tar.gz
+[2023-07-03 11:44:42] INFO root fetch - processPackages [rosetta-ce]: executing diffoscope
+[2023-07-03 11:44:42] INFO root fetch - processPackages [rosetta-ce]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rosetta-ce-1.4.5.tar.gz tmp/rosetta-ce-1.4.6.tar.gz --markdown 20230703/r/rosetta-ce/1.4.5-1.4.6/diff.md --exclude *.pyd
+[2023-07-03 11:44:42] INFO root fetch - processPackages [bagbag]: executing diffoscope
+[2023-07-03 11:44:42] INFO root fetch - processPackages [bagbag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bagbag-0.60.8.tar.gz tmp/bagbag-0.60.9.tar.gz --markdown 20230703/b/bagbag/0.60.8-0.60.9/diff.md --exclude *.pyd
+[2023-07-03 11:44:42] INFO root fetch - processPackages [tailscale-localapi]: executing diffoscope
+[2023-07-03 11:44:42] INFO root fetch - processPackages [tailscale-localapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tailscale_localapi-0.1.0.tar.gz tmp/tailscale_localapi-0.2.0.tar.gz --markdown 20230703/t/tailscale-localapi/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-07-03 11:44:42] INFO root fetch - processPackages [mypermobil]: executing diffoscope
+[2023-07-03 11:44:42] INFO root fetch - processPackages [mypermobil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mypermobil-0.1.2.tar.gz tmp/mypermobil-0.1.3.tar.gz --markdown 20230703/m/mypermobil/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-03 11:44:42] INFO root fetch - processPackages [bili-uas]: executing diffoscope
+[2023-07-03 11:44:42] INFO root fetch - processPackages [bili-uas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bili-uas-0.1.2.tar.gz tmp/bili-uas-0.1.3.tar.gz --markdown 20230703/b/bili-uas/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-03 11:44:42] INFO root fetch - processPackages [ntropy-sdk]: executing diffoscope
+[2023-07-03 11:44:42] INFO root fetch - processPackages [ntropy-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ntropy_sdk-4.9.0rc8.tar.gz tmp/ntropy_sdk-4.9.1rc1.tar.gz --markdown 20230703/n/ntropy-sdk/4.9.0rc8-4.9.1rc1/diff.md --exclude *.pyd
+[2023-07-03 11:44:42] INFO root fetch - processPackages [pydantic-loggings]: executing diffoscope
+[2023-07-03 11:44:42] INFO root fetch - processPackages [pydantic-loggings]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydantic-loggings-0.1.0.tar.gz tmp/pydantic-loggings-0.2.0.tar.gz --markdown 20230703/p/pydantic-loggings/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-07-03 11:44:42] INFO root fetch - processPackages [LbAPCommon]: executing diffoscope
+[2023-07-03 11:44:42] INFO root fetch - processPackages [LbAPCommon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/LbAPCommon-0.9.8.tar.gz tmp/LbAPCommon-0.9.9.tar.gz --markdown 20230703/L/LbAPCommon/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-03 11:44:44] INFO root fetch - processPackages [hummuspy]: Remove: archive file [/home/abi/fetcher/tmp/hummuspy-0.0.8.tar.gz]
+[2023-07-03 11:44:44] INFO root fetch - processPackages [hummuspy]: Remove: archive file [/home/abi/fetcher/tmp/hummuspy-0.0.9.tar.gz]
+[2023-07-03 11:44:44] INFO root fetch - processPackages [hummuspy]: Start processing: repler
+[2023-07-03 11:44:44] INFO root fetch - main [MainThread]: End processing [hummuspy]: success
+[2023-07-03 11:44:44] WARNING root fetch - processPackages [repler]: Skipping, unable to determine old version
+[2023-07-03 11:44:44] INFO root fetch - processPackages [repler]: Start processing: lokzzpylib
+[2023-07-03 11:44:44] INFO root fetch - main [MainThread]: End processing [repler] error
+[2023-07-03 11:44:44] INFO root fetch - processPackages [lokzzpylib]: New version: [0.2.dev6] Old Version: [0.2.dev4]
+[2023-07-03 11:44:44] INFO root fetch - processPackages [tailscale-localapi]: Remove: archive file [/home/abi/fetcher/tmp/tailscale_localapi-0.1.0.tar.gz]
+[2023-07-03 11:44:44] INFO root fetch - processPackages [tailscale-localapi]: Remove: archive file [/home/abi/fetcher/tmp/tailscale_localapi-0.2.0.tar.gz]
+[2023-07-03 11:44:44] INFO root fetch - processPackages [tailscale-localapi]: Start processing: certora-cli-alpha-master
+[2023-07-03 11:44:44] INFO root fetch - main [MainThread]: End processing [tailscale-localapi]: success
+[2023-07-03 11:44:44] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20230703.9.43.6838] Old Version: [20230703.9.1.121865]
+[2023-07-03 11:44:44] INFO root fetch - processPackages [rosetta-ce]: Remove: archive file [/home/abi/fetcher/tmp/rosetta-ce-1.4.5.tar.gz]
+[2023-07-03 11:44:44] INFO root fetch - processPackages [rosetta-ce]: Remove: archive file [/home/abi/fetcher/tmp/rosetta-ce-1.4.6.tar.gz]
+[2023-07-03 11:44:44] INFO root fetch - main [MainThread]: End processing [rosetta-ce]: success
+[2023-07-03 11:44:44] INFO root fetch - processPackages [collective.volto.blocksfield]: Remove: archive file [/home/abi/fetcher/tmp/collective.volto.blocksfield-1.0.3.tar.gz]
+[2023-07-03 11:44:44] INFO root fetch - processPackages [collective.volto.blocksfield]: Remove: archive file [/home/abi/fetcher/tmp/collective.volto.blocksfield-2.0.0.tar.gz]
+[2023-07-03 11:44:44] INFO root fetch - main [MainThread]: End processing [collective.volto.blocksfield]: success
+[2023-07-03 11:44:44] INFO root fetch - processPackages [ntropy-sdk]: Remove: archive file [/home/abi/fetcher/tmp/ntropy_sdk-4.9.0rc8.tar.gz]
+[2023-07-03 11:44:44] INFO root fetch - processPackages [ntropy-sdk]: Remove: archive file [/home/abi/fetcher/tmp/ntropy_sdk-4.9.1rc1.tar.gz]
+[2023-07-03 11:44:44] INFO root fetch - main [MainThread]: End processing [ntropy-sdk]: success
+[2023-07-03 11:44:44] INFO root fetch - processPackages [bili-uas]: Remove: archive file [/home/abi/fetcher/tmp/bili-uas-0.1.2.tar.gz]
+[2023-07-03 11:44:44] INFO root fetch - processPackages [bili-uas]: Remove: archive file [/home/abi/fetcher/tmp/bili-uas-0.1.3.tar.gz]
+[2023-07-03 11:44:44] INFO root fetch - main [MainThread]: End processing [bili-uas]: success
+[2023-07-03 11:44:44] INFO root fetch - processPackages [pydantic-loggings]: Remove: archive file [/home/abi/fetcher/tmp/pydantic-loggings-0.1.0.tar.gz]
+[2023-07-03 11:44:44] INFO root fetch - processPackages [pydantic-loggings]: Remove: archive file [/home/abi/fetcher/tmp/pydantic-loggings-0.2.0.tar.gz]
+[2023-07-03 11:44:44] INFO root fetch - main [MainThread]: End processing [pydantic-loggings]: success
+[2023-07-03 11:44:44] INFO root fetch - processPackages [lokzzpylib]: Downloading https://files.pythonhosted.org/packages/42/5d/41993703f2023c51f067d323fa8ab38fe77a10962c00e9c30baface42f2d/lokzzpylib-0.2.dev4.tar.gz
+[2023-07-03 11:44:44] INFO root fetch - processPackages [mypermobil]: Remove: archive file [/home/abi/fetcher/tmp/mypermobil-0.1.2.tar.gz]
+[2023-07-03 11:44:44] INFO root fetch - processPackages [mypermobil]: Remove: archive file [/home/abi/fetcher/tmp/mypermobil-0.1.3.tar.gz]
+[2023-07-03 11:44:44] INFO root fetch - main [MainThread]: End processing [mypermobil]: success
+[2023-07-03 11:44:44] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/7f/c4/4cbf50c3a1eec73169f10407eb5874bdb80a9bddfd9da7be9709449337e0/certora-cli-alpha-master-20230703.9.1.121865.tar.gz
+[2023-07-03 11:44:44] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 40617533>=10485760
+[2023-07-03 11:44:44] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2023-07-03 11:44:44] INFO root fetch - processPackages [lokzzpylib]: Downloading https://files.pythonhosted.org/packages/37/78/2e5c6e1be654a550d42507936989581ee98daccd71c9a8564c52ce7bd78c/lokzzpylib-0.2.dev6.tar.gz
+[2023-07-03 11:44:44] INFO root fetch - processPackages [LbAPCommon]: Remove: archive file [/home/abi/fetcher/tmp/LbAPCommon-0.9.8.tar.gz]
+[2023-07-03 11:44:44] INFO root fetch - processPackages [LbAPCommon]: Remove: archive file [/home/abi/fetcher/tmp/LbAPCommon-0.9.9.tar.gz]
+[2023-07-03 11:44:44] INFO root fetch - main [MainThread]: End processing [LbAPCommon]: success
+[2023-07-03 11:44:45] INFO root fetch - processPackages [lokzzpylib]: executing diffoscope
+[2023-07-03 11:44:45] INFO root fetch - processPackages [lokzzpylib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lokzzpylib-0.2.dev4.tar.gz tmp/lokzzpylib-0.2.dev6.tar.gz --markdown 20230703/l/lokzzpylib/0.2.dev4-0.2.dev6/diff.md --exclude *.pyd
+[2023-07-03 11:44:45] INFO root fetch - processPackages [bagbag]: Remove: archive file [/home/abi/fetcher/tmp/bagbag-0.60.8.tar.gz]
+[2023-07-03 11:44:45] INFO root fetch - processPackages [bagbag]: Remove: archive file [/home/abi/fetcher/tmp/bagbag-0.60.9.tar.gz]
+[2023-07-03 11:44:45] INFO root fetch - main [MainThread]: End processing [bagbag]: success
+[2023-07-03 11:44:45] INFO root fetch - processPackages [lokzzpylib]: Remove: archive file [/home/abi/fetcher/tmp/lokzzpylib-0.2.dev4.tar.gz]
+[2023-07-03 11:44:45] INFO root fetch - processPackages [lokzzpylib]: Remove: archive file [/home/abi/fetcher/tmp/lokzzpylib-0.2.dev6.tar.gz]
+[2023-07-03 11:44:45] INFO root fetch - main [MainThread]: End processing [lokzzpylib]: success
+[2023-07-03 11:44:45] INFO root fetch - main [MainThread]: Store serial: [18737117]
