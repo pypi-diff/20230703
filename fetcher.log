@@ -14482,3 +14482,267 @@ AssertionError: tmp/discord-ansi-0.3.tar.gz does not exist
 [2023-07-03 12:36:11] ERROR root fetch - processPackages [mkdocs-material]: Timeout during execution of pkgdiff
 [2023-07-03 12:36:11] INFO root fetch - main [MainThread]: End processing [mkdocs-material] error
 [2023-07-03 12:36:11] INFO root fetch - main [MainThread]: Store serial: [18737708]
+[2023-07-03 12:41:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18737708]
+[2023-07-03 12:41:20] INFO root fetch - main [MainThread]: Found 31 changed packages
+[2023-07-03 12:41:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: coptpy-stubs
+[2023-07-03 12:41:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: testpoetry2
+[2023-07-03 12:41:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: datascrub
+[2023-07-03 12:41:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ANBUtils
+[2023-07-03 12:41:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nowcasting-datamodel
+[2023-07-03 12:41:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lokzzpylib
+[2023-07-03 12:41:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: coptpy
+[2023-07-03 12:41:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: collective.faceted.datewidget
+[2023-07-03 12:41:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pyprocessors-afp_keywords
+[2023-07-03 12:41:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: discord-ansi
+[2023-07-03 12:41:20] INFO root fetch - processPackages [datascrub]: New version: [1.1.4] Old Version: [1.1.3]
+[2023-07-03 12:41:20] INFO root fetch - processPackages [nowcasting-datamodel]: New version: [1.4.9] Old Version: [1.4.8]
+[2023-07-03 12:41:20] INFO root fetch - processPackages [ANBUtils]: New version: [1.6.5] Old Version: [1.6.4]
+[2023-07-03 12:41:20] INFO root fetch - processPackages [coptpy-stubs]: New version: [1.1.3] Old Version: [1.1.2]
+[2023-07-03 12:41:20] INFO root fetch - processPackages [testpoetry2]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-07-03 12:41:20] INFO root fetch - processPackages [lokzzpylib]: New version: [0.2.dev9] Old Version: [0.2.dev8]
+[2023-07-03 12:41:20] INFO root fetch - processPackages [pyprocessors-afp_keywords]: New version: [0.5.37] Old Version: [0.5.35]
+[2023-07-03 12:41:20] INFO root fetch - processPackages [collective.faceted.datewidget]: New version: [1.0a1] Old Version: [1.0.0]
+[2023-07-03 12:41:20] INFO root fetch - processPackages [discord-ansi]: New version: [0.5.2] Old Version: [0.5.1]
+[2023-07-03 12:41:20] INFO root fetch - processPackages [coptpy]: New version: [6.5.5] Old Version: [6.5.4]
+[2023-07-03 12:41:20] INFO root fetch - processPackages [datascrub]: Downloading https://files.pythonhosted.org/packages/61/bc/de96ad6607ec1c40ce4c6461930383e50f6c20ef1673f836586aaf1b2fc1/datascrub-1.1.3.tar.gz
+[2023-07-03 12:41:20] INFO root fetch - processPackages [ANBUtils]: Downloading https://files.pythonhosted.org/packages/e2/81/6fa88c6d8c6e5d9ebc6638dac9ad91848ac0a2dab41704df1e26bc4915b3/ANBUtils-1.6.4.tar.gz
+[2023-07-03 12:41:21] INFO root fetch - processPackages [nowcasting-datamodel]: Downloading https://files.pythonhosted.org/packages/01/ff/fb83ea8f39027c88f49407fb7ff4b1ac29409e608e02c6385c1de05f1bb9/nowcasting_datamodel-1.4.8.tar.gz
+[2023-07-03 12:41:21] INFO root fetch - processPackages [coptpy-stubs]: Downloading https://files.pythonhosted.org/packages/2d/bd/9bc9704a922c3a3446f601d7b5475fcfa01c762273a31523e0beb163a571/coptpy_stubs-1.1.2-py3-none-any.whl
+[2023-07-03 12:41:21] INFO root fetch - processPackages [lokzzpylib]: Downloading https://files.pythonhosted.org/packages/e2/59/899dd08722b859f214b6eee5335384aa5e1bb485140945e6cb65257098a5/lokzzpylib-0.2.dev8.tar.gz
+[2023-07-03 12:41:21] INFO root fetch - processPackages [collective.faceted.datewidget]: Downloading https://files.pythonhosted.org/packages/4f/89/5ff9d2cb9724a82041c646b2bcfaec457b1fc8d5e3235435a94b97d49865/collective.faceted.datewidget-1.0.0.tar.gz
+[2023-07-03 12:41:21] INFO root fetch - processPackages [discord-ansi]: Downloading https://files.pythonhosted.org/packages/37/77/805d519decde43578adda86a5c16061888c6039d217f922f5bf4dc80e27b/discord-ansi-0.5.1.tar.gz
+[2023-07-03 12:41:21] INFO root fetch - processPackages [testpoetry2]: Downloading https://files.pythonhosted.org/packages/79/1c/4389558f72c0e053c7c3bbbf7c3344eeb4592c387675cd3bafad5c0fbf1a/testpoetry2-0.1.6.tar.gz
+[2023-07-03 12:41:21] INFO root fetch - processPackages [coptpy]: Downloading https://files.pythonhosted.org/packages/22/8e/69ccb521c4eaef97d277f8b86eff474ffe3742722b8c9e07a712affca868/coptpy-6.5.4-cp39-cp39-win_amd64.whl
+[2023-07-03 12:41:21] INFO root fetch - processPackages [pyprocessors-afp_keywords]: Downloading https://files.pythonhosted.org/packages/df/5e/959c483d00c3a2c4284185113e2d9b9b1de298c2b97e3abc6a6ece1c20b2/pyprocessors_afp_keywords-0.5.35.tar.gz
+[2023-07-03 12:41:21] INFO root fetch - processPackages [datascrub]: Downloading https://files.pythonhosted.org/packages/d2/67/15ebf60342db0e1149433aa0b79826e0cb36608a7ec3b016b0ab3455f0d9/datascrub-1.1.4.tar.gz
+[2023-07-03 12:41:21] INFO root fetch - processPackages [ANBUtils]: Downloading https://files.pythonhosted.org/packages/73/fc/987d43ce0396992f55dd803dc66795853094b23610403fcab59155898142/ANBUtils-1.6.5.tar.gz
+[2023-07-03 12:41:21] INFO root fetch - processPackages [lokzzpylib]: Downloading https://files.pythonhosted.org/packages/d3/9b/e4bbf15840f86c58df052ec37f778b6563255557c0f8edc61797a91a6dcf/lokzzpylib-0.2.dev9.tar.gz
+[2023-07-03 12:41:21] INFO root fetch - processPackages [coptpy-stubs]: Downloading https://files.pythonhosted.org/packages/4e/1b/e3681395365975d925d31ce0c1620c191bbfa9a137796d7061144d420da1/coptpy_stubs-1.1.3-py3-none-any.whl
+[2023-07-03 12:41:21] INFO root fetch - processPackages [ANBUtils]: executing diffoscope
+[2023-07-03 12:41:21] INFO root fetch - processPackages [ANBUtils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ANBUtils-1.6.4.tar.gz tmp/ANBUtils-1.6.5.tar.gz --markdown 20230703/A/ANBUtils/1.6.4-1.6.5/diff.md --exclude *.pyd
+[2023-07-03 12:41:21] INFO root fetch - processPackages [discord-ansi]: Downloading https://files.pythonhosted.org/packages/1a/78/54186dd496b97645a7e78475f408acf48e7046343af416a2770fd1cf0885/discord-ansi-0.5.2.tar.gz
+[2023-07-03 12:41:21] INFO root fetch - processPackages [collective.faceted.datewidget]: Downloading https://files.pythonhosted.org/packages/a9/72/b898f1a0e39a9b07745ef839c60833d0c2ba286d55ffec175faf731beb98/collective.faceted.datewidget-1.0a1.zip
+[2023-07-03 12:41:21] INFO root fetch - processPackages [nowcasting-datamodel]: Downloading https://files.pythonhosted.org/packages/54/88/f05a4b9ec0d6199779a67651f044b38cbfca8f5dd46185ffff5321580aa2/nowcasting_datamodel-1.4.9.tar.gz
+[2023-07-03 12:41:21] INFO root fetch - processPackages [datascrub]: executing diffoscope
+[2023-07-03 12:41:21] INFO root fetch - processPackages [datascrub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datascrub-1.1.3.tar.gz tmp/datascrub-1.1.4.tar.gz --markdown 20230703/d/datascrub/1.1.3-1.1.4/diff.md --exclude *.pyd
+[2023-07-03 12:41:21] INFO root fetch - processPackages [testpoetry2]: Downloading https://files.pythonhosted.org/packages/34/c3/2990a6cf7023182dbf9eb66b7d3792bf96ae83b87e85de8fb7ea9e2c2fc0/testpoetry2-0.1.7.tar.gz
+[2023-07-03 12:41:21] INFO root fetch - processPackages [pyprocessors-afp_keywords]: Downloading https://files.pythonhosted.org/packages/25/ca/cda5319f17c59ddb57bd99f04ba24cf283d1b353f02dde16c16c199d4e74/pyprocessors_afp_keywords-0.5.37.tar.gz
+[2023-07-03 12:41:21] INFO root fetch - processPackages [lokzzpylib]: executing diffoscope
+[2023-07-03 12:41:21] INFO root fetch - processPackages [lokzzpylib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lokzzpylib-0.2.dev8.tar.gz tmp/lokzzpylib-0.2.dev9.tar.gz --markdown 20230703/l/lokzzpylib/0.2.dev8-0.2.dev9/diff.md --exclude *.pyd
+[2023-07-03 12:41:21] INFO root fetch - processPackages [discord-ansi]: executing diffoscope
+[2023-07-03 12:41:21] INFO root fetch - processPackages [discord-ansi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/discord-ansi-0.5.1.tar.gz tmp/discord-ansi-0.5.2.tar.gz --markdown 20230703/d/discord-ansi/0.5.1-0.5.2/diff.md --exclude *.pyd
+[2023-07-03 12:41:21] INFO root fetch - processPackages [coptpy-stubs]: executing diffoscope
+[2023-07-03 12:41:21] INFO root fetch - processPackages [coptpy-stubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coptpy_stubs-1.1.2-py3-none-any.whl.zip tmp/coptpy_stubs-1.1.3-py3-none-any.whl.zip --markdown 20230703/c/coptpy-stubs/1.1.2-1.1.3/diff.md --exclude *.pyd
+[2023-07-03 12:41:21] INFO root fetch - processPackages [collective.faceted.datewidget]: executing diffoscope
+[2023-07-03 12:41:21] INFO root fetch - processPackages [collective.faceted.datewidget]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/collective.faceted.datewidget-1.0.0.tar.gz tmp/collective.faceted.datewidget-1.0a1.zip --markdown 20230703/c/collective.faceted.datewidget/1.0.0-1.0a1/diff.md --exclude *.pyd
+[2023-07-03 12:41:21] INFO root fetch - processPackages [pyprocessors-afp_keywords]: executing diffoscope
+[2023-07-03 12:41:21] INFO root fetch - processPackages [pyprocessors-afp_keywords]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyprocessors_afp_keywords-0.5.35.tar.gz tmp/pyprocessors_afp_keywords-0.5.37.tar.gz --markdown 20230703/p/pyprocessors-afp_keywords/0.5.35-0.5.37/diff.md --exclude *.pyd
+[2023-07-03 12:41:21] INFO root fetch - processPackages [nowcasting-datamodel]: executing diffoscope
+[2023-07-03 12:41:21] INFO root fetch - processPackages [nowcasting-datamodel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nowcasting_datamodel-1.4.8.tar.gz tmp/nowcasting_datamodel-1.4.9.tar.gz --markdown 20230703/n/nowcasting-datamodel/1.4.8-1.4.9/diff.md --exclude *.pyd
+[2023-07-03 12:41:22] INFO root fetch - processPackages [testpoetry2]: executing diffoscope
+[2023-07-03 12:41:22] INFO root fetch - processPackages [testpoetry2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testpoetry2-0.1.6.tar.gz tmp/testpoetry2-0.1.7.tar.gz --markdown 20230703/t/testpoetry2/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-07-03 12:41:22] INFO root fetch - processPackages [coptpy]: Downloading https://files.pythonhosted.org/packages/be/e1/947b6949e44fe0a46d4635bc0d81e75cb22e2223c6c8717a5644913a4304/coptpy-6.5.5-cp39-cp39-win_amd64.whl
+[2023-07-03 12:41:23] INFO root fetch - processPackages [datascrub]: Remove: archive file [/home/abi/fetcher/tmp/datascrub-1.1.3.tar.gz]
+[2023-07-03 12:41:23] INFO root fetch - processPackages [datascrub]: Remove: archive file [/home/abi/fetcher/tmp/datascrub-1.1.4.tar.gz]
+[2023-07-03 12:41:23] INFO root fetch - processPackages [datascrub]: Start processing: mouse2
+[2023-07-03 12:41:23] INFO root fetch - main [MainThread]: End processing [datascrub]: success
+[2023-07-03 12:41:23] INFO root fetch - processPackages [ANBUtils]: Remove: archive file [/home/abi/fetcher/tmp/ANBUtils-1.6.4.tar.gz]
+[2023-07-03 12:41:23] INFO root fetch - processPackages [ANBUtils]: Remove: archive file [/home/abi/fetcher/tmp/ANBUtils-1.6.5.tar.gz]
+[2023-07-03 12:41:23] INFO root fetch - processPackages [ANBUtils]: Start processing: eoshep
+[2023-07-03 12:41:23] INFO root fetch - main [MainThread]: End processing [ANBUtils]: success
+[2023-07-03 12:41:23] INFO root fetch - processPackages [mouse2]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-03 12:41:23] INFO root fetch - processPackages [lokzzpylib]: Remove: archive file [/home/abi/fetcher/tmp/lokzzpylib-0.2.dev8.tar.gz]
+[2023-07-03 12:41:23] INFO root fetch - processPackages [lokzzpylib]: Remove: archive file [/home/abi/fetcher/tmp/lokzzpylib-0.2.dev9.tar.gz]
+[2023-07-03 12:41:23] INFO root fetch - processPackages [lokzzpylib]: Start processing: discord-ansi
+[2023-07-03 12:41:23] INFO root fetch - main [MainThread]: End processing [lokzzpylib]: success
+[2023-07-03 12:41:23] INFO root fetch - processPackages [discord-ansi]: Remove: archive file [/home/abi/fetcher/tmp/discord-ansi-0.5.1.tar.gz]
+[2023-07-03 12:41:23] INFO root fetch - processPackages [discord-ansi]: Remove: archive file [/home/abi/fetcher/tmp/discord-ansi-0.5.2.tar.gz]
+[2023-07-03 12:41:23] INFO root fetch - processPackages [discord-ansi]: Start processing: plutous-trade-crypto
+[2023-07-03 12:41:23] INFO root fetch - main [MainThread]: End processing [discord-ansi]: success
+[2023-07-03 12:41:23] INFO root fetch - processPackages [eoshep]: New version: [1.0.9.dev1308] Old Version: [1.0.9.dev1300]
+[2023-07-03 12:41:23] INFO root fetch - processPackages [discord-ansi]: New version: [0.5.2] Old Version: [0.5.1]
+[2023-07-03 12:41:23] INFO root fetch - processPackages [plutous-trade-crypto]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-03 12:41:23] INFO root fetch - processPackages [coptpy-stubs]: Remove: archive file [/home/abi/fetcher/tmp/coptpy_stubs-1.1.2-py3-none-any.whl.zip]
+[2023-07-03 12:41:23] INFO root fetch - processPackages [coptpy-stubs]: Remove: archive file [/home/abi/fetcher/tmp/coptpy_stubs-1.1.3-py3-none-any.whl.zip]
+[2023-07-03 12:41:23] INFO root fetch - processPackages [coptpy-stubs]: Start processing: odoo-addon-account-bank-statement-reopen-skip-undo-reconciliation
+[2023-07-03 12:41:23] INFO root fetch - main [MainThread]: End processing [coptpy-stubs]: success
+[2023-07-03 12:41:23] INFO root fetch - processPackages [plutous-trade-crypto]: Downloading https://files.pythonhosted.org/packages/e3/db/d32a1544d7f944ad8af411383551ea4aa42adfdd0f238ff44a5a3edaa00e/plutous_trade_crypto-0.0.8.tar.gz
+[2023-07-03 12:41:23] INFO root fetch - processPackages [discord-ansi]: Downloading https://files.pythonhosted.org/packages/37/77/805d519decde43578adda86a5c16061888c6039d217f922f5bf4dc80e27b/discord-ansi-0.5.1.tar.gz
+[2023-07-03 12:41:23] INFO root fetch - processPackages [pyprocessors-afp_keywords]: Remove: archive file [/home/abi/fetcher/tmp/pyprocessors_afp_keywords-0.5.35.tar.gz]
+[2023-07-03 12:41:23] INFO root fetch - processPackages [pyprocessors-afp_keywords]: Remove: archive file [/home/abi/fetcher/tmp/pyprocessors_afp_keywords-0.5.37.tar.gz]
+[2023-07-03 12:41:23] INFO root fetch - processPackages [pyprocessors-afp_keywords]: Start processing: semeio
+[2023-07-03 12:41:23] INFO root fetch - main [MainThread]: End processing [pyprocessors-afp_keywords]: success
+[2023-07-03 12:41:23] INFO root fetch - processPackages [mouse2]: Downloading https://files.pythonhosted.org/packages/71/af/4471c4bdb401c2eb1af021c6ca28e08d5d508db68923ca092b4bd35171e5/mouse2-0.2.8.tar.gz
+[2023-07-03 12:41:23] INFO root fetch - processPackages [collective.faceted.datewidget]: Remove: archive file [/home/abi/fetcher/tmp/collective.faceted.datewidget-1.0.0.tar.gz]
+[2023-07-03 12:41:23] INFO root fetch - processPackages [collective.faceted.datewidget]: Remove: archive file [/home/abi/fetcher/tmp/collective.faceted.datewidget-1.0a1.zip]
+[2023-07-03 12:41:23] INFO root fetch - processPackages [collective.faceted.datewidget]: Start processing: c2cwsgiutils
+[2023-07-03 12:41:23] INFO root fetch - main [MainThread]: End processing [collective.faceted.datewidget]: success
+[2023-07-03 12:41:23] WARNING root fetch - processPackages [odoo-addon-account-bank-statement-reopen-skip-undo-reconciliation]: Skipping, unable to determine old version
+[2023-07-03 12:41:23] INFO root fetch - processPackages [odoo-addon-account-bank-statement-reopen-skip-undo-reconciliation]: Start processing: kubectl-ng
+[2023-07-03 12:41:23] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-bank-statement-reopen-skip-undo-reconciliation] error
+[2023-07-03 12:41:23] INFO root fetch - processPackages [testpoetry2]: Remove: archive file [/home/abi/fetcher/tmp/testpoetry2-0.1.6.tar.gz]
+[2023-07-03 12:41:23] INFO root fetch - processPackages [testpoetry2]: Remove: archive file [/home/abi/fetcher/tmp/testpoetry2-0.1.7.tar.gz]
+[2023-07-03 12:41:23] INFO root fetch - processPackages [testpoetry2]: Start processing: kr8s
+[2023-07-03 12:41:23] INFO root fetch - main [MainThread]: End processing [testpoetry2]: success
+[2023-07-03 12:41:23] INFO root fetch - processPackages [eoshep]: Downloading https://files.pythonhosted.org/packages/a6/77/a893aa81f27b188f070c2540fbf29f19d57cb4edeb6799b42f2e9783380e/eoshep-1.0.9.dev1300-cp39-cp39-manylinux2014_x86_64.whl
+[2023-07-03 12:41:23] INFO root fetch - processPackages [c2cwsgiutils]: New version: [6.0.0.dev99] Old Version: [6.0.0.dev97]
+[2023-07-03 12:41:23] INFO root fetch - processPackages [nowcasting-datamodel]: Remove: archive file [/home/abi/fetcher/tmp/nowcasting_datamodel-1.4.8.tar.gz]
+[2023-07-03 12:41:23] INFO root fetch - processPackages [nowcasting-datamodel]: Remove: archive file [/home/abi/fetcher/tmp/nowcasting_datamodel-1.4.9.tar.gz]
+[2023-07-03 12:41:23] INFO root fetch - processPackages [nowcasting-datamodel]: Start processing: certora-cli-alpha-master
+[2023-07-03 12:41:23] INFO root fetch - main [MainThread]: End processing [nowcasting-datamodel]: success
+[2023-07-03 12:41:23] INFO root fetch - processPackages [semeio]: New version: [1.6.2] Old Version: [1.6.1]
+[2023-07-03 12:41:23] WARNING root fetch - processPackages [eoshep]: Skipping package: exceeds size limit 79107129>=10485760
+[2023-07-03 12:41:23] INFO root fetch - processPackages [eoshep]: Start processing: betabageldb
+[2023-07-03 12:41:23] INFO root fetch - main [MainThread]: End processing [eoshep] error
+[2023-07-03 12:41:23] INFO root fetch - processPackages [kubectl-ng]: New version: [0.7.0] Old Version: [0.6.0]
+[2023-07-03 12:41:23] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20230703.9.43.6838] Old Version: [20230703.9.1.121865]
+[2023-07-03 12:41:23] INFO root fetch - processPackages [kr8s]: New version: [0.7.0] Old Version: [0.6.0]
+[2023-07-03 12:41:23] INFO root fetch - processPackages [coptpy]: executing diffoscope
+[2023-07-03 12:41:23] INFO root fetch - processPackages [coptpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coptpy-6.5.4-cp39-cp39-win_amd64.whl.zip tmp/coptpy-6.5.5-cp39-cp39-win_amd64.whl.zip --markdown 20230703/c/coptpy/6.5.4-6.5.5/diff.md --exclude *.pyd
+[2023-07-03 12:41:23] INFO root fetch - processPackages [c2cwsgiutils]: Downloading https://files.pythonhosted.org/packages/7e/19/e64dc0870291f601e6d1f041424eef5a28112c1c9b7be627a7f01c80ebab/c2cwsgiutils-6.0.0.dev97.tar.gz
+[2023-07-03 12:41:23] INFO root fetch - processPackages [plutous-trade-crypto]: Downloading https://files.pythonhosted.org/packages/b4/a4/200ca398a36203e8bd51a034e50c51963506316cbf5e7a47866700accaee/plutous_trade_crypto-0.0.9.tar.gz
+[2023-07-03 12:41:23] INFO root fetch - processPackages [discord-ansi]: Downloading https://files.pythonhosted.org/packages/1a/78/54186dd496b97645a7e78475f408acf48e7046343af416a2770fd1cf0885/discord-ansi-0.5.2.tar.gz
+[2023-07-03 12:41:23] INFO root fetch - processPackages [betabageldb]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-03 12:41:23] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/7f/c4/4cbf50c3a1eec73169f10407eb5874bdb80a9bddfd9da7be9709449337e0/certora-cli-alpha-master-20230703.9.1.121865.tar.gz
+[2023-07-03 12:41:23] INFO root fetch - processPackages [semeio]: Downloading https://files.pythonhosted.org/packages/00/92/8d571946344757c0cba674a9bb72c6c542c5edf102170d280f7005d88910/semeio-1.6.1.tar.gz
+[2023-07-03 12:41:24] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 40617533>=10485760
+[2023-07-03 12:41:24] INFO root fetch - processPackages [certora-cli-alpha-master]: Start processing: gecs
+[2023-07-03 12:41:24] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2023-07-03 12:41:24] INFO root fetch - processPackages [discord-ansi]: executing diffoscope
+[2023-07-03 12:41:24] INFO root fetch - processPackages [discord-ansi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/discord-ansi-0.5.1.tar.gz tmp/discord-ansi-0.5.2.tar.gz --markdown 20230703/d/discord-ansi/0.5.1-0.5.2/diff.md --exclude *.pyd
+[2023-07-03 12:41:24] INFO root fetch - processPackages [plutous-trade-crypto]: executing diffoscope
+[2023-07-03 12:41:24] INFO root fetch - processPackages [plutous-trade-crypto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plutous_trade_crypto-0.0.8.tar.gz tmp/plutous_trade_crypto-0.0.9.tar.gz --markdown 20230703/p/plutous-trade-crypto/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-03 12:41:24] WARNING root fetch - processPackages [semeio]: Skipping package: exceeds size limit 17363926>=10485760
+[2023-07-03 12:41:24] INFO root fetch - processPackages [semeio]: Start processing: yeref
+[2023-07-03 12:41:24] INFO root fetch - main [MainThread]: End processing [semeio] error
+[2023-07-03 12:41:24] INFO root fetch - processPackages [kubectl-ng]: Downloading https://files.pythonhosted.org/packages/77/54/1ebf05da15b1e512b65b4d452a277687f54d1b90f5b231f97a8c58e046cc/kubectl_ng-0.6.0.tar.gz
+[2023-07-03 12:41:24] INFO root fetch - processPackages [kr8s]: Downloading https://files.pythonhosted.org/packages/6f/6f/7d62f7b6e5cb36b20181a34afef7dbefae38ceac91ee777dd20ded08e1df/kr8s-0.6.0.tar.gz
+[2023-07-03 12:41:24] INFO root fetch - processPackages [mouse2]: Downloading https://files.pythonhosted.org/packages/38/4f/0f78a073a4cba3f2a488e767e2ad7e4de4de2f9a4993165d4e4cbecbc753/mouse2-0.2.9.tar.gz
+[2023-07-03 12:41:24] INFO root fetch - processPackages [betabageldb]: Downloading https://files.pythonhosted.org/packages/f8/86/e379081a2039f53c4b6fd182ca18f9835e66eba970147e21c9f15f00af3f/betabageldb-0.1.2.tar.gz
+[2023-07-03 12:41:24] INFO root fetch - processPackages [yeref]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-03 12:41:24] INFO root fetch - processPackages [c2cwsgiutils]: Downloading https://files.pythonhosted.org/packages/bc/fc/caed9a3b8aa535ab83ce1fdf048ce861e9039ac24958fa3ddf9049b3f2b6/c2cwsgiutils-6.0.0.dev99.tar.gz
+[2023-07-03 12:41:24] INFO root fetch - processPackages [gecs]: New version: [0.28.2] Old Version: [0.28.1]
+[2023-07-03 12:41:24] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/b0/b0/909fe6a3b78d0f6ac51f68676b3211c8db161827cbcd18d88fca04fd4ea2/yeref-0.2.8.tar.gz
+[2023-07-03 12:41:24] INFO root fetch - processPackages [mouse2]: executing diffoscope
+[2023-07-03 12:41:24] INFO root fetch - processPackages [mouse2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mouse2-0.2.8.tar.gz tmp/mouse2-0.2.9.tar.gz --markdown 20230703/m/mouse2/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-03 12:41:24] INFO root fetch - processPackages [c2cwsgiutils]: executing diffoscope
+[2023-07-03 12:41:24] INFO root fetch - processPackages [c2cwsgiutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c2cwsgiutils-6.0.0.dev97.tar.gz tmp/c2cwsgiutils-6.0.0.dev99.tar.gz --markdown 20230703/c/c2cwsgiutils/6.0.0.dev97-6.0.0.dev99/diff.md --exclude *.pyd
+[2023-07-03 12:41:24] INFO root fetch - processPackages [kubectl-ng]: Downloading https://files.pythonhosted.org/packages/0d/4d/8cff95fd131bfdb1f0e51d9c28798e54aa7365ef61f7fca45b8a04d47084/kubectl_ng-0.7.0.tar.gz
+[2023-07-03 12:41:24] INFO root fetch - processPackages [gecs]: Downloading https://files.pythonhosted.org/packages/1f/a1/fc73fb4d734a79b30f805fd846e21983cb38ee67e5202dfe9c46ea5be379/gecs-0.28.1.tar.gz
+[2023-07-03 12:41:24] INFO root fetch - processPackages [kr8s]: Downloading https://files.pythonhosted.org/packages/9d/fa/5debde1f7a66f1383256e7b139616d2511d5a4c40368d510162602491711/kr8s-0.7.0.tar.gz
+[2023-07-03 12:41:24] INFO root fetch - processPackages [betabageldb]: Downloading https://files.pythonhosted.org/packages/39/8c/5df4827d3a372711d26d8226128465680af9d733484d4ea372d9ca0d4948/betabageldb-0.1.3.tar.gz
+[2023-07-03 12:41:24] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/50/99/66805a69f7cda19e4f2694ce8433b49220c99c3c330adad82223a3aa368e/yeref-0.2.9.tar.gz
+[2023-07-03 12:41:24] INFO root fetch - processPackages [kubectl-ng]: executing diffoscope
+[2023-07-03 12:41:24] INFO root fetch - processPackages [kubectl-ng]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kubectl_ng-0.6.0.tar.gz tmp/kubectl_ng-0.7.0.tar.gz --markdown 20230703/k/kubectl-ng/0.6.0-0.7.0/diff.md --exclude *.pyd
+[2023-07-03 12:41:24] INFO root fetch - processPackages [betabageldb]: executing diffoscope
+[2023-07-03 12:41:24] INFO root fetch - processPackages [betabageldb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/betabageldb-0.1.2.tar.gz tmp/betabageldb-0.1.3.tar.gz --markdown 20230703/b/betabageldb/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-03 12:41:24] INFO root fetch - processPackages [kr8s]: executing diffoscope
+[2023-07-03 12:41:24] INFO root fetch - processPackages [kr8s]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kr8s-0.6.0.tar.gz tmp/kr8s-0.7.0.tar.gz --markdown 20230703/k/kr8s/0.6.0-0.7.0/diff.md --exclude *.pyd
+[2023-07-03 12:41:24] INFO root fetch - processPackages [yeref]: executing diffoscope
+[2023-07-03 12:41:24] INFO root fetch - processPackages [yeref]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yeref-0.2.8.tar.gz tmp/yeref-0.2.9.tar.gz --markdown 20230703/y/yeref/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-03 12:41:24] INFO root fetch - processPackages [gecs]: Downloading https://files.pythonhosted.org/packages/b0/07/b5d28c248108de22713d04e264fe6ad7c28502b1d04af12855bb50387a2d/gecs-0.28.2.tar.gz
+[2023-07-03 12:41:25] INFO root fetch - processPackages [gecs]: executing diffoscope
+[2023-07-03 12:41:25] INFO root fetch - processPackages [gecs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gecs-0.28.1.tar.gz tmp/gecs-0.28.2.tar.gz --markdown 20230703/g/gecs/0.28.1-0.28.2/diff.md --exclude *.pyd
+[2023-07-03 12:41:25] INFO root fetch - processPackages [discord-ansi]: Remove: archive file [/home/abi/fetcher/tmp/discord-ansi-0.5.1.tar.gz]
+[2023-07-03 12:41:25] INFO root fetch - processPackages [discord-ansi]: Remove: archive file [/home/abi/fetcher/tmp/discord-ansi-0.5.2.tar.gz]
+[2023-07-03 12:41:25] INFO root fetch - processPackages [discord-ansi]: Start processing: nucliadb
+[2023-07-03 12:41:25] INFO root fetch - main [MainThread]: End processing [discord-ansi]: success
+[2023-07-03 12:41:25] INFO root fetch - processPackages [nucliadb]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-07-03 12:41:25] INFO root fetch - processPackages [plutous-trade-crypto]: Remove: archive file [/home/abi/fetcher/tmp/plutous_trade_crypto-0.0.8.tar.gz]
+[2023-07-03 12:41:25] INFO root fetch - processPackages [plutous-trade-crypto]: Remove: archive file [/home/abi/fetcher/tmp/plutous_trade_crypto-0.0.9.tar.gz]
+[2023-07-03 12:41:25] INFO root fetch - processPackages [plutous-trade-crypto]: Start processing: nucliadb-client
+[2023-07-03 12:41:25] INFO root fetch - main [MainThread]: End processing [plutous-trade-crypto]: success
+[2023-07-03 12:41:25] INFO root fetch - processPackages [nucliadb-client]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-07-03 12:41:25] INFO root fetch - processPackages [nucliadb]: Downloading https://files.pythonhosted.org/packages/7c/ff/0a879c94d307d6130c47fa95a8a217386c5cbb1838101d660244b068cd95/nucliadb-2.9.0.post266-py3-none-any.whl
+[2023-07-03 12:41:25] INFO root fetch - processPackages [mouse2]: Remove: archive file [/home/abi/fetcher/tmp/mouse2-0.2.8.tar.gz]
+[2023-07-03 12:41:25] INFO root fetch - processPackages [mouse2]: Remove: archive file [/home/abi/fetcher/tmp/mouse2-0.2.9.tar.gz]
+[2023-07-03 12:41:25] INFO root fetch - processPackages [mouse2]: Start processing: nucliadb-dataset
+[2023-07-03 12:41:25] INFO root fetch - main [MainThread]: End processing [mouse2]: success
+[2023-07-03 12:41:25] INFO root fetch - processPackages [nucliadb-client]: Downloading https://files.pythonhosted.org/packages/e9/f9/e883083a5a0915d9eef487a6fa094cee59f24bf25f983e64b02d3dd71a9f/nucliadb_client-2.9.0.post266-py3-none-any.whl
+[2023-07-03 12:41:25] INFO root fetch - processPackages [nucliadb-dataset]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-07-03 12:41:26] INFO root fetch - processPackages [c2cwsgiutils]: Remove: archive file [/home/abi/fetcher/tmp/c2cwsgiutils-6.0.0.dev97.tar.gz]
+[2023-07-03 12:41:26] INFO root fetch - processPackages [c2cwsgiutils]: Remove: archive file [/home/abi/fetcher/tmp/c2cwsgiutils-6.0.0.dev99.tar.gz]
+[2023-07-03 12:41:26] INFO root fetch - processPackages [c2cwsgiutils]: Start processing: nucliadb-models
+[2023-07-03 12:41:26] INFO root fetch - main [MainThread]: End processing [c2cwsgiutils]: success
+[2023-07-03 12:41:26] INFO root fetch - processPackages [betabageldb]: Remove: archive file [/home/abi/fetcher/tmp/betabageldb-0.1.2.tar.gz]
+[2023-07-03 12:41:26] INFO root fetch - processPackages [betabageldb]: Remove: archive file [/home/abi/fetcher/tmp/betabageldb-0.1.3.tar.gz]
+[2023-07-03 12:41:26] INFO root fetch - processPackages [betabageldb]: Start processing: nucliadb-protos
+[2023-07-03 12:41:26] INFO root fetch - main [MainThread]: End processing [betabageldb]: success
+[2023-07-03 12:41:26] INFO root fetch - processPackages [nucliadb]: Downloading https://files.pythonhosted.org/packages/d0/e8/3c39cb6a2ed6ad97a3e0dec5110ec85934306f7a7d052b0cb4fe4762aa0f/nucliadb-2.9.0.post267-py3-none-any.whl
+[2023-07-03 12:41:26] INFO root fetch - processPackages [kubectl-ng]: Remove: archive file [/home/abi/fetcher/tmp/kubectl_ng-0.6.0.tar.gz]
+[2023-07-03 12:41:26] INFO root fetch - processPackages [kubectl-ng]: Remove: archive file [/home/abi/fetcher/tmp/kubectl_ng-0.7.0.tar.gz]
+[2023-07-03 12:41:26] INFO root fetch - processPackages [kubectl-ng]: Start processing: ag-llama-api
+[2023-07-03 12:41:26] INFO root fetch - main [MainThread]: End processing [kubectl-ng]: success
+[2023-07-03 12:41:26] INFO root fetch - processPackages [nucliadb-models]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-07-03 12:41:26] INFO root fetch - processPackages [kr8s]: Remove: archive file [/home/abi/fetcher/tmp/kr8s-0.6.0.tar.gz]
+[2023-07-03 12:41:26] INFO root fetch - processPackages [nucliadb-dataset]: Downloading https://files.pythonhosted.org/packages/56/4b/fc2d9cfebab3c585f1cb9965c827bf2aca2a655f2fec6b1fffcac6eef1c1/nucliadb_dataset-2.9.0.post266-py3-none-any.whl
+[2023-07-03 12:41:26] INFO root fetch - processPackages [kr8s]: Remove: archive file [/home/abi/fetcher/tmp/kr8s-0.7.0.tar.gz]
+[2023-07-03 12:41:26] INFO root fetch - processPackages [kr8s]: Start processing: nucliadb-sdk
+[2023-07-03 12:41:26] INFO root fetch - main [MainThread]: End processing [kr8s]: success
+[2023-07-03 12:41:26] INFO root fetch - processPackages [nucliadb-client]: Downloading https://files.pythonhosted.org/packages/24/40/81827f509054d15496de510289a599e8f6d34f706b2371d86d048fbc0db0/nucliadb_client-2.9.0.post267-py3-none-any.whl
+[2023-07-03 12:41:26] INFO root fetch - processPackages [nucliadb-protos]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-07-03 12:41:26] INFO root fetch - processPackages [ag-llama-api]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-03 12:41:26] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.2.8.tar.gz]
+[2023-07-03 12:41:26] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.2.9.tar.gz]
+[2023-07-03 12:41:26] INFO root fetch - processPackages [yeref]: Start processing: nucliadb-utils
+[2023-07-03 12:41:26] INFO root fetch - main [MainThread]: End processing [yeref]: success
+[2023-07-03 12:41:26] INFO root fetch - processPackages [nucliadb]: executing diffoscope
+[2023-07-03 12:41:26] INFO root fetch - processPackages [nucliadb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb-2.9.0.post267-py3-none-any.whl.zip --markdown 20230703/n/nucliadb/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-07-03 12:41:26] INFO root fetch - processPackages [gecs]: Remove: archive file [/home/abi/fetcher/tmp/gecs-0.28.1.tar.gz]
+[2023-07-03 12:41:26] INFO root fetch - processPackages [gecs]: Remove: archive file [/home/abi/fetcher/tmp/gecs-0.28.2.tar.gz]
+[2023-07-03 12:41:26] INFO root fetch - main [MainThread]: End processing [gecs]: success
+[2023-07-03 12:41:26] INFO root fetch - processPackages [nucliadb-sdk]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-07-03 12:41:26] INFO root fetch - processPackages [nucliadb-models]: Downloading https://files.pythonhosted.org/packages/3b/2d/e4d68391765b0e9f57ca1023e2aec3cf60968a9418e00f24c1554bb0041e/nucliadb_models-2.9.0.post266-py3-none-any.whl
+[2023-07-03 12:41:26] INFO root fetch - processPackages [nucliadb-client]: executing diffoscope
+[2023-07-03 12:41:26] INFO root fetch - processPackages [nucliadb-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_client-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_client-2.9.0.post267-py3-none-any.whl.zip --markdown 20230703/n/nucliadb-client/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-07-03 12:41:26] INFO root fetch - processPackages [nucliadb-utils]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-07-03 12:41:26] INFO root fetch - processPackages [nucliadb-protos]: Downloading https://files.pythonhosted.org/packages/16/50/6ab2e4f9cca425d97ef0824c338fea58b8e3a0bfb590231f3196942875c0/nucliadb_protos-2.9.0.post266-py3-none-any.whl
+[2023-07-03 12:41:26] INFO root fetch - processPackages [ag-llama-api]: Downloading https://files.pythonhosted.org/packages/e7/db/6c93bb8ec9653fafd298258240710b4768345a45843013bc715cf9e658f7/ag_llama_api-0.0.8.tar.gz
+[2023-07-03 12:41:26] INFO root fetch - processPackages [nucliadb-dataset]: Downloading https://files.pythonhosted.org/packages/80/9f/9ffeb0e3d1b4da8f1178595f75fb1c1ffe183913036ae2a60f569c8c7dc7/nucliadb_dataset-2.9.0.post267-py3-none-any.whl
+[2023-07-03 12:41:26] INFO root fetch - processPackages [nucliadb-sdk]: Downloading https://files.pythonhosted.org/packages/a1/64/be41afa3acf3d90a5d9575ac0e1c151ff6e91fb473f9724dac60fea85414/nucliadb_sdk-2.9.0.post266-py3-none-any.whl
+[2023-07-03 12:41:26] INFO root fetch - processPackages [nucliadb-utils]: Downloading https://files.pythonhosted.org/packages/9c/a6/d6dd21ed1948bdcc0b560698e72d117f3fdad522e2ac0894dd980e184631/nucliadb_utils-2.9.0.post266-py3-none-any.whl
+[2023-07-03 12:41:26] INFO root fetch - processPackages [nucliadb-dataset]: executing diffoscope
+[2023-07-03 12:41:26] INFO root fetch - processPackages [nucliadb-dataset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_dataset-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_dataset-2.9.0.post267-py3-none-any.whl.zip --markdown 20230703/n/nucliadb-dataset/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-07-03 12:41:26] INFO root fetch - processPackages [nucliadb-models]: Downloading https://files.pythonhosted.org/packages/33/34/554de7935ae3aecd4129d1f85d83822f97fd284da917d6aced4c09802f1a/nucliadb_models-2.9.0.post267-py3-none-any.whl
+[2023-07-03 12:41:27] INFO root fetch - processPackages [nucliadb-protos]: Downloading https://files.pythonhosted.org/packages/21/bd/4fffaf241f826293c98c1317bdaff65a5d202f9ec94d08322b2fd017f3b0/nucliadb_protos-2.9.0.post267-py3-none-any.whl
+[2023-07-03 12:41:27] INFO root fetch - processPackages [nucliadb-models]: executing diffoscope
+[2023-07-03 12:41:27] INFO root fetch - processPackages [nucliadb-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_models-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_models-2.9.0.post267-py3-none-any.whl.zip --markdown 20230703/n/nucliadb-models/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-07-03 12:41:27] INFO root fetch - processPackages [nucliadb-sdk]: Downloading https://files.pythonhosted.org/packages/35/7b/660db604a69a01811bfa1b2ce906d520705e186b4f8a91c3972cb4446303/nucliadb_sdk-2.9.0.post267-py3-none-any.whl
+[2023-07-03 12:41:27] INFO root fetch - processPackages [ag-llama-api]: Downloading https://files.pythonhosted.org/packages/0e/45/5ce146425eb4c54590e514bf53d436ec8eb7cbeee70953b613dcd4e56824/ag_llama_api-0.0.9.tar.gz
+[2023-07-03 12:41:27] INFO root fetch - processPackages [nucliadb-protos]: executing diffoscope
+[2023-07-03 12:41:27] INFO root fetch - processPackages [nucliadb-protos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_protos-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_protos-2.9.0.post267-py3-none-any.whl.zip --markdown 20230703/n/nucliadb-protos/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-07-03 12:41:27] INFO root fetch - processPackages [nucliadb-sdk]: executing diffoscope
+[2023-07-03 12:41:27] INFO root fetch - processPackages [nucliadb-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_sdk-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_sdk-2.9.0.post267-py3-none-any.whl.zip --markdown 20230703/n/nucliadb-sdk/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-07-03 12:41:27] INFO root fetch - processPackages [ag-llama-api]: executing diffoscope
+[2023-07-03 12:41:27] INFO root fetch - processPackages [ag-llama-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ag_llama_api-0.0.8.tar.gz tmp/ag_llama_api-0.0.9.tar.gz --markdown 20230703/a/ag-llama-api/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-03 12:41:27] INFO root fetch - processPackages [nucliadb-utils]: Downloading https://files.pythonhosted.org/packages/a2/ce/8ce8a66a2ef214d8ae9f81cb70eb5d8d5396c8bd94794cf92d145fdccd31/nucliadb_utils-2.9.0.post267-py3-none-any.whl
+[2023-07-03 12:41:27] INFO root fetch - processPackages [nucliadb-utils]: executing diffoscope
+[2023-07-03 12:41:27] INFO root fetch - processPackages [nucliadb-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_utils-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_utils-2.9.0.post267-py3-none-any.whl.zip --markdown 20230703/n/nucliadb-utils/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-07-03 12:41:27] INFO root fetch - processPackages [nucliadb-client]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_client-2.9.0.post266-py3-none-any.whl.zip]
+[2023-07-03 12:41:27] INFO root fetch - processPackages [nucliadb-client]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_client-2.9.0.post267-py3-none-any.whl.zip]
+[2023-07-03 12:41:27] INFO root fetch - main [MainThread]: End processing [nucliadb-client]: success
+[2023-07-03 12:41:28] INFO root fetch - processPackages [nucliadb-dataset]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_dataset-2.9.0.post266-py3-none-any.whl.zip]
+[2023-07-03 12:41:28] INFO root fetch - processPackages [nucliadb-dataset]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_dataset-2.9.0.post267-py3-none-any.whl.zip]
+[2023-07-03 12:41:28] INFO root fetch - main [MainThread]: End processing [nucliadb-dataset]: success
+[2023-07-03 12:41:28] INFO root fetch - processPackages [nucliadb-models]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_models-2.9.0.post266-py3-none-any.whl.zip]
+[2023-07-03 12:41:28] INFO root fetch - processPackages [nucliadb-models]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_models-2.9.0.post267-py3-none-any.whl.zip]
+[2023-07-03 12:41:28] INFO root fetch - main [MainThread]: End processing [nucliadb-models]: success
+[2023-07-03 12:41:28] INFO root fetch - processPackages [nucliadb-protos]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_protos-2.9.0.post266-py3-none-any.whl.zip]
+[2023-07-03 12:41:28] INFO root fetch - processPackages [nucliadb-protos]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_protos-2.9.0.post267-py3-none-any.whl.zip]
+[2023-07-03 12:41:28] INFO root fetch - main [MainThread]: End processing [nucliadb-protos]: success
+[2023-07-03 12:41:28] INFO root fetch - processPackages [nucliadb-sdk]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_sdk-2.9.0.post266-py3-none-any.whl.zip]
+[2023-07-03 12:41:28] INFO root fetch - processPackages [nucliadb-sdk]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_sdk-2.9.0.post267-py3-none-any.whl.zip]
+[2023-07-03 12:41:28] INFO root fetch - main [MainThread]: End processing [nucliadb-sdk]: success
+[2023-07-03 12:41:28] INFO root fetch - processPackages [ag-llama-api]: Remove: archive file [/home/abi/fetcher/tmp/ag_llama_api-0.0.8.tar.gz]
+[2023-07-03 12:41:28] INFO root fetch - processPackages [ag-llama-api]: Remove: archive file [/home/abi/fetcher/tmp/ag_llama_api-0.0.9.tar.gz]
+[2023-07-03 12:41:28] INFO root fetch - main [MainThread]: End processing [ag-llama-api]: success
+[2023-07-03 12:41:29] INFO root fetch - processPackages [nucliadb-utils]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_utils-2.9.0.post266-py3-none-any.whl.zip]
+[2023-07-03 12:41:29] INFO root fetch - processPackages [nucliadb-utils]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_utils-2.9.0.post267-py3-none-any.whl.zip]
+[2023-07-03 12:41:29] INFO root fetch - main [MainThread]: End processing [nucliadb-utils]: success
+[2023-07-03 12:41:29] INFO root fetch - processPackages [nucliadb]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb-2.9.0.post266-py3-none-any.whl.zip]
+[2023-07-03 12:41:29] INFO root fetch - processPackages [nucliadb]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb-2.9.0.post267-py3-none-any.whl.zip]
+[2023-07-03 12:41:29] INFO root fetch - main [MainThread]: End processing [nucliadb]: success
+[2023-07-03 12:41:56] INFO root fetch - processPackages [coptpy]: Remove: archive file [/home/abi/fetcher/tmp/coptpy-6.5.4-cp39-cp39-win_amd64.whl.zip]
+[2023-07-03 12:41:56] INFO root fetch - processPackages [coptpy]: Remove: archive file [/home/abi/fetcher/tmp/coptpy-6.5.5-cp39-cp39-win_amd64.whl.zip]
+[2023-07-03 12:41:56] INFO root fetch - main [MainThread]: End processing [coptpy]: success
+[2023-07-03 12:41:56] INFO root fetch - main [MainThread]: Store serial: [18737831]
