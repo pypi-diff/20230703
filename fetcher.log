@@ -11816,3 +11816,112 @@ AssertionError: tmp/discord-ansi-0.3.tar.gz does not exist
 
 [2023-07-03 10:51:58] INFO root fetch - main [MainThread]: End processing [HELIOS-RL-Test] error
 [2023-07-03 10:51:58] INFO root fetch - main [MainThread]: Store serial: [18736609]
+[2023-07-03 10:57:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18736609]
+[2023-07-03 10:57:07] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-07-03 10:57:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: zcmds-win32
+[2023-07-03 10:57:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: vollseg-napari-trackmate
+[2023-07-03 10:57:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: typeapi
+[2023-07-03 10:57:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pants-py-deploy
+[2023-07-03 10:57:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: workstation-shell
+[2023-07-03 10:57:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bk-plugin-framework
+[2023-07-03 10:57:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo-addon-account-commission
+[2023-07-03 10:57:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tfp-nightly
+[2023-07-03 10:57:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ailola
+[2023-07-03 10:57:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: typeapi
+[2023-07-03 10:57:07] WARNING root fetch - processPackages [workstation-shell]: Skipping, unable to determine old version
+[2023-07-03 10:57:07] INFO root fetch - processPackages [workstation-shell]: Start processing: helios-rl
+[2023-07-03 10:57:07] INFO root fetch - main [MainThread]: End processing [workstation-shell] error
+[2023-07-03 10:57:07] INFO root fetch - processPackages [zcmds-win32]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-03 10:57:07] INFO root fetch - processPackages [bk-plugin-framework]: New version: [2.0.3] Old Version: [2.0.2]
+[2023-07-03 10:57:07] INFO root fetch - processPackages [typeapi]: New version: [2.1.0] Old Version: [2.0.2]
+[2023-07-03 10:57:07] INFO root fetch - processPackages [pants-py-deploy]: New version: [0.0.21] Old Version: [0.0.20]
+[2023-07-03 10:57:07] INFO root fetch - processPackages [odoo-addon-account-commission]: New version: [16.0.1.1.1.2] Old Version: [16.0.1.1.1]
+[2023-07-03 10:57:07] WARNING root fetch - processPackages [ailola]: Skipping, unable to determine old version
+[2023-07-03 10:57:07] INFO root fetch - processPackages [ailola]: Start processing: whatsapp-api-client-python
+[2023-07-03 10:57:07] INFO root fetch - main [MainThread]: End processing [ailola] error
+[2023-07-03 10:57:07] INFO root fetch - processPackages [vollseg-napari-trackmate]: New version: [2.2.3] Old Version: [2.2.2]
+[2023-07-03 10:57:07] INFO root fetch - processPackages [helios-rl]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-03 10:57:07] INFO root fetch - processPackages [typeapi]: New version: [2.1.0] Old Version: [2.0.2]
+[2023-07-03 10:57:07] INFO root fetch - processPackages [tfp-nightly]: New version: [0.9.0.dev20200114] Old Version: [0.9.0.dev20200113]
+[2023-07-03 10:57:08] INFO root fetch - processPackages [whatsapp-api-client-python]: New version: [0.0.38] Old Version: [0.0.37]
+[2023-07-03 10:57:08] INFO root fetch - processPackages [vollseg-napari-trackmate]: Downloading https://files.pythonhosted.org/packages/cc/89/43b9df3e315ba87bda7395efc9e3f525d297e17f01ba42cead5514ce2f97/vollseg-napari-trackmate-2.2.2.tar.gz
+[2023-07-03 10:57:08] INFO root fetch - processPackages [zcmds-win32]: Downloading https://files.pythonhosted.org/packages/e7/c3/056ff31f9087d244afd34baa04f492e2882c22f6d2ceb65ad0ca9a5f26a3/zcmds_win32-1.0.8.tar.gz
+[2023-07-03 10:57:08] INFO root fetch - processPackages [typeapi]: Downloading https://files.pythonhosted.org/packages/40/f1/894e3ed31eb9a50c343121d36c2fbd987b4542ebd78b3e0a4ea1686abf61/typeapi-2.0.2.tar.gz
+[2023-07-03 10:57:08] INFO root fetch - processPackages [typeapi]: Downloading https://files.pythonhosted.org/packages/40/f1/894e3ed31eb9a50c343121d36c2fbd987b4542ebd78b3e0a4ea1686abf61/typeapi-2.0.2.tar.gz
+[2023-07-03 10:57:08] INFO root fetch - processPackages [helios-rl]: Downloading https://files.pythonhosted.org/packages/62/e8/91e63fc885d98bb4c7e3990c5fc9b9781d72087596f258eef3a0cf1a062f/HELIOS_RL-1.0.0-py3-none-any.whl
+[2023-07-03 10:57:08] INFO root fetch - processPackages [bk-plugin-framework]: Downloading https://files.pythonhosted.org/packages/8e/ae/2a449f181dd3a1aa448f39e087f6708091d4d91e7cb527b097fc77f05c1b/bk-plugin-framework-2.0.2.tar.gz
+[2023-07-03 10:57:08] INFO root fetch - processPackages [pants-py-deploy]: Downloading https://files.pythonhosted.org/packages/ff/f4/2ed0390c1121f2c632c4b21b5fad19aac1257d9ec2ca1cc32330a7b00cc6/pants_py_deploy-0.0.20-py3-none-any.whl
+[2023-07-03 10:57:08] INFO root fetch - processPackages [tfp-nightly]: Downloading https://files.pythonhosted.org/packages/be/16/ebf16b1094e104257af6265eee53833e4f737ef6d11426d959009fa9952a/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl
+[2023-07-03 10:57:08] INFO root fetch - processPackages [odoo-addon-account-commission]: Downloading https://files.pythonhosted.org/packages/23/1c/503d525721e8ee8cfa4962e9d76c5ad05db75473c396164712104a329279/odoo_addon_account_commission-16.0.1.1.1-py3-none-any.whl
+[2023-07-03 10:57:08] INFO root fetch - processPackages [whatsapp-api-client-python]: Downloading https://files.pythonhosted.org/packages/29/39/e845800f540103a7708d4dbd8c57e124e29a3fb0c0eeb9e64a5b62ceb715/whatsapp-api-client-python-0.0.37.tar.gz
+[2023-07-03 10:57:08] INFO root fetch - processPackages [vollseg-napari-trackmate]: Downloading https://files.pythonhosted.org/packages/d4/7d/4dbd4701405398058a03d380eed39303b29b695a4a6b25c45fdee1c6efb7/vollseg-napari-trackmate-2.2.3.tar.gz
+[2023-07-03 10:57:08] INFO root fetch - processPackages [helios-rl]: Downloading https://files.pythonhosted.org/packages/76/5d/e37c3286333f273a4d2eaac78cdac093b08d77222ec47b1dd6e79bbfd36b/helios-rl-1.0.1.tar.gz
+[2023-07-03 10:57:08] INFO root fetch - processPackages [zcmds-win32]: Downloading https://files.pythonhosted.org/packages/13/a8/53f3bf1f6fc781702a2f1a9cff453ba0c0a307559487e3d7a33ade94ebfd/zcmds_win32-1.0.9.tar.gz
+[2023-07-03 10:57:08] INFO root fetch - processPackages [typeapi]: Downloading https://files.pythonhosted.org/packages/ec/e5/d28b3a787e424f49c9556347a6f52f0460259caf41af363157c3fcc517b1/typeapi-2.1.0.tar.gz
+[2023-07-03 10:57:08] INFO root fetch - processPackages [typeapi]: Downloading https://files.pythonhosted.org/packages/ec/e5/d28b3a787e424f49c9556347a6f52f0460259caf41af363157c3fcc517b1/typeapi-2.1.0.tar.gz
+[2023-07-03 10:57:08] INFO root fetch - processPackages [bk-plugin-framework]: Downloading https://files.pythonhosted.org/packages/6f/d7/42f6eace5fe101d739a45eec41095bce13f7c7b1fd79e723f307bc91f785/bk-plugin-framework-2.0.3.tar.gz
+[2023-07-03 10:57:08] INFO root fetch - processPackages [typeapi]: executing diffoscope
+[2023-07-03 10:57:08] INFO root fetch - processPackages [helios-rl]: executing diffoscope
+[2023-07-03 10:57:08] INFO root fetch - processPackages [typeapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/typeapi-2.0.2.tar.gz tmp/typeapi-2.1.0.tar.gz --markdown 20230703/t/typeapi/2.0.2-2.1.0/diff.md --exclude *.pyd
+[2023-07-03 10:57:08] INFO root fetch - processPackages [helios-rl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/HELIOS_RL-1.0.0-py3-none-any.whl.zip tmp/helios-rl-1.0.1.tar.gz --markdown 20230703/h/helios-rl/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-03 10:57:08] INFO root fetch - processPackages [whatsapp-api-client-python]: Downloading https://files.pythonhosted.org/packages/e9/e8/47c1d3547596db99ec74ec091a2030a1ca55c0a2a6d077ce8638739f0f05/whatsapp-api-client-python-0.0.38.tar.gz
+[2023-07-03 10:57:08] INFO root fetch - processPackages [typeapi]: executing diffoscope
+[2023-07-03 10:57:08] INFO root fetch - processPackages [typeapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/typeapi-2.0.2.tar.gz tmp/typeapi-2.1.0.tar.gz --markdown 20230703/t/typeapi/2.0.2-2.1.0/diff.md --exclude *.pyd
+[2023-07-03 10:57:08] INFO root fetch - processPackages [odoo-addon-account-commission]: Downloading https://files.pythonhosted.org/packages/db/71/765d3d26d791b6a0f6aadf84486f5ac9a385a780a00c2faee8138bb3f031/odoo_addon_account_commission-16.0.1.1.1.2-py3-none-any.whl
+[2023-07-03 10:57:08] INFO root fetch - processPackages [zcmds-win32]: executing diffoscope
+[2023-07-03 10:57:08] INFO root fetch - processPackages [zcmds-win32]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zcmds_win32-1.0.8.tar.gz tmp/zcmds_win32-1.0.9.tar.gz --markdown 20230703/z/zcmds-win32/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-03 10:57:08] INFO root fetch - processPackages [pants-py-deploy]: Downloading https://files.pythonhosted.org/packages/7d/ee/03ff27fd0cee49667f0ea7bcad69106127bc6bea4878177ce7f1354a43d3/pants_py_deploy-0.0.21-py3-none-any.whl
+[2023-07-03 10:57:08] INFO root fetch - processPackages [bk-plugin-framework]: executing diffoscope
+[2023-07-03 10:57:08] INFO root fetch - processPackages [bk-plugin-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bk-plugin-framework-2.0.2.tar.gz tmp/bk-plugin-framework-2.0.3.tar.gz --markdown 20230703/b/bk-plugin-framework/2.0.2-2.0.3/diff.md --exclude *.pyd
+[2023-07-03 10:57:09] INFO root fetch - processPackages [vollseg-napari-trackmate]: executing diffoscope
+[2023-07-03 10:57:09] INFO root fetch - processPackages [vollseg-napari-trackmate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vollseg-napari-trackmate-2.2.2.tar.gz tmp/vollseg-napari-trackmate-2.2.3.tar.gz --markdown 20230703/v/vollseg-napari-trackmate/2.2.2-2.2.3/diff.md --exclude *.pyd
+[2023-07-03 10:57:09] INFO root fetch - processPackages [whatsapp-api-client-python]: executing diffoscope
+[2023-07-03 10:57:09] INFO root fetch - processPackages [whatsapp-api-client-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/whatsapp-api-client-python-0.0.37.tar.gz tmp/whatsapp-api-client-python-0.0.38.tar.gz --markdown 20230703/w/whatsapp-api-client-python/0.0.37-0.0.38/diff.md --exclude *.pyd
+[2023-07-03 10:57:09] INFO root fetch - processPackages [odoo-addon-account-commission]: executing diffoscope
+[2023-07-03 10:57:09] INFO root fetch - processPackages [odoo-addon-account-commission]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_commission-16.0.1.1.1-py3-none-any.whl.zip tmp/odoo_addon_account_commission-16.0.1.1.1.2-py3-none-any.whl.zip --markdown 20230703/o/odoo-addon-account-commission/16.0.1.1.1-16.0.1.1.1.2/diff.md --exclude *.pyd
+[2023-07-03 10:57:09] INFO root fetch - processPackages [pants-py-deploy]: executing diffoscope
+[2023-07-03 10:57:09] INFO root fetch - processPackages [pants-py-deploy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pants_py_deploy-0.0.20-py3-none-any.whl.zip tmp/pants_py_deploy-0.0.21-py3-none-any.whl.zip --markdown 20230703/p/pants-py-deploy/0.0.20-0.0.21/diff.md --exclude *.pyd
+[2023-07-03 10:57:09] INFO root fetch - processPackages [tfp-nightly]: Downloading https://files.pythonhosted.org/packages/f1/98/c1f5a754a26ea1f08e3558803ffb67dd65482de4f6bfadc5415573cd3cb7/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl
+[2023-07-03 10:57:10] INFO root fetch - processPackages [helios-rl]: Remove: archive file [/home/abi/fetcher/tmp/HELIOS_RL-1.0.0-py3-none-any.whl.zip]
+[2023-07-03 10:57:10] INFO root fetch - processPackages [helios-rl]: Remove: archive file [/home/abi/fetcher/tmp/helios-rl-1.0.1.tar.gz]
+[2023-07-03 10:57:10] INFO root fetch - processPackages [helios-rl]: Start processing: pontos
+[2023-07-03 10:57:10] INFO root fetch - main [MainThread]: End processing [helios-rl]: success
+[2023-07-03 10:57:10] INFO root fetch - processPackages [pontos]: New version: [23.7.0] Old Version: [23.6.2]
+[2023-07-03 10:57:10] INFO root fetch - processPackages [zcmds-win32]: Remove: archive file [/home/abi/fetcher/tmp/zcmds_win32-1.0.8.tar.gz]
+[2023-07-03 10:57:10] INFO root fetch - processPackages [zcmds-win32]: Remove: archive file [/home/abi/fetcher/tmp/zcmds_win32-1.0.9.tar.gz]
+[2023-07-03 10:57:10] INFO root fetch - processPackages [zcmds-win32]: Start processing: guanin
+[2023-07-03 10:57:10] INFO root fetch - main [MainThread]: End processing [zcmds-win32]: success
+[2023-07-03 10:57:10] WARNING root fetch - processPackages [guanin]: Skipping, unable to determine old version
+[2023-07-03 10:57:10] INFO root fetch - main [MainThread]: End processing [guanin] error
+[2023-07-03 10:57:10] INFO root fetch - processPackages [typeapi]: Remove: archive file [/home/abi/fetcher/tmp/typeapi-2.0.2.tar.gz]
+[2023-07-03 10:57:10] INFO root fetch - processPackages [typeapi]: Remove: archive file [/home/abi/fetcher/tmp/typeapi-2.1.0.tar.gz]
+[2023-07-03 10:57:10] INFO root fetch - main [MainThread]: End processing [typeapi]: success
+[2023-07-03 10:57:10] INFO root fetch - main [MainThread]: End processing [typeapi]: success
+[2023-07-03 10:57:10] INFO root fetch - processPackages [pontos]: Downloading https://files.pythonhosted.org/packages/d5/6d/084da4182a5ba62f5caefc7d213cc1a251ee9b5a61601b359a1ee0b716af/pontos-23.6.2.tar.gz
+[2023-07-03 10:57:10] INFO root fetch - processPackages [pants-py-deploy]: Remove: archive file [/home/abi/fetcher/tmp/pants_py_deploy-0.0.20-py3-none-any.whl.zip]
+[2023-07-03 10:57:10] INFO root fetch - processPackages [pants-py-deploy]: Remove: archive file [/home/abi/fetcher/tmp/pants_py_deploy-0.0.21-py3-none-any.whl.zip]
+[2023-07-03 10:57:10] INFO root fetch - main [MainThread]: End processing [pants-py-deploy]: success
+[2023-07-03 10:57:10] INFO root fetch - processPackages [whatsapp-api-client-python]: Remove: archive file [/home/abi/fetcher/tmp/whatsapp-api-client-python-0.0.37.tar.gz]
+[2023-07-03 10:57:10] INFO root fetch - processPackages [whatsapp-api-client-python]: Remove: archive file [/home/abi/fetcher/tmp/whatsapp-api-client-python-0.0.38.tar.gz]
+[2023-07-03 10:57:10] INFO root fetch - main [MainThread]: End processing [whatsapp-api-client-python]: success
+[2023-07-03 10:57:10] INFO root fetch - processPackages [odoo-addon-account-commission]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_commission-16.0.1.1.1-py3-none-any.whl.zip]
+[2023-07-03 10:57:10] INFO root fetch - processPackages [odoo-addon-account-commission]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_commission-16.0.1.1.1.2-py3-none-any.whl.zip]
+[2023-07-03 10:57:10] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-commission]: success
+[2023-07-03 10:57:11] INFO root fetch - processPackages [tfp-nightly]: executing diffoscope
+[2023-07-03 10:57:11] INFO root fetch - processPackages [tfp-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl.zip tmp/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl.zip --markdown 20230703/t/tfp-nightly/0.9.0.dev20200113-0.9.0.dev20200114/diff.md --exclude *.pyd
+[2023-07-03 10:57:11] INFO root fetch - processPackages [pontos]: Downloading https://files.pythonhosted.org/packages/9e/29/1075e3df65ded1bd79909ca1398b9f92ff3ff0e60b49392a82601ab7f358/pontos-23.7.0.tar.gz
+[2023-07-03 10:57:11] INFO root fetch - processPackages [bk-plugin-framework]: Remove: archive file [/home/abi/fetcher/tmp/bk-plugin-framework-2.0.2.tar.gz]
+[2023-07-03 10:57:11] INFO root fetch - processPackages [bk-plugin-framework]: Remove: archive file [/home/abi/fetcher/tmp/bk-plugin-framework-2.0.3.tar.gz]
+[2023-07-03 10:57:11] INFO root fetch - main [MainThread]: End processing [bk-plugin-framework]: success
+[2023-07-03 10:57:11] INFO root fetch - processPackages [pontos]: executing diffoscope
+[2023-07-03 10:57:11] INFO root fetch - processPackages [pontos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pontos-23.6.2.tar.gz tmp/pontos-23.7.0.tar.gz --markdown 20230703/p/pontos/23.6.2-23.7.0/diff.md --exclude *.pyd
+[2023-07-03 10:57:11] INFO root fetch - processPackages [vollseg-napari-trackmate]: Remove: archive file [/home/abi/fetcher/tmp/vollseg-napari-trackmate-2.2.2.tar.gz]
+[2023-07-03 10:57:11] INFO root fetch - processPackages [vollseg-napari-trackmate]: Remove: archive file [/home/abi/fetcher/tmp/vollseg-napari-trackmate-2.2.3.tar.gz]
+[2023-07-03 10:57:11] INFO root fetch - main [MainThread]: End processing [vollseg-napari-trackmate]: success
+[2023-07-03 10:57:13] INFO root fetch - processPackages [pontos]: Remove: archive file [/home/abi/fetcher/tmp/pontos-23.6.2.tar.gz]
+[2023-07-03 10:57:13] INFO root fetch - processPackages [pontos]: Remove: archive file [/home/abi/fetcher/tmp/pontos-23.7.0.tar.gz]
+[2023-07-03 10:57:13] INFO root fetch - main [MainThread]: End processing [pontos]: success
+[2023-07-03 10:57:15] INFO root fetch - processPackages [tfp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl.zip]
+[2023-07-03 10:57:15] INFO root fetch - processPackages [tfp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl.zip]
+[2023-07-03 10:57:15] INFO root fetch - main [MainThread]: End processing [tfp-nightly]: success
+[2023-07-03 10:57:15] INFO root fetch - main [MainThread]: Store serial: [18736658]
