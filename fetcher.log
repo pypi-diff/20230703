@@ -7812,3 +7812,66 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-03 07:49:07] INFO root fetch - processPackages [flybirds]: Remove: archive file [/home/abi/fetcher/tmp/flybirds-0.6.3.tar.gz]
 [2023-07-03 07:49:07] INFO root fetch - main [MainThread]: End processing [flybirds]: success
 [2023-07-03 07:49:07] INFO root fetch - main [MainThread]: Store serial: [18735007]
+[2023-07-03 07:54:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18735007]
+[2023-07-03 07:54:16] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-03 07:54:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: superpowered-sdk
+[2023-07-03 07:54:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: c2cciutils
+[2023-07-03 07:54:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pysigma-backend-elasticsearch
+[2023-07-03 07:54:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fastdatasets
+[2023-07-03 07:54:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: flask-project-builder-python
+[2023-07-03 07:54:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: micropython-hints
+[2023-07-03 07:54:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: PyPtt
+[2023-07-03 07:54:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: QPUIQ
+[2023-07-03 07:54:16] INFO root fetch - processPackages [fastdatasets]: New version: [0.9.9] Old Version: [0.9.7.post0]
+[2023-07-03 07:54:17] WARNING root fetch - processPackages [flask-project-builder-python]: Skipping, unable to determine old version
+[2023-07-03 07:54:17] INFO root fetch - processPackages [superpowered-sdk]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-03 07:54:17] INFO root fetch - main [MainThread]: End processing [flask-project-builder-python] error
+[2023-07-03 07:54:17] INFO root fetch - processPackages [PyPtt]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-03 07:54:17] INFO root fetch - processPackages [pysigma-backend-elasticsearch]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-07-03 07:54:17] WARNING root fetch - processPackages [micropython-hints]: Skipping, unable to determine old version
+[2023-07-03 07:54:17] INFO root fetch - processPackages [QPUIQ]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-07-03 07:54:17] INFO root fetch - main [MainThread]: End processing [micropython-hints] error
+[2023-07-03 07:54:17] INFO root fetch - processPackages [c2cciutils]: New version: [1.6.0.dev99] Old Version: [1.6.0.dev98]
+[2023-07-03 07:54:17] INFO root fetch - processPackages [QPUIQ]: Downloading https://files.pythonhosted.org/packages/76/6b/7c74799124ceed5da51c64eaba7c190e2052395440f6b82c3cad2980de36/QPUIQ-0.2.4.tar.gz
+[2023-07-03 07:54:17] INFO root fetch - processPackages [c2cciutils]: Downloading https://files.pythonhosted.org/packages/a1/2b/1d6a9f2a49b1cf5d42f9fe6f8498218d1aa03ad4f83547e435c82985bf79/c2cciutils-1.6.0.dev98.tar.gz
+[2023-07-03 07:54:17] INFO root fetch - processPackages [fastdatasets]: Downloading https://files.pythonhosted.org/packages/84/d0/f74a5dda34a2ac541f0a2dfe77dd747cba0954d0b9e8e94c161e28c2e188/fastdatasets-0.9.7.post0-py3-none-any.whl
+[2023-07-03 07:54:17] INFO root fetch - processPackages [pysigma-backend-elasticsearch]: Downloading https://files.pythonhosted.org/packages/49/81/9fded860c2fd52e2744b2b823fa917a93b13b4cc42caa6100b0655d7c36b/pysigma_backend_elasticsearch-1.0.4.tar.gz
+[2023-07-03 07:54:17] INFO root fetch - processPackages [superpowered-sdk]: Downloading https://files.pythonhosted.org/packages/42/73/ac56626bf302fe1ce198c2ed99003cbf37551b848d4a50db54fbc2acbc93/superpowered-sdk-0.1.8.tar.gz
+[2023-07-03 07:54:17] INFO root fetch - processPackages [QPUIQ]: Downloading https://files.pythonhosted.org/packages/60/70/658e383cf58e23d19fd50f63fbfcfda06e170d71d83d71eaea3dbc42d49d/QPUIQ-0.2.5.tar.gz
+[2023-07-03 07:54:17] INFO root fetch - processPackages [PyPtt]: Downloading https://files.pythonhosted.org/packages/80/b0/9ac39d438d4bc70acdb17cf46580e8b13e192fa3f187a3e4668c4c953075/PyPtt-1.0.8.tar.gz
+[2023-07-03 07:54:17] INFO root fetch - processPackages [QPUIQ]: executing diffoscope
+[2023-07-03 07:54:17] INFO root fetch - processPackages [QPUIQ]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/QPUIQ-0.2.4.tar.gz tmp/QPUIQ-0.2.5.tar.gz --markdown 20230703/Q/QPUIQ/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-07-03 07:54:17] INFO root fetch - processPackages [c2cciutils]: Downloading https://files.pythonhosted.org/packages/60/cb/aa51be69fbd8a1ba783878ebc042a12a61ad083b26d90280d1164ab692f5/c2cciutils-1.6.0.dev99.tar.gz
+[2023-07-03 07:54:17] INFO root fetch - processPackages [fastdatasets]: Downloading https://files.pythonhosted.org/packages/ed/f0/8d4ae8c973115bec20261c6cbbe41b9db84edefd982957e48b4b0a972e30/fastdatasets-0.9.9-py3-none-any.whl
+[2023-07-03 07:54:17] INFO root fetch - processPackages [pysigma-backend-elasticsearch]: Downloading https://files.pythonhosted.org/packages/b7/2c/d48bedcff78ee0a72984e9d814d9e8fe74ae868ec264ea6c354f1e276528/pysigma_backend_elasticsearch-1.0.5.tar.gz
+[2023-07-03 07:54:17] INFO root fetch - processPackages [PyPtt]: Downloading https://files.pythonhosted.org/packages/a2/c1/fd0dfa5856b8c81d484d59a60492670502943d76eaf692c37dad413c3217/PyPtt-1.0.9.tar.gz
+[2023-07-03 07:54:17] INFO root fetch - processPackages [pysigma-backend-elasticsearch]: executing diffoscope
+[2023-07-03 07:54:17] INFO root fetch - processPackages [pysigma-backend-elasticsearch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysigma_backend_elasticsearch-1.0.4.tar.gz tmp/pysigma_backend_elasticsearch-1.0.5.tar.gz --markdown 20230703/p/pysigma-backend-elasticsearch/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-07-03 07:54:17] INFO root fetch - processPackages [superpowered-sdk]: Downloading https://files.pythonhosted.org/packages/b5/4e/1d63519bf9de35706bda532be3b524597fb67d236d41d73bd145c737e1fc/superpowered-sdk-0.1.9.tar.gz
+[2023-07-03 07:54:17] INFO root fetch - processPackages [PyPtt]: executing diffoscope
+[2023-07-03 07:54:17] INFO root fetch - processPackages [PyPtt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyPtt-1.0.8.tar.gz tmp/PyPtt-1.0.9.tar.gz --markdown 20230703/P/PyPtt/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-03 07:54:17] INFO root fetch - processPackages [fastdatasets]: executing diffoscope
+[2023-07-03 07:54:17] INFO root fetch - processPackages [fastdatasets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastdatasets-0.9.7.post0-py3-none-any.whl.zip tmp/fastdatasets-0.9.9-py3-none-any.whl.zip --markdown 20230703/f/fastdatasets/0.9.7.post0-0.9.9/diff.md --exclude *.pyd
+[2023-07-03 07:54:17] INFO root fetch - processPackages [c2cciutils]: executing diffoscope
+[2023-07-03 07:54:17] INFO root fetch - processPackages [c2cciutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c2cciutils-1.6.0.dev98.tar.gz tmp/c2cciutils-1.6.0.dev99.tar.gz --markdown 20230703/c/c2cciutils/1.6.0.dev98-1.6.0.dev99/diff.md --exclude *.pyd
+[2023-07-03 07:54:17] INFO root fetch - processPackages [superpowered-sdk]: executing diffoscope
+[2023-07-03 07:54:17] INFO root fetch - processPackages [superpowered-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/superpowered-sdk-0.1.8.tar.gz tmp/superpowered-sdk-0.1.9.tar.gz --markdown 20230703/s/superpowered-sdk/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-03 07:54:18] INFO root fetch - processPackages [pysigma-backend-elasticsearch]: Remove: archive file [/home/abi/fetcher/tmp/pysigma_backend_elasticsearch-1.0.4.tar.gz]
+[2023-07-03 07:54:18] INFO root fetch - processPackages [pysigma-backend-elasticsearch]: Remove: archive file [/home/abi/fetcher/tmp/pysigma_backend_elasticsearch-1.0.5.tar.gz]
+[2023-07-03 07:54:18] INFO root fetch - main [MainThread]: End processing [pysigma-backend-elasticsearch]: success
+[2023-07-03 07:54:18] INFO root fetch - processPackages [superpowered-sdk]: Remove: archive file [/home/abi/fetcher/tmp/superpowered-sdk-0.1.8.tar.gz]
+[2023-07-03 07:54:18] INFO root fetch - processPackages [superpowered-sdk]: Remove: archive file [/home/abi/fetcher/tmp/superpowered-sdk-0.1.9.tar.gz]
+[2023-07-03 07:54:18] INFO root fetch - main [MainThread]: End processing [superpowered-sdk]: success
+[2023-07-03 07:54:19] INFO root fetch - processPackages [QPUIQ]: Remove: archive file [/home/abi/fetcher/tmp/QPUIQ-0.2.4.tar.gz]
+[2023-07-03 07:54:19] INFO root fetch - processPackages [QPUIQ]: Remove: archive file [/home/abi/fetcher/tmp/QPUIQ-0.2.5.tar.gz]
+[2023-07-03 07:54:19] INFO root fetch - main [MainThread]: End processing [QPUIQ]: success
+[2023-07-03 07:54:19] INFO root fetch - processPackages [PyPtt]: Remove: archive file [/home/abi/fetcher/tmp/PyPtt-1.0.8.tar.gz]
+[2023-07-03 07:54:19] INFO root fetch - processPackages [PyPtt]: Remove: archive file [/home/abi/fetcher/tmp/PyPtt-1.0.9.tar.gz]
+[2023-07-03 07:54:19] INFO root fetch - main [MainThread]: End processing [PyPtt]: success
+[2023-07-03 07:54:19] INFO root fetch - processPackages [fastdatasets]: Remove: archive file [/home/abi/fetcher/tmp/fastdatasets-0.9.7.post0-py3-none-any.whl.zip]
+[2023-07-03 07:54:19] INFO root fetch - processPackages [fastdatasets]: Remove: archive file [/home/abi/fetcher/tmp/fastdatasets-0.9.9-py3-none-any.whl.zip]
+[2023-07-03 07:54:19] INFO root fetch - main [MainThread]: End processing [fastdatasets]: success
+[2023-07-03 07:54:23] INFO root fetch - processPackages [c2cciutils]: Remove: archive file [/home/abi/fetcher/tmp/c2cciutils-1.6.0.dev98.tar.gz]
+[2023-07-03 07:54:23] INFO root fetch - processPackages [c2cciutils]: Remove: archive file [/home/abi/fetcher/tmp/c2cciutils-1.6.0.dev99.tar.gz]
+[2023-07-03 07:54:23] INFO root fetch - main [MainThread]: End processing [c2cciutils]: success
+[2023-07-03 07:54:23] INFO root fetch - main [MainThread]: Store serial: [18735039]
