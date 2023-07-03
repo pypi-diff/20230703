@@ -14150,3 +14150,181 @@ AssertionError: tmp/discord-ansi-0.3.tar.gz does not exist
 [2023-07-03 12:22:44] INFO root fetch - processPackages [spaceone-notification]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-notification-1.12.dev6.tar.gz]
 [2023-07-03 12:22:44] INFO root fetch - main [MainThread]: End processing [spaceone-notification]: success
 [2023-07-03 12:22:44] INFO root fetch - main [MainThread]: Store serial: [18737565]
+[2023-07-03 12:27:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18737565]
+[2023-07-03 12:27:53] INFO root fetch - main [MainThread]: Found 21 changed packages
+[2023-07-03 12:27:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: helperfns
+[2023-07-03 12:27:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: c2cciutils
+[2023-07-03 12:27:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: uasset-dump
+[2023-07-03 12:27:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: spaceone-statistics
+[2023-07-03 12:27:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nvidia-dali-tf-plugin-nightly-cuda120
+[2023-07-03 12:27:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: coffeegrinder
+[2023-07-03 12:27:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: spaceone-supervisor
+[2023-07-03 12:27:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: spaceone-inventory
+[2023-07-03 12:27:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nvidia-dali-nightly-cuda120
+[2023-07-03 12:27:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: uniref
+[2023-07-03 12:27:53] WARNING root fetch - processPackages [uasset-dump]: Skipping, unable to determine old version
+[2023-07-03 12:27:53] INFO root fetch - processPackages [uasset-dump]: Start processing: garpix-utils
+[2023-07-03 12:27:53] INFO root fetch - main [MainThread]: End processing [uasset-dump] error
+[2023-07-03 12:27:53] INFO root fetch - processPackages [coffeegrinder]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-03 12:27:53] INFO root fetch - processPackages [c2cciutils]: New version: [1.6.0.dev99] Old Version: [1.6.0.dev98]
+[2023-07-03 12:27:53] INFO root fetch - processPackages [spaceone-inventory]: New version: [1.9.7rc1] Old Version: [1.9.7.3]
+[2023-07-03 12:27:53] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda120]: New version: [1.28.0.dev20230703] Old Version: [1.28.0.dev20230630]
+[2023-07-03 12:27:53] INFO root fetch - processPackages [garpix-utils]: New version: [1.9.0rc2] Old Version: [1.9.0rc1]
+[2023-07-03 12:27:53] INFO root fetch - processPackages [spaceone-supervisor]: New version: [1.9.7rc1] Old Version: [1.9.7]
+[2023-07-03 12:27:53] INFO root fetch - processPackages [helperfns]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-03 12:27:53] INFO root fetch - processPackages [nvidia-dali-nightly-cuda120]: New version: [1.28.0.dev20230703] Old Version: [1.28.0.dev20230630]
+[2023-07-03 12:27:53] INFO root fetch - processPackages [uniref]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-07-03 12:27:53] INFO root fetch - processPackages [spaceone-statistics]: New version: [1.9.7rc1] Old Version: [1.9.7.1]
+[2023-07-03 12:27:54] INFO root fetch - processPackages [coffeegrinder]: Downloading https://files.pythonhosted.org/packages/07/6d/f58bf759a190b78d36ac7f516510b4a414218b084ef936920ca0002f31cc/coffeegrinder-0.2.8.tar.gz
+[2023-07-03 12:27:54] INFO root fetch - processPackages [garpix-utils]: Downloading https://files.pythonhosted.org/packages/2c/57/39494a20da217969337a826096b8920bc1d8269152803ceed2077298df5c/garpix_utils-1.9.0rc1.tar.gz
+[2023-07-03 12:27:54] INFO root fetch - processPackages [c2cciutils]: Downloading https://files.pythonhosted.org/packages/a1/2b/1d6a9f2a49b1cf5d42f9fe6f8498218d1aa03ad4f83547e435c82985bf79/c2cciutils-1.6.0.dev98.tar.gz
+[2023-07-03 12:27:54] INFO root fetch - processPackages [spaceone-inventory]: Downloading https://files.pythonhosted.org/packages/a9/82/c593d30951fa8a48a0777598d6512a6f1c3d737ee4831063408619868fff/spaceone_inventory-1.9.7.3-py3-none-any.whl
+[2023-07-03 12:27:54] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda120]: Downloading https://files.pythonhosted.org/packages/91/c0/fe8dc7301715a25fc66046afe8e22dd6a83531f393923cf4a2f7da2f9855/nvidia-dali-tf-plugin-nightly-cuda120-1.28.0.dev20230630.tar.gz
+[2023-07-03 12:27:54] INFO root fetch - processPackages [spaceone-supervisor]: Downloading https://files.pythonhosted.org/packages/bc/4e/e44f5c097613b695cd86c690f9a2f2adb2e6611936c7e20945b00850af51/spaceone_supervisor-1.9.7-py3-none-any.whl
+[2023-07-03 12:27:54] INFO root fetch - processPackages [uniref]: Downloading https://files.pythonhosted.org/packages/b0/73/25ee8da67cc9b6aa4d94b974752a0f6366e24ec4ae050e06072002e78b49/uniref-0.3.0.tar.gz
+[2023-07-03 12:27:54] INFO root fetch - processPackages [helperfns]: Downloading https://files.pythonhosted.org/packages/0e/03/6a9f6b595576706531aff1c170583dc596b0e6652508732149f2e8089251/helperfns-0.0.3.tar.gz
+[2023-07-03 12:27:54] INFO root fetch - processPackages [spaceone-statistics]: Downloading https://files.pythonhosted.org/packages/c4/cd/89cbaa5162f9dcaf485930e348ccbab424a9547c14941e7949b917ba2397/spaceone_statistics-1.9.7.1-py3-none-any.whl
+[2023-07-03 12:27:54] INFO root fetch - processPackages [coffeegrinder]: Downloading https://files.pythonhosted.org/packages/4d/cd/7084902ac38a9c1128b994c1c3e6a945026a8b405749edd0a074da8507f0/coffeegrinder-0.2.9.tar.gz
+[2023-07-03 12:27:54] INFO root fetch - processPackages [garpix-utils]: Downloading https://files.pythonhosted.org/packages/fc/c8/a863299d473b32cf0fe0a16812bd84a125dbf608d202f02441651771a1e5/garpix_utils-1.9.0rc2.tar.gz
+[2023-07-03 12:27:54] INFO root fetch - processPackages [nvidia-dali-nightly-cuda120]: Downloading https://files.pythonhosted.org/packages/54/7c/3223edcdbdbeae30c76a5171cc67de76af9b778c0248f3ef1219b17d28c0/nvidia-dali-nightly-cuda120-1.28.0.dev20230630.tar.gz
+[2023-07-03 12:27:54] INFO root fetch - processPackages [coffeegrinder]: executing diffoscope
+[2023-07-03 12:27:54] INFO root fetch - processPackages [coffeegrinder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coffeegrinder-0.2.8.tar.gz tmp/coffeegrinder-0.2.9.tar.gz --markdown 20230703/c/coffeegrinder/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-03 12:27:54] INFO root fetch - processPackages [garpix-utils]: executing diffoscope
+[2023-07-03 12:27:54] INFO root fetch - processPackages [garpix-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/garpix_utils-1.9.0rc1.tar.gz tmp/garpix_utils-1.9.0rc2.tar.gz --markdown 20230703/g/garpix-utils/1.9.0rc1-1.9.0rc2/diff.md --exclude *.pyd
+[2023-07-03 12:27:54] INFO root fetch - processPackages [c2cciutils]: Downloading https://files.pythonhosted.org/packages/60/cb/aa51be69fbd8a1ba783878ebc042a12a61ad083b26d90280d1164ab692f5/c2cciutils-1.6.0.dev99.tar.gz
+[2023-07-03 12:27:54] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda120]: Downloading https://files.pythonhosted.org/packages/28/cf/a0465506ac473da2099332161a97559651c37471a3cc77beed2fef772457/nvidia-dali-tf-plugin-nightly-cuda120-1.28.0.dev20230703.tar.gz
+[2023-07-03 12:27:54] INFO root fetch - processPackages [spaceone-inventory]: Downloading https://files.pythonhosted.org/packages/8b/3e/9b66d8ee4c516bd667673a5577cc4743104de117a9cf1693532b741e45c4/spaceone_inventory-1.9.7rc1-py3-none-any.whl
+[2023-07-03 12:27:54] INFO root fetch - processPackages [spaceone-supervisor]: Downloading https://files.pythonhosted.org/packages/c5/4a/438439fb9504f6e4326e0800484696c26133a7d54090b11f66d719f4e7d4/spaceone_supervisor-1.9.7rc1-py3-none-any.whl
+[2023-07-03 12:27:54] INFO root fetch - processPackages [helperfns]: Downloading https://files.pythonhosted.org/packages/2f/88/55e4ef1b1d9d9a6cd29b5c58bf868f8046dfe934541d86f9801894dd006c/helperfns-0.0.4.tar.gz
+[2023-07-03 12:27:54] INFO root fetch - processPackages [uniref]: Downloading https://files.pythonhosted.org/packages/6a/60/4236b812b24c079d01d93c647ad3327e2d6791764933f4fdf27ca8fde726/uniref-0.3.1.tar.gz
+[2023-07-03 12:27:54] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda120]: executing diffoscope
+[2023-07-03 12:27:54] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda120]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvidia-dali-tf-plugin-nightly-cuda120-1.28.0.dev20230630.tar.gz tmp/nvidia-dali-tf-plugin-nightly-cuda120-1.28.0.dev20230703.tar.gz --markdown 20230703/n/nvidia-dali-tf-plugin-nightly-cuda120/1.28.0.dev20230630-1.28.0.dev20230703/diff.md --exclude *.pyd
+[2023-07-03 12:27:54] INFO root fetch - processPackages [nvidia-dali-nightly-cuda120]: Downloading https://files.pythonhosted.org/packages/08/76/c1397ba5b4c5098320896eb77aceb84e8a08f6631c159bebe5aa25bf1ef5/nvidia-dali-nightly-cuda120-1.28.0.dev20230703.tar.gz
+[2023-07-03 12:27:54] INFO root fetch - processPackages [spaceone-inventory]: executing diffoscope
+[2023-07-03 12:27:54] INFO root fetch - processPackages [spaceone-inventory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spaceone_inventory-1.9.7.3-py3-none-any.whl.zip tmp/spaceone_inventory-1.9.7rc1-py3-none-any.whl.zip --markdown 20230703/s/spaceone-inventory/1.9.7.3-1.9.7rc1/diff.md --exclude *.pyd
+[2023-07-03 12:27:54] INFO root fetch - processPackages [spaceone-supervisor]: executing diffoscope
+[2023-07-03 12:27:54] INFO root fetch - processPackages [spaceone-supervisor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spaceone_supervisor-1.9.7-py3-none-any.whl.zip tmp/spaceone_supervisor-1.9.7rc1-py3-none-any.whl.zip --markdown 20230703/s/spaceone-supervisor/1.9.7-1.9.7rc1/diff.md --exclude *.pyd
+[2023-07-03 12:27:54] INFO root fetch - processPackages [helperfns]: executing diffoscope
+[2023-07-03 12:27:54] INFO root fetch - processPackages [helperfns]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/helperfns-0.0.3.tar.gz tmp/helperfns-0.0.4.tar.gz --markdown 20230703/h/helperfns/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-03 12:27:54] INFO root fetch - processPackages [spaceone-statistics]: Downloading https://files.pythonhosted.org/packages/d8/90/c82400b8d58297dc11095bbdb405ef1da35645a64f284e3f7024b4234ff6/spaceone_statistics-1.9.7rc1-py3-none-any.whl
+[2023-07-03 12:27:54] INFO root fetch - processPackages [uniref]: executing diffoscope
+[2023-07-03 12:27:54] INFO root fetch - processPackages [uniref]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uniref-0.3.0.tar.gz tmp/uniref-0.3.1.tar.gz --markdown 20230703/u/uniref/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-07-03 12:27:55] INFO root fetch - processPackages [nvidia-dali-nightly-cuda120]: executing diffoscope
+[2023-07-03 12:27:55] INFO root fetch - processPackages [nvidia-dali-nightly-cuda120]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvidia-dali-nightly-cuda120-1.28.0.dev20230630.tar.gz tmp/nvidia-dali-nightly-cuda120-1.28.0.dev20230703.tar.gz --markdown 20230703/n/nvidia-dali-nightly-cuda120/1.28.0.dev20230630-1.28.0.dev20230703/diff.md --exclude *.pyd
+[2023-07-03 12:27:55] INFO root fetch - processPackages [spaceone-statistics]: executing diffoscope
+[2023-07-03 12:27:55] INFO root fetch - processPackages [spaceone-statistics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spaceone_statistics-1.9.7.1-py3-none-any.whl.zip tmp/spaceone_statistics-1.9.7rc1-py3-none-any.whl.zip --markdown 20230703/s/spaceone-statistics/1.9.7.1-1.9.7rc1/diff.md --exclude *.pyd
+[2023-07-03 12:27:55] INFO root fetch - processPackages [c2cciutils]: executing diffoscope
+[2023-07-03 12:27:55] INFO root fetch - processPackages [c2cciutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c2cciutils-1.6.0.dev98.tar.gz tmp/c2cciutils-1.6.0.dev99.tar.gz --markdown 20230703/c/c2cciutils/1.6.0.dev98-1.6.0.dev99/diff.md --exclude *.pyd
+[2023-07-03 12:27:56] INFO root fetch - processPackages [garpix-utils]: Remove: archive file [/home/abi/fetcher/tmp/garpix_utils-1.9.0rc1.tar.gz]
+[2023-07-03 12:27:56] INFO root fetch - processPackages [garpix-utils]: Remove: archive file [/home/abi/fetcher/tmp/garpix_utils-1.9.0rc2.tar.gz]
+[2023-07-03 12:27:56] INFO root fetch - processPackages [garpix-utils]: Start processing: dolphie
+[2023-07-03 12:27:56] INFO root fetch - main [MainThread]: End processing [garpix-utils]: success
+[2023-07-03 12:27:56] INFO root fetch - processPackages [coffeegrinder]: Remove: archive file [/home/abi/fetcher/tmp/coffeegrinder-0.2.8.tar.gz]
+[2023-07-03 12:27:56] INFO root fetch - processPackages [coffeegrinder]: Remove: archive file [/home/abi/fetcher/tmp/coffeegrinder-0.2.9.tar.gz]
+[2023-07-03 12:27:56] INFO root fetch - processPackages [coffeegrinder]: Start processing: colibricore
+[2023-07-03 12:27:56] INFO root fetch - main [MainThread]: End processing [coffeegrinder]: success
+[2023-07-03 12:27:56] INFO root fetch - processPackages [dolphie]: New version: [2.0.5] Old Version: [2.0.4]
+[2023-07-03 12:27:56] INFO root fetch - processPackages [colibricore]: New version: [2.5.9] Old Version: [2.5.5]
+[2023-07-03 12:27:56] INFO root fetch - processPackages [helperfns]: Remove: archive file [/home/abi/fetcher/tmp/helperfns-0.0.3.tar.gz]
+[2023-07-03 12:27:56] INFO root fetch - processPackages [helperfns]: Remove: archive file [/home/abi/fetcher/tmp/helperfns-0.0.4.tar.gz]
+[2023-07-03 12:27:56] INFO root fetch - processPackages [helperfns]: Start processing: energypylinear
+[2023-07-03 12:27:56] INFO root fetch - main [MainThread]: End processing [helperfns]: success
+[2023-07-03 12:27:56] INFO root fetch - processPackages [nvidia-dali-nightly-cuda120]: Remove: archive file [/home/abi/fetcher/tmp/nvidia-dali-nightly-cuda120-1.28.0.dev20230630.tar.gz]
+[2023-07-03 12:27:56] INFO root fetch - processPackages [dolphie]: Downloading https://files.pythonhosted.org/packages/ee/75/36ab55a8f820f6cd9b59fddafa70bfd9cae0eadf9f756a0525a170f5f69c/dolphie-2.0.4.tar.gz
+[2023-07-03 12:27:56] INFO root fetch - processPackages [nvidia-dali-nightly-cuda120]: Remove: archive file [/home/abi/fetcher/tmp/nvidia-dali-nightly-cuda120-1.28.0.dev20230703.tar.gz]
+[2023-07-03 12:27:56] INFO root fetch - processPackages [nvidia-dali-nightly-cuda120]: Start processing: garpixcms
+[2023-07-03 12:27:56] INFO root fetch - main [MainThread]: End processing [nvidia-dali-nightly-cuda120]: success
+[2023-07-03 12:27:56] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda120]: Remove: archive file [/home/abi/fetcher/tmp/nvidia-dali-tf-plugin-nightly-cuda120-1.28.0.dev20230630.tar.gz]
+[2023-07-03 12:27:56] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda120]: Remove: archive file [/home/abi/fetcher/tmp/nvidia-dali-tf-plugin-nightly-cuda120-1.28.0.dev20230703.tar.gz]
+[2023-07-03 12:27:56] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda120]: Start processing: imio.schedule
+[2023-07-03 12:27:56] INFO root fetch - main [MainThread]: End processing [nvidia-dali-tf-plugin-nightly-cuda120]: success
+[2023-07-03 12:27:56] INFO root fetch - processPackages [uniref]: Remove: archive file [/home/abi/fetcher/tmp/uniref-0.3.0.tar.gz]
+[2023-07-03 12:27:56] INFO root fetch - processPackages [garpixcms]: New version: [4.5.0rc2] Old Version: [4.5.0rc1]
+[2023-07-03 12:27:56] INFO root fetch - processPackages [uniref]: Remove: archive file [/home/abi/fetcher/tmp/uniref-0.3.1.tar.gz]
+[2023-07-03 12:27:56] INFO root fetch - processPackages [uniref]: Start processing: depthai-viewer
+[2023-07-03 12:27:56] INFO root fetch - main [MainThread]: End processing [uniref]: success
+[2023-07-03 12:27:56] INFO root fetch - processPackages [spaceone-statistics]: Remove: archive file [/home/abi/fetcher/tmp/spaceone_statistics-1.9.7.1-py3-none-any.whl.zip]
+[2023-07-03 12:27:56] INFO root fetch - processPackages [spaceone-statistics]: Remove: archive file [/home/abi/fetcher/tmp/spaceone_statistics-1.9.7rc1-py3-none-any.whl.zip]
+[2023-07-03 12:27:56] INFO root fetch - processPackages [spaceone-statistics]: Start processing: napatrackmater
+[2023-07-03 12:27:56] INFO root fetch - main [MainThread]: End processing [spaceone-statistics]: success
+[2023-07-03 12:27:56] INFO root fetch - processPackages [colibricore]: Downloading https://files.pythonhosted.org/packages/5d/6f/6b82467df223ff170afbbab45dd2c0d15f278c5ed4a9ac4b75aa5a9a5b44/colibricore-2.5.5.tar.gz
+[2023-07-03 12:27:56] INFO root fetch - processPackages [energypylinear]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-03 12:27:56] INFO root fetch - processPackages [imio.schedule]: New version: [1.9.0] Old Version: [1.8]
+[2023-07-03 12:27:56] INFO root fetch - processPackages [spaceone-supervisor]: Remove: archive file [/home/abi/fetcher/tmp/spaceone_supervisor-1.9.7-py3-none-any.whl.zip]
+[2023-07-03 12:27:56] INFO root fetch - processPackages [spaceone-inventory]: Remove: archive file [/home/abi/fetcher/tmp/spaceone_inventory-1.9.7.3-py3-none-any.whl.zip]
+[2023-07-03 12:27:56] INFO root fetch - processPackages [spaceone-supervisor]: Remove: archive file [/home/abi/fetcher/tmp/spaceone_supervisor-1.9.7rc1-py3-none-any.whl.zip]
+[2023-07-03 12:27:56] INFO root fetch - processPackages [spaceone-inventory]: Remove: archive file [/home/abi/fetcher/tmp/spaceone_inventory-1.9.7rc1-py3-none-any.whl.zip]
+[2023-07-03 12:27:56] INFO root fetch - processPackages [spaceone-supervisor]: Start processing: inhandtest
+[2023-07-03 12:27:56] INFO root fetch - main [MainThread]: End processing [spaceone-supervisor]: success
+[2023-07-03 12:27:56] INFO root fetch - processPackages [spaceone-inventory]: Start processing: spaceone-monitoring
+[2023-07-03 12:27:56] INFO root fetch - main [MainThread]: End processing [spaceone-inventory]: success
+[2023-07-03 12:27:56] WARNING root fetch - processPackages [colibricore]: Skipping package: exceeds size limit 16625521>=10485760
+[2023-07-03 12:27:56] INFO root fetch - processPackages [colibricore]: Start processing: sdqrcode
+[2023-07-03 12:27:56] INFO root fetch - main [MainThread]: End processing [colibricore] error
+[2023-07-03 12:27:56] INFO root fetch - processPackages [napatrackmater]: New version: [3.7.9] Old Version: [3.7.8]
+[2023-07-03 12:27:56] INFO root fetch - processPackages [depthai-viewer]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-03 12:27:56] INFO root fetch - processPackages [imio.schedule]: Downloading https://files.pythonhosted.org/packages/6c/6a/75ac21e0466994614fb0ebdf52a47140f1708950bce685e881ce454d4543/imio.schedule-1.8.tar.gz
+[2023-07-03 12:27:56] INFO root fetch - processPackages [garpixcms]: Downloading https://files.pythonhosted.org/packages/ef/a5/0c9346a07c498d8b4aa860d3691dc9ef9ef91df8ba49f0225dda69690ab9/garpixcms-4.5.0rc1.tar.gz
+[2023-07-03 12:27:57] INFO root fetch - processPackages [inhandtest]: New version: [0.0.58] Old Version: [0.0.57]
+[2023-07-03 12:27:57] INFO root fetch - processPackages [napatrackmater]: Downloading https://files.pythonhosted.org/packages/d7/f8/50795db5db22f7fe8791505cefa5f86f37284b3d1434967ece78411d94ac/napatrackmater-3.7.8.tar.gz
+[2023-07-03 12:27:57] INFO root fetch - processPackages [dolphie]: Downloading https://files.pythonhosted.org/packages/a5/b5/b69a13840e14af271457c0781ed1f8ebc08e0ac7940734fa29ba9a11285e/dolphie-2.0.5.tar.gz
+[2023-07-03 12:27:57] INFO root fetch - processPackages [spaceone-monitoring]: New version: [1.9.7rc1] Old Version: [1.9.7.1]
+[2023-07-03 12:27:57] INFO root fetch - processPackages [sdqrcode]: New version: [0.3.6] Old Version: [0.3.5]
+[2023-07-03 12:27:57] INFO root fetch - processPackages [energypylinear]: Downloading https://files.pythonhosted.org/packages/8f/9d/9ddf6e4bfd5c931b237d66c0f97d92d45a189b92675f076ece57238e7f43/energypylinear-0.1.1.tar.gz
+[2023-07-03 12:27:57] INFO root fetch - processPackages [depthai-viewer]: Downloading https://files.pythonhosted.org/packages/8a/0b/438ccdd22d21b40b51375bc6ad6d45fc22baff733056813b473fb7eb921a/depthai_viewer-0.1.0-cp38-abi3-win_amd64.whl
+[2023-07-03 12:27:57] WARNING root fetch - processPackages [depthai-viewer]: Skipping package: exceeds size limit 13437066>=10485760
+[2023-07-03 12:27:57] INFO root fetch - main [MainThread]: End processing [depthai-viewer] error
+[2023-07-03 12:27:57] INFO root fetch - processPackages [garpixcms]: Downloading https://files.pythonhosted.org/packages/92/b4/c9e57eb777e7638efbee5615f86ff1051e8d99bedb3edabfead236a06759/garpixcms-4.5.0rc2.tar.gz
+[2023-07-03 12:27:57] INFO root fetch - processPackages [imio.schedule]: Downloading https://files.pythonhosted.org/packages/75/cb/f6f264aad218eed04e56364a677802d27f09ef52f4710a5bbb3a0fd469f4/imio.schedule-1.9.0.tar.gz
+[2023-07-03 12:27:57] INFO root fetch - processPackages [inhandtest]: Downloading https://files.pythonhosted.org/packages/0a/e5/17346dc58b118dc3ab599167009d4dad6d5f13ceae8d802df652d6feb1e8/inhandtest-0.0.57.tar.gz
+[2023-07-03 12:27:57] INFO root fetch - processPackages [dolphie]: executing diffoscope
+[2023-07-03 12:27:57] INFO root fetch - processPackages [dolphie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dolphie-2.0.4.tar.gz tmp/dolphie-2.0.5.tar.gz --markdown 20230703/d/dolphie/2.0.4-2.0.5/diff.md --exclude *.pyd
+[2023-07-03 12:27:57] INFO root fetch - processPackages [napatrackmater]: Downloading https://files.pythonhosted.org/packages/10/20/a82117bf0aba315e3068cc486195ac34b6beb3d12bbe089bea3381319d7e/napatrackmater-3.7.9.tar.gz
+[2023-07-03 12:27:57] INFO root fetch - processPackages [spaceone-monitoring]: Downloading https://files.pythonhosted.org/packages/31/50/1785bbc97bdfb08a3303bb03b26d953cde9e97d4e2e70c591a6acd91bd55/spaceone_monitoring-1.9.7.1-py3-none-any.whl
+[2023-07-03 12:27:57] INFO root fetch - processPackages [sdqrcode]: Downloading https://files.pythonhosted.org/packages/58/84/0a5d2a0abff5180c700bffe98cdd9b36be2b9d97a3fc7cf8d1bbe305b46d/sdqrcode-0.3.5.tar.gz
+[2023-07-03 12:27:57] INFO root fetch - processPackages [garpixcms]: executing diffoscope
+[2023-07-03 12:27:57] INFO root fetch - processPackages [garpixcms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/garpixcms-4.5.0rc1.tar.gz tmp/garpixcms-4.5.0rc2.tar.gz --markdown 20230703/g/garpixcms/4.5.0rc1-4.5.0rc2/diff.md --exclude *.pyd
+[2023-07-03 12:27:57] INFO root fetch - processPackages [imio.schedule]: executing diffoscope
+[2023-07-03 12:27:57] INFO root fetch - processPackages [imio.schedule]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imio.schedule-1.8.tar.gz tmp/imio.schedule-1.9.0.tar.gz --markdown 20230703/i/imio.schedule/1.8-1.9.0/diff.md --exclude *.pyd
+[2023-07-03 12:27:57] INFO root fetch - processPackages [napatrackmater]: executing diffoscope
+[2023-07-03 12:27:57] INFO root fetch - processPackages [napatrackmater]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/napatrackmater-3.7.8.tar.gz tmp/napatrackmater-3.7.9.tar.gz --markdown 20230703/n/napatrackmater/3.7.8-3.7.9/diff.md --exclude *.pyd
+[2023-07-03 12:27:57] INFO root fetch - processPackages [energypylinear]: Downloading https://files.pythonhosted.org/packages/eb/33/d817df5ed00bb9e09a226b58aac277a1cb3b40a5dbe7ef1ce323926f781f/energypylinear-0.1.2.tar.gz
+[2023-07-03 12:27:57] INFO root fetch - processPackages [sdqrcode]: Downloading https://files.pythonhosted.org/packages/51/41/491c9691b3c669e48fb68affeb113f5b98fe068409e5fd26fe176fba0903/sdqrcode-0.3.6.tar.gz
+[2023-07-03 12:27:57] INFO root fetch - processPackages [energypylinear]: executing diffoscope
+[2023-07-03 12:27:57] INFO root fetch - processPackages [energypylinear]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/energypylinear-0.1.1.tar.gz tmp/energypylinear-0.1.2.tar.gz --markdown 20230703/e/energypylinear/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-03 12:27:57] INFO root fetch - processPackages [inhandtest]: Downloading https://files.pythonhosted.org/packages/fc/cf/1116b9da73ceecaa25991c6dcb6820a4f77d808268b0b487ca0f118160dc/inhandtest-0.0.58.tar.gz
+[2023-07-03 12:27:57] INFO root fetch - processPackages [spaceone-monitoring]: Downloading https://files.pythonhosted.org/packages/5c/43/1bcb4990406f113187354a4bc48e34799ab22b38cce64bbf832545718082/spaceone_monitoring-1.9.7rc1-py3-none-any.whl
+[2023-07-03 12:27:57] INFO root fetch - processPackages [inhandtest]: executing diffoscope
+[2023-07-03 12:27:57] INFO root fetch - processPackages [inhandtest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inhandtest-0.0.57.tar.gz tmp/inhandtest-0.0.58.tar.gz --markdown 20230703/i/inhandtest/0.0.57-0.0.58/diff.md --exclude *.pyd
+[2023-07-03 12:27:58] INFO root fetch - processPackages [sdqrcode]: executing diffoscope
+[2023-07-03 12:27:58] INFO root fetch - processPackages [sdqrcode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sdqrcode-0.3.5.tar.gz tmp/sdqrcode-0.3.6.tar.gz --markdown 20230703/s/sdqrcode/0.3.5-0.3.6/diff.md --exclude *.pyd
+[2023-07-03 12:27:58] INFO root fetch - processPackages [spaceone-monitoring]: executing diffoscope
+[2023-07-03 12:27:58] INFO root fetch - processPackages [spaceone-monitoring]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spaceone_monitoring-1.9.7.1-py3-none-any.whl.zip tmp/spaceone_monitoring-1.9.7rc1-py3-none-any.whl.zip --markdown 20230703/s/spaceone-monitoring/1.9.7.1-1.9.7rc1/diff.md --exclude *.pyd
+[2023-07-03 12:27:58] INFO root fetch - processPackages [dolphie]: Remove: archive file [/home/abi/fetcher/tmp/dolphie-2.0.4.tar.gz]
+[2023-07-03 12:27:58] INFO root fetch - processPackages [dolphie]: Remove: archive file [/home/abi/fetcher/tmp/dolphie-2.0.5.tar.gz]
+[2023-07-03 12:27:58] INFO root fetch - main [MainThread]: End processing [dolphie]: success
+[2023-07-03 12:27:59] INFO root fetch - processPackages [napatrackmater]: Remove: archive file [/home/abi/fetcher/tmp/napatrackmater-3.7.8.tar.gz]
+[2023-07-03 12:27:59] INFO root fetch - processPackages [napatrackmater]: Remove: archive file [/home/abi/fetcher/tmp/napatrackmater-3.7.9.tar.gz]
+[2023-07-03 12:27:59] INFO root fetch - main [MainThread]: End processing [napatrackmater]: success
+[2023-07-03 12:27:59] INFO root fetch - processPackages [energypylinear]: Remove: archive file [/home/abi/fetcher/tmp/energypylinear-0.1.1.tar.gz]
+[2023-07-03 12:27:59] INFO root fetch - processPackages [energypylinear]: Remove: archive file [/home/abi/fetcher/tmp/energypylinear-0.1.2.tar.gz]
+[2023-07-03 12:27:59] INFO root fetch - main [MainThread]: End processing [energypylinear]: success
+[2023-07-03 12:27:59] INFO root fetch - processPackages [garpixcms]: Remove: archive file [/home/abi/fetcher/tmp/garpixcms-4.5.0rc1.tar.gz]
+[2023-07-03 12:27:59] INFO root fetch - processPackages [garpixcms]: Remove: archive file [/home/abi/fetcher/tmp/garpixcms-4.5.0rc2.tar.gz]
+[2023-07-03 12:27:59] INFO root fetch - main [MainThread]: End processing [garpixcms]: success
+[2023-07-03 12:27:59] INFO root fetch - processPackages [sdqrcode]: Remove: archive file [/home/abi/fetcher/tmp/sdqrcode-0.3.5.tar.gz]
+[2023-07-03 12:27:59] INFO root fetch - processPackages [sdqrcode]: Remove: archive file [/home/abi/fetcher/tmp/sdqrcode-0.3.6.tar.gz]
+[2023-07-03 12:27:59] INFO root fetch - main [MainThread]: End processing [sdqrcode]: success
+[2023-07-03 12:27:59] INFO root fetch - processPackages [imio.schedule]: Remove: archive file [/home/abi/fetcher/tmp/imio.schedule-1.8.tar.gz]
+[2023-07-03 12:27:59] INFO root fetch - processPackages [imio.schedule]: Remove: archive file [/home/abi/fetcher/tmp/imio.schedule-1.9.0.tar.gz]
+[2023-07-03 12:27:59] INFO root fetch - main [MainThread]: End processing [imio.schedule]: success
+[2023-07-03 12:27:59] INFO root fetch - processPackages [inhandtest]: Remove: archive file [/home/abi/fetcher/tmp/inhandtest-0.0.57.tar.gz]
+[2023-07-03 12:27:59] INFO root fetch - processPackages [inhandtest]: Remove: archive file [/home/abi/fetcher/tmp/inhandtest-0.0.58.tar.gz]
+[2023-07-03 12:27:59] INFO root fetch - main [MainThread]: End processing [inhandtest]: success
+[2023-07-03 12:27:59] INFO root fetch - processPackages [spaceone-monitoring]: Remove: archive file [/home/abi/fetcher/tmp/spaceone_monitoring-1.9.7.1-py3-none-any.whl.zip]
+[2023-07-03 12:27:59] INFO root fetch - processPackages [spaceone-monitoring]: Remove: archive file [/home/abi/fetcher/tmp/spaceone_monitoring-1.9.7rc1-py3-none-any.whl.zip]
+[2023-07-03 12:27:59] INFO root fetch - main [MainThread]: End processing [spaceone-monitoring]: success
+[2023-07-03 12:28:00] INFO root fetch - processPackages [c2cciutils]: Remove: archive file [/home/abi/fetcher/tmp/c2cciutils-1.6.0.dev98.tar.gz]
+[2023-07-03 12:28:00] INFO root fetch - processPackages [c2cciutils]: Remove: archive file [/home/abi/fetcher/tmp/c2cciutils-1.6.0.dev99.tar.gz]
+[2023-07-03 12:28:00] INFO root fetch - main [MainThread]: End processing [c2cciutils]: success
+[2023-07-03 12:28:00] INFO root fetch - main [MainThread]: Store serial: [18737652]
