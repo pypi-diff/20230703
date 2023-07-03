@@ -7658,3 +7658,67 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-03 07:32:41] INFO root fetch - processPackages [xj-role]: Remove: archive file [/home/abi/fetcher/tmp/xj_role-1.0.9.tar.gz]
 [2023-07-03 07:32:41] INFO root fetch - main [MainThread]: End processing [xj-role]: success
 [2023-07-03 07:32:41] INFO root fetch - main [MainThread]: Store serial: [18734946]
+[2023-07-03 07:37:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18734946]
+[2023-07-03 07:37:50] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-03 07:37:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: oc-dltool
+[2023-07-03 07:37:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: je-editor-dev
+[2023-07-03 07:37:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: miuc
+[2023-07-03 07:37:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: scinumtools
+[2023-07-03 07:37:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: miuc
+[2023-07-03 07:37:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: loguru-discord
+[2023-07-03 07:37:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mgmt
+[2023-07-03 07:37:50] INFO root fetch - processPackages [je-editor-dev]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-03 07:37:50] INFO root fetch - processPackages [oc-dltool]: New version: [3.11.0] Old Version: [3.10.3]
+[2023-07-03 07:37:50] INFO root fetch - processPackages [loguru-discord]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-07-03 07:37:50] INFO root fetch - processPackages [miuc]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-03 07:37:50] INFO root fetch - processPackages [scinumtools]: New version: [1.6.3] Old Version: [1.6.2]
+[2023-07-03 07:37:50] INFO root fetch - processPackages [miuc]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-03 07:37:50] INFO root fetch - processPackages [mgmt]: New version: [0.6.1] Old Version: [0.6.0]
+[2023-07-03 07:37:50] INFO root fetch - processPackages [loguru-discord]: Downloading https://files.pythonhosted.org/packages/9a/49/b00a5379d1857c000fa2105901327be46dde6827e1b3de285729b7b14760/loguru_discord-1.0.2.tar.gz
+[2023-07-03 07:37:50] INFO root fetch - processPackages [oc-dltool]: Downloading https://files.pythonhosted.org/packages/1a/c9/937c76e3f76f4e0ee2c6a37e9c8742ba006a6f39785c722e861efaa732c1/oc_dltool-3.10.3-py3-none-any.whl
+[2023-07-03 07:37:50] INFO root fetch - processPackages [scinumtools]: Downloading https://files.pythonhosted.org/packages/97/e2/54d6b29330acd1cb2c5948beb200756c9665415cf3d7afebdc9d6b07beed/scinumtools-1.6.2.tar.gz
+[2023-07-03 07:37:50] INFO root fetch - processPackages [je-editor-dev]: Downloading https://files.pythonhosted.org/packages/8b/94/1f995c0e4cac9968be920e7907deacd20b4659ac0bd3a88be48da2c05eb3/je_editor_dev-0.0.98.tar.gz
+[2023-07-03 07:37:50] INFO root fetch - processPackages [miuc]: Downloading https://files.pythonhosted.org/packages/af/bb/9656071ed65f3df415ffacd3f4f829a5e7efb7ab41832a25b1ad24057f23/miuc-0.1.8.tar.gz
+[2023-07-03 07:37:50] INFO root fetch - processPackages [miuc]: Downloading https://files.pythonhosted.org/packages/af/bb/9656071ed65f3df415ffacd3f4f829a5e7efb7ab41832a25b1ad24057f23/miuc-0.1.8.tar.gz
+[2023-07-03 07:37:50] INFO root fetch - processPackages [mgmt]: Downloading https://files.pythonhosted.org/packages/ca/00/6e5bf20dff6888dacc33bfaa958609c5af4b94d45b933d33412ff1f92750/mgmt-0.6.0.tar.gz
+[2023-07-03 07:37:50] INFO root fetch - processPackages [loguru-discord]: Downloading https://files.pythonhosted.org/packages/24/92/ed35ec8c0685121cb56666b80efaa51aa7b2744aaeccec8026ad51908fea/loguru_discord-1.0.3.tar.gz
+[2023-07-03 07:37:50] INFO root fetch - processPackages [loguru-discord]: executing diffoscope
+[2023-07-03 07:37:50] INFO root fetch - processPackages [loguru-discord]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/loguru_discord-1.0.2.tar.gz tmp/loguru_discord-1.0.3.tar.gz --markdown 20230703/l/loguru-discord/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-07-03 07:37:50] INFO root fetch - processPackages [scinumtools]: Downloading https://files.pythonhosted.org/packages/a5/a8/5557ed5fe742facf2e1f363b739b7e4c34ac2147edcc4a8f94b6222d6350/scinumtools-1.6.3.tar.gz
+[2023-07-03 07:37:50] INFO root fetch - processPackages [oc-dltool]: Downloading https://files.pythonhosted.org/packages/2a/d1/ae16343f04144272af88fe3c77bb8018f65781bb685bd16e824d9b000dc3/oc_dltool-3.11.0-py3-none-any.whl
+[2023-07-03 07:37:50] INFO root fetch - processPackages [je-editor-dev]: Downloading https://files.pythonhosted.org/packages/f5/5e/fafae8fb4029eea9a83a739b4877837148336a0d6d302272145a8519a55e/je_editor_dev-0.0.99.tar.gz
+[2023-07-03 07:37:50] INFO root fetch - processPackages [miuc]: Downloading https://files.pythonhosted.org/packages/97/72/3b0ef2bc7c6926ece589a3d9b2bab797de718992dcd38f7f5dd81c087e0a/miuc-0.1.9.tar.gz
+[2023-07-03 07:37:50] INFO root fetch - processPackages [miuc]: Downloading https://files.pythonhosted.org/packages/97/72/3b0ef2bc7c6926ece589a3d9b2bab797de718992dcd38f7f5dd81c087e0a/miuc-0.1.9.tar.gz
+[2023-07-03 07:37:50] INFO root fetch - processPackages [mgmt]: Downloading https://files.pythonhosted.org/packages/67/89/6a74dd7cbd9e3a75f05125cb0cf60fb2f8575e5193320be089ba8fc87237/mgmt-0.6.1.tar.gz
+[2023-07-03 07:37:50] INFO root fetch - processPackages [miuc]: executing diffoscope
+[2023-07-03 07:37:50] INFO root fetch - processPackages [miuc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/miuc-0.1.8.tar.gz tmp/miuc-0.1.9.tar.gz --markdown 20230703/m/miuc/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-03 07:37:50] INFO root fetch - processPackages [miuc]: executing diffoscope
+[2023-07-03 07:37:50] INFO root fetch - processPackages [miuc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/miuc-0.1.8.tar.gz tmp/miuc-0.1.9.tar.gz --markdown 20230703/m/miuc/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-03 07:37:50] INFO root fetch - processPackages [oc-dltool]: executing diffoscope
+[2023-07-03 07:37:50] INFO root fetch - processPackages [oc-dltool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oc_dltool-3.10.3-py3-none-any.whl.zip tmp/oc_dltool-3.11.0-py3-none-any.whl.zip --markdown 20230703/o/oc-dltool/3.10.3-3.11.0/diff.md --exclude *.pyd
+[2023-07-03 07:37:50] INFO root fetch - processPackages [scinumtools]: executing diffoscope
+[2023-07-03 07:37:50] INFO root fetch - processPackages [scinumtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scinumtools-1.6.2.tar.gz tmp/scinumtools-1.6.3.tar.gz --markdown 20230703/s/scinumtools/1.6.2-1.6.3/diff.md --exclude *.pyd
+[2023-07-03 07:37:50] INFO root fetch - processPackages [je-editor-dev]: executing diffoscope
+[2023-07-03 07:37:50] INFO root fetch - processPackages [je-editor-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/je_editor_dev-0.0.98.tar.gz tmp/je_editor_dev-0.0.99.tar.gz --markdown 20230703/j/je-editor-dev/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-03 07:37:51] INFO root fetch - processPackages [mgmt]: executing diffoscope
+[2023-07-03 07:37:51] INFO root fetch - processPackages [mgmt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mgmt-0.6.0.tar.gz tmp/mgmt-0.6.1.tar.gz --markdown 20230703/m/mgmt/0.6.0-0.6.1/diff.md --exclude *.pyd
+[2023-07-03 07:37:51] INFO root fetch - processPackages [loguru-discord]: Remove: archive file [/home/abi/fetcher/tmp/loguru_discord-1.0.2.tar.gz]
+[2023-07-03 07:37:51] INFO root fetch - processPackages [loguru-discord]: Remove: archive file [/home/abi/fetcher/tmp/loguru_discord-1.0.3.tar.gz]
+[2023-07-03 07:37:51] INFO root fetch - main [MainThread]: End processing [loguru-discord]: success
+[2023-07-03 07:37:52] INFO root fetch - processPackages [miuc]: Remove: archive file [/home/abi/fetcher/tmp/miuc-0.1.8.tar.gz]
+[2023-07-03 07:37:52] INFO root fetch - processPackages [miuc]: Remove: archive file [/home/abi/fetcher/tmp/miuc-0.1.9.tar.gz]
+[2023-07-03 07:37:52] INFO root fetch - main [MainThread]: End processing [miuc]: success
+[2023-07-03 07:37:52] INFO root fetch - main [MainThread]: End processing [miuc]: success
+[2023-07-03 07:37:52] INFO root fetch - processPackages [scinumtools]: Remove: archive file [/home/abi/fetcher/tmp/scinumtools-1.6.2.tar.gz]
+[2023-07-03 07:37:52] INFO root fetch - processPackages [scinumtools]: Remove: archive file [/home/abi/fetcher/tmp/scinumtools-1.6.3.tar.gz]
+[2023-07-03 07:37:52] INFO root fetch - main [MainThread]: End processing [scinumtools]: success
+[2023-07-03 07:37:52] INFO root fetch - processPackages [oc-dltool]: Remove: archive file [/home/abi/fetcher/tmp/oc_dltool-3.10.3-py3-none-any.whl.zip]
+[2023-07-03 07:37:52] INFO root fetch - processPackages [oc-dltool]: Remove: archive file [/home/abi/fetcher/tmp/oc_dltool-3.11.0-py3-none-any.whl.zip]
+[2023-07-03 07:37:52] INFO root fetch - main [MainThread]: End processing [oc-dltool]: success
+[2023-07-03 07:37:52] INFO root fetch - processPackages [mgmt]: Remove: archive file [/home/abi/fetcher/tmp/mgmt-0.6.0.tar.gz]
+[2023-07-03 07:37:52] INFO root fetch - processPackages [mgmt]: Remove: archive file [/home/abi/fetcher/tmp/mgmt-0.6.1.tar.gz]
+[2023-07-03 07:37:52] INFO root fetch - main [MainThread]: End processing [mgmt]: success
+[2023-07-03 07:37:53] INFO root fetch - processPackages [je-editor-dev]: Remove: archive file [/home/abi/fetcher/tmp/je_editor_dev-0.0.98.tar.gz]
+[2023-07-03 07:37:53] INFO root fetch - processPackages [je-editor-dev]: Remove: archive file [/home/abi/fetcher/tmp/je_editor_dev-0.0.99.tar.gz]
+[2023-07-03 07:37:53] INFO root fetch - main [MainThread]: End processing [je-editor-dev]: success
+[2023-07-03 07:37:53] INFO root fetch - main [MainThread]: Store serial: [18734966]
