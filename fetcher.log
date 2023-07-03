@@ -12963,3 +12963,153 @@ AssertionError: tmp/discord-ansi-0.3.tar.gz does not exist
 [2023-07-03 11:44:45] INFO root fetch - processPackages [lokzzpylib]: Remove: archive file [/home/abi/fetcher/tmp/lokzzpylib-0.2.dev6.tar.gz]
 [2023-07-03 11:44:45] INFO root fetch - main [MainThread]: End processing [lokzzpylib]: success
 [2023-07-03 11:44:45] INFO root fetch - main [MainThread]: Store serial: [18737117]
+[2023-07-03 11:49:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18737117]
+[2023-07-03 11:49:54] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-07-03 11:49:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: customimport
+[2023-07-03 11:49:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-pfx
+[2023-07-03 11:49:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: scoobi
+[2023-07-03 11:49:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: oidc-drf
+[2023-07-03 11:49:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: rosa-python-client
+[2023-07-03 11:49:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: demisto-sdk
+[2023-07-03 11:49:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dynamic-links
+[2023-07-03 11:49:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: altcos-common
+[2023-07-03 11:49:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: bluepyefe
+[2023-07-03 11:49:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pydantic-loggings
+[2023-07-03 11:49:54] INFO root fetch - processPackages [scoobi]: New version: [0.0.1.7] Old Version: [0.0.1.6]
+[2023-07-03 11:49:54] INFO root fetch - processPackages [bluepyefe]: New version: [2.2.67] Old Version: [2.2.65]
+[2023-07-03 11:49:54] INFO root fetch - processPackages [rosa-python-client]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-03 11:49:54] INFO root fetch - processPackages [oidc-drf]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-03 11:49:54] INFO root fetch - processPackages [customimport]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-03 11:49:54] INFO root fetch - processPackages [django-pfx]: New version: [1.2.dev86] Old Version: [1.2.dev84]
+[2023-07-03 11:49:55] INFO root fetch - processPackages [pydantic-loggings]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-07-03 11:49:55] INFO root fetch - processPackages [dynamic-links]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-03 11:49:55] INFO root fetch - processPackages [altcos-common]: New version: [1.0.0] Old Version: [0.0.2]
+[2023-07-03 11:49:55] INFO root fetch - processPackages [demisto-sdk]: New version: [1.9.0] Old Version: [1.8.3]
+[2023-07-03 11:49:55] INFO root fetch - processPackages [bluepyefe]: Downloading https://files.pythonhosted.org/packages/de/8b/f3b64b94a8deb1c151070f6ed208227541ad2c941eb6632734277f8dcd10/bluepyefe-2.2.65.tar.gz
+[2023-07-03 11:49:55] INFO root fetch - processPackages [scoobi]: Downloading https://files.pythonhosted.org/packages/a6/97/81bdfe6ba1cfd308d63ac67fb0db0d6603fd8959d0d1e6886a892447b403/scoobi-0.0.1.6.tar.gz
+[2023-07-03 11:49:55] INFO root fetch - processPackages [pydantic-loggings]: Downloading https://files.pythonhosted.org/packages/05/20/969b3167ae49876686272b8bc2ff033dcded1fe5a306c2eb87ee9f650ce2/pydantic-loggings-0.2.0.tar.gz
+[2023-07-03 11:49:55] INFO root fetch - processPackages [oidc-drf]: Downloading https://files.pythonhosted.org/packages/68/9c/dfd2ae2a5dacafd614f4d4c352c6125c2640e9e04ba204cf253952d67b80/oidc_drf-1.0.8.tar.gz
+[2023-07-03 11:49:55] INFO root fetch - processPackages [django-pfx]: Downloading https://files.pythonhosted.org/packages/f2/2a/3febc39f8913128dd5eb8c8777a2e8cf8c1eed5767469e807446c20d36cc/django-pfx-1.2.dev84.tar.gz
+[2023-07-03 11:49:55] INFO root fetch - processPackages [dynamic-links]: Downloading https://files.pythonhosted.org/packages/3d/84/fbf1baafdde099fb65aa66cf817c807853280dbb2da356acc7d3b9627e2c/dynamic-links-0.0.3.tar.gz
+[2023-07-03 11:49:55] INFO root fetch - processPackages [customimport]: Downloading https://files.pythonhosted.org/packages/47/42/8e1c0a7b54a486ce9abea7a4d86428b7ff53d12d3d8f8ccdb5d27a00a3c6/customimport-1.0.0.tar.gz
+[2023-07-03 11:49:55] INFO root fetch - processPackages [rosa-python-client]: Downloading https://files.pythonhosted.org/packages/9d/3d/13a352dc8b1b3b85a795352b1cee6cd40ca9d5cb9e015f6174830f9ffb0e/rosa_python_client-1.0.8.tar.gz
+[2023-07-03 11:49:55] INFO root fetch - processPackages [demisto-sdk]: Downloading https://files.pythonhosted.org/packages/09/d8/b40156edfeb2c658f2e1fbd96230c4ad73caeb31f2c65c8c3c79aadd10ae/demisto_sdk-1.8.3.tar.gz
+[2023-07-03 11:49:55] INFO root fetch - processPackages [altcos-common]: Downloading https://files.pythonhosted.org/packages/9f/a2/566f138261a48458123e2f37f092ce30f2166e33ec4ac43fb7114b1a2a05/altcos-common-0.0.2.tar.gz
+[2023-07-03 11:49:55] INFO root fetch - processPackages [oidc-drf]: Downloading https://files.pythonhosted.org/packages/2b/7c/5162af84a2e25144c175ceb604a8b632d77bcf5be0cf0ea4b1c7cb8b4e6e/oidc_drf-1.0.9.tar.gz
+[2023-07-03 11:49:55] INFO root fetch - processPackages [bluepyefe]: Downloading https://files.pythonhosted.org/packages/5f/f9/96865ee42032cd8c556945bf0cea3082fc0da9e184f73188e4bd5c6a78d7/bluepyefe-2.2.67.tar.gz
+[2023-07-03 11:49:55] INFO root fetch - processPackages [pydantic-loggings]: Downloading https://files.pythonhosted.org/packages/b7/be/77910892d5ebefc6255de3cbafbd4be1e1d57673ce596d56a94440e498df/pydantic-loggings-0.3.0.tar.gz
+[2023-07-03 11:49:55] INFO root fetch - processPackages [scoobi]: Downloading https://files.pythonhosted.org/packages/76/df/672b52194498587c7cec837c703d2063483db16c0cab8b87cb4a4ea17e17/scoobi-0.0.1.7.tar.gz
+[2023-07-03 11:49:55] INFO root fetch - processPackages [dynamic-links]: Downloading https://files.pythonhosted.org/packages/d7/79/7c93a75ac9aff624094181708428c5e9571b5e973e460d97db27ef56f3d8/dynamic-links-0.0.4.tar.gz
+[2023-07-03 11:49:55] INFO root fetch - processPackages [oidc-drf]: executing diffoscope
+[2023-07-03 11:49:55] INFO root fetch - processPackages [oidc-drf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oidc_drf-1.0.8.tar.gz tmp/oidc_drf-1.0.9.tar.gz --markdown 20230703/o/oidc-drf/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-03 11:49:55] INFO root fetch - processPackages [altcos-common]: Downloading https://files.pythonhosted.org/packages/98/1c/a97526d3cf34ef88e958d785b11fd80bc011b7dbed2237c270f29734d662/altcos-common-1.0.0.tar.gz
+[2023-07-03 11:49:55] INFO root fetch - processPackages [bluepyefe]: executing diffoscope
+[2023-07-03 11:49:55] INFO root fetch - processPackages [bluepyefe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bluepyefe-2.2.65.tar.gz tmp/bluepyefe-2.2.67.tar.gz --markdown 20230703/b/bluepyefe/2.2.65-2.2.67/diff.md --exclude *.pyd
+[2023-07-03 11:49:55] INFO root fetch - processPackages [django-pfx]: Downloading https://files.pythonhosted.org/packages/a2/80/4df8aad765e62ce915ee22d056e1b11f381fcdf5200a74517563540ba1d4/django-pfx-1.2.dev86.tar.gz
+[2023-07-03 11:49:55] INFO root fetch - processPackages [pydantic-loggings]: executing diffoscope
+[2023-07-03 11:49:55] INFO root fetch - processPackages [pydantic-loggings]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydantic-loggings-0.2.0.tar.gz tmp/pydantic-loggings-0.3.0.tar.gz --markdown 20230703/p/pydantic-loggings/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-07-03 11:49:55] INFO root fetch - processPackages [customimport]: Downloading https://files.pythonhosted.org/packages/d9/0b/7412f9b235a4f44342096b08c9200692e87668639710bc7ac2987be7f23d/customimport-1.0.1.tar.gz
+[2023-07-03 11:49:55] INFO root fetch - processPackages [rosa-python-client]: Downloading https://files.pythonhosted.org/packages/57/71/77aa94783e126449ad00cda27a853d3161809a6117e0e34f7ab67ade9050/rosa_python_client-1.0.9.tar.gz
+[2023-07-03 11:49:55] INFO root fetch - processPackages [scoobi]: executing diffoscope
+[2023-07-03 11:49:55] INFO root fetch - processPackages [scoobi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scoobi-0.0.1.6.tar.gz tmp/scoobi-0.0.1.7.tar.gz --markdown 20230703/s/scoobi/0.0.1.6-0.0.1.7/diff.md --exclude *.pyd
+[2023-07-03 11:49:56] INFO root fetch - processPackages [dynamic-links]: executing diffoscope
+[2023-07-03 11:49:56] INFO root fetch - processPackages [dynamic-links]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dynamic-links-0.0.3.tar.gz tmp/dynamic-links-0.0.4.tar.gz --markdown 20230703/d/dynamic-links/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-03 11:49:56] INFO root fetch - processPackages [altcos-common]: executing diffoscope
+[2023-07-03 11:49:56] INFO root fetch - processPackages [altcos-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/altcos-common-0.0.2.tar.gz tmp/altcos-common-1.0.0.tar.gz --markdown 20230703/a/altcos-common/0.0.2-1.0.0/diff.md --exclude *.pyd
+[2023-07-03 11:49:56] INFO root fetch - processPackages [customimport]: executing diffoscope
+[2023-07-03 11:49:56] INFO root fetch - processPackages [customimport]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/customimport-1.0.0.tar.gz tmp/customimport-1.0.1.tar.gz --markdown 20230703/c/customimport/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-03 11:49:56] INFO root fetch - processPackages [rosa-python-client]: executing diffoscope
+[2023-07-03 11:49:56] INFO root fetch - processPackages [rosa-python-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rosa_python_client-1.0.8.tar.gz tmp/rosa_python_client-1.0.9.tar.gz --markdown 20230703/r/rosa-python-client/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-03 11:49:56] INFO root fetch - processPackages [demisto-sdk]: Downloading https://files.pythonhosted.org/packages/64/f1/eb1afa74c8cd36ec00a08aa9c524502235aca66e33f399269e7f2b852df2/demisto_sdk-1.9.0.tar.gz
+[2023-07-03 11:49:56] INFO root fetch - processPackages [django-pfx]: executing diffoscope
+[2023-07-03 11:49:56] INFO root fetch - processPackages [django-pfx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-pfx-1.2.dev84.tar.gz tmp/django-pfx-1.2.dev86.tar.gz --markdown 20230703/d/django-pfx/1.2.dev84-1.2.dev86/diff.md --exclude *.pyd
+[2023-07-03 11:49:57] INFO root fetch - processPackages [demisto-sdk]: executing diffoscope
+[2023-07-03 11:49:57] INFO root fetch - processPackages [demisto-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/demisto_sdk-1.8.3.tar.gz tmp/demisto_sdk-1.9.0.tar.gz --markdown 20230703/d/demisto-sdk/1.8.3-1.9.0/diff.md --exclude *.pyd
+[2023-07-03 11:49:57] INFO root fetch - processPackages [oidc-drf]: Remove: archive file [/home/abi/fetcher/tmp/oidc_drf-1.0.8.tar.gz]
+[2023-07-03 11:49:57] INFO root fetch - processPackages [oidc-drf]: Remove: archive file [/home/abi/fetcher/tmp/oidc_drf-1.0.9.tar.gz]
+[2023-07-03 11:49:57] INFO root fetch - processPackages [oidc-drf]: Start processing: funfluid
+[2023-07-03 11:49:57] INFO root fetch - main [MainThread]: End processing [oidc-drf]: success
+[2023-07-03 11:49:57] INFO root fetch - processPackages [funfluid]: New version: [202307031747] Old Version: [202307031723]
+[2023-07-03 11:49:57] INFO root fetch - processPackages [funfluid]: Downloading https://files.pythonhosted.org/packages/da/59/c1f40db4f8677c09430693848a5350c936405686810f4865363c354074f9/funfluid-202307031723.tar.gz
+[2023-07-03 11:49:57] INFO root fetch - processPackages [pydantic-loggings]: Remove: archive file [/home/abi/fetcher/tmp/pydantic-loggings-0.2.0.tar.gz]
+[2023-07-03 11:49:57] INFO root fetch - processPackages [pydantic-loggings]: Remove: archive file [/home/abi/fetcher/tmp/pydantic-loggings-0.3.0.tar.gz]
+[2023-07-03 11:49:57] INFO root fetch - processPackages [pydantic-loggings]: Start processing: lakeapi2sql
+[2023-07-03 11:49:57] INFO root fetch - main [MainThread]: End processing [pydantic-loggings]: success
+[2023-07-03 11:49:57] INFO root fetch - processPackages [lakeapi2sql]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-07-03 11:49:57] INFO root fetch - processPackages [altcos-common]: Remove: archive file [/home/abi/fetcher/tmp/altcos-common-0.0.2.tar.gz]
+[2023-07-03 11:49:57] INFO root fetch - processPackages [altcos-common]: Remove: archive file [/home/abi/fetcher/tmp/altcos-common-1.0.0.tar.gz]
+[2023-07-03 11:49:57] INFO root fetch - processPackages [altcos-common]: Start processing: deciphon-snap
+[2023-07-03 11:49:57] INFO root fetch - main [MainThread]: End processing [altcos-common]: success
+[2023-07-03 11:49:58] INFO root fetch - processPackages [deciphon-snap]: New version: [0.2.0] Old Version: [0.1.2]
+[2023-07-03 11:49:58] INFO root fetch - processPackages [customimport]: Remove: archive file [/home/abi/fetcher/tmp/customimport-1.0.0.tar.gz]
+[2023-07-03 11:49:58] INFO root fetch - processPackages [customimport]: Remove: archive file [/home/abi/fetcher/tmp/customimport-1.0.1.tar.gz]
+[2023-07-03 11:49:58] INFO root fetch - processPackages [customimport]: Start processing: aloso
+[2023-07-03 11:49:58] INFO root fetch - main [MainThread]: End processing [customimport]: success
+[2023-07-03 11:49:58] INFO root fetch - processPackages [bluepyefe]: Remove: archive file [/home/abi/fetcher/tmp/bluepyefe-2.2.65.tar.gz]
+[2023-07-03 11:49:58] INFO root fetch - processPackages [bluepyefe]: Remove: archive file [/home/abi/fetcher/tmp/bluepyefe-2.2.67.tar.gz]
+[2023-07-03 11:49:58] INFO root fetch - processPackages [bluepyefe]: Start processing: frontengine-dev
+[2023-07-03 11:49:58] INFO root fetch - main [MainThread]: End processing [bluepyefe]: success
+[2023-07-03 11:49:58] INFO root fetch - processPackages [dynamic-links]: Remove: archive file [/home/abi/fetcher/tmp/dynamic-links-0.0.3.tar.gz]
+[2023-07-03 11:49:58] INFO root fetch - processPackages [dynamic-links]: Remove: archive file [/home/abi/fetcher/tmp/dynamic-links-0.0.4.tar.gz]
+[2023-07-03 11:49:58] INFO root fetch - processPackages [dynamic-links]: Start processing: BlitzChain
+[2023-07-03 11:49:58] INFO root fetch - main [MainThread]: End processing [dynamic-links]: success
+[2023-07-03 11:49:58] INFO root fetch - processPackages [scoobi]: Remove: archive file [/home/abi/fetcher/tmp/scoobi-0.0.1.6.tar.gz]
+[2023-07-03 11:49:58] INFO root fetch - processPackages [scoobi]: Remove: archive file [/home/abi/fetcher/tmp/scoobi-0.0.1.7.tar.gz]
+[2023-07-03 11:49:58] INFO root fetch - processPackages [scoobi]: Start processing: external-aero
+[2023-07-03 11:49:58] INFO root fetch - main [MainThread]: End processing [scoobi]: success
+[2023-07-03 11:49:58] INFO root fetch - processPackages [rosa-python-client]: Remove: archive file [/home/abi/fetcher/tmp/rosa_python_client-1.0.8.tar.gz]
+[2023-07-03 11:49:58] INFO root fetch - processPackages [rosa-python-client]: Remove: archive file [/home/abi/fetcher/tmp/rosa_python_client-1.0.9.tar.gz]
+[2023-07-03 11:49:58] INFO root fetch - main [MainThread]: End processing [rosa-python-client]: success
+[2023-07-03 11:49:58] INFO root fetch - processPackages [frontengine-dev]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-03 11:49:58] INFO root fetch - processPackages [lakeapi2sql]: Downloading https://files.pythonhosted.org/packages/75/70/b681e45906f8ca1320c34d940cbb9aebf0154137e41d5fd772b968195b85/lakeapi2sql-0.1.0.tar.gz
+[2023-07-03 11:49:58] INFO root fetch - processPackages [funfluid]: Downloading https://files.pythonhosted.org/packages/51/5c/4e9109b233a60e58937dcf535cc879be6c6d8f2d2ff75e16f5219c7b8452/funfluid-202307031747.tar.gz
+[2023-07-03 11:49:58] INFO root fetch - processPackages [aloso]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-03 11:49:58] INFO root fetch - processPackages [BlitzChain]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-03 11:49:58] WARNING root fetch - processPackages [external-aero]: Skipping, unable to determine old version
+[2023-07-03 11:49:58] INFO root fetch - main [MainThread]: End processing [external-aero] error
+[2023-07-03 11:49:58] INFO root fetch - processPackages [frontengine-dev]: Downloading https://files.pythonhosted.org/packages/23/e2/01e0fe02ca6b73e163f3f0d080231bc0c783a63e766e5524eb246350518d/frontengine_dev-0.0.8.tar.gz
+[2023-07-03 11:49:58] INFO root fetch - processPackages [deciphon-snap]: Downloading https://files.pythonhosted.org/packages/61/fe/632459019ce8b203561145736f697c285b3274eef17c3678555d1f197912/deciphon_snap-0.1.2.tar.gz
+[2023-07-03 11:49:58] INFO root fetch - processPackages [django-pfx]: Remove: archive file [/home/abi/fetcher/tmp/django-pfx-1.2.dev84.tar.gz]
+[2023-07-03 11:49:58] INFO root fetch - processPackages [django-pfx]: Remove: archive file [/home/abi/fetcher/tmp/django-pfx-1.2.dev86.tar.gz]
+[2023-07-03 11:49:58] INFO root fetch - main [MainThread]: End processing [django-pfx]: success
+[2023-07-03 11:49:58] INFO root fetch - processPackages [funfluid]: executing diffoscope
+[2023-07-03 11:49:58] INFO root fetch - processPackages [funfluid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/funfluid-202307031723.tar.gz tmp/funfluid-202307031747.tar.gz --markdown 20230703/f/funfluid/202307031723-202307031747/diff.md --exclude *.pyd
+[2023-07-03 11:49:58] INFO root fetch - processPackages [aloso]: Downloading https://files.pythonhosted.org/packages/50/9d/0ff14b1bc5f2263235cdcf24ed3d3350aa202844d04965c4926ec9b0c09b/aloso-0.0.8-py3-none-any.whl
+[2023-07-03 11:49:58] INFO root fetch - processPackages [frontengine-dev]: Downloading https://files.pythonhosted.org/packages/bd/40/ac58f5e1633b3b2ea3574839a03ddc6a124459f3e721986a4208fbe06488/frontengine_dev-0.0.9.tar.gz
+[2023-07-03 11:49:58] INFO root fetch - processPackages [BlitzChain]: Downloading https://files.pythonhosted.org/packages/b9/8f/253ddd2a190e0dc4f6b12d10c18ebf529b19fc10e07a9d8afb72bcfdc910/BlitzChain-0.2.8.tar.gz
+[2023-07-03 11:49:58] INFO root fetch - processPackages [lakeapi2sql]: Downloading https://files.pythonhosted.org/packages/ce/48/f23e87edb7ba8fb7096422bb6e918a69d3ab00a4d10e67a36034a27d42a0/lakeapi2sql-0.2.0.tar.gz
+[2023-07-03 11:49:58] INFO root fetch - processPackages [frontengine-dev]: executing diffoscope
+[2023-07-03 11:49:58] INFO root fetch - processPackages [frontengine-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/frontengine_dev-0.0.8.tar.gz tmp/frontengine_dev-0.0.9.tar.gz --markdown 20230703/f/frontengine-dev/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-03 11:49:58] INFO root fetch - processPackages [deciphon-snap]: Downloading https://files.pythonhosted.org/packages/08/c0/352db316eab47be1591a47faf8d367bd72859353b5b9ab6262ad9de551a7/deciphon_snap-0.2.0.tar.gz
+[2023-07-03 11:49:58] INFO root fetch - processPackages [lakeapi2sql]: executing diffoscope
+[2023-07-03 11:49:58] INFO root fetch - processPackages [lakeapi2sql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lakeapi2sql-0.1.0.tar.gz tmp/lakeapi2sql-0.2.0.tar.gz --markdown 20230703/l/lakeapi2sql/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-07-03 11:49:58] INFO root fetch - processPackages [deciphon-snap]: executing diffoscope
+[2023-07-03 11:49:58] INFO root fetch - processPackages [deciphon-snap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deciphon_snap-0.1.2.tar.gz tmp/deciphon_snap-0.2.0.tar.gz --markdown 20230703/d/deciphon-snap/0.1.2-0.2.0/diff.md --exclude *.pyd
+[2023-07-03 11:49:58] INFO root fetch - processPackages [BlitzChain]: Downloading https://files.pythonhosted.org/packages/69/06/06b9f8388223a3a1fe5d48e1887490c9ec85b256b70627803918368de513/BlitzChain-0.2.9.tar.gz
+[2023-07-03 11:49:59] INFO root fetch - processPackages [aloso]: Downloading https://files.pythonhosted.org/packages/8d/c7/4327030a3a76e4d5eb22fc9af6b920dd9d50887fe3bd59e743a9e7b1ac9d/aloso-0.0.9-py3-none-any.whl
+[2023-07-03 11:49:59] INFO root fetch - processPackages [BlitzChain]: executing diffoscope
+[2023-07-03 11:49:59] INFO root fetch - processPackages [BlitzChain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BlitzChain-0.2.8.tar.gz tmp/BlitzChain-0.2.9.tar.gz --markdown 20230703/B/BlitzChain/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-03 11:49:59] INFO root fetch - processPackages [aloso]: executing diffoscope
+[2023-07-03 11:49:59] INFO root fetch - processPackages [aloso]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aloso-0.0.8-py3-none-any.whl.zip tmp/aloso-0.0.9-py3-none-any.whl.zip --markdown 20230703/a/aloso/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-03 11:49:59] INFO root fetch - processPackages [funfluid]: Remove: archive file [/home/abi/fetcher/tmp/funfluid-202307031723.tar.gz]
+[2023-07-03 11:49:59] INFO root fetch - processPackages [funfluid]: Remove: archive file [/home/abi/fetcher/tmp/funfluid-202307031747.tar.gz]
+[2023-07-03 11:49:59] INFO root fetch - main [MainThread]: End processing [funfluid]: success
+[2023-07-03 11:50:00] INFO root fetch - processPackages [frontengine-dev]: Remove: archive file [/home/abi/fetcher/tmp/frontengine_dev-0.0.8.tar.gz]
+[2023-07-03 11:50:00] INFO root fetch - processPackages [frontengine-dev]: Remove: archive file [/home/abi/fetcher/tmp/frontengine_dev-0.0.9.tar.gz]
+[2023-07-03 11:50:00] INFO root fetch - main [MainThread]: End processing [frontengine-dev]: success
+[2023-07-03 11:50:00] INFO root fetch - processPackages [deciphon-snap]: Remove: archive file [/home/abi/fetcher/tmp/deciphon_snap-0.1.2.tar.gz]
+[2023-07-03 11:50:00] INFO root fetch - processPackages [deciphon-snap]: Remove: archive file [/home/abi/fetcher/tmp/deciphon_snap-0.2.0.tar.gz]
+[2023-07-03 11:50:00] INFO root fetch - main [MainThread]: End processing [deciphon-snap]: success
+[2023-07-03 11:50:00] INFO root fetch - processPackages [lakeapi2sql]: Remove: archive file [/home/abi/fetcher/tmp/lakeapi2sql-0.1.0.tar.gz]
+[2023-07-03 11:50:00] INFO root fetch - processPackages [lakeapi2sql]: Remove: archive file [/home/abi/fetcher/tmp/lakeapi2sql-0.2.0.tar.gz]
+[2023-07-03 11:50:00] INFO root fetch - main [MainThread]: End processing [lakeapi2sql]: success
+[2023-07-03 11:50:00] INFO root fetch - processPackages [aloso]: Remove: archive file [/home/abi/fetcher/tmp/aloso-0.0.8-py3-none-any.whl.zip]
+[2023-07-03 11:50:00] INFO root fetch - processPackages [aloso]: Remove: archive file [/home/abi/fetcher/tmp/aloso-0.0.9-py3-none-any.whl.zip]
+[2023-07-03 11:50:00] INFO root fetch - main [MainThread]: End processing [aloso]: success
+[2023-07-03 11:50:00] INFO root fetch - processPackages [BlitzChain]: Remove: archive file [/home/abi/fetcher/tmp/BlitzChain-0.2.8.tar.gz]
+[2023-07-03 11:50:00] INFO root fetch - processPackages [BlitzChain]: Remove: archive file [/home/abi/fetcher/tmp/BlitzChain-0.2.9.tar.gz]
+[2023-07-03 11:50:00] INFO root fetch - main [MainThread]: End processing [BlitzChain]: success
+[2023-07-03 11:50:04] INFO root fetch - processPackages [demisto-sdk]: Remove: archive file [/home/abi/fetcher/tmp/demisto_sdk-1.8.3.tar.gz]
+[2023-07-03 11:50:04] INFO root fetch - processPackages [demisto-sdk]: Remove: archive file [/home/abi/fetcher/tmp/demisto_sdk-1.9.0.tar.gz]
+[2023-07-03 11:50:04] INFO root fetch - main [MainThread]: End processing [demisto-sdk]: success
+[2023-07-03 11:50:04] INFO root fetch - main [MainThread]: Store serial: [18737178]
