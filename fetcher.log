@@ -17219,3 +17219,99 @@ AssertionError: tmp/docarray-0.9.9.dev4.tar.gz does not exist
 [2023-07-03 14:30:21] INFO root fetch - processPackages [langflow]: Remove: archive file [/home/abi/fetcher/tmp/langflow-0.2.9.tar.gz]
 [2023-07-03 14:30:21] INFO root fetch - main [MainThread]: End processing [langflow]: success
 [2023-07-03 14:30:21] INFO root fetch - main [MainThread]: Store serial: [18738932]
+[2023-07-03 14:35:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18738932]
+[2023-07-03 14:35:30] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-07-03 14:35:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gbd-tools
+[2023-07-03 14:35:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-dynamic-datatb
+[2023-07-03 14:35:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dbt-snapshot-analysis
+[2023-07-03 14:35:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: HSTI
+[2023-07-03 14:35:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ima-predeployed
+[2023-07-03 14:35:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: roodkcab
+[2023-07-03 14:35:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: socialgene
+[2023-07-03 14:35:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mmengine
+[2023-07-03 14:35:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: browserstack-sdk
+[2023-07-03 14:35:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: example-package-zqyTest
+[2023-07-03 14:35:30] INFO root fetch - processPackages [socialgene]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-03 14:35:30] INFO root fetch - processPackages [HSTI]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-03 14:35:30] INFO root fetch - processPackages [gbd-tools]: New version: [4.6.2] Old Version: [4.6.0]
+[2023-07-03 14:35:30] INFO root fetch - processPackages [dbt-snapshot-analysis]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-03 14:35:30] WARNING root fetch - processPackages [example-package-zqyTest]: Skipping, unable to determine old version
+[2023-07-03 14:35:30] INFO root fetch - processPackages [example-package-zqyTest]: Start processing: DBDIpy
+[2023-07-03 14:35:30] INFO root fetch - main [MainThread]: End processing [example-package-zqyTest] error
+[2023-07-03 14:35:30] INFO root fetch - processPackages [mmengine]: New version: [0.8.0] Old Version: [0.7.4]
+[2023-07-03 14:35:30] INFO root fetch - processPackages [roodkcab]: New version: [3.2] Old Version: [3.1]
+[2023-07-03 14:35:30] INFO root fetch - processPackages [django-dynamic-datatb]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-03 14:35:30] INFO root fetch - processPackages [browserstack-sdk]: New version: [1.9.2] Old Version: [1.8.1]
+[2023-07-03 14:35:30] INFO root fetch - processPackages [ima-predeployed]: New version: [2.0.0b2] Old Version: [2.0.0b1]
+[2023-07-03 14:35:31] INFO root fetch - processPackages [socialgene]: Downloading https://files.pythonhosted.org/packages/d4/4d/ad3a9e7e88dff1a5367aed7e8ec4b8c2a490b11c4f3454786cebbe3ddac9/socialgene-0.1.8.tar.gz
+[2023-07-03 14:35:31] INFO root fetch - processPackages [HSTI]: Downloading https://files.pythonhosted.org/packages/61/ba/843e4a6a39f024e15e9f248b8b9daf6551846c6e8b5257f75db604fdbd56/HSTI-0.0.8.tar.gz
+[2023-07-03 14:35:31] INFO root fetch - processPackages [DBDIpy]: New version: [1.2.2] Old Version: [1.2.1]
+[2023-07-03 14:35:31] INFO root fetch - processPackages [gbd-tools]: Downloading https://files.pythonhosted.org/packages/12/9f/5656be8c80f9308232c666606b8163e138230955b2b9909a17f414b52cf6/gbd_tools-4.6.0.tar.gz
+[2023-07-03 14:35:31] INFO root fetch - processPackages [roodkcab]: Downloading https://files.pythonhosted.org/packages/05/16/b6f6a57cf2064c27e10724f5414cd6745235d5fee13092cbd471b28e442a/roodkcab-3.1.tar.gz
+[2023-07-03 14:35:31] INFO root fetch - processPackages [django-dynamic-datatb]: Downloading https://files.pythonhosted.org/packages/33/2f/914ee2589596eac46b847c91aa5cf1f41e17ce20d69e4126a405b11a7f0f/django-dynamic-datatb-1.0.8.tar.gz
+[2023-07-03 14:35:31] INFO root fetch - processPackages [mmengine]: Downloading https://files.pythonhosted.org/packages/18/dd/971feb9d845f720e9219cd7a41f7b389a22ce8879fd6be0fcdb361adb3ac/mmengine-0.7.4.tar.gz
+[2023-07-03 14:35:31] INFO root fetch - processPackages [dbt-snapshot-analysis]: Downloading https://files.pythonhosted.org/packages/b8/92/f01ae41373870a4d520f05249c97846f72dc982373dfdc2cf8f563cd27a8/dbt_snapshot_analysis-0.2.8.tar.gz
+[2023-07-03 14:35:31] INFO root fetch - processPackages [ima-predeployed]: Downloading https://files.pythonhosted.org/packages/95/22/5bfe132da878e0bb6d44a0158de50bb41ec06a4e3301d48c687fdfc0abe2/ima-predeployed-2.0.0b1.tar.gz
+[2023-07-03 14:35:31] INFO root fetch - processPackages [browserstack-sdk]: Downloading https://files.pythonhosted.org/packages/8f/f6/ebeb5204570d76f86be6985afe10789f1b21d91816239c06b11f19bfbb72/browserstack_sdk-1.8.1.tar.gz
+[2023-07-03 14:35:31] INFO root fetch - processPackages [socialgene]: Downloading https://files.pythonhosted.org/packages/22/01/8bc71a513bf54f285b2a74abcf697bd53cb96915007802ea4e9210204642/socialgene-0.1.9.tar.gz
+[2023-07-03 14:35:31] INFO root fetch - processPackages [DBDIpy]: Downloading https://files.pythonhosted.org/packages/0c/09/b98f8e0fcc5afca09e9c1990e2cea3c895a501c748a051f5842532757875/DBDIpy-1.2.1.tar.gz
+[2023-07-03 14:35:31] INFO root fetch - processPackages [socialgene]: executing diffoscope
+[2023-07-03 14:35:31] INFO root fetch - processPackages [socialgene]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/socialgene-0.1.8.tar.gz tmp/socialgene-0.1.9.tar.gz --markdown 20230703/s/socialgene/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-03 14:35:31] INFO root fetch - processPackages [roodkcab]: Downloading https://files.pythonhosted.org/packages/c3/02/a23501498846dc037f031199b2935f840600bdd106d564aeeb96a22ab4ee/roodkcab-3.2.tar.gz
+[2023-07-03 14:35:31] INFO root fetch - processPackages [gbd-tools]: Downloading https://files.pythonhosted.org/packages/f0/58/fdb15c5b3dddfb4f317c7d6c8bcdc5e70cbbc8333770f7a3b8efaf9311ef/gbd_tools-4.6.2.tar.gz
+[2023-07-03 14:35:31] INFO root fetch - processPackages [dbt-snapshot-analysis]: Downloading https://files.pythonhosted.org/packages/1d/1c/9cef2d878f2696c5384127a75a75f483cd2b9791ca74092b26590df0cc99/dbt_snapshot_analysis-0.2.9.tar.gz
+[2023-07-03 14:35:31] INFO root fetch - processPackages [DBDIpy]: Downloading https://files.pythonhosted.org/packages/6e/9a/108cf98d6e34dadccef3461fba0db99246bda724878e17498cc213990c6c/DBDIpy-1.2.2.tar.gz
+[2023-07-03 14:35:31] INFO root fetch - processPackages [mmengine]: Downloading https://files.pythonhosted.org/packages/65/ee/20aa57430f1add142a7730cbe423836fd8b03f99cf2e972d7146ae3e2029/mmengine-0.8.0.tar.gz
+[2023-07-03 14:35:31] INFO root fetch - processPackages [browserstack-sdk]: Downloading https://files.pythonhosted.org/packages/bf/46/3ee8b5068073adc3791ac682b7a8c14bc7a10d24e6da05a093fbf74efc9b/browserstack_sdk-1.9.2.tar.gz
+[2023-07-03 14:35:31] INFO root fetch - processPackages [roodkcab]: executing diffoscope
+[2023-07-03 14:35:31] INFO root fetch - processPackages [roodkcab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/roodkcab-3.1.tar.gz tmp/roodkcab-3.2.tar.gz --markdown 20230703/r/roodkcab/3.1-3.2/diff.md --exclude *.pyd
+[2023-07-03 14:35:32] INFO root fetch - processPackages [dbt-snapshot-analysis]: executing diffoscope
+[2023-07-03 14:35:32] INFO root fetch - processPackages [dbt-snapshot-analysis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt_snapshot_analysis-0.2.8.tar.gz tmp/dbt_snapshot_analysis-0.2.9.tar.gz --markdown 20230703/d/dbt-snapshot-analysis/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-03 14:35:32] INFO root fetch - processPackages [mmengine]: executing diffoscope
+[2023-07-03 14:35:32] INFO root fetch - processPackages [mmengine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mmengine-0.7.4.tar.gz tmp/mmengine-0.8.0.tar.gz --markdown 20230703/m/mmengine/0.7.4-0.8.0/diff.md --exclude *.pyd
+[2023-07-03 14:35:32] INFO root fetch - processPackages [gbd-tools]: executing diffoscope
+[2023-07-03 14:35:32] INFO root fetch - processPackages [django-dynamic-datatb]: Downloading https://files.pythonhosted.org/packages/a1/9f/70956b4ba8b5a171a34f1475505f33ff4f6a6500ffc40fed693f3bc4a114/django-dynamic-datatb-1.0.9.tar.gz
+[2023-07-03 14:35:32] INFO root fetch - processPackages [gbd-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gbd_tools-4.6.0.tar.gz tmp/gbd_tools-4.6.2.tar.gz --markdown 20230703/g/gbd-tools/4.6.0-4.6.2/diff.md --exclude *.pyd
+[2023-07-03 14:35:32] INFO root fetch - processPackages [DBDIpy]: executing diffoscope
+[2023-07-03 14:35:32] INFO root fetch - processPackages [DBDIpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DBDIpy-1.2.1.tar.gz tmp/DBDIpy-1.2.2.tar.gz --markdown 20230703/D/DBDIpy/1.2.1-1.2.2/diff.md --exclude *.pyd
+[2023-07-03 14:35:32] INFO root fetch - processPackages [browserstack-sdk]: executing diffoscope
+[2023-07-03 14:35:32] INFO root fetch - processPackages [browserstack-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/browserstack_sdk-1.8.1.tar.gz tmp/browserstack_sdk-1.9.2.tar.gz --markdown 20230703/b/browserstack-sdk/1.8.1-1.9.2/diff.md --exclude *.pyd
+[2023-07-03 14:35:32] INFO root fetch - processPackages [ima-predeployed]: Downloading https://files.pythonhosted.org/packages/b2/30/d163986571388992d117232e6d08e85b7322fc8997a7641548d80bc06277/ima-predeployed-2.0.0b2.tar.gz
+[2023-07-03 14:35:32] INFO root fetch - processPackages [django-dynamic-datatb]: executing diffoscope
+[2023-07-03 14:35:32] INFO root fetch - processPackages [django-dynamic-datatb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-dynamic-datatb-1.0.8.tar.gz tmp/django-dynamic-datatb-1.0.9.tar.gz --markdown 20230703/d/django-dynamic-datatb/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-03 14:35:32] INFO root fetch - processPackages [ima-predeployed]: executing diffoscope
+[2023-07-03 14:35:32] INFO root fetch - processPackages [ima-predeployed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ima-predeployed-2.0.0b1.tar.gz tmp/ima-predeployed-2.0.0b2.tar.gz --markdown 20230703/i/ima-predeployed/2.0.0b1-2.0.0b2/diff.md --exclude *.pyd
+[2023-07-03 14:35:33] INFO root fetch - processPackages [dbt-snapshot-analysis]: Remove: archive file [/home/abi/fetcher/tmp/dbt_snapshot_analysis-0.2.8.tar.gz]
+[2023-07-03 14:35:33] INFO root fetch - processPackages [dbt-snapshot-analysis]: Remove: archive file [/home/abi/fetcher/tmp/dbt_snapshot_analysis-0.2.9.tar.gz]
+[2023-07-03 14:35:33] INFO root fetch - main [MainThread]: End processing [dbt-snapshot-analysis]: success
+[2023-07-03 14:35:33] INFO root fetch - processPackages [roodkcab]: Remove: archive file [/home/abi/fetcher/tmp/roodkcab-3.1.tar.gz]
+[2023-07-03 14:35:33] INFO root fetch - processPackages [roodkcab]: Remove: archive file [/home/abi/fetcher/tmp/roodkcab-3.2.tar.gz]
+[2023-07-03 14:35:33] INFO root fetch - main [MainThread]: End processing [roodkcab]: success
+[2023-07-03 14:35:33] INFO root fetch - processPackages [socialgene]: Remove: archive file [/home/abi/fetcher/tmp/socialgene-0.1.8.tar.gz]
+[2023-07-03 14:35:33] INFO root fetch - processPackages [socialgene]: Remove: archive file [/home/abi/fetcher/tmp/socialgene-0.1.9.tar.gz]
+[2023-07-03 14:35:33] INFO root fetch - main [MainThread]: End processing [socialgene]: success
+[2023-07-03 14:35:33] INFO root fetch - processPackages [browserstack-sdk]: Remove: archive file [/home/abi/fetcher/tmp/browserstack_sdk-1.8.1.tar.gz]
+[2023-07-03 14:35:33] INFO root fetch - processPackages [browserstack-sdk]: Remove: archive file [/home/abi/fetcher/tmp/browserstack_sdk-1.9.2.tar.gz]
+[2023-07-03 14:35:33] INFO root fetch - main [MainThread]: End processing [browserstack-sdk]: success
+[2023-07-03 14:35:33] INFO root fetch - processPackages [HSTI]: Downloading https://files.pythonhosted.org/packages/d8/11/fc8e17c1c7ea1ed6d3fe2ace9c4bdf9f92089ddcd32e4c2f4e2c0d60dc8f/HSTI-0.0.9.tar.gz
+[2023-07-03 14:35:33] INFO root fetch - processPackages [django-dynamic-datatb]: Remove: archive file [/home/abi/fetcher/tmp/django-dynamic-datatb-1.0.8.tar.gz]
+[2023-07-03 14:35:33] INFO root fetch - processPackages [django-dynamic-datatb]: Remove: archive file [/home/abi/fetcher/tmp/django-dynamic-datatb-1.0.9.tar.gz]
+[2023-07-03 14:35:33] INFO root fetch - main [MainThread]: End processing [django-dynamic-datatb]: success
+[2023-07-03 14:35:33] INFO root fetch - processPackages [gbd-tools]: Remove: archive file [/home/abi/fetcher/tmp/gbd_tools-4.6.0.tar.gz]
+[2023-07-03 14:35:33] INFO root fetch - processPackages [gbd-tools]: Remove: archive file [/home/abi/fetcher/tmp/gbd_tools-4.6.2.tar.gz]
+[2023-07-03 14:35:33] INFO root fetch - main [MainThread]: End processing [gbd-tools]: success
+[2023-07-03 14:35:33] INFO root fetch - processPackages [DBDIpy]: Remove: archive file [/home/abi/fetcher/tmp/DBDIpy-1.2.1.tar.gz]
+[2023-07-03 14:35:33] INFO root fetch - processPackages [DBDIpy]: Remove: archive file [/home/abi/fetcher/tmp/DBDIpy-1.2.2.tar.gz]
+[2023-07-03 14:35:33] INFO root fetch - main [MainThread]: End processing [DBDIpy]: success
+[2023-07-03 14:35:34] INFO root fetch - processPackages [mmengine]: Remove: archive file [/home/abi/fetcher/tmp/mmengine-0.7.4.tar.gz]
+[2023-07-03 14:35:34] INFO root fetch - processPackages [mmengine]: Remove: archive file [/home/abi/fetcher/tmp/mmengine-0.8.0.tar.gz]
+[2023-07-03 14:35:34] INFO root fetch - main [MainThread]: End processing [mmengine]: success
+[2023-07-03 14:35:34] INFO root fetch - processPackages [ima-predeployed]: Remove: archive file [/home/abi/fetcher/tmp/ima-predeployed-2.0.0b1.tar.gz]
+[2023-07-03 14:35:34] INFO root fetch - processPackages [ima-predeployed]: Remove: archive file [/home/abi/fetcher/tmp/ima-predeployed-2.0.0b2.tar.gz]
+[2023-07-03 14:35:34] INFO root fetch - main [MainThread]: End processing [ima-predeployed]: success
+[2023-07-03 14:35:35] INFO root fetch - processPackages [HSTI]: executing diffoscope
+[2023-07-03 14:35:35] INFO root fetch - processPackages [HSTI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/HSTI-0.0.8.tar.gz tmp/HSTI-0.0.9.tar.gz --markdown 20230703/H/HSTI/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-03 14:35:37] INFO root fetch - processPackages [HSTI]: Remove: archive file [/home/abi/fetcher/tmp/HSTI-0.0.8.tar.gz]
+[2023-07-03 14:35:37] INFO root fetch - processPackages [HSTI]: Remove: archive file [/home/abi/fetcher/tmp/HSTI-0.0.9.tar.gz]
+[2023-07-03 14:35:37] INFO root fetch - main [MainThread]: End processing [HSTI]: success
+[2023-07-03 14:35:37] INFO root fetch - main [MainThread]: Store serial: [18738965]
