@@ -21880,3 +21880,177 @@ EOFError: EOF read where object expected
 [2023-07-03 16:44:44] INFO root fetch - processPackages [nwon-django-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/nwon_django_toolbox-0.5.8.tar.gz]
 [2023-07-03 16:44:44] INFO root fetch - main [MainThread]: End processing [nwon-django-toolbox]: success
 [2023-07-03 16:44:44] INFO root fetch - main [MainThread]: Store serial: [18740817]
+[2023-07-03 16:49:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18740817]
+[2023-07-03 16:49:53] INFO root fetch - main [MainThread]: Found 21 changed packages
+[2023-07-03 16:49:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nemo-library
+[2023-07-03 16:49:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: opensesame-extension-osweb
+[2023-07-03 16:49:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dynamic-service
+[2023-07-03 16:49:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aws-lambda-layer
+[2023-07-03 16:49:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: anwdlclient
+[2023-07-03 16:49:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: kaiju-auth
+[2023-07-03 16:49:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cofybox-dce
+[2023-07-03 16:49:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: TimeMurmur
+[2023-07-03 16:49:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: retro-games
+[2023-07-03 16:49:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: typos
+[2023-07-03 16:49:54] INFO root fetch - processPackages [nemo-library]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-03 16:49:54] WARNING root fetch - processPackages [retro-games]: Skipping, unable to determine old version
+[2023-07-03 16:49:54] INFO root fetch - processPackages [retro-games]: Start processing: openmetadata-managed-apis
+[2023-07-03 16:49:54] INFO root fetch - main [MainThread]: End processing [retro-games] error
+[2023-07-03 16:49:54] INFO root fetch - processPackages [dynamic-service]: New version: [1.1.0] Old Version: [1.0.1]
+[2023-07-03 16:49:54] INFO root fetch - processPackages [cofybox-dce]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-03 16:49:54] INFO root fetch - processPackages [opensesame-extension-osweb]: New version: [2.0.0.0a8] Old Version: [2.0.0.0a7]
+[2023-07-03 16:49:54] INFO root fetch - processPackages [kaiju-auth]: New version: [2.1.3] Old Version: [2.1.2]
+[2023-07-03 16:49:54] INFO root fetch - processPackages [nemo-library]: Downloading https://files.pythonhosted.org/packages/96/21/8535415cc9cc8917f162abf7b1da0fcb05f7bd27055ddb39595fec13e2ce/nemo_library-1.0.8.tar.gz
+[2023-07-03 16:49:54] INFO root fetch - processPackages [TimeMurmur]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-03 16:49:54] INFO root fetch - processPackages [aws-lambda-layer]: New version: [0.3.1] Old Version: [0.2.4]
+[2023-07-03 16:49:54] INFO root fetch - processPackages [anwdlclient]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-07-03 16:49:54] INFO root fetch - processPackages [typos]: New version: [1.15.9] Old Version: [1.15.8]
+[2023-07-03 16:49:54] INFO root fetch - processPackages [dynamic-service]: Downloading https://files.pythonhosted.org/packages/87/8f/8cb8e974effb37b981a794a5baed670a47f1f3b23e86d9412850b69e1bae/dynamic-service-1.0.1.tar.gz
+[2023-07-03 16:49:54] INFO root fetch - processPackages [cofybox-dce]: Downloading https://files.pythonhosted.org/packages/a9/73/e9d67a00ff9d409796d5e197176363615ecd005640759c99d4f48abcb13e/cofybox-dce-0.0.8.tar.gz
+[2023-07-03 16:49:54] INFO root fetch - processPackages [openmetadata-managed-apis]: New version: [1.1.0.1] Old Version: [1.1.0.0.dev0]
+[2023-07-03 16:49:54] INFO root fetch - processPackages [opensesame-extension-osweb]: Downloading https://files.pythonhosted.org/packages/2c/ab/aa15ddb5c5f2d8de63578570bbe2554adc1df58ce6d85dcb194f32bc4e45/opensesame_extension_osweb-2.0.0.0a7.tar.gz
+[2023-07-03 16:49:54] INFO root fetch - processPackages [kaiju-auth]: Downloading https://files.pythonhosted.org/packages/41/c8/f21913973975452cf8a5b19957090c00aa54f57eaf1b64f1a896f42732f7/kaiju_auth-2.1.2-py3-none-any.whl
+[2023-07-03 16:49:54] INFO root fetch - processPackages [nemo-library]: Downloading https://files.pythonhosted.org/packages/1c/ac/14ae2f7f8a4d99ed894b1c19114aff87c84d1136565a92f2d179daa6499f/nemo_library-1.0.9.tar.gz
+[2023-07-03 16:49:54] INFO root fetch - processPackages [anwdlclient]: Downloading https://files.pythonhosted.org/packages/6e/c0/ebde41b29cb6e9bd87949ceb38704e3f75a693d03dd4220cc276227e26a1/anwdlclient-1.1.0.tar.gz
+[2023-07-03 16:49:54] INFO root fetch - processPackages [TimeMurmur]: Downloading https://files.pythonhosted.org/packages/22/c6/7a09c5d3cbd2b1c61baf5b1e23c17e9f54a03de3f88adef1a449f5aae0ac/TimeMurmur-0.1.1-py3-none-any.whl
+[2023-07-03 16:49:54] INFO root fetch - processPackages [aws-lambda-layer]: Downloading https://files.pythonhosted.org/packages/35/88/5428a3d474975bbf722771513067b3442e0120c3d79c6a97c6c45369bd5a/aws_lambda_layer-0.2.4.tar.gz
+[2023-07-03 16:49:54] INFO root fetch - processPackages [typos]: Downloading https://files.pythonhosted.org/packages/5a/42/8fcba9b7ccfd4fe7528909a7aa21324f6f61e93fcdd4e45bb4da8f6f50e7/typos-1.15.8.tar.gz
+[2023-07-03 16:49:54] INFO root fetch - processPackages [openmetadata-managed-apis]: Downloading https://files.pythonhosted.org/packages/d6/d9/f36fd57fe7c41f7149c960dbad0bbec174738d4ddde9a2ecb728b705e1f1/openmetadata_managed_apis-1.1.0.0.dev0.tar.gz
+[2023-07-03 16:49:54] INFO root fetch - processPackages [dynamic-service]: Downloading https://files.pythonhosted.org/packages/74/b2/e0bc41775a59c46ca217383b451eb98476655fdac318ababe1c7b5e53214/dynamic-service-1.1.0.tar.gz
+[2023-07-03 16:49:54] INFO root fetch - processPackages [cofybox-dce]: Downloading https://files.pythonhosted.org/packages/e9/6c/7dfb61203e2aaf9f23172bd87c3f8e1c6c3c8a5cf7082da4044630d09acc/cofybox-dce-0.0.9.tar.gz
+[2023-07-03 16:49:54] INFO root fetch - processPackages [nemo-library]: executing diffoscope
+[2023-07-03 16:49:54] INFO root fetch - processPackages [nemo-library]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nemo_library-1.0.8.tar.gz tmp/nemo_library-1.0.9.tar.gz --markdown 20230703/n/nemo-library/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-03 16:49:54] INFO root fetch - processPackages [cofybox-dce]: executing diffoscope
+[2023-07-03 16:49:54] INFO root fetch - processPackages [cofybox-dce]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cofybox-dce-0.0.8.tar.gz tmp/cofybox-dce-0.0.9.tar.gz --markdown 20230703/c/cofybox-dce/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-03 16:49:55] INFO root fetch - processPackages [dynamic-service]: executing diffoscope
+[2023-07-03 16:49:55] INFO root fetch - processPackages [dynamic-service]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dynamic-service-1.0.1.tar.gz tmp/dynamic-service-1.1.0.tar.gz --markdown 20230703/d/dynamic-service/1.0.1-1.1.0/diff.md --exclude *.pyd
+[2023-07-03 16:49:55] INFO root fetch - processPackages [kaiju-auth]: Downloading https://files.pythonhosted.org/packages/3d/28/b247941e238023f338a060e7ab5b3f3cfeef247423fd46a651e7442be066/kaiju_auth-2.1.3-py3-none-any.whl
+[2023-07-03 16:49:55] INFO root fetch - processPackages [anwdlclient]: Downloading https://files.pythonhosted.org/packages/34/f7/f5e7a0f70777b30ec4b765c97161c89fac8d072d1eb010806742c4158512/anwdlclient-1.1.1.tar.gz
+[2023-07-03 16:49:55] INFO root fetch - processPackages [openmetadata-managed-apis]: Downloading https://files.pythonhosted.org/packages/71/03/d9c20cb13818d8d8f394fd5003e7f2f106afb55837b8356c473e39b87441/openmetadata_managed_apis-1.1.0.1.tar.gz
+[2023-07-03 16:49:55] INFO root fetch - processPackages [TimeMurmur]: Downloading https://files.pythonhosted.org/packages/58/8a/c4d3f476380146b895ed0675720af8ec85f4fd0ccc3f20f40c22bcfbfd1b/TimeMurmur-0.1.2-py3-none-any.whl
+[2023-07-03 16:49:55] INFO root fetch - processPackages [aws-lambda-layer]: Downloading https://files.pythonhosted.org/packages/b5/c1/da74ac3fad9d3295a93fa579c71f6929aab656137b5db0497dd1fcb7a198/aws_lambda_layer-0.3.1.tar.gz
+[2023-07-03 16:49:55] INFO root fetch - processPackages [kaiju-auth]: executing diffoscope
+[2023-07-03 16:49:55] INFO root fetch - processPackages [kaiju-auth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kaiju_auth-2.1.2-py3-none-any.whl.zip tmp/kaiju_auth-2.1.3-py3-none-any.whl.zip --markdown 20230703/k/kaiju-auth/2.1.2-2.1.3/diff.md --exclude *.pyd
+[2023-07-03 16:49:55] INFO root fetch - processPackages [anwdlclient]: executing diffoscope
+[2023-07-03 16:49:55] INFO root fetch - processPackages [anwdlclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anwdlclient-1.1.0.tar.gz tmp/anwdlclient-1.1.1.tar.gz --markdown 20230703/a/anwdlclient/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-07-03 16:49:55] INFO root fetch - processPackages [typos]: Downloading https://files.pythonhosted.org/packages/87/26/a974efff2a16e8cc9ed1ed3e0e2c1babda05973d50bbb5154a104cad3d1b/typos-1.15.9.tar.gz
+[2023-07-03 16:49:55] INFO root fetch - processPackages [TimeMurmur]: executing diffoscope
+[2023-07-03 16:49:55] INFO root fetch - processPackages [TimeMurmur]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TimeMurmur-0.1.1-py3-none-any.whl.zip tmp/TimeMurmur-0.1.2-py3-none-any.whl.zip --markdown 20230703/T/TimeMurmur/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-03 16:49:55] INFO root fetch - processPackages [aws-lambda-layer]: executing diffoscope
+[2023-07-03 16:49:55] INFO root fetch - processPackages [aws-lambda-layer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_lambda_layer-0.2.4.tar.gz tmp/aws_lambda_layer-0.3.1.tar.gz --markdown 20230703/a/aws-lambda-layer/0.2.4-0.3.1/diff.md --exclude *.pyd
+[2023-07-03 16:49:55] INFO root fetch - processPackages [openmetadata-managed-apis]: executing diffoscope
+[2023-07-03 16:49:55] INFO root fetch - processPackages [openmetadata-managed-apis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openmetadata_managed_apis-1.1.0.0.dev0.tar.gz tmp/openmetadata_managed_apis-1.1.0.1.tar.gz --markdown 20230703/o/openmetadata-managed-apis/1.1.0.0.dev0-1.1.0.1/diff.md --exclude *.pyd
+[2023-07-03 16:49:55] INFO root fetch - processPackages [opensesame-extension-osweb]: Downloading https://files.pythonhosted.org/packages/e2/46/ee470f21782300a5123157400f6bdbca9c0563d6d55aa391586b704a810e/opensesame_extension_osweb-2.0.0.0a8.tar.gz
+[2023-07-03 16:49:55] INFO root fetch - processPackages [typos]: executing diffoscope
+[2023-07-03 16:49:55] INFO root fetch - processPackages [typos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/typos-1.15.8.tar.gz tmp/typos-1.15.9.tar.gz --markdown 20230703/t/typos/1.15.8-1.15.9/diff.md --exclude *.pyd
+[2023-07-03 16:49:56] INFO root fetch - processPackages [nemo-library]: Remove: archive file [/home/abi/fetcher/tmp/nemo_library-1.0.8.tar.gz]
+[2023-07-03 16:49:56] INFO root fetch - processPackages [nemo-library]: Remove: archive file [/home/abi/fetcher/tmp/nemo_library-1.0.9.tar.gz]
+[2023-07-03 16:49:56] INFO root fetch - processPackages [nemo-library]: Start processing: wagtail-external-link-richtext
+[2023-07-03 16:49:56] INFO root fetch - main [MainThread]: End processing [nemo-library]: success
+[2023-07-03 16:49:56] WARNING root fetch - processPackages [wagtail-external-link-richtext]: Skipping, unable to determine old version
+[2023-07-03 16:49:56] INFO root fetch - processPackages [wagtail-external-link-richtext]: Start processing: pontos
+[2023-07-03 16:49:56] INFO root fetch - main [MainThread]: End processing [wagtail-external-link-richtext] error
+[2023-07-03 16:49:56] INFO root fetch - processPackages [pontos]: New version: [23.7.0] Old Version: [23.6.2]
+[2023-07-03 16:49:56] INFO root fetch - processPackages [opensesame-extension-osweb]: executing diffoscope
+[2023-07-03 16:49:56] INFO root fetch - processPackages [opensesame-extension-osweb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opensesame_extension_osweb-2.0.0.0a7.tar.gz tmp/opensesame_extension_osweb-2.0.0.0a8.tar.gz --markdown 20230703/o/opensesame-extension-osweb/2.0.0.0a7-2.0.0.0a8/diff.md --exclude *.pyd
+[2023-07-03 16:49:56] INFO root fetch - processPackages [pontos]: Downloading https://files.pythonhosted.org/packages/d5/6d/084da4182a5ba62f5caefc7d213cc1a251ee9b5a61601b359a1ee0b716af/pontos-23.6.2.tar.gz
+[2023-07-03 16:49:56] INFO root fetch - processPackages [cofybox-dce]: Remove: archive file [/home/abi/fetcher/tmp/cofybox-dce-0.0.8.tar.gz]
+[2023-07-03 16:49:56] INFO root fetch - processPackages [cofybox-dce]: Remove: archive file [/home/abi/fetcher/tmp/cofybox-dce-0.0.9.tar.gz]
+[2023-07-03 16:49:56] INFO root fetch - processPackages [cofybox-dce]: Start processing: openmetadata-ingestion
+[2023-07-03 16:49:56] INFO root fetch - main [MainThread]: End processing [cofybox-dce]: success
+[2023-07-03 16:49:56] INFO root fetch - processPackages [dynamic-service]: Remove: archive file [/home/abi/fetcher/tmp/dynamic-service-1.0.1.tar.gz]
+[2023-07-03 16:49:56] INFO root fetch - processPackages [dynamic-service]: Remove: archive file [/home/abi/fetcher/tmp/dynamic-service-1.1.0.tar.gz]
+[2023-07-03 16:49:56] INFO root fetch - processPackages [dynamic-service]: Start processing: ytsaurus-client
+[2023-07-03 16:49:56] INFO root fetch - main [MainThread]: End processing [dynamic-service]: success
+[2023-07-03 16:49:56] INFO root fetch - processPackages [openmetadata-ingestion]: New version: [1.1.0.1] Old Version: [1.1.0.0.dev0]
+[2023-07-03 16:49:56] INFO root fetch - processPackages [ytsaurus-client]: New version: [0.13.5] Old Version: [0.13.4]
+[2023-07-03 16:49:56] INFO root fetch - processPackages [kaiju-auth]: Remove: archive file [/home/abi/fetcher/tmp/kaiju_auth-2.1.2-py3-none-any.whl.zip]
+[2023-07-03 16:49:56] INFO root fetch - processPackages [kaiju-auth]: Remove: archive file [/home/abi/fetcher/tmp/kaiju_auth-2.1.3-py3-none-any.whl.zip]
+[2023-07-03 16:49:56] INFO root fetch - processPackages [kaiju-auth]: Start processing: starcatalogquery
+[2023-07-03 16:49:56] INFO root fetch - main [MainThread]: End processing [kaiju-auth]: success
+[2023-07-03 16:49:56] INFO root fetch - processPackages [pontos]: Downloading https://files.pythonhosted.org/packages/9e/29/1075e3df65ded1bd79909ca1398b9f92ff3ff0e60b49392a82601ab7f358/pontos-23.7.0.tar.gz
+[2023-07-03 16:49:56] INFO root fetch - processPackages [anwdlclient]: Remove: archive file [/home/abi/fetcher/tmp/anwdlclient-1.1.0.tar.gz]
+[2023-07-03 16:49:56] INFO root fetch - processPackages [anwdlclient]: Remove: archive file [/home/abi/fetcher/tmp/anwdlclient-1.1.1.tar.gz]
+[2023-07-03 16:49:56] INFO root fetch - processPackages [anwdlclient]: Start processing: miditok
+[2023-07-03 16:49:56] INFO root fetch - main [MainThread]: End processing [anwdlclient]: success
+[2023-07-03 16:49:56] INFO root fetch - processPackages [starcatalogquery]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-07-03 16:49:56] INFO root fetch - processPackages [pontos]: executing diffoscope
+[2023-07-03 16:49:56] INFO root fetch - processPackages [pontos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pontos-23.6.2.tar.gz tmp/pontos-23.7.0.tar.gz --markdown 20230703/p/pontos/23.6.2-23.7.0/diff.md --exclude *.pyd
+[2023-07-03 16:49:56] INFO root fetch - processPackages [ytsaurus-client]: Downloading https://files.pythonhosted.org/packages/95/24/0afa36d15da33378ac5102b50e7db3b55b5fca1615c83879f85410e6c10d/ytsaurus_client-0.13.4-py2.py3-none-any.whl
+[2023-07-03 16:49:56] INFO root fetch - processPackages [openmetadata-ingestion]: Downloading https://files.pythonhosted.org/packages/c8/3c/2a25529cfc182e35ae210b3f8714d6bb7862aa0bd7e97762b6b43851db9a/openmetadata-ingestion-1.1.0.0.dev0.tar.gz
+[2023-07-03 16:49:56] INFO root fetch - processPackages [aws-lambda-layer]: Remove: archive file [/home/abi/fetcher/tmp/aws_lambda_layer-0.2.4.tar.gz]
+[2023-07-03 16:49:56] INFO root fetch - processPackages [aws-lambda-layer]: Remove: archive file [/home/abi/fetcher/tmp/aws_lambda_layer-0.3.1.tar.gz]
+[2023-07-03 16:49:56] INFO root fetch - processPackages [aws-lambda-layer]: Start processing: DataPipelineExecutor
+[2023-07-03 16:49:56] INFO root fetch - main [MainThread]: End processing [aws-lambda-layer]: success
+[2023-07-03 16:49:56] INFO root fetch - processPackages [miditok]: New version: [2.1.0] Old Version: [2.0.6]
+[2023-07-03 16:49:57] INFO root fetch - processPackages [TimeMurmur]: Remove: archive file [/home/abi/fetcher/tmp/TimeMurmur-0.1.1-py3-none-any.whl.zip]
+[2023-07-03 16:49:57] INFO root fetch - processPackages [TimeMurmur]: Remove: archive file [/home/abi/fetcher/tmp/TimeMurmur-0.1.2-py3-none-any.whl.zip]
+[2023-07-03 16:49:57] INFO root fetch - processPackages [TimeMurmur]: Start processing: nemo-library
+[2023-07-03 16:49:57] INFO root fetch - main [MainThread]: End processing [TimeMurmur]: success
+[2023-07-03 16:49:57] INFO root fetch - processPackages [nemo-library]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-03 16:49:57] WARNING root fetch - processPackages [DataPipelineExecutor]: Skipping, unable to determine old version
+[2023-07-03 16:49:57] INFO root fetch - processPackages [DataPipelineExecutor]: Start processing: coiled
+[2023-07-03 16:49:57] INFO root fetch - main [MainThread]: End processing [DataPipelineExecutor] error
+[2023-07-03 16:49:57] INFO root fetch - processPackages [starcatalogquery]: Downloading https://files.pythonhosted.org/packages/b4/b1/22b35b9a5dbdfa55d1128b88d42384aec05d2a8a02f8fb46648e27e18fc1/starcatalogquery-0.1.7-py3-none-any.whl
+[2023-07-03 16:49:57] INFO root fetch - processPackages [openmetadata-managed-apis]: Remove: archive file [/home/abi/fetcher/tmp/openmetadata_managed_apis-1.1.0.0.dev0.tar.gz]
+[2023-07-03 16:49:57] INFO root fetch - processPackages [openmetadata-managed-apis]: Remove: archive file [/home/abi/fetcher/tmp/openmetadata_managed_apis-1.1.0.1.tar.gz]
+[2023-07-03 16:49:57] INFO root fetch - processPackages [openmetadata-managed-apis]: Start processing: splight-lib
+[2023-07-03 16:49:57] INFO root fetch - main [MainThread]: End processing [openmetadata-managed-apis]: success
+[2023-07-03 16:49:57] INFO root fetch - processPackages [nemo-library]: Downloading https://files.pythonhosted.org/packages/96/21/8535415cc9cc8917f162abf7b1da0fcb05f7bd27055ddb39595fec13e2ce/nemo_library-1.0.8.tar.gz
+[2023-07-03 16:49:57] INFO root fetch - processPackages [miditok]: Downloading https://files.pythonhosted.org/packages/3c/58/587f75bd26a9717872bc5d1276ddcc10cedbf9344037fa56e062b1f0cbac/miditok-2.0.6.tar.gz
+[2023-07-03 16:49:57] INFO root fetch - processPackages [openmetadata-ingestion]: Downloading https://files.pythonhosted.org/packages/27/de/19442329aa1860b0549a3f0bb593a1c4b380f3d74d57f336842b39cc01bb/openmetadata-ingestion-1.1.0.1.tar.gz
+[2023-07-03 16:49:57] INFO root fetch - processPackages [coiled]: New version: [0.7.9.dev9] Old Version: [0.7.9.dev8]
+[2023-07-03 16:49:57] INFO root fetch - processPackages [splight-lib]: New version: [3.1.0.dev0] Old Version: [3.0.8]
+[2023-07-03 16:49:57] INFO root fetch - processPackages [ytsaurus-client]: Downloading https://files.pythonhosted.org/packages/75/14/8c20ce387b103565e5bff95743164c16cf9d0152808ad15404c72ace0d4c/ytsaurus_client-0.13.5-py2.py3-none-any.whl
+[2023-07-03 16:49:57] INFO root fetch - processPackages [nemo-library]: Downloading https://files.pythonhosted.org/packages/1c/ac/14ae2f7f8a4d99ed894b1c19114aff87c84d1136565a92f2d179daa6499f/nemo_library-1.0.9.tar.gz
+[2023-07-03 16:49:57] INFO root fetch - processPackages [splight-lib]: Downloading https://files.pythonhosted.org/packages/5c/ea/8b4da7506bfb8195646b2e839e5c635a81919a942c057c39f7fc22fecb96/splight-lib-3.0.8.tar.gz
+[2023-07-03 16:49:57] INFO root fetch - processPackages [openmetadata-ingestion]: executing diffoscope
+[2023-07-03 16:49:57] INFO root fetch - processPackages [openmetadata-ingestion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openmetadata-ingestion-1.1.0.0.dev0.tar.gz tmp/openmetadata-ingestion-1.1.0.1.tar.gz --markdown 20230703/o/openmetadata-ingestion/1.1.0.0.dev0-1.1.0.1/diff.md --exclude *.pyd
+[2023-07-03 16:49:57] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/a7/01/b5a4cbd06e8fe6cb1d49512abbe6434f64ea4b91b21a64f30069aa693547/coiled-0.7.9.dev8.tar.gz
+[2023-07-03 16:49:57] INFO root fetch - processPackages [nemo-library]: executing diffoscope
+[2023-07-03 16:49:57] INFO root fetch - processPackages [nemo-library]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nemo_library-1.0.8.tar.gz tmp/nemo_library-1.0.9.tar.gz --markdown 20230703/n/nemo-library/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-03 16:49:57] INFO root fetch - processPackages [starcatalogquery]: Downloading https://files.pythonhosted.org/packages/99/4c/c4e918f3011f9b05109c3db0d931c7a817a957174c5cf2b77acd11541128/starcatalogquery-0.1.8-py3-none-any.whl
+[2023-07-03 16:49:57] INFO root fetch - processPackages [ytsaurus-client]: executing diffoscope
+[2023-07-03 16:49:57] INFO root fetch - processPackages [ytsaurus-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ytsaurus_client-0.13.4-py2.py3-none-any.whl.zip tmp/ytsaurus_client-0.13.5-py2.py3-none-any.whl.zip --markdown 20230703/y/ytsaurus-client/0.13.4-0.13.5/diff.md --exclude *.pyd
+[2023-07-03 16:49:57] INFO root fetch - processPackages [miditok]: Downloading https://files.pythonhosted.org/packages/73/f9/5c9a2864fc6eb0480a0ad43dbf4f1824bf7c415d071c3b74502e3eaa32dc/miditok-2.1.0.tar.gz
+[2023-07-03 16:49:57] INFO root fetch - processPackages [starcatalogquery]: executing diffoscope
+[2023-07-03 16:49:57] INFO root fetch - processPackages [starcatalogquery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/starcatalogquery-0.1.7-py3-none-any.whl.zip tmp/starcatalogquery-0.1.8-py3-none-any.whl.zip --markdown 20230703/s/starcatalogquery/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-07-03 16:49:57] INFO root fetch - processPackages [miditok]: executing diffoscope
+[2023-07-03 16:49:57] INFO root fetch - processPackages [miditok]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/miditok-2.0.6.tar.gz tmp/miditok-2.1.0.tar.gz --markdown 20230703/m/miditok/2.0.6-2.1.0/diff.md --exclude *.pyd
+[2023-07-03 16:49:58] INFO root fetch - processPackages [splight-lib]: Downloading https://files.pythonhosted.org/packages/91/bc/8570246ccb6fb3f839499b6b8d61ff58520a86991e42962742aa51e37144/splight-lib-3.1.0.dev0.tar.gz
+[2023-07-03 16:49:58] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/68/a0/03deba097f154d5d35f5aaf9cc9e6203f2e386628cf93962bded599cc14d/coiled-0.7.9.dev9.tar.gz
+[2023-07-03 16:49:58] INFO root fetch - processPackages [splight-lib]: executing diffoscope
+[2023-07-03 16:49:58] INFO root fetch - processPackages [splight-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/splight-lib-3.0.8.tar.gz tmp/splight-lib-3.1.0.dev0.tar.gz --markdown 20230703/s/splight-lib/3.0.8-3.1.0.dev0/diff.md --exclude *.pyd
+[2023-07-03 16:49:58] INFO root fetch - processPackages [opensesame-extension-osweb]: Remove: archive file [/home/abi/fetcher/tmp/opensesame_extension_osweb-2.0.0.0a7.tar.gz]
+[2023-07-03 16:49:58] INFO root fetch - processPackages [opensesame-extension-osweb]: Remove: archive file [/home/abi/fetcher/tmp/opensesame_extension_osweb-2.0.0.0a8.tar.gz]
+[2023-07-03 16:49:58] INFO root fetch - main [MainThread]: End processing [opensesame-extension-osweb]: success
+[2023-07-03 16:49:58] INFO root fetch - processPackages [coiled]: executing diffoscope
+[2023-07-03 16:49:58] INFO root fetch - processPackages [coiled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coiled-0.7.9.dev8.tar.gz tmp/coiled-0.7.9.dev9.tar.gz --markdown 20230703/c/coiled/0.7.9.dev8-0.7.9.dev9/diff.md --exclude *.pyd
+[2023-07-03 16:49:59] INFO root fetch - processPackages [nemo-library]: Remove: archive file [/home/abi/fetcher/tmp/nemo_library-1.0.8.tar.gz]
+[2023-07-03 16:49:59] INFO root fetch - processPackages [nemo-library]: Remove: archive file [/home/abi/fetcher/tmp/nemo_library-1.0.9.tar.gz]
+[2023-07-03 16:49:59] INFO root fetch - main [MainThread]: End processing [nemo-library]: success
+[2023-07-03 16:49:59] INFO root fetch - processPackages [starcatalogquery]: Remove: archive file [/home/abi/fetcher/tmp/starcatalogquery-0.1.7-py3-none-any.whl.zip]
+[2023-07-03 16:49:59] INFO root fetch - processPackages [starcatalogquery]: Remove: archive file [/home/abi/fetcher/tmp/starcatalogquery-0.1.8-py3-none-any.whl.zip]
+[2023-07-03 16:49:59] INFO root fetch - main [MainThread]: End processing [starcatalogquery]: success
+[2023-07-03 16:49:59] INFO root fetch - processPackages [typos]: Remove: archive file [/home/abi/fetcher/tmp/typos-1.15.8.tar.gz]
+[2023-07-03 16:49:59] INFO root fetch - processPackages [typos]: Remove: archive file [/home/abi/fetcher/tmp/typos-1.15.9.tar.gz]
+[2023-07-03 16:49:59] INFO root fetch - main [MainThread]: End processing [typos]: success
+[2023-07-03 16:49:59] INFO root fetch - processPackages [pontos]: Remove: archive file [/home/abi/fetcher/tmp/pontos-23.6.2.tar.gz]
+[2023-07-03 16:49:59] INFO root fetch - processPackages [pontos]: Remove: archive file [/home/abi/fetcher/tmp/pontos-23.7.0.tar.gz]
+[2023-07-03 16:49:59] INFO root fetch - main [MainThread]: End processing [pontos]: success
+[2023-07-03 16:49:59] INFO root fetch - processPackages [miditok]: Remove: archive file [/home/abi/fetcher/tmp/miditok-2.0.6.tar.gz]
+[2023-07-03 16:49:59] INFO root fetch - processPackages [miditok]: Remove: archive file [/home/abi/fetcher/tmp/miditok-2.1.0.tar.gz]
+[2023-07-03 16:49:59] INFO root fetch - main [MainThread]: End processing [miditok]: success
+[2023-07-03 16:49:59] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-0.7.9.dev8.tar.gz]
+[2023-07-03 16:49:59] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-0.7.9.dev9.tar.gz]
+[2023-07-03 16:49:59] INFO root fetch - main [MainThread]: End processing [coiled]: success
+[2023-07-03 16:49:59] INFO root fetch - processPackages [splight-lib]: Remove: archive file [/home/abi/fetcher/tmp/splight-lib-3.0.8.tar.gz]
+[2023-07-03 16:49:59] INFO root fetch - processPackages [splight-lib]: Remove: archive file [/home/abi/fetcher/tmp/splight-lib-3.1.0.dev0.tar.gz]
+[2023-07-03 16:49:59] INFO root fetch - main [MainThread]: End processing [splight-lib]: success
+[2023-07-03 16:50:00] INFO root fetch - processPackages [ytsaurus-client]: Remove: archive file [/home/abi/fetcher/tmp/ytsaurus_client-0.13.4-py2.py3-none-any.whl.zip]
+[2023-07-03 16:50:00] INFO root fetch - processPackages [ytsaurus-client]: Remove: archive file [/home/abi/fetcher/tmp/ytsaurus_client-0.13.5-py2.py3-none-any.whl.zip]
+[2023-07-03 16:50:00] INFO root fetch - main [MainThread]: End processing [ytsaurus-client]: success
+[2023-07-03 16:50:07] INFO root fetch - processPackages [openmetadata-ingestion]: Remove: archive file [/home/abi/fetcher/tmp/openmetadata-ingestion-1.1.0.0.dev0.tar.gz]
+[2023-07-03 16:50:07] INFO root fetch - processPackages [openmetadata-ingestion]: Remove: archive file [/home/abi/fetcher/tmp/openmetadata-ingestion-1.1.0.1.tar.gz]
+[2023-07-03 16:50:07] INFO root fetch - main [MainThread]: End processing [openmetadata-ingestion]: success
+[2023-07-03 16:50:07] INFO root fetch - main [MainThread]: Store serial: [18740896]
