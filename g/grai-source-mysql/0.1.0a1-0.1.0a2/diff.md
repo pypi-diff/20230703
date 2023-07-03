@@ -1,0 +1,169 @@
+# Comparing `tmp/grai_source_mysql-0.1.0a1.tar.gz` & `tmp/grai_source_mysql-0.1.0a2.tar.gz`
+
+## filetype from file(1)
+
+```diff
+@@ -1 +1 @@
+-gzip compressed data, was "grai_source_mysql-0.1.0a1.tar", max compression
++gzip compressed data, was "grai_source_mysql-0.1.0a2.tar", max compression
+```
+
+## Comparing `grai_source_mysql-0.1.0a1.tar` & `grai_source_mysql-0.1.0a2.tar`
+
+### file list
+
+```diff
+@@ -1,9 +1,9 @@
+--rw-r--r--   0        0        0      130 2023-05-19 11:07:12.935785 grai_source_mysql-0.1.0a1/README.md
+--rw-r--r--   0        0        0     1063 2023-06-30 03:29:49.116058 grai_source_mysql-0.1.0a1/pyproject.toml
+--rw-r--r--   0        0        0      169 2023-06-30 03:29:49.120350 grai_source_mysql-0.1.0a1/src/grai_source_mysql/__init__.py
+--rw-r--r--   0        0        0     8646 2023-06-29 15:34:52.429355 grai_source_mysql-0.1.0a1/src/grai_source_mysql/adapters.py
+--rw-r--r--   0        0        0     1075 2023-06-29 15:34:52.429468 grai_source_mysql-0.1.0a1/src/grai_source_mysql/base.py
+--rw-r--r--   0        0        0     8955 2023-06-14 21:02:53.243358 grai_source_mysql-0.1.0a1/src/grai_source_mysql/loader.py
+--rw-r--r--   0        0        0     4779 2023-06-01 16:01:43.265941 grai_source_mysql-0.1.0a1/src/grai_source_mysql/models.py
+--rw-r--r--   0        0        0      193 2023-06-01 16:01:43.266029 grai_source_mysql-0.1.0a1/src/grai_source_mysql/package_definitions.py
+--rw-r--r--   0        0        0     1089 1970-01-01 00:00:00.000000 grai_source_mysql-0.1.0a1/PKG-INFO
++-rw-r--r--   0        0        0      130 2023-05-02 08:01:59.696306 grai_source_mysql-0.1.0a2/README.md
++-rw-r--r--   0        0        0     1064 2023-07-03 13:08:53.856732 grai_source_mysql-0.1.0a2/pyproject.toml
++-rw-r--r--   0        0        0      169 2023-06-30 11:57:17.254416 grai_source_mysql-0.1.0a2/src/grai_source_mysql/__init__.py
++-rw-r--r--   0        0        0     8646 2023-06-29 12:17:13.075447 grai_source_mysql-0.1.0a2/src/grai_source_mysql/adapters.py
++-rw-r--r--   0        0        0     1055 2023-06-30 17:13:40.678739 grai_source_mysql-0.1.0a2/src/grai_source_mysql/base.py
++-rw-r--r--   0        0        0     8955 2023-06-06 17:35:16.817542 grai_source_mysql-0.1.0a2/src/grai_source_mysql/loader.py
++-rw-r--r--   0        0        0     4779 2023-06-06 17:35:16.817671 grai_source_mysql-0.1.0a2/src/grai_source_mysql/models.py
++-rw-r--r--   0        0        0      193 2023-06-06 17:35:16.817772 grai_source_mysql-0.1.0a2/src/grai_source_mysql/package_definitions.py
++-rw-r--r--   0        0        0     1090 1970-01-01 00:00:00.000000 grai_source_mysql-0.1.0a2/PKG-INFO
+```
+
+### Comparing `grai_source_mysql-0.1.0a1/pyproject.toml` & `grai_source_mysql-0.1.0a2/pyproject.toml`
+
+ * *Files 2% similar despite different names*
+
+```diff
+@@ -1,25 +1,25 @@
+ [tool.poetry]
+ name = "grai_source_mysql"
+-version = "0.1.0-alpha1"
++version = "0.1.0-alpha2"
+ description = ""
+ authors = ["Ian Eaves <ian@grai.io>"]
+ license = "Elastic-2.0"
+ packages = [
+     { include = "grai_source_mysql", from = "src" },
+ ]
+ readme = "README.md"
+ homepage = "https://www.grai.io/"
+ repository = "https://github.com/grai-io/grai-core/tree/master/grai-integrations/source-mysql"
+ documentation = "https://docs.grai.io/"
+ 
+ [tool.poetry.dependencies]
+ python = "^3.8"
+ pydantic = "^1.9.1"
+-grai-client = {version = "^0.3.0a3", allow-prereleases = true}
++grai-client = {version = "^0.3.0a10", allow-prereleases = true}
+ grai-schemas = {version = "^0.2.0a1", allow-prereleases = true}
+ PyYAML = "^6.0"
+ multimethod = "^1.8"
+ mysql-connector-python = "^8.0.31"
+ 
+ [tool.poetry.group.dev.dependencies]
+ black = "^22.6.0"
+```
+
+### Comparing `grai_source_mysql-0.1.0a1/src/grai_source_mysql/adapters.py` & `grai_source_mysql-0.1.0a2/src/grai_source_mysql/adapters.py`
+
+ * *Files identical despite different names*
+
+### Comparing `grai_source_mysql-0.1.0a1/src/grai_source_mysql/base.py` & `grai_source_mysql-0.1.0a2/src/grai_source_mysql/base.py`
+
+ * *Files 12% similar despite different names*
+
+```diff
+@@ -1,37 +1,34 @@
+ from typing import Optional, Union
+ 
+-from grai_client.endpoints.client import BaseClient
+-from grai_client.integrations.base import (
+-    ConnectorMixin,
+-    GraiIntegrationImplementationV1,
+-)
++from grai_client.integrations.base import ConnectorMixin, GraiIntegrationImplementation
++from grai_schemas.v1.source import SourceV1
+ 
+ from grai_source_mysql.adapters import adapt_to_client
+ from grai_source_mysql.loader import MySQLConnector
+ 
+ 
+-class MySQLIntegration(ConnectorMixin, GraiIntegrationImplementationV1):
++class MySQLIntegration(ConnectorMixin, GraiIntegrationImplementation):
+     def __init__(
+         self,
+-        client: BaseClient,
+-        source_name: str,
++        source: SourceV1,
++        version: Optional[str] = None,
+         dbname: Optional[str] = None,
+         user: Optional[str] = None,
+         password: Optional[str] = None,
+         host: Optional[str] = None,
+         port: Optional[Union[str, int]] = None,
+         namespace: Optional[str] = None,
+     ):
+-        super().__init__(client, source_name)
++        super().__init__(source, version)
+ 
+         self.connection = MySQLConnector(
+             dbname=dbname,
+             user=user,
+             password=password,
+             host=host,
+             port=port,
+             namespace=namespace,
+         )
+ 
+     def adapt_to_client(self, objects):
+-        return adapt_to_client(objects, self.source, self.client.id)
++        return adapt_to_client(objects, self.source, self.version)
+```
+
+### Comparing `grai_source_mysql-0.1.0a1/src/grai_source_mysql/loader.py` & `grai_source_mysql-0.1.0a2/src/grai_source_mysql/loader.py`
+
+ * *Files identical despite different names*
+
+### Comparing `grai_source_mysql-0.1.0a1/src/grai_source_mysql/models.py` & `grai_source_mysql-0.1.0a2/src/grai_source_mysql/models.py`
+
+ * *Files identical despite different names*
+
+### Comparing `grai_source_mysql-0.1.0a1/PKG-INFO` & `grai_source_mysql-0.1.0a2/PKG-INFO`
+
+ * *Files 11% similar despite different names*
+
+```diff
+@@ -1,24 +1,24 @@
+ Metadata-Version: 2.1
+ Name: grai-source-mysql
+-Version: 0.1.0a1
++Version: 0.1.0a2
+ Summary: 
+ Home-page: https://www.grai.io/
+ License: Elastic-2.0
+ Author: Ian Eaves
+ Author-email: ian@grai.io
+ Requires-Python: >=3.8,<4.0
+ Classifier: License :: Other/Proprietary License
+ Classifier: Programming Language :: Python :: 3
+ Classifier: Programming Language :: Python :: 3.8
+ Classifier: Programming Language :: Python :: 3.9
+ Classifier: Programming Language :: Python :: 3.10
+ Classifier: Programming Language :: Python :: 3.11
+ Requires-Dist: PyYAML (>=6.0,<7.0)
+-Requires-Dist: grai-client (>=0.3.0a3,<0.4.0)
++Requires-Dist: grai-client (>=0.3.0a10,<0.4.0)
+ Requires-Dist: grai-schemas (>=0.2.0a1,<0.3.0)
+ Requires-Dist: multimethod (>=1.8,<2.0)
+ Requires-Dist: mysql-connector-python (>=8.0.31,<9.0.0)
+ Requires-Dist: pydantic (>=1.9.1,<2.0.0)
+ Project-URL: Documentation, https://docs.grai.io/
+ Project-URL: Repository, https://github.com/grai-io/grai-core/tree/master/grai-integrations/source-mysql
+ Description-Content-Type: text/markdown
+```
+

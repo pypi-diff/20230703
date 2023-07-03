@@ -18444,3 +18444,184 @@ AssertionError: tmp/docarray-0.9.9.dev4.tar.gz does not exist
 [2023-07-03 15:08:52] INFO root fetch - processPackages [akshare]: Remove: archive file [/home/abi/fetcher/tmp/akshare-1.9.99.tar.gz]
 [2023-07-03 15:08:52] INFO root fetch - main [MainThread]: End processing [akshare]: success
 [2023-07-03 15:08:52] INFO root fetch - main [MainThread]: Store serial: [18739397]
+[2023-07-03 15:13:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18739397]
+[2023-07-03 15:14:01] INFO root fetch - main [MainThread]: Found 22 changed packages
+[2023-07-03 15:14:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dms-collector
+[2023-07-03 15:14:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ert
+[2023-07-03 15:14:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: simpler
+[2023-07-03 15:14:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: grai-source-mysql
+[2023-07-03 15:14:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: psl
+[2023-07-03 15:14:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: grai-source-mssql
+[2023-07-03 15:14:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: simpler
+[2023-07-03 15:14:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: lightwood
+[2023-07-03 15:14:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: omicverse
+[2023-07-03 15:14:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: nbdev-stdlib
+[2023-07-03 15:14:01] INFO root fetch - processPackages [grai-source-mysql]: New version: [0.1.0a2] Old Version: [0.1.0a1]
+[2023-07-03 15:14:01] INFO root fetch - processPackages [dms-collector]: New version: [2.0.5] Old Version: [2.0.4]
+[2023-07-03 15:14:01] INFO root fetch - processPackages [psl]: New version: [2023.7.3] Old Version: [2023.6.19]
+[2023-07-03 15:14:01] INFO root fetch - processPackages [omicverse]: New version: [1.4.5] Old Version: [1.4.4]
+[2023-07-03 15:14:01] INFO root fetch - processPackages [grai-source-mssql]: New version: [0.1.0a2] Old Version: [0.1.0a1]
+[2023-07-03 15:14:02] INFO root fetch - processPackages [simpler]: New version: [5.6.3] Old Version: [5.6.2]
+[2023-07-03 15:14:02] INFO root fetch - processPackages [simpler]: New version: [5.6.3] Old Version: [5.6.2]
+[2023-07-03 15:14:02] INFO root fetch - processPackages [lightwood]: New version: [23.7.1.0] Old Version: [23.6.4.0]
+[2023-07-03 15:14:02] INFO root fetch - processPackages [nbdev-stdlib]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-03 15:14:02] INFO root fetch - processPackages [ert]: New version: [5.1.0b1] Old Version: [5.1.0b0]
+[2023-07-03 15:14:02] INFO root fetch - processPackages [nbdev-stdlib]: Downloading https://files.pythonhosted.org/packages/e8/48/ed43dbfa0bd5ca86a6a3f6ae0500b0cffb413b2c3f118e82da24ef3488f1/nbdev-stdlib-0.0.98.tar.gz
+[2023-07-03 15:14:02] INFO root fetch - processPackages [dms-collector]: Downloading https://files.pythonhosted.org/packages/6e/1c/f5b12e2cde16cacdaad85c5439718481a1e8b9074d5dba5781009bbb89bb/dms_collector-2.0.4-py3-none-any.whl
+[2023-07-03 15:14:02] INFO root fetch - processPackages [simpler]: Downloading https://files.pythonhosted.org/packages/06/17/839e8c824e96d78f9c33f121e058e387d214f126d5f630e510cf7f771d45/simpler-5.6.2.tar.gz
+[2023-07-03 15:14:02] INFO root fetch - processPackages [simpler]: Downloading https://files.pythonhosted.org/packages/06/17/839e8c824e96d78f9c33f121e058e387d214f126d5f630e510cf7f771d45/simpler-5.6.2.tar.gz
+[2023-07-03 15:14:02] INFO root fetch - processPackages [psl]: Downloading https://files.pythonhosted.org/packages/e1/3d/5842549d5738a694e3ce17f24caf10a85930e50f6a8cee118eb5a7880850/psl-2023.6.19.tar.gz
+[2023-07-03 15:14:02] INFO root fetch - processPackages [omicverse]: Downloading https://files.pythonhosted.org/packages/de/3b/5d69bc94239a88bfd7ad0d20c2175e8128248cf0310214bb607645481b73/omicverse-1.4.4.tar.gz
+[2023-07-03 15:14:02] INFO root fetch - processPackages [lightwood]: Downloading https://files.pythonhosted.org/packages/f8/06/e7aa492f953e6fa1b5bd9126276e77bbbb54254d23d12d0e102a166613a2/lightwood-23.6.4.0.tar.gz
+[2023-07-03 15:14:02] INFO root fetch - processPackages [grai-source-mysql]: Downloading https://files.pythonhosted.org/packages/61/93/346c730f503d053b2e0534c1eea0e92e02b4b2c4056d8f1dde7612850b6d/grai_source_mysql-0.1.0a1.tar.gz
+[2023-07-03 15:14:02] INFO root fetch - processPackages [grai-source-mssql]: Downloading https://files.pythonhosted.org/packages/c3/f2/44db711054469ed8b9e0016dc358d81546d53ed1e8da1422a1984eb29a8f/grai_source_mssql-0.1.0a1.tar.gz
+[2023-07-03 15:14:02] WARNING root fetch - processPackages [omicverse]: Skipping package: exceeds size limit 16078254>=10485760
+[2023-07-03 15:14:02] INFO root fetch - processPackages [omicverse]: Start processing: bomf
+[2023-07-03 15:14:02] INFO root fetch - main [MainThread]: End processing [omicverse] error
+[2023-07-03 15:14:02] INFO root fetch - processPackages [ert]: Downloading https://files.pythonhosted.org/packages/17/cb/688cb96b9f3370637b91d51ce5270075071b0aac4127b655a25b6d8a6a9c/ert-5.1.0b0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-03 15:14:02] INFO root fetch - processPackages [nbdev-stdlib]: Downloading https://files.pythonhosted.org/packages/9b/0f/42944508859f820e43bf894814c5e9dbc7920a0caceef1828a31a9e5b599/nbdev-stdlib-0.0.99.tar.gz
+[2023-07-03 15:14:02] INFO root fetch - processPackages [bomf]: New version: [0.6.0] Old Version: [0.5.9]
+[2023-07-03 15:14:02] INFO root fetch - processPackages [dms-collector]: Downloading https://files.pythonhosted.org/packages/61/4b/145bffe996caef6602de7175b1e8b5a7f7eb17f9f9644a035cae778be327/dms_collector-2.0.5-py3-none-any.whl
+[2023-07-03 15:14:02] INFO root fetch - processPackages [bomf]: Downloading https://files.pythonhosted.org/packages/16/be/16bc25047fb820c20f7687e28b62420be850043ae7a391d2cfca5675082d/bomf-0.5.9.tar.gz
+[2023-07-03 15:14:02] INFO root fetch - processPackages [simpler]: Downloading https://files.pythonhosted.org/packages/45/4a/7bcd496a24848d0ce32c0b5446d8fef280759f27b1fd6d282892f466039e/simpler-5.6.3.tar.gz
+[2023-07-03 15:14:02] INFO root fetch - processPackages [simpler]: Downloading https://files.pythonhosted.org/packages/45/4a/7bcd496a24848d0ce32c0b5446d8fef280759f27b1fd6d282892f466039e/simpler-5.6.3.tar.gz
+[2023-07-03 15:14:02] INFO root fetch - processPackages [nbdev-stdlib]: executing diffoscope
+[2023-07-03 15:14:02] INFO root fetch - processPackages [nbdev-stdlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-stdlib-0.0.98.tar.gz tmp/nbdev-stdlib-0.0.99.tar.gz --markdown 20230703/n/nbdev-stdlib/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-03 15:14:02] INFO root fetch - processPackages [psl]: Downloading https://files.pythonhosted.org/packages/51/25/4969819520476eaac80ecdfcedab7ed2ab5c8abad627ea1309cb9fce3753/psl-2023.7.3.tar.gz
+[2023-07-03 15:14:02] INFO root fetch - processPackages [grai-source-mysql]: Downloading https://files.pythonhosted.org/packages/ff/4d/de54524d3322edf2cdfe98e6670b5752575d5e37e7c9ba8be635b2e98c90/grai_source_mysql-0.1.0a2.tar.gz
+[2023-07-03 15:14:02] INFO root fetch - processPackages [dms-collector]: executing diffoscope
+[2023-07-03 15:14:02] INFO root fetch - processPackages [dms-collector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dms_collector-2.0.4-py3-none-any.whl.zip tmp/dms_collector-2.0.5-py3-none-any.whl.zip --markdown 20230703/d/dms-collector/2.0.4-2.0.5/diff.md --exclude *.pyd
+[2023-07-03 15:14:03] INFO root fetch - processPackages [grai-source-mssql]: Downloading https://files.pythonhosted.org/packages/49/f2/c014f71dd3e3c6e36c463000aa3f30cb0cbad193792370a1ba371eae53f5/grai_source_mssql-0.1.0a2.tar.gz
+[2023-07-03 15:14:03] INFO root fetch - processPackages [lightwood]: Downloading https://files.pythonhosted.org/packages/5e/57/935c0e8ab9ee60e539c3dd657ae4fb01ef46d460b37fcd2c72e960dcf8b5/lightwood-23.7.1.0.tar.gz
+[2023-07-03 15:14:03] INFO root fetch - processPackages [simpler]: executing diffoscope
+[2023-07-03 15:14:03] INFO root fetch - processPackages [simpler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simpler-5.6.2.tar.gz tmp/simpler-5.6.3.tar.gz --markdown 20230703/s/simpler/5.6.2-5.6.3/diff.md --exclude *.pyd
+[2023-07-03 15:14:03] INFO root fetch - processPackages [simpler]: executing diffoscope
+[2023-07-03 15:14:03] INFO root fetch - processPackages [simpler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simpler-5.6.2.tar.gz tmp/simpler-5.6.3.tar.gz --markdown 20230703/s/simpler/5.6.2-5.6.3/diff.md --exclude *.pyd
+[2023-07-03 15:14:03] INFO root fetch - processPackages [psl]: executing diffoscope
+[2023-07-03 15:14:03] INFO root fetch - processPackages [psl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/psl-2023.6.19.tar.gz tmp/psl-2023.7.3.tar.gz --markdown 20230703/p/psl/2023.6.19-2023.7.3/diff.md --exclude *.pyd
+[2023-07-03 15:14:03] INFO root fetch - processPackages [grai-source-mysql]: executing diffoscope
+[2023-07-03 15:14:03] INFO root fetch - processPackages [grai-source-mysql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grai_source_mysql-0.1.0a1.tar.gz tmp/grai_source_mysql-0.1.0a2.tar.gz --markdown 20230703/g/grai-source-mysql/0.1.0a1-0.1.0a2/diff.md --exclude *.pyd
+[2023-07-03 15:14:03] INFO root fetch - processPackages [grai-source-mssql]: executing diffoscope
+[2023-07-03 15:14:03] INFO root fetch - processPackages [grai-source-mssql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grai_source_mssql-0.1.0a1.tar.gz tmp/grai_source_mssql-0.1.0a2.tar.gz --markdown 20230703/g/grai-source-mssql/0.1.0a1-0.1.0a2/diff.md --exclude *.pyd
+[2023-07-03 15:14:03] INFO root fetch - processPackages [bomf]: Downloading https://files.pythonhosted.org/packages/d6/40/3f1d1e21f0e7bd45897d8727fecc3012cd0b8cac2c48f6c28f06db7d74ad/bomf-0.6.0.tar.gz
+[2023-07-03 15:14:03] INFO root fetch - processPackages [ert]: Downloading https://files.pythonhosted.org/packages/c0/8b/7e99a858cd05588848a800cca8b2ffb8af059ba2ffbc13cc145545d4e6f7/ert-5.1.0b1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-03 15:14:03] INFO root fetch - processPackages [lightwood]: executing diffoscope
+[2023-07-03 15:14:03] INFO root fetch - processPackages [lightwood]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lightwood-23.6.4.0.tar.gz tmp/lightwood-23.7.1.0.tar.gz --markdown 20230703/l/lightwood/23.6.4.0-23.7.1.0/diff.md --exclude *.pyd
+[2023-07-03 15:14:03] INFO root fetch - processPackages [bomf]: executing diffoscope
+[2023-07-03 15:14:03] INFO root fetch - processPackages [bomf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bomf-0.5.9.tar.gz tmp/bomf-0.6.0.tar.gz --markdown 20230703/b/bomf/0.5.9-0.6.0/diff.md --exclude *.pyd
+[2023-07-03 15:14:03] INFO root fetch - processPackages [ert]: executing diffoscope
+[2023-07-03 15:14:03] INFO root fetch - processPackages [ert]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ert-5.1.0b0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/ert-5.1.0b1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230703/e/ert/5.1.0b0-5.1.0b1/diff.md --exclude *.pyd
+[2023-07-03 15:14:04] INFO root fetch - processPackages [nbdev-stdlib]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-stdlib-0.0.98.tar.gz]
+[2023-07-03 15:14:04] INFO root fetch - processPackages [nbdev-stdlib]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-stdlib-0.0.99.tar.gz]
+[2023-07-03 15:14:04] INFO root fetch - processPackages [nbdev-stdlib]: Start processing: veetility
+[2023-07-03 15:14:04] INFO root fetch - main [MainThread]: End processing [nbdev-stdlib]: success
+[2023-07-03 15:14:04] INFO root fetch - processPackages [veetility]: New version: [0.1.94] Old Version: [0.1.93]
+[2023-07-03 15:14:04] INFO root fetch - processPackages [dms-collector]: Remove: archive file [/home/abi/fetcher/tmp/dms_collector-2.0.4-py3-none-any.whl.zip]
+[2023-07-03 15:14:04] INFO root fetch - processPackages [dms-collector]: Remove: archive file [/home/abi/fetcher/tmp/dms_collector-2.0.5-py3-none-any.whl.zip]
+[2023-07-03 15:14:04] INFO root fetch - processPackages [dms-collector]: Start processing: spark-ai-sdk
+[2023-07-03 15:14:04] INFO root fetch - main [MainThread]: End processing [dms-collector]: success
+[2023-07-03 15:14:04] WARNING root fetch - processPackages [spark-ai-sdk]: Skipping, unable to determine old version
+[2023-07-03 15:14:04] INFO root fetch - processPackages [spark-ai-sdk]: Start processing: preflibtools
+[2023-07-03 15:14:04] INFO root fetch - main [MainThread]: End processing [spark-ai-sdk] error
+[2023-07-03 15:14:04] INFO root fetch - processPackages [preflibtools]: New version: [2.0.8] Old Version: [2.0.7]
+[2023-07-03 15:14:04] INFO root fetch - processPackages [simpler]: Remove: archive file [/home/abi/fetcher/tmp/simpler-5.6.2.tar.gz]
+[2023-07-03 15:14:04] INFO root fetch - processPackages [simpler]: Remove: archive file [/home/abi/fetcher/tmp/simpler-5.6.3.tar.gz]
+[2023-07-03 15:14:04] INFO root fetch - processPackages [simpler]: Start processing: grai-source-snowflake
+[2023-07-03 15:14:04] INFO root fetch - main [MainThread]: End processing [simpler]: success
+[2023-07-03 15:14:04] INFO root fetch - processPackages [simpler]: Start processing: akerbp.mlops
+[2023-07-03 15:14:04] INFO root fetch - main [MainThread]: End processing [simpler]: success
+[2023-07-03 15:14:04] INFO root fetch - processPackages [grai-source-snowflake]: New version: [0.1.0a2] Old Version: [0.1.0a1]
+[2023-07-03 15:14:04] INFO root fetch - processPackages [veetility]: Downloading https://files.pythonhosted.org/packages/d9/1f/fc1d8e7cf6e208d099c90a2128572c6635e428c6ddab6234b9f4fd4c356a/veetility-0.1.93.tar.gz
+[2023-07-03 15:14:04] INFO root fetch - processPackages [preflibtools]: Downloading https://files.pythonhosted.org/packages/87/9a/b1360d573206dbc4fa7962068c20eaae240c92af2081a763fb0362ba5fc3/preflibtools-2.0.7.tar.gz
+[2023-07-03 15:14:04] INFO root fetch - processPackages [akerbp.mlops]: New version: [3.2.1a5] Old Version: [3.2.1a4]
+[2023-07-03 15:14:04] INFO root fetch - processPackages [grai-source-mysql]: Remove: archive file [/home/abi/fetcher/tmp/grai_source_mysql-0.1.0a1.tar.gz]
+[2023-07-03 15:14:04] INFO root fetch - processPackages [grai-source-mysql]: Remove: archive file [/home/abi/fetcher/tmp/grai_source_mysql-0.1.0a2.tar.gz]
+[2023-07-03 15:14:04] INFO root fetch - processPackages [grai-source-mysql]: Start processing: manabi
+[2023-07-03 15:14:04] INFO root fetch - main [MainThread]: End processing [grai-source-mysql]: success
+[2023-07-03 15:14:04] INFO root fetch - processPackages [manabi]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-07-03 15:14:04] INFO root fetch - processPackages [psl]: Remove: archive file [/home/abi/fetcher/tmp/psl-2023.6.19.tar.gz]
+[2023-07-03 15:14:04] INFO root fetch - processPackages [psl]: Remove: archive file [/home/abi/fetcher/tmp/psl-2023.7.3.tar.gz]
+[2023-07-03 15:14:04] INFO root fetch - processPackages [psl]: Start processing: lamindb_setup
+[2023-07-03 15:14:04] INFO root fetch - main [MainThread]: End processing [psl]: success
+[2023-07-03 15:14:04] INFO root fetch - processPackages [grai-source-mssql]: Remove: archive file [/home/abi/fetcher/tmp/grai_source_mssql-0.1.0a1.tar.gz]
+[2023-07-03 15:14:04] INFO root fetch - processPackages [grai-source-mssql]: Remove: archive file [/home/abi/fetcher/tmp/grai_source_mssql-0.1.0a2.tar.gz]
+[2023-07-03 15:14:04] INFO root fetch - processPackages [grai-source-mssql]: Start processing: nbdev-numpy
+[2023-07-03 15:14:04] INFO root fetch - main [MainThread]: End processing [grai-source-mssql]: success
+[2023-07-03 15:14:04] INFO root fetch - processPackages [lamindb_setup]: New version: [0.48.2] Old Version: [0.48.1]
+[2023-07-03 15:14:05] INFO root fetch - processPackages [grai-source-snowflake]: Downloading https://files.pythonhosted.org/packages/55/d9/c491f15ef1059d04f3623b0a92f26a16ec642f385d719c60ed5594ba62ca/grai_source_snowflake-0.1.0a1.tar.gz
+[2023-07-03 15:14:05] INFO root fetch - processPackages [akerbp.mlops]: Downloading https://files.pythonhosted.org/packages/aa/44/f61dbd07544efc42ba0b935d1377de40401ce5714ab5561fb2f267816cef/akerbp.mlops-3.2.1a4.tar.gz
+[2023-07-03 15:14:05] INFO root fetch - processPackages [nbdev-numpy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-03 15:14:05] INFO root fetch - processPackages [bomf]: Remove: archive file [/home/abi/fetcher/tmp/bomf-0.5.9.tar.gz]
+[2023-07-03 15:14:05] INFO root fetch - processPackages [bomf]: Remove: archive file [/home/abi/fetcher/tmp/bomf-0.6.0.tar.gz]
+[2023-07-03 15:14:05] INFO root fetch - processPackages [bomf]: Start processing: lanablas
+[2023-07-03 15:14:05] INFO root fetch - main [MainThread]: End processing [bomf]: success
+[2023-07-03 15:14:05] INFO root fetch - processPackages [preflibtools]: Downloading https://files.pythonhosted.org/packages/8f/8b/2e34f2397d30cd60e544c54f2b42a64914d527ff2c9d8a2b2457244144b7/preflibtools-2.0.8.tar.gz
+[2023-07-03 15:14:05] INFO root fetch - processPackages [veetility]: Downloading https://files.pythonhosted.org/packages/e3/11/980be7dcb45237e7dc463ec7fa8b3df16435f18f8cb91c7eb4105fe5d75a/veetility-0.1.94.tar.gz
+[2023-07-03 15:14:05] INFO root fetch - processPackages [lanablas]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-07-03 15:14:05] INFO root fetch - processPackages [nbdev-numpy]: Downloading https://files.pythonhosted.org/packages/73/28/26429c7dd7dcf4c45025b55facc2688943de2ab2ec4851cc073f81f31e65/nbdev-numpy-0.0.98.tar.gz
+[2023-07-03 15:14:05] INFO root fetch - processPackages [manabi]: Downloading https://files.pythonhosted.org/packages/38/8e/7ce59ae38a5f7b661753a5cd56dae9ebe12f25f69b940e2e2f5ee9b631a5/manabi-1.0.0.tar.gz
+[2023-07-03 15:14:05] INFO root fetch - processPackages [preflibtools]: executing diffoscope
+[2023-07-03 15:14:05] INFO root fetch - processPackages [preflibtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/preflibtools-2.0.7.tar.gz tmp/preflibtools-2.0.8.tar.gz --markdown 20230703/p/preflibtools/2.0.7-2.0.8/diff.md --exclude *.pyd
+[2023-07-03 15:14:05] INFO root fetch - processPackages [lamindb_setup]: Downloading https://files.pythonhosted.org/packages/78/48/1cd15f7b622824f8be147b774848d2fd476cd970f7623263ff98cf6d110d/lamindb_setup-0.48.1.tar.gz
+[2023-07-03 15:14:05] INFO root fetch - processPackages [veetility]: executing diffoscope
+[2023-07-03 15:14:05] INFO root fetch - processPackages [veetility]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/veetility-0.1.93.tar.gz tmp/veetility-0.1.94.tar.gz --markdown 20230703/v/veetility/0.1.93-0.1.94/diff.md --exclude *.pyd
+[2023-07-03 15:14:05] INFO root fetch - processPackages [grai-source-snowflake]: Downloading https://files.pythonhosted.org/packages/b3/33/d27ae5743fa2877220019071d4d90553a84203207c63a1d66aace1ffa8e2/grai_source_snowflake-0.1.0a2.tar.gz
+[2023-07-03 15:14:05] INFO root fetch - processPackages [lanablas]: Downloading https://files.pythonhosted.org/packages/06/23/ac1c5ac2ad776b3da1775df06345678b6c3e7df58b391953b3a7353f8bb1/lanablas-0.1.6.tar.gz
+[2023-07-03 15:14:05] INFO root fetch - processPackages [lightwood]: Remove: archive file [/home/abi/fetcher/tmp/lightwood-23.6.4.0.tar.gz]
+[2023-07-03 15:14:05] INFO root fetch - processPackages [lightwood]: Remove: archive file [/home/abi/fetcher/tmp/lightwood-23.7.1.0.tar.gz]
+[2023-07-03 15:14:05] INFO root fetch - processPackages [lightwood]: Start processing: lnschema_core
+[2023-07-03 15:14:05] INFO root fetch - main [MainThread]: End processing [lightwood]: success
+[2023-07-03 15:14:05] WARNING root fetch - processPackages [lanablas]: Skipping package: exceeds size limit 71402868>=10485760
+[2023-07-03 15:14:05] INFO root fetch - processPackages [lanablas]: Start processing: botsy
+[2023-07-03 15:14:05] INFO root fetch - main [MainThread]: End processing [lanablas] error
+[2023-07-03 15:14:05] INFO root fetch - processPackages [grai-source-snowflake]: executing diffoscope
+[2023-07-03 15:14:05] INFO root fetch - processPackages [grai-source-snowflake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grai_source_snowflake-0.1.0a1.tar.gz tmp/grai_source_snowflake-0.1.0a2.tar.gz --markdown 20230703/g/grai-source-snowflake/0.1.0a1-0.1.0a2/diff.md --exclude *.pyd
+[2023-07-03 15:14:05] INFO root fetch - processPackages [akerbp.mlops]: Downloading https://files.pythonhosted.org/packages/32/11/0f27ed413328261eca787bc8c27798e427f75296b88a2c0c56fa309a6d11/akerbp.mlops-3.2.1a5.tar.gz
+[2023-07-03 15:14:05] INFO root fetch - processPackages [nbdev-numpy]: Downloading https://files.pythonhosted.org/packages/ea/78/0c0ef1d69ad517e7123dd810dda3cf8c0863af031c2cbb78ac3dae878b48/nbdev-numpy-0.0.99.tar.gz
+[2023-07-03 15:14:05] INFO root fetch - processPackages [lnschema_core]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-07-03 15:14:05] INFO root fetch - processPackages [manabi]: Downloading https://files.pythonhosted.org/packages/93/0c/9fca86e31c70c7fc91786cb852b1dfb733d846e5e353bf35b4177c78d32f/manabi-1.1.0.tar.gz
+[2023-07-03 15:14:05] INFO root fetch - processPackages [lamindb_setup]: Downloading https://files.pythonhosted.org/packages/1d/65/007f640dd6c7233d1a79dc11f1791d7484f36ad2704bd5814fc87e3ec9fe/lamindb_setup-0.48.2.tar.gz
+[2023-07-03 15:14:05] INFO root fetch - processPackages [nbdev-numpy]: executing diffoscope
+[2023-07-03 15:14:05] INFO root fetch - processPackages [nbdev-numpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-numpy-0.0.98.tar.gz tmp/nbdev-numpy-0.0.99.tar.gz --markdown 20230703/n/nbdev-numpy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-03 15:14:05] INFO root fetch - processPackages [akerbp.mlops]: executing diffoscope
+[2023-07-03 15:14:05] INFO root fetch - processPackages [akerbp.mlops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/akerbp.mlops-3.2.1a4.tar.gz tmp/akerbp.mlops-3.2.1a5.tar.gz --markdown 20230703/a/akerbp.mlops/3.2.1a4-3.2.1a5/diff.md --exclude *.pyd
+[2023-07-03 15:14:05] INFO root fetch - processPackages [botsy]: New version: [0.1.5] Old Version: [0.1.32]
+[2023-07-03 15:14:05] INFO root fetch - processPackages [manabi]: executing diffoscope
+[2023-07-03 15:14:05] INFO root fetch - processPackages [manabi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/manabi-1.0.0.tar.gz tmp/manabi-1.1.0.tar.gz --markdown 20230703/m/manabi/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-07-03 15:14:05] INFO root fetch - processPackages [lamindb_setup]: executing diffoscope
+[2023-07-03 15:14:05] INFO root fetch - processPackages [lamindb_setup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lamindb_setup-0.48.1.tar.gz tmp/lamindb_setup-0.48.2.tar.gz --markdown 20230703/l/lamindb_setup/0.48.1-0.48.2/diff.md --exclude *.pyd
+[2023-07-03 15:14:05] INFO root fetch - processPackages [lnschema_core]: Downloading https://files.pythonhosted.org/packages/7a/53/1459e32f6943488250f623718aeb560351a142d81c57a5fc8ef6b0dd1680/lnschema_core-0.8.1.tar.gz
+[2023-07-03 15:14:06] INFO root fetch - processPackages [botsy]: Downloading https://files.pythonhosted.org/packages/c2/0d/e2b63591d5847752e2b81128567f95ba35ba0365f1cf7c212e031a06e5fa/botsy-0.1.32-py3-none-any.whl
+[2023-07-03 15:14:06] INFO root fetch - processPackages [lnschema_core]: Downloading https://files.pythonhosted.org/packages/39/cd/cc4d91db21934f66692bedcbdb15fc2c82698c7cc9d0288133e8fa2f5cee/lnschema_core-0.9.0.tar.gz
+[2023-07-03 15:14:06] WARNING root fetch - processPackages [botsy]: Skipping package: exceeds size limit 86014080>=10485760
+[2023-07-03 15:14:06] INFO root fetch - main [MainThread]: End processing [botsy] error
+[2023-07-03 15:14:06] INFO root fetch - processPackages [lnschema_core]: executing diffoscope
+[2023-07-03 15:14:06] INFO root fetch - processPackages [lnschema_core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lnschema_core-0.8.1.tar.gz tmp/lnschema_core-0.9.0.tar.gz --markdown 20230703/l/lnschema_core/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-07-03 15:14:06] INFO root fetch - processPackages [veetility]: Remove: archive file [/home/abi/fetcher/tmp/veetility-0.1.93.tar.gz]
+[2023-07-03 15:14:06] INFO root fetch - processPackages [veetility]: Remove: archive file [/home/abi/fetcher/tmp/veetility-0.1.94.tar.gz]
+[2023-07-03 15:14:06] INFO root fetch - main [MainThread]: End processing [veetility]: success
+[2023-07-03 15:14:06] INFO root fetch - processPackages [grai-source-snowflake]: Remove: archive file [/home/abi/fetcher/tmp/grai_source_snowflake-0.1.0a1.tar.gz]
+[2023-07-03 15:14:06] INFO root fetch - processPackages [grai-source-snowflake]: Remove: archive file [/home/abi/fetcher/tmp/grai_source_snowflake-0.1.0a2.tar.gz]
+[2023-07-03 15:14:06] INFO root fetch - main [MainThread]: End processing [grai-source-snowflake]: success
+[2023-07-03 15:14:06] INFO root fetch - processPackages [preflibtools]: Remove: archive file [/home/abi/fetcher/tmp/preflibtools-2.0.7.tar.gz]
+[2023-07-03 15:14:06] INFO root fetch - processPackages [preflibtools]: Remove: archive file [/home/abi/fetcher/tmp/preflibtools-2.0.8.tar.gz]
+[2023-07-03 15:14:06] INFO root fetch - main [MainThread]: End processing [preflibtools]: success
+[2023-07-03 15:14:07] INFO root fetch - processPackages [manabi]: Remove: archive file [/home/abi/fetcher/tmp/manabi-1.0.0.tar.gz]
+[2023-07-03 15:14:07] INFO root fetch - processPackages [manabi]: Remove: archive file [/home/abi/fetcher/tmp/manabi-1.1.0.tar.gz]
+[2023-07-03 15:14:07] INFO root fetch - main [MainThread]: End processing [manabi]: success
+[2023-07-03 15:14:07] INFO root fetch - processPackages [nbdev-numpy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-numpy-0.0.98.tar.gz]
+[2023-07-03 15:14:07] INFO root fetch - processPackages [nbdev-numpy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-numpy-0.0.99.tar.gz]
+[2023-07-03 15:14:07] INFO root fetch - main [MainThread]: End processing [nbdev-numpy]: success
+[2023-07-03 15:14:07] INFO root fetch - processPackages [akerbp.mlops]: Remove: archive file [/home/abi/fetcher/tmp/akerbp.mlops-3.2.1a4.tar.gz]
+[2023-07-03 15:14:07] INFO root fetch - processPackages [akerbp.mlops]: Remove: archive file [/home/abi/fetcher/tmp/akerbp.mlops-3.2.1a5.tar.gz]
+[2023-07-03 15:14:07] INFO root fetch - main [MainThread]: End processing [akerbp.mlops]: success
+[2023-07-03 15:14:07] INFO root fetch - processPackages [lamindb_setup]: Remove: archive file [/home/abi/fetcher/tmp/lamindb_setup-0.48.1.tar.gz]
+[2023-07-03 15:14:07] INFO root fetch - processPackages [lamindb_setup]: Remove: archive file [/home/abi/fetcher/tmp/lamindb_setup-0.48.2.tar.gz]
+[2023-07-03 15:14:07] INFO root fetch - main [MainThread]: End processing [lamindb_setup]: success
+[2023-07-03 15:14:07] INFO root fetch - processPackages [lnschema_core]: Remove: archive file [/home/abi/fetcher/tmp/lnschema_core-0.8.1.tar.gz]
+[2023-07-03 15:14:07] INFO root fetch - processPackages [lnschema_core]: Remove: archive file [/home/abi/fetcher/tmp/lnschema_core-0.9.0.tar.gz]
+[2023-07-03 15:14:07] INFO root fetch - main [MainThread]: End processing [lnschema_core]: success
+[2023-07-03 15:14:11] INFO root fetch - processPackages [ert]: Remove: archive file [/home/abi/fetcher/tmp/ert-5.1.0b0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-03 15:14:11] INFO root fetch - processPackages [ert]: Remove: archive file [/home/abi/fetcher/tmp/ert-5.1.0b1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-03 15:14:11] INFO root fetch - main [MainThread]: End processing [ert]: success
+[2023-07-03 15:14:11] INFO root fetch - main [MainThread]: Store serial: [18739476]
