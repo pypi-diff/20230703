@@ -6652,3 +6652,71 @@
 [2023-07-03 05:58:27] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.348.2.tar.gz]
 [2023-07-03 05:58:27] INFO root fetch - main [MainThread]: End processing [policyengine-us]: success
 [2023-07-03 05:58:27] INFO root fetch - main [MainThread]: Store serial: [18734488]
+[2023-07-03 06:03:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18734488]
+[2023-07-03 06:03:37] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-03 06:03:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sharetop
+[2023-07-03 06:03:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: RamseyTheoryRL
+[2023-07-03 06:03:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: upstash-redis
+[2023-07-03 06:03:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: policyengine-us
+[2023-07-03 06:03:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: evals-nightly
+[2023-07-03 06:03:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: phono3py
+[2023-07-03 06:03:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: hello-world-testcc
+[2023-07-03 06:03:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: l7
+[2023-07-03 06:03:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: lemmy-nhl
+[2023-07-03 06:03:37] INFO root fetch - processPackages [RamseyTheoryRL]: New version: [0.62] Old Version: [0.61]
+[2023-07-03 06:03:37] INFO root fetch - processPackages [sharetop]: New version: [1.4.5] Old Version: [1.4.4]
+[2023-07-03 06:03:37] INFO root fetch - processPackages [evals-nightly]: New version: [1.0.3.dev20230701] Old Version: [1.0.3.dev20230630]
+[2023-07-03 06:03:37] INFO root fetch - processPackages [lemmy-nhl]: New version: [1.5.1] Old Version: [1.5.0]
+[2023-07-03 06:03:37] WARNING root fetch - processPackages [hello-world-testcc]: Skipping, unable to determine old version
+[2023-07-03 06:03:37] INFO root fetch - main [MainThread]: End processing [hello-world-testcc] error
+[2023-07-03 06:03:37] INFO root fetch - processPackages [upstash-redis]: New version: [0.14.0] Old Version: [0.13.3]
+[2023-07-03 06:03:37] WARNING root fetch - processPackages [l7]: Skipping, unable to determine old version
+[2023-07-03 06:03:37] INFO root fetch - main [MainThread]: End processing [l7] error
+[2023-07-03 06:03:37] INFO root fetch - processPackages [phono3py]: New version: [2.7.0] Old Version: [2.6.0]
+[2023-07-03 06:03:37] INFO root fetch - processPackages [policyengine-us]: New version: [0.349.0] Old Version: [0.348.2]
+[2023-07-03 06:03:37] INFO root fetch - processPackages [RamseyTheoryRL]: Downloading https://files.pythonhosted.org/packages/9b/4c/3dc4e8bd3e31d8ed520d81388db5265ad63c0a5d1c7a758cd5704f98f415/RamseyTheoryRL-0.61.tar.gz
+[2023-07-03 06:03:37] INFO root fetch - processPackages [evals-nightly]: Downloading https://files.pythonhosted.org/packages/dc/38/1d331d15935d34020bb05a8b53cc25bef8f8e6ac15b7aec2c750e0c515a8/evals-nightly-1.0.3.dev20230630.tar.gz
+[2023-07-03 06:03:37] INFO root fetch - processPackages [lemmy-nhl]: Downloading https://files.pythonhosted.org/packages/c2/b9/87a36d9ad04462edfd3ef40aac28568f284894f8b46d0cf839f20db1598e/lemmy_nhl-1.5.0.tar.gz
+[2023-07-03 06:03:37] INFO root fetch - processPackages [upstash-redis]: Downloading https://files.pythonhosted.org/packages/31/9e/59601ad02fada16a6c84cfce08a5ec29d5d969fe785c9cb14b8f76c4a1c2/upstash_redis-0.13.3.tar.gz
+[2023-07-03 06:03:37] WARNING root fetch - processPackages [RamseyTheoryRL]: Skipping package: exceeds size limit 12008632>=10485760
+[2023-07-03 06:03:37] INFO root fetch - main [MainThread]: End processing [RamseyTheoryRL] error
+[2023-07-03 06:03:37] INFO root fetch - processPackages [policyengine-us]: Downloading https://files.pythonhosted.org/packages/95/ed/8349207be40517c5f75115e15d79d652dc1ca28aa6ec9656d80342bb0d26/policyengine-us-0.348.2.tar.gz
+[2023-07-03 06:03:37] INFO root fetch - processPackages [lemmy-nhl]: Downloading https://files.pythonhosted.org/packages/d0/9b/0a960acbebaab5c5d47d2f82a72a82c709418e8ff1e8a97ef21c8e5aaef5/lemmy_nhl-1.5.1.tar.gz
+[2023-07-03 06:03:37] INFO root fetch - processPackages [phono3py]: Downloading https://files.pythonhosted.org/packages/4d/6f/aac2fa6f440582d83bbc40931374568c0fdf93a66ed5955beb7b77df6ea7/phono3py-2.6.0.tar.gz
+[2023-07-03 06:03:37] INFO root fetch - processPackages [sharetop]: Downloading https://files.pythonhosted.org/packages/01/2a/d92b5ebf869b76dd7acb3b349d931f06349f382d801337e0be7554073e53/sharetop-1.4.4.tar.gz
+[2023-07-03 06:03:37] INFO root fetch - processPackages [lemmy-nhl]: executing diffoscope
+[2023-07-03 06:03:37] INFO root fetch - processPackages [lemmy-nhl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lemmy_nhl-1.5.0.tar.gz tmp/lemmy_nhl-1.5.1.tar.gz --markdown 20230703/l/lemmy-nhl/1.5.0-1.5.1/diff.md --exclude *.pyd
+[2023-07-03 06:03:37] INFO root fetch - processPackages [upstash-redis]: Downloading https://files.pythonhosted.org/packages/9c/87/d2316d6a44326293ccbd3cd703d5e5ada3c6fee0c5b71904917c75263b49/upstash_redis-0.14.0.tar.gz
+[2023-07-03 06:03:37] INFO root fetch - processPackages [evals-nightly]: Downloading https://files.pythonhosted.org/packages/bd/78/e8736d902325de65a2149e6cfef8792a96e2985db6da4e4da42e737839b3/evals-nightly-1.0.3.dev20230701.tar.gz
+[2023-07-03 06:03:37] INFO root fetch - processPackages [policyengine-us]: Downloading https://files.pythonhosted.org/packages/55/a9/906a18a41a54b76f6cfdd15a4e96aca82d861c4f0cf38d3bfc37932c4321/policyengine-us-0.349.0.tar.gz
+[2023-07-03 06:03:37] INFO root fetch - processPackages [evals-nightly]: executing diffoscope
+[2023-07-03 06:03:37] INFO root fetch - processPackages [evals-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/evals-nightly-1.0.3.dev20230630.tar.gz tmp/evals-nightly-1.0.3.dev20230701.tar.gz --markdown 20230703/e/evals-nightly/1.0.3.dev20230630-1.0.3.dev20230701/diff.md --exclude *.pyd
+[2023-07-03 06:03:37] INFO root fetch - processPackages [sharetop]: Downloading https://files.pythonhosted.org/packages/4e/79/42dbff397f56d731e87ea47dc41a2542db16303a5b280889822592b42fe8/sharetop-1.4.5.tar.gz
+[2023-07-03 06:03:37] INFO root fetch - processPackages [upstash-redis]: executing diffoscope
+[2023-07-03 06:03:37] INFO root fetch - processPackages [upstash-redis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/upstash_redis-0.13.3.tar.gz tmp/upstash_redis-0.14.0.tar.gz --markdown 20230703/u/upstash-redis/0.13.3-0.14.0/diff.md --exclude *.pyd
+[2023-07-03 06:03:37] INFO root fetch - processPackages [policyengine-us]: executing diffoscope
+[2023-07-03 06:03:37] INFO root fetch - processPackages [policyengine-us]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/policyengine-us-0.348.2.tar.gz tmp/policyengine-us-0.349.0.tar.gz --markdown 20230703/p/policyengine-us/0.348.2-0.349.0/diff.md --exclude *.pyd
+[2023-07-03 06:03:37] INFO root fetch - processPackages [sharetop]: executing diffoscope
+[2023-07-03 06:03:37] INFO root fetch - processPackages [sharetop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sharetop-1.4.4.tar.gz tmp/sharetop-1.4.5.tar.gz --markdown 20230703/s/sharetop/1.4.4-1.4.5/diff.md --exclude *.pyd
+[2023-07-03 06:03:38] INFO root fetch - processPackages [phono3py]: Downloading https://files.pythonhosted.org/packages/90/5f/2076b68317dd30c64d22aef3c8579fcb80930af971d85bf86241a829319f/phono3py-2.7.0.tar.gz
+[2023-07-03 06:03:38] INFO root fetch - processPackages [phono3py]: executing diffoscope
+[2023-07-03 06:03:38] INFO root fetch - processPackages [phono3py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phono3py-2.6.0.tar.gz tmp/phono3py-2.7.0.tar.gz --markdown 20230703/p/phono3py/2.6.0-2.7.0/diff.md --exclude *.pyd
+[2023-07-03 06:03:38] INFO root fetch - processPackages [lemmy-nhl]: Remove: archive file [/home/abi/fetcher/tmp/lemmy_nhl-1.5.0.tar.gz]
+[2023-07-03 06:03:38] INFO root fetch - processPackages [lemmy-nhl]: Remove: archive file [/home/abi/fetcher/tmp/lemmy_nhl-1.5.1.tar.gz]
+[2023-07-03 06:03:38] INFO root fetch - main [MainThread]: End processing [lemmy-nhl]: success
+[2023-07-03 06:03:39] INFO root fetch - processPackages [sharetop]: Remove: archive file [/home/abi/fetcher/tmp/sharetop-1.4.4.tar.gz]
+[2023-07-03 06:03:39] INFO root fetch - processPackages [sharetop]: Remove: archive file [/home/abi/fetcher/tmp/sharetop-1.4.5.tar.gz]
+[2023-07-03 06:03:39] INFO root fetch - main [MainThread]: End processing [sharetop]: success
+[2023-07-03 06:03:39] INFO root fetch - processPackages [upstash-redis]: Remove: archive file [/home/abi/fetcher/tmp/upstash_redis-0.13.3.tar.gz]
+[2023-07-03 06:03:39] INFO root fetch - processPackages [upstash-redis]: Remove: archive file [/home/abi/fetcher/tmp/upstash_redis-0.14.0.tar.gz]
+[2023-07-03 06:03:39] INFO root fetch - main [MainThread]: End processing [upstash-redis]: success
+[2023-07-03 06:03:40] INFO root fetch - processPackages [evals-nightly]: Remove: archive file [/home/abi/fetcher/tmp/evals-nightly-1.0.3.dev20230630.tar.gz]
+[2023-07-03 06:03:40] INFO root fetch - processPackages [evals-nightly]: Remove: archive file [/home/abi/fetcher/tmp/evals-nightly-1.0.3.dev20230701.tar.gz]
+[2023-07-03 06:03:40] INFO root fetch - main [MainThread]: End processing [evals-nightly]: success
+[2023-07-03 06:03:42] INFO root fetch - processPackages [phono3py]: Remove: archive file [/home/abi/fetcher/tmp/phono3py-2.6.0.tar.gz]
+[2023-07-03 06:03:42] INFO root fetch - processPackages [phono3py]: Remove: archive file [/home/abi/fetcher/tmp/phono3py-2.7.0.tar.gz]
+[2023-07-03 06:03:42] INFO root fetch - main [MainThread]: End processing [phono3py]: success
+[2023-07-03 06:04:58] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.348.2.tar.gz]
+[2023-07-03 06:04:58] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.349.0.tar.gz]
+[2023-07-03 06:04:58] INFO root fetch - main [MainThread]: End processing [policyengine-us]: success
+[2023-07-03 06:04:58] INFO root fetch - main [MainThread]: Store serial: [18734519]
