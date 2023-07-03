@@ -14832,3 +14832,135 @@ AssertionError: tmp/discord-ansi-0.3.tar.gz does not exist
 [2023-07-03 12:47:26] INFO root fetch - processPackages [orchestrator-core]: Remove: archive file [/home/abi/fetcher/tmp/orchestrator_core-1.2.0.tar.gz]
 [2023-07-03 12:47:26] INFO root fetch - main [MainThread]: End processing [orchestrator-core]: success
 [2023-07-03 12:47:26] INFO root fetch - main [MainThread]: Store serial: [18737866]
+[2023-07-03 12:52:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18737866]
+[2023-07-03 12:52:35] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-07-03 12:52:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sqlalchemy-bind-manager
+[2023-07-03 12:52:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pepperize.projen-awscdk-app-ts
+[2023-07-03 12:52:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyansys
+[2023-07-03 12:52:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: examplesonar
+[2023-07-03 12:52:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: clophfit
+[2023-07-03 12:52:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyrepresent
+[2023-07-03 12:52:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mouse2
+[2023-07-03 12:52:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: edgeimpulse-api
+[2023-07-03 12:52:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: jina
+[2023-07-03 12:52:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: idem-posix
+[2023-07-03 12:52:36] WARNING root fetch - processPackages [examplesonar]: Skipping, unable to determine old version
+[2023-07-03 12:52:36] INFO root fetch - processPackages [examplesonar]: Start processing: nanoCEM
+[2023-07-03 12:52:36] INFO root fetch - main [MainThread]: End processing [examplesonar] error
+[2023-07-03 12:52:36] INFO root fetch - processPackages [pyrepresent]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-07-03 12:52:36] INFO root fetch - processPackages [mouse2]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-03 12:52:36] INFO root fetch - processPackages [sqlalchemy-bind-manager]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-07-03 12:52:36] INFO root fetch - processPackages [nanoCEM]: New version: [0.0.1.2] Old Version: [0.0.1.1]
+[2023-07-03 12:52:36] INFO root fetch - processPackages [jina]: New version: [3.9.3.dev9] Old Version: [3.9.3.dev8]
+[2023-07-03 12:52:36] INFO root fetch - processPackages [edgeimpulse-api]: New version: [1.25.16] Old Version: [1.23.6]
+[2023-07-03 12:52:36] INFO root fetch - processPackages [clophfit]: New version: [0.8.1] Old Version: [0.8.0]
+[2023-07-03 12:52:36] INFO root fetch - processPackages [pyansys]: New version: [2023.2rc2] Old Version: [2023.2rc1]
+[2023-07-03 12:52:36] INFO root fetch - processPackages [idem-posix]: New version: [4.0.0] Old Version: [3.3.0]
+[2023-07-03 12:52:36] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-03 12:52:36] INFO root fetch - processPackages [pyrepresent]: Downloading https://files.pythonhosted.org/packages/1f/48/5575fc117018b5030e057676261d62becee842ddc8aa08cf7b6a8d52a6b4/pyrepresent-0.2.2.tar.gz
+[2023-07-03 12:52:36] INFO root fetch - processPackages [mouse2]: Downloading https://files.pythonhosted.org/packages/71/af/4471c4bdb401c2eb1af021c6ca28e08d5d508db68923ca092b4bd35171e5/mouse2-0.2.8.tar.gz
+[2023-07-03 12:52:36] INFO root fetch - processPackages [sqlalchemy-bind-manager]: Downloading https://files.pythonhosted.org/packages/39/de/6f3d6dcf0b7d8536bdcadee76a4e0e127ef51b5b53c18edef7f848e2c92c/sqlalchemy_bind_manager-0.3.1.tar.gz
+[2023-07-03 12:52:36] INFO root fetch - processPackages [edgeimpulse-api]: Downloading https://files.pythonhosted.org/packages/7c/3e/8c76b2e779dc2daf709a18b64c38a71bb00cf2077806815d52359c43adba/edgeimpulse_api-1.23.6.tar.gz
+[2023-07-03 12:52:36] INFO root fetch - processPackages [nanoCEM]: Downloading https://files.pythonhosted.org/packages/f4/9f/f69aeaf8c33d3de5640efaad21c33acefc7c4497f631c12ebbb7ef764e79/nanoCEM-0.0.1.1.tar.gz
+[2023-07-03 12:52:36] INFO root fetch - processPackages [clophfit]: Downloading https://files.pythonhosted.org/packages/59/12/2797d86f7253b7bf6517ff3cb9a04b094b6b8eb46891b4f0d21170622cf3/clophfit-0.8.0.tar.gz
+[2023-07-03 12:52:36] INFO root fetch - processPackages [idem-posix]: Downloading https://files.pythonhosted.org/packages/31/bf/1a79f6f64a9a64eafbf9f0f5bd08e4e64883378c240fcbb8cda045e159be/idem-posix-3.3.0.tar.gz
+[2023-07-03 12:52:36] INFO root fetch - processPackages [jina]: Downloading https://files.pythonhosted.org/packages/f0/3b/7e6b8b6de74c936b09ce9a4d7440511734efe64633b3418e61b667257994/jina-3.9.3.dev8.tar.gz
+[2023-07-03 12:52:36] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: Downloading https://files.pythonhosted.org/packages/28/fc/54f1f63eb379b5c5560d5fe273751ff4c753fea4870c4ba1a754b481df0c/pepperize.projen-awscdk-app-ts-0.0.98.tar.gz
+[2023-07-03 12:52:36] INFO root fetch - processPackages [pyrepresent]: Downloading https://files.pythonhosted.org/packages/70/1d/0e94d6f61efc24a972827d1e4ebd478e20f9f23b43e8a8ec74a9a351a3a2/pyrepresent-0.2.3.tar.gz
+[2023-07-03 12:52:36] INFO root fetch - processPackages [mouse2]: Downloading https://files.pythonhosted.org/packages/38/4f/0f78a073a4cba3f2a488e767e2ad7e4de4de2f9a4993165d4e4cbecbc753/mouse2-0.2.9.tar.gz
+[2023-07-03 12:52:36] INFO root fetch - processPackages [pyansys]: Downloading https://files.pythonhosted.org/packages/e4/1c/baa52dd3dde1a1be58a378c78ee45e529c742142fecaeb6adf8034a311b4/pyansys-2023.2rc1.tar.gz
+[2023-07-03 12:52:36] INFO root fetch - processPackages [pyrepresent]: executing diffoscope
+[2023-07-03 12:52:36] INFO root fetch - processPackages [pyrepresent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrepresent-0.2.2.tar.gz tmp/pyrepresent-0.2.3.tar.gz --markdown 20230703/p/pyrepresent/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-07-03 12:52:36] INFO root fetch - processPackages [mouse2]: executing diffoscope
+[2023-07-03 12:52:36] INFO root fetch - processPackages [mouse2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mouse2-0.2.8.tar.gz tmp/mouse2-0.2.9.tar.gz --markdown 20230703/m/mouse2/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-03 12:52:36] INFO root fetch - processPackages [nanoCEM]: Downloading https://files.pythonhosted.org/packages/7b/e9/1b208373c0f4229d9a7fc20aa1dec6c1023128206f2dc3eaf77b413aa421/nanoCEM-0.0.1.2.tar.gz
+[2023-07-03 12:52:37] INFO root fetch - processPackages [sqlalchemy-bind-manager]: Downloading https://files.pythonhosted.org/packages/81/ff/d889ff92413e932e90f9f2e6ae9119a654506e070bbe46678982fd9bf36a/sqlalchemy_bind_manager-0.3.2.tar.gz
+[2023-07-03 12:52:37] INFO root fetch - processPackages [edgeimpulse-api]: Downloading https://files.pythonhosted.org/packages/2b/73/adac1da8146c2c0e31ee4fcc446bed8a3c9276f9ca8fa4bb1ab3305ec1e7/edgeimpulse_api-1.25.16.tar.gz
+[2023-07-03 12:52:37] INFO root fetch - processPackages [idem-posix]: Downloading https://files.pythonhosted.org/packages/3a/06/7ff2ae4f75f4a4706aa5c901128dbea54a4ca8c09974d513f7894c1d180d/idem-posix-4.0.0.tar.gz
+[2023-07-03 12:52:37] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: Downloading https://files.pythonhosted.org/packages/44/cb/73b41b7503716cd836989732ed965709837bacf1b66b147f95689ad44458/pepperize.projen-awscdk-app-ts-0.0.99.tar.gz
+[2023-07-03 12:52:37] INFO root fetch - processPackages [nanoCEM]: executing diffoscope
+[2023-07-03 12:52:37] INFO root fetch - processPackages [nanoCEM]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nanoCEM-0.0.1.1.tar.gz tmp/nanoCEM-0.0.1.2.tar.gz --markdown 20230703/n/nanoCEM/0.0.1.1-0.0.1.2/diff.md --exclude *.pyd
+[2023-07-03 12:52:37] INFO root fetch - processPackages [jina]: Downloading https://files.pythonhosted.org/packages/89/60/0658aa50da9055ade2f42bd6cecdfa0abdf69ce7f7bd063c628105106538/jina-3.9.3.dev9.tar.gz
+[2023-07-03 12:52:37] INFO root fetch - processPackages [sqlalchemy-bind-manager]: executing diffoscope
+[2023-07-03 12:52:37] INFO root fetch - processPackages [sqlalchemy-bind-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlalchemy_bind_manager-0.3.1.tar.gz tmp/sqlalchemy_bind_manager-0.3.2.tar.gz --markdown 20230703/s/sqlalchemy-bind-manager/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-07-03 12:52:37] INFO root fetch - processPackages [pyansys]: Downloading https://files.pythonhosted.org/packages/09/02/b2298bb78469ed8bf6853548529bbc47ef3f9f9b5637160d5838e276f030/pyansys-2023.2rc2.tar.gz
+[2023-07-03 12:52:37] INFO root fetch - processPackages [idem-posix]: executing diffoscope
+[2023-07-03 12:52:37] INFO root fetch - processPackages [idem-posix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idem-posix-3.3.0.tar.gz tmp/idem-posix-4.0.0.tar.gz --markdown 20230703/i/idem-posix/3.3.0-4.0.0/diff.md --exclude *.pyd
+[2023-07-03 12:52:37] INFO root fetch - processPackages [edgeimpulse-api]: executing diffoscope
+[2023-07-03 12:52:37] INFO root fetch - processPackages [edgeimpulse-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edgeimpulse_api-1.23.6.tar.gz tmp/edgeimpulse_api-1.25.16.tar.gz --markdown 20230703/e/edgeimpulse-api/1.23.6-1.25.16/diff.md --exclude *.pyd
+[2023-07-03 12:52:37] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: executing diffoscope
+[2023-07-03 12:52:37] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.projen-awscdk-app-ts-0.0.98.tar.gz tmp/pepperize.projen-awscdk-app-ts-0.0.99.tar.gz --markdown 20230703/p/pepperize.projen-awscdk-app-ts/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-03 12:52:37] INFO root fetch - processPackages [jina]: executing diffoscope
+[2023-07-03 12:52:37] INFO root fetch - processPackages [jina]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jina-3.9.3.dev8.tar.gz tmp/jina-3.9.3.dev9.tar.gz --markdown 20230703/j/jina/3.9.3.dev8-3.9.3.dev9/diff.md --exclude *.pyd
+[2023-07-03 12:52:37] INFO root fetch - processPackages [pyansys]: executing diffoscope
+[2023-07-03 12:52:37] INFO root fetch - processPackages [pyansys]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyansys-2023.2rc1.tar.gz tmp/pyansys-2023.2rc2.tar.gz --markdown 20230703/p/pyansys/2023.2rc1-2023.2rc2/diff.md --exclude *.pyd
+[2023-07-03 12:52:37] INFO root fetch - processPackages [clophfit]: Downloading https://files.pythonhosted.org/packages/69/76/0c9fd97fd66bebf487d618a85f4e8ef92983a28dd8a54907c6138512dd5c/clophfit-0.8.1.tar.gz
+[2023-07-03 12:52:38] INFO root fetch - processPackages [pyrepresent]: Remove: archive file [/home/abi/fetcher/tmp/pyrepresent-0.2.2.tar.gz]
+[2023-07-03 12:52:38] INFO root fetch - processPackages [pyrepresent]: Remove: archive file [/home/abi/fetcher/tmp/pyrepresent-0.2.3.tar.gz]
+[2023-07-03 12:52:38] INFO root fetch - processPackages [pyrepresent]: Start processing: resolwe
+[2023-07-03 12:52:38] INFO root fetch - main [MainThread]: End processing [pyrepresent]: success
+[2023-07-03 12:52:38] INFO root fetch - processPackages [mouse2]: Remove: archive file [/home/abi/fetcher/tmp/mouse2-0.2.8.tar.gz]
+[2023-07-03 12:52:38] INFO root fetch - processPackages [mouse2]: Remove: archive file [/home/abi/fetcher/tmp/mouse2-0.2.9.tar.gz]
+[2023-07-03 12:52:38] INFO root fetch - processPackages [mouse2]: Start processing: pepperize.projen-awscdk-app-ts
+[2023-07-03 12:52:38] INFO root fetch - main [MainThread]: End processing [mouse2]: success
+[2023-07-03 12:52:38] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-03 12:52:38] INFO root fetch - processPackages [resolwe]: New version: [9.0.0a4] Old Version: [9.0.0a3]
+[2023-07-03 12:52:38] INFO root fetch - processPackages [sqlalchemy-bind-manager]: Remove: archive file [/home/abi/fetcher/tmp/sqlalchemy_bind_manager-0.3.1.tar.gz]
+[2023-07-03 12:52:38] INFO root fetch - processPackages [sqlalchemy-bind-manager]: Remove: archive file [/home/abi/fetcher/tmp/sqlalchemy_bind_manager-0.3.2.tar.gz]
+[2023-07-03 12:52:38] INFO root fetch - processPackages [sqlalchemy-bind-manager]: Start processing: cwt
+[2023-07-03 12:52:38] INFO root fetch - main [MainThread]: End processing [sqlalchemy-bind-manager]: success
+[2023-07-03 12:52:38] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: executing diffoscope
+[2023-07-03 12:52:38] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.projen-awscdk-app-ts-0.0.98.tar.gz tmp/pepperize.projen-awscdk-app-ts-0.0.99.tar.gz --markdown 20230703/p/pepperize.projen-awscdk-app-ts/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-03 12:52:38] INFO root fetch - processPackages [cwt]: New version: [2.3.2] Old Version: [2.3.1]
+[2023-07-03 12:52:38] INFO root fetch - processPackages [idem-posix]: Remove: archive file [/home/abi/fetcher/tmp/idem-posix-3.3.0.tar.gz]
+[2023-07-03 12:52:38] INFO root fetch - processPackages [idem-posix]: Remove: archive file [/home/abi/fetcher/tmp/idem-posix-4.0.0.tar.gz]
+[2023-07-03 12:52:38] INFO root fetch - processPackages [idem-posix]: Start processing: one-api-tool
+[2023-07-03 12:52:38] INFO root fetch - main [MainThread]: End processing [idem-posix]: success
+[2023-07-03 12:52:38] INFO root fetch - processPackages [nanoCEM]: Remove: archive file [/home/abi/fetcher/tmp/nanoCEM-0.0.1.1.tar.gz]
+[2023-07-03 12:52:38] INFO root fetch - processPackages [nanoCEM]: Remove: archive file [/home/abi/fetcher/tmp/nanoCEM-0.0.1.2.tar.gz]
+[2023-07-03 12:52:38] INFO root fetch - main [MainThread]: End processing [nanoCEM]: success
+[2023-07-03 12:52:38] INFO root fetch - processPackages [clophfit]: executing diffoscope
+[2023-07-03 12:52:38] INFO root fetch - processPackages [clophfit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clophfit-0.8.0.tar.gz tmp/clophfit-0.8.1.tar.gz --markdown 20230703/c/clophfit/0.8.0-0.8.1/diff.md --exclude *.pyd
+[2023-07-03 12:52:38] INFO root fetch - processPackages [resolwe]: Downloading https://files.pythonhosted.org/packages/27/39/5a1ef83e99306588743d0a561a08a825b4383fd5d466c4f3c8fa59dbdbdd/resolwe-9.0.0a3.tar.gz
+[2023-07-03 12:52:38] INFO root fetch - processPackages [one-api-tool]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-03 12:52:38] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.projen-awscdk-app-ts-0.0.98.tar.gz]
+[2023-07-03 12:52:38] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.projen-awscdk-app-ts-0.0.99.tar.gz]
+[2023-07-03 12:52:38] INFO root fetch - main [MainThread]: End processing [pepperize.projen-awscdk-app-ts]: success
+[2023-07-03 12:52:38] INFO root fetch - processPackages [pyansys]: Remove: archive file [/home/abi/fetcher/tmp/pyansys-2023.2rc1.tar.gz]
+[2023-07-03 12:52:38] INFO root fetch - processPackages [pyansys]: Remove: archive file [/home/abi/fetcher/tmp/pyansys-2023.2rc2.tar.gz]
+[2023-07-03 12:52:38] INFO root fetch - main [MainThread]: End processing [pyansys]: success
+[2023-07-03 12:52:38] INFO root fetch - processPackages [one-api-tool]: Downloading https://files.pythonhosted.org/packages/35/b8/a6e70d066ebad670f2087761ea971374aa0ed92d3a98a68609e9632ea838/one-api-tool-0.3.8.tar.gz
+[2023-07-03 12:52:39] INFO root fetch - processPackages [cwt]: Downloading https://files.pythonhosted.org/packages/fd/f6/b7cedc66fd2c51d1dafd739385dfde8ea86247ce9447195ea266e86caa5a/cwt-2.3.1.tar.gz
+[2023-07-03 12:52:39] INFO root fetch - processPackages [one-api-tool]: Downloading https://files.pythonhosted.org/packages/df/e3/538498a55b67f973f1094231955d79341475512b30254fc8f6216c4c45f3/one-api-tool-0.3.9.tar.gz
+[2023-07-03 12:52:39] INFO root fetch - processPackages [one-api-tool]: executing diffoscope
+[2023-07-03 12:52:39] INFO root fetch - processPackages [one-api-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/one-api-tool-0.3.8.tar.gz tmp/one-api-tool-0.3.9.tar.gz --markdown 20230703/o/one-api-tool/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-03 12:52:39] INFO root fetch - processPackages [resolwe]: Downloading https://files.pythonhosted.org/packages/ca/ce/736f65f5bdceb20af592eebc6fdff8968ca39d39f2fa9bbbcb62c64ee673/resolwe-9.0.0a4.tar.gz
+[2023-07-03 12:52:39] ERROR root fetch - processPackages [pepperize.projen-awscdk-app-ts]: Diffoscope failed: time="2023-07-03T12:52:38+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+/srv/diffoscope/bin/diffoscope: tmp/pepperize.projen-awscdk-app-ts-0.0.98.tar.gz: No such file or directory
+/srv/diffoscope/bin/diffoscope: tmp/pepperize.projen-awscdk-app-ts-0.0.99.tar.gz: No such file or directory
+
+[2023-07-03 12:52:39] INFO root fetch - main [MainThread]: End processing [pepperize.projen-awscdk-app-ts] error
+[2023-07-03 12:52:39] INFO root fetch - processPackages [resolwe]: executing diffoscope
+[2023-07-03 12:52:39] INFO root fetch - processPackages [resolwe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/resolwe-9.0.0a3.tar.gz tmp/resolwe-9.0.0a4.tar.gz --markdown 20230703/r/resolwe/9.0.0a3-9.0.0a4/diff.md --exclude *.pyd
+[2023-07-03 12:52:39] INFO root fetch - processPackages [cwt]: Downloading https://files.pythonhosted.org/packages/4f/c7/8a74fddf5e9ad98e76262da20dd2ec4813a47ef02125b1b92287352e36d3/cwt-2.3.2.tar.gz
+[2023-07-03 12:52:39] INFO root fetch - processPackages [jina]: Remove: archive file [/home/abi/fetcher/tmp/jina-3.9.3.dev8.tar.gz]
+[2023-07-03 12:52:39] INFO root fetch - processPackages [jina]: Remove: archive file [/home/abi/fetcher/tmp/jina-3.9.3.dev9.tar.gz]
+[2023-07-03 12:52:39] INFO root fetch - main [MainThread]: End processing [jina]: success
+[2023-07-03 12:52:39] INFO root fetch - processPackages [cwt]: executing diffoscope
+[2023-07-03 12:52:39] INFO root fetch - processPackages [cwt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cwt-2.3.1.tar.gz tmp/cwt-2.3.2.tar.gz --markdown 20230703/c/cwt/2.3.1-2.3.2/diff.md --exclude *.pyd
+[2023-07-03 12:52:40] INFO root fetch - processPackages [one-api-tool]: Remove: archive file [/home/abi/fetcher/tmp/one-api-tool-0.3.8.tar.gz]
+[2023-07-03 12:52:40] INFO root fetch - processPackages [one-api-tool]: Remove: archive file [/home/abi/fetcher/tmp/one-api-tool-0.3.9.tar.gz]
+[2023-07-03 12:52:40] INFO root fetch - main [MainThread]: End processing [one-api-tool]: success
+[2023-07-03 12:52:41] INFO root fetch - processPackages [cwt]: Remove: archive file [/home/abi/fetcher/tmp/cwt-2.3.1.tar.gz]
+[2023-07-03 12:52:41] INFO root fetch - processPackages [cwt]: Remove: archive file [/home/abi/fetcher/tmp/cwt-2.3.2.tar.gz]
+[2023-07-03 12:52:41] INFO root fetch - main [MainThread]: End processing [cwt]: success
+[2023-07-03 12:52:41] INFO root fetch - processPackages [resolwe]: Remove: archive file [/home/abi/fetcher/tmp/resolwe-9.0.0a3.tar.gz]
+[2023-07-03 12:52:41] INFO root fetch - processPackages [resolwe]: Remove: archive file [/home/abi/fetcher/tmp/resolwe-9.0.0a4.tar.gz]
+[2023-07-03 12:52:41] INFO root fetch - main [MainThread]: End processing [resolwe]: success
+[2023-07-03 12:52:41] INFO root fetch - processPackages [clophfit]: Remove: archive file [/home/abi/fetcher/tmp/clophfit-0.8.0.tar.gz]
+[2023-07-03 12:52:41] INFO root fetch - processPackages [clophfit]: Remove: archive file [/home/abi/fetcher/tmp/clophfit-0.8.1.tar.gz]
+[2023-07-03 12:52:41] INFO root fetch - main [MainThread]: End processing [clophfit]: success
+[2023-07-03 12:52:43] INFO root fetch - processPackages [edgeimpulse-api]: Remove: archive file [/home/abi/fetcher/tmp/edgeimpulse_api-1.23.6.tar.gz]
+[2023-07-03 12:52:43] INFO root fetch - processPackages [edgeimpulse-api]: Remove: archive file [/home/abi/fetcher/tmp/edgeimpulse_api-1.25.16.tar.gz]
+[2023-07-03 12:52:43] INFO root fetch - main [MainThread]: End processing [edgeimpulse-api]: success
+[2023-07-03 12:52:43] INFO root fetch - main [MainThread]: Store serial: [18737921]
