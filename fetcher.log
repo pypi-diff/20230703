@@ -6849,3 +6849,24 @@
 [2023-07-03 06:21:55] INFO root fetch - processPackages [pyrfuniverse]: Remove: archive file [/home/abi/fetcher/tmp/pyrfuniverse-0.9.9.tar.gz]
 [2023-07-03 06:21:55] INFO root fetch - main [MainThread]: End processing [pyrfuniverse]: success
 [2023-07-03 06:21:55] INFO root fetch - main [MainThread]: Store serial: [18734593]
+[2023-07-03 06:26:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18734593]
+[2023-07-03 06:27:04] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-07-03 06:27:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bomf
+[2023-07-03 06:27:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: upstash-redis
+[2023-07-03 06:27:04] INFO root fetch - processPackages [upstash-redis]: New version: [0.14.1] Old Version: [0.14.0]
+[2023-07-03 06:27:04] INFO root fetch - processPackages [bomf]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-07-03 06:27:04] INFO root fetch - processPackages [upstash-redis]: Downloading https://files.pythonhosted.org/packages/9c/87/d2316d6a44326293ccbd3cd703d5e5ada3c6fee0c5b71904917c75263b49/upstash_redis-0.14.0.tar.gz
+[2023-07-03 06:27:04] INFO root fetch - processPackages [bomf]: Downloading https://files.pythonhosted.org/packages/51/b6/25153b89a576330819de09d7b17b82e630e25561e1a0409e28222f0762c0/bomf-0.5.8.tar.gz
+[2023-07-03 06:27:04] INFO root fetch - processPackages [upstash-redis]: Downloading https://files.pythonhosted.org/packages/26/4b/ad50b1aa2db7b754834a6bc0360523e8b37b88c0bafe78d918ae67aaa3bb/upstash_redis-0.14.1.tar.gz
+[2023-07-03 06:27:04] INFO root fetch - processPackages [upstash-redis]: executing diffoscope
+[2023-07-03 06:27:04] INFO root fetch - processPackages [upstash-redis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/upstash_redis-0.14.0.tar.gz tmp/upstash_redis-0.14.1.tar.gz --markdown 20230703/u/upstash-redis/0.14.0-0.14.1/diff.md --exclude *.pyd
+[2023-07-03 06:27:05] INFO root fetch - processPackages [bomf]: Downloading https://files.pythonhosted.org/packages/16/be/16bc25047fb820c20f7687e28b62420be850043ae7a391d2cfca5675082d/bomf-0.5.9.tar.gz
+[2023-07-03 06:27:05] INFO root fetch - processPackages [bomf]: executing diffoscope
+[2023-07-03 06:27:05] INFO root fetch - processPackages [bomf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bomf-0.5.8.tar.gz tmp/bomf-0.5.9.tar.gz --markdown 20230703/b/bomf/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-07-03 06:27:05] INFO root fetch - processPackages [upstash-redis]: Remove: archive file [/home/abi/fetcher/tmp/upstash_redis-0.14.0.tar.gz]
+[2023-07-03 06:27:05] INFO root fetch - processPackages [upstash-redis]: Remove: archive file [/home/abi/fetcher/tmp/upstash_redis-0.14.1.tar.gz]
+[2023-07-03 06:27:05] INFO root fetch - main [MainThread]: End processing [upstash-redis]: success
+[2023-07-03 06:27:06] INFO root fetch - processPackages [bomf]: Remove: archive file [/home/abi/fetcher/tmp/bomf-0.5.8.tar.gz]
+[2023-07-03 06:27:06] INFO root fetch - processPackages [bomf]: Remove: archive file [/home/abi/fetcher/tmp/bomf-0.5.9.tar.gz]
+[2023-07-03 06:27:06] INFO root fetch - main [MainThread]: End processing [bomf]: success
+[2023-07-03 06:27:06] INFO root fetch - main [MainThread]: Store serial: [18734599]
