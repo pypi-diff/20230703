@@ -13705,3 +13705,167 @@ AssertionError: tmp/discord-ansi-0.3.tar.gz does not exist
 [2023-07-03 12:06:11] INFO root fetch - processPackages [c2cciutils]: Remove: archive file [/home/abi/fetcher/tmp/c2cciutils-1.6.0.dev99.tar.gz]
 [2023-07-03 12:06:11] INFO root fetch - main [MainThread]: End processing [c2cciutils]: success
 [2023-07-03 12:06:11] INFO root fetch - main [MainThread]: Store serial: [18737385]
+[2023-07-03 12:11:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18737385]
+[2023-07-03 12:11:21] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-07-03 12:11:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pydantic-loggings
+[2023-07-03 12:11:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dataspike
+[2023-07-03 12:11:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: collective.elastic.ingest
+[2023-07-03 12:11:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tf-nightly-cpu-aws
+[2023-07-03 12:11:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: magnifier
+[2023-07-03 12:11:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: spark-acl-tools
+[2023-07-03 12:11:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mizdb-tomselect
+[2023-07-03 12:11:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyNNRW
+[2023-07-03 12:11:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: langful
+[2023-07-03 12:11:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: zavod
+[2023-07-03 12:11:21] INFO root fetch - processPackages [tf-nightly-cpu-aws]: New version: [2.14.0.dev20230702] Old Version: [2.14.0.dev20230701]
+[2023-07-03 12:11:21] INFO root fetch - processPackages [collective.elastic.ingest]: New version: [1.2] Old Version: [1.1]
+[2023-07-03 12:11:21] INFO root fetch - processPackages [pydantic-loggings]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-07-03 12:11:21] INFO root fetch - processPackages [dataspike]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-03 12:11:21] INFO root fetch - processPackages [magnifier]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-07-03 12:11:21] INFO root fetch - processPackages [mizdb-tomselect]: New version: [0.3.4] Old Version: [0.3.3]
+[2023-07-03 12:11:21] INFO root fetch - processPackages [spark-acl-tools]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-07-03 12:11:21] INFO root fetch - processPackages [pyNNRW]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-07-03 12:11:21] INFO root fetch - processPackages [langful]: New version: [0.31] Old Version: [0.30]
+[2023-07-03 12:11:21] INFO root fetch - processPackages [zavod]: New version: [0.7.2] Old Version: [0.7.1]
+[2023-07-03 12:11:21] INFO root fetch - processPackages [tf-nightly-cpu-aws]: Downloading https://files.pythonhosted.org/packages/7a/cb/af63c2dc1d577eb3c7a1425a32215930f7f4b0fa9a5b2dc4ec32b69ca1e1/tf_nightly_cpu_aws-2.14.0.dev20230701-cp38-cp38-manylinux_2_17_aarch64.manylinux2014_aarch64.whl
+[2023-07-03 12:11:21] INFO root fetch - processPackages [collective.elastic.ingest]: Downloading https://files.pythonhosted.org/packages/c2/55/26d9b58f9e019cc3748d140b00a2c64f48b2b4580b3d5556bf915819e7b6/collective.elastic.ingest-1.1.tar.gz
+[2023-07-03 12:11:21] INFO root fetch - processPackages [magnifier]: Downloading https://files.pythonhosted.org/packages/a3/f0/afc9802845807cebb813498f05766d37bf1fb6cec90fb34eefc0accca6fb/magnifier-0.0.6.tar.gz
+[2023-07-03 12:11:21] INFO root fetch - processPackages [pydantic-loggings]: Downloading https://files.pythonhosted.org/packages/00/6d/b3c5e35de61c1cc3c2c95323db391828550e787fd30a54c046bc8ddbe3b1/pydantic-loggings-0.4.0.tar.gz
+[2023-07-03 12:11:21] WARNING root fetch - processPackages [tf-nightly-cpu-aws]: Skipping package: exceeds size limit 262047441>=10485760
+[2023-07-03 12:11:21] INFO root fetch - processPackages [tf-nightly-cpu-aws]: Start processing: ul-data-aggregator-sdk
+[2023-07-03 12:11:21] INFO root fetch - main [MainThread]: End processing [tf-nightly-cpu-aws] error
+[2023-07-03 12:11:21] INFO root fetch - processPackages [dataspike]: Downloading https://files.pythonhosted.org/packages/d7/83/45e0ef4d41aad889784500a99d5325e80efb64d83a520f4759684734fc0b/dataspike-0.0.8.tar.gz
+[2023-07-03 12:11:21] INFO root fetch - processPackages [mizdb-tomselect]: Downloading https://files.pythonhosted.org/packages/96/a0/0900d437e47dee43d07e597d013c5add81a36a4fc24b0bb691be9c471acc/mizdb-tomselect-0.3.3.tar.gz
+[2023-07-03 12:11:21] INFO root fetch - processPackages [langful]: Downloading https://files.pythonhosted.org/packages/7d/06/8c13ac05486fd5f4bd50f09692f3290422535db5e959f65eff9eb1009b3e/langful-0.30-py2.py3-none-any.whl
+[2023-07-03 12:11:21] INFO root fetch - processPackages [pyNNRW]: Downloading https://files.pythonhosted.org/packages/f3/61/f5720d2f4e19322b99b70bc33378d404dd48f17bc4ed7297f9455a944097/pyNNRW-0.3.2.tar.gz
+[2023-07-03 12:11:22] INFO root fetch - processPackages [spark-acl-tools]: Downloading https://files.pythonhosted.org/packages/6b/c7/0810c1a021e1365e628aeed0a4108885d2bfd453e9f53507d20e723edaa5/spark_acl_tools-0.2.0.tar.gz
+[2023-07-03 12:11:22] INFO root fetch - processPackages [zavod]: Downloading https://files.pythonhosted.org/packages/a3/6a/fdfba0eb66ec9d25c32c799775e6c327d6f67d8d89e0f1ebe7c4adefaf32/zavod-0.7.1.tar.gz
+[2023-07-03 12:11:22] INFO root fetch - processPackages [ul-data-aggregator-sdk]: New version: [8.9.5] Old Version: [8.11.0]
+[2023-07-03 12:11:22] INFO root fetch - processPackages [collective.elastic.ingest]: Downloading https://files.pythonhosted.org/packages/36/df/b5176fd3be5653896fefcb1b539ffe5a61018cd27c6e354b1fcbcb0c10ea/collective.elastic.ingest-1.2.tar.gz
+[2023-07-03 12:11:22] INFO root fetch - processPackages [magnifier]: Downloading https://files.pythonhosted.org/packages/f7/b4/2acd4c51cafad73c458377b250cffac4f8e85f9fc8c1bf033028bcfd4611/magnifier-0.0.7.tar.gz
+[2023-07-03 12:11:22] INFO root fetch - processPackages [pydantic-loggings]: Downloading https://files.pythonhosted.org/packages/11/c2/0319afd01a50e4900f15dfc10dc1f323d4b6995304ddaa4c39da967f6e1a/pydantic-loggings-0.5.0.tar.gz
+[2023-07-03 12:11:22] INFO root fetch - processPackages [ul-data-aggregator-sdk]: Downloading https://files.pythonhosted.org/packages/0f/f2/e63c682b8dc29b3fbfe9b29da4122c1a2e4c4ed838ffa0bcb5241a2c23f3/ul-data-aggregator-sdk-8.11.0.tar.gz
+[2023-07-03 12:11:22] INFO root fetch - processPackages [dataspike]: Downloading https://files.pythonhosted.org/packages/bc/70/cf8a594a6777149fe19d8b42ea0ca13e0f677fbc8c24e45faad2fcb96e26/dataspike-0.0.9.tar.gz
+[2023-07-03 12:11:22] INFO root fetch - processPackages [langful]: Downloading https://files.pythonhosted.org/packages/05/14/69a519600c9f4a7735ac5af868c15d17bba111f3d31c4ad6439176b59845/langful-0.31-py3-none-any.whl
+[2023-07-03 12:11:22] INFO root fetch - processPackages [spark-acl-tools]: Downloading https://files.pythonhosted.org/packages/dd/a1/e0d7b4768f447d17ed46219f28362aada1857ad73b07dc214ee80f6d3707/spark_acl_tools-0.3.0.tar.gz
+[2023-07-03 12:11:22] INFO root fetch - processPackages [mizdb-tomselect]: Downloading https://files.pythonhosted.org/packages/fe/98/237b456dc7ff14da4eef693e2fd78994837491e5dfc4216a31ceac02e397/mizdb-tomselect-0.3.4.tar.gz
+[2023-07-03 12:11:22] INFO root fetch - processPackages [collective.elastic.ingest]: executing diffoscope
+[2023-07-03 12:11:22] INFO root fetch - processPackages [collective.elastic.ingest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/collective.elastic.ingest-1.1.tar.gz tmp/collective.elastic.ingest-1.2.tar.gz --markdown 20230703/c/collective.elastic.ingest/1.1-1.2/diff.md --exclude *.pyd
+[2023-07-03 12:11:22] INFO root fetch - processPackages [magnifier]: executing diffoscope
+[2023-07-03 12:11:22] INFO root fetch - processPackages [magnifier]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/magnifier-0.0.6.tar.gz tmp/magnifier-0.0.7.tar.gz --markdown 20230703/m/magnifier/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-07-03 12:11:22] INFO root fetch - processPackages [pyNNRW]: Downloading https://files.pythonhosted.org/packages/05/d0/b646ff808706d0faef23d9c0dcca9eb316d8f4388b73ff33d0c46c37a23b/pyNNRW-0.3.3.tar.gz
+[2023-07-03 12:11:22] INFO root fetch - processPackages [pydantic-loggings]: executing diffoscope
+[2023-07-03 12:11:22] INFO root fetch - processPackages [pydantic-loggings]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydantic-loggings-0.4.0.tar.gz tmp/pydantic-loggings-0.5.0.tar.gz --markdown 20230703/p/pydantic-loggings/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-07-03 12:11:22] INFO root fetch - processPackages [zavod]: Downloading https://files.pythonhosted.org/packages/14/2f/8b72f7aaefdacd55cd3943459bfd8c8ec06e5d569519a95163c1554a0e97/zavod-0.7.2.tar.gz
+[2023-07-03 12:11:22] INFO root fetch - processPackages [dataspike]: executing diffoscope
+[2023-07-03 12:11:22] INFO root fetch - processPackages [dataspike]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataspike-0.0.8.tar.gz tmp/dataspike-0.0.9.tar.gz --markdown 20230703/d/dataspike/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-03 12:11:22] INFO root fetch - processPackages [langful]: executing diffoscope
+[2023-07-03 12:11:22] INFO root fetch - processPackages [langful]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langful-0.30-py2.py3-none-any.whl.zip tmp/langful-0.31-py3-none-any.whl.zip --markdown 20230703/l/langful/0.30-0.31/diff.md --exclude *.pyd
+[2023-07-03 12:11:22] INFO root fetch - processPackages [mizdb-tomselect]: executing diffoscope
+[2023-07-03 12:11:22] INFO root fetch - processPackages [mizdb-tomselect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mizdb-tomselect-0.3.3.tar.gz tmp/mizdb-tomselect-0.3.4.tar.gz --markdown 20230703/m/mizdb-tomselect/0.3.3-0.3.4/diff.md --exclude *.pyd
+[2023-07-03 12:11:22] INFO root fetch - processPackages [spark-acl-tools]: executing diffoscope
+[2023-07-03 12:11:22] INFO root fetch - processPackages [spark-acl-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spark_acl_tools-0.2.0.tar.gz tmp/spark_acl_tools-0.3.0.tar.gz --markdown 20230703/s/spark-acl-tools/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-07-03 12:11:22] INFO root fetch - processPackages [pyNNRW]: executing diffoscope
+[2023-07-03 12:11:22] INFO root fetch - processPackages [pyNNRW]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyNNRW-0.3.2.tar.gz tmp/pyNNRW-0.3.3.tar.gz --markdown 20230703/p/pyNNRW/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-07-03 12:11:22] INFO root fetch - processPackages [zavod]: executing diffoscope
+[2023-07-03 12:11:22] INFO root fetch - processPackages [zavod]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zavod-0.7.1.tar.gz tmp/zavod-0.7.2.tar.gz --markdown 20230703/z/zavod/0.7.1-0.7.2/diff.md --exclude *.pyd
+[2023-07-03 12:11:23] INFO root fetch - processPackages [ul-data-aggregator-sdk]: Downloading https://files.pythonhosted.org/packages/ae/cf/20ade1e77c7db14608e4ad73e7b31dd0bd4ee46d7222add34aa0ee1abaca/ul-data-aggregator-sdk-8.9.5.tar.gz
+[2023-07-03 12:11:23] INFO root fetch - processPackages [ul-data-aggregator-sdk]: executing diffoscope
+[2023-07-03 12:11:23] INFO root fetch - processPackages [ul-data-aggregator-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ul-data-aggregator-sdk-8.11.0.tar.gz tmp/ul-data-aggregator-sdk-8.9.5.tar.gz --markdown 20230703/u/ul-data-aggregator-sdk/8.11.0-8.9.5/diff.md --exclude *.pyd
+[2023-07-03 12:11:24] INFO root fetch - processPackages [magnifier]: Remove: archive file [/home/abi/fetcher/tmp/magnifier-0.0.6.tar.gz]
+[2023-07-03 12:11:24] INFO root fetch - processPackages [magnifier]: Remove: archive file [/home/abi/fetcher/tmp/magnifier-0.0.7.tar.gz]
+[2023-07-03 12:11:24] INFO root fetch - processPackages [magnifier]: Start processing: pciSeq
+[2023-07-03 12:11:24] INFO root fetch - main [MainThread]: End processing [magnifier]: success
+[2023-07-03 12:11:24] INFO root fetch - processPackages [pciSeq]: New version: [0.0.55.dev0] Old Version: [0.0.54]
+[2023-07-03 12:11:24] INFO root fetch - processPackages [langful]: Remove: archive file [/home/abi/fetcher/tmp/langful-0.30-py2.py3-none-any.whl.zip]
+[2023-07-03 12:11:24] INFO root fetch - processPackages [langful]: Remove: archive file [/home/abi/fetcher/tmp/langful-0.31-py3-none-any.whl.zip]
+[2023-07-03 12:11:24] INFO root fetch - processPackages [langful]: Start processing: cs.service-api
+[2023-07-03 12:11:24] INFO root fetch - main [MainThread]: End processing [langful]: success
+[2023-07-03 12:11:24] INFO root fetch - processPackages [pciSeq]: Downloading https://files.pythonhosted.org/packages/d9/a7/16107c217162f6ceb8ec4e2ef25f2dec258c9434ee2d76fbcb170994ccf3/pciSeq-0.0.54-py3-none-any.whl
+[2023-07-03 12:11:24] INFO root fetch - processPackages [pydantic-loggings]: Remove: archive file [/home/abi/fetcher/tmp/pydantic-loggings-0.4.0.tar.gz]
+[2023-07-03 12:11:24] INFO root fetch - processPackages [pydantic-loggings]: Remove: archive file [/home/abi/fetcher/tmp/pydantic-loggings-0.5.0.tar.gz]
+[2023-07-03 12:11:24] INFO root fetch - processPackages [pydantic-loggings]: Start processing: odoo-addon-website-sale-wishlist-archive-cron
+[2023-07-03 12:11:24] INFO root fetch - main [MainThread]: End processing [pydantic-loggings]: success
+[2023-07-03 12:11:24] INFO root fetch - processPackages [cs.service-api]: New version: [20230703] Old Version: [20230217]
+[2023-07-03 12:11:24] INFO root fetch - processPackages [dataspike]: Remove: archive file [/home/abi/fetcher/tmp/dataspike-0.0.8.tar.gz]
+[2023-07-03 12:11:24] INFO root fetch - processPackages [dataspike]: Remove: archive file [/home/abi/fetcher/tmp/dataspike-0.0.9.tar.gz]
+[2023-07-03 12:11:24] INFO root fetch - processPackages [dataspike]: Start processing: lokzzpylib
+[2023-07-03 12:11:24] INFO root fetch - main [MainThread]: End processing [dataspike]: success
+[2023-07-03 12:11:24] INFO root fetch - processPackages [collective.elastic.ingest]: Remove: archive file [/home/abi/fetcher/tmp/collective.elastic.ingest-1.1.tar.gz]
+[2023-07-03 12:11:24] INFO root fetch - processPackages [collective.elastic.ingest]: Remove: archive file [/home/abi/fetcher/tmp/collective.elastic.ingest-1.2.tar.gz]
+[2023-07-03 12:11:24] INFO root fetch - processPackages [collective.elastic.ingest]: Start processing: dve-lumipy-preview
+[2023-07-03 12:11:24] INFO root fetch - main [MainThread]: End processing [collective.elastic.ingest]: success
+[2023-07-03 12:11:24] WARNING root fetch - processPackages [odoo-addon-website-sale-wishlist-archive-cron]: Skipping, unable to determine old version
+[2023-07-03 12:11:24] INFO root fetch - processPackages [odoo-addon-website-sale-wishlist-archive-cron]: Start processing: openvino-dev
+[2023-07-03 12:11:24] INFO root fetch - main [MainThread]: End processing [odoo-addon-website-sale-wishlist-archive-cron] error
+[2023-07-03 12:11:24] INFO root fetch - processPackages [lokzzpylib]: New version: [0.2.dev8] Old Version: [0.2.dev7]
+[2023-07-03 12:11:24] INFO root fetch - processPackages [pyNNRW]: Remove: archive file [/home/abi/fetcher/tmp/pyNNRW-0.3.2.tar.gz]
+[2023-07-03 12:11:24] INFO root fetch - processPackages [pyNNRW]: Remove: archive file [/home/abi/fetcher/tmp/pyNNRW-0.3.3.tar.gz]
+[2023-07-03 12:11:24] INFO root fetch - processPackages [pyNNRW]: Start processing: mpyl
+[2023-07-03 12:11:24] INFO root fetch - main [MainThread]: End processing [pyNNRW]: success
+[2023-07-03 12:11:24] INFO root fetch - processPackages [spark-acl-tools]: Remove: archive file [/home/abi/fetcher/tmp/spark_acl_tools-0.2.0.tar.gz]
+[2023-07-03 12:11:24] INFO root fetch - processPackages [spark-acl-tools]: Remove: archive file [/home/abi/fetcher/tmp/spark_acl_tools-0.3.0.tar.gz]
+[2023-07-03 12:11:24] INFO root fetch - processPackages [pciSeq]: Downloading https://files.pythonhosted.org/packages/a8/d5/32be6a49692e65bd7dacbbf31f6e4516a0bd308fcecd541535e3c3c8e1ec/pciSeq-0.0.55.dev0-py3-none-any.whl
+[2023-07-03 12:11:24] INFO root fetch - processPackages [spark-acl-tools]: Start processing: odoo14-addon-product-pricelist-assortment
+[2023-07-03 12:11:24] INFO root fetch - main [MainThread]: End processing [spark-acl-tools]: success
+[2023-07-03 12:11:24] INFO root fetch - processPackages [zavod]: Remove: archive file [/home/abi/fetcher/tmp/zavod-0.7.1.tar.gz]
+[2023-07-03 12:11:24] INFO root fetch - processPackages [zavod]: Remove: archive file [/home/abi/fetcher/tmp/zavod-0.7.2.tar.gz]
+[2023-07-03 12:11:24] INFO root fetch - main [MainThread]: End processing [zavod]: success
+[2023-07-03 12:11:24] INFO root fetch - processPackages [dve-lumipy-preview]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-07-03 12:11:24] INFO root fetch - processPackages [lokzzpylib]: Downloading https://files.pythonhosted.org/packages/ec/11/d1d60efe6f1f4186239da7ec66a65073a12c07a8d08788f22bdef90b6ddc/lokzzpylib-0.2.dev7.tar.gz
+[2023-07-03 12:11:24] INFO root fetch - processPackages [openvino-dev]: New version: [2023.1.0.dev20230623] Old Version: [2023.0.1]
+[2023-07-03 12:11:24] INFO root fetch - processPackages [cs.service-api]: Downloading https://files.pythonhosted.org/packages/ee/7b/20282d177bcb9f21e1d63b5fe181bfd76300457f6ecdebf73a1349ca07e5/cs.service_api-20230217.tar.gz
+[2023-07-03 12:11:24] INFO root fetch - processPackages [ul-data-aggregator-sdk]: Remove: archive file [/home/abi/fetcher/tmp/ul-data-aggregator-sdk-8.11.0.tar.gz]
+[2023-07-03 12:11:24] INFO root fetch - processPackages [ul-data-aggregator-sdk]: Remove: archive file [/home/abi/fetcher/tmp/ul-data-aggregator-sdk-8.9.5.tar.gz]
+[2023-07-03 12:11:24] INFO root fetch - main [MainThread]: End processing [ul-data-aggregator-sdk]: success
+[2023-07-03 12:11:24] INFO root fetch - processPackages [odoo14-addon-product-pricelist-assortment]: New version: [14.0.2.2.0] Old Version: [14.0.2.1.0]
+[2023-07-03 12:11:24] INFO root fetch - processPackages [mpyl]: New version: [1.0.7] Old Version: [1.0.6]
+[2023-07-03 12:11:24] INFO root fetch - processPackages [pciSeq]: executing diffoscope
+[2023-07-03 12:11:24] INFO root fetch - processPackages [pciSeq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pciSeq-0.0.54-py3-none-any.whl.zip tmp/pciSeq-0.0.55.dev0-py3-none-any.whl.zip --markdown 20230703/p/pciSeq/0.0.54-0.0.55.dev0/diff.md --exclude *.pyd
+[2023-07-03 12:11:24] INFO root fetch - processPackages [openvino-dev]: Downloading https://files.pythonhosted.org/packages/ad/41/f6fd676dd043ab5ac82ff0f2d1dc8467bc0d4c5d6d6b36fe95771bd2e60d/openvino_dev-2023.0.1-11005-py3-none-any.whl
+[2023-07-03 12:11:24] INFO root fetch - processPackages [dve-lumipy-preview]: Downloading https://files.pythonhosted.org/packages/53/1b/b95ae9f1ee0d70add76cdadfbc66a40e9a2c285b2ea88f903954b90ef30e/dve_lumipy_preview-0.1.98-py3-none-any.whl
+[2023-07-03 12:11:24] INFO root fetch - processPackages [mpyl]: Downloading https://files.pythonhosted.org/packages/fa/e1/dbb62c2b9a1dadbefa191a5e97e634cc12989d9fb3ad25e2d5fe113b7291/mpyl-1.0.6-py3-none-any.whl
+[2023-07-03 12:11:24] INFO root fetch - processPackages [lokzzpylib]: Downloading https://files.pythonhosted.org/packages/e2/59/899dd08722b859f214b6eee5335384aa5e1bb485140945e6cb65257098a5/lokzzpylib-0.2.dev8.tar.gz
+[2023-07-03 12:11:25] INFO root fetch - processPackages [cs.service-api]: Downloading https://files.pythonhosted.org/packages/ee/d1/da238ec11f814af0ce2183f00b0875406eec70c39ffa6a3267acb6c6aec5/cs.service_api-20230703.tar.gz
+[2023-07-03 12:11:25] INFO root fetch - processPackages [odoo14-addon-product-pricelist-assortment]: Downloading https://files.pythonhosted.org/packages/5b/23/11eab219c50cd143f57185de4b421ccf47d6d544e828d822dc830b299a0b/odoo14_addon_product_pricelist_assortment-14.0.2.1.0-py3-none-any.whl
+[2023-07-03 12:11:25] INFO root fetch - processPackages [lokzzpylib]: executing diffoscope
+[2023-07-03 12:11:25] INFO root fetch - processPackages [lokzzpylib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lokzzpylib-0.2.dev7.tar.gz tmp/lokzzpylib-0.2.dev8.tar.gz --markdown 20230703/l/lokzzpylib/0.2.dev7-0.2.dev8/diff.md --exclude *.pyd
+[2023-07-03 12:11:25] INFO root fetch - processPackages [cs.service-api]: executing diffoscope
+[2023-07-03 12:11:25] INFO root fetch - processPackages [cs.service-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cs.service_api-20230217.tar.gz tmp/cs.service_api-20230703.tar.gz --markdown 20230703/c/cs.service-api/20230217-20230703/diff.md --exclude *.pyd
+[2023-07-03 12:11:25] INFO root fetch - processPackages [mizdb-tomselect]: Remove: archive file [/home/abi/fetcher/tmp/mizdb-tomselect-0.3.3.tar.gz]
+[2023-07-03 12:11:25] INFO root fetch - processPackages [mizdb-tomselect]: Remove: archive file [/home/abi/fetcher/tmp/mizdb-tomselect-0.3.4.tar.gz]
+[2023-07-03 12:11:25] INFO root fetch - main [MainThread]: End processing [mizdb-tomselect]: success
+[2023-07-03 12:11:25] INFO root fetch - processPackages [dve-lumipy-preview]: Downloading https://files.pythonhosted.org/packages/3e/79/4e5e14a533ef4877c17c99900bbdc73daee3c1499e43275f026447166ab0/dve_lumipy_preview-0.1.99-py3-none-any.whl
+[2023-07-03 12:11:25] INFO root fetch - processPackages [mpyl]: Downloading https://files.pythonhosted.org/packages/2d/59/c29f30cfaf216f4537cf8fa4579ee01c65ccc02c0a74edf5abc1b1a8fd33/mpyl-1.0.7-py3-none-any.whl
+[2023-07-03 12:11:25] INFO root fetch - processPackages [odoo14-addon-product-pricelist-assortment]: Downloading https://files.pythonhosted.org/packages/0b/f0/c33b79d20b59d3ad41943e87c4616cc4610f0962203b7f67aaa78759edd9/odoo14_addon_product_pricelist_assortment-14.0.2.2.0-py3-none-any.whl
+[2023-07-03 12:11:25] INFO root fetch - processPackages [dve-lumipy-preview]: executing diffoscope
+[2023-07-03 12:11:25] INFO root fetch - processPackages [dve-lumipy-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dve_lumipy_preview-0.1.98-py3-none-any.whl.zip tmp/dve_lumipy_preview-0.1.99-py3-none-any.whl.zip --markdown 20230703/d/dve-lumipy-preview/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-07-03 12:11:25] INFO root fetch - processPackages [mpyl]: executing diffoscope
+[2023-07-03 12:11:25] INFO root fetch - processPackages [mpyl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mpyl-1.0.6-py3-none-any.whl.zip tmp/mpyl-1.0.7-py3-none-any.whl.zip --markdown 20230703/m/mpyl/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2023-07-03 12:11:25] INFO root fetch - processPackages [odoo14-addon-product-pricelist-assortment]: executing diffoscope
+[2023-07-03 12:11:25] INFO root fetch - processPackages [odoo14-addon-product-pricelist-assortment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_product_pricelist_assortment-14.0.2.1.0-py3-none-any.whl.zip tmp/odoo14_addon_product_pricelist_assortment-14.0.2.2.0-py3-none-any.whl.zip --markdown 20230703/o/odoo14-addon-product-pricelist-assortment/14.0.2.1.0-14.0.2.2.0/diff.md --exclude *.pyd
+[2023-07-03 12:11:26] INFO root fetch - processPackages [lokzzpylib]: Remove: archive file [/home/abi/fetcher/tmp/lokzzpylib-0.2.dev7.tar.gz]
+[2023-07-03 12:11:26] INFO root fetch - processPackages [lokzzpylib]: Remove: archive file [/home/abi/fetcher/tmp/lokzzpylib-0.2.dev8.tar.gz]
+[2023-07-03 12:11:26] INFO root fetch - main [MainThread]: End processing [lokzzpylib]: success
+[2023-07-03 12:11:26] INFO root fetch - processPackages [cs.service-api]: Remove: archive file [/home/abi/fetcher/tmp/cs.service_api-20230217.tar.gz]
+[2023-07-03 12:11:26] INFO root fetch - processPackages [cs.service-api]: Remove: archive file [/home/abi/fetcher/tmp/cs.service_api-20230703.tar.gz]
+[2023-07-03 12:11:26] INFO root fetch - main [MainThread]: End processing [cs.service-api]: success
+[2023-07-03 12:11:26] INFO root fetch - processPackages [pciSeq]: Remove: archive file [/home/abi/fetcher/tmp/pciSeq-0.0.54-py3-none-any.whl.zip]
+[2023-07-03 12:11:26] INFO root fetch - processPackages [pciSeq]: Remove: archive file [/home/abi/fetcher/tmp/pciSeq-0.0.55.dev0-py3-none-any.whl.zip]
+[2023-07-03 12:11:26] INFO root fetch - main [MainThread]: End processing [pciSeq]: success
+[2023-07-03 12:11:26] INFO root fetch - processPackages [openvino-dev]: Downloading https://files.pythonhosted.org/packages/3b/c1/e296b38163936757fe6005350f2484d88d725856ed3c13b4c4f65b3cf8d3/openvino_dev-2023.1.0.dev20230623-11420-py3-none-any.whl
+[2023-07-03 12:11:26] INFO root fetch - processPackages [openvino-dev]: executing diffoscope
+[2023-07-03 12:11:26] INFO root fetch - processPackages [openvino-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openvino_dev-2023.0.1-11005-py3-none-any.whl.zip tmp/openvino_dev-2023.1.0.dev20230623-11420-py3-none-any.whl.zip --markdown 20230703/o/openvino-dev/2023.0.1-2023.1.0.dev20230623/diff.md --exclude *.pyd
+[2023-07-03 12:11:26] INFO root fetch - processPackages [odoo14-addon-product-pricelist-assortment]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_product_pricelist_assortment-14.0.2.1.0-py3-none-any.whl.zip]
+[2023-07-03 12:11:26] INFO root fetch - processPackages [odoo14-addon-product-pricelist-assortment]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_product_pricelist_assortment-14.0.2.2.0-py3-none-any.whl.zip]
+[2023-07-03 12:11:26] INFO root fetch - main [MainThread]: End processing [odoo14-addon-product-pricelist-assortment]: success
+[2023-07-03 12:11:26] INFO root fetch - processPackages [dve-lumipy-preview]: Remove: archive file [/home/abi/fetcher/tmp/dve_lumipy_preview-0.1.98-py3-none-any.whl.zip]
+[2023-07-03 12:11:26] INFO root fetch - processPackages [dve-lumipy-preview]: Remove: archive file [/home/abi/fetcher/tmp/dve_lumipy_preview-0.1.99-py3-none-any.whl.zip]
+[2023-07-03 12:11:26] INFO root fetch - main [MainThread]: End processing [dve-lumipy-preview]: success
+[2023-07-03 12:11:27] INFO root fetch - processPackages [mpyl]: Remove: archive file [/home/abi/fetcher/tmp/mpyl-1.0.6-py3-none-any.whl.zip]
+[2023-07-03 12:11:27] INFO root fetch - processPackages [mpyl]: Remove: archive file [/home/abi/fetcher/tmp/mpyl-1.0.7-py3-none-any.whl.zip]
+[2023-07-03 12:11:27] INFO root fetch - main [MainThread]: End processing [mpyl]: success
+[2023-07-03 12:11:45] INFO root fetch - processPackages [openvino-dev]: Remove: archive file [/home/abi/fetcher/tmp/openvino_dev-2023.0.1-11005-py3-none-any.whl.zip]
+[2023-07-03 12:11:45] INFO root fetch - processPackages [openvino-dev]: Remove: archive file [/home/abi/fetcher/tmp/openvino_dev-2023.1.0.dev20230623-11420-py3-none-any.whl.zip]
+[2023-07-03 12:11:45] INFO root fetch - main [MainThread]: End processing [openvino-dev]: success
+[2023-07-03 12:11:45] INFO root fetch - main [MainThread]: Store serial: [18737451]
