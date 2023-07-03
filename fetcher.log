@@ -5564,3 +5564,36 @@
 [2023-07-03 04:26:39] INFO root fetch - processPackages [pydantic-core]: Remove: archive file [/home/abi/fetcher/tmp/pydantic_core-2.0.2.tar.gz]
 [2023-07-03 04:26:39] INFO root fetch - main [MainThread]: End processing [pydantic-core]: success
 [2023-07-03 04:26:39] INFO root fetch - main [MainThread]: Store serial: [18734027]
+[2023-07-03 04:31:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18734027]
+[2023-07-03 04:31:49] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-03 04:31:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: learning-pipeline-plugin
+[2023-07-03 04:31:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: banf
+[2023-07-03 04:31:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: FeishuBitableAPI
+[2023-07-03 04:31:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: straw-machine
+[2023-07-03 04:31:49] WARNING root fetch - processPackages [banf]: Skipping, unable to determine old version
+[2023-07-03 04:31:49] INFO root fetch - main [MainThread]: End processing [banf] error
+[2023-07-03 04:31:49] INFO root fetch - processPackages [learning-pipeline-plugin]: New version: [0.6.0] Old Version: [0.5.2]
+[2023-07-03 04:31:49] INFO root fetch - processPackages [FeishuBitableAPI]: New version: [3.0.1] Old Version: [3.0]
+[2023-07-03 04:31:49] INFO root fetch - processPackages [straw-machine]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-03 04:31:49] INFO root fetch - processPackages [learning-pipeline-plugin]: Downloading https://files.pythonhosted.org/packages/30/cb/be380bf432f3a2873b326b745fe0d5d5a7ceb9e79d91572827bb7b0292a9/learning_pipeline_plugin-0.5.2.tar.gz
+[2023-07-03 04:31:49] INFO root fetch - processPackages [FeishuBitableAPI]: Downloading https://files.pythonhosted.org/packages/68/3a/1169e1c7a6d5fb1a2de54afe44b75390a2af85dbff751367db4d42ba9837/FeishuBitableAPI-3.0.tar.gz
+[2023-07-03 04:31:49] INFO root fetch - processPackages [straw-machine]: Downloading https://files.pythonhosted.org/packages/26/94/efb4a138013354b8a484b992497c1e87f92cd1f30937b172c1b1da957531/straw_machine-0.0.2.tar.gz
+[2023-07-03 04:31:50] INFO root fetch - processPackages [learning-pipeline-plugin]: Downloading https://files.pythonhosted.org/packages/0d/a9/2ecea673674fa3971619514ed8464b18c4d45541e02b8beb8bdf8492b60b/learning_pipeline_plugin-0.6.0.tar.gz
+[2023-07-03 04:31:50] INFO root fetch - processPackages [straw-machine]: Downloading https://files.pythonhosted.org/packages/89/5d/6bac9a99173c5baaf21c4937740f7198427a412d74703f2aa54e70de15da/straw_machine-0.0.3.tar.gz
+[2023-07-03 04:31:50] INFO root fetch - processPackages [learning-pipeline-plugin]: executing diffoscope
+[2023-07-03 04:31:50] INFO root fetch - processPackages [learning-pipeline-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/learning_pipeline_plugin-0.5.2.tar.gz tmp/learning_pipeline_plugin-0.6.0.tar.gz --markdown 20230703/l/learning-pipeline-plugin/0.5.2-0.6.0/diff.md --exclude *.pyd
+[2023-07-03 04:31:50] INFO root fetch - processPackages [straw-machine]: executing diffoscope
+[2023-07-03 04:31:50] INFO root fetch - processPackages [straw-machine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/straw_machine-0.0.2.tar.gz tmp/straw_machine-0.0.3.tar.gz --markdown 20230703/s/straw-machine/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-03 04:31:50] INFO root fetch - processPackages [FeishuBitableAPI]: Downloading https://files.pythonhosted.org/packages/ee/ba/92e466639c59476c9bfe43911f1a068ccadc37c40261b5c1c9c8cfec54d3/FeishuBitableAPI-3.0.1.tar.gz
+[2023-07-03 04:31:50] INFO root fetch - processPackages [FeishuBitableAPI]: executing diffoscope
+[2023-07-03 04:31:50] INFO root fetch - processPackages [FeishuBitableAPI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FeishuBitableAPI-3.0.tar.gz tmp/FeishuBitableAPI-3.0.1.tar.gz --markdown 20230703/F/FeishuBitableAPI/3.0-3.0.1/diff.md --exclude *.pyd
+[2023-07-03 04:31:51] INFO root fetch - processPackages [learning-pipeline-plugin]: Remove: archive file [/home/abi/fetcher/tmp/learning_pipeline_plugin-0.5.2.tar.gz]
+[2023-07-03 04:31:51] INFO root fetch - processPackages [learning-pipeline-plugin]: Remove: archive file [/home/abi/fetcher/tmp/learning_pipeline_plugin-0.6.0.tar.gz]
+[2023-07-03 04:31:51] INFO root fetch - main [MainThread]: End processing [learning-pipeline-plugin]: success
+[2023-07-03 04:31:51] INFO root fetch - processPackages [straw-machine]: Remove: archive file [/home/abi/fetcher/tmp/straw_machine-0.0.2.tar.gz]
+[2023-07-03 04:31:51] INFO root fetch - processPackages [straw-machine]: Remove: archive file [/home/abi/fetcher/tmp/straw_machine-0.0.3.tar.gz]
+[2023-07-03 04:31:51] INFO root fetch - main [MainThread]: End processing [straw-machine]: success
+[2023-07-03 04:31:51] INFO root fetch - processPackages [FeishuBitableAPI]: Remove: archive file [/home/abi/fetcher/tmp/FeishuBitableAPI-3.0.tar.gz]
+[2023-07-03 04:31:51] INFO root fetch - processPackages [FeishuBitableAPI]: Remove: archive file [/home/abi/fetcher/tmp/FeishuBitableAPI-3.0.1.tar.gz]
+[2023-07-03 04:31:51] INFO root fetch - main [MainThread]: End processing [FeishuBitableAPI]: success
+[2023-07-03 04:31:51] INFO root fetch - main [MainThread]: Store serial: [18734042]
