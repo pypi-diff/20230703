@@ -17315,3 +17315,329 @@ AssertionError: tmp/docarray-0.9.9.dev4.tar.gz does not exist
 [2023-07-03 14:35:37] INFO root fetch - processPackages [HSTI]: Remove: archive file [/home/abi/fetcher/tmp/HSTI-0.0.9.tar.gz]
 [2023-07-03 14:35:37] INFO root fetch - main [MainThread]: End processing [HSTI]: success
 [2023-07-03 14:35:37] INFO root fetch - main [MainThread]: Store serial: [18738965]
+[2023-07-03 14:40:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18738965]
+[2023-07-03 14:40:49] INFO root fetch - main [MainThread]: Found 37 changed packages
+[2023-07-03 14:40:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: large-image
+[2023-07-03 14:40:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: girder-large-image
+[2023-07-03 14:40:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Bigsansar
+[2023-07-03 14:40:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: girder-large-image-annotation
+[2023-07-03 14:40:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: imp-prof
+[2023-07-03 14:40:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: large-image-converter
+[2023-07-03 14:40:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: large-image-tasks
+[2023-07-03 14:40:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: large-image-source-bioformats
+[2023-07-03 14:40:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: large-image-source-deepzoom
+[2023-07-03 14:40:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: large-image-source-dicom
+[2023-07-03 14:40:49] INFO root fetch - processPackages [large-image-converter]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev6]
+[2023-07-03 14:40:49] INFO root fetch - processPackages [girder-large-image]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev6]
+[2023-07-03 14:40:49] INFO root fetch - processPackages [large-image]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev6]
+[2023-07-03 14:40:49] WARNING root fetch - processPackages [imp-prof]: Skipping, unable to determine old version
+[2023-07-03 14:40:49] INFO root fetch - processPackages [imp-prof]: Start processing: large-image-source-dummy
+[2023-07-03 14:40:49] INFO root fetch - main [MainThread]: End processing [imp-prof] error
+[2023-07-03 14:40:49] INFO root fetch - processPackages [large-image-source-deepzoom]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev6]
+[2023-07-03 14:40:49] INFO root fetch - processPackages [Bigsansar]: New version: [1.8.0] Old Version: [1.7.9]
+[2023-07-03 14:40:49] INFO root fetch - processPackages [large-image-source-dicom]: New version: [1.23.1.dev8] Old Version: [1.23.1.dev6]
+[2023-07-03 14:40:49] INFO root fetch - processPackages [girder-large-image-annotation]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev6]
+[2023-07-03 14:40:49] INFO root fetch - processPackages [large-image-source-bioformats]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev6]
+[2023-07-03 14:40:49] INFO root fetch - processPackages [large-image-tasks]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev6]
+[2023-07-03 14:40:49] INFO root fetch - processPackages [large-image-source-dummy]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev6]
+[2023-07-03 14:40:50] INFO root fetch - processPackages [large-image-converter]: Downloading https://files.pythonhosted.org/packages/4e/e5/c672f0ad384f9f05d26e1baecedc8293d6d88840e5b9d9b43d657e8bfe20/large-image-converter-1.9.1.dev6.tar.gz
+[2023-07-03 14:40:50] INFO root fetch - processPackages [girder-large-image]: Downloading https://files.pythonhosted.org/packages/a1/de/9259311e8ad31f3131b016ae68dbee28c3a85340a5611063ba07e130f4dd/girder-large-image-1.9.1.dev6.tar.gz
+[2023-07-03 14:40:50] INFO root fetch - processPackages [large-image]: Downloading https://files.pythonhosted.org/packages/0e/97/f50d98f73951f053a140a085b971b043dc16e80844122ca59d5c2feeab13/large-image-1.9.1.dev6.tar.gz
+[2023-07-03 14:40:50] INFO root fetch - processPackages [girder-large-image-annotation]: Downloading https://files.pythonhosted.org/packages/c3/18/d99bf917c38c2bfe8e73289ba285a6777b5180e575625de79a961576422c/girder-large-image-annotation-1.9.1.dev6.tar.gz
+[2023-07-03 14:40:50] INFO root fetch - processPackages [large-image-source-dicom]: Downloading https://files.pythonhosted.org/packages/67/2c/9c7c13643322c450209ff33fc5db6e9bcead79faeecd3db3d8744465f449/large-image-source-dicom-1.23.1.dev6.tar.gz
+[2023-07-03 14:40:50] INFO root fetch - processPackages [large-image-tasks]: Downloading https://files.pythonhosted.org/packages/d2/92/d072fa606a4761eb667b0efc0ba4137c9f9b34386f41757c597cdeff49d5/large-image-tasks-1.9.1.dev6.tar.gz
+[2023-07-03 14:40:50] INFO root fetch - processPackages [Bigsansar]: Downloading https://files.pythonhosted.org/packages/9d/3f/911e205db4476d0562ed227edb8fdf8d5161515b8ce331d97c842a905b93/Bigsansar-1.7.9.tar.gz
+[2023-07-03 14:40:50] INFO root fetch - processPackages [large-image-source-deepzoom]: Downloading https://files.pythonhosted.org/packages/16/46/821666cfb4c3a315b4ccc86d7ba529a1af49e4581bbd8b7ca8e1cb5fa4ba/large-image-source-deepzoom-1.9.1.dev6.tar.gz
+[2023-07-03 14:40:50] INFO root fetch - processPackages [large-image-source-bioformats]: Downloading https://files.pythonhosted.org/packages/9f/7d/764189c337fd7a890bec6278bb2e1d065d51af7f06726f3d00b6d3836aa4/large-image-source-bioformats-1.9.1.dev6.tar.gz
+[2023-07-03 14:40:50] INFO root fetch - processPackages [large-image-source-dummy]: Downloading https://files.pythonhosted.org/packages/a7/47/6a6b2735ef16d597973161650868769abbd88ca81aa572367cb13d00618e/large-image-source-dummy-1.9.1.dev6.tar.gz
+[2023-07-03 14:40:50] INFO root fetch - processPackages [girder-large-image-annotation]: Downloading https://files.pythonhosted.org/packages/ca/57/fbf65f3374926f7df27919c0c3d3a4d433f93e014e2405e5aaec1aa92a23/girder-large-image-annotation-1.9.1.dev8.tar.gz
+[2023-07-03 14:40:50] INFO root fetch - processPackages [large-image-converter]: Downloading https://files.pythonhosted.org/packages/2d/90/b675b694e3b2886568e691207cf7a9f742a43b89fe6b6c1877548391d231/large-image-converter-1.9.1.dev8.tar.gz
+[2023-07-03 14:40:50] INFO root fetch - processPackages [girder-large-image]: Downloading https://files.pythonhosted.org/packages/f9/12/4dfe66c1b3eae390e20ba6a8e5537d1e114e878fe6346c8b5dbb5b9efdcc/girder-large-image-1.9.1.dev8.tar.gz
+[2023-07-03 14:40:50] INFO root fetch - processPackages [large-image-source-dicom]: Downloading https://files.pythonhosted.org/packages/d0/7f/4afebf44e0dfd2be96e2f7eec6eb2d88eadcdfd16605910d2e74ae534e14/large-image-source-dicom-1.23.1.dev8.tar.gz
+[2023-07-03 14:40:50] INFO root fetch - processPackages [large-image-tasks]: Downloading https://files.pythonhosted.org/packages/59/66/7de5976597497ff75f76e9d1e817dc755ed82ff85669b1f9613d1b27c9e8/large-image-tasks-1.9.1.dev8.tar.gz
+[2023-07-03 14:40:50] INFO root fetch - processPackages [large-image]: Downloading https://files.pythonhosted.org/packages/22/c4/18264ad18d3664df703883e2fb520f69d307805c93779d26bdaab792bb0b/large-image-1.9.1.dev8.tar.gz
+[2023-07-03 14:40:50] INFO root fetch - processPackages [large-image-source-deepzoom]: Downloading https://files.pythonhosted.org/packages/1f/75/67d4e66af91c90873acb456f65871c79b18f4690638c624ddd6f22d8dc5c/large-image-source-deepzoom-1.9.1.dev8.tar.gz
+[2023-07-03 14:40:50] INFO root fetch - processPackages [large-image-source-bioformats]: Downloading https://files.pythonhosted.org/packages/be/b1/457ea10f23a8022b9045522623e3c24789e308b80800b4fd679928bb7cf8/large-image-source-bioformats-1.9.1.dev8.tar.gz
+[2023-07-03 14:40:50] INFO root fetch - processPackages [Bigsansar]: Downloading https://files.pythonhosted.org/packages/b5/19/e5874e4147620079e0e5bc8aa9a2715e969496ff0886e54f972eb52d1118/Bigsansar-1.8.0.tar.gz
+[2023-07-03 14:40:50] INFO root fetch - processPackages [large-image-converter]: executing diffoscope
+[2023-07-03 14:40:50] INFO root fetch - processPackages [large-image-converter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/large-image-converter-1.9.1.dev6.tar.gz tmp/large-image-converter-1.9.1.dev8.tar.gz --markdown 20230703/l/large-image-converter/1.9.1.dev6-1.9.1.dev8/diff.md --exclude *.pyd
+[2023-07-03 14:40:50] INFO root fetch - processPackages [girder-large-image]: executing diffoscope
+[2023-07-03 14:40:50] INFO root fetch - processPackages [girder-large-image]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/girder-large-image-1.9.1.dev6.tar.gz tmp/girder-large-image-1.9.1.dev8.tar.gz --markdown 20230703/g/girder-large-image/1.9.1.dev6-1.9.1.dev8/diff.md --exclude *.pyd
+[2023-07-03 14:40:50] INFO root fetch - processPackages [large-image-source-dummy]: Downloading https://files.pythonhosted.org/packages/65/2c/392be6b06828c27c73b918dd280229b97af5bf7bdab89b8eb79ed22e60a4/large-image-source-dummy-1.9.1.dev8.tar.gz
+[2023-07-03 14:40:51] INFO root fetch - processPackages [large-image-source-dicom]: executing diffoscope
+[2023-07-03 14:40:51] INFO root fetch - processPackages [large-image-source-dicom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/large-image-source-dicom-1.23.1.dev6.tar.gz tmp/large-image-source-dicom-1.23.1.dev8.tar.gz --markdown 20230703/l/large-image-source-dicom/1.23.1.dev6-1.23.1.dev8/diff.md --exclude *.pyd
+[2023-07-03 14:40:51] INFO root fetch - processPackages [large-image-source-deepzoom]: executing diffoscope
+[2023-07-03 14:40:51] INFO root fetch - processPackages [large-image-source-deepzoom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/large-image-source-deepzoom-1.9.1.dev6.tar.gz tmp/large-image-source-deepzoom-1.9.1.dev8.tar.gz --markdown 20230703/l/large-image-source-deepzoom/1.9.1.dev6-1.9.1.dev8/diff.md --exclude *.pyd
+[2023-07-03 14:40:51] INFO root fetch - processPackages [large-image-tasks]: executing diffoscope
+[2023-07-03 14:40:51] INFO root fetch - processPackages [large-image-tasks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/large-image-tasks-1.9.1.dev6.tar.gz tmp/large-image-tasks-1.9.1.dev8.tar.gz --markdown 20230703/l/large-image-tasks/1.9.1.dev6-1.9.1.dev8/diff.md --exclude *.pyd
+[2023-07-03 14:40:51] INFO root fetch - processPackages [large-image]: executing diffoscope
+[2023-07-03 14:40:51] INFO root fetch - processPackages [large-image]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/large-image-1.9.1.dev6.tar.gz tmp/large-image-1.9.1.dev8.tar.gz --markdown 20230703/l/large-image/1.9.1.dev6-1.9.1.dev8/diff.md --exclude *.pyd
+[2023-07-03 14:40:51] INFO root fetch - processPackages [large-image-source-bioformats]: executing diffoscope
+[2023-07-03 14:40:51] INFO root fetch - processPackages [large-image-source-bioformats]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/large-image-source-bioformats-1.9.1.dev6.tar.gz tmp/large-image-source-bioformats-1.9.1.dev8.tar.gz --markdown 20230703/l/large-image-source-bioformats/1.9.1.dev6-1.9.1.dev8/diff.md --exclude *.pyd
+[2023-07-03 14:40:51] INFO root fetch - processPackages [Bigsansar]: executing diffoscope
+[2023-07-03 14:40:51] INFO root fetch - processPackages [Bigsansar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Bigsansar-1.7.9.tar.gz tmp/Bigsansar-1.8.0.tar.gz --markdown 20230703/B/Bigsansar/1.7.9-1.8.0/diff.md --exclude *.pyd
+[2023-07-03 14:40:51] INFO root fetch - processPackages [large-image-source-dummy]: executing diffoscope
+[2023-07-03 14:40:51] INFO root fetch - processPackages [large-image-source-dummy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/large-image-source-dummy-1.9.1.dev6.tar.gz tmp/large-image-source-dummy-1.9.1.dev8.tar.gz --markdown 20230703/l/large-image-source-dummy/1.9.1.dev6-1.9.1.dev8/diff.md --exclude *.pyd
+[2023-07-03 14:40:51] INFO root fetch - processPackages [girder-large-image-annotation]: executing diffoscope
+[2023-07-03 14:40:51] INFO root fetch - processPackages [girder-large-image-annotation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/girder-large-image-annotation-1.9.1.dev6.tar.gz tmp/girder-large-image-annotation-1.9.1.dev8.tar.gz --markdown 20230703/g/girder-large-image-annotation/1.9.1.dev6-1.9.1.dev8/diff.md --exclude *.pyd
+[2023-07-03 14:40:52] INFO root fetch - processPackages [large-image-source-dicom]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-dicom-1.23.1.dev6.tar.gz]
+[2023-07-03 14:40:52] INFO root fetch - processPackages [large-image-source-dicom]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-dicom-1.23.1.dev8.tar.gz]
+[2023-07-03 14:40:52] INFO root fetch - processPackages [large-image-source-dicom]: Start processing: pytedee-async
+[2023-07-03 14:40:52] INFO root fetch - main [MainThread]: End processing [large-image-source-dicom]: success
+[2023-07-03 14:40:52] INFO root fetch - processPackages [pytedee-async]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-03 14:40:52] INFO root fetch - processPackages [large-image-source-deepzoom]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-deepzoom-1.9.1.dev6.tar.gz]
+[2023-07-03 14:40:52] INFO root fetch - processPackages [large-image-source-deepzoom]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-deepzoom-1.9.1.dev8.tar.gz]
+[2023-07-03 14:40:52] INFO root fetch - processPackages [large-image-source-deepzoom]: Start processing: preflibtools
+[2023-07-03 14:40:52] INFO root fetch - main [MainThread]: End processing [large-image-source-deepzoom]: success
+[2023-07-03 14:40:52] INFO root fetch - processPackages [large-image-converter]: Remove: archive file [/home/abi/fetcher/tmp/large-image-converter-1.9.1.dev6.tar.gz]
+[2023-07-03 14:40:52] INFO root fetch - processPackages [large-image-converter]: Remove: archive file [/home/abi/fetcher/tmp/large-image-converter-1.9.1.dev8.tar.gz]
+[2023-07-03 14:40:52] INFO root fetch - processPackages [large-image-converter]: Start processing: large-image-source-gdal
+[2023-07-03 14:40:52] INFO root fetch - main [MainThread]: End processing [large-image-converter]: success
+[2023-07-03 14:40:52] INFO root fetch - processPackages [preflibtools]: New version: [2.0.7] Old Version: [2.0.6]
+[2023-07-03 14:40:52] INFO root fetch - processPackages [large-image-tasks]: Remove: archive file [/home/abi/fetcher/tmp/large-image-tasks-1.9.1.dev6.tar.gz]
+[2023-07-03 14:40:52] INFO root fetch - processPackages [large-image-tasks]: Remove: archive file [/home/abi/fetcher/tmp/large-image-tasks-1.9.1.dev8.tar.gz]
+[2023-07-03 14:40:52] INFO root fetch - processPackages [large-image-tasks]: Start processing: dank-mids
+[2023-07-03 14:40:52] INFO root fetch - main [MainThread]: End processing [large-image-tasks]: success
+[2023-07-03 14:40:53] INFO root fetch - processPackages [large-image-source-gdal]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev6]
+[2023-07-03 14:40:53] INFO root fetch - processPackages [dank-mids]: New version: [4.20.9] Old Version: [4.20.8]
+[2023-07-03 14:40:53] INFO root fetch - processPackages [large-image-source-bioformats]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-bioformats-1.9.1.dev6.tar.gz]
+[2023-07-03 14:40:53] INFO root fetch - processPackages [large-image-source-bioformats]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-bioformats-1.9.1.dev8.tar.gz]
+[2023-07-03 14:40:53] INFO root fetch - processPackages [large-image-source-bioformats]: Start processing: large-image-source-mapnik
+[2023-07-03 14:40:53] INFO root fetch - main [MainThread]: End processing [large-image-source-bioformats]: success
+[2023-07-03 14:40:53] INFO root fetch - processPackages [large-image-source-dummy]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-dummy-1.9.1.dev6.tar.gz]
+[2023-07-03 14:40:53] INFO root fetch - processPackages [large-image-source-dummy]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-dummy-1.9.1.dev8.tar.gz]
+[2023-07-03 14:40:53] INFO root fetch - processPackages [large-image-source-dummy]: Start processing: large-image-source-multi
+[2023-07-03 14:40:53] INFO root fetch - main [MainThread]: End processing [large-image-source-dummy]: success
+[2023-07-03 14:40:53] INFO root fetch - processPackages [pytedee-async]: Downloading https://files.pythonhosted.org/packages/71/f8/32ce0cc34b2e4300523145d173fc57d1a2207f7e037c570073ac0c1b863f/pytedee_async-0.1.1.tar.gz
+[2023-07-03 14:40:53] INFO root fetch - processPackages [dank-mids]: Downloading https://files.pythonhosted.org/packages/dd/d9/a90cdebb46db5a35fe035f493b14d48e210491b568f4927af7919ab2fdbd/dank_mids-4.20.8.tar.gz
+[2023-07-03 14:40:53] INFO root fetch - processPackages [large-image]: Remove: archive file [/home/abi/fetcher/tmp/large-image-1.9.1.dev6.tar.gz]
+[2023-07-03 14:40:53] INFO root fetch - processPackages [girder-large-image]: Remove: archive file [/home/abi/fetcher/tmp/girder-large-image-1.9.1.dev6.tar.gz]
+[2023-07-03 14:40:53] INFO root fetch - processPackages [large-image]: Remove: archive file [/home/abi/fetcher/tmp/large-image-1.9.1.dev8.tar.gz]
+[2023-07-03 14:40:53] INFO root fetch - processPackages [girder-large-image]: Remove: archive file [/home/abi/fetcher/tmp/girder-large-image-1.9.1.dev8.tar.gz]
+[2023-07-03 14:40:53] INFO root fetch - processPackages [large-image]: Start processing: large-image-source-nd2
+[2023-07-03 14:40:53] INFO root fetch - processPackages [girder-large-image]: Start processing: large-image-source-ometiff
+[2023-07-03 14:40:53] INFO root fetch - main [MainThread]: End processing [large-image]: success
+[2023-07-03 14:40:53] INFO root fetch - main [MainThread]: End processing [girder-large-image]: success
+[2023-07-03 14:40:53] INFO root fetch - processPackages [large-image-source-multi]: New version: [1.23.1.dev8] Old Version: [1.23.1.dev6]
+[2023-07-03 14:40:53] INFO root fetch - processPackages [large-image-source-mapnik]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev6]
+[2023-07-03 14:40:53] INFO root fetch - processPackages [preflibtools]: Downloading https://files.pythonhosted.org/packages/78/01/758799a741cd207d92345a577fcb0b27318eacacf5b43dfa7265a352b322/preflibtools-2.0.6.tar.gz
+[2023-07-03 14:40:53] INFO root fetch - processPackages [girder-large-image-annotation]: Remove: archive file [/home/abi/fetcher/tmp/girder-large-image-annotation-1.9.1.dev6.tar.gz]
+[2023-07-03 14:40:53] INFO root fetch - processPackages [girder-large-image-annotation]: Remove: archive file [/home/abi/fetcher/tmp/girder-large-image-annotation-1.9.1.dev8.tar.gz]
+[2023-07-03 14:40:53] INFO root fetch - processPackages [girder-large-image-annotation]: Start processing: VMedNLP
+[2023-07-03 14:40:53] INFO root fetch - main [MainThread]: End processing [girder-large-image-annotation]: success
+[2023-07-03 14:40:53] INFO root fetch - processPackages [large-image-source-nd2]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev6]
+[2023-07-03 14:40:53] INFO root fetch - processPackages [large-image-source-ometiff]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev6]
+[2023-07-03 14:40:53] INFO root fetch - processPackages [large-image-source-gdal]: Downloading https://files.pythonhosted.org/packages/06/09/9cc15777a61a9746370b4445caa7d36d66ce0b1a197652f2c9da003e5e01/large-image-source-gdal-1.9.1.dev6.tar.gz
+[2023-07-03 14:40:53] INFO root fetch - processPackages [VMedNLP]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-07-03 14:40:53] INFO root fetch - processPackages [Bigsansar]: Remove: archive file [/home/abi/fetcher/tmp/Bigsansar-1.7.9.tar.gz]
+[2023-07-03 14:40:53] INFO root fetch - processPackages [Bigsansar]: Remove: archive file [/home/abi/fetcher/tmp/Bigsansar-1.8.0.tar.gz]
+[2023-07-03 14:40:53] INFO root fetch - processPackages [Bigsansar]: Start processing: large-image-source-openjpeg
+[2023-07-03 14:40:53] INFO root fetch - main [MainThread]: End processing [Bigsansar]: success
+[2023-07-03 14:40:53] INFO root fetch - processPackages [dank-mids]: Downloading https://files.pythonhosted.org/packages/e9/d0/a0c6c8d2d154a0250f47b30968e60098b0d44d3b35571e97a925b9b3984f/dank_mids-4.20.9.tar.gz
+[2023-07-03 14:40:53] INFO root fetch - processPackages [large-image-source-openjpeg]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev6]
+[2023-07-03 14:40:53] INFO root fetch - processPackages [large-image-source-multi]: Downloading https://files.pythonhosted.org/packages/39/c9/09f04834cbeddd2b4b3f1d9e9879f4c1fe4d3a407b7e0551c875955d4884/large-image-source-multi-1.23.1.dev6.tar.gz
+[2023-07-03 14:40:53] INFO root fetch - processPackages [large-image-source-mapnik]: Downloading https://files.pythonhosted.org/packages/ec/f8/40c5e595a0666f11af70b13b5528b91d61179bf3560aa54bf97025e81322/large-image-source-mapnik-1.9.1.dev6.tar.gz
+[2023-07-03 14:40:53] INFO root fetch - processPackages [pytedee-async]: Downloading https://files.pythonhosted.org/packages/83/57/72a463f52c915fcff7e263a6189fafeec937c0efde704537197755c8d8f3/pytedee_async-0.1.2.tar.gz
+[2023-07-03 14:40:53] INFO root fetch - processPackages [large-image-source-ometiff]: Downloading https://files.pythonhosted.org/packages/e8/92/40431cff52dd08697018589d4cd716496dc3b1a45d50f232d8d37f735798/large-image-source-ometiff-1.9.1.dev6.tar.gz
+[2023-07-03 14:40:53] INFO root fetch - processPackages [large-image-source-nd2]: Downloading https://files.pythonhosted.org/packages/1a/29/7390d858dfa6f7980312cb40b7706fbad943f78bf477bf6315522dafc015/large-image-source-nd2-1.9.1.dev6.tar.gz
+[2023-07-03 14:40:53] INFO root fetch - processPackages [VMedNLP]: Downloading https://files.pythonhosted.org/packages/42/3e/20c2643d4de5fdb2f38b41647e085500bb987d0b1ee339dc4e280fa32630/VMedNLP-1.0.0-py38-none-any.whl
+[2023-07-03 14:40:53] INFO root fetch - processPackages [dank-mids]: executing diffoscope
+[2023-07-03 14:40:53] INFO root fetch - processPackages [dank-mids]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dank_mids-4.20.8.tar.gz tmp/dank_mids-4.20.9.tar.gz --markdown 20230703/d/dank-mids/4.20.8-4.20.9/diff.md --exclude *.pyd
+[2023-07-03 14:40:53] INFO root fetch - processPackages [preflibtools]: Downloading https://files.pythonhosted.org/packages/87/9a/b1360d573206dbc4fa7962068c20eaae240c92af2081a763fb0362ba5fc3/preflibtools-2.0.7.tar.gz
+[2023-07-03 14:40:53] INFO root fetch - processPackages [large-image-source-openjpeg]: Downloading https://files.pythonhosted.org/packages/95/ea/1df84324de3d3648afee1380dfe201cc2df04f407dc2811e7244e4f911d8/large-image-source-openjpeg-1.9.1.dev6.tar.gz
+[2023-07-03 14:40:53] INFO root fetch - processPackages [pytedee-async]: executing diffoscope
+[2023-07-03 14:40:53] INFO root fetch - processPackages [pytedee-async]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytedee_async-0.1.1.tar.gz tmp/pytedee_async-0.1.2.tar.gz --markdown 20230703/p/pytedee-async/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-03 14:40:53] INFO root fetch - processPackages [large-image-source-gdal]: Downloading https://files.pythonhosted.org/packages/23/56/8a639012c8318fe32f5c437aac0a345ff997578582ba8e1c5e83d93e4d88/large-image-source-gdal-1.9.1.dev8.tar.gz
+[2023-07-03 14:40:53] INFO root fetch - processPackages [preflibtools]: executing diffoscope
+[2023-07-03 14:40:53] INFO root fetch - processPackages [preflibtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/preflibtools-2.0.6.tar.gz tmp/preflibtools-2.0.7.tar.gz --markdown 20230703/p/preflibtools/2.0.6-2.0.7/diff.md --exclude *.pyd
+[2023-07-03 14:40:54] INFO root fetch - processPackages [large-image-source-gdal]: executing diffoscope
+[2023-07-03 14:40:54] INFO root fetch - processPackages [large-image-source-gdal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/large-image-source-gdal-1.9.1.dev6.tar.gz tmp/large-image-source-gdal-1.9.1.dev8.tar.gz --markdown 20230703/l/large-image-source-gdal/1.9.1.dev6-1.9.1.dev8/diff.md --exclude *.pyd
+[2023-07-03 14:40:54] INFO root fetch - processPackages [large-image-source-multi]: Downloading https://files.pythonhosted.org/packages/ae/1d/9f569e9a41c27e2e46551f69fc25a2e483248e7b17cbe79c4780233bba22/large-image-source-multi-1.23.1.dev8.tar.gz
+[2023-07-03 14:40:54] INFO root fetch - processPackages [large-image-source-mapnik]: Downloading https://files.pythonhosted.org/packages/cb/26/ae6c10f6388de2806ecc5e1ca9d5afad29ab6d5ac2e1d280a53970288577/large-image-source-mapnik-1.9.1.dev8.tar.gz
+[2023-07-03 14:40:54] INFO root fetch - processPackages [VMedNLP]: Downloading https://files.pythonhosted.org/packages/3f/4e/6b860c55aee0574551b9fa91b84ab23824237f3c362e3e2b7963490d8df4/VMedNLP-1.1.0-py38-none-any.whl
+[2023-07-03 14:40:54] INFO root fetch - processPackages [large-image-source-ometiff]: Downloading https://files.pythonhosted.org/packages/8f/73/a25300dd64f045a5c3bad6c454d98e1d7dc0728d40536c8ec22fe913f92b/large-image-source-ometiff-1.9.1.dev8.tar.gz
+[2023-07-03 14:40:54] INFO root fetch - processPackages [large-image-source-nd2]: Downloading https://files.pythonhosted.org/packages/e2/73/86ec6d93de63690b5e2a8a2f6fc98fce9a12e4da38b4cfc37f1188c0240c/large-image-source-nd2-1.9.1.dev8.tar.gz
+[2023-07-03 14:40:54] INFO root fetch - processPackages [large-image-source-openjpeg]: Downloading https://files.pythonhosted.org/packages/b7/c9/95c7e2154104780b160e9968dd9863f2de88d77a5986bc280d05e4811ebd/large-image-source-openjpeg-1.9.1.dev8.tar.gz
+[2023-07-03 14:40:54] INFO root fetch - processPackages [large-image-source-multi]: executing diffoscope
+[2023-07-03 14:40:54] INFO root fetch - processPackages [large-image-source-mapnik]: executing diffoscope
+[2023-07-03 14:40:54] INFO root fetch - processPackages [large-image-source-multi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/large-image-source-multi-1.23.1.dev6.tar.gz tmp/large-image-source-multi-1.23.1.dev8.tar.gz --markdown 20230703/l/large-image-source-multi/1.23.1.dev6-1.23.1.dev8/diff.md --exclude *.pyd
+[2023-07-03 14:40:54] INFO root fetch - processPackages [large-image-source-mapnik]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/large-image-source-mapnik-1.9.1.dev6.tar.gz tmp/large-image-source-mapnik-1.9.1.dev8.tar.gz --markdown 20230703/l/large-image-source-mapnik/1.9.1.dev6-1.9.1.dev8/diff.md --exclude *.pyd
+[2023-07-03 14:40:54] INFO root fetch - processPackages [large-image-source-ometiff]: executing diffoscope
+[2023-07-03 14:40:54] INFO root fetch - processPackages [large-image-source-ometiff]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/large-image-source-ometiff-1.9.1.dev6.tar.gz tmp/large-image-source-ometiff-1.9.1.dev8.tar.gz --markdown 20230703/l/large-image-source-ometiff/1.9.1.dev6-1.9.1.dev8/diff.md --exclude *.pyd
+[2023-07-03 14:40:54] INFO root fetch - processPackages [large-image-source-nd2]: executing diffoscope
+[2023-07-03 14:40:54] INFO root fetch - processPackages [large-image-source-nd2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/large-image-source-nd2-1.9.1.dev6.tar.gz tmp/large-image-source-nd2-1.9.1.dev8.tar.gz --markdown 20230703/l/large-image-source-nd2/1.9.1.dev6-1.9.1.dev8/diff.md --exclude *.pyd
+[2023-07-03 14:40:54] INFO root fetch - processPackages [large-image-source-openjpeg]: executing diffoscope
+[2023-07-03 14:40:54] INFO root fetch - processPackages [large-image-source-openjpeg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/large-image-source-openjpeg-1.9.1.dev6.tar.gz tmp/large-image-source-openjpeg-1.9.1.dev8.tar.gz --markdown 20230703/l/large-image-source-openjpeg/1.9.1.dev6-1.9.1.dev8/diff.md --exclude *.pyd
+[2023-07-03 14:40:54] INFO root fetch - processPackages [VMedNLP]: executing diffoscope
+[2023-07-03 14:40:54] INFO root fetch - processPackages [VMedNLP]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/VMedNLP-1.0.0-py38-none-any.whl.zip tmp/VMedNLP-1.1.0-py38-none-any.whl.zip --markdown 20230703/V/VMedNLP/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-07-03 14:40:55] INFO root fetch - processPackages [pytedee-async]: Remove: archive file [/home/abi/fetcher/tmp/pytedee_async-0.1.1.tar.gz]
+[2023-07-03 14:40:55] INFO root fetch - processPackages [pytedee-async]: Remove: archive file [/home/abi/fetcher/tmp/pytedee_async-0.1.2.tar.gz]
+[2023-07-03 14:40:55] INFO root fetch - processPackages [pytedee-async]: Start processing: large-image-source-openslide
+[2023-07-03 14:40:55] INFO root fetch - main [MainThread]: End processing [pytedee-async]: success
+[2023-07-03 14:40:55] INFO root fetch - processPackages [dank-mids]: Remove: archive file [/home/abi/fetcher/tmp/dank_mids-4.20.8.tar.gz]
+[2023-07-03 14:40:55] INFO root fetch - processPackages [dank-mids]: Remove: archive file [/home/abi/fetcher/tmp/dank_mids-4.20.9.tar.gz]
+[2023-07-03 14:40:55] INFO root fetch - processPackages [dank-mids]: Start processing: large-image-source-pil
+[2023-07-03 14:40:55] INFO root fetch - main [MainThread]: End processing [dank-mids]: success
+[2023-07-03 14:40:55] INFO root fetch - processPackages [large-image-source-openslide]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev6]
+[2023-07-03 14:40:55] INFO root fetch - processPackages [large-image-source-pil]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev6]
+[2023-07-03 14:40:55] INFO root fetch - processPackages [large-image-source-openslide]: Downloading https://files.pythonhosted.org/packages/73/2c/cb5bcd12f494516af0965d8399bae2e5b62d6c0afc01da7b16b2ebef69c2/large-image-source-openslide-1.9.1.dev6.tar.gz
+[2023-07-03 14:40:55] INFO root fetch - processPackages [large-image-source-pil]: Downloading https://files.pythonhosted.org/packages/62/43/ee7dff22ed2010638ae04420c847d0eeeffd3ec95c15aef5dd78c0f9de79/large-image-source-pil-1.9.1.dev6.tar.gz
+[2023-07-03 14:40:55] INFO root fetch - processPackages [large-image-source-gdal]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-gdal-1.9.1.dev6.tar.gz]
+[2023-07-03 14:40:55] INFO root fetch - processPackages [large-image-source-gdal]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-gdal-1.9.1.dev8.tar.gz]
+[2023-07-03 14:40:55] INFO root fetch - processPackages [large-image-source-gdal]: Start processing: large-image-source-rasterio
+[2023-07-03 14:40:55] INFO root fetch - main [MainThread]: End processing [large-image-source-gdal]: success
+[2023-07-03 14:40:55] INFO root fetch - processPackages [large-image-source-rasterio]: New version: [1.23.1.dev8] Old Version: [1.23.1.dev6]
+[2023-07-03 14:40:55] INFO root fetch - processPackages [preflibtools]: Remove: archive file [/home/abi/fetcher/tmp/preflibtools-2.0.6.tar.gz]
+[2023-07-03 14:40:55] INFO root fetch - processPackages [preflibtools]: Remove: archive file [/home/abi/fetcher/tmp/preflibtools-2.0.7.tar.gz]
+[2023-07-03 14:40:55] INFO root fetch - processPackages [preflibtools]: Start processing: large-image-source-test
+[2023-07-03 14:40:55] INFO root fetch - main [MainThread]: End processing [preflibtools]: success
+[2023-07-03 14:40:55] INFO root fetch - processPackages [large-image-source-test]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev6]
+[2023-07-03 14:40:55] INFO root fetch - processPackages [large-image-source-openslide]: Downloading https://files.pythonhosted.org/packages/f0/7e/d45a7c8f1888ff585bf418622f627fb048aaa7ed8d8e2b8d7e97a3c27f8e/large-image-source-openslide-1.9.1.dev8.tar.gz
+[2023-07-03 14:40:56] INFO root fetch - processPackages [large-image-source-rasterio]: Downloading https://files.pythonhosted.org/packages/f1/1a/dcefc54ed61767b62f459c0cc1fbb5cb2eac443861eb7612de9600a4ded0/large-image-source-rasterio-1.23.1.dev6.tar.gz
+[2023-07-03 14:40:56] INFO root fetch - processPackages [large-image-source-ometiff]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-ometiff-1.9.1.dev6.tar.gz]
+[2023-07-03 14:40:56] INFO root fetch - processPackages [large-image-source-ometiff]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-ometiff-1.9.1.dev8.tar.gz]
+[2023-07-03 14:40:56] INFO root fetch - processPackages [large-image-source-ometiff]: Start processing: large-image-source-tiff
+[2023-07-03 14:40:56] INFO root fetch - main [MainThread]: End processing [large-image-source-ometiff]: success
+[2023-07-03 14:40:56] INFO root fetch - processPackages [large-image-source-pil]: Downloading https://files.pythonhosted.org/packages/51/73/2b201201e4bd4d42037d602dc35d468eba8131dce691debda3e43e3817f7/large-image-source-pil-1.9.1.dev8.tar.gz
+[2023-07-03 14:40:56] INFO root fetch - processPackages [large-image-source-tiff]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev6]
+[2023-07-03 14:40:56] INFO root fetch - processPackages [large-image-source-openslide]: executing diffoscope
+[2023-07-03 14:40:56] INFO root fetch - processPackages [large-image-source-openslide]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/large-image-source-openslide-1.9.1.dev6.tar.gz tmp/large-image-source-openslide-1.9.1.dev8.tar.gz --markdown 20230703/l/large-image-source-openslide/1.9.1.dev6-1.9.1.dev8/diff.md --exclude *.pyd
+[2023-07-03 14:40:56] INFO root fetch - processPackages [large-image-source-mapnik]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-mapnik-1.9.1.dev6.tar.gz]
+[2023-07-03 14:40:56] INFO root fetch - processPackages [large-image-source-mapnik]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-mapnik-1.9.1.dev8.tar.gz]
+[2023-07-03 14:40:56] INFO root fetch - processPackages [large-image-source-mapnik]: Start processing: roodkcab
+[2023-07-03 14:40:56] INFO root fetch - main [MainThread]: End processing [large-image-source-mapnik]: success
+[2023-07-03 14:40:56] INFO root fetch - processPackages [large-image-source-test]: Downloading https://files.pythonhosted.org/packages/8d/5f/0655a339ab1bb6dda15d0c4e174a5c2f0eae690a497018f912f490f67c26/large-image-source-test-1.9.1.dev6.tar.gz
+[2023-07-03 14:40:56] INFO root fetch - processPackages [large-image-source-pil]: executing diffoscope
+[2023-07-03 14:40:56] INFO root fetch - processPackages [large-image-source-pil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/large-image-source-pil-1.9.1.dev6.tar.gz tmp/large-image-source-pil-1.9.1.dev8.tar.gz --markdown 20230703/l/large-image-source-pil/1.9.1.dev6-1.9.1.dev8/diff.md --exclude *.pyd
+[2023-07-03 14:40:56] INFO root fetch - processPackages [large-image-source-openjpeg]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-openjpeg-1.9.1.dev6.tar.gz]
+[2023-07-03 14:40:56] INFO root fetch - processPackages [large-image-source-openjpeg]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-openjpeg-1.9.1.dev8.tar.gz]
+[2023-07-03 14:40:56] INFO root fetch - processPackages [large-image-source-openjpeg]: Start processing: large-image-source-tifffile
+[2023-07-03 14:40:56] INFO root fetch - main [MainThread]: End processing [large-image-source-openjpeg]: success
+[2023-07-03 14:40:56] INFO root fetch - processPackages [large-image-source-nd2]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-nd2-1.9.1.dev6.tar.gz]
+[2023-07-03 14:40:56] INFO root fetch - processPackages [large-image-source-nd2]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-nd2-1.9.1.dev8.tar.gz]
+[2023-07-03 14:40:56] INFO root fetch - processPackages [large-image-source-nd2]: Start processing: large-image-source-vips
+[2023-07-03 14:40:56] INFO root fetch - main [MainThread]: End processing [large-image-source-nd2]: success
+[2023-07-03 14:40:56] INFO root fetch - processPackages [roodkcab]: New version: [3.3] Old Version: [3.2]
+[2023-07-03 14:40:56] INFO root fetch - processPackages [large-image-source-tifffile]: New version: [1.23.1.dev8] Old Version: [1.23.1.dev6]
+[2023-07-03 14:40:56] INFO root fetch - processPackages [large-image-source-vips]: New version: [1.23.1.dev8] Old Version: [1.23.1.dev6]
+[2023-07-03 14:40:56] INFO root fetch - processPackages [roodkcab]: Downloading https://files.pythonhosted.org/packages/c3/02/a23501498846dc037f031199b2935f840600bdd106d564aeeb96a22ab4ee/roodkcab-3.2.tar.gz
+[2023-07-03 14:40:56] INFO root fetch - processPackages [large-image-source-tiff]: Downloading https://files.pythonhosted.org/packages/de/d8/11a04e7da12bfb1cea85e4c0ff3b470f2d1e1b4f18bdbc908482765c9bef/large-image-source-tiff-1.9.1.dev6.tar.gz
+[2023-07-03 14:40:56] INFO root fetch - processPackages [large-image-source-rasterio]: Downloading https://files.pythonhosted.org/packages/d2/d2/c4c70cd89d0713cb6220b8eda0f556b8ab1a8ac5e84696766e246a5b7477/large-image-source-rasterio-1.23.1.dev8.tar.gz
+[2023-07-03 14:40:56] INFO root fetch - processPackages [large-image-source-multi]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-multi-1.23.1.dev6.tar.gz]
+[2023-07-03 14:40:56] INFO root fetch - processPackages [large-image-source-multi]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-multi-1.23.1.dev8.tar.gz]
+[2023-07-03 14:40:56] INFO root fetch - processPackages [large-image-source-multi]: Start processing: projen
+[2023-07-03 14:40:56] INFO root fetch - main [MainThread]: End processing [large-image-source-multi]: success
+[2023-07-03 14:40:56] INFO root fetch - processPackages [VMedNLP]: Remove: archive file [/home/abi/fetcher/tmp/VMedNLP-1.0.0-py38-none-any.whl.zip]
+[2023-07-03 14:40:56] INFO root fetch - processPackages [VMedNLP]: Remove: archive file [/home/abi/fetcher/tmp/VMedNLP-1.1.0-py38-none-any.whl.zip]
+[2023-07-03 14:40:56] INFO root fetch - processPackages [VMedNLP]: Start processing: HSTI
+[2023-07-03 14:40:56] INFO root fetch - main [MainThread]: End processing [VMedNLP]: success
+[2023-07-03 14:40:56] INFO root fetch - processPackages [projen]: New version: [0.71.99] Old Version: [0.71.98]
+[2023-07-03 14:40:56] INFO root fetch - processPackages [HSTI]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-03 14:40:56] INFO root fetch - processPackages [large-image-source-test]: Downloading https://files.pythonhosted.org/packages/6c/52/b863313751b2cf1efc96557c639944027ef1db00dedd386ad79707764cfe/large-image-source-test-1.9.1.dev8.tar.gz
+[2023-07-03 14:40:56] INFO root fetch - processPackages [large-image-source-vips]: Downloading https://files.pythonhosted.org/packages/7c/71/7509720c3ed7d541d09a491b1e36650166670bf537f044f10fd612cab67e/large-image-source-vips-1.23.1.dev6.tar.gz
+[2023-07-03 14:40:56] INFO root fetch - processPackages [large-image-source-rasterio]: executing diffoscope
+[2023-07-03 14:40:56] INFO root fetch - processPackages [large-image-source-rasterio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/large-image-source-rasterio-1.23.1.dev6.tar.gz tmp/large-image-source-rasterio-1.23.1.dev8.tar.gz --markdown 20230703/l/large-image-source-rasterio/1.23.1.dev6-1.23.1.dev8/diff.md --exclude *.pyd
+[2023-07-03 14:40:56] INFO root fetch - processPackages [large-image-source-tifffile]: Downloading https://files.pythonhosted.org/packages/47/1e/d3fda205f7ea5e59ebea16048e9617efcbcfb775321befe7f6689adf7598/large-image-source-tifffile-1.23.1.dev6.tar.gz
+[2023-07-03 14:40:56] INFO root fetch - processPackages [projen]: Downloading https://files.pythonhosted.org/packages/e6/32/7b9177419a0f336c70af7f165826714344a50cfd40e5990d888982c6ac99/projen-0.71.98.tar.gz
+[2023-07-03 14:40:56] INFO root fetch - processPackages [HSTI]: Downloading https://files.pythonhosted.org/packages/61/ba/843e4a6a39f024e15e9f248b8b9daf6551846c6e8b5257f75db604fdbd56/HSTI-0.0.8.tar.gz
+[2023-07-03 14:40:56] INFO root fetch - processPackages [roodkcab]: Downloading https://files.pythonhosted.org/packages/7b/e4/d3c3ef6cc3a5ab9f58faf00e0c9b67e0da551a49cab0c1dca866cc0bf86d/roodkcab-3.3.tar.gz
+[2023-07-03 14:40:56] INFO root fetch - processPackages [large-image-source-test]: executing diffoscope
+[2023-07-03 14:40:56] INFO root fetch - processPackages [large-image-source-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/large-image-source-test-1.9.1.dev6.tar.gz tmp/large-image-source-test-1.9.1.dev8.tar.gz --markdown 20230703/l/large-image-source-test/1.9.1.dev6-1.9.1.dev8/diff.md --exclude *.pyd
+[2023-07-03 14:40:56] INFO root fetch - processPackages [large-image-source-tiff]: Downloading https://files.pythonhosted.org/packages/1d/e4/def78005a865fada3d6d1f1d1b45d1dc76a9ba074c2b7284b81717b67cea/large-image-source-tiff-1.9.1.dev8.tar.gz
+[2023-07-03 14:40:56] INFO root fetch - processPackages [roodkcab]: executing diffoscope
+[2023-07-03 14:40:56] INFO root fetch - processPackages [roodkcab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/roodkcab-3.2.tar.gz tmp/roodkcab-3.3.tar.gz --markdown 20230703/r/roodkcab/3.2-3.3/diff.md --exclude *.pyd
+[2023-07-03 14:40:57] INFO root fetch - processPackages [large-image-source-tiff]: executing diffoscope
+[2023-07-03 14:40:57] INFO root fetch - processPackages [large-image-source-tiff]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/large-image-source-tiff-1.9.1.dev6.tar.gz tmp/large-image-source-tiff-1.9.1.dev8.tar.gz --markdown 20230703/l/large-image-source-tiff/1.9.1.dev6-1.9.1.dev8/diff.md --exclude *.pyd
+[2023-07-03 14:40:57] INFO root fetch - processPackages [large-image-source-vips]: Downloading https://files.pythonhosted.org/packages/e6/19/9cfeceb7865e9a547c33489db23e35c12a4be7bc984ca1579fb60c184fdb/large-image-source-vips-1.23.1.dev8.tar.gz
+[2023-07-03 14:40:57] INFO root fetch - processPackages [large-image-source-tifffile]: Downloading https://files.pythonhosted.org/packages/d7/c9/6ba308a8ebd0504243368a6435046a9525d9939715cc35ace23a053cb30d/large-image-source-tifffile-1.23.1.dev8.tar.gz
+[2023-07-03 14:40:57] INFO root fetch - processPackages [large-image-source-vips]: executing diffoscope
+[2023-07-03 14:40:57] INFO root fetch - processPackages [large-image-source-vips]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/large-image-source-vips-1.23.1.dev6.tar.gz tmp/large-image-source-vips-1.23.1.dev8.tar.gz --markdown 20230703/l/large-image-source-vips/1.23.1.dev6-1.23.1.dev8/diff.md --exclude *.pyd
+[2023-07-03 14:40:57] INFO root fetch - processPackages [large-image-source-pil]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-pil-1.9.1.dev6.tar.gz]
+[2023-07-03 14:40:57] INFO root fetch - processPackages [large-image-source-pil]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-pil-1.9.1.dev8.tar.gz]
+[2023-07-03 14:40:57] INFO root fetch - processPackages [large-image-source-pil]: Start processing: pioreactor-basic-auth-for-ui
+[2023-07-03 14:40:57] INFO root fetch - main [MainThread]: End processing [large-image-source-pil]: success
+[2023-07-03 14:40:57] INFO root fetch - processPackages [large-image-source-tifffile]: executing diffoscope
+[2023-07-03 14:40:57] INFO root fetch - processPackages [large-image-source-tifffile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/large-image-source-tifffile-1.23.1.dev6.tar.gz tmp/large-image-source-tifffile-1.23.1.dev8.tar.gz --markdown 20230703/l/large-image-source-tifffile/1.23.1.dev6-1.23.1.dev8/diff.md --exclude *.pyd
+[2023-07-03 14:40:57] INFO root fetch - processPackages [pioreactor-basic-auth-for-ui]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-03 14:40:57] INFO root fetch - processPackages [HSTI]: Downloading https://files.pythonhosted.org/packages/d8/11/fc8e17c1c7ea1ed6d3fe2ace9c4bdf9f92089ddcd32e4c2f4e2c0d60dc8f/HSTI-0.0.9.tar.gz
+[2023-07-03 14:40:57] INFO root fetch - processPackages [large-image-source-openslide]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-openslide-1.9.1.dev6.tar.gz]
+[2023-07-03 14:40:57] INFO root fetch - processPackages [large-image-source-openslide]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-openslide-1.9.1.dev8.tar.gz]
+[2023-07-03 14:40:57] INFO root fetch - processPackages [large-image-source-openslide]: Start processing: xsarsea
+[2023-07-03 14:40:57] INFO root fetch - main [MainThread]: End processing [large-image-source-openslide]: success
+[2023-07-03 14:40:57] INFO root fetch - processPackages [pioreactor-basic-auth-for-ui]: Downloading https://files.pythonhosted.org/packages/7e/d3/f2e90e20371e810a69cc188c50bf94a9dd0141b0b80283fc5a0a01eb934e/pioreactor_basic_auth_for_ui-0.0.1-py3-none-any.whl
+[2023-07-03 14:40:57] INFO root fetch - processPackages [xsarsea]: New version: [0.7] Old Version: [0.6]
+[2023-07-03 14:40:57] INFO root fetch - processPackages [projen]: Downloading https://files.pythonhosted.org/packages/21/a6/caf5451fda5ceed9de3dfadecf33e65b6279d0a5dfa4350206da3da20fac/projen-0.71.99.tar.gz
+[2023-07-03 14:40:57] INFO root fetch - processPackages [xsarsea]: Downloading https://files.pythonhosted.org/packages/68/55/158540b3dc012cb6acc0b77ea656bf39bbfa08fc2c35f16fcbe9bb1cdd52/xsarsea-0.6.tar.gz
+[2023-07-03 14:40:58] INFO root fetch - processPackages [large-image-source-rasterio]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-rasterio-1.23.1.dev6.tar.gz]
+[2023-07-03 14:40:58] INFO root fetch - processPackages [large-image-source-rasterio]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-rasterio-1.23.1.dev8.tar.gz]
+[2023-07-03 14:40:58] INFO root fetch - processPackages [large-image-source-rasterio]: Start processing: eventix
+[2023-07-03 14:40:58] INFO root fetch - main [MainThread]: End processing [large-image-source-rasterio]: success
+[2023-07-03 14:40:58] INFO root fetch - processPackages [HSTI]: executing diffoscope
+[2023-07-03 14:40:58] INFO root fetch - processPackages [pioreactor-basic-auth-for-ui]: Downloading https://files.pythonhosted.org/packages/3a/bf/6996e856f3a33b2ac2dac47e91f3420b49992607e8377bb0d61e5d24f56c/pioreactor_basic_auth_for_ui-0.0.2-py3-none-any.whl
+[2023-07-03 14:40:58] INFO root fetch - processPackages [HSTI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/HSTI-0.0.8.tar.gz tmp/HSTI-0.0.9.tar.gz --markdown 20230703/H/HSTI/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-03 14:40:58] INFO root fetch - processPackages [eventix]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-07-03 14:40:58] INFO root fetch - processPackages [large-image-source-test]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-test-1.9.1.dev6.tar.gz]
+[2023-07-03 14:40:58] INFO root fetch - processPackages [large-image-source-test]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-test-1.9.1.dev8.tar.gz]
+[2023-07-03 14:40:58] INFO root fetch - processPackages [large-image-source-test]: Start processing: HSTI
+[2023-07-03 14:40:58] INFO root fetch - main [MainThread]: End processing [large-image-source-test]: success
+[2023-07-03 14:40:58] INFO root fetch - processPackages [pioreactor-basic-auth-for-ui]: executing diffoscope
+[2023-07-03 14:40:58] INFO root fetch - processPackages [pioreactor-basic-auth-for-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pioreactor_basic_auth_for_ui-0.0.1-py3-none-any.whl.zip tmp/pioreactor_basic_auth_for_ui-0.0.2-py3-none-any.whl.zip --markdown 20230703/p/pioreactor-basic-auth-for-ui/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-03 14:40:58] INFO root fetch - processPackages [HSTI]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-03 14:40:58] INFO root fetch - processPackages [eventix]: Downloading https://files.pythonhosted.org/packages/d8/c2/5229f4cf79b50d311eb35cf47979d8b29188a4e16249660b54d4bb7f1851/eventix-0.2.0.tar.gz
+[2023-07-03 14:40:58] INFO root fetch - processPackages [roodkcab]: Remove: archive file [/home/abi/fetcher/tmp/roodkcab-3.2.tar.gz]
+[2023-07-03 14:40:58] INFO root fetch - processPackages [roodkcab]: Remove: archive file [/home/abi/fetcher/tmp/roodkcab-3.3.tar.gz]
+[2023-07-03 14:40:58] INFO root fetch - processPackages [roodkcab]: Start processing: metaphor-connectors
+[2023-07-03 14:40:58] INFO root fetch - main [MainThread]: End processing [roodkcab]: success
+[2023-07-03 14:40:58] INFO root fetch - processPackages [xsarsea]: Downloading https://files.pythonhosted.org/packages/16/aa/106e1974e9e60643c573cdd71a435045ecab461200eb41aba3b9198f55b6/xsarsea-0.7.tar.gz
+[2023-07-03 14:40:58] INFO root fetch - processPackages [projen]: executing diffoscope
+[2023-07-03 14:40:58] INFO root fetch - processPackages [projen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/projen-0.71.98.tar.gz tmp/projen-0.71.99.tar.gz --markdown 20230703/p/projen/0.71.98-0.71.99/diff.md --exclude *.pyd
+[2023-07-03 14:40:58] INFO root fetch - processPackages [metaphor-connectors]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-07-03 14:40:58] INFO root fetch - processPackages [HSTI]: executing diffoscope
+[2023-07-03 14:40:58] INFO root fetch - processPackages [HSTI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/HSTI-0.0.8.tar.gz tmp/HSTI-0.0.9.tar.gz --markdown 20230703/H/HSTI/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-03 14:40:58] INFO root fetch - processPackages [large-image-source-tiff]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-tiff-1.9.1.dev6.tar.gz]
+[2023-07-03 14:40:58] INFO root fetch - processPackages [large-image-source-tiff]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-tiff-1.9.1.dev8.tar.gz]
+[2023-07-03 14:40:58] INFO root fetch - processPackages [large-image-source-tiff]: Start processing: webexception
+[2023-07-03 14:40:58] INFO root fetch - main [MainThread]: End processing [large-image-source-tiff]: success
+[2023-07-03 14:40:58] INFO root fetch - processPackages [large-image-source-tifffile]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-tifffile-1.23.1.dev6.tar.gz]
+[2023-07-03 14:40:58] INFO root fetch - processPackages [large-image-source-tifffile]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-tifffile-1.23.1.dev8.tar.gz]
+[2023-07-03 14:40:58] INFO root fetch - main [MainThread]: End processing [large-image-source-tifffile]: success
+[2023-07-03 14:40:58] INFO root fetch - processPackages [large-image-source-vips]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-vips-1.23.1.dev6.tar.gz]
+[2023-07-03 14:40:58] INFO root fetch - processPackages [large-image-source-vips]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-vips-1.23.1.dev8.tar.gz]
+[2023-07-03 14:40:58] INFO root fetch - main [MainThread]: End processing [large-image-source-vips]: success
+[2023-07-03 14:40:58] INFO root fetch - processPackages [xsarsea]: executing diffoscope
+[2023-07-03 14:40:58] INFO root fetch - processPackages [xsarsea]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xsarsea-0.6.tar.gz tmp/xsarsea-0.7.tar.gz --markdown 20230703/x/xsarsea/0.6-0.7/diff.md --exclude *.pyd
+[2023-07-03 14:40:58] INFO root fetch - processPackages [eventix]: Downloading https://files.pythonhosted.org/packages/8b/1e/c9c49faa133d0d5a8602c641632c53229cda4c673e6971ef876dc507db36/eventix-0.3.0.tar.gz
+[2023-07-03 14:40:58] INFO root fetch - processPackages [webexception]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-07-03 14:40:58] INFO root fetch - processPackages [metaphor-connectors]: Downloading https://files.pythonhosted.org/packages/92/c2/f775488949e85740917971e97fbd1e7187de61421ac7fbbc9d5485275473/metaphor-connectors-0.9.3.tar.gz
+[2023-07-03 14:40:58] INFO root fetch - processPackages [eventix]: executing diffoscope
+[2023-07-03 14:40:58] INFO root fetch - processPackages [eventix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eventix-0.2.0.tar.gz tmp/eventix-0.3.0.tar.gz --markdown 20230703/e/eventix/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-07-03 14:40:59] INFO root fetch - processPackages [webexception]: Downloading https://files.pythonhosted.org/packages/9e/2b/b8e5976dd75c17ea768de120642b98160e917c81c15569231176b7cad915/webexception-1.0.2.tar.gz
+[2023-07-03 14:40:59] INFO root fetch - processPackages [metaphor-connectors]: Downloading https://files.pythonhosted.org/packages/7e/f3/fd51e0c2498f7340487d8eba1ee24a716e8056cce2a496a20f5da0cc11de/metaphor-connectors-0.9.4.tar.gz
+[2023-07-03 14:40:59] INFO root fetch - processPackages [webexception]: Downloading https://files.pythonhosted.org/packages/ce/12/1cef6bf4834cce70ec2a317009e596eec4f61c0f27c5cf860a3d166234e9/webexception-1.0.3.tar.gz
+[2023-07-03 14:40:59] INFO root fetch - processPackages [pioreactor-basic-auth-for-ui]: Remove: archive file [/home/abi/fetcher/tmp/pioreactor_basic_auth_for_ui-0.0.1-py3-none-any.whl.zip]
+[2023-07-03 14:40:59] INFO root fetch - processPackages [pioreactor-basic-auth-for-ui]: Remove: archive file [/home/abi/fetcher/tmp/pioreactor_basic_auth_for_ui-0.0.2-py3-none-any.whl.zip]
+[2023-07-03 14:40:59] INFO root fetch - main [MainThread]: End processing [pioreactor-basic-auth-for-ui]: success
+[2023-07-03 14:40:59] INFO root fetch - processPackages [metaphor-connectors]: executing diffoscope
+[2023-07-03 14:40:59] INFO root fetch - processPackages [metaphor-connectors]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metaphor-connectors-0.9.3.tar.gz tmp/metaphor-connectors-0.9.4.tar.gz --markdown 20230703/m/metaphor-connectors/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-07-03 14:40:59] INFO root fetch - processPackages [webexception]: executing diffoscope
+[2023-07-03 14:40:59] INFO root fetch - processPackages [webexception]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/webexception-1.0.2.tar.gz tmp/webexception-1.0.3.tar.gz --markdown 20230703/w/webexception/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-07-03 14:41:00] INFO root fetch - processPackages [eventix]: Remove: archive file [/home/abi/fetcher/tmp/eventix-0.2.0.tar.gz]
+[2023-07-03 14:41:00] INFO root fetch - processPackages [eventix]: Remove: archive file [/home/abi/fetcher/tmp/eventix-0.3.0.tar.gz]
+[2023-07-03 14:41:00] INFO root fetch - main [MainThread]: End processing [eventix]: success
+[2023-07-03 14:41:00] INFO root fetch - processPackages [xsarsea]: Remove: archive file [/home/abi/fetcher/tmp/xsarsea-0.6.tar.gz]
+[2023-07-03 14:41:00] INFO root fetch - processPackages [xsarsea]: Remove: archive file [/home/abi/fetcher/tmp/xsarsea-0.7.tar.gz]
+[2023-07-03 14:41:00] INFO root fetch - main [MainThread]: End processing [xsarsea]: success
+[2023-07-03 14:41:00] INFO root fetch - processPackages [projen]: Remove: archive file [/home/abi/fetcher/tmp/projen-0.71.98.tar.gz]
+[2023-07-03 14:41:00] INFO root fetch - processPackages [projen]: Remove: archive file [/home/abi/fetcher/tmp/projen-0.71.99.tar.gz]
+[2023-07-03 14:41:00] INFO root fetch - main [MainThread]: End processing [projen]: success
+[2023-07-03 14:41:00] INFO root fetch - processPackages [HSTI]: Remove: archive file [/home/abi/fetcher/tmp/HSTI-0.0.8.tar.gz]
+[2023-07-03 14:41:00] INFO root fetch - processPackages [HSTI]: Remove: archive file [/home/abi/fetcher/tmp/HSTI-0.0.9.tar.gz]
+[2023-07-03 14:41:00] INFO root fetch - main [MainThread]: End processing [HSTI]: success
+[2023-07-03 14:41:00] INFO root fetch - processPackages [webexception]: Remove: archive file [/home/abi/fetcher/tmp/webexception-1.0.2.tar.gz]
+[2023-07-03 14:41:00] INFO root fetch - processPackages [webexception]: Remove: archive file [/home/abi/fetcher/tmp/webexception-1.0.3.tar.gz]
+[2023-07-03 14:41:00] INFO root fetch - main [MainThread]: End processing [webexception]: success
+[2023-07-03 14:41:00] INFO root fetch - processPackages [metaphor-connectors]: Remove: archive file [/home/abi/fetcher/tmp/metaphor-connectors-0.9.3.tar.gz]
+[2023-07-03 14:41:00] INFO root fetch - processPackages [metaphor-connectors]: Remove: archive file [/home/abi/fetcher/tmp/metaphor-connectors-0.9.4.tar.gz]
+[2023-07-03 14:41:00] INFO root fetch - main [MainThread]: End processing [metaphor-connectors]: success
+[2023-07-03 14:41:01] INFO root fetch - main [MainThread]: End processing [HSTI]: success
+[2023-07-03 14:41:01] INFO root fetch - main [MainThread]: Store serial: [18739077]
