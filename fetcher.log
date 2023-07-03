@@ -12607,3 +12607,99 @@ AssertionError: tmp/discord-ansi-0.3.tar.gz does not exist
 [2023-07-03 11:28:58] INFO root fetch - processPackages [vollseg-napari-trackmate]: Remove: archive file [/home/abi/fetcher/tmp/vollseg-napari-trackmate-2.2.6.tar.gz]
 [2023-07-03 11:28:58] INFO root fetch - main [MainThread]: End processing [vollseg-napari-trackmate]: success
 [2023-07-03 11:28:58] INFO root fetch - main [MainThread]: Store serial: [18736954]
+[2023-07-03 11:34:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18736954]
+[2023-07-03 11:34:07] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-07-03 11:34:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cyc-gbm
+[2023-07-03 11:34:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: copernicus-marine-client
+[2023-07-03 11:34:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: matflow-new
+[2023-07-03 11:34:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: c2cciutils
+[2023-07-03 11:34:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aiofauna
+[2023-07-03 11:34:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ascend-deployer
+[2023-07-03 11:34:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: docarray
+[2023-07-03 11:34:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: frontengine-dev
+[2023-07-03 11:34:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cosmian-py-ggml
+[2023-07-03 11:34:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: frontengine
+[2023-07-03 11:34:07] INFO root fetch - processPackages [frontengine-dev]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-03 11:34:07] INFO root fetch - processPackages [ascend-deployer]: New version: [5.0.0b9] Old Version: [5.0.0b8]
+[2023-07-03 11:34:07] INFO root fetch - processPackages [cosmian-py-ggml]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-07-03 11:34:07] INFO root fetch - processPackages [docarray]: New version: [0.9.9.dev5] Old Version: [0.9.9.dev4]
+[2023-07-03 11:34:07] INFO root fetch - processPackages [copernicus-marine-client]: New version: [0.8.0] Old Version: [0.7.1]
+[2023-07-03 11:34:07] INFO root fetch - processPackages [cyc-gbm]: New version: [0.0.24] Old Version: [0.0.23]
+[2023-07-03 11:34:07] INFO root fetch - processPackages [matflow-new]: New version: [0.3.0a9] Old Version: [0.3.0a8]
+[2023-07-03 11:34:07] INFO root fetch - processPackages [aiofauna]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-03 11:34:07] INFO root fetch - processPackages [c2cciutils]: New version: [1.6.0.dev99] Old Version: [1.6.0.dev98]
+[2023-07-03 11:34:07] INFO root fetch - processPackages [frontengine]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-03 11:34:07] INFO root fetch - processPackages [c2cciutils]: Downloading https://files.pythonhosted.org/packages/a1/2b/1d6a9f2a49b1cf5d42f9fe6f8498218d1aa03ad4f83547e435c82985bf79/c2cciutils-1.6.0.dev98.tar.gz
+[2023-07-03 11:34:07] INFO root fetch - processPackages [ascend-deployer]: Downloading https://files.pythonhosted.org/packages/c8/4e/d1b9c0b99ad4e8960740f9d14cc03a5fdda36feb4e6eb825b8fade8472e7/ascend_deployer-5.0.0b8-py3-none-any.whl
+[2023-07-03 11:34:07] INFO root fetch - processPackages [cosmian-py-ggml]: Downloading https://files.pythonhosted.org/packages/88/32/1520ddfd1705b0c6b2d2375811d0df2449ea20d9071fe5063064b3b7c499/cosmian_py_ggml-1.1.0-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-03 11:34:07] INFO root fetch - processPackages [frontengine-dev]: Downloading https://files.pythonhosted.org/packages/23/e2/01e0fe02ca6b73e163f3f0d080231bc0c783a63e766e5524eb246350518d/frontengine_dev-0.0.8.tar.gz
+[2023-07-03 11:34:07] INFO root fetch - processPackages [matflow-new]: Downloading https://files.pythonhosted.org/packages/33/06/64bf36c9f9b85be9b3b28a1d21d5a2698384823379079834bc89f2af1e7e/matflow_new-0.3.0a8.tar.gz
+[2023-07-03 11:34:07] INFO root fetch - processPackages [copernicus-marine-client]: Downloading https://files.pythonhosted.org/packages/08/d8/caf42e388fea5a5d4c127919095f420c81b0fecc69fc084fcf2fd706ba17/copernicus_marine_client-0.7.1.tar.gz
+[2023-07-03 11:34:07] INFO root fetch - processPackages [docarray]: Downloading https://files.pythonhosted.org/packages/da/d0/4e039d9e7c4e19f30fbd831f0bd4670ae9aa6b5c8b29e21ed55f7886c9fe/docarray-0.9.9.dev4.tar.gz
+[2023-07-03 11:34:07] INFO root fetch - processPackages [cyc-gbm]: Downloading https://files.pythonhosted.org/packages/a6/14/5b02fc60144fe4e01ac432afa768da6b6da198f6883340a2e9f2feec2059/cyc-gbm-0.0.23.tar.gz
+[2023-07-03 11:34:08] INFO root fetch - processPackages [frontengine]: Downloading https://files.pythonhosted.org/packages/62/88/6d99d7b463365da48db6f37c9bde41e7f7f20eeb1a13653a273586e81d3a/frontengine-0.0.8.tar.gz
+[2023-07-03 11:34:08] INFO root fetch - processPackages [aiofauna]: Downloading https://files.pythonhosted.org/packages/3e/34/45e4d8e4dc572a71d3667cb471907d117cbe30ff4ab274142fdfc9aff5bb/aiofauna-0.1.8.tar.gz
+[2023-07-03 11:34:08] INFO root fetch - processPackages [cosmian-py-ggml]: Downloading https://files.pythonhosted.org/packages/af/37/7b040acd4e7fab7ab448b3621a849838b70f6a8335e61b562a90667487fb/cosmian_py_ggml-1.2.0-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-03 11:34:08] INFO root fetch - processPackages [ascend-deployer]: Downloading https://files.pythonhosted.org/packages/82/2b/de9c9891308ac9115a7f856ed337c153c087f6c6534f0a6780aea70a04f0/ascend_deployer-5.0.0b9-py3-none-any.whl
+[2023-07-03 11:34:08] INFO root fetch - processPackages [docarray]: Downloading https://files.pythonhosted.org/packages/2b/4f/53a641fcaefc8774128d5f48cb2a7b2e692c8adfce1e2afaf8d9260d8b2a/docarray-0.9.9.dev5.tar.gz
+[2023-07-03 11:34:08] INFO root fetch - processPackages [cosmian-py-ggml]: executing diffoscope
+[2023-07-03 11:34:08] INFO root fetch - processPackages [cosmian-py-ggml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cosmian_py_ggml-1.1.0-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/cosmian_py_ggml-1.2.0-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230703/c/cosmian-py-ggml/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2023-07-03 11:34:08] INFO root fetch - processPackages [frontengine]: Downloading https://files.pythonhosted.org/packages/a5/8e/4bb92b2db27649b96b46469f263e2fdd091c8283ff06a24534624c34be9d/frontengine-0.0.9.tar.gz
+[2023-07-03 11:34:08] INFO root fetch - processPackages [frontengine-dev]: Downloading https://files.pythonhosted.org/packages/bd/40/ac58f5e1633b3b2ea3574839a03ddc6a124459f3e721986a4208fbe06488/frontengine_dev-0.0.9.tar.gz
+[2023-07-03 11:34:08] INFO root fetch - processPackages [matflow-new]: Downloading https://files.pythonhosted.org/packages/68/c9/418420420155f18aa38d7861e0cfcd92e65ff36933188ec860c52817fd64/matflow_new-0.3.0a9.tar.gz
+[2023-07-03 11:34:08] INFO root fetch - processPackages [cyc-gbm]: Downloading https://files.pythonhosted.org/packages/e5/97/51ec2e8155737cd4fba1039e135ac08f16b94c60cb574478557ba780eacd/cyc-gbm-0.0.24.tar.gz
+[2023-07-03 11:34:08] INFO root fetch - processPackages [frontengine]: executing diffoscope
+[2023-07-03 11:34:08] INFO root fetch - processPackages [frontengine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/frontengine-0.0.8.tar.gz tmp/frontengine-0.0.9.tar.gz --markdown 20230703/f/frontengine/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-03 11:34:08] INFO root fetch - processPackages [docarray]: executing diffoscope
+[2023-07-03 11:34:08] INFO root fetch - processPackages [docarray]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docarray-0.9.9.dev4.tar.gz tmp/docarray-0.9.9.dev5.tar.gz --markdown 20230703/d/docarray/0.9.9.dev4-0.9.9.dev5/diff.md --exclude *.pyd
+[2023-07-03 11:34:08] INFO root fetch - processPackages [cyc-gbm]: executing diffoscope
+[2023-07-03 11:34:08] INFO root fetch - processPackages [cyc-gbm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cyc-gbm-0.0.23.tar.gz tmp/cyc-gbm-0.0.24.tar.gz --markdown 20230703/c/cyc-gbm/0.0.23-0.0.24/diff.md --exclude *.pyd
+[2023-07-03 11:34:08] INFO root fetch - processPackages [aiofauna]: Downloading https://files.pythonhosted.org/packages/d7/d5/ea2895300374337f982c6e19ce7049fb1c99fa3489038d2ff524d477a522/aiofauna-0.1.9.tar.gz
+[2023-07-03 11:34:08] INFO root fetch - processPackages [ascend-deployer]: executing diffoscope
+[2023-07-03 11:34:08] INFO root fetch - processPackages [ascend-deployer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ascend_deployer-5.0.0b8-py3-none-any.whl.zip tmp/ascend_deployer-5.0.0b9-py3-none-any.whl.zip --markdown 20230703/a/ascend-deployer/5.0.0b8-5.0.0b9/diff.md --exclude *.pyd
+[2023-07-03 11:34:08] INFO root fetch - processPackages [frontengine-dev]: executing diffoscope
+[2023-07-03 11:34:08] INFO root fetch - processPackages [frontengine-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/frontengine_dev-0.0.8.tar.gz tmp/frontengine_dev-0.0.9.tar.gz --markdown 20230703/f/frontengine-dev/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-03 11:34:08] INFO root fetch - processPackages [matflow-new]: executing diffoscope
+[2023-07-03 11:34:08] INFO root fetch - processPackages [matflow-new]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/matflow_new-0.3.0a8.tar.gz tmp/matflow_new-0.3.0a9.tar.gz --markdown 20230703/m/matflow-new/0.3.0a8-0.3.0a9/diff.md --exclude *.pyd
+[2023-07-03 11:34:08] INFO root fetch - processPackages [c2cciutils]: Downloading https://files.pythonhosted.org/packages/60/cb/aa51be69fbd8a1ba783878ebc042a12a61ad083b26d90280d1164ab692f5/c2cciutils-1.6.0.dev99.tar.gz
+[2023-07-03 11:34:08] INFO root fetch - processPackages [aiofauna]: executing diffoscope
+[2023-07-03 11:34:08] INFO root fetch - processPackages [aiofauna]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiofauna-0.1.8.tar.gz tmp/aiofauna-0.1.9.tar.gz --markdown 20230703/a/aiofauna/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-03 11:34:09] INFO root fetch - processPackages [c2cciutils]: executing diffoscope
+[2023-07-03 11:34:09] INFO root fetch - processPackages [c2cciutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c2cciutils-1.6.0.dev98.tar.gz tmp/c2cciutils-1.6.0.dev99.tar.gz --markdown 20230703/c/c2cciutils/1.6.0.dev98-1.6.0.dev99/diff.md --exclude *.pyd
+[2023-07-03 11:34:09] INFO root fetch - processPackages [copernicus-marine-client]: Downloading https://files.pythonhosted.org/packages/d2/f7/9152a051ee27ce078be9788aeb7b20732bc0c80b13b04d2c26be55c06d2b/copernicus_marine_client-0.8.0.tar.gz
+[2023-07-03 11:34:09] INFO root fetch - processPackages [copernicus-marine-client]: executing diffoscope
+[2023-07-03 11:34:09] INFO root fetch - processPackages [copernicus-marine-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/copernicus_marine_client-0.7.1.tar.gz tmp/copernicus_marine_client-0.8.0.tar.gz --markdown 20230703/c/copernicus-marine-client/0.7.1-0.8.0/diff.md --exclude *.pyd
+[2023-07-03 11:34:10] INFO root fetch - processPackages [cyc-gbm]: Remove: archive file [/home/abi/fetcher/tmp/cyc-gbm-0.0.23.tar.gz]
+[2023-07-03 11:34:10] INFO root fetch - processPackages [cyc-gbm]: Remove: archive file [/home/abi/fetcher/tmp/cyc-gbm-0.0.24.tar.gz]
+[2023-07-03 11:34:10] INFO root fetch - processPackages [cyc-gbm]: Start processing: zipline-cli
+[2023-07-03 11:34:10] INFO root fetch - main [MainThread]: End processing [cyc-gbm]: success
+[2023-07-03 11:34:10] INFO root fetch - processPackages [frontengine]: Remove: archive file [/home/abi/fetcher/tmp/frontengine-0.0.8.tar.gz]
+[2023-07-03 11:34:10] INFO root fetch - processPackages [frontengine]: Remove: archive file [/home/abi/fetcher/tmp/frontengine-0.0.9.tar.gz]
+[2023-07-03 11:34:10] INFO root fetch - main [MainThread]: End processing [frontengine]: success
+[2023-07-03 11:34:10] INFO root fetch - processPackages [frontengine-dev]: Remove: archive file [/home/abi/fetcher/tmp/frontengine_dev-0.0.8.tar.gz]
+[2023-07-03 11:34:10] INFO root fetch - processPackages [frontengine-dev]: Remove: archive file [/home/abi/fetcher/tmp/frontengine_dev-0.0.9.tar.gz]
+[2023-07-03 11:34:10] INFO root fetch - main [MainThread]: End processing [frontengine-dev]: success
+[2023-07-03 11:34:10] INFO root fetch - processPackages [aiofauna]: Remove: archive file [/home/abi/fetcher/tmp/aiofauna-0.1.8.tar.gz]
+[2023-07-03 11:34:10] INFO root fetch - processPackages [matflow-new]: Remove: archive file [/home/abi/fetcher/tmp/matflow_new-0.3.0a8.tar.gz]
+[2023-07-03 11:34:10] INFO root fetch - processPackages [aiofauna]: Remove: archive file [/home/abi/fetcher/tmp/aiofauna-0.1.9.tar.gz]
+[2023-07-03 11:34:10] INFO root fetch - processPackages [matflow-new]: Remove: archive file [/home/abi/fetcher/tmp/matflow_new-0.3.0a9.tar.gz]
+[2023-07-03 11:34:10] INFO root fetch - main [MainThread]: End processing [aiofauna]: success
+[2023-07-03 11:34:10] INFO root fetch - main [MainThread]: End processing [matflow-new]: success
+[2023-07-03 11:34:10] WARNING root fetch - processPackages [zipline-cli]: Skipping, unable to determine old version
+[2023-07-03 11:34:10] INFO root fetch - main [MainThread]: End processing [zipline-cli] error
+[2023-07-03 11:34:10] INFO root fetch - processPackages [docarray]: Remove: archive file [/home/abi/fetcher/tmp/docarray-0.9.9.dev4.tar.gz]
+[2023-07-03 11:34:10] INFO root fetch - processPackages [docarray]: Remove: archive file [/home/abi/fetcher/tmp/docarray-0.9.9.dev5.tar.gz]
+[2023-07-03 11:34:10] INFO root fetch - main [MainThread]: End processing [docarray]: success
+[2023-07-03 11:34:11] INFO root fetch - processPackages [copernicus-marine-client]: Remove: archive file [/home/abi/fetcher/tmp/copernicus_marine_client-0.7.1.tar.gz]
+[2023-07-03 11:34:11] INFO root fetch - processPackages [copernicus-marine-client]: Remove: archive file [/home/abi/fetcher/tmp/copernicus_marine_client-0.8.0.tar.gz]
+[2023-07-03 11:34:11] INFO root fetch - main [MainThread]: End processing [copernicus-marine-client]: success
+[2023-07-03 11:34:11] INFO root fetch - processPackages [cosmian-py-ggml]: Remove: archive file [/home/abi/fetcher/tmp/cosmian_py_ggml-1.1.0-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-03 11:34:11] INFO root fetch - processPackages [cosmian-py-ggml]: Remove: archive file [/home/abi/fetcher/tmp/cosmian_py_ggml-1.2.0-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-03 11:34:11] INFO root fetch - main [MainThread]: End processing [cosmian-py-ggml]: success
+[2023-07-03 11:34:12] INFO root fetch - processPackages [ascend-deployer]: Remove: archive file [/home/abi/fetcher/tmp/ascend_deployer-5.0.0b8-py3-none-any.whl.zip]
+[2023-07-03 11:34:12] INFO root fetch - processPackages [ascend-deployer]: Remove: archive file [/home/abi/fetcher/tmp/ascend_deployer-5.0.0b9-py3-none-any.whl.zip]
+[2023-07-03 11:34:12] INFO root fetch - main [MainThread]: End processing [ascend-deployer]: success
+[2023-07-03 11:34:13] INFO root fetch - processPackages [c2cciutils]: Remove: archive file [/home/abi/fetcher/tmp/c2cciutils-1.6.0.dev98.tar.gz]
+[2023-07-03 11:34:13] INFO root fetch - processPackages [c2cciutils]: Remove: archive file [/home/abi/fetcher/tmp/c2cciutils-1.6.0.dev99.tar.gz]
+[2023-07-03 11:34:13] INFO root fetch - main [MainThread]: End processing [c2cciutils]: success
+[2023-07-03 11:34:13] INFO root fetch - main [MainThread]: Store serial: [18736985]
