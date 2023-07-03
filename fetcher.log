@@ -16863,3 +16863,117 @@ AssertionError: tmp/docarray-0.9.9.dev4.tar.gz does not exist
 [2023-07-03 14:14:08] INFO root fetch - processPackages [pmx-biobb]: Remove: archive file [/home/abi/fetcher/tmp/pmx_biobb-4.1.2.tar.gz]
 [2023-07-03 14:14:08] INFO root fetch - main [MainThread]: End processing [pmx-biobb]: success
 [2023-07-03 14:14:08] INFO root fetch - main [MainThread]: Store serial: [18738793]
+[2023-07-03 14:19:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18738793]
+[2023-07-03 14:19:17] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-07-03 14:19:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: design.plone.contenttypes
+[2023-07-03 14:19:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: qontract-reconcile
+[2023-07-03 14:19:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulp-glue
+[2023-07-03 14:19:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulp-cli
+[2023-07-03 14:19:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tinybird-cli
+[2023-07-03 14:19:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: power-grid-model
+[2023-07-03 14:19:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: linien-common
+[2023-07-03 14:19:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: linien-server
+[2023-07-03 14:19:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: linien-client
+[2023-07-03 14:19:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: linien-gui
+[2023-07-03 14:19:18] INFO root fetch - processPackages [linien-client]: New version: [0.8.0rc1] Old Version: [0.7.0rc2]
+[2023-07-03 14:19:18] INFO root fetch - processPackages [linien-gui]: New version: [0.8.0rc1] Old Version: [0.7.0rc2]
+[2023-07-03 14:19:18] INFO root fetch - processPackages [pulp-cli]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-07-03 14:19:18] INFO root fetch - processPackages [pulp-glue]: New version: [0.20.0] Old Version: [0.19.2]
+[2023-07-03 14:19:18] INFO root fetch - processPackages [linien-common]: New version: [0.8.0rc1] Old Version: [0.7.0rc2]
+[2023-07-03 14:19:18] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2023-07-03 14:19:18] INFO root fetch - processPackages [linien-server]: New version: [0.8.0rc1] Old Version: [0.7.0rc2]
+[2023-07-03 14:19:18] INFO root fetch - processPackages [tinybird-cli]: New version: [1.0.0b99] Old Version: [1.0.0b98]
+[2023-07-03 14:19:18] INFO root fetch - processPackages [power-grid-model]: New version: [1.5.0rc9201513259057] Old Version: [1.5.0rc9200805234983]
+[2023-07-03 14:19:18] INFO root fetch - processPackages [design.plone.contenttypes]: New version: [6.0.9] Old Version: [6.0.8]
+[2023-07-03 14:19:18] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/ee/0e/ac8ef8d8ff9114b5366efefac8ac0a94430168107cf051385aa73efdd7ef/qontract_reconcile-0.9.1rc98-py3-none-any.whl
+[2023-07-03 14:19:18] INFO root fetch - processPackages [tinybird-cli]: Downloading https://files.pythonhosted.org/packages/cf/bc/f6fe2aa48ad97fc6f03b105a263497f0cc5d7173fa89703bbc609c18f13a/tinybird-cli-1.0.0b98.tar.gz
+[2023-07-03 14:19:18] INFO root fetch - processPackages [power-grid-model]: Downloading https://files.pythonhosted.org/packages/5f/b8/e18643f60c87fe46febb52d5dfbb55ff1d32c4b6cc432b4f861fe248c45b/power-grid-model-1.5.0rc9200805234983.tar.gz
+[2023-07-03 14:19:18] INFO root fetch - processPackages [linien-client]: Downloading https://files.pythonhosted.org/packages/c7/65/fb41a2447fe6ebee1ffee0a6690a34fd30927623f4d9cfbfb42cfc19732b/linien-client-0.7.0rc2.tar.gz
+[2023-07-03 14:19:18] INFO root fetch - processPackages [pulp-glue]: Downloading https://files.pythonhosted.org/packages/3a/e0/fb81c6118bf704b7e2dacea6664daf5d717676cec0529b3ecbc80f71b91a/pulp-glue-0.19.2.tar.gz
+[2023-07-03 14:19:18] INFO root fetch - processPackages [pulp-cli]: Downloading https://files.pythonhosted.org/packages/4d/8a/e059ca9aaab84187e3f5103bb4ea03decda6da1b8f53179cb30f2f384885/pulp-cli-0.8.0.tar.gz
+[2023-07-03 14:19:18] INFO root fetch - processPackages [linien-server]: Downloading https://files.pythonhosted.org/packages/c7/69/4ade3af3e6c6deb6747e7da08bca04654f5f0eb8758cd29ed2e749ea4488/linien-server-0.7.0rc2.tar.gz
+[2023-07-03 14:19:18] INFO root fetch - processPackages [linien-common]: Downloading https://files.pythonhosted.org/packages/0e/26/486cf38f4277c6a0778c4d8319bca0762962e0efb3ab484fc2bf554f8864/linien-common-0.7.0rc2.tar.gz
+[2023-07-03 14:19:18] INFO root fetch - processPackages [linien-gui]: Downloading https://files.pythonhosted.org/packages/e9/ab/eabc53be29694b0e7f04029e8335ad707b8fd79c7fef846cb056d9fc1638/linien-gui-0.7.0rc2.tar.gz
+[2023-07-03 14:19:18] INFO root fetch - processPackages [design.plone.contenttypes]: Downloading https://files.pythonhosted.org/packages/55/7a/b3d9adf8e72e07ce0dc8b544e82a10bf3f6e2afd264ede3c571ebd362181/design.plone.contenttypes-6.0.8.tar.gz
+[2023-07-03 14:19:18] INFO root fetch - processPackages [tinybird-cli]: Downloading https://files.pythonhosted.org/packages/6a/27/a5d411f1a02b44b9f386c7d18397784dcaa5fe1129d9a77e87a5e048edc5/tinybird-cli-1.0.0b99.tar.gz
+[2023-07-03 14:19:18] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/dd/8b/9de8b95ca80c898ecaafa95edc3438d306b82ab0d29d3895dd6e8f152129/qontract_reconcile-0.9.1rc99-py3-none-any.whl
+[2023-07-03 14:19:19] INFO root fetch - processPackages [power-grid-model]: Downloading https://files.pythonhosted.org/packages/7a/8d/0c8f5b490041bd5650a9026c0e4b09fe438ae7c684e52aa416f57b97fbef/power-grid-model-1.5.0rc9201513259057.tar.gz
+[2023-07-03 14:19:19] INFO root fetch - processPackages [linien-client]: Downloading https://files.pythonhosted.org/packages/6b/f3/31f0898c92a64e40890e3621ac0e23f62078db4ccdbead712a4d0c511d8f/linien-client-0.8.0rc1.tar.gz
+[2023-07-03 14:19:19] INFO root fetch - processPackages [tinybird-cli]: executing diffoscope
+[2023-07-03 14:19:19] INFO root fetch - processPackages [tinybird-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tinybird-cli-1.0.0b98.tar.gz tmp/tinybird-cli-1.0.0b99.tar.gz --markdown 20230703/t/tinybird-cli/1.0.0b98-1.0.0b99/diff.md --exclude *.pyd
+[2023-07-03 14:19:19] INFO root fetch - processPackages [linien-common]: Downloading https://files.pythonhosted.org/packages/c2/0a/0e0bf15587abc7b213a19c31dcad581a0bf80e2af91c087cf303ab105610/linien-common-0.8.0rc1.tar.gz
+[2023-07-03 14:19:19] INFO root fetch - processPackages [pulp-glue]: Downloading https://files.pythonhosted.org/packages/e0/35/b680b00075b6b0470233f8ba2fcdd266f4ff5d23fca3c77373b5f085c223/pulp-glue-0.20.0.tar.gz
+[2023-07-03 14:19:19] INFO root fetch - processPackages [linien-gui]: Downloading https://files.pythonhosted.org/packages/60/2c/4499c653bae19e1ea23c2468e1192051cc55ea1e4f688927daac13c5e64f/linien-gui-0.8.0rc1.tar.gz
+[2023-07-03 14:19:19] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2023-07-03 14:19:19] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20230703/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/diff.md --exclude *.pyd
+[2023-07-03 14:19:19] INFO root fetch - processPackages [linien-server]: Downloading https://files.pythonhosted.org/packages/ff/61/433ab5bfe78e91181084e19f89346ff431a5422c3c295f3c7656373634d1/linien-server-0.8.0rc1.tar.gz
+[2023-07-03 14:19:19] INFO root fetch - processPackages [pulp-cli]: Downloading https://files.pythonhosted.org/packages/50/3d/ed19e49b2fbe937f1d6a2f4ef0f725c4e67f24e5c97023912b3e3ecfdafd/pulp-cli-0.9.0.tar.gz
+[2023-07-03 14:19:19] INFO root fetch - processPackages [linien-client]: executing diffoscope
+[2023-07-03 14:19:19] INFO root fetch - processPackages [linien-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/linien-client-0.7.0rc2.tar.gz tmp/linien-client-0.8.0rc1.tar.gz --markdown 20230703/l/linien-client/0.7.0rc2-0.8.0rc1/diff.md --exclude *.pyd
+[2023-07-03 14:19:19] INFO root fetch - processPackages [power-grid-model]: executing diffoscope
+[2023-07-03 14:19:19] INFO root fetch - processPackages [power-grid-model]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/power-grid-model-1.5.0rc9200805234983.tar.gz tmp/power-grid-model-1.5.0rc9201513259057.tar.gz --markdown 20230703/p/power-grid-model/1.5.0rc9200805234983-1.5.0rc9201513259057/diff.md --exclude *.pyd
+[2023-07-03 14:19:19] INFO root fetch - processPackages [linien-common]: executing diffoscope
+[2023-07-03 14:19:19] INFO root fetch - processPackages [linien-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/linien-common-0.7.0rc2.tar.gz tmp/linien-common-0.8.0rc1.tar.gz --markdown 20230703/l/linien-common/0.7.0rc2-0.8.0rc1/diff.md --exclude *.pyd
+[2023-07-03 14:19:19] INFO root fetch - processPackages [design.plone.contenttypes]: Downloading https://files.pythonhosted.org/packages/88/0d/5fca30d525d2cf06215ccd872cb468309acbca97d9de07e8c9c3228f5bd8/design.plone.contenttypes-6.0.9.tar.gz
+[2023-07-03 14:19:19] INFO root fetch - processPackages [pulp-glue]: executing diffoscope
+[2023-07-03 14:19:19] INFO root fetch - processPackages [pulp-glue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulp-glue-0.19.2.tar.gz tmp/pulp-glue-0.20.0.tar.gz --markdown 20230703/p/pulp-glue/0.19.2-0.20.0/diff.md --exclude *.pyd
+[2023-07-03 14:19:19] INFO root fetch - processPackages [linien-gui]: executing diffoscope
+[2023-07-03 14:19:19] INFO root fetch - processPackages [linien-gui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/linien-gui-0.7.0rc2.tar.gz tmp/linien-gui-0.8.0rc1.tar.gz --markdown 20230703/l/linien-gui/0.7.0rc2-0.8.0rc1/diff.md --exclude *.pyd
+[2023-07-03 14:19:19] INFO root fetch - processPackages [linien-server]: executing diffoscope
+[2023-07-03 14:19:19] INFO root fetch - processPackages [linien-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/linien-server-0.7.0rc2.tar.gz tmp/linien-server-0.8.0rc1.tar.gz --markdown 20230703/l/linien-server/0.7.0rc2-0.8.0rc1/diff.md --exclude *.pyd
+[2023-07-03 14:19:19] INFO root fetch - processPackages [design.plone.contenttypes]: executing diffoscope
+[2023-07-03 14:19:19] INFO root fetch - processPackages [design.plone.contenttypes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/design.plone.contenttypes-6.0.8.tar.gz tmp/design.plone.contenttypes-6.0.9.tar.gz --markdown 20230703/d/design.plone.contenttypes/6.0.8-6.0.9/diff.md --exclude *.pyd
+[2023-07-03 14:19:19] INFO root fetch - processPackages [pulp-cli]: executing diffoscope
+[2023-07-03 14:19:19] INFO root fetch - processPackages [pulp-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulp-cli-0.8.0.tar.gz tmp/pulp-cli-0.9.0.tar.gz --markdown 20230703/p/pulp-cli/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-07-03 14:19:20] INFO root fetch - processPackages [linien-common]: Remove: archive file [/home/abi/fetcher/tmp/linien-common-0.7.0rc2.tar.gz]
+[2023-07-03 14:19:20] INFO root fetch - processPackages [linien-common]: Remove: archive file [/home/abi/fetcher/tmp/linien-common-0.8.0rc1.tar.gz]
+[2023-07-03 14:19:20] INFO root fetch - processPackages [linien-common]: Start processing: sensors-connectivity
+[2023-07-03 14:19:20] INFO root fetch - main [MainThread]: End processing [linien-common]: success
+[2023-07-03 14:19:20] INFO root fetch - processPackages [tinybird-cli]: Remove: archive file [/home/abi/fetcher/tmp/tinybird-cli-1.0.0b98.tar.gz]
+[2023-07-03 14:19:20] INFO root fetch - processPackages [tinybird-cli]: Remove: archive file [/home/abi/fetcher/tmp/tinybird-cli-1.0.0b99.tar.gz]
+[2023-07-03 14:19:20] INFO root fetch - processPackages [tinybird-cli]: Start processing: dsna-complete
+[2023-07-03 14:19:20] INFO root fetch - main [MainThread]: End processing [tinybird-cli]: success
+[2023-07-03 14:19:20] INFO root fetch - processPackages [linien-client]: Remove: archive file [/home/abi/fetcher/tmp/linien-client-0.7.0rc2.tar.gz]
+[2023-07-03 14:19:20] INFO root fetch - processPackages [linien-client]: Remove: archive file [/home/abi/fetcher/tmp/linien-client-0.8.0rc1.tar.gz]
+[2023-07-03 14:19:20] INFO root fetch - processPackages [linien-client]: Start processing: hopsworks
+[2023-07-03 14:19:20] INFO root fetch - main [MainThread]: End processing [linien-client]: success
+[2023-07-03 14:19:21] WARNING root fetch - processPackages [dsna-complete]: Skipping, unable to determine old version
+[2023-07-03 14:19:21] INFO root fetch - main [MainThread]: End processing [dsna-complete] error
+[2023-07-03 14:19:21] INFO root fetch - processPackages [sensors-connectivity]: New version: [1.5.0] Old Version: [1.4.2]
+[2023-07-03 14:19:21] INFO root fetch - processPackages [pulp-glue]: Remove: archive file [/home/abi/fetcher/tmp/pulp-glue-0.19.2.tar.gz]
+[2023-07-03 14:19:21] INFO root fetch - processPackages [pulp-glue]: Remove: archive file [/home/abi/fetcher/tmp/pulp-glue-0.20.0.tar.gz]
+[2023-07-03 14:19:21] INFO root fetch - main [MainThread]: End processing [pulp-glue]: success
+[2023-07-03 14:19:21] INFO root fetch - processPackages [hopsworks]: New version: [3.3.0rc0] Old Version: [3.2.0rc0]
+[2023-07-03 14:19:21] INFO root fetch - processPackages [sensors-connectivity]: Downloading https://files.pythonhosted.org/packages/24/50/e49c98097c1e540d2dd2c5fb4ecf5166d924c9ad41c9bb82170868b2ed83/sensors_connectivity-1.4.2.tar.gz
+[2023-07-03 14:19:21] INFO root fetch - processPackages [linien-server]: Remove: archive file [/home/abi/fetcher/tmp/linien-server-0.7.0rc2.tar.gz]
+[2023-07-03 14:19:21] INFO root fetch - processPackages [linien-server]: Remove: archive file [/home/abi/fetcher/tmp/linien-server-0.8.0rc1.tar.gz]
+[2023-07-03 14:19:21] INFO root fetch - main [MainThread]: End processing [linien-server]: success
+[2023-07-03 14:19:21] INFO root fetch - processPackages [hopsworks]: Downloading https://files.pythonhosted.org/packages/39/33/fe011ee1c7bacbf5f99b0578e584911f55dd672c24431f583f23e9a14c53/hopsworks-3.2.0rc0.tar.gz
+[2023-07-03 14:19:21] INFO root fetch - processPackages [linien-gui]: Remove: archive file [/home/abi/fetcher/tmp/linien-gui-0.7.0rc2.tar.gz]
+[2023-07-03 14:19:21] INFO root fetch - processPackages [linien-gui]: Remove: archive file [/home/abi/fetcher/tmp/linien-gui-0.8.0rc1.tar.gz]
+[2023-07-03 14:19:21] INFO root fetch - main [MainThread]: End processing [linien-gui]: success
+[2023-07-03 14:19:21] INFO root fetch - processPackages [pulp-cli]: Remove: archive file [/home/abi/fetcher/tmp/pulp-cli-0.8.0.tar.gz]
+[2023-07-03 14:19:21] INFO root fetch - processPackages [pulp-cli]: Remove: archive file [/home/abi/fetcher/tmp/pulp-cli-0.9.0.tar.gz]
+[2023-07-03 14:19:21] INFO root fetch - main [MainThread]: End processing [pulp-cli]: success
+[2023-07-03 14:19:21] INFO root fetch - processPackages [sensors-connectivity]: Downloading https://files.pythonhosted.org/packages/70/57/f89408a4a6971447d00c67627122092648bedfbe3f89312705086a357f9d/sensors_connectivity-1.5.0.tar.gz
+[2023-07-03 14:19:21] INFO root fetch - processPackages [hopsworks]: Downloading https://files.pythonhosted.org/packages/17/2f/ad3b3d77ddfaf37a17e244afa90b7665735a139cafc38672360434088d53/hopsworks-3.3.0rc0.tar.gz
+[2023-07-03 14:19:21] INFO root fetch - processPackages [sensors-connectivity]: executing diffoscope
+[2023-07-03 14:19:21] INFO root fetch - processPackages [sensors-connectivity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sensors_connectivity-1.4.2.tar.gz tmp/sensors_connectivity-1.5.0.tar.gz --markdown 20230703/s/sensors-connectivity/1.4.2-1.5.0/diff.md --exclude *.pyd
+[2023-07-03 14:19:22] INFO root fetch - processPackages [hopsworks]: executing diffoscope
+[2023-07-03 14:19:22] INFO root fetch - processPackages [hopsworks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hopsworks-3.2.0rc0.tar.gz tmp/hopsworks-3.3.0rc0.tar.gz --markdown 20230703/h/hopsworks/3.2.0rc0-3.3.0rc0/diff.md --exclude *.pyd
+[2023-07-03 14:19:22] INFO root fetch - processPackages [design.plone.contenttypes]: Remove: archive file [/home/abi/fetcher/tmp/design.plone.contenttypes-6.0.8.tar.gz]
+[2023-07-03 14:19:22] INFO root fetch - processPackages [design.plone.contenttypes]: Remove: archive file [/home/abi/fetcher/tmp/design.plone.contenttypes-6.0.9.tar.gz]
+[2023-07-03 14:19:22] INFO root fetch - main [MainThread]: End processing [design.plone.contenttypes]: success
+[2023-07-03 14:19:22] INFO root fetch - processPackages [power-grid-model]: Remove: archive file [/home/abi/fetcher/tmp/power-grid-model-1.5.0rc9200805234983.tar.gz]
+[2023-07-03 14:19:22] INFO root fetch - processPackages [power-grid-model]: Remove: archive file [/home/abi/fetcher/tmp/power-grid-model-1.5.0rc9201513259057.tar.gz]
+[2023-07-03 14:19:22] INFO root fetch - main [MainThread]: End processing [power-grid-model]: success
+[2023-07-03 14:19:22] INFO root fetch - processPackages [sensors-connectivity]: Remove: archive file [/home/abi/fetcher/tmp/sensors_connectivity-1.4.2.tar.gz]
+[2023-07-03 14:19:22] INFO root fetch - processPackages [sensors-connectivity]: Remove: archive file [/home/abi/fetcher/tmp/sensors_connectivity-1.5.0.tar.gz]
+[2023-07-03 14:19:22] INFO root fetch - main [MainThread]: End processing [sensors-connectivity]: success
+[2023-07-03 14:19:23] INFO root fetch - processPackages [hopsworks]: Remove: archive file [/home/abi/fetcher/tmp/hopsworks-3.2.0rc0.tar.gz]
+[2023-07-03 14:19:23] INFO root fetch - processPackages [hopsworks]: Remove: archive file [/home/abi/fetcher/tmp/hopsworks-3.3.0rc0.tar.gz]
+[2023-07-03 14:19:23] INFO root fetch - main [MainThread]: End processing [hopsworks]: success
+[2023-07-03 14:19:23] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip]
+[2023-07-03 14:19:23] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
+[2023-07-03 14:19:23] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2023-07-03 14:19:23] INFO root fetch - main [MainThread]: Store serial: [18738836]
