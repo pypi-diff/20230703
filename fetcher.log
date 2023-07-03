@@ -23265,3 +23265,180 @@ EOFError: EOF read where object expected
 [2023-07-03 17:33:44] INFO root fetch - processPackages [wasmtime]: Remove: archive file [/home/abi/fetcher/tmp/wasmtime-9.0.0-py3-none-win_amd64.whl.zip]
 [2023-07-03 17:33:44] INFO root fetch - main [MainThread]: End processing [wasmtime]: success
 [2023-07-03 17:33:44] INFO root fetch - main [MainThread]: Store serial: [18741482]
+[2023-07-03 17:39:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18741482]
+[2023-07-03 17:39:08] INFO root fetch - main [MainThread]: Found 22 changed packages
+[2023-07-03 17:39:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nsj-rest-lib
+[2023-07-03 17:39:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sdqrcode
+[2023-07-03 17:39:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: PyFGHTest
+[2023-07-03 17:39:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: reliableGPT
+[2023-07-03 17:39:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hcai-nova-server-nightly
+[2023-07-03 17:39:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: genworlds
+[2023-07-03 17:39:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: aiodanbooru
+[2023-07-03 17:39:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: akeyless-cloud-id
+[2023-07-03 17:39:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: rjjpdf
+[2023-07-03 17:39:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pepperize.cdk-vpc
+[2023-07-03 17:39:09] INFO root fetch - processPackages [genworlds]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-03 17:39:09] INFO root fetch - processPackages [pepperize.cdk-vpc]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-03 17:39:09] INFO root fetch - processPackages [aiodanbooru]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-07-03 17:39:09] INFO root fetch - processPackages [reliableGPT]: New version: [0.2.960] Old Version: [0.2.959]
+[2023-07-03 17:39:09] INFO root fetch - processPackages [nsj-rest-lib]: New version: [1.3.1] Old Version: [1.3.0]
+[2023-07-03 17:39:09] WARNING root fetch - processPackages [PyFGHTest]: Skipping, unable to determine old version
+[2023-07-03 17:39:09] INFO root fetch - processPackages [PyFGHTest]: Start processing: odoo14-addon-l10n-br-fiscal
+[2023-07-03 17:39:09] INFO root fetch - main [MainThread]: End processing [PyFGHTest] error
+[2023-07-03 17:39:09] WARNING root fetch - processPackages [rjjpdf]: Skipping, unable to determine old version
+[2023-07-03 17:39:09] INFO root fetch - processPackages [rjjpdf]: Start processing: odoo14-addon-l10n-br-nfe
+[2023-07-03 17:39:09] INFO root fetch - main [MainThread]: End processing [rjjpdf] error
+[2023-07-03 17:39:09] INFO root fetch - processPackages [sdqrcode]: New version: [0.3.7] Old Version: [0.3.6]
+[2023-07-03 17:39:09] INFO root fetch - processPackages [akeyless-cloud-id]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-07-03 17:39:09] INFO root fetch - processPackages [genworlds]: Downloading https://files.pythonhosted.org/packages/1e/12/27081abd95355ad7f34d17483ae8b1bd70ddd4365f07e1ad70822316508d/genworlds-0.0.2.tar.gz
+[2023-07-03 17:39:09] INFO root fetch - processPackages [pepperize.cdk-vpc]: Downloading https://files.pythonhosted.org/packages/25/98/839bb964d107b60f6cc3bb06dbdb864b04f9c38cafbf4725617501c0ad49/pepperize.cdk-vpc-0.0.98.tar.gz
+[2023-07-03 17:39:09] INFO root fetch - processPackages [hcai-nova-server-nightly]: New version: [0.1.9.dev202306060908] Old Version: [0.1.9.dev202306051512]
+[2023-07-03 17:39:09] INFO root fetch - processPackages [aiodanbooru]: Downloading https://files.pythonhosted.org/packages/a2/0a/fcba95f36edeae4dd62b8f16147cb1064ef6d4c5af1254b607771f42daed/aiodanbooru-1.0.4.tar.gz
+[2023-07-03 17:39:09] INFO root fetch - processPackages [reliableGPT]: Downloading https://files.pythonhosted.org/packages/79/fc/51f307f38d42858a6c487cbf503b4d1a2260a68031559b2a326a492b23eb/reliableGPT-0.2.959.tar.gz
+[2023-07-03 17:39:09] INFO root fetch - processPackages [odoo14-addon-l10n-br-fiscal]: New version: [14.0.9.2.1.dev3] Old Version: [14.0.9.2.1.dev2]
+[2023-07-03 17:39:09] INFO root fetch - processPackages [odoo14-addon-l10n-br-nfe]: New version: [14.0.8.5.0] Old Version: [14.0.8.4.3]
+[2023-07-03 17:39:09] INFO root fetch - processPackages [nsj-rest-lib]: Downloading https://files.pythonhosted.org/packages/85/f1/244d232bbe2c22808a1117463e5f9e910b8c28a8f8dbbde522a79012bdb1/nsj_rest_lib-1.3.0.tar.gz
+[2023-07-03 17:39:09] INFO root fetch - processPackages [pepperize.cdk-vpc]: Downloading https://files.pythonhosted.org/packages/e8/f1/d3bacab49ff19cf30ba787ffcbc7ad05fd05f663b5194429568885059996/pepperize.cdk-vpc-0.0.99.tar.gz
+[2023-07-03 17:39:09] INFO root fetch - processPackages [hcai-nova-server-nightly]: Downloading https://files.pythonhosted.org/packages/87/a7/6a453a13323cd23d58747ac82b2a78d39a008bc35fb4950e4ba9b79d8f28/hcai-nova-server-nightly-0.1.9.dev202306051512.tar.gz
+[2023-07-03 17:39:09] INFO root fetch - processPackages [akeyless-cloud-id]: Downloading https://files.pythonhosted.org/packages/63/74/00d63bb074e6a0b93c65bc0b13fed95c636128fd1b45aa666e8b0b0df655/akeyless_cloud_id-0.2.0.tar.gz
+[2023-07-03 17:39:09] INFO root fetch - processPackages [genworlds]: Downloading https://files.pythonhosted.org/packages/2c/41/78eb3d19ed15962cc09dfeac91772fc1541e13f2e5737e001ac98e242dc4/genworlds-0.0.3.tar.gz
+[2023-07-03 17:39:09] INFO root fetch - processPackages [sdqrcode]: Downloading https://files.pythonhosted.org/packages/51/41/491c9691b3c669e48fb68affeb113f5b98fe068409e5fd26fe176fba0903/sdqrcode-0.3.6.tar.gz
+[2023-07-03 17:39:09] INFO root fetch - processPackages [aiodanbooru]: Downloading https://files.pythonhosted.org/packages/12/0f/51c34a2b29161538edbbed927d1295d1a54db49bc16787b13d9e95520597/aiodanbooru-1.0.5.tar.gz
+[2023-07-03 17:39:09] INFO root fetch - processPackages [odoo14-addon-l10n-br-fiscal]: Downloading https://files.pythonhosted.org/packages/b6/ae/9800d777e4d7166c8a0ee02cd7c2602421433738397b582d529f48db7c5b/odoo14_addon_l10n_br_fiscal-14.0.9.2.1.dev2-py3-none-any.whl
+[2023-07-03 17:39:09] INFO root fetch - processPackages [odoo14-addon-l10n-br-nfe]: Downloading https://files.pythonhosted.org/packages/86/cc/85512c28d636ad0c0acc6d1f0bda35fe73ea635852dcf43920707c93f9d8/odoo14_addon_l10n_br_nfe-14.0.8.4.3-py3-none-any.whl
+[2023-07-03 17:39:09] INFO root fetch - processPackages [pepperize.cdk-vpc]: executing diffoscope
+[2023-07-03 17:39:09] INFO root fetch - processPackages [pepperize.cdk-vpc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-vpc-0.0.98.tar.gz tmp/pepperize.cdk-vpc-0.0.99.tar.gz --markdown 20230703/p/pepperize.cdk-vpc/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-03 17:39:09] INFO root fetch - processPackages [reliableGPT]: Downloading https://files.pythonhosted.org/packages/e5/d7/41323ce0f52017a3f0d045268a02e16ffa0378cf87f5f121a4a38303096f/reliableGPT-0.2.960.tar.gz
+[2023-07-03 17:39:09] INFO root fetch - processPackages [genworlds]: executing diffoscope
+[2023-07-03 17:39:09] INFO root fetch - processPackages [genworlds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/genworlds-0.0.2.tar.gz tmp/genworlds-0.0.3.tar.gz --markdown 20230703/g/genworlds/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-03 17:39:09] INFO root fetch - processPackages [aiodanbooru]: executing diffoscope
+[2023-07-03 17:39:09] INFO root fetch - processPackages [aiodanbooru]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiodanbooru-1.0.4.tar.gz tmp/aiodanbooru-1.0.5.tar.gz --markdown 20230703/a/aiodanbooru/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-07-03 17:39:10] INFO root fetch - processPackages [nsj-rest-lib]: Downloading https://files.pythonhosted.org/packages/cc/91/45d4fcb52c1195eb8a456324637a027fcf40ca3a23ea2635e5307afad4f8/nsj_rest_lib-1.3.1.tar.gz
+[2023-07-03 17:39:10] INFO root fetch - processPackages [sdqrcode]: Downloading https://files.pythonhosted.org/packages/e3/78/66d54eb353ea6904ead01a96e41ac8d2ede6c6b8aed2f97bfe85b82f9c2f/sdqrcode-0.3.7.tar.gz
+[2023-07-03 17:39:10] INFO root fetch - processPackages [reliableGPT]: executing diffoscope
+[2023-07-03 17:39:10] INFO root fetch - processPackages [reliableGPT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reliableGPT-0.2.959.tar.gz tmp/reliableGPT-0.2.960.tar.gz --markdown 20230703/r/reliableGPT/0.2.959-0.2.960/diff.md --exclude *.pyd
+[2023-07-03 17:39:10] INFO root fetch - processPackages [akeyless-cloud-id]: Downloading https://files.pythonhosted.org/packages/93/1b/8216c670999bc4819dc831910500fbc707d94eceaaba5b2db1d0a01b73b2/akeyless_cloud_id-0.2.1.tar.gz
+[2023-07-03 17:39:10] INFO root fetch - processPackages [nsj-rest-lib]: executing diffoscope
+[2023-07-03 17:39:10] INFO root fetch - processPackages [hcai-nova-server-nightly]: Downloading https://files.pythonhosted.org/packages/4a/b0/7349a84c86940e5f8c8b22ef05d6ade85f6619aa27865d53025dd91feed9/hcai-nova-server-nightly-0.1.9.dev202306060908.tar.gz
+[2023-07-03 17:39:10] INFO root fetch - processPackages [nsj-rest-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nsj_rest_lib-1.3.0.tar.gz tmp/nsj_rest_lib-1.3.1.tar.gz --markdown 20230703/n/nsj-rest-lib/1.3.0-1.3.1/diff.md --exclude *.pyd
+[2023-07-03 17:39:10] INFO root fetch - processPackages [sdqrcode]: executing diffoscope
+[2023-07-03 17:39:10] INFO root fetch - processPackages [sdqrcode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sdqrcode-0.3.6.tar.gz tmp/sdqrcode-0.3.7.tar.gz --markdown 20230703/s/sdqrcode/0.3.6-0.3.7/diff.md --exclude *.pyd
+[2023-07-03 17:39:10] INFO root fetch - processPackages [odoo14-addon-l10n-br-nfe]: Downloading https://files.pythonhosted.org/packages/ba/27/50045cb960b8bcbe53405982f22cd8cd190d8fc39f05a82b836b8f920b44/odoo14_addon_l10n_br_nfe-14.0.8.5.0-py3-none-any.whl
+[2023-07-03 17:39:10] INFO root fetch - processPackages [akeyless-cloud-id]: executing diffoscope
+[2023-07-03 17:39:10] INFO root fetch - processPackages [akeyless-cloud-id]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/akeyless_cloud_id-0.2.0.tar.gz tmp/akeyless_cloud_id-0.2.1.tar.gz --markdown 20230703/a/akeyless-cloud-id/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-07-03 17:39:10] INFO root fetch - processPackages [hcai-nova-server-nightly]: executing diffoscope
+[2023-07-03 17:39:10] INFO root fetch - processPackages [hcai-nova-server-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hcai-nova-server-nightly-0.1.9.dev202306051512.tar.gz tmp/hcai-nova-server-nightly-0.1.9.dev202306060908.tar.gz --markdown 20230703/h/hcai-nova-server-nightly/0.1.9.dev202306051512-0.1.9.dev202306060908/diff.md --exclude *.pyd
+[2023-07-03 17:39:10] INFO root fetch - processPackages [odoo14-addon-l10n-br-nfe]: executing diffoscope
+[2023-07-03 17:39:10] INFO root fetch - processPackages [odoo14-addon-l10n-br-nfe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_l10n_br_nfe-14.0.8.4.3-py3-none-any.whl.zip tmp/odoo14_addon_l10n_br_nfe-14.0.8.5.0-py3-none-any.whl.zip --markdown 20230703/o/odoo14-addon-l10n-br-nfe/14.0.8.4.3-14.0.8.5.0/diff.md --exclude *.pyd
+[2023-07-03 17:39:10] INFO root fetch - processPackages [odoo14-addon-l10n-br-fiscal]: Downloading https://files.pythonhosted.org/packages/3e/9d/f06739d0fc5ac83076dbdce19b1fc1ffc33e068724d0f81d8a08b9fed2ef/odoo14_addon_l10n_br_fiscal-14.0.9.2.1.dev3-py3-none-any.whl
+[2023-07-03 17:39:11] INFO root fetch - processPackages [pepperize.cdk-vpc]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-vpc-0.0.98.tar.gz]
+[2023-07-03 17:39:11] INFO root fetch - processPackages [pepperize.cdk-vpc]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-vpc-0.0.99.tar.gz]
+[2023-07-03 17:39:11] INFO root fetch - processPackages [pepperize.cdk-vpc]: Start processing: mlflow-tracking-mongostore
+[2023-07-03 17:39:11] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-vpc]: success
+[2023-07-03 17:39:11] INFO root fetch - processPackages [aiodanbooru]: Remove: archive file [/home/abi/fetcher/tmp/aiodanbooru-1.0.4.tar.gz]
+[2023-07-03 17:39:11] INFO root fetch - processPackages [aiodanbooru]: Remove: archive file [/home/abi/fetcher/tmp/aiodanbooru-1.0.5.tar.gz]
+[2023-07-03 17:39:11] INFO root fetch - processPackages [aiodanbooru]: Start processing: careless
+[2023-07-03 17:39:11] INFO root fetch - main [MainThread]: End processing [aiodanbooru]: success
+[2023-07-03 17:39:11] WARNING root fetch - processPackages [mlflow-tracking-mongostore]: Skipping, unable to determine old version
+[2023-07-03 17:39:11] INFO root fetch - processPackages [mlflow-tracking-mongostore]: Start processing: django-pfx
+[2023-07-03 17:39:11] INFO root fetch - main [MainThread]: End processing [mlflow-tracking-mongostore] error
+[2023-07-03 17:39:11] INFO root fetch - processPackages [django-pfx]: New version: [1.2.dev86] Old Version: [1.2.dev84]
+[2023-07-03 17:39:11] INFO root fetch - processPackages [genworlds]: Remove: archive file [/home/abi/fetcher/tmp/genworlds-0.0.2.tar.gz]
+[2023-07-03 17:39:11] INFO root fetch - processPackages [genworlds]: Remove: archive file [/home/abi/fetcher/tmp/genworlds-0.0.3.tar.gz]
+[2023-07-03 17:39:11] INFO root fetch - processPackages [genworlds]: Start processing: satori-ci
+[2023-07-03 17:39:11] INFO root fetch - main [MainThread]: End processing [genworlds]: success
+[2023-07-03 17:39:11] INFO root fetch - processPackages [careless]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-07-03 17:39:11] INFO root fetch - processPackages [django-pfx]: Downloading https://files.pythonhosted.org/packages/f2/2a/3febc39f8913128dd5eb8c8777a2e8cf8c1eed5767469e807446c20d36cc/django-pfx-1.2.dev84.tar.gz
+[2023-07-03 17:39:11] INFO root fetch - processPackages [reliableGPT]: Remove: archive file [/home/abi/fetcher/tmp/reliableGPT-0.2.959.tar.gz]
+[2023-07-03 17:39:11] INFO root fetch - processPackages [reliableGPT]: Remove: archive file [/home/abi/fetcher/tmp/reliableGPT-0.2.960.tar.gz]
+[2023-07-03 17:39:11] INFO root fetch - processPackages [reliableGPT]: Start processing: mlflow-registry-mongostore
+[2023-07-03 17:39:11] INFO root fetch - main [MainThread]: End processing [reliableGPT]: success
+[2023-07-03 17:39:11] INFO root fetch - processPackages [odoo14-addon-l10n-br-fiscal]: executing diffoscope
+[2023-07-03 17:39:11] INFO root fetch - processPackages [odoo14-addon-l10n-br-fiscal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_l10n_br_fiscal-14.0.9.2.1.dev2-py3-none-any.whl.zip tmp/odoo14_addon_l10n_br_fiscal-14.0.9.2.1.dev3-py3-none-any.whl.zip --markdown 20230703/o/odoo14-addon-l10n-br-fiscal/14.0.9.2.1.dev2-14.0.9.2.1.dev3/diff.md --exclude *.pyd
+[2023-07-03 17:39:11] INFO root fetch - processPackages [satori-ci]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-07-03 17:39:11] WARNING root fetch - processPackages [mlflow-registry-mongostore]: Skipping, unable to determine old version
+[2023-07-03 17:39:11] INFO root fetch - processPackages [mlflow-registry-mongostore]: Start processing: aiodanbooru
+[2023-07-03 17:39:11] INFO root fetch - main [MainThread]: End processing [mlflow-registry-mongostore] error
+[2023-07-03 17:39:11] INFO root fetch - processPackages [aiodanbooru]: New version: [1.0.7] Old Version: [1.0.6]
+[2023-07-03 17:39:11] INFO root fetch - processPackages [akeyless-cloud-id]: Remove: archive file [/home/abi/fetcher/tmp/akeyless_cloud_id-0.2.0.tar.gz]
+[2023-07-03 17:39:11] INFO root fetch - processPackages [akeyless-cloud-id]: Remove: archive file [/home/abi/fetcher/tmp/akeyless_cloud_id-0.2.1.tar.gz]
+[2023-07-03 17:39:11] INFO root fetch - processPackages [akeyless-cloud-id]: Start processing: reliableGPT
+[2023-07-03 17:39:11] INFO root fetch - main [MainThread]: End processing [akeyless-cloud-id]: success
+[2023-07-03 17:39:11] INFO root fetch - processPackages [careless]: Downloading https://files.pythonhosted.org/packages/a8/80/ce90ca3ae9f4b3ba9e70fb6213962780112b0874b11a92499979fbef8fb0/careless-0.3.1.tar.gz
+[2023-07-03 17:39:11] INFO root fetch - processPackages [django-pfx]: Downloading https://files.pythonhosted.org/packages/a2/80/4df8aad765e62ce915ee22d056e1b11f381fcdf5200a74517563540ba1d4/django-pfx-1.2.dev86.tar.gz
+[2023-07-03 17:39:11] INFO root fetch - processPackages [reliableGPT]: New version: [0.2.961] Old Version: [0.2.960]
+[2023-07-03 17:39:11] INFO root fetch - processPackages [sdqrcode]: Remove: archive file [/home/abi/fetcher/tmp/sdqrcode-0.3.6.tar.gz]
+[2023-07-03 17:39:11] INFO root fetch - processPackages [sdqrcode]: Remove: archive file [/home/abi/fetcher/tmp/sdqrcode-0.3.7.tar.gz]
+[2023-07-03 17:39:11] INFO root fetch - processPackages [sdqrcode]: Start processing: hm-pyhelper
+[2023-07-03 17:39:11] INFO root fetch - main [MainThread]: End processing [sdqrcode]: success
+[2023-07-03 17:39:11] INFO root fetch - processPackages [satori-ci]: Downloading https://files.pythonhosted.org/packages/0f/e9/8730b0b247277bad0867ffd703c9de8cc8e32296273202190c6988be7d9e/satori_ci-1.2.8.tar.gz
+[2023-07-03 17:39:11] INFO root fetch - processPackages [django-pfx]: executing diffoscope
+[2023-07-03 17:39:11] INFO root fetch - processPackages [django-pfx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-pfx-1.2.dev84.tar.gz tmp/django-pfx-1.2.dev86.tar.gz --markdown 20230703/d/django-pfx/1.2.dev84-1.2.dev86/diff.md --exclude *.pyd
+[2023-07-03 17:39:11] INFO root fetch - processPackages [aiodanbooru]: Downloading https://files.pythonhosted.org/packages/d3/cf/dccc8eb5e3264ef318ed90a812a494c56fbdc7e4b4562067a519573f8bd4/aiodanbooru-1.0.6.tar.gz
+[2023-07-03 17:39:11] INFO root fetch - processPackages [hcai-nova-server-nightly]: Remove: archive file [/home/abi/fetcher/tmp/hcai-nova-server-nightly-0.1.9.dev202306051512.tar.gz]
+[2023-07-03 17:39:11] INFO root fetch - processPackages [hcai-nova-server-nightly]: Remove: archive file [/home/abi/fetcher/tmp/hcai-nova-server-nightly-0.1.9.dev202306060908.tar.gz]
+[2023-07-03 17:39:11] INFO root fetch - processPackages [hcai-nova-server-nightly]: Start processing: SAC-Tello
+[2023-07-03 17:39:11] INFO root fetch - main [MainThread]: End processing [hcai-nova-server-nightly]: success
+[2023-07-03 17:39:11] INFO root fetch - processPackages [nsj-rest-lib]: Remove: archive file [/home/abi/fetcher/tmp/nsj_rest_lib-1.3.0.tar.gz]
+[2023-07-03 17:39:11] INFO root fetch - processPackages [nsj-rest-lib]: Remove: archive file [/home/abi/fetcher/tmp/nsj_rest_lib-1.3.1.tar.gz]
+[2023-07-03 17:39:11] INFO root fetch - processPackages [nsj-rest-lib]: Start processing: uqtestfuns
+[2023-07-03 17:39:11] INFO root fetch - main [MainThread]: End processing [nsj-rest-lib]: success
+[2023-07-03 17:39:11] INFO root fetch - processPackages [reliableGPT]: Downloading https://files.pythonhosted.org/packages/e5/d7/41323ce0f52017a3f0d045268a02e16ffa0378cf87f5f121a4a38303096f/reliableGPT-0.2.960.tar.gz
+[2023-07-03 17:39:11] INFO root fetch - processPackages [SAC-Tello]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-03 17:39:11] INFO root fetch - processPackages [hm-pyhelper]: New version: [0.8.9] Old Version: [0.8.13]
+[2023-07-03 17:39:12] INFO root fetch - processPackages [careless]: Downloading https://files.pythonhosted.org/packages/3f/46/92d5b691560a6180bea388f75aa335c5c5c7f0e4e9e7a19639f8dd98b186/careless-0.3.2.tar.gz
+[2023-07-03 17:39:12] INFO root fetch - processPackages [SAC-Tello]: Downloading https://files.pythonhosted.org/packages/e0/4c/fdeb3748dc3e2e0d8729c0fe96a7d478206d3d277f943f40e26f8d19ee9e/sac_tello-0.0.7.tar.gz
+[2023-07-03 17:39:12] INFO root fetch - processPackages [uqtestfuns]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-07-03 17:39:12] INFO root fetch - processPackages [odoo14-addon-l10n-br-nfe]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_br_nfe-14.0.8.4.3-py3-none-any.whl.zip]
+[2023-07-03 17:39:12] INFO root fetch - processPackages [odoo14-addon-l10n-br-nfe]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_br_nfe-14.0.8.5.0-py3-none-any.whl.zip]
+[2023-07-03 17:39:12] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-br-nfe]: success
+[2023-07-03 17:39:12] INFO root fetch - processPackages [hm-pyhelper]: Downloading https://files.pythonhosted.org/packages/9b/4b/edc7e8852a6293842940cad780b7da899e6155718c56447e5f3b731575dc/hm_pyhelper-0.8.13.tar.gz
+[2023-07-03 17:39:12] INFO root fetch - processPackages [reliableGPT]: Downloading https://files.pythonhosted.org/packages/c0/ca/631a0c4576227f467e9d995fbec1c35b7f4c67f68ede9268e20f4eb39e57/reliableGPT-0.2.961.tar.gz
+[2023-07-03 17:39:12] INFO root fetch - processPackages [careless]: executing diffoscope
+[2023-07-03 17:39:12] INFO root fetch - processPackages [careless]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/careless-0.3.1.tar.gz tmp/careless-0.3.2.tar.gz --markdown 20230703/c/careless/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-07-03 17:39:12] INFO root fetch - processPackages [satori-ci]: Downloading https://files.pythonhosted.org/packages/b7/0b/451eae7159f796f9dfb4eaee887b8acdd96fc946dedeb3da9cafe052e2aa/satori_ci-1.2.9.tar.gz
+[2023-07-03 17:39:12] INFO root fetch - processPackages [aiodanbooru]: Downloading https://files.pythonhosted.org/packages/54/f7/2246a74d8dc45a365d0b467691a9fa6435d8bf3652911888e315970e757a/aiodanbooru-1.0.7.tar.gz
+[2023-07-03 17:39:12] INFO root fetch - processPackages [SAC-Tello]: Downloading https://files.pythonhosted.org/packages/62/ba/886501b8619284f23b65d259ee4f70c812a31a82ab04153ff87d7de2a7fc/sac_tello-0.0.8.tar.gz
+[2023-07-03 17:39:12] INFO root fetch - processPackages [uqtestfuns]: Downloading https://files.pythonhosted.org/packages/4a/01/4293cbff937610f4e0d9b4777c3ac3e1010ce5cef202498fe4e5c8b09517/uqtestfuns-0.2.0.tar.gz
+[2023-07-03 17:39:12] INFO root fetch - processPackages [SAC-Tello]: executing diffoscope
+[2023-07-03 17:39:12] INFO root fetch - processPackages [SAC-Tello]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sac_tello-0.0.7.tar.gz tmp/sac_tello-0.0.8.tar.gz --markdown 20230703/S/SAC-Tello/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-03 17:39:12] INFO root fetch - processPackages [satori-ci]: executing diffoscope
+[2023-07-03 17:39:12] INFO root fetch - processPackages [satori-ci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/satori_ci-1.2.8.tar.gz tmp/satori_ci-1.2.9.tar.gz --markdown 20230703/s/satori-ci/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-07-03 17:39:12] INFO root fetch - processPackages [reliableGPT]: executing diffoscope
+[2023-07-03 17:39:12] INFO root fetch - processPackages [reliableGPT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reliableGPT-0.2.960.tar.gz tmp/reliableGPT-0.2.961.tar.gz --markdown 20230703/r/reliableGPT/0.2.960-0.2.961/diff.md --exclude *.pyd
+[2023-07-03 17:39:12] INFO root fetch - processPackages [aiodanbooru]: executing diffoscope
+[2023-07-03 17:39:12] INFO root fetch - processPackages [aiodanbooru]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiodanbooru-1.0.6.tar.gz tmp/aiodanbooru-1.0.7.tar.gz --markdown 20230703/a/aiodanbooru/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2023-07-03 17:39:13] INFO root fetch - processPackages [uqtestfuns]: Downloading https://files.pythonhosted.org/packages/e3/46/969b12ba5b9848ec1d695d3d03a78833ead45b904c25f0f98f3f4bc95034/uqtestfuns-0.3.0.tar.gz
+[2023-07-03 17:39:13] INFO root fetch - processPackages [hm-pyhelper]: Downloading https://files.pythonhosted.org/packages/5c/c0/bdb90181854669b92d6865c451e6de030723d3440e6446b8d80df6be04f2/hm_pyhelper-0.8.9.tar.gz
+[2023-07-03 17:39:13] INFO root fetch - processPackages [django-pfx]: Remove: archive file [/home/abi/fetcher/tmp/django-pfx-1.2.dev84.tar.gz]
+[2023-07-03 17:39:13] INFO root fetch - processPackages [django-pfx]: Remove: archive file [/home/abi/fetcher/tmp/django-pfx-1.2.dev86.tar.gz]
+[2023-07-03 17:39:13] INFO root fetch - main [MainThread]: End processing [django-pfx]: success
+[2023-07-03 17:39:13] INFO root fetch - processPackages [uqtestfuns]: executing diffoscope
+[2023-07-03 17:39:13] INFO root fetch - processPackages [uqtestfuns]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uqtestfuns-0.2.0.tar.gz tmp/uqtestfuns-0.3.0.tar.gz --markdown 20230703/u/uqtestfuns/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-07-03 17:39:13] INFO root fetch - processPackages [hm-pyhelper]: executing diffoscope
+[2023-07-03 17:39:13] INFO root fetch - processPackages [hm-pyhelper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hm_pyhelper-0.8.13.tar.gz tmp/hm_pyhelper-0.8.9.tar.gz --markdown 20230703/h/hm-pyhelper/0.8.13-0.8.9/diff.md --exclude *.pyd
+[2023-07-03 17:39:13] INFO root fetch - processPackages [reliableGPT]: Remove: archive file [/home/abi/fetcher/tmp/reliableGPT-0.2.960.tar.gz]
+[2023-07-03 17:39:13] INFO root fetch - processPackages [reliableGPT]: Remove: archive file [/home/abi/fetcher/tmp/reliableGPT-0.2.961.tar.gz]
+[2023-07-03 17:39:13] INFO root fetch - main [MainThread]: End processing [reliableGPT]: success
+[2023-07-03 17:39:13] INFO root fetch - processPackages [aiodanbooru]: Remove: archive file [/home/abi/fetcher/tmp/aiodanbooru-1.0.6.tar.gz]
+[2023-07-03 17:39:13] INFO root fetch - processPackages [aiodanbooru]: Remove: archive file [/home/abi/fetcher/tmp/aiodanbooru-1.0.7.tar.gz]
+[2023-07-03 17:39:13] INFO root fetch - main [MainThread]: End processing [aiodanbooru]: success
+[2023-07-03 17:39:13] INFO root fetch - processPackages [careless]: Remove: archive file [/home/abi/fetcher/tmp/careless-0.3.1.tar.gz]
+[2023-07-03 17:39:13] INFO root fetch - processPackages [careless]: Remove: archive file [/home/abi/fetcher/tmp/careless-0.3.2.tar.gz]
+[2023-07-03 17:39:13] INFO root fetch - main [MainThread]: End processing [careless]: success
+[2023-07-03 17:39:13] INFO root fetch - processPackages [SAC-Tello]: Remove: archive file [/home/abi/fetcher/tmp/sac_tello-0.0.7.tar.gz]
+[2023-07-03 17:39:13] INFO root fetch - processPackages [SAC-Tello]: Remove: archive file [/home/abi/fetcher/tmp/sac_tello-0.0.8.tar.gz]
+[2023-07-03 17:39:13] INFO root fetch - main [MainThread]: End processing [SAC-Tello]: success
+[2023-07-03 17:39:13] INFO root fetch - processPackages [satori-ci]: Remove: archive file [/home/abi/fetcher/tmp/satori_ci-1.2.8.tar.gz]
+[2023-07-03 17:39:13] INFO root fetch - processPackages [satori-ci]: Remove: archive file [/home/abi/fetcher/tmp/satori_ci-1.2.9.tar.gz]
+[2023-07-03 17:39:13] INFO root fetch - main [MainThread]: End processing [satori-ci]: success
+[2023-07-03 17:39:14] INFO root fetch - processPackages [odoo14-addon-l10n-br-fiscal]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_br_fiscal-14.0.9.2.1.dev2-py3-none-any.whl.zip]
+[2023-07-03 17:39:14] INFO root fetch - processPackages [odoo14-addon-l10n-br-fiscal]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_br_fiscal-14.0.9.2.1.dev3-py3-none-any.whl.zip]
+[2023-07-03 17:39:14] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-br-fiscal]: success
+[2023-07-03 17:39:14] INFO root fetch - processPackages [uqtestfuns]: Remove: archive file [/home/abi/fetcher/tmp/uqtestfuns-0.2.0.tar.gz]
+[2023-07-03 17:39:14] INFO root fetch - processPackages [uqtestfuns]: Remove: archive file [/home/abi/fetcher/tmp/uqtestfuns-0.3.0.tar.gz]
+[2023-07-03 17:39:14] INFO root fetch - main [MainThread]: End processing [uqtestfuns]: success
+[2023-07-03 17:39:22] INFO root fetch - processPackages [hm-pyhelper]: Remove: archive file [/home/abi/fetcher/tmp/hm_pyhelper-0.8.13.tar.gz]
+[2023-07-03 17:39:22] INFO root fetch - processPackages [hm-pyhelper]: Remove: archive file [/home/abi/fetcher/tmp/hm_pyhelper-0.8.9.tar.gz]
+[2023-07-03 17:39:22] INFO root fetch - main [MainThread]: End processing [hm-pyhelper]: success
+[2023-07-03 17:39:22] INFO root fetch - main [MainThread]: Store serial: [18741554]
