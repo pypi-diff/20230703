@@ -4217,3 +4217,78 @@
 [2023-07-03 02:43:54] INFO root fetch - processPackages [cdklabs.cdk-enterprise-iac]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.cdk-enterprise-iac-0.0.99.tar.gz]
 [2023-07-03 02:43:54] INFO root fetch - main [MainThread]: End processing [cdklabs.cdk-enterprise-iac]: success
 [2023-07-03 02:43:54] INFO root fetch - main [MainThread]: Store serial: [18733296]
+[2023-07-03 02:48:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18733296]
+[2023-07-03 02:49:04] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-03 02:49:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: querysource
+[2023-07-03 02:49:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tfds-nightly
+[2023-07-03 02:49:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: neuromorphic-drivers
+[2023-07-03 02:49:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: proteusPy
+[2023-07-03 02:49:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aurora-asi-lib
+[2023-07-03 02:49:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: kubric-nightly
+[2023-07-03 02:49:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: get-eyedata
+[2023-07-03 02:49:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyRDDLGym
+[2023-07-03 02:49:04] INFO root fetch - processPackages [aurora-asi-lib]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-07-03 02:49:04] INFO root fetch - processPackages [neuromorphic-drivers]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-07-03 02:49:04] INFO root fetch - processPackages [pyRDDLGym]: New version: [1.0.6] Old Version: [1.0.56]
+[2023-07-03 02:49:04] INFO root fetch - processPackages [proteusPy]: New version: [0.681] Old Version: [0.68]
+[2023-07-03 02:49:04] INFO root fetch - processPackages [get-eyedata]: New version: [1.3.2] Old Version: [1.3.1]
+[2023-07-03 02:49:04] INFO root fetch - processPackages [querysource]: New version: [3.6.9] Old Version: [3.6.8]
+[2023-07-03 02:49:04] INFO root fetch - processPackages [kubric-nightly]: New version: [2023.7.2] Old Version: [2023.7.1]
+[2023-07-03 02:49:04] INFO root fetch - processPackages [neuromorphic-drivers]: Downloading https://files.pythonhosted.org/packages/6c/89/3f97bc624653fd65de5635f7639de0c88a2ba054008cc944af13aa780dcd/neuromorphic_drivers-0.2.0.tar.gz
+[2023-07-03 02:49:04] INFO root fetch - processPackages [tfds-nightly]: New version: [4.9.2.dev202307020046] Old Version: [4.9.2.dev202307010045]
+[2023-07-03 02:49:04] INFO root fetch - processPackages [get-eyedata]: Downloading https://files.pythonhosted.org/packages/01/df/2938d65fb6fe70b619f4ef56f28615fc1bbdf6dd3eed4c10f2c4f8ac0bb1/get_eyedata-1.3.1-py3-none-any.whl
+[2023-07-03 02:49:04] INFO root fetch - processPackages [pyRDDLGym]: Downloading https://files.pythonhosted.org/packages/42/58/9db77f1302c8600daa14b103c58f0357e46f56c94b582b3b99408d38523e/pyRDDLGym-1.0.56.tar.gz
+[2023-07-03 02:49:04] INFO root fetch - processPackages [kubric-nightly]: Downloading https://files.pythonhosted.org/packages/1b/67/27400c114115ace3c7bade5a0bcabea2eb71a6b0f4bf11cd91a76ffcd795/kubric-nightly-2023.7.1.tar.gz
+[2023-07-03 02:49:04] INFO root fetch - processPackages [querysource]: Downloading https://files.pythonhosted.org/packages/70/4b/8c539f343afcdd37564e5a6c74c47423c9bf31268e67037958cf41e0fefb/querysource-3.6.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-03 02:49:04] INFO root fetch - processPackages [tfds-nightly]: Downloading https://files.pythonhosted.org/packages/ac/d2/a9621ed3c31d89b4d64b1ca15186793e193d73bd3ffdce02eebece1546d4/tfds-nightly-4.9.2.dev202307010045.tar.gz
+[2023-07-03 02:49:04] INFO root fetch - processPackages [aurora-asi-lib]: Downloading https://files.pythonhosted.org/packages/50/32/eaeef4189b1bcae22ea93fa52172a68c954ff7b81af1b3c5bbfa6aa2df30/aurora-asi-lib-0.9.4.tar.gz
+[2023-07-03 02:49:04] INFO root fetch - processPackages [proteusPy]: Downloading https://files.pythonhosted.org/packages/ed/49/9170d2ffda27e555f71f90fb818ec31b638a1feef71a517ad95f51ef8c1a/proteusPy-0.68.tar.gz
+[2023-07-03 02:49:04] INFO root fetch - processPackages [get-eyedata]: Downloading https://files.pythonhosted.org/packages/da/c7/659a0f8c1ad7ee4314be19bdcf0bdbe162651c4be7d5d21612cec8ccea85/get_eyedata-1.3.2-py3-none-any.whl
+[2023-07-03 02:49:04] INFO root fetch - processPackages [get-eyedata]: executing diffoscope
+[2023-07-03 02:49:04] INFO root fetch - processPackages [get-eyedata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/get_eyedata-1.3.1-py3-none-any.whl.zip tmp/get_eyedata-1.3.2-py3-none-any.whl.zip --markdown 20230703/g/get-eyedata/1.3.1-1.3.2/diff.md --exclude *.pyd
+[2023-07-03 02:49:04] INFO root fetch - processPackages [pyRDDLGym]: Downloading https://files.pythonhosted.org/packages/4e/7e/839d50f875a0795e4bc6261bd61efb4fdfb75974914606a3e4f48f633e83/pyRDDLGym-1.0.6.tar.gz
+[2023-07-03 02:49:04] INFO root fetch - processPackages [querysource]: Downloading https://files.pythonhosted.org/packages/ab/50/018cb101f002f53a882706970a666f7fabfdaef68902e2363149b998910b/querysource-3.6.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-03 02:49:04] INFO root fetch - processPackages [neuromorphic-drivers]: Downloading https://files.pythonhosted.org/packages/55/c5/66bf91fa6b208e4391588af27597408f7ba13f8044c7dd08d4fe6afc69aa/neuromorphic_drivers-0.2.1.tar.gz
+[2023-07-03 02:49:04] INFO root fetch - processPackages [pyRDDLGym]: executing diffoscope
+[2023-07-03 02:49:04] INFO root fetch - processPackages [pyRDDLGym]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyRDDLGym-1.0.56.tar.gz tmp/pyRDDLGym-1.0.6.tar.gz --markdown 20230703/p/pyRDDLGym/1.0.56-1.0.6/diff.md --exclude *.pyd
+[2023-07-03 02:49:04] INFO root fetch - processPackages [kubric-nightly]: Downloading https://files.pythonhosted.org/packages/88/1f/575e30c3c6994d98d302c8122e421c081e953b637b7505eb2f2a1861deb5/kubric-nightly-2023.7.2.tar.gz
+[2023-07-03 02:49:04] INFO root fetch - processPackages [proteusPy]: Downloading https://files.pythonhosted.org/packages/4c/3e/5d53ef7870468f5d243e74b7254b71fde9d3b52929c39150c04fd7b83c4f/proteusPy-0.681.tar.gz
+[2023-07-03 02:49:04] INFO root fetch - processPackages [aurora-asi-lib]: Downloading https://files.pythonhosted.org/packages/84/0c/8c7e5b70ee5634837d944d978f39d8a697185c2b5ff320762f7a71817094/aurora-asi-lib-0.9.5.tar.gz
+[2023-07-03 02:49:04] INFO root fetch - processPackages [tfds-nightly]: Downloading https://files.pythonhosted.org/packages/45/c7/1509a6fee7c1c5ba798e5aad17f832cfe564e4daf6295aa8904b178ddee2/tfds-nightly-4.9.2.dev202307020046.tar.gz
+[2023-07-03 02:49:04] INFO root fetch - processPackages [neuromorphic-drivers]: executing diffoscope
+[2023-07-03 02:49:04] INFO root fetch - processPackages [neuromorphic-drivers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neuromorphic_drivers-0.2.0.tar.gz tmp/neuromorphic_drivers-0.2.1.tar.gz --markdown 20230703/n/neuromorphic-drivers/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-07-03 02:49:04] INFO root fetch - processPackages [kubric-nightly]: executing diffoscope
+[2023-07-03 02:49:04] INFO root fetch - processPackages [kubric-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kubric-nightly-2023.7.1.tar.gz tmp/kubric-nightly-2023.7.2.tar.gz --markdown 20230703/k/kubric-nightly/2023.7.1-2023.7.2/diff.md --exclude *.pyd
+[2023-07-03 02:49:04] INFO root fetch - processPackages [proteusPy]: executing diffoscope
+[2023-07-03 02:49:04] INFO root fetch - processPackages [proteusPy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proteusPy-0.68.tar.gz tmp/proteusPy-0.681.tar.gz --markdown 20230703/p/proteusPy/0.68-0.681/diff.md --exclude *.pyd
+[2023-07-03 02:49:04] INFO root fetch - processPackages [aurora-asi-lib]: executing diffoscope
+[2023-07-03 02:49:04] INFO root fetch - processPackages [aurora-asi-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aurora-asi-lib-0.9.4.tar.gz tmp/aurora-asi-lib-0.9.5.tar.gz --markdown 20230703/a/aurora-asi-lib/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-07-03 02:49:04] INFO root fetch - processPackages [tfds-nightly]: executing diffoscope
+[2023-07-03 02:49:04] INFO root fetch - processPackages [tfds-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfds-nightly-4.9.2.dev202307010045.tar.gz tmp/tfds-nightly-4.9.2.dev202307020046.tar.gz --markdown 20230703/t/tfds-nightly/4.9.2.dev202307010045-4.9.2.dev202307020046/diff.md --exclude *.pyd
+[2023-07-03 02:49:05] INFO root fetch - processPackages [querysource]: executing diffoscope
+[2023-07-03 02:49:05] INFO root fetch - processPackages [querysource]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/querysource-3.6.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/querysource-3.6.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230703/q/querysource/3.6.8-3.6.9/diff.md --exclude *.pyd
+[2023-07-03 02:49:05] INFO root fetch - processPackages [get-eyedata]: Remove: archive file [/home/abi/fetcher/tmp/get_eyedata-1.3.1-py3-none-any.whl.zip]
+[2023-07-03 02:49:05] INFO root fetch - processPackages [get-eyedata]: Remove: archive file [/home/abi/fetcher/tmp/get_eyedata-1.3.2-py3-none-any.whl.zip]
+[2023-07-03 02:49:05] INFO root fetch - main [MainThread]: End processing [get-eyedata]: success
+[2023-07-03 02:49:06] INFO root fetch - processPackages [proteusPy]: Remove: archive file [/home/abi/fetcher/tmp/proteusPy-0.68.tar.gz]
+[2023-07-03 02:49:06] INFO root fetch - processPackages [proteusPy]: Remove: archive file [/home/abi/fetcher/tmp/proteusPy-0.681.tar.gz]
+[2023-07-03 02:49:06] INFO root fetch - main [MainThread]: End processing [proteusPy]: success
+[2023-07-03 02:49:06] INFO root fetch - processPackages [aurora-asi-lib]: Remove: archive file [/home/abi/fetcher/tmp/aurora-asi-lib-0.9.4.tar.gz]
+[2023-07-03 02:49:06] INFO root fetch - processPackages [aurora-asi-lib]: Remove: archive file [/home/abi/fetcher/tmp/aurora-asi-lib-0.9.5.tar.gz]
+[2023-07-03 02:49:06] INFO root fetch - main [MainThread]: End processing [aurora-asi-lib]: success
+[2023-07-03 02:49:06] INFO root fetch - processPackages [kubric-nightly]: Remove: archive file [/home/abi/fetcher/tmp/kubric-nightly-2023.7.1.tar.gz]
+[2023-07-03 02:49:06] INFO root fetch - processPackages [kubric-nightly]: Remove: archive file [/home/abi/fetcher/tmp/kubric-nightly-2023.7.2.tar.gz]
+[2023-07-03 02:49:06] INFO root fetch - main [MainThread]: End processing [kubric-nightly]: success
+[2023-07-03 02:49:06] INFO root fetch - processPackages [neuromorphic-drivers]: Remove: archive file [/home/abi/fetcher/tmp/neuromorphic_drivers-0.2.0.tar.gz]
+[2023-07-03 02:49:06] INFO root fetch - processPackages [neuromorphic-drivers]: Remove: archive file [/home/abi/fetcher/tmp/neuromorphic_drivers-0.2.1.tar.gz]
+[2023-07-03 02:49:06] INFO root fetch - main [MainThread]: End processing [neuromorphic-drivers]: success
+[2023-07-03 02:49:07] INFO root fetch - processPackages [querysource]: Remove: archive file [/home/abi/fetcher/tmp/querysource-3.6.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-03 02:49:07] INFO root fetch - processPackages [querysource]: Remove: archive file [/home/abi/fetcher/tmp/querysource-3.6.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-03 02:49:07] INFO root fetch - main [MainThread]: End processing [querysource]: success
+[2023-07-03 02:49:08] INFO root fetch - processPackages [pyRDDLGym]: Remove: archive file [/home/abi/fetcher/tmp/pyRDDLGym-1.0.56.tar.gz]
+[2023-07-03 02:49:08] INFO root fetch - processPackages [pyRDDLGym]: Remove: archive file [/home/abi/fetcher/tmp/pyRDDLGym-1.0.6.tar.gz]
+[2023-07-03 02:49:08] INFO root fetch - main [MainThread]: End processing [pyRDDLGym]: success
+[2023-07-03 02:49:15] INFO root fetch - processPackages [tfds-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfds-nightly-4.9.2.dev202307010045.tar.gz]
+[2023-07-03 02:49:15] INFO root fetch - processPackages [tfds-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfds-nightly-4.9.2.dev202307020046.tar.gz]
+[2023-07-03 02:49:15] INFO root fetch - main [MainThread]: End processing [tfds-nightly]: success
+[2023-07-03 02:49:15] INFO root fetch - main [MainThread]: Store serial: [18733352]
