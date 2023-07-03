@@ -22823,3 +22823,194 @@ EOFError: EOF read where object expected
 [2023-07-03 17:16:56] INFO root fetch - processPackages [returnn]: Remove: archive file [/home/abi/fetcher/tmp/returnn-1.20230703.144914.tar.gz]
 [2023-07-03 17:16:56] INFO root fetch - main [MainThread]: End processing [returnn]: success
 [2023-07-03 17:16:56] INFO root fetch - main [MainThread]: Store serial: [18741276]
+[2023-07-03 17:22:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18741276]
+[2023-07-03 17:22:06] INFO root fetch - main [MainThread]: Found 25 changed packages
+[2023-07-03 17:22:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pwasopt
+[2023-07-03 17:22:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aiosumma
+[2023-07-03 17:22:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nsj-multi-database-lib
+[2023-07-03 17:22:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nonebot-plugin-spark-gpt
+[2023-07-03 17:22:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hello-world-cc
+[2023-07-03 17:22:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: frictionless
+[2023-07-03 17:22:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cnert
+[2023-07-03 17:22:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: policyengine-us
+[2023-07-03 17:22:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: genworlds
+[2023-07-03 17:22:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: geyserworx-api
+[2023-07-03 17:22:06] INFO root fetch - processPackages [hello-world-cc]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-03 17:22:06] INFO root fetch - processPackages [nonebot-plugin-spark-gpt]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-07-03 17:22:06] INFO root fetch - processPackages [frictionless]: New version: [5.8.3] Old Version: [5.8.2]
+[2023-07-03 17:22:06] INFO root fetch - processPackages [nsj-multi-database-lib]: New version: [0.3.0] Old Version: [0.2.9]
+[2023-07-03 17:22:06] INFO root fetch - processPackages [policyengine-us]: New version: [0.350.0] Old Version: [0.349.0]
+[2023-07-03 17:22:06] INFO root fetch - processPackages [genworlds]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-03 17:22:06] WARNING root fetch - processPackages [geyserworx-api]: Skipping, unable to determine old version
+[2023-07-03 17:22:06] INFO root fetch - processPackages [geyserworx-api]: Start processing: gx1convert
+[2023-07-03 17:22:06] INFO root fetch - main [MainThread]: End processing [geyserworx-api] error
+[2023-07-03 17:22:06] INFO root fetch - processPackages [pwasopt]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-03 17:22:06] INFO root fetch - processPackages [cnert]: New version: [0.7.2] Old Version: [0.7.1]
+[2023-07-03 17:22:06] INFO root fetch - processPackages [aiosumma]: New version: [2.9.9] Old Version: [2.9.8]
+[2023-07-03 17:22:06] INFO root fetch - processPackages [gx1convert]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-03 17:22:06] INFO root fetch - processPackages [nonebot-plugin-spark-gpt]: Downloading https://files.pythonhosted.org/packages/a9/d0/68bddead421a585d80a7828e9a824a9850ceb5cc184b512dee41c0f1358d/nonebot_plugin_spark_gpt-1.0.5.tar.gz
+[2023-07-03 17:22:06] INFO root fetch - processPackages [hello-world-cc]: Downloading https://files.pythonhosted.org/packages/d1/0a/0ee3b34551536a96ab0645500ac5d2e811f391bafec5e78f0af4fdb9cc77/hello_world_cc-0.0.3.tar.gz
+[2023-07-03 17:22:06] INFO root fetch - processPackages [policyengine-us]: Downloading https://files.pythonhosted.org/packages/55/a9/906a18a41a54b76f6cfdd15a4e96aca82d861c4f0cf38d3bfc37932c4321/policyengine-us-0.349.0.tar.gz
+[2023-07-03 17:22:06] INFO root fetch - processPackages [frictionless]: Downloading https://files.pythonhosted.org/packages/64/ee/14733c5b1fcd9a121c750af080aa978bfe1e801a9de882afa8cfe53382a6/frictionless-5.8.2.tar.gz
+[2023-07-03 17:22:06] WARNING root fetch - processPackages [nonebot-plugin-spark-gpt]: Skipping package: exceeds size limit 15020561>=10485760
+[2023-07-03 17:22:06] INFO root fetch - processPackages [nonebot-plugin-spark-gpt]: Start processing: zenroom
+[2023-07-03 17:22:06] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-spark-gpt] error
+[2023-07-03 17:22:06] INFO root fetch - processPackages [gx1convert]: Downloading https://files.pythonhosted.org/packages/57/65/80e633488780983f5e2299d3856bb1fbbaeec6e6d5315ff4519fc8ae2693/gx1convert-0.1.1.tar.gz
+[2023-07-03 17:22:06] INFO root fetch - processPackages [pwasopt]: Downloading https://files.pythonhosted.org/packages/66/c6/c2ade9229f13ed0fa25dcc62e483f1eea559d30088304446072616f1c788/pwasopt-0.0.5.tar.gz
+[2023-07-03 17:22:06] INFO root fetch - processPackages [nsj-multi-database-lib]: Downloading https://files.pythonhosted.org/packages/9d/55/40ffe916ae17d95525340d8f6290bc6b6218007c3b13d6063a5caa8a8be9/nsj_multi_database_lib-0.2.9.tar.gz
+[2023-07-03 17:22:06] WARNING root fetch - processPackages [gx1convert]: Skipping package: exceeds size limit 95828306>=10485760
+[2023-07-03 17:22:06] INFO root fetch - processPackages [gx1convert]: Start processing: crypto-screening
+[2023-07-03 17:22:06] INFO root fetch - main [MainThread]: End processing [gx1convert] error
+[2023-07-03 17:22:06] INFO root fetch - processPackages [cnert]: Downloading https://files.pythonhosted.org/packages/9c/52/c7267a9d34bef34e66284fbde194de8faf8d80ada35308df0e2cc90e269c/cnert-0.7.1.tar.gz
+[2023-07-03 17:22:06] INFO root fetch - processPackages [aiosumma]: Downloading https://files.pythonhosted.org/packages/af/63/76bb948cda2c27009b48b8fddf160e3d70fd6bfcd7ad70add7b240652ed3/aiosumma-2.9.8-py3-none-any.whl
+[2023-07-03 17:22:07] INFO root fetch - processPackages [zenroom]: New version: [3.9.1] Old Version: [3.8.0]
+[2023-07-03 17:22:07] INFO root fetch - processPackages [crypto-screening]: New version: [1.8.2] Old Version: [1.8.1]
+[2023-07-03 17:22:07] INFO root fetch - processPackages [genworlds]: Downloading https://files.pythonhosted.org/packages/2c/41/78eb3d19ed15962cc09dfeac91772fc1541e13f2e5737e001ac98e242dc4/genworlds-0.0.3.tar.gz
+[2023-07-03 17:22:07] INFO root fetch - processPackages [hello-world-cc]: Downloading https://files.pythonhosted.org/packages/65/18/ca1c04fe992084874d4c99caf97af25d7551682cd64d9381d75a0a8fa492/hello_world_cc-0.0.4.tar.gz
+[2023-07-03 17:22:07] INFO root fetch - processPackages [crypto-screening]: Downloading https://files.pythonhosted.org/packages/0c/41/70b62f9f6df16657129a932fad7d1bc22d79703ff2b8c56a0cc792aa3ed2/crypto-screening-1.8.1.tar.gz
+[2023-07-03 17:22:07] INFO root fetch - processPackages [frictionless]: Downloading https://files.pythonhosted.org/packages/90/d2/f85c7cedee239a748294362c4c36984bc70e846a057ecc7f4ed136298a34/frictionless-5.8.3.tar.gz
+[2023-07-03 17:22:07] INFO root fetch - processPackages [zenroom]: Downloading https://files.pythonhosted.org/packages/f3/9a/338abeb4a3c4ac5e251366dea7d38d8c492fee014147c2239dc1fe4f21fa/zenroom-3.8.0.tar.gz
+[2023-07-03 17:22:07] INFO root fetch - processPackages [pwasopt]: Downloading https://files.pythonhosted.org/packages/00/aa/2ee262fe0d7086a2e118bd1e02addb4467ba8551f052da62fb5d86f5cc8c/pwasopt-0.0.6.tar.gz
+[2023-07-03 17:22:07] INFO root fetch - processPackages [nsj-multi-database-lib]: Downloading https://files.pythonhosted.org/packages/34/71/f431185ed3e44fb13d6889de5e3d6fe839699a4415da9b9a03db8fc1baa3/nsj_multi_database_lib-0.3.0.tar.gz
+[2023-07-03 17:22:07] INFO root fetch - processPackages [policyengine-us]: Downloading https://files.pythonhosted.org/packages/27/14/a2cf5e0d0e8a7e9281e5a2b064fa63d5f846b5bfd5e72d8bcec8cd5ac471/policyengine-us-0.350.0.tar.gz
+[2023-07-03 17:22:07] INFO root fetch - processPackages [cnert]: Downloading https://files.pythonhosted.org/packages/21/2f/0c8bf5d1a78cca714987044efaffdd1c8eceb3aaa5424c06238c6b8ec238/cnert-0.7.2.tar.gz
+[2023-07-03 17:22:07] INFO root fetch - processPackages [genworlds]: executing diffoscope
+[2023-07-03 17:22:07] INFO root fetch - processPackages [genworlds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/genworlds-0.0.2.tar.gz tmp/genworlds-0.0.3.tar.gz --markdown 20230703/g/genworlds/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-03 17:22:07] INFO root fetch - processPackages [hello-world-cc]: executing diffoscope
+[2023-07-03 17:22:07] INFO root fetch - processPackages [hello-world-cc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hello_world_cc-0.0.3.tar.gz tmp/hello_world_cc-0.0.4.tar.gz --markdown 20230703/h/hello-world-cc/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-03 17:22:07] INFO root fetch - processPackages [frictionless]: executing diffoscope
+[2023-07-03 17:22:07] INFO root fetch - processPackages [frictionless]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/frictionless-5.8.2.tar.gz tmp/frictionless-5.8.3.tar.gz --markdown 20230703/f/frictionless/5.8.2-5.8.3/diff.md --exclude *.pyd
+[2023-07-03 17:22:07] WARNING root fetch - processPackages [zenroom]: Skipping package: exceeds size limit 25654205>=10485760
+[2023-07-03 17:22:07] INFO root fetch - processPackages [zenroom]: Start processing: cachetory
+[2023-07-03 17:22:07] INFO root fetch - main [MainThread]: End processing [zenroom] error
+[2023-07-03 17:22:07] INFO root fetch - processPackages [crypto-screening]: Downloading https://files.pythonhosted.org/packages/b0/ad/09eb30ab08f0d474a6311ab0be07f6853cbbe577b7701e254a87092eafb1/crypto-screening-1.8.2.tar.gz
+[2023-07-03 17:22:07] INFO root fetch - processPackages [pwasopt]: executing diffoscope
+[2023-07-03 17:22:07] INFO root fetch - processPackages [pwasopt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pwasopt-0.0.5.tar.gz tmp/pwasopt-0.0.6.tar.gz --markdown 20230703/p/pwasopt/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-03 17:22:07] INFO root fetch - processPackages [aiosumma]: Downloading https://files.pythonhosted.org/packages/c8/7f/f303da086cbb7f185236d31e6bc67a25c6f5286e37ca9dcfc361983a9a60/aiosumma-2.9.9-py3-none-any.whl
+[2023-07-03 17:22:07] INFO root fetch - processPackages [nsj-multi-database-lib]: executing diffoscope
+[2023-07-03 17:22:07] INFO root fetch - processPackages [nsj-multi-database-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nsj_multi_database_lib-0.2.9.tar.gz tmp/nsj_multi_database_lib-0.3.0.tar.gz --markdown 20230703/n/nsj-multi-database-lib/0.2.9-0.3.0/diff.md --exclude *.pyd
+[2023-07-03 17:22:07] INFO root fetch - processPackages [cnert]: executing diffoscope
+[2023-07-03 17:22:07] INFO root fetch - processPackages [cnert]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cnert-0.7.1.tar.gz tmp/cnert-0.7.2.tar.gz --markdown 20230703/c/cnert/0.7.1-0.7.2/diff.md --exclude *.pyd
+[2023-07-03 17:22:07] INFO root fetch - processPackages [cachetory]: New version: [2.3.0] Old Version: [2.2.0]
+[2023-07-03 17:22:07] INFO root fetch - processPackages [crypto-screening]: executing diffoscope
+[2023-07-03 17:22:07] INFO root fetch - processPackages [crypto-screening]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crypto-screening-1.8.1.tar.gz tmp/crypto-screening-1.8.2.tar.gz --markdown 20230703/c/crypto-screening/1.8.1-1.8.2/diff.md --exclude *.pyd
+[2023-07-03 17:22:07] INFO root fetch - processPackages [policyengine-us]: executing diffoscope
+[2023-07-03 17:22:07] INFO root fetch - processPackages [policyengine-us]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/policyengine-us-0.349.0.tar.gz tmp/policyengine-us-0.350.0.tar.gz --markdown 20230703/p/policyengine-us/0.349.0-0.350.0/diff.md --exclude *.pyd
+[2023-07-03 17:22:07] INFO root fetch - processPackages [aiosumma]: executing diffoscope
+[2023-07-03 17:22:07] INFO root fetch - processPackages [aiosumma]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiosumma-2.9.8-py3-none-any.whl.zip tmp/aiosumma-2.9.9-py3-none-any.whl.zip --markdown 20230703/a/aiosumma/2.9.8-2.9.9/diff.md --exclude *.pyd
+[2023-07-03 17:22:07] INFO root fetch - processPackages [cachetory]: Downloading https://files.pythonhosted.org/packages/16/ff/ac8657e95010cc70ddd5db520be086ee57296c0d315ad5b53d7b15d7910b/cachetory-2.2.0.tar.gz
+[2023-07-03 17:22:08] INFO root fetch - processPackages [cachetory]: Downloading https://files.pythonhosted.org/packages/88/db/1d08d559cafac4f61d74d5a0a467765a4b31e1a875b97507c83af96fea2f/cachetory-2.3.0.tar.gz
+[2023-07-03 17:22:08] INFO root fetch - processPackages [cachetory]: executing diffoscope
+[2023-07-03 17:22:08] INFO root fetch - processPackages [cachetory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cachetory-2.2.0.tar.gz tmp/cachetory-2.3.0.tar.gz --markdown 20230703/c/cachetory/2.2.0-2.3.0/diff.md --exclude *.pyd
+[2023-07-03 17:22:08] INFO root fetch - processPackages [genworlds]: Remove: archive file [/home/abi/fetcher/tmp/genworlds-0.0.2.tar.gz]
+[2023-07-03 17:22:08] INFO root fetch - processPackages [genworlds]: Remove: archive file [/home/abi/fetcher/tmp/genworlds-0.0.3.tar.gz]
+[2023-07-03 17:22:08] INFO root fetch - processPackages [genworlds]: Start processing: aiodanbooru
+[2023-07-03 17:22:08] INFO root fetch - main [MainThread]: End processing [genworlds]: success
+[2023-07-03 17:22:09] INFO root fetch - processPackages [aiodanbooru]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-07-03 17:22:09] INFO root fetch - processPackages [hello-world-cc]: Remove: archive file [/home/abi/fetcher/tmp/hello_world_cc-0.0.3.tar.gz]
+[2023-07-03 17:22:09] INFO root fetch - processPackages [hello-world-cc]: Remove: archive file [/home/abi/fetcher/tmp/hello_world_cc-0.0.4.tar.gz]
+[2023-07-03 17:22:09] INFO root fetch - processPackages [hello-world-cc]: Start processing: nsj-flask-auth
+[2023-07-03 17:22:09] INFO root fetch - main [MainThread]: End processing [hello-world-cc]: success
+[2023-07-03 17:22:09] INFO root fetch - processPackages [aiodanbooru]: Downloading https://files.pythonhosted.org/packages/a2/0a/fcba95f36edeae4dd62b8f16147cb1064ef6d4c5af1254b607771f42daed/aiodanbooru-1.0.4.tar.gz
+[2023-07-03 17:22:09] INFO root fetch - processPackages [nsj-flask-auth]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-07-03 17:22:09] INFO root fetch - processPackages [nsj-multi-database-lib]: Remove: archive file [/home/abi/fetcher/tmp/nsj_multi_database_lib-0.2.9.tar.gz]
+[2023-07-03 17:22:09] INFO root fetch - processPackages [nsj-multi-database-lib]: Remove: archive file [/home/abi/fetcher/tmp/nsj_multi_database_lib-0.3.0.tar.gz]
+[2023-07-03 17:22:09] INFO root fetch - processPackages [nsj-multi-database-lib]: Start processing: oarepo-model-builder-requests
+[2023-07-03 17:22:09] INFO root fetch - main [MainThread]: End processing [nsj-multi-database-lib]: success
+[2023-07-03 17:22:09] INFO root fetch - processPackages [pwasopt]: Remove: archive file [/home/abi/fetcher/tmp/pwasopt-0.0.5.tar.gz]
+[2023-07-03 17:22:09] INFO root fetch - processPackages [pwasopt]: Remove: archive file [/home/abi/fetcher/tmp/pwasopt-0.0.6.tar.gz]
+[2023-07-03 17:22:09] INFO root fetch - processPackages [pwasopt]: Start processing: dep-graph-analytics
+[2023-07-03 17:22:09] INFO root fetch - main [MainThread]: End processing [pwasopt]: success
+[2023-07-03 17:22:09] INFO root fetch - processPackages [cnert]: Remove: archive file [/home/abi/fetcher/tmp/cnert-0.7.1.tar.gz]
+[2023-07-03 17:22:09] INFO root fetch - processPackages [cnert]: Remove: archive file [/home/abi/fetcher/tmp/cnert-0.7.2.tar.gz]
+[2023-07-03 17:22:09] INFO root fetch - processPackages [cnert]: Start processing: pants-plugin-dep-graph
+[2023-07-03 17:22:09] INFO root fetch - main [MainThread]: End processing [cnert]: success
+[2023-07-03 17:22:09] INFO root fetch - processPackages [pants-plugin-dep-graph]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-07-03 17:22:09] INFO root fetch - processPackages [oarepo-model-builder-requests]: New version: [4.0.0] Old Version: [3.1.2]
+[2023-07-03 17:22:09] WARNING root fetch - processPackages [dep-graph-analytics]: Skipping, unable to determine old version
+[2023-07-03 17:22:09] INFO root fetch - processPackages [dep-graph-analytics]: Start processing: py-machineid
+[2023-07-03 17:22:09] INFO root fetch - main [MainThread]: End processing [dep-graph-analytics] error
+[2023-07-03 17:22:09] INFO root fetch - processPackages [nsj-flask-auth]: Downloading https://files.pythonhosted.org/packages/af/4d/9c79086bb7c23066b92d849c282776ecc8b03f7b8f9827d5ef6624ff0ad4/nsj_flask_auth-0.4.0.tar.gz
+[2023-07-03 17:22:09] INFO root fetch - processPackages [crypto-screening]: Remove: archive file [/home/abi/fetcher/tmp/crypto-screening-1.8.1.tar.gz]
+[2023-07-03 17:22:09] INFO root fetch - processPackages [crypto-screening]: Remove: archive file [/home/abi/fetcher/tmp/crypto-screening-1.8.2.tar.gz]
+[2023-07-03 17:22:09] INFO root fetch - processPackages [crypto-screening]: Start processing: python-office
+[2023-07-03 17:22:09] INFO root fetch - main [MainThread]: End processing [crypto-screening]: success
+[2023-07-03 17:22:09] INFO root fetch - processPackages [aiosumma]: Remove: archive file [/home/abi/fetcher/tmp/aiosumma-2.9.8-py3-none-any.whl.zip]
+[2023-07-03 17:22:09] INFO root fetch - processPackages [aiosumma]: Remove: archive file [/home/abi/fetcher/tmp/aiosumma-2.9.9-py3-none-any.whl.zip]
+[2023-07-03 17:22:09] INFO root fetch - processPackages [aiosumma]: Start processing: fed3bandit
+[2023-07-03 17:22:09] INFO root fetch - main [MainThread]: End processing [aiosumma]: success
+[2023-07-03 17:22:09] INFO root fetch - processPackages [aiodanbooru]: Downloading https://files.pythonhosted.org/packages/12/0f/51c34a2b29161538edbbed927d1295d1a54db49bc16787b13d9e95520597/aiodanbooru-1.0.5.tar.gz
+[2023-07-03 17:22:09] INFO root fetch - processPackages [py-machineid]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-07-03 17:22:09] INFO root fetch - processPackages [oarepo-model-builder-requests]: Downloading https://files.pythonhosted.org/packages/1f/3a/99e6088f416b37f2a7f3ff8c82bb66321e45706e5d5e8fb75761307e7de2/oarepo-model-builder-requests-3.1.2.tar.gz
+[2023-07-03 17:22:09] INFO root fetch - processPackages [aiodanbooru]: executing diffoscope
+[2023-07-03 17:22:09] WARNING root fetch - processPackages [fed3bandit]: Skipping, unable to determine old version
+[2023-07-03 17:22:09] INFO root fetch - processPackages [aiodanbooru]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiodanbooru-1.0.4.tar.gz tmp/aiodanbooru-1.0.5.tar.gz --markdown 20230703/a/aiodanbooru/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-07-03 17:22:09] INFO root fetch - processPackages [fed3bandit]: Start processing: mend-ignore-alerts
+[2023-07-03 17:22:09] INFO root fetch - main [MainThread]: End processing [fed3bandit] error
+[2023-07-03 17:22:09] INFO root fetch - processPackages [python-office]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-03 17:22:09] INFO root fetch - processPackages [mend-ignore-alerts]: New version: [0.2.8] Old Version: [0.2.7]
+[2023-07-03 17:22:09] INFO root fetch - processPackages [pants-plugin-dep-graph]: Downloading https://files.pythonhosted.org/packages/ef/c6/1dedaa6606151e999e43f8aeb3b951dba53f4003f24dc73084a04ee264db/pants-plugin-dep-graph-1.0.2.tar.gz
+[2023-07-03 17:22:10] INFO root fetch - processPackages [mend-ignore-alerts]: Downloading https://files.pythonhosted.org/packages/5f/68/c1ef555aafa1227610c58752acf7f843137572d843b8e27a66e846cd07d4/mend_ignore_alerts-0.2.7-py3-none-any.whl
+[2023-07-03 17:22:10] INFO root fetch - processPackages [py-machineid]: Downloading https://files.pythonhosted.org/packages/17/75/10d3c3633f02171eb3b02811caec2db37471b70be0833ada3b2cee35352b/py-machineid-0.3.0.tar.gz
+[2023-07-03 17:22:10] INFO root fetch - processPackages [nsj-flask-auth]: Downloading https://files.pythonhosted.org/packages/f6/02/4ffbc860b251a752e0b77d0510568a696ccced6fade4bff72b3a6c079621/nsj_flask_auth-0.5.0.tar.gz
+[2023-07-03 17:22:10] INFO root fetch - processPackages [cachetory]: Remove: archive file [/home/abi/fetcher/tmp/cachetory-2.2.0.tar.gz]
+[2023-07-03 17:22:10] INFO root fetch - processPackages [cachetory]: Remove: archive file [/home/abi/fetcher/tmp/cachetory-2.3.0.tar.gz]
+[2023-07-03 17:22:10] INFO root fetch - processPackages [cachetory]: Start processing: cofybox-dce
+[2023-07-03 17:22:10] INFO root fetch - main [MainThread]: End processing [cachetory]: success
+[2023-07-03 17:22:10] INFO root fetch - processPackages [cofybox-dce]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-03 17:22:10] INFO root fetch - processPackages [python-office]: Downloading https://files.pythonhosted.org/packages/b1/23/a62fc7f451324a6e6b183285cc18313c5ded64e4f951c197413b082d3f00/python-office-0.3.8.tar.gz
+[2023-07-03 17:22:10] INFO root fetch - processPackages [oarepo-model-builder-requests]: Downloading https://files.pythonhosted.org/packages/c8/11/df5b5e60e94c4e31bcecd23bb433ead174b2cc95ae221e99133f37577e04/oarepo-model-builder-requests-4.0.0.tar.gz
+[2023-07-03 17:22:10] INFO root fetch - processPackages [nsj-flask-auth]: executing diffoscope
+[2023-07-03 17:22:10] INFO root fetch - processPackages [nsj-flask-auth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nsj_flask_auth-0.4.0.tar.gz tmp/nsj_flask_auth-0.5.0.tar.gz --markdown 20230703/n/nsj-flask-auth/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-07-03 17:22:10] INFO root fetch - processPackages [pants-plugin-dep-graph]: Downloading https://files.pythonhosted.org/packages/a1/c9/58e5aa78f14ef616b8a3e45d015fe3bca8b4f1fce5fa8e97847fc06589e8/pants-plugin-dep-graph-1.0.3.tar.gz
+[2023-07-03 17:22:10] INFO root fetch - processPackages [cofybox-dce]: Downloading https://files.pythonhosted.org/packages/a9/73/e9d67a00ff9d409796d5e197176363615ecd005640759c99d4f48abcb13e/cofybox-dce-0.0.8.tar.gz
+[2023-07-03 17:22:10] INFO root fetch - processPackages [oarepo-model-builder-requests]: executing diffoscope
+[2023-07-03 17:22:10] INFO root fetch - processPackages [oarepo-model-builder-requests]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oarepo-model-builder-requests-3.1.2.tar.gz tmp/oarepo-model-builder-requests-4.0.0.tar.gz --markdown 20230703/o/oarepo-model-builder-requests/3.1.2-4.0.0/diff.md --exclude *.pyd
+[2023-07-03 17:22:10] INFO root fetch - processPackages [mend-ignore-alerts]: Downloading https://files.pythonhosted.org/packages/02/e5/6786c6b7ae01fdfdc602f82430e907cb62acae32dc8c6344bee7e3a507f0/mend_ignore_alerts-0.2.8-py3-none-any.whl
+[2023-07-03 17:22:10] INFO root fetch - processPackages [py-machineid]: Downloading https://files.pythonhosted.org/packages/f5/f6/b65041f48bf96a6c4a415569877e14c3b2478f5c2ed7845ebcf5223352b2/py-machineid-0.4.0.tar.gz
+[2023-07-03 17:22:10] INFO root fetch - processPackages [pants-plugin-dep-graph]: executing diffoscope
+[2023-07-03 17:22:10] INFO root fetch - processPackages [pants-plugin-dep-graph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pants-plugin-dep-graph-1.0.2.tar.gz tmp/pants-plugin-dep-graph-1.0.3.tar.gz --markdown 20230703/p/pants-plugin-dep-graph/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-07-03 17:22:10] INFO root fetch - processPackages [py-machineid]: executing diffoscope
+[2023-07-03 17:22:10] INFO root fetch - processPackages [py-machineid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py-machineid-0.3.0.tar.gz tmp/py-machineid-0.4.0.tar.gz --markdown 20230703/p/py-machineid/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-07-03 17:22:10] INFO root fetch - processPackages [cofybox-dce]: Downloading https://files.pythonhosted.org/packages/e9/6c/7dfb61203e2aaf9f23172bd87c3f8e1c6c3c8a5cf7082da4044630d09acc/cofybox-dce-0.0.9.tar.gz
+[2023-07-03 17:22:10] INFO root fetch - processPackages [mend-ignore-alerts]: executing diffoscope
+[2023-07-03 17:22:10] INFO root fetch - processPackages [mend-ignore-alerts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mend_ignore_alerts-0.2.7-py3-none-any.whl.zip tmp/mend_ignore_alerts-0.2.8-py3-none-any.whl.zip --markdown 20230703/m/mend-ignore-alerts/0.2.7-0.2.8/diff.md --exclude *.pyd
+[2023-07-03 17:22:10] INFO root fetch - processPackages [python-office]: Downloading https://files.pythonhosted.org/packages/a0/4b/8c1321ca1c46528f1ae915930236489a848570a99176d11dd06a886d5e9a/python-office-0.3.9.tar.gz
+[2023-07-03 17:22:10] INFO root fetch - processPackages [cofybox-dce]: executing diffoscope
+[2023-07-03 17:22:10] INFO root fetch - processPackages [cofybox-dce]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cofybox-dce-0.0.8.tar.gz tmp/cofybox-dce-0.0.9.tar.gz --markdown 20230703/c/cofybox-dce/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-03 17:22:11] INFO root fetch - processPackages [python-office]: executing diffoscope
+[2023-07-03 17:22:11] INFO root fetch - processPackages [python-office]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-office-0.3.8.tar.gz tmp/python-office-0.3.9.tar.gz --markdown 20230703/p/python-office/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-03 17:22:11] INFO root fetch - processPackages [aiodanbooru]: Remove: archive file [/home/abi/fetcher/tmp/aiodanbooru-1.0.4.tar.gz]
+[2023-07-03 17:22:11] INFO root fetch - processPackages [aiodanbooru]: Remove: archive file [/home/abi/fetcher/tmp/aiodanbooru-1.0.5.tar.gz]
+[2023-07-03 17:22:11] INFO root fetch - processPackages [aiodanbooru]: Start processing: opmcpg
+[2023-07-03 17:22:11] INFO root fetch - main [MainThread]: End processing [aiodanbooru]: success
+[2023-07-03 17:22:11] WARNING root fetch - processPackages [opmcpg]: Skipping, unable to determine old version
+[2023-07-03 17:22:11] INFO root fetch - main [MainThread]: End processing [opmcpg] error
+[2023-07-03 17:22:11] INFO root fetch - processPackages [nsj-flask-auth]: Remove: archive file [/home/abi/fetcher/tmp/nsj_flask_auth-0.4.0.tar.gz]
+[2023-07-03 17:22:11] INFO root fetch - processPackages [nsj-flask-auth]: Remove: archive file [/home/abi/fetcher/tmp/nsj_flask_auth-0.5.0.tar.gz]
+[2023-07-03 17:22:11] INFO root fetch - main [MainThread]: End processing [nsj-flask-auth]: success
+[2023-07-03 17:22:12] INFO root fetch - processPackages [pants-plugin-dep-graph]: Remove: archive file [/home/abi/fetcher/tmp/pants-plugin-dep-graph-1.0.2.tar.gz]
+[2023-07-03 17:22:12] INFO root fetch - processPackages [pants-plugin-dep-graph]: Remove: archive file [/home/abi/fetcher/tmp/pants-plugin-dep-graph-1.0.3.tar.gz]
+[2023-07-03 17:22:12] INFO root fetch - main [MainThread]: End processing [pants-plugin-dep-graph]: success
+[2023-07-03 17:22:12] INFO root fetch - processPackages [py-machineid]: Remove: archive file [/home/abi/fetcher/tmp/py-machineid-0.3.0.tar.gz]
+[2023-07-03 17:22:12] INFO root fetch - processPackages [py-machineid]: Remove: archive file [/home/abi/fetcher/tmp/py-machineid-0.4.0.tar.gz]
+[2023-07-03 17:22:12] INFO root fetch - main [MainThread]: End processing [py-machineid]: success
+[2023-07-03 17:22:12] INFO root fetch - processPackages [mend-ignore-alerts]: Remove: archive file [/home/abi/fetcher/tmp/mend_ignore_alerts-0.2.7-py3-none-any.whl.zip]
+[2023-07-03 17:22:12] INFO root fetch - processPackages [mend-ignore-alerts]: Remove: archive file [/home/abi/fetcher/tmp/mend_ignore_alerts-0.2.8-py3-none-any.whl.zip]
+[2023-07-03 17:22:12] INFO root fetch - main [MainThread]: End processing [mend-ignore-alerts]: success
+[2023-07-03 17:22:12] INFO root fetch - processPackages [oarepo-model-builder-requests]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-model-builder-requests-3.1.2.tar.gz]
+[2023-07-03 17:22:12] INFO root fetch - processPackages [oarepo-model-builder-requests]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-model-builder-requests-4.0.0.tar.gz]
+[2023-07-03 17:22:12] INFO root fetch - main [MainThread]: End processing [oarepo-model-builder-requests]: success
+[2023-07-03 17:22:12] INFO root fetch - processPackages [cofybox-dce]: Remove: archive file [/home/abi/fetcher/tmp/cofybox-dce-0.0.8.tar.gz]
+[2023-07-03 17:22:12] INFO root fetch - processPackages [cofybox-dce]: Remove: archive file [/home/abi/fetcher/tmp/cofybox-dce-0.0.9.tar.gz]
+[2023-07-03 17:22:12] INFO root fetch - main [MainThread]: End processing [cofybox-dce]: success
+[2023-07-03 17:22:12] INFO root fetch - processPackages [python-office]: Remove: archive file [/home/abi/fetcher/tmp/python-office-0.3.8.tar.gz]
+[2023-07-03 17:22:12] INFO root fetch - processPackages [python-office]: Remove: archive file [/home/abi/fetcher/tmp/python-office-0.3.9.tar.gz]
+[2023-07-03 17:22:12] INFO root fetch - main [MainThread]: End processing [python-office]: success
+[2023-07-03 17:22:12] INFO root fetch - processPackages [frictionless]: Remove: archive file [/home/abi/fetcher/tmp/frictionless-5.8.2.tar.gz]
+[2023-07-03 17:22:12] INFO root fetch - processPackages [frictionless]: Remove: archive file [/home/abi/fetcher/tmp/frictionless-5.8.3.tar.gz]
+[2023-07-03 17:22:12] INFO root fetch - main [MainThread]: End processing [frictionless]: success
+[2023-07-03 17:22:34] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.349.0.tar.gz]
+[2023-07-03 17:22:34] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.350.0.tar.gz]
+[2023-07-03 17:22:34] INFO root fetch - main [MainThread]: End processing [policyengine-us]: success
+[2023-07-03 17:22:34] INFO root fetch - main [MainThread]: Store serial: [18741377]
