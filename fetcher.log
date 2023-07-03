@@ -19771,3 +19771,313 @@ EOFError: EOF read where object expected
 [2023-07-03 15:37:25] INFO root fetch - processPackages [tamaas]: Remove: archive file [/home/abi/fetcher/tmp/tamaas-2.7.0rc2-cp39-none-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.zip]
 [2023-07-03 15:37:25] INFO root fetch - main [MainThread]: End processing [tamaas]: success
 [2023-07-03 15:37:25] INFO root fetch - main [MainThread]: Store serial: [18739887]
+[2023-07-03 15:42:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18739887]
+[2023-07-03 15:42:43] INFO root fetch - main [MainThread]: Found 37 changed packages
+[2023-07-03 15:42:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: PJYoloVision
+[2023-07-03 15:42:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: seaplane
+[2023-07-03 15:42:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ailola
+[2023-07-03 15:42:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: micropython-esp32-stubs
+[2023-07-03 15:42:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: micropython-esp32-ota-stubs
+[2023-07-03 15:42:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: micropython-esp32-s3-stubs
+[2023-07-03 15:42:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: micropython-rp2-stubs
+[2023-07-03 15:42:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: micropython-rp2-pico-stubs
+[2023-07-03 15:42:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pydyf
+[2023-07-03 15:42:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: micropython-rp2-pico-w-stubs
+[2023-07-03 15:42:43] INFO root fetch - processPackages [PJYoloVision]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-03 15:42:43] INFO root fetch - processPackages [pydyf]: New version: [0.6.0] Old Version: [0.5.0]
+[2023-07-03 15:42:43] INFO root fetch - processPackages [seaplane]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-03 15:42:43] INFO root fetch - processPackages [ailola]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-03 15:42:43] INFO root fetch - processPackages [micropython-esp32-stubs]: New version: [1.20.0.post2] Old Version: [1.20.0.post1]
+[2023-07-03 15:42:43] INFO root fetch - processPackages [micropython-rp2-stubs]: New version: [1.20.0.post2] Old Version: [1.20.0.post1]
+[2023-07-03 15:42:43] INFO root fetch - processPackages [micropython-esp32-ota-stubs]: New version: [1.20.0.post2] Old Version: [1.20.0.post1]
+[2023-07-03 15:42:43] INFO root fetch - processPackages [micropython-rp2-pico-stubs]: New version: [1.20.0.post2] Old Version: [1.20.0.post1]
+[2023-07-03 15:42:43] INFO root fetch - processPackages [micropython-rp2-pico-w-stubs]: New version: [1.20.0.post2] Old Version: [1.20.0.post1]
+[2023-07-03 15:42:43] INFO root fetch - processPackages [micropython-esp32-s3-stubs]: New version: [1.20.0.post1] Old Version: [1.19.1.post1]
+[2023-07-03 15:42:43] INFO root fetch - processPackages [PJYoloVision]: Downloading https://files.pythonhosted.org/packages/a1/05/9ae5251d9ac2ff5be6d3ea6a07631363a630daf37b4c291a4dd2d6967f8c/PJYoloVision-0.0.5.tar.gz
+[2023-07-03 15:42:43] INFO root fetch - processPackages [pydyf]: Downloading https://files.pythonhosted.org/packages/f4/4c/6d31b36a46714d8206b8ca84b8dc9aaf42093415b1f50471538552abe501/pydyf-0.5.0.tar.gz
+[2023-07-03 15:42:43] INFO root fetch - processPackages [ailola]: Downloading https://files.pythonhosted.org/packages/af/e3/0d169038e0fe08ab4cb50913f9adaa0e1e6f352207f72302e37e86888be2/ailola-0.9.8.tar.gz
+[2023-07-03 15:42:43] INFO root fetch - processPackages [seaplane]: Downloading https://files.pythonhosted.org/packages/e7/61/c864ce95e15abf9ad2a76809ae1db8bd46564cb3bfcf2cf7b76a1221faf8/seaplane-0.3.8.tar.gz
+[2023-07-03 15:42:43] INFO root fetch - processPackages [micropython-rp2-stubs]: Downloading https://files.pythonhosted.org/packages/b1/eb/45d81b2baf70f6740d4de7e01ce20db5215ceb906ff8385e842b36fa3dd3/micropython_rp2_stubs-1.20.0.post1.tar.gz
+[2023-07-03 15:42:43] INFO root fetch - processPackages [micropython-esp32-stubs]: Downloading https://files.pythonhosted.org/packages/c3/18/928573f71f6976ab87485632fa103c1adf4b530872f17875c61017876e97/micropython_esp32_stubs-1.20.0.post1.tar.gz
+[2023-07-03 15:42:43] INFO root fetch - processPackages [micropython-esp32-s3-stubs]: Downloading https://files.pythonhosted.org/packages/a3/0c/2e5ab5a060b4768dc5c8228630db05daa1c81d8a79cc51083475f852adb7/micropython_esp32_s3_stubs-1.19.1.post1.tar.gz
+[2023-07-03 15:42:44] INFO root fetch - processPackages [micropython-rp2-pico-stubs]: Downloading https://files.pythonhosted.org/packages/fb/c1/b1af1029a778dc183597eaf295c2fee0b7ff555d092fb7a9926c6aa6d507/micropython_rp2_pico_stubs-1.20.0.post1.tar.gz
+[2023-07-03 15:42:44] INFO root fetch - processPackages [micropython-rp2-pico-w-stubs]: Downloading https://files.pythonhosted.org/packages/9a/f8/1c5fe03f75f2dab6f827717f997cadcd3df3ad203dda59df9d16bf3bf393/micropython_rp2_pico_w_stubs-1.20.0.post1.tar.gz
+[2023-07-03 15:42:44] INFO root fetch - processPackages [micropython-esp32-ota-stubs]: Downloading https://files.pythonhosted.org/packages/36/dc/95a1c1ffda682c0cdde07b05a767c99cf05b47222fb18adfdb643fd4670b/micropython_esp32_ota_stubs-1.20.0.post1.tar.gz
+[2023-07-03 15:42:44] INFO root fetch - processPackages [PJYoloVision]: Downloading https://files.pythonhosted.org/packages/d2/5c/19bcde2b79851161af43f724b5de14638ed7f16eacf9ef7f390c34d1b76d/PJYoloVision-0.0.6-py3-none-any.whl
+[2023-07-03 15:42:44] INFO root fetch - processPackages [pydyf]: Downloading https://files.pythonhosted.org/packages/9d/c5/d5e4536968c36c0838459b5c482b9228e9aae839847837623d0d04576ba0/pydyf-0.6.0.tar.gz
+[2023-07-03 15:42:44] INFO root fetch - processPackages [ailola]: Downloading https://files.pythonhosted.org/packages/0a/02/d1ca04f4904163f75791f299f0615467ccefaa60386ef5034bb9446d8c1e/ailola-0.9.9.tar.gz
+[2023-07-03 15:42:44] INFO root fetch - processPackages [PJYoloVision]: executing diffoscope
+[2023-07-03 15:42:44] INFO root fetch - processPackages [PJYoloVision]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PJYoloVision-0.0.5.tar.gz tmp/PJYoloVision-0.0.6-py3-none-any.whl.zip --markdown 20230703/P/PJYoloVision/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-03 15:42:44] INFO root fetch - processPackages [ailola]: executing diffoscope
+[2023-07-03 15:42:44] INFO root fetch - processPackages [ailola]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ailola-0.9.8.tar.gz tmp/ailola-0.9.9.tar.gz --markdown 20230703/a/ailola/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-03 15:42:44] INFO root fetch - processPackages [micropython-rp2-pico-stubs]: Downloading https://files.pythonhosted.org/packages/01/c5/3a55df6142509f30673d32d23e423bf232fbff3c45e5a49704af1494b1dd/micropython_rp2_pico_stubs-1.20.0.post2.tar.gz
+[2023-07-03 15:42:44] INFO root fetch - processPackages [micropython-esp32-stubs]: Downloading https://files.pythonhosted.org/packages/fa/76/dcb4e12c4c281baf4f8d73a4c41afd378f628f105646b2f978e1b3ff536e/micropython_esp32_stubs-1.20.0.post2.tar.gz
+[2023-07-03 15:42:44] INFO root fetch - processPackages [micropython-rp2-stubs]: Downloading https://files.pythonhosted.org/packages/f0/4b/26b55b93a3a73c593e6504083d06ac0b6fde509bc8477c59e6587320658b/micropython_rp2_stubs-1.20.0.post2.tar.gz
+[2023-07-03 15:42:44] INFO root fetch - processPackages [seaplane]: Downloading https://files.pythonhosted.org/packages/f7/af/2f29681bd0dce058b9d26f46481537dde0fcdbe0e5d6d80d9e4622dc52b8/seaplane-0.3.9.tar.gz
+[2023-07-03 15:42:44] INFO root fetch - processPackages [pydyf]: executing diffoscope
+[2023-07-03 15:42:44] INFO root fetch - processPackages [pydyf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydyf-0.5.0.tar.gz tmp/pydyf-0.6.0.tar.gz --markdown 20230703/p/pydyf/0.5.0-0.6.0/diff.md --exclude *.pyd
+[2023-07-03 15:42:44] INFO root fetch - processPackages [micropython-esp32-s3-stubs]: Downloading https://files.pythonhosted.org/packages/d7/1b/016b643da47cefa91c558b6ce67459b4c528db87efa0559114e204684d8e/micropython_esp32_s3_stubs-1.20.0.post1.tar.gz
+[2023-07-03 15:42:44] INFO root fetch - processPackages [micropython-rp2-pico-w-stubs]: Downloading https://files.pythonhosted.org/packages/7a/35/83f01060fdf7be31cf9b62e5630c5a6f5a8630b7e3071cf876656f0725aa/micropython_rp2_pico_w_stubs-1.20.0.post2.tar.gz
+[2023-07-03 15:42:44] INFO root fetch - processPackages [micropython-esp32-ota-stubs]: Downloading https://files.pythonhosted.org/packages/10/cb/5ec04d3f84c07d28aa85ed9faee8a7fac02e722fafba2c2e130aa3e60aa6/micropython_esp32_ota_stubs-1.20.0.post2.tar.gz
+[2023-07-03 15:42:44] INFO root fetch - processPackages [seaplane]: executing diffoscope
+[2023-07-03 15:42:44] INFO root fetch - processPackages [seaplane]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seaplane-0.3.8.tar.gz tmp/seaplane-0.3.9.tar.gz --markdown 20230703/s/seaplane/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-03 15:42:44] INFO root fetch - processPackages [micropython-rp2-pico-stubs]: executing diffoscope
+[2023-07-03 15:42:44] INFO root fetch - processPackages [micropython-rp2-pico-stubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/micropython_rp2_pico_stubs-1.20.0.post1.tar.gz tmp/micropython_rp2_pico_stubs-1.20.0.post2.tar.gz --markdown 20230703/m/micropython-rp2-pico-stubs/1.20.0.post1-1.20.0.post2/diff.md --exclude *.pyd
+[2023-07-03 15:42:44] INFO root fetch - processPackages [micropython-esp32-stubs]: executing diffoscope
+[2023-07-03 15:42:44] INFO root fetch - processPackages [micropython-esp32-stubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/micropython_esp32_stubs-1.20.0.post1.tar.gz tmp/micropython_esp32_stubs-1.20.0.post2.tar.gz --markdown 20230703/m/micropython-esp32-stubs/1.20.0.post1-1.20.0.post2/diff.md --exclude *.pyd
+[2023-07-03 15:42:44] INFO root fetch - processPackages [micropython-rp2-stubs]: executing diffoscope
+[2023-07-03 15:42:44] INFO root fetch - processPackages [micropython-rp2-stubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/micropython_rp2_stubs-1.20.0.post1.tar.gz tmp/micropython_rp2_stubs-1.20.0.post2.tar.gz --markdown 20230703/m/micropython-rp2-stubs/1.20.0.post1-1.20.0.post2/diff.md --exclude *.pyd
+[2023-07-03 15:42:44] INFO root fetch - processPackages [micropython-rp2-pico-w-stubs]: executing diffoscope
+[2023-07-03 15:42:44] INFO root fetch - processPackages [micropython-rp2-pico-w-stubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/micropython_rp2_pico_w_stubs-1.20.0.post1.tar.gz tmp/micropython_rp2_pico_w_stubs-1.20.0.post2.tar.gz --markdown 20230703/m/micropython-rp2-pico-w-stubs/1.20.0.post1-1.20.0.post2/diff.md --exclude *.pyd
+[2023-07-03 15:42:44] INFO root fetch - processPackages [micropython-esp32-s3-stubs]: executing diffoscope
+[2023-07-03 15:42:44] INFO root fetch - processPackages [micropython-esp32-s3-stubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/micropython_esp32_s3_stubs-1.19.1.post1.tar.gz tmp/micropython_esp32_s3_stubs-1.20.0.post1.tar.gz --markdown 20230703/m/micropython-esp32-s3-stubs/1.19.1.post1-1.20.0.post1/diff.md --exclude *.pyd
+[2023-07-03 15:42:44] INFO root fetch - processPackages [micropython-esp32-ota-stubs]: executing diffoscope
+[2023-07-03 15:42:44] INFO root fetch - processPackages [micropython-esp32-ota-stubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/micropython_esp32_ota_stubs-1.20.0.post1.tar.gz tmp/micropython_esp32_ota_stubs-1.20.0.post2.tar.gz --markdown 20230703/m/micropython-esp32-ota-stubs/1.20.0.post1-1.20.0.post2/diff.md --exclude *.pyd
+[2023-07-03 15:42:45] INFO root fetch - processPackages [ailola]: Remove: archive file [/home/abi/fetcher/tmp/ailola-0.9.8.tar.gz]
+[2023-07-03 15:42:45] INFO root fetch - processPackages [ailola]: Remove: archive file [/home/abi/fetcher/tmp/ailola-0.9.9.tar.gz]
+[2023-07-03 15:42:45] INFO root fetch - processPackages [ailola]: Start processing: Geode-Simplex
+[2023-07-03 15:42:45] INFO root fetch - main [MainThread]: End processing [ailola]: success
+[2023-07-03 15:42:45] INFO root fetch - processPackages [Geode-Simplex]: New version: [6.0.9] Old Version: [6.0.8]
+[2023-07-03 15:42:45] INFO root fetch - processPackages [PJYoloVision]: Remove: archive file [/home/abi/fetcher/tmp/PJYoloVision-0.0.5.tar.gz]
+[2023-07-03 15:42:45] INFO root fetch - processPackages [PJYoloVision]: Remove: archive file [/home/abi/fetcher/tmp/PJYoloVision-0.0.6-py3-none-any.whl.zip]
+[2023-07-03 15:42:45] INFO root fetch - processPackages [PJYoloVision]: Start processing: lmo
+[2023-07-03 15:42:45] INFO root fetch - main [MainThread]: End processing [PJYoloVision]: success
+[2023-07-03 15:42:46] INFO root fetch - processPackages [pydyf]: Remove: archive file [/home/abi/fetcher/tmp/pydyf-0.5.0.tar.gz]
+[2023-07-03 15:42:46] INFO root fetch - processPackages [pydyf]: Remove: archive file [/home/abi/fetcher/tmp/pydyf-0.6.0.tar.gz]
+[2023-07-03 15:42:46] INFO root fetch - processPackages [pydyf]: Start processing: micropython-rp2-pimoroni-picolipo-16mb-stubs
+[2023-07-03 15:42:46] INFO root fetch - main [MainThread]: End processing [pydyf]: success
+[2023-07-03 15:42:46] INFO root fetch - processPackages [lmo]: New version: [0.6.0] Old Version: [0.5.3]
+[2023-07-03 15:42:46] INFO root fetch - processPackages [lmo]: Downloading https://files.pythonhosted.org/packages/1c/c3/5cc83c15fbefe8fbe0e80ca9ae037e677769493c83bab79ff8285ed60a82/lmo-0.5.3.tar.gz
+[2023-07-03 15:42:46] INFO root fetch - processPackages [micropython-rp2-pimoroni-picolipo-16mb-stubs]: New version: [1.20.0.post2] Old Version: [1.20.0.post1]
+[2023-07-03 15:42:46] INFO root fetch - processPackages [Geode-Simplex]: Downloading https://files.pythonhosted.org/packages/71/fe/525adfc16647206017d2898a9f436996bc906ecd86240a5d0bac16555638/Geode_Simplex-6.0.8-cp39-cp39-win_amd64.whl
+[2023-07-03 15:42:46] INFO root fetch - processPackages [micropython-rp2-pimoroni-picolipo-16mb-stubs]: Downloading https://files.pythonhosted.org/packages/dc/70/095f9737aad86032bb9b8d9198aa0d32d1ab4341b653ac24a8cbcf3c44e8/micropython_rp2_pimoroni_picolipo_16mb_stubs-1.20.0.post1.tar.gz
+[2023-07-03 15:42:46] INFO root fetch - processPackages [lmo]: Downloading https://files.pythonhosted.org/packages/a2/18/7d79e967cc0cad634769ebb2ace9f1277dbd12ad753204d7db2457de8e76/lmo-0.6.0.tar.gz
+[2023-07-03 15:42:46] INFO root fetch - processPackages [seaplane]: Remove: archive file [/home/abi/fetcher/tmp/seaplane-0.3.8.tar.gz]
+[2023-07-03 15:42:46] INFO root fetch - processPackages [seaplane]: Remove: archive file [/home/abi/fetcher/tmp/seaplane-0.3.9.tar.gz]
+[2023-07-03 15:42:46] INFO root fetch - processPackages [seaplane]: Start processing: flxtrd
+[2023-07-03 15:42:46] INFO root fetch - main [MainThread]: End processing [seaplane]: success
+[2023-07-03 15:42:46] INFO root fetch - processPackages [micropython-rp2-pico-stubs]: Remove: archive file [/home/abi/fetcher/tmp/micropython_rp2_pico_stubs-1.20.0.post1.tar.gz]
+[2023-07-03 15:42:46] INFO root fetch - processPackages [micropython-rp2-pico-stubs]: Remove: archive file [/home/abi/fetcher/tmp/micropython_rp2_pico_stubs-1.20.0.post2.tar.gz]
+[2023-07-03 15:42:46] INFO root fetch - processPackages [micropython-rp2-pico-stubs]: Start processing: configuraptor
+[2023-07-03 15:42:46] INFO root fetch - main [MainThread]: End processing [micropython-rp2-pico-stubs]: success
+[2023-07-03 15:42:46] INFO root fetch - processPackages [micropython-rp2-pico-w-stubs]: Remove: archive file [/home/abi/fetcher/tmp/micropython_rp2_pico_w_stubs-1.20.0.post1.tar.gz]
+[2023-07-03 15:42:46] INFO root fetch - processPackages [micropython-rp2-pico-w-stubs]: Remove: archive file [/home/abi/fetcher/tmp/micropython_rp2_pico_w_stubs-1.20.0.post2.tar.gz]
+[2023-07-03 15:42:46] INFO root fetch - processPackages [micropython-rp2-pico-w-stubs]: Start processing: textual-dev
+[2023-07-03 15:42:46] INFO root fetch - main [MainThread]: End processing [micropython-rp2-pico-w-stubs]: success
+[2023-07-03 15:42:46] INFO root fetch - processPackages [micropython-esp32-stubs]: Remove: archive file [/home/abi/fetcher/tmp/micropython_esp32_stubs-1.20.0.post1.tar.gz]
+[2023-07-03 15:42:46] INFO root fetch - processPackages [micropython-esp32-stubs]: Remove: archive file [/home/abi/fetcher/tmp/micropython_esp32_stubs-1.20.0.post2.tar.gz]
+[2023-07-03 15:42:46] INFO root fetch - processPackages [micropython-esp32-stubs]: Start processing: django-simple-captcha
+[2023-07-03 15:42:46] INFO root fetch - main [MainThread]: End processing [micropython-esp32-stubs]: success
+[2023-07-03 15:42:46] INFO root fetch - processPackages [lmo]: executing diffoscope
+[2023-07-03 15:42:46] INFO root fetch - processPackages [lmo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lmo-0.5.3.tar.gz tmp/lmo-0.6.0.tar.gz --markdown 20230703/l/lmo/0.5.3-0.6.0/diff.md --exclude *.pyd
+[2023-07-03 15:42:46] INFO root fetch - processPackages [micropython-rp2-stubs]: Remove: archive file [/home/abi/fetcher/tmp/micropython_rp2_stubs-1.20.0.post1.tar.gz]
+[2023-07-03 15:42:46] INFO root fetch - processPackages [micropython-rp2-stubs]: Remove: archive file [/home/abi/fetcher/tmp/micropython_rp2_stubs-1.20.0.post2.tar.gz]
+[2023-07-03 15:42:46] INFO root fetch - processPackages [micropython-rp2-stubs]: Start processing: micropython-samd-adafruit-feather-m4-express-stubs
+[2023-07-03 15:42:46] INFO root fetch - main [MainThread]: End processing [micropython-rp2-stubs]: success
+[2023-07-03 15:42:46] INFO root fetch - processPackages [flxtrd]: New version: [0.2.0.dev0] Old Version: [0.2.0]
+[2023-07-03 15:42:46] INFO root fetch - processPackages [configuraptor]: New version: [1.9.2] Old Version: [1.8.0]
+[2023-07-03 15:42:46] INFO root fetch - processPackages [django-simple-captcha]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-07-03 15:42:46] INFO root fetch - processPackages [textual-dev]: New version: [1.0.0] Old Version: [0.1.0]
+[2023-07-03 15:42:46] INFO root fetch - processPackages [micropython-esp32-ota-stubs]: Remove: archive file [/home/abi/fetcher/tmp/micropython_esp32_ota_stubs-1.20.0.post1.tar.gz]
+[2023-07-03 15:42:46] INFO root fetch - processPackages [micropython-esp32-ota-stubs]: Remove: archive file [/home/abi/fetcher/tmp/micropython_esp32_ota_stubs-1.20.0.post2.tar.gz]
+[2023-07-03 15:42:46] INFO root fetch - processPackages [micropython-esp32-ota-stubs]: Start processing: micropython-samd-adafruit-itsybitsy-m4-express-stubs
+[2023-07-03 15:42:46] INFO root fetch - main [MainThread]: End processing [micropython-esp32-ota-stubs]: success
+[2023-07-03 15:42:46] WARNING root fetch - processPackages [micropython-samd-adafruit-feather-m4-express-stubs]: Skipping, unable to determine old version
+[2023-07-03 15:42:46] INFO root fetch - processPackages [micropython-samd-adafruit-feather-m4-express-stubs]: Start processing: nlp-converter
+[2023-07-03 15:42:46] INFO root fetch - main [MainThread]: End processing [micropython-samd-adafruit-feather-m4-express-stubs] error
+[2023-07-03 15:42:46] INFO root fetch - processPackages [micropython-rp2-pimoroni-picolipo-16mb-stubs]: Downloading https://files.pythonhosted.org/packages/80/71/6f73bdd2c6ab602a956a6b2867ee317fdc33439fa11999bc26bd95ac28f9/micropython_rp2_pimoroni_picolipo_16mb_stubs-1.20.0.post2.tar.gz
+[2023-07-03 15:42:46] INFO root fetch - processPackages [flxtrd]: Downloading https://files.pythonhosted.org/packages/f6/27/ffb3aea7ff65708e1dcf62ed84fd52b6f1f7357b58cb5fb5c44c5536b8b4/flxtrd-0.2.0.tar.gz
+[2023-07-03 15:42:46] INFO root fetch - processPackages [micropython-esp32-s3-stubs]: Remove: archive file [/home/abi/fetcher/tmp/micropython_esp32_s3_stubs-1.19.1.post1.tar.gz]
+[2023-07-03 15:42:46] INFO root fetch - processPackages [micropython-esp32-s3-stubs]: Remove: archive file [/home/abi/fetcher/tmp/micropython_esp32_s3_stubs-1.20.0.post1.tar.gz]
+[2023-07-03 15:42:46] INFO root fetch - processPackages [micropython-esp32-s3-stubs]: Start processing: robotframework-robotlog2db
+[2023-07-03 15:42:46] INFO root fetch - main [MainThread]: End processing [micropython-esp32-s3-stubs]: success
+[2023-07-03 15:42:47] WARNING root fetch - processPackages [micropython-samd-adafruit-itsybitsy-m4-express-stubs]: Skipping, unable to determine old version
+[2023-07-03 15:42:47] INFO root fetch - processPackages [micropython-samd-adafruit-itsybitsy-m4-express-stubs]: Start processing: micropython-samd-minisam-m4-stubs
+[2023-07-03 15:42:47] INFO root fetch - main [MainThread]: End processing [micropython-samd-adafruit-itsybitsy-m4-express-stubs] error
+[2023-07-03 15:42:47] INFO root fetch - processPackages [django-simple-captcha]: Downloading https://files.pythonhosted.org/packages/74/e8/aa2ce0d1737c6ceeb137c907c7f3868cb269e00fc98bac7c92263d0715a4/django-simple-captcha-0.5.8.zip
+[2023-07-03 15:42:47] WARNING root fetch - processPackages [nlp-converter]: Skipping, unable to determine old version
+[2023-07-03 15:42:47] INFO root fetch - processPackages [nlp-converter]: Start processing: micropython-samd-seeed-wio-terminal-stubs
+[2023-07-03 15:42:47] INFO root fetch - main [MainThread]: End processing [nlp-converter] error
+[2023-07-03 15:42:47] INFO root fetch - processPackages [configuraptor]: Downloading https://files.pythonhosted.org/packages/57/19/34925c0692fe8cf372d2738b4eb23d59ca29288419a5571f3d13d6758c0b/configuraptor-1.8.0.tar.gz
+[2023-07-03 15:42:47] INFO root fetch - processPackages [textual-dev]: Downloading https://files.pythonhosted.org/packages/49/fb/9d3d88294f7d529658bd5a7b736baedb016573370627902f3cc8d77e693a/textual_dev-0.1.0.tar.gz
+[2023-07-03 15:42:47] INFO root fetch - processPackages [robotframework-robotlog2db]: New version: [1.3.9] Old Version: [1.3.8]
+[2023-07-03 15:42:47] WARNING root fetch - processPackages [micropython-samd-minisam-m4-stubs]: Skipping, unable to determine old version
+[2023-07-03 15:42:47] INFO root fetch - processPackages [micropython-samd-minisam-m4-stubs]: Start processing: micropython-stm32-stubs
+[2023-07-03 15:42:47] INFO root fetch - main [MainThread]: End processing [micropython-samd-minisam-m4-stubs] error
+[2023-07-03 15:42:47] INFO root fetch - processPackages [micropython-rp2-pimoroni-picolipo-16mb-stubs]: executing diffoscope
+[2023-07-03 15:42:47] INFO root fetch - processPackages [micropython-rp2-pimoroni-picolipo-16mb-stubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/micropython_rp2_pimoroni_picolipo_16mb_stubs-1.20.0.post1.tar.gz tmp/micropython_rp2_pimoroni_picolipo_16mb_stubs-1.20.0.post2.tar.gz --markdown 20230703/m/micropython-rp2-pimoroni-picolipo-16mb-stubs/1.20.0.post1-1.20.0.post2/diff.md --exclude *.pyd
+[2023-07-03 15:42:47] INFO root fetch - processPackages [micropython-samd-seeed-wio-terminal-stubs]: New version: [1.20.0.post2] Old Version: [1.20.0.post1]
+[2023-07-03 15:42:47] INFO root fetch - processPackages [micropython-stm32-stubs]: New version: [1.20.0.post2] Old Version: [1.20.0.post1]
+[2023-07-03 15:42:47] INFO root fetch - processPackages [Geode-Simplex]: Downloading https://files.pythonhosted.org/packages/8f/99/93562b28a43421a18cd68c1a4e0a811721a99e39d3720642e78a9b79550b/Geode_Simplex-6.0.9-cp39-cp39-win_amd64.whl
+[2023-07-03 15:42:47] INFO root fetch - processPackages [flxtrd]: Downloading https://files.pythonhosted.org/packages/a4/81/7e53d76f1b965ef4135c955322008290a5623232cceee7dde05118052a1f/flxtrd-0.2.0.dev0.tar.gz
+[2023-07-03 15:42:47] INFO root fetch - processPackages [robotframework-robotlog2db]: Downloading https://files.pythonhosted.org/packages/e4/33/7fd3cd2f4bde070a7a3fc05af7d34d4e876f33b4682ae1947a703f4fcf7c/robotframework-robotlog2db-1.3.8.tar.gz
+[2023-07-03 15:42:47] INFO root fetch - processPackages [textual-dev]: Downloading https://files.pythonhosted.org/packages/26/d3/d14165b2a9559e1a6feb11e2f099af2c303a5864587029d1c770999c0a68/textual_dev-1.0.0.tar.gz
+[2023-07-03 15:42:47] INFO root fetch - processPackages [micropython-samd-seeed-wio-terminal-stubs]: Downloading https://files.pythonhosted.org/packages/24/63/ed5f0c503e92455d280773e5116b3f9118b898968e6c07c68f249a3c013f/micropython_samd_seeed_wio_terminal_stubs-1.20.0.post1.tar.gz
+[2023-07-03 15:42:47] INFO root fetch - processPackages [configuraptor]: Downloading https://files.pythonhosted.org/packages/c6/5d/8f10cf246fa624fdfd121882fdd621658a55715eeddeac38ddcbe5d0f3f8/configuraptor-1.9.2.tar.gz
+[2023-07-03 15:42:47] INFO root fetch - processPackages [django-simple-captcha]: Downloading https://files.pythonhosted.org/packages/d7/f4/ea95b04ed3abc7bf225716f17e35c5a185f6100db4d7541a46696ce40351/django-simple-captcha-0.5.9.zip
+[2023-07-03 15:42:47] INFO root fetch - processPackages [flxtrd]: executing diffoscope
+[2023-07-03 15:42:47] INFO root fetch - processPackages [flxtrd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flxtrd-0.2.0.tar.gz tmp/flxtrd-0.2.0.dev0.tar.gz --markdown 20230703/f/flxtrd/0.2.0-0.2.0.dev0/diff.md --exclude *.pyd
+[2023-07-03 15:42:47] INFO root fetch - processPackages [micropython-stm32-stubs]: Downloading https://files.pythonhosted.org/packages/c7/36/cdbe35344044efc129b1b7471baef0184616c6c2e8966831479352762bc3/micropython_stm32_stubs-1.20.0.post1.tar.gz
+[2023-07-03 15:42:47] INFO root fetch - processPackages [textual-dev]: executing diffoscope
+[2023-07-03 15:42:47] INFO root fetch - processPackages [textual-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/textual_dev-0.1.0.tar.gz tmp/textual_dev-1.0.0.tar.gz --markdown 20230703/t/textual-dev/0.1.0-1.0.0/diff.md --exclude *.pyd
+[2023-07-03 15:42:47] INFO root fetch - processPackages [configuraptor]: executing diffoscope
+[2023-07-03 15:42:47] INFO root fetch - processPackages [configuraptor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/configuraptor-1.8.0.tar.gz tmp/configuraptor-1.9.2.tar.gz --markdown 20230703/c/configuraptor/1.8.0-1.9.2/diff.md --exclude *.pyd
+[2023-07-03 15:42:47] INFO root fetch - processPackages [lmo]: Remove: archive file [/home/abi/fetcher/tmp/lmo-0.5.3.tar.gz]
+[2023-07-03 15:42:47] INFO root fetch - processPackages [lmo]: Remove: archive file [/home/abi/fetcher/tmp/lmo-0.6.0.tar.gz]
+[2023-07-03 15:42:47] INFO root fetch - processPackages [lmo]: Start processing: micropython-stm32-pybv11-stubs
+[2023-07-03 15:42:47] INFO root fetch - main [MainThread]: End processing [lmo]: success
+[2023-07-03 15:42:47] INFO root fetch - processPackages [django-simple-captcha]: executing diffoscope
+[2023-07-03 15:42:47] INFO root fetch - processPackages [django-simple-captcha]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-simple-captcha-0.5.8.zip tmp/django-simple-captcha-0.5.9.zip --markdown 20230703/d/django-simple-captcha/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-07-03 15:42:47] INFO root fetch - processPackages [robotframework-robotlog2db]: Downloading https://files.pythonhosted.org/packages/7d/9c/9a9f22996e0ae9e4128895216f32d17b5eeabadee88814343dd89c14b1da/robotframework-robotlog2db-1.3.9.tar.gz
+[2023-07-03 15:42:47] INFO root fetch - processPackages [Geode-Simplex]: executing diffoscope
+[2023-07-03 15:42:47] INFO root fetch - processPackages [Geode-Simplex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Geode_Simplex-6.0.8-cp39-cp39-win_amd64.whl.zip tmp/Geode_Simplex-6.0.9-cp39-cp39-win_amd64.whl.zip --markdown 20230703/G/Geode-Simplex/6.0.8-6.0.9/diff.md --exclude *.pyd
+[2023-07-03 15:42:47] INFO root fetch - processPackages [micropython-samd-seeed-wio-terminal-stubs]: Downloading https://files.pythonhosted.org/packages/5b/a1/e2dffabb23921ef7d67be577c6da95085b17dfa03d7226201c341b26d0e3/micropython_samd_seeed_wio_terminal_stubs-1.20.0.post2.tar.gz
+[2023-07-03 15:42:47] INFO root fetch - processPackages [micropython-stm32-pybv11-stubs]: New version: [1.20.0.post2] Old Version: [1.20.0.post1]
+[2023-07-03 15:42:48] INFO root fetch - processPackages [micropython-stm32-stubs]: Downloading https://files.pythonhosted.org/packages/b3/cc/43556d06789d1747000675cd7ee4e9a97797a360c9a59fd615f82f975d80/micropython_stm32_stubs-1.20.0.post2.tar.gz
+[2023-07-03 15:42:48] INFO root fetch - processPackages [robotframework-robotlog2db]: executing diffoscope
+[2023-07-03 15:42:48] INFO root fetch - processPackages [robotframework-robotlog2db]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotframework-robotlog2db-1.3.8.tar.gz tmp/robotframework-robotlog2db-1.3.9.tar.gz --markdown 20230703/r/robotframework-robotlog2db/1.3.8-1.3.9/diff.md --exclude *.pyd
+[2023-07-03 15:42:48] INFO root fetch - processPackages [micropython-samd-seeed-wio-terminal-stubs]: executing diffoscope
+[2023-07-03 15:42:48] INFO root fetch - processPackages [micropython-samd-seeed-wio-terminal-stubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/micropython_samd_seeed_wio_terminal_stubs-1.20.0.post1.tar.gz tmp/micropython_samd_seeed_wio_terminal_stubs-1.20.0.post2.tar.gz --markdown 20230703/m/micropython-samd-seeed-wio-terminal-stubs/1.20.0.post1-1.20.0.post2/diff.md --exclude *.pyd
+[2023-07-03 15:42:48] INFO root fetch - processPackages [micropython-stm32-pybv11-stubs]: Downloading https://files.pythonhosted.org/packages/45/f2/83e8c04a342a421b695fed8e6fd32574bb59d62f780f928292fd84a10b83/micropython_stm32_pybv11_stubs-1.20.0.post1.tar.gz
+[2023-07-03 15:42:48] INFO root fetch - processPackages [micropython-stm32-stubs]: executing diffoscope
+[2023-07-03 15:42:48] INFO root fetch - processPackages [micropython-stm32-stubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/micropython_stm32_stubs-1.20.0.post1.tar.gz tmp/micropython_stm32_stubs-1.20.0.post2.tar.gz --markdown 20230703/m/micropython-stm32-stubs/1.20.0.post1-1.20.0.post2/diff.md --exclude *.pyd
+[2023-07-03 15:42:48] INFO root fetch - processPackages [micropython-rp2-pimoroni-picolipo-16mb-stubs]: Remove: archive file [/home/abi/fetcher/tmp/micropython_rp2_pimoroni_picolipo_16mb_stubs-1.20.0.post1.tar.gz]
+[2023-07-03 15:42:48] INFO root fetch - processPackages [micropython-rp2-pimoroni-picolipo-16mb-stubs]: Remove: archive file [/home/abi/fetcher/tmp/micropython_rp2_pimoroni_picolipo_16mb_stubs-1.20.0.post2.tar.gz]
+[2023-07-03 15:42:48] INFO root fetch - processPackages [micropython-rp2-pimoroni-picolipo-16mb-stubs]: Start processing: hyundai-kia-connect-api
+[2023-07-03 15:42:48] INFO root fetch - main [MainThread]: End processing [micropython-rp2-pimoroni-picolipo-16mb-stubs]: success
+[2023-07-03 15:42:48] INFO root fetch - processPackages [hyundai-kia-connect-api]: New version: [3.3.8] Old Version: [3.3.7]
+[2023-07-03 15:42:48] INFO root fetch - processPackages [hyundai-kia-connect-api]: Downloading https://files.pythonhosted.org/packages/60/17/64a2808af1e0cfbf0fd8ca74e60b96a46c7e5898d3ef2fd92a05706b254f/hyundai_kia_connect_api-3.3.7.tar.gz
+[2023-07-03 15:42:48] INFO root fetch - processPackages [micropython-stm32-pybv11-stubs]: Downloading https://files.pythonhosted.org/packages/27/ee/8ca486a621a6e71d8c25ef899bf92f92077f8c0702691be0ba57e19d61ed/micropython_stm32_pybv11_stubs-1.20.0.post2.tar.gz
+[2023-07-03 15:42:48] INFO root fetch - processPackages [hyundai-kia-connect-api]: Downloading https://files.pythonhosted.org/packages/70/21/a8c2ac5c19dd320be981fd15b16e27cbc4fef8f293a25ce0ac9e37cdbd4b/hyundai_kia_connect_api-3.3.8.tar.gz
+[2023-07-03 15:42:49] INFO root fetch - processPackages [hyundai-kia-connect-api]: executing diffoscope
+[2023-07-03 15:42:49] INFO root fetch - processPackages [hyundai-kia-connect-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyundai_kia_connect_api-3.3.7.tar.gz tmp/hyundai_kia_connect_api-3.3.8.tar.gz --markdown 20230703/h/hyundai-kia-connect-api/3.3.7-3.3.8/diff.md --exclude *.pyd
+[2023-07-03 15:42:49] INFO root fetch - processPackages [micropython-stm32-pybv11-stubs]: executing diffoscope
+[2023-07-03 15:42:49] INFO root fetch - processPackages [micropython-stm32-pybv11-stubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/micropython_stm32_pybv11_stubs-1.20.0.post1.tar.gz tmp/micropython_stm32_pybv11_stubs-1.20.0.post2.tar.gz --markdown 20230703/m/micropython-stm32-pybv11-stubs/1.20.0.post1-1.20.0.post2/diff.md --exclude *.pyd
+[2023-07-03 15:42:49] INFO root fetch - processPackages [flxtrd]: Remove: archive file [/home/abi/fetcher/tmp/flxtrd-0.2.0.tar.gz]
+[2023-07-03 15:42:49] INFO root fetch - processPackages [flxtrd]: Remove: archive file [/home/abi/fetcher/tmp/flxtrd-0.2.0.dev0.tar.gz]
+[2023-07-03 15:42:49] INFO root fetch - processPackages [flxtrd]: Start processing: flxtrd
+[2023-07-03 15:42:49] INFO root fetch - main [MainThread]: End processing [flxtrd]: success
+[2023-07-03 15:42:49] INFO root fetch - processPackages [textual-dev]: Remove: archive file [/home/abi/fetcher/tmp/textual_dev-0.1.0.tar.gz]
+[2023-07-03 15:42:49] INFO root fetch - processPackages [textual-dev]: Remove: archive file [/home/abi/fetcher/tmp/textual_dev-1.0.0.tar.gz]
+[2023-07-03 15:42:49] INFO root fetch - processPackages [textual-dev]: Start processing: django-translator
+[2023-07-03 15:42:49] INFO root fetch - main [MainThread]: End processing [textual-dev]: success
+[2023-07-03 15:42:49] INFO root fetch - processPackages [flxtrd]: New version: [0.2.0.dev0] Old Version: [0.2.0]
+[2023-07-03 15:42:49] INFO root fetch - processPackages [django-translator]: New version: [1.1.1] Old Version: [1.1.0b2]
+[2023-07-03 15:42:49] INFO root fetch - processPackages [flxtrd]: Downloading https://files.pythonhosted.org/packages/f6/27/ffb3aea7ff65708e1dcf62ed84fd52b6f1f7357b58cb5fb5c44c5536b8b4/flxtrd-0.2.0.tar.gz
+[2023-07-03 15:42:49] INFO root fetch - processPackages [flxtrd]: Downloading https://files.pythonhosted.org/packages/a4/81/7e53d76f1b965ef4135c955322008290a5623232cceee7dde05118052a1f/flxtrd-0.2.0.dev0.tar.gz
+[2023-07-03 15:42:49] INFO root fetch - processPackages [django-translator]: Downloading https://files.pythonhosted.org/packages/51/5e/905d469cce6f7055ad47eeff60d49c99668b3ab64683afc874ed650f3b60/django-translator-1.1.0b2.tar.gz
+[2023-07-03 15:42:49] INFO root fetch - processPackages [flxtrd]: executing diffoscope
+[2023-07-03 15:42:49] INFO root fetch - processPackages [flxtrd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flxtrd-0.2.0.tar.gz tmp/flxtrd-0.2.0.dev0.tar.gz --markdown 20230703/f/flxtrd/0.2.0-0.2.0.dev0/diff.md --exclude *.pyd
+[2023-07-03 15:42:50] INFO root fetch - processPackages [django-simple-captcha]: Remove: archive file [/home/abi/fetcher/tmp/django-simple-captcha-0.5.8.zip]
+[2023-07-03 15:42:50] INFO root fetch - processPackages [django-simple-captcha]: Remove: archive file [/home/abi/fetcher/tmp/django-simple-captcha-0.5.9.zip]
+[2023-07-03 15:42:50] INFO root fetch - processPackages [django-simple-captcha]: Start processing: micropython-esp32-stubs
+[2023-07-03 15:42:50] INFO root fetch - main [MainThread]: End processing [django-simple-captcha]: success
+[2023-07-03 15:42:50] INFO root fetch - processPackages [django-translator]: Downloading https://files.pythonhosted.org/packages/82/03/d212e7fb6f18e2bde344b5d374c23e4685dac98eb107bbba24ac0ba819c6/django-translator-1.1.1.tar.gz
+[2023-07-03 15:42:50] INFO root fetch - processPackages [micropython-esp32-stubs]: New version: [1.20.0.post2] Old Version: [1.20.0.post1]
+[2023-07-03 15:42:50] INFO root fetch - processPackages [configuraptor]: Remove: archive file [/home/abi/fetcher/tmp/configuraptor-1.8.0.tar.gz]
+[2023-07-03 15:42:50] INFO root fetch - processPackages [configuraptor]: Remove: archive file [/home/abi/fetcher/tmp/configuraptor-1.9.2.tar.gz]
+[2023-07-03 15:42:50] INFO root fetch - processPackages [configuraptor]: Start processing: micropython-esp32-s3-stubs
+[2023-07-03 15:42:50] INFO root fetch - main [MainThread]: End processing [configuraptor]: success
+[2023-07-03 15:42:50] INFO root fetch - processPackages [robotframework-robotlog2db]: Remove: archive file [/home/abi/fetcher/tmp/robotframework-robotlog2db-1.3.8.tar.gz]
+[2023-07-03 15:42:50] INFO root fetch - processPackages [robotframework-robotlog2db]: Remove: archive file [/home/abi/fetcher/tmp/robotframework-robotlog2db-1.3.9.tar.gz]
+[2023-07-03 15:42:50] INFO root fetch - processPackages [robotframework-robotlog2db]: Start processing: micropython-esp32-um-tinypico-stubs
+[2023-07-03 15:42:50] INFO root fetch - main [MainThread]: End processing [robotframework-robotlog2db]: success
+[2023-07-03 15:42:50] INFO root fetch - processPackages [micropython-esp32-s3-stubs]: New version: [1.20.0.post1] Old Version: [1.19.1.post1]
+[2023-07-03 15:42:50] INFO root fetch - processPackages [micropython-esp32-stubs]: Downloading https://files.pythonhosted.org/packages/c3/18/928573f71f6976ab87485632fa103c1adf4b530872f17875c61017876e97/micropython_esp32_stubs-1.20.0.post1.tar.gz
+[2023-07-03 15:42:50] INFO root fetch - processPackages [micropython-stm32-stubs]: Remove: archive file [/home/abi/fetcher/tmp/micropython_stm32_stubs-1.20.0.post1.tar.gz]
+[2023-07-03 15:42:50] INFO root fetch - processPackages [micropython-stm32-stubs]: Remove: archive file [/home/abi/fetcher/tmp/micropython_stm32_stubs-1.20.0.post2.tar.gz]
+[2023-07-03 15:42:50] INFO root fetch - processPackages [micropython-stm32-stubs]: Start processing: micropython-esp8266-stubs
+[2023-07-03 15:42:50] INFO root fetch - main [MainThread]: End processing [micropython-stm32-stubs]: success
+[2023-07-03 15:42:50] INFO root fetch - processPackages [micropython-samd-seeed-wio-terminal-stubs]: Remove: archive file [/home/abi/fetcher/tmp/micropython_samd_seeed_wio_terminal_stubs-1.20.0.post1.tar.gz]
+[2023-07-03 15:42:50] INFO root fetch - processPackages [micropython-samd-seeed-wio-terminal-stubs]: Remove: archive file [/home/abi/fetcher/tmp/micropython_samd_seeed_wio_terminal_stubs-1.20.0.post2.tar.gz]
+[2023-07-03 15:42:50] INFO root fetch - processPackages [micropython-samd-seeed-wio-terminal-stubs]: Start processing: micropython-rp2-stubs
+[2023-07-03 15:42:50] INFO root fetch - main [MainThread]: End processing [micropython-samd-seeed-wio-terminal-stubs]: success
+[2023-07-03 15:42:50] INFO root fetch - processPackages [django-translator]: executing diffoscope
+[2023-07-03 15:42:50] INFO root fetch - processPackages [django-translator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-translator-1.1.0b2.tar.gz tmp/django-translator-1.1.1.tar.gz --markdown 20230703/d/django-translator/1.1.0b2-1.1.1/diff.md --exclude *.pyd
+[2023-07-03 15:42:50] INFO root fetch - processPackages [micropython-esp32-um-tinypico-stubs]: New version: [1.19.1.post7] Old Version: [1.19.1.post6]
+[2023-07-03 15:42:50] INFO root fetch - processPackages [micropython-rp2-stubs]: New version: [1.20.0.post2] Old Version: [1.20.0.post1]
+[2023-07-03 15:42:50] INFO root fetch - processPackages [micropython-esp32-s3-stubs]: Downloading https://files.pythonhosted.org/packages/a3/0c/2e5ab5a060b4768dc5c8228630db05daa1c81d8a79cc51083475f852adb7/micropython_esp32_s3_stubs-1.19.1.post1.tar.gz
+[2023-07-03 15:42:50] INFO root fetch - processPackages [micropython-esp8266-stubs]: New version: [1.19.1.post9] Old Version: [1.19.1.post8]
+[2023-07-03 15:42:50] INFO root fetch - processPackages [micropython-rp2-stubs]: Downloading https://files.pythonhosted.org/packages/b1/eb/45d81b2baf70f6740d4de7e01ce20db5215ceb906ff8385e842b36fa3dd3/micropython_rp2_stubs-1.20.0.post1.tar.gz
+[2023-07-03 15:42:50] INFO root fetch - processPackages [micropython-esp32-stubs]: Downloading https://files.pythonhosted.org/packages/fa/76/dcb4e12c4c281baf4f8d73a4c41afd378f628f105646b2f978e1b3ff536e/micropython_esp32_stubs-1.20.0.post2.tar.gz
+[2023-07-03 15:42:50] INFO root fetch - processPackages [micropython-esp32-um-tinypico-stubs]: Downloading https://files.pythonhosted.org/packages/b9/c5/7e0f28c9374b5e5918ed5da44b6122f9d64c265f6f53322359b2fe4034fe/micropython_esp32_um_tinypico_stubs-1.19.1.post6.tar.gz
+[2023-07-03 15:42:50] INFO root fetch - processPackages [micropython-esp32-s3-stubs]: Downloading https://files.pythonhosted.org/packages/d7/1b/016b643da47cefa91c558b6ce67459b4c528db87efa0559114e204684d8e/micropython_esp32_s3_stubs-1.20.0.post1.tar.gz
+[2023-07-03 15:42:50] INFO root fetch - processPackages [micropython-esp32-stubs]: executing diffoscope
+[2023-07-03 15:42:50] INFO root fetch - processPackages [micropython-esp32-stubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/micropython_esp32_stubs-1.20.0.post1.tar.gz tmp/micropython_esp32_stubs-1.20.0.post2.tar.gz --markdown 20230703/m/micropython-esp32-stubs/1.20.0.post1-1.20.0.post2/diff.md --exclude *.pyd
+[2023-07-03 15:42:50] INFO root fetch - processPackages [hyundai-kia-connect-api]: Remove: archive file [/home/abi/fetcher/tmp/hyundai_kia_connect_api-3.3.7.tar.gz]
+[2023-07-03 15:42:50] INFO root fetch - processPackages [hyundai-kia-connect-api]: Remove: archive file [/home/abi/fetcher/tmp/hyundai_kia_connect_api-3.3.8.tar.gz]
+[2023-07-03 15:42:50] INFO root fetch - processPackages [hyundai-kia-connect-api]: Start processing: zit
+[2023-07-03 15:42:50] INFO root fetch - main [MainThread]: End processing [hyundai-kia-connect-api]: success
+[2023-07-03 15:42:50] INFO root fetch - processPackages [micropython-stm32-pybv11-stubs]: Remove: archive file [/home/abi/fetcher/tmp/micropython_stm32_pybv11_stubs-1.20.0.post1.tar.gz]
+[2023-07-03 15:42:50] INFO root fetch - processPackages [micropython-stm32-pybv11-stubs]: Remove: archive file [/home/abi/fetcher/tmp/micropython_stm32_pybv11_stubs-1.20.0.post2.tar.gz]
+[2023-07-03 15:42:50] INFO root fetch - processPackages [micropython-stm32-pybv11-stubs]: Start processing: micropython-stm32-stubs
+[2023-07-03 15:42:50] INFO root fetch - main [MainThread]: End processing [micropython-stm32-pybv11-stubs]: success
+[2023-07-03 15:42:50] INFO root fetch - processPackages [micropython-esp8266-stubs]: Downloading https://files.pythonhosted.org/packages/1a/a3/9d525590dbee1db3e607737aa37689fc015f0d173683bdf975b686e0f12c/micropython_esp8266_stubs-1.19.1.post8.tar.gz
+[2023-07-03 15:42:50] INFO root fetch - processPackages [zit]: New version: [0.0.2a0] Old Version: [0.0.1a1]
+[2023-07-03 15:42:50] INFO root fetch - processPackages [micropython-rp2-stubs]: Downloading https://files.pythonhosted.org/packages/f0/4b/26b55b93a3a73c593e6504083d06ac0b6fde509bc8477c59e6587320658b/micropython_rp2_stubs-1.20.0.post2.tar.gz
+[2023-07-03 15:42:50] INFO root fetch - processPackages [micropython-stm32-stubs]: New version: [1.20.0.post2] Old Version: [1.20.0.post1]
+[2023-07-03 15:42:50] INFO root fetch - processPackages [micropython-esp32-s3-stubs]: executing diffoscope
+[2023-07-03 15:42:50] INFO root fetch - processPackages [micropython-esp32-s3-stubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/micropython_esp32_s3_stubs-1.19.1.post1.tar.gz tmp/micropython_esp32_s3_stubs-1.20.0.post1.tar.gz --markdown 20230703/m/micropython-esp32-s3-stubs/1.19.1.post1-1.20.0.post1/diff.md --exclude *.pyd
+[2023-07-03 15:42:50] INFO root fetch - processPackages [zit]: Downloading https://files.pythonhosted.org/packages/57/6d/5a2d7d9d8aeaab3ac369a509160a026642ab672b9f85e26311eac581c316/zit-0.0.1a1.tar.gz
+[2023-07-03 15:42:50] INFO root fetch - processPackages [micropython-stm32-stubs]: Downloading https://files.pythonhosted.org/packages/c7/36/cdbe35344044efc129b1b7471baef0184616c6c2e8966831479352762bc3/micropython_stm32_stubs-1.20.0.post1.tar.gz
+[2023-07-03 15:42:50] INFO root fetch - processPackages [micropython-rp2-stubs]: executing diffoscope
+[2023-07-03 15:42:50] INFO root fetch - processPackages [micropython-rp2-stubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/micropython_rp2_stubs-1.20.0.post1.tar.gz tmp/micropython_rp2_stubs-1.20.0.post2.tar.gz --markdown 20230703/m/micropython-rp2-stubs/1.20.0.post1-1.20.0.post2/diff.md --exclude *.pyd
+[2023-07-03 15:42:51] INFO root fetch - processPackages [micropython-esp32-um-tinypico-stubs]: Downloading https://files.pythonhosted.org/packages/bc/22/2ea0d4d8745d86ffe0013694d94949707b4bfc79a4e030b892c0e8b6ac92/micropython_esp32_um_tinypico_stubs-1.19.1.post7.tar.gz
+[2023-07-03 15:42:51] INFO root fetch - processPackages [micropython-stm32-stubs]: Downloading https://files.pythonhosted.org/packages/b3/cc/43556d06789d1747000675cd7ee4e9a97797a360c9a59fd615f82f975d80/micropython_stm32_stubs-1.20.0.post2.tar.gz
+[2023-07-03 15:42:51] INFO root fetch - processPackages [flxtrd]: Remove: archive file [/home/abi/fetcher/tmp/flxtrd-0.2.0.tar.gz]
+[2023-07-03 15:42:51] INFO root fetch - processPackages [flxtrd]: Remove: archive file [/home/abi/fetcher/tmp/flxtrd-0.2.0.dev0.tar.gz]
+[2023-07-03 15:42:51] INFO root fetch - processPackages [flxtrd]: Start processing: streamlit-slice-select
+[2023-07-03 15:42:51] INFO root fetch - main [MainThread]: End processing [flxtrd]: success
+[2023-07-03 15:42:51] INFO root fetch - processPackages [micropython-esp8266-stubs]: Downloading https://files.pythonhosted.org/packages/30/88/d986624ac9cdcb0dd7319bd572aa4bd144f90991781632dec1ac62361e5a/micropython_esp8266_stubs-1.19.1.post9.tar.gz
+[2023-07-03 15:42:51] INFO root fetch - processPackages [micropython-stm32-stubs]: executing diffoscope
+[2023-07-03 15:42:51] INFO root fetch - processPackages [micropython-stm32-stubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/micropython_stm32_stubs-1.20.0.post1.tar.gz tmp/micropython_stm32_stubs-1.20.0.post2.tar.gz --markdown 20230703/m/micropython-stm32-stubs/1.20.0.post1-1.20.0.post2/diff.md --exclude *.pyd
+[2023-07-03 15:42:51] INFO root fetch - processPackages [zit]: Downloading https://files.pythonhosted.org/packages/2d/a8/6891dd2b1ceb0f9307f93d92c0e54acda270e02cfc62cabf4223a34ed9d5/zit-0.0.2a0.tar.gz
+[2023-07-03 15:42:51] INFO root fetch - processPackages [micropython-esp32-um-tinypico-stubs]: executing diffoscope
+[2023-07-03 15:42:51] INFO root fetch - processPackages [micropython-esp32-um-tinypico-stubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/micropython_esp32_um_tinypico_stubs-1.19.1.post6.tar.gz tmp/micropython_esp32_um_tinypico_stubs-1.19.1.post7.tar.gz --markdown 20230703/m/micropython-esp32-um-tinypico-stubs/1.19.1.post6-1.19.1.post7/diff.md --exclude *.pyd
+[2023-07-03 15:42:51] INFO root fetch - processPackages [streamlit-slice-select]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-03 15:42:51] INFO root fetch - processPackages [django-translator]: Remove: archive file [/home/abi/fetcher/tmp/django-translator-1.1.0b2.tar.gz]
+[2023-07-03 15:42:51] INFO root fetch - processPackages [django-translator]: Remove: archive file [/home/abi/fetcher/tmp/django-translator-1.1.1.tar.gz]
+[2023-07-03 15:42:51] INFO root fetch - processPackages [django-translator]: Start processing: streamlit-slice-select
+[2023-07-03 15:42:51] INFO root fetch - main [MainThread]: End processing [django-translator]: success
+[2023-07-03 15:42:51] INFO root fetch - processPackages [micropython-esp8266-stubs]: executing diffoscope
+[2023-07-03 15:42:51] INFO root fetch - processPackages [micropython-esp8266-stubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/micropython_esp8266_stubs-1.19.1.post8.tar.gz tmp/micropython_esp8266_stubs-1.19.1.post9.tar.gz --markdown 20230703/m/micropython-esp8266-stubs/1.19.1.post8-1.19.1.post9/diff.md --exclude *.pyd
+[2023-07-03 15:42:51] INFO root fetch - processPackages [streamlit-slice-select]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-03 15:42:51] INFO root fetch - processPackages [zit]: executing diffoscope
+[2023-07-03 15:42:51] INFO root fetch - processPackages [zit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zit-0.0.1a1.tar.gz tmp/zit-0.0.2a0.tar.gz --markdown 20230703/z/zit/0.0.1a1-0.0.2a0/diff.md --exclude *.pyd
+[2023-07-03 15:42:51] INFO root fetch - processPackages [streamlit-slice-select]: Downloading https://files.pythonhosted.org/packages/23/fa/babf388fb3f6ec4b5c22d097d3dc5a5685be4925cd44b5a3fc1de55c5842/streamlit_slice_select-0.1.0.tar.gz
+[2023-07-03 15:42:51] INFO root fetch - processPackages [streamlit-slice-select]: Downloading https://files.pythonhosted.org/packages/23/fa/babf388fb3f6ec4b5c22d097d3dc5a5685be4925cd44b5a3fc1de55c5842/streamlit_slice_select-0.1.0.tar.gz
+[2023-07-03 15:42:52] INFO root fetch - processPackages [streamlit-slice-select]: Downloading https://files.pythonhosted.org/packages/d1/dc/92bd29a62e5d48ccb34e2806ecde5c793881595749009ae6c67cad443ce2/streamlit_slice_select-0.1.1.tar.gz
+[2023-07-03 15:42:52] INFO root fetch - processPackages [streamlit-slice-select]: Downloading https://files.pythonhosted.org/packages/d1/dc/92bd29a62e5d48ccb34e2806ecde5c793881595749009ae6c67cad443ce2/streamlit_slice_select-0.1.1.tar.gz
+[2023-07-03 15:42:52] INFO root fetch - processPackages [micropython-esp32-stubs]: Remove: archive file [/home/abi/fetcher/tmp/micropython_esp32_stubs-1.20.0.post1.tar.gz]
+[2023-07-03 15:42:52] INFO root fetch - processPackages [micropython-esp32-stubs]: Remove: archive file [/home/abi/fetcher/tmp/micropython_esp32_stubs-1.20.0.post2.tar.gz]
+[2023-07-03 15:42:52] INFO root fetch - main [MainThread]: End processing [micropython-esp32-stubs]: success
+[2023-07-03 15:42:52] INFO root fetch - processPackages [streamlit-slice-select]: executing diffoscope
+[2023-07-03 15:42:52] INFO root fetch - processPackages [streamlit-slice-select]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit_slice_select-0.1.0.tar.gz tmp/streamlit_slice_select-0.1.1.tar.gz --markdown 20230703/s/streamlit-slice-select/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-03 15:42:52] INFO root fetch - processPackages [streamlit-slice-select]: executing diffoscope
+[2023-07-03 15:42:52] INFO root fetch - processPackages [streamlit-slice-select]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit_slice_select-0.1.0.tar.gz tmp/streamlit_slice_select-0.1.1.tar.gz --markdown 20230703/s/streamlit-slice-select/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-03 15:42:52] INFO root fetch - processPackages [micropython-rp2-stubs]: Remove: archive file [/home/abi/fetcher/tmp/micropython_rp2_stubs-1.20.0.post1.tar.gz]
+[2023-07-03 15:42:52] INFO root fetch - processPackages [micropython-rp2-stubs]: Remove: archive file [/home/abi/fetcher/tmp/micropython_rp2_stubs-1.20.0.post2.tar.gz]
+[2023-07-03 15:42:52] INFO root fetch - main [MainThread]: End processing [micropython-rp2-stubs]: success
+[2023-07-03 15:42:52] INFO root fetch - processPackages [micropython-esp32-s3-stubs]: Remove: archive file [/home/abi/fetcher/tmp/micropython_esp32_s3_stubs-1.19.1.post1.tar.gz]
+[2023-07-03 15:42:52] INFO root fetch - processPackages [micropython-esp32-s3-stubs]: Remove: archive file [/home/abi/fetcher/tmp/micropython_esp32_s3_stubs-1.20.0.post1.tar.gz]
+[2023-07-03 15:42:52] INFO root fetch - main [MainThread]: End processing [micropython-esp32-s3-stubs]: success
+[2023-07-03 15:42:52] INFO root fetch - processPackages [zit]: Remove: archive file [/home/abi/fetcher/tmp/zit-0.0.1a1.tar.gz]
+[2023-07-03 15:42:52] INFO root fetch - processPackages [zit]: Remove: archive file [/home/abi/fetcher/tmp/zit-0.0.2a0.tar.gz]
+[2023-07-03 15:42:52] INFO root fetch - main [MainThread]: End processing [zit]: success
+[2023-07-03 15:42:52] INFO root fetch - processPackages [micropython-stm32-stubs]: Remove: archive file [/home/abi/fetcher/tmp/micropython_stm32_stubs-1.20.0.post1.tar.gz]
+[2023-07-03 15:42:52] INFO root fetch - processPackages [micropython-stm32-stubs]: Remove: archive file [/home/abi/fetcher/tmp/micropython_stm32_stubs-1.20.0.post2.tar.gz]
+[2023-07-03 15:42:52] INFO root fetch - main [MainThread]: End processing [micropython-stm32-stubs]: success
+[2023-07-03 15:42:53] INFO root fetch - processPackages [micropython-esp8266-stubs]: Remove: archive file [/home/abi/fetcher/tmp/micropython_esp8266_stubs-1.19.1.post8.tar.gz]
+[2023-07-03 15:42:53] INFO root fetch - processPackages [micropython-esp8266-stubs]: Remove: archive file [/home/abi/fetcher/tmp/micropython_esp8266_stubs-1.19.1.post9.tar.gz]
+[2023-07-03 15:42:53] INFO root fetch - main [MainThread]: End processing [micropython-esp8266-stubs]: success
+[2023-07-03 15:42:53] INFO root fetch - processPackages [micropython-esp32-um-tinypico-stubs]: Remove: archive file [/home/abi/fetcher/tmp/micropython_esp32_um_tinypico_stubs-1.19.1.post6.tar.gz]
+[2023-07-03 15:42:53] INFO root fetch - processPackages [micropython-esp32-um-tinypico-stubs]: Remove: archive file [/home/abi/fetcher/tmp/micropython_esp32_um_tinypico_stubs-1.19.1.post7.tar.gz]
+[2023-07-03 15:42:53] INFO root fetch - main [MainThread]: End processing [micropython-esp32-um-tinypico-stubs]: success
+[2023-07-03 15:42:53] INFO root fetch - processPackages [streamlit-slice-select]: Remove: archive file [/home/abi/fetcher/tmp/streamlit_slice_select-0.1.0.tar.gz]
+[2023-07-03 15:42:53] INFO root fetch - processPackages [streamlit-slice-select]: Remove: archive file [/home/abi/fetcher/tmp/streamlit_slice_select-0.1.1.tar.gz]
+[2023-07-03 15:42:53] INFO root fetch - main [MainThread]: End processing [streamlit-slice-select]: success
+[2023-07-03 15:42:53] INFO root fetch - main [MainThread]: End processing [streamlit-slice-select]: success
+[2023-07-03 15:43:02] INFO root fetch - processPackages [Geode-Simplex]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Simplex-6.0.8-cp39-cp39-win_amd64.whl.zip]
+[2023-07-03 15:43:02] INFO root fetch - processPackages [Geode-Simplex]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Simplex-6.0.9-cp39-cp39-win_amd64.whl.zip]
+[2023-07-03 15:43:02] INFO root fetch - main [MainThread]: End processing [Geode-Simplex]: success
+[2023-07-03 15:43:02] INFO root fetch - main [MainThread]: Store serial: [18740015]
