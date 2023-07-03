@@ -11925,3 +11925,135 @@ AssertionError: tmp/discord-ansi-0.3.tar.gz does not exist
 [2023-07-03 10:57:15] INFO root fetch - processPackages [tfp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl.zip]
 [2023-07-03 10:57:15] INFO root fetch - main [MainThread]: End processing [tfp-nightly]: success
 [2023-07-03 10:57:15] INFO root fetch - main [MainThread]: Store serial: [18736658]
+[2023-07-03 11:02:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18736658]
+[2023-07-03 11:02:24] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-07-03 11:02:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ailola
+[2023-07-03 11:02:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hayloft
+[2023-07-03 11:02:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: stackdiac
+[2023-07-03 11:02:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: volsite-postgres-common
+[2023-07-03 11:02:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bruco
+[2023-07-03 11:02:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: spyx
+[2023-07-03 11:02:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ailola
+[2023-07-03 11:02:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: comet-maths
+[2023-07-03 11:02:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: citybrain-official
+[2023-07-03 11:02:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pyperf2
+[2023-07-03 11:02:25] INFO root fetch - processPackages [volsite-postgres-common]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-03 11:02:25] INFO root fetch - processPackages [ailola]: New version: [0.8.2] Old Version: [0.8.1]
+[2023-07-03 11:02:25] INFO root fetch - processPackages [citybrain-official]: New version: [0.7] Old Version: [0.6]
+[2023-07-03 11:02:25] INFO root fetch - processPackages [spyx]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-03 11:02:25] INFO root fetch - processPackages [bruco]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-07-03 11:02:25] INFO root fetch - processPackages [ailola]: New version: [0.8.2] Old Version: [0.8.1]
+[2023-07-03 11:02:25] INFO root fetch - processPackages [stackdiac]: New version: [0.0.1.dev31] Old Version: [0.0.1.dev30]
+[2023-07-03 11:02:25] INFO root fetch - processPackages [hayloft]: New version: [0.4.0a0] Old Version: [0.4.0]
+[2023-07-03 11:02:25] INFO root fetch - processPackages [comet-maths]: New version: [0.9] Old Version: [0.8]
+[2023-07-03 11:02:25] INFO root fetch - processPackages [pyperf2]: New version: [0.4.3] Old Version: [0.4.2]
+[2023-07-03 11:02:25] INFO root fetch - processPackages [volsite-postgres-common]: Downloading https://files.pythonhosted.org/packages/a9/48/ece41cdd1f36d5b821f07299b965387a375ef3ddd0556318e57ad9018c7c/volsite_postgres_common-0.1.8.tar.gz
+[2023-07-03 11:02:25] INFO root fetch - processPackages [spyx]: Downloading https://files.pythonhosted.org/packages/ad/3c/0923fad22a4814ff108e27da31aad55c408b1e2127c55c0e0beb6ccc3d40/spyx-0.0.8.tar.gz
+[2023-07-03 11:02:25] INFO root fetch - processPackages [ailola]: Downloading https://files.pythonhosted.org/packages/a9/a9/016434909f1c1b9a3af0efdb7b27e094c92f563336a6c0167c5866f78bfa/ailola-0.8.1.tar.gz
+[2023-07-03 11:02:25] INFO root fetch - processPackages [ailola]: Downloading https://files.pythonhosted.org/packages/a9/a9/016434909f1c1b9a3af0efdb7b27e094c92f563336a6c0167c5866f78bfa/ailola-0.8.1.tar.gz
+[2023-07-03 11:02:25] INFO root fetch - processPackages [citybrain-official]: Downloading https://files.pythonhosted.org/packages/f6/39/0f12c04fb32cd1cb28d0fb8df35e586945caa8e1d63540aa0b6c2167e3af/citybrain-official-0.6.tar.gz
+[2023-07-03 11:02:25] INFO root fetch - processPackages [pyperf2]: Downloading https://files.pythonhosted.org/packages/47/11/9f7884b08202a6c9bee0258f303d6bc85c0cc8660f5ee0bd5fa9240d4d00/pyperf2-0.4.2-py3-none-any.whl
+[2023-07-03 11:02:25] INFO root fetch - processPackages [hayloft]: Downloading https://files.pythonhosted.org/packages/1e/2a/a9a80955d73a7c492dc5ee98db734279f5b7a4db41f31b3020859a6f7bad/hayloft-0.4.0.tar.gz
+[2023-07-03 11:02:25] INFO root fetch - processPackages [bruco]: Downloading https://files.pythonhosted.org/packages/17/7e/8f0fb9293c9a46cbe007fa998df0b4f37e78e598228b176013539904215e/bruco-0.2.2.tar.gz
+[2023-07-03 11:02:25] INFO root fetch - processPackages [stackdiac]: Downloading https://files.pythonhosted.org/packages/88/79/7d8c83e30319c12ca666c2e1d75102adcd2afb6835db2acdd2368b5f3e4b/stackdiac-0.0.1.dev30.tar.gz
+[2023-07-03 11:02:25] INFO root fetch - processPackages [comet-maths]: Downloading https://files.pythonhosted.org/packages/a0/9d/10de8a8610929b5e518ad469fbe5f79b5741949de43cb299129d8d099452/comet_maths-0.8.tar.gz
+[2023-07-03 11:02:25] INFO root fetch - processPackages [spyx]: Downloading https://files.pythonhosted.org/packages/03/d3/7fb8e0ae16918d31936abec49e12b457a905c8e39fb1405a1236b7e03d85/spyx-0.0.9.tar.gz
+[2023-07-03 11:02:25] INFO root fetch - processPackages [volsite-postgres-common]: Downloading https://files.pythonhosted.org/packages/ff/03/668bfd84cd84ef92e37f65f495239d8be55d05abd92dc4bd35f340822fce/volsite_postgres_common-0.1.9.tar.gz
+[2023-07-03 11:02:25] INFO root fetch - processPackages [ailola]: Downloading https://files.pythonhosted.org/packages/90/30/0473d1db9f5404cd6b45875717fcfd7c2e67e5dc9555545dc71a7655a864/ailola-0.8.2.tar.gz
+[2023-07-03 11:02:25] INFO root fetch - processPackages [ailola]: Downloading https://files.pythonhosted.org/packages/90/30/0473d1db9f5404cd6b45875717fcfd7c2e67e5dc9555545dc71a7655a864/ailola-0.8.2.tar.gz
+[2023-07-03 11:02:26] INFO root fetch - processPackages [spyx]: executing diffoscope
+[2023-07-03 11:02:26] INFO root fetch - processPackages [spyx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spyx-0.0.8.tar.gz tmp/spyx-0.0.9.tar.gz --markdown 20230703/s/spyx/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-03 11:02:26] INFO root fetch - processPackages [citybrain-official]: Downloading https://files.pythonhosted.org/packages/5e/ae/72d29cadf237e4e54323d125e59a3d8a5fb84a06e031df54aff9ca19a852/citybrain-official-0.7.tar.gz
+[2023-07-03 11:02:26] INFO root fetch - processPackages [pyperf2]: Downloading https://files.pythonhosted.org/packages/16/26/a4c03c8d6d92f9b7d08e87543e90cdc7df5c7a98c666f6f9f81e1fe8c367/pyperf2-0.4.3-py3-none-any.whl
+[2023-07-03 11:02:26] INFO root fetch - processPackages [volsite-postgres-common]: executing diffoscope
+[2023-07-03 11:02:26] INFO root fetch - processPackages [volsite-postgres-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/volsite_postgres_common-0.1.8.tar.gz tmp/volsite_postgres_common-0.1.9.tar.gz --markdown 20230703/v/volsite-postgres-common/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-03 11:02:26] INFO root fetch - processPackages [citybrain-official]: executing diffoscope
+[2023-07-03 11:02:26] INFO root fetch - processPackages [citybrain-official]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/citybrain-official-0.6.tar.gz tmp/citybrain-official-0.7.tar.gz --markdown 20230703/c/citybrain-official/0.6-0.7/diff.md --exclude *.pyd
+[2023-07-03 11:02:26] INFO root fetch - processPackages [hayloft]: Downloading https://files.pythonhosted.org/packages/1d/76/742bd80f2e242ea724afcd00ee3ed825307fc25c5171267711998a7cfe3c/hayloft-0.4.0a0.tar.gz
+[2023-07-03 11:02:26] INFO root fetch - processPackages [bruco]: Downloading https://files.pythonhosted.org/packages/53/e7/8bc74dce84a0c116911caa35a71468bf13d642d85a951eee858ba2933143/bruco-0.2.3.tar.gz
+[2023-07-03 11:02:26] INFO root fetch - processPackages [pyperf2]: executing diffoscope
+[2023-07-03 11:02:26] INFO root fetch - processPackages [pyperf2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyperf2-0.4.2-py3-none-any.whl.zip tmp/pyperf2-0.4.3-py3-none-any.whl.zip --markdown 20230703/p/pyperf2/0.4.2-0.4.3/diff.md --exclude *.pyd
+[2023-07-03 11:02:26] INFO root fetch - processPackages [ailola]: executing diffoscope
+[2023-07-03 11:02:26] INFO root fetch - processPackages [ailola]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ailola-0.8.1.tar.gz tmp/ailola-0.8.2.tar.gz --markdown 20230703/a/ailola/0.8.1-0.8.2/diff.md --exclude *.pyd
+[2023-07-03 11:02:26] INFO root fetch - processPackages [stackdiac]: Downloading https://files.pythonhosted.org/packages/eb/f3/25a9b69252a5e037c7f9a795ff859e61a1744b4f25f34c089f405e597460/stackdiac-0.0.1.dev31.tar.gz
+[2023-07-03 11:02:26] INFO root fetch - processPackages [ailola]: executing diffoscope
+[2023-07-03 11:02:26] INFO root fetch - processPackages [ailola]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ailola-0.8.1.tar.gz tmp/ailola-0.8.2.tar.gz --markdown 20230703/a/ailola/0.8.1-0.8.2/diff.md --exclude *.pyd
+[2023-07-03 11:02:26] INFO root fetch - processPackages [comet-maths]: Downloading https://files.pythonhosted.org/packages/cf/a7/a9877e8a9b60f1dea120f60fa85520f52bf5d43e689e40c0cc4cc604c78f/comet_maths-0.9.tar.gz
+[2023-07-03 11:02:26] INFO root fetch - processPackages [hayloft]: executing diffoscope
+[2023-07-03 11:02:26] INFO root fetch - processPackages [hayloft]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hayloft-0.4.0.tar.gz tmp/hayloft-0.4.0a0.tar.gz --markdown 20230703/h/hayloft/0.4.0-0.4.0a0/diff.md --exclude *.pyd
+[2023-07-03 11:02:26] INFO root fetch - processPackages [bruco]: executing diffoscope
+[2023-07-03 11:02:26] INFO root fetch - processPackages [bruco]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bruco-0.2.2.tar.gz tmp/bruco-0.2.3.tar.gz --markdown 20230703/b/bruco/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-07-03 11:02:26] INFO root fetch - processPackages [stackdiac]: executing diffoscope
+[2023-07-03 11:02:26] INFO root fetch - processPackages [stackdiac]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stackdiac-0.0.1.dev30.tar.gz tmp/stackdiac-0.0.1.dev31.tar.gz --markdown 20230703/s/stackdiac/0.0.1.dev30-0.0.1.dev31/diff.md --exclude *.pyd
+[2023-07-03 11:02:26] INFO root fetch - processPackages [comet-maths]: executing diffoscope
+[2023-07-03 11:02:26] INFO root fetch - processPackages [comet-maths]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/comet_maths-0.8.tar.gz tmp/comet_maths-0.9.tar.gz --markdown 20230703/c/comet-maths/0.8-0.9/diff.md --exclude *.pyd
+[2023-07-03 11:02:27] INFO root fetch - processPackages [spyx]: Remove: archive file [/home/abi/fetcher/tmp/spyx-0.0.8.tar.gz]
+[2023-07-03 11:02:27] INFO root fetch - processPackages [spyx]: Remove: archive file [/home/abi/fetcher/tmp/spyx-0.0.9.tar.gz]
+[2023-07-03 11:02:27] INFO root fetch - processPackages [spyx]: Start processing: ExpoSeq
+[2023-07-03 11:02:27] INFO root fetch - main [MainThread]: End processing [spyx]: success
+[2023-07-03 11:02:27] INFO root fetch - processPackages [ExpoSeq]: New version: [1.1.13] Old Version: [1.1.12]
+[2023-07-03 11:02:27] INFO root fetch - processPackages [ExpoSeq]: Downloading https://files.pythonhosted.org/packages/78/e2/4b5a7474132f1e5bba7d51747e5d7281250eee4f5200610bc428f87fdfb8/ExpoSeq-1.1.12.tar.gz
+[2023-07-03 11:02:28] INFO root fetch - processPackages [ailola]: Remove: archive file [/home/abi/fetcher/tmp/ailola-0.8.1.tar.gz]
+[2023-07-03 11:02:28] INFO root fetch - processPackages [ailola]: Remove: archive file [/home/abi/fetcher/tmp/ailola-0.8.2.tar.gz]
+[2023-07-03 11:02:28] INFO root fetch - processPackages [ailola]: Start processing: QuantumPathQSOAPySDK
+[2023-07-03 11:02:28] INFO root fetch - main [MainThread]: End processing [ailola]: success
+[2023-07-03 11:02:28] INFO root fetch - processPackages [volsite-postgres-common]: Remove: archive file [/home/abi/fetcher/tmp/volsite_postgres_common-0.1.8.tar.gz]
+[2023-07-03 11:02:28] INFO root fetch - processPackages [volsite-postgres-common]: Remove: archive file [/home/abi/fetcher/tmp/volsite_postgres_common-0.1.9.tar.gz]
+[2023-07-03 11:02:28] INFO root fetch - processPackages [volsite-postgres-common]: Start processing: mouse2
+[2023-07-03 11:02:28] INFO root fetch - main [MainThread]: End processing [volsite-postgres-common]: success
+[2023-07-03 11:02:28] INFO root fetch - processPackages [QuantumPathQSOAPySDK]: New version: [1.5.8] Old Version: [1.5.7]
+[2023-07-03 11:02:28] INFO root fetch - processPackages [mouse2]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-03 11:02:28] INFO root fetch - processPackages [citybrain-official]: Remove: archive file [/home/abi/fetcher/tmp/citybrain-official-0.6.tar.gz]
+[2023-07-03 11:02:28] INFO root fetch - processPackages [citybrain-official]: Remove: archive file [/home/abi/fetcher/tmp/citybrain-official-0.7.tar.gz]
+[2023-07-03 11:02:28] INFO root fetch - processPackages [citybrain-official]: Start processing: vollseg-napari-trackmate
+[2023-07-03 11:02:28] INFO root fetch - main [MainThread]: End processing [citybrain-official]: success
+[2023-07-03 11:02:28] INFO root fetch - processPackages [vollseg-napari-trackmate]: New version: [2.2.4] Old Version: [2.2.3]
+[2023-07-03 11:02:28] INFO root fetch - processPackages [pyperf2]: Remove: archive file [/home/abi/fetcher/tmp/pyperf2-0.4.2-py3-none-any.whl.zip]
+[2023-07-03 11:02:28] INFO root fetch - processPackages [pyperf2]: Remove: archive file [/home/abi/fetcher/tmp/pyperf2-0.4.3-py3-none-any.whl.zip]
+[2023-07-03 11:02:28] INFO root fetch - processPackages [pyperf2]: Start processing: certora-cli-alpha-master
+[2023-07-03 11:02:28] INFO root fetch - main [MainThread]: End processing [pyperf2]: success
+[2023-07-03 11:02:28] INFO root fetch - main [MainThread]: End processing [ailola]: success
+[2023-07-03 11:02:28] INFO root fetch - processPackages [bruco]: Remove: archive file [/home/abi/fetcher/tmp/bruco-0.2.2.tar.gz]
+[2023-07-03 11:02:28] INFO root fetch - processPackages [bruco]: Remove: archive file [/home/abi/fetcher/tmp/bruco-0.2.3.tar.gz]
+[2023-07-03 11:02:28] INFO root fetch - main [MainThread]: End processing [bruco]: success
+[2023-07-03 11:02:28] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20230703.8.31.999879] Old Version: [20230703.7.25.540207]
+[2023-07-03 11:02:28] INFO root fetch - processPackages [vollseg-napari-trackmate]: Downloading https://files.pythonhosted.org/packages/d4/7d/4dbd4701405398058a03d380eed39303b29b695a4a6b25c45fdee1c6efb7/vollseg-napari-trackmate-2.2.3.tar.gz
+[2023-07-03 11:02:28] INFO root fetch - processPackages [mouse2]: Downloading https://files.pythonhosted.org/packages/71/af/4471c4bdb401c2eb1af021c6ca28e08d5d508db68923ca092b4bd35171e5/mouse2-0.2.8.tar.gz
+[2023-07-03 11:02:28] INFO root fetch - processPackages [hayloft]: Remove: archive file [/home/abi/fetcher/tmp/hayloft-0.4.0.tar.gz]
+[2023-07-03 11:02:28] INFO root fetch - processPackages [QuantumPathQSOAPySDK]: Downloading https://files.pythonhosted.org/packages/9d/3c/efaf1e8cc0b6fcd10ad5f6c3146cb9b318e3887bc3ce39be58af07df9d93/QuantumPathQSOAPySDK-1.5.7.tar.gz
+[2023-07-03 11:02:28] INFO root fetch - processPackages [hayloft]: Remove: archive file [/home/abi/fetcher/tmp/hayloft-0.4.0a0.tar.gz]
+[2023-07-03 11:02:28] INFO root fetch - main [MainThread]: End processing [hayloft]: success
+[2023-07-03 11:02:28] INFO root fetch - processPackages [comet-maths]: Remove: archive file [/home/abi/fetcher/tmp/comet_maths-0.8.tar.gz]
+[2023-07-03 11:02:28] INFO root fetch - processPackages [comet-maths]: Remove: archive file [/home/abi/fetcher/tmp/comet_maths-0.9.tar.gz]
+[2023-07-03 11:02:28] INFO root fetch - main [MainThread]: End processing [comet-maths]: success
+[2023-07-03 11:02:28] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/fb/6d/1e952e7353fa761217be542f7a40a4030e12d39cc8d1a22da71cea917c9b/certora-cli-alpha-master-20230703.7.25.540207.tar.gz
+[2023-07-03 11:02:28] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 40617523>=10485760
+[2023-07-03 11:02:28] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2023-07-03 11:02:28] INFO root fetch - processPackages [stackdiac]: Remove: archive file [/home/abi/fetcher/tmp/stackdiac-0.0.1.dev30.tar.gz]
+[2023-07-03 11:02:28] INFO root fetch - processPackages [stackdiac]: Remove: archive file [/home/abi/fetcher/tmp/stackdiac-0.0.1.dev31.tar.gz]
+[2023-07-03 11:02:28] INFO root fetch - main [MainThread]: End processing [stackdiac]: success
+[2023-07-03 11:02:28] INFO root fetch - processPackages [ExpoSeq]: Downloading https://files.pythonhosted.org/packages/87/be/95d0fa1f8598267a164601179303a99c7bbdb73f63e2d1aa401718121f9d/ExpoSeq-1.1.13.tar.gz
+[2023-07-03 11:02:28] INFO root fetch - processPackages [QuantumPathQSOAPySDK]: Downloading https://files.pythonhosted.org/packages/91/16/bc033953e72afde10944786450c9c0a82c1c44702164f708bac7671f1cc1/QuantumPathQSOAPySDK-1.5.8.tar.gz
+[2023-07-03 11:02:28] INFO root fetch - processPackages [mouse2]: Downloading https://files.pythonhosted.org/packages/38/4f/0f78a073a4cba3f2a488e767e2ad7e4de4de2f9a4993165d4e4cbecbc753/mouse2-0.2.9.tar.gz
+[2023-07-03 11:02:28] INFO root fetch - processPackages [vollseg-napari-trackmate]: Downloading https://files.pythonhosted.org/packages/7c/2b/8ffd622289754876f3ceee455b1f567711514af8440c005c2f0e21c0ae35/vollseg-napari-trackmate-2.2.4.tar.gz
+[2023-07-03 11:02:28] INFO root fetch - processPackages [QuantumPathQSOAPySDK]: executing diffoscope
+[2023-07-03 11:02:28] INFO root fetch - processPackages [QuantumPathQSOAPySDK]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/QuantumPathQSOAPySDK-1.5.7.tar.gz tmp/QuantumPathQSOAPySDK-1.5.8.tar.gz --markdown 20230703/Q/QuantumPathQSOAPySDK/1.5.7-1.5.8/diff.md --exclude *.pyd
+[2023-07-03 11:02:28] INFO root fetch - processPackages [mouse2]: executing diffoscope
+[2023-07-03 11:02:28] INFO root fetch - processPackages [mouse2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mouse2-0.2.8.tar.gz tmp/mouse2-0.2.9.tar.gz --markdown 20230703/m/mouse2/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-03 11:02:29] INFO root fetch - processPackages [ExpoSeq]: executing diffoscope
+[2023-07-03 11:02:29] INFO root fetch - processPackages [ExpoSeq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ExpoSeq-1.1.12.tar.gz tmp/ExpoSeq-1.1.13.tar.gz --markdown 20230703/E/ExpoSeq/1.1.12-1.1.13/diff.md --exclude *.pyd
+[2023-07-03 11:02:29] INFO root fetch - processPackages [vollseg-napari-trackmate]: executing diffoscope
+[2023-07-03 11:02:29] INFO root fetch - processPackages [vollseg-napari-trackmate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vollseg-napari-trackmate-2.2.3.tar.gz tmp/vollseg-napari-trackmate-2.2.4.tar.gz --markdown 20230703/v/vollseg-napari-trackmate/2.2.3-2.2.4/diff.md --exclude *.pyd
+[2023-07-03 11:02:29] INFO root fetch - processPackages [mouse2]: Remove: archive file [/home/abi/fetcher/tmp/mouse2-0.2.8.tar.gz]
+[2023-07-03 11:02:29] INFO root fetch - processPackages [mouse2]: Remove: archive file [/home/abi/fetcher/tmp/mouse2-0.2.9.tar.gz]
+[2023-07-03 11:02:29] INFO root fetch - main [MainThread]: End processing [mouse2]: success
+[2023-07-03 11:02:30] INFO root fetch - processPackages [QuantumPathQSOAPySDK]: Remove: archive file [/home/abi/fetcher/tmp/QuantumPathQSOAPySDK-1.5.7.tar.gz]
+[2023-07-03 11:02:30] INFO root fetch - processPackages [QuantumPathQSOAPySDK]: Remove: archive file [/home/abi/fetcher/tmp/QuantumPathQSOAPySDK-1.5.8.tar.gz]
+[2023-07-03 11:02:30] INFO root fetch - main [MainThread]: End processing [QuantumPathQSOAPySDK]: success
+[2023-07-03 11:02:30] INFO root fetch - processPackages [vollseg-napari-trackmate]: Remove: archive file [/home/abi/fetcher/tmp/vollseg-napari-trackmate-2.2.3.tar.gz]
+[2023-07-03 11:02:30] INFO root fetch - processPackages [vollseg-napari-trackmate]: Remove: archive file [/home/abi/fetcher/tmp/vollseg-napari-trackmate-2.2.4.tar.gz]
+[2023-07-03 11:02:30] INFO root fetch - main [MainThread]: End processing [vollseg-napari-trackmate]: success
+[2023-07-03 11:02:31] INFO root fetch - processPackages [ExpoSeq]: Remove: archive file [/home/abi/fetcher/tmp/ExpoSeq-1.1.12.tar.gz]
+[2023-07-03 11:02:31] INFO root fetch - processPackages [ExpoSeq]: Remove: archive file [/home/abi/fetcher/tmp/ExpoSeq-1.1.13.tar.gz]
+[2023-07-03 11:02:31] INFO root fetch - main [MainThread]: End processing [ExpoSeq]: success
+[2023-07-03 11:02:31] INFO root fetch - main [MainThread]: Store serial: [18736706]
