@@ -22054,3 +22054,156 @@ EOFError: EOF read where object expected
 [2023-07-03 16:50:07] INFO root fetch - processPackages [openmetadata-ingestion]: Remove: archive file [/home/abi/fetcher/tmp/openmetadata-ingestion-1.1.0.1.tar.gz]
 [2023-07-03 16:50:07] INFO root fetch - main [MainThread]: End processing [openmetadata-ingestion]: success
 [2023-07-03 16:50:07] INFO root fetch - main [MainThread]: Store serial: [18740896]
+[2023-07-03 16:55:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18740896]
+[2023-07-03 16:55:16] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-07-03 16:55:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mend-ignore-alerts
+[2023-07-03 16:55:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: oak9-tython
+[2023-07-03 16:55:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mappy-rs
+[2023-07-03 16:55:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: django-money
+[2023-07-03 16:55:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: liburlparser
+[2023-07-03 16:55:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: crtoolbox
+[2023-07-03 16:55:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pciSeq
+[2023-07-03 16:55:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: clickhouse-ddl
+[2023-07-03 16:55:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nir-bb-test
+[2023-07-03 16:55:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: histomicsui
+[2023-07-03 16:55:16] WARNING root fetch - processPackages [crtoolbox]: Skipping, unable to determine old version
+[2023-07-03 16:55:16] INFO root fetch - processPackages [crtoolbox]: Start processing: nb-log
+[2023-07-03 16:55:16] INFO root fetch - main [MainThread]: End processing [crtoolbox] error
+[2023-07-03 16:55:16] INFO root fetch - processPackages [liburlparser]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-07-03 16:55:16] INFO root fetch - processPackages [pciSeq]: New version: [0.0.55.dev0] Old Version: [0.0.55]
+[2023-07-03 16:55:16] INFO root fetch - processPackages [clickhouse-ddl]: New version: [1.0.4] Old Version: [1.0.2]
+[2023-07-03 16:55:17] INFO root fetch - processPackages [nb-log]: New version: [9.3] Old Version: [9.2]
+[2023-07-03 16:55:17] INFO root fetch - processPackages [oak9-tython]: New version: [1.0.9] Old Version: [1.0.8b7]
+[2023-07-03 16:55:17] INFO root fetch - processPackages [liburlparser]: Downloading https://files.pythonhosted.org/packages/d3/3b/6be7a529321d82edf55bd12077e4bea81bea8543aa6490f2b1bfba6a3979/liburlparser-0.1.0-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-03 16:55:17] INFO root fetch - processPackages [mappy-rs]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-03 16:55:17] INFO root fetch - processPackages [mend-ignore-alerts]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-07-03 16:55:17] INFO root fetch - processPackages [django-money]: New version: [3.2.0] Old Version: [3.1.0]
+[2023-07-03 16:55:17] WARNING root fetch - processPackages [nir-bb-test]: Skipping, unable to determine old version
+[2023-07-03 16:55:17] INFO root fetch - processPackages [nir-bb-test]: Start processing: aicli
+[2023-07-03 16:55:17] INFO root fetch - main [MainThread]: End processing [nir-bb-test] error
+[2023-07-03 16:55:17] INFO root fetch - processPackages [histomicsui]: New version: [1.4.5.dev8] Old Version: [1.4.5.dev6]
+[2023-07-03 16:55:17] INFO root fetch - processPackages [nb-log]: Downloading https://files.pythonhosted.org/packages/8d/06/06239b1153a62611031eab3fbda94362269ee1ff87117dd00f0f938c63b3/nb_log-9.2.tar.gz
+[2023-07-03 16:55:17] INFO root fetch - processPackages [aicli]: New version: [99.0.202307030637] Old Version: [99.0.202307021558]
+[2023-07-03 16:55:17] INFO root fetch - processPackages [pciSeq]: Downloading https://files.pythonhosted.org/packages/86/bd/65281832e853f90c2fd472ed6be582fa0c01c8639e1175cc8aa8c95a3a8b/pciSeq-0.0.55-py3-none-any.whl
+[2023-07-03 16:55:17] INFO root fetch - processPackages [clickhouse-ddl]: Downloading https://files.pythonhosted.org/packages/b7/40/6ad842b246afb60064faa282fa974566176908cb8272625c6a1de40c76cc/clickhouse_ddl-1.0.2-py3-none-any.whl
+[2023-07-03 16:55:17] INFO root fetch - processPackages [oak9-tython]: Downloading https://files.pythonhosted.org/packages/ba/65/090a681d43cebea093017988d6c5cb5d398c449f4d60c98c757f5c869175/oak9_tython-1.0.8b7.tar.gz
+[2023-07-03 16:55:17] INFO root fetch - processPackages [aicli]: Downloading https://files.pythonhosted.org/packages/e8/34/828b007f9d8a8e021d8d19c4f8d810fcb4a010ac8fbdf45e0fbf12e72533/aicli-99.0.202307021558-py3-none-any.whl
+[2023-07-03 16:55:17] INFO root fetch - processPackages [mappy-rs]: Downloading https://files.pythonhosted.org/packages/42/78/e39bc15172df5d6c5612d9c3a96554fbbb385bf533ff5f3a3d22af079208/mappy_rs-0.0.3.tar.gz
+[2023-07-03 16:55:17] INFO root fetch - processPackages [django-money]: Downloading https://files.pythonhosted.org/packages/70/5e/a059f5dae57d60b6ea157d489ae1de4c2e65f5290e24e1ac5189a82da15c/django-money-3.1.0.tar.gz
+[2023-07-03 16:55:17] INFO root fetch - processPackages [mend-ignore-alerts]: Downloading https://files.pythonhosted.org/packages/e6/57/98b403044500c5fdeae13008b65a80f1203e8d4b5aebeb7f30f17c2895a7/mend_ignore_alerts-0.2.4-py3-none-any.whl
+[2023-07-03 16:55:17] INFO root fetch - processPackages [histomicsui]: Downloading https://files.pythonhosted.org/packages/8c/ce/1c7cf6459291351ecd5b33cf30ebec144870bfbe9a97265a0e930e10e84b/histomicsui-1.4.5.dev6.tar.gz
+[2023-07-03 16:55:17] INFO root fetch - processPackages [liburlparser]: Downloading https://files.pythonhosted.org/packages/04/11/ac12c42606cf5a0b6e3c70ab66eb937a29033083801a30668f320a20083d/liburlparser-0.2.0-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-03 16:55:17] INFO root fetch - processPackages [pciSeq]: Downloading https://files.pythonhosted.org/packages/a8/d5/32be6a49692e65bd7dacbbf31f6e4516a0bd308fcecd541535e3c3c8e1ec/pciSeq-0.0.55.dev0-py3-none-any.whl
+[2023-07-03 16:55:17] INFO root fetch - processPackages [aicli]: Downloading https://files.pythonhosted.org/packages/94/ce/986ecdb7f10c7ef2c3de2a6815c8599d7ea127cb855047cf0d8328222851/aicli-99.0.202307030637-py3-none-any.whl
+[2023-07-03 16:55:17] INFO root fetch - processPackages [liburlparser]: executing diffoscope
+[2023-07-03 16:55:17] INFO root fetch - processPackages [liburlparser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/liburlparser-0.1.0-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/liburlparser-0.2.0-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230703/l/liburlparser/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-07-03 16:55:17] INFO root fetch - processPackages [clickhouse-ddl]: Downloading https://files.pythonhosted.org/packages/a0/f9/fd380b2031682ae6d9f631d9d42b975bdca6e3c500186c361eb06f38ba73/clickhouse_ddl-1.0.4.tar.gz
+[2023-07-03 16:55:17] INFO root fetch - processPackages [django-money]: Downloading https://files.pythonhosted.org/packages/b9/37/b8be18041ea77fcacf529ffdb4ce5a538663d2effdb48f4b5827b22cf324/django-money-3.2.0.tar.gz
+[2023-07-03 16:55:17] INFO root fetch - processPackages [mend-ignore-alerts]: Downloading https://files.pythonhosted.org/packages/2b/41/d107e7f5144429adb154e6bf41aaae922280a2a4dce91512b5b8f6997f44/mend_ignore_alerts-0.2.5-py3-none-any.whl
+[2023-07-03 16:55:17] INFO root fetch - processPackages [mappy-rs]: Downloading https://files.pythonhosted.org/packages/ae/fc/0d1777cb4572ad9f1356c647007151aa1a7a6761d5fd1ed9a1841333134c/mappy_rs-0.0.4.tar.gz
+[2023-07-03 16:55:17] INFO root fetch - processPackages [nb-log]: Downloading https://files.pythonhosted.org/packages/dd/84/3c80db5f40a9dde475e8ff523701da3952ce36ca4d3e2c30cdbdbcfdc711/nb_log-9.3.tar.gz
+[2023-07-03 16:55:17] INFO root fetch - processPackages [aicli]: executing diffoscope
+[2023-07-03 16:55:17] INFO root fetch - processPackages [aicli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aicli-99.0.202307021558-py3-none-any.whl.zip tmp/aicli-99.0.202307030637-py3-none-any.whl.zip --markdown 20230703/a/aicli/99.0.202307021558-99.0.202307030637/diff.md --exclude *.pyd
+[2023-07-03 16:55:17] INFO root fetch - processPackages [clickhouse-ddl]: executing diffoscope
+[2023-07-03 16:55:17] INFO root fetch - processPackages [clickhouse-ddl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clickhouse_ddl-1.0.2-py3-none-any.whl.zip tmp/clickhouse_ddl-1.0.4.tar.gz --markdown 20230703/c/clickhouse-ddl/1.0.2-1.0.4/diff.md --exclude *.pyd
+[2023-07-03 16:55:17] INFO root fetch - processPackages [pciSeq]: executing diffoscope
+[2023-07-03 16:55:17] INFO root fetch - processPackages [pciSeq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pciSeq-0.0.55-py3-none-any.whl.zip tmp/pciSeq-0.0.55.dev0-py3-none-any.whl.zip --markdown 20230703/p/pciSeq/0.0.55-0.0.55.dev0/diff.md --exclude *.pyd
+[2023-07-03 16:55:17] INFO root fetch - processPackages [histomicsui]: Downloading https://files.pythonhosted.org/packages/17/72/de0a91fc9076201360305cec6cd80a519e7117e3658a2bc0fda26c623a59/histomicsui-1.4.5.dev8.tar.gz
+[2023-07-03 16:55:18] INFO root fetch - processPackages [django-money]: executing diffoscope
+[2023-07-03 16:55:18] INFO root fetch - processPackages [django-money]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-money-3.1.0.tar.gz tmp/django-money-3.2.0.tar.gz --markdown 20230703/d/django-money/3.1.0-3.2.0/diff.md --exclude *.pyd
+[2023-07-03 16:55:18] INFO root fetch - processPackages [mappy-rs]: executing diffoscope
+[2023-07-03 16:55:18] INFO root fetch - processPackages [mappy-rs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mappy_rs-0.0.3.tar.gz tmp/mappy_rs-0.0.4.tar.gz --markdown 20230703/m/mappy-rs/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-03 16:55:18] INFO root fetch - processPackages [nb-log]: executing diffoscope
+[2023-07-03 16:55:18] INFO root fetch - processPackages [nb-log]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nb_log-9.2.tar.gz tmp/nb_log-9.3.tar.gz --markdown 20230703/n/nb-log/9.2-9.3/diff.md --exclude *.pyd
+[2023-07-03 16:55:18] INFO root fetch - processPackages [mend-ignore-alerts]: executing diffoscope
+[2023-07-03 16:55:18] INFO root fetch - processPackages [mend-ignore-alerts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mend_ignore_alerts-0.2.4-py3-none-any.whl.zip tmp/mend_ignore_alerts-0.2.5-py3-none-any.whl.zip --markdown 20230703/m/mend-ignore-alerts/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-07-03 16:55:18] INFO root fetch - processPackages [histomicsui]: executing diffoscope
+[2023-07-03 16:55:18] INFO root fetch - processPackages [histomicsui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/histomicsui-1.4.5.dev6.tar.gz tmp/histomicsui-1.4.5.dev8.tar.gz --markdown 20230703/h/histomicsui/1.4.5.dev6-1.4.5.dev8/diff.md --exclude *.pyd
+[2023-07-03 16:55:18] INFO root fetch - processPackages [oak9-tython]: Downloading https://files.pythonhosted.org/packages/af/36/8f01395527a0cc965e848898ade0281cc26d08ab3928486ce9d1e1aee26b/oak9_tython-1.0.9.tar.gz
+[2023-07-03 16:55:19] INFO root fetch - processPackages [clickhouse-ddl]: Remove: archive file [/home/abi/fetcher/tmp/clickhouse_ddl-1.0.2-py3-none-any.whl.zip]
+[2023-07-03 16:55:19] INFO root fetch - processPackages [clickhouse-ddl]: Remove: archive file [/home/abi/fetcher/tmp/clickhouse_ddl-1.0.4.tar.gz]
+[2023-07-03 16:55:19] INFO root fetch - processPackages [clickhouse-ddl]: Start processing: scw-gateway
+[2023-07-03 16:55:19] INFO root fetch - main [MainThread]: End processing [clickhouse-ddl]: success
+[2023-07-03 16:55:19] INFO root fetch - processPackages [oak9-tython]: executing diffoscope
+[2023-07-03 16:55:19] INFO root fetch - processPackages [oak9-tython]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oak9_tython-1.0.8b7.tar.gz tmp/oak9_tython-1.0.9.tar.gz --markdown 20230703/o/oak9-tython/1.0.8b7-1.0.9/diff.md --exclude *.pyd
+[2023-07-03 16:55:19] INFO root fetch - processPackages [scw-gateway]: New version: [0.4.0] Old Version: [0.3.1]
+[2023-07-03 16:55:19] INFO root fetch - processPackages [aicli]: Remove: archive file [/home/abi/fetcher/tmp/aicli-99.0.202307021558-py3-none-any.whl.zip]
+[2023-07-03 16:55:19] INFO root fetch - processPackages [aicli]: Remove: archive file [/home/abi/fetcher/tmp/aicli-99.0.202307030637-py3-none-any.whl.zip]
+[2023-07-03 16:55:19] INFO root fetch - processPackages [aicli]: Start processing: Tailbone
+[2023-07-03 16:55:19] INFO root fetch - main [MainThread]: End processing [aicli]: success
+[2023-07-03 16:55:19] INFO root fetch - processPackages [mend-ignore-alerts]: Remove: archive file [/home/abi/fetcher/tmp/mend_ignore_alerts-0.2.4-py3-none-any.whl.zip]
+[2023-07-03 16:55:19] INFO root fetch - processPackages [mend-ignore-alerts]: Remove: archive file [/home/abi/fetcher/tmp/mend_ignore_alerts-0.2.5-py3-none-any.whl.zip]
+[2023-07-03 16:55:19] INFO root fetch - processPackages [mend-ignore-alerts]: Start processing: drive-ibd
+[2023-07-03 16:55:19] INFO root fetch - main [MainThread]: End processing [mend-ignore-alerts]: success
+[2023-07-03 16:55:20] INFO root fetch - processPackages [scw-gateway]: Downloading https://files.pythonhosted.org/packages/4f/27/96f6fdd6deadebe970ecdfcb9cb54a048c5d6425499062ffa39c8632b367/scw_gateway-0.3.1.tar.gz
+[2023-07-03 16:55:20] INFO root fetch - processPackages [drive-ibd]: New version: [2.0.5] Old Version: [2.0.4]
+[2023-07-03 16:55:20] INFO root fetch - processPackages [Tailbone]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-03 16:55:20] INFO root fetch - processPackages [django-money]: Remove: archive file [/home/abi/fetcher/tmp/django-money-3.1.0.tar.gz]
+[2023-07-03 16:55:20] INFO root fetch - processPackages [django-money]: Remove: archive file [/home/abi/fetcher/tmp/django-money-3.2.0.tar.gz]
+[2023-07-03 16:55:20] INFO root fetch - processPackages [django-money]: Start processing: kcli
+[2023-07-03 16:55:20] INFO root fetch - main [MainThread]: End processing [django-money]: success
+[2023-07-03 16:55:20] INFO root fetch - processPackages [nb-log]: Remove: archive file [/home/abi/fetcher/tmp/nb_log-9.2.tar.gz]
+[2023-07-03 16:55:20] INFO root fetch - processPackages [nb-log]: Remove: archive file [/home/abi/fetcher/tmp/nb_log-9.3.tar.gz]
+[2023-07-03 16:55:20] INFO root fetch - processPackages [nb-log]: Start processing: hcloud
+[2023-07-03 16:55:20] INFO root fetch - main [MainThread]: End processing [nb-log]: success
+[2023-07-03 16:55:20] INFO root fetch - processPackages [mappy-rs]: Remove: archive file [/home/abi/fetcher/tmp/mappy_rs-0.0.3.tar.gz]
+[2023-07-03 16:55:20] INFO root fetch - processPackages [mappy-rs]: Remove: archive file [/home/abi/fetcher/tmp/mappy_rs-0.0.4.tar.gz]
+[2023-07-03 16:55:20] INFO root fetch - processPackages [mappy-rs]: Start processing: tdp-core
+[2023-07-03 16:55:20] INFO root fetch - main [MainThread]: End processing [mappy-rs]: success
+[2023-07-03 16:55:20] INFO root fetch - processPackages [drive-ibd]: Downloading https://files.pythonhosted.org/packages/75/9a/0f2a3ffe5585809b0de97dbf4d1fd653625af6b722dc9edea406bcbe85e1/drive_ibd-2.0.4.tar.gz
+[2023-07-03 16:55:20] INFO root fetch - processPackages [kcli]: New version: [99.0.202307030640] Old Version: [99.0.202307012127]
+[2023-07-03 16:55:20] INFO root fetch - processPackages [hcloud]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-07-03 16:55:20] INFO root fetch - processPackages [pciSeq]: Remove: archive file [/home/abi/fetcher/tmp/pciSeq-0.0.55-py3-none-any.whl.zip]
+[2023-07-03 16:55:20] INFO root fetch - processPackages [pciSeq]: Remove: archive file [/home/abi/fetcher/tmp/pciSeq-0.0.55.dev0-py3-none-any.whl.zip]
+[2023-07-03 16:55:20] INFO root fetch - main [MainThread]: End processing [pciSeq]: success
+[2023-07-03 16:55:20] INFO root fetch - processPackages [Tailbone]: Downloading https://files.pythonhosted.org/packages/50/6f/b63e04f1e618b1f4d976e29b2185f60ed7b310a1fc1dfe6f8ae2a503598a/Tailbone-0.9.8.tar.gz
+[2023-07-03 16:55:20] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/98/b1/72297bce736b942de7971c207fb584643089eff196137bd924392f130722/kcli-99.0.202307012127-py3-none-any.whl
+[2023-07-03 16:55:20] INFO root fetch - processPackages [tdp-core]: New version: [9.0.0] Old Version: [20.0.1]
+[2023-07-03 16:55:20] INFO root fetch - processPackages [scw-gateway]: Downloading https://files.pythonhosted.org/packages/f6/72/fa80d78afaf7bf0b2f83fb3f2579ff55f0c3d1014642a429aec633190503/scw_gateway-0.4.0.tar.gz
+[2023-07-03 16:55:20] INFO root fetch - processPackages [drive-ibd]: Downloading https://files.pythonhosted.org/packages/c1/af/1b43a4b517eb4a8f47fb7204907769d11f21e240689df77581b515345ba0/drive_ibd-2.0.5.tar.gz
+[2023-07-03 16:55:20] INFO root fetch - processPackages [liburlparser]: Remove: archive file [/home/abi/fetcher/tmp/liburlparser-0.1.0-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-03 16:55:20] INFO root fetch - processPackages [liburlparser]: Remove: archive file [/home/abi/fetcher/tmp/liburlparser-0.2.0-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-03 16:55:20] INFO root fetch - main [MainThread]: End processing [liburlparser]: success
+[2023-07-03 16:55:20] INFO root fetch - processPackages [hcloud]: Downloading https://files.pythonhosted.org/packages/75/ae/3377e93b699a5a13d41b1da469eadc345a199ceebf95e75d000414478955/hcloud-1.9.0.tar.gz
+[2023-07-03 16:55:20] INFO root fetch - processPackages [scw-gateway]: executing diffoscope
+[2023-07-03 16:55:20] INFO root fetch - processPackages [scw-gateway]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scw_gateway-0.3.1.tar.gz tmp/scw_gateway-0.4.0.tar.gz --markdown 20230703/s/scw-gateway/0.3.1-0.4.0/diff.md --exclude *.pyd
+[2023-07-03 16:55:20] INFO root fetch - processPackages [tdp-core]: Downloading https://files.pythonhosted.org/packages/25/64/e1db7ceacf4c53b3fec55477466a4df99f3e062e16edc99eac292dc7d4fe/tdp_core-20.0.1-py3-none-any.whl
+[2023-07-03 16:55:20] INFO root fetch - processPackages [drive-ibd]: executing diffoscope
+[2023-07-03 16:55:20] INFO root fetch - processPackages [drive-ibd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drive_ibd-2.0.4.tar.gz tmp/drive_ibd-2.0.5.tar.gz --markdown 20230703/d/drive-ibd/2.0.4-2.0.5/diff.md --exclude *.pyd
+[2023-07-03 16:55:20] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/55/a7/6b5151788381710ac1e30abb472b91b5ae204303853a32c1a37915d8f4fc/kcli-99.0.202307030640-py3-none-any.whl
+[2023-07-03 16:55:20] INFO root fetch - processPackages [Tailbone]: Downloading https://files.pythonhosted.org/packages/d0/d1/c2f74adc6b3442dc7514c806d0eb884cf730fe17792970c620291f5a53a0/Tailbone-0.9.9.tar.gz
+[2023-07-03 16:55:20] INFO root fetch - processPackages [histomicsui]: Remove: archive file [/home/abi/fetcher/tmp/histomicsui-1.4.5.dev6.tar.gz]
+[2023-07-03 16:55:20] INFO root fetch - processPackages [histomicsui]: Remove: archive file [/home/abi/fetcher/tmp/histomicsui-1.4.5.dev8.tar.gz]
+[2023-07-03 16:55:20] INFO root fetch - main [MainThread]: End processing [histomicsui]: success
+[2023-07-03 16:55:21] INFO root fetch - processPackages [hcloud]: Downloading https://files.pythonhosted.org/packages/57/06/ffb83beaa4a583e87937570492b0fa3ee49120b1617e90ec90aa3801054e/hcloud-1.9.1.tar.gz
+[2023-07-03 16:55:21] INFO root fetch - processPackages [Tailbone]: executing diffoscope
+[2023-07-03 16:55:21] INFO root fetch - processPackages [Tailbone]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Tailbone-0.9.8.tar.gz tmp/Tailbone-0.9.9.tar.gz --markdown 20230703/T/Tailbone/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-03 16:55:21] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2023-07-03 16:55:21] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202307012127-py3-none-any.whl.zip tmp/kcli-99.0.202307030640-py3-none-any.whl.zip --markdown 20230703/k/kcli/99.0.202307012127-99.0.202307030640/diff.md --exclude *.pyd
+[2023-07-03 16:55:21] INFO root fetch - processPackages [tdp-core]: Downloading https://files.pythonhosted.org/packages/1d/cf/bc4f8ac5c2a64d009a93ca460d99b8b9dc0cf4ab4fcd8a118815d76ea717/tdp_core-9.0.0.tar.gz
+[2023-07-03 16:55:21] INFO root fetch - processPackages [hcloud]: executing diffoscope
+[2023-07-03 16:55:21] INFO root fetch - processPackages [hcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hcloud-1.9.0.tar.gz tmp/hcloud-1.9.1.tar.gz --markdown 20230703/h/hcloud/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-07-03 16:55:21] INFO root fetch - processPackages [tdp-core]: executing diffoscope
+[2023-07-03 16:55:21] INFO root fetch - processPackages [tdp-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tdp_core-20.0.1-py3-none-any.whl.zip tmp/tdp_core-9.0.0.tar.gz --markdown 20230703/t/tdp-core/20.0.1-9.0.0/diff.md --exclude *.pyd
+[2023-07-03 16:55:21] INFO root fetch - processPackages [scw-gateway]: Remove: archive file [/home/abi/fetcher/tmp/scw_gateway-0.3.1.tar.gz]
+[2023-07-03 16:55:21] INFO root fetch - processPackages [scw-gateway]: Remove: archive file [/home/abi/fetcher/tmp/scw_gateway-0.4.0.tar.gz]
+[2023-07-03 16:55:21] INFO root fetch - main [MainThread]: End processing [scw-gateway]: success
+[2023-07-03 16:55:22] INFO root fetch - processPackages [drive-ibd]: Remove: archive file [/home/abi/fetcher/tmp/drive_ibd-2.0.4.tar.gz]
+[2023-07-03 16:55:22] INFO root fetch - processPackages [drive-ibd]: Remove: archive file [/home/abi/fetcher/tmp/drive_ibd-2.0.5.tar.gz]
+[2023-07-03 16:55:22] INFO root fetch - main [MainThread]: End processing [drive-ibd]: success
+[2023-07-03 16:55:22] INFO root fetch - processPackages [tdp-core]: Remove: archive file [/home/abi/fetcher/tmp/tdp_core-20.0.1-py3-none-any.whl.zip]
+[2023-07-03 16:55:22] INFO root fetch - processPackages [tdp-core]: Remove: archive file [/home/abi/fetcher/tmp/tdp_core-9.0.0.tar.gz]
+[2023-07-03 16:55:22] INFO root fetch - main [MainThread]: End processing [tdp-core]: success
+[2023-07-03 16:55:22] INFO root fetch - processPackages [hcloud]: Remove: archive file [/home/abi/fetcher/tmp/hcloud-1.9.0.tar.gz]
+[2023-07-03 16:55:22] INFO root fetch - processPackages [hcloud]: Remove: archive file [/home/abi/fetcher/tmp/hcloud-1.9.1.tar.gz]
+[2023-07-03 16:55:22] INFO root fetch - main [MainThread]: End processing [hcloud]: success
+[2023-07-03 16:55:24] INFO root fetch - processPackages [Tailbone]: Remove: archive file [/home/abi/fetcher/tmp/Tailbone-0.9.8.tar.gz]
+[2023-07-03 16:55:24] INFO root fetch - processPackages [Tailbone]: Remove: archive file [/home/abi/fetcher/tmp/Tailbone-0.9.9.tar.gz]
+[2023-07-03 16:55:24] INFO root fetch - main [MainThread]: End processing [Tailbone]: success
+[2023-07-03 16:55:25] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202307012127-py3-none-any.whl.zip]
+[2023-07-03 16:55:25] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202307030640-py3-none-any.whl.zip]
+[2023-07-03 16:55:25] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2023-07-03 16:55:27] INFO root fetch - processPackages [oak9-tython]: Remove: archive file [/home/abi/fetcher/tmp/oak9_tython-1.0.8b7.tar.gz]
+[2023-07-03 16:55:27] INFO root fetch - processPackages [oak9-tython]: Remove: archive file [/home/abi/fetcher/tmp/oak9_tython-1.0.9.tar.gz]
+[2023-07-03 16:55:27] INFO root fetch - main [MainThread]: End processing [oak9-tython]: success
+[2023-07-03 16:55:27] INFO root fetch - main [MainThread]: Store serial: [18740966]
