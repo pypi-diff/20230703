@@ -7283,3 +7283,94 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-03 06:58:30] INFO root fetch - processPackages [bo4e]: Remove: archive file [/home/abi/fetcher/tmp/bo4e-0.4.8.tar.gz]
 [2023-07-03 06:58:30] INFO root fetch - main [MainThread]: End processing [bo4e]: success
 [2023-07-03 06:58:30] INFO root fetch - main [MainThread]: Store serial: [18734771]
+[2023-07-03 07:03:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18734771]
+[2023-07-03 07:03:39] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-03 07:03:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: line-bot-sdk
+[2023-07-03 07:03:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nqnq
+[2023-07-03 07:03:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gsoup
+[2023-07-03 07:03:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Flox-lib
+[2023-07-03 07:03:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: FeishuBitableAPI
+[2023-07-03 07:03:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addon-auth-signup-verify-email
+[2023-07-03 07:03:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo-addon-auth-user-case-insensitive
+[2023-07-03 07:03:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo-addons-oca-server-auth
+[2023-07-03 07:03:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo-addons-oca-server-auth
+[2023-07-03 07:03:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: bomf
+[2023-07-03 07:03:39] INFO root fetch - processPackages [FeishuBitableAPI]: New version: [3.1.0] Old Version: [3.0.5]
+[2023-07-03 07:03:39] INFO root fetch - processPackages [odoo-addon-auth-user-case-insensitive]: New version: [16.0.1.0.0.2] Old Version: [15.0.1.0.0.2]
+[2023-07-03 07:03:39] INFO root fetch - processPackages [bomf]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-07-03 07:03:39] INFO root fetch - processPackages [odoo-addon-auth-signup-verify-email]: New version: [16.0.1.0.0.3] Old Version: [15.0.1.0.0.3]
+[2023-07-03 07:03:39] INFO root fetch - processPackages [odoo-addon-auth-user-case-insensitive]: Downloading https://files.pythonhosted.org/packages/3c/ae/50ea48fb6d3258e397ff9d748818605b0340c397eeea793df2733162763b/odoo_addon_auth_user_case_insensitive-15.0.1.0.0.2-py3-none-any.whl
+[2023-07-03 07:03:39] INFO root fetch - processPackages [bomf]: Downloading https://files.pythonhosted.org/packages/51/b6/25153b89a576330819de09d7b17b82e630e25561e1a0409e28222f0762c0/bomf-0.5.8.tar.gz
+[2023-07-03 07:03:39] INFO root fetch - processPackages [FeishuBitableAPI]: Downloading https://files.pythonhosted.org/packages/3b/33/a7381a4d9fe565b31cb3a1d2dd43b6b3b19efdd67209d3f4f5afa0fd69c5/FeishuBitableAPI-3.0.5.tar.gz
+[2023-07-03 07:03:39] INFO root fetch - processPackages [odoo-addon-auth-signup-verify-email]: Downloading https://files.pythonhosted.org/packages/ab/b7/d63b6d4ddee47b48fa27a54ba3562e0e98d65d011cb44d33a7e511e72726/odoo_addon_auth_signup_verify_email-15.0.1.0.0.3-py3-none-any.whl
+[2023-07-03 07:03:39] INFO root fetch - processPackages [nqnq]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-03 07:03:39] INFO root fetch - processPackages [odoo-addons-oca-server-auth]: New version: [16.0.20230702.2] Old Version: [16.0.20230607.0]
+[2023-07-03 07:03:39] INFO root fetch - processPackages [odoo-addons-oca-server-auth]: New version: [16.0.20230702.2] Old Version: [16.0.20230607.0]
+[2023-07-03 07:03:39] INFO root fetch - processPackages [gsoup]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-03 07:03:39] INFO root fetch - processPackages [line-bot-sdk]: New version: [3.0.2] Old Version: [2.4.3]
+[2023-07-03 07:03:39] INFO root fetch - processPackages [Flox-lib]: New version: [0.9.9] Old Version: [0.9.11]
+[2023-07-03 07:03:39] INFO root fetch - processPackages [odoo-addon-auth-user-case-insensitive]: Downloading https://files.pythonhosted.org/packages/dc/a2/aa3784a967721cd1a683a1f333fc92b92759d09a47e5cf393b12ac60b97c/odoo_addon_auth_user_case_insensitive-16.0.1.0.0.2-py3-none-any.whl
+[2023-07-03 07:03:39] INFO root fetch - processPackages [bomf]: Downloading https://files.pythonhosted.org/packages/16/be/16bc25047fb820c20f7687e28b62420be850043ae7a391d2cfca5675082d/bomf-0.5.9.tar.gz
+[2023-07-03 07:03:39] INFO root fetch - processPackages [odoo-addon-auth-signup-verify-email]: Downloading https://files.pythonhosted.org/packages/31/3e/1f37bdb930dac13a4043f9938968d0e8ef7547b6bd8f55db78ba119749d6/odoo_addon_auth_signup_verify_email-16.0.1.0.0.3-py3-none-any.whl
+[2023-07-03 07:03:39] INFO root fetch - processPackages [odoo-addon-auth-user-case-insensitive]: executing diffoscope
+[2023-07-03 07:03:39] INFO root fetch - processPackages [odoo-addon-auth-user-case-insensitive]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_auth_user_case_insensitive-15.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_auth_user_case_insensitive-16.0.1.0.0.2-py3-none-any.whl.zip --markdown 20230703/o/odoo-addon-auth-user-case-insensitive/15.0.1.0.0.2-16.0.1.0.0.2/diff.md --exclude *.pyd
+[2023-07-03 07:03:39] INFO root fetch - processPackages [bomf]: executing diffoscope
+[2023-07-03 07:03:39] INFO root fetch - processPackages [bomf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bomf-0.5.8.tar.gz tmp/bomf-0.5.9.tar.gz --markdown 20230703/b/bomf/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-07-03 07:03:39] INFO root fetch - processPackages [FeishuBitableAPI]: Downloading https://files.pythonhosted.org/packages/60/46/5fb0db49a2d5e527dd0b5260fcf529f5f5d32ca94ce17110f68db5915bbc/FeishuBitableAPI-3.1.0.tar.gz
+[2023-07-03 07:03:39] INFO root fetch - processPackages [odoo-addon-auth-signup-verify-email]: executing diffoscope
+[2023-07-03 07:03:39] INFO root fetch - processPackages [odoo-addon-auth-signup-verify-email]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_auth_signup_verify_email-15.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_auth_signup_verify_email-16.0.1.0.0.3-py3-none-any.whl.zip --markdown 20230703/o/odoo-addon-auth-signup-verify-email/15.0.1.0.0.3-16.0.1.0.0.3/diff.md --exclude *.pyd
+[2023-07-03 07:03:39] INFO root fetch - processPackages [gsoup]: Downloading https://files.pythonhosted.org/packages/fe/9b/153b9913a4b567dd9c8edbb5268c5f168d4c0e71be7650cc2e24097fe2ee/gsoup-0.0.8.tar.gz
+[2023-07-03 07:03:39] INFO root fetch - processPackages [line-bot-sdk]: Downloading https://files.pythonhosted.org/packages/7c/9e/e991b4f9b0deffe079a70c5c444533a32a2b68220d02307ba997bc9f3af2/line-bot-sdk-2.4.3.tar.gz
+[2023-07-03 07:03:39] INFO root fetch - processPackages [nqnq]: Downloading https://files.pythonhosted.org/packages/98/89/8f0f5a0e0e2cafa34616101ab01efa94c07ba1c271d3a13a9fd856a64d01/nqnq-0.1.8.tar.gz
+[2023-07-03 07:03:39] INFO root fetch - processPackages [odoo-addons-oca-server-auth]: Downloading https://files.pythonhosted.org/packages/20/be/59bee94db410af5f365f8804f210f316abd2119bf17dc24ca53d80f106d2/odoo_addons_oca_server_auth-16.0.20230607.0-py3-none-any.whl
+[2023-07-03 07:03:39] INFO root fetch - processPackages [odoo-addons-oca-server-auth]: Downloading https://files.pythonhosted.org/packages/20/be/59bee94db410af5f365f8804f210f316abd2119bf17dc24ca53d80f106d2/odoo_addons_oca_server_auth-16.0.20230607.0-py3-none-any.whl
+[2023-07-03 07:03:39] INFO root fetch - processPackages [Flox-lib]: Downloading https://files.pythonhosted.org/packages/96/74/28733f2dd4655d7935f3d24869091296a3116c489a6489da90de5d3d16d3/Flox-lib-0.9.11.tar.gz
+[2023-07-03 07:03:39] INFO root fetch - processPackages [FeishuBitableAPI]: executing diffoscope
+[2023-07-03 07:03:39] INFO root fetch - processPackages [FeishuBitableAPI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FeishuBitableAPI-3.0.5.tar.gz tmp/FeishuBitableAPI-3.1.0.tar.gz --markdown 20230703/F/FeishuBitableAPI/3.0.5-3.1.0/diff.md --exclude *.pyd
+[2023-07-03 07:03:40] INFO root fetch - processPackages [gsoup]: Downloading https://files.pythonhosted.org/packages/ab/33/9007a7b5227ef7142666eeff93d37cce2f5cc5d1032cbf8c1a1174af84f8/gsoup-0.0.9.tar.gz
+[2023-07-03 07:03:40] INFO root fetch - processPackages [odoo-addons-oca-server-auth]: Downloading https://files.pythonhosted.org/packages/e5/2c/f1253e9866cea3e80b0ef80bea191f0462304af4cf749038078529716906/odoo_addons_oca_server_auth-16.0.20230702.2-py3-none-any.whl
+[2023-07-03 07:03:40] INFO root fetch - processPackages [odoo-addons-oca-server-auth]: Downloading https://files.pythonhosted.org/packages/e5/2c/f1253e9866cea3e80b0ef80bea191f0462304af4cf749038078529716906/odoo_addons_oca_server_auth-16.0.20230702.2-py3-none-any.whl
+[2023-07-03 07:03:40] INFO root fetch - processPackages [line-bot-sdk]: Downloading https://files.pythonhosted.org/packages/a1/16/6247aede5d54d0a76190e520115227ca5593877a719e152b0bc82b625087/line-bot-sdk-3.0.2.tar.gz
+[2023-07-03 07:03:40] INFO root fetch - processPackages [nqnq]: Downloading https://files.pythonhosted.org/packages/c9/e4/727379fefccbaf375b33400f285ad2659e126dffbbab841fb68add5fbf03/nqnq-0.1.9.tar.gz
+[2023-07-03 07:03:40] INFO root fetch - processPackages [gsoup]: executing diffoscope
+[2023-07-03 07:03:40] INFO root fetch - processPackages [gsoup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gsoup-0.0.8.tar.gz tmp/gsoup-0.0.9.tar.gz --markdown 20230703/g/gsoup/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-03 07:03:40] INFO root fetch - processPackages [Flox-lib]: Downloading https://files.pythonhosted.org/packages/64/81/b26236c6b9e58c0426b9977926e404e13baf3353eb1be38ac21607b91fca/Flox-lib-0.9.9.tar.gz
+[2023-07-03 07:03:40] INFO root fetch - processPackages [odoo-addons-oca-server-auth]: executing diffoscope
+[2023-07-03 07:03:40] INFO root fetch - processPackages [odoo-addons-oca-server-auth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_server_auth-16.0.20230607.0-py3-none-any.whl.zip tmp/odoo_addons_oca_server_auth-16.0.20230702.2-py3-none-any.whl.zip --markdown 20230703/o/odoo-addons-oca-server-auth/16.0.20230607.0-16.0.20230702.2/diff.md --exclude *.pyd
+[2023-07-03 07:03:40] INFO root fetch - processPackages [odoo-addons-oca-server-auth]: executing diffoscope
+[2023-07-03 07:03:40] INFO root fetch - processPackages [odoo-addons-oca-server-auth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_server_auth-16.0.20230607.0-py3-none-any.whl.zip tmp/odoo_addons_oca_server_auth-16.0.20230702.2-py3-none-any.whl.zip --markdown 20230703/o/odoo-addons-oca-server-auth/16.0.20230607.0-16.0.20230702.2/diff.md --exclude *.pyd
+[2023-07-03 07:03:40] INFO root fetch - processPackages [line-bot-sdk]: executing diffoscope
+[2023-07-03 07:03:40] INFO root fetch - processPackages [line-bot-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/line-bot-sdk-2.4.3.tar.gz tmp/line-bot-sdk-3.0.2.tar.gz --markdown 20230703/l/line-bot-sdk/2.4.3-3.0.2/diff.md --exclude *.pyd
+[2023-07-03 07:03:40] INFO root fetch - processPackages [nqnq]: executing diffoscope
+[2023-07-03 07:03:40] INFO root fetch - processPackages [nqnq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nqnq-0.1.8.tar.gz tmp/nqnq-0.1.9.tar.gz --markdown 20230703/n/nqnq/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-03 07:03:40] INFO root fetch - processPackages [Flox-lib]: executing diffoscope
+[2023-07-03 07:03:40] INFO root fetch - processPackages [Flox-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Flox-lib-0.9.11.tar.gz tmp/Flox-lib-0.9.9.tar.gz --markdown 20230703/F/Flox-lib/0.9.11-0.9.9/diff.md --exclude *.pyd
+[2023-07-03 07:03:41] INFO root fetch - processPackages [FeishuBitableAPI]: Remove: archive file [/home/abi/fetcher/tmp/FeishuBitableAPI-3.0.5.tar.gz]
+[2023-07-03 07:03:41] INFO root fetch - processPackages [FeishuBitableAPI]: Remove: archive file [/home/abi/fetcher/tmp/FeishuBitableAPI-3.1.0.tar.gz]
+[2023-07-03 07:03:41] INFO root fetch - main [MainThread]: End processing [FeishuBitableAPI]: success
+[2023-07-03 07:03:41] INFO root fetch - processPackages [odoo-addon-auth-signup-verify-email]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_auth_signup_verify_email-15.0.1.0.0.3-py3-none-any.whl.zip]
+[2023-07-03 07:03:41] INFO root fetch - processPackages [odoo-addon-auth-signup-verify-email]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_auth_signup_verify_email-16.0.1.0.0.3-py3-none-any.whl.zip]
+[2023-07-03 07:03:41] INFO root fetch - main [MainThread]: End processing [odoo-addon-auth-signup-verify-email]: success
+[2023-07-03 07:03:41] INFO root fetch - processPackages [odoo-addon-auth-user-case-insensitive]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_auth_user_case_insensitive-15.0.1.0.0.2-py3-none-any.whl.zip]
+[2023-07-03 07:03:41] INFO root fetch - processPackages [odoo-addon-auth-user-case-insensitive]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_auth_user_case_insensitive-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2023-07-03 07:03:41] INFO root fetch - main [MainThread]: End processing [odoo-addon-auth-user-case-insensitive]: success
+[2023-07-03 07:03:41] INFO root fetch - processPackages [odoo-addons-oca-server-auth]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_server_auth-16.0.20230607.0-py3-none-any.whl.zip]
+[2023-07-03 07:03:41] INFO root fetch - processPackages [odoo-addons-oca-server-auth]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_server_auth-16.0.20230702.2-py3-none-any.whl.zip]
+[2023-07-03 07:03:41] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-server-auth]: success
+[2023-07-03 07:03:41] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-server-auth]: success
+[2023-07-03 07:03:41] INFO root fetch - processPackages [Flox-lib]: Remove: archive file [/home/abi/fetcher/tmp/Flox-lib-0.9.11.tar.gz]
+[2023-07-03 07:03:41] INFO root fetch - processPackages [Flox-lib]: Remove: archive file [/home/abi/fetcher/tmp/Flox-lib-0.9.9.tar.gz]
+[2023-07-03 07:03:41] INFO root fetch - main [MainThread]: End processing [Flox-lib]: success
+[2023-07-03 07:03:42] INFO root fetch - processPackages [nqnq]: Remove: archive file [/home/abi/fetcher/tmp/nqnq-0.1.8.tar.gz]
+[2023-07-03 07:03:42] INFO root fetch - processPackages [nqnq]: Remove: archive file [/home/abi/fetcher/tmp/nqnq-0.1.9.tar.gz]
+[2023-07-03 07:03:42] INFO root fetch - main [MainThread]: End processing [nqnq]: success
+[2023-07-03 07:03:42] INFO root fetch - processPackages [gsoup]: Remove: archive file [/home/abi/fetcher/tmp/gsoup-0.0.8.tar.gz]
+[2023-07-03 07:03:42] INFO root fetch - processPackages [gsoup]: Remove: archive file [/home/abi/fetcher/tmp/gsoup-0.0.9.tar.gz]
+[2023-07-03 07:03:42] INFO root fetch - main [MainThread]: End processing [gsoup]: success
+[2023-07-03 07:03:42] INFO root fetch - processPackages [bomf]: Remove: archive file [/home/abi/fetcher/tmp/bomf-0.5.8.tar.gz]
+[2023-07-03 07:03:42] INFO root fetch - processPackages [bomf]: Remove: archive file [/home/abi/fetcher/tmp/bomf-0.5.9.tar.gz]
+[2023-07-03 07:03:42] INFO root fetch - main [MainThread]: End processing [bomf]: success
+[2023-07-03 07:03:42] INFO root fetch - processPackages [line-bot-sdk]: Remove: archive file [/home/abi/fetcher/tmp/line-bot-sdk-2.4.3.tar.gz]
+[2023-07-03 07:03:42] INFO root fetch - processPackages [line-bot-sdk]: Remove: archive file [/home/abi/fetcher/tmp/line-bot-sdk-3.0.2.tar.gz]
+[2023-07-03 07:03:42] INFO root fetch - main [MainThread]: End processing [line-bot-sdk]: success
+[2023-07-03 07:03:42] INFO root fetch - main [MainThread]: Store serial: [18734797]
