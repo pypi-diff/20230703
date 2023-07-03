@@ -13113,3 +13113,245 @@ AssertionError: tmp/discord-ansi-0.3.tar.gz does not exist
 [2023-07-03 11:50:04] INFO root fetch - processPackages [demisto-sdk]: Remove: archive file [/home/abi/fetcher/tmp/demisto_sdk-1.9.0.tar.gz]
 [2023-07-03 11:50:04] INFO root fetch - main [MainThread]: End processing [demisto-sdk]: success
 [2023-07-03 11:50:04] INFO root fetch - main [MainThread]: Store serial: [18737178]
+[2023-07-03 11:55:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18737178]
+[2023-07-03 11:55:13] INFO root fetch - main [MainThread]: Found 27 changed packages
+[2023-07-03 11:55:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: qxxkey
+[2023-07-03 11:55:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bili-uas
+[2023-07-03 11:55:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nanoCEM
+[2023-07-03 11:55:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: funfluid
+[2023-07-03 11:55:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fullask-rest-framework
+[2023-07-03 11:55:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: frontengine
+[2023-07-03 11:55:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: kedro-datasets
+[2023-07-03 11:55:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: lokzzpylib
+[2023-07-03 11:55:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: funfluid
+[2023-07-03 11:55:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: nanoCEM
+[2023-07-03 11:55:13] INFO root fetch - processPackages [nanoCEM]: New version: [0.0.1.1] Old Version: [0.0.1]
+[2023-07-03 11:55:13] INFO root fetch - processPackages [kedro-datasets]: New version: [1.4.2] Old Version: [1.4.1]
+[2023-07-03 11:55:13] INFO root fetch - processPackages [funfluid]: New version: [202307031751] Old Version: [202307031750]
+[2023-07-03 11:55:13] INFO root fetch - processPackages [funfluid]: New version: [202307031751] Old Version: [202307031750]
+[2023-07-03 11:55:13] INFO root fetch - processPackages [fullask-rest-framework]: New version: [0.6.1] Old Version: [0.5.1]
+[2023-07-03 11:55:13] INFO root fetch - processPackages [frontengine]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-03 11:55:13] INFO root fetch - processPackages [bili-uas]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-07-03 11:55:13] INFO root fetch - processPackages [nanoCEM]: New version: [0.0.1.1] Old Version: [0.0.1]
+[2023-07-03 11:55:13] INFO root fetch - processPackages [lokzzpylib]: New version: [0.2.dev7] Old Version: [0.2.dev6]
+[2023-07-03 11:55:13] INFO root fetch - processPackages [qxxkey]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-03 11:55:13] INFO root fetch - processPackages [bili-uas]: Downloading https://files.pythonhosted.org/packages/8b/35/06dcba9834369e46501a367d0dd46156f5c91261b3e38b188b0f0ed053f6/bili-uas-0.1.3.tar.gz
+[2023-07-03 11:55:13] INFO root fetch - processPackages [nanoCEM]: Downloading https://files.pythonhosted.org/packages/a4/9d/80e630b4a974a9ad4f9b04abcdfc6d4f408d16dfcfadd4b16ebfdb9e3857/nanoCEM-0.0.1.tar.gz
+[2023-07-03 11:55:13] INFO root fetch - processPackages [funfluid]: Downloading https://files.pythonhosted.org/packages/40/c5/00b5a7537df58cafa26f81dfe100813f87ec51f8a821785642f7dac7644f/funfluid-202307031750.tar.gz
+[2023-07-03 11:55:13] INFO root fetch - processPackages [funfluid]: Downloading https://files.pythonhosted.org/packages/40/c5/00b5a7537df58cafa26f81dfe100813f87ec51f8a821785642f7dac7644f/funfluid-202307031750.tar.gz
+[2023-07-03 11:55:13] INFO root fetch - processPackages [qxxkey]: Downloading https://files.pythonhosted.org/packages/07/e8/5c089b9b1de8fa7ab1f02a4e8d1d91d17fd2d54ad74df3dee451a72d75d0/qxxkey-0.0.2.tar.gz
+[2023-07-03 11:55:13] INFO root fetch - processPackages [lokzzpylib]: Downloading https://files.pythonhosted.org/packages/37/78/2e5c6e1be654a550d42507936989581ee98daccd71c9a8564c52ce7bd78c/lokzzpylib-0.2.dev6.tar.gz
+[2023-07-03 11:55:13] INFO root fetch - processPackages [nanoCEM]: Downloading https://files.pythonhosted.org/packages/a4/9d/80e630b4a974a9ad4f9b04abcdfc6d4f408d16dfcfadd4b16ebfdb9e3857/nanoCEM-0.0.1.tar.gz
+[2023-07-03 11:55:13] INFO root fetch - processPackages [frontengine]: Downloading https://files.pythonhosted.org/packages/62/88/6d99d7b463365da48db6f37c9bde41e7f7f20eeb1a13653a273586e81d3a/frontengine-0.0.8.tar.gz
+[2023-07-03 11:55:14] INFO root fetch - processPackages [kedro-datasets]: Downloading https://files.pythonhosted.org/packages/9b/04/f1138f9b22049762c50c2da8b850a2fcb1149a6e687711741dcfc16c662e/kedro-datasets-1.4.1.tar.gz
+[2023-07-03 11:55:14] INFO root fetch - processPackages [fullask-rest-framework]: Downloading https://files.pythonhosted.org/packages/c0/5f/33d726e29c387567ab936c227d70b993647a3c510f1970738edf7174f24b/fullask_rest_framework-0.5.1.tar.gz
+[2023-07-03 11:55:14] INFO root fetch - processPackages [bili-uas]: Downloading https://files.pythonhosted.org/packages/8c/e5/06dfad00262eb2f27f8cc0bd8e6e14a1e5633a226e27ae57fe1822d493f3/bili-uas-0.1.4.tar.gz
+[2023-07-03 11:55:14] INFO root fetch - processPackages [nanoCEM]: Downloading https://files.pythonhosted.org/packages/f4/9f/f69aeaf8c33d3de5640efaad21c33acefc7c4497f631c12ebbb7ef764e79/nanoCEM-0.0.1.1.tar.gz
+[2023-07-03 11:55:14] INFO root fetch - processPackages [nanoCEM]: Downloading https://files.pythonhosted.org/packages/f4/9f/f69aeaf8c33d3de5640efaad21c33acefc7c4497f631c12ebbb7ef764e79/nanoCEM-0.0.1.1.tar.gz
+[2023-07-03 11:55:14] INFO root fetch - processPackages [frontengine]: Downloading https://files.pythonhosted.org/packages/a5/8e/4bb92b2db27649b96b46469f263e2fdd091c8283ff06a24534624c34be9d/frontengine-0.0.9.tar.gz
+[2023-07-03 11:55:14] INFO root fetch - processPackages [funfluid]: Downloading https://files.pythonhosted.org/packages/3f/6d/0c564f2784e76a98a0752dde6fa147f57ee03c2c488a31ebcdb5e6077055/funfluid-202307031751.tar.gz
+[2023-07-03 11:55:14] INFO root fetch - processPackages [funfluid]: Downloading https://files.pythonhosted.org/packages/3f/6d/0c564f2784e76a98a0752dde6fa147f57ee03c2c488a31ebcdb5e6077055/funfluid-202307031751.tar.gz
+[2023-07-03 11:55:14] INFO root fetch - processPackages [qxxkey]: Downloading https://files.pythonhosted.org/packages/79/51/ce3e36c912744c415fc674dbce03e51ca52652581e65baed71957395bb45/qxxkey-0.0.3.tar.gz
+[2023-07-03 11:55:14] INFO root fetch - processPackages [lokzzpylib]: Downloading https://files.pythonhosted.org/packages/ec/11/d1d60efe6f1f4186239da7ec66a65073a12c07a8d08788f22bdef90b6ddc/lokzzpylib-0.2.dev7.tar.gz
+[2023-07-03 11:55:14] INFO root fetch - processPackages [fullask-rest-framework]: Downloading https://files.pythonhosted.org/packages/b2/f0/43078df0ba2e8d6a3a264f35f3295392f516f3bad8e4cdce36ddc371b9f0/fullask_rest_framework-0.6.1.tar.gz
+[2023-07-03 11:55:14] INFO root fetch - processPackages [kedro-datasets]: Downloading https://files.pythonhosted.org/packages/83/38/3400cb16471ca4d9e38dbc201766d2d6d0ea2ff84b97815f849fe1abaf0e/kedro-datasets-1.4.2.tar.gz
+[2023-07-03 11:55:14] INFO root fetch - processPackages [frontengine]: executing diffoscope
+[2023-07-03 11:55:14] INFO root fetch - processPackages [frontengine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/frontengine-0.0.8.tar.gz tmp/frontengine-0.0.9.tar.gz --markdown 20230703/f/frontengine/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-03 11:55:14] INFO root fetch - processPackages [funfluid]: executing diffoscope
+[2023-07-03 11:55:14] INFO root fetch - processPackages [funfluid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/funfluid-202307031750.tar.gz tmp/funfluid-202307031751.tar.gz --markdown 20230703/f/funfluid/202307031750-202307031751/diff.md --exclude *.pyd
+[2023-07-03 11:55:14] INFO root fetch - processPackages [nanoCEM]: executing diffoscope
+[2023-07-03 11:55:14] INFO root fetch - processPackages [nanoCEM]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nanoCEM-0.0.1.tar.gz tmp/nanoCEM-0.0.1.1.tar.gz --markdown 20230703/n/nanoCEM/0.0.1-0.0.1.1/diff.md --exclude *.pyd
+[2023-07-03 11:55:14] INFO root fetch - processPackages [bili-uas]: executing diffoscope
+[2023-07-03 11:55:14] INFO root fetch - processPackages [nanoCEM]: executing diffoscope
+[2023-07-03 11:55:14] INFO root fetch - processPackages [bili-uas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bili-uas-0.1.3.tar.gz tmp/bili-uas-0.1.4.tar.gz --markdown 20230703/b/bili-uas/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-07-03 11:55:14] INFO root fetch - processPackages [nanoCEM]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nanoCEM-0.0.1.tar.gz tmp/nanoCEM-0.0.1.1.tar.gz --markdown 20230703/n/nanoCEM/0.0.1-0.0.1.1/diff.md --exclude *.pyd
+[2023-07-03 11:55:14] INFO root fetch - processPackages [funfluid]: executing diffoscope
+[2023-07-03 11:55:14] INFO root fetch - processPackages [funfluid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/funfluid-202307031750.tar.gz tmp/funfluid-202307031751.tar.gz --markdown 20230703/f/funfluid/202307031750-202307031751/diff.md --exclude *.pyd
+[2023-07-03 11:55:14] INFO root fetch - processPackages [qxxkey]: executing diffoscope
+[2023-07-03 11:55:14] INFO root fetch - processPackages [qxxkey]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qxxkey-0.0.2.tar.gz tmp/qxxkey-0.0.3.tar.gz --markdown 20230703/q/qxxkey/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-03 11:55:14] INFO root fetch - processPackages [lokzzpylib]: executing diffoscope
+[2023-07-03 11:55:14] INFO root fetch - processPackages [lokzzpylib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lokzzpylib-0.2.dev6.tar.gz tmp/lokzzpylib-0.2.dev7.tar.gz --markdown 20230703/l/lokzzpylib/0.2.dev6-0.2.dev7/diff.md --exclude *.pyd
+[2023-07-03 11:55:14] INFO root fetch - processPackages [fullask-rest-framework]: executing diffoscope
+[2023-07-03 11:55:14] INFO root fetch - processPackages [fullask-rest-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fullask_rest_framework-0.5.1.tar.gz tmp/fullask_rest_framework-0.6.1.tar.gz --markdown 20230703/f/fullask-rest-framework/0.5.1-0.6.1/diff.md --exclude *.pyd
+[2023-07-03 11:55:14] INFO root fetch - processPackages [kedro-datasets]: executing diffoscope
+[2023-07-03 11:55:14] INFO root fetch - processPackages [kedro-datasets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kedro-datasets-1.4.1.tar.gz tmp/kedro-datasets-1.4.2.tar.gz --markdown 20230703/k/kedro-datasets/1.4.1-1.4.2/diff.md --exclude *.pyd
+[2023-07-03 11:55:16] INFO root fetch - processPackages [qxxkey]: Remove: archive file [/home/abi/fetcher/tmp/qxxkey-0.0.2.tar.gz]
+[2023-07-03 11:55:16] INFO root fetch - processPackages [qxxkey]: Remove: archive file [/home/abi/fetcher/tmp/qxxkey-0.0.3.tar.gz]
+[2023-07-03 11:55:16] INFO root fetch - processPackages [qxxkey]: Start processing: bytetrade-recommend-model-sdk
+[2023-07-03 11:55:16] INFO root fetch - main [MainThread]: End processing [qxxkey]: success
+[2023-07-03 11:55:16] INFO root fetch - processPackages [nanoCEM]: Remove: archive file [/home/abi/fetcher/tmp/nanoCEM-0.0.1.tar.gz]
+[2023-07-03 11:55:16] INFO root fetch - processPackages [nanoCEM]: Remove: archive file [/home/abi/fetcher/tmp/nanoCEM-0.0.1.1.tar.gz]
+[2023-07-03 11:55:16] INFO root fetch - processPackages [nanoCEM]: Start processing: custolint
+[2023-07-03 11:55:16] INFO root fetch - main [MainThread]: End processing [nanoCEM]: success
+[2023-07-03 11:55:16] INFO root fetch - processPackages [nanoCEM]: Start processing: rosetta-ce
+[2023-07-03 11:55:16] INFO root fetch - main [MainThread]: End processing [nanoCEM]: success
+[2023-07-03 11:55:16] INFO root fetch - processPackages [bytetrade-recommend-model-sdk]: New version: [0.0.22] Old Version: [0.0.21]
+[2023-07-03 11:55:16] INFO root fetch - processPackages [frontengine]: Remove: archive file [/home/abi/fetcher/tmp/frontengine-0.0.8.tar.gz]
+[2023-07-03 11:55:16] INFO root fetch - processPackages [frontengine]: Remove: archive file [/home/abi/fetcher/tmp/frontengine-0.0.9.tar.gz]
+[2023-07-03 11:55:16] INFO root fetch - processPackages [frontengine]: Start processing: pyobs-sbig
+[2023-07-03 11:55:16] INFO root fetch - main [MainThread]: End processing [frontengine]: success
+[2023-07-03 11:55:16] INFO root fetch - processPackages [custolint]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-07-03 11:55:16] INFO root fetch - processPackages [rosetta-ce]: New version: [1.4.7] Old Version: [1.4.6]
+[2023-07-03 11:55:16] INFO root fetch - processPackages [pyobs-sbig]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-03 11:55:16] INFO root fetch - processPackages [lokzzpylib]: Remove: archive file [/home/abi/fetcher/tmp/lokzzpylib-0.2.dev6.tar.gz]
+[2023-07-03 11:55:16] INFO root fetch - processPackages [lokzzpylib]: Remove: archive file [/home/abi/fetcher/tmp/lokzzpylib-0.2.dev7.tar.gz]
+[2023-07-03 11:55:16] INFO root fetch - processPackages [lokzzpylib]: Start processing: nomenklatura
+[2023-07-03 11:55:16] INFO root fetch - main [MainThread]: End processing [lokzzpylib]: success
+[2023-07-03 11:55:16] INFO root fetch - processPackages [funfluid]: Remove: archive file [/home/abi/fetcher/tmp/funfluid-202307031750.tar.gz]
+[2023-07-03 11:55:16] INFO root fetch - processPackages [funfluid]: Remove: archive file [/home/abi/fetcher/tmp/funfluid-202307031751.tar.gz]
+[2023-07-03 11:55:16] INFO root fetch - processPackages [funfluid]: Start processing: amsterdam-schema-tools
+[2023-07-03 11:55:16] INFO root fetch - main [MainThread]: End processing [funfluid]: success
+[2023-07-03 11:55:16] INFO root fetch - processPackages [nomenklatura]: New version: [3.1.0] Old Version: [3.0.3]
+[2023-07-03 11:55:16] INFO root fetch - processPackages [bili-uas]: Remove: archive file [/home/abi/fetcher/tmp/bili-uas-0.1.3.tar.gz]
+[2023-07-03 11:55:16] INFO root fetch - processPackages [bili-uas]: Remove: archive file [/home/abi/fetcher/tmp/bili-uas-0.1.4.tar.gz]
+[2023-07-03 11:55:16] INFO root fetch - processPackages [bili-uas]: Start processing: partyai
+[2023-07-03 11:55:16] INFO root fetch - main [MainThread]: End processing [bili-uas]: success
+[2023-07-03 11:55:16] INFO root fetch - processPackages [amsterdam-schema-tools]: New version: [5.9.3] Old Version: [5.9.2]
+[2023-07-03 11:55:16] INFO root fetch - processPackages [funfluid]: Start processing: oidc-drf
+[2023-07-03 11:55:16] INFO root fetch - main [MainThread]: End processing [funfluid]: success
+[2023-07-03 11:55:16] INFO root fetch - processPackages [rosetta-ce]: Downloading https://files.pythonhosted.org/packages/f4/70/81cfea6c2062d029cf779e1e8442bc0937c7c7198cdb62f2071729e14916/rosetta-ce-1.4.6.tar.gz
+[2023-07-03 11:55:16] INFO root fetch - processPackages [bytetrade-recommend-model-sdk]: Downloading https://files.pythonhosted.org/packages/af/29/503a61449830f65caafc4df2814f9e9212c81404d99191262a418e8fb776/bytetrade-recommend-model-sdk-0.0.21.tar.gz
+[2023-07-03 11:55:16] INFO root fetch - processPackages [partyai]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-03 11:55:16] INFO root fetch - processPackages [fullask-rest-framework]: Remove: archive file [/home/abi/fetcher/tmp/fullask_rest_framework-0.5.1.tar.gz]
+[2023-07-03 11:55:16] INFO root fetch - processPackages [fullask-rest-framework]: Remove: archive file [/home/abi/fetcher/tmp/fullask_rest_framework-0.6.1.tar.gz]
+[2023-07-03 11:55:16] INFO root fetch - processPackages [oidc-drf]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-03 11:55:16] INFO root fetch - processPackages [pyobs-sbig]: Downloading https://files.pythonhosted.org/packages/b7/8f/b2cde8b8bd31402272f16425fdf9e4c5828dbecd5a2024e27d6145d4d39d/pyobs_sbig-1.0.1.tar.gz
+[2023-07-03 11:55:16] INFO root fetch - processPackages [fullask-rest-framework]: Start processing: django-jquery-datatables
+[2023-07-03 11:55:16] INFO root fetch - main [MainThread]: End processing [fullask-rest-framework]: success
+[2023-07-03 11:55:16] INFO root fetch - processPackages [custolint]: Downloading https://files.pythonhosted.org/packages/61/0c/d3c758945a28774fe1a5310d0c305d77721ad278bc610e5553ec58204002/custolint-0.3.0-py3-none-any.whl
+[2023-07-03 11:55:16] INFO root fetch - processPackages [django-jquery-datatables]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-03 11:55:16] INFO root fetch - processPackages [nomenklatura]: Downloading https://files.pythonhosted.org/packages/54/94/ecad1fc8ebd565c6b72ce20eb5091a9d83db1ab5ada7424fe595848064e6/nomenklatura-3.0.3.tar.gz
+[2023-07-03 11:55:16] INFO root fetch - processPackages [oidc-drf]: Downloading https://files.pythonhosted.org/packages/68/9c/dfd2ae2a5dacafd614f4d4c352c6125c2640e9e04ba204cf253952d67b80/oidc_drf-1.0.8.tar.gz
+[2023-07-03 11:55:17] INFO root fetch - processPackages [kedro-datasets]: Remove: archive file [/home/abi/fetcher/tmp/kedro-datasets-1.4.1.tar.gz]
+[2023-07-03 11:55:17] INFO root fetch - processPackages [kedro-datasets]: Remove: archive file [/home/abi/fetcher/tmp/kedro-datasets-1.4.2.tar.gz]
+[2023-07-03 11:55:17] INFO root fetch - processPackages [kedro-datasets]: Start processing: bagbag
+[2023-07-03 11:55:17] INFO root fetch - main [MainThread]: End processing [kedro-datasets]: success
+[2023-07-03 11:55:17] INFO root fetch - processPackages [amsterdam-schema-tools]: Downloading https://files.pythonhosted.org/packages/1f/30/4cb7af8d4d1f00da78de0a18355a2eea64732fcd8654137d6173c80c699d/amsterdam-schema-tools-5.9.2.tar.gz
+[2023-07-03 11:55:17] INFO root fetch - processPackages [bagbag]: New version: [0.60.9] Old Version: [0.60.8]
+[2023-07-03 11:55:17] INFO root fetch - processPackages [bytetrade-recommend-model-sdk]: Downloading https://files.pythonhosted.org/packages/b8/b3/2f84687194766cae8dc22c08593326f8e28ed9477a5af656ffc8873ab6f4/bytetrade-recommend-model-sdk-0.0.22.tar.gz
+[2023-07-03 11:55:17] INFO root fetch - processPackages [partyai]: Downloading https://files.pythonhosted.org/packages/0a/3b/ca92c3641811dddcbec757a8061511cfde5794f0afb15b446b59979e12d9/partyai-0.0.1.tar.gz
+[2023-07-03 11:55:17] INFO root fetch - processPackages [rosetta-ce]: Downloading https://files.pythonhosted.org/packages/ab/5d/a62c5e6fdb2ca170a910b3c0e8ffa1830800b0b3917464953f36d70b5fc7/rosetta-ce-1.4.7.tar.gz
+[2023-07-03 11:55:17] INFO root fetch - processPackages [django-jquery-datatables]: Downloading https://files.pythonhosted.org/packages/6b/28/a84039e7c75b7138639f235656a4df4b841cfe304e3bc924460028ff37c0/django_jquery_datatables-1.0.0.tar.gz
+[2023-07-03 11:55:17] INFO root fetch - processPackages [bagbag]: Downloading https://files.pythonhosted.org/packages/9c/d9/18fcc3667854a152644716d257d55e30c5845485e0c8c0086d1449f5fca5/bagbag-0.60.8.tar.gz
+[2023-07-03 11:55:17] INFO root fetch - processPackages [oidc-drf]: Downloading https://files.pythonhosted.org/packages/2b/7c/5162af84a2e25144c175ceb604a8b632d77bcf5be0cf0ea4b1c7cb8b4e6e/oidc_drf-1.0.9.tar.gz
+[2023-07-03 11:55:17] INFO root fetch - processPackages [custolint]: Downloading https://files.pythonhosted.org/packages/1c/ed/71d34d79b2cfc87df108d445c5b1ddae6e98e64b2cf5c1a0fa1efa7945ce/custolint-0.3.1-py3-none-any.whl
+[2023-07-03 11:55:17] INFO root fetch - processPackages [nomenklatura]: Downloading https://files.pythonhosted.org/packages/1a/20/8ea05c8d0a85fc70a733d76bec857ac0922b14a112d10867a3a2f4b0f3b2/nomenklatura-3.1.0.tar.gz
+[2023-07-03 11:55:17] INFO root fetch - processPackages [bytetrade-recommend-model-sdk]: executing diffoscope
+[2023-07-03 11:55:17] INFO root fetch - processPackages [bytetrade-recommend-model-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bytetrade-recommend-model-sdk-0.0.21.tar.gz tmp/bytetrade-recommend-model-sdk-0.0.22.tar.gz --markdown 20230703/b/bytetrade-recommend-model-sdk/0.0.21-0.0.22/diff.md --exclude *.pyd
+[2023-07-03 11:55:17] INFO root fetch - processPackages [oidc-drf]: executing diffoscope
+[2023-07-03 11:55:17] INFO root fetch - processPackages [oidc-drf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oidc_drf-1.0.8.tar.gz tmp/oidc_drf-1.0.9.tar.gz --markdown 20230703/o/oidc-drf/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-03 11:55:17] INFO root fetch - processPackages [rosetta-ce]: executing diffoscope
+[2023-07-03 11:55:17] INFO root fetch - processPackages [rosetta-ce]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rosetta-ce-1.4.6.tar.gz tmp/rosetta-ce-1.4.7.tar.gz --markdown 20230703/r/rosetta-ce/1.4.6-1.4.7/diff.md --exclude *.pyd
+[2023-07-03 11:55:17] INFO root fetch - processPackages [pyobs-sbig]: Downloading https://files.pythonhosted.org/packages/8e/9d/1a3296fed14f6c2c92958cc1a3e31aae5a892c638f353213f7e3f9aec495/pyobs_sbig-1.0.2.tar.gz
+[2023-07-03 11:55:17] INFO root fetch - processPackages [partyai]: Downloading https://files.pythonhosted.org/packages/f8/f9/257f4641bfb8fedbe4be3cccdc19966bacd19358d622f947a8a0ce6fac12/partyai-0.0.2.tar.gz
+[2023-07-03 11:55:17] INFO root fetch - processPackages [amsterdam-schema-tools]: Downloading https://files.pythonhosted.org/packages/4d/24/9b16605372327f85f59868308c2dc3f6e93f5faf2941312efe6702b27d8c/amsterdam-schema-tools-5.9.3.tar.gz
+[2023-07-03 11:55:17] INFO root fetch - processPackages [nomenklatura]: executing diffoscope
+[2023-07-03 11:55:17] INFO root fetch - processPackages [nomenklatura]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nomenklatura-3.0.3.tar.gz tmp/nomenklatura-3.1.0.tar.gz --markdown 20230703/n/nomenklatura/3.0.3-3.1.0/diff.md --exclude *.pyd
+[2023-07-03 11:55:17] INFO root fetch - processPackages [custolint]: executing diffoscope
+[2023-07-03 11:55:17] INFO root fetch - processPackages [custolint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/custolint-0.3.0-py3-none-any.whl.zip tmp/custolint-0.3.1-py3-none-any.whl.zip --markdown 20230703/c/custolint/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-07-03 11:55:17] INFO root fetch - processPackages [bagbag]: Downloading https://files.pythonhosted.org/packages/c5/51/7ae0a1a526da702787345e0082bd8b3269a7b0c64300d0b309a215fbe724/bagbag-0.60.9.tar.gz
+[2023-07-03 11:55:17] INFO root fetch - processPackages [django-jquery-datatables]: Downloading https://files.pythonhosted.org/packages/47/f5/e5e650e88f5ed58aff7183c754fe28e8828813e4817a4c4b1193a5b2049b/django_jquery_datatables-1.0.1-py3-none-any.whl
+[2023-07-03 11:55:17] INFO root fetch - processPackages [pyobs-sbig]: executing diffoscope
+[2023-07-03 11:55:17] INFO root fetch - processPackages [pyobs-sbig]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyobs_sbig-1.0.1.tar.gz tmp/pyobs_sbig-1.0.2.tar.gz --markdown 20230703/p/pyobs-sbig/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-03 11:55:17] INFO root fetch - processPackages [partyai]: executing diffoscope
+[2023-07-03 11:55:17] INFO root fetch - processPackages [partyai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/partyai-0.0.1.tar.gz tmp/partyai-0.0.2.tar.gz --markdown 20230703/p/partyai/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-03 11:55:17] INFO root fetch - processPackages [amsterdam-schema-tools]: executing diffoscope
+[2023-07-03 11:55:17] INFO root fetch - processPackages [amsterdam-schema-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amsterdam-schema-tools-5.9.2.tar.gz tmp/amsterdam-schema-tools-5.9.3.tar.gz --markdown 20230703/a/amsterdam-schema-tools/5.9.2-5.9.3/diff.md --exclude *.pyd
+[2023-07-03 11:55:17] INFO root fetch - processPackages [bagbag]: executing diffoscope
+[2023-07-03 11:55:17] INFO root fetch - processPackages [bagbag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bagbag-0.60.8.tar.gz tmp/bagbag-0.60.9.tar.gz --markdown 20230703/b/bagbag/0.60.8-0.60.9/diff.md --exclude *.pyd
+[2023-07-03 11:55:18] INFO root fetch - processPackages [django-jquery-datatables]: executing diffoscope
+[2023-07-03 11:55:18] INFO root fetch - processPackages [django-jquery-datatables]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_jquery_datatables-1.0.0.tar.gz tmp/django_jquery_datatables-1.0.1-py3-none-any.whl.zip --markdown 20230703/d/django-jquery-datatables/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-03 11:55:19] INFO root fetch - processPackages [oidc-drf]: Remove: archive file [/home/abi/fetcher/tmp/oidc_drf-1.0.8.tar.gz]
+[2023-07-03 11:55:19] INFO root fetch - processPackages [oidc-drf]: Remove: archive file [/home/abi/fetcher/tmp/oidc_drf-1.0.9.tar.gz]
+[2023-07-03 11:55:19] INFO root fetch - processPackages [oidc-drf]: Start processing: zipline-cli
+[2023-07-03 11:55:19] INFO root fetch - main [MainThread]: End processing [oidc-drf]: success
+[2023-07-03 11:55:19] INFO root fetch - processPackages [zipline-cli]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-03 11:55:19] INFO root fetch - processPackages [bytetrade-recommend-model-sdk]: Remove: archive file [/home/abi/fetcher/tmp/bytetrade-recommend-model-sdk-0.0.21.tar.gz]
+[2023-07-03 11:55:19] INFO root fetch - processPackages [bytetrade-recommend-model-sdk]: Remove: archive file [/home/abi/fetcher/tmp/bytetrade-recommend-model-sdk-0.0.22.tar.gz]
+[2023-07-03 11:55:19] INFO root fetch - processPackages [bytetrade-recommend-model-sdk]: Start processing: django-jquery-datatables
+[2023-07-03 11:55:19] INFO root fetch - main [MainThread]: End processing [bytetrade-recommend-model-sdk]: success
+[2023-07-03 11:55:19] INFO root fetch - processPackages [rosetta-ce]: Remove: archive file [/home/abi/fetcher/tmp/rosetta-ce-1.4.6.tar.gz]
+[2023-07-03 11:55:19] INFO root fetch - processPackages [rosetta-ce]: Remove: archive file [/home/abi/fetcher/tmp/rosetta-ce-1.4.7.tar.gz]
+[2023-07-03 11:55:19] INFO root fetch - processPackages [rosetta-ce]: Start processing: few-shot-priming
+[2023-07-03 11:55:19] INFO root fetch - main [MainThread]: End processing [rosetta-ce]: success
+[2023-07-03 11:55:19] INFO root fetch - processPackages [django-jquery-datatables]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-03 11:55:19] INFO root fetch - processPackages [few-shot-priming]: New version: [0.0.99] Old Version: [0.0.96]
+[2023-07-03 11:55:19] INFO root fetch - processPackages [custolint]: Remove: archive file [/home/abi/fetcher/tmp/custolint-0.3.0-py3-none-any.whl.zip]
+[2023-07-03 11:55:19] INFO root fetch - processPackages [custolint]: Remove: archive file [/home/abi/fetcher/tmp/custolint-0.3.1-py3-none-any.whl.zip]
+[2023-07-03 11:55:19] INFO root fetch - processPackages [custolint]: Start processing: c2cciutils
+[2023-07-03 11:55:19] INFO root fetch - main [MainThread]: End processing [custolint]: success
+[2023-07-03 11:55:19] INFO root fetch - processPackages [zipline-cli]: Downloading https://files.pythonhosted.org/packages/86/31/f54e83c2c2adb4b1d89b34af8a7c0744e1066da582ab1fc3889d2cff7ded/zipline-cli-0.1.0.tar.gz
+[2023-07-03 11:55:19] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/d5/95/d70c95da3e78b71d35838af276daf5b2f53394c4c9a44fa5dd8f2aa64498/few_shot_priming-0.0.96-py3-none-any.whl
+[2023-07-03 11:55:19] INFO root fetch - processPackages [c2cciutils]: New version: [1.6.0.dev99] Old Version: [1.6.0.dev98]
+[2023-07-03 11:55:19] INFO root fetch - processPackages [django-jquery-datatables]: Remove: archive file [/home/abi/fetcher/tmp/django_jquery_datatables-1.0.0.tar.gz]
+[2023-07-03 11:55:19] INFO root fetch - processPackages [django-jquery-datatables]: Remove: archive file [/home/abi/fetcher/tmp/django_jquery_datatables-1.0.1-py3-none-any.whl.zip]
+[2023-07-03 11:55:19] INFO root fetch - processPackages [django-jquery-datatables]: Start processing: exceptiongroup
+[2023-07-03 11:55:19] INFO root fetch - main [MainThread]: End processing [django-jquery-datatables]: success
+[2023-07-03 11:55:19] INFO root fetch - processPackages [pyobs-sbig]: Remove: archive file [/home/abi/fetcher/tmp/pyobs_sbig-1.0.1.tar.gz]
+[2023-07-03 11:55:19] INFO root fetch - processPackages [pyobs-sbig]: Remove: archive file [/home/abi/fetcher/tmp/pyobs_sbig-1.0.2.tar.gz]
+[2023-07-03 11:55:19] INFO root fetch - processPackages [pyobs-sbig]: Start processing: pyobs-sbig
+[2023-07-03 11:55:19] INFO root fetch - main [MainThread]: End processing [pyobs-sbig]: success
+[2023-07-03 11:55:19] INFO root fetch - processPackages [c2cciutils]: Downloading https://files.pythonhosted.org/packages/a1/2b/1d6a9f2a49b1cf5d42f9fe6f8498218d1aa03ad4f83547e435c82985bf79/c2cciutils-1.6.0.dev98.tar.gz
+[2023-07-03 11:55:19] INFO root fetch - processPackages [exceptiongroup]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-07-03 11:55:19] INFO root fetch - processPackages [partyai]: Remove: archive file [/home/abi/fetcher/tmp/partyai-0.0.1.tar.gz]
+[2023-07-03 11:55:19] INFO root fetch - processPackages [partyai]: Remove: archive file [/home/abi/fetcher/tmp/partyai-0.0.2.tar.gz]
+[2023-07-03 11:55:19] INFO root fetch - processPackages [partyai]: Start processing: ansys-api-pyensight
+[2023-07-03 11:55:19] INFO root fetch - main [MainThread]: End processing [partyai]: success
+[2023-07-03 11:55:19] INFO root fetch - processPackages [pyobs-sbig]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-07-03 11:55:19] INFO root fetch - processPackages [django-jquery-datatables]: Downloading https://files.pythonhosted.org/packages/38/d7/32663fcb6a20ed991757cbc4c03814a933865859eb26098cc84137a2127e/django_jquery_datatables-1.0.2-py3-none-any.whl
+[2023-07-03 11:55:19] INFO root fetch - processPackages [ansys-api-pyensight]: New version: [0.2.dev0] Old Version: [0.1.2]
+[2023-07-03 11:55:19] INFO root fetch - processPackages [nomenklatura]: Remove: archive file [/home/abi/fetcher/tmp/nomenklatura-3.0.3.tar.gz]
+[2023-07-03 11:55:19] INFO root fetch - processPackages [nomenklatura]: Remove: archive file [/home/abi/fetcher/tmp/nomenklatura-3.1.0.tar.gz]
+[2023-07-03 11:55:19] INFO root fetch - main [MainThread]: End processing [nomenklatura]: success
+[2023-07-03 11:55:19] INFO root fetch - processPackages [zipline-cli]: Downloading https://files.pythonhosted.org/packages/4d/e9/769de126eeb0cc58452d9ffc6056b8222a60b015fb4383ead066c00fa403/zipline-cli-0.1.1.tar.gz
+[2023-07-03 11:55:19] INFO root fetch - processPackages [exceptiongroup]: Downloading https://files.pythonhosted.org/packages/cc/38/57f14ddc8e8baeddd8993a36fe57ce7b4ba174c35048b9a6d270bb01e833/exceptiongroup-1.1.1.tar.gz
+[2023-07-03 11:55:19] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/1e/e8/6368ab93b7135424a35ce07aac4de4056a38a1ae6f862ed63a5a79a4dce6/few_shot_priming-0.0.99-py3-none-any.whl
+[2023-07-03 11:55:19] INFO root fetch - processPackages [pyobs-sbig]: Downloading https://files.pythonhosted.org/packages/8e/9d/1a3296fed14f6c2c92958cc1a3e31aae5a892c638f353213f7e3f9aec495/pyobs_sbig-1.0.2.tar.gz
+[2023-07-03 11:55:19] INFO root fetch - processPackages [zipline-cli]: executing diffoscope
+[2023-07-03 11:55:19] INFO root fetch - processPackages [zipline-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zipline-cli-0.1.0.tar.gz tmp/zipline-cli-0.1.1.tar.gz --markdown 20230703/z/zipline-cli/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-03 11:55:19] INFO root fetch - processPackages [django-jquery-datatables]: executing diffoscope
+[2023-07-03 11:55:19] INFO root fetch - processPackages [django-jquery-datatables]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_jquery_datatables-1.0.1-py3-none-any.whl.zip tmp/django_jquery_datatables-1.0.2-py3-none-any.whl.zip --markdown 20230703/d/django-jquery-datatables/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-03 11:55:19] INFO root fetch - processPackages [c2cciutils]: Downloading https://files.pythonhosted.org/packages/60/cb/aa51be69fbd8a1ba783878ebc042a12a61ad083b26d90280d1164ab692f5/c2cciutils-1.6.0.dev99.tar.gz
+[2023-07-03 11:55:19] INFO root fetch - processPackages [amsterdam-schema-tools]: Remove: archive file [/home/abi/fetcher/tmp/amsterdam-schema-tools-5.9.2.tar.gz]
+[2023-07-03 11:55:19] INFO root fetch - processPackages [amsterdam-schema-tools]: Remove: archive file [/home/abi/fetcher/tmp/amsterdam-schema-tools-5.9.3.tar.gz]
+[2023-07-03 11:55:19] INFO root fetch - main [MainThread]: End processing [amsterdam-schema-tools]: success
+[2023-07-03 11:55:19] INFO root fetch - processPackages [few-shot-priming]: executing diffoscope
+[2023-07-03 11:55:19] INFO root fetch - processPackages [few-shot-priming]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/few_shot_priming-0.0.96-py3-none-any.whl.zip tmp/few_shot_priming-0.0.99-py3-none-any.whl.zip --markdown 20230703/f/few-shot-priming/0.0.96-0.0.99/diff.md --exclude *.pyd
+[2023-07-03 11:55:20] INFO root fetch - processPackages [ansys-api-pyensight]: Downloading https://files.pythonhosted.org/packages/71/ea/34c26906e54e0257957f42b24c75a2fc4e57be9151ee661defc67437e1fb/ansys-api-pyensight-0.1.2.tar.gz
+[2023-07-03 11:55:20] INFO root fetch - processPackages [exceptiongroup]: Downloading https://files.pythonhosted.org/packages/55/09/5d2079ecab0ca483e527a1707a483562bdc17abf829d3e73f0c1a73b61c7/exceptiongroup-1.1.2.tar.gz
+[2023-07-03 11:55:20] INFO root fetch - processPackages [c2cciutils]: executing diffoscope
+[2023-07-03 11:55:20] INFO root fetch - processPackages [c2cciutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c2cciutils-1.6.0.dev98.tar.gz tmp/c2cciutils-1.6.0.dev99.tar.gz --markdown 20230703/c/c2cciutils/1.6.0.dev98-1.6.0.dev99/diff.md --exclude *.pyd
+[2023-07-03 11:55:20] INFO root fetch - processPackages [pyobs-sbig]: Downloading https://files.pythonhosted.org/packages/59/09/a34e5b1823b030d84186d086c894b8937d2251a861cce1ef2eb5edaf83b1/pyobs_sbig-1.0.3.tar.gz
+[2023-07-03 11:55:20] INFO root fetch - processPackages [exceptiongroup]: executing diffoscope
+[2023-07-03 11:55:20] INFO root fetch - processPackages [exceptiongroup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/exceptiongroup-1.1.1.tar.gz tmp/exceptiongroup-1.1.2.tar.gz --markdown 20230703/e/exceptiongroup/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-07-03 11:55:20] INFO root fetch - processPackages [pyobs-sbig]: executing diffoscope
+[2023-07-03 11:55:20] INFO root fetch - processPackages [pyobs-sbig]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyobs_sbig-1.0.2.tar.gz tmp/pyobs_sbig-1.0.3.tar.gz --markdown 20230703/p/pyobs-sbig/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-07-03 11:55:20] ERROR root fetch - processPackages [django-jquery-datatables]: Diffoscope failed: time="2023-07-03T11:55:19+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+/srv/diffoscope/bin/diffoscope: tmp/django_jquery_datatables-1.0.1-py3-none-any.whl.zip: No such file or directory
+
+[2023-07-03 11:55:20] INFO root fetch - main [MainThread]: End processing [django-jquery-datatables] error
+[2023-07-03 11:55:20] INFO root fetch - processPackages [bagbag]: Remove: archive file [/home/abi/fetcher/tmp/bagbag-0.60.8.tar.gz]
+[2023-07-03 11:55:20] INFO root fetch - processPackages [bagbag]: Remove: archive file [/home/abi/fetcher/tmp/bagbag-0.60.9.tar.gz]
+[2023-07-03 11:55:20] INFO root fetch - main [MainThread]: End processing [bagbag]: success
+[2023-07-03 11:55:20] INFO root fetch - processPackages [ansys-api-pyensight]: Downloading https://files.pythonhosted.org/packages/ee/10/98e179497091301ca3510ea334953d73bb8c49c6dc6442118bd30a24b6f5/ansys-api-pyensight-0.2.dev0.tar.gz
+[2023-07-03 11:55:20] INFO root fetch - processPackages [zipline-cli]: Remove: archive file [/home/abi/fetcher/tmp/zipline-cli-0.1.0.tar.gz]
+[2023-07-03 11:55:20] INFO root fetch - processPackages [zipline-cli]: Remove: archive file [/home/abi/fetcher/tmp/zipline-cli-0.1.1.tar.gz]
+[2023-07-03 11:55:20] INFO root fetch - main [MainThread]: End processing [zipline-cli]: success
+[2023-07-03 11:55:20] INFO root fetch - processPackages [ansys-api-pyensight]: executing diffoscope
+[2023-07-03 11:55:20] INFO root fetch - processPackages [ansys-api-pyensight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ansys-api-pyensight-0.1.2.tar.gz tmp/ansys-api-pyensight-0.2.dev0.tar.gz --markdown 20230703/a/ansys-api-pyensight/0.1.2-0.2.dev0/diff.md --exclude *.pyd
+[2023-07-03 11:55:21] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.0.96-py3-none-any.whl.zip]
+[2023-07-03 11:55:21] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.0.99-py3-none-any.whl.zip]
+[2023-07-03 11:55:21] INFO root fetch - main [MainThread]: End processing [few-shot-priming]: success
+[2023-07-03 11:55:21] INFO root fetch - processPackages [pyobs-sbig]: Remove: archive file [/home/abi/fetcher/tmp/pyobs_sbig-1.0.2.tar.gz]
+[2023-07-03 11:55:21] INFO root fetch - processPackages [pyobs-sbig]: Remove: archive file [/home/abi/fetcher/tmp/pyobs_sbig-1.0.3.tar.gz]
+[2023-07-03 11:55:21] INFO root fetch - main [MainThread]: End processing [pyobs-sbig]: success
+[2023-07-03 11:55:21] INFO root fetch - processPackages [exceptiongroup]: Remove: archive file [/home/abi/fetcher/tmp/exceptiongroup-1.1.1.tar.gz]
+[2023-07-03 11:55:21] INFO root fetch - processPackages [exceptiongroup]: Remove: archive file [/home/abi/fetcher/tmp/exceptiongroup-1.1.2.tar.gz]
+[2023-07-03 11:55:21] INFO root fetch - main [MainThread]: End processing [exceptiongroup]: success
+[2023-07-03 11:55:23] INFO root fetch - processPackages [ansys-api-pyensight]: Remove: archive file [/home/abi/fetcher/tmp/ansys-api-pyensight-0.1.2.tar.gz]
+[2023-07-03 11:55:23] INFO root fetch - processPackages [ansys-api-pyensight]: Remove: archive file [/home/abi/fetcher/tmp/ansys-api-pyensight-0.2.dev0.tar.gz]
+[2023-07-03 11:55:23] INFO root fetch - main [MainThread]: End processing [ansys-api-pyensight]: success
+[2023-07-03 11:55:24] INFO root fetch - processPackages [c2cciutils]: Remove: archive file [/home/abi/fetcher/tmp/c2cciutils-1.6.0.dev98.tar.gz]
+[2023-07-03 11:55:24] INFO root fetch - processPackages [c2cciutils]: Remove: archive file [/home/abi/fetcher/tmp/c2cciutils-1.6.0.dev99.tar.gz]
+[2023-07-03 11:55:24] INFO root fetch - main [MainThread]: End processing [c2cciutils]: success
+[2023-07-03 11:55:24] INFO root fetch - main [MainThread]: Store serial: [18737253]
