@@ -6948,3 +6948,39 @@
 [2023-07-03 06:32:19] INFO root fetch - processPackages [odoo14-addon-pms]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_pms-14.0.2.9.0-py3-none-any.whl.zip]
 [2023-07-03 06:32:19] INFO root fetch - main [MainThread]: End processing [odoo14-addon-pms]: success
 [2023-07-03 06:32:19] INFO root fetch - main [MainThread]: Store serial: [18734627]
+[2023-07-03 06:37:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18734627]
+[2023-07-03 06:37:28] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-03 06:37:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: defdict
+[2023-07-03 06:37:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dank-mids
+[2023-07-03 06:37:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: text2text
+[2023-07-03 06:37:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyyapi-sdk
+[2023-07-03 06:37:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: wavespectra
+[2023-07-03 06:37:28] WARNING root fetch - processPackages [defdict]: Skipping, unable to determine old version
+[2023-07-03 06:37:28] INFO root fetch - main [MainThread]: End processing [defdict] error
+[2023-07-03 06:37:28] INFO root fetch - processPackages [dank-mids]: New version: [4.20.9] Old Version: [4.20.8]
+[2023-07-03 06:37:28] INFO root fetch - processPackages [text2text]: New version: [1.2.0] Old Version: [1.1.9]
+[2023-07-03 06:37:28] INFO root fetch - processPackages [dank-mids]: Downloading https://files.pythonhosted.org/packages/dd/d9/a90cdebb46db5a35fe035f493b14d48e210491b568f4927af7919ab2fdbd/dank_mids-4.20.8.tar.gz
+[2023-07-03 06:37:28] INFO root fetch - processPackages [wavespectra]: New version: [3.9.0] Old Version: [3.8.1]
+[2023-07-03 06:37:28] WARNING root fetch - processPackages [pyyapi-sdk]: Skipping, unable to determine old version
+[2023-07-03 06:37:28] INFO root fetch - main [MainThread]: End processing [pyyapi-sdk] error
+[2023-07-03 06:37:28] INFO root fetch - processPackages [text2text]: Downloading https://files.pythonhosted.org/packages/1c/2f/09a0992029e4cd6baea1cf91dbad0cb6f17e652ece1a8990d9c28be672e5/text2text-1.1.9.tar.gz
+[2023-07-03 06:37:28] INFO root fetch - processPackages [dank-mids]: Downloading https://files.pythonhosted.org/packages/e9/d0/a0c6c8d2d154a0250f47b30968e60098b0d44d3b35571e97a925b9b3984f/dank_mids-4.20.9.tar.gz
+[2023-07-03 06:37:28] INFO root fetch - processPackages [wavespectra]: Downloading https://files.pythonhosted.org/packages/34/91/372b2ae9dbe435270a9240e02e84f9dac90bfc8c64d353ec1d9a602f14ca/wavespectra-3.8.1.tar.gz
+[2023-07-03 06:37:28] INFO root fetch - processPackages [dank-mids]: executing diffoscope
+[2023-07-03 06:37:28] INFO root fetch - processPackages [dank-mids]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dank_mids-4.20.8.tar.gz tmp/dank_mids-4.20.9.tar.gz --markdown 20230703/d/dank-mids/4.20.8-4.20.9/diff.md --exclude *.pyd
+[2023-07-03 06:37:29] INFO root fetch - processPackages [text2text]: Downloading https://files.pythonhosted.org/packages/c2/ed/5096d0d47c0f3151693a76e27173408334c448f1353d832f124480cd801f/text2text-1.2.0.tar.gz
+[2023-07-03 06:37:29] INFO root fetch - processPackages [text2text]: executing diffoscope
+[2023-07-03 06:37:29] INFO root fetch - processPackages [text2text]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/text2text-1.1.9.tar.gz tmp/text2text-1.2.0.tar.gz --markdown 20230703/t/text2text/1.1.9-1.2.0/diff.md --exclude *.pyd
+[2023-07-03 06:37:30] INFO root fetch - processPackages [dank-mids]: Remove: archive file [/home/abi/fetcher/tmp/dank_mids-4.20.8.tar.gz]
+[2023-07-03 06:37:30] INFO root fetch - processPackages [dank-mids]: Remove: archive file [/home/abi/fetcher/tmp/dank_mids-4.20.9.tar.gz]
+[2023-07-03 06:37:30] INFO root fetch - main [MainThread]: End processing [dank-mids]: success
+[2023-07-03 06:37:30] INFO root fetch - processPackages [text2text]: Remove: archive file [/home/abi/fetcher/tmp/text2text-1.1.9.tar.gz]
+[2023-07-03 06:37:30] INFO root fetch - processPackages [text2text]: Remove: archive file [/home/abi/fetcher/tmp/text2text-1.2.0.tar.gz]
+[2023-07-03 06:37:30] INFO root fetch - main [MainThread]: End processing [text2text]: success
+[2023-07-03 06:37:31] INFO root fetch - processPackages [wavespectra]: Downloading https://files.pythonhosted.org/packages/9f/84/6a74ccc99dba5de1ddac74a57dba7749536d9f0f49058f25c1e8f9ae6b59/wavespectra-3.9.0.tar.gz
+[2023-07-03 06:37:33] INFO root fetch - processPackages [wavespectra]: executing diffoscope
+[2023-07-03 06:37:33] INFO root fetch - processPackages [wavespectra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wavespectra-3.8.1.tar.gz tmp/wavespectra-3.9.0.tar.gz --markdown 20230703/w/wavespectra/3.8.1-3.9.0/diff.md --exclude *.pyd
+[2023-07-03 06:37:37] INFO root fetch - processPackages [wavespectra]: Remove: archive file [/home/abi/fetcher/tmp/wavespectra-3.8.1.tar.gz]
+[2023-07-03 06:37:37] INFO root fetch - processPackages [wavespectra]: Remove: archive file [/home/abi/fetcher/tmp/wavespectra-3.9.0.tar.gz]
+[2023-07-03 06:37:37] INFO root fetch - main [MainThread]: End processing [wavespectra]: success
+[2023-07-03 06:37:37] INFO root fetch - main [MainThread]: Store serial: [18734649]
