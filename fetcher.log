@@ -5597,3 +5597,66 @@
 [2023-07-03 04:31:51] INFO root fetch - processPackages [FeishuBitableAPI]: Remove: archive file [/home/abi/fetcher/tmp/FeishuBitableAPI-3.0.1.tar.gz]
 [2023-07-03 04:31:51] INFO root fetch - main [MainThread]: End processing [FeishuBitableAPI]: success
 [2023-07-03 04:31:51] INFO root fetch - main [MainThread]: Store serial: [18734042]
+[2023-07-03 04:36:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18734042]
+[2023-07-03 04:37:00] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-03 04:37:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: icloudpd
+[2023-07-03 04:37:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sora-sdk
+[2023-07-03 04:37:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pipsqlite3kitV2
+[2023-07-03 04:37:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: python-cdd
+[2023-07-03 04:37:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bisectsearch
+[2023-07-03 04:37:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nanopb
+[2023-07-03 04:37:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: embedchain-harin
+[2023-07-03 04:37:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pipsqlite3kitV2
+[2023-07-03 04:37:00] INFO root fetch - processPackages [icloudpd]: New version: [1.9.0] Old Version: [1.8.1]
+[2023-07-03 04:37:00] INFO root fetch - processPackages [sora-sdk]: New version: [2023.2.0.dev0] Old Version: [2023.1.2.dev0]
+[2023-07-03 04:37:00] INFO root fetch - processPackages [pipsqlite3kitV2]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-07-03 04:37:00] INFO root fetch - processPackages [pipsqlite3kitV2]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-07-03 04:37:00] WARNING root fetch - processPackages [bisectsearch]: Skipping, unable to determine old version
+[2023-07-03 04:37:00] INFO root fetch - main [MainThread]: End processing [bisectsearch] error
+[2023-07-03 04:37:00] INFO root fetch - processPackages [embedchain-harin]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-03 04:37:00] INFO root fetch - processPackages [nanopb]: New version: [0.4.8.dev1410] Old Version: [0.4.8.dev1406]
+[2023-07-03 04:37:00] INFO root fetch - processPackages [icloudpd]: Downloading https://files.pythonhosted.org/packages/51/5d/1f1e447501b790f1082e506da57a315aeda5268be4c23f0027804937436a/icloudpd-1.8.1-py2.py3-none-any.whl
+[2023-07-03 04:37:00] INFO root fetch - processPackages [sora-sdk]: Downloading https://files.pythonhosted.org/packages/a2/89/7fc6465f7ae3baf4e52f23b73ed092366d2f5d044a329be0f33f64cc7270/sora_sdk-2023.1.2.dev0.tar.gz
+[2023-07-03 04:37:00] INFO root fetch - processPackages [pipsqlite3kitV2]: Downloading https://files.pythonhosted.org/packages/80/ec/4b606820ef1e23b819abb56f56d0edab47a8ad218e89bb4db57e624b264a/pipsqlite3kitV2-1.0.0.tar.gz
+[2023-07-03 04:37:00] INFO root fetch - processPackages [pipsqlite3kitV2]: Downloading https://files.pythonhosted.org/packages/80/ec/4b606820ef1e23b819abb56f56d0edab47a8ad218e89bb4db57e624b264a/pipsqlite3kitV2-1.0.0.tar.gz
+[2023-07-03 04:37:00] INFO root fetch - processPackages [python-cdd]: New version: [0.0.99rc6] Old Version: [0.0.99rc5]
+[2023-07-03 04:37:00] INFO root fetch - processPackages [embedchain-harin]: Downloading https://files.pythonhosted.org/packages/de/69/72a8e1cb443977ac6a1335a5b58b6bd33ddc5384c793b0f5e0daa9f6d4bf/embedchain-harin-1.0.0.tar.gz
+[2023-07-03 04:37:00] INFO root fetch - processPackages [nanopb]: Downloading https://files.pythonhosted.org/packages/bd/b8/2f3c9e6f07c86dc0d49b09c4d5213f356083c59e7172c704871416b3073f/nanopb-0.4.8.dev1406.tar.gz
+[2023-07-03 04:37:00] WARNING root fetch - processPackages [sora-sdk]: Skipping package: exceeds size limit 11008118>=10485760
+[2023-07-03 04:37:00] INFO root fetch - main [MainThread]: End processing [sora-sdk] error
+[2023-07-03 04:37:00] INFO root fetch - processPackages [python-cdd]: Downloading https://files.pythonhosted.org/packages/cb/56/ad218530a39e131a9a23e2fae4fff2ac6a0af71dfc827b23533b8206a860/python-cdd-0.0.99rc5.tar.gz
+[2023-07-03 04:37:00] INFO root fetch - processPackages [icloudpd]: Downloading https://files.pythonhosted.org/packages/62/71/4d2c70cdcacbafa12d0d59f0a600a1d90223aeb131739c382716470d6320/icloudpd-1.9.0-py2.py3-none-any.whl
+[2023-07-03 04:37:00] INFO root fetch - processPackages [embedchain-harin]: Downloading https://files.pythonhosted.org/packages/e4/b0/3e6cbf2d1aeb9549f9c4865f462404a25a6adca667ea5bf8e2581d50bb68/embedchain-harin-1.0.1.tar.gz
+[2023-07-03 04:37:00] INFO root fetch - processPackages [pipsqlite3kitV2]: Downloading https://files.pythonhosted.org/packages/e7/c4/45be45f49dd9f0b714893c3bc934ee0a48cb36b9a679e4fbb201152b2f8b/pipsqlite3kitV2-1.1.0.tar.gz
+[2023-07-03 04:37:00] INFO root fetch - processPackages [pipsqlite3kitV2]: Downloading https://files.pythonhosted.org/packages/e7/c4/45be45f49dd9f0b714893c3bc934ee0a48cb36b9a679e4fbb201152b2f8b/pipsqlite3kitV2-1.1.0.tar.gz
+[2023-07-03 04:37:00] INFO root fetch - processPackages [icloudpd]: executing diffoscope
+[2023-07-03 04:37:00] INFO root fetch - processPackages [icloudpd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/icloudpd-1.8.1-py2.py3-none-any.whl.zip tmp/icloudpd-1.9.0-py2.py3-none-any.whl.zip --markdown 20230703/i/icloudpd/1.8.1-1.9.0/diff.md --exclude *.pyd
+[2023-07-03 04:37:01] INFO root fetch - processPackages [nanopb]: Downloading https://files.pythonhosted.org/packages/5b/5c/0a75cb131afdf3eadb27f35bcc0289d899b618a12e1414d5126b300a9bb2/nanopb-0.4.8.dev1410.tar.gz
+[2023-07-03 04:37:01] INFO root fetch - processPackages [embedchain-harin]: executing diffoscope
+[2023-07-03 04:37:01] INFO root fetch - processPackages [embedchain-harin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/embedchain-harin-1.0.0.tar.gz tmp/embedchain-harin-1.0.1.tar.gz --markdown 20230703/e/embedchain-harin/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-03 04:37:01] INFO root fetch - processPackages [pipsqlite3kitV2]: executing diffoscope
+[2023-07-03 04:37:01] INFO root fetch - processPackages [pipsqlite3kitV2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipsqlite3kitV2-1.0.0.tar.gz tmp/pipsqlite3kitV2-1.1.0.tar.gz --markdown 20230703/p/pipsqlite3kitV2/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-07-03 04:37:01] INFO root fetch - processPackages [pipsqlite3kitV2]: executing diffoscope
+[2023-07-03 04:37:01] INFO root fetch - processPackages [pipsqlite3kitV2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipsqlite3kitV2-1.0.0.tar.gz tmp/pipsqlite3kitV2-1.1.0.tar.gz --markdown 20230703/p/pipsqlite3kitV2/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-07-03 04:37:01] INFO root fetch - processPackages [nanopb]: executing diffoscope
+[2023-07-03 04:37:01] INFO root fetch - processPackages [nanopb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nanopb-0.4.8.dev1406.tar.gz tmp/nanopb-0.4.8.dev1410.tar.gz --markdown 20230703/n/nanopb/0.4.8.dev1406-0.4.8.dev1410/diff.md --exclude *.pyd
+[2023-07-03 04:37:01] INFO root fetch - processPackages [python-cdd]: Downloading https://files.pythonhosted.org/packages/5e/ff/e7b4815887d54d4b81b741275b0e9310f6ef87e7847a4efc98535da7a34c/python-cdd-0.0.99rc6.tar.gz
+[2023-07-03 04:37:01] INFO root fetch - processPackages [python-cdd]: executing diffoscope
+[2023-07-03 04:37:01] INFO root fetch - processPackages [python-cdd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-cdd-0.0.99rc5.tar.gz tmp/python-cdd-0.0.99rc6.tar.gz --markdown 20230703/p/python-cdd/0.0.99rc5-0.0.99rc6/diff.md --exclude *.pyd
+[2023-07-03 04:37:02] INFO root fetch - processPackages [embedchain-harin]: Remove: archive file [/home/abi/fetcher/tmp/embedchain-harin-1.0.0.tar.gz]
+[2023-07-03 04:37:02] INFO root fetch - processPackages [embedchain-harin]: Remove: archive file [/home/abi/fetcher/tmp/embedchain-harin-1.0.1.tar.gz]
+[2023-07-03 04:37:02] INFO root fetch - main [MainThread]: End processing [embedchain-harin]: success
+[2023-07-03 04:37:02] INFO root fetch - processPackages [pipsqlite3kitV2]: Remove: archive file [/home/abi/fetcher/tmp/pipsqlite3kitV2-1.0.0.tar.gz]
+[2023-07-03 04:37:02] INFO root fetch - processPackages [pipsqlite3kitV2]: Remove: archive file [/home/abi/fetcher/tmp/pipsqlite3kitV2-1.1.0.tar.gz]
+[2023-07-03 04:37:02] INFO root fetch - main [MainThread]: End processing [pipsqlite3kitV2]: success
+[2023-07-03 04:37:02] INFO root fetch - main [MainThread]: End processing [pipsqlite3kitV2]: success
+[2023-07-03 04:37:02] INFO root fetch - processPackages [nanopb]: Remove: archive file [/home/abi/fetcher/tmp/nanopb-0.4.8.dev1406.tar.gz]
+[2023-07-03 04:37:02] INFO root fetch - processPackages [nanopb]: Remove: archive file [/home/abi/fetcher/tmp/nanopb-0.4.8.dev1410.tar.gz]
+[2023-07-03 04:37:02] INFO root fetch - main [MainThread]: End processing [nanopb]: success
+[2023-07-03 04:37:02] INFO root fetch - processPackages [icloudpd]: Remove: archive file [/home/abi/fetcher/tmp/icloudpd-1.8.1-py2.py3-none-any.whl.zip]
+[2023-07-03 04:37:02] INFO root fetch - processPackages [icloudpd]: Remove: archive file [/home/abi/fetcher/tmp/icloudpd-1.9.0-py2.py3-none-any.whl.zip]
+[2023-07-03 04:37:02] INFO root fetch - main [MainThread]: End processing [icloudpd]: success
+[2023-07-03 04:37:03] INFO root fetch - processPackages [python-cdd]: Remove: archive file [/home/abi/fetcher/tmp/python-cdd-0.0.99rc5.tar.gz]
+[2023-07-03 04:37:03] INFO root fetch - processPackages [python-cdd]: Remove: archive file [/home/abi/fetcher/tmp/python-cdd-0.0.99rc6.tar.gz]
+[2023-07-03 04:37:03] INFO root fetch - main [MainThread]: End processing [python-cdd]: success
+[2023-07-03 04:37:03] INFO root fetch - main [MainThread]: Store serial: [18734080]
