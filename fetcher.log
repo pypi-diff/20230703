@@ -16744,3 +16744,122 @@ AssertionError: tmp/docarray-0.9.9.dev4.tar.gz does not exist
 [2023-07-03 14:08:50] INFO root fetch - processPackages [tf-agents-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_agents_nightly-0.9.0.dev20210812-py3-none-any.whl.zip]
 [2023-07-03 14:08:50] INFO root fetch - main [MainThread]: End processing [tf-agents-nightly]: success
 [2023-07-03 14:08:50] INFO root fetch - main [MainThread]: Store serial: [18738750]
+[2023-07-03 14:13:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18738750]
+[2023-07-03 14:13:59] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-07-03 14:13:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: certifi-icpbr
+[2023-07-03 14:13:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ailola
+[2023-07-03 14:13:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: discord-ansi
+[2023-07-03 14:13:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ailola
+[2023-07-03 14:13:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ckanext-flakes
+[2023-07-03 14:13:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: clients-core
+[2023-07-03 14:13:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: drf-misc
+[2023-07-03 14:13:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ckanext-flakes
+[2023-07-03 14:13:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: django-learngual
+[2023-07-03 14:13:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: allianceauth-auth-stats
+[2023-07-03 14:13:59] INFO root fetch - processPackages [certifi-icpbr]: New version: [2023.7.3] Old Version: [2022.4.1]
+[2023-07-03 14:13:59] INFO root fetch - processPackages [django-learngual]: New version: [0.13.4] Old Version: [0.13.3]
+[2023-07-03 14:13:59] INFO root fetch - processPackages [discord-ansi]: New version: [1.0] Old Version: [0.6]
+[2023-07-03 14:13:59] INFO root fetch - processPackages [drf-misc]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-03 14:13:59] INFO root fetch - processPackages [ailola]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-03 14:13:59] INFO root fetch - processPackages [clients-core]: New version: [2.3.1] Old Version: [2.3.0]
+[2023-07-03 14:13:59] INFO root fetch - processPackages [ailola]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-03 14:13:59] INFO root fetch - processPackages [ckanext-flakes]: New version: [0.4.5] Old Version: [0.4.4]
+[2023-07-03 14:13:59] INFO root fetch - processPackages [allianceauth-auth-stats]: New version: [0.0.1b2] Old Version: [0.0.1b1]
+[2023-07-03 14:13:59] INFO root fetch - processPackages [ckanext-flakes]: New version: [0.4.5] Old Version: [0.4.4]
+[2023-07-03 14:13:59] INFO root fetch - processPackages [certifi-icpbr]: Downloading https://files.pythonhosted.org/packages/4d/4d/5f7ec260e87d77b5276a78c28c8b6cdf2d5ac6f9b1179b48f9dc31de363e/certifi_icpbr-2022.4.1.tar.gz
+[2023-07-03 14:13:59] INFO root fetch - processPackages [drf-misc]: Downloading https://files.pythonhosted.org/packages/c5/b6/3557b01da762cf48bc0f59e7d958f24ae2334f059ab79bcbddd2383754ad/drf_misc-0.1.2.tar.gz
+[2023-07-03 14:13:59] INFO root fetch - processPackages [django-learngual]: Downloading https://files.pythonhosted.org/packages/fc/73/4f95f3fd71b9f89188240256bd3863ff3c29e74d07a875a5db34be1ba5ec/django-learngual-0.13.3.tar.gz
+[2023-07-03 14:13:59] INFO root fetch - processPackages [discord-ansi]: Downloading https://files.pythonhosted.org/packages/53/ff/a39de8d89877577001b0b29502b3cdb2d205e74dfc094214c412276a12da/discord-ansi-0.6.tar.gz
+[2023-07-03 14:13:59] INFO root fetch - processPackages [ailola]: Downloading https://files.pythonhosted.org/packages/af/e3/0d169038e0fe08ab4cb50913f9adaa0e1e6f352207f72302e37e86888be2/ailola-0.9.8.tar.gz
+[2023-07-03 14:13:59] INFO root fetch - processPackages [ckanext-flakes]: Downloading https://files.pythonhosted.org/packages/59/f2/b6d3c23ae7cbecea732e99d44f135199f85c2b2a88e4312693c437c0c7cf/ckanext_flakes-0.4.4-py3-none-any.whl
+[2023-07-03 14:13:59] INFO root fetch - processPackages [ckanext-flakes]: Downloading https://files.pythonhosted.org/packages/59/f2/b6d3c23ae7cbecea732e99d44f135199f85c2b2a88e4312693c437c0c7cf/ckanext_flakes-0.4.4-py3-none-any.whl
+[2023-07-03 14:14:00] INFO root fetch - processPackages [ailola]: Downloading https://files.pythonhosted.org/packages/af/e3/0d169038e0fe08ab4cb50913f9adaa0e1e6f352207f72302e37e86888be2/ailola-0.9.8.tar.gz
+[2023-07-03 14:14:00] INFO root fetch - processPackages [allianceauth-auth-stats]: Downloading https://files.pythonhosted.org/packages/09/bf/a34f88b126c2fa0e3b2a416d3213c330fe9820e486f8f0bfb13d3ee670a4/allianceauth-auth-stats-0.0.1b1.tar.gz
+[2023-07-03 14:14:00] INFO root fetch - processPackages [clients-core]: Downloading https://files.pythonhosted.org/packages/cb/89/edc81ecc3be952e66b8adbe74e73110219234117a50907dec0e234db4dce/clients_core-2.3.0-py3-none-any.whl
+[2023-07-03 14:14:00] INFO root fetch - processPackages [drf-misc]: Downloading https://files.pythonhosted.org/packages/d3/ba/cd579f8afaca06effa1de1d8c2a21c5dcd4bb261b4c8d2991735b736fddb/drf_misc-0.1.3.tar.gz
+[2023-07-03 14:14:00] INFO root fetch - processPackages [certifi-icpbr]: Downloading https://files.pythonhosted.org/packages/52/2f/a90da316ac5ecd81258d364ab5f2a3b843481046f6fb518beed233c0ea6a/certifi_icpbr-2023.7.3.tar.gz
+[2023-07-03 14:14:00] INFO root fetch - processPackages [django-learngual]: Downloading https://files.pythonhosted.org/packages/d0/84/08fa619402b3fc027ef51ee47336e3dd6bd894702bd90e1eb048ea7de376/django-learngual-0.13.4.tar.gz
+[2023-07-03 14:14:00] INFO root fetch - processPackages [discord-ansi]: Downloading https://files.pythonhosted.org/packages/ae/ad/18bff47bc1d62ffcca8a14548a7ffc357d85ba197458386d41f92c1799e2/discord-ansi-1.0.tar.gz
+[2023-07-03 14:14:00] INFO root fetch - processPackages [ailola]: Downloading https://files.pythonhosted.org/packages/0a/02/d1ca04f4904163f75791f299f0615467ccefaa60386ef5034bb9446d8c1e/ailola-0.9.9.tar.gz
+[2023-07-03 14:14:00] INFO root fetch - processPackages [ckanext-flakes]: Downloading https://files.pythonhosted.org/packages/32/82/85ecc5e218d5ff4897b2268bec6bde8ba8bc2ad535d10291a2b4a413a1dd/ckanext-flakes-0.4.5.tar.gz
+[2023-07-03 14:14:00] INFO root fetch - processPackages [ailola]: Downloading https://files.pythonhosted.org/packages/0a/02/d1ca04f4904163f75791f299f0615467ccefaa60386ef5034bb9446d8c1e/ailola-0.9.9.tar.gz
+[2023-07-03 14:14:00] INFO root fetch - processPackages [ckanext-flakes]: Downloading https://files.pythonhosted.org/packages/32/82/85ecc5e218d5ff4897b2268bec6bde8ba8bc2ad535d10291a2b4a413a1dd/ckanext-flakes-0.4.5.tar.gz
+[2023-07-03 14:14:00] INFO root fetch - processPackages [allianceauth-auth-stats]: Downloading https://files.pythonhosted.org/packages/51/b5/6102ac38893ab279508784997940139e62625c2ee743f1f7bcf8e6a7ff78/allianceauth-auth-stats-0.0.1b2.tar.gz
+[2023-07-03 14:14:00] INFO root fetch - processPackages [clients-core]: Downloading https://files.pythonhosted.org/packages/45/15/49f7041327a81dcfea72162eb33fdda2f8ab2687225c8bab96504c247477/clients_core-2.3.1-py3-none-any.whl
+[2023-07-03 14:14:00] INFO root fetch - processPackages [drf-misc]: executing diffoscope
+[2023-07-03 14:14:00] INFO root fetch - processPackages [drf-misc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drf_misc-0.1.2.tar.gz tmp/drf_misc-0.1.3.tar.gz --markdown 20230703/d/drf-misc/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-03 14:14:00] INFO root fetch - processPackages [discord-ansi]: executing diffoscope
+[2023-07-03 14:14:00] INFO root fetch - processPackages [django-learngual]: executing diffoscope
+[2023-07-03 14:14:00] INFO root fetch - processPackages [discord-ansi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/discord-ansi-0.6.tar.gz tmp/discord-ansi-1.0.tar.gz --markdown 20230703/d/discord-ansi/0.6-1.0/diff.md --exclude *.pyd
+[2023-07-03 14:14:00] INFO root fetch - processPackages [django-learngual]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-learngual-0.13.3.tar.gz tmp/django-learngual-0.13.4.tar.gz --markdown 20230703/d/django-learngual/0.13.3-0.13.4/diff.md --exclude *.pyd
+[2023-07-03 14:14:00] INFO root fetch - processPackages [ailola]: executing diffoscope
+[2023-07-03 14:14:00] INFO root fetch - processPackages [ailola]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ailola-0.9.8.tar.gz tmp/ailola-0.9.9.tar.gz --markdown 20230703/a/ailola/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-03 14:14:00] INFO root fetch - processPackages [ailola]: executing diffoscope
+[2023-07-03 14:14:00] INFO root fetch - processPackages [ailola]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ailola-0.9.8.tar.gz tmp/ailola-0.9.9.tar.gz --markdown 20230703/a/ailola/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-03 14:14:00] INFO root fetch - processPackages [certifi-icpbr]: executing diffoscope
+[2023-07-03 14:14:00] INFO root fetch - processPackages [certifi-icpbr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/certifi_icpbr-2022.4.1.tar.gz tmp/certifi_icpbr-2023.7.3.tar.gz --markdown 20230703/c/certifi-icpbr/2022.4.1-2023.7.3/diff.md --exclude *.pyd
+[2023-07-03 14:14:00] INFO root fetch - processPackages [ckanext-flakes]: executing diffoscope
+[2023-07-03 14:14:00] INFO root fetch - processPackages [ckanext-flakes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ckanext_flakes-0.4.4-py3-none-any.whl.zip tmp/ckanext-flakes-0.4.5.tar.gz --markdown 20230703/c/ckanext-flakes/0.4.4-0.4.5/diff.md --exclude *.pyd
+[2023-07-03 14:14:00] INFO root fetch - processPackages [ckanext-flakes]: executing diffoscope
+[2023-07-03 14:14:00] INFO root fetch - processPackages [ckanext-flakes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ckanext_flakes-0.4.4-py3-none-any.whl.zip tmp/ckanext-flakes-0.4.5.tar.gz --markdown 20230703/c/ckanext-flakes/0.4.4-0.4.5/diff.md --exclude *.pyd
+[2023-07-03 14:14:00] INFO root fetch - processPackages [clients-core]: executing diffoscope
+[2023-07-03 14:14:00] INFO root fetch - processPackages [clients-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clients_core-2.3.0-py3-none-any.whl.zip tmp/clients_core-2.3.1-py3-none-any.whl.zip --markdown 20230703/c/clients-core/2.3.0-2.3.1/diff.md --exclude *.pyd
+[2023-07-03 14:14:00] INFO root fetch - processPackages [allianceauth-auth-stats]: executing diffoscope
+[2023-07-03 14:14:00] INFO root fetch - processPackages [allianceauth-auth-stats]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/allianceauth-auth-stats-0.0.1b1.tar.gz tmp/allianceauth-auth-stats-0.0.1b2.tar.gz --markdown 20230703/a/allianceauth-auth-stats/0.0.1b1-0.0.1b2/diff.md --exclude *.pyd
+[2023-07-03 14:14:02] INFO root fetch - processPackages [drf-misc]: Remove: archive file [/home/abi/fetcher/tmp/drf_misc-0.1.2.tar.gz]
+[2023-07-03 14:14:02] INFO root fetch - processPackages [drf-misc]: Remove: archive file [/home/abi/fetcher/tmp/drf_misc-0.1.3.tar.gz]
+[2023-07-03 14:14:02] INFO root fetch - processPackages [drf-misc]: Start processing: pyspry
+[2023-07-03 14:14:02] INFO root fetch - main [MainThread]: End processing [drf-misc]: success
+[2023-07-03 14:14:02] WARNING root fetch - processPackages [pyspry]: Skipping, unable to determine old version
+[2023-07-03 14:14:02] INFO root fetch - processPackages [pyspry]: Start processing: androidtvremote2
+[2023-07-03 14:14:02] INFO root fetch - main [MainThread]: End processing [pyspry] error
+[2023-07-03 14:14:02] INFO root fetch - processPackages [ailola]: Remove: archive file [/home/abi/fetcher/tmp/ailola-0.9.8.tar.gz]
+[2023-07-03 14:14:02] INFO root fetch - processPackages [ailola]: Remove: archive file [/home/abi/fetcher/tmp/ailola-0.9.9.tar.gz]
+[2023-07-03 14:14:02] INFO root fetch - processPackages [ailola]: Start processing: nlp-service
+[2023-07-03 14:14:02] INFO root fetch - main [MainThread]: End processing [ailola]: success
+[2023-07-03 14:14:02] INFO root fetch - processPackages [ckanext-flakes]: Remove: archive file [/home/abi/fetcher/tmp/ckanext_flakes-0.4.4-py3-none-any.whl.zip]
+[2023-07-03 14:14:02] INFO root fetch - processPackages [ckanext-flakes]: Remove: archive file [/home/abi/fetcher/tmp/ckanext-flakes-0.4.5.tar.gz]
+[2023-07-03 14:14:02] INFO root fetch - processPackages [ckanext-flakes]: Start processing: pmx-biobb
+[2023-07-03 14:14:02] INFO root fetch - main [MainThread]: End processing [ckanext-flakes]: success
+[2023-07-03 14:14:02] INFO root fetch - processPackages [androidtvremote2]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-03 14:14:02] INFO root fetch - processPackages [discord-ansi]: Remove: archive file [/home/abi/fetcher/tmp/discord-ansi-0.6.tar.gz]
+[2023-07-03 14:14:02] INFO root fetch - processPackages [discord-ansi]: Remove: archive file [/home/abi/fetcher/tmp/discord-ansi-1.0.tar.gz]
+[2023-07-03 14:14:02] INFO root fetch - main [MainThread]: End processing [discord-ansi]: success
+[2023-07-03 14:14:02] INFO root fetch - main [MainThread]: End processing [ailola]: success
+[2023-07-03 14:14:02] INFO root fetch - processPackages [nlp-service]: New version: [1.4.6] Old Version: [1.4.4]
+[2023-07-03 14:14:02] INFO root fetch - main [MainThread]: End processing [ckanext-flakes]: success
+[2023-07-03 14:14:02] INFO root fetch - processPackages [django-learngual]: Remove: archive file [/home/abi/fetcher/tmp/django-learngual-0.13.3.tar.gz]
+[2023-07-03 14:14:02] INFO root fetch - processPackages [django-learngual]: Remove: archive file [/home/abi/fetcher/tmp/django-learngual-0.13.4.tar.gz]
+[2023-07-03 14:14:02] INFO root fetch - main [MainThread]: End processing [django-learngual]: success
+[2023-07-03 14:14:02] INFO root fetch - processPackages [nlp-service]: Downloading https://files.pythonhosted.org/packages/12/a1/6e77eadc2231972f9aa0b00249ec50400b8a6c2941a29fc88ca32a3c5d0a/nlp_service-1.4.4.tar.gz
+[2023-07-03 14:14:02] INFO root fetch - processPackages [androidtvremote2]: Downloading https://files.pythonhosted.org/packages/19/6f/aad4c2068cc9383cad1fe138f54fed29dd5f9e1268af2aff976a1fac7998/androidtvremote2-0.0.8.tar.gz
+[2023-07-03 14:14:02] INFO root fetch - processPackages [pmx-biobb]: New version: [4.1.2] Old Version: [4.0.2]
+[2023-07-03 14:14:02] INFO root fetch - processPackages [allianceauth-auth-stats]: Remove: archive file [/home/abi/fetcher/tmp/allianceauth-auth-stats-0.0.1b1.tar.gz]
+[2023-07-03 14:14:02] INFO root fetch - processPackages [allianceauth-auth-stats]: Remove: archive file [/home/abi/fetcher/tmp/allianceauth-auth-stats-0.0.1b2.tar.gz]
+[2023-07-03 14:14:02] INFO root fetch - main [MainThread]: End processing [allianceauth-auth-stats]: success
+[2023-07-03 14:14:02] INFO root fetch - processPackages [certifi-icpbr]: Remove: archive file [/home/abi/fetcher/tmp/certifi_icpbr-2022.4.1.tar.gz]
+[2023-07-03 14:14:02] INFO root fetch - processPackages [certifi-icpbr]: Remove: archive file [/home/abi/fetcher/tmp/certifi_icpbr-2023.7.3.tar.gz]
+[2023-07-03 14:14:02] INFO root fetch - main [MainThread]: End processing [certifi-icpbr]: success
+[2023-07-03 14:14:02] INFO root fetch - processPackages [clients-core]: Remove: archive file [/home/abi/fetcher/tmp/clients_core-2.3.0-py3-none-any.whl.zip]
+[2023-07-03 14:14:02] INFO root fetch - processPackages [clients-core]: Remove: archive file [/home/abi/fetcher/tmp/clients_core-2.3.1-py3-none-any.whl.zip]
+[2023-07-03 14:14:02] INFO root fetch - main [MainThread]: End processing [clients-core]: success
+[2023-07-03 14:14:02] INFO root fetch - processPackages [nlp-service]: Downloading https://files.pythonhosted.org/packages/d6/4f/65cd932706e3b1e7bc5a096e2bb0b61ad63b693b412efece3b7db124822a/nlp_service-1.4.6.tar.gz
+[2023-07-03 14:14:02] INFO root fetch - processPackages [androidtvremote2]: Downloading https://files.pythonhosted.org/packages/cc/6a/ab72650e40a1acb300b90bde94ec90521ee06fd0c067dfd12c6c2d7c2697/androidtvremote2-0.0.9.tar.gz
+[2023-07-03 14:14:02] INFO root fetch - processPackages [pmx-biobb]: Downloading https://files.pythonhosted.org/packages/1e/f1/377ebcaabe3ae496f4e58c434464cc6899d7a1a6287abea0ac19c9a84f38/pmx_biobb-4.0.2.tar.gz
+[2023-07-03 14:14:02] INFO root fetch - processPackages [nlp-service]: executing diffoscope
+[2023-07-03 14:14:02] INFO root fetch - processPackages [nlp-service]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nlp_service-1.4.4.tar.gz tmp/nlp_service-1.4.6.tar.gz --markdown 20230703/n/nlp-service/1.4.4-1.4.6/diff.md --exclude *.pyd
+[2023-07-03 14:14:03] INFO root fetch - processPackages [androidtvremote2]: executing diffoscope
+[2023-07-03 14:14:03] INFO root fetch - processPackages [androidtvremote2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/androidtvremote2-0.0.8.tar.gz tmp/androidtvremote2-0.0.9.tar.gz --markdown 20230703/a/androidtvremote2/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-03 14:14:03] INFO root fetch - processPackages [pmx-biobb]: Downloading https://files.pythonhosted.org/packages/de/e6/7e0419f8305191fb52c09e3f36db33fa8e37e029e6e2d0c361cb384cfefa/pmx_biobb-4.1.2.tar.gz
+[2023-07-03 14:14:03] INFO root fetch - processPackages [nlp-service]: Remove: archive file [/home/abi/fetcher/tmp/nlp_service-1.4.4.tar.gz]
+[2023-07-03 14:14:03] INFO root fetch - processPackages [nlp-service]: Remove: archive file [/home/abi/fetcher/tmp/nlp_service-1.4.6.tar.gz]
+[2023-07-03 14:14:03] INFO root fetch - main [MainThread]: End processing [nlp-service]: success
+[2023-07-03 14:14:03] INFO root fetch - processPackages [androidtvremote2]: Remove: archive file [/home/abi/fetcher/tmp/androidtvremote2-0.0.8.tar.gz]
+[2023-07-03 14:14:03] INFO root fetch - processPackages [androidtvremote2]: Remove: archive file [/home/abi/fetcher/tmp/androidtvremote2-0.0.9.tar.gz]
+[2023-07-03 14:14:03] INFO root fetch - main [MainThread]: End processing [androidtvremote2]: success
+[2023-07-03 14:14:04] INFO root fetch - processPackages [pmx-biobb]: executing diffoscope
+[2023-07-03 14:14:04] INFO root fetch - processPackages [pmx-biobb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pmx_biobb-4.0.2.tar.gz tmp/pmx_biobb-4.1.2.tar.gz --markdown 20230703/p/pmx-biobb/4.0.2-4.1.2/diff.md --exclude *.pyd
+[2023-07-03 14:14:08] INFO root fetch - processPackages [pmx-biobb]: Remove: archive file [/home/abi/fetcher/tmp/pmx_biobb-4.0.2.tar.gz]
+[2023-07-03 14:14:08] INFO root fetch - processPackages [pmx-biobb]: Remove: archive file [/home/abi/fetcher/tmp/pmx_biobb-4.1.2.tar.gz]
+[2023-07-03 14:14:08] INFO root fetch - main [MainThread]: End processing [pmx-biobb]: success
+[2023-07-03 14:14:08] INFO root fetch - main [MainThread]: Store serial: [18738793]
