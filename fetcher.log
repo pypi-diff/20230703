@@ -6525,3 +6525,94 @@
 [2023-07-03 05:46:37] INFO root fetch - processPackages [DBRetina]: Remove: archive file [/home/abi/fetcher/tmp/DBRetina-2.2.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2023-07-03 05:46:37] INFO root fetch - main [MainThread]: End processing [DBRetina]: success
 [2023-07-03 05:46:37] INFO root fetch - main [MainThread]: Store serial: [18734436]
+[2023-07-03 05:51:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18734436]
+[2023-07-03 05:51:46] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-03 05:51:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: owe-python-sdk
+[2023-07-03 05:51:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: qinglan-bot
+[2023-07-03 05:51:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aliyun-python-sdk-nlp-automl
+[2023-07-03 05:51:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: owe-python-sdk
+[2023-07-03 05:51:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mcqq-tool
+[2023-07-03 05:51:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gravitorch
+[2023-07-03 05:51:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pycollimator
+[2023-07-03 05:51:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nonebot-plugin-mcqq
+[2023-07-03 05:51:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: genepass
+[2023-07-03 05:51:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: RamseyTheoryRL
+[2023-07-03 05:51:46] INFO root fetch - processPackages [owe-python-sdk]: New version: [0.0.1a9] Old Version: [0.0.1a8]
+[2023-07-03 05:51:46] INFO root fetch - processPackages [owe-python-sdk]: New version: [0.0.1a9] Old Version: [0.0.1a8]
+[2023-07-03 05:51:46] INFO root fetch - processPackages [genepass]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-07-03 05:51:46] INFO root fetch - processPackages [qinglan-bot]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-07-03 05:51:46] INFO root fetch - processPackages [aliyun-python-sdk-nlp-automl]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-03 05:51:46] INFO root fetch - processPackages [gravitorch]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-03 05:51:46] INFO root fetch - processPackages [mcqq-tool]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-03 05:51:46] INFO root fetch - processPackages [pycollimator]: New version: [1.3.884.post7] Old Version: [1.3.884.post59]
+[2023-07-03 05:51:46] INFO root fetch - processPackages [RamseyTheoryRL]: New version: [0.6] Old Version: [0.54]
+[2023-07-03 05:51:46] INFO root fetch - processPackages [nonebot-plugin-mcqq]: New version: [1.2.6.post1] Old Version: [1.2.5.post1]
+[2023-07-03 05:51:46] INFO root fetch - processPackages [owe-python-sdk]: Downloading https://files.pythonhosted.org/packages/b7/87/2ed4496794411461faafd9b31cde5a571ee0b54f11200933d019777ca951/owe_python_sdk-0.0.1a8.tar.gz
+[2023-07-03 05:51:46] INFO root fetch - processPackages [owe-python-sdk]: Downloading https://files.pythonhosted.org/packages/b7/87/2ed4496794411461faafd9b31cde5a571ee0b54f11200933d019777ca951/owe_python_sdk-0.0.1a8.tar.gz
+[2023-07-03 05:51:46] INFO root fetch - processPackages [RamseyTheoryRL]: Downloading https://files.pythonhosted.org/packages/f0/08/715b6bc086254b8a68b135e14372d64b9f4d64ab7f8af1ad3ea1b1734e14/RamseyTheoryRL-0.54.tar.gz
+[2023-07-03 05:51:46] INFO root fetch - processPackages [owe-python-sdk]: Downloading https://files.pythonhosted.org/packages/31/27/a7a614b3213736597496297134f4cd10fd0ecee2f977d8e86784bb925c43/owe_python_sdk-0.0.1a9.tar.gz
+[2023-07-03 05:51:46] INFO root fetch - processPackages [qinglan-bot]: Downloading https://files.pythonhosted.org/packages/d1/ac/f2e6f1e2c68a27a20f43dfba711e35054d59d44d509c0abf50b7f4608c95/qinglan-bot-0.1.4.tar.gz
+[2023-07-03 05:51:46] INFO root fetch - processPackages [owe-python-sdk]: Downloading https://files.pythonhosted.org/packages/31/27/a7a614b3213736597496297134f4cd10fd0ecee2f977d8e86784bb925c43/owe_python_sdk-0.0.1a9.tar.gz
+[2023-07-03 05:51:46] INFO root fetch - processPackages [genepass]: Downloading https://files.pythonhosted.org/packages/fc/67/3238038b5860b7f4eb332956e8d07d91a6a670c22bbca14fcb4bb4bde09a/genepass-0.1.5.tar.gz
+[2023-07-03 05:51:46] INFO root fetch - processPackages [owe-python-sdk]: executing diffoscope
+[2023-07-03 05:51:46] INFO root fetch - processPackages [owe-python-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/owe_python_sdk-0.0.1a8.tar.gz tmp/owe_python_sdk-0.0.1a9.tar.gz --markdown 20230703/o/owe-python-sdk/0.0.1a8-0.0.1a9/diff.md --exclude *.pyd
+[2023-07-03 05:51:46] INFO root fetch - processPackages [pycollimator]: Downloading https://files.pythonhosted.org/packages/fe/5a/b1704152657ae8b84614eaa72deb30e6faf782dd4233cdef200557fc46e5/pycollimator-1.3.884.post59.tar.gz
+[2023-07-03 05:51:46] INFO root fetch - processPackages [gravitorch]: Downloading https://files.pythonhosted.org/packages/3c/eb/d596884cdb31e5198aa387878eb8ef895802e567d7d679b97f4a406e21ae/gravitorch-0.0.8.tar.gz
+[2023-07-03 05:51:46] INFO root fetch - processPackages [owe-python-sdk]: executing diffoscope
+[2023-07-03 05:51:46] INFO root fetch - processPackages [owe-python-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/owe_python_sdk-0.0.1a8.tar.gz tmp/owe_python_sdk-0.0.1a9.tar.gz --markdown 20230703/o/owe-python-sdk/0.0.1a8-0.0.1a9/diff.md --exclude *.pyd
+[2023-07-03 05:51:46] INFO root fetch - processPackages [nonebot-plugin-mcqq]: Downloading https://files.pythonhosted.org/packages/19/2f/e45c4e6b0f2a94341888f2bc4310546240fe76eadf22fc4fc693e3f07871/nonebot-plugin-mcqq-1.2.5.post1.tar.gz
+[2023-07-03 05:51:46] INFO root fetch - processPackages [mcqq-tool]: Downloading https://files.pythonhosted.org/packages/04/b4/7b1bffc1debfd5841680a84f26e80f3dcd6402fcd73dad96116f33aae192/mcqq-tool-0.0.7.tar.gz
+[2023-07-03 05:51:46] INFO root fetch - processPackages [aliyun-python-sdk-nlp-automl]: Downloading https://files.pythonhosted.org/packages/ca/81/233be695ced0b1ac2507199ec930398931be9e16720ed385bcb5127c269f/aliyun-python-sdk-nlp-automl-0.0.8.tar.gz
+[2023-07-03 05:51:46] INFO root fetch - processPackages [RamseyTheoryRL]: Downloading https://files.pythonhosted.org/packages/15/5e/c41824ffce67bda0ff20b2c66e4b7ce4112a22e308809a68eb5ff73b9c31/RamseyTheoryRL-0.6.tar.gz
+[2023-07-03 05:51:46] INFO root fetch - processPackages [gravitorch]: Downloading https://files.pythonhosted.org/packages/d8/af/12bd29b316e1abfd4a89affc84ab78a2b03aaa0ebdf20315c6dc8c4c3886/gravitorch-0.0.9.tar.gz
+[2023-07-03 05:51:46] INFO root fetch - processPackages [qinglan-bot]: Downloading https://files.pythonhosted.org/packages/ec/c6/819319063542a32ece20ef212431012185e6f84542ffe7a7f0222af53644/qinglan-bot-0.1.5.tar.gz
+[2023-07-03 05:51:47] INFO root fetch - processPackages [gravitorch]: executing diffoscope
+[2023-07-03 05:51:47] INFO root fetch - processPackages [gravitorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gravitorch-0.0.8.tar.gz tmp/gravitorch-0.0.9.tar.gz --markdown 20230703/g/gravitorch/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-03 05:51:47] INFO root fetch - processPackages [nonebot-plugin-mcqq]: Downloading https://files.pythonhosted.org/packages/1d/16/200d1c8425c1f3cab70bdae1e625672acf8b88819cc4ffc7a8c662bf1f97/nonebot-plugin-mcqq-1.2.6.post1.tar.gz
+[2023-07-03 05:51:47] INFO root fetch - processPackages [genepass]: Downloading https://files.pythonhosted.org/packages/ec/4f/8425ed23a8660777255d804a5199d3b12584968ea1f4222c5b69e93d4223/genepass-0.1.6.tar.gz
+[2023-07-03 05:51:47] INFO root fetch - processPackages [RamseyTheoryRL]: executing diffoscope
+[2023-07-03 05:51:47] INFO root fetch - processPackages [RamseyTheoryRL]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RamseyTheoryRL-0.54.tar.gz tmp/RamseyTheoryRL-0.6.tar.gz --markdown 20230703/R/RamseyTheoryRL/0.54-0.6/diff.md --exclude *.pyd
+[2023-07-03 05:51:47] INFO root fetch - processPackages [genepass]: executing diffoscope
+[2023-07-03 05:51:47] INFO root fetch - processPackages [genepass]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/genepass-0.1.5.tar.gz tmp/genepass-0.1.6.tar.gz --markdown 20230703/g/genepass/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-07-03 05:51:47] INFO root fetch - processPackages [nonebot-plugin-mcqq]: executing diffoscope
+[2023-07-03 05:51:47] INFO root fetch - processPackages [nonebot-plugin-mcqq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot-plugin-mcqq-1.2.5.post1.tar.gz tmp/nonebot-plugin-mcqq-1.2.6.post1.tar.gz --markdown 20230703/n/nonebot-plugin-mcqq/1.2.5.post1-1.2.6.post1/diff.md --exclude *.pyd
+[2023-07-03 05:51:47] INFO root fetch - processPackages [qinglan-bot]: executing diffoscope
+[2023-07-03 05:51:47] INFO root fetch - processPackages [qinglan-bot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qinglan-bot-0.1.4.tar.gz tmp/qinglan-bot-0.1.5.tar.gz --markdown 20230703/q/qinglan-bot/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-07-03 05:51:47] INFO root fetch - processPackages [mcqq-tool]: Downloading https://files.pythonhosted.org/packages/9d/18/3ae4dc8a34d1cfb56cc3101e64ddbb6d0aaad196ed756f915bd15bf1fb71/mcqq-tool-0.0.8.tar.gz
+[2023-07-03 05:51:47] INFO root fetch - processPackages [pycollimator]: Downloading https://files.pythonhosted.org/packages/28/48/cbe684e42ce1b7d6fdda574e916633fbab71c9d102edc94b21376e5316ee/pycollimator-1.3.884.post7.tar.gz
+[2023-07-03 05:51:47] INFO root fetch - processPackages [aliyun-python-sdk-nlp-automl]: Downloading https://files.pythonhosted.org/packages/09/9c/543393ebbb657cd7120e8d955f6400e3a1c874f96132c8c1f41462ca09c8/aliyun-python-sdk-nlp-automl-0.0.9.tar.gz
+[2023-07-03 05:51:47] INFO root fetch - processPackages [mcqq-tool]: executing diffoscope
+[2023-07-03 05:51:47] INFO root fetch - processPackages [mcqq-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mcqq-tool-0.0.7.tar.gz tmp/mcqq-tool-0.0.8.tar.gz --markdown 20230703/m/mcqq-tool/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-03 05:51:47] INFO root fetch - processPackages [aliyun-python-sdk-nlp-automl]: executing diffoscope
+[2023-07-03 05:51:47] INFO root fetch - processPackages [aliyun-python-sdk-nlp-automl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aliyun-python-sdk-nlp-automl-0.0.8.tar.gz tmp/aliyun-python-sdk-nlp-automl-0.0.9.tar.gz --markdown 20230703/a/aliyun-python-sdk-nlp-automl/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-03 05:51:47] INFO root fetch - processPackages [pycollimator]: executing diffoscope
+[2023-07-03 05:51:47] INFO root fetch - processPackages [pycollimator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycollimator-1.3.884.post59.tar.gz tmp/pycollimator-1.3.884.post7.tar.gz --markdown 20230703/p/pycollimator/1.3.884.post59-1.3.884.post7/diff.md --exclude *.pyd
+[2023-07-03 05:51:48] INFO root fetch - processPackages [owe-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/owe_python_sdk-0.0.1a8.tar.gz]
+[2023-07-03 05:51:48] INFO root fetch - processPackages [owe-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/owe_python_sdk-0.0.1a9.tar.gz]
+[2023-07-03 05:51:48] INFO root fetch - main [MainThread]: End processing [owe-python-sdk]: success
+[2023-07-03 05:51:48] INFO root fetch - main [MainThread]: End processing [owe-python-sdk]: success
+[2023-07-03 05:51:48] INFO root fetch - processPackages [genepass]: Remove: archive file [/home/abi/fetcher/tmp/genepass-0.1.5.tar.gz]
+[2023-07-03 05:51:48] INFO root fetch - processPackages [genepass]: Remove: archive file [/home/abi/fetcher/tmp/genepass-0.1.6.tar.gz]
+[2023-07-03 05:51:48] INFO root fetch - main [MainThread]: End processing [genepass]: success
+[2023-07-03 05:51:48] INFO root fetch - processPackages [RamseyTheoryRL]: Remove: archive file [/home/abi/fetcher/tmp/RamseyTheoryRL-0.54.tar.gz]
+[2023-07-03 05:51:48] INFO root fetch - processPackages [RamseyTheoryRL]: Remove: archive file [/home/abi/fetcher/tmp/RamseyTheoryRL-0.6.tar.gz]
+[2023-07-03 05:51:48] INFO root fetch - main [MainThread]: End processing [RamseyTheoryRL]: success
+[2023-07-03 05:51:48] INFO root fetch - processPackages [aliyun-python-sdk-nlp-automl]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-nlp-automl-0.0.8.tar.gz]
+[2023-07-03 05:51:48] INFO root fetch - processPackages [aliyun-python-sdk-nlp-automl]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-nlp-automl-0.0.9.tar.gz]
+[2023-07-03 05:51:48] INFO root fetch - main [MainThread]: End processing [aliyun-python-sdk-nlp-automl]: success
+[2023-07-03 05:51:48] INFO root fetch - processPackages [mcqq-tool]: Remove: archive file [/home/abi/fetcher/tmp/mcqq-tool-0.0.7.tar.gz]
+[2023-07-03 05:51:48] INFO root fetch - processPackages [mcqq-tool]: Remove: archive file [/home/abi/fetcher/tmp/mcqq-tool-0.0.8.tar.gz]
+[2023-07-03 05:51:48] INFO root fetch - main [MainThread]: End processing [mcqq-tool]: success
+[2023-07-03 05:51:48] INFO root fetch - processPackages [nonebot-plugin-mcqq]: Remove: archive file [/home/abi/fetcher/tmp/nonebot-plugin-mcqq-1.2.5.post1.tar.gz]
+[2023-07-03 05:51:48] INFO root fetch - processPackages [nonebot-plugin-mcqq]: Remove: archive file [/home/abi/fetcher/tmp/nonebot-plugin-mcqq-1.2.6.post1.tar.gz]
+[2023-07-03 05:51:48] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-mcqq]: success
+[2023-07-03 05:51:49] INFO root fetch - processPackages [qinglan-bot]: Remove: archive file [/home/abi/fetcher/tmp/qinglan-bot-0.1.4.tar.gz]
+[2023-07-03 05:51:49] INFO root fetch - processPackages [qinglan-bot]: Remove: archive file [/home/abi/fetcher/tmp/qinglan-bot-0.1.5.tar.gz]
+[2023-07-03 05:51:49] INFO root fetch - main [MainThread]: End processing [qinglan-bot]: success
+[2023-07-03 05:51:49] INFO root fetch - processPackages [pycollimator]: Remove: archive file [/home/abi/fetcher/tmp/pycollimator-1.3.884.post59.tar.gz]
+[2023-07-03 05:51:49] INFO root fetch - processPackages [pycollimator]: Remove: archive file [/home/abi/fetcher/tmp/pycollimator-1.3.884.post7.tar.gz]
+[2023-07-03 05:51:49] INFO root fetch - main [MainThread]: End processing [pycollimator]: success
+[2023-07-03 05:51:50] INFO root fetch - processPackages [gravitorch]: Remove: archive file [/home/abi/fetcher/tmp/gravitorch-0.0.8.tar.gz]
+[2023-07-03 05:51:50] INFO root fetch - processPackages [gravitorch]: Remove: archive file [/home/abi/fetcher/tmp/gravitorch-0.0.9.tar.gz]
+[2023-07-03 05:51:50] INFO root fetch - main [MainThread]: End processing [gravitorch]: success
+[2023-07-03 05:51:50] INFO root fetch - main [MainThread]: Store serial: [18734470]
