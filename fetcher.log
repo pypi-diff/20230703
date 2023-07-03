@@ -12307,3 +12307,159 @@ AssertionError: tmp/discord-ansi-0.3.tar.gz does not exist
 [2023-07-03 11:18:13] INFO root fetch - processPackages [vollseg-napari-trackmate]: Remove: archive file [/home/abi/fetcher/tmp/vollseg-napari-trackmate-2.2.5.tar.gz]
 [2023-07-03 11:18:13] INFO root fetch - main [MainThread]: End processing [vollseg-napari-trackmate]: success
 [2023-07-03 11:18:13] INFO root fetch - main [MainThread]: Store serial: [18736825]
+[2023-07-03 11:23:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18736825]
+[2023-07-03 11:23:23] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-07-03 11:23:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tbp-nightly
+[2023-07-03 11:23:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: btimer
+[2023-07-03 11:23:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: chatllm
+[2023-07-03 11:23:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tailscale-localapi
+[2023-07-03 11:23:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mjml-python
+[2023-07-03 11:23:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pgperf
+[2023-07-03 11:23:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: teamanchorhello
+[2023-07-03 11:23:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: bili-uas
+[2023-07-03 11:23:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dataplicity
+[2023-07-03 11:23:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: starlite-users
+[2023-07-03 11:23:23] INFO root fetch - processPackages [teamanchorhello]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-03 11:23:23] INFO root fetch - processPackages [btimer]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-03 11:23:23] INFO root fetch - processPackages [pgperf]: New version: [1.0.0] Old Version: [0.1.5]
+[2023-07-03 11:23:23] INFO root fetch - processPackages [mjml-python]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-07-03 11:23:23] INFO root fetch - processPackages [bili-uas]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-03 11:23:23] INFO root fetch - processPackages [starlite-users]: New version: [0.8.0] Old Version: [0.7.1]
+[2023-07-03 11:23:23] WARNING root fetch - processPackages [tailscale-localapi]: Skipping, unable to determine old version
+[2023-07-03 11:23:23] INFO root fetch - processPackages [tailscale-localapi]: Start processing: django-timestampable
+[2023-07-03 11:23:23] INFO root fetch - main [MainThread]: End processing [tailscale-localapi] error
+[2023-07-03 11:23:23] INFO root fetch - processPackages [dataplicity]: New version: [0.5.9a5] Old Version: [0.5.9a4]
+[2023-07-03 11:23:23] INFO root fetch - processPackages [chatllm]: New version: [2023.7.3.17.18.57] Old Version: [2023.6.30.20.15.36]
+[2023-07-03 11:23:23] INFO root fetch - processPackages [tbp-nightly]: New version: [2.9.0a20221130] Old Version: [2.9.0a20221129]
+[2023-07-03 11:23:23] INFO root fetch - processPackages [django-timestampable]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-07-03 11:23:23] INFO root fetch - processPackages [dataplicity]: Downloading https://files.pythonhosted.org/packages/ef/55/51d0f967e475001f99b73eb9ff910341b5f4e3c0a8b008f0651338bde6ae/dataplicity-0.5.9a4.tar.gz
+[2023-07-03 11:23:23] INFO root fetch - processPackages [btimer]: Downloading https://files.pythonhosted.org/packages/87/c6/d773938174a91866125d3ff7863b0324ae45dc8ab20ac58c398de3a261ff/btimer-1.0.8.tar.gz
+[2023-07-03 11:23:23] INFO root fetch - processPackages [teamanchorhello]: Downloading https://files.pythonhosted.org/packages/21/3f/b81709eefa0229862f082516934c9d26e3e81118031d936917e8cf70267a/teamanchorhello-0.0.8.tar.gz
+[2023-07-03 11:23:23] INFO root fetch - processPackages [pgperf]: Downloading https://files.pythonhosted.org/packages/05/cb/334c49e6f91f01ff786bda4bb73cdcd35940e7173c863dc1d224806f0f6b/pgperf-0.1.5.tar.gz
+[2023-07-03 11:23:23] INFO root fetch - processPackages [mjml-python]: Downloading https://files.pythonhosted.org/packages/1c/80/b046c9b05b6defcd81499914745c409b7681d1c35c1d1390d12c55ff921d/mjml_python-1.0.0-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-03 11:23:23] INFO root fetch - processPackages [bili-uas]: Downloading https://files.pythonhosted.org/packages/e8/59/e91ff29fa55551b28705edd0a8752411dd9af1d5e4a25e2aa6ab073b0f82/bili-uas-0.1.0.tar.gz
+[2023-07-03 11:23:23] INFO root fetch - processPackages [starlite-users]: Downloading https://files.pythonhosted.org/packages/3c/3b/bfac0a0fa91fa4558d454044cbf8a8c8433eb07e4126fa33894c34e5def1/starlite_users-0.7.1.tar.gz
+[2023-07-03 11:23:23] INFO root fetch - processPackages [chatllm]: Downloading https://files.pythonhosted.org/packages/c9/45/caab28091e8c94906c10a641750ec744bf997f5d5dd37a0741d8dc55a445/chatllm-2023.6.30.20.15.36.tar.gz
+[2023-07-03 11:23:23] INFO root fetch - processPackages [django-timestampable]: Downloading https://files.pythonhosted.org/packages/d1/2c/65602cde0488b6d4b1b9be64bd4663955e5051e13e1aeda2b9226cd8145e/django-timestampable-1.1.1.tar.gz
+[2023-07-03 11:23:23] INFO root fetch - processPackages [tbp-nightly]: Downloading https://files.pythonhosted.org/packages/b9/6c/43a589e5ab1d1b961e5780e41057576c7abd5bf16d3f871d8ef4ebdaf461/tbp-nightly-2.9.0a20221129.tar.gz
+[2023-07-03 11:23:24] INFO root fetch - processPackages [dataplicity]: Downloading https://files.pythonhosted.org/packages/90/33/51cf718679e72aa0262c29bc64715d7498269d5de2a09e211efe30644d63/dataplicity-0.5.9a5.tar.gz
+[2023-07-03 11:23:24] INFO root fetch - processPackages [btimer]: Downloading https://files.pythonhosted.org/packages/42/73/09f7e55832748ff3d5052a6cbb4d87f93acdaed865f20e8d0be81bfffa4a/btimer-1.0.9.tar.gz
+[2023-07-03 11:23:24] INFO root fetch - processPackages [teamanchorhello]: Downloading https://files.pythonhosted.org/packages/bc/5d/05a64d8bcc28b884580415522f4d1cd13dd457745d1e9e91163b7dd77d13/teamanchorhello-0.0.9.tar.gz
+[2023-07-03 11:23:24] INFO root fetch - processPackages [pgperf]: Downloading https://files.pythonhosted.org/packages/cd/f1/3a714c55c9a2f503c368265b273f378697adbb5324a4d8c3199f38ead2dc/pgperf-1.0.0.tar.gz
+[2023-07-03 11:23:24] INFO root fetch - processPackages [django-timestampable]: Downloading https://files.pythonhosted.org/packages/7b/e4/c937f434c65ec3a7aafa6dbe43034be1f691216f3dc4a9fcac9425fb4b29/django-timestampable-1.1.2.tar.gz
+[2023-07-03 11:23:24] INFO root fetch - processPackages [btimer]: executing diffoscope
+[2023-07-03 11:23:24] INFO root fetch - processPackages [btimer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/btimer-1.0.8.tar.gz tmp/btimer-1.0.9.tar.gz --markdown 20230703/b/btimer/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-03 11:23:24] INFO root fetch - processPackages [starlite-users]: Downloading https://files.pythonhosted.org/packages/67/6f/28f36031e74d370af6531bc875909d9c58a688f8ae168b8e3b25826b4347/starlite_users-0.8.0.tar.gz
+[2023-07-03 11:23:24] INFO root fetch - processPackages [bili-uas]: Downloading https://files.pythonhosted.org/packages/85/62/5236f814d101b8df1610876a77bd12b02953af68df1488087f56717ce620/bili-uas-0.1.1.tar.gz
+[2023-07-03 11:23:24] INFO root fetch - processPackages [dataplicity]: executing diffoscope
+[2023-07-03 11:23:24] INFO root fetch - processPackages [dataplicity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataplicity-0.5.9a4.tar.gz tmp/dataplicity-0.5.9a5.tar.gz --markdown 20230703/d/dataplicity/0.5.9a4-0.5.9a5/diff.md --exclude *.pyd
+[2023-07-03 11:23:24] INFO root fetch - processPackages [django-timestampable]: executing diffoscope
+[2023-07-03 11:23:24] INFO root fetch - processPackages [django-timestampable]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-timestampable-1.1.1.tar.gz tmp/django-timestampable-1.1.2.tar.gz --markdown 20230703/d/django-timestampable/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-07-03 11:23:24] INFO root fetch - processPackages [teamanchorhello]: executing diffoscope
+[2023-07-03 11:23:24] INFO root fetch - processPackages [teamanchorhello]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/teamanchorhello-0.0.8.tar.gz tmp/teamanchorhello-0.0.9.tar.gz --markdown 20230703/t/teamanchorhello/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-03 11:23:24] INFO root fetch - processPackages [starlite-users]: executing diffoscope
+[2023-07-03 11:23:24] INFO root fetch - processPackages [starlite-users]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/starlite_users-0.7.1.tar.gz tmp/starlite_users-0.8.0.tar.gz --markdown 20230703/s/starlite-users/0.7.1-0.8.0/diff.md --exclude *.pyd
+[2023-07-03 11:23:24] INFO root fetch - processPackages [mjml-python]: Downloading https://files.pythonhosted.org/packages/c2/ee/dcd2f655c3273b6afeb0fa0eb47aab0d01e64e88af7ccc64edff4e471477/mjml_python-1.1.0-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-03 11:23:24] INFO root fetch - processPackages [pgperf]: executing diffoscope
+[2023-07-03 11:23:24] INFO root fetch - processPackages [pgperf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pgperf-0.1.5.tar.gz tmp/pgperf-1.0.0.tar.gz --markdown 20230703/p/pgperf/0.1.5-1.0.0/diff.md --exclude *.pyd
+[2023-07-03 11:23:24] INFO root fetch - processPackages [bili-uas]: executing diffoscope
+[2023-07-03 11:23:24] INFO root fetch - processPackages [bili-uas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bili-uas-0.1.0.tar.gz tmp/bili-uas-0.1.1.tar.gz --markdown 20230703/b/bili-uas/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-03 11:23:25] INFO root fetch - processPackages [mjml-python]: executing diffoscope
+[2023-07-03 11:23:25] INFO root fetch - processPackages [mjml-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mjml_python-1.0.0-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/mjml_python-1.1.0-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230703/m/mjml-python/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-07-03 11:23:25] INFO root fetch - processPackages [tbp-nightly]: Downloading https://files.pythonhosted.org/packages/2e/31/c611af28c0d42c7cbb86781523f94e57796654fd8b7a7049e8a6db2eecf3/tbp-nightly-2.9.0a20221130.tar.gz
+[2023-07-03 11:23:25] INFO root fetch - processPackages [btimer]: Remove: archive file [/home/abi/fetcher/tmp/btimer-1.0.8.tar.gz]
+[2023-07-03 11:23:25] INFO root fetch - processPackages [btimer]: Remove: archive file [/home/abi/fetcher/tmp/btimer-1.0.9.tar.gz]
+[2023-07-03 11:23:25] INFO root fetch - processPackages [btimer]: Start processing: sympde
+[2023-07-03 11:23:25] INFO root fetch - main [MainThread]: End processing [btimer]: success
+[2023-07-03 11:23:25] INFO root fetch - processPackages [tbp-nightly]: executing diffoscope
+[2023-07-03 11:23:25] INFO root fetch - processPackages [tbp-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tbp-nightly-2.9.0a20221129.tar.gz tmp/tbp-nightly-2.9.0a20221130.tar.gz --markdown 20230703/t/tbp-nightly/2.9.0a20221129-2.9.0a20221130/diff.md --exclude *.pyd
+[2023-07-03 11:23:25] INFO root fetch - processPackages [django-timestampable]: Remove: archive file [/home/abi/fetcher/tmp/django-timestampable-1.1.1.tar.gz]
+[2023-07-03 11:23:25] INFO root fetch - processPackages [django-timestampable]: Remove: archive file [/home/abi/fetcher/tmp/django-timestampable-1.1.2.tar.gz]
+[2023-07-03 11:23:25] INFO root fetch - processPackages [django-timestampable]: Start processing: yaecs
+[2023-07-03 11:23:25] INFO root fetch - main [MainThread]: End processing [django-timestampable]: success
+[2023-07-03 11:23:25] INFO root fetch - processPackages [sympde]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-03 11:23:25] INFO root fetch - processPackages [teamanchorhello]: Remove: archive file [/home/abi/fetcher/tmp/teamanchorhello-0.0.8.tar.gz]
+[2023-07-03 11:23:25] INFO root fetch - processPackages [teamanchorhello]: Remove: archive file [/home/abi/fetcher/tmp/teamanchorhello-0.0.9.tar.gz]
+[2023-07-03 11:23:25] INFO root fetch - processPackages [teamanchorhello]: Start processing: mindee
+[2023-07-03 11:23:25] INFO root fetch - main [MainThread]: End processing [teamanchorhello]: success
+[2023-07-03 11:23:25] INFO root fetch - processPackages [yaecs]: New version: [4.1.0] Old Version: [4.0.2]
+[2023-07-03 11:23:25] INFO root fetch - processPackages [dataplicity]: Remove: archive file [/home/abi/fetcher/tmp/dataplicity-0.5.9a4.tar.gz]
+[2023-07-03 11:23:25] INFO root fetch - processPackages [dataplicity]: Remove: archive file [/home/abi/fetcher/tmp/dataplicity-0.5.9a5.tar.gz]
+[2023-07-03 11:23:25] INFO root fetch - processPackages [dataplicity]: Start processing: antchain-hk-securitytech
+[2023-07-03 11:23:25] INFO root fetch - main [MainThread]: End processing [dataplicity]: success
+[2023-07-03 11:23:25] INFO root fetch - processPackages [mindee]: New version: [3.9.1] Old Version: [3.9.0]
+[2023-07-03 11:23:25] INFO root fetch - processPackages [antchain-hk-securitytech]: New version: [1.3.2] Old Version: [1.0.1]
+[2023-07-03 11:23:26] INFO root fetch - processPackages [pgperf]: Remove: archive file [/home/abi/fetcher/tmp/pgperf-0.1.5.tar.gz]
+[2023-07-03 11:23:26] INFO root fetch - processPackages [pgperf]: Remove: archive file [/home/abi/fetcher/tmp/pgperf-1.0.0.tar.gz]
+[2023-07-03 11:23:26] INFO root fetch - processPackages [pgperf]: Start processing: pyiceberg
+[2023-07-03 11:23:26] INFO root fetch - main [MainThread]: End processing [pgperf]: success
+[2023-07-03 11:23:26] INFO root fetch - processPackages [starlite-users]: Remove: archive file [/home/abi/fetcher/tmp/starlite_users-0.7.1.tar.gz]
+[2023-07-03 11:23:26] INFO root fetch - processPackages [starlite-users]: Remove: archive file [/home/abi/fetcher/tmp/starlite_users-0.8.0.tar.gz]
+[2023-07-03 11:23:26] INFO root fetch - processPackages [starlite-users]: Start processing: qute-style
+[2023-07-03 11:23:26] INFO root fetch - main [MainThread]: End processing [starlite-users]: success
+[2023-07-03 11:23:26] INFO root fetch - processPackages [sympde]: Downloading https://files.pythonhosted.org/packages/17/6a/8b9ea8960e8cb7f28e238fda3e1d918df0c67adf619516b0ad6a4725f9d0/sympde-0.9.8.tar.gz
+[2023-07-03 11:23:26] INFO root fetch - processPackages [bili-uas]: Remove: archive file [/home/abi/fetcher/tmp/bili-uas-0.1.0.tar.gz]
+[2023-07-03 11:23:26] INFO root fetch - processPackages [bili-uas]: Remove: archive file [/home/abi/fetcher/tmp/bili-uas-0.1.1.tar.gz]
+[2023-07-03 11:23:26] INFO root fetch - processPackages [bili-uas]: Start processing: spanishconjugator
+[2023-07-03 11:23:26] INFO root fetch - main [MainThread]: End processing [bili-uas]: success
+[2023-07-03 11:23:26] INFO root fetch - processPackages [mindee]: Downloading https://files.pythonhosted.org/packages/fb/47/076525e5339f7e8ae1cbc55583a72c25d0d042fa9550b5226d9eacf947fd/mindee-3.9.0.tar.gz
+[2023-07-03 11:23:26] INFO root fetch - processPackages [pyiceberg]: New version: [0.4.0rc2] Old Version: [0.4.0rc1]
+[2023-07-03 11:23:26] INFO root fetch - processPackages [yaecs]: Downloading https://files.pythonhosted.org/packages/27/97/8bf4638725a7c18ef57e48a153ec1e0d7bdb819f8341f692bf63a7c463ea/yaecs-4.0.2.tar.gz
+[2023-07-03 11:23:26] INFO root fetch - processPackages [antchain-hk-securitytech]: Downloading https://files.pythonhosted.org/packages/d0/a8/395206836b4a1b2f53cb3309b193693f7c7d0f1ec7762c1d7262b2268a7d/antchain_hk_securitytech-1.0.1.tar.gz
+[2023-07-03 11:23:26] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-07-03 11:23:26] INFO root fetch - processPackages [qute-style]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-07-03 11:23:26] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2023-07-03 11:23:26] INFO root fetch - processPackages [pyiceberg]: Downloading https://files.pythonhosted.org/packages/30/bd/f05f434ff5c07488ab7914fb79ce0511ada14f3cbcd8c6d5fd19d93e617a/pyiceberg-0.4.0rc1.tar.gz
+[2023-07-03 11:23:26] INFO root fetch - processPackages [chatllm]: Downloading https://files.pythonhosted.org/packages/49/ad/e606ccacca2ae2e5747364d05b5b7a83a7bf81c99a813e85c3dc8c0d4415/chatllm-2023.7.3.17.18.57.tar.gz
+[2023-07-03 11:23:26] INFO root fetch - processPackages [qute-style]: Downloading https://files.pythonhosted.org/packages/57/f5/97924f40a7f596e7bb56141e0fd7faaa822e2cfb9e142479d2a655457d81/qute_style-1.0.4.tar.gz
+[2023-07-03 11:23:26] INFO root fetch - processPackages [mindee]: Downloading https://files.pythonhosted.org/packages/16/39/dbf4ecb7081cd824cba66085fb52ecdaf94fe9586978437a5848d650d45e/mindee-3.9.1.tar.gz
+[2023-07-03 11:23:26] INFO root fetch - processPackages [sympde]: Downloading https://files.pythonhosted.org/packages/6b/85/7efc998f991c8f943bb0402ec1184452e9be4dd2ba0a894bb0693d2597c7/sympde-0.9.9.tar.gz
+[2023-07-03 11:23:26] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2023-07-03 11:23:26] INFO root fetch - processPackages [antchain-hk-securitytech]: Downloading https://files.pythonhosted.org/packages/da/87/dadb9475b8a96747490a9cbcc60219c460a7723e711bc13a97da3a541e58/antchain_hk_securitytech-1.3.2.tar.gz
+[2023-07-03 11:23:26] INFO root fetch - processPackages [mindee]: executing diffoscope
+[2023-07-03 11:23:26] INFO root fetch - processPackages [mindee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mindee-3.9.0.tar.gz tmp/mindee-3.9.1.tar.gz --markdown 20230703/m/mindee/3.9.0-3.9.1/diff.md --exclude *.pyd
+[2023-07-03 11:23:26] INFO root fetch - processPackages [yaecs]: Downloading https://files.pythonhosted.org/packages/08/1c/413ff746ef1ac7f1fd31c425256e906509388833fba74af929529244c965/yaecs-4.1.0.tar.gz
+[2023-07-03 11:23:26] WARNING root fetch - processPackages [chatllm]: Skipping package: exceeds size limit 11933593>=10485760
+[2023-07-03 11:23:26] INFO root fetch - main [MainThread]: End processing [chatllm] error
+[2023-07-03 11:23:26] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-07-03 11:23:26] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230703/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-07-03 11:23:26] INFO root fetch - processPackages [antchain-hk-securitytech]: executing diffoscope
+[2023-07-03 11:23:26] INFO root fetch - processPackages [antchain-hk-securitytech]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/antchain_hk_securitytech-1.0.1.tar.gz tmp/antchain_hk_securitytech-1.3.2.tar.gz --markdown 20230703/a/antchain-hk-securitytech/1.0.1-1.3.2/diff.md --exclude *.pyd
+[2023-07-03 11:23:26] INFO root fetch - processPackages [yaecs]: executing diffoscope
+[2023-07-03 11:23:26] INFO root fetch - processPackages [yaecs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yaecs-4.0.2.tar.gz tmp/yaecs-4.1.0.tar.gz --markdown 20230703/y/yaecs/4.0.2-4.1.0/diff.md --exclude *.pyd
+[2023-07-03 11:23:26] INFO root fetch - processPackages [sympde]: executing diffoscope
+[2023-07-03 11:23:26] INFO root fetch - processPackages [sympde]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sympde-0.9.8.tar.gz tmp/sympde-0.9.9.tar.gz --markdown 20230703/s/sympde/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-03 11:23:26] INFO root fetch - processPackages [pyiceberg]: Downloading https://files.pythonhosted.org/packages/6f/cf/fbda4bb66371f939e44814adf2ca645b2976d8a20bd008a40812168c0f7f/pyiceberg-0.4.0rc2.tar.gz
+[2023-07-03 11:23:27] INFO root fetch - processPackages [qute-style]: Downloading https://files.pythonhosted.org/packages/ea/b1/317ec41bf80e5d1fc81d65b6565f830cf19ef5be8015b77a2740804350cd/qute_style-1.0.5.tar.gz
+[2023-07-03 11:23:27] INFO root fetch - processPackages [pyiceberg]: executing diffoscope
+[2023-07-03 11:23:27] INFO root fetch - processPackages [pyiceberg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyiceberg-0.4.0rc1.tar.gz tmp/pyiceberg-0.4.0rc2.tar.gz --markdown 20230703/p/pyiceberg/0.4.0rc1-0.4.0rc2/diff.md --exclude *.pyd
+[2023-07-03 11:23:27] INFO root fetch - processPackages [qute-style]: executing diffoscope
+[2023-07-03 11:23:27] INFO root fetch - processPackages [qute-style]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qute_style-1.0.4.tar.gz tmp/qute_style-1.0.5.tar.gz --markdown 20230703/q/qute-style/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-07-03 11:23:28] INFO root fetch - processPackages [antchain-hk-securitytech]: Remove: archive file [/home/abi/fetcher/tmp/antchain_hk_securitytech-1.0.1.tar.gz]
+[2023-07-03 11:23:28] INFO root fetch - processPackages [antchain-hk-securitytech]: Remove: archive file [/home/abi/fetcher/tmp/antchain_hk_securitytech-1.3.2.tar.gz]
+[2023-07-03 11:23:28] INFO root fetch - main [MainThread]: End processing [antchain-hk-securitytech]: success
+[2023-07-03 11:23:28] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.998.tar.gz]
+[2023-07-03 11:23:28] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.999.tar.gz]
+[2023-07-03 11:23:28] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-07-03 11:23:28] INFO root fetch - processPackages [mindee]: Remove: archive file [/home/abi/fetcher/tmp/mindee-3.9.0.tar.gz]
+[2023-07-03 11:23:28] INFO root fetch - processPackages [mindee]: Remove: archive file [/home/abi/fetcher/tmp/mindee-3.9.1.tar.gz]
+[2023-07-03 11:23:28] INFO root fetch - main [MainThread]: End processing [mindee]: success
+[2023-07-03 11:23:28] INFO root fetch - processPackages [tbp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tbp-nightly-2.9.0a20221129.tar.gz]
+[2023-07-03 11:23:28] INFO root fetch - processPackages [tbp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tbp-nightly-2.9.0a20221130.tar.gz]
+[2023-07-03 11:23:28] INFO root fetch - main [MainThread]: End processing [tbp-nightly]: success
+[2023-07-03 11:23:28] INFO root fetch - processPackages [sympde]: Remove: archive file [/home/abi/fetcher/tmp/sympde-0.9.8.tar.gz]
+[2023-07-03 11:23:28] INFO root fetch - processPackages [sympde]: Remove: archive file [/home/abi/fetcher/tmp/sympde-0.9.9.tar.gz]
+[2023-07-03 11:23:28] INFO root fetch - main [MainThread]: End processing [sympde]: success
+[2023-07-03 11:23:28] INFO root fetch - processPackages [yaecs]: Remove: archive file [/home/abi/fetcher/tmp/yaecs-4.0.2.tar.gz]
+[2023-07-03 11:23:28] INFO root fetch - processPackages [yaecs]: Remove: archive file [/home/abi/fetcher/tmp/yaecs-4.1.0.tar.gz]
+[2023-07-03 11:23:28] INFO root fetch - main [MainThread]: End processing [yaecs]: success
+[2023-07-03 11:23:29] INFO root fetch - processPackages [qute-style]: Remove: archive file [/home/abi/fetcher/tmp/qute_style-1.0.4.tar.gz]
+[2023-07-03 11:23:29] INFO root fetch - processPackages [qute-style]: Remove: archive file [/home/abi/fetcher/tmp/qute_style-1.0.5.tar.gz]
+[2023-07-03 11:23:29] INFO root fetch - main [MainThread]: End processing [qute-style]: success
+[2023-07-03 11:23:29] INFO root fetch - processPackages [pyiceberg]: Remove: archive file [/home/abi/fetcher/tmp/pyiceberg-0.4.0rc1.tar.gz]
+[2023-07-03 11:23:29] INFO root fetch - processPackages [pyiceberg]: Remove: archive file [/home/abi/fetcher/tmp/pyiceberg-0.4.0rc2.tar.gz]
+[2023-07-03 11:23:29] INFO root fetch - main [MainThread]: End processing [pyiceberg]: success
+[2023-07-03 11:23:38] INFO root fetch - processPackages [mjml-python]: Remove: archive file [/home/abi/fetcher/tmp/mjml_python-1.0.0-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-03 11:23:38] INFO root fetch - processPackages [mjml-python]: Remove: archive file [/home/abi/fetcher/tmp/mjml_python-1.1.0-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-03 11:23:38] INFO root fetch - main [MainThread]: End processing [mjml-python]: success
+[2023-07-03 11:23:38] INFO root fetch - main [MainThread]: Store serial: [18736897]
