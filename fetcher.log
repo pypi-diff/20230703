@@ -20324,3 +20324,209 @@ EOFError: EOF read where object expected
 [2023-07-03 15:53:38] INFO root fetch - processPackages [deci-platform-client]: Remove: archive file [/home/abi/fetcher/tmp/deci_platform_client-5.7.0-py3-none-any.whl.zip]
 [2023-07-03 15:53:38] INFO root fetch - main [MainThread]: End processing [deci-platform-client]: success
 [2023-07-03 15:53:38] INFO root fetch - main [MainThread]: Store serial: [18740125]
+[2023-07-03 15:58:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18740125]
+[2023-07-03 15:58:54] INFO root fetch - main [MainThread]: Found 23 changed packages
+[2023-07-03 15:58:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyrepresent
+[2023-07-03 15:58:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aorta
+[2023-07-03 15:58:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nepattern
+[2023-07-03 15:58:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: synthdog
+[2023-07-03 15:58:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tensordict-nightly
+[2023-07-03 15:58:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ipykernel
+[2023-07-03 15:58:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: jdeskew
+[2023-07-03 15:58:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: xfem
+[2023-07-03 15:58:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: n-profile-sdk
+[2023-07-03 15:58:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ensembleperturbation
+[2023-07-03 15:58:54] INFO root fetch - processPackages [jdeskew]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-07-03 15:58:54] INFO root fetch - processPackages [aorta]: New version: [3.0.0a9] Old Version: [3.0.0a8]
+[2023-07-03 15:58:54] INFO root fetch - processPackages [ipykernel]: New version: [6.9.2] Old Version: [6.9.1]
+[2023-07-03 15:58:54] INFO root fetch - processPackages [ensembleperturbation]: New version: [1.2.3] Old Version: [1.2.2]
+[2023-07-03 15:58:54] INFO root fetch - processPackages [pyrepresent]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-07-03 15:58:54] INFO root fetch - processPackages [nepattern]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-07-03 15:58:54] INFO root fetch - processPackages [n-profile-sdk]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-03 15:58:54] INFO root fetch - processPackages [xfem]: New version: [2.1.2301.post9.dev0] Old Version: [2.1.2301.post7.dev0]
+[2023-07-03 15:58:54] INFO root fetch - processPackages [synthdog]: New version: [0.6.2] Old Version: [0.6.1]
+[2023-07-03 15:58:54] INFO root fetch - processPackages [tensordict-nightly]: New version: [2023.7.2] Old Version: [2023.7.1]
+[2023-07-03 15:58:55] INFO root fetch - processPackages [tensordict-nightly]: Downloading https://files.pythonhosted.org/packages/2f/40/1256077e03f5460dd40c6e7ead53da4f6c48949721cbc820c3ce3e24e9b8/tensordict_nightly-2023.7.1-cp39-cp39-win_amd64.whl
+[2023-07-03 15:58:55] INFO root fetch - processPackages [aorta]: Downloading https://files.pythonhosted.org/packages/06/dd/d6df73db130efafda995957e859648e98875d49d602caafc4495a2d08b9b/aorta-3.0.0a8.tar.gz
+[2023-07-03 15:58:55] INFO root fetch - processPackages [jdeskew]: Downloading https://files.pythonhosted.org/packages/59/b0/c2c80ee162c3f368d524caf4137a9ccebfe009a587683257ac788497718d/jdeskew-0.2.1.tar.gz
+[2023-07-03 15:58:55] INFO root fetch - processPackages [n-profile-sdk]: Downloading https://files.pythonhosted.org/packages/43/61/ab2c0c3918035da0599896059a14c00062a67706469886d62168f62ceeef/n-profile-sdk-1.0.8.tar.gz
+[2023-07-03 15:58:55] INFO root fetch - processPackages [ipykernel]: Downloading https://files.pythonhosted.org/packages/e0/22/d6c7267ebf529853bfc786eea6840c24164634d008d4a58ec4ddf0f8a633/ipykernel-6.9.1.tar.gz
+[2023-07-03 15:58:55] INFO root fetch - processPackages [pyrepresent]: Downloading https://files.pythonhosted.org/packages/a4/82/10af24a19bf7674c0d7945f7939d9c05ee6cc0e88c37c2d4d20f6eef2cda/pyrepresent-0.2.5.tar.gz
+[2023-07-03 15:58:55] INFO root fetch - processPackages [ensembleperturbation]: Downloading https://files.pythonhosted.org/packages/c5/00/c29de11b73fefa29d61d78b308cdd716c87905a969007f31a587f18efb22/ensembleperturbation-1.2.2.tar.gz
+[2023-07-03 15:58:55] INFO root fetch - processPackages [synthdog]: Downloading https://files.pythonhosted.org/packages/f9/ab/25334375e266fe3f8c778a5d12bd6b236616e9b6955b6c7208722e2ac77c/synthdog-0.6.1.tar.gz
+[2023-07-03 15:58:55] INFO root fetch - processPackages [nepattern]: Downloading https://files.pythonhosted.org/packages/32/5a/2fccd28dcb5dd59a147f4be0e0294b1a25783868d9ac4aa98e7f405c0e5b/nepattern-0.5.8.tar.gz
+[2023-07-03 15:58:55] INFO root fetch - processPackages [xfem]: Downloading https://files.pythonhosted.org/packages/6c/ac/b2e821c11e85f5a9ee51d81a8b5dbd03891fbc3a2d12e1f67586d6b0e3fd/xfem-2.1.2301.post7.dev0.tar.gz
+[2023-07-03 15:58:55] WARNING root fetch - processPackages [synthdog]: Skipping package: exceeds size limit 21933158>=10485760
+[2023-07-03 15:58:55] INFO root fetch - processPackages [synthdog]: Start processing: linien-common
+[2023-07-03 15:58:55] INFO root fetch - main [MainThread]: End processing [synthdog] error
+[2023-07-03 15:58:55] INFO root fetch - processPackages [linien-common]: New version: [0.8.0rc4] Old Version: [0.8.0rc2]
+[2023-07-03 15:58:55] INFO root fetch - processPackages [linien-common]: Downloading https://files.pythonhosted.org/packages/8f/f8/8b4e85e01f2de4037ce6e0564cc4839fe0d46c641f4801c1e78ea54582c1/linien-common-0.8.0rc2.tar.gz
+[2023-07-03 15:58:55] INFO root fetch - processPackages [tensordict-nightly]: Downloading https://files.pythonhosted.org/packages/67/f5/9534314996530966839c5aab6e319d5289f41c48eaf61c7b5fa2dc703498/tensordict_nightly-2023.7.2-cp39-cp39-win_amd64.whl
+[2023-07-03 15:58:55] INFO root fetch - processPackages [jdeskew]: Downloading https://files.pythonhosted.org/packages/ba/26/6b8cdd3a49814e9939694b1cc61ec24fe2c632755ae2f46c71566377ba55/jdeskew-0.2.2.tar.gz
+[2023-07-03 15:58:55] INFO root fetch - processPackages [aorta]: Downloading https://files.pythonhosted.org/packages/00/59/c5abcbe013a6a626e51c594f1ac53a38f3c7b2d328e0f0f294bc09c09659/aorta-3.0.0a9.tar.gz
+[2023-07-03 15:58:55] INFO root fetch - processPackages [pyrepresent]: Downloading https://files.pythonhosted.org/packages/a8/ef/7b8c98c44e8a22ee69701840c4eb848e4f6459eef49bbc1cf1436b021970/pyrepresent-0.2.6.tar.gz
+[2023-07-03 15:58:55] INFO root fetch - processPackages [n-profile-sdk]: Downloading https://files.pythonhosted.org/packages/07/4a/2133d35919879c8fd8ae44a739c0395d1017dab0466c078550852555c2f0/n-profile-sdk-1.0.9.tar.gz
+[2023-07-03 15:58:55] INFO root fetch - processPackages [ensembleperturbation]: Downloading https://files.pythonhosted.org/packages/1d/4e/b01d3cf2805066e544cf38314caa67cba21c83c0f1d516ddcdaa775fa17f/ensembleperturbation-1.2.3.tar.gz
+[2023-07-03 15:58:55] INFO root fetch - processPackages [ipykernel]: Downloading https://files.pythonhosted.org/packages/e7/b2/0db7e5e7c2de514de42f9a95a09b421d18b7cd6f4a69af19f4cf46c48d13/ipykernel-6.9.2.tar.gz
+[2023-07-03 15:58:55] INFO root fetch - processPackages [xfem]: Downloading https://files.pythonhosted.org/packages/41/1b/0e5a5617abb1f47c109eb969790cb98a988ac58980d39d4426283662f654/xfem-2.1.2301.post9.dev0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-03 15:58:55] INFO root fetch - processPackages [aorta]: executing diffoscope
+[2023-07-03 15:58:55] INFO root fetch - processPackages [aorta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aorta-3.0.0a8.tar.gz tmp/aorta-3.0.0a9.tar.gz --markdown 20230703/a/aorta/3.0.0a8-3.0.0a9/diff.md --exclude *.pyd
+[2023-07-03 15:58:56] INFO root fetch - processPackages [tensordict-nightly]: executing diffoscope
+[2023-07-03 15:58:56] INFO root fetch - processPackages [tensordict-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensordict_nightly-2023.7.1-cp39-cp39-win_amd64.whl.zip tmp/tensordict_nightly-2023.7.2-cp39-cp39-win_amd64.whl.zip --markdown 20230703/t/tensordict-nightly/2023.7.1-2023.7.2/diff.md --exclude *.pyd
+[2023-07-03 15:58:56] INFO root fetch - processPackages [pyrepresent]: executing diffoscope
+[2023-07-03 15:58:56] INFO root fetch - processPackages [pyrepresent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrepresent-0.2.5.tar.gz tmp/pyrepresent-0.2.6.tar.gz --markdown 20230703/p/pyrepresent/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-07-03 15:58:56] INFO root fetch - processPackages [jdeskew]: executing diffoscope
+[2023-07-03 15:58:56] INFO root fetch - processPackages [jdeskew]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jdeskew-0.2.1.tar.gz tmp/jdeskew-0.2.2.tar.gz --markdown 20230703/j/jdeskew/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-07-03 15:58:56] INFO root fetch - processPackages [nepattern]: Downloading https://files.pythonhosted.org/packages/9f/eb/8376ce384671cae3244bee0946b5056253816857de96163159030b6de991/nepattern-0.5.9.tar.gz
+[2023-07-03 15:58:56] INFO root fetch - processPackages [n-profile-sdk]: executing diffoscope
+[2023-07-03 15:58:56] INFO root fetch - processPackages [n-profile-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/n-profile-sdk-1.0.8.tar.gz tmp/n-profile-sdk-1.0.9.tar.gz --markdown 20230703/n/n-profile-sdk/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-03 15:58:56] INFO root fetch - processPackages [ensembleperturbation]: executing diffoscope
+[2023-07-03 15:58:56] INFO root fetch - processPackages [ensembleperturbation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ensembleperturbation-1.2.2.tar.gz tmp/ensembleperturbation-1.2.3.tar.gz --markdown 20230703/e/ensembleperturbation/1.2.2-1.2.3/diff.md --exclude *.pyd
+[2023-07-03 15:58:56] INFO root fetch - processPackages [linien-common]: Downloading https://files.pythonhosted.org/packages/30/15/68b4458c9e0b04bc9d9c1d24e9372c74fcde0d00339bab1b1b4a6134cb65/linien-common-0.8.0rc4.tar.gz
+[2023-07-03 15:58:56] INFO root fetch - processPackages [ipykernel]: executing diffoscope
+[2023-07-03 15:58:56] INFO root fetch - processPackages [ipykernel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ipykernel-6.9.1.tar.gz tmp/ipykernel-6.9.2.tar.gz --markdown 20230703/i/ipykernel/6.9.1-6.9.2/diff.md --exclude *.pyd
+[2023-07-03 15:58:56] INFO root fetch - processPackages [nepattern]: executing diffoscope
+[2023-07-03 15:58:56] INFO root fetch - processPackages [nepattern]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nepattern-0.5.8.tar.gz tmp/nepattern-0.5.9.tar.gz --markdown 20230703/n/nepattern/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-07-03 15:58:56] INFO root fetch - processPackages [xfem]: executing diffoscope
+[2023-07-03 15:58:56] INFO root fetch - processPackages [xfem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xfem-2.1.2301.post7.dev0.tar.gz tmp/xfem-2.1.2301.post9.dev0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230703/x/xfem/2.1.2301.post7.dev0-2.1.2301.post9.dev0/diff.md --exclude *.pyd
+[2023-07-03 15:58:56] INFO root fetch - processPackages [linien-common]: executing diffoscope
+[2023-07-03 15:58:56] INFO root fetch - processPackages [linien-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/linien-common-0.8.0rc2.tar.gz tmp/linien-common-0.8.0rc4.tar.gz --markdown 20230703/l/linien-common/0.8.0rc2-0.8.0rc4/diff.md --exclude *.pyd
+[2023-07-03 15:58:57] INFO root fetch - processPackages [jdeskew]: Remove: archive file [/home/abi/fetcher/tmp/jdeskew-0.2.1.tar.gz]
+[2023-07-03 15:58:57] INFO root fetch - processPackages [jdeskew]: Remove: archive file [/home/abi/fetcher/tmp/jdeskew-0.2.2.tar.gz]
+[2023-07-03 15:58:57] INFO root fetch - processPackages [jdeskew]: Start processing: linien-server
+[2023-07-03 15:58:57] INFO root fetch - main [MainThread]: End processing [jdeskew]: success
+[2023-07-03 15:58:57] INFO root fetch - processPackages [linien-server]: New version: [0.8.0rc4] Old Version: [0.8.0rc2]
+[2023-07-03 15:58:57] INFO root fetch - processPackages [linien-server]: Downloading https://files.pythonhosted.org/packages/7b/f5/ecfa305b2b580d04936ae4dc341d80b88749333a419f64fcd91c84454e4a/linien-server-0.8.0rc2.tar.gz
+[2023-07-03 15:58:57] INFO root fetch - processPackages [pyrepresent]: Remove: archive file [/home/abi/fetcher/tmp/pyrepresent-0.2.5.tar.gz]
+[2023-07-03 15:58:57] INFO root fetch - processPackages [pyrepresent]: Remove: archive file [/home/abi/fetcher/tmp/pyrepresent-0.2.6.tar.gz]
+[2023-07-03 15:58:57] INFO root fetch - processPackages [pyrepresent]: Start processing: linien-client
+[2023-07-03 15:58:57] INFO root fetch - main [MainThread]: End processing [pyrepresent]: success
+[2023-07-03 15:58:57] INFO root fetch - processPackages [ensembleperturbation]: Remove: archive file [/home/abi/fetcher/tmp/ensembleperturbation-1.2.2.tar.gz]
+[2023-07-03 15:58:57] INFO root fetch - processPackages [ensembleperturbation]: Remove: archive file [/home/abi/fetcher/tmp/ensembleperturbation-1.2.3.tar.gz]
+[2023-07-03 15:58:57] INFO root fetch - processPackages [ensembleperturbation]: Start processing: linien-gui
+[2023-07-03 15:58:57] INFO root fetch - main [MainThread]: End processing [ensembleperturbation]: success
+[2023-07-03 15:58:57] INFO root fetch - processPackages [linien-client]: New version: [0.8.0rc4] Old Version: [0.8.0rc2]
+[2023-07-03 15:58:58] INFO root fetch - processPackages [aorta]: Remove: archive file [/home/abi/fetcher/tmp/aorta-3.0.0a8.tar.gz]
+[2023-07-03 15:58:58] INFO root fetch - processPackages [aorta]: Remove: archive file [/home/abi/fetcher/tmp/aorta-3.0.0a9.tar.gz]
+[2023-07-03 15:58:58] INFO root fetch - processPackages [aorta]: Start processing: valida
+[2023-07-03 15:58:58] INFO root fetch - main [MainThread]: End processing [aorta]: success
+[2023-07-03 15:58:58] INFO root fetch - processPackages [linien-gui]: New version: [0.8.0rc4] Old Version: [0.8.0rc2]
+[2023-07-03 15:58:58] INFO root fetch - processPackages [xfem]: Remove: archive file [/home/abi/fetcher/tmp/xfem-2.1.2301.post7.dev0.tar.gz]
+[2023-07-03 15:58:58] INFO root fetch - processPackages [xfem]: Remove: archive file [/home/abi/fetcher/tmp/xfem-2.1.2301.post9.dev0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-03 15:58:58] INFO root fetch - processPackages [xfem]: Start processing: percy-selenium
+[2023-07-03 15:58:58] INFO root fetch - main [MainThread]: End processing [xfem]: success
+[2023-07-03 15:58:58] INFO root fetch - processPackages [linien-common]: Remove: archive file [/home/abi/fetcher/tmp/linien-common-0.8.0rc2.tar.gz]
+[2023-07-03 15:58:58] INFO root fetch - processPackages [linien-common]: Remove: archive file [/home/abi/fetcher/tmp/linien-common-0.8.0rc4.tar.gz]
+[2023-07-03 15:58:58] INFO root fetch - processPackages [linien-common]: Start processing: firebolt-sdk
+[2023-07-03 15:58:58] INFO root fetch - main [MainThread]: End processing [linien-common]: success
+[2023-07-03 15:58:58] INFO root fetch - processPackages [nepattern]: Remove: archive file [/home/abi/fetcher/tmp/nepattern-0.5.8.tar.gz]
+[2023-07-03 15:58:58] INFO root fetch - processPackages [nepattern]: Remove: archive file [/home/abi/fetcher/tmp/nepattern-0.5.9.tar.gz]
+[2023-07-03 15:58:58] INFO root fetch - processPackages [nepattern]: Start processing: iqm-client
+[2023-07-03 15:58:58] INFO root fetch - main [MainThread]: End processing [nepattern]: success
+[2023-07-03 15:58:58] INFO root fetch - processPackages [tensordict-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensordict_nightly-2023.7.1-cp39-cp39-win_amd64.whl.zip]
+[2023-07-03 15:58:58] INFO root fetch - processPackages [tensordict-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensordict_nightly-2023.7.2-cp39-cp39-win_amd64.whl.zip]
+[2023-07-03 15:58:58] INFO root fetch - processPackages [tensordict-nightly]: Start processing: ms2rescore
+[2023-07-03 15:58:58] INFO root fetch - main [MainThread]: End processing [tensordict-nightly]: success
+[2023-07-03 15:58:58] INFO root fetch - processPackages [valida]: New version: [0.7.1] Old Version: [0.7.0]
+[2023-07-03 15:58:58] INFO root fetch - processPackages [percy-selenium]: New version: [2.0.0a0] Old Version: [1.1.0]
+[2023-07-03 15:58:58] INFO root fetch - processPackages [linien-server]: Downloading https://files.pythonhosted.org/packages/89/3e/8312827769641eed58559e722422321b9dabc4eac3fec0c58a679c2a8e91/linien-server-0.8.0rc4.tar.gz
+[2023-07-03 15:58:58] INFO root fetch - processPackages [firebolt-sdk]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-07-03 15:58:58] INFO root fetch - processPackages [iqm-client]: New version: [9.8] Old Version: [9.7]
+[2023-07-03 15:58:58] INFO root fetch - processPackages [linien-client]: Downloading https://files.pythonhosted.org/packages/4e/95/a4abad3c334621fe6a34371235212e215797bc99c2b5152a9a7fd4654506/linien-client-0.8.0rc2.tar.gz
+[2023-07-03 15:58:58] INFO root fetch - processPackages [ipykernel]: Remove: archive file [/home/abi/fetcher/tmp/ipykernel-6.9.1.tar.gz]
+[2023-07-03 15:58:58] INFO root fetch - processPackages [ipykernel]: Remove: archive file [/home/abi/fetcher/tmp/ipykernel-6.9.2.tar.gz]
+[2023-07-03 15:58:58] INFO root fetch - processPackages [ipykernel]: Start processing: einfach
+[2023-07-03 15:58:58] INFO root fetch - main [MainThread]: End processing [ipykernel]: success
+[2023-07-03 15:58:58] INFO root fetch - processPackages [ms2rescore]: New version: [3.0.0.dev3] Old Version: [3.0.0.dev2]
+[2023-07-03 15:58:58] INFO root fetch - processPackages [linien-gui]: Downloading https://files.pythonhosted.org/packages/fe/09/7b29805e863deb77bf4752ed776e3f55b20dba1169d79a57dbee5e0eaf61/linien-gui-0.8.0rc2.tar.gz
+[2023-07-03 15:58:58] INFO root fetch - processPackages [n-profile-sdk]: Remove: archive file [/home/abi/fetcher/tmp/n-profile-sdk-1.0.8.tar.gz]
+[2023-07-03 15:58:58] INFO root fetch - processPackages [n-profile-sdk]: Remove: archive file [/home/abi/fetcher/tmp/n-profile-sdk-1.0.9.tar.gz]
+[2023-07-03 15:58:58] INFO root fetch - processPackages [n-profile-sdk]: Start processing: configzen
+[2023-07-03 15:58:58] INFO root fetch - main [MainThread]: End processing [n-profile-sdk]: success
+[2023-07-03 15:58:58] INFO root fetch - processPackages [percy-selenium]: Downloading https://files.pythonhosted.org/packages/6a/29/aee6dcf53b9f2f3a4448b6d7665368a1dae493d19b16e956732b1f5ba405/percy-selenium-1.1.0.tar.gz
+[2023-07-03 15:58:58] INFO root fetch - processPackages [valida]: Downloading https://files.pythonhosted.org/packages/26/36/8055738866be733743b504fdaee2955baa6f240f50ce4ff072c11f159537/valida-0.7.0.tar.gz
+[2023-07-03 15:58:58] INFO root fetch - processPackages [einfach]: New version: [0.2.0.0] Old Version: [0.1.0.6]
+[2023-07-03 15:58:58] INFO root fetch - processPackages [linien-server]: executing diffoscope
+[2023-07-03 15:58:58] INFO root fetch - processPackages [linien-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/linien-server-0.8.0rc2.tar.gz tmp/linien-server-0.8.0rc4.tar.gz --markdown 20230703/l/linien-server/0.8.0rc2-0.8.0rc4/diff.md --exclude *.pyd
+[2023-07-03 15:58:58] INFO root fetch - processPackages [configzen]: New version: [0.5.3] Old Version: [0.5.2]
+[2023-07-03 15:58:58] INFO root fetch - processPackages [ms2rescore]: Downloading https://files.pythonhosted.org/packages/73/ef/05dadc2d8ef4753007d0552e3e1cb569d98838b92ddc222bf42a974368ca/ms2rescore-3.0.0.dev2.tar.gz
+[2023-07-03 15:58:58] INFO root fetch - processPackages [firebolt-sdk]: Downloading https://files.pythonhosted.org/packages/d0/58/5ecf1049bb44e3ad3cfd2b8b06e88039c9960dda3bd0a3d110d6e2027960/firebolt_sdk-0.9.1.tar.gz
+[2023-07-03 15:58:58] INFO root fetch - processPackages [iqm-client]: Downloading https://files.pythonhosted.org/packages/99/fc/f098b725596fbe26c658967e1c14b848d3a2c90549099d038fea031556f6/iqm-client-9.7.tar.gz
+[2023-07-03 15:58:58] INFO root fetch - processPackages [linien-client]: Downloading https://files.pythonhosted.org/packages/6f/d2/19887fa7aca18257d9ce82987cba8cc0d5ce66c9e9b2cb28b0ae34a02d73/linien-client-0.8.0rc4.tar.gz
+[2023-07-03 15:58:58] INFO root fetch - processPackages [linien-gui]: Downloading https://files.pythonhosted.org/packages/70/49/bf21eb11a12332c12708a5237d137396f82c964b7f488572c409a3737935/linien-gui-0.8.0rc4.tar.gz
+[2023-07-03 15:58:58] INFO root fetch - processPackages [einfach]: Downloading https://files.pythonhosted.org/packages/ca/09/65e29d7ddd03eedc5b4ae1de8aa3e241f0e494ab3245b9b1df84851a922f/einfach-0.1.0.6.tar.gz
+[2023-07-03 15:58:58] INFO root fetch - processPackages [configzen]: Downloading https://files.pythonhosted.org/packages/50/65/a7df5f783dff6037209efd05470c5006d7636d2deb3af4cdf36994766a96/configzen-0.5.2.tar.gz
+[2023-07-03 15:58:58] INFO root fetch - processPackages [percy-selenium]: Downloading https://files.pythonhosted.org/packages/56/b9/e5eee309ec2fece01aaafd2d61aa13781104107e29ed003218de241f5bfe/percy-selenium-2.0.0a0.tar.gz
+[2023-07-03 15:58:58] INFO root fetch - processPackages [valida]: Downloading https://files.pythonhosted.org/packages/37/a4/e583db86342ec946c6cb120286c990a6751f4da34b6a4126c46dcc24585f/valida-0.7.1.tar.gz
+[2023-07-03 15:58:59] INFO root fetch - processPackages [linien-client]: executing diffoscope
+[2023-07-03 15:58:59] INFO root fetch - processPackages [linien-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/linien-client-0.8.0rc2.tar.gz tmp/linien-client-0.8.0rc4.tar.gz --markdown 20230703/l/linien-client/0.8.0rc2-0.8.0rc4/diff.md --exclude *.pyd
+[2023-07-03 15:58:59] INFO root fetch - processPackages [percy-selenium]: executing diffoscope
+[2023-07-03 15:58:59] INFO root fetch - processPackages [percy-selenium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/percy-selenium-1.1.0.tar.gz tmp/percy-selenium-2.0.0a0.tar.gz --markdown 20230703/p/percy-selenium/1.1.0-2.0.0a0/diff.md --exclude *.pyd
+[2023-07-03 15:58:59] INFO root fetch - processPackages [valida]: executing diffoscope
+[2023-07-03 15:58:59] INFO root fetch - processPackages [valida]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/valida-0.7.0.tar.gz tmp/valida-0.7.1.tar.gz --markdown 20230703/v/valida/0.7.0-0.7.1/diff.md --exclude *.pyd
+[2023-07-03 15:58:59] INFO root fetch - processPackages [firebolt-sdk]: Downloading https://files.pythonhosted.org/packages/17/6d/4e1a456bfc90f686b530a3bf12c5ff99b38aeee22d0ab88725b1db0a3c17/firebolt_sdk-0.9.2.tar.gz
+[2023-07-03 15:58:59] INFO root fetch - processPackages [linien-gui]: executing diffoscope
+[2023-07-03 15:58:59] INFO root fetch - processPackages [linien-gui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/linien-gui-0.8.0rc2.tar.gz tmp/linien-gui-0.8.0rc4.tar.gz --markdown 20230703/l/linien-gui/0.8.0rc2-0.8.0rc4/diff.md --exclude *.pyd
+[2023-07-03 15:58:59] INFO root fetch - processPackages [einfach]: Downloading https://files.pythonhosted.org/packages/0e/13/c8b40d6550d6b1b3d45b914f75012f102c61cbf9a4095e00c1b57a614dce/einfach-0.2.0.0.tar.gz
+[2023-07-03 15:58:59] INFO root fetch - processPackages [ms2rescore]: Downloading https://files.pythonhosted.org/packages/c1/01/13f1f1b24c883514f3c43a061d1ebf02415f637f19a6f7e1c9044ecd650e/ms2rescore-3.0.0.dev3.tar.gz
+[2023-07-03 15:58:59] INFO root fetch - processPackages [firebolt-sdk]: executing diffoscope
+[2023-07-03 15:58:59] INFO root fetch - processPackages [firebolt-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/firebolt_sdk-0.9.1.tar.gz tmp/firebolt_sdk-0.9.2.tar.gz --markdown 20230703/f/firebolt-sdk/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-07-03 15:58:59] INFO root fetch - processPackages [iqm-client]: Downloading https://files.pythonhosted.org/packages/b5/0c/bc58a77ae5654da6f56e104c9317e6de8a82e0c8c546c5291848649874db/iqm-client-9.8.tar.gz
+[2023-07-03 15:58:59] INFO root fetch - processPackages [configzen]: Downloading https://files.pythonhosted.org/packages/73/36/7e2affa4337afc03b0429ca8c2001595f59b0ebbe72dc7b19d797e1dc527/configzen-0.5.3.tar.gz
+[2023-07-03 15:58:59] INFO root fetch - processPackages [einfach]: executing diffoscope
+[2023-07-03 15:58:59] INFO root fetch - processPackages [einfach]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/einfach-0.1.0.6.tar.gz tmp/einfach-0.2.0.0.tar.gz --markdown 20230703/e/einfach/0.1.0.6-0.2.0.0/diff.md --exclude *.pyd
+[2023-07-03 15:58:59] INFO root fetch - processPackages [ms2rescore]: executing diffoscope
+[2023-07-03 15:58:59] INFO root fetch - processPackages [ms2rescore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ms2rescore-3.0.0.dev2.tar.gz tmp/ms2rescore-3.0.0.dev3.tar.gz --markdown 20230703/m/ms2rescore/3.0.0.dev2-3.0.0.dev3/diff.md --exclude *.pyd
+[2023-07-03 15:58:59] INFO root fetch - processPackages [configzen]: executing diffoscope
+[2023-07-03 15:58:59] INFO root fetch - processPackages [configzen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/configzen-0.5.2.tar.gz tmp/configzen-0.5.3.tar.gz --markdown 20230703/c/configzen/0.5.2-0.5.3/diff.md --exclude *.pyd
+[2023-07-03 15:58:59] INFO root fetch - processPackages [iqm-client]: executing diffoscope
+[2023-07-03 15:58:59] INFO root fetch - processPackages [iqm-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iqm-client-9.7.tar.gz tmp/iqm-client-9.8.tar.gz --markdown 20230703/i/iqm-client/9.7-9.8/diff.md --exclude *.pyd
+[2023-07-03 15:58:59] INFO root fetch - processPackages [linien-server]: Remove: archive file [/home/abi/fetcher/tmp/linien-server-0.8.0rc2.tar.gz]
+[2023-07-03 15:58:59] INFO root fetch - processPackages [linien-server]: Remove: archive file [/home/abi/fetcher/tmp/linien-server-0.8.0rc4.tar.gz]
+[2023-07-03 15:58:59] INFO root fetch - processPackages [linien-server]: Start processing: brownian-stock
+[2023-07-03 15:58:59] INFO root fetch - main [MainThread]: End processing [linien-server]: success
+[2023-07-03 15:58:59] INFO root fetch - processPackages [brownian-stock]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-03 15:59:00] INFO root fetch - processPackages [brownian-stock]: Downloading https://files.pythonhosted.org/packages/d8/67/4049f8084f938122e742c3e1f2f5fb7e8efd3c1b47e49af735f97299c1ac/brownian-stock-0.0.8.tar.gz
+[2023-07-03 15:59:00] INFO root fetch - processPackages [linien-client]: Remove: archive file [/home/abi/fetcher/tmp/linien-client-0.8.0rc2.tar.gz]
+[2023-07-03 15:59:00] INFO root fetch - processPackages [linien-client]: Remove: archive file [/home/abi/fetcher/tmp/linien-client-0.8.0rc4.tar.gz]
+[2023-07-03 15:59:00] INFO root fetch - processPackages [linien-client]: Start processing: lennybot
+[2023-07-03 15:59:00] INFO root fetch - main [MainThread]: End processing [linien-client]: success
+[2023-07-03 15:59:00] INFO root fetch - processPackages [percy-selenium]: Remove: archive file [/home/abi/fetcher/tmp/percy-selenium-1.1.0.tar.gz]
+[2023-07-03 15:59:00] INFO root fetch - processPackages [percy-selenium]: Remove: archive file [/home/abi/fetcher/tmp/percy-selenium-2.0.0a0.tar.gz]
+[2023-07-03 15:59:00] INFO root fetch - main [MainThread]: End processing [percy-selenium]: success
+[2023-07-03 15:59:00] INFO root fetch - processPackages [valida]: Remove: archive file [/home/abi/fetcher/tmp/valida-0.7.0.tar.gz]
+[2023-07-03 15:59:00] INFO root fetch - processPackages [valida]: Remove: archive file [/home/abi/fetcher/tmp/valida-0.7.1.tar.gz]
+[2023-07-03 15:59:00] INFO root fetch - main [MainThread]: End processing [valida]: success
+[2023-07-03 15:59:00] INFO root fetch - processPackages [lennybot]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-03 15:59:00] INFO root fetch - processPackages [brownian-stock]: Downloading https://files.pythonhosted.org/packages/a4/be/28c35d6cf73fe659cfedf1b64e95cb463d8dc9f28ef922ff0f59cc3718e2/brownian-stock-0.0.9.tar.gz
+[2023-07-03 15:59:00] INFO root fetch - processPackages [einfach]: Remove: archive file [/home/abi/fetcher/tmp/einfach-0.1.0.6.tar.gz]
+[2023-07-03 15:59:00] INFO root fetch - processPackages [einfach]: Remove: archive file [/home/abi/fetcher/tmp/einfach-0.2.0.0.tar.gz]
+[2023-07-03 15:59:00] INFO root fetch - main [MainThread]: End processing [einfach]: success
+[2023-07-03 15:59:00] INFO root fetch - processPackages [brownian-stock]: executing diffoscope
+[2023-07-03 15:59:00] INFO root fetch - processPackages [brownian-stock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/brownian-stock-0.0.8.tar.gz tmp/brownian-stock-0.0.9.tar.gz --markdown 20230703/b/brownian-stock/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-03 15:59:00] INFO root fetch - processPackages [lennybot]: Downloading https://files.pythonhosted.org/packages/1d/06/43687aac50e1f22da72944518203b06764005d8fb3003000b5e271c7ee70/lennybot-1.0.8.tar.gz
+[2023-07-03 15:59:00] INFO root fetch - processPackages [linien-gui]: Remove: archive file [/home/abi/fetcher/tmp/linien-gui-0.8.0rc2.tar.gz]
+[2023-07-03 15:59:00] INFO root fetch - processPackages [linien-gui]: Remove: archive file [/home/abi/fetcher/tmp/linien-gui-0.8.0rc4.tar.gz]
+[2023-07-03 15:59:00] INFO root fetch - main [MainThread]: End processing [linien-gui]: success
+[2023-07-03 15:59:01] INFO root fetch - processPackages [firebolt-sdk]: Remove: archive file [/home/abi/fetcher/tmp/firebolt_sdk-0.9.1.tar.gz]
+[2023-07-03 15:59:01] INFO root fetch - processPackages [firebolt-sdk]: Remove: archive file [/home/abi/fetcher/tmp/firebolt_sdk-0.9.2.tar.gz]
+[2023-07-03 15:59:01] INFO root fetch - main [MainThread]: End processing [firebolt-sdk]: success
+[2023-07-03 15:59:01] INFO root fetch - processPackages [configzen]: Remove: archive file [/home/abi/fetcher/tmp/configzen-0.5.2.tar.gz]
+[2023-07-03 15:59:01] INFO root fetch - processPackages [configzen]: Remove: archive file [/home/abi/fetcher/tmp/configzen-0.5.3.tar.gz]
+[2023-07-03 15:59:01] INFO root fetch - main [MainThread]: End processing [configzen]: success
+[2023-07-03 15:59:01] INFO root fetch - processPackages [iqm-client]: Remove: archive file [/home/abi/fetcher/tmp/iqm-client-9.7.tar.gz]
+[2023-07-03 15:59:01] INFO root fetch - processPackages [iqm-client]: Remove: archive file [/home/abi/fetcher/tmp/iqm-client-9.8.tar.gz]
+[2023-07-03 15:59:01] INFO root fetch - main [MainThread]: End processing [iqm-client]: success
+[2023-07-03 15:59:01] INFO root fetch - processPackages [lennybot]: Downloading https://files.pythonhosted.org/packages/ee/ff/8cfaf1f4d8111858dbace1900626f0b0ba097b6eea7790a4c12d95980679/lennybot-1.0.9.tar.gz
+[2023-07-03 15:59:01] INFO root fetch - processPackages [lennybot]: executing diffoscope
+[2023-07-03 15:59:01] INFO root fetch - processPackages [lennybot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lennybot-1.0.8.tar.gz tmp/lennybot-1.0.9.tar.gz --markdown 20230703/l/lennybot/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-03 15:59:01] INFO root fetch - processPackages [brownian-stock]: Remove: archive file [/home/abi/fetcher/tmp/brownian-stock-0.0.8.tar.gz]
+[2023-07-03 15:59:01] INFO root fetch - processPackages [brownian-stock]: Remove: archive file [/home/abi/fetcher/tmp/brownian-stock-0.0.9.tar.gz]
+[2023-07-03 15:59:01] INFO root fetch - main [MainThread]: End processing [brownian-stock]: success
+[2023-07-03 15:59:02] INFO root fetch - processPackages [lennybot]: Remove: archive file [/home/abi/fetcher/tmp/lennybot-1.0.8.tar.gz]
+[2023-07-03 15:59:02] INFO root fetch - processPackages [lennybot]: Remove: archive file [/home/abi/fetcher/tmp/lennybot-1.0.9.tar.gz]
+[2023-07-03 15:59:02] INFO root fetch - main [MainThread]: End processing [lennybot]: success
+[2023-07-03 15:59:03] INFO root fetch - processPackages [ms2rescore]: Remove: archive file [/home/abi/fetcher/tmp/ms2rescore-3.0.0.dev2.tar.gz]
+[2023-07-03 15:59:03] INFO root fetch - processPackages [ms2rescore]: Remove: archive file [/home/abi/fetcher/tmp/ms2rescore-3.0.0.dev3.tar.gz]
+[2023-07-03 15:59:03] INFO root fetch - main [MainThread]: End processing [ms2rescore]: success
+[2023-07-03 15:59:03] INFO root fetch - main [MainThread]: Store serial: [18740207]
