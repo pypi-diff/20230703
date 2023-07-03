@@ -13968,3 +13968,185 @@ AssertionError: tmp/discord-ansi-0.3.tar.gz does not exist
 [2023-07-03 12:17:28] INFO root fetch - processPackages [dm-reverb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/dm_reverb_nightly-0.9.0.dev20221207-cp39-cp39-manylinux2014_x86_64.whl.zip]
 [2023-07-03 12:17:28] INFO root fetch - main [MainThread]: End processing [dm-reverb-nightly]: success
 [2023-07-03 12:17:28] INFO root fetch - main [MainThread]: Store serial: [18737501]
+[2023-07-03 12:22:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18737501]
+[2023-07-03 12:22:37] INFO root fetch - main [MainThread]: Found 21 changed packages
+[2023-07-03 12:22:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cs.app.playon
+[2023-07-03 12:22:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: spaceone-board
+[2023-07-03 12:22:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: datascrub
+[2023-07-03 12:22:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: garpix-utils
+[2023-07-03 12:22:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: leadguru-jobs
+[2023-07-03 12:22:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: spaceone-config
+[2023-07-03 12:22:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: discord-ansi
+[2023-07-03 12:22:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: libvirt-python
+[2023-07-03 12:22:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: spaceone-dashboard
+[2023-07-03 12:22:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: garpixcms
+[2023-07-03 12:22:38] INFO root fetch - processPackages [cs.app.playon]: New version: [20230703] Old Version: [20230217]
+[2023-07-03 12:22:38] INFO root fetch - processPackages [spaceone-board]: New version: [1.9.7rc1] Old Version: [1.9.7]
+[2023-07-03 12:22:38] INFO root fetch - processPackages [spaceone-config]: New version: [1.9.7rc1] Old Version: [1.9.7.1]
+[2023-07-03 12:22:38] INFO root fetch - processPackages [discord-ansi]: New version: [0.4] Old Version: [0.3]
+[2023-07-03 12:22:38] INFO root fetch - processPackages [garpix-utils]: New version: [1.9.0rc2] Old Version: [1.9.0rc1]
+[2023-07-03 12:22:38] INFO root fetch - processPackages [datascrub]: New version: [1.1.3] Old Version: [1.1.2]
+[2023-07-03 12:22:38] INFO root fetch - processPackages [leadguru-jobs]: New version: [0.99.0] Old Version: [0.98.0]
+[2023-07-03 12:22:38] INFO root fetch - processPackages [spaceone-dashboard]: New version: [1.12.dev7] Old Version: [1.12.dev6]
+[2023-07-03 12:22:38] INFO root fetch - processPackages [libvirt-python]: New version: [9.5.0] Old Version: [9.4.0]
+[2023-07-03 12:22:38] INFO root fetch - processPackages [garpixcms]: New version: [4.5.0rc2] Old Version: [4.5.0rc1]
+[2023-07-03 12:22:38] INFO root fetch - processPackages [leadguru-jobs]: Downloading https://files.pythonhosted.org/packages/58/0a/904c1f8e92c5b6adf3bf97a755cae87648f67ca82bb52bc30055558e0ce3/leadguru_jobs-0.98.0.tar.gz
+[2023-07-03 12:22:38] INFO root fetch - processPackages [discord-ansi]: Downloading https://files.pythonhosted.org/packages/d5/1e/eb2e60a811cf25873732ec6761b77dfa8fc76b0e66b6dc3cf6a6c9a56795/discord-ansi-0.3.tar.gz
+[2023-07-03 12:22:38] INFO root fetch - processPackages [cs.app.playon]: Downloading https://files.pythonhosted.org/packages/92/96/0a082899251fad2ee8bf32b8f5afcc9bdf09d1b4691fa033fe75599b5c28/cs.app.playon-20230217.tar.gz
+[2023-07-03 12:22:38] INFO root fetch - processPackages [garpix-utils]: Downloading https://files.pythonhosted.org/packages/2c/57/39494a20da217969337a826096b8920bc1d8269152803ceed2077298df5c/garpix_utils-1.9.0rc1.tar.gz
+[2023-07-03 12:22:38] INFO root fetch - processPackages [spaceone-board]: Downloading https://files.pythonhosted.org/packages/f5/66/e3fde81dfecfe1b911035bf54d30137e630f2b55fefc30aa5c025d264ef6/spaceone_board-1.9.7-py3-none-any.whl
+[2023-07-03 12:22:38] INFO root fetch - processPackages [garpixcms]: Downloading https://files.pythonhosted.org/packages/ef/a5/0c9346a07c498d8b4aa860d3691dc9ef9ef91df8ba49f0225dda69690ab9/garpixcms-4.5.0rc1.tar.gz
+[2023-07-03 12:22:38] INFO root fetch - processPackages [spaceone-config]: Downloading https://files.pythonhosted.org/packages/08/28/a6ce3345230d3f14eda6a5c108839017b971498dd9b3a4c8ff660bdd3ae7/spaceone_config-1.9.7.1-py3-none-any.whl
+[2023-07-03 12:22:38] INFO root fetch - processPackages [datascrub]: Downloading https://files.pythonhosted.org/packages/56/0a/10ccbdd62dce217dd5becf07fee805f6bc0a14fb6271fd5c81447a5bfc8b/datascrub-1.1.2.tar.gz
+[2023-07-03 12:22:38] INFO root fetch - processPackages [spaceone-dashboard]: Downloading https://files.pythonhosted.org/packages/79/06/6fabecae4a6852b781eae1cc751bdd9cf8e334ddb920c4cfd1881fa2e218/spaceone-dashboard-1.12.dev6.tar.gz
+[2023-07-03 12:22:38] INFO root fetch - processPackages [libvirt-python]: Downloading https://files.pythonhosted.org/packages/05/d7/dc92a635cea5038021f183927860cdea7056b66c85739e272526975acceb/libvirt-python-9.4.0.tar.gz
+[2023-07-03 12:22:38] INFO root fetch - processPackages [leadguru-jobs]: Downloading https://files.pythonhosted.org/packages/e4/7f/189fe7a4dc1256297dd1956413531652ee35cd4ee527f02aa7f2d608775a/leadguru_jobs-0.99.0.tar.gz
+[2023-07-03 12:22:38] INFO root fetch - processPackages [cs.app.playon]: Downloading https://files.pythonhosted.org/packages/59/3d/53959c8c65a84b44d9391659699e86405897fe1dc972ecf826cc4ac98909/cs.app.playon-20230703.tar.gz
+[2023-07-03 12:22:38] INFO root fetch - processPackages [garpix-utils]: Downloading https://files.pythonhosted.org/packages/fc/c8/a863299d473b32cf0fe0a16812bd84a125dbf608d202f02441651771a1e5/garpix_utils-1.9.0rc2.tar.gz
+[2023-07-03 12:22:38] INFO root fetch - processPackages [discord-ansi]: Downloading https://files.pythonhosted.org/packages/0a/f6/efe6e380ec077487141599b7abf0947bd4ea152b5dc5ddb1cbf288d7c6bc/discord-ansi-0.4.tar.gz
+[2023-07-03 12:22:38] INFO root fetch - processPackages [spaceone-board]: Downloading https://files.pythonhosted.org/packages/6c/99/76c76da493b5a9ae9d6064d18ad2cc9d486b74675a1c2f37ff58337a7878/spaceone_board-1.9.7rc1-py3-none-any.whl
+[2023-07-03 12:22:39] INFO root fetch - processPackages [spaceone-config]: Downloading https://files.pythonhosted.org/packages/2e/52/933581152a4ad53294053afa4f1e01b4306b1cc56d69a4b3b5bf10067b9a/spaceone_config-1.9.7rc1-py3-none-any.whl
+[2023-07-03 12:22:39] INFO root fetch - processPackages [datascrub]: Downloading https://files.pythonhosted.org/packages/61/bc/de96ad6607ec1c40ce4c6461930383e50f6c20ef1673f836586aaf1b2fc1/datascrub-1.1.3.tar.gz
+[2023-07-03 12:22:39] INFO root fetch - processPackages [leadguru-jobs]: executing diffoscope
+[2023-07-03 12:22:39] INFO root fetch - processPackages [leadguru-jobs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leadguru_jobs-0.98.0.tar.gz tmp/leadguru_jobs-0.99.0.tar.gz --markdown 20230703/l/leadguru-jobs/0.98.0-0.99.0/diff.md --exclude *.pyd
+[2023-07-03 12:22:39] INFO root fetch - processPackages [spaceone-dashboard]: Downloading https://files.pythonhosted.org/packages/5e/b2/2564670b146852919abcc38cd399719d41dc7ca5b81f1bb788f2410fec83/spaceone-dashboard-1.12.dev7.tar.gz
+[2023-07-03 12:22:39] INFO root fetch - processPackages [garpixcms]: Downloading https://files.pythonhosted.org/packages/92/b4/c9e57eb777e7638efbee5615f86ff1051e8d99bedb3edabfead236a06759/garpixcms-4.5.0rc2.tar.gz
+[2023-07-03 12:22:39] INFO root fetch - processPackages [libvirt-python]: Downloading https://files.pythonhosted.org/packages/b0/8d/8a0e86d6c2f4f93f33146fc076b26acbdb943b1fdc2abed9fb1f770ddbba/libvirt-python-9.5.0.tar.gz
+[2023-07-03 12:22:39] INFO root fetch - processPackages [cs.app.playon]: executing diffoscope
+[2023-07-03 12:22:39] INFO root fetch - processPackages [cs.app.playon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cs.app.playon-20230217.tar.gz tmp/cs.app.playon-20230703.tar.gz --markdown 20230703/c/cs.app.playon/20230217-20230703/diff.md --exclude *.pyd
+[2023-07-03 12:22:39] INFO root fetch - processPackages [garpix-utils]: executing diffoscope
+[2023-07-03 12:22:39] INFO root fetch - processPackages [garpix-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/garpix_utils-1.9.0rc1.tar.gz tmp/garpix_utils-1.9.0rc2.tar.gz --markdown 20230703/g/garpix-utils/1.9.0rc1-1.9.0rc2/diff.md --exclude *.pyd
+[2023-07-03 12:22:39] INFO root fetch - processPackages [discord-ansi]: executing diffoscope
+[2023-07-03 12:22:39] INFO root fetch - processPackages [discord-ansi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/discord-ansi-0.3.tar.gz tmp/discord-ansi-0.4.tar.gz --markdown 20230703/d/discord-ansi/0.3-0.4/diff.md --exclude *.pyd
+[2023-07-03 12:22:39] INFO root fetch - processPackages [spaceone-board]: executing diffoscope
+[2023-07-03 12:22:39] INFO root fetch - processPackages [spaceone-board]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spaceone_board-1.9.7-py3-none-any.whl.zip tmp/spaceone_board-1.9.7rc1-py3-none-any.whl.zip --markdown 20230703/s/spaceone-board/1.9.7-1.9.7rc1/diff.md --exclude *.pyd
+[2023-07-03 12:22:39] INFO root fetch - processPackages [spaceone-config]: executing diffoscope
+[2023-07-03 12:22:39] INFO root fetch - processPackages [spaceone-config]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spaceone_config-1.9.7.1-py3-none-any.whl.zip tmp/spaceone_config-1.9.7rc1-py3-none-any.whl.zip --markdown 20230703/s/spaceone-config/1.9.7.1-1.9.7rc1/diff.md --exclude *.pyd
+[2023-07-03 12:22:39] INFO root fetch - processPackages [datascrub]: executing diffoscope
+[2023-07-03 12:22:39] INFO root fetch - processPackages [datascrub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datascrub-1.1.2.tar.gz tmp/datascrub-1.1.3.tar.gz --markdown 20230703/d/datascrub/1.1.2-1.1.3/diff.md --exclude *.pyd
+[2023-07-03 12:22:39] INFO root fetch - processPackages [spaceone-dashboard]: executing diffoscope
+[2023-07-03 12:22:39] INFO root fetch - processPackages [spaceone-dashboard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spaceone-dashboard-1.12.dev6.tar.gz tmp/spaceone-dashboard-1.12.dev7.tar.gz --markdown 20230703/s/spaceone-dashboard/1.12.dev6-1.12.dev7/diff.md --exclude *.pyd
+[2023-07-03 12:22:39] INFO root fetch - processPackages [garpixcms]: executing diffoscope
+[2023-07-03 12:22:39] INFO root fetch - processPackages [garpixcms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/garpixcms-4.5.0rc1.tar.gz tmp/garpixcms-4.5.0rc2.tar.gz --markdown 20230703/g/garpixcms/4.5.0rc1-4.5.0rc2/diff.md --exclude *.pyd
+[2023-07-03 12:22:39] INFO root fetch - processPackages [libvirt-python]: executing diffoscope
+[2023-07-03 12:22:39] INFO root fetch - processPackages [libvirt-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libvirt-python-9.4.0.tar.gz tmp/libvirt-python-9.5.0.tar.gz --markdown 20230703/l/libvirt-python/9.4.0-9.5.0/diff.md --exclude *.pyd
+[2023-07-03 12:22:41] INFO root fetch - processPackages [leadguru-jobs]: Remove: archive file [/home/abi/fetcher/tmp/leadguru_jobs-0.98.0.tar.gz]
+[2023-07-03 12:22:41] INFO root fetch - processPackages [leadguru-jobs]: Remove: archive file [/home/abi/fetcher/tmp/leadguru_jobs-0.99.0.tar.gz]
+[2023-07-03 12:22:41] INFO root fetch - processPackages [leadguru-jobs]: Start processing: spaceone-file-manager
+[2023-07-03 12:22:41] INFO root fetch - main [MainThread]: End processing [leadguru-jobs]: success
+[2023-07-03 12:22:41] INFO root fetch - processPackages [cs.app.playon]: Remove: archive file [/home/abi/fetcher/tmp/cs.app.playon-20230217.tar.gz]
+[2023-07-03 12:22:41] INFO root fetch - processPackages [cs.app.playon]: Remove: archive file [/home/abi/fetcher/tmp/cs.app.playon-20230703.tar.gz]
+[2023-07-03 12:22:41] INFO root fetch - processPackages [cs.app.playon]: Start processing: aliyun-python-sdk-ocr
+[2023-07-03 12:22:41] INFO root fetch - main [MainThread]: End processing [cs.app.playon]: success
+[2023-07-03 12:22:41] INFO root fetch - processPackages [spaceone-dashboard]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-dashboard-1.12.dev6.tar.gz]
+[2023-07-03 12:22:41] INFO root fetch - processPackages [spaceone-dashboard]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-dashboard-1.12.dev7.tar.gz]
+[2023-07-03 12:22:41] INFO root fetch - processPackages [spaceone-dashboard]: Start processing: cloudforet-console-api-v2
+[2023-07-03 12:22:41] INFO root fetch - main [MainThread]: End processing [spaceone-dashboard]: success
+[2023-07-03 12:22:41] INFO root fetch - processPackages [spaceone-file-manager]: New version: [1.8.11rc1] Old Version: [1.8.11]
+[2023-07-03 12:22:41] INFO root fetch - processPackages [datascrub]: Remove: archive file [/home/abi/fetcher/tmp/datascrub-1.1.2.tar.gz]
+[2023-07-03 12:22:41] INFO root fetch - processPackages [datascrub]: Remove: archive file [/home/abi/fetcher/tmp/datascrub-1.1.3.tar.gz]
+[2023-07-03 12:22:41] INFO root fetch - processPackages [datascrub]: Start processing: Products.urban
+[2023-07-03 12:22:41] INFO root fetch - main [MainThread]: End processing [datascrub]: success
+[2023-07-03 12:22:41] INFO root fetch - processPackages [spaceone-board]: Remove: archive file [/home/abi/fetcher/tmp/spaceone_board-1.9.7-py3-none-any.whl.zip]
+[2023-07-03 12:22:41] INFO root fetch - processPackages [spaceone-board]: Remove: archive file [/home/abi/fetcher/tmp/spaceone_board-1.9.7rc1-py3-none-any.whl.zip]
+[2023-07-03 12:22:41] INFO root fetch - processPackages [spaceone-board]: Start processing: cq-queryabolt
+[2023-07-03 12:22:41] INFO root fetch - main [MainThread]: End processing [spaceone-board]: success
+[2023-07-03 12:22:41] INFO root fetch - processPackages [discord-ansi]: Remove: archive file [/home/abi/fetcher/tmp/discord-ansi-0.3.tar.gz]
+[2023-07-03 12:22:41] INFO root fetch - processPackages [discord-ansi]: Remove: archive file [/home/abi/fetcher/tmp/discord-ansi-0.4.tar.gz]
+[2023-07-03 12:22:41] INFO root fetch - processPackages [discord-ansi]: Start processing: spaceone-identity
+[2023-07-03 12:22:41] INFO root fetch - main [MainThread]: End processing [discord-ansi]: success
+[2023-07-03 12:22:41] WARNING root fetch - processPackages [cq-queryabolt]: Skipping, unable to determine old version
+[2023-07-03 12:22:41] INFO root fetch - processPackages [cq-queryabolt]: Start processing: isotools
+[2023-07-03 12:22:41] INFO root fetch - main [MainThread]: End processing [cq-queryabolt] error
+[2023-07-03 12:22:41] INFO root fetch - processPackages [aliyun-python-sdk-ocr]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-03 12:22:41] INFO root fetch - processPackages [garpixcms]: Remove: archive file [/home/abi/fetcher/tmp/garpixcms-4.5.0rc1.tar.gz]
+[2023-07-03 12:22:41] INFO root fetch - processPackages [garpixcms]: Remove: archive file [/home/abi/fetcher/tmp/garpixcms-4.5.0rc2.tar.gz]
+[2023-07-03 12:22:41] INFO root fetch - processPackages [garpixcms]: Start processing: spaceone-notification
+[2023-07-03 12:22:41] INFO root fetch - main [MainThread]: End processing [garpixcms]: success
+[2023-07-03 12:22:41] INFO root fetch - processPackages [cloudforet-console-api-v2]: New version: [1.12.dev7] Old Version: [1.12.dev6]
+[2023-07-03 12:22:41] INFO root fetch - processPackages [garpix-utils]: Remove: archive file [/home/abi/fetcher/tmp/garpix_utils-1.9.0rc1.tar.gz]
+[2023-07-03 12:22:41] INFO root fetch - processPackages [garpix-utils]: Remove: archive file [/home/abi/fetcher/tmp/garpix_utils-1.9.0rc2.tar.gz]
+[2023-07-03 12:22:41] INFO root fetch - processPackages [garpix-utils]: Start processing: c2cwsgiutils
+[2023-07-03 12:22:41] INFO root fetch - main [MainThread]: End processing [garpix-utils]: success
+[2023-07-03 12:22:41] INFO root fetch - processPackages [Products.urban]: New version: [2.5.4] Old Version: [2.5.3]
+[2023-07-03 12:22:41] INFO root fetch - processPackages [spaceone-identity]: New version: [1.9.7rc2] Old Version: [1.9.7rc1]
+[2023-07-03 12:22:41] INFO root fetch - processPackages [c2cwsgiutils]: New version: [6.0.0.dev99] Old Version: [6.0.0.dev97]
+[2023-07-03 12:22:41] INFO root fetch - processPackages [isotools]: New version: [0.3.4] Old Version: [0.3.3]
+[2023-07-03 12:22:41] INFO root fetch - processPackages [spaceone-notification]: New version: [1.12.dev6] Old Version: [1.12.dev5]
+[2023-07-03 12:22:41] INFO root fetch - processPackages [spaceone-config]: Remove: archive file [/home/abi/fetcher/tmp/spaceone_config-1.9.7.1-py3-none-any.whl.zip]
+[2023-07-03 12:22:41] INFO root fetch - processPackages [spaceone-config]: Remove: archive file [/home/abi/fetcher/tmp/spaceone_config-1.9.7rc1-py3-none-any.whl.zip]
+[2023-07-03 12:22:41] INFO root fetch - processPackages [spaceone-config]: Start processing: spaceone-secret
+[2023-07-03 12:22:41] INFO root fetch - main [MainThread]: End processing [spaceone-config]: success
+[2023-07-03 12:22:41] INFO root fetch - processPackages [spaceone-file-manager]: Downloading https://files.pythonhosted.org/packages/39/83/53e3265ff092fe178def112f8d649eaf4f4a6c624252d955923c5c2404d3/spaceone_file_manager-1.8.11-py3-none-any.whl
+[2023-07-03 12:22:41] INFO root fetch - processPackages [cloudforet-console-api-v2]: Downloading https://files.pythonhosted.org/packages/70/ea/d7617bfe2814e12630a32143c76102bbd918ccc21dc3b4ad7e53e7cdfd2c/cloudforet-console-api-v2-1.12.dev6.tar.gz
+[2023-07-03 12:22:41] INFO root fetch - processPackages [aliyun-python-sdk-ocr]: Downloading https://files.pythonhosted.org/packages/5f/b3/c3d4dafb323f25af2883b098371b43a70f894147ed289fd54637201d0536/aliyun-python-sdk-ocr-1.0.8.tar.gz
+[2023-07-03 12:22:41] INFO root fetch - processPackages [c2cwsgiutils]: Downloading https://files.pythonhosted.org/packages/7e/19/e64dc0870291f601e6d1f041424eef5a28112c1c9b7be627a7f01c80ebab/c2cwsgiutils-6.0.0.dev97.tar.gz
+[2023-07-03 12:22:41] INFO root fetch - processPackages [libvirt-python]: Remove: archive file [/home/abi/fetcher/tmp/libvirt-python-9.4.0.tar.gz]
+[2023-07-03 12:22:41] INFO root fetch - processPackages [libvirt-python]: Remove: archive file [/home/abi/fetcher/tmp/libvirt-python-9.5.0.tar.gz]
+[2023-07-03 12:22:41] INFO root fetch - processPackages [libvirt-python]: Start processing: cq-queryabolt
+[2023-07-03 12:22:41] INFO root fetch - main [MainThread]: End processing [libvirt-python]: success
+[2023-07-03 12:22:41] INFO root fetch - processPackages [spaceone-secret]: New version: [1.9.7rc1] Old Version: [1.9.7.1]
+[2023-07-03 12:22:41] INFO root fetch - processPackages [Products.urban]: Downloading https://files.pythonhosted.org/packages/49/ba/3d0f16c8554acb42e15b8136d64b99ffcd222ea990654e0c2095bcf8ad89/Products.urban-2.5.3.tar.gz
+[2023-07-03 12:22:41] INFO root fetch - processPackages [spaceone-identity]: Downloading https://files.pythonhosted.org/packages/60/aa/ad6f2d637740b2091883707db26053c4633dec76ccabc1af7b0ea0753106/spaceone_identity-1.9.7rc1-py3-none-any.whl
+[2023-07-03 12:22:41] INFO root fetch - processPackages [cq-queryabolt]: New version: [0.0.2] Old Version: [0.0.1.post1]
+[2023-07-03 12:22:41] INFO root fetch - processPackages [spaceone-notification]: Downloading https://files.pythonhosted.org/packages/e5/f2/a4675f0ec71cd4761005e442e6448a3f37b1025289ef1f6813d4239d17b1/spaceone-notification-1.12.dev5.tar.gz
+[2023-07-03 12:22:41] WARNING root fetch - processPackages [Products.urban]: Skipping package: exceeds size limit 22165082>=10485760
+[2023-07-03 12:22:41] INFO root fetch - main [MainThread]: End processing [Products.urban] error
+[2023-07-03 12:22:41] INFO root fetch - processPackages [isotools]: Downloading https://files.pythonhosted.org/packages/47/57/3387da1b2f75d36059845c3399fd3fbb1aea2a01b4e35f484a23bcd7c068/isotools-0.3.3.tar.gz
+[2023-07-03 12:22:41] INFO root fetch - processPackages [spaceone-secret]: Downloading https://files.pythonhosted.org/packages/f9/0a/b0db39cfa927121fe0322281b733f6c509647d8bd40c54b566a8f3ebb08f/spaceone_secret-1.9.7.1-py3-none-any.whl
+[2023-07-03 12:22:42] INFO root fetch - processPackages [spaceone-file-manager]: Downloading https://files.pythonhosted.org/packages/cb/7c/347b7347009395177c4a6bf9d242a111b632144ff1d3c7aca938749477a7/spaceone_file_manager-1.8.11rc1-py3-none-any.whl
+[2023-07-03 12:22:42] INFO root fetch - processPackages [cq-queryabolt]: Downloading https://files.pythonhosted.org/packages/36/72/c9599a9a4b02382a35e22c0936102210e786c3df017cd154293456ad495f/cq_queryabolt-0.0.1.post1.tar.gz
+[2023-07-03 12:22:42] INFO root fetch - processPackages [c2cwsgiutils]: Downloading https://files.pythonhosted.org/packages/bc/fc/caed9a3b8aa535ab83ce1fdf048ce861e9039ac24958fa3ddf9049b3f2b6/c2cwsgiutils-6.0.0.dev99.tar.gz
+[2023-07-03 12:22:42] INFO root fetch - processPackages [cloudforet-console-api-v2]: Downloading https://files.pythonhosted.org/packages/9a/e5/2d20f0125905dcadb5943ccb2bb9a70c1a4d9f5b6c6743bde3c745502d93/cloudforet-console-api-v2-1.12.dev7.tar.gz
+[2023-07-03 12:22:42] INFO root fetch - processPackages [aliyun-python-sdk-ocr]: Downloading https://files.pythonhosted.org/packages/a9/c9/70262e6259b85e0c43c807728189371d089de20ac663ddafb8a61905a3aa/aliyun-python-sdk-ocr-1.0.9.tar.gz
+[2023-07-03 12:22:42] INFO root fetch - processPackages [spaceone-file-manager]: executing diffoscope
+[2023-07-03 12:22:42] INFO root fetch - processPackages [spaceone-file-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spaceone_file_manager-1.8.11-py3-none-any.whl.zip tmp/spaceone_file_manager-1.8.11rc1-py3-none-any.whl.zip --markdown 20230703/s/spaceone-file-manager/1.8.11-1.8.11rc1/diff.md --exclude *.pyd
+[2023-07-03 12:22:42] INFO root fetch - processPackages [spaceone-identity]: Downloading https://files.pythonhosted.org/packages/50/45/8e8840de775e39139fb06889be9ab1840dd86ff941971f3ceaa2e62488c0/spaceone_identity-1.9.7rc2-py3-none-any.whl
+[2023-07-03 12:22:42] INFO root fetch - processPackages [cloudforet-console-api-v2]: executing diffoscope
+[2023-07-03 12:22:42] INFO root fetch - processPackages [cloudforet-console-api-v2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudforet-console-api-v2-1.12.dev6.tar.gz tmp/cloudforet-console-api-v2-1.12.dev7.tar.gz --markdown 20230703/c/cloudforet-console-api-v2/1.12.dev6-1.12.dev7/diff.md --exclude *.pyd
+[2023-07-03 12:22:42] INFO root fetch - processPackages [c2cwsgiutils]: executing diffoscope
+[2023-07-03 12:22:42] INFO root fetch - processPackages [c2cwsgiutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c2cwsgiutils-6.0.0.dev97.tar.gz tmp/c2cwsgiutils-6.0.0.dev99.tar.gz --markdown 20230703/c/c2cwsgiutils/6.0.0.dev97-6.0.0.dev99/diff.md --exclude *.pyd
+[2023-07-03 12:22:42] INFO root fetch - processPackages [isotools]: Downloading https://files.pythonhosted.org/packages/1f/1f/f4bd828bc67dbdf0f31b62ee654994de4abb1c3e89656fb34c720f909f66/isotools-0.3.4.tar.gz
+[2023-07-03 12:22:42] INFO root fetch - processPackages [spaceone-notification]: Downloading https://files.pythonhosted.org/packages/31/4a/292c4a5e95e7a14813c52cda539604ce95e2c7ec2b185a498a8a969c85d5/spaceone-notification-1.12.dev6.tar.gz
+[2023-07-03 12:22:42] INFO root fetch - processPackages [aliyun-python-sdk-ocr]: executing diffoscope
+[2023-07-03 12:22:42] INFO root fetch - processPackages [aliyun-python-sdk-ocr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aliyun-python-sdk-ocr-1.0.8.tar.gz tmp/aliyun-python-sdk-ocr-1.0.9.tar.gz --markdown 20230703/a/aliyun-python-sdk-ocr/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-03 12:22:42] INFO root fetch - processPackages [spaceone-secret]: Downloading https://files.pythonhosted.org/packages/75/44/b92d2532a1c1a1ec9c13a58d77760d51c0bc17b65ca3f67bf0944c9476db/spaceone_secret-1.9.7rc1-py3-none-any.whl
+[2023-07-03 12:22:42] INFO root fetch - processPackages [spaceone-identity]: executing diffoscope
+[2023-07-03 12:22:42] INFO root fetch - processPackages [spaceone-identity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spaceone_identity-1.9.7rc1-py3-none-any.whl.zip tmp/spaceone_identity-1.9.7rc2-py3-none-any.whl.zip --markdown 20230703/s/spaceone-identity/1.9.7rc1-1.9.7rc2/diff.md --exclude *.pyd
+[2023-07-03 12:22:42] INFO root fetch - processPackages [cq-queryabolt]: Downloading https://files.pythonhosted.org/packages/42/2a/d71bdc22606d388d1eb6af1f44c2b1a39fdecc92ddc949ea32aa2bae6f31/cq_queryabolt-0.0.2.tar.gz
+[2023-07-03 12:22:42] INFO root fetch - processPackages [isotools]: executing diffoscope
+[2023-07-03 12:22:42] INFO root fetch - processPackages [isotools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/isotools-0.3.3.tar.gz tmp/isotools-0.3.4.tar.gz --markdown 20230703/i/isotools/0.3.3-0.3.4/diff.md --exclude *.pyd
+[2023-07-03 12:22:42] INFO root fetch - processPackages [spaceone-notification]: executing diffoscope
+[2023-07-03 12:22:42] INFO root fetch - processPackages [spaceone-notification]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spaceone-notification-1.12.dev5.tar.gz tmp/spaceone-notification-1.12.dev6.tar.gz --markdown 20230703/s/spaceone-notification/1.12.dev5-1.12.dev6/diff.md --exclude *.pyd
+[2023-07-03 12:22:42] INFO root fetch - processPackages [spaceone-secret]: executing diffoscope
+[2023-07-03 12:22:42] INFO root fetch - processPackages [spaceone-secret]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spaceone_secret-1.9.7.1-py3-none-any.whl.zip tmp/spaceone_secret-1.9.7rc1-py3-none-any.whl.zip --markdown 20230703/s/spaceone-secret/1.9.7.1-1.9.7rc1/diff.md --exclude *.pyd
+[2023-07-03 12:22:42] INFO root fetch - processPackages [cq-queryabolt]: executing diffoscope
+[2023-07-03 12:22:42] INFO root fetch - processPackages [cq-queryabolt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cq_queryabolt-0.0.1.post1.tar.gz tmp/cq_queryabolt-0.0.2.tar.gz --markdown 20230703/c/cq-queryabolt/0.0.1.post1-0.0.2/diff.md --exclude *.pyd
+[2023-07-03 12:22:43] INFO root fetch - processPackages [spaceone-file-manager]: Remove: archive file [/home/abi/fetcher/tmp/spaceone_file_manager-1.8.11-py3-none-any.whl.zip]
+[2023-07-03 12:22:43] INFO root fetch - processPackages [spaceone-file-manager]: Remove: archive file [/home/abi/fetcher/tmp/spaceone_file_manager-1.8.11rc1-py3-none-any.whl.zip]
+[2023-07-03 12:22:43] INFO root fetch - main [MainThread]: End processing [spaceone-file-manager]: success
+[2023-07-03 12:22:43] INFO root fetch - processPackages [aliyun-python-sdk-ocr]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-ocr-1.0.8.tar.gz]
+[2023-07-03 12:22:43] INFO root fetch - processPackages [aliyun-python-sdk-ocr]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-ocr-1.0.9.tar.gz]
+[2023-07-03 12:22:43] INFO root fetch - main [MainThread]: End processing [aliyun-python-sdk-ocr]: success
+[2023-07-03 12:22:44] INFO root fetch - processPackages [c2cwsgiutils]: Remove: archive file [/home/abi/fetcher/tmp/c2cwsgiutils-6.0.0.dev97.tar.gz]
+[2023-07-03 12:22:44] INFO root fetch - processPackages [c2cwsgiutils]: Remove: archive file [/home/abi/fetcher/tmp/c2cwsgiutils-6.0.0.dev99.tar.gz]
+[2023-07-03 12:22:44] INFO root fetch - main [MainThread]: End processing [c2cwsgiutils]: success
+[2023-07-03 12:22:44] INFO root fetch - processPackages [cq-queryabolt]: Remove: archive file [/home/abi/fetcher/tmp/cq_queryabolt-0.0.1.post1.tar.gz]
+[2023-07-03 12:22:44] INFO root fetch - processPackages [cq-queryabolt]: Remove: archive file [/home/abi/fetcher/tmp/cq_queryabolt-0.0.2.tar.gz]
+[2023-07-03 12:22:44] INFO root fetch - main [MainThread]: End processing [cq-queryabolt]: success
+[2023-07-03 12:22:44] INFO root fetch - processPackages [cloudforet-console-api-v2]: Remove: archive file [/home/abi/fetcher/tmp/cloudforet-console-api-v2-1.12.dev6.tar.gz]
+[2023-07-03 12:22:44] INFO root fetch - processPackages [cloudforet-console-api-v2]: Remove: archive file [/home/abi/fetcher/tmp/cloudforet-console-api-v2-1.12.dev7.tar.gz]
+[2023-07-03 12:22:44] INFO root fetch - main [MainThread]: End processing [cloudforet-console-api-v2]: success
+[2023-07-03 12:22:44] INFO root fetch - processPackages [isotools]: Remove: archive file [/home/abi/fetcher/tmp/isotools-0.3.3.tar.gz]
+[2023-07-03 12:22:44] INFO root fetch - processPackages [isotools]: Remove: archive file [/home/abi/fetcher/tmp/isotools-0.3.4.tar.gz]
+[2023-07-03 12:22:44] INFO root fetch - main [MainThread]: End processing [isotools]: success
+[2023-07-03 12:22:44] INFO root fetch - processPackages [spaceone-secret]: Remove: archive file [/home/abi/fetcher/tmp/spaceone_secret-1.9.7.1-py3-none-any.whl.zip]
+[2023-07-03 12:22:44] INFO root fetch - processPackages [spaceone-secret]: Remove: archive file [/home/abi/fetcher/tmp/spaceone_secret-1.9.7rc1-py3-none-any.whl.zip]
+[2023-07-03 12:22:44] INFO root fetch - main [MainThread]: End processing [spaceone-secret]: success
+[2023-07-03 12:22:44] INFO root fetch - processPackages [spaceone-identity]: Remove: archive file [/home/abi/fetcher/tmp/spaceone_identity-1.9.7rc1-py3-none-any.whl.zip]
+[2023-07-03 12:22:44] INFO root fetch - processPackages [spaceone-identity]: Remove: archive file [/home/abi/fetcher/tmp/spaceone_identity-1.9.7rc2-py3-none-any.whl.zip]
+[2023-07-03 12:22:44] INFO root fetch - main [MainThread]: End processing [spaceone-identity]: success
+[2023-07-03 12:22:44] INFO root fetch - processPackages [spaceone-notification]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-notification-1.12.dev5.tar.gz]
+[2023-07-03 12:22:44] INFO root fetch - processPackages [spaceone-notification]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-notification-1.12.dev6.tar.gz]
+[2023-07-03 12:22:44] INFO root fetch - main [MainThread]: End processing [spaceone-notification]: success
+[2023-07-03 12:22:44] INFO root fetch - main [MainThread]: Store serial: [18737565]
