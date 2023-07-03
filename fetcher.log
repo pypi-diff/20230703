@@ -6223,3 +6223,86 @@
 [2023-07-03 05:27:53] INFO root fetch - processPackages [melon-scheduler]: Remove: archive file [/home/abi/fetcher/tmp/melon_scheduler-0.1.7.tar.gz]
 [2023-07-03 05:27:53] INFO root fetch - main [MainThread]: End processing [melon-scheduler]: success
 [2023-07-03 05:27:53] INFO root fetch - main [MainThread]: Store serial: [18734310]
+[2023-07-03 05:32:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18734310]
+[2023-07-03 05:33:03] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-03 05:33:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tcod-ecs
+[2023-07-03 05:33:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: policyengine-us
+[2023-07-03 05:33:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sphinx-immaterial
+[2023-07-03 05:33:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: alibabacloud-nlp-automl20191111-py2
+[2023-07-03 05:33:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: m23
+[2023-07-03 05:33:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: deduplicationdict
+[2023-07-03 05:33:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: RamseyTheoryRL
+[2023-07-03 05:33:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: alibabacloud-nlp-automl20191111
+[2023-07-03 05:33:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: sanic-security
+[2023-07-03 05:33:03] INFO root fetch - processPackages [policyengine-us]: New version: [0.348.1] Old Version: [0.348.0]
+[2023-07-03 05:33:03] INFO root fetch - processPackages [tcod-ecs]: New version: [3.2.0] Old Version: [3.1.0]
+[2023-07-03 05:33:03] INFO root fetch - processPackages [deduplicationdict]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-07-03 05:33:03] INFO root fetch - processPackages [alibabacloud-nlp-automl20191111-py2]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-03 05:33:03] INFO root fetch - processPackages [m23]: New version: [1.9.4] Old Version: [1.9.3]
+[2023-07-03 05:33:03] INFO root fetch - processPackages [sphinx-immaterial]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-07-03 05:33:03] INFO root fetch - processPackages [alibabacloud-nlp-automl20191111]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-07-03 05:33:03] INFO root fetch - processPackages [RamseyTheoryRL]: New version: [0.52] Old Version: [0.51]
+[2023-07-03 05:33:03] INFO root fetch - processPackages [sanic-security]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-07-03 05:33:03] INFO root fetch - processPackages [policyengine-us]: Downloading https://files.pythonhosted.org/packages/38/be/d02e81c11af11b205a8ed12520d2ab69b58078eed65c92ffa61e5021bb0b/policyengine-us-0.348.0.tar.gz
+[2023-07-03 05:33:03] INFO root fetch - processPackages [m23]: Downloading https://files.pythonhosted.org/packages/25/1b/1cd98c7359d0d7840ad83680e5f0bb5c3ad5d40ae326078dcec90b87590d/m23-1.9.3.tar.gz
+[2023-07-03 05:33:03] INFO root fetch - processPackages [deduplicationdict]: Downloading https://files.pythonhosted.org/packages/95/f1/3b485a71fa6fc310fba395a8c44fb549fd8c4f8116fa96ee9bf9ad8385f6/deduplicationdict-1.0.3.tar.gz
+[2023-07-03 05:33:03] INFO root fetch - processPackages [sanic-security]: Downloading https://files.pythonhosted.org/packages/97/8e/010d8c95f266d46ae059b7f411b03fbed45c3d397825f7ef0ffac6082682/sanic-security-1.9.8.tar.gz
+[2023-07-03 05:33:03] INFO root fetch - processPackages [RamseyTheoryRL]: Downloading https://files.pythonhosted.org/packages/d9/67/739136ed935066ec7bb420c103d20ccb5cb040db99438801d0020eb49454/RamseyTheoryRL-0.51.tar.gz
+[2023-07-03 05:33:03] INFO root fetch - processPackages [sphinx-immaterial]: Downloading https://files.pythonhosted.org/packages/58/05/1187d0ee407424c42bf7fa0471ad8e6c82a7f00dc5d30d29861c59c09b91/sphinx_immaterial-0.9.0.tar.gz
+[2023-07-03 05:33:03] INFO root fetch - processPackages [alibabacloud-nlp-automl20191111]: Downloading https://files.pythonhosted.org/packages/1d/1c/17e470779f5ae7842934554d0d2611158a09cdb479e5813835abbeb399bf/alibabacloud_nlp-automl20191111-1.0.2.tar.gz
+[2023-07-03 05:33:03] INFO root fetch - processPackages [alibabacloud-nlp-automl20191111-py2]: Downloading https://files.pythonhosted.org/packages/f0/c5/e5919e3e62941ce9b046fd53804979b60cdf06a7b68a2bd2149652672bd0/alibabacloud_nlp-automl20191111_py2-1.0.1.tar.gz
+[2023-07-03 05:33:03] INFO root fetch - processPackages [tcod-ecs]: Downloading https://files.pythonhosted.org/packages/fa/44/82e2032d18620b913ba7760a36366c87c37fad37a7696586fa1f549ab387/tcod_ecs-3.1.0.tar.gz
+[2023-07-03 05:33:03] INFO root fetch - processPackages [deduplicationdict]: Downloading https://files.pythonhosted.org/packages/fc/1c/d3c7bba92dc5572cc1f50e0ed1a88f82b11b8ef1c318f66b5728b07b027e/deduplicationdict-1.0.4.tar.gz
+[2023-07-03 05:33:03] INFO root fetch - processPackages [sanic-security]: Downloading https://files.pythonhosted.org/packages/e6/51/bf5adbbe544913e29a8d4c0897a46e3f89761245b8b6f5e613a08badbc01/sanic-security-1.9.9.tar.gz
+[2023-07-03 05:33:03] INFO root fetch - processPackages [policyengine-us]: Downloading https://files.pythonhosted.org/packages/97/d1/ed57b26ae4a81bf2305103d607e1fc6d3112ed3b7eac59d25b121462611d/policyengine-us-0.348.1.tar.gz
+[2023-07-03 05:33:03] INFO root fetch - processPackages [deduplicationdict]: executing diffoscope
+[2023-07-03 05:33:03] INFO root fetch - processPackages [deduplicationdict]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deduplicationdict-1.0.3.tar.gz tmp/deduplicationdict-1.0.4.tar.gz --markdown 20230703/d/deduplicationdict/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-07-03 05:33:03] INFO root fetch - processPackages [sanic-security]: executing diffoscope
+[2023-07-03 05:33:03] INFO root fetch - processPackages [sanic-security]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sanic-security-1.9.8.tar.gz tmp/sanic-security-1.9.9.tar.gz --markdown 20230703/s/sanic-security/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-07-03 05:33:03] INFO root fetch - processPackages [alibabacloud-nlp-automl20191111]: Downloading https://files.pythonhosted.org/packages/68/cf/3541c40843534651298f1677f0700d5eccdebe763523d3c5f6020a41bc09/alibabacloud_nlp-automl20191111-1.0.3.tar.gz
+[2023-07-03 05:33:03] INFO root fetch - processPackages [RamseyTheoryRL]: Downloading https://files.pythonhosted.org/packages/e4/57/42ab6c0c4dd30c21a97466f28a41b7e796c2a329e0fb3e1ef0397d512c61/RamseyTheoryRL-0.52.tar.gz
+[2023-07-03 05:33:03] INFO root fetch - processPackages [m23]: Downloading https://files.pythonhosted.org/packages/b7/73/ef1e5a9923185ad2d38db84efb87e8d93114907ae85cca94cb643e419634/m23-1.9.4.tar.gz
+[2023-07-03 05:33:03] INFO root fetch - processPackages [alibabacloud-nlp-automl20191111-py2]: Downloading https://files.pythonhosted.org/packages/e2/51/3de5a8c4b08a1aba12341ad766ed58d2117def0575fafb5e3202b091e8b1/alibabacloud_nlp-automl20191111_py2-1.0.2.tar.gz
+[2023-07-03 05:33:03] INFO root fetch - processPackages [tcod-ecs]: Downloading https://files.pythonhosted.org/packages/17/e9/51db6e7edbb01f3ec073a6f32a8ea8489241bb24947bdd142d666ed895b7/tcod_ecs-3.2.0.tar.gz
+[2023-07-03 05:33:03] INFO root fetch - processPackages [alibabacloud-nlp-automl20191111]: executing diffoscope
+[2023-07-03 05:33:03] INFO root fetch - processPackages [alibabacloud-nlp-automl20191111]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_nlp-automl20191111-1.0.2.tar.gz tmp/alibabacloud_nlp-automl20191111-1.0.3.tar.gz --markdown 20230703/a/alibabacloud-nlp-automl20191111/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-07-03 05:33:03] INFO root fetch - processPackages [alibabacloud-nlp-automl20191111-py2]: executing diffoscope
+[2023-07-03 05:33:03] INFO root fetch - processPackages [alibabacloud-nlp-automl20191111-py2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_nlp-automl20191111_py2-1.0.1.tar.gz tmp/alibabacloud_nlp-automl20191111_py2-1.0.2.tar.gz --markdown 20230703/a/alibabacloud-nlp-automl20191111-py2/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-03 05:33:03] INFO root fetch - processPackages [tcod-ecs]: executing diffoscope
+[2023-07-03 05:33:03] INFO root fetch - processPackages [tcod-ecs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tcod_ecs-3.1.0.tar.gz tmp/tcod_ecs-3.2.0.tar.gz --markdown 20230703/t/tcod-ecs/3.1.0-3.2.0/diff.md --exclude *.pyd
+[2023-07-03 05:33:04] INFO root fetch - processPackages [RamseyTheoryRL]: executing diffoscope
+[2023-07-03 05:33:04] INFO root fetch - processPackages [RamseyTheoryRL]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RamseyTheoryRL-0.51.tar.gz tmp/RamseyTheoryRL-0.52.tar.gz --markdown 20230703/R/RamseyTheoryRL/0.51-0.52/diff.md --exclude *.pyd
+[2023-07-03 05:33:04] INFO root fetch - processPackages [policyengine-us]: executing diffoscope
+[2023-07-03 05:33:04] INFO root fetch - processPackages [policyengine-us]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/policyengine-us-0.348.0.tar.gz tmp/policyengine-us-0.348.1.tar.gz --markdown 20230703/p/policyengine-us/0.348.0-0.348.1/diff.md --exclude *.pyd
+[2023-07-03 05:33:04] INFO root fetch - processPackages [m23]: executing diffoscope
+[2023-07-03 05:33:04] INFO root fetch - processPackages [m23]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/m23-1.9.3.tar.gz tmp/m23-1.9.4.tar.gz --markdown 20230703/m/m23/1.9.3-1.9.4/diff.md --exclude *.pyd
+[2023-07-03 05:33:04] INFO root fetch - processPackages [sphinx-immaterial]: Downloading https://files.pythonhosted.org/packages/9c/97/09c28193868f4020ce82541aa95145b8a4d547e8dff5e9cb76bd352f0d37/sphinx_immaterial-0.9.1.tar.gz
+[2023-07-03 05:33:04] INFO root fetch - processPackages [deduplicationdict]: Remove: archive file [/home/abi/fetcher/tmp/deduplicationdict-1.0.3.tar.gz]
+[2023-07-03 05:33:04] INFO root fetch - processPackages [deduplicationdict]: Remove: archive file [/home/abi/fetcher/tmp/deduplicationdict-1.0.4.tar.gz]
+[2023-07-03 05:33:04] INFO root fetch - main [MainThread]: End processing [deduplicationdict]: success
+[2023-07-03 05:33:05] INFO root fetch - processPackages [alibabacloud-nlp-automl20191111]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_nlp-automl20191111-1.0.2.tar.gz]
+[2023-07-03 05:33:05] INFO root fetch - processPackages [alibabacloud-nlp-automl20191111]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_nlp-automl20191111-1.0.3.tar.gz]
+[2023-07-03 05:33:05] INFO root fetch - main [MainThread]: End processing [alibabacloud-nlp-automl20191111]: success
+[2023-07-03 05:33:05] INFO root fetch - processPackages [sanic-security]: Remove: archive file [/home/abi/fetcher/tmp/sanic-security-1.9.8.tar.gz]
+[2023-07-03 05:33:05] INFO root fetch - processPackages [sanic-security]: Remove: archive file [/home/abi/fetcher/tmp/sanic-security-1.9.9.tar.gz]
+[2023-07-03 05:33:05] INFO root fetch - main [MainThread]: End processing [sanic-security]: success
+[2023-07-03 05:33:05] INFO root fetch - processPackages [tcod-ecs]: Remove: archive file [/home/abi/fetcher/tmp/tcod_ecs-3.1.0.tar.gz]
+[2023-07-03 05:33:05] INFO root fetch - processPackages [tcod-ecs]: Remove: archive file [/home/abi/fetcher/tmp/tcod_ecs-3.2.0.tar.gz]
+[2023-07-03 05:33:05] INFO root fetch - main [MainThread]: End processing [tcod-ecs]: success
+[2023-07-03 05:33:05] INFO root fetch - processPackages [alibabacloud-nlp-automl20191111-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_nlp-automl20191111_py2-1.0.1.tar.gz]
+[2023-07-03 05:33:05] INFO root fetch - processPackages [alibabacloud-nlp-automl20191111-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_nlp-automl20191111_py2-1.0.2.tar.gz]
+[2023-07-03 05:33:05] INFO root fetch - main [MainThread]: End processing [alibabacloud-nlp-automl20191111-py2]: success
+[2023-07-03 05:33:05] INFO root fetch - processPackages [sphinx-immaterial]: executing diffoscope
+[2023-07-03 05:33:05] INFO root fetch - processPackages [sphinx-immaterial]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sphinx_immaterial-0.9.0.tar.gz tmp/sphinx_immaterial-0.9.1.tar.gz --markdown 20230703/s/sphinx-immaterial/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-07-03 05:33:05] INFO root fetch - processPackages [RamseyTheoryRL]: Remove: archive file [/home/abi/fetcher/tmp/RamseyTheoryRL-0.51.tar.gz]
+[2023-07-03 05:33:05] INFO root fetch - processPackages [RamseyTheoryRL]: Remove: archive file [/home/abi/fetcher/tmp/RamseyTheoryRL-0.52.tar.gz]
+[2023-07-03 05:33:05] INFO root fetch - main [MainThread]: End processing [RamseyTheoryRL]: success
+[2023-07-03 05:33:06] INFO root fetch - processPackages [m23]: Remove: archive file [/home/abi/fetcher/tmp/m23-1.9.3.tar.gz]
+[2023-07-03 05:33:06] INFO root fetch - processPackages [m23]: Remove: archive file [/home/abi/fetcher/tmp/m23-1.9.4.tar.gz]
+[2023-07-03 05:33:06] INFO root fetch - main [MainThread]: End processing [m23]: success
+[2023-07-03 05:34:31] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.348.0.tar.gz]
+[2023-07-03 05:34:31] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.348.1.tar.gz]
+[2023-07-03 05:34:31] INFO root fetch - main [MainThread]: End processing [policyengine-us]: success
+[2023-07-03 05:36:05] ERROR root fetch - processPackages [sphinx-immaterial]: Timeout during execution of pkgdiff
+[2023-07-03 05:36:05] INFO root fetch - main [MainThread]: End processing [sphinx-immaterial] error
+[2023-07-03 05:36:05] INFO root fetch - main [MainThread]: Store serial: [18734337]
