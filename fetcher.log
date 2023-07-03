@@ -13869,3 +13869,102 @@ AssertionError: tmp/discord-ansi-0.3.tar.gz does not exist
 [2023-07-03 12:11:45] INFO root fetch - processPackages [openvino-dev]: Remove: archive file [/home/abi/fetcher/tmp/openvino_dev-2023.1.0.dev20230623-11420-py3-none-any.whl.zip]
 [2023-07-03 12:11:45] INFO root fetch - main [MainThread]: End processing [openvino-dev]: success
 [2023-07-03 12:11:45] INFO root fetch - main [MainThread]: Store serial: [18737451]
+[2023-07-03 12:16:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18737451]
+[2023-07-03 12:16:53] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-07-03 12:16:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aloso
+[2023-07-03 12:16:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ntml
+[2023-07-03 12:16:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dm-reverb-nightly
+[2023-07-03 12:16:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: inmanta-module-aws
+[2023-07-03 12:16:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: XoxoDay
+[2023-07-03 12:16:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pydantic-loggings
+[2023-07-03 12:16:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: hyko-sdk
+[2023-07-03 12:16:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pix2text
+[2023-07-03 12:16:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: medsenger-api
+[2023-07-03 12:16:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: yxr-oi-cli
+[2023-07-03 12:16:54] WARNING root fetch - processPackages [yxr-oi-cli]: Skipping, unable to determine old version
+[2023-07-03 12:16:54] INFO root fetch - processPackages [yxr-oi-cli]: Start processing: cq-queryabolt
+[2023-07-03 12:16:54] INFO root fetch - main [MainThread]: End processing [yxr-oi-cli] error
+[2023-07-03 12:16:54] INFO root fetch - processPackages [hyko-sdk]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-03 12:16:54] INFO root fetch - processPackages [pydantic-loggings]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-07-03 12:16:54] INFO root fetch - processPackages [aloso]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-03 12:16:54] INFO root fetch - processPackages [pix2text]: New version: [0.2.3] Old Version: [0.2.2.1]
+[2023-07-03 12:16:54] INFO root fetch - processPackages [XoxoDay]: New version: [0.0.25] Old Version: [0.0.24]
+[2023-07-03 12:16:54] INFO root fetch - processPackages [dm-reverb-nightly]: New version: [0.9.0.dev20221207] Old Version: [0.9.0.dev20221206]
+[2023-07-03 12:16:54] WARNING root fetch - processPackages [ntml]: Skipping, unable to determine old version
+[2023-07-03 12:16:54] INFO root fetch - processPackages [ntml]: Start processing: banf
+[2023-07-03 12:16:54] INFO root fetch - main [MainThread]: End processing [ntml] error
+[2023-07-03 12:16:54] INFO root fetch - processPackages [medsenger-api]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-03 12:16:54] INFO root fetch - processPackages [inmanta-module-aws]: New version: [3.2.9] Old Version: [3.2.8]
+[2023-07-03 12:16:54] WARNING root fetch - processPackages [cq-queryabolt]: Skipping, unable to determine old version
+[2023-07-03 12:16:54] INFO root fetch - processPackages [cq-queryabolt]: Start processing: performancetest
+[2023-07-03 12:16:54] INFO root fetch - main [MainThread]: End processing [cq-queryabolt] error
+[2023-07-03 12:16:54] WARNING root fetch - processPackages [banf]: Skipping, unable to determine old version
+[2023-07-03 12:16:54] INFO root fetch - processPackages [banf]: Start processing: lokzzpylib
+[2023-07-03 12:16:54] INFO root fetch - main [MainThread]: End processing [banf] error
+[2023-07-03 12:16:54] INFO root fetch - processPackages [pydantic-loggings]: Downloading https://files.pythonhosted.org/packages/00/6d/b3c5e35de61c1cc3c2c95323db391828550e787fd30a54c046bc8ddbe3b1/pydantic-loggings-0.4.0.tar.gz
+[2023-07-03 12:16:54] INFO root fetch - processPackages [hyko-sdk]: Downloading https://files.pythonhosted.org/packages/f8/1b/02137db3d93571c0867cacae818eb8136e59f81d7b8eeee650eb74521728/hyko_sdk-0.1.8.tar.gz
+[2023-07-03 12:16:54] INFO root fetch - processPackages [dm-reverb-nightly]: Downloading https://files.pythonhosted.org/packages/b4/60/e92fdb2c772dd865b56f7c50bfc1c4bffe5431b4007700cd760900e7aaf2/dm_reverb_nightly-0.9.0.dev20221206-cp39-cp39-manylinux2014_x86_64.whl
+[2023-07-03 12:16:54] INFO root fetch - processPackages [XoxoDay]: Downloading https://files.pythonhosted.org/packages/96/88/bd198395692d21d93951ff67df197e0eba5c26622f76da518419e9b06474/XoxoDay-0.0.24.tar.gz
+[2023-07-03 12:16:54] INFO root fetch - processPackages [aloso]: Downloading https://files.pythonhosted.org/packages/50/9d/0ff14b1bc5f2263235cdcf24ed3d3350aa202844d04965c4926ec9b0c09b/aloso-0.0.8-py3-none-any.whl
+[2023-07-03 12:16:54] INFO root fetch - processPackages [lokzzpylib]: New version: [0.2.dev9] Old Version: [0.2.dev8]
+[2023-07-03 12:16:54] WARNING root fetch - processPackages [performancetest]: Skipping, unable to determine old version
+[2023-07-03 12:16:54] INFO root fetch - main [MainThread]: End processing [performancetest] error
+[2023-07-03 12:16:54] INFO root fetch - processPackages [pix2text]: Downloading https://files.pythonhosted.org/packages/03/1d/aae5c591903814f9e60fe78f459c51f50c90a7b404de3f8350f7a8d63927/pix2text-0.2.2.1.tar.gz
+[2023-07-03 12:16:54] INFO root fetch - processPackages [lokzzpylib]: Downloading https://files.pythonhosted.org/packages/e2/59/899dd08722b859f214b6eee5335384aa5e1bb485140945e6cb65257098a5/lokzzpylib-0.2.dev8.tar.gz
+[2023-07-03 12:16:54] INFO root fetch - processPackages [medsenger-api]: Downloading https://files.pythonhosted.org/packages/10/9d/f7b13ad5e8383a001014af80b53c81b80a73fdea5ca4268b557a703efd93/medsenger_api-0.1.8.tar.gz
+[2023-07-03 12:16:54] INFO root fetch - processPackages [inmanta-module-aws]: Downloading https://files.pythonhosted.org/packages/15/37/6d0284b901d64c84ea3cfcc1df08b24849ec774a884dc399e3b60327d8c5/inmanta_module_aws-3.2.8-py3-none-any.whl
+[2023-07-03 12:16:54] INFO root fetch - processPackages [hyko-sdk]: Downloading https://files.pythonhosted.org/packages/18/dd/0fc13fe8ada91f69ab17997d640fbdeff420217e7e2dc38f5e85178a4187/hyko_sdk-0.1.9.tar.gz
+[2023-07-03 12:16:54] INFO root fetch - processPackages [aloso]: Downloading https://files.pythonhosted.org/packages/8d/c7/4327030a3a76e4d5eb22fc9af6b920dd9d50887fe3bd59e743a9e7b1ac9d/aloso-0.0.9-py3-none-any.whl
+[2023-07-03 12:16:54] INFO root fetch - processPackages [pydantic-loggings]: Downloading https://files.pythonhosted.org/packages/11/c2/0319afd01a50e4900f15dfc10dc1f323d4b6995304ddaa4c39da967f6e1a/pydantic-loggings-0.5.0.tar.gz
+[2023-07-03 12:16:54] INFO root fetch - processPackages [XoxoDay]: Downloading https://files.pythonhosted.org/packages/b2/53/09218e02b16495eff1e5ba85c4db8165926500105e092305e7e66902ab54/XoxoDay-0.0.25.tar.gz
+[2023-07-03 12:16:55] INFO root fetch - processPackages [aloso]: executing diffoscope
+[2023-07-03 12:16:55] INFO root fetch - processPackages [aloso]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aloso-0.0.8-py3-none-any.whl.zip tmp/aloso-0.0.9-py3-none-any.whl.zip --markdown 20230703/a/aloso/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-03 12:16:55] INFO root fetch - processPackages [hyko-sdk]: executing diffoscope
+[2023-07-03 12:16:55] INFO root fetch - processPackages [hyko-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyko_sdk-0.1.8.tar.gz tmp/hyko_sdk-0.1.9.tar.gz --markdown 20230703/h/hyko-sdk/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-03 12:16:55] INFO root fetch - processPackages [dm-reverb-nightly]: Downloading https://files.pythonhosted.org/packages/07/ba/e9ef4e61b606a17814023d4b0a99ebf04f48787449f89134eb770db70591/dm_reverb_nightly-0.9.0.dev20221207-cp39-cp39-manylinux2014_x86_64.whl
+[2023-07-03 12:16:55] INFO root fetch - processPackages [lokzzpylib]: Downloading https://files.pythonhosted.org/packages/d3/9b/e4bbf15840f86c58df052ec37f778b6563255557c0f8edc61797a91a6dcf/lokzzpylib-0.2.dev9.tar.gz
+[2023-07-03 12:16:55] INFO root fetch - processPackages [pydantic-loggings]: executing diffoscope
+[2023-07-03 12:16:55] INFO root fetch - processPackages [pydantic-loggings]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydantic-loggings-0.4.0.tar.gz tmp/pydantic-loggings-0.5.0.tar.gz --markdown 20230703/p/pydantic-loggings/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-07-03 12:16:55] INFO root fetch - processPackages [XoxoDay]: executing diffoscope
+[2023-07-03 12:16:55] INFO root fetch - processPackages [XoxoDay]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/XoxoDay-0.0.24.tar.gz tmp/XoxoDay-0.0.25.tar.gz --markdown 20230703/X/XoxoDay/0.0.24-0.0.25/diff.md --exclude *.pyd
+[2023-07-03 12:16:55] INFO root fetch - processPackages [pix2text]: Downloading https://files.pythonhosted.org/packages/d9/5f/aa7b14723dc3bab3128e9585e999bf8b9a0d7e713534a2965f90a46859e4/pix2text-0.2.3.tar.gz
+[2023-07-03 12:16:55] INFO root fetch - processPackages [medsenger-api]: Downloading https://files.pythonhosted.org/packages/e9/26/e1fbb78bfd4a0de98e7c9b2573d47a63aa0aa5bcf1942047b2e443591ac7/medsenger_api-0.1.9.tar.gz
+[2023-07-03 12:16:55] INFO root fetch - processPackages [inmanta-module-aws]: Downloading https://files.pythonhosted.org/packages/f0/9a/b471de414c787f009b64851cd654e12d6fbb9d1410943689c7ac3f23ce72/inmanta_module_aws-3.2.9-py3-none-any.whl
+[2023-07-03 12:16:55] INFO root fetch - processPackages [dm-reverb-nightly]: executing diffoscope
+[2023-07-03 12:16:55] INFO root fetch - processPackages [dm-reverb-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dm_reverb_nightly-0.9.0.dev20221206-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/dm_reverb_nightly-0.9.0.dev20221207-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20230703/d/dm-reverb-nightly/0.9.0.dev20221206-0.9.0.dev20221207/diff.md --exclude *.pyd
+[2023-07-03 12:16:55] INFO root fetch - processPackages [lokzzpylib]: executing diffoscope
+[2023-07-03 12:16:55] INFO root fetch - processPackages [lokzzpylib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lokzzpylib-0.2.dev8.tar.gz tmp/lokzzpylib-0.2.dev9.tar.gz --markdown 20230703/l/lokzzpylib/0.2.dev8-0.2.dev9/diff.md --exclude *.pyd
+[2023-07-03 12:16:55] INFO root fetch - processPackages [pix2text]: executing diffoscope
+[2023-07-03 12:16:55] INFO root fetch - processPackages [pix2text]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pix2text-0.2.2.1.tar.gz tmp/pix2text-0.2.3.tar.gz --markdown 20230703/p/pix2text/0.2.2.1-0.2.3/diff.md --exclude *.pyd
+[2023-07-03 12:16:55] INFO root fetch - processPackages [medsenger-api]: executing diffoscope
+[2023-07-03 12:16:55] INFO root fetch - processPackages [medsenger-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/medsenger_api-0.1.8.tar.gz tmp/medsenger_api-0.1.9.tar.gz --markdown 20230703/m/medsenger-api/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-03 12:16:55] INFO root fetch - processPackages [inmanta-module-aws]: executing diffoscope
+[2023-07-03 12:16:55] INFO root fetch - processPackages [inmanta-module-aws]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230703:/home/abi/fetcher/20230703:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inmanta_module_aws-3.2.8-py3-none-any.whl.zip tmp/inmanta_module_aws-3.2.9-py3-none-any.whl.zip --markdown 20230703/i/inmanta-module-aws/3.2.8-3.2.9/diff.md --exclude *.pyd
+[2023-07-03 12:16:56] INFO root fetch - processPackages [hyko-sdk]: Remove: archive file [/home/abi/fetcher/tmp/hyko_sdk-0.1.8.tar.gz]
+[2023-07-03 12:16:56] INFO root fetch - processPackages [hyko-sdk]: Remove: archive file [/home/abi/fetcher/tmp/hyko_sdk-0.1.9.tar.gz]
+[2023-07-03 12:16:56] INFO root fetch - main [MainThread]: End processing [hyko-sdk]: success
+[2023-07-03 12:16:56] INFO root fetch - processPackages [XoxoDay]: Remove: archive file [/home/abi/fetcher/tmp/XoxoDay-0.0.24.tar.gz]
+[2023-07-03 12:16:56] INFO root fetch - processPackages [XoxoDay]: Remove: archive file [/home/abi/fetcher/tmp/XoxoDay-0.0.25.tar.gz]
+[2023-07-03 12:16:56] INFO root fetch - main [MainThread]: End processing [XoxoDay]: success
+[2023-07-03 12:16:56] INFO root fetch - processPackages [medsenger-api]: Remove: archive file [/home/abi/fetcher/tmp/medsenger_api-0.1.8.tar.gz]
+[2023-07-03 12:16:56] INFO root fetch - processPackages [medsenger-api]: Remove: archive file [/home/abi/fetcher/tmp/medsenger_api-0.1.9.tar.gz]
+[2023-07-03 12:16:56] INFO root fetch - main [MainThread]: End processing [medsenger-api]: success
+[2023-07-03 12:16:56] INFO root fetch - processPackages [pydantic-loggings]: Remove: archive file [/home/abi/fetcher/tmp/pydantic-loggings-0.4.0.tar.gz]
+[2023-07-03 12:16:56] INFO root fetch - processPackages [pydantic-loggings]: Remove: archive file [/home/abi/fetcher/tmp/pydantic-loggings-0.5.0.tar.gz]
+[2023-07-03 12:16:56] INFO root fetch - main [MainThread]: End processing [pydantic-loggings]: success
+[2023-07-03 12:16:56] INFO root fetch - processPackages [aloso]: Remove: archive file [/home/abi/fetcher/tmp/aloso-0.0.8-py3-none-any.whl.zip]
+[2023-07-03 12:16:56] INFO root fetch - processPackages [aloso]: Remove: archive file [/home/abi/fetcher/tmp/aloso-0.0.9-py3-none-any.whl.zip]
+[2023-07-03 12:16:56] INFO root fetch - main [MainThread]: End processing [aloso]: success
+[2023-07-03 12:16:56] INFO root fetch - processPackages [lokzzpylib]: Remove: archive file [/home/abi/fetcher/tmp/lokzzpylib-0.2.dev8.tar.gz]
+[2023-07-03 12:16:56] INFO root fetch - processPackages [lokzzpylib]: Remove: archive file [/home/abi/fetcher/tmp/lokzzpylib-0.2.dev9.tar.gz]
+[2023-07-03 12:16:56] INFO root fetch - main [MainThread]: End processing [lokzzpylib]: success
+[2023-07-03 12:16:56] INFO root fetch - processPackages [pix2text]: Remove: archive file [/home/abi/fetcher/tmp/pix2text-0.2.2.1.tar.gz]
+[2023-07-03 12:16:56] INFO root fetch - processPackages [pix2text]: Remove: archive file [/home/abi/fetcher/tmp/pix2text-0.2.3.tar.gz]
+[2023-07-03 12:16:56] INFO root fetch - main [MainThread]: End processing [pix2text]: success
+[2023-07-03 12:16:56] INFO root fetch - processPackages [inmanta-module-aws]: Remove: archive file [/home/abi/fetcher/tmp/inmanta_module_aws-3.2.8-py3-none-any.whl.zip]
+[2023-07-03 12:16:56] INFO root fetch - processPackages [inmanta-module-aws]: Remove: archive file [/home/abi/fetcher/tmp/inmanta_module_aws-3.2.9-py3-none-any.whl.zip]
+[2023-07-03 12:16:56] INFO root fetch - main [MainThread]: End processing [inmanta-module-aws]: success
+[2023-07-03 12:17:28] INFO root fetch - processPackages [dm-reverb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/dm_reverb_nightly-0.9.0.dev20221206-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2023-07-03 12:17:28] INFO root fetch - processPackages [dm-reverb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/dm_reverb_nightly-0.9.0.dev20221207-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2023-07-03 12:17:28] INFO root fetch - main [MainThread]: End processing [dm-reverb-nightly]: success
+[2023-07-03 12:17:28] INFO root fetch - main [MainThread]: Store serial: [18737501]
