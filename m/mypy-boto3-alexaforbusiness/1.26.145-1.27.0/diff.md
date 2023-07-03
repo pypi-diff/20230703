@@ -1,0 +1,423 @@
+# Comparing `tmp/mypy-boto3-alexaforbusiness-1.26.145.tar.gz` & `tmp/mypy-boto3-alexaforbusiness-1.27.0.tar.gz`
+
+## filetype from file(1)
+
+```diff
+@@ -1 +1 @@
+-gzip compressed data, was "mypy-boto3-alexaforbusiness-1.26.145.tar", last modified: Thu Jun  1 19:32:38 2023, max compression
++gzip compressed data, was "mypy-boto3-alexaforbusiness-1.27.0.tar", last modified: Mon Jul  3 19:50:17 2023, max compression
+```
+
+## Comparing `mypy-boto3-alexaforbusiness-1.26.145.tar` & `mypy-boto3-alexaforbusiness-1.27.0.tar`
+
+### file list
+
+```diff
+@@ -1,27 +1,27 @@
+-drwxr-xr-x   0 runner    (1001) docker     (123)        0 2023-06-01 19:32:38.630084 mypy-boto3-alexaforbusiness-1.26.145/
+--rw-r--r--   0 runner    (1001) docker     (123)     1070 2023-06-01 19:31:50.000000 mypy-boto3-alexaforbusiness-1.26.145/LICENSE
+--rw-r--r--   0 runner    (1001) docker     (123)    24255 2023-06-01 19:32:38.630084 mypy-boto3-alexaforbusiness-1.26.145/PKG-INFO
+--rw-r--r--   0 runner    (1001) docker     (123)    22730 2023-06-01 19:31:50.000000 mypy-boto3-alexaforbusiness-1.26.145/README.md
+-drwxr-xr-x   0 runner    (1001) docker     (123)        0 2023-06-01 19:32:38.626083 mypy-boto3-alexaforbusiness-1.26.145/mypy_boto3_alexaforbusiness/
+--rw-r--r--   0 runner    (1001) docker     (123)     3262 2023-06-01 19:31:50.000000 mypy-boto3-alexaforbusiness-1.26.145/mypy_boto3_alexaforbusiness/__init__.py
+--rw-r--r--   0 runner    (1001) docker     (123)     3261 2023-06-01 19:31:50.000000 mypy-boto3-alexaforbusiness-1.26.145/mypy_boto3_alexaforbusiness/__init__.pyi
+--rw-r--r--   0 runner    (1001) docker     (123)      946 2023-06-01 19:31:50.000000 mypy-boto3-alexaforbusiness-1.26.145/mypy_boto3_alexaforbusiness/__main__.py
+--rw-r--r--   0 runner    (1001) docker     (123)    67440 2023-06-01 19:31:50.000000 mypy-boto3-alexaforbusiness-1.26.145/mypy_boto3_alexaforbusiness/client.py
+--rw-r--r--   0 runner    (1001) docker     (123)    67327 2023-06-01 19:31:50.000000 mypy-boto3-alexaforbusiness-1.26.145/mypy_boto3_alexaforbusiness/client.pyi
+--rw-r--r--   0 runner    (1001) docker     (123)    12472 2023-06-01 19:31:51.000000 mypy-boto3-alexaforbusiness-1.26.145/mypy_boto3_alexaforbusiness/literals.py
+--rw-r--r--   0 runner    (1001) docker     (123)    12470 2023-06-01 19:31:50.000000 mypy-boto3-alexaforbusiness-1.26.145/mypy_boto3_alexaforbusiness/literals.pyi
+--rw-r--r--   0 runner    (1001) docker     (123)    16333 2023-06-01 19:31:50.000000 mypy-boto3-alexaforbusiness-1.26.145/mypy_boto3_alexaforbusiness/paginator.py
+--rw-r--r--   0 runner    (1001) docker     (123)    16318 2023-06-01 19:31:50.000000 mypy-boto3-alexaforbusiness-1.26.145/mypy_boto3_alexaforbusiness/paginator.pyi
+--rw-r--r--   0 runner    (1001) docker     (123)        0 2023-06-01 19:31:50.000000 mypy-boto3-alexaforbusiness-1.26.145/mypy_boto3_alexaforbusiness/py.typed
+--rw-r--r--   0 runner    (1001) docker     (123)    71403 2023-06-01 19:31:52.000000 mypy-boto3-alexaforbusiness-1.26.145/mypy_boto3_alexaforbusiness/type_defs.py
+--rw-r--r--   0 runner    (1001) docker     (123)    71328 2023-06-01 19:31:52.000000 mypy-boto3-alexaforbusiness-1.26.145/mypy_boto3_alexaforbusiness/type_defs.pyi
+--rw-r--r--   0 runner    (1001) docker     (123)       62 2023-06-01 19:31:50.000000 mypy-boto3-alexaforbusiness-1.26.145/mypy_boto3_alexaforbusiness/version.py
+-drwxr-xr-x   0 runner    (1001) docker     (123)        0 2023-06-01 19:32:38.630084 mypy-boto3-alexaforbusiness-1.26.145/mypy_boto3_alexaforbusiness.egg-info/
+--rw-r--r--   0 runner    (1001) docker     (123)    24255 2023-06-01 19:32:38.000000 mypy-boto3-alexaforbusiness-1.26.145/mypy_boto3_alexaforbusiness.egg-info/PKG-INFO
+--rw-r--r--   0 runner    (1001) docker     (123)      851 2023-06-01 19:32:38.000000 mypy-boto3-alexaforbusiness-1.26.145/mypy_boto3_alexaforbusiness.egg-info/SOURCES.txt
+--rw-r--r--   0 runner    (1001) docker     (123)        1 2023-06-01 19:32:38.000000 mypy-boto3-alexaforbusiness-1.26.145/mypy_boto3_alexaforbusiness.egg-info/dependency_links.txt
+--rw-r--r--   0 runner    (1001) docker     (123)        1 2023-06-01 19:32:38.000000 mypy-boto3-alexaforbusiness-1.26.145/mypy_boto3_alexaforbusiness.egg-info/not-zip-safe
+--rw-r--r--   0 runner    (1001) docker     (123)       52 2023-06-01 19:32:38.000000 mypy-boto3-alexaforbusiness-1.26.145/mypy_boto3_alexaforbusiness.egg-info/requires.txt
+--rw-r--r--   0 runner    (1001) docker     (123)       28 2023-06-01 19:32:38.000000 mypy-boto3-alexaforbusiness-1.26.145/mypy_boto3_alexaforbusiness.egg-info/top_level.txt
+--rw-r--r--   0 runner    (1001) docker     (123)       38 2023-06-01 19:32:38.630084 mypy-boto3-alexaforbusiness-1.26.145/setup.cfg
+--rw-r--r--   0 runner    (1001) docker     (123)     2061 2023-06-01 19:31:50.000000 mypy-boto3-alexaforbusiness-1.26.145/setup.py
++drwxr-xr-x   0 runner    (1001) docker     (123)        0 2023-07-03 19:50:17.746734 mypy-boto3-alexaforbusiness-1.27.0/
++-rw-r--r--   0 runner    (1001) docker     (123)     1070 2023-07-03 19:32:01.000000 mypy-boto3-alexaforbusiness-1.27.0/LICENSE
++-rw-r--r--   0 runner    (1001) docker     (123)    24249 2023-07-03 19:50:17.746734 mypy-boto3-alexaforbusiness-1.27.0/PKG-INFO
++-rw-r--r--   0 runner    (1001) docker     (123)    22728 2023-07-03 19:32:01.000000 mypy-boto3-alexaforbusiness-1.27.0/README.md
++drwxr-xr-x   0 runner    (1001) docker     (123)        0 2023-07-03 19:50:17.746734 mypy-boto3-alexaforbusiness-1.27.0/mypy_boto3_alexaforbusiness/
++-rw-r--r--   0 runner    (1001) docker     (123)     3262 2023-07-03 19:32:01.000000 mypy-boto3-alexaforbusiness-1.27.0/mypy_boto3_alexaforbusiness/__init__.py
++-rw-r--r--   0 runner    (1001) docker     (123)     3261 2023-07-03 19:32:01.000000 mypy-boto3-alexaforbusiness-1.27.0/mypy_boto3_alexaforbusiness/__init__.pyi
++-rw-r--r--   0 runner    (1001) docker     (123)      940 2023-07-03 19:32:01.000000 mypy-boto3-alexaforbusiness-1.27.0/mypy_boto3_alexaforbusiness/__main__.py
++-rw-r--r--   0 runner    (1001) docker     (123)    67440 2023-07-03 19:32:01.000000 mypy-boto3-alexaforbusiness-1.27.0/mypy_boto3_alexaforbusiness/client.py
++-rw-r--r--   0 runner    (1001) docker     (123)    67327 2023-07-03 19:32:01.000000 mypy-boto3-alexaforbusiness-1.27.0/mypy_boto3_alexaforbusiness/client.pyi
++-rw-r--r--   0 runner    (1001) docker     (123)    12602 2023-07-03 19:32:01.000000 mypy-boto3-alexaforbusiness-1.27.0/mypy_boto3_alexaforbusiness/literals.py
++-rw-r--r--   0 runner    (1001) docker     (123)    12600 2023-07-03 19:32:01.000000 mypy-boto3-alexaforbusiness-1.27.0/mypy_boto3_alexaforbusiness/literals.pyi
++-rw-r--r--   0 runner    (1001) docker     (123)    16333 2023-07-03 19:32:01.000000 mypy-boto3-alexaforbusiness-1.27.0/mypy_boto3_alexaforbusiness/paginator.py
++-rw-r--r--   0 runner    (1001) docker     (123)    16318 2023-07-03 19:32:01.000000 mypy-boto3-alexaforbusiness-1.27.0/mypy_boto3_alexaforbusiness/paginator.pyi
++-rw-r--r--   0 runner    (1001) docker     (123)        0 2023-07-03 19:32:01.000000 mypy-boto3-alexaforbusiness-1.27.0/mypy_boto3_alexaforbusiness/py.typed
++-rw-r--r--   0 runner    (1001) docker     (123)    71403 2023-07-03 19:32:03.000000 mypy-boto3-alexaforbusiness-1.27.0/mypy_boto3_alexaforbusiness/type_defs.py
++-rw-r--r--   0 runner    (1001) docker     (123)    71328 2023-07-03 19:32:03.000000 mypy-boto3-alexaforbusiness-1.27.0/mypy_boto3_alexaforbusiness/type_defs.pyi
++-rw-r--r--   0 runner    (1001) docker     (123)       60 2023-07-03 19:32:01.000000 mypy-boto3-alexaforbusiness-1.27.0/mypy_boto3_alexaforbusiness/version.py
++drwxr-xr-x   0 runner    (1001) docker     (123)        0 2023-07-03 19:50:17.746734 mypy-boto3-alexaforbusiness-1.27.0/mypy_boto3_alexaforbusiness.egg-info/
++-rw-r--r--   0 runner    (1001) docker     (123)    24249 2023-07-03 19:50:17.000000 mypy-boto3-alexaforbusiness-1.27.0/mypy_boto3_alexaforbusiness.egg-info/PKG-INFO
++-rw-r--r--   0 runner    (1001) docker     (123)      851 2023-07-03 19:50:17.000000 mypy-boto3-alexaforbusiness-1.27.0/mypy_boto3_alexaforbusiness.egg-info/SOURCES.txt
++-rw-r--r--   0 runner    (1001) docker     (123)        1 2023-07-03 19:50:17.000000 mypy-boto3-alexaforbusiness-1.27.0/mypy_boto3_alexaforbusiness.egg-info/dependency_links.txt
++-rw-r--r--   0 runner    (1001) docker     (123)        1 2023-07-03 19:50:17.000000 mypy-boto3-alexaforbusiness-1.27.0/mypy_boto3_alexaforbusiness.egg-info/not-zip-safe
++-rw-r--r--   0 runner    (1001) docker     (123)       52 2023-07-03 19:50:17.000000 mypy-boto3-alexaforbusiness-1.27.0/mypy_boto3_alexaforbusiness.egg-info/requires.txt
++-rw-r--r--   0 runner    (1001) docker     (123)       28 2023-07-03 19:50:17.000000 mypy-boto3-alexaforbusiness-1.27.0/mypy_boto3_alexaforbusiness.egg-info/top_level.txt
++-rw-r--r--   0 runner    (1001) docker     (123)       38 2023-07-03 19:50:17.746734 mypy-boto3-alexaforbusiness-1.27.0/setup.cfg
++-rw-r--r--   0 runner    (1001) docker     (123)     2057 2023-07-03 19:32:00.000000 mypy-boto3-alexaforbusiness-1.27.0/setup.py
+```
+
+### Comparing `mypy-boto3-alexaforbusiness-1.26.145/LICENSE` & `mypy-boto3-alexaforbusiness-1.27.0/LICENSE`
+
+ * *Files identical despite different names*
+
+### Comparing `mypy-boto3-alexaforbusiness-1.26.145/PKG-INFO` & `mypy-boto3-alexaforbusiness-1.27.0/PKG-INFO`
+
+ * *Files 0% similar despite different names*
+
+```diff
+@@ -1,11 +1,11 @@
+ Metadata-Version: 2.1
+ Name: mypy-boto3-alexaforbusiness
+-Version: 1.26.145
+-Summary: Type annotations for boto3.AlexaForBusiness 1.26.145 service generated with mypy-boto3-builder 7.14.5
++Version: 1.27.0
++Summary: Type annotations for boto3.AlexaForBusiness 1.27.0 service generated with mypy-boto3-builder 7.14.5
+ Home-page: https://github.com/youtype/mypy_boto3_builder
+ Author: Vlad Emelianov
+ Author-email: vlad.emelianov.nz@gmail.com
+ License: MIT License
+ Project-URL: Documentation, https://youtype.github.io/boto3_stubs_docs/mypy_boto3_alexaforbusiness/
+ Project-URL: Source, https://github.com/youtype/mypy_boto3_builder
+ Project-URL: Tracker, https://github.com/youtype/mypy_boto3_builder/issues
+@@ -38,15 +38,15 @@
+ [![PyPI - Python Version](https://img.shields.io/pypi/pyversions/mypy-boto3-alexaforbusiness.svg?color=blue)](https://pypi.org/project/mypy-boto3-alexaforbusiness)
+ [![Docs](https://img.shields.io/readthedocs/boto3-stubs.svg?color=blue)](https://youtype.github.io/boto3_stubs_docs/mypy_boto3_alexaforbusiness/)
+ [![PyPI - Downloads](https://img.shields.io/pypi/dm/mypy-boto3-alexaforbusiness?color=blue)](https://pypistats.org/packages/mypy-boto3-alexaforbusiness)
+ 
+ ![boto3.typed](https://github.com/youtype/mypy_boto3_builder/raw/main/logo.png)
+ 
+ Type annotations for
+-[boto3.AlexaForBusiness 1.26.145](https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/alexaforbusiness.html#AlexaForBusiness)
++[boto3.AlexaForBusiness 1.27.0](https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/alexaforbusiness.html#AlexaForBusiness)
+ service compatible with [VSCode](https://code.visualstudio.com/),
+ [PyCharm](https://www.jetbrains.com/pycharm/),
+ [Emacs](https://www.gnu.org/software/emacs/),
+ [Sublime Text](https://www.sublimetext.com/),
+ [mypy](https://github.com/python/mypy),
+ [pyright](https://github.com/microsoft/pyright) and other tools.
+```
+
+### Comparing `mypy-boto3-alexaforbusiness-1.26.145/README.md` & `mypy-boto3-alexaforbusiness-1.27.0/README.md`
+
+ * *Files 0% similar despite different names*
+
+```diff
+@@ -6,15 +6,15 @@
+ [![PyPI - Python Version](https://img.shields.io/pypi/pyversions/mypy-boto3-alexaforbusiness.svg?color=blue)](https://pypi.org/project/mypy-boto3-alexaforbusiness)
+ [![Docs](https://img.shields.io/readthedocs/boto3-stubs.svg?color=blue)](https://youtype.github.io/boto3_stubs_docs/mypy_boto3_alexaforbusiness/)
+ [![PyPI - Downloads](https://img.shields.io/pypi/dm/mypy-boto3-alexaforbusiness?color=blue)](https://pypistats.org/packages/mypy-boto3-alexaforbusiness)
+ 
+ ![boto3.typed](https://github.com/youtype/mypy_boto3_builder/raw/main/logo.png)
+ 
+ Type annotations for
+-[boto3.AlexaForBusiness 1.26.145](https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/alexaforbusiness.html#AlexaForBusiness)
++[boto3.AlexaForBusiness 1.27.0](https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/alexaforbusiness.html#AlexaForBusiness)
+ service compatible with [VSCode](https://code.visualstudio.com/),
+ [PyCharm](https://www.jetbrains.com/pycharm/),
+ [Emacs](https://www.gnu.org/software/emacs/),
+ [Sublime Text](https://www.sublimetext.com/),
+ [mypy](https://github.com/python/mypy),
+ [pyright](https://github.com/microsoft/pyright) and other tools.
+```
+
+### Comparing `mypy-boto3-alexaforbusiness-1.26.145/mypy_boto3_alexaforbusiness/__init__.py` & `mypy-boto3-alexaforbusiness-1.27.0/mypy_boto3_alexaforbusiness/__init__.py`
+
+ * *Files identical despite different names*
+
+### Comparing `mypy-boto3-alexaforbusiness-1.26.145/mypy_boto3_alexaforbusiness/__init__.pyi` & `mypy-boto3-alexaforbusiness-1.27.0/mypy_boto3_alexaforbusiness/__init__.pyi`
+
+ * *Files identical despite different names*
+
+### Comparing `mypy-boto3-alexaforbusiness-1.26.145/mypy_boto3_alexaforbusiness/__main__.py` & `mypy-boto3-alexaforbusiness-1.27.0/mypy_boto3_alexaforbusiness/__main__.py`
+
+ * *Files 12% similar despite different names*
+
+```diff
+@@ -5,28 +5,28 @@
+ 
+ 
+ def print_info() -> None:
+     """
+     Print package info to stdout.
+     """
+     print(
+-        "Type annotations for boto3.AlexaForBusiness 1.26.145\nVersion:         1.26.145\nBuilder"
++        "Type annotations for boto3.AlexaForBusiness 1.27.0\nVersion:         1.27.0\nBuilder"
+         " version: 7.14.5\nDocs:           "
+         " https://youtype.github.io/boto3_stubs_docs/mypy_boto3_alexaforbusiness//\nBoto3 docs:    "
+         "  https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/alexaforbusiness.html#AlexaForBusiness\nOther"
+         " services:  https://pypi.org/project/boto3-stubs/\nChangelog:      "
+         " https://github.com/youtype/mypy_boto3_builder/releases"
+     )
+ 
+ 
+ def print_version() -> None:
+     """
+     Print package version to stdout.
+     """
+-    print("1.26.145")
++    print("1.27.0")
+ 
+ 
+ def main() -> None:
+     """
+     Main CLI entrypoint.
+     """
+     if "--version" in sys.argv:
+```
+
+### Comparing `mypy-boto3-alexaforbusiness-1.26.145/mypy_boto3_alexaforbusiness/client.py` & `mypy-boto3-alexaforbusiness-1.27.0/mypy_boto3_alexaforbusiness/client.py`
+
+ * *Files identical despite different names*
+
+### Comparing `mypy-boto3-alexaforbusiness-1.26.145/mypy_boto3_alexaforbusiness/client.pyi` & `mypy-boto3-alexaforbusiness-1.27.0/mypy_boto3_alexaforbusiness/client.pyi`
+
+ * *Files identical despite different names*
+
+### Comparing `mypy-boto3-alexaforbusiness-1.26.145/mypy_boto3_alexaforbusiness/literals.py` & `mypy-boto3-alexaforbusiness-1.27.0/mypy_boto3_alexaforbusiness/literals.py`
+
+ * *Files 2% similar despite different names*
+
+```diff
+@@ -157,14 +157,15 @@
+     "amplifybackend",
+     "amplifyuibuilder",
+     "apigateway",
+     "apigatewaymanagementapi",
+     "apigatewayv2",
+     "appconfig",
+     "appconfigdata",
++    "appfabric",
+     "appflow",
+     "appintegrations",
+     "application-autoscaling",
+     "application-insights",
+     "applicationcostprofiler",
+     "appmesh",
+     "apprunner",
+@@ -204,14 +205,15 @@
+     "cloudwatch",
+     "codeartifact",
+     "codebuild",
+     "codecatalyst",
+     "codecommit",
+     "codedeploy",
+     "codeguru-reviewer",
++    "codeguru-security",
+     "codeguruprofiler",
+     "codepipeline",
+     "codestar",
+     "codestar-connections",
+     "codestar-notifications",
+     "cognito-identity",
+     "cognito-idp",
+@@ -383,14 +385,16 @@
+     "opensearchserverless",
+     "opsworks",
+     "opsworkscm",
+     "organizations",
+     "osis",
+     "outposts",
+     "panorama",
++    "payment-cryptography",
++    "payment-cryptography-data",
+     "personalize",
+     "personalize-events",
+     "personalize-runtime",
+     "pi",
+     "pinpoint",
+     "pinpoint-email",
+     "pinpoint-sms-voice",
+@@ -474,14 +478,15 @@
+     "textract",
+     "timestream-query",
+     "timestream-write",
+     "tnb",
+     "transcribe",
+     "transfer",
+     "translate",
++    "verifiedpermissions",
+     "voice-id",
+     "vpc-lattice",
+     "waf",
+     "waf-regional",
+     "wafv2",
+     "wellarchitected",
+     "wisdom",
+```
+
+### Comparing `mypy-boto3-alexaforbusiness-1.26.145/mypy_boto3_alexaforbusiness/literals.pyi` & `mypy-boto3-alexaforbusiness-1.27.0/mypy_boto3_alexaforbusiness/literals.pyi`
+
+ * *Files 2% similar despite different names*
+
+```diff
+@@ -155,14 +155,15 @@
+     "amplifybackend",
+     "amplifyuibuilder",
+     "apigateway",
+     "apigatewaymanagementapi",
+     "apigatewayv2",
+     "appconfig",
+     "appconfigdata",
++    "appfabric",
+     "appflow",
+     "appintegrations",
+     "application-autoscaling",
+     "application-insights",
+     "applicationcostprofiler",
+     "appmesh",
+     "apprunner",
+@@ -202,14 +203,15 @@
+     "cloudwatch",
+     "codeartifact",
+     "codebuild",
+     "codecatalyst",
+     "codecommit",
+     "codedeploy",
+     "codeguru-reviewer",
++    "codeguru-security",
+     "codeguruprofiler",
+     "codepipeline",
+     "codestar",
+     "codestar-connections",
+     "codestar-notifications",
+     "cognito-identity",
+     "cognito-idp",
+@@ -381,14 +383,16 @@
+     "opensearchserverless",
+     "opsworks",
+     "opsworkscm",
+     "organizations",
+     "osis",
+     "outposts",
+     "panorama",
++    "payment-cryptography",
++    "payment-cryptography-data",
+     "personalize",
+     "personalize-events",
+     "personalize-runtime",
+     "pi",
+     "pinpoint",
+     "pinpoint-email",
+     "pinpoint-sms-voice",
+@@ -472,14 +476,15 @@
+     "textract",
+     "timestream-query",
+     "timestream-write",
+     "tnb",
+     "transcribe",
+     "transfer",
+     "translate",
++    "verifiedpermissions",
+     "voice-id",
+     "vpc-lattice",
+     "waf",
+     "waf-regional",
+     "wafv2",
+     "wellarchitected",
+     "wisdom",
+```
+
+### Comparing `mypy-boto3-alexaforbusiness-1.26.145/mypy_boto3_alexaforbusiness/paginator.py` & `mypy-boto3-alexaforbusiness-1.27.0/mypy_boto3_alexaforbusiness/paginator.py`
+
+ * *Files identical despite different names*
+
+### Comparing `mypy-boto3-alexaforbusiness-1.26.145/mypy_boto3_alexaforbusiness/paginator.pyi` & `mypy-boto3-alexaforbusiness-1.27.0/mypy_boto3_alexaforbusiness/paginator.pyi`
+
+ * *Files identical despite different names*
+
+### Comparing `mypy-boto3-alexaforbusiness-1.26.145/mypy_boto3_alexaforbusiness/type_defs.py` & `mypy-boto3-alexaforbusiness-1.27.0/mypy_boto3_alexaforbusiness/type_defs.py`
+
+ * *Files identical despite different names*
+
+### Comparing `mypy-boto3-alexaforbusiness-1.26.145/mypy_boto3_alexaforbusiness/type_defs.pyi` & `mypy-boto3-alexaforbusiness-1.27.0/mypy_boto3_alexaforbusiness/type_defs.pyi`
+
+ * *Files identical despite different names*
+
+### Comparing `mypy-boto3-alexaforbusiness-1.26.145/mypy_boto3_alexaforbusiness.egg-info/PKG-INFO` & `mypy-boto3-alexaforbusiness-1.27.0/mypy_boto3_alexaforbusiness.egg-info/PKG-INFO`
+
+ * *Files 0% similar despite different names*
+
+```diff
+@@ -1,11 +1,11 @@
+ Metadata-Version: 2.1
+ Name: mypy-boto3-alexaforbusiness
+-Version: 1.26.145
+-Summary: Type annotations for boto3.AlexaForBusiness 1.26.145 service generated with mypy-boto3-builder 7.14.5
++Version: 1.27.0
++Summary: Type annotations for boto3.AlexaForBusiness 1.27.0 service generated with mypy-boto3-builder 7.14.5
+ Home-page: https://github.com/youtype/mypy_boto3_builder
+ Author: Vlad Emelianov
+ Author-email: vlad.emelianov.nz@gmail.com
+ License: MIT License
+ Project-URL: Documentation, https://youtype.github.io/boto3_stubs_docs/mypy_boto3_alexaforbusiness/
+ Project-URL: Source, https://github.com/youtype/mypy_boto3_builder
+ Project-URL: Tracker, https://github.com/youtype/mypy_boto3_builder/issues
+@@ -38,15 +38,15 @@
+ [![PyPI - Python Version](https://img.shields.io/pypi/pyversions/mypy-boto3-alexaforbusiness.svg?color=blue)](https://pypi.org/project/mypy-boto3-alexaforbusiness)
+ [![Docs](https://img.shields.io/readthedocs/boto3-stubs.svg?color=blue)](https://youtype.github.io/boto3_stubs_docs/mypy_boto3_alexaforbusiness/)
+ [![PyPI - Downloads](https://img.shields.io/pypi/dm/mypy-boto3-alexaforbusiness?color=blue)](https://pypistats.org/packages/mypy-boto3-alexaforbusiness)
+ 
+ ![boto3.typed](https://github.com/youtype/mypy_boto3_builder/raw/main/logo.png)
+ 
+ Type annotations for
+-[boto3.AlexaForBusiness 1.26.145](https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/alexaforbusiness.html#AlexaForBusiness)
++[boto3.AlexaForBusiness 1.27.0](https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/alexaforbusiness.html#AlexaForBusiness)
+ service compatible with [VSCode](https://code.visualstudio.com/),
+ [PyCharm](https://www.jetbrains.com/pycharm/),
+ [Emacs](https://www.gnu.org/software/emacs/),
+ [Sublime Text](https://www.sublimetext.com/),
+ [mypy](https://github.com/python/mypy),
+ [pyright](https://github.com/microsoft/pyright) and other tools.
+```
+
+### Comparing `mypy-boto3-alexaforbusiness-1.26.145/mypy_boto3_alexaforbusiness.egg-info/SOURCES.txt` & `mypy-boto3-alexaforbusiness-1.27.0/mypy_boto3_alexaforbusiness.egg-info/SOURCES.txt`
+
+ * *Files identical despite different names*
+
+### Comparing `mypy-boto3-alexaforbusiness-1.26.145/setup.py` & `mypy-boto3-alexaforbusiness-1.27.0/setup.py`
+
+ * *Files 12% similar despite different names*
+
+```diff
+@@ -6,22 +6,22 @@
+ from setuptools import setup
+ 
+ LONG_DESCRIPTION = (Path(__file__).parent / "README.md").read_text()
+ 
+ 
+ setup(
+     name="mypy-boto3-alexaforbusiness",
+-    version="1.26.145",
++    version="1.27.0",
+     packages=["mypy_boto3_alexaforbusiness"],
+     url="https://github.com/youtype/mypy_boto3_builder",
+     license="MIT License",
+     author="Vlad Emelianov",
+     author_email="vlad.emelianov.nz@gmail.com",
+     description=(
+-        "Type annotations for boto3.AlexaForBusiness 1.26.145 service generated with"
++        "Type annotations for boto3.AlexaForBusiness 1.27.0 service generated with"
+         " mypy-boto3-builder 7.14.5"
+     ),
+     classifiers=[
+         "Development Status :: 5 - Production/Stable",
+         "Intended Audience :: Developers",
+         "Environment :: Console",
+         "License :: OSI Approved :: MIT License",
+```
+
